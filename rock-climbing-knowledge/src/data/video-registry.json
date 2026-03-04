@@ -1,0 +1,372 @@
+{
+  "_meta": {
+    "description": "Video Registry - Index of all video sources with timestamped knowledge point mappings",
+    "version": "1.0.0",
+    "updatedAt": "2026-03-01",
+    "schema": {
+      "id": "Unique video ID (format: platform-videoId, e.g. yt-o59qz4orcWs, bili-BV1W44y1y7nT)",
+      "platform": "youtube | bilibili | other",
+      "videoId": "Platform-specific video ID",
+      "url": "Full video URL",
+      "title": "{ zh, en } - Bilingual title",
+      "channel": "Channel/creator name",
+      "lang": "Primary language: zh | en",
+      "duration": "Total duration in seconds (approximate is OK)",
+      "segments": [
+        {
+          "kpId": "Knowledge point ID from kp-registry.json",
+          "start": "Start timestamp in seconds",
+          "end": "End timestamp in seconds (null if unknown)",
+          "relevance": "primary (main topic) | secondary (discussed) | mention (briefly referenced)",
+          "note": "{ zh, en } - Brief description of what this segment covers for this KP"
+        }
+      ]
+    }
+  },
+  "videos": [
+    {
+      "id": "yt-o59qz4orcWs",
+      "platform": "youtube",
+      "videoId": "o59qz4orcWs",
+      "url": "https://www.youtube.com/watch?v=o59qz4orcWs",
+      "title": { "zh": "Adam Ondra 教你如何正确捏握", "en": "Crimp Grips Tutorial: Crimp Like a Pro" },
+      "channel": "Adam Ondra",
+      "lang": "en",
+      "duration": null,
+      "segments": [
+        {
+          "kpId": "kp-crimp-hold",
+          "start": null,
+          "end": null,
+          "relevance": "primary",
+          "note": { "zh": "三种捏握方式详解：全捏握、半捏握、三指握", "en": "Three crimp types: open crimp, full crimp, three-finger grip" }
+        }
+      ]
+    },
+    {
+      "id": "yt-DxZbc6PJjHE",
+      "platform": "youtube",
+      "videoId": "DxZbc6PJjHE",
+      "url": "https://www.youtube.com/watch?v=DxZbc6PJjHE",
+      "title": { "zh": "攀岩分类详解", "en": "Trad, Sport, Free Solo, Aid, Bouldering Explained" },
+      "channel": "Vertizontal",
+      "lang": "en",
+      "duration": null,
+      "segments": [
+        {
+          "kpId": "kp-climbing-types",
+          "start": null,
+          "end": null,
+          "relevance": "primary",
+          "note": { "zh": "攀岩主要分类总览", "en": "Overview of major climbing disciplines" }
+        }
+      ]
+    },
+    {
+      "id": "yt-eFkfVMnlpIA",
+      "platform": "youtube",
+      "videoId": "eFkfVMnlpIA",
+      "url": "https://www.youtube.com/watch?v=eFkfVMnlpIA",
+      "title": { "zh": "抱石入门 101", "en": "Climbing 101: How to Boulder Indoors" },
+      "channel": "—",
+      "lang": "en",
+      "duration": null,
+      "segments": [
+        {
+          "kpId": "kp-climbing-types",
+          "start": null,
+          "end": null,
+          "relevance": "secondary",
+          "note": { "zh": "室内抱石入门指南", "en": "Indoor bouldering fundamentals" }
+        }
+      ]
+    },
+    {
+      "id": "bili-BV1W44y1y7nT",
+      "platform": "bilibili",
+      "videoId": "BV1W44y1y7nT",
+      "url": "https://www.bilibili.com/video/BV1W44y1y7nT/",
+      "title": { "zh": "指力板初中阶完整训练模板分享", "en": "Hangboard Training Template (Beginner to Intermediate)" },
+      "channel": "Jamin_Yan",
+      "lang": "zh",
+      "duration": null,
+      "segments": [
+        {
+          "kpId": "kp-hangboard-training",
+          "start": null,
+          "end": null,
+          "relevance": "primary",
+          "note": { "zh": "完整指力板训练计划及动作示范", "en": "Complete hangboard training plan with demonstrations" }
+        }
+      ]
+    },
+    {
+      "id": "bili-BV1FE411A7uR",
+      "platform": "bilibili",
+      "videoId": "BV1FE411A7uR",
+      "url": "https://www.bilibili.com/video/BV1FE411A7uR/",
+      "title": { "zh": "家用指力板选购安装训练详解", "en": "Home Hangboard: Selection, Installation & Training" },
+      "channel": "知岩片语",
+      "lang": "zh",
+      "duration": null,
+      "segments": [
+        {
+          "kpId": "kp-hangboard-training",
+          "start": null,
+          "end": null,
+          "relevance": "primary",
+          "note": { "zh": "指力板选购指南和家庭安装方法", "en": "Hangboard buying guide and home installation" }
+        }
+      ]
+    },
+    {
+      "id": "bili-BV1v64y1c78u",
+      "platform": "bilibili",
+      "videoId": "BV1v64y1c78u",
+      "url": "https://www.bilibili.com/video/BV1v64y1c78u/",
+      "title": { "zh": "攀岩动作与技巧—正身动作", "en": "Climbing Technique: Front-Facing Stance" },
+      "channel": "岩时攀岩",
+      "lang": "zh",
+      "duration": null,
+      "segments": [
+        {
+          "kpId": "kp-edging",
+          "start": null,
+          "end": null,
+          "relevance": "secondary",
+          "note": { "zh": "正面朝墙时的脚法和重心控制", "en": "Footwork and weight transfer in front-facing position" }
+        },
+        {
+          "kpId": "kp-center-of-gravity",
+          "start": null,
+          "end": null,
+          "relevance": "secondary",
+          "note": { "zh": "正身姿势中的重心管理", "en": "Center of gravity management in front-facing stance" }
+        }
+      ]
+    },
+    {
+      "id": "bili-BV1j5411Y7kQ",
+      "platform": "bilibili",
+      "videoId": "BV1j5411Y7kQ",
+      "url": "https://www.bilibili.com/video/BV1j5411Y7kQ/",
+      "title": { "zh": "先锋攀不敢冲坠？安全冲坠和保护教学", "en": "Overcome Lead Fall Fear: Safe Falling & Belay" },
+      "channel": "知岩片语",
+      "lang": "zh",
+      "duration": null,
+      "segments": [
+        {
+          "kpId": "kp-fear-of-falling",
+          "start": null,
+          "end": null,
+          "relevance": "primary",
+          "note": { "zh": "先锋攀冲坠恐惧的克服方法和安全冲坠技术", "en": "Overcoming lead fall fear with safe falling techniques" }
+        }
+      ]
+    },
+    {
+      "id": "bili-BV1ok4y127UL",
+      "platform": "bilibili",
+      "videoId": "BV1ok4y127UL",
+      "url": "https://www.bilibili.com/video/BV1ok4y127UL/",
+      "title": { "zh": "户外运动攀/传统攀装备10分钟全知道", "en": "All Climbing Gear Explained in 10 Minutes" },
+      "channel": "知岩片语",
+      "lang": "zh",
+      "duration": null,
+      "segments": [
+        {
+          "kpId": "kp-climbing-shoes",
+          "start": null,
+          "end": null,
+          "relevance": "secondary",
+          "note": { "zh": "攀岩鞋简介", "en": "Climbing shoes overview" }
+        },
+        {
+          "kpId": "kp-belay-devices",
+          "start": null,
+          "end": null,
+          "relevance": "secondary",
+          "note": { "zh": "保护器介绍", "en": "Belay devices introduction" }
+        }
+      ]
+    },
+    {
+      "id": "bili-BV1K64y117Bi",
+      "platform": "bilibili",
+      "videoId": "BV1K64y117Bi",
+      "url": "https://www.bilibili.com/video/BV1K64y117Bi/",
+      "title": { "zh": "机械塞和岩塞怎么用", "en": "How to Place Cams and Nuts" },
+      "channel": "知岩片语",
+      "lang": "zh",
+      "duration": null,
+      "segments": [
+        {
+          "kpId": "kp-cams",
+          "start": null,
+          "end": null,
+          "relevance": "primary",
+          "note": { "zh": "机械塞放置方法详解", "en": "Cam placement techniques" }
+        },
+        {
+          "kpId": "kp-nuts-hexes",
+          "start": null,
+          "end": null,
+          "relevance": "primary",
+          "note": { "zh": "岩塞放置方法详解", "en": "Nut placement techniques" }
+        }
+      ]
+    },
+    {
+      "id": "bili-BV1bx411y7y9",
+      "platform": "bilibili",
+      "videoId": "BV1bx411y7y9",
+      "url": "https://www.bilibili.com/video/BV1bx411y7y9/",
+      "title": { "zh": "一日一结—八字结教程", "en": "Essential Knots: Figure 8 Knot Tutorial" },
+      "channel": "—",
+      "lang": "zh",
+      "duration": null,
+      "segments": [
+        {
+          "kpId": "kp-essential-knots",
+          "start": null,
+          "end": null,
+          "relevance": "primary",
+          "note": { "zh": "八字结的打法教学", "en": "Figure 8 knot tying tutorial" }
+        }
+      ]
+    },
+    {
+      "id": "bili-BV1hY411E7S6",
+      "platform": "bilibili",
+      "videoId": "BV1hY411E7S6",
+      "url": "https://www.bilibili.com/video/BV1hY411E7S6/",
+      "title": { "zh": "一分钟绳结教程—双套结", "en": "Quick Knot Tutorial: Clove Hitch" },
+      "channel": "—",
+      "lang": "zh",
+      "duration": null,
+      "segments": [
+        {
+          "kpId": "kp-essential-knots",
+          "start": null,
+          "end": null,
+          "relevance": "primary",
+          "note": { "zh": "双套结打法教学", "en": "Clove hitch tying tutorial" }
+        }
+      ]
+    },
+    {
+      "id": "bili-BV1yX4y1w7SX",
+      "platform": "bilibili",
+      "videoId": "BV1yX4y1w7SX",
+      "url": "https://www.bilibili.com/video/BV1yX4y1w7SX/",
+      "title": { "zh": "Chris Sharma 先锋攀保护技术讲解", "en": "Lead Belay Techniques by Chris Sharma" },
+      "channel": "Petzl Sport (中文字幕)",
+      "lang": "zh",
+      "duration": null,
+      "segments": [
+        {
+          "kpId": "kp-lead-belaying",
+          "start": null,
+          "end": null,
+          "relevance": "primary",
+          "note": { "zh": "先锋攀保护技术全面讲解", "en": "Comprehensive lead belaying techniques" }
+        }
+      ]
+    },
+    {
+      "id": "bili-BV1dg4y1871t",
+      "platform": "bilibili",
+      "videoId": "BV1dg4y1871t",
+      "url": "https://www.bilibili.com/video/BV1dg4y1871t/",
+      "title": { "zh": "室内攀岩科普基础入门视频教程", "en": "Indoor Climbing Beginner Tutorial" },
+      "channel": "艾艾艾小艾",
+      "lang": "zh",
+      "duration": null,
+      "segments": [
+        {
+          "kpId": "kp-climbing-types",
+          "start": null,
+          "end": null,
+          "relevance": "secondary",
+          "note": { "zh": "室内攀岩分类与入门指导", "en": "Indoor climbing types and beginner guidance" }
+        }
+      ]
+    },
+    {
+      "id": "bili-BV1fZ4y1M7gc",
+      "platform": "bilibili",
+      "videoId": "BV1fZ4y1M7gc",
+      "url": "https://www.bilibili.com/video/BV1fZ4y1M7gc/",
+      "title": { "zh": "如何用指力板练爆发耐力", "en": "How to Train Power Endurance on Hangboard" },
+      "channel": "未來攀登",
+      "lang": "zh",
+      "duration": null,
+      "segments": [
+        {
+          "kpId": "kp-power-endurance",
+          "start": null,
+          "end": null,
+          "relevance": "primary",
+          "note": { "zh": "指力板爆发耐力训练方法", "en": "Power endurance training with hangboard" }
+        }
+      ]
+    },
+    {
+      "id": "yt-_XONhxQ-Gbk",
+      "platform": "youtube",
+      "videoId": "_XONhxQ-Gbk",
+      "url": "https://youtu.be/_XONhxQ-Gbk",
+      "title": { "zh": "攀岩者肩部热身", "en": "Simple Shoulder Warm-Up for Climbers" },
+      "channel": "Hooper's Beta",
+      "lang": "en",
+      "duration": null,
+      "segments": [
+        {
+          "kpId": "kp-warmup-protocol",
+          "start": null,
+          "end": null,
+          "relevance": "primary",
+          "note": { "zh": "攀岩前肩部热身动作详解", "en": "Pre-climbing shoulder warm-up routine" }
+        }
+      ]
+    },
+    {
+      "id": "yt-ecx75KwBCV8",
+      "platform": "youtube",
+      "videoId": "ecx75KwBCV8",
+      "url": "https://www.youtube.com/watch?v=ecx75KwBCV8",
+      "title": { "zh": "学习先锋攀", "en": "Learning to Lead" },
+      "channel": "Climbing Magazine",
+      "lang": "en",
+      "duration": null,
+      "segments": [
+        {
+          "kpId": "kp-lead-belaying",
+          "start": null,
+          "end": null,
+          "relevance": "secondary",
+          "note": { "zh": "先锋攀基础入门", "en": "Lead climbing fundamentals" }
+        }
+      ]
+    },
+    {
+      "id": "yt-VrLf6GwzLdo",
+      "platform": "youtube",
+      "videoId": "VrLf6GwzLdo",
+      "url": "https://www.youtube.com/watch?v=VrLf6GwzLdo",
+      "title": { "zh": "传统攀入门介绍", "en": "An Introduction to Trad Climbing" },
+      "channel": "Cotswold Outdoors",
+      "lang": "en",
+      "duration": null,
+      "segments": [
+        {
+          "kpId": "kp-trad-ethics",
+          "start": null,
+          "end": null,
+          "relevance": "secondary",
+          "note": { "zh": "传统攀总览", "en": "Trad climbing overview" }
+        }
+      ]
+    }
+  ]
+}

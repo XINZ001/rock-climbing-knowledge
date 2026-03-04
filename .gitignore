@@ -1,0 +1,17 @@
+# Node.js
+node_modules/
+.DS_Store
+
+# Gemini AI 的临时产物（大文件）
+Gemini AI/node_modules/
+Gemini AI/venv/
+Gemini AI/*.vtt
+
+# 快照目录（已经是备份，不需要再备份进 Git）
+content-snapshots/
+
+# 数据库文件
+*.db
+
+# Claude Code
+.claude/

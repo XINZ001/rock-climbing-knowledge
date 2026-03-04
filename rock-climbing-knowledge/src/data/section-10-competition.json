@@ -1,0 +1,400 @@
+{
+  "sectionId": "section-10",
+  "subSections": [
+    {
+      "id": "s10-formats",
+      "number": "10.1",
+      "slug": "formats",
+      "title": {
+        "zh": "竞赛形式",
+        "en": "Competition Formats"
+      },
+      "overview": {
+        "zh": "攀岩竞赛包含多种不同的比赛形式，每种形式考验不同的能力维度。从传统的先锋赛、速度赛和抱石赛三大单项，到为奥运会设计的全能赛，了解各种竞赛形式是参与攀岩竞技的基础。",
+        "en": "Climbing competitions encompass several distinct formats, each testing different ability dimensions. From the traditional lead, speed, and bouldering disciplines to the Olympic combined format, understanding competition formats is fundamental to competitive climbing."
+      },
+      "knowledgePoints": [
+        {
+          "id": "kp-lead-competition",
+          "title": {
+            "zh": "先锋赛形式",
+            "en": "Lead Competition Format"
+          },
+          "content": {
+            "zh": "先锋赛（Lead）是攀岩竞赛中历史最悠久的项目，考验选手在有限时间内攀爬尽可能高的能力。\n\n**比赛流程：** 先锋赛的路线高度通常为12-15米，难度从底部到顶部逐渐增加。选手在6分钟的限定时间内尝试先锋攀登路线。每位选手只有一次尝试机会——不允许坠落后重新开始。比赛采用隔离制度（isolation），选手在攀爬前不能观看其他选手的攀爬过程或路线信息。赛前通常有6分钟的集体观察时间，选手站在路线下方观察和讨论路线。\n\n**计分方式：** 成绩按照选手到达的最高点计算。路线上的每个手点都有一个编号，选手的成绩就是其控制（双手稳定抓握）的最高手点编号。如果选手在两个编号之间坠落，且已经触碰但未控制下一个手点，则在上一个手点编号后加「+」号表示。例如成绩「32+」表示选手控制了第32个手点，并且触碰了第33个手点但未能控制。如果多名选手到达相同高度，则通过用时较短者排名靠前来决定名次。\n\n**赛制结构：** 大型先锋赛通常分为资格赛（qualification）、半决赛（semi-final）和决赛（final）三轮。资格赛可能设置两条路线，取较好成绩。每轮的路线都不同，难度逐轮递增。决赛的路线是最难的，通常只有少数选手能够完攀（top）。",
+            "en": "Lead climbing competition is the oldest format, testing how high a climber can ascend within a time limit. Routes are typically 12-15 meters tall with increasing difficulty. Each climber gets one attempt within 6 minutes under isolation conditions, meaning they cannot watch others climb beforehand. A collective 6-minute observation period precedes climbing.\n\nScoring is based on the highest hold controlled (both hands stable). Touching but not controlling the next hold earns a \"+\" suffix. Ties are broken by faster completion time. Major competitions use a qualification-semifinal-final structure, with different and progressively harder routes in each round."
+          },
+          "terms": [
+            { "zh": "先锋赛", "en": "lead competition" },
+            { "zh": "隔离", "en": "isolation" },
+            { "zh": "观察时间", "en": "observation period" },
+            { "zh": "控制", "en": "controlled hold" },
+            { "zh": "完攀", "en": "top" }
+          ],
+          "crossRefs": ["kp-route-reading-basics", "kp-rest-management", "kp-fall-technique"],
+          "tags": ["beginner", "competition"]
+        },
+        {
+          "id": "kp-speed-competition",
+          "title": {
+            "zh": "速度赛形式",
+            "en": "Speed Competition Format"
+          },
+          "content": {
+            "zh": "速度赛（Speed）是攀岩竞赛中最直观和最具观赏性的项目，选手在标准化的路线上进行争分夺秒的速度对决。\n\n**路线标准：** 速度赛使用全球统一的标准路线——高度15米、角度5度仰角、手脚点的位置和类型完全固定。这意味着全世界所有速度赛使用的都是同一条路线。标准化使得选手可以反复练习同一套动作序列，将其优化到极致，同时也使不同比赛的成绩可以直接比较。目前男子世界纪录已经接近5秒以内，女子记录约6秒多。\n\n**比赛形式：** 速度赛采用双赛道并排淘汰制。两名选手在相邻的两条完全相同的路线上同时攀爬，先到达顶端并按下计时按钮者获胜。比赛分为资格赛和淘汰赛两个阶段。资格赛中每位选手进行两次计时攀爬，取最佳成绩排名。之后进入16强单淘汰赛，选手两两对决，失败者被淘汰，直到产生冠军。如果选手抢跑（false start）或坠落，则判负。\n\n**速度攀登特点：** 速度攀登与其他攀岩形式有本质区别。由于路线固定不变，选手需要将每一步动作精确到肌肉记忆级别。训练重点在于爆发力、反应速度和动作精确性，而非路线读线或适应新动作的能力。速度攀登的选手通常也从事短跑等田径训练来提升爆发力和起步速度。",
+            "en": "Speed climbing is the most visually spectacular competition format, featuring head-to-head races on a standardized route. The route is globally identical: 15 meters tall at a 5-degree overhang with fixed hold positions and types. Current world records approach sub-5 seconds for men and approximately 6 seconds for women.\n\nCompetition uses dual-lane elimination: two climbers race simultaneously on identical parallel routes, with the first to hit the top buzzer advancing. Qualification features two timed runs (best time counts), followed by a 16-person single-elimination bracket. False starts or falls result in a loss. Training focuses on explosive power, reaction time, and movement precision through muscle memory."
+          },
+          "terms": [
+            { "zh": "速度赛", "en": "speed competition" },
+            { "zh": "标准路线", "en": "standardized route" },
+            { "zh": "计时按钮", "en": "buzzer" },
+            { "zh": "抢跑", "en": "false start" },
+            { "zh": "淘汰赛", "en": "elimination bracket" }
+          ],
+          "crossRefs": ["kp-dyno-technique", "kp-campus-training", "kp-warmup"],
+          "tags": ["beginner", "competition"]
+        },
+        {
+          "id": "kp-boulder-competition",
+          "title": {
+            "zh": "抱石赛形式",
+            "en": "Bouldering Competition Format"
+          },
+          "content": {
+            "zh": "抱石赛（Bouldering）是近年来最受观众欢迎的竞赛形式，以其紧凑的节奏和高强度的动作展现了攀岩运动的力量与技巧。\n\n**比赛设置：** 抱石赛的每条线路（称为「问题」，problem）高度通常为4-5米，由定线员专门设计。每轮比赛设置4-5个问题，选手需要在规定时间内（通常每个问题4-5分钟）完成攀爬。每个问题设有一个「区域点」（zone）和一个「顶点」（top），分别位于路线的中段和顶端。选手需要双手同时控制zone点和top点才能获得相应分数。\n\n**计分系统：** 抱石赛的计分优先级为：首先比较完成的top数量（越多越好）；top数相同时比较zone数量；仍然相同则比较达到top的总尝试次数（越少越好）；最后比较达到zone的总尝试次数。例如，选手A的成绩为3T5z 5 7（3个top，5个zone，用了5次尝试达到top，7次尝试达到zone），选手B为3T4z 4 6，则A因为zone数更多而排名靠前。\n\n**赛制特点：** 抱石赛同样采用隔离制度。选手在攀爬前不能看到路线。赛前有短暂的集体观察时间。抱石赛的魅力在于其不可预测性——一个定线精妙的问题可能让大部分选手无法完成，而解锁关键动作的瞬间往往带来极具戏剧性的突破。定线员的创意在抱石赛中扮演着核心角色。",
+            "en": "Bouldering competition is the most popular spectator format, showcasing power and technique in compact, high-intensity problems. Each round features 4-5 problems, typically 4-5 meters tall, with 4-5 minutes per problem. Each problem has a zone hold (midway) and a top hold, both requiring dual-hand control.\n\nScoring prioritizes: (1) number of tops, (2) number of zones, (3) fewer attempts to reach tops, (4) fewer attempts to reach zones. For example, 3T5z 5/7 beats 2T5z 3/5 because more tops were achieved. Competitions use isolation; climbers cannot preview routes before their attempts. The format's appeal lies in its unpredictability and the dramatic breakthroughs when climbers unlock a crux sequence."
+          },
+          "terms": [
+            { "zh": "抱石赛", "en": "bouldering competition" },
+            { "zh": "问题", "en": "problem" },
+            { "zh": "区域点", "en": "zone" },
+            { "zh": "顶点", "en": "top" },
+            { "zh": "定线员", "en": "route setter" }
+          ],
+          "crossRefs": ["kp-dyno-technique", "kp-crimp-hold", "kp-toe-hook", "kp-route-reading-basics"],
+          "tags": ["beginner", "competition"]
+        },
+        {
+          "id": "kp-combined-olympic",
+          "title": {
+            "zh": "全能赛与奥运形式",
+            "en": "Combined and Olympic Format"
+          },
+          "content": {
+            "zh": "攀岩进入奥运会是这项运动发展史上的里程碑事件。奥运攀岩的赛制经历了从全能赛到分项赛的演变，反映了攀岩竞技的发展方向。\n\n**2020东京奥运会（全能赛）：** 攀岩首次亮相奥运会时采用全能赛（Combined）形式，每位选手需要参加先锋、速度和抱石三个项目，最终排名由三个项目名次的乘积决定（乘积越小越好）。例如，一位选手在速度赛排名第1、抱石赛第3、先锋赛第2，则综合得分为1 x 3 x 2 = 6。这种赛制意味着选手需要在三个项目中都保持竞争力，全面发展比单项突出更有优势。\n\n**2024巴黎奥运会（分项赛）：** 从巴黎奥运会开始，速度赛成为独立项目（有独立的金牌），而先锋和抱石合并为「两项全能」（Combined Lead + Boulder）。两项全能的计分方式更加复杂，综合先锋成绩和抱石成绩来确定最终排名。这种调整使速度赛选手和技巧型选手都能在更公平的环境中竞争。\n\n**赛制影响：** 奥运赛制对训练策略产生了深远影响。在全能赛时代，选手需要在速度、力量和耐力之间寻找平衡，这对训练规划提出了极大挑战。分项赛后，选手可以更专注于自己擅长的领域。奥运会的关注度也推动了攀岩运动在全球的普及，越来越多的国家开始发展竞技攀岩项目。",
+            "en": "Climbing's Olympic debut marked a historic milestone. At Tokyo 2020, the combined format required athletes to compete in lead, speed, and bouldering, with final ranking determined by multiplying placements across all three (lower product = better rank). This demanded well-rounded athletes.\n\nFrom Paris 2024, speed became a standalone medal event, while lead and bouldering merged into a two-discipline combined event. This allowed speed specialists and technical climbers to compete more fairly within their strengths. The Olympic platform has accelerated climbing's global growth and spurred competitive program development worldwide."
+          },
+          "terms": [
+            { "zh": "全能赛", "en": "combined competition" },
+            { "zh": "两项全能", "en": "boulder & lead combined" },
+            { "zh": "乘积排名", "en": "multiplication ranking" },
+            { "zh": "奥运攀岩", "en": "Olympic climbing" },
+            { "zh": "分项赛", "en": "individual discipline" }
+          ],
+          "crossRefs": ["kp-periodization", "kp-aerobic-endurance", "kp-campus-training"],
+          "tags": ["beginner", "competition"]
+        }
+      ]
+    },
+    {
+      "id": "s10-rules",
+      "number": "10.2",
+      "slug": "rules",
+      "title": {
+        "zh": "竞赛规则",
+        "en": "Competition Rules"
+      },
+      "overview": {
+        "zh": "攀岩竞赛有一套详细的规则体系，涵盖计分方式、隔离制度、时间限制和尝试次数等方面。了解这些规则不仅对参赛选手至关重要，也能帮助观众更好地欣赏比赛。",
+        "en": "Climbing competitions follow a detailed rule framework covering scoring systems, isolation procedures, time limits, and attempt regulations. Understanding these rules is essential for competitors and helps spectators appreciate the sport more deeply."
+      },
+      "knowledgePoints": [
+        {
+          "id": "kp-scoring-systems",
+          "title": {
+            "zh": "计分系统",
+            "en": "Scoring Systems"
+          },
+          "content": {
+            "zh": "攀岩竞赛的计分系统因项目不同而异，每种计分方式都经过精心设计，以公平反映选手的表现。\n\n**先锋赛计分：** 先锋赛以选手控制的最高手点位置为成绩。路线上的每个手点按从低到高编号（如1, 2, 3...40）。选手的成绩精确到手点编号，如果触碰了下一个手点但未控制，则在当前编号后加「+」。例如「35+」优于「35」但不如「36」。如果两名选手成绩相同，先完成的选手（用时更短者）排名靠前。在资格赛中若设有两条路线，则综合两条路线的排名来计算总排名。\n\n**抱石赛计分：** 2024年起IFSC启用了新的抱石计分系统。每个问题的top得25分，zone得5分。如果首次尝试就达到zone或top，有额外的奖励分。最终得分为所有问题得分之和。如果总分相同，则比较首次尝试成功的次数。这个新系统简化了之前较为复杂的乘积排名方式，让观众更容易理解比赛局势。\n\n**速度赛计分：** 速度赛的计分最为直观——以完成路线的时间为准，精确到千分之一秒。资格赛取两次攀爬的最佳成绩排名。淘汰赛阶段以胜负决定晋级。如果选手在攀爬中抢跑（在起步信号前开始移动），则判为犯规。坠落同样判负。如果双方同时犯规，则以资格赛排名较高者晋级。",
+            "en": "Scoring systems vary by discipline. In lead, scores correspond to the highest controlled hold number, with \"+\" for touching but not controlling the next hold (e.g., 35+ > 35 but < 36). Ties are broken by faster time.\n\nSince 2024, IFSC bouldering uses a points-based system: 25 points per top, 5 per zone, with bonuses for first-attempt successes. Total points determine ranking, with flash counts as tiebreakers. This replaced the older multiplication system for better spectator comprehension.\n\nSpeed scoring is the most straightforward: fastest time to the buzzer (to 0.001 seconds) wins. False starts and falls result in a loss. If both climbers fault, the higher-seeded qualifier advances."
+          },
+          "terms": [
+            { "zh": "控制手点", "en": "controlled hold" },
+            { "zh": "加号规则", "en": "plus rule" },
+            { "zh": "首攀奖励", "en": "flash bonus" },
+            { "zh": "千分之一秒", "en": "millisecond timing" },
+            { "zh": "犯规", "en": "foul / infraction" }
+          ],
+          "crossRefs": ["kp-route-reading-basics", "kp-projecting-strategy"],
+          "tags": ["beginner", "competition"]
+        },
+        {
+          "id": "kp-isolation-zone",
+          "title": {
+            "zh": "隔离区与比赛流程",
+            "en": "Isolation Zone and Procedures"
+          },
+          "content": {
+            "zh": "隔离制度是攀岩竞赛中最独特的规则之一，旨在确保每位选手在面对路线时拥有平等的信息条件。\n\n**隔离区规定：** 比赛前，所有选手必须在规定时间进入隔离区（Isolation Zone）。隔离区是一个封闭的区域，选手在其中等待比赛，不能接触外界信息——不能使用手机、不能观看其他选手的攀爬、不能接收来自教练或团队的路线信息。隔离区内通常提供热身墙面、基本的伸展空间和饮水设施。选手需要在隔离区内完成所有热身准备。\n\n**观察时间：** 在先锋赛和抱石赛中，选手在攀爬前有集体观察时间（observation period）。先锋赛的观察时间通常为6分钟，选手站在路线下方仰望观察路线，但不能触碰岩壁。抱石赛的观察时间可能是在进入攀爬区域前集体观察所有问题。在观察期间，选手可以互相讨论路线解法。有效利用观察时间——识别关键手脚点、规划动作序列、发现休息位置——是比赛策略的重要组成部分。\n\n**过渡区与出场：** 从隔离区到攀爬区域之间通常有一个过渡区（transit zone）。选手按照出场顺序被引导到过渡区，等待前一位选手完成后进入攀爬区域。进入攀爬区域后，选手有短暂的准备时间（通常40秒到1分钟）来调整装备和心态。一旦开始攀爬，时间计时开始。在整个过程中，选手必须遵守工作人员的指引，不遵守隔离规定可能导致取消比赛资格。",
+            "en": "The isolation system ensures equal information conditions for all competitors. Before competition, athletes must enter the isolation zone by a set time. Inside, they cannot use phones, watch other climbers, or receive route information. The zone provides warm-up walls, stretching space, and water.\n\nObservation periods (typically 6 minutes for lead) allow climbers to study routes from the ground without touching the wall. Bouldering observation may cover all problems collectively. Climbers can discuss beta during observation. The transit zone bridges isolation to the climbing area, with a brief preparation period (40-60 seconds) before timing begins. Violating isolation rules can result in disqualification."
+          },
+          "terms": [
+            { "zh": "隔离区", "en": "isolation zone" },
+            { "zh": "观察时间", "en": "observation period" },
+            { "zh": "过渡区", "en": "transit zone" },
+            { "zh": "出场顺序", "en": "start order" },
+            { "zh": "取消资格", "en": "disqualification" }
+          ],
+          "crossRefs": ["kp-warmup", "kp-route-reading-basics", "kp-fear-management"],
+          "tags": ["beginner", "competition"]
+        },
+        {
+          "id": "kp-time-limits-attempts",
+          "title": {
+            "zh": "时间限制与尝试规则",
+            "en": "Time Limits and Attempt Rules"
+          },
+          "content": {
+            "zh": "时间限制和尝试规则是攀岩竞赛策略的关键要素，选手需要在有限的时间和机会内做出最优决策。\n\n**先锋赛时间规则：** 先锋赛每位选手有6分钟的攀爬时间。时间从选手离开地面开始计算。6分钟到时，无论选手处于何处，成绩以最后控制的手点为准。如果选手在路线中途停留过久（未产生向上移动），裁判可能发出「加速」警告。选手只有一次攀爬机会，坠落后不能重新开始。\n\n**抱石赛时间规则：** 抱石赛每个问题的时间限制通常为4-5分钟。选手可以在这段时间内进行多次尝试。每次坠落后可以回到地面重新开始。时间管理至关重要——是应该不断快速尝试以增加成功概率，还是花时间思考和休息以保证每次尝试的质量？这取决于路线特点和选手的体力状况。通常建议前两次尝试后如果未成功，花30秒左右冷静思考一下再继续。\n\n**尝试记录与判定：** 所有尝试都由裁判记录和判定。在抱石赛中，一次「有效尝试」（attempt）的定义是选手双脚离开地面并控制了至少一个手点。仅仅触碰起步手点但双脚未离地不算尝试。在先锋赛中，裁判会判定选手是否合法使用了手点——如果选手使用了路线之外的岩壁特征（如岩壁边缘、其他路线的手点或保护装置），可能被视为技术犯规。选手对裁判判定有异议时，可以通过教练在规定时间内提出申诉（appeal）。",
+            "en": "Time and attempt rules shape competition strategy. Lead allows 6 minutes per climber (timed from leaving the ground), with one attempt only. A fall ends the attempt.\n\nBouldering allows 4-5 minutes per problem with unlimited attempts. Time management becomes tactical: rapid attempts maximize chances, while pausing to strategize improves attempt quality. A 30-second rest after two failed attempts is generally advisable.\n\nAn attempt in bouldering counts when both feet leave the ground with at least one hold controlled. In lead, using features outside the defined route may constitute a technical infraction. Climbers can file appeals through their coaches within a specified timeframe if they disagree with a judge's ruling."
+          },
+          "terms": [
+            { "zh": "有效尝试", "en": "valid attempt" },
+            { "zh": "技术犯规", "en": "technical infraction" },
+            { "zh": "申诉", "en": "appeal" },
+            { "zh": "攀爬时限", "en": "climbing time limit" },
+            { "zh": "裁判", "en": "judge / official" }
+          ],
+          "crossRefs": ["kp-rest-management", "kp-projecting-strategy", "kp-route-reading-basics"],
+          "tags": ["beginner", "competition"]
+        }
+      ]
+    },
+    {
+      "id": "s10-training",
+      "number": "10.3",
+      "slug": "training",
+      "title": {
+        "zh": "竞赛训练",
+        "en": "Competition Training"
+      },
+      "overview": {
+        "zh": "竞赛训练与日常攀岩训练有显著区别。竞赛训练需要模拟比赛环境、发展比赛特定能力，并在关键赛事前达到最佳竞技状态。科学的竞赛训练体系是取得优异比赛成绩的基础。",
+        "en": "Competition training differs significantly from regular climbing training. It requires simulating competition environments, developing competition-specific abilities, and reaching peak form before key events. A scientific competition training framework is the foundation for achieving excellent results."
+      },
+      "knowledgePoints": [
+        {
+          "id": "kp-comp-specific-training",
+          "title": {
+            "zh": "比赛专项训练",
+            "en": "Competition-Specific Training"
+          },
+          "content": {
+            "zh": "比赛专项训练的目标是让选手在比赛环境中发挥最佳水平。这不仅包括攀爬能力的提升，还包括比赛特定技能的训练。\n\n**onsight能力训练：** 在先锋赛和抱石赛中，选手面对的都是从未见过的路线。onsight能力（第一次尝试就成功完攀的能力）是比赛表现的核心。训练onsight能力需要大量攀爬新路线——每周至少安排2-3次onsight攀爬session，在不同的岩馆或不同的岩壁角度上攀爬新设置的路线。练习快速读线、识别关键动作、在攀爬过程中实时调整计划的能力。与同伴互相设路线供对方onsight也是有效的训练方法。\n\n**隔离热身训练：** 在比赛中，选手必须在隔离区的有限条件下完成热身。平时训练中应定期模拟隔离热身——使用简单的横移墙或较小的热身区域，在30-40分钟内完成从冷身到准备好应对高难度路线的全过程。建立一套个人标准化的热身流程，包括有氧热身、关节活动、渐进式攀爬和特定动作激活。\n\n**读线能力训练：** 高效的路线阅读是比赛中的关键竞争优势。训练方法包括：在观察路线时系统化地扫描（从底部到顶部，识别所有手脚点、休息位置和难点）；练习在有限时间内（6分钟）阅读复杂路线；互相分享路线解读来拓展思维方式。高水平选手能在观察时就在头脑中「攀爬」整条路线，模拟每一步动作。",
+            "en": "Competition-specific training aims to optimize performance under competition conditions. Onsight ability is central: schedule 2-3 onsight sessions weekly on freshly set routes across different wall angles and gyms. Practice rapid route reading, identifying crux moves, and real-time plan adjustment.\n\nRegularly simulate isolation warm-ups: use limited wall space to progress from cold to competition-ready within 30-40 minutes. Develop a standardized personal warm-up routine. Train route reading systematically: scan bottom-to-top identifying all holds, rests, and cruxes within the 6-minute observation window. Advanced climbers mentally rehearse the entire sequence during observation."
+          },
+          "terms": [
+            { "zh": "onsight能力", "en": "onsight ability" },
+            { "zh": "隔离热身", "en": "isolation warm-up" },
+            { "zh": "读线训练", "en": "route reading training" },
+            { "zh": "动作激活", "en": "movement activation" },
+            { "zh": "难点识别", "en": "crux identification" }
+          ],
+          "crossRefs": ["kp-route-reading-basics", "kp-warmup", "kp-projecting-strategy"],
+          "tags": ["intermediate", "competition", "training"]
+        },
+        {
+          "id": "kp-peaking",
+          "title": {
+            "zh": "竞技状态调整",
+            "en": "Peaking for Competition"
+          },
+          "content": {
+            "zh": "在关键比赛前将竞技状态调整到最佳，是竞赛训练中最关键也最具技术性的环节。「peaking」（达到竞技巅峰）需要精确的训练周期规划。\n\n**赛前减量（Taper）：** 比赛前1-2周应逐步减少训练量，同时保持或略微提高训练强度。这个过程称为减量（taper）。减量期间，训练量通常减少40-60%，但单次训练中仍然包含高强度的攀爬。减量的目的是让身体从累积的训练疲劳中恢复，同时保持神经肌肉系统的兴奋度。常见的减量策略是指数递减——第一周减少约30%训练量，比赛前几天再减少至正常的40-50%。\n\n**赛前一周安排：** 赛前7天的训练安排通常为：第7-5天进行中等强度的攀爬，包含少量难点尝试；第4-3天进行轻度攀爬，以技术练习和活动为主；第2天完全休息或仅做非常轻度的活动；第1天（赛前一天）可以进行一次短暂的激活训练——几条中等难度的路线和一些动态热身，不超过30分钟。比赛当天的热身应严格按照已经练习过的标准流程执行。\n\n**心理准备：** 赛前的心理状态同样需要调整。在减量期间，训练量的减少可能让选手感到焦虑（「我训练不够怎么办？」），需要信任减量计划的科学性。利用赛前时间进行心理训练——意象化（visualization）比赛场景、练习注意力集中技巧、回忆过去成功的比赛体验来建立自信。保持正常的生活作息和饮食习惯，避免赛前做出重大改变。",
+            "en": "Peaking for key competitions requires precise periodization. The taper period (1-2 weeks before competition) reduces training volume by 40-60% while maintaining or slightly increasing intensity. This allows recovery from accumulated fatigue while keeping the neuromuscular system sharp. An exponential taper is common: ~30% volume reduction in the first week, down to 40-50% of normal in the final days.\n\nA typical final week: days 7-5 moderate climbing with limited hard attempts; days 4-3 light technical climbing; day 2 complete rest; day 1 a brief 30-minute activation session. Competition-day warm-up follows the practiced standard routine. Mental preparation during the taper includes visualization of competition scenarios, attention-focus techniques, and recalling past successes to build confidence."
+          },
+          "terms": [
+            { "zh": "竞技巅峰", "en": "peaking" },
+            { "zh": "赛前减量", "en": "taper" },
+            { "zh": "激活训练", "en": "activation session" },
+            { "zh": "训练周期", "en": "training cycle" },
+            { "zh": "意象化", "en": "visualization" }
+          ],
+          "crossRefs": ["kp-periodization", "kp-rest-management", "kp-warmup"],
+          "tags": ["advanced", "competition", "training"]
+        },
+        {
+          "id": "kp-comp-simulation",
+          "title": {
+            "zh": "模拟比赛训练",
+            "en": "Competition Simulation"
+          },
+          "content": {
+            "zh": "模拟比赛是将训练成果转化为比赛表现的桥梁。在训练中尽可能真实地还原比赛条件，可以帮助选手在实际比赛中更加从容。\n\n**完整比赛模拟：** 定期组织完整的模拟比赛，包含隔离、观察和攀爬全过程。模拟比赛应尽量还原真实比赛的所有要素：进入隔离区关闭手机、严格执行观察时间限制、计时攀爬、记录成绩。邀请其他攀岩者作为「对手」参与，模拟比赛的竞争氛围。甚至可以邀请不攀岩的朋友作为「观众」，模拟被观看时的心理压力。每月至少进行一次完整的模拟比赛。\n\n**单项能力模拟：** 除了完整比赛模拟，还可以针对比赛中的特定环节进行专项训练。例如：限时读线练习（在6分钟内观察一条新路线并计划完整的攀爬序列）；压力下的攀爬（在疲劳状态或被观察时攀爬接近极限的路线）；onsight马拉松（连续onsight多条路线，模拟赛事中的持续输出能力）。\n\n**赛后复盘：** 每次模拟比赛或正式比赛后，进行详细的复盘分析。回顾攀爬录像，分析哪些决策是正确的，哪些可以改进。记录比赛中的心理状态变化——在哪些时刻感到紧张、在哪些时刻进入了专注状态。与教练或队友讨论路线解读和战术选择。建立比赛日志，追踪长期的进步趋势和需要改进的领域。这种系统性的反思是持续进步的关键。",
+            "en": "Competition simulation bridges training and performance. Organize regular full simulations including isolation (phones off), timed observation, timed climbing, and scored results. Invite other climbers as competitors and even non-climbing friends as audience to simulate psychological pressure. Conduct at least one full simulation monthly.\n\nTarget specific elements with focused drills: timed route reading (6 minutes for a new route), pressure climbing (near-limit routes while fatigued or observed), and onsight marathons (consecutive onsight attempts simulating sustained output). After every simulation or competition, conduct detailed post-analysis: review video footage, assess decision quality, note psychological state changes, and discuss tactics with coaches. Maintain a competition journal to track progress trends."
+          },
+          "terms": [
+            { "zh": "模拟比赛", "en": "competition simulation" },
+            { "zh": "赛后复盘", "en": "post-competition analysis" },
+            { "zh": "比赛日志", "en": "competition journal" },
+            { "zh": "限时读线", "en": "timed route reading" },
+            { "zh": "onsight马拉松", "en": "onsight marathon" }
+          ],
+          "crossRefs": ["kp-projecting-strategy", "kp-flow-state", "kp-fear-management"],
+          "tags": ["intermediate", "competition", "training"]
+        }
+      ]
+    },
+    {
+      "id": "s10-psychology",
+      "number": "10.4",
+      "slug": "psychology",
+      "title": {
+        "zh": "竞赛心理",
+        "en": "Competition Psychology"
+      },
+      "overview": {
+        "zh": "竞赛心理是决定比赛表现的关键因素之一。许多选手在训练中表现出色，但在比赛中无法发挥应有水平。学习管理比赛焦虑、建立正确的竞技心态、应对压力和运用心理技巧，是竞赛攀岩者的必修课。",
+        "en": "Competition psychology is a decisive factor in performance. Many athletes perform well in training but underperform in competition. Managing anxiety, developing the right mindset, handling pressure, and applying mental techniques are essential skills for competitive climbers."
+      },
+      "knowledgePoints": [
+        {
+          "id": "kp-competition-anxiety",
+          "title": {
+            "zh": "竞赛焦虑管理",
+            "en": "Competition Anxiety Management"
+          },
+          "content": {
+            "zh": "竞赛焦虑是几乎所有参赛选手都会经历的心理状态。适度的焦虑可以提升警觉性和表现，但过度的焦虑会严重影响发挥。学会管理焦虑而非消除焦虑，是竞赛心理训练的核心。\n\n**焦虑的表现：** 竞赛焦虑的身体症状包括心跳加速、手心出汗、肌肉紧张、胃部不适和呼吸急促。心理症状包括过度担忧、注意力分散、消极自我对话（「如果我搞砸了怎么办」「其他选手都比我强」）和思维僵化。这些反应本身是正常的——它们是身体为应对挑战而做出的准备，问题在于这些反应是否被恰当地管理和利用。\n\n**呼吸控制技术：** 最直接有效的焦虑管理工具是呼吸控制。「4-7-8呼吸法」是一个经典的镇静技巧——吸气4秒、屏气7秒、呼气8秒。在比赛等待区或攀爬前使用3-5个循环可以显著降低焦虑水平。更简单的方法是「长呼气」——只要呼气时间长于吸气时间，就能激活副交感神经系统的放松反应。在攀爬过程中的休息位置也可以有意识地调整呼吸节奏。\n\n**认知重构：** 改变对焦虑的认知方式可以根本性地转变其影响。将「我很紧张」重构为「我的身体正在为最佳表现做准备」；将「这条路线太难了」重构为「这是一个展示自己能力的机会」。练习将注意力从不可控因素（对手的表现、路线难度、最终结果）转移到可控因素（自己的呼吸、动作执行、当下的一步），这种「过程导向」的思维模式是管理竞赛焦虑的有效策略。",
+            "en": "Competition anxiety affects virtually all athletes. Moderate anxiety enhances alertness, but excessive anxiety impairs performance. The goal is to manage, not eliminate, anxiety.\n\nPhysical symptoms include elevated heart rate, sweaty palms, muscle tension, and rapid breathing. Psychological symptoms include excessive worry, attention deficits, negative self-talk, and mental rigidity. Breath control is the most accessible tool: the 4-7-8 technique (inhale 4s, hold 7s, exhale 8s) or simply ensuring exhales are longer than inhales activates the parasympathetic relaxation response.\n\nCognitive reframing transforms anxiety's impact: reframe nervousness as readiness, difficulty as opportunity. Shift focus from uncontrollable factors (opponents, grades, results) to controllable ones (breathing, movement execution, the present step). This process-oriented mindset is a powerful anxiety management strategy."
+          },
+          "terms": [
+            { "zh": "竞赛焦虑", "en": "competition anxiety" },
+            { "zh": "呼吸控制", "en": "breath control" },
+            { "zh": "认知重构", "en": "cognitive reframing" },
+            { "zh": "过程导向", "en": "process-oriented" },
+            { "zh": "副交感神经", "en": "parasympathetic nervous system" }
+          ],
+          "crossRefs": ["kp-fear-management", "kp-flow-state", "kp-warmup"],
+          "tags": ["intermediate", "competition"]
+        },
+        {
+          "id": "kp-performance-mindset",
+          "title": {
+            "zh": "竞技表现心态",
+            "en": "Performance Mindset"
+          },
+          "content": {
+            "zh": "卓越的竞技表现需要正确的心态作为支撑。心态不仅影响比赛当天的发挥，也决定了训练的质量和长期的进步方向。\n\n**成长型心态：** 心理学家Carol Dweck提出的「成长型心态」（growth mindset）对攀岩竞技者尤为重要。持有成长型心态的选手相信能力是可以通过努力发展的，把比赛失利视为学习机会而非能力的否定。与之相反，「固定型心态」（fixed mindset）的选手把失败视为个人能力的证明，容易因此逃避挑战。在攀岩中，成长型心态意味着：主动挑战超出当前能力的路线、把失败的尝试视为了解自己弱点的机会、关注自己的进步趋势而非与他人比较。\n\n**专注力管理：** 比赛中的专注力是一种有限资源，需要合理分配。在观察路线时，专注力应聚焦于路线特征和动作规划。在等待攀爬时，可以使用「注意力锚点」——将注意力集中在一个特定的感官体验上（如呼吸的感觉、双脚站在地面的感觉）来避免思绪飘散。在攀爬过程中，理想的专注状态是「窄聚焦」——只关注当前和下一个动作，不想已经过去的失误或还未到来的难点。\n\n**自信心建设：** 比赛自信来源于充分的准备和积极的自我认知。在赛前回忆过去的成功经历和困难中突破的时刻（performance cues），用这些记忆强化「我有能力应对挑战」的信念。避免与其他选手进行消极比较。制定合理的比赛目标——既有保底目标（基于当前能力的稳健表现），也有挑战目标（超水平发挥时可能达到的成绩），这种双目标设定可以减轻压力同时保持动力。",
+            "en": "A growth mindset, where ability is seen as developable through effort, is crucial for competitive climbers. It transforms failures into learning opportunities rather than judgments of ability. This means actively seeking challenges, viewing unsuccessful attempts as weakness identification, and tracking personal progress rather than comparing with others.\n\nAttention management is critical: use sensory anchors (breath awareness, feet on ground) during waiting periods, and maintain narrow focus during climbing (only the current and next move). Build competition confidence through performance cues (recalling past breakthroughs), avoiding negative comparisons, and setting dual goals: a floor goal (solid performance) and a stretch goal (peak performance), reducing pressure while maintaining motivation."
+          },
+          "terms": [
+            { "zh": "成长型心态", "en": "growth mindset" },
+            { "zh": "注意力锚点", "en": "attention anchor" },
+            { "zh": "窄聚焦", "en": "narrow focus" },
+            { "zh": "表现线索", "en": "performance cues" },
+            { "zh": "双目标设定", "en": "dual goal setting" }
+          ],
+          "crossRefs": ["kp-flow-state", "kp-projecting-strategy", "kp-fear-management"],
+          "tags": ["intermediate", "competition"]
+        },
+        {
+          "id": "kp-pressure-visualization",
+          "title": {
+            "zh": "压力管理与意象化训练",
+            "en": "Pressure Management and Visualization"
+          },
+          "content": {
+            "zh": "在高水平竞赛中，选手之间的技术和体能差距往往很小，心理层面的抗压能力和心理训练技巧成为决定胜负的关键因素。\n\n**压力源识别与应对：** 竞赛中的压力来源多种多样——排名期望、观众和媒体关注、对手的表现、教练和家长的期望、以及自我施加的标准。有效的压力管理首先需要识别自己最主要的压力源，然后制定针对性的应对策略。例如，如果排名压力是主要压力源，可以设定过程目标（如「专注于每一步动作的质量」）来替代结果目标（如「进入前三名」）。如果观众关注是压力源，可以通过逐步增加训练中的「观众模拟」来脱敏。\n\n**意象化训练（Visualization）：** 意象化是最强大的心理训练工具之一。通过在头脑中生动地想象攀爬过程——包括视觉（看到岩点、岩壁）、动觉（感受身体的运动和力量）、听觉（听到自己的呼吸、观众的声音）和情绪（体验专注和自信的感觉）——可以在不产生身体疲劳的情况下强化动作模式和心理准备。研究表明，高质量的意象化训练可以激活与实际运动几乎相同的大脑区域。\n\n**意象化练习方法：** 每天花10-15分钟进行意象化练习。找一个安静的地方，闭上眼睛，深呼吸几次放松后开始想象。从简单的场景开始——想象自己在熟悉的路线上攀爬。逐渐增加复杂度——想象比赛场景，包括隔离区的等待、观察路线、走向岩壁、开始攀爬、遇到难点、成功通过难点、达到终点的喜悦。重要的是，意象化应包含「困难应对」——想象可能出现的问题（如某个动作失败、手心出汗、注意力分散）以及自己如何冷静应对。在赛前一天和比赛当天进行意象化练习效果尤其显著。",
+            "en": "At elite levels, psychological resilience often determines outcomes. Effective pressure management begins with identifying personal pressure sources (ranking expectations, audience, opponents, self-imposed standards) and developing targeted coping strategies. Replace outcome goals with process goals, and desensitize to audience pressure through gradual exposure in training.\n\nVisualization is one of the most powerful mental training tools. Vivid mental imagery incorporating visual, kinesthetic, auditory, and emotional elements strengthens motor patterns and mental readiness without physical fatigue. Research shows high-quality visualization activates nearly the same brain regions as actual movement.\n\nPractice 10-15 minutes daily: begin with familiar routes, progressively adding competition scenarios including waiting in isolation, route observation, climbing, encountering cruxes, and successful completion. Critically, include coping imagery: visualize potential problems (failed moves, sweaty hands, attention drift) and your calm response to them. Pre-competition visualization on the day before and morning of the event is particularly effective."
+          },
+          "terms": [
+            { "zh": "意象化训练", "en": "visualization" },
+            { "zh": "动觉意象", "en": "kinesthetic imagery" },
+            { "zh": "压力脱敏", "en": "pressure desensitization" },
+            { "zh": "过程目标", "en": "process goal" },
+            { "zh": "困难应对意象", "en": "coping imagery" }
+          ],
+          "crossRefs": ["kp-flow-state", "kp-fear-management", "kp-projecting-strategy"],
+          "tags": ["advanced", "competition"]
+        }
+      ]
+    },
+    {
+      "id": "s10-organizations",
+      "number": "10.5",
+      "slug": "organizations",
+      "title": {
+        "zh": "竞赛组织与体系",
+        "en": "Competition Organizations"
+      },
+      "overview": {
+        "zh": "攀岩竞赛的组织管理由国际到地方的多层级体系构成。了解竞赛组织结构、赛事体系和排名系统，有助于选手规划自己的竞技发展路径，也帮助爱好者更好地关注和参与这项运动。",
+        "en": "Competitive climbing is governed by a multi-tiered organizational structure from international to local levels. Understanding the organizational framework, competition circuits, and ranking systems helps athletes plan their competitive development and fans follow the sport."
+      },
+      "knowledgePoints": [
+        {
+          "id": "kp-ifsc",
+          "title": {
+            "zh": "国际攀联（IFSC）",
+            "en": "IFSC"
+          },
+          "content": {
+            "zh": "国际运动攀岩联合会（International Federation of Sport Climbing，简称IFSC）是全球攀岩竞技运动的最高管理机构。\n\n**组织概况：** IFSC成立于2007年，总部位于意大利都灵。它从国际登山联合会（UIAA）中独立出来，专门负责竞技攀岩的组织和管理。目前IFSC拥有90多个国家和地区的会员联合会。IFSC是国际奥委会（IOC）认可的国际单项体育联合会，负责管理攀岩在奥运会中的参与。\n\n**主要职责：** IFSC的核心职责包括：制定和更新竞赛规则、组织世界锦标赛和世界杯系列赛、管理运动员排名系统、推动攀岩运动在全球的发展和普及、制定反兴奋剂政策、以及协调与IOC和其他国际体育组织的关系。IFSC还负责认证国际裁判和定线员，确保全球赛事的标准化和公平性。\n\n**赛事体系：** IFSC管理的主要赛事包括：世界锦标赛（每两年举办一次，是最高级别的攀岩赛事）、世界杯系列赛（每年在全球多个城市举办分站赛）、世界青年锦标赛、以及洲际锦标赛。此外，IFSC还负责组织奥运会和亚运会等综合性运动会中的攀岩比赛。世界杯系列赛的各站比赛积分累计决定年度总冠军。",
+            "en": "The International Federation of Sport Climbing (IFSC), established in 2007 and headquartered in Turin, Italy, is the global governing body for competitive climbing. It separated from the UIAA to focus exclusively on competition climbing and currently has over 90 member federations. The IFSC is recognized by the International Olympic Committee (IOC).\n\nCore responsibilities include setting competition rules, organizing World Championships (biennial) and World Cup series (annual multi-city circuit), managing athlete rankings, promoting global development, enforcing anti-doping policy, and certifying international judges and route setters. The IFSC also manages climbing's participation in the Olympic Games and other multi-sport events like the Asian Games."
+          },
+          "terms": [
+            { "zh": "国际攀联", "en": "IFSC" },
+            { "zh": "世界锦标赛", "en": "World Championships" },
+            { "zh": "世界杯", "en": "World Cup" },
+            { "zh": "国际奥委会", "en": "IOC" },
+            { "zh": "反兴奋剂", "en": "anti-doping" }
+          ],
+          "crossRefs": ["kp-lead-competition", "kp-speed-competition", "kp-boulder-competition"],
+          "tags": ["beginner", "competition"]
+        },
+        {
+          "id": "kp-national-federations",
+          "title": {
+            "zh": "国家联合会",
+            "en": "National Federations"
+          },
+          "content": {
+            "zh": "各国的攀岩联合会是本国竞技攀岩的管理机构，负责组织国内赛事、选拔国家队成员，并代表本国参与IFSC的国际事务。\n\n**主要国家联合会：** 美国攀岩协会（USA Climbing）管理美国国内的竞赛体系，从地方赛到全国锦标赛，拥有完善的青少年发展梯队。日本攀岩运动协会（JMSCA）近年来培养出大量世界级选手，其青少年训练体系被视为全球标杆。中国登山协会下设攀岩委员会，负责中国攀岩竞赛的管理和国家队建设。法国登山及攀岩联合会（FFME）拥有欧洲最庞大的攀岩会员基础。英国攀登委员会（BMC）在推动攀岩发展方面也有着重要作用。\n\n**国内赛事体系：** 各国的国内赛事体系通常分为多个级别。以典型的体系为例：地方/城市级赛事 → 省/州级锦标赛 → 全国锦标赛 → 国家队选拔。一些国家还设有全国联赛制度，通过全年多站积分赛确定年度排名。国内赛事不仅是选拔国家队的途径，也是攀岩爱好者参与竞技体验的重要平台。\n\n**选手发展支持：** 成熟的国家联合会通常提供多层面的选手支持：教练培训和认证体系、国家训练中心、运动科学支持（包括体能测试、营养咨询和心理辅导）、国际赛事的差旅支持，以及学业与运动平衡的规划指导。这些支持系统的完善程度直接影响着一个国家在国际攀岩竞赛中的竞争力。",
+            "en": "National federations manage domestic competitive climbing, organize national events, select national team members, and represent their countries in IFSC affairs. Key federations include USA Climbing (comprehensive youth development ladder), JMSCA of Japan (globally benchmarked youth training), the China Mountaineering Association's climbing committee, FFME of France (Europe's largest climbing membership), and the BMC of the UK.\n\nDomestic competition systems typically progress from local to regional to national championships, often including a multi-round national league. Mature federations provide coach certification, national training centers, sports science support (physical testing, nutrition, psychology), international travel funding, and academic-athletic balance guidance. The sophistication of these support systems directly affects international competitiveness."
+          },
+          "terms": [
+            { "zh": "国家联合会", "en": "national federation" },
+            { "zh": "全国锦标赛", "en": "national championships" },
+            { "zh": "国家队选拔", "en": "national team selection" },
+            { "zh": "教练认证", "en": "coach certification" },
+            { "zh": "选手发展", "en": "athlete development" }
+          ],
+          "crossRefs": ["kp-youth-competition", "kp-periodization"],
+          "tags": ["beginner", "competition"]
+        },
+        {
+          "id": "kp-competition-circuit-rankings",
+          "title": {
+            "zh": "赛事巡回与排名系统",
+            "en": "Competition Circuit and Rankings"
+          },
+          "content": {
+            "zh": "了解竞赛巡回赛制和排名系统有助于选手和观众把握竞赛攀岩的整体格局。\n\n**世界杯巡回赛：** IFSC世界杯是全年最重要的系列赛事。每年在全球不同城市举办多站分站赛，每个项目（先锋、速度、抱石）通常有6-10站。每站比赛根据选手的名次分配积分——冠军获得最高积分，依次递减。全年各站积分累加，赛季末总积分最高的选手获得该项目的年度世界杯总冠军。世界杯分站赛通常包含资格赛、半决赛和决赛三轮，顶尖选手可能获得部分免资格赛的特权（种子选手制度）。\n\n**排名系统：** IFSC维护着一套全球运动员排名系统。排名基于选手在过去一段时间内（通常12-24个月）的比赛成绩，不同级别的赛事（世界锦标赛、世界杯、洲际锦标赛等）给予不同权重的积分。排名影响选手在比赛中的出场顺序——在先锋赛中，排名越高的选手越晚出场（这是一个优势，因为晚出场意味着有更多时间热身和准备）。排名也是奥运会参赛资格的重要依据之一。\n\n**商业赛事与新兴形式：** 除了IFSC管辖的官方赛事外，近年来出现了越来越多的商业攀岩赛事和表演赛。一些赛事采用创新的赛制（如淘汰制抱石、头对头先锋赛）来增强观赏性。户外抱石赛事也在兴起，在自然岩石上进行的比赛带来独特的观赛体验。这些新形式丰富了竞技攀岩的生态，也为攀岩运动的商业化发展提供了新的可能。",
+            "en": "The IFSC World Cup is the premier annual series, with 6-10 events per discipline across global cities. Points are awarded by placement at each event, with cumulative season points determining the overall World Cup champion. Events typically feature qualification, semifinal, and final rounds, with top-ranked athletes potentially receiving seeded entry.\n\nThe IFSC maintains a global ranking system based on results over 12-24 months, with different event tiers receiving different point weights. Rankings determine start order (higher-ranked climbers start later in lead, an advantage for warm-up time) and influence Olympic qualification. Beyond official IFSC events, commercial competitions and exhibition matches with innovative formats (elimination bouldering, head-to-head lead) are growing, along with outdoor bouldering competitions on natural rock."
+          },
+          "terms": [
+            { "zh": "世界杯巡回赛", "en": "World Cup circuit" },
+            { "zh": "积分系统", "en": "points system" },
+            { "zh": "种子选手", "en": "seeded athlete" },
+            { "zh": "年度排名", "en": "annual ranking" },
+            { "zh": "参赛资格", "en": "qualification / quota" }
+          ],
+          "crossRefs": ["kp-ifsc", "kp-combined-olympic", "kp-peaking"],
+          "tags": ["beginner", "competition"]
+        }
+      ]
+    }
+  ]
+}

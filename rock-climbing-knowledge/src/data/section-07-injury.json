@@ -1,0 +1,446 @@
+{
+  "sectionId": "section-07",
+  "subSections": [
+    {
+      "id": "s07-common",
+      "number": "7.1",
+      "slug": "common-injuries",
+      "title": {
+        "zh": "常见伤病",
+        "en": "Common Injuries"
+      },
+      "overview": {
+        "zh": "攀岩运动对手指、肘部、肩部和皮肤有独特的高负荷需求，这些部位也因此成为最容易受伤的区域。了解常见伤病的类型、症状和严重程度分级，有助于早期发现、及时处理，避免小伤拖成大伤。",
+        "en": "Rock climbing places unique high demands on fingers, elbows, shoulders, and skin, making these the most injury-prone areas. Understanding the types, symptoms, and severity grading of common injuries enables early detection and timely treatment, preventing minor issues from becoming serious problems."
+      },
+      "knowledgePoints": [
+        {
+          "id": "kp-pulley-injury",
+          "title": {
+            "zh": "手指滑车韧带损伤",
+            "en": "Finger Pulley Injury"
+          },
+          "content": {
+            "zh": "手指滑车韧带（pulley）损伤是攀岩中最具代表性的伤病，主要发生在环状韧带 A2 和 A4 上。滑车韧带的作用是将屈肌腱紧贴指骨，使手指弯曲时力量能有效传递。当攀岩者在小岩点上使用全捏握（full crimp）施加过大力量时，滑车韧带可能部分撕裂甚至完全断裂。\n\n**损伤分级：**\n- **I级（轻度拉伸）**：韧带轻度拉伸，有轻微疼痛和肿胀。可以继续轻度攀爬，但应避免高强度抓握。恢复时间约2-4周。\n- **II级（部分撕裂）**：韧带部分纤维断裂，明显疼痛和肿胀。受伤时可能听到轻微「啪」的声音。需要停止攀岩4-8周，进行渐进式康复。\n- **III级（完全断裂）**：韧带完全断裂，受伤时通常有明显的「啪」声，剧烈疼痛，手指可能出现弓弦效应（bowstringing）——屈肌腱在弯曲时偏离指骨。需要医疗评估，可能需要手术修复。恢复期3-6个月。\n\n**预防策略：**\n- 避免过度使用全捏握（full crimp），优先使用半捏握（half crimp）和张手握（open hand）\n- 充分热身后再进行高强度攀爬\n- 在手指有不适感时立即降低训练强度\n- 循序渐进地增加训练负荷，给肌腱足够的适应时间\n\n**初步处理：**\n受伤后立即停止攀爬，冰敷15-20分钟。使用H型胶带固定（buddy taping）保护受伤手指。如果疼痛严重或怀疑完全断裂，应尽快就医进行超声波或MRI检查。",
+            "en": "Finger pulley injuries are the most iconic climbing injury, primarily affecting the A2 and A4 annular pulleys. Pulleys hold the flexor tendons close to the bone, enabling efficient force transfer during finger flexion. Overloading in a full crimp position is the most common cause.\n\n**Grading:** Grade I (mild stretch, minor pain, 2-4 weeks recovery); Grade II (partial tear, audible pop possible, significant pain, 4-8 weeks recovery); Grade III (complete rupture, loud pop, bowstringing of the tendon visible, 3-6 months recovery, may require surgery).\n\n**Prevention:** Minimize full crimping; prefer half crimp and open hand grips. Warm up thoroughly before high-intensity climbing. Stop immediately at any finger discomfort. Progress training loads gradually to allow tendon adaptation.\n\n**First aid:** Stop climbing immediately. Ice for 15-20 minutes. Apply H-tape or buddy tape for support. Seek medical evaluation (ultrasound or MRI) for suspected Grade II or III injuries."
+          },
+          "terms": [
+            { "zh": "滑车韧带", "en": "pulley" },
+            { "zh": "A2滑车", "en": "A2 pulley" },
+            { "zh": "A4滑车", "en": "A4 pulley" },
+            { "zh": "弓弦效应", "en": "bowstringing" },
+            { "zh": "H型胶带固定", "en": "H-tape" }
+          ],
+          "crossRefs": [
+            "kp-grip-types",
+            "kp-crimp-hold",
+            "kp-warmup",
+            "kp-hangboard-training"
+          ],
+          "tags": ["beginner", "health", "safety"]
+        },
+        {
+          "id": "kp-tendonitis",
+          "title": {
+            "zh": "肌腱炎",
+            "en": "Tendonitis"
+          },
+          "content": {
+            "zh": "肌腱炎是攀岩者中极为常见的慢性劳损伤病，主要影响肘部和腕部。与急性损伤不同，肌腱炎通常是过度使用（overuse）的结果，症状往往逐渐加重。\n\n**肘部肌腱炎：**\n- **内上髁炎（Medial Epicondylitis / 高尔夫球肘）**：肘内侧疼痛，在屈腕和抓握时加重。是攀岩者最常见的肘部问题，因为攀岩中大量使用前臂屈肌（负责手指弯曲和抓握）。\n- **外上髁炎（Lateral Epicondylitis / 网球肘）**：肘外侧疼痛，在伸腕时加重。在攀岩者中不如内上髁炎常见，但可能因为缺乏拮抗肌训练或特定攀爬动作（如侧拉）而发生。\n\n**腕部肌腱炎：**\n腕部的屈肌腱或伸肌腱在反复高负荷使用后可能发炎。症状包括手腕弯曲或伸展时疼痛、前臂下段肿胀。Mantle动作（上岩台翻身）和大量捏握（pinch）动作是常见诱因。\n\n**处理原则：**\n肌腱炎的处理已从传统的「完全休息」转变为「主动恢复」。离心训练（eccentric exercise）被证明对肌腱修复最为有效——例如，针对内上髁炎，使用轻重量进行缓慢的腕屈伸离心训练。早期可配合冰敷和非处方消炎药缓解症状，但长期依赖消炎药不利于肌腱愈合。\n\n如果症状持续4-6周没有改善，应就医进行专业评估。",
+            "en": "Tendonitis is an extremely common overuse injury among climbers, primarily affecting the elbows and wrists. Unlike acute injuries, tendonitis develops gradually from repeated strain.\n\n**Elbow tendonitis:** Medial epicondylitis (golfer's elbow) causes inner elbow pain during gripping — the most common elbow issue in climbers due to heavy forearm flexor use. Lateral epicondylitis (tennis elbow) causes outer elbow pain during wrist extension, less common but possible from lack of antagonist training or specific moves like sidepulls.\n\n**Wrist tendonitis:** Flexor or extensor tendons inflame from repeated high-load use. Symptoms include pain during wrist flexion/extension and forearm swelling. Mantling and heavy pinch work are common triggers.\n\n**Treatment:** Modern approach favors active recovery over complete rest. Eccentric exercises (slow, controlled lengthening) are most effective for tendon repair. Ice and OTC anti-inflammatories help early symptoms but should not be relied on long-term. Seek professional evaluation if symptoms persist beyond 4-6 weeks."
+          },
+          "terms": [
+            { "zh": "肌腱炎", "en": "tendonitis" },
+            { "zh": "内上髁炎", "en": "medial epicondylitis / golfer's elbow" },
+            { "zh": "外上髁炎", "en": "lateral epicondylitis / tennis elbow" },
+            { "zh": "离心训练", "en": "eccentric exercise" },
+            { "zh": "过度使用", "en": "overuse" }
+          ],
+          "crossRefs": [
+            "kp-antagonist-training",
+            "kp-rest-management",
+            "kp-warmup",
+            "kp-pulling-power"
+          ],
+          "tags": ["beginner", "intermediate", "health"]
+        },
+        {
+          "id": "kp-shoulder-injury",
+          "title": {
+            "zh": "肩部损伤",
+            "en": "Shoulder Injuries"
+          },
+          "content": {
+            "zh": "肩关节是人体活动范围最大的关节，这也使它成为攀岩中最容易受伤的关节之一。攀岩中频繁的头顶动作、大幅度的拉伸和突然的动态负荷都对肩部构成挑战。\n\n**肩袖损伤（Rotator Cuff Injury）：**\n肩袖由四块小肌肉（冈上肌、冈下肌、小圆肌、肩胛下肌）及其肌腱组成，负责稳定肩关节。攀岩中常见的肩袖问题包括：\n- **肌腱炎/肌腱病**：最常见的肩袖问题，尤其是冈上肌腱。症状为肩部外展或上举时疼痛，夜间侧卧时加重。\n- **部分撕裂**：通常由慢性退化发展而来，疼痛更剧烈，力量明显下降。\n- **完全撕裂**：急性受伤（如动态动作中肩部突然过载）或慢性退化的最终阶段。可能需要手术修复。\n\n**肩峰撞击综合征（Shoulder Impingement）：**\n当手臂上举时，肩袖肌腱在肩峰下方被夹挤，引起疼痛和炎症。攀岩中大量的过头动作加剧了这一问题。症状为手臂上举60-120度范围内疼痛（「疼痛弧」），内旋时加重。\n\n**预防关键：**\n- 加强肩袖稳定肌群的训练（外旋、内旋、稳定性练习）\n- 保持肩胛骨的正确位置——攀爬时肩膀不要「耸起」，保持肩胛骨下沉\n- 避免在肩关节极限活动范围内承受大负荷\n- 将肩部热身纳入每次攀爬前的常规流程\n\n肩部问题一旦出现应及时处理，拖延可能导致代偿性损伤链，影响整个上肢。",
+            "en": "The shoulder joint has the greatest range of motion in the body, which also makes it one of the most vulnerable joints in climbing. Overhead movements, extreme reaches, and sudden dynamic loads all challenge shoulder integrity.\n\n**Rotator cuff injuries:** The four rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis) stabilize the shoulder joint. Common issues include tendinitis (pain during abduction/elevation, worse at night), partial tears (from chronic degeneration, significant pain and strength loss), and complete tears (from acute overload or end-stage degeneration, may require surgery).\n\n**Shoulder impingement:** Rotator cuff tendons get compressed under the acromion during arm elevation, causing pain and inflammation. Climbing's overhead movements exacerbate this. Symptoms include a painful arc at 60-120 degrees of elevation, worsening with internal rotation.\n\n**Prevention:** Strengthen rotator cuff stabilizers (external rotation, internal rotation, stability exercises). Maintain proper scapular positioning — keep shoulder blades depressed during climbing, not shrugged. Avoid heavy loading at extreme ranges of motion. Include shoulder warm-up in every pre-climbing routine."
+          },
+          "terms": [
+            { "zh": "肩袖", "en": "rotator cuff" },
+            { "zh": "冈上肌", "en": "supraspinatus" },
+            { "zh": "肩峰撞击", "en": "shoulder impingement" },
+            { "zh": "肩胛骨稳定", "en": "scapular stability" },
+            { "zh": "疼痛弧", "en": "painful arc" }
+          ],
+          "crossRefs": [
+            "kp-shoulder-stability",
+            "kp-antagonist-training",
+            "kp-warmup",
+            "kp-pulling-power"
+          ],
+          "tags": ["intermediate", "health"]
+        },
+        {
+          "id": "kp-skin-management",
+          "title": {
+            "zh": "皮肤管理",
+            "en": "Skin Management"
+          },
+          "content": {
+            "zh": "攀岩者的手部皮肤是与岩石接触的第一界面，皮肤状态直接影响抓握能力和攀爬体验。过薄的皮肤容易破裂出血，过厚的老茧又容易撕裂形成皮瓣（flapper）。良好的皮肤管理是攀岩者的日常功课。\n\n**常见皮肤问题：**\n- **水泡（Blister）**：初学者最常见的问题，由皮肤与岩面摩擦产生。处理方法：保持清洁，如果水泡完整不要刺破（充当天然保护层），如果已破溃则清洁消毒后用创可贴保护。\n- **老茧（Callus）**：长期攀爬后手指和手掌会形成硬化的老茧。适度的老茧提供保护，但过厚的老茧容易撕裂。定期使用砂纸或指甲锉打磨，保持表面光滑均匀。\n- **皮瓣（Flapper）**：老茧被撕裂形成翻起的皮片，疼痛且影响继续攀爬。处理方法：清洁伤口，用消毒剪刀修剪翻起的皮片（不要撕扯），贴好创可贴或攀岩胶带。\n- **指尖开裂（Tip Split）**：干燥环境或过度攀爬导致指尖皮肤干裂。在干燥季节尤其常见。\n\n**皮肤护理建议：**\n- 攀爬结束后使用保湿霜或专用攀岩护手膏（如 Climb On、Joshua Tree 等）\n- 攀爬前保持手部干燥（但不要过度使用镁粉导致皮肤过于干燥）\n- 定期打磨过厚的老茧，特别是在高强度攀爬日之前\n- 休息日让皮肤有时间恢复和增厚",
+            "en": "Climbers' hand skin is the primary interface with rock, and skin condition directly affects grip performance. Too thin and it tears; too thick and calluses rip off as flappers. Good skin management is a daily practice for climbers.\n\n**Common issues:** Blisters (beginners, from friction — keep clean, do not pop intact blisters); calluses (protective when moderate, problematic when thick — sand regularly with fine sandpaper or a nail file); flappers (torn calluses — clean, trim with sterile scissors, protect with tape); tip splits (dry-skin finger cracks, common in arid conditions).\n\n**Care tips:** Apply moisturizer or climbing-specific balm (Climb On, Joshua Tree) after every session. Keep hands dry before climbing but avoid over-drying with excessive chalk. Sand thick calluses regularly, especially before high-intensity climbing days. Allow rest days for skin recovery and thickening."
+          },
+          "terms": [
+            { "zh": "老茧", "en": "callus" },
+            { "zh": "皮瓣", "en": "flapper" },
+            { "zh": "水泡", "en": "blister" },
+            { "zh": "指尖开裂", "en": "tip split" },
+            { "zh": "攀岩胶带", "en": "climbing tape" }
+          ],
+          "crossRefs": [
+            "kp-crimp-hold",
+            "kp-sloper-hold"
+          ],
+          "tags": ["beginner", "health"]
+        }
+      ]
+    },
+    {
+      "id": "s07-prevention",
+      "number": "7.2",
+      "slug": "prevention",
+      "title": {
+        "zh": "预防策略",
+        "en": "Prevention Strategies"
+      },
+      "overview": {
+        "zh": "预防远胜于治疗。攀岩伤病的大多数可以通过正确的热身、合理的训练负荷管理、针对性的拮抗肌训练以及科学的休息安排来有效预防。建立系统的预防习惯是攀岩长寿的关键。",
+        "en": "Prevention is far better than cure. Most climbing injuries can be effectively prevented through proper warm-up, intelligent training load management, targeted antagonist training, and scientific rest scheduling. Building systematic prevention habits is the key to a long climbing career."
+      },
+      "knowledgePoints": [
+        {
+          "id": "kp-warmup",
+          "title": {
+            "zh": "热身方案",
+            "en": "Warm-up Protocols"
+          },
+          "content": {
+            "zh": "充分的热身是预防攀岩伤病最简单也最有效的措施。热身的目的是提升核心体温、增加关节滑液分泌、激活神经肌肉系统，为高强度攀爬做好身体准备。跳过热身直接上高难度路线是导致受伤的最常见原因之一。\n\n**系统热身方案（约20-30分钟）：**\n\n**第一阶段：全身激活（5分钟）**\n- 轻度有氧运动：跳绳、慢跑或开合跳，提升心率和核心体温\n- 动态拉伸：手臂画圈、腿部摆动、髋部转圈、侧弯\n\n**第二阶段：关节与肌腱预备（5分钟）**\n- 手指逐渐加载：使用握力球或弹力带，从轻握到中等力度反复握放\n- 手腕绕环和腕部屈伸\n- 肩部外旋和内旋练习（使用弹力带）\n- 肩胛骨激活：悬挂在单杠上做肩胛骨下沉-耸肩练习\n\n**第三阶段：攀爬热身（10-15分钟）**\n- 从远低于自己能力的路线开始，专注脚法和身体定位\n- 逐步提升难度，至少攀爬3-5条递增难度的路线\n- 在达到目标难度前，手指应已完全感觉温热和灵活\n\n**关键原则：**\n- 热身是渐进的过程，不要急于进入高强度\n- 寒冷天气需要更长的热身时间\n- 指力训练（挂板、校园板）前的热身应更加充分\n- 热身不仅在攀爬开始前，长时间休息后重新开始也需要再次热身",
+            "en": "Thorough warm-up is the simplest and most effective injury prevention measure. The goal is to raise core temperature, increase joint lubrication, and activate the neuromuscular system. Skipping warm-up and jumping to hard routes is one of the most common causes of injury.\n\n**Systematic protocol (~20-30 minutes):**\n\n**Phase 1 — General activation (5 min):** Light cardio (jump rope, jogging, jumping jacks) plus dynamic stretches (arm circles, leg swings, hip circles).\n\n**Phase 2 — Joint and tendon preparation (5 min):** Progressive finger loading with a grip ball or resistance band; wrist circles and flexion/extension; shoulder internal/external rotation with band; scapular activation on a bar.\n\n**Phase 3 — Climbing warm-up (10-15 min):** Start well below your ability, focusing on footwork. Progressively increase difficulty over 3-5 routes. Fingers should feel warm and supple before attempting target grades.\n\n**Key principles:** Warm-up is gradual — never rush. Cold weather requires longer warm-ups. Hangboard and campus board sessions demand extra-thorough preparation. Re-warm-up after extended rest breaks."
+          },
+          "terms": [
+            { "zh": "热身", "en": "warm-up" },
+            { "zh": "动态拉伸", "en": "dynamic stretching" },
+            { "zh": "渐进加载", "en": "progressive loading" },
+            { "zh": "肩胛骨激活", "en": "scapular activation" }
+          ],
+          "crossRefs": [
+            "kp-pulley-injury",
+            "kp-tendonitis",
+            "kp-shoulder-injury",
+            "kp-hangboard-training"
+          ],
+          "tags": ["beginner", "health", "training"]
+        },
+        {
+          "id": "kp-rest-management",
+          "title": {
+            "zh": "训练负荷管理",
+            "en": "Training Load Management"
+          },
+          "content": {
+            "zh": "训练负荷管理是预防过度使用伤病的核心策略。攀岩者的身体组织（特别是肌腱和韧带）需要时间适应不断增加的负荷，而这些结缔组织的适应速度远慢于肌肉。急于提升训练量或训练强度是伤病的主要诱因。\n\n**10%规则：**\n每周训练量（总攀爬时间或路线数量）的增长不应超过上一周的10%。这个简单的规则可以有效避免训练量跃升导致的急性劳损。如果因故休息了较长时间（超过2周），恢复训练时应从休息前训练量的50-60%开始，用2-3周逐步回升。\n\n**训练周期化（Periodization）：**\n- **微周期（每周）**：安排高强度日和低强度日交替，不要连续两天进行高强度攀爬。每周至少安排2个完全休息日。\n- **中周期（每月）**：每4周中安排1周为减量周（deload week），将训练量降低到正常的50-60%。\n- **大周期（每季度/年）**：根据攀爬目标安排基础期（volume）、力量期（strength）、功力期（power）和恢复期（rest）的轮替。\n\n**倾听身体信号：**\n- 持续疲劳且休息后不恢复 = 可能过度训练\n- 关节或肌腱持续隐痛 = 需要降低强度\n- 攀爬表现持续下降 = 身体需要恢复\n- 睡眠质量下降、食欲改变 = 过度训练的全身性信号\n\n记录训练日志（攀爬时间、难度、身体感受）可以帮助识别负荷趋势和潜在风险。",
+            "en": "Training load management is the core strategy for preventing overuse injuries. Connective tissues (tendons and ligaments) adapt much more slowly than muscles, so rushing volume or intensity increases is a primary injury trigger.\n\n**10% rule:** Weekly training volume should not increase more than 10% over the previous week. After extended breaks (2+ weeks), resume at 50-60% of pre-break volume and rebuild over 2-3 weeks.\n\n**Periodization:** Weekly — alternate high and low intensity days, never two consecutive hard days, minimum 2 full rest days. Monthly — include one deload week (50-60% volume) every 4 weeks. Seasonal — cycle through base volume, strength, power, and rest phases aligned with climbing goals.\n\n**Body signals:** Persistent fatigue that does not resolve with rest may indicate overtraining. Ongoing joint or tendon aches require reduced intensity. Declining performance signals a need for recovery. Poor sleep and appetite changes are systemic overtraining signs.\n\nMaintain a training log (time, grades, body feel) to identify load trends and emerging risks."
+          },
+          "terms": [
+            { "zh": "训练负荷管理", "en": "training load management" },
+            { "zh": "周期化训练", "en": "periodization" },
+            { "zh": "减量周", "en": "deload week" },
+            { "zh": "过度训练", "en": "overtraining" },
+            { "zh": "10%规则", "en": "10% rule" }
+          ],
+          "crossRefs": [
+            "kp-pulley-injury",
+            "kp-tendonitis",
+            "kp-warmup"
+          ],
+          "tags": ["intermediate", "health", "training"]
+        },
+        {
+          "id": "kp-antagonist-training",
+          "title": {
+            "zh": "拮抗肌训练",
+            "en": "Antagonist Training"
+          },
+          "content": {
+            "zh": "攀岩是一项以「拉」为主的运动，长期攀岩而不进行拮抗肌训练会导致严重的肌肉不平衡，进而引发肩部、肘部和腕部的伤病。拮抗肌训练是维持身体平衡和预防伤病的必要投资。\n\n**攀岩者常见的肌肉失衡：**\n- **拉力 vs 推力**：攀岩大量发展背阔肌、肱二头肌等拉力肌群，而胸肌、三角肌前束和肱三头肌（推力肌群）相对薄弱\n- **屈肌 vs 伸肌**：前臂屈肌（抓握）远强于前臂伸肌（打开手指），导致肘部内外侧力量不平衡\n- **内旋 vs 外旋**：肩部内旋肌群（背阔肌、胸肌）过强，外旋肌群（肩袖外旋肌）相对弱，导致肩关节不稳定\n\n**核心拮抗训练动作：**\n- **俯卧撑 / 推举**：平衡拉力肌群，加强胸肌和肱三头肌。每周2-3次，3组8-12次。\n- **反向手腕弯举**：使用轻重量，伸展前臂伸肌。这是预防和治疗肘部肌腱炎的关键动作。\n- **弹力带外旋**：肘部贴紧身体，使用弹力带做肩部外旋。强化肩袖稳定肌群，预防肩峰撞击。\n- **手指伸展训练**：使用橡皮筋或专用手指伸展器（如 Expand Your Hand Bands），训练手指打开的力量。\n- **吊环臂屈伸（Ring Dips）**：综合性的推力和肩部稳定性训练。\n\n拮抗肌训练不需要大量时间——每次攀爬后花10-15分钟进行上述练习即可显著降低伤病风险。将它视为攀爬训练不可分割的一部分。",
+            "en": "Climbing is predominantly a pulling sport. Without antagonist training, climbers develop severe muscle imbalances that lead to shoulder, elbow, and wrist injuries. Antagonist training is a necessary investment in balance and injury prevention.\n\n**Common imbalances in climbers:** Pull vs push (overdeveloped lats and biceps, weak chest and triceps); flexors vs extensors (forearm flexors far stronger than extensors, creating elbow strain); internal vs external rotation (strong internal rotators, weak rotator cuff external rotators causing shoulder instability).\n\n**Key exercises:** Push-ups or overhead press (balance pulling muscles, 3x8-12, 2-3 times per week); reverse wrist curls (light weight, critical for preventing elbow tendonitis); resistance band external rotation (elbow at side, strengthens rotator cuff); finger extension training (rubber bands or Expand Your Hand Bands); ring dips (comprehensive push and shoulder stability).\n\nAntagonist training requires only 10-15 minutes after each climbing session and dramatically reduces injury risk. Treat it as an inseparable part of your training."
+          },
+          "terms": [
+            { "zh": "拮抗肌训练", "en": "antagonist training" },
+            { "zh": "肌肉失衡", "en": "muscle imbalance" },
+            { "zh": "反向手腕弯举", "en": "reverse wrist curl" },
+            { "zh": "弹力带外旋", "en": "band external rotation" },
+            { "zh": "手指伸展训练", "en": "finger extension training" }
+          ],
+          "crossRefs": [
+            "kp-shoulder-stability",
+            "kp-shoulder-injury",
+            "kp-tendonitis",
+            "kp-gymnastic-rings"
+          ],
+          "tags": ["beginner", "intermediate", "health", "training"]
+        },
+        {
+          "id": "kp-when-to-rest",
+          "title": {
+            "zh": "何时休息",
+            "en": "When to Rest"
+          },
+          "content": {
+            "zh": "知道何时停下来休息是攀岩者最难学会的技能之一。攀岩的上瘾性和社交属性往往让人忽视身体发出的警告信号，而「再爬一条」的心态是很多伤病的直接导火索。\n\n**必须立即停止攀爬的信号：**\n- 手指或关节出现锐痛（sharp pain）——这是急性损伤的警报\n- 关节出现突然的「弹响」伴随疼痛——可能是韧带或肌腱损伤\n- 肌肉出现痉挛或异常无力感\n- 头痛、眩晕或视觉变化——可能是脱水或其他全身性问题\n\n**应该安排休息日的信号：**\n- 晨起时手指僵硬且需要很长时间活动开\n- 前一次训练后的酸痛还未完全消退\n- 攀爬时感觉力量明显低于正常水平\n- 对攀爬的热情下降，出现「不想去岩馆」的感觉\n- 连续攀爬3天以上\n\n**休息的形式：**\n完全休息不是唯一的选择。「积极恢复」包括轻度有氧运动（散步、游泳、瑜伽）、拉伸和泡沫轴放松。这些活动促进血液循环，加速肌肉恢复，同时不对手指和关节施加额外压力。\n\n记住：力量的提升发生在恢复期间，而不是训练期间。训练只是给身体提供适应的刺激，真正的生长和修复发生在你休息的时候。",
+            "en": "Knowing when to stop and rest is one of the hardest skills for climbers to learn. The addictive nature of climbing and the \"one more route\" mentality are direct triggers for many injuries.\n\n**Stop climbing immediately if:** You feel sharp pain in fingers or joints (acute injury warning); a sudden pop with pain in a joint (possible ligament/tendon damage); muscle cramping or unexpected weakness; headache, dizziness, or vision changes.\n\n**Schedule a rest day when:** Fingers are stiff upon waking and take a long time to loosen; soreness from the last session has not fully resolved; climbing strength is noticeably below normal; motivation has dropped; you have climbed 3+ consecutive days.\n\n**Forms of rest:** Complete rest is not the only option. Active recovery includes light cardio (walking, swimming, yoga), stretching, and foam rolling — these promote circulation and muscle recovery without stressing fingers and joints.\n\nRemember: strength gains occur during recovery, not during training. Training provides the stimulus; growth and repair happen when you rest."
+          },
+          "terms": [
+            { "zh": "休息", "en": "rest" },
+            { "zh": "积极恢复", "en": "active recovery" },
+            { "zh": "锐痛", "en": "sharp pain" },
+            { "zh": "过度训练信号", "en": "overtraining signals" }
+          ],
+          "crossRefs": [
+            "kp-rest-management",
+            "kp-pulley-injury",
+            "kp-tendonitis"
+          ],
+          "tags": ["beginner", "health", "training"]
+        }
+      ]
+    },
+    {
+      "id": "s07-recovery",
+      "number": "7.3",
+      "slug": "recovery",
+      "title": {
+        "zh": "康复",
+        "en": "Recovery"
+      },
+      "overview": {
+        "zh": "受伤后的康复过程对于攀岩者的长期运动生涯至关重要。科学的康复方案不仅能帮助损伤完全愈合，还能通过针对性训练降低再次受伤的风险。急于回归攀爬是导致伤病反复的最常见原因。",
+        "en": "The rehabilitation process after injury is crucial for a climber's long-term career. A scientific recovery program not only ensures full healing but also reduces re-injury risk through targeted training. Rushing back to climbing is the most common cause of recurring injuries."
+      },
+      "knowledgePoints": [
+        {
+          "id": "kp-injury-assessment",
+          "title": {
+            "zh": "伤后评估",
+            "en": "Post-Injury Assessment"
+          },
+          "content": {
+            "zh": "受伤后的正确评估是制定康复计划的基础。错误的自我诊断可能导致不适当的处理，延误恢复甚至加重伤情。\n\n**自我评估步骤：**\n1. **确认疼痛性质**：锐痛（sharp pain）通常提示急性损伤（撕裂、骨折）；钝痛或酸痛（dull ache）更可能是慢性劳损或炎症。\n2. **检查肿胀和淤青**：明显肿胀和淤青提示组织损伤较重。\n3. **评估活动范围**：受伤部位能否正常活动？活动范围是否受限？特定动作是否引发疼痛？\n4. **功能测试**：能否正常抓握？能否承受体重？这些基本功能测试帮助判断损伤严重程度。\n\n**何时必须就医：**\n- 受伤时听到明显的「啪」声\n- 剧烈疼痛且不随时间减轻\n- 关节明显变形或不稳定\n- 肿胀持续增加\n- 无法正常使用受伤部位的基本功能\n- 24-48小时后症状没有任何改善\n\n**医疗影像：**\n- **X光**：用于排除骨折\n- **超声波**：适合评估肌腱和韧带损伤，成本较低且可实时观察\n- **MRI**：最详细的软组织成像，适合评估复杂损伤（如滑车韧带完全断裂、肩袖撕裂）\n\n不要因为「只是攀岩小伤」而忽视就医。早期准确的诊断可以显著缩短恢复时间。",
+            "en": "Correct post-injury assessment is the foundation for an effective rehabilitation plan. Incorrect self-diagnosis can lead to improper treatment, delayed recovery, or worsening of the injury.\n\n**Self-assessment steps:** Identify pain type (sharp = acute injury like tear or fracture; dull ache = chronic overuse or inflammation). Check for swelling and bruising (indicating tissue damage severity). Evaluate range of motion and whether specific movements trigger pain. Perform basic function tests (grip, weight-bearing).\n\n**Seek medical attention when:** You heard an audible pop at injury; severe pain that does not decrease; visible joint deformity or instability; swelling keeps increasing; inability to perform basic functions; no improvement after 24-48 hours.\n\n**Medical imaging:** X-ray (rule out fractures); ultrasound (tendons and ligaments, cost-effective and real-time); MRI (detailed soft tissue imaging for complex injuries like complete pulley ruptures or rotator cuff tears).\n\nNever dismiss climbing injuries as trivial. Early accurate diagnosis significantly shortens recovery time."
+          },
+          "terms": [
+            { "zh": "伤后评估", "en": "post-injury assessment" },
+            { "zh": "锐痛", "en": "sharp pain" },
+            { "zh": "钝痛", "en": "dull ache" },
+            { "zh": "超声波检查", "en": "ultrasound examination" },
+            { "zh": "核磁共振", "en": "MRI" }
+          ],
+          "crossRefs": [
+            "kp-pulley-injury",
+            "kp-tendonitis",
+            "kp-shoulder-injury"
+          ],
+          "tags": ["beginner", "health"]
+        },
+        {
+          "id": "kp-rehab-programs",
+          "title": {
+            "zh": "康复方案",
+            "en": "Rehab Programs"
+          },
+          "content": {
+            "zh": "攀岩伤病的康复需要循序渐进、有针对性的训练方案。现代运动医学强调「主动康复」而非单纯休息，通过控制性的负荷刺激促进组织修复和重塑。\n\n**滑车韧带康复方案示例：**\n- **第1-2周（急性期）**：停止攀爬，冰敷，H型胶带保护。可进行无痛范围内的轻柔手指活动。\n- **第3-4周（早期康复）**：开始轻度抓握训练（软球挤压），逐步恢复手指活动范围。使用胶带保护继续。\n- **第5-8周（中期康复）**：开始低强度攀爬，仅使用大岩点，避免捏握和挂点口袋。可以在挂板上进行极轻负荷的悬挂（必要时使用弹力带辅助减重）。\n- **第9-12周（后期康复）**：逐步恢复正常攀爬难度。每次提升难度后观察24-48小时是否有疼痛反应。完全恢复前避免校园板等高冲击训练。\n\n**肘部肌腱炎康复重点：**\n- 离心训练（eccentric exercise）是核心——例如Therabar/FlexBar扭转训练\n- 每天进行3组15次离心训练\n- 配合前臂伸肌拉伸和按摩\n- 逐步恢复攀爬，优先选择不加重症状的抓握方式\n\n**康复的通用原则：**\n- 遵循「无痛原则」——所有康复训练和恢复攀爬都不应引发疼痛\n- 康复进度不是线性的——会有好日子和坏日子\n- 耐心是最重要的品质\n- 与专业的运动物理治疗师合作可以大幅提升康复效率",
+            "en": "Climbing injury rehabilitation requires progressive, targeted training programs. Modern sports medicine emphasizes active recovery over pure rest, using controlled loading to stimulate tissue repair and remodeling.\n\n**Pulley injury rehab example:** Weeks 1-2 (acute): stop climbing, ice, H-tape, gentle pain-free finger movement. Weeks 3-4 (early rehab): light grip training (soft ball squeezes), restore range of motion. Weeks 5-8 (mid rehab): low-intensity climbing on large holds only, very light hangboard with pulley assist if needed. Weeks 9-12 (late rehab): gradually return to normal grades, observe 24-48 hours for pain response after each difficulty increase.\n\n**Elbow tendonitis rehab:** Eccentric exercise is key (e.g., Therabar/FlexBar twist protocol, 3x15 daily). Combine with forearm extensor stretching and massage. Resume climbing gradually, favoring grip types that do not aggravate symptoms.\n\n**Universal principles:** Follow the pain-free rule — no training or climbing should cause pain. Progress is not linear (expect good and bad days). Patience is the most important quality. Working with a sports physiotherapist significantly improves outcomes."
+          },
+          "terms": [
+            { "zh": "康复方案", "en": "rehab program" },
+            { "zh": "主动康复", "en": "active recovery / active rehabilitation" },
+            { "zh": "离心训练", "en": "eccentric exercise" },
+            { "zh": "无痛原则", "en": "pain-free principle" },
+            { "zh": "渐进恢复", "en": "progressive return" }
+          ],
+          "crossRefs": [
+            "kp-pulley-injury",
+            "kp-tendonitis",
+            "kp-warmup",
+            "kp-rest-management"
+          ],
+          "tags": ["intermediate", "health"]
+        },
+        {
+          "id": "kp-return-criteria",
+          "title": {
+            "zh": "回归攀爬标准",
+            "en": "Return to Climbing Criteria"
+          },
+          "content": {
+            "zh": "何时可以安全回归攀爬是受伤攀岩者最关心的问题。过早回归是伤病反复发作的头号原因。建立清晰的回归标准可以帮助做出客观决策，避免被主观急切心理误导。\n\n**回归前必须满足的条件：**\n1. **无痛日常活动**：受伤部位在日常活动中完全无痛，包括开门、拧毛巾等需要抓握力的动作。\n2. **完整的活动范围**：受伤部位的活动范围恢复到受伤前水平的90%以上。\n3. **对称力量**：受伤侧的力量达到健康侧的80%以上（可通过握力计或挂板测试评估）。\n4. **功能测试通过**：能够在无痛状态下完成模拟攀爬动作（如在挂板上轻度悬挂、抓握各种形状的岩点）。\n5. **心理准备**：对使用受伤部位不感到恐惧或过度保护。心理因素在回归中常常被忽视，但它同样重要。\n\n**渐进式回归协议：**\n- **第1周**：仅限低于自身能力3-4个等级的路线，仅使用大岩点，攀爬时间不超过30分钟\n- **第2周**：难度提升1个等级，时间延长至45分钟\n- **第3-4周**：继续逐步提升，开始尝试更多类型的抓握\n- **第5-6周**：如果一切正常，可以回到接近受伤前的训练水平\n- 每次提升后观察48小时，如出现任何疼痛则退回上一步\n\n记录回归过程中的每次训练和身体反应，这些数据对于调整恢复节奏非常有价值。",
+            "en": "When it is safe to return to climbing is the most pressing question for injured climbers. Premature return is the number one cause of recurring injuries. Clear return-to-climbing criteria enable objective decisions, avoiding the influence of impatient emotions.\n\n**Prerequisites:** Pain-free daily activities (including grip-intensive tasks like opening doors, wringing towels). Range of motion restored to 90%+ of pre-injury levels. Strength symmetry (injured side at 80%+ of healthy side, measured by dynamometer or hangboard). Passing functional tests (pain-free light hangs, gripping various hold shapes). Psychological readiness (no fear or over-protection of the injured area).\n\n**Gradual return protocol:** Week 1: routes 3-4 grades below ability, large holds only, maximum 30 minutes. Week 2: increase by one grade, extend to 45 minutes. Weeks 3-4: continue progression, introduce more grip types. Weeks 5-6: approach pre-injury training levels if symptom-free. Monitor for 48 hours after each increase; any pain means stepping back.\n\nLog every session and body response during the return process — this data is invaluable for calibrating recovery pace."
+          },
+          "terms": [
+            { "zh": "回归标准", "en": "return-to-climbing criteria" },
+            { "zh": "力量对称性", "en": "strength symmetry" },
+            { "zh": "功能测试", "en": "functional test" },
+            { "zh": "渐进式回归", "en": "gradual return protocol" }
+          ],
+          "crossRefs": [
+            "kp-rehab-programs",
+            "kp-warmup",
+            "kp-rest-management"
+          ],
+          "tags": ["intermediate", "health"]
+        },
+        {
+          "id": "kp-rehab-mistakes",
+          "title": {
+            "zh": "常见康复错误",
+            "en": "Common Rehab Mistakes"
+          },
+          "content": {
+            "zh": "了解常见的康复错误与了解正确的康复方法同样重要。这些错误可能延长恢复时间、导致伤病反复或造成新的损伤。\n\n**错误1：过早回归攀爬**\n这是最常见也最危险的错误。很多攀岩者在疼痛刚消失就急于恢复高强度训练。然而，疼痛消失不等于组织完全愈合——肌腱修复通常比症状消失多需要4-8周。应严格按照回归标准和渐进式回归协议恢复。\n\n**错误2：完全不动**\n与过早回归相反，有些攀岩者选择完全停止一切活动。完全不动会导致肌肉萎缩、肌腱退化和关节僵硬，反而延长恢复时间。在医生或物理治疗师指导下的主动康复（controlled loading）已被证明优于纯休息。\n\n**错误3：忽视根本原因**\n如果受伤的原因是训练方法不当、热身不充分或肌肉失衡，而在康复后不解决这些根本问题，再次受伤只是时间问题。康复期是审视和改善训练习惯的最佳时机。\n\n**错误4：过度依赖消炎药**\n短期使用非甾体抗炎药（NSAIDs，如布洛芬）可以缓解急性症状，但长期使用可能抑制正常的组织修复过程。炎症反应是身体修复损伤的自然过程，完全抑制它并不利于愈合。\n\n**错误5：不寻求专业帮助**\n自我康复有其局限性。运动医学医生和攀岩经验丰富的物理治疗师能提供更准确的诊断和个性化的康复方案。投资专业的医疗评估往往能大幅缩短恢复周期。",
+            "en": "Understanding common rehab mistakes is as important as knowing the correct approach. These errors can extend recovery, cause re-injury, or create new problems.\n\n**Mistake 1: Returning too early.** The most common and dangerous error. Pain disappearing does not mean tissue is fully healed — tendons typically need 4-8 weeks beyond symptom resolution. Follow return criteria and gradual protocols strictly.\n\n**Mistake 2: Complete immobility.** Total rest causes muscle atrophy, tendon degeneration, and joint stiffness. Controlled loading under professional guidance produces better outcomes than pure rest.\n\n**Mistake 3: Ignoring root causes.** If the injury resulted from poor training methods, inadequate warm-up, or muscle imbalances, failing to address these guarantees re-injury. Use the recovery period to examine and improve training habits.\n\n**Mistake 4: Over-relying on anti-inflammatories.** Short-term NSAID use (ibuprofen) helps acute symptoms, but long-term use can suppress the natural tissue repair process. Inflammation is part of healing.\n\n**Mistake 5: Not seeking professional help.** Self-rehabilitation has limitations. Sports medicine doctors and climbing-experienced physiotherapists provide more accurate diagnoses and personalized programs. Professional evaluation often dramatically shortens recovery."
+          },
+          "terms": [
+            { "zh": "过早回归", "en": "premature return" },
+            { "zh": "主动康复", "en": "active rehabilitation" },
+            { "zh": "非甾体抗炎药", "en": "NSAIDs" },
+            { "zh": "运动物理治疗师", "en": "sports physiotherapist" }
+          ],
+          "crossRefs": [
+            "kp-return-criteria",
+            "kp-rehab-programs",
+            "kp-rest-management",
+            "kp-antagonist-training"
+          ],
+          "tags": ["beginner", "intermediate", "health"]
+        }
+      ]
+    },
+    {
+      "id": "s07-nutrition",
+      "number": "7.4",
+      "slug": "nutrition",
+      "title": {
+        "zh": "营养与恢复",
+        "en": "Nutrition & Recovery"
+      },
+      "overview": {
+        "zh": "营养是攀岩训练和恢复的底层支撑。合理的饮食为肌肉和肌腱提供修复原料，充足的水分维持身体机能，良好的睡眠则是身体修复和适应的主要窗口期。忽视营养和恢复的攀岩者，训练效果会大打折扣且受伤风险显著增加。",
+        "en": "Nutrition is the foundational support for climbing training and recovery. Proper diet provides repair materials for muscles and tendons, adequate hydration maintains bodily function, and quality sleep is the primary window for repair and adaptation. Climbers who neglect nutrition and recovery see diminished training results and significantly increased injury risk."
+      },
+      "knowledgePoints": [
+        {
+          "id": "kp-climber-nutrition",
+          "title": {
+            "zh": "攀岩者的营养需求",
+            "en": "Climber Nutrition Needs"
+          },
+          "content": {
+            "zh": "攀岩者的营养需求既与普通运动员有共通之处，也有其独特性。攀岩兼具力量、耐力和技巧属性，对肌腱和结缔组织的需求尤为突出。\n\n**宏量营养素：**\n- **蛋白质**：对肌肉修复和肌腱健康至关重要。攀岩者建议每天摄入1.4-2.0g/kg体重的蛋白质。训练日可取上限，休息日可取下限。优质蛋白质来源包括鸡胸肉、鱼类、蛋类、豆类和奶制品。\n- **碳水化合物**：攀岩的主要能量来源。长时间攀爬（运动攀、多段攀）需要充足的碳水储备。训练日建议3-5g/kg体重。全谷物、水果和蔬菜是优质来源。\n- **脂肪**：维持激素水平和关节健康。占总热量的20-35%为宜。优先选择不饱和脂肪（坚果、牛油果、橄榄油、深海鱼类）。\n\n**关键微量营养素：**\n- **维生素C**：胶原蛋白合成的必需辅因子，对肌腱和韧带修复至关重要。建议在含胶原蛋白或明胶的补剂前30-60分钟摄入维生素C以增强效果。\n- **维生素D**：骨骼健康和肌肉功能所必需。室内攀岩者尤其容易缺乏，考虑补充。\n- **铁**：氧运输能力，影响耐力。女性攀岩者更需关注。\n- **钙**：骨骼强度，与维生素D协同作用。\n\n**训练前后的营养时机：**\n训练前1-2小时摄入易消化的碳水为主的餐食。训练后30分钟内摄入蛋白质和碳水的组合（如蛋白质奶昔加香蕉），这是恢复的黄金窗口。",
+            "en": "Climber nutrition shares commonalities with general athletic nutrition but has unique demands, particularly regarding tendon and connective tissue health.\n\n**Macronutrients:** Protein (1.4-2.0g/kg body weight daily for muscle repair and tendon health — higher on training days, from lean meats, fish, eggs, legumes, dairy). Carbohydrates (primary energy source, 3-5g/kg on training days, from whole grains, fruits, vegetables). Fats (20-35% of total calories for hormones and joint health, prioritize unsaturated sources).\n\n**Key micronutrients:** Vitamin C (essential cofactor for collagen synthesis, critical for tendon/ligament repair — take 30-60 minutes before collagen/gelatin supplements). Vitamin D (bone and muscle health, common deficiency in indoor climbers). Iron (oxygen transport, especially important for female climbers). Calcium (bone strength, works synergistically with Vitamin D).\n\n**Nutrient timing:** Eat an easily digestible carb-focused meal 1-2 hours before training. Within 30 minutes after training, consume a protein-carb combination (e.g., protein shake with banana) during the recovery window."
+          },
+          "terms": [
+            { "zh": "宏量营养素", "en": "macronutrients" },
+            { "zh": "蛋白质", "en": "protein" },
+            { "zh": "碳水化合物", "en": "carbohydrates" },
+            { "zh": "胶原蛋白", "en": "collagen" },
+            { "zh": "恢复窗口", "en": "recovery window" }
+          ],
+          "crossRefs": [
+            "kp-rest-management",
+            "kp-tendonitis",
+            "kp-pulley-injury"
+          ],
+          "tags": ["beginner", "health"]
+        },
+        {
+          "id": "kp-weight-management",
+          "title": {
+            "zh": "体重管理",
+            "en": "Weight Management"
+          },
+          "content": {
+            "zh": "体重与攀岩表现之间存在一定的关系——较低的体重意味着需要支撑的负荷更小，在力量与体重比（strength-to-weight ratio）上更有优势。然而，这个话题需要非常谨慎和客观地讨论，因为不健康的体重管理在攀岩社区中是一个严重的问题。\n\n**客观事实：**\n攀岩中体重的影响确实存在，但它的重要性经常被高估。技术改进、力量训练和心理素质的提升对攀岩表现的贡献往往远超过减重带来的好处。研究显示，在业余攀岩者中，技术水平的差异对表现的影响远大于体重差异。\n\n**健康警示：**\n攀岩社区中饮食失调（eating disorders）的发生率高于一般人群。过度限制饮食会导致：\n- 能量不足影响训练质量和恢复\n- 骨密度降低增加骨折风险\n- 激素失调（女性运动员三联症）\n- 免疫力下降，更容易生病和受伤\n- 肌腱和韧带修复能力下降\n- 心理健康问题\n\n**健康的方法：**\n如果确实需要调整体重，应以缓慢、可持续的方式进行。关注身体成分（body composition）而非单纯的体重数字。确保充足的营养摄入以支持训练和恢复。如果感觉自己与食物的关系变得不健康，应及时寻求专业营养师或心理咨询师的帮助。\n\n攀岩者应该追求的是「健康的强壮」而非「不健康的轻」。一个营养充足、力量充沛的身体比一个营养不良但轻几公斤的身体能爬得更好、更久。",
+            "en": "Weight affects climbing performance through the strength-to-weight ratio — lower weight means less load to support. However, this topic requires careful and objective discussion, as unhealthy weight management is a serious issue in the climbing community.\n\n**Objective perspective:** Weight does matter, but its importance is frequently overestimated. Improvements in technique, strength training, and mental game typically contribute far more to performance than weight loss. Research shows that technique differences affect amateur climbers' performance more than weight differences.\n\n**Health warnings:** Eating disorders occur at higher rates in the climbing community than in the general population. Excessive dietary restriction leads to insufficient energy for training and recovery, reduced bone density, hormonal disruption, weakened immunity, impaired tendon/ligament repair, and mental health issues.\n\n**Healthy approach:** If weight adjustment is truly needed, pursue it slowly and sustainably. Focus on body composition rather than scale numbers. Ensure adequate nutrition to support training and recovery. If your relationship with food becomes unhealthy, seek help from a registered dietitian or mental health professional.\n\nClimbers should pursue being healthily strong rather than unhealthily light. A well-nourished, powerful body climbs better and longer than an undernourished one that weighs a few kilograms less."
+          },
+          "terms": [
+            { "zh": "力量体重比", "en": "strength-to-weight ratio" },
+            { "zh": "身体成分", "en": "body composition" },
+            { "zh": "饮食失调", "en": "eating disorder" },
+            { "zh": "能量不足", "en": "energy deficiency" }
+          ],
+          "crossRefs": [
+            "kp-climber-nutrition",
+            "kp-rest-management"
+          ],
+          "tags": ["intermediate", "health"]
+        },
+        {
+          "id": "kp-hydration",
+          "title": {
+            "zh": "水分补充",
+            "en": "Hydration"
+          },
+          "content": {
+            "zh": "水分是维持攀岩表现和身体健康的基本要素。脱水即使只有体重的2%也会显著影响力量输出、耐力和认知功能——而这三者对攀岩者都至关重要。\n\n**攀岩中的水分需求：**\n- 攀爬过程中每小时流失约500-1000ml水分（因温度、湿度和运动强度而异）\n- 室内攀岩由于环境温度较高（尤其在夏季），脱水速度可能比预期更快\n- 户外攀岩在高海拔环境下水分流失更快（空气干燥且呼吸加速）\n\n**补水策略：**\n- **日常基础水分**：每天至少摄入体重(kg)x30ml的水分，训练日增加500-1000ml\n- **训练前**：提前2小时摄入400-600ml水分\n- **训练中**：每15-20分钟补充150-250ml，不要等到口渴再喝（口渴时已经脱水1-2%）\n- **训练后**：根据流失量补充，粗略标准是体重每减轻1kg补充1.5升水\n\n**电解质补充：**\n纯水不足以补充出汗丢失的电解质（钠、钾、镁）。长时间攀爬（超过1小时的高强度运动）应补充含电解质的运动饮料或电解质片。大量饮用纯水反而可能导致低钠血症（hyponatremia）。\n\n**判断水分状态：**\n最简单的方法是观察尿液颜色——浅黄色（如稀释的柠檬水）表示水分充足，深黄色表示需要补水。",
+            "en": "Hydration is fundamental to climbing performance and health. Even 2% dehydration significantly impairs strength output, endurance, and cognitive function — all critical for climbers.\n\n**Climbing fluid needs:** Expect 500-1000ml/hour fluid loss during climbing (varies with temperature, humidity, intensity). Indoor gyms can accelerate dehydration due to warm environments. High-altitude outdoor climbing increases fluid loss through dry air and accelerated breathing.\n\n**Hydration strategy:** Daily baseline: body weight (kg) x 30ml minimum, plus 500-1000ml on training days. Pre-training: 400-600ml two hours before. During training: 150-250ml every 15-20 minutes (do not wait for thirst — thirst indicates 1-2% dehydration). Post-training: roughly 1.5 liters per kg of body weight lost.\n\n**Electrolytes:** Water alone cannot replace electrolytes (sodium, potassium, magnesium) lost through sweat. For sessions over one hour, use sports drinks or electrolyte tablets. Excessive plain water intake can cause hyponatremia.\n\n**Status check:** Monitor urine color — pale yellow (like diluted lemonade) indicates adequate hydration; dark yellow signals dehydration."
+          },
+          "terms": [
+            { "zh": "水分补充", "en": "hydration" },
+            { "zh": "脱水", "en": "dehydration" },
+            { "zh": "电解质", "en": "electrolytes" },
+            { "zh": "低钠血症", "en": "hyponatremia" }
+          ],
+          "crossRefs": [
+            "kp-climber-nutrition",
+            "kp-weather-assessment"
+          ],
+          "tags": ["beginner", "health"]
+        },
+        {
+          "id": "kp-sleep-recovery",
+          "title": {
+            "zh": "睡眠与恢复",
+            "en": "Sleep & Recovery"
+          },
+          "content": {
+            "zh": "睡眠是身体恢复和适应训练刺激的最重要窗口期。在深度睡眠期间，生长激素分泌达到高峰，促进肌肉修复、肌腱重塑和免疫系统恢复。睡眠不足直接削弱训练效果并增加受伤风险。\n\n**睡眠对攀岩表现的影响：**\n- 一晚睡眠不足（<6小时）可导致握力下降10-15%\n- 反应时间和决策能力下降，影响路线阅读和动态动作的时机判断\n- 疼痛感知阈值降低，容易过度警觉或忽视真实的身体信号\n- 长期睡眠不足（<7小时/晚持续数周）可使受伤风险增加1.7倍\n\n**优化睡眠的策略：**\n- **时长**：成年攀岩者建议7-9小时/晚。高训练量期间取上限。\n- **规律性**：尽量保持固定的就寝和起床时间，包括周末。\n- **训练时机**：避免在就寝前3小时内进行高强度训练——肾上腺素和核心体温升高会干扰入睡。\n- **睡前习惯**：减少蓝光暴露（手机、电脑），营造凉爽、黑暗、安静的睡眠环境。\n- **咖啡因管理**：避免在下午2点后摄入咖啡因，其半衰期约5-6小时。\n\n**补充恢复手段：**\n- **泡沫轴和自我筋膜放松**：促进血液循环，减轻肌肉紧张\n- **对比浴（冷热交替）**：加速代谢废物清除和血液循环\n- **轻度拉伸**：睡前进行轻柔的拉伸有助于放松肌肉和促进入睡\n\n将恢复视为训练的组成部分——没有充分恢复的训练不仅无效，而且有害。",
+            "en": "Sleep is the most important window for recovery and adaptation to training stimuli. During deep sleep, growth hormone secretion peaks, promoting muscle repair, tendon remodeling, and immune system recovery. Sleep deprivation directly undermines training gains and increases injury risk.\n\n**Impact on climbing:** One night of poor sleep (<6 hours) can reduce grip strength by 10-15%. Reaction time and decision-making decline. Pain perception thresholds drop. Chronic sleep deprivation (<7 hours/night for weeks) can increase injury risk by 1.7x.\n\n**Optimization strategies:** Duration: 7-9 hours per night for adult climbers, trending higher during heavy training. Consistency: maintain fixed sleep and wake times including weekends. Training timing: avoid high-intensity sessions within 3 hours of bedtime. Pre-sleep routine: reduce blue light, create a cool, dark, quiet environment. Caffeine: none after 2 PM (half-life ~5-6 hours).\n\n**Supplementary recovery:** Foam rolling and self-myofascial release (improve circulation, reduce tension); contrast baths (accelerate metabolic waste clearance); gentle stretching before bed (promotes relaxation and sleep onset).\n\nTreat recovery as a component of training — training without adequate recovery is not just ineffective, it is harmful."
+          },
+          "terms": [
+            { "zh": "睡眠恢复", "en": "sleep recovery" },
+            { "zh": "生长激素", "en": "growth hormone" },
+            { "zh": "泡沫轴", "en": "foam roller" },
+            { "zh": "筋膜放松", "en": "myofascial release" },
+            { "zh": "对比浴", "en": "contrast bath" }
+          ],
+          "crossRefs": [
+            "kp-rest-management",
+            "kp-climber-nutrition"
+          ],
+          "tags": ["beginner", "health"]
+        }
+      ]
+    }
+  ]
+}

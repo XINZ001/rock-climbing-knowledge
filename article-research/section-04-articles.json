@@ -1,0 +1,344 @@
+{
+  "_meta": {
+    "section": "section-04",
+    "sectionName": "心理与策略",
+    "searchDate": "2026-03-03",
+    "totalArticles": 11,
+    "coveredKps": 11,
+    "totalKps": 11,
+    "uncoveredKps": [],
+    "partiallyCoveredKps": []
+  },
+  "articles": [
+    {
+      "id": "art-04-001",
+      "url": "https://www.climbingpsychology.com/fear-of-falling",
+      "title": "Fear of Falling Masterclass for Climbers",
+      "source": "Climbing Psychology",
+      "author": "Madeleine Eppensteiner",
+      "language": "en",
+      "publishDate": "2020-01-01",
+      "lastModified": "2025-01-01",
+      "articleType": "tutorial",
+      "primaryKp": "kp-fear-management",
+      "secondaryKps": ["kp-desensitization"],
+      "quality": {
+        "authority": 4,
+        "depth": 3,
+        "practicality": 4,
+        "recency": 4,
+        "uniqueness": 4,
+        "total": 19
+      },
+      "summary": "认证运动心理学家 Madeleine Eppensteiner 出品的攀岩坠落恐惧管理综合框架。系统分析恐惧根源（对确保者的不信任、对失败的恐惧、失控感），并提供五类应对策略：识别根源触发因素、系统脱敏的逐步进展（附铅攀和抱石专项坠落练习指南）、认知与躯体双轨心理训练工具、引导式呼吸练习、以及搭档信任与风险评估能力培养。2025 年 1 月维护更新。",
+      "keyInsights": [
+        "恐惧不是统一的——每位攀爬者的恐惧来源不同，精确识别根源（信任缺失/失败恐惧/失控感）是治疗的第一步",
+        "系统脱敏：从「不那么恐惧」的情境开始，以自己的节奏逐步升级，避免「强行暴露」导致创伤强化",
+        "认知工具（重构负面想法）与躯体工具（呼吸控制、身体扫描）协同使用比单独任何一种更有效",
+        "克服坠落恐惧需要「承诺与练习」，无法通过单次突破快速解决，建立系统性的持续训练计划至关重要",
+        "风险评估能力培养：根据自身经验和能力进行理性评估，将「不合理恐惧」与「合理警惕」明确区分"
+      ],
+      "tags": ["坠落恐惧", "心理训练", "运动心理学", "恐惧管理", "脱敏"]
+    },
+    {
+      "id": "art-04-002",
+      "url": "https://latticetraining.com/blog/fear-of-falling/",
+      "title": "Fear of Falling – with climbing psychologist, Allegra Maguire",
+      "source": "Lattice Training",
+      "author": "Claire Squires with Allegra Maguire",
+      "language": "en",
+      "publishDate": "2022-04-07",
+      "lastModified": "2022-05-11",
+      "articleType": "tutorial",
+      "primaryKp": "kp-desensitization",
+      "secondaryKps": ["kp-fear-management"],
+      "quality": {
+        "authority": 4,
+        "depth": 3,
+        "practicality": 5,
+        "recency": 3,
+        "uniqueness": 4,
+        "total": 19
+      },
+      "summary": "Lattice Training 联合攀岩心理学家 Allegra Maguire 出品的系统脱敏训练指南，提供三阶段渐进式坠落练习方案：第一阶段（顶绳坠落：从轻微摆荡到逐渐增加幅度）、第二阶段（铅攀坠落：从螺栓正下方到螺栓上方不同距离的系统练习，优先选择超角路线减少撞墙风险）、第三阶段（铅攀表现：整合坠落练习于正式攀登中）。辅以积极想象、自我对话、与搭档沟通及恐惧接纳的心理工具。",
+      "keyInsights": [
+        "三阶段渐进方案：顶绳轻微摆荡 → 铅攀螺栓下方 → 螺栓上方不同高度，每阶段充分适应后再升级",
+        "铅攀脱敏从超角路线开始：超角路线坠落时身体远离岩壁，大幅降低撞墙风险，心理体验更正面",
+        "保持焦虑在「可管理范围」（1-10 量表上的 5-6）：过高的焦虑会强化恐惧，适度焦虑才促进脱敏",
+        "积极想象而非灾难化思维：在坠落前进行成功坠落的正面画面预演，替代大脑中的负面场景",
+        "搭档选择是关键变量：选择能提供情感支持、接住手法轻柔（soft catch）的搭档，大幅提升脱敏训练质量"
+      ],
+      "tags": ["系统脱敏", "坠落练习", "恐惧克服", "铅攀心理", "渐进暴露"]
+    },
+    {
+      "id": "art-04-003",
+      "url": "https://trainingforclimbing.com/5-strategies-to-sharpen-concentration-and-climb-better/",
+      "title": "5 Strategies to Sharpen Your Concentration and Climb Better!",
+      "source": "Training For Climbing",
+      "author": "Eric Hörst",
+      "language": "en",
+      "publishDate": "2023-01-24",
+      "lastModified": "2023-12-24",
+      "articleType": "training",
+      "primaryKp": "kp-attention-management",
+      "secondaryKps": ["kp-flow-state"],
+      "quality": {
+        "authority": 4,
+        "depth": 3,
+        "practicality": 5,
+        "recency": 4,
+        "uniqueness": 3,
+        "total": 19
+      },
+      "summary": "Eric Hörst 2023 年发布的攀岩专注力管理五策略：①提前处理分心因素（上墙前与确保者沟通、古典音乐辅助备战）；②使用仪式感行为收窄注意力（固定热身和装备检查流程）；③自我对话引导意识（「保持当下」「专注踩脚」等正向指令词）；④视觉锁定任务相关目标（只盯即将使用的把手和脚点）；⑤将注意力固定在当下时刻（避免回忆过去失败或预期未来结果）。",
+      "keyInsights": [
+        "专注力分为两类：「窄聚焦」（Narrow Focus，专注单一细节）和「宽聚焦」（Broad Focus，整体感知），高水平攀爬需要在两类间灵活切换",
+        "视觉控制是专注力的核心杠杆：精英攀爬者几乎不凭「摸索感觉」找脚点，而是先用眼睛锁定目标再移动",
+        "仪式感（Pre-climb Ritual）的作用：建立固定的上墙前程序将意识转移到任务相关活动，自动屏蔽外部干扰",
+        "正向自我对话指令应是「做什么」而非「不要做什么」：「专注踩脚」比「不要分心」效果显著更好",
+        "当下时刻的专注（Present-moment Focus）是进入流动状态（Flow）的前提条件，也是所有心理表现技能的基础"
+      ],
+      "tags": ["注意力管理", "专注训练", "心理策略", "自我对话", "视觉技巧"]
+    },
+    {
+      "id": "art-04-004",
+      "url": "https://www.strongmindclimbing.com/news-resources/flow-the-basics",
+      "title": "Flow: the basics",
+      "source": "Strong Mind Climbing",
+      "author": "Hazel Findlay",
+      "language": "en",
+      "publishDate": "2024-01-08",
+      "lastModified": "2024-01-08",
+      "articleType": "tutorial",
+      "primaryKp": "kp-flow-state",
+      "secondaryKps": ["kp-attention-management", "kp-fear-management"],
+      "quality": {
+        "authority": 4,
+        "depth": 4,
+        "practicality": 3,
+        "recency": 4,
+        "uniqueness": 4,
+        "total": 19
+      },
+      "summary": "世界级攀岩者和心理教练 Hazel Findlay 2024 年出品的攀岩心流（Flow State）基础理论与应用指南。从神经科学视角解释心流的两个核心机制：显性/隐性系统（过度思考反而降低表现）和副交感/交感神经平衡（平静机警状态）。阐述心流三大前提：技能与挑战匹配、内在动机驱动、恐惧清除。探讨正念和冥想如何作为进入心流的通道工具。",
+      "keyInsights": [
+        "心流定义：完全沉浸在活动本身的状态，「自我消融，时间飞逝，动作连贯流畅，无需刻意思考」",
+        "隐性系统 vs 显性系统：熟练动作由隐性系统（直觉/自动化）处理效率更高，过度意识控制（显性系统）反而阻碍表现",
+        "挑战与技能的精确匹配是心流的核心条件：挑战过高产生焦虑，挑战过低产生无聊，两者都无法进入心流",
+        "恐惧（对坠落/失败）会人为拔高「心理挑战难度」，使本可进入心流的路线因心理障碍而无法触发",
+        "正念（Mindfulness）是心流的通道：当下时刻意识通过感受岩石质感或关注呼吸来激活，而非试图「主动追求心流」"
+      ],
+      "tags": ["心流状态", "最优表现", "正念", "运动心理", "神经科学"]
+    },
+    {
+      "id": "art-04-005",
+      "url": "https://www.in-mind.org/article/psychological-aspects-of-elite-performance-in-new-olympic-disciplines-the-case-of-climbing",
+      "title": "Psychological aspects of elite performance in new Olympic disciplines: The case of climbing",
+      "source": "In-Mind Magazine",
+      "author": "Xavier Sanchez, Julian Henz, Cécile Martha, Jerry Prosper Medernach",
+      "language": "en",
+      "publishDate": "2024-01-01",
+      "lastModified": "2024-01-01",
+      "articleType": "research",
+      "primaryKp": "kp-competition-psychology",
+      "secondaryKps": ["kp-flow-state", "kp-attention-management"],
+      "quality": {
+        "authority": 4,
+        "depth": 4,
+        "practicality": 2,
+        "recency": 4,
+        "uniqueness": 4,
+        "total": 18
+      },
+      "summary": "In-Mind 运动心理学专刊（2024年第6期）发表的奥林匹克攀岩精英心理表现研究综述，由四位研究者撰写。系统梳理四大心理预测因素：身体化规划（运动认知整合）、路线预览策略、运动技能储备库（长期记忆中的动作模式）和风险管理能力。特别强调「心理因素对攀岩成绩的预测力可能优于生理或生物力学指标」，为理解竞技攀岩心理表现提供科学基础。",
+      "keyInsights": [
+        "心理变量对攀岩成绩的预测力可能超过生理和生物力学参数——这是针对攀岩作为奥运项目的重要科学发现",
+        "路线预览（Previewing）中的心理加工：将视觉输入转化为动作计划，包括识别把手功能特征、预测身体位置",
+        "运动技能储备库（Movement Repertoire）：经验丰富攀爬者在长期记忆中储存大量动作模式，能快速识别「熟悉场景」进入自动化执行",
+        "风险认知差异：经验丰富攀爬者能更精确评估动作能力边界和受伤风险，而初学者常高估或低估风险",
+        "竞技压力下心流、自我效能和情绪智力是预测表现的关键心理变量（基于 2025 年同期 Frontiers 研究支持）"
+      ],
+      "tags": ["竞技心理", "奥运攀岩", "精英表现", "路线预览", "运动心理学研究"]
+    },
+    {
+      "id": "art-04-006",
+      "url": "https://rockclimbingrealms.com/build-your-climbing-plan-a-periodization-framework/",
+      "title": "Build Your Climbing Plan: A Periodization Framework",
+      "source": "Rock Climbing Realms",
+      "author": "Alfredo Ramses",
+      "language": "en",
+      "publishDate": "2025-07-21",
+      "lastModified": "2025-10-14",
+      "articleType": "training",
+      "primaryKp": "kp-periodization",
+      "secondaryKps": ["kp-goal-setting", "kp-training-log"],
+      "quality": {
+        "authority": 3,
+        "depth": 4,
+        "practicality": 4,
+        "recency": 5,
+        "uniqueness": 3,
+        "total": 19
+      },
+      "summary": "Rock Climbing Realms 2025 年 7 月发布的攀岩周期化训练框架综合指南。以渐进超负荷、超量补偿（Supercompensation）和一般适应综合征（GAS）为理论基础，系统介绍攀岩训练中的三种周期化模式：线性周期化（Linear）、板块周期化（Block）、波动周期化（Undulating）。提供三步实施流程：自我评估 → 训练阶段排序（基础建设→发展→峰值表现）→ 营养与恢复支持。2025 年 10 月更新。",
+      "keyInsights": [
+        "渐进超负荷（Progressive Overload）是所有训练进步的核心引擎，没有系统性超负荷就没有持续适应",
+        "超量补偿（Supercompensation）原理：训练刺激 → 疲劳 → 恢复 → 能力超过基线的阶段，精确时机是进阶的关键",
+        "线性周期化适合初级攀爬者（稳定递进负荷）；板块周期化适合中高级（集中训练单一特质）；波动周期化适合全年维持表现",
+        "攀岩专项阶段划分建议：基础建设期（有氧耐力+技术）→ 力量发展期（指力+肌肉强度）→ 峰值表现期（具体路线/项目能力）",
+        "自我评估是周期化规划的第一步：诚实分析当前限制因素（指力？技术？耐力？心理？），确保训练重点针对真实短板"
+      ],
+      "tags": ["周期化训练", "训练计划", "线性周期化", "板块周期化", "训练结构"]
+    },
+    {
+      "id": "art-04-007",
+      "url": "https://latticetraining.com/blog/lattice-coaches-educational-series-s-m-a-r-t-goals/",
+      "title": "S.M.A.R.T Goals & Climbing",
+      "source": "Lattice Training",
+      "author": "Tess Whitfield",
+      "language": "en",
+      "publishDate": "2021-09-28",
+      "lastModified": "2024-09-24",
+      "articleType": "training",
+      "primaryKp": "kp-goal-setting",
+      "secondaryKps": ["kp-periodization", "kp-training-log"],
+      "quality": {
+        "authority": 4,
+        "depth": 3,
+        "practicality": 4,
+        "recency": 4,
+        "uniqueness": 3,
+        "total": 18
+      },
+      "summary": "Lattice Training 教练 Tess Whitfield 出品的攀岩目标设定 SMART 框架实用指南（2024 年更新）。系统讲解攀岩目标的三个层次：结果目标（Outcome，外部成绩）、表现目标（Performance，个人最佳表现）和过程目标（Process，可控行为），并推荐以过程目标为核心建立心理弹性。特别强调目标过多的风险，以及将目标书面化并找问责搭档的执行策略。",
+      "keyInsights": [
+        "SMART 框架：Specific（具体，如「以正确技术完成 5.11c」）、Measurable（可测量）、Attainable（可达成）、Relevant（相关）、Time-based（有截止期）",
+        "三类目标层次：结果目标（容易受外部因素影响，稳定性低）< 表现目标（更稳定）< 过程目标（完全可控，最能建立信心）",
+        "过程目标的优势：专注可控行为本身而非结果，在高压情境（比赛/冲线）中维持专注力和心理稳定",
+        "写下目标（Write it down）的重要性：书面化目标比口头目标完成率显著更高，还能定期检查进展",
+        "目标过载警告：同时追求多项攀岩风格进步可能产生冲突（如同时提升耐力和最大力量），应聚焦单一优先项"
+      ],
+      "tags": ["目标设定", "SMART目标", "过程目标", "训练规划", "Lattice Training"]
+    },
+    {
+      "id": "art-04-008",
+      "url": "https://latticetraining.com/blog/training-tips-for-climbers-keeping-a-training-log/",
+      "title": "Training Tips for Climbers | Keeping a Training Log",
+      "source": "Lattice Training",
+      "author": "Jen Wood",
+      "language": "en",
+      "publishDate": "2022-01-25",
+      "lastModified": "2023-04-05",
+      "articleType": "training",
+      "primaryKp": "kp-training-log",
+      "secondaryKps": ["kp-goal-setting", "kp-periodization"],
+      "quality": {
+        "authority": 4,
+        "depth": 3,
+        "practicality": 5,
+        "recency": 3,
+        "uniqueness": 3,
+        "total": 18
+      },
+      "summary": "Lattice Training 教练 Jen Wood 出品的攀岩训练日志管理指南。从「为何记录」（识别进步模式、监测能量状态、发现什么有效）、「何时记录」（训练结束立即记录最准确）、「记录什么」（负重量、组数/次数、RPE 主观疲劳感、专注技能、挑战动作、积极成果）三个维度提供系统建议。特别强调记录行为本身的心理问责效应。",
+      "keyInsights": [
+        "最佳记录时机：训练结束时立即记录，不要等到「改天」——即时记录的准确性和感受真实性远高于事后回忆",
+        "RPE（主观疲劳感评分）是核心指标：通过跟踪主观疲劳趋势，可以早期识别过度训练信号（疲劳不减但 RPE 持续攀升）",
+        "攀岩专项记录要素：除传统力量训练数据外，需记录专注技能（如本次特别练习的动态动作或板岩技巧）和挣扎过的具体动作",
+        "正向记录的力量：刻意记录训练中的积极成果（而非只记失败），有助于建立长期训练动力和自我效能感",
+        "训练日志作为问责工具：当你知道需要记录时，训练的认真程度和完整性都会提升——记录行为本身激励行动"
+      ],
+      "tags": ["训练日志", "训练记录", "进度追踪", "RPE", "训练管理"]
+    },
+    {
+      "id": "art-04-009",
+      "url": "https://trainingforclimbing.com/projecting-101-6-tips-to-sending-your-project/",
+      "title": "Projecting 101 – 6 Tips to Sending Your Project!",
+      "source": "Training For Climbing",
+      "author": "Eric Hörst",
+      "language": "en",
+      "publishDate": "2024-07-10",
+      "lastModified": "2024-07-16",
+      "articleType": "training",
+      "primaryKp": "kp-projecting-strategy",
+      "secondaryKps": ["kp-working-linking", "kp-plateau-breaking"],
+      "quality": {
+        "authority": 4,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 4,
+        "uniqueness": 3,
+        "total": 20
+      },
+      "summary": "Eric Hörst 2024 年 7 月发布的攀岩项目冲线（Projecting）完整策略。六步骤框架：①选择合适难度路线（比最难红点低 2 级到高 1 级内）；②将路线分成 3-5 段分别练习；③不接受别人的「最优路线」直接探索属于自己的解法；④将核心难点练到近乎自动化（失败率降到 30% 以下）；⑤充分休息 30-60 分钟后进行想象复演；⑥以平静而充满信念的心态发起冲线尝试。",
+      "keyInsights": [
+        "项目路线的正确难度区间：高于最近红点 0-1 级（挑战区）或低于 2 级（技术巩固区），超出此范围效率极低",
+        "「分段」（Chunking）是核心方法：在明显休息点分段独立训练，每段建立足够熟练度后才开始链接",
+        "核心难点熟练标准：不仅要能完成，还要能在预设的最多 3 次尝试中 2 次成功——仅「偶尔能做到」远不够",
+        "休息与想象复演：冲线前充分休息并进行全程成功的心理预演，将表现期望设置在最优状态",
+        "正确对待失败：将「没能冲线」视为「又发现了一个需要工作的点」而非个人失败，保持好奇心驱动的探索姿态"
+      ],
+      "tags": ["项目策略", "冲线技术", "攀岩方法论", "挑战路线", "Eric Hörst"]
+    },
+    {
+      "id": "art-04-010",
+      "url": "https://www.powercompanyclimbing.com/blog/2017/1/9/boulder-tactics-101-overlapping-links",
+      "title": "Bouldering Tactics 101: Overlapping Links",
+      "source": "Power Company Climbing",
+      "author": "Kris Hampton",
+      "language": "en",
+      "publishDate": "2019-04-20",
+      "lastModified": "2023-09-20",
+      "articleType": "training",
+      "primaryKp": "kp-working-linking",
+      "secondaryKps": ["kp-projecting-strategy"],
+      "quality": {
+        "authority": 4,
+        "depth": 3,
+        "practicality": 5,
+        "recency": 3,
+        "uniqueness": 4,
+        "total": 19
+      },
+      "summary": "Power Company Climbing 创始人 Kris Hampton 出品的重叠链接（Overlapping Links）抱石战术视频/文章，2023 年更新。核心观点：大多数攀爬者犯「地理假象」错误——身体物理上接近顶部并不等于接近成功。提出「从中间开始」策略：通过借力辅助从核心难段开始练习出口段，而非每次都从底部开始消耗。强调「刻意重复」使特定动作进入身体记忆的重要性。",
+      "keyInsights": [
+        "「地理假象」（Geographic Illusion）：物理上接近岩块顶部不等于心理和技术上接近发送，出口段不熟会成为反复阻碍",
+        "重叠链接策略：先熟练出口段，再向下延伸链接中段，再链接入口——与多数人的直觉顺序相反",
+        "借力（Power Spot）辅助的战略性使用：不是为了偷懒，而是为了在消耗最小的情况下重复练习特定动作段",
+        "「刻意重复」（Deliberate Repetition）：反复在特定动作上停留让身体自然吸收细节，而非总是试图完成完整路线",
+        "「从中间开始」节省皮肤和精力：抱石项目攻关中保存皮肤状态和精力对整体效率影响极大，避免每次都从底部热身"
+      ],
+      "tags": ["重叠链接", "抱石战术", "项目攻关", "训练策略", "Power Company"]
+    },
+    {
+      "id": "art-04-011",
+      "url": "https://latticetraining.com/blog/how-to-overcome-a-plateau-in-climbing/",
+      "title": "How to Overcome A Plateau in Climbing",
+      "source": "Lattice Training",
+      "author": "Elle Hutchens",
+      "language": "en",
+      "publishDate": "2023-10-30",
+      "lastModified": "2024-12-19",
+      "articleType": "training",
+      "primaryKp": "kp-plateau-breaking",
+      "secondaryKps": ["kp-goal-setting", "kp-periodization"],
+      "quality": {
+        "authority": 4,
+        "depth": 3,
+        "practicality": 4,
+        "recency": 4,
+        "uniqueness": 3,
+        "total": 18
+      },
+      "summary": "Lattice Training 教练 Elle Hutchens 2023 年发布（2024 年更新）的突破攀岩瓶颈期六策略：①减少对力量的过度依赖（新手阶段弱手指反而促进技术效率）；②练习高变化性技术训练（单手攀岩等方式自主解决问题）；③主动尝试超出舒适区的路线风格；④培养成长型心态（「这很难但我来试试」代替「我做不到」）；⑤根据身心状态灵活调整训练强度；⑥从错误中学习并反复练习不熟悉的动作模式。",
+      "keyInsights": [
+        "初学者的「弱指优势」：弱手指迫使发现更省力的移动方式，一旦过早追求指力可能掩盖技术短板",
+        "高变化性训练（Variability Drills）vs 重复练习：攀岩是技能导向运动，通过多样化困境解决问题比固定重复更有效",
+        "瓶颈期最常见原因：过于专注自己擅长的攀爬风格，导致技术单一化，遇到不熟悉风格就卡壳",
+        "疲劳管理：瓶颈期经常源于慢性疲劳积累而非能力不足，充分休息（1-2 周完全减量）有时是最有效的「提升方法」",
+        "成长型心态（Growth Mindset）的实际应用：遇到困难路线后主动分析「哪里动作不对」而非「我不擅长这类路线」"
+      ],
+      "tags": ["瓶颈期", "停滞突破", "训练策略", "技术提升", "成长心态"]
+    }
+  ]
+}

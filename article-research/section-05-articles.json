@@ -1,0 +1,564 @@
+{
+  "_meta": {
+    "section": "section-05",
+    "generatedAt": "2026-03-03",
+    "totalArticles": 19,
+    "coveredKps": 19,
+    "totalKps": 19,
+    "uncoveredKps": [],
+    "partiallyCoveredKps": []
+  },
+  "articles": [
+    {
+      "id": "art-05-001",
+      "url": "https://www.99boulders.com/best-climbing-shoes",
+      "title": "The Best Climbing Shoes in 2025",
+      "source": "99Boulders",
+      "author": "Alex Beale",
+      "language": "en",
+      "publishDate": "2021-09",
+      "lastModified": "2025-01",
+      "articleType": "gear-review",
+      "primaryKp": "kp-climbing-shoes",
+      "secondaryKps": [],
+      "quality": {
+        "authority": 3,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 4,
+        "uniqueness": 3,
+        "total": 19
+      },
+      "summary": "全面评测2025年最佳攀岩鞋，涵盖抱石、运动攀、全能和入门四大类别，提供详细的鞋型、鞋底、鞋楦和松紧度选购指南，帮助不同水平攀爬者找到适合自己的攀岩鞋。",
+      "keyInsights": [
+        "攀岩鞋按用途分为抱石（激进型、下弯鞋楦）、运动攀（中等激进）、全能（中性鞋楦）和入门（舒适合脚）四类",
+        "新手应优先选择中性或中等激进的舒适鞋型，而非追求激进的专业赛鞋",
+        "鞋底橡胶（Vibram XS Grip 等）和鞋楦下弯程度决定攀岩鞋的用途适配性",
+        "尺码选择需根据脚型和使用场景权衡舒适性与性能（抱石可更紧，运动攀可宽松一个码）"
+      ],
+      "tags": ["攀岩鞋", "装备选购", "鞋型", "鞋底", "新手装备"]
+    },
+    {
+      "id": "art-05-002",
+      "url": "https://gripped.com/indoor-climbing/how-to-choose-the-best-chalk/",
+      "title": "How to Choose the Best Chalk for Rock Climbing",
+      "source": "Gripped Magazine",
+      "author": "Noah Walker",
+      "language": "en",
+      "publishDate": "2022-07",
+      "lastModified": "2022-07",
+      "articleType": "gear-review",
+      "primaryKp": "kp-chalk",
+      "secondaryKps": [],
+      "quality": {
+        "authority": 4,
+        "depth": 3,
+        "practicality": 4,
+        "recency": 2,
+        "uniqueness": 3,
+        "total": 16
+      },
+      "summary": "系统介绍攀岩镁粉的类型（散粉、块状、液态）和关键选购因素，包括粒度、吸湿性和使用场景，帮助攀爬者根据个人需求和攀岩环境选择合适的镁粉产品。",
+      "keyInsights": [
+        "攀岩镁粉分为散粉（方便、覆盖均匀）、块状（可按需磨碎、经济实惠）和液态（持久、防粉尘）三类",
+        "室内攀岩馆通常限制散粉使用，液态镁粉是环保和规则友好的选择",
+        "镁粉的主要作用是吸收汗液、增加手部摩擦力，防止打滑",
+        "镁粉袋选择需考虑容量、开口方式和固定方式（腰带 vs. 绳结）"
+      ],
+      "tags": ["镁粉", "装备选购", "散粉", "液态镁粉", "室内攀岩"]
+    },
+    {
+      "id": "art-05-003",
+      "url": "https://www.advnture.com/features/climbing-clothing",
+      "title": "What to Wear for Rock Climbing: A Guide for Beginners",
+      "source": "Advnture",
+      "author": "Julia Clarke",
+      "language": "en",
+      "publishDate": "2022-03",
+      "lastModified": "2024-07",
+      "articleType": "gear-review",
+      "primaryKp": "kp-climbing-clothing",
+      "secondaryKps": [],
+      "quality": {
+        "authority": 3,
+        "depth": 3,
+        "practicality": 4,
+        "recency": 4,
+        "uniqueness": 3,
+        "total": 17
+      },
+      "summary": "为新手攀爬者提供全面的攀岩服装指南，涵盖室内外攀岩的服装需求差异、面料选择（弹力、耐磨性）、关键功能（活动范围、贴合度）及整体穿搭建议。",
+      "keyInsights": [
+        "攀岩服装优先考虑活动自由度（弹力面料、剪裁设计）和耐磨性",
+        "室内攀岩可穿运动服或专用攀岩裤，户外攀岩需额外考虑防风保暖层",
+        "避免过于宽松的裤子，否则会影响在高脚点时的视线和动作精确性",
+        "攀岩专用裤多采用关节处预成型设计（articulated knees），保证高脚步时的活动范围"
+      ],
+      "tags": ["攀岩服装", "装备选购", "新手装备", "面料", "户外攀岩"]
+    },
+    {
+      "id": "art-05-004",
+      "url": "https://www.99boulders.com/best-climbing-harnesses",
+      "title": "7 Best Climbing Harnesses in 2026",
+      "source": "99Boulders",
+      "author": "Willis Kuelthau",
+      "language": "en",
+      "publishDate": "2021-04",
+      "lastModified": "2022-02",
+      "articleType": "gear-review",
+      "primaryKp": "kp-harness",
+      "secondaryKps": [],
+      "quality": {
+        "authority": 3,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 2,
+        "uniqueness": 3,
+        "total": 17
+      },
+      "summary": "系统评测七款主流攀岩安全带并提供全面选购指南，涵盖运动攀、传统攀和高山攀三种用途类型，重点解析腰部垫子、腿环调节、装备环数量和悬挂舒适度等关键选购参数。",
+      "keyInsights": [
+        "安全带按用途分为运动攀（强调悬挂舒适度和机动性）、传统攀（需要宽敞的装备环）和高山攀（轻量化、可收纳）",
+        "腿环是否可调节影响安全带的适用性，分层穿搭（冬季）时可调节腿环更为实用",
+        "装备环数量和位置是传统攀爬者选择安全带的核心考量点，建议至少 4 个装备环",
+        "新手推荐 Edelrid Jay II（价格合理、全能）或 Black Diamond Momentum（经典入门款）"
+      ],
+      "tags": ["安全带", "装备选购", "运动攀", "传统攀", "高山攀"]
+    },
+    {
+      "id": "art-05-005",
+      "url": "https://www.99boulders.com/best-climbing-helmets",
+      "title": "5 Best Climbing Helmets in 2025",
+      "source": "99Boulders",
+      "author": "Alex Beale",
+      "language": "en",
+      "publishDate": "2020-11",
+      "lastModified": "2022-03",
+      "articleType": "gear-review",
+      "primaryKp": "kp-helmet",
+      "secondaryKps": [],
+      "quality": {
+        "authority": 3,
+        "depth": 3,
+        "practicality": 4,
+        "recency": 2,
+        "uniqueness": 3,
+        "total": 15
+      },
+      "summary": "评测五款热门攀岩头盔并提供选购指南，重点分析硬壳（ABS）与泡沫（EPS/EPP）头盔的防护特性差异、舒适度权衡，以及 MIPS 防震技术的应用，帮助攀爬者根据攀岩类型选择合适头盔。",
+      "keyInsights": [
+        "头盔分为硬壳（ABS，耐用，适合传统攀和高山攀）和轻量泡沫（EPS/EPP，轻便，适合运动攀和多绳距）两大类",
+        "EPP 泡沫（如 Petzl 使用）比 EPS 更抗裂，可提供侧面冲击保护，同时保持轻量化",
+        "舒适度、重量和防护性三者需要权衡，长时间多绳距攀岩者应优先选择轻量舒适的泡沫头盔",
+        "所有头盔都能提高安全性，但对于多绳距或高山攀，应选择专为此设计的高防护等级产品"
+      ],
+      "tags": ["头盔", "装备选购", "攀岩安全", "硬壳", "EPP泡沫"]
+    },
+    {
+      "id": "art-05-006",
+      "url": "https://gripped.com/profiles/how-to-choose-your-first-outdoor-climbing-rope/",
+      "title": "How to Choose Your First Outdoor Climbing Rope",
+      "source": "Gripped Magazine",
+      "author": "David Smart",
+      "language": "en",
+      "publishDate": "2020-06",
+      "lastModified": "2020-06",
+      "articleType": "gear-review",
+      "primaryKp": "kp-rope",
+      "secondaryKps": [],
+      "quality": {
+        "authority": 4,
+        "depth": 4,
+        "practicality": 4,
+        "recency": 1,
+        "uniqueness": 3,
+        "total": 16
+      },
+      "summary": "为初次购买户外攀岩绳的攀爬者提供系统选购指南，涵盖单绳与半绳的区别、绳径选择（干绳 vs. 普通绳）、UIAA/CE 认证标准、坠落次数和动态延伸率等核心技术参数。",
+      "keyInsights": [
+        "户外先锋攀建议选择 9.5–10mm 的单绳，绳长 60m 适合大多数运动攀路线",
+        "干绳（dry treatment）适合潮湿环境，可防止绳子吸水变重变硬，但价格更高",
+        "UIAA 认证的坠落次数（fall rating）是绳子耐久性的重要指标，运动攀至少需通过 5 次测试坠落",
+        "绳径越细，重量越轻但耐久性越低；初学者推荐选择直径 9.8–10mm 的全能绳"
+      ],
+      "tags": ["攀岩绳", "装备选购", "单绳", "干绳", "UIAA认证"]
+    },
+    {
+      "id": "art-05-007",
+      "url": "https://www.99boulders.com/grigri-vs-atc",
+      "title": "GriGri vs. ATC: When to Use Each Belay Device",
+      "source": "99Boulders",
+      "author": "Willis Kuelthau",
+      "language": "en",
+      "publishDate": "2021-08",
+      "lastModified": "2022-02",
+      "articleType": "gear-review",
+      "primaryKp": "kp-belay-device",
+      "secondaryKps": [],
+      "quality": {
+        "authority": 3,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 2,
+        "uniqueness": 4,
+        "total": 18
+      },
+      "summary": "深入对比 Petzl GriGri（辅助制动）与 Black Diamond ATC（管状制动器）两类确保器，从工作原理、适用场景、学习曲线和价格等维度分析各自优劣，帮助攀爬者选择适合自己的确保器类型。",
+      "keyInsights": [
+        "GriGri 通过凸轮机制提供辅助制动，适合先锋确保和频繁悬挂的运动攀练习，但价格更高、重量较大",
+        "ATC 管状确保器轻便、多功能（支持半绳/双绳/顶绳），适合传统攀和多绳距，但需正确的制动手技术",
+        "初学者可从 ATC 入手学习制动基础，再过渡到 GriGri；两者并非互斥而是互补",
+        "辅助制动器不能替代正确的确保技术——无论使用哪种确保器，制动手始终不能离开绳子"
+      ],
+      "tags": ["确保器", "GriGri", "ATC", "装备选购", "先锋攀"]
+    },
+    {
+      "id": "art-05-008",
+      "url": "https://www.99boulders.com/best-quickdraws",
+      "title": "11 Best Quickdraws for Climbing in 2025",
+      "source": "99Boulders",
+      "author": "Willis Kuelthau",
+      "language": "en",
+      "publishDate": "2021-03",
+      "lastModified": "2022-02",
+      "articleType": "gear-review",
+      "primaryKp": "kp-quickdraw",
+      "secondaryKps": [],
+      "quality": {
+        "authority": 3,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 2,
+        "uniqueness": 3,
+        "total": 17
+      },
+      "summary": "全面评测11款主流快挂并提供选购指南，区分运动攀（厚织带、抓握感）和传统攀（轻量钢丝门）两大用途类型，解析主锁形状（直门 vs. 弯门）、织带宽度和长度对挂绳体验的影响。",
+      "keyInsights": [
+        "快挂按用途分为运动攀型（厚织带、耐磨、抓握感优先）和传统攀型（轻量化、钢丝门锁）",
+        "下锁使用弯门锁方便挂绳，上锁推荐钢丝门锁减重；组合搭配是主流选择",
+        "织带长度（10cm、12cm、17cm）影响绳路走向和绳阻，路线曲折时用更长的快挂",
+        "Petzl Spirit Express 是运动攀金标准，Black Diamond Oz 是传统攀最轻量选择（63g）"
+      ],
+      "tags": ["快挂", "装备选购", "运动攀", "传统攀", "弯门锁"]
+    },
+    {
+      "id": "art-05-009",
+      "url": "https://www.vdiffclimbing.com/nuts/",
+      "title": "Climbing Nuts and Stoppers: The Complete Guide",
+      "source": "VDiff Climbing",
+      "author": "VDiff",
+      "language": "en",
+      "publishDate": "2025-12",
+      "lastModified": "2026-01",
+      "articleType": "gear-review",
+      "primaryKp": "kp-nuts-stoppers",
+      "secondaryKps": [],
+      "quality": {
+        "authority": 4,
+        "depth": 4,
+        "practicality": 4,
+        "recency": 5,
+        "uniqueness": 3,
+        "total": 20
+      },
+      "summary": "2026年1月最新更新的攀岩坚果和止塞完整指南，系统讲解不同尺寸、形状（直型 vs. 偏置型）和材质的坚果选择逻辑，以及如何在裂缝中识别理想放置点、测试放置稳定性和取出装置的技巧。",
+      "keyInsights": [
+        "坚果（nuts/stoppers）是传统攀岩中最轻便、经济的保护装置，在狭窄裂缝中配合楔形放置",
+        "偏置坚果（offset nuts）适合喇叭形裂缝和岩钉疤，普通坚果适合平行裂缝",
+        "入门套装推荐从 BD 标准坚果套装（1–10 号）开始，覆盖最常用的裂缝宽度范围",
+        "坚果放置后需用拇指下压并横向摇晃测试，确保在坠落力方向上有稳定接触面"
+      ],
+      "tags": ["坚果", "止塞", "传统攀装备", "保护装置", "裂缝攀岩"]
+    },
+    {
+      "id": "art-05-010",
+      "url": "https://www.99boulders.com/how-to-build-a-trad-rack",
+      "title": "How to Build Your First Trad Rack in 8 Steps",
+      "source": "99Boulders",
+      "author": "Willis Kuelthau",
+      "language": "en",
+      "publishDate": "2021-03",
+      "lastModified": "2022-02",
+      "articleType": "gear-review",
+      "primaryKp": "kp-cams",
+      "secondaryKps": ["kp-nuts-stoppers"],
+      "quality": {
+        "authority": 3,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 2,
+        "uniqueness": 4,
+        "total": 18
+      },
+      "summary": "通过八步骤框架系统指导传统攀爬者建立第一套保护装备组合，重点讲解凸轮（cams）的型号、品牌和尺寸选择逻辑，以及如何根据岩石类型、常攀路线和预算分阶段构建个人装备库。",
+      "keyInsights": [
+        "BD Camalot C4 是传统攀凸轮的行业标准，Wild Country 和 DMM 是新兴高口碑选择",
+        "入门凸轮套装推荐 0.5\"–3\" 各一个，最常用的 0.4–1\" 尺寸优先配置双份",
+        "细杆软杆凸轮适合斜向/水平裂缝，选购前应了解当地岩场的主要裂缝类型",
+        "装备应分阶段购买：先从最常用尺寸入手，随经验积累和攀岩场地多样化再逐步扩充"
+      ],
+      "tags": ["凸轮", "传统攀装备", "装备选购", "传统攀架", "保护放置"]
+    },
+    {
+      "id": "art-05-011",
+      "url": "https://americanalpineclub.org/news/2019/4/4/pitons",
+      "title": "Pitons: A Guide to Gear",
+      "source": "American Alpine Club",
+      "author": "Allison Albright",
+      "language": "en",
+      "publishDate": "2018-12",
+      "lastModified": "2025-05",
+      "articleType": "gear-review",
+      "primaryKp": "kp-pitons",
+      "secondaryKps": [],
+      "quality": {
+        "authority": 5,
+        "depth": 3,
+        "practicality": 3,
+        "recency": 4,
+        "uniqueness": 4,
+        "total": 19
+      },
+      "summary": "美国高山俱乐部（AAC）权威出版的岩钉装备指南，讲解不同岩钉类型（角钉、刀片钉、水平钉等）的适用裂缝形状，以及岩钉作为大岩壁和传统攀保护装置的历史背景与现代使用场景，2025年5月完成维护更新。",
+      "keyInsights": [
+        "岩钉按裂缝形状分为刀片钉（knife blade，超薄裂缝）、角钉（angle piton，角落裂缝）、RURP（极窄裂缝）等多种类型",
+        "现代岩钉主要用于大岩壁人工攀岩，在没有可放置主动保护装置的地方提供固定点",
+        "锤击放置的岩钉会损坏岩石（剥落和岩钉疤），在环境敏感区域应尽量避免使用",
+        "铬钼钢岩钉比软铁岩钉更坚固、可重复使用，是现代大岩壁攀岩的首选材质"
+      ],
+      "tags": ["岩钉", "传统攀装备", "大岩壁", "人工攀岩", "保护装置"]
+    },
+    {
+      "id": "art-05-012",
+      "url": "https://www.vdiffclimbing.com/slings/",
+      "title": "Trad Climbing Gear: Slings",
+      "source": "VDiff Climbing",
+      "author": "VDiff",
+      "language": "en",
+      "publishDate": "2025-12",
+      "lastModified": "2026-01",
+      "articleType": "gear-review",
+      "primaryKp": "kp-anchor-building",
+      "secondaryKps": [],
+      "quality": {
+        "authority": 4,
+        "depth": 3,
+        "practicality": 4,
+        "recency": 5,
+        "uniqueness": 3,
+        "total": 19
+      },
+      "summary": "2026年1月最新更新的传统攀绳环装备指南，系统讲解尼龙与 Dyneema 绳环的材质差异、强度特性和适用场景，以及不同长度绳环（60cm、120cm、240cm）在建立锚点和延伸保护中的具体应用方法。",
+      "keyInsights": [
+        "尼龙绳环（nylon slings）比 Dyneema 更重但更耐磨、UV 老化更慢，适合长期高频使用",
+        "Dyneema 绳环更轻、强度更高，但在结点处强度损失更大，不建议打结使用",
+        "60cm 绳环用于延伸单一保护装置，120cm 可绕过岩角或用于建立等力分配锚点",
+        "240cm 超长绳环（cordelette）是建立多点锚点系统的常用选择，需配合适当的结绳方法"
+      ],
+      "tags": ["绳环", "锚点建立", "传统攀装备", "Dyneema", "尼龙"]
+    },
+    {
+      "id": "art-05-013",
+      "url": "https://www.alpinesavvy.com/blog/portaledge-setup-top-tips",
+      "title": "Portaledge Setup: Top Tips",
+      "source": "Alpinesavvy",
+      "author": "John Godino",
+      "language": "en",
+      "publishDate": "2018-08",
+      "lastModified": "2025-12",
+      "articleType": "gear-review",
+      "primaryKp": "kp-portaledge",
+      "secondaryKps": [],
+      "quality": {
+        "authority": 4,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 4,
+        "uniqueness": 4,
+        "total": 21
+      },
+      "summary": "John Godino 的岩壁床（portaledge）实战配置指南，涵盖悬挂系统搭建、防翻绑扎、雨篷定位、装备整理和安全备份等核心操作要点，是目前可操作性最强的岩壁营地装备设置教程之一，2025年12月更新。",
+      "keyInsights": [
+        "岩壁床的主挂点应配合可调 daisy chain 使用，并用 8mm 绳从独立螺栓做安全备份（睡眠时不能仅依赖织带）",
+        "通过在四角绑扎绳环连接至锚点防止岩壁床翻转——这是新手最容易忽视的安全步骤",
+        "雨篷门面向吊袋方向，方便在固定位置取用装备和食物，并保持生活空间整洁",
+        "用颜色编码的收纳袋管理多日岩壁营地装备，避免在竖直环境中找不到关键物品"
+      ],
+      "tags": ["岩壁床", "大岩壁装备", "营地搭建", "装备配置", "安全备份"]
+    },
+    {
+      "id": "art-05-014",
+      "url": "https://www.vdiffclimbing.com/bigwall-haulbag/",
+      "title": "How To Climb a Big Wall: Packing the Haulbag",
+      "source": "VDiff Climbing",
+      "author": "VDiff",
+      "language": "en",
+      "publishDate": "2025-12",
+      "lastModified": "2026-01",
+      "articleType": "gear-review",
+      "primaryKp": "kp-haul-bag",
+      "secondaryKps": [],
+      "quality": {
+        "authority": 4,
+        "depth": 4,
+        "practicality": 4,
+        "recency": 5,
+        "uniqueness": 3,
+        "total": 20
+      },
+      "summary": "2026年1月最新更新的大岩壁吊袋选购与打包指南，讲解不同容量吊袋的适用场景、打包顺序原则（重物在下、常用品在上）、防水措施和固定系统，以及如何避免吊袋损坏和物品丢失的实用建议。",
+      "keyInsights": [
+        "大岩壁吊袋容量选择依据攀登天数：一日行程 70L、多日行程 130L+，按需求选购",
+        "打包原则：重物（水、食物）放底层，常用装备（头灯、雨衣）放顶层易取位置",
+        "吊袋底部放置泡沫垫保护物品，四周用衣物填充防止物品在拖拽过程中受损",
+        "吊袋需设置独立的运输绑带系统，与攀登绑带分开避免操作混乱"
+      ],
+      "tags": ["吊袋", "大岩壁装备", "打包策略", "装备管理", "大岩壁"]
+    },
+    {
+      "id": "art-05-015",
+      "url": "https://www.vdiffclimbing.com/bigwall-gear/",
+      "title": "Big Wall Climbing Gear: The Essential Equipment",
+      "source": "VDiff Climbing",
+      "author": "VDiff",
+      "language": "en",
+      "publishDate": "2025-12",
+      "lastModified": "2026-01",
+      "articleType": "gear-review",
+      "primaryKp": "kp-ascender",
+      "secondaryKps": ["kp-haul-bag"],
+      "quality": {
+        "authority": 4,
+        "depth": 4,
+        "practicality": 4,
+        "recency": 5,
+        "uniqueness": 3,
+        "total": 20
+      },
+      "summary": "2026年1月最新更新的大岩壁核心装备完整清单，系统介绍上升器（ascenders）、滑轮系统（haul system）、下降器、固定点装备等的选购标准，以及大岩壁装备系统的整体逻辑和不同产品间的兼容性考量。",
+      "keyInsights": [
+        "上升器分为手持式（如 Petzl Ascension）和胸式（如 Petzl Croll），两者组合使用是标准大岩壁上升方案",
+        "大岩壁滑轮系统（3:1 或 6:1）是拖拽重型吊袋的核心装备，需专门学习操作方法",
+        "大岩壁专用确保器（如 Petzl ID）支持辅助制动和多档下降速度调节，适合复杂下降场景",
+        "装备总重量应作为大岩壁行程规划的关键变量，每增加一天约需额外 3–5kg 的水和食物"
+      ],
+      "tags": ["上升器", "大岩壁装备", "滑轮系统", "装备清单", "大岩壁"]
+    },
+    {
+      "id": "art-05-016",
+      "url": "https://trainingforclimbing.com/intro-to-fingerboard-training/",
+      "title": "Introduction to Hangboard (Fingerboard) Training for Climbers",
+      "source": "Training For Climbing",
+      "author": "Eric Hörst",
+      "language": "en",
+      "publishDate": "2016-02",
+      "lastModified": "2023-01",
+      "articleType": "training",
+      "primaryKp": "kp-hangboard-gear",
+      "secondaryKps": [],
+      "quality": {
+        "authority": 4,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 3,
+        "uniqueness": 4,
+        "total": 20
+      },
+      "summary": "Eric Hörst 权威出品的指力板训练入门指南，涵盖指力板的种类选择（木质 vs. 树脂、刃型 vs. 口袋型）、安装要求、适合人群、训练频率和进阶逻辑，是理解指力板装备功能和训练应用最系统的教程，2023年1月更新。",
+      "keyInsights": [
+        "指力板按材质分为木质（亲肤、适合长时间训练）和树脂（握点多样、适合高强度练习）",
+        "选择指力板时应优先选择提供多种刃型深度（10–45mm）和不同宽度槽型的综合款",
+        "安装位置应确保门框承重安全，下方放垫子保护；悬吊式比固定墙式更灵活、可移动",
+        "初学者应在至少 2 年攀岩基础后再开始专项指力板训练，避免腱鞘和指节过早损伤"
+      ],
+      "tags": ["指力板", "训练装备", "手指力量", "家庭训练", "进阶训练"]
+    },
+    {
+      "id": "art-05-017",
+      "url": "https://trainingforclimbing.com/5-campus-board-exercises-to-train-contact-strength-for-climbing/",
+      "title": "5 Campus Board Exercises to Train Contact Strength for Climbing",
+      "source": "Training For Climbing",
+      "author": "Lucie Hanes",
+      "language": "en",
+      "publishDate": "2024-03",
+      "lastModified": "2024-03",
+      "articleType": "training",
+      "primaryKp": "kp-campus-board-gear",
+      "secondaryKps": [],
+      "quality": {
+        "authority": 4,
+        "depth": 3,
+        "practicality": 4,
+        "recency": 4,
+        "uniqueness": 3,
+        "total": 18
+      },
+      "summary": "Training For Climbing 出品的校园板五大训练动作教程，介绍校园板作为训练装备的设计逻辑（无脚点、纯上肢力量）和不同难度练习，包括上下跳级、单臂锁定和接触力量专项练习，同时涵盖校园板的安全使用原则。",
+      "keyInsights": [
+        "校园板（campus board）是专为爆发力和接触力量（contact strength）训练设计的无脚攀训练装置",
+        "标准校园板由无纹理木板制成，踏板间距约 22cm，使用者仅靠双手在踏板间移动",
+        "核心训练动作包括：双手同步上跳（matching）、隔级跳（skipping rungs）和单臂锁定稳定",
+        "校园板训练强度极高，建议仅供有 3 年以上攀岩基础的高级攀爬者使用，每周最多 2 次"
+      ],
+      "tags": ["校园板", "训练装备", "爆发力", "接触力量", "进阶训练"]
+    },
+    {
+      "id": "art-05-018",
+      "url": "https://gripped.com/indoor-climbing/how-to-use-rings-for-better-tension-in-climbing/",
+      "title": "How To Use Rings For Better Tension in Climbing",
+      "source": "Gripped Magazine",
+      "author": "Noah Walker",
+      "language": "en",
+      "publishDate": "2022-04",
+      "lastModified": "2022-04",
+      "articleType": "training",
+      "primaryKp": "kp-gymnastic-rings",
+      "secondaryKps": [],
+      "quality": {
+        "authority": 4,
+        "depth": 3,
+        "practicality": 4,
+        "recency": 2,
+        "uniqueness": 4,
+        "total": 17
+      },
+      "summary": "Gripped 出品的体操环攀岩训练应用指南，解释体操环如何训练攀岩所需的核心张力（body tension）和肩部稳定性，提供具体的基础和进阶动作序列，以及体操环相比固定拉力架的独特训练优势。",
+      "keyInsights": [
+        "体操环的不稳定性迫使肩部稳定肌群和核心同时工作，高度模拟攀岩中维持身体张力的神经肌肉需求",
+        "入门动作：吊环支撑（支撑在环上）、倒置划船、窄握引体——从简单稳定动作开始建立基础",
+        "进阶动作：吊环双臂侧平支撑（iron cross）、屈体支撑（tuck planche）对肩部力量要求极高",
+        "体操环重量轻、易安装（天花板固定点或专用框架），是家庭训练室的高性价比多功能装备"
+      ],
+      "tags": ["体操环", "训练装备", "核心张力", "肩部稳定", "家庭训练"]
+    },
+    {
+      "id": "art-05-019",
+      "url": "https://trainingforclimbing.com/interactive-climbing-boards/",
+      "title": "Get Lit: An Introduction to Interactive Climbing Boards",
+      "source": "Training For Climbing",
+      "author": "Lucie Hanes",
+      "language": "en",
+      "publishDate": "2023-02",
+      "lastModified": "2023-12",
+      "articleType": "training",
+      "primaryKp": "kp-system-wall",
+      "secondaryKps": [],
+      "quality": {
+        "authority": 4,
+        "depth": 4,
+        "practicality": 4,
+        "recency": 3,
+        "uniqueness": 4,
+        "total": 19
+      },
+      "summary": "Training For Climbing 出品的互动训练板系统综合介绍，系统对比 MoonBoard、Kilter Board、Tension Board、Grasshopper、Decoy 和 Woods Board 六大智能训练墙的设计理念、握点特点和训练侧重，帮助攀爬者根据训练目标选择合适的系统训练装置。",
+      "keyInsights": [
+        "MoonBoard 强调小握点和指力，Kilter Board 以用户友好握点侧重爆发力，Tension Board 用光滑木质握点强化核心",
+        "智能训练板通过 App + 蓝牙互联实现全球范围内的课题分享和竞技对比，极大提升了训练的可量化性",
+        "系统训练板（system wall）的核心优势在于标准化：所有训练者在同一课题上的表现可以直接比较",
+        "课题设置等级（V3–V12+）适合不同水平的攀爬者，也可在同一墙体上设计个性化训练方案"
+      ],
+      "tags": ["训练板", "系统板", "Kilter Board", "MoonBoard", "互动训练"]
+    }
+  ]
+}

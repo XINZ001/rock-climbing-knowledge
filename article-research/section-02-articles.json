@@ -1,0 +1,698 @@
+{
+  "_meta": {
+    "section": "section-02",
+    "sectionTitle": { "zh": "身体素质", "en": "Physical Fitness" },
+    "searchDate": "2026-03-03",
+    "totalArticles": 25,
+    "coveredKps": 18,
+    "totalKps": 20,
+    "uncoveredKps": ["kp-long-route-endurance", "kp-coordination-timing"],
+    "partiallyKps": ["kp-shoulder-mobility"]
+  },
+  "articles": [
+    {
+      "url": "https://latticetraining.com/blog/how-to-manage-finger-strength-for-climbers/",
+      "title": "Finger Strength Training for Climbers",
+      "source": "Lattice Training",
+      "author": "Tess Whitfield",
+      "language": "en",
+      "publishDate": "2022-11",
+      "articleType": "training",
+      "primaryKp": "kp-grip-types",
+      "secondaryKps": ["kp-hangboard-training", "kp-finger-assessment", "kp-advanced-finger"],
+      "quality": {
+        "authority": 5,
+        "depth": 5,
+        "practicality": 4,
+        "recency": 5,
+        "uniqueness": 4,
+        "total": 23
+      },
+      "summary": "系统讲解了攀岩指力训练的四大核心领域：训练方法（攀岩/campus/指力板/负重）、握姿类型、伤病预防原则与测试协议；并附12周分期训练计划。",
+      "keyInsights": [
+        "不同握姿（half crimp / open hand / full crimp）的选择应基于项目需求，而非一概认为某种更优",
+        "伤病源于超出准备水平的负荷，核心预防原则是渐进式超负荷",
+        "提供了3周一周期的12周分期训练计划，含渐进负荷与减量周设计",
+        "引用了顶尖攀岩者（Aidan Roberts、Dave MacLeod、Will Bosi）作为不同握姿取向的案例"
+      ],
+      "tags": ["grip-types", "finger-strength", "half-crimp", "open-hand", "periodization", "injury-prevention"]
+    },
+    {
+      "url": "https://www.trainingbeta.com/grip-positions/",
+      "title": "Half Crimp and Open Hand Grip Positions",
+      "source": "TrainingBeta",
+      "author": "unknown",
+      "language": "en",
+      "publishDate": "2018-08",
+      "articleType": "tutorial",
+      "primaryKp": "kp-grip-types",
+      "secondaryKps": [],
+      "quality": {
+        "authority": 4,
+        "depth": 3,
+        "practicality": 4,
+        "recency": 2,
+        "uniqueness": 2,
+        "total": 15
+      },
+      "summary": "TrainingBeta 关于攀岩握姿类型（half crimp / open hand）的简明图文教学，附实拍照片演示标准手型。",
+      "keyInsights": [
+        "以照片直观对比 half crimp 与 open hand 的手型差异",
+        "适合初学者快速理解不同握姿的基本形态"
+      ],
+      "tags": ["grip-types", "half-crimp", "open-hand", "tutorial", "beginner"]
+    },
+    {
+      "url": "https://www.trainingbeta.com/mark-and-mike-anderson-guide-to-hangboard-training/",
+      "title": "Mark and Mike Anderson's Guide to Hangboard Training",
+      "source": "TrainingBeta",
+      "author": "Neely Quinn",
+      "language": "en",
+      "publishDate": "2014-06",
+      "articleType": "training",
+      "primaryKp": "kp-hangboard-training",
+      "secondaryKps": ["kp-grip-types", "kp-finger-assessment"],
+      "quality": {
+        "authority": 5,
+        "depth": 5,
+        "practicality": 5,
+        "recency": 2,
+        "uniqueness": 4,
+        "total": 21
+      },
+      "summary": "基于 Mark 和 Mike Anderson（《The Rock Climber's Training Manual》作者）的指力板训练体系，涵盖训练原理、握姿选择与系统化训练方案，约3000字深度指南。",
+      "keyInsights": [
+        "Anderson 兄弟将指力板训练定位为攀岩进阶的核心手段，而非辅助工具",
+        "强调不同爬龄的攀岩者应选择不同的训练方案（初学者 vs 进阶）",
+        "详述了 repeater 训练法的组数、持续时间和休息区间的科学配比",
+        "指出指力训练的核心原则是渐进超负荷，而非盲目增加难度"
+      ],
+      "tags": ["hangboard", "finger-strength", "repeaters", "training-plan", "anderson"]
+    },
+    {
+      "url": "https://www.physivantage.com/pages/the-ultimate-guide-to-hangboard-training-for-climbers",
+      "title": "The Ultimate Guide to Hangboard Training for Climbers",
+      "source": "PhysiVantage",
+      "author": "Eric Hörst",
+      "language": "en",
+      "publishDate": "2023",
+      "articleType": "training",
+      "primaryKp": "kp-hangboard-training",
+      "secondaryKps": ["kp-grip-types", "kp-advanced-finger"],
+      "quality": {
+        "authority": 5,
+        "depth": 5,
+        "practicality": 5,
+        "recency": 4,
+        "uniqueness": 4,
+        "total": 23
+      },
+      "summary": "Eric Hörst（《Training for Climbing》作者）的完整指力板训练指南，涵盖初级到高级的所有训练方案，含营养补充建议。",
+      "keyInsights": [
+        "按攀岩水平分级提供 4 套不同指力板训练方案",
+        "整合了营养学（胶原蛋白补充）与训练的协同建议",
+        "详细对比了 max hangs、repeaters 和 density hangs 三种方法的适用场景"
+      ],
+      "tags": ["hangboard", "finger-strength", "max-hangs", "repeaters", "density-hangs", "nutrition"]
+    },
+    {
+      "url": "https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2025.1650198/full",
+      "title": "Reliability of finger strength assessment methods in climbing: a systematic review",
+      "source": "Frontiers in Sports and Active Living",
+      "author": "unknown",
+      "language": "en",
+      "publishDate": "2025",
+      "articleType": "research",
+      "primaryKp": "kp-finger-assessment",
+      "secondaryKps": [],
+      "quality": {
+        "authority": 5,
+        "depth": 5,
+        "practicality": 3,
+        "recency": 5,
+        "uniqueness": 5,
+        "total": 23
+      },
+      "summary": "2025年最新系统综述，全面评估了攀岩指力测量方法（悬挂测试、等长测力、无负重测试）的信度与效度，为教练和研究者提供标准化建议。",
+      "keyInsights": [
+        "对比了多种测试方法的信度，推荐 20-23mm 边沿作为标准测试边沿尺寸",
+        "单手测试比双手测试能更好发现左右手力量不均衡问题",
+        "坐姿屈肘测试位置在可靠性上表现最优",
+        "综述为教练评估攀岩者指力提供了最新的科学依据"
+      ],
+      "tags": ["finger-strength", "assessment", "research", "measurement", "reliability", "systematic-review"]
+    },
+    {
+      "url": "https://www.camp4humanperformance.com/research/finger-strength-testing-for-climbers",
+      "title": "The Best Way to Test Finger Strength for Climbers, According to Research",
+      "source": "CAMP4 Human Performance",
+      "author": "unknown",
+      "language": "en",
+      "publishDate": "unknown",
+      "articleType": "research",
+      "primaryKp": "kp-finger-assessment",
+      "secondaryKps": ["kp-hangboard-training"],
+      "quality": {
+        "authority": 4,
+        "depth": 4,
+        "practicality": 4,
+        "recency": 3,
+        "uniqueness": 4,
+        "total": 19
+      },
+      "summary": "基于运动科学研究的攀岩指力测试最佳方法指南，对比了多种测试协议的优缺点，并给出可实操的测试建议。",
+      "keyInsights": [
+        "提出了简便的悬挂负重测试协议，适合没有专业设备的攀岩者",
+        "解释了为何分手测试比双手测试更能发现左右不对称",
+        "给出了不同水平攀岩者的指力参考数据"
+      ],
+      "tags": ["finger-strength", "assessment", "testing", "measurement", "research"]
+    },
+    {
+      "url": "https://latticetraining.com/2019/02/04/training-series-finger-strength/",
+      "title": "Training Series: Finger Strength",
+      "source": "Lattice Training",
+      "author": "unknown",
+      "language": "en",
+      "publishDate": "2019-02",
+      "articleType": "training",
+      "primaryKp": "kp-advanced-finger",
+      "secondaryKps": ["kp-hangboard-training", "kp-finger-assessment"],
+      "quality": {
+        "authority": 5,
+        "depth": 4,
+        "practicality": 4,
+        "recency": 3,
+        "uniqueness": 3,
+        "total": 19
+      },
+      "summary": "Lattice Training 指力训练系列，讲解了进阶指力训练（max hangs、密度悬挂）的原理与实施方式，并给出了针对不同水平攀岩者的方案选择建议。",
+      "keyInsights": [
+        "区分了力量提升（max hangs）与肌肉耐力（repeaters）的不同适用场景",
+        "强调每周只做一组 max hangs 用于维持高端力量的效率策略",
+        "解释了为何进阶者需要减少训练量但提高强度"
+      ],
+      "tags": ["finger-strength", "max-hangs", "advanced", "periodization", "lattice"]
+    },
+    {
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11576708/",
+      "title": "Effects of Different Loading Programs on Finger Strength in Rock Climbers",
+      "source": "PubMed Central (PMC)",
+      "author": "unknown",
+      "language": "en",
+      "publishDate": "2024",
+      "articleType": "research",
+      "primaryKp": "kp-advanced-finger",
+      "secondaryKps": ["kp-hangboard-training"],
+      "quality": {
+        "authority": 5,
+        "depth": 5,
+        "practicality": 3,
+        "recency": 5,
+        "uniqueness": 5,
+        "total": 23
+      },
+      "summary": "2024年随机对照试验研究，对比了不同负荷方案（最大强度 vs 低频率高强度）对攀岩者指力的影响，发现频繁低强度训练与最大负荷训练效果相近。",
+      "keyInsights": [
+        "低强度高频率的指力训练（Abrahangs 协议）与最大负荷训练效果相当",
+        "为初学者和中级攀岩者提供了低风险的替代训练方案",
+        "研究数据支持每天进行短时间低强度指力训练的可行性"
+      ],
+      "tags": ["finger-strength", "research", "abrahangs", "loading-programs", "evidence-based"]
+    },
+    {
+      "url": "https://latticetraining.com/blog/pull-up-workout-session-upper-body-strength-for-climbing/",
+      "title": "Pull Up Workout Session: Upper Body Strength for Climbing",
+      "source": "Lattice Training",
+      "author": "Elle Hutchens",
+      "language": "en",
+      "publishDate": "2023-05",
+      "articleType": "training",
+      "primaryKp": "kp-pulling-power",
+      "secondaryKps": ["kp-shoulder-stability"],
+      "quality": {
+        "authority": 4,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 5,
+        "uniqueness": 3,
+        "total": 21
+      },
+      "summary": "针对攀岩者的引体向上训练完整指南，涵盖 5 种训练变体（最大力量/增肌/离心/等长/爆发力），并说明各变体的适用场景和执行要点。",
+      "keyInsights": [
+        "提出了 5 种引体向上变体，从增肌到最大力量再到爆发力，覆盖不同训练目标",
+        "强调引体向上训练应在攀岩 session 后而非之前进行，以避免疲劳影响技术",
+        "等长 lock-off 变体（90°和 120°各 10 秒）对攀岩锁臂能力有直接帮助",
+        "离心引体（负向引体）是无法完成完整引体者的有效替代方案"
+      ],
+      "tags": ["pull-ups", "upper-body", "strength", "lock-off", "training", "lattice"]
+    },
+    {
+      "url": "https://trainingforclimbing.com/effective-forearm-antagonist-training-for-climbers/",
+      "title": "Effective Forearm Antagonist Training for Climbers",
+      "source": "Training For Climbing",
+      "author": "Eric Hörst",
+      "language": "en",
+      "publishDate": "unknown",
+      "articleType": "training",
+      "primaryKp": "kp-pushing-power",
+      "secondaryKps": ["kp-shoulder-stability", "kp-warmup"],
+      "quality": {
+        "authority": 5,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 3,
+        "uniqueness": 4,
+        "total": 21
+      },
+      "summary": "Eric Hörst 讲解攀岩者前臂拮抗肌（伸腕肌群）训练的重要性与具体训练方法，帮助预防攀岩常见上肢伤病。",
+      "keyInsights": [
+        "过度强调握力训练而忽略拮抗肌是攀岩者最常见的肌肉失衡来源",
+        "提供了具体的前臂拮抗肌训练动作和训练量建议",
+        "强调拮抗肌训练不只是预防受伤，还能提高整体表现"
+      ],
+      "tags": ["antagonist-training", "forearm", "injury-prevention", "pushing-muscles", "balance"]
+    },
+    {
+      "url": "https://moonclimbing.com/News/post/6-shoulder-stability-exercises-for-climbers-by-olivia-ratcliffe",
+      "title": "6 Shoulder Stability Exercises for Climbers",
+      "source": "Moon Climbing",
+      "author": "Olivia Ratcliffe",
+      "language": "en",
+      "publishDate": "2017-11",
+      "articleType": "tutorial",
+      "primaryKp": "kp-shoulder-stability",
+      "secondaryKps": ["kp-pushing-power"],
+      "quality": {
+        "authority": 3,
+        "depth": 3,
+        "practicality": 4,
+        "recency": 2,
+        "uniqueness": 3,
+        "total": 15
+      },
+      "summary": "Moon Climbing 博客上的肩关节稳定性训练指南，提供 6 个渐进式肩部稳定训练动作，从墙面划圈到壶铃持握，适合日常热身融入。",
+      "keyInsights": [
+        "稳定肌群在低强度下长时间持续工作，与爆发力训练思路不同",
+        "6个动作涵盖了肩袖肌群、菱形肌的主要稳定功能",
+        "建议以每周一次到隔天一次的频率融入热身中训练"
+      ],
+      "tags": ["shoulder-stability", "rotator-cuff", "injury-prevention", "warm-up", "exercises"]
+    },
+    {
+      "url": "https://www.trainingbeta.com/effective-rotator-cuff-exercises/",
+      "title": "Effective Rotator Cuff Exercises",
+      "source": "TrainingBeta",
+      "author": "Matt Pincus",
+      "language": "en",
+      "publishDate": "2016-06",
+      "articleType": "tutorial",
+      "primaryKp": "kp-shoulder-stability",
+      "secondaryKps": ["kp-pushing-power"],
+      "quality": {
+        "authority": 4,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 2,
+        "uniqueness": 3,
+        "total": 18
+      },
+      "summary": "Matt Pincus 撰写的肩袖强化训练文章，解释肩关节解剖并提供一系列针对攀岩者的肩袖强化动作序列。",
+      "keyInsights": [
+        "解释了肩袖解剖结构与攀岩伤病的关联",
+        "提供了可独立执行的肩袖强化动作序列",
+        "强调肩袖训练应纳入日常热身，而非等到受伤后才开始"
+      ],
+      "tags": ["shoulder-stability", "rotator-cuff", "anatomy", "injury-prevention", "exercises"]
+    },
+    {
+      "url": "https://www.trainingbeta.com/matt-pincus-principles-of-core-training/",
+      "title": "Matt Pincus: Principles of Core Training",
+      "source": "TrainingBeta",
+      "author": "Matt Pincus",
+      "language": "en",
+      "publishDate": "2018-07",
+      "articleType": "training",
+      "primaryKp": "kp-core-training",
+      "secondaryKps": ["kp-core-role", "kp-anti-rotation"],
+      "quality": {
+        "authority": 4,
+        "depth": 4,
+        "practicality": 4,
+        "recency": 3,
+        "uniqueness": 4,
+        "total": 19
+      },
+      "summary": "Matt Pincus 纠正攀岩者核心训练常见误区，讲解核心力量的正确训练原则，区分核心稳定与核心爆发力的不同训练方法。",
+      "keyInsights": [
+        "攀岩者最常见的核心训练误区是将核心等同于卷腹，忽略了反旋转与稳定能力",
+        "指出核心训练应足够强度（5次做完感觉接近力竭），而非高rep轻量训练",
+        "核心范围包括从髋部到斜方肌的所有肌群，而非仅是腹部"
+      ],
+      "tags": ["core-training", "core-strength", "anti-rotation", "principles", "common-mistakes"]
+    },
+    {
+      "url": "https://latticetraining.com/blog/front-lever-goals-tom-randall/",
+      "title": "Front Lever Goals – Tom Randall",
+      "source": "Lattice Training",
+      "author": "Tom Randall",
+      "language": "en",
+      "publishDate": "2021-02",
+      "articleType": "training",
+      "primaryKp": "kp-anti-rotation",
+      "secondaryKps": ["kp-core-training"],
+      "quality": {
+        "authority": 5,
+        "depth": 3,
+        "practicality": 3,
+        "recency": 4,
+        "uniqueness": 4,
+        "total": 19
+      },
+      "summary": "Tom Randall 分享其突破 front lever 训练瓶颈的亲身经历，提炼出核心训练的三大关键原则，并强调生活方式因素（睡眠、压力）对力量突破的重要性。",
+      "keyInsights": [
+        "front lever 训练突破往往需要'greasing the groove'方法（多次低量练习）打基础",
+        "训练出现停滞时，生活压力和睡眠质量往往是被忽视的关键因素",
+        "核心力量进步需要一致性、正确负荷和适当休息频率三者结合"
+      ],
+      "tags": ["front-lever", "anti-rotation", "core", "training-mindset", "recovery", "tom-randall"]
+    },
+    {
+      "url": "https://www.powercompanyclimbing.com/blog/2018/9/13/progressing-core-workouts-part-5-climbing-exercises",
+      "title": "Progressing Core Workouts, Part 5: Climbing Exercises",
+      "source": "Power Company Climbing",
+      "author": "Kris Hampton",
+      "language": "en",
+      "publishDate": "2018-09",
+      "articleType": "training",
+      "primaryKp": "kp-core-role",
+      "secondaryKps": ["kp-core-training"],
+      "quality": {
+        "authority": 4,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 3,
+        "uniqueness": 4,
+        "total": 20
+      },
+      "summary": "Power Company Climbing 核心训练系列第五部分，重点介绍攀岩动作中的核心激活练习，将核心训练与实际攀爬动作结合。",
+      "keyInsights": [
+        "在墙上的'cutting feet'练习是学习核心收紧的最有效方式之一",
+        "核心在攀岩中的作用是管理旋转力，而非单纯发力",
+        "提供了从地面到墙面的完整核心训练进阶路径"
+      ],
+      "tags": ["core-role", "core-training", "climbing-specific", "cutting-feet", "power-company"]
+    },
+    {
+      "url": "https://latticetraining.com/blog/lattice-training-insights-flexibility-training-for-climbers/",
+      "title": "The Fundamentals of Flexibility Training for Climbers",
+      "source": "Lattice Training",
+      "author": "Josh Hadley",
+      "language": "en",
+      "publishDate": "2022-02",
+      "articleType": "training",
+      "primaryKp": "kp-hip-flexibility",
+      "secondaryKps": ["kp-shoulder-mobility", "kp-warmup-stretching"],
+      "quality": {
+        "authority": 5,
+        "depth": 5,
+        "practicality": 4,
+        "recency": 5,
+        "uniqueness": 4,
+        "total": 23
+      },
+      "summary": "Lattice Training 柔韧性训练科学指南，区分主动/被动、动态/静态四种拉伸方式，并纠正'拉伸降低爆发力'的常见误区，给出攀岩者实用的柔韧训练体系。",
+      "keyInsights": [
+        "区分主动动态、主动静态、被动静态、被动动态四类拉伸，各有不同适用时机",
+        "破解'拉伸影响爆发力'的误区：充分休息后爆发力可快速恢复",
+        "'末端范围的力量'是安全使用柔韧性的关键，单纯拉伸不够",
+        "骨骼结构差异会影响每个人实际可达到的柔韧极限"
+      ],
+      "tags": ["flexibility", "hip-mobility", "stretching-science", "active-flexibility", "passive-flexibility"]
+    },
+    {
+      "url": "https://www.trainingbeta.com/hip-mobility-for-rock-climbers/",
+      "title": "Hip Mobility for Rock Climbers to Improve High Stepping & Frogging",
+      "source": "TrainingBeta",
+      "author": "Shaina Savoy",
+      "language": "en",
+      "publishDate": "2020-12",
+      "articleType": "tutorial",
+      "primaryKp": "kp-hip-flexibility",
+      "secondaryKps": [],
+      "quality": {
+        "authority": 3,
+        "depth": 3,
+        "practicality": 4,
+        "recency": 4,
+        "uniqueness": 3,
+        "total": 17
+      },
+      "summary": "TrainingBeta 的髋部灵活性训练视频文章，专门针对攀岩中高步（high step）和蛙步（frogging）动作所需的髋部活动度进行训练指导。",
+      "keyInsights": [
+        "专门针对攀岩高步和蛙步两个常用动作的髋部活动度训练",
+        "以视频演示具体练习动作，适合跟练",
+        "将伤病预防和动作强化结合在一套训练中"
+      ],
+      "tags": ["hip-mobility", "high-step", "frogging", "flexibility", "injury-prevention"]
+    },
+    {
+      "url": "https://www.hoopersbeta.com/library/proper-warm-up-for-climbers",
+      "title": "A Great 10-Minute Warm-Up for Climbers",
+      "source": "Hooper's Beta",
+      "author": "Jason Hooper",
+      "language": "en",
+      "publishDate": "2020-09",
+      "articleType": "tutorial",
+      "primaryKp": "kp-warmup-stretching",
+      "secondaryKps": ["kp-shoulder-stability", "kp-hip-flexibility"],
+      "quality": {
+        "authority": 5,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 4,
+        "uniqueness": 4,
+        "total": 22
+      },
+      "summary": "由物理治疗师 Jason Hooper（PT, DPT）设计的科学攀岩热身方案，包含腱鞘滑动、肩袖激活和招募训练三个核心模块，约10分钟完成。",
+      "keyInsights": [
+        "腱鞘滑动（tendon glides）是热身中最容易被忽略但最重要的手指准备动作",
+        "'No Money'肩袖激活动作简单有效，直接对应攀岩中肩关节最易损伤的角度",
+        "招募拉（recruitment pulls）是攀岩热身独有的动作，模拟攀爬发力模式",
+        "北欧腿弯举（Nordic curl）作为bonus动作对 heel hook 训练有直接帮助"
+      ],
+      "tags": ["warm-up", "injury-prevention", "tendon-glides", "shoulder", "recruitment-pulls", "physical-therapy"]
+    },
+    {
+      "url": "https://latticetraining.com/blog/what-is-endurance-training-in-climbing/",
+      "title": "What is endurance training in climbing?",
+      "source": "Lattice Training",
+      "author": "Elle Hutchens",
+      "language": "en",
+      "publishDate": "2023-11",
+      "articleType": "training",
+      "primaryKp": "kp-endurance-types",
+      "secondaryKps": ["kp-arc-training", "kp-4x4-training"],
+      "quality": {
+        "authority": 4,
+        "depth": 4,
+        "practicality": 4,
+        "recency": 5,
+        "uniqueness": 3,
+        "total": 20
+      },
+      "summary": "澄清攀岩者对'耐力训练'的常见误解，区分有氧系统和无氧系统的能量代谢，并给出短间歇/长间歇/持续训练（ARC）三种对应不同能量系统的耐力训练方法。",
+      "keyInsights": [
+        "仅仅'练到泵'不等于有效耐力训练，必须针对特定能量系统",
+        "短间歇（1分钟on/1分钟off）训练有氧高强度区间",
+        "长间歇（5分钟on/3分钟off）训练低强度有氧持续能力",
+        "ARC（持续训练）针对毛细血管化和有氧基础，强度最低"
+      ],
+      "tags": ["endurance", "energy-systems", "aerobic", "anaerobic", "ARC", "power-endurance", "intervals"]
+    },
+    {
+      "url": "https://uphillathlete.com/rock-climbing/rock-climbing-training-arcing/",
+      "title": "Rock Climbing Training: ARCing",
+      "source": "Uphill Athlete",
+      "author": "Steve House",
+      "language": "en",
+      "publishDate": "2017-05",
+      "articleType": "training",
+      "primaryKp": "kp-arc-training",
+      "secondaryKps": ["kp-endurance-types", "kp-long-route-endurance"],
+      "quality": {
+        "authority": 4,
+        "depth": 5,
+        "practicality": 5,
+        "recency": 4,
+        "uniqueness": 4,
+        "total": 22
+      },
+      "summary": "Uphill Athlete（Steve House）详解 ARC 训练（有氧、呼吸、毛细血管化）的原理与完整6周进阶计划，含每周训练量和强度控制方法。",
+      "keyInsights": [
+        "ARC 训练目标是延长在墙上的持续时间和提高泵感恢复速度，等同于其他运动的 Zone 2 训练",
+        "提供了具体的6周训练计划：第1-2周2组×30分钟，第3-4周3组×25分钟，第5-6周3组×30分钟",
+        "ARC 训练中需保持'轻微但可持续的泵感'，过强会转变为无氧训练",
+        "附加了指力板补充训练方案，与 ARC 训练配合使用"
+      ],
+      "tags": ["ARC-training", "aerobic-endurance", "capillarity", "zone-2", "6-week-plan"]
+    },
+    {
+      "url": "https://www.trainingbeta.com/4x4s/",
+      "title": "4x4's – What They Are & How To Do Them",
+      "source": "TrainingBeta",
+      "author": "Seth Lytton",
+      "language": "en",
+      "publishDate": "2014-08",
+      "articleType": "training",
+      "primaryKp": "kp-4x4-training",
+      "secondaryKps": ["kp-endurance-types"],
+      "quality": {
+        "authority": 3,
+        "depth": 3,
+        "practicality": 5,
+        "recency": 2,
+        "uniqueness": 3,
+        "total": 16
+      },
+      "summary": "TrainingBeta 对 4x4 power endurance 训练方法的基础介绍，说明了选题难度（低于极限2-4级）、时间控制（5-6分钟内完成4条）和适用场景。",
+      "keyInsights": [
+        "4x4 的核心是在5-6分钟内完成4条抱石线路，难度选择比极限低2-4级",
+        "4x4 是 power endurance 训练的经典手段，适合在热身后进行"
+      ],
+      "tags": ["4x4", "power-endurance", "bouldering", "circuit-training", "beginner-friendly"]
+    },
+    {
+      "url": "https://gripped.com/indoor-climbing/boost-your-power-endurance-with-bouldering-4x4s/",
+      "title": "Boost Your Power Endurance with Bouldering 4x4s",
+      "source": "Gripped Magazine",
+      "author": "unknown",
+      "language": "en",
+      "publishDate": "unknown",
+      "articleType": "training",
+      "primaryKp": "kp-4x4-training",
+      "secondaryKps": ["kp-endurance-types"],
+      "quality": {
+        "authority": 3,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 3,
+        "uniqueness": 3,
+        "total": 18
+      },
+      "summary": "Gripped Magazine 详解抱石 4x4 训练法，涵盖问题选择标准（多动、偏倾、无明显休息点）、休息时间设置（1:1比例）和训练频率建议。",
+      "keyInsights": [
+        "推荐选择更长（多动作）、偏倾（non-vertical）且无明显休息位置的抱石问题",
+        "休息时间建议与攀爬时间相同（1:1比例），初学者可适当延长",
+        "4x4 结束后至少需要 48-72 小时恢复，每周不超过 2 次",
+        "详细的热身要求：充分热身后再进行至少20分钟高强度抱石，再开始4x4"
+      ],
+      "tags": ["4x4", "power-endurance", "bouldering", "problem-selection", "rest-ratios"]
+    },
+    {
+      "url": "https://www.trainingbeta.com/campusing-part-1-for-power-big-rungs-big-moves/",
+      "title": "Campusing, Part 1: For Power – Big Rungs, Big Moves",
+      "source": "TrainingBeta / Power Company Climbing",
+      "author": "Kris Hampton",
+      "language": "en",
+      "publishDate": "2015-04",
+      "articleType": "training",
+      "primaryKp": "kp-campus-training",
+      "secondaryKps": ["kp-dynamic-movement", "kp-grip-types"],
+      "quality": {
+        "authority": 4,
+        "depth": 5,
+        "practicality": 5,
+        "recency": 2,
+        "uniqueness": 4,
+        "total": 20
+      },
+      "summary": "Power Company Climbing 的 campus board 训练系列第一部分，专注爆发力训练，详解准入条件（5.12/V6以上）、5大训练规则和从基础梯到跳级梯的动作进阶序列。",
+      "keyInsights": [
+        "'大格子+大动作=更强爆发力'，初学者不应该在小格子上练campus",
+        "明确入门门槛：需要稳定爬中高级 5.12 或 V6-7 才能开始 campus 训练",
+        "列出5条关键规则：限制上格时间、增加组间休息、避免锁臂动作、禁止全抱握姿、始终保持肩胛骨收紧",
+        "训练频率：每次少量（每个动作几组），每周两次，4周一个阶段，超过此量容易受伤"
+      ],
+      "tags": ["campus-board", "explosive-power", "advanced", "training-rules", "progression", "kris-hampton"]
+    },
+    {
+      "url": "https://latticetraining.com/blog/video-qa-everything-you-need-to-know-about-campusing/",
+      "title": "VIDEO & Q+A | Everything You Need to Know About Campusing",
+      "source": "Lattice Training",
+      "author": "unknown",
+      "language": "en",
+      "publishDate": "unknown",
+      "articleType": "tutorial",
+      "primaryKp": "kp-campus-training",
+      "secondaryKps": ["kp-dynamic-movement"],
+      "quality": {
+        "authority": 5,
+        "depth": 4,
+        "practicality": 4,
+        "recency": 3,
+        "uniqueness": 3,
+        "total": 19
+      },
+      "summary": "Lattice Training 视频+问答形式的 campus board 完整指南，涵盖何时开始、如何选择格子、常见错误与预防措施。",
+      "keyInsights": [
+        "Lattice Training 视角的 campus 入门建议与进阶路径",
+        "以问答形式解答了初学者最常见的 campus 问题",
+        "视频演示标准动作，降低理解门槛"
+      ],
+      "tags": ["campus-board", "explosive-power", "tutorial", "lattice", "video"]
+    },
+    {
+      "url": "https://gripped.com/indoor-climbing/three-exercises-to-become-a-more-dynamic-climber/",
+      "title": "Three Exercises To Become a More Dynamic Climber",
+      "source": "Gripped Magazine",
+      "author": "unknown",
+      "language": "en",
+      "publishDate": "unknown",
+      "articleType": "tutorial",
+      "primaryKp": "kp-dynamic-movement",
+      "secondaryKps": ["kp-coordination-timing", "kp-campus-training"],
+      "quality": {
+        "authority": 3,
+        "depth": 3,
+        "practicality": 5,
+        "recency": 3,
+        "uniqueness": 3,
+        "total": 17
+      },
+      "summary": "Gripped Magazine 推荐3个让攀岩者变得更动态的核心训练动作，从地面跳跃练习到墙面动态动作循序渐进。",
+      "keyInsights": [
+        "地面爆发力练习（squat jump、explosive pull-up）可迁移到墙上的动态动作",
+        "尝试多种 dyno 类型（单手、双手、跑步起跳）可以提升动态动作的协调性",
+        "动态攀岩的速度感来自重复和肌肉记忆"
+      ],
+      "tags": ["dynamic-movement", "dyno", "coordination", "explosive-power", "exercises"]
+    },
+    {
+      "url": "https://theclimbingdoctor.com/mastering-dynamic-techniques-and-gaining-power/",
+      "title": "Mastering Dynamic Techniques and Gaining Power",
+      "source": "The Climbing Doctor",
+      "author": "unknown",
+      "language": "en",
+      "publishDate": "unknown",
+      "articleType": "tutorial",
+      "primaryKp": "kp-dynamic-movement",
+      "secondaryKps": ["kp-coordination-timing"],
+      "quality": {
+        "authority": 4,
+        "depth": 4,
+        "practicality": 4,
+        "recency": 3,
+        "uniqueness": 4,
+        "total": 19
+      },
+      "summary": "Climbing Doctor 从生物力学角度讲解动态攀岩技术（deadpoint / dyno）的掌握方法，并给出兼顾力量增长的综合训练建议。",
+      "keyInsights": [
+        "从医学/运动科学角度解释动态动作的原理，比纯技术分析更深入",
+        "Deadpoint 的要点是把握'最高点'的瞬间（上升和下降间的静止点）",
+        "提供了从技术练习到力量训练的系统改进方案"
+      ],
+      "tags": ["dynamic-movement", "deadpoint", "dyno", "biomechanics", "power", "technique"]
+    }
+  ]
+}

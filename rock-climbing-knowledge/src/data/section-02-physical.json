@@ -1,0 +1,917 @@
+{
+  "sectionId": "section-02",
+  "subSections": [
+    {
+      "id": "s02-finger",
+      "number": "2.1",
+      "slug": "finger-strength",
+      "title": {
+        "zh": "指力",
+        "en": "Finger Strength"
+      },
+      "overview": {
+        "zh": "指力是攀岩中最核心的身体素质之一。攀岩者需要依靠手指抓握各种形状和大小的岩点，而手指肌腱和前臂肌肉的力量直接决定了攀爬能力的上限。科学系统的指力训练可以显著提升攀岩水平，但也需要注意循序渐进，避免受伤。",
+        "en": "Finger strength is one of the most critical physical attributes in rock climbing. Climbers rely on their fingers to grip holds of various shapes and sizes, and the strength of finger tendons and forearm muscles directly determines climbing ability. Systematic finger training can significantly improve performance, but must be approached progressively to avoid injury."
+      },
+      "knowledgePoints": [
+        {
+          "id": "kp-grip-types",
+          "title": {
+            "zh": "抓握类型",
+            "en": "Grip Types"
+          },
+          "content": {
+            "zh": "攀岩中有四种基本的抓握方式，每种方式对手指施加的力和适用场景各不相同。掌握并灵活运用不同抓握方式是提升攀岩能力的关键。\n\n- **全捏握（Full Crimp）**：拇指压在食指上方，手指弯曲角度约90度。这是力量最大的抓握方式，但对A2滑车韧带（pulley）的压力也最大，受伤风险高。建议仅在必要时使用，训练中应尽量避免。\n- **半捏握（Half Crimp）**：手指弯曲约90度，但拇指不压在上方。相比全捏握，对关节和韧带的压力较小，同时仍能提供较好的抓握力，是日常训练中推荐使用的抓握方式。\n- **张手握（Open Hand）**：手指自然伸展，依靠摩擦力和指尖力量抓握。对关节最为友好，适合抓握圆润的岩点（sloper）。长期训练张手握可以提升整体手指健康度。\n- **捏握（Pinch）**：拇指与其他手指对捏，类似捏东西的动作。需要拇指的对握力量，在自然岩壁上非常常见。可以通过专门的捏握训练器材来加强。\n\n理解何时使用哪种抓握方式不仅关乎效率，也关乎受伤预防。初学者应优先发展张手握和半捏握的力量，随着经验增长再逐步尝试全捏握。",
+            "en": "There are four fundamental grip types in climbing, each applying different forces and suited for different situations:\n\n- **Full Crimp**: Thumb wraps over the index finger, fingers bent at ~90 degrees. Strongest grip but highest injury risk to A2 pulleys. Use sparingly.\n- **Half Crimp**: Fingers bent at ~90 degrees without thumb lock. Good balance of strength and safety; recommended for training.\n- **Open Hand**: Fingers naturally extended, relying on friction and fingertip strength. Safest for joints, ideal for slopers. Developing open-hand strength improves overall finger health.\n- **Pinch**: Thumb opposes other fingers in a squeezing motion. Common on natural rock features.\n\nBeginners should prioritize open hand and half crimp strength before progressing to full crimps."
+          },
+          "terms": [
+            {
+              "zh": "全捏握",
+              "en": "full crimp"
+            },
+            {
+              "zh": "半捏握",
+              "en": "half crimp"
+            },
+            {
+              "zh": "张手握",
+              "en": "open hand"
+            },
+            {
+              "zh": "捏握",
+              "en": "pinch"
+            },
+            {
+              "zh": "A2滑车韧带",
+              "en": "A2 pulley"
+            },
+            {
+              "zh": "圆润岩点",
+              "en": "sloper"
+            }
+          ],
+          "crossRefs": [
+            "kp-pulley-injury",
+            "kp-slab-technique"
+          ],
+          "tags": [
+            "beginner",
+            "technique",
+            "strength"
+          ]
+        },
+        {
+          "id": "kp-hangboard-training",
+          "title": {
+            "zh": "挂板训练",
+            "en": "Hangboard Training"
+          },
+          "content": {
+            "zh": "挂板（Hangboard / Fingerboard）是攀岩指力训练最核心的工具。通过在不同大小和形状的边缘上进行悬挂训练，可以系统性地提升手指力量。\n\n**基础训练方案：**\n- 初学者应从较大的边缘（20mm以上）开始，使用双手悬挂\n- 每次悬挂7-10秒，休息3分钟，重复3-5组\n- 每周训练2-3次，确保有充分的恢复时间\n- 训练前务必充分热身，至少攀爬15-20分钟中低难度路线\n\n**常见训练协议：**\n- **Repeaters**：7秒挂、3秒休息，重复6次为一组，组间休息3分钟。适合发展耐力和基础力量。\n- **Max Hangs**：单次最大力量悬挂10秒，组间休息3-5分钟，3-5组。使用能让你刚好完成10秒的负重或边缘大小。\n- **最小边缘训练（Min Edge）**：在体重条件下，寻找你能悬挂10秒的最小边缘，逐步减小边缘尺寸。\n\n**安全注意事项：**\n- 攀岩经验不足一年的新手不建议进行挂板训练\n- 手指有伤或疼痛时立即停止训练\n- 全捏握姿势在挂板上风险极高，建议使用半捏握或张手握\n- 训练后注意手指的拉伸和恢复",
+            "en": "The hangboard (fingerboard) is the most essential tool for finger strength training in climbing. It allows systematic development of finger strength through hanging on edges of various sizes and shapes.\n\n**Basic protocols include:**\n- **Repeaters**: 7s hang / 3s rest x 6 reps per set, 3 min rest between sets. Good for endurance and base strength.\n- **Max Hangs**: 10s maximum effort hang, 3-5 min rest, 3-5 sets. Use added weight or smaller edges to calibrate intensity.\n- **Min Edge**: Find the smallest edge you can hang for 10s at body weight, then progressively decrease edge size.\n\nBeginners (less than one year of climbing) should avoid hangboard training and focus on climbing volume instead. Always warm up thoroughly before training and stop immediately if you feel pain."
+          },
+          "terms": [
+            {
+              "zh": "挂板",
+              "en": "hangboard / fingerboard"
+            },
+            {
+              "zh": "负重悬挂",
+              "en": "weighted hang"
+            },
+            {
+              "zh": "最小边缘训练",
+              "en": "minimum edge training"
+            },
+            {
+              "zh": "重复悬挂",
+              "en": "repeaters"
+            }
+          ],
+          "crossRefs": [
+            "kp-hangboard-gear",
+            "kp-pulley-injury",
+            "kp-warmup"
+          ],
+          "tags": [
+            "intermediate",
+            "training",
+            "strength"
+          ]
+        },
+        {
+          "id": "kp-finger-assessment",
+          "title": {
+            "zh": "指力评估与测试",
+            "en": "Finger Strength Assessment"
+          },
+          "content": {
+            "zh": "定期评估指力水平有助于制定合理的训练计划，追踪进步，并预防过度训练。科学的评估方法能帮助攀岩者了解自己的优势和弱点。\n\n**常用评估方法：**\n- **最大负重悬挂测试**：在20mm边缘上进行半捏握悬挂，逐步增加负重，直到找到你能悬挂7-10秒的最大重量。将最大负重与体重之比作为指力指标。\n- **最小边缘测试**：在体重条件下，测试你能悬挂10秒的最小边缘深度。\n- **体重百分比基准**：初级攀岩者通常能在20mm边缘悬挂自身体重；中级攀岩者能额外负重20-40%体重；高级攀岩者可负重50%以上体重。\n\n**测试注意事项：**\n- 测试前确保充分热身但不疲劳\n- 使用半捏握进行标准化测试\n- 每4-6周测试一次以追踪进步\n- 记录测试条件（休息状态、时间、温度等）以确保数据可比性\n\n评估结果应与攀岩目标结合分析。如果你的目标路线以捏握为主，那么捏握力量的评估比边缘悬挂更有意义。",
+            "en": "Regular finger strength assessment helps with training planning, progress tracking, and overtraining prevention.\n\n**Common methods:**\n- **Max weight hang test**: Half crimp on a 20mm edge, progressively adding weight to find your max 7-10s hang. Express as a percentage of body weight.\n- **Min edge test**: Find the smallest edge you can hang for 10s at body weight.\n- **Benchmarks**: Beginners typically hang body weight on 20mm; intermediate climbers add 20-40% BW; advanced climbers add 50%+ BW.\n\nTest every 4-6 weeks under consistent conditions (rest state, time of day, temperature) for reliable tracking."
+          },
+          "terms": [
+            {
+              "zh": "最大负重",
+              "en": "max weight"
+            },
+            {
+              "zh": "体重比",
+              "en": "body weight ratio"
+            },
+            {
+              "zh": "基准测试",
+              "en": "benchmark test"
+            }
+          ],
+          "crossRefs": [
+            "kp-hangboard-gear",
+            "kp-warmup"
+          ],
+          "tags": [
+            "intermediate",
+            "training",
+            "strength"
+          ]
+        },
+        {
+          "id": "kp-advanced-finger",
+          "title": {
+            "zh": "进阶指力训练",
+            "en": "Advanced Finger Training"
+          },
+          "content": {
+            "zh": "当基础指力训练达到瓶颈后，可以引入进阶训练方法来突破平台期。这些方法对手指的要求极高，仅适合有多年攀岩经验且基础指力扎实的攀岩者。\n\n**单指训练（Single Finger Training）：**\n- 使用专门的单指口袋（mono pocket）进行训练\n- 从中指开始，这是最强壮的手指\n- 负荷极低，通常从脚辅助支撑开始\n- 对于运动攀和抱石中遇到的单指口袋（mono）路线极为有效\n- 受伤风险极高，必须极其谨慎，循序渐进\n\n**负重悬挂进阶（Advanced Weighted Hangs）：**\n- 在已有较好基础（体重+30%以上）的前提下，进行更高负重的训练\n- 可以尝试单臂辅助悬挂，一只手悬挂在边缘，另一只手抓握较低位置的辅助点\n- 结合不同抓握姿势（半捏握、张手握、三指拖拽等）进行针对性训练\n- 周期化训练安排：力量期（高负重低次数）和耐力期（低负重高次数）交替\n\n**离心训练（Eccentric Training）：**\n- 利用双手拉起后单手缓慢下降的方式训练\n- 对肌腱适应有独特的刺激作用\n- 也常用于受伤后的恢复训练\n\n进阶训练的关键是倾听身体信号。任何锐痛都是立即停止的信号。",
+            "en": "Advanced finger training methods are for experienced climbers (3+ years) who have plateaued with basic protocols.\n\n**Single Finger Training:** Train on mono pockets starting with the middle finger. Use foot assistance to manage load. Extremely effective for mono-intensive routes but carries high injury risk.\n\n**Advanced Weighted Hangs:** Progress beyond BW+30% with periodized programs alternating strength phases (high weight, low reps) and endurance phases (low weight, high reps). Incorporate one-arm assisted hangs.\n\n**Eccentric Training:** Pull up with two hands, lower slowly with one. Provides unique tendon stimulus and is also used in injury rehabilitation.\n\nAlways listen to your body—sharp pain means immediate cessation of training."
+          },
+          "terms": [
+            {
+              "zh": "单指口袋",
+              "en": "mono pocket"
+            },
+            {
+              "zh": "离心训练",
+              "en": "eccentric training"
+            },
+            {
+              "zh": "周期化训练",
+              "en": "periodization"
+            },
+            {
+              "zh": "单臂悬挂",
+              "en": "one-arm hang"
+            }
+          ],
+          "crossRefs": [
+            "kp-pulley-injury",
+            "kp-hangboard-gear",
+            "kp-rest-management"
+          ],
+          "tags": [
+            "advanced",
+            "training",
+            "strength"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s02-upper-body",
+      "number": "2.2",
+      "slug": "upper-body",
+      "title": {
+        "zh": "上肢力量",
+        "en": "Upper Body Strength"
+      },
+      "overview": {
+        "zh": "上肢力量在攀岩中扮演着重要角色，尤其在陡峭路线和仰角（overhang）攀爬中。拉力、推力和肩部稳定性共同构成了上肢力量体系。合理的上肢训练可以提升攀爬效率，改善锁定能力，并减少肩部受伤风险。",
+        "en": "Upper body strength plays a vital role in climbing, especially on steep terrain and overhangs. Pulling power, pushing power, and shoulder stability form the upper body strength system. Proper training improves climbing efficiency, lock-off ability, and reduces shoulder injury risk."
+      },
+      "knowledgePoints": [
+        {
+          "id": "kp-pulling-power",
+          "title": {
+            "zh": "拉力训练",
+            "en": "Pulling Power"
+          },
+          "content": {
+            "zh": "拉力是攀岩中最基本的上肢力量需求。每一次向上攀爬的动作都涉及拉力的运用，而锁定能力（lock-off）更是完成难度动作的关键。\n\n**引体向上（Pull-ups）：**\n- 是衡量攀岩拉力的基础指标\n- 建议目标：男性15次以上，女性8次以上（自重）\n- 变式训练：宽距引体（背阔肌为主）、窄距引体（肱二头肌为主）、弓箭手引体（模拟单臂发力）\n- 进阶：负重引体向上，逐步增加负重\n\n**锁定训练（Lock-off）：**\n- 锁定是指单臂在弯曲位置保持静止的能力\n- 训练方法：在引体向上顶部位置保持5-10秒，在90度和120度角度分别锁定\n- 偏重引体（offset pull-ups）：一只手握高，另一只手握低，模拟攀岩中的不对称发力\n- 实战意义：锁定能力直接影响出手抓下一个岩点的成功率\n\n**攀岩特异性训练：**\n- 在攀岩墙上进行锁定练习比纯器械训练更有效\n- 尝试在路线中主动练习长时间锁定后出手\n- 系统板（system board）上的训练可以结合特定抓握和拉力角度",
+            "en": "Pulling power is the most fundamental upper body requirement in climbing. Every upward movement involves pulling, and lock-off ability is critical for completing difficult moves.\n\n**Pull-ups:** A baseline measure of climbing pulling strength. Aim for 15+ (male) or 8+ (female) bodyweight reps. Variations include wide-grip, narrow-grip, and archer pull-ups.\n\n**Lock-offs:** The ability to hold a static position with one arm bent. Train by holding at the top of a pull-up for 5-10s, and at 90 and 120-degree angles. Offset pull-ups simulate the asymmetric pulling common in climbing.\n\nClimbing-specific pulling on a system board is more effective than pure gym exercises for transfer to the wall."
+          },
+          "terms": [
+            {
+              "zh": "引体向上",
+              "en": "pull-up"
+            },
+            {
+              "zh": "锁定",
+              "en": "lock-off"
+            },
+            {
+              "zh": "弓箭手引体",
+              "en": "archer pull-up"
+            },
+            {
+              "zh": "负重引体",
+              "en": "weighted pull-up"
+            },
+            {
+              "zh": "系统板",
+              "en": "system board"
+            }
+          ],
+          "crossRefs": [
+            "kp-overhang-technique",
+            "kp-roof-technique"
+          ],
+          "tags": [
+            "beginner",
+            "intermediate",
+            "training",
+            "strength"
+          ]
+        },
+        {
+          "id": "kp-pushing-power",
+          "title": {
+            "zh": "推力与翻越",
+            "en": "Pushing Power & Mantling"
+          },
+          "content": {
+            "zh": "虽然攀岩以拉力为主，但推力在特定场景中同样不可或缺。翻越（mantling）是最典型的需要推力的攀岩动作，常见于攀爬到平台顶部或户外攀岩的出顶（topping out）。\n\n**翻越动作（Mantling）：**\n- 当攀岩者需要翻上一个平台时，双手需要从拉力切换到推力\n- 类似于从泳池边缘撑起身体的动作\n- 需要肱三头肌、胸肌和肩部前束的力量\n- 在抱石和传统攀中尤为常见\n\n**推力训练方法：**\n- 双杠臂屈伸（dips）：最直接模拟翻越动作的训练\n- 俯卧撑变式：钻石俯卧撑侧重肱三头肌\n- 肩部推举：增强过头推力，对翻越动作有帮助\n- 在墙上练习翻越：找一个胸部高度的平台，反复练习翻越动作\n\n**实战应用：**\n- 户外攀岩出顶时翻越能力至关重要\n- 不良的翻越技术可能导致肘关节受伤\n- 推力薄弱的攀岩者在翻越时容易卡住，增加坠落风险",
+            "en": "While climbing is primarily pull-dominant, pushing power is essential in specific scenarios. Mantling—pushing yourself up onto a ledge—is the most common push-intensive climbing movement, frequently encountered when topping out on boulders or outdoor routes.\n\n**Training methods:**\n- Dips: Most directly simulate the mantling motion\n- Push-up variations: Diamond push-ups target the triceps\n- Overhead press: Builds overhead pushing strength for mantles\n- Practice mantling on walls at chest height\n\nPoor mantling technique can lead to elbow injuries, making both strength and technique practice important."
+          },
+          "terms": [
+            {
+              "zh": "翻越",
+              "en": "mantle / mantling"
+            },
+            {
+              "zh": "出顶",
+              "en": "topping out"
+            },
+            {
+              "zh": "双杠臂屈伸",
+              "en": "dips"
+            },
+            {
+              "zh": "肱三头肌",
+              "en": "triceps"
+            }
+          ],
+          "crossRefs": [
+            "kp-slab-technique"
+          ],
+          "tags": [
+            "beginner",
+            "intermediate",
+            "training",
+            "strength"
+          ]
+        },
+        {
+          "id": "kp-shoulder-stability",
+          "title": {
+            "zh": "肩部稳定性",
+            "en": "Shoulder Stability"
+          },
+          "content": {
+            "zh": "肩关节是人体活动范围最大的关节，也因此是最容易受伤的关节之一。攀岩中频繁的过头动作、悬挂和动态出手对肩部稳定性有极高要求。\n\n**肩部稳定性的重要性：**\n- 防止肩关节在大幅度动作中脱位或半脱位\n- 稳定的肩部能更高效地传递力量从身体到手指\n- 减少肩袖（rotator cuff）损伤风险\n- 改善过头位置（overhead position）的控制力\n\n**训练方法：**\n- **肩袖外旋训练**：使用弹力带进行外旋和内旋练习，每周3次，每次2-3组x15次\n- **肩胛骨控制**：悬挂在单杠上，仅通过肩胛骨运动（不弯曲手臂）进行上下运动（scapular pull-ups）\n- **土耳其起立（Turkish Get-ups）**：全身性稳定训练，对肩部稳定有极好的效果\n- **面拉（Face Pulls）**：强化后三角肌和肩袖肌群，平衡攀岩中过度使用的拉力肌群\n- **YTWL训练**：俯卧在斜板上，双臂做出Y、T、W、L四种姿势，激活肩部深层稳定肌\n\n**预防性训练建议：**\n- 每次攀岩前进行肩部激活练习（弹力带外旋、肩部绕环）\n- 攀岩后进行肩部拉伸\n- 注意训练中推拉力量的平衡，攀岩者普遍推力不足\n- 出现肩部不适时及早处理，不要忍痛继续攀爬",
+            "en": "The shoulder is the most mobile joint in the body and consequently one of the most injury-prone. Climbing demands overhead movements, hanging, and dynamic reaches that require excellent shoulder stability.\n\n**Key training methods:**\n- **Rotator cuff exercises**: External and internal rotation with resistance bands, 3x/week\n- **Scapular pull-ups**: Hang from a bar and move up/down using only scapular movement\n- **Turkish get-ups**: Full-body stability with great shoulder benefits\n- **Face pulls**: Strengthen posterior deltoid and rotator cuff to balance pulling-dominant climbing muscles\n- **YTWL exercises**: Prone on an incline bench, perform Y, T, W, L arm patterns to activate deep stabilizers\n\nInclude shoulder activation before every climbing session and stretching afterward. Address discomfort early rather than climbing through pain."
+          },
+          "terms": [
+            {
+              "zh": "肩袖",
+              "en": "rotator cuff"
+            },
+            {
+              "zh": "肩胛骨引体",
+              "en": "scapular pull-up"
+            },
+            {
+              "zh": "面拉",
+              "en": "face pull"
+            },
+            {
+              "zh": "外旋",
+              "en": "external rotation"
+            },
+            {
+              "zh": "肩关节稳定性",
+              "en": "shoulder stability"
+            }
+          ],
+          "crossRefs": [
+            "kp-warmup",
+            "kp-dyno-technique"
+          ],
+          "tags": [
+            "beginner",
+            "intermediate",
+            "training",
+            "strength"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s02-core",
+      "number": "2.3",
+      "slug": "core",
+      "title": {
+        "zh": "核心力量",
+        "en": "Core Strength"
+      },
+      "overview": {
+        "zh": "核心力量是连接上下肢力量的桥梁，在攀岩中起着至关重要的作用。强大的核心能够帮助攀岩者保持身体张力、控制身体摆动、在仰角和屋檐路线上保持脚点接触，是突破瓶颈的关键训练方向。",
+        "en": "Core strength bridges upper and lower body power and plays a crucial role in climbing. A strong core helps maintain body tension, control swing, and keep feet on holds during overhang and roof climbing. It is a key area for breaking through plateaus."
+      },
+      "knowledgePoints": [
+        {
+          "id": "kp-core-role",
+          "title": {
+            "zh": "核心在攀岩中的作用",
+            "en": "The Role of Core in Climbing"
+          },
+          "content": {
+            "zh": "核心力量在攀岩中的作用远比大多数初学者认为的重要。它不仅仅是「腹肌力量」，而是一整套连接上下肢、维持身体姿态的力量系统。\n\n**身体张力（Body Tension）：**\n- 身体张力是指从手指到脚趾保持身体成为一个刚性整体的能力\n- 在仰角（overhang）路线上，缺乏身体张力会导致脚从岩点上滑落，所有重量都落在手臂上\n- 强大的身体张力能让脚更好地踩住岩点，减轻手臂负担，大幅提升耐力\n- 这是从初级到中级跨越的最关键能力之一\n\n**屋檐攀爬（Roof Climbing）：**\n- 屋檐路线中身体接近水平，核心需要对抗重力保持脚与岩点的接触\n- 需要极强的腹部、髋屈肌和背部力量\n- 脚勾（toe hook、heel hook）的有效使用也依赖核心力量来传递力\n\n**防止身体摆动（Barn Door Prevention）：**\n- 当攀岩者只有同侧的手脚接触岩壁时，身体容易像门一样旋转摆开（barn door）\n- 核心的抗旋转力量是防止这种情况的关键\n- 在动态动作后的稳定也需要核心来控制身体摆动\n\n**重心控制：**\n- 核心力量帮助精确调整和控制身体重心的位置\n- 在平衡路线（slab）上微调重心的能力依赖核心的精细控制\n- 在动态动作中核心帮助引导身体移动的方向",
+            "en": "Core strength in climbing goes far beyond \"abs\"—it is the system that connects upper and lower body and maintains body posture.\n\n**Body Tension:** The ability to keep your body rigid from fingers to toes. On overhangs, poor body tension causes feet to cut loose, overloading arms. Strong body tension keeps feet on holds and dramatically improves endurance.\n\n**Roof Climbing:** With the body nearly horizontal, the core must fight gravity to maintain foot contact. Toe hooks and heel hooks rely on core strength to transmit force effectively.\n\n**Barn Door Prevention:** When only same-side hand and foot contact the wall, the body rotates outward. Anti-rotation core strength prevents this.\n\n**Center of Gravity Control:** Core strength enables precise adjustment of body position on both slab and steep terrain."
+          },
+          "terms": [
+            {
+              "zh": "身体张力",
+              "en": "body tension"
+            },
+            {
+              "zh": "barn door（身体摆开）",
+              "en": "barn door"
+            },
+            {
+              "zh": "重心控制",
+              "en": "center of gravity control"
+            },
+            {
+              "zh": "脚切（脚离开岩点）",
+              "en": "feet cutting loose"
+            }
+          ],
+          "crossRefs": [
+            "kp-overhang-technique",
+            "kp-roof-technique",
+            "kp-toe-hook",
+            "kp-heel-hook"
+          ],
+          "tags": [
+            "beginner",
+            "intermediate",
+            "technique",
+            "strength"
+          ]
+        },
+        {
+          "id": "kp-core-training",
+          "title": {
+            "zh": "核心训练方法",
+            "en": "Core Training Methods"
+          },
+          "content": {
+            "zh": "针对攀岩的核心训练应注重功能性和攀岩动作的迁移性，而不是单纯追求腹肌的视觉效果。\n\n**前水平（Front Lever）：**\n- 攀岩中最有价值的核心训练之一\n- 从最简单的收腿前水平（tuck front lever）开始，逐步进阶到单腿伸展、跨步、最终完全伸展\n- 训练身体在悬挂位置保持水平的能力，直接对应仰角攀爬的身体张力需求\n- 每组保持5-15秒，3-5组，组间休息2-3分钟\n\n**悬垂举腿（Hanging Leg Raise）：**\n- 悬挂在单杠上，将双腿举至水平或更高\n- 进阶版本：直腿举至触杠（toes to bar）\n- 训练腹直肌和髋屈肌，对仰角路线上的抬脚能力至关重要\n- 注意控制下放速度，避免借助摆动\n\n**平板支撑变式：**\n- 基础平板支撑建立核心稳定基础\n- 单臂/单腿平板支撑增加抗旋转需求\n- 侧平板支撑强化腹斜肌\n- TRX或吊环上的平板支撑增加不稳定性\n\n**L-sit（L型支撑）：**\n- 在双杠或地面上，手撑起身体，双腿伸直保持水平\n- 极好的核心和髋屈肌训练\n- 攀岩者常在攀岩结束后作为辅助训练\n\n**龙旗（Dragon Flag）：**\n- 仰卧在长凳上，双手抓握头部后方，将身体保持为一条直线，仅肩部接触凳面\n- 高级核心训练动作，对全身张力有极好的训练效果",
+            "en": "Climbing-specific core training should prioritize functional strength and transfer to climbing movements.\n\n**Front Lever:** One of the most valuable core exercises for climbing. Progress from tuck to full front lever. Hold 5-15s x 3-5 sets. Directly builds body tension for overhangs.\n\n**Hanging Leg Raises:** Hang from a bar and lift legs to horizontal or higher (toes to bar). Builds hip flexor and abdominal strength essential for steep climbing.\n\n**Plank Variations:** Single-arm/leg planks add anti-rotation demand; side planks strengthen obliques; unstable surface planks (TRX/rings) increase difficulty.\n\n**L-sit:** Support body on parallel bars with legs extended horizontally. Excellent core and hip flexor training.\n\n**Dragon Flag:** Lying on a bench, hold body rigid with only shoulders touching. Advanced full-body tension exercise."
+          },
+          "terms": [
+            {
+              "zh": "前水平",
+              "en": "front lever"
+            },
+            {
+              "zh": "悬垂举腿",
+              "en": "hanging leg raise"
+            },
+            {
+              "zh": "L型支撑",
+              "en": "L-sit"
+            },
+            {
+              "zh": "龙旗",
+              "en": "dragon flag"
+            },
+            {
+              "zh": "收腿前水平",
+              "en": "tuck front lever"
+            }
+          ],
+          "crossRefs": [
+            "kp-overhang-technique",
+            "kp-roof-technique",
+            "kp-warmup"
+          ],
+          "tags": [
+            "intermediate",
+            "advanced",
+            "training",
+            "strength"
+          ]
+        },
+        {
+          "id": "kp-anti-rotation",
+          "title": {
+            "zh": "抗旋转核心力量",
+            "en": "Anti-Rotation Core Strength"
+          },
+          "content": {
+            "zh": "抗旋转（anti-rotation）核心力量是攀岩中常被忽视但极其重要的能力。当攀岩者用对角线方向的手脚组合（如右手左脚）发力时，躯干会产生旋转趋势，需要核心的抗旋转力量来维持平衡。\n\n**什么是抗旋转核心力量：**\n- 不是主动产生旋转的力量，而是抵抗旋转的能力\n- 当外力试图让身体旋转时，核心深层肌群（腹横肌、多裂肌等）工作来维持身体位置\n- 在攀岩中的常见场景：侧拉时防止身体旋开、大跨步时保持稳定、单手出手时维持平衡\n\n**训练方法：**\n- **帕洛夫推举（Pallof Press）**：面对绳索机或弹力带锚点站立，双手将弹力带推出胸前并保持不旋转，每侧3组x10-12次\n- **单臂农夫行走（Single-arm Farmer's Walk）**：单手持重物行走，核心必须对抗不平衡力量防止身体倾斜\n- **鸟狗式（Bird Dog）**：四足跪姿，同时伸出对侧的手和脚并保持稳定，每侧3组x10次\n- **悬挂单臂触膝（Hanging Single-arm Knee Raise）**：单臂悬挂，将对侧膝盖举起，训练悬挂位置的抗旋转\n\n**攀岩中的应用：**\n- 在旗帜脚（flagging）技术中，伸出的腿作为平衡配重时，核心抗旋转力量帮助维持身体位置\n- 在做交叉手（cross-through）动作时，抗旋转力量帮助躯干保持稳定\n- 在动态动作（dyno）起跳和落点时，抗旋转核心力量帮助控制身体方向",
+            "en": "Anti-rotation core strength is often overlooked but critically important in climbing. When using diagonal hand-foot combinations (e.g., right hand, left foot), the torso tends to rotate, requiring anti-rotation strength to maintain balance.\n\n**Training methods:**\n- **Pallof Press**: Push a band away from chest while resisting rotation. 3x10-12 per side.\n- **Single-arm Farmer's Walk**: Walk with weight in one hand, core resists lateral tilting.\n- **Bird Dog**: From all fours, extend opposite arm and leg while maintaining stability.\n- **Hanging Single-arm Knee Raise**: Single-arm hang, raise opposite knee.\n\n**Climbing applications:** Flagging, cross-throughs, and dynamic moves all rely heavily on anti-rotation core strength to maintain body position and control."
+          },
+          "terms": [
+            {
+              "zh": "抗旋转",
+              "en": "anti-rotation"
+            },
+            {
+              "zh": "帕洛夫推举",
+              "en": "Pallof press"
+            },
+            {
+              "zh": "腹横肌",
+              "en": "transverse abdominis"
+            },
+            {
+              "zh": "旗帜脚",
+              "en": "flagging"
+            }
+          ],
+          "crossRefs": [
+            "kp-overhang-technique",
+            "kp-dyno-technique"
+          ],
+          "tags": [
+            "intermediate",
+            "advanced",
+            "training",
+            "strength"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s02-flexibility",
+      "number": "2.4",
+      "slug": "flexibility",
+      "title": {
+        "zh": "柔韧性与灵活性",
+        "en": "Flexibility & Mobility"
+      },
+      "overview": {
+        "zh": "柔韧性和灵活性在攀岩中往往被低估，但它们对攀岩表现有着深远的影响。良好的柔韧性能让攀岩者触及更远的脚点、做出更大幅度的动作、保持更贴墙的身体位置，从而节省大量上肢力量。柔韧性训练也是预防受伤的重要手段。",
+        "en": "Flexibility and mobility are often underestimated in climbing but have a profound impact on performance. Good flexibility allows climbers to reach further footholds, execute larger movements, and maintain a closer body position to the wall, saving significant upper body energy. Flexibility training is also crucial for injury prevention."
+      },
+      "knowledgePoints": [
+        {
+          "id": "kp-hip-flexibility",
+          "title": {
+            "zh": "髋关节柔韧性",
+            "en": "Hip Flexibility"
+          },
+          "content": {
+            "zh": "髋关节的柔韧性可能是攀岩中最重要的柔韧性指标。良好的髋部灵活性能直接转化为更多的攀爬选择和更高效的动作。\n\n**高踏步（High Step）：**\n- 将脚抬到很高的位置（接近手的高度），然后用腿部力量推起身体\n- 需要极好的髋关节屈曲灵活性\n- 高踏步能减少对手臂拉力的依赖，更高效地提升身体\n- 练习方法：面对墙壁或台阶，练习将脚抬到越来越高的位置\n\n**劈叉与大跨步（Splits & Stemming）：**\n- 在对角（dihedral）或烟囱地形中，需要双腿大幅度张开\n- 内收肌（大腿内侧）的柔韧性限制了张开角度\n- 分腿能力好的攀岩者在桥接（bridging）和撑壁（stemming）时有明显优势\n- 练习方法：每天进行5-10分钟的分腿拉伸，逐步增加角度\n\n**蛙式姿势（Frog Position）：**\n- 攀岩中常见的姿势，双膝向外打开，身体重心压低\n- 需要髋关节良好的外展和外旋灵活性\n- 这个姿势让攀岩者的重心更贴近墙壁，减少手臂负担\n- 练习方法：蛙式拉伸（malasana / deep squat），蝴蝶式拉伸\n\n**髋关节灵活性训练计划：**\n- 90/90髋关节旋转：坐在地上，一腿前方90度弯曲，一腿侧方90度弯曲，交替旋转\n- 蜥蜴式拉伸（Lizard Pose）：低弓步，前脚放在同侧手的外侧\n- 鸽子式拉伸（Pigeon Pose）：瑜伽中经典的髋关节打开动作\n- 每天15-20分钟的髋关节灵活性训练可以在几周内产生明显效果",
+            "en": "Hip flexibility is arguably the most important flexibility attribute for climbing, directly translating to more movement options and greater efficiency.\n\n**High Steps:** Placing your foot near hand height and pushing up with leg power. Requires excellent hip flexion mobility and reduces reliance on arm strength.\n\n**Splits & Stemming:** Wide leg positions for dihedral and chimney terrain. Adductor flexibility determines your available range.\n\n**Frog Position:** Knees out, hips open, center of gravity low and close to the wall. Requires hip abduction and external rotation.\n\n**Training plan:** 90/90 hip rotations, lizard pose, pigeon pose, and deep squats. 15-20 minutes daily can produce noticeable results within weeks."
+          },
+          "terms": [
+            {
+              "zh": "高踏步",
+              "en": "high step"
+            },
+            {
+              "zh": "劈叉",
+              "en": "splits"
+            },
+            {
+              "zh": "撑壁",
+              "en": "stemming"
+            },
+            {
+              "zh": "桥接",
+              "en": "bridging"
+            },
+            {
+              "zh": "蛙式姿势",
+              "en": "frog position"
+            },
+            {
+              "zh": "内收肌",
+              "en": "adductors"
+            }
+          ],
+          "crossRefs": [
+            "kp-slab-technique",
+            "kp-warmup"
+          ],
+          "tags": [
+            "beginner",
+            "intermediate",
+            "training",
+            "technique"
+          ]
+        },
+        {
+          "id": "kp-shoulder-mobility",
+          "title": {
+            "zh": "肩部灵活性",
+            "en": "Shoulder Mobility"
+          },
+          "content": {
+            "zh": "肩部灵活性对于攀岩中的过头动作、背后抓点和大范围移动至关重要。与肩部稳定性相辅相成，良好的灵活性在力量的基础上增加了更大的动作范围。\n\n**攀岩中需要肩部灵活性的场景：**\n- Gaston（外推）动作：手掌朝外推岩点时，肩部需要良好的外展和外旋灵活性\n- 过头抓点：手臂完全伸展到头顶以上\n- 背后抓点：在身体旋转后抓握身后的岩点\n- 交叉手动作：手臂在身体前方交叉，肩部需要足够的内收灵活性\n\n**灵活性训练：**\n- **胸椎旋转拉伸**：侧卧，上方手臂做大范围画圆动作，打开胸椎\n- **肩部越头动作（Pass-throughs）**：使用棍子或弹力带，双手握住从体前经过头顶到体后，逐步缩小握距\n- **门框拉伸**：手放在门框上，身体前倾拉伸胸小肌和肩部前侧\n- **悬吊拉伸（Dead Hang）**：双手悬吊在单杠上，放松身体，让重力拉伸肩部\n\n**注意事项：**\n- 灵活性训练应在充分热身后进行\n- 不要在力量训练前进行长时间静态拉伸，会暂时降低力量输出\n- 动态拉伸适合训练前热身，静态拉伸适合训练后恢复\n- 肩部灵活性提升是一个渐进过程，每次拉伸不要强求",
+            "en": "Shoulder mobility is essential for overhead moves, back-clips, and wide-ranging movements in climbing.\n\n**Scenarios requiring shoulder mobility:** Gaston moves (outward pressing), overhead reaches, back-step reaches, and cross-through moves.\n\n**Training methods:**\n- Thoracic spine rotations (side-lying windmills)\n- Shoulder pass-throughs with a stick or band\n- Doorframe pec stretch\n- Dead hang for passive shoulder opening\n\nDynamic stretching is best before climbing; static stretching is best after. Avoid long static stretches before strength training as they temporarily reduce power output."
+          },
+          "terms": [
+            {
+              "zh": "Gaston（外推）",
+              "en": "Gaston"
+            },
+            {
+              "zh": "胸椎灵活性",
+              "en": "thoracic mobility"
+            },
+            {
+              "zh": "肩部过头动作",
+              "en": "shoulder pass-through"
+            },
+            {
+              "zh": "悬吊拉伸",
+              "en": "dead hang stretch"
+            }
+          ],
+          "crossRefs": [
+            "kp-warmup",
+            "kp-shoulder-stability"
+          ],
+          "tags": [
+            "beginner",
+            "intermediate",
+            "training"
+          ]
+        },
+        {
+          "id": "kp-warmup-stretching",
+          "title": {
+            "zh": "热身与拉伸方案",
+            "en": "Warmup & Stretching Routines"
+          },
+          "content": {
+            "zh": "科学的热身和拉伸方案是每次攀岩训练不可或缺的组成部分。正确的热身可以提升表现、预防受伤，而训练后的拉伸能促进恢复。\n\n**攀岩前热身流程（15-20分钟）：**\n1. **全身有氧活动（3-5分钟）**：跳绳、慢跑或开合跳，让心率提升，体温升高\n2. **关节活动度练习（3-5分钟）**：\n   - 手腕画圈、手指张合\n   - 肩部绕环、手臂大摆动\n   - 髋关节画圆、腿部摆动\n3. **动态拉伸（3-5分钟）**：\n   - 弓步行走配合转体\n   - 腿部摆动（前后、左右）\n   - 手臂动态拉伸\n4. **渐进式攀爬热身（5-10分钟）**：\n   - 从低于自身水平2-3个等级的路线开始\n   - 逐步提高难度\n   - 注意感受身体状态\n\n**攀岩后拉伸方案（10-15分钟）：**\n- 前臂拉伸：手掌朝上和朝下分别拉伸\n- 肩部拉伸：交叉胸前拉伸、背后手扣拉伸\n- 髋部拉伸：鸽子式、蝴蝶式\n- 背部拉伸：猫牛式、仰卧转体\n- 每个拉伸保持30-60秒\n\n**常见错误：**\n- 跳过热身直接攀爬高难度路线\n- 在冷身体状态下进行静态拉伸\n- 热身不够充分就开始指力训练\n- 忽略攀岩后的拉伸恢复",
+            "en": "A proper warmup and stretching routine is essential for every climbing session. Correct warmup improves performance and prevents injury, while post-session stretching aids recovery.\n\n**Pre-climbing warmup (15-20 min):**\n1. Light cardio (3-5 min): jumping jacks, jogging, skipping\n2. Joint mobility (3-5 min): wrist circles, shoulder rotations, hip circles\n3. Dynamic stretching (3-5 min): walking lunges with rotation, leg swings\n4. Progressive climbing (5-10 min): start 2-3 grades below your max\n\n**Post-climbing stretching (10-15 min):** Forearm stretches, shoulder cross-body and behind-back stretches, pigeon pose, butterfly stretch, cat-cow. Hold each for 30-60 seconds.\n\nCommon mistakes include skipping warmup, static stretching when cold, and neglecting post-session recovery stretching."
+          },
+          "terms": [
+            {
+              "zh": "动态拉伸",
+              "en": "dynamic stretching"
+            },
+            {
+              "zh": "静态拉伸",
+              "en": "static stretching"
+            },
+            {
+              "zh": "渐进式热身",
+              "en": "progressive warmup"
+            },
+            {
+              "zh": "关节活动度",
+              "en": "joint mobility"
+            }
+          ],
+          "crossRefs": [
+            "kp-warmup",
+            "kp-rest-management",
+            "kp-pulley-injury"
+          ],
+          "tags": [
+            "beginner",
+            "training"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s02-endurance",
+      "number": "2.5",
+      "slug": "endurance",
+      "title": {
+        "zh": "耐力",
+        "en": "Endurance"
+      },
+      "overview": {
+        "zh": "耐力是攀岩者在长时间攀爬中维持表现水平的能力。在运动攀（sport climbing）和传统攀（trad climbing）中，耐力往往是完攀的决定性因素。不同类型的耐力——有氧耐力和无氧耐力——需要通过不同的训练方法来发展。",
+        "en": "Endurance is the climber's ability to sustain performance over extended climbing. In sport and trad climbing, endurance is often the deciding factor in completing a route. Different types of endurance—aerobic and anaerobic—require different training approaches."
+      },
+      "knowledgePoints": [
+        {
+          "id": "kp-endurance-types",
+          "title": {
+            "zh": "有氧与无氧耐力",
+            "en": "Aerobic vs Anaerobic Endurance"
+          },
+          "content": {
+            "zh": "理解有氧耐力和无氧耐力（力量耐力）的区别对于制定有效的训练计划至关重要。这两种能量系统在攀岩中各自发挥不同的作用。\n\n**有氧耐力（Aerobic Endurance）：**\n- 在相对低强度下长时间持续攀爬的能力\n- 有氧系统利用氧气分解脂肪和碳水化合物产生能量\n- 前臂中的毛细血管密度越高，有氧耐力越好\n- 表现为：能在低于极限难度的路线上持续攀爬数十分钟而不pump（前臂充血僵硬）\n- 适用场景：长多段路线、热身攀爬、恢复性训练\n\n**无氧耐力 / 力量耐力（Power Endurance）：**\n- 在较高强度下维持输出的能力\n- 当强度超过有氧阈值时，乳酸开始积累，前臂出现pump\n- 力量耐力决定了你在pump状态下还能坚持多久\n- 表现为：能在接近极限难度的路线上持续30-60个动作\n- 适用场景：运动攀红点（redpoint）、抱石耐力型问题\n\n**泵感（Pump）的机制：**\n- 前臂在高强度抓握时肌肉内压增大，血液循环受限\n- 乳酸和代谢废物累积导致肌肉发酸发胀\n- 手指力量和抓握能力随pump程度增加而迅速下降\n- 通过训练可以延迟pump的到来并提高在pump状态下的表现\n\n有氧耐力是力量耐力的基础。建议先建立扎实的有氧基础，再针对力量耐力进行专项训练。",
+            "en": "Understanding the difference between aerobic and anaerobic (power) endurance is crucial for effective training.\n\n**Aerobic Endurance:** The ability to climb continuously at lower intensity. Uses oxygen to produce energy. Higher capillary density in forearms = better aerobic endurance. Relevant for multi-pitch routes and sustained moderate climbing.\n\n**Power Endurance (Anaerobic):** The ability to maintain output at higher intensity as lactate accumulates and forearms \"pump\" (become engorged and stiff). Determines how long you can climb through pump. Relevant for redpointing sport routes.\n\n**Pump mechanism:** High-intensity gripping increases intramuscular pressure, restricts blood flow, and causes lactate accumulation. Training can delay pump onset and improve performance while pumped.\n\nBuild a solid aerobic base before targeting power endurance specifically."
+          },
+          "terms": [
+            {
+              "zh": "有氧耐力",
+              "en": "aerobic endurance"
+            },
+            {
+              "zh": "力量耐力",
+              "en": "power endurance"
+            },
+            {
+              "zh": "泵感/前臂充血",
+              "en": "pump / forearm pump"
+            },
+            {
+              "zh": "红点攀登",
+              "en": "redpoint"
+            },
+            {
+              "zh": "乳酸堆积",
+              "en": "lactate accumulation"
+            }
+          ],
+          "crossRefs": [
+            "kp-rest-management"
+          ],
+          "tags": [
+            "beginner",
+            "intermediate",
+            "training",
+            "strength"
+          ]
+        },
+        {
+          "id": "kp-arc-training",
+          "title": {
+            "zh": "ARC训练",
+            "en": "ARC Training"
+          },
+          "content": {
+            "zh": "ARC训练（Aerobic Restoration and Capillarity）是发展攀岩有氧耐力的经典方法。通过长时间、低强度的持续攀爬，刺激前臂毛细血管增生和有氧代谢能力的提升。\n\n**训练方法：**\n- 选择低于自身最高水平3-4个等级的路线或岩壁\n- 持续攀爬20-45分钟不间断\n- 强度控制在不会产生明显pump的水平\n- 如果在攀岩墙上无法持续攀爬这么久，可以在简单路线之间做轻松的横移\n- 手臂应始终保持放松感，如有pump迹象应降低强度\n\n**训练频率与周期：**\n- 每周2-3次ARC训练\n- 通常安排在训练周期的基础阶段（base phase），持续4-6周\n- ARC阶段不追求最大力量提升，重点是有氧基础\n- 可以与轻度技术训练结合进行\n\n**ARC训练的好处：**\n- 增加前臂毛细血管密度，改善血液供应\n- 提升脂肪酸氧化能力，提高有氧效率\n- 延迟pump到来的时间\n- 加速攀爬间歇中的恢复速度\n- 同时也是良好的技术练习机会（在低强度下关注脚法和身体位置）\n\n**常见错误：**\n- 强度过高，攀爬中出现pump——说明难度太大\n- 持续时间过短——至少需要20分钟才能获得有氧刺激\n- 忽略ARC训练，直接进入高强度力量耐力训练",
+            "en": "ARC (Aerobic Restoration and Capillarity) training is the classic method for developing climbing aerobic endurance. It involves long-duration, low-intensity continuous climbing to stimulate capillary growth in the forearms.\n\n**Method:** Climb continuously for 20-45 minutes on terrain 3-4 grades below your max. Intensity should remain below pump threshold. Traverse between easy routes if needed.\n\n**Schedule:** 2-3 times per week during the base phase of a training cycle, for 4-6 weeks.\n\n**Benefits:** Increased forearm capillary density, improved aerobic efficiency, delayed pump onset, faster recovery between climbs, and an opportunity to practice technique at low intensity.\n\nCommon mistakes include climbing too hard (getting pumped), climbing for too short a duration, and skipping ARC in favor of high-intensity work exclusively."
+          },
+          "terms": [
+            {
+              "zh": "ARC训练",
+              "en": "ARC training (Aerobic Restoration and Capillarity)"
+            },
+            {
+              "zh": "毛细血管密度",
+              "en": "capillary density"
+            },
+            {
+              "zh": "基础阶段",
+              "en": "base phase"
+            },
+            {
+              "zh": "横移",
+              "en": "traverse"
+            }
+          ],
+          "crossRefs": [
+            "kp-rest-management",
+            "kp-warmup"
+          ],
+          "tags": [
+            "intermediate",
+            "training",
+            "strength"
+          ]
+        },
+        {
+          "id": "kp-4x4-training",
+          "title": {
+            "zh": "4x4训练法",
+            "en": "4x4 Training Method"
+          },
+          "content": {
+            "zh": "4x4训练法是发展力量耐力（power endurance）的经典方法，特别适合为运动攀红点做准备。这种训练方法模拟了在pump状态下持续高强度攀爬的场景。\n\n**训练方法：**\n- 选择4条你能轻松完攀的抱石路线（约最高水平以下2-3级）\n- 不间断地连续完成这4条路线，中间不休息（或仅短暂的路线间移动时间）\n- 完成一轮（4条路线）后休息4-5分钟\n- 重复4轮，总共完成16条路线\n- 整个训练应该非常痛苦——第3、4轮时前臂应该极度pump\n\n**强度调节：**\n- 如果能轻松完成所有4轮：路线难度太低，提高1级\n- 如果第2轮就无法完成：路线难度太高，降低1级\n- 理想状态是第3轮开始出现明显困难，第4轮需要竭尽全力\n\n**训练变式：**\n- **4x4绳索版**：在先锋攀路线上进行，每轮完成4条路线，休息后重复\n- **链接版**：在训练板上设计一条长链接路线，30-40手动作，攀爬4次\n- **减量版（3x3）**：适合初次尝试或恢复期使用\n\n**注意事项：**\n- 4x4训练强度极高，每周最多进行1-2次\n- 不应在力量训练日进行，应独立安排\n- 训练前确保充分热身\n- 这是训练周期中力量耐力阶段的核心训练\n- 不建议在赛前最后一周进行，因为恢复需要较长时间",
+            "en": "The 4x4 method is a classic power endurance training protocol, particularly effective for sport climbing redpoint preparation.\n\n**Method:** Select 4 boulder problems you can comfortably complete (2-3 grades below max). Climb all 4 back-to-back with minimal rest. Rest 4-5 minutes, then repeat for 4 total rounds (16 problems total).\n\n**Intensity calibration:** If you breeze through all rounds, increase difficulty. If you fail in round 2, decrease. Ideally, round 3 becomes noticeably hard, and round 4 requires maximum effort.\n\n**Variations:** Rope version on sport routes, linked-circuit version on a training board (30-40 moves), or reduced 3x3 version for beginners.\n\nLimit to 1-2 sessions per week due to high intensity. Not recommended in the final week before competitions."
+          },
+          "terms": [
+            {
+              "zh": "4x4训练法",
+              "en": "4x4 training method"
+            },
+            {
+              "zh": "力量耐力",
+              "en": "power endurance"
+            },
+            {
+              "zh": "链接",
+              "en": "link / linking"
+            },
+            {
+              "zh": "轮次",
+              "en": "round / set"
+            }
+          ],
+          "crossRefs": [
+            "kp-rest-management",
+            "kp-warmup"
+          ],
+          "tags": [
+            "intermediate",
+            "advanced",
+            "training",
+            "strength"
+          ]
+        },
+        {
+          "id": "kp-long-route-endurance",
+          "title": {
+            "zh": "长路线耐力管理",
+            "en": "Long Route Endurance Management"
+          },
+          "content": {
+            "zh": "长路线攀爬（多段路线、长运动攀路线）对耐力的要求不仅是体能层面的，还包括策略性的体力分配和恢复管理。\n\n**体力分配策略：**\n- 在路线上找到关键的休息点（rest position），规划好在哪里恢复\n- 简单段落快速通过以节省时间和体力，难点段落前充分休息\n- 避免在简单段落过度抓握，保持放松\n- 了解路线的难点分布，合理分配体力\n\n**挂片间恢复（Clipping Rest）：**\n- 在好的脚点上站稳，单手甩臂恢复\n- 交替甩两只手臂，每只手15-30秒\n- 深呼吸，放松不必要的肌肉紧张\n- 利用好的锁定位置或膝挡（knee bar）来解放双手\n\n**心理耐力管理：**\n- 长路线后半段身体疲劳时，心理耐力同样重要\n- 将长路线分解为若干小段，专注于当前段落\n- 不要提前焦虑还没到达的难点\n- 保持呼吸节奏，防止因紧张而呼吸急促加速疲劳\n\n**实战训练方法：**\n- 在攀岩馆进行模拟长路线训练：连续攀爬多条路线，中间只短暂休息\n- 户外进行多段路线练习，逐步增加段数\n- 在训练中刻意练习在疲劳状态下寻找和利用休息位置\n- 进行心率监控训练，学会识别自己的有氧和无氧阈值",
+            "en": "Long route climbing (multi-pitch, extended sport routes) demands not only physical endurance but strategic energy management and recovery.\n\n**Pacing strategies:** Identify rest positions on the route, move quickly through easy sections, and rest thoroughly before crux sections. Avoid over-gripping on easy terrain.\n\n**Mid-route recovery:** On good stances, shake out each arm for 15-30s with deep breathing. Use knee bars and no-hands rests when available to recover both arms simultaneously.\n\n**Mental endurance:** Break long routes into smaller segments, focus on the current section, maintain breathing rhythm, and avoid anticipating future cruxes.\n\n**Training methods:** Simulate long routes in the gym by linking multiple routes, practice multi-pitch outdoors with progressively more pitches, and deliberately practice resting under fatigue."
+          },
+          "terms": [
+            {
+              "zh": "休息位置",
+              "en": "rest position"
+            },
+            {
+              "zh": "甩臂",
+              "en": "shaking out / arm shake"
+            },
+            {
+              "zh": "膝挡",
+              "en": "knee bar"
+            },
+            {
+              "zh": "难点段落",
+              "en": "crux section"
+            },
+            {
+              "zh": "体力分配",
+              "en": "pacing"
+            }
+          ],
+          "crossRefs": [
+            "kp-rest-management",
+            "kp-fear-management"
+          ],
+          "tags": [
+            "intermediate",
+            "advanced",
+            "training",
+            "technique"
+          ]
+        }
+      ]
+    },
+    {
+      "id": "s02-power",
+      "number": "2.6",
+      "slug": "power",
+      "title": {
+        "zh": "爆发力",
+        "en": "Power"
+      },
+      "overview": {
+        "zh": "爆发力是在短时间内产生最大力量的能力，在攀岩中体现为动态动作、快速出手和弹射式移动。爆发力训练是攀岩高阶训练的重要组成部分，尤其对抱石和竞技攀岩至关重要。爆发力训练需要在充分恢复的状态下进行，且对神经系统要求极高。",
+        "en": "Power is the ability to generate maximum force in minimum time, manifesting in climbing as dynamic moves, quick hand releases, and explosive movements. Power training is essential for advanced climbing, particularly bouldering and competition climbing. It requires full recovery and places high demands on the nervous system."
+      },
+      "knowledgePoints": [
+        {
+          "id": "kp-campus-training",
+          "title": {
+            "zh": "校园板训练",
+            "en": "Campus Board Training"
+          },
+          "content": {
+            "zh": "校园板（Campus Board）是由德国攀岩传奇人物沃尔夫冈·居尔利希（Wolfgang Gullich）在1988年发明的训练工具，以训练所在的纽伦堡校园健身房（Campus Centre）命名。它是发展攀岩爆发力最有效的训练工具之一。\n\n**校园板基础：**\n- 校园板是一面略微仰角的木板，上面安装了不同大小的横档（rung）\n- 训练时双手交替在横档之间快速移动，脚不使用\n- 纯粹依靠上肢爆发力和核心力量\n\n**经典训练动作：**\n- **阶梯上行（Laddering）**：双手交替向上攀爬，如1-2-3-4-5。入门级训练动作。\n- **跳级上行（Bumping）**：一只手保持不动，另一只手连续向上移动多级，如1-3-5。训练单臂爆发力。\n- **双手弹射（Double Dynos）**：双手同时松开，向上弹射抓住更高的横档。训练协调爆发力。\n- **上下触碰（Touches）**：快速向上弹射触碰高处横档后回到原位。训练接触力量（contact strength）。\n\n**安全注意事项：**\n- 校园板训练仅适合有2年以上攀岩经验且无手指伤病的攀岩者\n- 必须在完全热身后、精力充沛时进行\n- 每组之间休息3-5分钟以确保神经系统充分恢复\n- 每周最多1-2次校园板训练\n- 青少年攀岩者应避免或极度谨慎地进行校园板训练（骨骺板未关闭的风险）\n- 如有任何手指疼痛立即停止\n\n**训练计划示例：**\n- 热身：轻松攀爬15-20分钟\n- 阶梯上行：3-4组，组间休息3分钟\n- 跳级上行：3组/每手，组间休息3-5分钟\n- 总训练时间不超过30分钟（不含热身）",
+            "en": "The campus board was invented by Wolfgang Gullich in 1988 at the Campus Centre gym in Nuremberg, Germany. It remains one of the most effective tools for developing climbing-specific power.\n\n**Classic exercises:**\n- **Laddering**: Alternating hands climbing up rungs (1-2-3-4-5). Entry-level campus exercise.\n- **Bumping**: One hand stationary while the other moves up multiple rungs (1-3-5). Trains single-arm explosiveness.\n- **Double Dynos**: Both hands release simultaneously to catch higher rungs.\n- **Touches**: Quickly touch a high rung and return to starting position. Builds contact strength.\n\n**Safety:** Only for climbers with 2+ years experience and no finger injuries. Maximum 1-2 sessions per week with 3-5 min rest between sets. Stop immediately if any finger pain occurs. Young climbers should avoid or be extremely cautious (growth plate risk)."
+          },
+          "terms": [
+            {
+              "zh": "校园板",
+              "en": "campus board"
+            },
+            {
+              "zh": "横档",
+              "en": "rung"
+            },
+            {
+              "zh": "阶梯上行",
+              "en": "laddering"
+            },
+            {
+              "zh": "跳级上行",
+              "en": "bumping"
+            },
+            {
+              "zh": "接触力量",
+              "en": "contact strength"
+            }
+          ],
+          "crossRefs": [
+            "kp-campus-board-gear",
+            "kp-pulley-injury",
+            "kp-warmup"
+          ],
+          "tags": [
+            "advanced",
+            "training",
+            "strength"
+          ]
+        },
+        {
+          "id": "kp-dynamic-movement",
+          "title": {
+            "zh": "动态动作",
+            "en": "Dynamic Movement"
+          },
+          "content": {
+            "zh": "动态动作（dynamic movement）是攀岩中利用身体惯性和爆发力来完成静态无法到达的移动。从小幅度的弹跳（deadpoint）到全身离墙的飞跃（dyno），动态动作是攀岩最令人兴奋的技术之一。\n\n**动态动作的类型：**\n- **趋势点（Deadpoint）**：身体向上弹跳的最高点（失重瞬间），此时出手抓下一个岩点。严格来说不完全离墙，但利用了向上的惯性。\n- **半动态（Semi-dynamic）**：一只手保持接触，身体大幅度摆动后另一只手出手。脚可能短暂离开岩壁。\n- **全动态 / Dyno**：双手（可能包括双脚）完全离开岩壁，整个身体在空中飞行后抓住目标岩点。最高级别的动态动作。\n- **协调式动态（Coordination Dyno / Double Dyno）**：双手同时弹射抓取两个不同的目标点，需要精确的协调性。\n\n**动态动作的关键要素：**\n- **起跳时机**：用脚蹬踏产生向上的初始力量，手同时拉动\n- **释放时机**：在身体到达最高点的瞬间松手出手，此时有效体重为零\n- **目标瞄准**：在起跳前就锁定目标岩点的位置和抓握方式\n- **抓取技术**：落点抓取需要极强的接触力量（contact strength），手指必须在碰触岩点的瞬间立即锁定\n\n**训练方法：**\n- 从小幅度的deadpoint开始练习，逐步增加距离\n- 在抱石墙上设置专门的动态问题\n- 校园板上的双手弹射训练\n- 反复练习同一个动态动作以建立肌肉记忆\n- 注意落地安全，确保充足的垫子保护",
+            "en": "Dynamic movement uses momentum and explosiveness to reach holds that can't be reached statically. It ranges from subtle deadpoints to full-body flight (dynos).\n\n**Types:**\n- **Deadpoint**: Catching a hold at the apex of upward momentum (zero-gravity moment). Not fully airborne but uses inertia.\n- **Semi-dynamic**: One hand maintains contact while the body swings to reach with the other.\n- **Full Dyno**: All points of contact leave the wall simultaneously. The most advanced dynamic technique.\n- **Coordination Dyno**: Both hands catch two different targets simultaneously.\n\n**Key elements:** Timing of launch (coordinated push from feet and pull from arms), release at the apex, target acquisition before launch, and contact strength for catching holds.\n\nTrain progressively from small deadpoints to larger dynos. Use campus boards and dedicated dynamic boulder problems."
+          },
+          "terms": [
+            {
+              "zh": "动态动作",
+              "en": "dynamic movement"
+            },
+            {
+              "zh": "趋势点",
+              "en": "deadpoint"
+            },
+            {
+              "zh": "飞跃/Dyno",
+              "en": "dyno"
+            },
+            {
+              "zh": "接触力量",
+              "en": "contact strength"
+            },
+            {
+              "zh": "失重瞬间",
+              "en": "zero-gravity moment / apex"
+            }
+          ],
+          "crossRefs": [
+            "kp-deadpoint",
+            "kp-dyno-technique",
+            "kp-campus-board-gear"
+          ],
+          "tags": [
+            "intermediate",
+            "advanced",
+            "technique",
+            "strength"
+          ]
+        },
+        {
+          "id": "kp-coordination-timing",
+          "title": {
+            "zh": "协调性与时机",
+            "en": "Coordination & Timing"
+          },
+          "content": {
+            "zh": "协调性和时机把握是将力量转化为有效攀岩动作的关键。再强的力量如果没有精确的协调和时机，也无法完成高难度的动态动作。\n\n**协调性在攀岩中的表现：**\n- **手脚协调**：在动态动作中，手脚必须精确配合。脚蹬踏产生力量的时机必须与手的拉动和释放完美协调\n- **全身协调**：复杂的抱石问题往往需要身体多个部位同时做出不同的动作——一只手抓握、另一只手出手、一只脚蹬踏、另一只脚勾挂\n- **呼吸协调**：动作发力时呼气有助于核心激活和力量输出\n- **视觉-运动协调**：在动态动作中，眼睛必须提前锁定目标，引导手部运动\n\n**时机把握的训练：**\n- **节奏训练**：在traversing时尝试保持均匀的移动节奏，培养动作流畅性\n- **慢动作练习**：极慢速度完成动作，感受每个位置的受力变化和身体状态\n- **连续动态**：在一条路线中连续做2-3个动态动作，训练连续的时机把握\n- **不同速度练习**：同一个动作分别用慢速、中速和快速完成，体会不同速度对力量需求的影响\n\n**提升协调性的方法：**\n- 多尝试不同风格的路线和抱石问题\n- 练习跳跃训练（box jumps, broad jumps）提升全身协调和爆发时机\n- 球类运动（如排球、篮球）对协调性有良好的交叉训练效果\n- 攀岩中刻意关注呼吸和动作的配合\n- 视频分析自己的攀爬动作，找出协调性的不足\n\n**从力量到技巧的转化：**\n- 力量是基础，但协调性才是让力量发挥效用的关键\n- 很多初学者只关注「更用力」，而忽略了「更巧妙」\n- 优秀的攀岩者看起来很轻松，很大程度上是因为他们的协调性和时机把握极其精确\n- 每次训练都应该有意识地关注动作质量而非单纯的完成度",
+            "en": "Coordination and timing are what convert raw strength into effective climbing movement. Even the strongest climber cannot complete dynamic moves without precise coordination.\n\n**Coordination in climbing:**\n- Hand-foot coordination: Feet push and hands pull/release in precise synchrony during dynamic moves\n- Whole-body coordination: Complex problems require simultaneous different actions from each limb\n- Breath coordination: Exhaling during exertion aids core activation and power output\n- Visual-motor coordination: Eyes must lock onto targets before and during dynamic moves\n\n**Training methods:**\n- Rhythm training during traversing for movement fluency\n- Slow-motion practice to feel force changes at each position\n- Consecutive dynamic moves to train chained timing\n- Vary speed on the same move to understand how pace affects force requirements\n- Cross-training with ball sports (volleyball, basketball) for general coordination\n- Video analysis of your own climbing to identify coordination gaps\n\nMany beginners focus solely on climbing harder rather than climbing smarter. Elite climbers look effortless largely due to exceptional coordination and timing."
+          },
+          "terms": [
+            {
+              "zh": "协调性",
+              "en": "coordination"
+            },
+            {
+              "zh": "时机把握",
+              "en": "timing"
+            },
+            {
+              "zh": "动作流畅性",
+              "en": "movement fluency"
+            },
+            {
+              "zh": "节奏",
+              "en": "rhythm"
+            },
+            {
+              "zh": "全身协调",
+              "en": "whole-body coordination"
+            }
+          ],
+          "crossRefs": [
+            "kp-deadpoint",
+            "kp-dyno-technique",
+            "kp-fear-management"
+          ],
+          "tags": [
+            "intermediate",
+            "advanced",
+            "technique",
+            "training"
+          ]
+        }
+      ]
+    }
+  ]
+}

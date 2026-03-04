@@ -1,0 +1,515 @@
+{
+  "_meta": {
+    "description": "Image registry - maps knowledge points to free Unsplash images",
+    "source": "Unsplash (https://unsplash.com) - Free to use, no attribution required",
+    "imageUrlPattern": "{cdnBase}?w=800&q=80&fit=crop&auto=format",
+    "thumbnailPattern": "{cdnBase}?w=400&q=80&fit=crop&auto=format",
+    "totalMapped": 95,
+    "lastUpdated": "2026-03-01"
+  },
+  "images": {
+    "kp-climbing-origins": {
+      "cdnBase": "https://images.unsplash.com/photo-1526269200956-4142fbfeb0a1",
+      "unsplashId": "i8Ouj0jdnEM",
+      "alt": { "zh": "黑白El Capitan，优胜美地", "en": "Grayscale El Capitan, Yosemite" }
+    },
+    "kp-free-climbing-revolution": {
+      "cdnBase": "https://images.unsplash.com/photo-1526269200956-4142fbfeb0a1",
+      "unsplashId": "i8Ouj0jdnEM",
+      "alt": { "zh": "黑白El Capitan，优胜美地", "en": "Grayscale El Capitan, Yosemite" }
+    },
+    "kp-sport-climbing-emergence": {
+      "cdnBase": "https://images.unsplash.com/photo-1529069199603-435e4c95143a",
+      "unsplashId": "IfeWcuWf2hk",
+      "alt": { "zh": "优胜美地国家公园El Capitan", "en": "El Capitan at Yosemite National Park" }
+    },
+    "kp-modern-era": {
+      "cdnBase": "https://images.unsplash.com/photo-1520156557489-31c63271fcd4",
+      "unsplashId": "VmYZe_yqxL0",
+      "alt": { "zh": "女性攀岩者在室内攀岩墙上", "en": "Woman climbing on indoor wall" }
+    },
+    "kp-climbing-categories": {
+      "cdnBase": "https://images.unsplash.com/photo-1740766053617-6a8dbe97a6aa",
+      "unsplashId": "EQ_DW72NkYU",
+      "alt": { "zh": "一群人在户外攀岩", "en": "Group of people climbing mountain" }
+    },
+    "kp-special-categories": {
+      "cdnBase": "https://images.unsplash.com/photo-1573526178135-253e85ff24ae",
+      "unsplashId": "iXc9NJwwX3E",
+      "alt": { "zh": "犹他州裂缝攀岩", "en": "Crack climbing in Utah" }
+    },
+    "kp-climbing-ethics": {
+      "cdnBase": "https://images.unsplash.com/photo-1506370785029-c6f41774f390",
+      "unsplashId": "7j-aTZwAB7s",
+      "alt": { "zh": "阳光下攀登山峰的人们", "en": "People climbing mountain under sunny sky" }
+    },
+    "kp-community-media": {
+      "cdnBase": "https://images.unsplash.com/photo-1740766053617-6a8dbe97a6aa",
+      "unsplashId": "EQ_DW72NkYU",
+      "alt": { "zh": "一群人在户外攀岩", "en": "Group of people climbing mountain" }
+    },
+    "kp-olympics-history": {
+      "cdnBase": "https://images.unsplash.com/photo-1520156557489-31c63271fcd4",
+      "unsplashId": "VmYZe_yqxL0",
+      "alt": { "zh": "室内攀岩墙上的攀岩者", "en": "Climber on indoor climbing wall" }
+    },
+    "kp-olympics-athletes": {
+      "cdnBase": "https://images.unsplash.com/photo-1520156557489-31c63271fcd4",
+      "unsplashId": "VmYZe_yqxL0",
+      "alt": { "zh": "室内攀岩墙上的攀岩者", "en": "Climber on indoor climbing wall" }
+    },
+
+    "kp-grip-types": {
+      "cdnBase": "https://images.unsplash.com/photo-1570330630305-8f63b7a7a4ec",
+      "unsplashId": "NjYEyBEZBXQ",
+      "alt": { "zh": "户外岩壁上的攀岩者", "en": "Man rock climbing outdoors" }
+    },
+    "kp-pulling-power": {
+      "cdnBase": "https://images.unsplash.com/photo-1604233098531-90b71b1b17a6",
+      "unsplashId": "qo1pyCD02t4",
+      "alt": { "zh": "健身房中做引体向上的人", "en": "Man doing pull up in gym" }
+    },
+    "kp-dynamic-movement": {
+      "cdnBase": "https://images.unsplash.com/photo-1623872373655-1ccd020beea5",
+      "unsplashId": "g6gomJuaI8I",
+      "alt": { "zh": "史密斯岩石攀岩跳跃", "en": "Climber jumping at Smith Rock" }
+    },
+    "kp-endurance-types": {
+      "cdnBase": "https://images.unsplash.com/photo-1757481214854-a41213cf176a",
+      "unsplashId": "DQS9lps3JzI",
+      "alt": { "zh": "攀岩者在水边陡峭岩壁上攀登", "en": "Rock climber ascending cliff face near water" }
+    },
+    "kp-long-route-endurance": {
+      "cdnBase": "https://images.unsplash.com/photo-1696347075770-4e3ebdedf855",
+      "unsplashId": "l2iy3wrC_8E",
+      "alt": { "zh": "多段攀岩", "en": "Multi-pitch climbing" }
+    },
+    "kp-coordination-timing": {
+      "cdnBase": "https://images.unsplash.com/photo-1644000452768-4f537d02cb41",
+      "unsplashId": "yhPidJl8ch4",
+      "alt": { "zh": "两名攀岩者在攀岩墙上", "en": "Two climbers on climbing wall" }
+    },
+
+    "kp-edging": {
+      "cdnBase": "https://images.unsplash.com/photo-1520156557489-31c63271fcd4",
+      "unsplashId": "VmYZe_yqxL0",
+      "alt": { "zh": "攀岩者脚法特写", "en": "Climber footwork close-up" }
+    },
+    "kp-smearing": {
+      "cdnBase": "https://images.unsplash.com/photo-1757481214854-a41213cf176a",
+      "unsplashId": "DQS9lps3JzI",
+      "alt": { "zh": "攀岩者在光滑岩壁上摩擦踩", "en": "Climber on smooth rock face" }
+    },
+    "kp-toe-hook": {
+      "cdnBase": "https://images.unsplash.com/photo-1501450626433-39bbf117090e",
+      "unsplashId": "G2QYE9czCEw",
+      "alt": { "zh": "室内攀岩者使用脚法技术", "en": "Indoor climber using footwork technique" }
+    },
+    "kp-heel-hook": {
+      "cdnBase": "https://images.unsplash.com/photo-1759928222798-63e73f690563",
+      "unsplashId": "XSEazbZB0WY",
+      "alt": { "zh": "攀岩者在户外抱石墙上", "en": "Person climbing outdoor bouldering wall" }
+    },
+    "kp-bicycle": {
+      "cdnBase": "https://images.unsplash.com/photo-1759928222798-63e73f690563",
+      "unsplashId": "XSEazbZB0WY",
+      "alt": { "zh": "攀岩者使用脚法技术", "en": "Climber using foot technique" }
+    },
+    "kp-foot-switching": {
+      "cdnBase": "https://images.unsplash.com/photo-1644000452768-4f537d02cb41",
+      "unsplashId": "yhPidJl8ch4",
+      "alt": { "zh": "攀岩者展示脚法", "en": "Climbers demonstrating footwork" }
+    },
+    "kp-smedging": {
+      "cdnBase": "https://images.unsplash.com/photo-1758172797466-7fe6fef9aa51",
+      "unsplashId": "v7A1a4wakeA",
+      "alt": { "zh": "攀岩者在砂岩面上", "en": "Climber on sandy cliff face" }
+    },
+    "kp-jug-hold": {
+      "cdnBase": "https://images.unsplash.com/photo-1672586318143-ba49310b1bdd",
+      "unsplashId": "z6H6kupMXws",
+      "alt": { "zh": "攀岩者抓握大岩点", "en": "Climber gripping large hold" }
+    },
+    "kp-crimp-hold": {
+      "cdnBase": "https://images.unsplash.com/photo-1683009427041-d810728a7cb6",
+      "unsplashId": "xhMz5xIbhRg",
+      "alt": { "zh": "攀岩者在岩壁上抓握", "en": "Climber gripping holds on cliff" }
+    },
+    "kp-sloper-hold": {
+      "cdnBase": "https://images.unsplash.com/photo-1744842091515-f1c88ee17b53",
+      "unsplashId": "cvikmsgyiKQ",
+      "alt": { "zh": "攀岩者在岩壁上", "en": "Rock climber on cliff" }
+    },
+    "kp-pinch-hold": {
+      "cdnBase": "https://images.unsplash.com/photo-1570330630305-8f63b7a7a4ec",
+      "unsplashId": "NjYEyBEZBXQ",
+      "alt": { "zh": "户外攀岩手部特写", "en": "Outdoor climbing hands close-up" }
+    },
+    "kp-pocket-hold": {
+      "cdnBase": "https://images.unsplash.com/photo-1682685794304-99d3d07c57d2",
+      "unsplashId": "HegvNcZXWTE",
+      "alt": { "zh": "沙漠岩壁攀岩", "en": "Desert rock climbing" }
+    },
+    "kp-undercling-sidepull-gaston": {
+      "cdnBase": "https://images.unsplash.com/photo-1672586318143-ba49310b1bdd",
+      "unsplashId": "z6H6kupMXws",
+      "alt": { "zh": "攀岩者展示手法技术", "en": "Climber demonstrating grip technique" }
+    },
+    "kp-palming": {
+      "cdnBase": "https://images.unsplash.com/photo-1758172797466-7fe6fef9aa51",
+      "unsplashId": "v7A1a4wakeA",
+      "alt": { "zh": "掌撑在岩面上", "en": "Palming on rock surface" }
+    },
+    "kp-hand-sequence": {
+      "cdnBase": "https://images.unsplash.com/photo-1501450626433-39bbf117090e",
+      "unsplashId": "G2QYE9czCEw",
+      "alt": { "zh": "攀岩者手部动作", "en": "Climber hand movements" }
+    },
+    "kp-center-of-gravity": {
+      "cdnBase": "https://images.unsplash.com/photo-1520156557489-31c63271fcd4",
+      "unsplashId": "VmYZe_yqxL0",
+      "alt": { "zh": "攀岩者身体姿态", "en": "Climber body positioning" }
+    },
+    "kp-flagging": {
+      "cdnBase": "https://images.unsplash.com/photo-1501450626433-39bbf117090e",
+      "unsplashId": "G2QYE9czCEw",
+      "alt": { "zh": "室内攀岩身体平衡", "en": "Indoor climbing body balance" }
+    },
+    "kp-drop-knee": {
+      "cdnBase": "https://images.unsplash.com/photo-1759928222798-63e73f690563",
+      "unsplashId": "XSEazbZB0WY",
+      "alt": { "zh": "攀岩者展示drop knee", "en": "Climber demonstrating drop knee" }
+    },
+    "kp-twist-lock": {
+      "cdnBase": "https://images.unsplash.com/photo-1644000452768-4f537d02cb41",
+      "unsplashId": "yhPidJl8ch4",
+      "alt": { "zh": "攀岩扭转锁定", "en": "Climbing twist lock" }
+    },
+    "kp-back-step": {
+      "cdnBase": "https://images.unsplash.com/photo-1501450626433-39bbf117090e",
+      "unsplashId": "G2QYE9czCEw",
+      "alt": { "zh": "室内攀岩技术", "en": "Indoor climbing technique" }
+    },
+    "kp-stemming": {
+      "cdnBase": "https://images.unsplash.com/photo-1751515512195-f411e6d074af",
+      "unsplashId": "N8_6eaZHJos",
+      "alt": { "zh": "陡峭的岩壁裂缝", "en": "Steep cliff face with vertical formations" }
+    },
+    "kp-layback": {
+      "cdnBase": "https://images.unsplash.com/photo-1573526178135-253e85ff24ae",
+      "unsplashId": "iXc9NJwwX3E",
+      "alt": { "zh": "犹他州传统攀岩", "en": "Traditional climbing in Utah" }
+    },
+    "kp-high-step-mantle": {
+      "cdnBase": "https://images.unsplash.com/photo-1672586318143-ba49310b1bdd",
+      "unsplashId": "z6H6kupMXws",
+      "alt": { "zh": "攀岩者在大岩壁上", "en": "Climber on large rock face" }
+    },
+    "kp-dyno-technique": {
+      "cdnBase": "https://images.unsplash.com/photo-1623872373655-1ccd020beea5",
+      "unsplashId": "g6gomJuaI8I",
+      "alt": { "zh": "攀岩者在空中跳跃", "en": "Climber jumping dynamically" }
+    },
+    "kp-deadpoint": {
+      "cdnBase": "https://images.unsplash.com/photo-1501450626433-39bbf117090e",
+      "unsplashId": "G2QYE9czCEw",
+      "alt": { "zh": "室内攀岩动态动作", "en": "Indoor climbing dynamic movement" }
+    },
+    "kp-lunge-types": {
+      "cdnBase": "https://images.unsplash.com/photo-1623872373655-1ccd020beea5",
+      "unsplashId": "g6gomJuaI8I",
+      "alt": { "zh": "攀岩跳跃动作", "en": "Climbing lunge movement" }
+    },
+    "kp-slab-technique": {
+      "cdnBase": "https://images.unsplash.com/photo-1757481214854-a41213cf176a",
+      "unsplashId": "DQS9lps3JzI",
+      "alt": { "zh": "攀岩者在光滑岩壁上", "en": "Climber ascending smooth cliff face" }
+    },
+    "kp-overhang-technique": {
+      "cdnBase": "https://images.unsplash.com/photo-1672586318143-ba49310b1bdd",
+      "unsplashId": "z6H6kupMXws",
+      "alt": { "zh": "攀岩者在悬挂岩壁上", "en": "Climber on overhanging rock face" }
+    },
+    "kp-crack-technique": {
+      "cdnBase": "https://images.unsplash.com/photo-1573526178135-253e85ff24ae",
+      "unsplashId": "iXc9NJwwX3E",
+      "alt": { "zh": "裂缝攀岩手部技术", "en": "Crack climbing hand technique" }
+    },
+    "kp-arete-mantle": {
+      "cdnBase": "https://images.unsplash.com/photo-1751515512195-f411e6d074af",
+      "unsplashId": "N8_6eaZHJos",
+      "alt": { "zh": "陡峭的岩石棱角", "en": "Steep rock arete" }
+    },
+    "kp-route-reading-basics": {
+      "cdnBase": "https://images.unsplash.com/photo-1520156557489-31c63271fcd4",
+      "unsplashId": "VmYZe_yqxL0",
+      "alt": { "zh": "攀岩者观察路线", "en": "Climber reading the route" }
+    },
+    "kp-onsight-flash-redpoint": {
+      "cdnBase": "https://images.unsplash.com/photo-1744842091515-f1c88ee17b53",
+      "unsplashId": "cvikmsgyiKQ",
+      "alt": { "zh": "攀岩者专注攀爬", "en": "Climber focused on ascent" }
+    },
+
+    "kp-fear-management": {
+      "cdnBase": "https://images.unsplash.com/photo-1516733745173-62e8f8651711",
+      "unsplashId": "PvqFnMN3uqY",
+      "alt": { "zh": "高处攀岩者", "en": "Climber at height" }
+    },
+    "kp-desensitization": {
+      "cdnBase": "https://images.unsplash.com/photo-1516733745173-62e8f8651711",
+      "unsplashId": "PvqFnMN3uqY",
+      "alt": { "zh": "高处攀岩者克服恐惧", "en": "Climber overcoming fear at height" }
+    },
+    "kp-flow-state": {
+      "cdnBase": "https://images.unsplash.com/photo-1744842091515-f1c88ee17b53",
+      "unsplashId": "cvikmsgyiKQ",
+      "alt": { "zh": "专注的攀岩者", "en": "Focused rock climber" }
+    },
+    "kp-projecting-strategy": {
+      "cdnBase": "https://images.unsplash.com/photo-1683009427041-d810728a7cb6",
+      "unsplashId": "xhMz5xIbhRg",
+      "alt": { "zh": "攀岩者分析线路", "en": "Climber analyzing route" }
+    },
+    "kp-working-linking": {
+      "cdnBase": "https://images.unsplash.com/photo-1683009427041-d810728a7cb6",
+      "unsplashId": "xhMz5xIbhRg",
+      "alt": { "zh": "攀岩者练习路线", "en": "Climber working a route" }
+    },
+    "kp-plateau-breaking": {
+      "cdnBase": "https://images.unsplash.com/photo-1672586318143-ba49310b1bdd",
+      "unsplashId": "z6H6kupMXws",
+      "alt": { "zh": "攀岩者挑战难度", "en": "Climber pushing limits" }
+    },
+
+    "kp-chalk": {
+      "cdnBase": "https://images.unsplash.com/photo-1473441732394-649138d63985",
+      "unsplashId": "ZHsG61qr5ak",
+      "alt": { "zh": "攀岩镁粉袋特写", "en": "Chalk bag close-up" }
+    },
+    "kp-rope": {
+      "cdnBase": "https://images.unsplash.com/photo-1761129129986-feb1ed224733",
+      "unsplashId": "JZZAORC6J2o",
+      "alt": { "zh": "攀岩绳索和铁锁", "en": "Climbing rope and carabiner" }
+    },
+    "kp-quickdraw": {
+      "cdnBase": "https://images.unsplash.com/photo-1761129129986-feb1ed224733",
+      "unsplashId": "JZZAORC6J2o",
+      "alt": { "zh": "快挂铁锁特写", "en": "Quickdraw carabiner close-up" }
+    },
+    "kp-harness": {
+      "cdnBase": "https://images.unsplash.com/photo-1647897249565-bd723baf36cd",
+      "unsplashId": "tWR4WFn7Y8w",
+      "alt": { "zh": "佩戴安全带的攀岩者", "en": "Climber wearing harness" }
+    },
+    "kp-belay-device": {
+      "cdnBase": "https://images.unsplash.com/photo-1602517178766-08f0833f195b",
+      "unsplashId": "AlfXMSDNzxI",
+      "alt": { "zh": "攀岩保护操作", "en": "Climbing belay operation" }
+    },
+    "kp-skin-management": {
+      "cdnBase": "https://images.unsplash.com/photo-1473441732394-649138d63985",
+      "unsplashId": "ZHsG61qr5ak",
+      "alt": { "zh": "攀岩者的手和镁粉", "en": "Climber hands and chalk" }
+    },
+
+    "kp-bouldering-fall": {
+      "cdnBase": "https://images.unsplash.com/photo-1501450626433-39bbf117090e",
+      "unsplashId": "G2QYE9czCEw",
+      "alt": { "zh": "室内抱石攀岩", "en": "Indoor bouldering" }
+    },
+    "kp-lead-belay-indoor": {
+      "cdnBase": "https://images.unsplash.com/photo-1644000452768-4f537d02cb41",
+      "unsplashId": "yhPidJl8ch4",
+      "alt": { "zh": "室内先锋攀岩与保护", "en": "Indoor lead climbing and belaying" }
+    },
+    "kp-gym-etiquette": {
+      "cdnBase": "https://images.unsplash.com/photo-1644000452768-4f537d02cb41",
+      "unsplashId": "yhPidJl8ch4",
+      "alt": { "zh": "攀岩馆内的攀岩者", "en": "Climbers in the gym" }
+    },
+    "kp-rockfall-risk": {
+      "cdnBase": "https://images.unsplash.com/photo-1751515512195-f411e6d074af",
+      "unsplashId": "N8_6eaZHJos",
+      "alt": { "zh": "陡峭的岩壁", "en": "Steep cliff face" }
+    },
+    "kp-weather-assessment": {
+      "cdnBase": "https://images.unsplash.com/photo-1506370785029-c6f41774f390",
+      "unsplashId": "7j-aTZwAB7s",
+      "alt": { "zh": "阳光下的户外攀岩", "en": "Outdoor climbing under sunny sky" }
+    },
+    "kp-retreat-strategy": {
+      "cdnBase": "https://images.unsplash.com/photo-1680241526823-470f2b661240",
+      "unsplashId": "Xxk0nhN0Jq4",
+      "alt": { "zh": "绳索攀岩者在山壁上", "en": "Roped climber on mountain" }
+    },
+    "kp-leave-no-trace": {
+      "cdnBase": "https://images.unsplash.com/photo-1506370785029-c6f41774f390",
+      "unsplashId": "7j-aTZwAB7s",
+      "alt": { "zh": "自然环境中的户外攀岩", "en": "Outdoor climbing in natural environment" }
+    },
+    "kp-knots": {
+      "cdnBase": "https://images.unsplash.com/photo-1767406505008-b3c283136872",
+      "unsplashId": "KLCtKbyilMU",
+      "alt": { "zh": "八字结特写", "en": "Figure-eight knot close-up" }
+    },
+    "kp-belaying": {
+      "cdnBase": "https://images.unsplash.com/photo-1602517178766-08f0833f195b",
+      "unsplashId": "AlfXMSDNzxI",
+      "alt": { "zh": "两人绳索攀岩剪影", "en": "Silhouette of two climbers with rope" }
+    },
+    "kp-rappelling": {
+      "cdnBase": "https://images.unsplash.com/photo-1623872373655-1ccd020beea5",
+      "unsplashId": "g6gomJuaI8I",
+      "alt": { "zh": "史密斯岩石下降", "en": "Rappelling at Smith Rock" }
+    },
+    "kp-basic-rescue": {
+      "cdnBase": "https://images.unsplash.com/photo-1680241526823-470f2b661240",
+      "unsplashId": "Xxk0nhN0Jq4",
+      "alt": { "zh": "绳索救援操作", "en": "Rope rescue operation" }
+    },
+    "kp-crash-pad": {
+      "cdnBase": "https://images.unsplash.com/photo-1759928222798-63e73f690563",
+      "unsplashId": "XSEazbZB0WY",
+      "alt": { "zh": "户外抱石与防护垫", "en": "Outdoor bouldering with crash pad" }
+    },
+    "kp-spotter": {
+      "cdnBase": "https://images.unsplash.com/photo-1759928222798-63e73f690563",
+      "unsplashId": "XSEazbZB0WY",
+      "alt": { "zh": "户外抱石保护", "en": "Outdoor bouldering spotting" }
+    },
+    "kp-landing-position": {
+      "cdnBase": "https://images.unsplash.com/photo-1501450626433-39bbf117090e",
+      "unsplashId": "G2QYE9czCEw",
+      "alt": { "zh": "室内抱石落地", "en": "Indoor bouldering landing" }
+    },
+
+    "kp-indoor-outdoor-diff": {
+      "cdnBase": "https://images.unsplash.com/photo-1682685794304-99d3d07c57d2",
+      "unsplashId": "HegvNcZXWTE",
+      "alt": { "zh": "户外自然岩壁攀岩", "en": "Outdoor natural rock climbing" }
+    },
+    "kp-first-outdoor-trip": {
+      "cdnBase": "https://images.unsplash.com/photo-1682685794304-99d3d07c57d2",
+      "unsplashId": "HegvNcZXWTE",
+      "alt": { "zh": "户外攀岩初体验", "en": "First outdoor climbing experience" }
+    },
+    "kp-rock-types": {
+      "cdnBase": "https://images.unsplash.com/photo-1733085097233-66441dedba94",
+      "unsplashId": "cTnKAssJt9A",
+      "alt": { "zh": "花岗岩表面特写", "en": "Granite surface close-up" }
+    },
+    "kp-clipping-technique": {
+      "cdnBase": "https://images.unsplash.com/photo-1647897249565-bd723baf36cd",
+      "unsplashId": "tWR4WFn7Y8w",
+      "alt": { "zh": "先锋攀岩挂绳", "en": "Lead climbing clipping" }
+    },
+    "kp-lead-strategy-outdoor": {
+      "cdnBase": "https://images.unsplash.com/photo-1744842091515-f1c88ee17b53",
+      "unsplashId": "cvikmsgyiKQ",
+      "alt": { "zh": "户外先锋攀岩策略", "en": "Outdoor lead climbing strategy" }
+    },
+    "kp-outdoor-sport-safety": {
+      "cdnBase": "https://images.unsplash.com/photo-1647897249565-bd723baf36cd",
+      "unsplashId": "tWR4WFn7Y8w",
+      "alt": { "zh": "户外运动攀岩安全", "en": "Outdoor sport climbing safety" }
+    },
+    "kp-placing-protection": {
+      "cdnBase": "https://images.unsplash.com/photo-1573526178135-253e85ff24ae",
+      "unsplashId": "iXc9NJwwX3E",
+      "alt": { "zh": "传统攀岩放置保护", "en": "Trad climbing placing protection" }
+    },
+    "kp-crack-climbing-systems": {
+      "cdnBase": "https://images.unsplash.com/photo-1573526178135-253e85ff24ae",
+      "unsplashId": "iXc9NJwwX3E",
+      "alt": { "zh": "裂缝攀岩系统", "en": "Crack climbing systems" }
+    },
+    "kp-multi-pitch": {
+      "cdnBase": "https://images.unsplash.com/photo-1696347075770-4e3ebdedf855",
+      "unsplashId": "l2iy3wrC_8E",
+      "alt": { "zh": "多段攀岩", "en": "Multi-pitch climbing" }
+    },
+    "kp-outdoor-bouldering-chars": {
+      "cdnBase": "https://images.unsplash.com/photo-1759928222798-63e73f690563",
+      "unsplashId": "XSEazbZB0WY",
+      "alt": { "zh": "户外抱石特点", "en": "Outdoor bouldering characteristics" }
+    },
+    "kp-landing-strategy": {
+      "cdnBase": "https://images.unsplash.com/photo-1759928222798-63e73f690563",
+      "unsplashId": "XSEazbZB0WY",
+      "alt": { "zh": "户外抱石落地策略", "en": "Outdoor bouldering landing strategy" }
+    },
+    "kp-area-exploration": {
+      "cdnBase": "https://images.unsplash.com/photo-1506370785029-c6f41774f390",
+      "unsplashId": "7j-aTZwAB7s",
+      "alt": { "zh": "探索攀岩区域", "en": "Exploring climbing area" }
+    },
+    "kp-bigwall-planning": {
+      "cdnBase": "https://images.unsplash.com/photo-1529069199603-435e4c95143a",
+      "unsplashId": "IfeWcuWf2hk",
+      "alt": { "zh": "优胜美地El Capitan大岩壁", "en": "El Capitan big wall, Yosemite" }
+    },
+    "kp-aid-climbing": {
+      "cdnBase": "https://images.unsplash.com/photo-1680241526823-470f2b661240",
+      "unsplashId": "Xxk0nhN0Jq4",
+      "alt": { "zh": "器械攀岩", "en": "Aid climbing" }
+    },
+    "kp-wall-living": {
+      "cdnBase": "https://images.unsplash.com/photo-1755128368298-198903712688",
+      "unsplashId": "7vyTATsnkrk",
+      "alt": { "zh": "优胜美地谷底全景", "en": "Yosemite Valley panorama" }
+    },
+    "kp-classic-destinations": {
+      "cdnBase": "https://images.unsplash.com/photo-1755128368298-198903712688",
+      "unsplashId": "7vyTATsnkrk",
+      "alt": { "zh": "优胜美地攀岩圣地", "en": "Yosemite climbing destination" }
+    },
+    "kp-trip-planning": {
+      "cdnBase": "https://images.unsplash.com/photo-1506370785029-c6f41774f390",
+      "unsplashId": "7j-aTZwAB7s",
+      "alt": { "zh": "户外攀岩旅行", "en": "Outdoor climbing trip" }
+    },
+
+    "kp-kids-development": {
+      "cdnBase": "https://images.unsplash.com/photo-1509398484917-2a5b6439feef",
+      "unsplashId": "GGlz-QSvL38",
+      "alt": { "zh": "孩子在攀岩墙上", "en": "Child on climbing wall" }
+    },
+    "kp-kids-safety": {
+      "cdnBase": "https://images.unsplash.com/photo-1509398484917-2a5b6439feef",
+      "unsplashId": "GGlz-QSvL38",
+      "alt": { "zh": "儿童攀岩安全", "en": "Kids climbing safety" }
+    },
+    "kp-kids-fun-approach": {
+      "cdnBase": "https://images.unsplash.com/photo-1509398484917-2a5b6439feef",
+      "unsplashId": "GGlz-QSvL38",
+      "alt": { "zh": "孩子快乐攀岩", "en": "Kids having fun climbing" }
+    },
+
+    "kp-lead-competition": {
+      "cdnBase": "https://images.unsplash.com/photo-1520156557489-31c63271fcd4",
+      "unsplashId": "VmYZe_yqxL0",
+      "alt": { "zh": "先锋攀岩比赛", "en": "Lead climbing competition" }
+    },
+    "kp-boulder-competition": {
+      "cdnBase": "https://images.unsplash.com/photo-1501450626433-39bbf117090e",
+      "unsplashId": "G2QYE9czCEw",
+      "alt": { "zh": "抱石比赛", "en": "Bouldering competition" }
+    },
+    "kp-performance-mindset": {
+      "cdnBase": "https://images.unsplash.com/photo-1744842091515-f1c88ee17b53",
+      "unsplashId": "cvikmsgyiKQ",
+      "alt": { "zh": "专注攀岩的心态", "en": "Performance climbing mindset" }
+    },
+    "kp-competition-anxiety": {
+      "cdnBase": "https://images.unsplash.com/photo-1516733745173-62e8f8651711",
+      "unsplashId": "PvqFnMN3uqY",
+      "alt": { "zh": "比赛焦虑管理", "en": "Competition anxiety management" }
+    },
+    "kp-pressure-visualization": {
+      "cdnBase": "https://images.unsplash.com/photo-1516733745173-62e8f8651711",
+      "unsplashId": "PvqFnMN3uqY",
+      "alt": { "zh": "压力管理与想象训练", "en": "Pressure management and visualization" }
+    }
+  }
+}

@@ -1,0 +1,633 @@
+{
+  "_meta": {
+    "section": "section-03",
+    "sectionTitle": { "zh": "攀爬技术", "en": "Climbing Technique" },
+    "searchDate": "2026-03-03",
+    "totalArticles": 23,
+    "coveredKps": 31,
+    "totalKps": 37,
+    "uncoveredKps": ["kp-smedging", "kp-diagonal-support"],
+    "partiallyCoveredKps": ["kp-smearing", "kp-high-step-mantle", "kp-coordination-timing", "kp-campus-moves"]
+  },
+  "articles": [
+    {
+      "url": "https://www.powercompanyclimbing.com/blog/how-to-toe-hook",
+      "title": "How To Toe Hook: The Most Misunderstood Climbing Technique",
+      "source": "Power Company Climbing",
+      "author": "Kris Hampton",
+      "language": "en",
+      "publishDate": "2025-06",
+      "articleType": "tutorial",
+      "primaryKp": "kp-toe-hook",
+      "secondaryKps": ["kp-heel-hook", "kp-bicycle"],
+      "quality": {
+        "authority": 4,
+        "depth": 5,
+        "practicality": 5,
+        "recency": 5,
+        "uniqueness": 5,
+        "total": 24
+      },
+      "summary": "Kris Hampton 纠正了 toe hook 最常见的两个误解：①toe hook 的力点在脚背而非脚趾；②它是技巧动作而非力量动作，重点在于身体位置和压缩力而非胫骨肌力量。",
+      "keyInsights": [
+        "Toe hook 实际上是用脚背（dorsum）而非脚趾勾挂，类比 kneebar 中用的不是膝盖本身",
+        "Toe hook 的作用是创造稳定性，而非发力拉起身体",
+        "正确执行：髋部放低、腿保持相对伸直，利用脚勾和对侧手之间的压缩力",
+        "进步依赖刻意练习和积累经验，而非单纯的力量训练"
+      ],
+      "tags": ["toe-hook", "footwork", "technique", "body-positioning", "compression", "kris-hampton"]
+    },
+    {
+      "url": "https://www.vdiffclimbing.com/sport-technique-footwork/",
+      "title": "Footwork – Improve Your Rock Climbing Technique",
+      "source": "VDiff Climbing",
+      "author": "VDiff",
+      "language": "en",
+      "publishDate": "2025-12",
+      "articleType": "tutorial",
+      "primaryKp": "kp-edging",
+      "secondaryKps": ["kp-smearing", "kp-smedging", "kp-foot-switching"],
+      "quality": {
+        "authority": 4,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 5,
+        "uniqueness": 3,
+        "total": 21
+      },
+      "summary": "VDiff Climbing 的系统脚法教程，覆盖内侧边缘、外侧边缘、涂抹三种基础脚法，并解释何时使用不同脚法及鞋子硬度的影响。",
+      "keyInsights": [
+        "内侧边缘（edging）适用于有明确台阶的岩点，外侧边缘用于侧切和外侧脚法",
+        "涂抹（smearing）时鞋底需垂直于岩壁以最大化接触面积",
+        "硬底鞋更擅长 edging，软底鞋更适合 smearing——根据路线特点选鞋",
+        "脚踩点的核心是'看眼睛到脚上去'（keep eyes on foot until placement is secure）"
+      ],
+      "tags": ["footwork", "edging", "smearing", "outside-edge", "inside-edge", "shoe-selection"]
+    },
+    {
+      "url": "https://trainingforclimbing.com/develop-fantastic-footwork-with-heel-hook-and-toe-hook-technique/",
+      "title": "Develop Fantastic Footwork with Heel-Hook and Toe-Hook Technique",
+      "source": "Training For Climbing",
+      "author": "Eric Hörst",
+      "language": "en",
+      "publishDate": "2023",
+      "articleType": "tutorial",
+      "primaryKp": "kp-heel-hook",
+      "secondaryKps": ["kp-toe-hook", "kp-hip-flexibility"],
+      "quality": {
+        "authority": 5,
+        "depth": 4,
+        "practicality": 4,
+        "recency": 4,
+        "uniqueness": 4,
+        "total": 21
+      },
+      "summary": "Eric Hörst 详解 heel hook 和 toe hook 的完整技术体系：适用地形、发力肌群、常见错误与改进方法，并给出配套的脚法强化训练建议。",
+      "keyInsights": [
+        "Heel hook 的主要发力肌群是腘绳肌，配合核心张力稳定身体",
+        "Toe hook 在屋顶和倒壁地形中用于减轻手臂负担，是节省体力的关键技术",
+        "两种技术都需要良好的髋部灵活性才能充分发挥",
+        "提供了专门强化 heel/toe hook 的训练动作和适用场景判断"
+      ],
+      "tags": ["heel-hook", "toe-hook", "footwork", "technique", "hamstrings", "hip-mobility"]
+    },
+    {
+      "url": "https://gripped.com/profiles/10-terms-to-understand-climbing-footwork/",
+      "title": "10 Terms to Understand Climbing Footwork",
+      "source": "Gripped Magazine",
+      "author": "unknown",
+      "language": "en",
+      "publishDate": "unknown",
+      "articleType": "tutorial",
+      "primaryKp": "kp-foot-switching",
+      "secondaryKps": ["kp-edging", "kp-smearing", "kp-bicycle", "kp-heel-hook", "kp-toe-hook"],
+      "quality": {
+        "authority": 3,
+        "depth": 4,
+        "practicality": 4,
+        "recency": 3,
+        "uniqueness": 4,
+        "total": 18
+      },
+      "summary": "Gripped Magazine 用 10 个关键术语系统解释攀岩脚法词汇，涵盖 smearing、edging、foot-switching、bicycle 等各种脚法技术，适合中级攀岩者扩展脚法词汇和理解。",
+      "keyInsights": [
+        "汇总了10个脚法术语，覆盖从基础到进阶的完整脚法词汇体系",
+        "清晰解释了 foot-switching（换脚）的时机选择和执行方法",
+        "Bicycle（脚踏车）技术：同一岩点上脚跟向下压而脚尖向上勾，产生相反方向的力",
+        "对于初学者和中级攀岩者是非常实用的脚法技术词典"
+      ],
+      "tags": ["footwork", "foot-switching", "bicycle", "terminology", "technique-glossary"]
+    },
+    {
+      "url": "https://www.climbing.com/skills/the-heel-toe-cam/",
+      "title": "The Heel-Toe Cam",
+      "source": "Climbing Magazine",
+      "author": "unknown",
+      "language": "en",
+      "publishDate": "unknown",
+      "articleType": "tutorial",
+      "primaryKp": "kp-bicycle",
+      "secondaryKps": ["kp-heel-hook", "kp-toe-hook", "kp-overhang-technique"],
+      "quality": {
+        "authority": 4,
+        "depth": 4,
+        "practicality": 4,
+        "recency": 3,
+        "uniqueness": 4,
+        "total": 19
+      },
+      "summary": "Climbing Magazine 详解 heel-toe cam（脚踏车）技术：脚跟与脚尖分别压在同一岩点的两侧产生楔形固定效果，是倒壁和屋顶地形中节省手臂力量的关键脚法。",
+      "keyInsights": [
+        "Heel-toe cam 利用楔形原理固定脚部，效果可媲美踩在台阶上",
+        "硬底攀岩鞋在执行 heel-toe cam 时效果更佳，软底鞋容易折叠失去力量",
+        "从 heel-toe cam 发力站起时，应同时用腿发力和手臂向外拉",
+        "此技术特别适用于存在明显圆形或凸出特征的倒壁路线"
+      ],
+      "tags": ["bicycle", "heel-toe-cam", "footwork", "steep-climbing", "roof", "technique"]
+    },
+    {
+      "url": "https://www.trainingbeta.com/how-to-climb-slopers/",
+      "title": "How to Climb Slopers",
+      "source": "TrainingBeta",
+      "author": "unknown",
+      "language": "en",
+      "publishDate": "unknown",
+      "articleType": "tutorial",
+      "primaryKp": "kp-sloper-hold",
+      "secondaryKps": ["kp-center-of-gravity", "kp-grip-types"],
+      "quality": {
+        "authority": 4,
+        "depth": 3,
+        "practicality": 4,
+        "recency": 3,
+        "uniqueness": 3,
+        "total": 17
+      },
+      "summary": "TrainingBeta 讲解 sloper（斜面点）的技术要领：身体位置决定一切——需要将身体置于点的正下方，手臂伸直，前臂贴近岩壁，利用摩擦力而非力量。",
+      "keyInsights": [
+        "Sloper 更多依赖身体位置而非握力，身体在点的正下方是关键",
+        "手臂应保持伸直，将手掌摊开最大化接触面积以增加摩擦",
+        "爬 sloper 需要额外的精神耐心、核心张力和安静的动作",
+        "与其他点相比，sloper 对身体整体协调性和重心控制的要求更高"
+      ],
+      "tags": ["sloper", "handholds", "body-position", "friction", "center-of-gravity"]
+    },
+    {
+      "url": "https://www.trainingbeta.com/avoiding-injuries-on-pockets-the-climbing-doctor/",
+      "title": "Avoiding Injuries on Pockets",
+      "source": "TrainingBeta / The Climbing Doctor",
+      "author": "The Climbing Doctor",
+      "language": "en",
+      "publishDate": "unknown",
+      "articleType": "tutorial",
+      "primaryKp": "kp-pocket-hold",
+      "secondaryKps": ["kp-pulley-injury", "kp-warmup"],
+      "quality": {
+        "authority": 5,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 3,
+        "uniqueness": 5,
+        "total": 22
+      },
+      "summary": "The Climbing Doctor 专题讲解 pocket（凹槽点）的安全使用方法：解释为何 pocket 比其他点更容易造成滑车损伤，并给出降低风险的具体策略。",
+      "keyInsights": [
+        "Mono pocket 对手指滑车的压力远大于其他握姿，单指使用需要特别谨慎",
+        "不对称的手指弯曲角度（某些手指悬空）会急剧增加滑车受力",
+        "爬 pocket 前必须充分热身，最好先在更容易的 pocket 路线上逐步适应",
+        "对拮抗肌的忽视是导致 pocket 伤病的主要因素之一"
+      ],
+      "tags": ["pocket-hold", "mono", "pulley-injury", "injury-prevention", "finger-safety"]
+    },
+    {
+      "url": "https://www.vdiffclimbing.com/sport-technique-movement/",
+      "title": "Climbing Techniques: Moving on Rock",
+      "source": "VDiff Climbing",
+      "author": "VDiff",
+      "language": "en",
+      "publishDate": "2025-12",
+      "articleType": "tutorial",
+      "primaryKp": "kp-stemming",
+      "secondaryKps": ["kp-layback", "kp-flagging", "kp-back-step", "kp-center-of-gravity", "kp-undercling-sidepull-gaston"],
+      "quality": {
+        "authority": 4,
+        "depth": 5,
+        "practicality": 5,
+        "recency": 5,
+        "uniqueness": 4,
+        "total": 23
+      },
+      "summary": "VDiff Climbing 最全面的攀岩运动技术指南，系统介绍了 stemming、layback、flagging、backstep、undercling、sidepull、gaston 等十余种核心技术，图文并茂，适合系统学习。",
+      "keyInsights": [
+        "Stemming（对压）：双脚在角落两侧向外推，对冲压力抵消重力，可大幅减少手臂负担",
+        "Layback（侧拉）：手拉脚推产生对抗力，最适用于裂缝和突出的侧面特征",
+        "涵盖了 undercling、sidepull、gaston 三种非常规握姿的适用场景和身体位置要求",
+        "每种技术都配有插图说明正确的手脚位置关系"
+      ],
+      "tags": ["stemming", "layback", "flagging", "backstep", "undercling", "sidepull", "gaston", "movement"]
+    },
+    {
+      "url": "https://philarockgym.com/twist-locking-series-the-complete-guidelines/",
+      "title": "Twist-Locking Series: The Complete Guidelines",
+      "source": "Philly Rock Gym",
+      "author": "unknown",
+      "language": "en",
+      "publishDate": "unknown",
+      "articleType": "tutorial",
+      "primaryKp": "kp-twist-lock",
+      "secondaryKps": ["kp-drop-knee", "kp-back-step", "kp-flagging"],
+      "quality": {
+        "authority": 3,
+        "depth": 5,
+        "practicality": 5,
+        "recency": 3,
+        "uniqueness": 4,
+        "total": 20
+      },
+      "summary": "Philly Rock Gym 的 twist-lock（扭转锁定）完整系列教程，将 backstep、drop-knee 和 reverse flag 统一归为 twist-lock 技术家族，系统解释每种变体的适用条件和执行要点。",
+      "keyInsights": [
+        "Twist-lock 是一个技术家族的统称，包括 backstep、drop-knee 和 reverse flag 三种变体",
+        "Drop-knee 的黄金法则：下降的膝盖与伸手的方向一致（reach left → drop left knee）",
+        "Backstep 让攀岩者在不交叉手的情况下向侧面伸手，大幅扩展了可触及范围",
+        "Twist-lock 的核心原理是通过扭转髋部将体重从手臂转移到腿部"
+      ],
+      "tags": ["twist-lock", "drop-knee", "backstep", "reverse-flag", "body-positioning", "hip-rotation"]
+    },
+    {
+      "url": "https://rockclimbingrealms.com/climbing-movement-101-flagging-drop-knee-mastery-guide/",
+      "title": "Climbing Movement 101: Flagging & Drop-Knee Mastery Guide",
+      "source": "Rock Climbing Realms",
+      "author": "unknown",
+      "language": "en",
+      "publishDate": "unknown",
+      "articleType": "tutorial",
+      "primaryKp": "kp-flagging",
+      "secondaryKps": ["kp-drop-knee", "kp-center-of-gravity"],
+      "quality": {
+        "authority": 3,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 3,
+        "uniqueness": 3,
+        "total": 18
+      },
+      "summary": "系统讲解 flagging（平衡腿）和 drop-knee 两种常用平衡技术，解释三种 flag 变体（normal/back/inside）的使用场景，并说明如何选择 flagging 还是 drop-knee。",
+      "keyInsights": [
+        "Flagging 的三种变体：Normal（外侧伸腿）、Back（后叉腿）、Inside（前叉腿）",
+        "Flagging 纯粹依靠身体位置实现平衡，比使用额外岩点更节能",
+        "Drop-knee 与 flagging 的选择标准：是否有可用的外侧踩点",
+        "Flag 的本质是管理重心——让重心落在支撑脚的正上方"
+      ],
+      "tags": ["flagging", "drop-knee", "balance", "center-of-gravity", "body-position", "technique"]
+    },
+    {
+      "url": "https://gripped.com/indoor-climbing/a-comprehensive-guide-to-climbing-technique/",
+      "title": "A Comprehensive Guide to Climbing Technique",
+      "source": "Gripped Magazine",
+      "author": "unknown",
+      "language": "en",
+      "publishDate": "unknown",
+      "articleType": "tutorial",
+      "primaryKp": "kp-center-of-gravity",
+      "secondaryKps": ["kp-flagging", "kp-drop-knee", "kp-stemming", "kp-layback", "kp-high-step-mantle"],
+      "quality": {
+        "authority": 3,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 3,
+        "uniqueness": 3,
+        "total": 18
+      },
+      "summary": "Gripped Magazine 攀岩技术综合指南，以重心管理为核心主线，串联起 flagging、drop-knee、stemming、layback 等多种技术的共同原理。",
+      "keyInsights": [
+        "所有技术技巧的核心目的是将重心保持在支撑点之上",
+        "综合演示了多种技术在真实路线中如何组合使用",
+        "强调技术流畅性（fluid movement）比单个技术动作更重要"
+      ],
+      "tags": ["center-of-gravity", "technique-overview", "flagging", "drop-knee", "stemming", "balance"]
+    },
+    {
+      "url": "https://philarockgym.com/the-ultimate-guide-to-dyno-tips-and-tricks-5/",
+      "title": "The Ultimate Guide To Dyno Tips and Tricks",
+      "source": "Philly Rock Gym",
+      "author": "unknown",
+      "language": "en",
+      "publishDate": "unknown",
+      "articleType": "tutorial",
+      "primaryKp": "kp-dyno-technique",
+      "secondaryKps": ["kp-deadpoint", "kp-swing-momentum", "kp-lunge-types"],
+      "quality": {
+        "authority": 3,
+        "depth": 5,
+        "practicality": 5,
+        "recency": 3,
+        "uniqueness": 4,
+        "total": 20
+      },
+      "summary": "最全面的 dyno 教程，涵盖动态动作的完整分类（deadpoint/小 dyno/大 dyno）、动量生成原理、起跳时序与落点接触技巧，并给出系统的练习进阶方法。",
+      "keyInsights": [
+        "动量生成的具体序列：先直臂产生摆动→拉手到胸部高度后开始蹬腿→腿伸直时松开起始点",
+        "每次 dyno 只做一次蓄力摆动，多次摆动反而损失能量",
+        "Deadpoint 的关键：在上升和下降之间的'静止点'接触目标点，此时阻力最小",
+        "建议从较小的 dyno 开始练习，逐步增加距离，先掌握时机感再追求高度"
+      ],
+      "tags": ["dyno", "deadpoint", "dynamic-movement", "momentum", "timing", "lunge"]
+    },
+    {
+      "url": "https://www.climbing.com/skills/face-climbing-techniques-slab-climbing/",
+      "title": "Get Better At Slab Climbing—Master This Critical Skill",
+      "source": "Climbing Magazine",
+      "author": "unknown",
+      "language": "en",
+      "publishDate": "unknown",
+      "articleType": "tutorial",
+      "primaryKp": "kp-slab-technique",
+      "secondaryKps": ["kp-smearing", "kp-edging", "kp-center-of-gravity", "kp-palming"],
+      "quality": {
+        "authority": 4,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 3,
+        "uniqueness": 4,
+        "total": 20
+      },
+      "summary": "Climbing Magazine 板岩攀登技术深度教程，强调'安静的脚'（quiet feet）作为精确踩点的核心练习方法，讲解如何在近乎垂直的岩壁上用涂抹和边缘保持平衡。",
+      "keyInsights": [
+        "Quiet feet 练习：通过静音踩点来培养精确控制脚部的能力，脚落点发出声音说明控制不够",
+        "板岩攀登的姿势应像正常走路一样直立，而非贴壁",
+        "体重应通过双腿传递到岩壁，手仅用于辅助平衡而非承重",
+        "在板岩地形上，重心的微小移动对整体平衡影响极大，需要非常精细的身体控制"
+      ],
+      "tags": ["slab-climbing", "quiet-feet", "smearing", "balance", "friction", "footwork"]
+    },
+    {
+      "url": "https://gripped.com/indoor-climbing/10-techniques-for-climbing-overhangs/",
+      "title": "10 Techniques for Climbing Overhangs",
+      "source": "Gripped Magazine",
+      "author": "Bonnie de Bruijn",
+      "language": "en",
+      "publishDate": "2020-05",
+      "articleType": "tutorial",
+      "primaryKp": "kp-overhang-technique",
+      "secondaryKps": ["kp-bicycle", "kp-toe-hook", "kp-heel-hook", "kp-roof-technique"],
+      "quality": {
+        "authority": 3,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 3,
+        "uniqueness": 4,
+        "total": 19
+      },
+      "summary": "Gripped Magazine 10种倒壁技术汇总，包括直臂、knee drop、kneebar、toe-hook、bicycle、heel-hook、mantle、figure 4、campus、bat hang，每种技术配有说明和适用场景。",
+      "keyInsights": [
+        "直臂（straight arms）是倒壁省力最核心的基础原则",
+        "Kneebar 可以让攀岩者松开双手完全休息，是倒壁路线省力的终极技术",
+        "Figure 4（腿压臂）和 bat hang（倒挂）是高级倒壁和屋顶技术",
+        "在倒壁地形上，脚法技术（bicycle/kneebar/toe-hook）的重要性往往超过手法"
+      ],
+      "tags": ["overhang", "steep-climbing", "kneebar", "bat-hang", "figure-4", "10-techniques"]
+    },
+    {
+      "url": "https://www.climbing.com/skills/climbing-techniques-how-to-climb-roofs/",
+      "title": "Learn to Master Roof Climbing",
+      "source": "Climbing Magazine",
+      "author": "unknown",
+      "language": "en",
+      "publishDate": "unknown",
+      "articleType": "tutorial",
+      "primaryKp": "kp-roof-technique",
+      "secondaryKps": ["kp-bicycle", "kp-heel-hook", "kp-toe-hook", "kp-overhang-technique"],
+      "quality": {
+        "authority": 4,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 3,
+        "uniqueness": 4,
+        "total": 20
+      },
+      "summary": "Climbing Magazine 屋顶攀岩技术完整指南，讲解重力方向改变后的身体调整策略：如何用 heel hook、toe hook、kneebar 和 bat hang 在近水平地形上减少手臂负担。",
+      "keyInsights": [
+        "屋顶攀岩中核心力量（core）比臂力更重要，防止臀部下坠是关键",
+        "从侧面翻到屋顶的过渡动作：从侧翻到蛙式姿势来重新分配重心",
+        "Bat hang（双脚倒挂）主要用于休息和展示，但也是某些路线的必要技术",
+        "屋顶地形需要灵活切换不同脚法技术，而非只依赖一种"
+      ],
+      "tags": ["roof-climbing", "horizontal", "bat-hang", "kneebar", "core-tension", "technique"]
+    },
+    {
+      "url": "https://www.vdiffclimbing.com/crack-climbing/",
+      "title": "Crack Climbing Technique – Trad Climbing Skills",
+      "source": "VDiff Climbing",
+      "author": "VDiff",
+      "language": "en",
+      "publishDate": "2025-12",
+      "articleType": "tutorial",
+      "primaryKp": "kp-crack-technique",
+      "secondaryKps": ["kp-crack-climbing-systems", "kp-layback"],
+      "quality": {
+        "authority": 4,
+        "depth": 5,
+        "practicality": 5,
+        "recency": 5,
+        "uniqueness": 3,
+        "total": 22
+      },
+      "summary": "VDiff Climbing 的完整裂缝攀登技术指南，从指宽裂缝到烟囱裂缝系统讲解所有宽度的手塞和脚塞技术，是最全面的裂缝技术参考资料之一。",
+      "keyInsights": [
+        "手塞（hand jam）是裂缝攀登的基础：拇指朝上塞入，手握成杯状，手指压一侧而指节压另一侧",
+        "脚塞（foot jam）：脚侧面水平插入裂缝后旋转脚踝使其楔紧，站立时跟脚跟下沉增加抓力",
+        "不同宽度裂缝（指宽/手宽/拳宽/肩宽/烟囱）需要完全不同的技术，各有详细说明",
+        "好的手塞比 jug 还可靠，好的脚塞可以站在上面休息"
+      ],
+      "tags": ["crack-climbing", "hand-jam", "finger-jam", "foot-jam", "trad-climbing", "technique"]
+    },
+    {
+      "url": "https://www.rei.com/learn/expert-advice/crack-climbing.html",
+      "title": "How to Crack Climb: Technique & Tips",
+      "source": "REI Expert Advice",
+      "author": "unknown",
+      "language": "en",
+      "publishDate": "unknown",
+      "articleType": "tutorial",
+      "primaryKp": "kp-crack-technique",
+      "secondaryKps": ["kp-trad-climbing"],
+      "quality": {
+        "authority": 4,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 3,
+        "uniqueness": 2,
+        "total": 18
+      },
+      "summary": "REI 专家指南版裂缝攀登教程，覆盖基本手塞和脚塞技术，并提供了配套的保护装备（护手带、攀岩鞋选择）建议，适合初学者入门。",
+      "keyInsights": [
+        "提供了视觉化的手塞分步说明，适合从未接触裂缝攀登的初学者",
+        "解释了 tape glove（护手胶布）的缠绕方法和重要性",
+        "给出了针对裂缝攀登的攀岩鞋类型选择建议（平底vs下弯）"
+      ],
+      "tags": ["crack-climbing", "hand-jam", "beginner", "tape-gloves", "technique"]
+    },
+    {
+      "url": "https://butorausa.com/blogs/beta-blog/everything-you-need-to-know-about-climbing-aretes",
+      "title": "Everything You Need to Know About Climbing Arêtes",
+      "source": "Butora USA",
+      "author": "unknown",
+      "language": "en",
+      "publishDate": "unknown",
+      "articleType": "tutorial",
+      "primaryKp": "kp-arete-mantle",
+      "secondaryKps": ["kp-flagging", "kp-layback", "kp-heel-hook"],
+      "quality": {
+        "authority": 3,
+        "depth": 4,
+        "practicality": 4,
+        "recency": 3,
+        "uniqueness": 4,
+        "total": 18
+      },
+      "summary": "全面介绍 arête（山脊/刃脊）攀登技术，包括身体与 arête 的角度控制（45°最优）、防止 barndoor 的技巧、脚跟绕 arête 的特殊脚法，以及压缩技术的应用。",
+      "keyInsights": [
+        "最佳身体角度是面向 arête 约 45°，既能利用刃脊两侧又能保持平衡",
+        "Barndoor（风门效应）是 arête 攀登最常见问题，用对侧脚贴壁或 flag 可以防止",
+        "脚跟绕 arête 勾住（sneaky heel around）是 arête 攀登的特色脚法，可提供稳定休息点",
+        "压缩技术（compression）：用双手从两侧夹住 arête，身体悬挂其间"
+      ],
+      "tags": ["arete", "compression", "barndoor", "heel-hook", "45-degree", "technique"]
+    },
+    {
+      "url": "https://www.climbing.com/skills/reading-routes/",
+      "title": "Increase Your Onsight Grade By Reading Routes From the Ground",
+      "source": "Climbing Magazine",
+      "author": "unknown",
+      "language": "en",
+      "publishDate": "unknown",
+      "articleType": "tutorial",
+      "primaryKp": "kp-route-reading-basics",
+      "secondaryKps": ["kp-onsight-flash-redpoint", "kp-hand-sequence"],
+      "quality": {
+        "authority": 4,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 3,
+        "uniqueness": 4,
+        "total": 20
+      },
+      "summary": "Climbing Magazine 的地面路线阅读完整指南，按路线难度分级给出不同深度的路线阅读策略，从识别休息点到规划手脚顺序，并强调路线阅读是可训练的技能。",
+      "keyInsights": [
+        "路线阅读的最低要求：识别所有岩点并规划手的顺序，仅此一步就能大幅提升 onsight 率",
+        "按难度分级策略：热身路线不读→接近极限路线读手顺+休息+挂绳位置+关键脚法",
+        "在地面模拟动作（mime）是最有效的路线可视化方法",
+        "路线阅读从地面节省的时间和精力，会在路线上以更流畅的动作换回来"
+      ],
+      "tags": ["route-reading", "onsight", "visualization", "hand-sequence", "rest-points", "strategy"]
+    },
+    {
+      "url": "https://www.powercompanyclimbing.com/blog/2019/7/21/redpoint-tactics-applying-the-art-of-the-second-try-send",
+      "title": "Redpoint Climbing: Applying the Art of the Second-Try Send",
+      "source": "Power Company Climbing",
+      "author": "Lauren Abernathy",
+      "language": "en",
+      "publishDate": "2019-08",
+      "articleType": "tutorial",
+      "primaryKp": "kp-onsight-flash-redpoint",
+      "secondaryKps": ["kp-projecting-strategy", "kp-route-reading-basics"],
+      "quality": {
+        "authority": 4,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 3,
+        "uniqueness": 4,
+        "total": 20
+      },
+      "summary": "Power Company Climbing 详解'第二次尝试即送'策略：如何在有限的户外时间内最大化送线成功率，包括第一次尝试的具体操作方法和路线选择标准。",
+      "keyInsights": [
+        "第一次尝试的目标不是送线，而是完成所有动作并排除所有疑问",
+        "路线选择：介于最难 onsight 和最难 redpoint 之间的难度最适合第二次尝试",
+        "提出了'三分之一法则'：1/3时间做项目，1/3做第二次尝试路线，1/3做 onsight",
+        "在第一次尝试中用 tick mark 标记关键岩点，为第二次尝试奠定基础"
+      ],
+      "tags": ["redpoint", "onsight", "flash", "second-try", "projecting", "sport-climbing-strategy"]
+    },
+    {
+      "url": "https://rockclimbingrealms.com/the-science-of-footwork-an-edging-smearing-masterclass/",
+      "title": "The Science of Footwork: An Edging & Smearing Masterclass",
+      "source": "Rock Climbing Realms",
+      "author": "unknown",
+      "language": "en",
+      "publishDate": "unknown",
+      "articleType": "tutorial",
+      "primaryKp": "kp-smearing",
+      "secondaryKps": ["kp-edging", "kp-slab-technique"],
+      "quality": {
+        "authority": 3,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 3,
+        "uniqueness": 3,
+        "total": 18
+      },
+      "summary": "专门聚焦 edging 和 smearing 两种脚法的深度教程，从摩擦力原理出发解释为何涂抹时鞋底应垂直于岩壁，并提供了针对性的脚法改进练习框架。",
+      "keyInsights": [
+        "Smearing 时鞋底与岩壁垂直可最大化橡胶接触面积，显著提升摩擦力",
+        "成功的脚法掌握需要刻意、渐进的练习，而非仅靠更多攀爬",
+        "提供了专项诊断脚法失误的练习框架（注意力/顺序/张力三个维度）",
+        "Silent foot（静音踩点）练习是最有效的脚法精度训练方法之一"
+      ],
+      "tags": ["smearing", "edging", "footwork", "friction-science", "quiet-feet", "practice-drills"]
+    },
+    {
+      "url": "https://www.99boulders.com/climbing-moves-holds-and-technique",
+      "title": "Climbing Moves, Holds, & Technique: The Beginner's Guide",
+      "source": "99Boulders",
+      "author": "Danaan Markey",
+      "language": "en",
+      "publishDate": "2022-01",
+      "articleType": "tutorial",
+      "primaryKp": "kp-jug-hold",
+      "secondaryKps": ["kp-pinch-hold", "kp-pocket-hold", "kp-sloper-hold", "kp-crimp-hold", "kp-undercling-sidepull-gaston"],
+      "quality": {
+        "authority": 3,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 4,
+        "uniqueness": 3,
+        "total": 19
+      },
+      "summary": "99Boulders 攀岩岩点与技术综合入门指南，系统覆盖 10 种岩点类型（jug/crimp/sloper/pinch/pocket/sidepull/gaston/undercling/guppy 等）及 15+ 种攀爬动作，适合初学者系统了解所有常见岩点的识别与使用方法。",
+      "keyInsights": [
+        "Jug（大把手点）是最容易抓握的岩点，可包握整只手，是休息和恢复的理想位置",
+        "Pinch（捏点）：拇指与四指相对捏住突出部分，拇指参与大幅增加握力，任何时候都应该善用拇指",
+        "提供了从基础动作（rock over/high step）到进阶动作（dyno/kneebar）的完整技术词汇表",
+        "强调'最有效技术'比'最强壮'更重要——以最小化动作完成到达下一个岩点"
+      ],
+      "tags": ["jug", "pinch", "all-hold-types", "beginner-guide", "technique-overview", "hold-classification"]
+    },
+    {
+      "url": "https://sendedition.com/22-climbing-techniques-and-how-to-do-them/",
+      "title": "Climbing Technique Fundamentals: 22 Essential Techniques Explained",
+      "source": "Send Edition",
+      "author": "Sara",
+      "language": "en",
+      "publishDate": "unknown",
+      "articleType": "tutorial",
+      "primaryKp": "kp-palming",
+      "secondaryKps": ["kp-toe-hook", "kp-heel-hook", "kp-layback", "kp-stemming", "kp-deadpoint", "kp-drop-knee", "kp-dyno-technique", "kp-bicycle"],
+      "quality": {
+        "authority": 3,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 3,
+        "uniqueness": 4,
+        "total": 19
+      },
+      "summary": "Send Edition 按难度分级（V0-V2 / V3-V5 / V6+）系统介绍 22 种攀爬技术，从初级的涂抹和直臂到进阶的 palming、kneebar 和 figure 4，是覆盖面最广的单篇技术指南之一。",
+      "keyInsights": [
+        "Palming（手掌涂抹）被专门列为中级技术：手掌平贴岩壁利用摩擦力，常用于板岩侧面保持平衡",
+        "按 V 级分级组织技术学习路径，帮助攀岩者了解'应该在哪个阶段掌握哪些技术'",
+        "22种技术的系统性分类，是覆盖范围最全面的单篇技术参考文章之一",
+        "Figure 4 和 bat hang 等高级技术也有清晰说明，适合进阶参考"
+      ],
+      "tags": ["palming", "22-techniques", "beginner-to-advanced", "technique-progression", "V-grade-framework"]
+    }
+  ]
+}

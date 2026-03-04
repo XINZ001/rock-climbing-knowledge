@@ -1,0 +1,317 @@
+{
+  "sectionId": "section-01",
+  "subSections": [
+    {
+      "id": "s01-history",
+      "number": "1.1",
+      "slug": "history",
+      "title": {
+        "zh": "攀岩的历史与发展",
+        "en": "History & Development"
+      },
+      "overview": {
+        "zh": "攀岩运动从19世纪末的登山附属活动逐步演变为一项独立的竞技与休闲运动。从阿尔卑斯山的早期探险，到优胜美地的自由攀登革命，再到现代室内攀岩的普及，攀岩经历了翻天覆地的变化。了解这段历史有助于攀岩者理解攀岩文化的根源和精神内核。",
+        "en": "Rock climbing evolved from a sub-discipline of mountaineering in the late 19th century into an independent competitive and recreational sport. From early alpine explorations to the free climbing revolution in Yosemite and the modern indoor climbing boom, the sport has undergone dramatic transformation. Understanding this history helps climbers appreciate the cultural roots and spirit of the discipline."
+      },
+      "knowledgePoints": [
+        {
+          "id": "kp-climbing-origins",
+          "title": {
+            "zh": "攀岩的起源",
+            "en": "Origins of Climbing"
+          },
+          "content": {
+            "zh": "攀岩作为一项运动的历史可以追溯到19世纪后期的欧洲。最早的技术性岩壁攀登出现在德国的萨克森地区（Saxon Switzerland）和英国的湖区（Lake District）。在萨克森地区，攀岩者们在砂岩塔上发展出了早期的攀岩规则，包括禁止使用人工辅助器械的理念，这一理念深刻影响了后来的自由攀登运动。\n\n20世纪初，攀岩逐渐从登山运动中分离出来，成为一项独立的追求。在阿尔卑斯山区，攀岩者开始关注攀登路线本身的难度和风格，而非仅仅以登顶为目标。Paul Preuss 被认为是自由攀登理念的先驱，他主张攀岩者应当仅依靠自身能力完成攀登，不借助绳索和岩钉向上攀爬。这种纯粹主义的理念虽然在当时颇有争议，但奠定了现代自由攀登的哲学基础。\n\n与此同时，美国的攀岩运动也在发展。优胜美地山谷（Yosemite Valley）以其壮观的花岗岩大岩壁成为全球攀岩的圣地。从1930年代开始，攀岩者们在这里不断突破人类攀登能力的极限，创造了无数经典路线。",
+            "en": "The history of climbing as a sport dates back to late 19th century Europe. The earliest technical rock climbing emerged in Saxony, Germany and the Lake District, England. Saxon climbers developed early ethics on sandstone towers, including prohibitions on artificial aids that profoundly influenced the free climbing movement.\n\nIn the early 20th century, climbing began separating from mountaineering as an independent pursuit. Paul Preuss championed the idea that climbers should ascend using only their own abilities. Meanwhile, Yosemite Valley became a global climbing mecca, with its granite big walls pushing the limits of human climbing ability from the 1930s onward."
+          },
+          "terms": [
+            { "zh": "萨克森地区", "en": "Saxon Switzerland" },
+            { "zh": "自由攀登", "en": "free climbing" },
+            { "zh": "纯粹主义", "en": "purism" },
+            { "zh": "优胜美地", "en": "Yosemite" }
+          ],
+          "crossRefs": ["kp-climbing-categories", "kp-climbing-ethics"],
+          "tags": ["beginner"]
+        },
+        {
+          "id": "kp-free-climbing-revolution",
+          "title": {
+            "zh": "自由攀登运动",
+            "en": "The Free Climbing Movement"
+          },
+          "content": {
+            "zh": "自由攀登运动（Free Climbing Movement）是攀岩历史上最重要的转折点之一。在1960至1970年代，一批先锋攀岩者在优胜美地山谷掀起了一场关于攀岩风格和道德准则的革命。\n\n在此之前，攀岩的主流方式是「器械攀登」（Aid Climbing），攀岩者使用岩钉（piton）、挂片和绳梯等人工器材来辅助向上攀爬。Royal Robbins、Yvon Chouinard 等攀岩者首先倡导「清洁攀登」（Clean Climbing），用可拆卸的机械塞（nut 和 cam）取代需要锤入岩壁的岩钉，以减少对岩壁的破坏。\n\n随后，以 John Bachar、Ron Kauk、Lynn Hill 为代表的新一代攀岩者将理念推向更高层次：他们追求完全依靠自身肢体力量和技巧完成攀登，保护装备仅用于安全保护而非辅助向上。1993年，Lynn Hill 完成了 The Nose 路线的首次自由攀登，这条位于酋长岩（El Capitan）上的经典路线此前被认为不可能以自由方式完攀，这一成就被视为攀岩史上的里程碑事件。\n\n自由攀登运动深刻改变了攀岩的评价标准：难度等级开始反映纯粹的攀爬难度，而非路线的总体危险程度或长度。",
+            "en": "The Free Climbing Movement of the 1960s-70s was a pivotal revolution in climbing history. Before this, aid climbing with pitons and ladders was standard. Pioneers like Royal Robbins and Yvon Chouinard first promoted clean climbing using removable protection.\n\nThe next generation, including John Bachar, Ron Kauk, and Lynn Hill, pushed further, climbing with only body strength and skill while using gear solely for safety. Lynn Hill's 1993 free ascent of The Nose on El Capitan, previously thought impossible to free climb, stands as one of climbing's greatest milestones. This movement fundamentally shifted how climbing difficulty is measured and evaluated."
+          },
+          "terms": [
+            { "zh": "器械攀登", "en": "aid climbing" },
+            { "zh": "清洁攀登", "en": "clean climbing" },
+            { "zh": "岩钉", "en": "piton" },
+            { "zh": "机械塞", "en": "cam" },
+            { "zh": "酋长岩", "en": "El Capitan" }
+          ],
+          "crossRefs": ["kp-climbing-origins", "kp-climbing-categories"],
+          "tags": ["beginner"]
+        },
+        {
+          "id": "kp-sport-climbing-emergence",
+          "title": {
+            "zh": "运动攀岩的兴起",
+            "en": "Emergence of Sport Climbing"
+          },
+          "content": {
+            "zh": "运动攀岩（Sport Climbing）诞生于1980年代，是攀岩运动现代化的重要标志。与传统攀岩需要攀岩者自行放置保护装备不同，运动攀岩使用预先打入岩壁的膨胀螺栓（bolt）作为保护点，攀岩者只需挂入快挂（quickdraw）即可获得保护。\n\n这一变革主要源自法国。在南法的石灰岩峭壁上，Patrick Edlinger、Jean-Baptiste Tribout 等攀岩者将攀岩推向了前所未有的难度。1991年，Wolfgang Gullich 完成了世界上第一条 5.14d（9a）路线「Action Directe」，这条位于德国弗兰肯尤拉（Frankenjura）的路线至今仍是攀岩难度的标杆。\n\n运动攀岩的出现极大降低了攀岩的入门门槛，使更多人能够安全地体验攀岩的乐趣。它也催生了室内攀岩馆的蓬勃发展，为攀岩最终成为奥运项目奠定了基础。运动攀岩强调动作的难度和精准度，而非冒险和探索，这使得攀岩能够以竞技体育的形式被更广泛地接受。",
+            "en": "Sport climbing emerged in the 1980s as a modernizing force. Unlike trad climbing, sport routes use pre-placed bolts for protection, requiring only quickdraws. This revolution originated largely in France, where climbers like Patrick Edlinger pushed difficulty to new heights on limestone cliffs.\n\nIn 1991, Wolfgang Gullich established the world's first 5.14d (9a) route. Sport climbing dramatically lowered the barrier to entry, fueled the growth of indoor climbing gyms, and laid the groundwork for climbing's inclusion in the Olympics. It shifted emphasis from adventure to movement difficulty and precision."
+          },
+          "terms": [
+            { "zh": "运动攀岩", "en": "sport climbing" },
+            { "zh": "膨胀螺栓", "en": "bolt" },
+            { "zh": "快挂", "en": "quickdraw" },
+            { "zh": "石灰岩", "en": "limestone" }
+          ],
+          "crossRefs": ["kp-climbing-categories", "kp-olympics-history"],
+          "tags": ["beginner"]
+        },
+        {
+          "id": "kp-modern-era",
+          "title": {
+            "zh": "现代攀岩时代",
+            "en": "The Modern Era"
+          },
+          "content": {
+            "zh": "21世纪以来，攀岩运动进入了高速发展的新时代。室内攀岩馆在全球范围内迅速普及，成为城市居民接触攀岩的主要入口。据统计，全球攀岩人口在2010年代翻了一番以上，其中大部分新攀岩者都是从室内岩馆开始的。\n\n竞技攀岩方面，Adam Ondra 在2012年完成了世界首条 5.15c（9b+）路线「Change」，并在2017年完成了至今可能是世界最难的路线「Silence」（5.15d / 9c）。在抱石领域，Nalle Hukkataival 和 Shawn Raboutou 等攀岩者不断将 V 等级的上限推高。女性攀岩者也取得了巨大突破，Janja Garnbret 统治了竞技攀岩赛场，Ashima Shiraishi 在十几岁时就完成了 V15 级别的抱石线路。\n\n技术层面，攀岩训练日趋科学化。挂板训练、系统板训练、专项体能训练等方法被系统应用。攀岩鞋、绳索等装备的材料和设计也在不断进步。攀岩从小众的冒险运动已经转变为一项拥有完善训练体系、明确等级标准和广泛参与基础的主流运动。",
+            "en": "Since the 2000s, climbing has entered an era of rapid growth. Indoor gyms have proliferated globally, becoming the primary entry point for new climbers. The climbing population more than doubled during the 2010s.\n\nIn performance, Adam Ondra established the world's first 5.15c in 2012 and completed the potential hardest route ever (5.15d) in 2017. In bouldering, the upper limits continue to rise. Women's climbing has seen tremendous breakthroughs, with Janja Garnbret dominating competition and Ashima Shiraishi climbing V15 as a teenager. Training has become increasingly scientific, and the sport has transformed from a niche adventure pursuit into a mainstream activity with systematic training, clear grading, and broad participation."
+          },
+          "terms": [
+            { "zh": "室内攀岩馆", "en": "indoor climbing gym" },
+            { "zh": "系统板", "en": "system board" },
+            { "zh": "抱石", "en": "bouldering" },
+            { "zh": "竞技攀岩", "en": "competition climbing" }
+          ],
+          "crossRefs": ["kp-climbing-categories", "kp-olympics-history", "kp-hangboard-training"],
+          "tags": ["beginner"]
+        }
+      ]
+    },
+    {
+      "id": "s01-categories",
+      "number": "1.2",
+      "slug": "categories",
+      "title": {
+        "zh": "攀岩的分类",
+        "en": "Climbing Categories"
+      },
+      "overview": {
+        "zh": "攀岩运动按照攀爬方式、地形特征和保护系统的不同，可以分为多个子类别。每种类别都有其独特的技术要求、装备需求和文化氛围。了解不同的攀岩类别有助于初学者找到最适合自己的入门方向，也有助于有经验的攀岩者拓展自己的攀爬领域。",
+        "en": "Rock climbing is divided into several sub-disciplines based on climbing style, terrain features, and protection systems. Each category has unique technical demands, gear requirements, and cultural atmosphere. Understanding these categories helps beginners find their preferred entry point and experienced climbers broaden their horizons."
+      },
+      "knowledgePoints": [
+        {
+          "id": "kp-climbing-categories",
+          "title": {
+            "zh": "主要攀岩类型",
+            "en": "Major Climbing Categories"
+          },
+          "content": {
+            "zh": "攀岩运动可以分为以下主要类型，每种类型都有不同的攀登风格、保护方式和文化传统：\n\n**运动攀（Sport Climbing）：** 使用预先打好的膨胀螺栓作为保护点，攀岩者系绑绳索，边攀爬边将快挂挂入螺栓。路线通常在一个绳距内完成（25-35米）。运动攀强调高难度动作的完成，是当前最流行的攀岩形式之一。\n\n**传统攀（Trad Climbing）：** 攀岩者需要自行在岩壁裂缝中放置可回收的保护装备（如机械塞、岩塞等）。传统攀对攀岩者的综合能力要求极高，不仅需要攀爬技术，还需要装备放置技巧和路线判断能力。它被许多攀岩者视为最纯粹的攀岩形式。\n\n**抱石（Bouldering）：** 在较低的岩石（通常不超过6米）上进行无绳攀爬，下方铺设抱石垫（crash pad）作为保护。抱石路线通常较短但动作难度极高，强调爆发力和解题能力。抱石是目前增长最快的攀岩类别。\n\n**大岩壁攀登（Big Wall）：** 在数百米甚至上千米的岩壁上进行多绳距攀登，通常需要数天时间，攀岩者需要在岩壁上悬挂吊帐过夜。代表性路线包括优胜美地酋长岩上的多条经典路线。",
+            "en": "The major climbing categories include:\n\n**Sport Climbing:** Uses pre-placed bolts for protection. Climbers clip quickdraws while ascending, typically on single-pitch routes (25-35m). Emphasizes difficulty.\n\n**Trad Climbing:** Climbers place removable protection in cracks. Requires comprehensive skills including gear placement and route judgment. Considered the purest form by many.\n\n**Bouldering:** Ropeless climbing on low rocks (under 6m) with crash pads below. Short but intensely difficult problems emphasizing power and problem-solving. The fastest-growing discipline.\n\n**Big Wall:** Multi-day ascents of walls hundreds of meters tall, requiring portaledge bivouacs. Iconic routes include those on El Capitan in Yosemite."
+          },
+          "terms": [
+            { "zh": "运动攀", "en": "sport climbing" },
+            { "zh": "传统攀", "en": "trad climbing" },
+            { "zh": "抱石", "en": "bouldering" },
+            { "zh": "大岩壁", "en": "big wall" },
+            { "zh": "绳距", "en": "pitch" },
+            { "zh": "抱石垫", "en": "crash pad" },
+            { "zh": "吊帐", "en": "portaledge" }
+          ],
+          "crossRefs": ["kp-climbing-origins", "kp-grading-systems"],
+          "tags": ["beginner"]
+        },
+        {
+          "id": "kp-special-categories",
+          "title": {
+            "zh": "特殊攀岩类型",
+            "en": "Specialized Climbing Types"
+          },
+          "content": {
+            "zh": "除了主流的攀岩类型外，还有几种独特的攀岩形式，每种都有其特殊的吸引力和挑战性：\n\n**深水独攀（Deep Water Solo / DWS）：** 在水面上方的岩壁上进行无绳攀爬，以深水作为天然保护。攀岩者坠落时直接落入水中。这种攀岩方式结合了攀岩的刺激与水上运动的乐趣，在泰国甲米（Krabi）、西班牙马略卡（Mallorca）等地极为流行。由于保护方式的特殊性，深水独攀路线的高度通常在10-25米之间。\n\n**冰攀（Ice Climbing）：** 使用冰镐和冰爪在冰冻的瀑布或冰壁上进行攀登。冰攀需要专门的装备和技术，对环境条件有严格要求（气温必须保持在冰点以下）。冰攀的等级系统使用 WI（Water Ice）等级，从 WI1 到 WI7。\n\n**干攀（Dry Tooling）：** 使用冰攀装备（冰镐和冰爪）在干燥的岩壁上攀登。这种方式最初是为了训练冰攀技术而发展出来的，但后来成为了一种独立的攀岩形式。干攀使用 D 或 M（Mixed）等级系统，难度可以达到 M15 以上。\n\n这些特殊类型虽然参与人数不如主流攀岩，但各自拥有忠实的爱好者群体，也丰富了攀岩运动的多样性。",
+            "en": "Beyond mainstream disciplines, several specialized forms exist:\n\n**Deep Water Solo (DWS):** Ropeless climbing over deep water, using it as natural protection. Popular in Thailand and Spain, typically on routes of 10-25m.\n\n**Ice Climbing:** Ascending frozen waterfalls with ice tools and crampons. Requires sub-zero temperatures and uses the WI (Water Ice) grading scale from WI1 to WI7.\n\n**Dry Tooling:** Using ice tools on dry rock, originally developed as ice climbing training but now an independent discipline. Uses M (Mixed) grades, with difficulties reaching M15+.\n\nThese specialized forms each have dedicated communities and add to climbing's rich diversity."
+          },
+          "terms": [
+            { "zh": "深水独攀", "en": "deep water solo (DWS)" },
+            { "zh": "冰攀", "en": "ice climbing" },
+            { "zh": "干攀", "en": "dry tooling" },
+            { "zh": "冰镐", "en": "ice axe / ice tool" },
+            { "zh": "冰爪", "en": "crampons" },
+            { "zh": "混合攀登", "en": "mixed climbing" }
+          ],
+          "crossRefs": ["kp-climbing-categories", "kp-grading-systems"],
+          "tags": ["beginner", "intermediate"]
+        }
+      ]
+    },
+    {
+      "id": "s01-grading",
+      "number": "1.3",
+      "slug": "grading",
+      "title": {
+        "zh": "攀岩的等级系统",
+        "en": "Grading Systems"
+      },
+      "overview": {
+        "zh": "攀岩等级系统是攀岩者交流路线难度信息的标准化工具。全球各地发展出了不同的等级体系，其中最常用的包括美国的 YDS 系统、法国的运动攀等级、以及抱石领域的 V 等级和 Font 等级。理解不同等级系统之间的对应关系，对于攀岩者规划训练目标和跨区域攀岩至关重要。",
+        "en": "Grading systems are standardized tools for communicating route difficulty. Different regions have developed distinct systems, including the American YDS, French sport grades, and the V-scale and Font scale for bouldering. Understanding the relationships between these systems is essential for training planning and climbing across different regions."
+      },
+      "knowledgePoints": [
+        {
+          "id": "kp-grading-systems",
+          "title": {
+            "zh": "主要等级系统详解",
+            "en": "Major Grading Systems Explained"
+          },
+          "content": {
+            "zh": "全球攀岩界使用多种等级系统来描述路线难度，以下是最主要的几种：\n\n**YDS（Yosemite Decimal System）：** 美国最通用的攀岩等级系统。技术性攀岩从 5.0 开始，5.0-5.4 为简单地形，5.5-5.8 为中等难度，5.9-5.10 为较高难度，5.11-5.12 为高难度，5.13-5.15 为专业级别。5.10 及以上还细分为 a、b、c、d 四个子级。目前已知最高难度为 5.15d。\n\n**法国等级（French Scale）：** 在欧洲和国际比赛中广泛使用。从 1 到 9c+，数字越大难度越高，每个数字后还跟有 a、b、c 三个子级和可选的 + 号。例如 6a、6a+、6b、6b+ 等。法国等级与 YDS 的大致对应关系为：6a 约等于 5.10a，7a 约等于 5.11d，8a 约等于 5.13b，9a 约等于 5.14d。\n\n**V 等级（V-Scale / Hueco Scale）：** 美国抱石等级系统，由 John Sherman 在德克萨斯州 Hueco Tanks 发展而来。从 V0 到 V17（目前已知最高），数字越大难度越高。V0-V2 适合初学者，V3-V5 为中级水平，V6-V9 为高级水平，V10 以上为专业级。\n\n**Font 等级（Fontainebleau Scale）：** 法国枫丹白露地区发展出的抱石等级系统，在欧洲广泛使用。格式类似法国运动攀等级，如 6a、7a+、8b 等，但数字对应的实际难度与运动攀等级不同。V0 约对应 Font 4，V5 约对应 Font 6c，V10 约对应 Font 7c+。",
+            "en": "The major grading systems include:\n\n**YDS (Yosemite Decimal System):** The standard American system. Technical climbing starts at 5.0, with subdivisions a/b/c/d from 5.10 upward. Currently tops out at 5.15d.\n\n**French Scale:** Widely used in Europe and international competition. Ranges from 1 to 9c+, with sub-grades a/b/c and optional +. Roughly: 6a equals 5.10a, 7a equals 5.11d, 8a equals 5.13b.\n\n**V-Scale (Hueco Scale):** American bouldering grades from V0 to V17. Developed by John Sherman at Hueco Tanks, Texas.\n\n**Font Scale (Fontainebleau):** European bouldering grades developed in France. Uses a format similar to French sport grades but with different difficulty correspondence."
+          },
+          "terms": [
+            { "zh": "YDS 系统", "en": "Yosemite Decimal System" },
+            { "zh": "法国等级", "en": "French scale" },
+            { "zh": "V 等级", "en": "V-scale / Hueco scale" },
+            { "zh": "枫丹白露等级", "en": "Fontainebleau scale" },
+            { "zh": "子级", "en": "sub-grade" }
+          ],
+          "crossRefs": ["kp-climbing-categories", "kp-route-reading-basics"],
+          "tags": ["beginner"]
+        },
+        {
+          "id": "kp-grade-comparison",
+          "title": {
+            "zh": "等级对照与注意事项",
+            "en": "Grade Comparison & Considerations"
+          },
+          "content": {
+            "zh": "不同等级系统之间的对照虽然有通用的换算关系，但需要注意一些重要的细节：\n\n**等级换算的局限性：** 等级的评定受到多种因素的影响，包括路线的持续性、单步难度、岩壁角度、手点类型等。两条标称相同等级的路线可能在攀爬感受上差异巨大。一条以持续性为主的 5.12a 路线（耐力型）和一条有单步核心难点的 5.12a 路线（爆发力型）对攀岩者的要求完全不同。\n\n**等级膨胀与软硬：** 不同地区的等级标准可能存在差异。某些岩场以「给分慷慨」（soft grading）著称，而另一些则以「给分严苛」（sandbagged）闻名。室内岩馆的等级通常比户外偏软1-2个子级，这是为了鼓励新手并提供积极的体验。\n\n**主要换算参考：**\n- 5.10a = 6a（法国）= 大约 V0-V1 的技术难度\n- 5.11a = 6c（法国）\n- 5.12a = 7a+（法国）\n- 5.13a = 7c+（法国）\n- 5.14a = 8b+（法国）\n- V4 = Font 6b+ 左右\n- V8 = Font 7b+ 左右\n- V12 = Font 8a+ 左右\n\n等级只是一个参考工具。攀岩者不应过度执着于数字，而应关注自身技能的全面发展和攀爬的乐趣。",
+            "en": "Grade conversions have important nuances:\n\n**Limitations:** Grades are influenced by sustainedness, crux intensity, wall angle, and hold types. Two routes at the same grade can feel vastly different.\n\n**Grade inflation and sandbagging:** Standards vary by region. Some areas grade generously (soft), others are notoriously stiff (sandbagged). Indoor grades are typically 1-2 sub-grades softer than outdoor.\n\n**Key conversions:** 5.10a = 6a (French); 5.12a = 7a+; 5.14a = 8b+. For bouldering: V4 = Font 6b+; V8 = Font 7b+; V12 = Font 8a+.\n\nGrades are reference tools, not absolute measures. Climbers should focus on well-rounded skill development rather than fixating on numbers."
+          },
+          "terms": [
+            { "zh": "等级膨胀", "en": "grade inflation" },
+            { "zh": "给分偏软", "en": "soft grading" },
+            { "zh": "给分偏硬", "en": "sandbagged" },
+            { "zh": "核心难点", "en": "crux" },
+            { "zh": "持续性路线", "en": "sustained route" }
+          ],
+          "crossRefs": ["kp-grading-systems", "kp-route-reading-basics"],
+          "tags": ["beginner", "intermediate"]
+        }
+      ]
+    },
+    {
+      "id": "s01-culture",
+      "number": "1.4",
+      "slug": "culture",
+      "title": {
+        "zh": "攀岩文化与社区",
+        "en": "Culture & Community"
+      },
+      "overview": {
+        "zh": "攀岩不仅是一项运动，更拥有深厚的文化传统和活跃的社区生态。从攀岩伦理到社区规范，从传奇攀岩者的故事到攀岩媒体的发展，攀岩文化塑造了这项运动的独特精神面貌。",
+        "en": "Climbing is more than a sport; it possesses deep cultural traditions and a vibrant community ecosystem. From climbing ethics to community norms, legendary climbers to media, climbing culture shapes the unique spirit of the discipline."
+      },
+      "knowledgePoints": [
+        {
+          "id": "kp-climbing-ethics",
+          "title": {
+            "zh": "攀岩伦理",
+            "en": "Climbing Ethics"
+          },
+          "content": {
+            "zh": "攀岩伦理是攀岩文化的核心，指导着攀岩者如何与岩壁、自然环境以及其他攀岩者互动。这些伦理规范在攀岩历史中逐渐形成，反映了攀岩社区对「以何种方式攀登」这一问题的集体思考。\n\n**首攀伦理（First Ascent Ethics）：** 首次攀登一条路线（first ascent）的攀岩者拥有为路线命名和定级的权利，同时也承担着对路线风格的责任。在传统攀岩中，是否允许在路线上打入膨胀螺栓是一个长期争议的话题。一般而言，如果裂缝可以放置传统保护装备，就不应使用螺栓。「从地面向上」（ground-up）的开线方式被认为比「从上方向下」（top-down）更具道德正当性。\n\n**环境伦理：** 攀岩者有责任保护攀岩环境。「不留痕迹」（Leave No Trace）原则要求攀岩者带走所有垃圾，避免在岩壁上留下粉笔印记（部分地区要求使用与岩石同色的粉笔），尊重攀岩区域的野生动植物和生态环境。季节性的岩壁封闭（如猛禽繁殖期）也应被严格遵守。\n\n**风格伦理：** 攀岩社区高度重视攀登的「风格」。on-sight（首次尝试、无任何信息的完攀）被视为最高风格，flash（获取信息后首次完攀）次之，redpoint（经过多次尝试后的完攀）也被认可。而在他人不知情的情况下使用器械辅助、虚报等级或风格，则被视为严重违反攀岩伦理。",
+            "en": "Climbing ethics are the cultural foundation guiding how climbers interact with rock, nature, and each other.\n\n**First Ascent Ethics:** First ascensionists name and grade routes but bear responsibility for style. Using bolts where traditional protection suffices is generally considered poor ethics. Ground-up development is preferred over top-down.\n\n**Environmental Ethics:** Leave No Trace principles require carrying out all trash, minimizing chalk marks, and respecting seasonal closures for wildlife.\n\n**Style Ethics:** On-sight (first attempt with no information) is the highest style, followed by flash (first attempt with beta), then redpoint (completed after multiple attempts). Misrepresenting ascent style is a serious ethical violation."
+          },
+          "terms": [
+            { "zh": "首攀", "en": "first ascent" },
+            { "zh": "不留痕迹", "en": "Leave No Trace" },
+            { "zh": "从地面向上", "en": "ground-up" },
+            { "zh": "完攀", "en": "send / complete ascent" }
+          ],
+          "crossRefs": ["kp-climbing-origins", "kp-free-climbing-revolution", "kp-route-reading-basics"],
+          "tags": ["beginner"]
+        },
+        {
+          "id": "kp-community-media",
+          "title": {
+            "zh": "社区与媒体",
+            "en": "Community & Media"
+          },
+          "content": {
+            "zh": "攀岩社区以其紧密的人际联系和独特的社交文化而著称。在攀岩馆和户外岩场，攀岩者们自然形成互助友爱的社群，分享路线信息（beta）、互相保护（belay）、共同解决攀爬难题。这种社区精神是攀岩文化最迷人的特质之一。\n\n**著名攀岩者与传奇故事：** 每个时代都有其标志性的攀岩者。从 Royal Robbins 和 Warren Harding 在优胜美地的开创性攀登，到 Alex Honnold 的无保护自由独攀（Free Solo）记录，再到 Adam Ondra 不断刷新人类攀爬难度的极限——这些人物和他们的故事激励了一代又一代攀岩者。Chris Sharma、Tommy Caldwell、Janja Garnbret 等当代攀岩者通过社交媒体将攀岩文化传播到了更广泛的受众。\n\n**攀岩媒体的演变：** 早期的攀岩文化主要通过杂志（如「Climbing」「Rock and Ice」）和书籍传播。2000年代后，攀岩电影和纪录片成为重要的传播媒介，如「Free Solo」获得了奥斯卡最佳纪录片奖。进入社交媒体时代，YouTube 频道、Instagram 和播客成为攀岩者获取信息和分享经验的主要平台。攀岩媒体的发展极大地推动了攀岩运动的普及和商业化。",
+            "en": "The climbing community is known for its tight-knit social bonds. At gyms and crags, climbers naturally form supportive groups, sharing beta, belaying each other, and solving problems together.\n\n**Legendary Climbers:** Each era has iconic figures. From Royal Robbins' Yosemite pioneering to Alex Honnold's free solo of El Capitan and Adam Ondra's difficulty records. Modern climbers use social media to spread climbing culture to wider audiences.\n\n**Media Evolution:** Climbing culture spread through magazines and books, then films like the Oscar-winning documentary about free soloing. Social media, YouTube, and podcasts are now the primary platforms for sharing climbing experiences and knowledge."
+          },
+          "terms": [
+            { "zh": "路线信息", "en": "beta" },
+            { "zh": "保护", "en": "belay" },
+            { "zh": "无保护自由独攀", "en": "free solo" },
+            { "zh": "攀岩社区", "en": "climbing community" }
+          ],
+          "crossRefs": ["kp-climbing-ethics", "kp-climbing-origins", "kp-free-climbing-revolution"],
+          "tags": ["beginner"]
+        }
+      ]
+    },
+    {
+      "id": "s01-olympics",
+      "number": "1.5",
+      "slug": "olympics",
+      "title": {
+        "zh": "攀岩与奥运会",
+        "en": "Climbing & Olympics"
+      },
+      "overview": {
+        "zh": "攀岩在2020年东京奥运会上首次成为正式比赛项目，标志着这项运动从户外冒险活动向主流竞技体育的历史性跨越。奥运攀岩的加入不仅极大提升了攀岩的全球关注度，也深刻影响了攀岩运动的发展方向和训练体系。",
+        "en": "Climbing made its Olympic debut at the 2020 Tokyo Games, marking a historic transition from outdoor adventure to mainstream competitive sport. Olympic inclusion has dramatically increased global visibility and profoundly influenced the sport's development and training systems."
+      },
+      "knowledgePoints": [
+        {
+          "id": "kp-olympics-history",
+          "title": {
+            "zh": "奥运竞技攀岩的发展历程",
+            "en": "Olympic Competition Climbing History"
+          },
+          "content": {
+            "zh": "攀岩进入奥运会的历程经历了数十年的努力。国际攀联（IFSC）自2007年被国际奥委会（IOC）认可为正式的国际体育联合会以来，就一直致力于推动攀岩成为奥运项目。2016年8月，IOC 正式宣布将竞技攀岩列入2020年东京奥运会的比赛项目，这是攀岩运动历史上最具里程碑意义的事件之一。\n\n**东京奥运会（2020/2021）：** 攀岩在东京奥运会上采用「全能赛」（Combined）形式，每位运动员需要参加速度攀岩（Speed）、攀石（Bouldering）和难度攀岩（Lead）三个项目，三个项目的排名相乘，总分最低者获胜。这种赛制引发了不少争议，因为速度攀岩与其他两个项目在技能需求上差异巨大。男子金牌由西班牙选手 Alberto Gines Lopez 获得，女子金牌由斯洛文尼亚选手 Janja Garnbret 获得。\n\n**巴黎奥运会（2024）：** 在攀岩社区的强烈反馈下，巴黎奥运会将速度攀岩单独设为一个项目，攀石和难度攀岩合并为另一个项目。这一调整被普遍认为更加合理。Janja Garnbret 再次夺得女子攀石+难度金牌，展现了她在攀岩领域的统治力。速度攀岩方面也诞生了多项世界纪录。\n\n奥运攀岩的未来充满期待。攀岩在洛杉矶2028奥运会上将继续保留，赛制可能进一步调整以更好地展现各个项目的特色。",
+            "en": "Climbing's Olympic journey spanned decades of effort. The IFSC gained IOC recognition in 2007 and campaigned persistently. In 2016, the IOC announced climbing for the 2020 Tokyo Games.\n\n**Tokyo 2020:** Used a Combined format (Speed + Bouldering + Lead) with multiplicative scoring, which proved controversial due to speed climbing's distinct skill requirements. Alberto Gines Lopez (Spain) and Janja Garnbret (Slovenia) won gold.\n\n**Paris 2024:** Separated speed climbing as a standalone event, with bouldering and lead combined. Garnbret claimed gold again in bouldering + lead, while speed events produced world records.\n\nClimbing is confirmed for Los Angeles 2028, with format adjustments expected to better showcase each discipline."
+          },
+          "terms": [
+            { "zh": "国际攀联", "en": "IFSC (International Federation of Sport Climbing)" },
+            { "zh": "全能赛", "en": "combined format" },
+            { "zh": "速度攀岩", "en": "speed climbing" },
+            { "zh": "难度攀岩", "en": "lead climbing" },
+            { "zh": "攀石", "en": "bouldering (competition)" }
+          ],
+          "crossRefs": ["kp-climbing-categories", "kp-sport-climbing-emergence", "kp-modern-era"],
+          "tags": ["beginner"]
+        },
+        {
+          "id": "kp-olympics-athletes",
+          "title": {
+            "zh": "奥运攀岩著名运动员",
+            "en": "Notable Olympic Climbing Athletes"
+          },
+          "content": {
+            "zh": "奥运攀岩汇聚了全球最优秀的竞技攀岩者，以下是一些最具代表性的运动员：\n\n**Janja Garnbret（斯洛文尼亚）：** 被广泛认为是历史上最优秀的女性竞技攀岩者。她在 IFSC 世界杯赛事中的统治力无人能及，曾在一个赛季中赢得所有攀石和难度赛站的冠军——这在男女组别中都是前无古人的成就。她在东京和巴黎奥运会上均获得金牌。Garnbret 的技术特点在于全面且高效的攀爬风格，无论是动态抱石还是持续性难度路线，她都能展现出极高的水准。\n\n**Adam Ondra（捷克）：** 虽然在奥运会上未能获得奖牌，但 Ondra 被认为是历史上最伟大的攀岩者之一。他是世界首条 5.15d（9c）路线的完成者，在竞技和户外领域都达到了人类攀岩能力的顶峰。他的技术以创造性的身体运用和极致的手指力量著称。\n\n**Tomoa Narasaki（楢崎智亚，日本）：** 日本竞技攀岩的代表人物，以爆炸性的动态攀爬能力闻名，多次获得 IFSC 抱石世界杯总冠军。他在东京奥运会上获得铜牌。\n\n这些运动员不仅在竞技场上取得了卓越成就，也通过自身影响力推动了攀岩运动在全球的普及和发展。",
+            "en": "Olympic climbing showcases the world's best competitive climbers:\n\n**Janja Garnbret (Slovenia):** Widely considered the greatest female competitive climber in history. She once won every bouldering and lead World Cup event in a single season. Gold medalist at both Tokyo and Paris Olympics.\n\n**Adam Ondra (Czech Republic):** Though without an Olympic medal, Ondra is considered one of the greatest climbers ever, having established the world's first 5.15d route. Known for creative body positioning and exceptional finger strength.\n\n**Tomoa Narasaki (Japan):** A leading figure in Japanese competition climbing, famous for explosive dynamic movement. Multiple IFSC Bouldering World Cup champion and Tokyo Olympic bronze medalist.\n\nThese athletes inspire global climbing participation through their competitive achievements and public influence."
+          },
+          "terms": [
+            { "zh": "世界杯赛", "en": "World Cup" },
+            { "zh": "竞技攀岩者", "en": "competition climber" },
+            { "zh": "动态攀爬", "en": "dynamic climbing" },
+            { "zh": "赛站", "en": "event / round" }
+          ],
+          "crossRefs": ["kp-olympics-history", "kp-modern-era", "kp-flow-state"],
+          "tags": ["beginner"]
+        }
+      ]
+    }
+  ]
+}

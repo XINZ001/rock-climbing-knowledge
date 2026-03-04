@@ -1,0 +1,461 @@
+{
+  "_meta": {
+    "section": "section-06",
+    "sectionTitle": "安全与风险管理",
+    "searchDate": "2026-03-03",
+    "totalArticles": 15,
+    "coveredKps": 15,
+    "totalKps": 15,
+    "uncoveredKps": [],
+    "partiallyCoveredKps": []
+  },
+  "articles": [
+    {
+      "id": "s06-001",
+      "url": "https://www.advnture.com/how-to/fall-bouldering",
+      "title": "How to Fall Bouldering: 3 Techniques to Reduce Injury",
+      "source": "Advnture",
+      "author": "Julia Clarke",
+      "language": "en",
+      "publishDate": "2022-04-02",
+      "articleType": "tutorial",
+      "primaryKp": "kp-bouldering-fall",
+      "secondaryKps": ["kp-landing-position", "kp-crash-pad"],
+      "quality": {
+        "authority": 3,
+        "depth": 3,
+        "practicality": 4,
+        "recency": 4,
+        "uniqueness": 3,
+        "total": 17
+      },
+      "summary": "抱石落地安全技术指南，覆盖三类常见落地场景：背部落地（屋顶线路坠落）、正面落地（抓不到动态动作时）和通用落地练习方法。强调崩垫的角色是吸收初始冲击，而非保证绝对安全，并建议在室内抱石馆通过刻意练习来建立正确的落地本能。",
+      "keyInsights": [
+        "抱石落地基本原则：双脚先落，面朝岩壁，屈膝吸收冲击，顺势滚向背部",
+        "三种落地场景：背落（屋顶坠落常见）/ 正面落地（动态动作失误）/ 通用练习",
+        "严禁用手撑地：用手腕/手臂支撑落地是骨折和韧带损伤的主要原因",
+        "崩垫定位至关重要：放置位置应基于攀爬者的重心轨迹，而非仅在岩石正下方",
+        "建议在室内先刻意练习安全落地，再转到户外抱石"
+      ],
+      "tags": ["bouldering-fall", "fall-technique", "landing", "safety", "crash-pad"]
+    },
+    {
+      "id": "s06-002",
+      "url": "https://tufasboulderlounge.com/bouldering-basics-how-to-fall-when-climbing/",
+      "title": "Bouldering Basics: How to Fall When Climbing",
+      "source": "Tufas Boulder Lounge",
+      "author": "Tufas Boulder Lounge Staff",
+      "language": "en",
+      "publishDate": "2023-01-01",
+      "articleType": "tutorial",
+      "primaryKp": "kp-landing-position",
+      "secondaryKps": ["kp-bouldering-fall"],
+      "quality": {
+        "authority": 2,
+        "depth": 3,
+        "practicality": 5,
+        "recency": 3,
+        "uniqueness": 3,
+        "total": 16
+      },
+      "summary": "抱石馆出品的落地姿势基础教程，专注于从抱石墙坠落时身体应有的标准位置：双脚先着地、面朝岩壁、屈膝（软化冲击）、顺势向后滚动、双臂交叉于胸前（防止手撑地）。还提供落地前检查清单：确认崩垫到位、周围无人行走、粉袋/水瓶等物品已移出落地区。",
+      "keyInsights": [
+        "标准落地五步：双脚先落 → 面朝岩壁 → 屈膝减震 → 向后滚落 → 双臂交叉胸前",
+        "背部落地时，双臂斜向两侧拍垫（而非交叉胸前）有助于抵消冲击力",
+        "每次攀爬前检查清单：崩垫无间隙、落地区无杂物（粉袋/手机/水瓶）、无人站立在下方",
+        "崩垫不能保证安全，仍需正确的落地技术配合",
+        "大多数室内抱石馆在首次入馆时会演示正确落地方式"
+      ],
+      "tags": ["landing-position", "bouldering-fall", "fall-technique", "body-position", "safety"]
+    },
+    {
+      "id": "s06-003",
+      "url": "https://www.vdiffclimbing.com/grigri-belay/",
+      "title": "How To Belay with a GriGri",
+      "source": "VDiff Climbing",
+      "author": "VDiff",
+      "language": "en",
+      "publishDate": "2026-01-12",
+      "articleType": "tutorial",
+      "primaryKp": "kp-lead-belay-indoor",
+      "secondaryKps": ["kp-belaying"],
+      "quality": {
+        "authority": 4,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 5,
+        "uniqueness": 3,
+        "total": 21
+      },
+      "summary": "VDiff Climbing 出品的 GriGri 辅助制动装置使用完整教程，涵盖上方确保和先锋确保两种场景，以及最关键的快速放绳技术。强调 GriGri 不是自动制动装置（\"GriGri 不是自锁\"），制动手必须始终持绳。特别警告最常见危险行为：持续按压手柄放绳时放开制动手，以及\"懒人确保\"（letting the GriGri do the work）。",
+      "keyInsights": [
+        "GriGri 工作原理：类似汽车安全带，凸轮在坠落时旋转夹住绳子，减少坠落冲击",
+        "核心原则：GriGri 不是自锁装置，制动手必须始终持握绳索",
+        "最危险习惯：持续按压手柄放绳时未持制动手 → 坠落时无法快速制动",
+        "AMGA 指南：初学者应先学 ATC 打好确保基础，再引入 GriGri",
+        "快速放绳技术（Quick Pay-out）是先锋确保的关键技能，防止不必要坠落高度增加",
+        "2026年1月最新更新，是 VDiff 技术教程系列中最实用的确保设备文章"
+      ],
+      "tags": ["lead-belay", "GriGri", "belay-device", "indoor-climbing", "safety"]
+    },
+    {
+      "id": "s06-004",
+      "url": "https://gripped.com/indoor-climbing/10-rules-for-indoor-bouldering-etiquette/",
+      "title": "10 Rules for Indoor Bouldering Etiquette",
+      "source": "Gripped Magazine",
+      "author": "Gripped Staff",
+      "language": "en",
+      "publishDate": "2020-01-01",
+      "articleType": "tutorial",
+      "primaryKp": "kp-gym-etiquette",
+      "secondaryKps": ["kp-bouldering-fall"],
+      "quality": {
+        "authority": 4,
+        "depth": 3,
+        "practicality": 4,
+        "recency": 3,
+        "uniqueness": 3,
+        "total": 17
+      },
+      "summary": "室内抱石礼仪十条准则，涵盖安全、礼貌和社区氛围三个维度。核心安全规则：不在攀爬者下方走动或站立、不靠近他人攀爬的线路启动路线。礼仪规则：不主动提供未被请求的 Beta、让刚清洁完岩点的人先上墙、轮流使用热门线路。设备规则：及时向工作人员汇报松动岩点。",
+      "keyInsights": [
+        "最重要安全规则：不在攀爬者下方或落地区域行走/站立/坐着",
+        "Beta 礼仪：不主动提供 beta，等待对方明确请求后再分享",
+        "礼让原则：如果有人刚清洁完岩点，应让他们优先尝试",
+        "人气线路：避免垄断热门路线，尤其在繁忙时段要主动轮流",
+        "安全汇报：发现松动岩点必须立即通知工作人员",
+        "只在对方明确同意的情况下才给予保护（spot）"
+      ],
+      "tags": ["gym-etiquette", "indoor-climbing", "etiquette", "safety", "bouldering-culture"]
+    },
+    {
+      "id": "s06-005",
+      "url": "https://americanalpineclub.org/news/2020/4/8/managing-risk",
+      "title": "Managing Risk in Rock Climbing",
+      "source": "American Alpine Club",
+      "author": "Ron Funderburke & Derek DeBruin",
+      "language": "en",
+      "publishDate": "2023-06-21",
+      "articleType": "tutorial",
+      "primaryKp": "kp-rockfall-risk",
+      "secondaryKps": ["kp-weather-assessment", "kp-retreat-strategy", "kp-wilderness-first-aid"],
+      "quality": {
+        "authority": 5,
+        "depth": 4,
+        "practicality": 4,
+        "recency": 4,
+        "uniqueness": 4,
+        "total": 21
+      },
+      "summary": "美国高山俱乐部出品的攀岩风险管理框架，源自《北美攀岩事故报告》。建立危险（Hazards）→ 风险（Risk）→ 结果（Outcome）的三要素循环分析模型。识别三类认知偏差：确认偏见、乐观偏见和承诺偏见。提供攀登前（危险清单+预演分析）、攀登中（聚焦/备份/系统化沟通/佩戴头盔）、攀登后（反思\"为什么\"）的完整行动框架。",
+      "keyInsights": [
+        "核心区分：危险是客观存在的，风险由人类暴露于危险中产生，须区别对待",
+        "三类认知偏差：确认偏见（证实既有信念）/ 乐观偏见（低估个人风险）/ 承诺偏见（过度执着于目标）",
+        "攀前框架：危险清单 + 预演分析（\"如果X发生我们怎么办？\"）",
+        "攀中框架：保持专注 + 使用备份系统 + 系统化沟通口令 + 全程佩戴头盔",
+        "攀后框架：诚实反思每次攀登 → 问\"为什么\"而非停留于\"结果是否成功\"",
+        "美国高山俱乐部（AAC）是北美权威攀岩安全机构，来源层级最高"
+      ],
+      "tags": ["risk-management", "rockfall", "hazard-assessment", "safety-framework", "AAC"]
+    },
+    {
+      "id": "s06-006",
+      "url": "https://www.lacrux.com/en/klettern/thunderstorm-on-the-mountain-5-tips-for-minimizing-risk/",
+      "title": "Thunderstorms on the Mountain: 5 Tips for Minimizing Risk",
+      "source": "Lacrux Climbing Magazine",
+      "author": "Lacrux Editorial",
+      "language": "en",
+      "publishDate": "2023-07-01",
+      "articleType": "tutorial",
+      "primaryKp": "kp-weather-assessment",
+      "secondaryKps": ["kp-rockfall-risk", "kp-retreat-strategy"],
+      "quality": {
+        "authority": 3,
+        "depth": 3,
+        "practicality": 4,
+        "recency": 4,
+        "uniqueness": 3,
+        "total": 17
+      },
+      "summary": "户外攀岩者雷雨天气风险管理五步指南：（1）攀前查询山区天气预报，积云/积雨云发展迹象代表当日午后雷雨风险；（2）使用闪电与雷声间隔时间测量风暴距离（3秒≈1km）；（3）提前撤退——应在预测雷雨时间前1–2小时离开暴露地形；（4）若被困，远离山顶/山脊/岩尖/孤立树木至少15米；（5）最后撤离手段：蹲姿（双脚并拢、膝盖收紧），将金属装备（冰爪/冰镐/锁具）放置在远处。",
+      "keyInsights": [
+        "预测工具：观察积云（Cumulus）边缘锐利度和上升速度，清晨积雨云（Castellanus）预示下午雷雨",
+        "闪电距离测量：闪光到雷声间隔3秒 ≈ 1公里，5秒 ≈ 1.7公里，10秒以内须立即行动",
+        "预防原则：阴天宁可提前撤退，下次再来，比被闪电击中要明智得多",
+        "被困应对：远离山顶/山脊/岩尖/孤立树木（最少15米），并离开垂直岩壁",
+        "闪电避险姿势：蹲姿（双脚并拢/膝盖收紧/减少地面接触），金属装备放远处",
+        "雨后还有落石风险：雨水会松动裂缝中的岩石，需保持头盔和警觉"
+      ],
+      "tags": ["weather-assessment", "thunderstorm", "lightning", "mountain-weather", "risk-management"]
+    },
+    {
+      "id": "s06-007",
+      "url": "https://www.alpinesavvy.com/blog/retreat-anchors-sport-climbing",
+      "title": "Retreat Anchors – Sport Climbing",
+      "source": "Alpinesavvy",
+      "author": "Alpinesavvy Editorial",
+      "language": "en",
+      "publishDate": "2021-09-01",
+      "articleType": "tutorial",
+      "primaryKp": "kp-retreat-strategy",
+      "secondaryKps": ["kp-rappelling", "kp-knots"],
+      "quality": {
+        "authority": 4,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 4,
+        "uniqueness": 4,
+        "total": 21
+      },
+      "summary": "运动攀岩撤退锚点的系统性实用指南，涵盖何时应该撤退（实力超出能力/天气变化/绳子不够长）、撤退的核心原则（保命优先于器材）以及四种临时锚点方法的对比：普通锁扣 / 锁闸锁 / 快速链接（不推荐，易生锈） / 胶带门锁扣（体谅他人的便宜选项）。还包括绳子超过一半长度时的双次降绳策略，以及如何使用绳套在两个岩钉上建立冗余锚点。",
+      "keyInsights": [
+        "撤退时机：能力与路线难度不匹配、天气恶化、绳子长度不足以到达锚点",
+        "核心原则：\"装备的代价远低于受伤的代价\"，留下足够安全的器材后再担心补充",
+        "四种临时锚点对比：普通锁扣（顺滑降绳）/ 锁闸锁（最安全）/ 快链（易锈/麻烦）/ 胶带门锁扣（省钱体谅他人）",
+        "重要警告：不要直接用绳子穿过岩钉挂片——会损坏绳子",
+        "长路线撤退：绳子超半段时，先降到中间岩钉，回收绳子后再从该岩钉降绳",
+        "冗余建设：如无链条/环，用绳套穿两个岩钉挂片建立冗余支点"
+      ],
+      "tags": ["retreat-strategy", "bail", "sport-climbing", "retreat-anchors", "lowering", "self-rescue"]
+    },
+    {
+      "id": "s06-008",
+      "url": "https://lnt.org/how-to-leave-no-trace-on-the-crag/",
+      "title": "How to Leave No Trace on the Crag",
+      "source": "Leave No Trace Center for Outdoor Ethics",
+      "author": "Brice（联合 Erin Collier）",
+      "language": "en",
+      "publishDate": "2019-01-16",
+      "articleType": "tutorial",
+      "primaryKp": "kp-leave-no-trace",
+      "secondaryKps": [],
+      "quality": {
+        "authority": 5,
+        "depth": 3,
+        "practicality": 4,
+        "recency": 4,
+        "uniqueness": 3,
+        "total": 19
+      },
+      "summary": "由 Leave No Trace 国际组织出品的攀岩者专属无痕户外准则，2024年更新版。涵盖攀登前（研究具体法规/检查野生动物封闭区）、集结时（走已有小径/不抄近道/液体废物在岩壁和水源70步外处理）、攀爬时（优先可移动保护/最小化白粉使用/用与岩石颜色相配的粉）、攀后（打包所有垃圾包括果皮/志愿者回馈）四阶段指引。",
+      "keyInsights": [
+        "攀岩者的行为是决定攀岩区域获得还是失去通行权的关键因素",
+        "法规多元：不同土地管理机构（NPS/BLM/USFS）的规定差异显著，需提前研究",
+        "液体废物处理：离岩壁和水源至少\"70大步\"（约60-70米），或使用拆包式厕所",
+        "白粉管理：使用尽可能少的白粉，选择与岩石颜色相近的粉（如石灰岩用白粉，砂岩考虑少用）",
+        "优先使用可移动保护（Cam/Nut），减少永久性岩钉安装对岩石的破坏",
+        "\"攀岩者-守护者\"心态：超越个人影响最小化，主动参与区域清洁和倡导工作"
+      ],
+      "tags": ["leave-no-trace", "LNT", "crag-stewardship", "ethics", "access", "outdoor-ethics"]
+    },
+    {
+      "id": "s06-009",
+      "url": "https://foxmountainguides.com/climbing-first-aid-kit/",
+      "title": "How to Build a First Aid Kit for Climbing",
+      "source": "Fox Mountain Guides",
+      "author": "Forrest Stavish（AMGA Assistant Rock Guide, WEMT-B）",
+      "language": "en",
+      "publishDate": "2022-12-08",
+      "articleType": "tutorial",
+      "primaryKp": "kp-wilderness-first-aid",
+      "secondaryKps": ["kp-rockfall-risk"],
+      "quality": {
+        "authority": 4,
+        "depth": 3,
+        "practicality": 5,
+        "recency": 4,
+        "uniqueness": 3,
+        "total": 19
+      },
+      "summary": "AMGA 助理岩石向导兼野外急救医疗技术员（WEMT-B）撰写的攀岩急救包配置指南，核心理念\"预防是最好的急救\"。详细列出五个类别：止血控制（运动胶带/纱布/压力绷带/止血带）、药物（苯海拉明/阿司匹林）、固定（SAM 夹板/三角绷带/弹性绷带）、工具（Garmin inReach 卫星通讯器/创伤剪/急救毯/头灯）、可选强烈推荐的WFA（2天）或WFR（7-10天）认证课程。",
+      "keyInsights": [
+        "\"预防是最好的急救\"：正确的技术技能、水分、营养和休息可以预防大多数意外",
+        "卫星通讯器（如 Garmin inReach Mini）是远郊攀岩最关键的急救工具——手机可能无信号",
+        "止血带（CAT tourniquet）适用于动脉出血，普通绷带不够时的关键备选",
+        "野外固定夹板：SAM 夹板目的是减少移动和疼痛，而非治疗骨折",
+        "强烈推荐 WFA（2天）或 WFR（7-10天）认证，知道怎么用急救包和能正确使用是两回事",
+        "作者同时具备 AMGA 岩石向导资质和 WEMT-B 野外急救认证，来源可信度高"
+      ],
+      "tags": ["wilderness-first-aid", "first-aid-kit", "WFA", "WFR", "emergency-preparedness", "outdoor-safety"]
+    },
+    {
+      "id": "s06-010",
+      "url": "https://www.vdiffclimbing.com/basic-tie-in/",
+      "title": "Figure of 8 Knot – How to Tie into a Climbing Rope",
+      "source": "VDiff Climbing",
+      "author": "VDiff",
+      "language": "en",
+      "publishDate": "2026-01-02",
+      "articleType": "tutorial",
+      "primaryKp": "kp-knots",
+      "secondaryKps": ["kp-lead-belay-indoor"],
+      "quality": {
+        "authority": 4,
+        "depth": 3,
+        "practicality": 5,
+        "recency": 5,
+        "uniqueness": 2,
+        "total": 19
+      },
+      "summary": "VDiff 攀岩基础系列——八字结入绳教程，2026年1月最新更新。覆盖八字结的打法步骤、视觉检查方法（结形是否为完整八字形，尾绳≥15厘米）以及双人检查规程。同时对比双套结（Bowline）的优缺点：脱绳更容易但更难自查，仅推荐高级攀岩者在充分理解后使用，且必须配套备用结。",
+      "keyInsights": [
+        "八字跟踪结（Figure Eight Follow-Through）是攀岩者最常用的入绳结，75–80% 的绳子强度保留率",
+        "自查标准：结形完整呈八字形，尾绳至少15厘米（6英寸），无交叉绳段",
+        "双人检查原则：每次起攀前双方互检入绳结，即使熟练伙伴也不例外",
+        "双套结（Bowline）：优点是坠落后更易解开，缺点是更容易打错且更难检查",
+        "双套结仅限技术娴熟的攀岩者使用，且必须加备用结（Double Overhand）",
+        "VDiff 2026年最新更新，是最权威的零基础入绳教程之一"
+      ],
+      "tags": ["knots", "figure-eight", "tie-in", "rope-skills", "safety-check", "bowline"]
+    },
+    {
+      "id": "s06-011",
+      "url": "https://rockclimbingrealms.com/belay-in-climbing/",
+      "title": "Perfect Your Belay in Climbing: Safety & Skills",
+      "source": "Rock Climbing Realms",
+      "author": "Rock Climbing Realms Staff",
+      "language": "en",
+      "publishDate": "2023-01-01",
+      "articleType": "tutorial",
+      "primaryKp": "kp-belaying",
+      "secondaryKps": ["kp-lead-belay-indoor", "kp-knots"],
+      "quality": {
+        "authority": 3,
+        "depth": 3,
+        "practicality": 4,
+        "recency": 3,
+        "uniqueness": 3,
+        "total": 16
+      },
+      "summary": "全面覆盖攀岩确保技术的入门指南，包括上方确保、先锋确保和顶绳确保三种场景的操作方式。对比管式确保器（ATC）和辅助制动器（GriGri/Assisted Braking Device）的工作原理、优缺点和适用场景。强调确保原则：制动手永不离绳（PBUS方法：Pull/Brake/Under/Slide）。",
+      "keyInsights": [
+        "PBUS 确保动作：拉（Pull）→ 制动（Brake）→ 绕过（Under）→ 滑动（Slide），制动手全程不离绳",
+        "ATC vs GriGri：ATC 适合初学者建立基础，GriGri 提供辅助制动但不是自锁",
+        "上方确保 vs 先锋确保：先锋确保需要在攀爬者移动时动态给绳，节奏感和注意力要求更高",
+        "确保者责任：保持与攀爬者的距离适当，不能离岩壁太近（先锋坠落拉飞风险）",
+        "伙伴检查：入绳结 + 安全扣锁闭 + 确保系统正确是每次攀爬前必查的三件事"
+      ],
+      "tags": ["belaying", "belay-device", "ATC", "PBUS", "rope-skills", "safety"]
+    },
+    {
+      "id": "s06-012",
+      "url": "https://www.vdiffclimbing.com/abseil/",
+      "title": "Abseiling (Rappelling) Explained",
+      "source": "VDiff Climbing",
+      "author": "VDiff",
+      "language": "en",
+      "publishDate": "2026-01-01",
+      "articleType": "tutorial",
+      "primaryKp": "kp-rappelling",
+      "secondaryKps": ["kp-knots", "kp-basic-rescue"],
+      "quality": {
+        "authority": 4,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 5,
+        "uniqueness": 3,
+        "total": 21
+      },
+      "summary": "VDiff 攀岩基础系列——绳降（Abseiling/Rappelling）完整教程，2026年最新更新。涵盖绳降与锚点连接方式（使用ATC/确保器）、绳降姿势（坐在绳圈中、身体L形、双脚分开）、绳端安全结（防止从绳末端滑脱——攀岩死亡最常见原因之一）、普鲁士备份系统，以及锚点检查标准（\"必须是可靠锚点，若失效你将死亡\"）。",
+      "keyInsights": [
+        "绳端必须打结（止坠结）：从绳末端滑脱是攀岩绳降最常见的死亡原因之一",
+        "锚点检查：绳降锚点是生死关口，必须仔细检查螺栓、绳套/绳圈状态，如有问题宁可更换",
+        "普鲁士备份：在确保器下方接普鲁士/自锁备份，手一旦松开可自动制动",
+        "绳降姿势：坐在安全带中、身体保持L形（脚宽肩距贴岩）、腿微弯减震",
+        "绳降控制：制动手（右手）控制速度，导向手（左手）不要阻止绳索流动",
+        "三分之一致命事故：三分之一的攀岩致命事故发生在绳降过程中，主因是疏忽大意"
+      ],
+      "tags": ["rappelling", "abseiling", "descending", "rope-skills", "stopper-knot", "prusik-backup"]
+    },
+    {
+      "id": "s06-013",
+      "url": "https://www.vdiffclimbing.com/belay-escape/",
+      "title": "The Belay Escape – Self Rescue for Rock Climbers",
+      "source": "VDiff Climbing",
+      "author": "VDiff",
+      "language": "en",
+      "publishDate": "2026-01-03",
+      "articleType": "tutorial",
+      "primaryKp": "kp-basic-rescue",
+      "secondaryKps": ["kp-belaying", "kp-rappelling"],
+      "quality": {
+        "authority": 4,
+        "depth": 4,
+        "practicality": 4,
+        "recency": 5,
+        "uniqueness": 4,
+        "total": 21
+      },
+      "summary": "攀岩自救系列核心技能——确保脱离技术（Belay Escape），适用于攀岩者失能需要确保者释放自身前往救援的情况。步骤：用普鲁士接管负载 → 将负载转移到锚点 → 释放确保系统 → 确保者自由移动以协助攀岩者（下降或上拉）。同时介绍基础 Z-滑轮（3:1）系统原理（每拉3英尺绳子，上升1英尺），以及将受困伙伴绕过锚点降至地面的方法。",
+      "keyInsights": [
+        "确保脱离是\"高级传统技能\"中最重要的自救技术，适用于伙伴失能的紧急情况",
+        "三步骤：普鲁士接管负载 → 转移到锚点（确保器不再受力）→ 释放确保者",
+        "Z-字滑轮（3:1 系统）：用三倍机械优势上拉受困攀岩者越过障碍或到达安全位置",
+        "Munter 结（Girth Hitch）：在没有确保器时可用 Munter 结执行降绳操作",
+        "最终目标：负载直接连接到锚点后，确保者才能自由行动实施救援",
+        "VDiff 2026年1月最新更新，是结构最清晰的自救技术教程之一"
+      ],
+      "tags": ["basic-rescue", "belay-escape", "self-rescue", "Z-pulley", "rope-skills", "emergency"]
+    },
+    {
+      "id": "s06-014",
+      "url": "https://jfireclimbing.com/2021/12/02/bouldering-101-how-to-place-crash-pads-and-not-break-your-legs/",
+      "title": "Bouldering 101: How to Place Crash Pads (and Not Break Your Legs)",
+      "source": "Jesse Firestone Climbing",
+      "author": "Jesse Firestone",
+      "language": "en",
+      "publishDate": "2021-12-02",
+      "articleType": "tutorial",
+      "primaryKp": "kp-crash-pad",
+      "secondaryKps": ["kp-spotter", "kp-landing-position"],
+      "quality": {
+        "authority": 3,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 4,
+        "uniqueness": 4,
+        "total": 20
+      },
+      "summary": "Jesse Firestone（攀岩教练）撰写的崩垫放置实战指南，超越\"放在岩石下面\"的常识，提供系统性决策框架。核心：根据攀岩者重心轨迹和坠落向量（而非站立点正下方）决定崩垫位置；优先保护动态动作和不确定区域；用3D俄罗斯方块思维填平不平地面；硬泡沫朝上应对双脚落地，软泡沫朝上应对臀部/背部落地；所有崩垫全部展开而非部分使用。",
+      "keyInsights": [
+        "核心原则：崩垫放置基于坠落轨迹（重心+向量），不是放在\"岩石正下方\"就完事",
+        "覆顶线路：崩垫应放在更偏离岩壁的位置，因为重心会向外抛出",
+        "拼垫技术：用错位拼接（而非对齐拼接）防止脚踝落入垫缝受伤",
+        "崩垫选择：硬泡沫朝上应对双脚踩落（吸收高冲击力），软泡沫朝上应对背/臀落地",
+        "测试落地：在容易区域先故意测试落地感觉，了解实际落点后再尝试难点",
+        "全展开原则：所有带来的崩垫都应展开使用，不要留在背包里当备用"
+      ],
+      "tags": ["crash-pad", "pad-placement", "bouldering-safety", "outdoor-bouldering", "fall-zone"]
+    },
+    {
+      "id": "s06-015",
+      "url": "https://rockclimbingrealms.com/safer-bouldering-master-spotting-crash-pads/",
+      "title": "Safer Bouldering: Master Spotting & Crash Pads",
+      "source": "Rock Climbing Realms",
+      "author": "Alfredo Ramses",
+      "language": "en",
+      "publishDate": "2025-05-26",
+      "articleType": "tutorial",
+      "primaryKp": "kp-spotter",
+      "secondaryKps": ["kp-crash-pad", "kp-landing-position"],
+      "quality": {
+        "authority": 3,
+        "depth": 3,
+        "practicality": 4,
+        "recency": 5,
+        "uniqueness": 3,
+        "total": 18
+      },
+      "summary": "2025年最新出品的抱石保护技术综合指南，分三模块：地形评估（落地区扫查）、崩垫放置策略（落地可能区域的覆盖）、保护员技术（运动姿态 + 主动引导攀岩者落向崩垫）。强调保护员的任务是\"把坠落中的攀岩者引导到崩垫上\"，而非接住攀岩者。涵盖室内和户外两种环境的差异。",
+      "keyInsights": [
+        "保护员核心职责：引导攀岩者落向崩垫，而非试图接住攀岩者（会双双受伤）",
+        "正确保护姿态：运动准备姿势——双膝微弯、双臂举起，可快速响应任何方向的坠落",
+        "落地引导方法：用一个稳定的动作推动攀岩者的重心朝向崩垫",
+        "地形评估：先扫描落地区（树根/岩石/坡度），再决定如何放崩垫和保护员站位",
+        "多人保护协调：多名保护员时必须事先明确沟通计划，避免相互碰撞",
+        "户外 vs 室内：户外地面不平整，保护员本人也需注意自身站立稳定性"
+      ],
+      "tags": ["spotter", "spotting-technique", "bouldering-safety", "crash-pad", "outdoor-bouldering"]
+    }
+  ]
+}

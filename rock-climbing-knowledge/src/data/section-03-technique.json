@@ -1,0 +1,797 @@
+{
+  "sectionId": "section-03",
+  "subSections": [
+    {
+      "id": "s03-footwork",
+      "number": "3.1",
+      "slug": "footwork",
+      "title": {
+        "zh": "脚法",
+        "en": "Footwork"
+      },
+      "overview": {
+        "zh": "脚法是攀岩技术的基石。优秀的脚法能让攀岩者将大部分体重交给双腿，减轻手臂负担，从而显著提升攀爬效率和续航能力。从精确的踩点到各种脚部勾挂技术，脚法的训练应贯穿攀岩生涯的始终。",
+        "en": "Footwork is the foundation of climbing technique. Excellent footwork transfers weight to the legs, reducing arm strain and dramatically improving efficiency and endurance. From precise edging to advanced hooking techniques, footwork training should be a lifelong pursuit."
+      },
+      "knowledgePoints": [
+        {
+          "id": "kp-edging",
+          "title": {
+            "zh": "边踩（Edging）",
+            "en": "Edging"
+          },
+          "content": {
+            "zh": "边踩是攀岩中最基本也最常用的脚法技术。它指的是用攀岩鞋的边缘（通常是大拇趾内侧的鞋边）精确地踩在岩点上，通过集中压力到一个小面积来获得最大的摩擦力和支撑。\n\n**内侧边踩（Inside Edge）：** 使用大拇趾侧的鞋边踩点，这是最强壮、最常用的踩点方式。脚尖微微内扣，将身体重量集中在大拇趾球的位置。内侧边踩适合大多数类型的脚点，尤其是在正面朝向岩壁时。\n\n**外侧边踩（Outside Edge）：** 使用小脚趾侧的鞋边踩点。虽然力量不如内侧边踩，但在需要侧身（back step）或做 drop knee 动作时极为重要。外侧边踩使攀岩者的髋部能更贴近岩壁，增加重心稳定性。\n\n**训练建议：** 初学者应首先培养「看脚」的习惯——每次放脚时都要目视脚点，确保精确放置。可以练习「静音踩点」（silent feet），即放脚时不发出任何声响，这能有效提升脚部精确度。在攀岩馆中，刻意选择小脚点的路线进行练习，逐步提高边踩的精度和信心。",
+            "en": "Edging is the most fundamental footwork technique, using the edge of the climbing shoe (typically the inside big-toe edge) to stand on holds, concentrating pressure on a small area for maximum friction.\n\n**Inside Edge:** Using the big-toe side, the strongest and most common stance. Toes turned slightly inward, weight centered on the ball of the big toe. Best for most hold types when facing the wall.\n\n**Outside Edge:** Using the pinky-toe side. Weaker but essential for back stepping and drop knees, allowing hips to stay closer to the wall.\n\nBeginners should develop the habit of watching their feet on every placement and practice silent feet (placing feet without sound) to build precision."
+          },
+          "terms": [
+            { "zh": "边踩", "en": "edging" },
+            { "zh": "内侧边踩", "en": "inside edge" },
+            { "zh": "外侧边踩", "en": "outside edge" },
+            { "zh": "静音踩点", "en": "silent feet" }
+          ],
+          "crossRefs": ["kp-climbing-shoes", "kp-slab-technique", "kp-drop-knee"],
+          "tags": ["beginner", "technique"]
+        },
+        {
+          "id": "kp-smearing",
+          "title": {
+            "zh": "摩擦踩（Smearing）",
+            "en": "Smearing"
+          },
+          "content": {
+            "zh": "摩擦踩是在没有明确脚点的情况下，用攀岩鞋底的摩擦力来获得支撑的技术。攀岩者将鞋底尽可能多的面积贴在岩壁表面上，依靠橡胶与岩石之间的摩擦力来承重。这是板岩（slab）攀岩中最核心的技术。\n\n**摩擦踩的关键要素：**\n- **最大接触面积：** 将脚掌平贴岩壁，用尽可能大的鞋底面积接触岩面。与边踩追求精确的一个点不同，摩擦踩追求的是面积。\n- **向下施压：** 将体重垂直向下压在脚上。膝盖微微弯曲并向前推，使脚跟低于脚尖，增加鞋底对岩壁的正压力。\n- **信任摩擦力：** 摩擦踩成功的关键往往在于心理层面——你必须信任脚下的摩擦力并大胆承重。犹豫不决反而更容易滑脚。\n\n**适用场景：** 摩擦踩在板岩攀登中无处不在，但在陡峭路线上也有用武之地。当脚点非常小或模糊时，摩擦踩比试图边踩在一个不明确的点上更有效。好的攀岩鞋底橡胶（如 Vibram XS Grip 2）能显著提升摩擦踩的效果。保持鞋底清洁也很重要，上路线前在裤腿或鞋底垫上擦拭鞋底可以去除灰尘和油脂。",
+            "en": "Smearing is the technique of using shoe rubber friction against the wall surface when no defined footholds exist. The climber presses as much sole area as possible onto the rock, relying on rubber-to-rock friction for support. This is the core technique for slab climbing.\n\n**Key elements:** Maximize contact area by pressing the foot flat against the rock. Push the knee forward with the heel slightly lower than the toes to increase normal force. Trust the friction and commit your weight confidently.\n\n**Applications:** Essential on slabs but useful on steep terrain when holds are vague. Quality rubber (like Vibram XS Grip 2) significantly improves smearing performance. Keep soles clean by wiping them before climbing."
+          },
+          "terms": [
+            { "zh": "摩擦踩", "en": "smearing" },
+            { "zh": "正压力", "en": "normal force" },
+            { "zh": "板岩", "en": "slab" },
+            { "zh": "鞋底橡胶", "en": "sole rubber" }
+          ],
+          "crossRefs": ["kp-slab-technique", "kp-climbing-shoes", "kp-edging"],
+          "tags": ["beginner", "technique"]
+        },
+        {
+          "id": "kp-toe-hook",
+          "title": {
+            "zh": "勾脚尖（Toe Hook）",
+            "en": "Toe Hook"
+          },
+          "content": {
+            "zh": "勾脚尖是用脚背（鞋面）勾住岩点的技术，与普通踩点时脚底朝下不同，勾脚尖时脚背朝上，利用脚趾和脚背的拉力来维持身体位置。这是一种在仰角（overhang）和屋檐（roof）攀岩中极为重要的技术。\n\n**技术要点：**\n- 用脚趾和脚背顶部勾住岩点的上方或后方\n- 腿部肌肉需要主动发力「拉」，将身体拉向脚的方向\n- 核心力量在勾脚尖中起关键作用，帮助维持身体张力\n- 勾脚尖可以有效地防止身体在仰角上「门打开」（barn door）——即身体因失去平衡而像门一样向一侧甩开\n\n**常见应用场景：**\n- 屋檐路线中勾住唇边（lip），帮助翻越屋檐\n- 在抱石难题中利用体积点（volume）的上方进行勾脚尖\n- 与另一只脚的脚跟勾配合形成「自行车」（bicycle）技术\n\n**训练建议：** 选择有明显仰角的攀岩路线进行练习，刻意寻找可以勾脚尖的机会。注意攀岩鞋的鞋面橡胶覆盖面积——好的竞技鞋通常在脚背区域有较大面积的橡胶覆盖，以增强勾脚尖的摩擦力。",
+            "en": "Toe hooking uses the top of the foot (shoe upper) to hook over a hold, pulling the body toward the foot. Unlike normal stepping where the sole faces down, the top of the foot faces up. This is critical for overhang and roof climbing.\n\n**Key points:** Hook the top or back of the hold with the toe area, actively pull with the leg, and engage core tension. Toe hooks effectively prevent barn-dooring (swinging out sideways due to imbalance).\n\n**Applications:** Hooking roof lips to aid transitions, using volumes in bouldering, and combining with heel hooks for bicycle technique.\n\nPractice on overhanging routes and look for toe hook opportunities. Competition shoes with more rubber coverage on the toe box perform better for this technique."
+          },
+          "terms": [
+            { "zh": "勾脚尖", "en": "toe hook" },
+            { "zh": "门打开效应", "en": "barn door" },
+            { "zh": "身体张力", "en": "body tension" },
+            { "zh": "体积点", "en": "volume" }
+          ],
+          "crossRefs": ["kp-heel-hook", "kp-overhang-technique", "kp-roof-technique", "kp-core-role"],
+          "tags": ["intermediate", "technique"]
+        },
+        {
+          "id": "kp-heel-hook",
+          "title": {
+            "zh": "勾脚跟（Heel Hook）",
+            "en": "Heel Hook"
+          },
+          "content": {
+            "zh": "勾脚跟是用脚后跟勾住岩点的技术，通过腿后侧肌群（腘绳肌和臀肌）的收缩来拉动身体。这是仰角攀岩和抱石中使用频率最高的高级脚法之一，能够极大地分担手臂的负荷。\n\n**技术要点：**\n- 将脚后跟放置在岩点上方或后方，脚跟的橡胶区域紧贴岩点\n- 主动用腘绳肌和臀肌发力「拉」，类似于做腿弯举的动作\n- 脚后跟的位置越高（相对于手），分担的体重越多\n- 保持核心紧绷，防止身体旋转\n\n**高勾脚跟（High Heel Hook）：** 将脚跟勾到与手点平齐甚至更高的位置，这需要良好的柔韧性，尤其是腘绳肌和髋部的柔韧性。高勾脚跟能让攀岩者在几乎不用手臂力量的情况下向上移动身体，是高效攀爬仰角的关键技术。\n\n**勾脚跟的常见错误：**\n- 只是将脚跟放在岩点上而不主动发力\n- 忽略核心参与，导致身体不稳定\n- 攀岩鞋脚跟橡胶贴合度不足，导致勾脚跟时打滑\n\n选择攀岩鞋时应注意脚跟区域的贴合度和橡胶覆盖——松弛的脚跟会严重影响勾脚跟的效果。",
+            "en": "Heel hooking uses the heel to hook onto holds, pulling the body via the hamstrings and glutes. This is one of the most frequently used advanced footwork techniques on overhangs, significantly offloading the arms.\n\n**Key points:** Place the heel's rubber area on top or behind the hold. Actively pull with hamstrings and glutes (like a leg curl). Higher heel hooks bear more weight. Maintain core tension to prevent rotation.\n\n**High Heel Hooks:** Hooking at hand-level or higher requires good hamstring and hip flexibility, enabling nearly arm-free upward movement on steep terrain.\n\n**Common mistakes:** Passively resting the heel without pulling, neglecting core engagement, and poor shoe heel fit causing slippage. Shoe selection should prioritize heel cup fit and rubber coverage."
+          },
+          "terms": [
+            { "zh": "勾脚跟", "en": "heel hook" },
+            { "zh": "高勾脚跟", "en": "high heel hook" },
+            { "zh": "腘绳肌", "en": "hamstrings" },
+            { "zh": "臀肌", "en": "glutes" }
+          ],
+          "crossRefs": ["kp-toe-hook", "kp-hip-flexibility", "kp-overhang-technique", "kp-climbing-shoes"],
+          "tags": ["intermediate", "technique"]
+        },
+        {
+          "id": "kp-bicycle",
+          "title": {
+            "zh": "自行车技术（Bicycle）",
+            "en": "Bicycle Technique"
+          },
+          "content": {
+            "zh": "自行车（Bicycle）技术是同时使用勾脚尖和勾脚跟来「夹住」一个岩点的高级脚法。一只脚的脚跟从上方勾住岩点，另一只脚的脚尖从下方勾住同一个岩点（或相邻岩点），两只脚形成对向夹力，像骑自行车踏板一样。\n\n**技术特点：**\n- 提供极其稳定的身体固定，尤其在仰角和屋檐地形中\n- 能够完全释放双手，让攀岩者在困难位置进行换手、调整粉笔甚至休息\n- 需要较强的核心力量和腿部力量来维持夹力\n- 是现代竞技攀岩和抱石中的高频技术\n\n**训练要点：** 要形成有效的自行车技术，核心力量是关键。可以在攀岩墙上找到适合的体积点或大岩点，练习用双脚夹住的同时松开双手保持平衡。逐渐增加停留时间和体位的复杂度。日常训练中增加腿弯举和核心训练也有助于提升自行车技术的效果。",
+            "en": "The bicycle technique uses a heel hook and toe hook simultaneously to clamp a hold between both feet. One heel hooks from above while the opposite toe hooks from below on the same hold (or adjacent holds), creating opposing clamping force.\n\n**Characteristics:** Provides extremely stable body positioning on overhangs and roofs. Can free both hands for adjustments or rest. Requires strong core and leg strength.\n\nThis is a high-frequency technique in modern competition climbing and bouldering. Train by finding volumes or large holds to practice clamping while releasing hands. Supplement with leg curls and core exercises."
+          },
+          "terms": [
+            { "zh": "自行车技术", "en": "bicycle" },
+            { "zh": "对向夹力", "en": "opposing clamp force" },
+            { "zh": "体积点", "en": "volume" }
+          ],
+          "crossRefs": ["kp-toe-hook", "kp-heel-hook", "kp-core-role", "kp-roof-technique"],
+          "tags": ["intermediate", "advanced", "technique"]
+        },
+        {
+          "id": "kp-foot-switching",
+          "title": {
+            "zh": "换脚技术",
+            "en": "Foot Switching"
+          },
+          "content": {
+            "zh": "换脚是在同一个脚点上切换左右脚的技术，是攀岩中频繁使用的基础操作。看似简单的换脚实际上有多种方法，选择正确的换脚技术能保持身体平衡、节省体力。\n\n**跳换（Hop Switch）：** 快速跳起将一只脚替换为另一只脚。动作需要快速且精确，适用于脚点较大的情况。这是初学者最直觉的换脚方式，但在小脚点上风险较高。\n\n**滑换（Slide Switch）：** 两只脚同时放在脚点上，一只脚从旁边滑入，将原来的脚挤出。需要脚点有足够的空间容纳短暂的双脚并存。动作流畅且稳定，是中级攀岩者常用的方式。\n\n**垫步换脚（Dab Switch / Smear Switch）：** 将要替换上去的脚先踩在脚点旁边的岩壁上（摩擦踩），然后抬起原来的脚，再将新脚移到脚点上。适合只有一个微小脚点的情况。\n\n**训练重点：** 在岩馆攀爬时有意识地练习不同的换脚技术。在简单路线上尝试不同方法，找到最节省力气的方式。保持身体重心的稳定是所有换脚技术的共同要求。",
+            "en": "Foot switching replaces one foot with the other on the same hold. Multiple techniques exist:\n\n**Hop Switch:** Quickly hop to replace one foot with the other. Intuitive but risky on small holds.\n\n**Slide Switch:** Both feet share the hold briefly as one slides in and pushes the other out. Smooth and stable for larger holds.\n\n**Dab/Smear Switch:** Temporarily smear the replacement foot beside the hold, lift the original foot, then place the new foot. Best for tiny footholds.\n\nPractice all methods on easy routes, focusing on maintaining center of gravity stability throughout the switch."
+          },
+          "terms": [
+            { "zh": "换脚", "en": "foot switch" },
+            { "zh": "跳换", "en": "hop switch" },
+            { "zh": "滑换", "en": "slide switch" },
+            { "zh": "垫步换脚", "en": "dab switch" }
+          ],
+          "crossRefs": ["kp-edging", "kp-smearing", "kp-route-reading-basics"],
+          "tags": ["beginner", "technique"]
+        },
+        {
+          "id": "kp-smedging",
+          "title": {
+            "zh": "蹬踩（Smedging）",
+            "en": "Smedging"
+          },
+          "content": {
+            "zh": "蹬踩（Smedging）是介于摩擦踩（smearing）和边踩（edging）之间的混合脚法技术。当脚点存在但不够清晰——表面圆润、边缘模糊或角度平缓时，纯粹的边踩无法获得足够的支撑，而纯粹的摩擦踩又浪费了可利用的微弱边缘。此时，蹬踩就是最佳选择。\n\n**技术要点：**\n- 将攀岩鞋的边缘区域对准脚点的大致边缘位置，但不像纯边踩那样追求精确的一条线，而是让鞋底在边缘附近形成一个较大的接触面积\n- 向下施加压力的同时略带向内「搓」的动作，结合了边踩的方向性和摩擦踩的面积优势\n- 膝盖微微向脚尖方向前推，增加正压力\n\n**蹬踩 vs 纯摩擦踩 vs 纯边踩：**\n- **纯边踩**适合边缘清晰、棱角分明的脚点\n- **纯摩擦踩**适合完全没有边缘的光滑岩面\n- **蹬踩**适合介于两者之间的模糊地形——低角度板岩上圆润的凸起、风化后变钝的边缘、花岗岩上的颗粒状纹理等\n\n**训练建议：** 蹬踩最常用于户外低角度板岩路线和花岗岩摩擦攀登。在岩馆中练习时，可以选择脚点较大且圆润的板岩路线，刻意尝试在脚点边缘区域使用蹬踩而非完全的摩擦踩。关键是培养对脚点微妙特征的感知能力——什么时候边缘足以边踩，什么时候需要过渡到蹬踩。保持鞋底清洁和良好的橡胶状态对蹬踩效果至关重要。",
+            "en": "Smedging is a hybrid footwork technique between smearing and edging. When footholds exist but lack definition -- rounded surfaces, vague edges, or low-angle features -- pure edging lacks purchase while pure smearing wastes usable features. Smedging bridges this gap.\n\n**Technique:** Place the shoe's edge zone near the hold's vague edge, but instead of targeting a precise line (as in edging), create a broader contact area. Press downward with a slight inward rubbing motion, combining edging's directionality with smearing's area advantage. Push the knee forward over the toe to increase normal force.\n\n**Smedging vs Smearing vs Edging:**\n- **Pure edging** for crisp, well-defined edges\n- **Pure smearing** for completely featureless surfaces\n- **Smedging** for everything in between: rounded bumps on low-angle slabs, weathered and dulled edges, granular granite textures\n\n**Training:** Smedging is most common on outdoor low-angle slabs and granite friction routes. Practice on rounded slab holds in the gym, deliberately using the edge zone rather than full smearing. The key is developing sensitivity to subtle foothold features -- recognizing when an edge supports edging versus when you need to transition to smedging. Clean soles and good rubber condition are critical for smedging performance."
+          },
+          "terms": [
+            { "zh": "蹬踩", "en": "smedging" },
+            { "zh": "混合脚法", "en": "hybrid footwork" },
+            { "zh": "模糊边缘", "en": "vague edge" }
+          ],
+          "crossRefs": ["kp-edging", "kp-smearing", "kp-slab-technique"],
+          "tags": ["beginner", "technique"]
+        }
+      ]
+    },
+    {
+      "id": "s03-handholds",
+      "number": "3.2",
+      "slug": "handholds",
+      "title": {
+        "zh": "手法与抓握",
+        "en": "Handholds & Gripping"
+      },
+      "overview": {
+        "zh": "攀岩中的手点（handhold）千变万化，每种形状和大小的手点都需要不同的抓握技术。掌握各种手法不仅能让攀岩者应对更多样的路线，也是预防手指伤病的关键。本节介绍攀岩中最常见的手点类型和对应的抓握方法。",
+        "en": "Handholds in climbing come in infinite varieties, each requiring different gripping techniques. Mastering various grip methods enables climbers to handle diverse routes and is key to preventing finger injuries. This section covers the most common hold types and their corresponding grip techniques."
+      },
+      "knowledgePoints": [
+        {
+          "id": "kp-jug-hold",
+          "title": {
+            "zh": "大把手点（Jug）",
+            "en": "Jug Holds"
+          },
+          "content": {
+            "zh": "大把手点（Jug）是最容易抓握的手点类型，有一个深而宽的凹槽，攀岩者可以将整个手掌甚至全部四指深入弯曲抓住。在攀岩馆中，Jug 通常用于简单路线和热身路线；在户外，大的自然岩坎和水平裂缝也可以形成 Jug。\n\n**使用要点：**\n- 虽然 Jug 看似不需要技巧，但好的习惯应从简单处培养\n- 抓握时不要过度用力——Jug 提供了足够的摩擦力，不需要你死命握紧\n- 在仰角路线上连续抓 Jug 时，注意利用每个 Jug 作为休息点，抖手恢复\n- Jug 是学习和练习脚法的最佳时机，因为手上的负担最小\n\n在难度路线中，Jug 通常出现在路线起步、关键休息位和顶部，是攀岩者恢复体力的机会点。路线阅读时识别 Jug 的位置有助于制定攀爬策略和休息计划。",
+            "en": "Jugs are the easiest hold type, featuring deep, wide recesses that accommodate the full hand. Common on beginner routes in gyms and as natural ledges or horizontal cracks outdoors.\n\n**Usage tips:** Even on jugs, develop good habits. Avoid over-gripping since jugs provide ample friction. On overhanging jug routes, use each jug as a rest point to shake out. Jugs are the best opportunity to practice footwork since hand burden is minimal.\n\nIn harder routes, jugs typically appear at starts, key rest positions, and tops. Identifying jug locations during route reading helps plan rest strategies."
+          },
+          "terms": [
+            { "zh": "大把手点", "en": "jug" },
+            { "zh": "岩坎", "en": "ledge" },
+            { "zh": "抖手", "en": "shake out" }
+          ],
+          "crossRefs": ["kp-route-reading-basics", "kp-rest-management", "kp-grip-types"],
+          "tags": ["beginner", "technique"]
+        },
+        {
+          "id": "kp-crimp-hold",
+          "title": {
+            "zh": "抠点与捏握（Crimp）",
+            "en": "Crimp Holds"
+          },
+          "content": {
+            "zh": "Crimp（抠点）是攀岩中最常见也最重要的手点类型之一，指较浅的边缘岩点（通常深度在6mm到20mm之间），需要手指弯曲成特定角度才能有效抓握。Crimp 也指抓握这种手点时手指弯曲的姿势。\n\n**全捏握（Full Crimp）：** 四指弯曲约90度放在岩点边缘上，拇指压在食指（甚至中指）指甲上方。这是力量最大的抓握方式，能在极小的边缘上产生巨大的抓握力，但对 A2 滑车韧带（pulley）施加极大的压力，是攀岩中最常见的手指受伤原因之一。\n\n**半捏握（Half Crimp）：** 手指弯曲角度与全捏握相同，但拇指不压在上方。相比全捏握减少了约20%的韧带负荷，同时仍保持较好的抓握力。这是日常攀爬和训练中推荐的默认抓握方式。\n\n**安全建议：** 初学者应尽量使用半捏握和张手握，避免全捏握。即使是有经验的攀岩者，也应在训练中限制全捏握的使用频率。如果感到手指关节疼痛，特别是 A2 韧带区域（无名指和中指的第一关节附近）的疼痛，应立即停止攀爬并就医。系统的挂板训练可以安全地增强抠点能力。",
+            "en": "Crimps are among the most common and important hold types: shallow edges (typically 6-20mm deep) requiring specific finger bending angles.\n\n**Full Crimp:** Fingers bent ~90 degrees with thumb locked over the index finger. Maximum strength but highest A2 pulley stress. The leading cause of finger injuries.\n\n**Half Crimp:** Same finger angle without thumb lock. Reduces tendon load by ~20% while maintaining good grip. The recommended default grip for training.\n\n**Safety:** Beginners should favor half crimp and open hand, avoiding full crimps. Stop immediately if you feel A2 pulley pain (near the first joint of ring/middle finger). Systematic hangboard training safely builds crimp strength."
+          },
+          "terms": [
+            { "zh": "抠点", "en": "crimp" },
+            { "zh": "全捏握", "en": "full crimp" },
+            { "zh": "半捏握", "en": "half crimp" },
+            { "zh": "A2 滑车韧带", "en": "A2 pulley" }
+          ],
+          "crossRefs": ["kp-grip-types", "kp-pulley-injury", "kp-hangboard-training"],
+          "tags": ["beginner", "technique", "safety"]
+        },
+        {
+          "id": "kp-sloper-hold",
+          "title": {
+            "zh": "圆点（Sloper）",
+            "en": "Sloper Holds"
+          },
+          "content": {
+            "zh": "圆点（Sloper）是表面圆润、没有明显边缘可供手指抠握的手点。攀岩者必须依靠手掌和手指与岩面之间的摩擦力来维持抓握。Sloper 对许多攀岩者来说是最具挑战性的手点类型，因为它违反了「抓紧」的直觉——越用力抓反而越容易脱手。\n\n**抓握技巧：**\n- 使用张手握（open hand），将尽可能多的皮肤面积贴在岩面上\n- 手腕微微下沉，使掌心更贴合圆润的表面\n- 手指自然分开以增加接触面积\n- 保持手的温度和干燥——使用粉笔（chalk）并避免过度出汗\n\n**身体配合：** 抓握 Sloper 时，身体位置比手法更加重要。重心应直接位于手点下方或略后方，使重力方向与摩擦力方向一致。如果身体向侧面偏移，手与岩面之间的摩擦力会急剧下降。良好的脚法和核心力量能帮助维持最佳的身体位置。\n\n**心理因素：** Sloper 攀爬有很强的心理成分。因为没有明确的「抓点」感，攀岩者容易感到不安全而过度紧张。学会信任摩擦力、保持放松是攀爬 Sloper 的关键心理素质。",
+            "en": "Slopers are rounded holds without defined edges, relying entirely on friction between skin and rock surface. Counterintuitively, gripping harder makes slopers more difficult.\n\n**Grip technique:** Use open hand position, maximize skin contact area, drop the wrist slightly to conform to the curved surface, and keep hands dry with chalk.\n\n**Body positioning:** Position is more critical than grip strength on slopers. Keep your center of gravity directly below or slightly behind the hold so gravity aligns with friction direction.\n\n**Mental aspect:** Slopers require trusting friction without the security of a defined grip edge. Learning to stay relaxed and confident is key."
+          },
+          "terms": [
+            { "zh": "圆点", "en": "sloper" },
+            { "zh": "张手握", "en": "open hand" },
+            { "zh": "镁粉/粉笔", "en": "chalk" },
+            { "zh": "接触面积", "en": "contact area" }
+          ],
+          "crossRefs": ["kp-grip-types", "kp-smearing", "kp-fear-management"],
+          "tags": ["intermediate", "technique"]
+        },
+        {
+          "id": "kp-pinch-hold",
+          "title": {
+            "zh": "捏点（Pinch）",
+            "en": "Pinch Holds"
+          },
+          "content": {
+            "zh": "捏点（Pinch）是需要拇指与其他手指对向夹持的手点。拇指在岩点的一侧，其他四指在另一侧，通过对向施力来维持抓握。捏点在户外自然岩壁上非常常见，在现代攀岩馆的路线设计中也越来越频繁。\n\n**捏点的变化类型：**\n- **宽捏（Wide Pinch）：** 岩点较宽，拇指与其他手指之间距离大。需要更大的拇指展开幅度和对握力。\n- **窄捏（Narrow Pinch）：** 岩点较窄，拇指与其他手指距离近。更接近于用整只手抓握的感觉。\n- **圆柱捏（Round Pinch）：** 类似抓握一个圆柱体，需要同时结合捏力和摩擦力。\n\n**训练建议：** 拇指力量是捏点能力的瓶颈。可以使用专门的捏力训练器（pinch block）或在挂板上进行捏握悬挂来增强拇指力量。一个简单的训练方法是用两个重量片夹在一起，用单手捏住提起并保持。在攀爬中刻意选择含有捏点的路线进行练习，注意拇指发力的方向应与其他手指的合力方向相对。\n\n捏点攀爬中，手臂的位置（是否伸直）对捏力的有效性影响很大。手臂弯曲时通常能产生更大的有效捏力，因为拉力辅助了对向夹持。",
+            "en": "Pinches require the thumb opposing other fingers to squeeze a hold from both sides. Common on natural rock and increasingly featured in gym route setting.\n\n**Variations:** Wide pinches (greater thumb spread), narrow pinches (closer grip), and round pinches (cylinder-like, combining squeeze and friction).\n\n**Training:** Thumb strength is the bottleneck. Use pinch blocks or hangboard pinch hangs. A simple exercise: pinch two weight plates together and hold. Bent arms generally produce more effective pinch force because pulling assists the opposing squeeze.\n\nIn climbing, deliberately choose pinch-heavy routes for practice, ensuring thumb force direction opposes the other fingers."
+          },
+          "terms": [
+            { "zh": "捏点", "en": "pinch" },
+            { "zh": "对握力", "en": "opposing grip force" },
+            { "zh": "宽捏", "en": "wide pinch" },
+            { "zh": "捏力训练器", "en": "pinch block" }
+          ],
+          "crossRefs": ["kp-grip-types", "kp-hangboard-training", "kp-hangboard-gear"],
+          "tags": ["intermediate", "technique", "strength"]
+        },
+        {
+          "id": "kp-pocket-hold",
+          "title": {
+            "zh": "指洞（Pocket）",
+            "en": "Pocket Holds"
+          },
+          "content": {
+            "zh": "指洞（Pocket）是岩壁上的洞状手点，只能容纳一到三根手指。按可容纳的手指数量分为单指洞（mono）、双指洞（two-finger pocket）和三指洞（three-finger pocket）。指洞在石灰�ite岩壁上最为常见，是某些攀岩区域（如法国 Ceuse、中国阳朔）路线的标志性特征。\n\n**使用技巧：**\n- 三指洞通常使用食指、中指和无名指，这是力量最均衡的组合\n- 双指洞优先使用中指和无名指，这两根手指的力量最大\n- 单指洞（mono）使用中指，必须极度小心，受伤风险极高\n- 手指应以张手握的方式进入指洞，避免全捏握姿势以减少受伤风险\n- 手指在洞内的深度影响抓握力——在保证安全的前提下尽可能深入\n\n**受伤预防：** 指洞攀岩是手指伤病的高风险场景。A2 和 A4 滑车韧带以及手指屈肌腱都承受巨大压力。动态出手抓指洞时的冲击力更是成倍增加。建议充分热身后再尝试指洞路线，遇到单指洞时更要审慎评估风险。",
+            "en": "Pockets are hole-shaped holds accommodating one to three fingers. Classified as monos (one finger), two-finger pockets, and three-finger pockets. Most common on limestone and characteristic of areas like Ceuse (France) and Yangshuo (China).\n\n**Technique:** Three-finger pockets use index, middle, and ring fingers. Two-finger pockets prefer middle and ring fingers (strongest pair). Monos use the middle finger with extreme caution. Enter pockets in open hand position, avoiding full crimps.\n\n**Injury prevention:** Pockets create high stress on A2/A4 pulleys and flexor tendons. Dynamic catches into pockets multiply impact forces. Warm up thoroughly before pocket routes and carefully assess risk on monos."
+          },
+          "terms": [
+            { "zh": "指洞", "en": "pocket" },
+            { "zh": "单指洞", "en": "mono" },
+            { "zh": "双指洞", "en": "two-finger pocket" },
+            { "zh": "屈肌腱", "en": "flexor tendon" }
+          ],
+          "crossRefs": ["kp-grip-types", "kp-pulley-injury", "kp-warmup"],
+          "tags": ["intermediate", "technique", "safety"]
+        },
+        {
+          "id": "kp-undercling-sidepull-gaston",
+          "title": {
+            "zh": "反抓、侧拉与加斯顿",
+            "en": "Undercling, Side Pull & Gaston"
+          },
+          "content": {
+            "zh": "这三种手法的共同特点是利用不同方向的拉力来抓握岩点，而不是常规的向下拉。理解和熟练运用这些方向性手法，是从初级攀岩者进阶到中级的重要标志。\n\n**反抓（Undercling）：** 手掌朝上，手指从岩点下方向上抓握，利用向上的拉力来维持抓握。反抓时身体重心需要低于手点，通常配合推蹬脚点来产生对向的力。反抓在攀爬过程中非常实用——许多在常规方向上无法使用的岩点，翻转抓握方向后就变成了有效的手点。\n\n**侧拉（Side Pull）：** 从侧面方向拉住岩点，手指朝向一侧。身体需要向拉力的反方向倾斜，通过身体重量和手部侧拉形成对向力来维持平衡。侧拉常用于遍历（traverse）和需要横向移动的路线段落。\n\n**加斯顿（Gaston）：** 一种特殊的侧拉方式，手指朝向身体外侧，肘部向外撑开，类似于用双手扒开电梯门的动作。加斯顿对肩部和肱二头肌的负荷较大，需要较好的肩部稳定性。这个名称来源于法国著名攀岩者 Gaston Rebuffat。\n\n这三种手法的关键共同点在于：它们都需要身体位置和脚法的配合才能发挥效果。仅靠手臂力量无法有效使用这些方向性手点。",
+            "en": "These three techniques use pulling forces in non-standard directions:\n\n**Undercling:** Palm faces up, fingers grip from below. Body must be below the hold, using foot pushes to create opposing force. Many holds become usable when the grip direction is inverted.\n\n**Side Pull:** Pulling a hold from the side with fingers pointing sideways. The body leans opposite to the pull direction for balance. Common in traverses.\n\n**Gaston:** A special side pull with fingers facing outward, elbows splayed, like prying open elevator doors. Named after Gaston Rebuffat. Demands shoulder stability and bicep strength.\n\nAll three require coordinated body positioning and footwork. Arm strength alone cannot effectively utilize directional holds."
+          },
+          "terms": [
+            { "zh": "反抓", "en": "undercling" },
+            { "zh": "侧拉", "en": "side pull" },
+            { "zh": "加斯顿", "en": "gaston" },
+            { "zh": "遍历", "en": "traverse" }
+          ],
+          "crossRefs": ["kp-grip-types", "kp-flagging", "kp-twist-lock", "kp-route-reading-basics"],
+          "tags": ["intermediate", "technique"]
+        },
+        {
+          "id": "kp-palming",
+          "title": {
+            "zh": "掌撑/摩擦抓法（Palming）",
+            "en": "Palming"
+          },
+          "content": {
+            "zh": "掌撑（Palming）是用整个手掌平面按压在岩壁表面上，通过手掌皮肤与岩面之间的摩擦力获得支撑的技术。与圆点（sloper）的抓握不同，掌撑时手指并不试图弯曲「抓住」任何东西，而是将手掌当作一个摩擦垫，利用纯粹的正压力和摩擦力来维持接触。\n\n**掌撑的主要应用场景：**\n- **体积点（Volume）上的掌撑：** 现代攀岩馆中的体积点表面光滑且面积大，是练习掌撑的理想场所。将整个手掌平贴在体积点的平面或弧面上，利用向下或向内的压力获得支撑。\n- **棱角（Arete）上的掌撑：** 在棱角攀爬中，一只手常需要用掌撑按住棱角的一面来维持平衡。手掌包裹棱角的表面，利用摩擦力防止身体旋转。\n- **翻越（Mantle）中的掌撑：** 翻越动作的关键阶段需要从「拉」转变为「推」，此时掌撑成为主要的支撑方式——手掌平压在岩坎顶面，手指朝向身体，通过三头肌力量向下推起身体。\n\n**技术要点：** 掌撑的效果高度依赖身体位置——重心应尽量保持在手掌正下方或正上方（取决于掌撑方向），使重力方向与摩擦力方向对齐。手掌保持干燥和清洁非常重要，使用粉笔但不要过多以免在光滑表面上降低摩擦力。在仰角地形上，掌撑的效果会大幅降低，因为重力方向不再有利于产生正压力。",
+            "en": "Palming uses the entire palm surface pressed flat against rock for friction-based support. Unlike sloper gripping where fingers try to curl around the hold, palming treats the palm as a friction pad, relying purely on normal force and friction.\n\n**Key applications:**\n- **Volumes:** Modern gym volumes with smooth, large surfaces are ideal for palming. Press the full palm against flat or curved surfaces for support.\n- **Aretes:** One hand often palms one face of the arete to maintain balance, wrapping the palm surface to prevent body rotation.\n- **Mantles:** The critical pull-to-push transition requires palming the ledge top with fingers pointing toward the body, pushing up through the triceps.\n\n**Technique:** Palming effectiveness depends heavily on body position -- keep center of gravity aligned so gravity works with friction direction. Keep palms dry and clean; use chalk moderately since excess chalk can reduce friction on smooth surfaces. On steep terrain, palming effectiveness drops significantly as gravity no longer aids normal force production."
+          },
+          "terms": [
+            { "zh": "掌撑", "en": "palming" },
+            { "zh": "摩擦抓法", "en": "friction grip" },
+            { "zh": "正压力", "en": "normal force" }
+          ],
+          "crossRefs": ["kp-sloper-hold", "kp-arete-mantle", "kp-slab-technique"],
+          "tags": ["intermediate", "technique"]
+        },
+        {
+          "id": "kp-hand-sequence",
+          "title": {
+            "zh": "手顺与换手技术（Hand Sequences）",
+            "en": "Hand Sequences"
+          },
+          "content": {
+            "zh": "手顺（Hand Sequence）是指攀岩过程中双手在手点之间移动的顺序和方式。选择正确的手顺能让动作流畅高效，而错误的手顺则可能导致身体别扭、浪费体力甚至无法完成动作。手顺的选择与路线阅读能力密切相关。\n\n**核心手顺技术：**\n- **同点（Match）：** 两只手同时放在同一个手点上。Match 是过渡性动作，用于在换手方向或需要调整抓握位置时建立临时的双手支撑。手点需要足够大才能容纳双手。\n- **跳点（Bump）：** 同一只手连续移动到下一个手点，跳过换手步骤。例如右手从 A 点直接移到 B 点，而不是先让左手 Match 到 A 点。Bump 节省了一步动作，在体力紧张时很有价值，但需要良好的平衡能力。\n- **交叉手（Cross Move）：** 一只手交叉越过另一只手去抓取对侧的手点。分为「上交叉」（crossing over，从上方越过）和「下交叉」（crossing under，从下方穿过）。交叉手能高效地完成横向移动，避免多次换手。\n- **交叉式（Crossover）：** 更大幅度的交叉动作，越过手大幅度到达远端手点。通常伴随明显的转体动作，在遍历路线中非常常见。\n- **换手（Hand Switch）：** 在同一个手点上将一只手替换为另一只手。技术上与换脚类似——可以通过快速交换或两手短暂共存的方式完成。\n\n**手顺选择的原则：** 路线阅读时应提前规划手顺。关键考量包括：下一步需要用哪只手出手？当前的手顺是否会导致后续动作「别手」（手臂交叉或身体受限）？是否可以通过 Bump 节省动作？交叉手是否比多次 Match 更高效？好的手顺规划能显著减少动作数量，降低体力消耗。",
+            "en": "Hand sequences are the order and method of moving hands between holds during climbing. Correct sequencing creates fluid, efficient movement, while poor sequencing causes awkward positions, wasted energy, or impossible moves.\n\n**Core techniques:**\n- **Match:** Both hands on the same hold simultaneously. A transitional move for switching hand direction or adjusting grip position. Requires a hold large enough for two hands.\n- **Bump:** Moving the same hand to the next hold without switching -- skipping the match step. Saves one move and is valuable when energy is limited, but requires good balance.\n- **Cross Move:** Reaching across the other hand to grab a hold on the opposite side. Can cross over (above) or cross under (below). Efficiently covers lateral movement without multiple hand switches.\n- **Crossover:** A larger-amplitude cross where the crossing hand reaches well past the other, typically involving body rotation. Common in traverses.\n- **Hand Switch:** Replacing one hand with the other on the same hold. Similar to foot switching -- accomplished through quick exchange or brief hand sharing.\n\n**Sequence planning:** Plan hand sequences during route reading. Key considerations: Which hand needs to reach next? Will current sequencing cause awkward positions later? Can a bump save a move? Is a cross more efficient than multiple matches? Good sequence planning significantly reduces total moves and energy expenditure."
+          },
+          "terms": [
+            { "zh": "同点", "en": "match" },
+            { "zh": "跳点", "en": "bump" },
+            { "zh": "交叉手", "en": "cross move" },
+            { "zh": "交叉式", "en": "crossover" },
+            { "zh": "换手", "en": "hand switch" }
+          ],
+          "crossRefs": ["kp-route-reading-basics", "kp-foot-switching"],
+          "tags": ["beginner", "technique"]
+        }
+      ]
+    },
+    {
+      "id": "s03-positioning",
+      "number": "3.3",
+      "slug": "body-positioning",
+      "title": {
+        "zh": "身体定位与重心",
+        "en": "Body Positioning"
+      },
+      "overview": {
+        "zh": "身体定位是连接手法和脚法的桥梁，是攀岩技术中最关键的维度之一。通过合理运用重心转移、旗帜步、落膝和扭锁等技术，攀岩者能以最小的体力消耗完成高难度动作。高效的身体定位能力是区分中级和高级攀岩者的核心因素。",
+        "en": "Body positioning bridges handholds and footwork, forming one of climbing's most critical technical dimensions. Through center of gravity management, flagging, drop knees, and twist locks, climbers achieve difficult moves with minimal energy. Efficient body positioning distinguishes intermediate from advanced climbers."
+      },
+      "knowledgePoints": [
+        {
+          "id": "kp-center-of-gravity",
+          "title": {
+            "zh": "重心管理",
+            "en": "Center of Gravity Management"
+          },
+          "content": {
+            "zh": "攀岩中的重心管理是所有身体定位技术的基础。重心（Center of Gravity, COG）的位置直接决定了手臂的负荷、身体的平衡性以及动作的效率。\n\n**基本原则：**\n- 在垂直或缓倾斜的岩壁上，重心应尽量靠近岩壁，这意味着臀部要贴近墙面。手臂伸直，让骨骼而非肌肉承受体重，可以大幅节省体力。\n- 在仰角岩壁上，重心会自然远离岩壁。此时需要通过脚法（勾脚跟、勾脚尖）和核心力量将重心拉回靠近岩壁的位置。\n- 出手抓下一个手点之前，先将重心转移到支撑脚的正上方。这就是所谓的「先移重心，再出手」原则。\n\n**重心转移的常见方式：**\n- 通过膝盖的弯曲和伸展来上下调节重心\n- 通过髋部的旋转来左右调节重心（侧身入墙）\n- 通过旗帜步（flagging）来平衡悬空侧的重量\n- 利用动量（swing）来临时改变重心位置\n\n初学者最常见的错误是手臂弯曲、臀部远离岩壁，导致前臂很快力竭。有意识地练习「伸直手臂、臀部贴墙」是提升攀爬续航力最有效的方法之一。",
+            "en": "Center of gravity (COG) management is the foundation of all body positioning techniques, directly determining arm load, balance, and movement efficiency.\n\n**Principles:** On vertical/slab terrain, keep hips close to the wall with straight arms, letting the skeleton bear weight. On overhangs, use hooks and core strength to pull COG closer. Before reaching for the next hold, shift COG over the supporting foot first.\n\n**Methods:** Adjust vertically through knee flexion/extension, laterally through hip rotation (turning sideways), and through flagging for balance.\n\nThe most common beginner error is climbing with bent arms and hips away from the wall, causing rapid forearm fatigue. Practicing straight arms and hips against the wall is one of the most effective efficiency improvements."
+          },
+          "terms": [
+            { "zh": "重心", "en": "center of gravity (COG)" },
+            { "zh": "伸直手臂", "en": "straight arms" },
+            { "zh": "骨骼承重", "en": "skeletal loading" },
+            { "zh": "侧身入墙", "en": "turning in" }
+          ],
+          "crossRefs": ["kp-flagging", "kp-drop-knee", "kp-slab-technique", "kp-aerobic-endurance"],
+          "tags": ["beginner", "technique"]
+        },
+        {
+          "id": "kp-flagging",
+          "title": {
+            "zh": "旗帜步（Flagging）",
+            "en": "Flagging"
+          },
+          "content": {
+            "zh": "旗帜步（Flagging）是用一条腿作为平衡杆来维持身体平衡的技术。当攀岩者只有一个有效脚点时，悬空的腿可以像旗帜一样伸展到身体侧面或后方，通过自身重量来抵消身体向一侧翻转的趋势。\n\n**内侧旗帜步（Inside Flag）：** 悬空脚从支撑脚的内侧穿过，伸向对侧方向。例如左脚踩点、右手出手时，右脚从左脚内侧伸向左侧作为平衡。内侧旗帜步的优势在于不需要额外的脚点，可以在任何位置使用。\n\n**外侧旗帜步（Outside Flag）：** 悬空脚向同侧方向伸展。例如左脚踩点、左手出手时，右脚向右侧伸出。外侧旗帜步通常用于抵消身体向外侧旋转（barn door）的趋势。\n\n**后方旗帜步（Backstep Flag）：** 悬空脚向支撑脚的后方伸展，通常配合转体动作使用。这种旗帜步常与扭锁（twist lock）技术结合。\n\n**训练建议：** 在攀岩馆中选择中等难度的路线，刻意练习在每次出手前都使用旗帜步来平衡身体。先在简单路线上熟悉三种旗帜步的感觉，然后逐渐在更难的路线上自如运用。好的旗帜步能让你感受到身体瞬间变得稳定、出手更加从容。",
+            "en": "Flagging uses a free leg as a counterbalance to maintain body equilibrium when only one foot has a hold.\n\n**Inside Flag:** The free foot crosses behind the standing foot to the opposite side, counterbalancing lateral rotation.\n\n**Outside Flag:** The free foot extends to the same side, preventing barn-dooring when reaching with the same-side hand.\n\n**Backstep Flag:** The free foot extends behind the standing foot, typically combined with twist locks.\n\nPractice by deliberately flagging before every reach on moderate routes. Good flagging creates a noticeable feeling of stability and controlled reaching."
+          },
+          "terms": [
+            { "zh": "旗帜步", "en": "flagging" },
+            { "zh": "内侧旗帜步", "en": "inside flag" },
+            { "zh": "外侧旗帜步", "en": "outside flag" },
+            { "zh": "平衡杆", "en": "counterbalance" }
+          ],
+          "crossRefs": ["kp-center-of-gravity", "kp-twist-lock", "kp-drop-knee"],
+          "tags": ["beginner", "intermediate", "technique"]
+        },
+        {
+          "id": "kp-drop-knee",
+          "title": {
+            "zh": "落膝（Drop Knee）",
+            "en": "Drop Knee"
+          },
+          "content": {
+            "zh": "落膝（Drop Knee）是将一侧膝盖向下旋转并内收的技术，使身体侧面朝向岩壁。这个动作让臀部能极大程度地贴近岩壁，显著延伸了出手距离（reach），同时减轻手臂负荷。落膝被认为是攀岩中最高效的身体定位技术之一。\n\n**技术要点：**\n- 一只脚使用外侧边踩（outside edge），膝盖向下旋转，指向地面\n- 另一只脚正常踩点（内侧边踩），承担大部分体重\n- 臀部自然转向落膝的方向，紧贴岩壁\n- 身体呈侧身姿态，对侧手臂可以最大限度地伸展\n\n**优势：**\n- 极大地增加出手距离——通过转体可以比正面朝墙多延伸15-20厘米\n- 臀部贴近岩壁，降低了手臂的负荷\n- 在仰角路线上效果尤为显著，能有效对抗重力\n- 可以作为休息姿势，在较好的脚点上做落膝可以让双臂轮流休息\n\n**注意事项：** 过度使用落膝或在不当角度使用可能对膝关节造成压力。保持膝盖旋转在舒适范围内，避免强迫膝盖超过自然活动范围。长期练习时应注意增强膝关节周围肌群的力量和柔韧性。",
+            "en": "The drop knee rotates one knee downward and inward, turning the body sideways to the wall. This brings the hips extremely close to the wall, extends reach significantly, and reduces arm load. It is considered one of climbing's most efficient positioning techniques.\n\n**Technique:** One foot uses outside edge with the knee rotated down toward the ground. The other foot edges normally, bearing most weight. Hips turn toward the drop-knee side.\n\n**Advantages:** Extends reach by 15-20cm compared to facing the wall. Reduces arm load by bringing hips close. Highly effective on overhangs and can serve as a rest position.\n\n**Caution:** Overuse or improper angles can stress the knee joint. Keep rotation within comfortable range and strengthen surrounding muscles."
+          },
+          "terms": [
+            { "zh": "落膝", "en": "drop knee" },
+            { "zh": "出手距离", "en": "reach" },
+            { "zh": "侧身姿态", "en": "sideways stance" }
+          ],
+          "crossRefs": ["kp-edging", "kp-flagging", "kp-overhang-technique", "kp-hip-flexibility"],
+          "tags": ["intermediate", "technique"]
+        },
+        {
+          "id": "kp-twist-lock",
+          "title": {
+            "zh": "扭锁（Twist Lock）",
+            "en": "Twist Lock"
+          },
+          "content": {
+            "zh": "扭锁（Twist Lock）是结合转体和锁定动作的高效攀爬技术。攀岩者先将身体扭转至侧身状态，利用身体旋转产生的力量将一侧手臂锁定在弯曲位置，然后用另一只手向上出手抓取下一个手点。\n\n**动作分解：**\n1. 两手各抓一个手点，双脚踩稳\n2. 将身体扭向出手方向的反侧——如果要用右手出手，就将身体左转，右肩朝向岩壁\n3. 在扭转的过程中，支撑手（左手）自然进入锁定状态，肘部弯曲，身体紧贴岩壁\n4. 右手从靠近岩壁的位置向上伸展，利用身体的近墙优势最大化出手距离\n5. 出手过程中保持核心紧绷，脚下持续发力\n\n**扭锁 vs 正面出手：** 正面朝墙出手时，手臂需要从伸直状态弯曲（做引体向上动作）来抬高身体，这消耗大量的上肢力量。而扭锁利用身体旋转和侧身姿态，让出手侧的手臂在靠近岩壁的位置自然伸展，大大减少了上肢力量的消耗。在长耐力路线上，频繁使用扭锁可以显著延缓前臂力竭。\n\n扭锁与落膝经常组合使用：做落膝时自然形成了扭锁的身体姿态，二者结合能产生最优的身体位置。",
+            "en": "The twist lock combines body rotation with arm locking. The climber twists sideways, using rotation to lock the support arm in a bent position, then reaches with the other hand from close to the wall.\n\n**Sequence:** Twist the body opposite to the reaching direction, naturally locking the support arm. Reach from close to the wall to maximize extension while maintaining core tension.\n\n**Twist Lock vs Frontal Reaching:** Frontal reaching requires a pull-up motion consuming significant arm strength. Twist locks use body rotation to position the reaching arm near the wall, greatly reducing upper body energy expenditure. On endurance routes, frequent twist locks significantly delay forearm fatigue.\n\nTwist locks and drop knees naturally combine: the drop knee creates the ideal twist lock body position."
+          },
+          "terms": [
+            { "zh": "扭锁", "en": "twist lock" },
+            { "zh": "锁定", "en": "lock-off" },
+            { "zh": "转体", "en": "body rotation" },
+            { "zh": "出手侧", "en": "reaching side" }
+          ],
+          "crossRefs": ["kp-drop-knee", "kp-pulling-power", "kp-aerobic-endurance", "kp-flagging"],
+          "tags": ["intermediate", "technique"]
+        },
+        {
+          "id": "kp-back-step",
+          "title": {
+            "zh": "背步（Back Step）",
+            "en": "Back Step"
+          },
+          "content": {
+            "zh": "背步（Back Step）是指攀岩者将一只脚用外侧边踩在岩点上，同时身体侧面朝向岩壁的技术。背步是落膝的基础形态——当背步进一步加深，膝盖向下旋转时就变成了落膝。背步可以看作是从正面朝墙到侧身攀爬的过渡姿态。\n\n**背步的应用场景：**\n- 当手点呈对角线分布时，背步能创造最佳的出手角度\n- 需要横向移动（traverse）时，交替使用背步能保持身体流畅移动\n- 在陡峭路线上，背步能让臀部更贴近岩壁，减少手臂负荷\n- 与侧拉（side pull）手点配合时效果最佳\n\n**背步与正面攀爬的选择：** 并非所有情况都适合背步。当手点和脚点都在身体正前方且间距较小时，正面攀爬可能更高效。背步更适合手点间距较大、需要延伸出手距离或脚点偏向一侧的情况。学会根据路线特征选择正面或侧身攀爬是中级攀岩者需要发展的判断能力。\n\n在实际攀爬中，背步经常与旗帜步、扭锁等技术结合使用，形成一套流畅的侧身攀爬动作序列。",
+            "en": "Back stepping places one foot using the outside edge with the body turned sideways to the wall. It is the foundational form of the drop knee -- when the back step deepens with the knee rotating downward, it becomes a drop knee.\n\n**Applications:** Best for diagonally spaced holds, traverses, steep terrain where hips need to stay close, and side pull holds.\n\n**Choosing back step vs frontal climbing:** Not always appropriate. Frontal climbing may be more efficient when holds are close and directly ahead. Back stepping excels when reach extension is needed or footholds are lateral.\n\nIn practice, back steps frequently combine with flagging and twist locks to create fluid sideways climbing sequences."
+          },
+          "terms": [
+            { "zh": "背步", "en": "back step" },
+            { "zh": "外侧边踩", "en": "outside edge" },
+            { "zh": "侧身攀爬", "en": "sideways climbing" }
+          ],
+          "crossRefs": ["kp-drop-knee", "kp-edging", "kp-twist-lock"],
+          "tags": ["beginner", "intermediate", "technique"]
+        },
+        {
+          "id": "kp-diagonal-support",
+          "title": {
+            "zh": "对角支撑（Diagonal Support / Opposition）",
+            "en": "Diagonal Support"
+          },
+          "content": {
+            "zh": "对角支撑是攀岩中最基本的力学原理之一：身体的稳定依赖于手和脚之间的对角线张力。当右手抓住手点时，左脚承担主要体重（反之亦然）。这种对角线的连接让身体在岩壁上形成稳定的 X 形支撑结构，是所有身体定位技术的底层逻辑。\n\n**内对角（Inside Diagonal）：** 右手抓点时左脚在身体正下方或略偏左踩点，形成的对角线穿过身体内侧。内对角是最自然、最直觉的支撑方式，适用于正面朝墙攀爬。大多数初学者不自觉地使用内对角。\n\n**外对角（Outside Diagonal）：** 右手抓点时左脚伸向身体右侧踩点（交叉方向），或者右脚踩在远离身体中线的外侧位置。外对角通常配合旗帜步使用，在需要侧身攀爬或防止barn door效应时特别有效。\n\n**如何判断使用哪种对角：** 观察手点和脚点的空间分布。如果手点和脚点呈对角分布（左上-右下或右上-左下），内对角通常最有效。如果手点和脚点在同一侧（右上-右下），则需要外对角或旗帜步来维持平衡。\n\n**训练建议：** 在简单路线上刻意感受对角支撑的存在。每次出手前问自己：「我的重量在哪只脚上？对角线是否形成？」这种有意识的练习能快速提升身体定位的直觉感知。",
+            "en": "Diagonal support is one of climbing's most fundamental mechanical principles: stability relies on diagonal tension between hands and feet. When the right hand grips, the left foot bears primary weight (and vice versa). This diagonal connection creates a stable X-shaped support structure on the wall and underlies all body positioning techniques.\n\n**Inside Diagonal:** Right hand gripping with left foot directly below or slightly left, forming a diagonal through the body's interior. The most natural support pattern, best for frontal climbing. Most beginners use inside diagonals instinctively.\n\n**Outside Diagonal:** Right hand gripping with left foot crossing to the right side, or the right foot placed far from the centerline. Usually combined with flagging, especially effective for sideways climbing or preventing barn-dooring.\n\n**Choosing which diagonal:** Observe the spatial distribution of holds. Diagonally distributed holds (upper left - lower right) suit inside diagonals. Same-side holds (upper right - lower right) require outside diagonals or flagging for balance.\n\n**Training:** On easy routes, consciously feel the diagonal support. Before every reach, ask: where is my weight, and is a diagonal formed? This deliberate practice rapidly improves body positioning intuition."
+          },
+          "terms": [
+            { "zh": "对角支撑", "en": "diagonal support" },
+            { "zh": "内对角", "en": "inside diagonal" },
+            { "zh": "外对角", "en": "outside diagonal" },
+            { "zh": "对立力", "en": "opposition" }
+          ],
+          "crossRefs": ["kp-center-of-gravity", "kp-flagging"],
+          "tags": ["beginner", "technique"]
+        },
+        {
+          "id": "kp-stemming",
+          "title": {
+            "zh": "外撑/桥接（Stemming）",
+            "en": "Stemming"
+          },
+          "content": {
+            "zh": "外撑（Stemming）是用双脚（有时也包括双手）向两个相对的岩面施加向外的推力，利用反向对抗力来维持身体位置的技术。最典型的外撑场景是在二面角（dihedral / corner）——两面岩壁形成的内角中攀爬，双脚分别踩在左右两面岩壁上，向外撑开。\n\n**技术要点：**\n- 双脚分别踩在两侧岩面上，使用摩擦踩或边踩，向外施加水平方向的推力\n- 身体重心保持在两脚之间的中心位置，身体略微后仰使重力辅助产生外撑力\n- 双手可以利用二面角内的裂缝、边缘或岩面来辅助平衡和上升\n- 外撑力越大，脚与岩面之间的摩擦力越大，因此即使没有明确脚点也能站稳\n\n**外撑作为休息技术：** 在二面角路线中，外撑是极为有效的休息姿势。当双脚撑稳后，大部分体重由双腿承担，可以轮流松开双手抖手恢复。许多经典的多段传统路线（如优胜美地的裂缝路线）都包含可以外撑休息的二面角段落。\n\n**开放式外撑：** 外撑不仅限于封闭的二面角。在开放的岩壁上，如果两侧有可利用的脚点或摩擦面，也可以通过双脚外撑来获得额外的稳定性。竞技攀岩中，体积点和宏观结构也常提供外撑的机会。\n\n**与其他技术的关系：** 外撑的核心力学——反向对抗力——与侧拉和加斯顿的原理相似。熟练掌握外撑有助于理解攀岩中所有基于对抗力的技术。",
+            "en": "Stemming presses both feet (sometimes hands too) outward against two opposing surfaces, using counter-force to maintain position. The classic stemming scenario is inside a dihedral (corner) where two walls meet, with each foot pushing against opposite walls.\n\n**Technique:** Feet press outward on opposing walls using smearing or edging. Center of gravity stays between both feet, body slightly leaned back to let gravity assist outward force. Hands use cracks, edges, or wall surfaces in the corner for balance and upward progress.\n\n**Stemming as rest technique:** In dihedral routes, stemming provides excellent rest positions. With feet firmly bridged, legs bear most weight and hands can shake out alternately. Many classic multi-pitch trad routes (like Yosemite crack climbs) include dihedral sections for stemming rests.\n\n**Open stemming:** Stemming is not limited to enclosed corners. On open walls with footholds or friction surfaces on both sides, bridging outward adds stability. Competition climbing features volumes and macro structures that offer stemming opportunities.\n\n**Relationship to other techniques:** Stemming's core mechanic -- opposing counter-force -- shares principles with side pulls and gastons. Mastering stemming helps understand all opposition-based climbing techniques."
+          },
+          "terms": [
+            { "zh": "外撑", "en": "stemming" },
+            { "zh": "桥接", "en": "bridging" },
+            { "zh": "二面角", "en": "dihedral" },
+            { "zh": "内角", "en": "corner" }
+          ],
+          "crossRefs": ["kp-center-of-gravity", "kp-slab-technique", "kp-crack-technique"],
+          "tags": ["intermediate", "technique"]
+        },
+        {
+          "id": "kp-layback",
+          "title": {
+            "zh": "侧拉/侧身（Layback / Lieback）",
+            "en": "Layback"
+          },
+          "content": {
+            "zh": "侧拉（Layback，也写作 Lieback）是攀岩中一种经典的力学对抗技术：双手从侧面拉住一条垂直或近垂直的边缘（如裂缝边缘或棱角），同时双脚踩在对面的岩壁上向相反方向推。身体向后倾斜远离抓握面，形成手拉脚推的对抗平衡。\n\n**侧拉的力学原理：** 手向一侧拉，脚向另一侧推，两种力形成水平方向的对抗。身体重量通过这种对抗力分配到手和脚上。脚踩的位置越高（越接近手的高度），身体越接近水平，手臂的负荷越小但对核心力量的要求越高。\n\n**侧拉在不同地形中的应用：**\n- **裂缝侧拉：** 最经典的应用场景。当裂缝边缘良好但内部宽度不适合手塞时，侧拉是高效的替代方案。双手交替沿裂缝边缘向上拉，双脚踩在裂缝对面的岩壁上。\n- **棱角侧拉：** 在棱角攀爬中，一只手抓住棱角边缘做侧拉，脚踩在棱角的另一面。这种方式常用于外倾棱角的攀爬。\n\n**体力管理：** 侧拉是一种消耗较大的技术，因为手臂需要持续发力维持水平拉力。长时间的侧拉段落会导致前臂快速泵胀。策略上应快速通过侧拉段落而非停留，在侧拉前充分休息。如果可能，在侧拉过程中寻找可以用手塞或其他抓握方式替代的机会，以短暂减轻手臂负荷。\n\n**过渡技巧：** 进入和退出侧拉姿势是关键的过渡时刻。进入时，先将脚踩稳再倾斜身体。退出时，寻找可以重新正面朝墙的手点或脚点，逐步将重心移回岩壁上方。",
+            "en": "A layback (lieback) is a classic opposition technique: hands pull sideways on a vertical edge (crack edge or arete) while feet push in the opposite direction against the opposing wall. The body leans away from the grip surface, creating a hand-pull / foot-push equilibrium.\n\n**Mechanics:** Horizontal opposition between pulling hands and pushing feet distributes body weight. Higher foot placement (closer to hand level) reduces arm load but demands more core strength.\n\n**Applications:**\n- **Crack layback:** The classic scenario. When a crack has good edges but poor jamming width, layback is an efficient alternative with hands pulling along the crack edge and feet pushing the opposite wall.\n- **Arete layback:** One hand pulls the arete edge while feet push the opposite face, common on overhanging aretes.\n\n**Energy management:** Laybacks are energy-intensive since arms must continuously generate horizontal pull force, causing rapid forearm pump. Move quickly through layback sections rather than lingering. Rest fully before entering a layback. Look for opportunities to transition to jams or other grips to briefly reduce arm load.\n\n**Transitions:** Entering and exiting layback position are critical moments. When entering, establish foot placement before leaning back. When exiting, find holds that allow returning to a frontal position, gradually shifting weight back over the wall."
+          },
+          "terms": [
+            { "zh": "侧拉", "en": "layback" },
+            { "zh": "侧身", "en": "lieback" },
+            { "zh": "对拉力", "en": "opposing pull" }
+          ],
+          "crossRefs": ["kp-crack-technique", "kp-arete-mantle", "kp-undercling-sidepull-gaston"],
+          "tags": ["intermediate", "technique"]
+        },
+        {
+          "id": "kp-high-step-mantle",
+          "title": {
+            "zh": "高跨步与翻越（High Step & Mantling）",
+            "en": "High Step & Mantling"
+          },
+          "content": {
+            "zh": "高跨步和翻越是两种需要良好柔韧性和力量协调的身体定位技术，在户外攀岩和抱石中极为常见。\n\n**高跨步（High Step）：** 将一只脚抬到臀部高度甚至更高的位置踩点，然后利用腿部力量站起来。高跨步的关键不仅在于柔韧性，更在于重心的转移——必须将身体重心完全移到高踩的那只脚正上方，才能利用腿部（而非手臂）的力量站起来。\n\n**高跨步的技术要点：**\n- 先将臀部向高踩脚的方向侧移，使重心对齐脚点\n- 身体前倾，胸部靠近高踩的膝盖\n- 用臀大肌和股四头肌发力站起，而非依赖手臂上拉\n- 支撑手保持伸直或微弯，主要提供平衡而非拉力\n- 髋部柔韧性是限制高跨步高度的主要因素\n\n**翻越（Mantling）：** 翻越是将身体从岩壁侧面推上到一个平台或岩顶的技术，本质是从「拉」变为「推」。在户外抱石的登顶（top-out）中几乎必定会用到翻越技术。\n\n**翻越的动作分解：**\n1. 双手抓住平台边缘，拉至胸口高度\n2. 一只手转为掌撑（palm down），手指朝向身体方向\n3. 通过三头肌力量向下推，将身体抬高至手臂伸直\n4. 腹部靠在平台边缘，一只脚翻上平台踩在手旁边\n5. 将重心转移到脚上，站起完成翻越\n\n**训练建议：** 高跨步能力可以通过髋部开展运动和瑜伽来提升。翻越可以在攀岩馆的低矮平台或户外大石头上反复练习。在安全的高度和良好的落地条件下练习翻越至关重要，因为翻越失败时的坠落姿势往往不太理想。",
+            "en": "High steps and mantles are body positioning techniques demanding flexibility and strength coordination, extremely common in outdoor climbing and bouldering.\n\n**High Step:** Raising one foot to hip level or higher, then standing up using leg power. The key is not just flexibility but weight transfer -- center of gravity must shift directly over the high foot to use legs rather than arms for upward drive.\n\n**High step technique:** Shift hips toward the high foot to align COG. Lean the torso forward, chest close to the raised knee. Drive up with glutes and quads, not arm pulling. Keep support arm straight for balance, not force. Hip flexibility is the primary limiting factor.\n\n**Mantling:** Pushing the body from the wall side up onto a ledge or boulder top, transitioning from pulling to pushing. Nearly always required for outdoor boulder top-outs.\n\n**Mantle breakdown:** Pull up to chest level, rotate one hand to a palm-down press (fingers toward body), push through triceps to straighten the arm, lean the abdomen on the ledge edge, step a foot up beside the hand, transfer weight to the foot and stand.\n\n**Training:** Improve high step range through hip openers and yoga. Practice mantles on low gym platforms or outdoor boulders. Safe height and good landing conditions are critical since mantle falls can produce awkward body positions."
+          },
+          "terms": [
+            { "zh": "高跨步", "en": "high step" },
+            { "zh": "翻越", "en": "mantle" },
+            { "zh": "下压", "en": "press" },
+            { "zh": "登顶", "en": "top-out" }
+          ],
+          "crossRefs": ["kp-hip-flexibility", "kp-center-of-gravity"],
+          "tags": ["intermediate", "technique"]
+        }
+      ]
+    },
+    {
+      "id": "s03-dynamic",
+      "number": "3.4",
+      "slug": "dynamic",
+      "title": {
+        "zh": "动态技术",
+        "en": "Dynamic Movement"
+      },
+      "overview": {
+        "zh": "动态技术是指利用身体动量来完成无法以静态方式到达的动作。从精确的死点（deadpoint）到爆发性的飞跃（dyno），动态技术为攀岩增添了速度、力量和兴奋感。掌握动态技术不仅需要爆发力和协调性，还需要精确的时机把握和良好的空间感知能力。",
+        "en": "Dynamic techniques use body momentum to reach holds that cannot be achieved statically. From precise deadpoints to explosive dynos, dynamic movement adds speed, power, and excitement. Mastering dynamics requires not only explosive power and coordination but also precise timing and spatial awareness."
+      },
+      "knowledgePoints": [
+        {
+          "id": "kp-dyno-technique",
+          "title": {
+            "zh": "飞跃（Dyno）",
+            "en": "Dyno"
+          },
+          "content": {
+            "zh": "飞跃（Dyno）是攀岩中最壮观的动态技术，指攀岩者完全离开岩壁（双手双脚都脱离接触），通过跳跃动作抓住目标手点。Dyno 在竞技抱石和室内攀岩中非常常见，也出现在户外路线中。\n\n**Dyno 的技术分解：**\n1. **准备阶段：** 双手抓稳起跳点，双脚踩在最佳的起跳位置。膝盖弯曲，身体下沉，像弹簧一样蓄力。确认目标手点的位置，注视目标。\n2. **起跳：** 以手臂拉力和腿部蹬力协调发力，同时向目标方向跳出。手臂先拉后推（类似于起身引体向上的动作），双脚大力蹬踏产生向上的动量。\n3. **飞行与抓握：** 在身体到达最高点（动量为零）时，手刚好到达目标手点。抓握的瞬间需要精确——太早或太晚都会导致抓不住或冲击力过大。\n4. **吸收：** 抓住目标后，手臂微微弯曲吸收剩余动量，脚快速找到新的脚点稳住身体。\n\n**常见的 Dyno 类型：**\n- **单手 Dyno：** 一只手保留在原来的手点，另一只手跳跃抓取，最常见的形式\n- **双手 Dyno：** 双手同时释放跳跃，难度更大\n- **Coordination Dyno：** 两只手需要按特定顺序分别抓取两个不同目标\n\n**训练建议：** 在岩馆中先从短距离的双手 Dyno 开始练习，逐步增加距离。注意充分热身，因为 Dyno 对手指和肩部的冲击力很大。Campus board 训练能有效提升 Dyno 所需的爆发力。",
+            "en": "A dyno is climbing's most spectacular dynamic technique: the climber completely leaves the wall (all points of contact released) and jumps to catch a target hold.\n\n**Technique breakdown:** Prepare by sinking low on bent knees. Explode upward coordinating arm pull and leg drive. Catch at the apex when momentum reaches zero. Absorb with slightly bent arms and quickly find footholds.\n\n**Types:** Single-hand dyno (one hand stays), double dyno (both hands release), and coordination dyno (hands grab two targets sequentially).\n\nStart with short double dynos in the gym, warming up thoroughly since dynos create high impact on fingers and shoulders. Campus board training effectively builds dyno power."
+          },
+          "terms": [
+            { "zh": "飞跃", "en": "dyno" },
+            { "zh": "起跳点", "en": "launch hold" },
+            { "zh": "动量", "en": "momentum" },
+            { "zh": "协调飞跃", "en": "coordination dyno" }
+          ],
+          "crossRefs": ["kp-deadpoint", "kp-dynamic-power", "kp-campus-training", "kp-campus-board-gear"],
+          "tags": ["intermediate", "advanced", "technique"]
+        },
+        {
+          "id": "kp-deadpoint",
+          "title": {
+            "zh": "死点（Deadpoint）",
+            "en": "Deadpoint"
+          },
+          "content": {
+            "zh": "死点（Deadpoint）是一种精确控制的动态出手技术。攀岩者利用身体向上的动量，在身体到达最高点、速度为零的瞬间（死点）伸手抓取目标手点。与 Dyno 不同，死点过程中至少保持一只手和一只脚（通常是更多）与岩壁的接触。\n\n**死点的关键——时机（Timing）：**\n- 发力时先通过脚推和手拉产生向上的动量\n- 在身体上升到最高点的瞬间出手——此时身体「悬浮」在空中，没有向下的加速度，手上的抓握负荷最小\n- 如果出手太早，手还在移动中还没到达目标\n- 如果出手太晚，身体已经开始下落，需要更大的抓握力才能稳住\n\n**死点 vs 静态出手：** 很多看似需要强大锁定力量才能完成的动作，用死点反而更省力。因为死点利用了短暂的失重瞬间，手上几乎不承受体重。学会判断何时使用死点、何时使用静态出手，是攀岩效率提升的关键。\n\n**练习方法：** 在熟悉的路线上刻意练习死点。先从距离较近的手点开始，体会「发力-上升-出手-抓住」的节奏。用节拍器或自己数拍子来培养时机感。逐步增加距离和难度。",
+            "en": "A deadpoint is a precisely controlled dynamic reach. The climber generates upward momentum, then catches the target hold at the apex when velocity momentarily equals zero. Unlike dynos, at least one hand and foot maintain contact.\n\n**Key -- Timing:** Generate momentum through foot push and hand pull. Reach at the exact apex when the body is momentarily weightless and grip load is minimal. Too early or too late results in failure.\n\n**Deadpoint vs Static:** Many moves requiring heavy lock-off strength are actually easier with a deadpoint, exploiting the brief weightless moment. Knowing when to use each approach is key to climbing efficiency.\n\nPractice on familiar routes starting with short distances, developing the rhythm of push-rise-reach-catch."
+          },
+          "terms": [
+            { "zh": "死点", "en": "deadpoint" },
+            { "zh": "失重瞬间", "en": "weightless moment" },
+            { "zh": "时机", "en": "timing" },
+            { "zh": "静态出手", "en": "static reach" }
+          ],
+          "crossRefs": ["kp-dyno-technique", "kp-pulling-power", "kp-route-reading-basics"],
+          "tags": ["intermediate", "technique"]
+        },
+        {
+          "id": "kp-coordination-timing",
+          "title": {
+            "zh": "协调动作与节奏",
+            "en": "Coordination Moves & Timing"
+          },
+          "content": {
+            "zh": "协调动作（Coordination Move）是指需要多个肢体按特定时序配合完成的动态动作序列。它不是单一的跳跃或出手，而是一连串流畅连接的动态动作。在现代竞技攀岩和高难度抱石中，协调动作越来越常见。\n\n**协调动作的特征：**\n- 双手需要在短时间内按特定顺序依次抓取不同的目标手点\n- 身体在运动过程中不断调整方向和发力角度\n- 整个动作序列的流畅性至关重要——任何一个环节的停顿都可能导致失败\n- 对空间感知和本体感觉（proprioception）的要求极高\n\n**节奏的重要性：** 动态攀爬中，节奏感比纯粹的力量更重要。好的节奏能让攀岩者在正确的时机发力、在正确的时机放松，像跳舞一样流畅地完成动作。观察高水平攀岩者的视频可以帮助培养对攀爬节奏的感知。\n\n**训练方法：** 反复练习同一个协调动作是最有效的方法。每次尝试后分析失败的环节，微调时机和力量分配。在 Moon Board 或 Kilter Board 等标准化训练板上练习包含协调动作的经典难题也很有帮助。",
+            "en": "Coordination moves are dynamic sequences requiring multiple limbs to work in precise timing. Not a single jump, but a fluid chain of dynamic actions common in competition climbing and hard bouldering.\n\n**Characteristics:** Hands grab different targets in rapid succession, the body continuously adjusts direction and force angles, and flow is critical -- any hesitation causes failure.\n\n**Rhythm:** In dynamic climbing, rhythm matters more than raw power. Good rhythm means generating force and relaxing at the right moments, moving like a dancer.\n\nTrain by repeating coordination sequences, analyzing failure points each attempt. Standardized training boards (Moon Board, Kilter Board) with classic coordination problems are excellent practice tools."
+          },
+          "terms": [
+            { "zh": "协调动作", "en": "coordination move" },
+            { "zh": "节奏", "en": "rhythm / timing" },
+            { "zh": "本体感觉", "en": "proprioception" },
+            { "zh": "标准化训练板", "en": "standardized training board" }
+          ],
+          "crossRefs": ["kp-dyno-technique", "kp-deadpoint", "kp-dynamic-power", "kp-flow-state"],
+          "tags": ["advanced", "technique"]
+        },
+        {
+          "id": "kp-lunge-types",
+          "title": {
+            "zh": "蹦跳类型详解（Lunge Types）",
+            "en": "Lunge Types"
+          },
+          "content": {
+            "zh": "蹦跳（Lunge）是攀岩中介于静态出手和飞跃（Dyno）之间的动态技术。与 Dyno 不同的是，蹦跳过程中至少有一只手保持与岩壁的接触。蹦跳根据幅度和方式可以细分为多种类型，理解它们的区别有助于选择最合适的动态策略。\n\n**蹦跳的主要类型：**\n- **标准蹦跳（Lunge）：** 一种有控制的动态出手，身体通过腿部蹬推和核心发力产生向上或向侧方的动量，出手的瞬间至少一只手维持在原来的手点上。这是最常见的动态出手形式。\n- **小蹦跳（Short Lunge）：** 幅度极小的动态出手，仅比纯静态出手多一点点动量。常用于当手点距离刚好超出静态可达范围时——只需要额外几厘米的距离。小蹦跳的风险最低，控制性最强。\n- **单手蹦跳（One-hand Lunge）：** 从一只手的支撑发力跳出，另一只手去抓取目标手点。支撑手在蹦跳过程中始终维持接触。这种蹦跳需要良好的单臂锁定能力和精确的方向控制。\n\n**蹦跳与飞跃的区别：** 核心区别在于是否保持接触。蹦跳始终有至少一个接触点，这意味着失败时更容易恢复——可以回到原来的位置重新尝试。飞跃则完全脱离岩壁，失败即坠落。因此，在能用蹦跳解决的情况下，通常优先选择蹦跳而非飞跃。\n\n**训练建议：** 练习蹦跳时，从最短距离开始逐步增加。重点训练发力的时机和方向控制——蹦跳的精确性比飞跃更重要。在熟悉的路线上尝试将某些静态动作改为小蹦跳，体会利用动量的感觉。",
+            "en": "A lunge is a dynamic technique between a static reach and a full dyno. Unlike dynos, at least one hand maintains wall contact during a lunge. Understanding lunge subtypes helps select the right dynamic strategy.\n\n**Types:**\n- **Standard Lunge:** A controlled dynamic reach generating momentum through leg drive and core engagement, with at least one hand staying on its hold. The most common dynamic reach.\n- **Short Lunge:** A minimal dynamic reach barely exceeding static range -- just a few extra centimeters of momentum. Lowest risk and highest control.\n- **One-hand Lunge:** Launching from one hand's support while the other reaches for the target. The support hand maintains contact throughout. Requires good single-arm lock-off and precise directional control.\n\n**Lunge vs Dyno:** The key difference is maintaining contact. Lunges always have at least one contact point, making recovery from failure possible. Dynos release all contact, meaning failure equals a fall. When a lunge can solve a move, it is generally preferred over a dyno.\n\n**Training:** Start with the shortest distances and increase gradually. Focus on timing and directional precision -- lunge accuracy matters more than in dynos. On familiar routes, try converting static reaches to short lunges to develop a feel for using momentum."
+          },
+          "terms": [
+            { "zh": "蹦跳", "en": "lunge" },
+            { "zh": "小蹦跳", "en": "short lunge" },
+            { "zh": "单手蹦跳", "en": "one-hand lunge" }
+          ],
+          "crossRefs": ["kp-dyno-technique", "kp-deadpoint", "kp-coordination-timing"],
+          "tags": ["intermediate", "technique"]
+        },
+        {
+          "id": "kp-swing-momentum",
+          "title": {
+            "zh": "重力助推与摆荡技术（Swing-by & Momentum）",
+            "en": "Swing-by & Momentum"
+          },
+          "content": {
+            "zh": "摆荡技术是利用身体的摆动或旋转产生的动量来到达远处手点的高级动态技术。与蹦跳和飞跃不同，摆荡技术的力量来源不是肌肉的爆发性收缩，而是重力和惯性。\n\n**重力助推（Swing-by）：** 利用重力和钟摆效应产生水平或弧线方向的动量。攀岩者先让身体向一侧摆荡（类似钟摆），然后在摆荡到达最远点之前出手抓取目标手点。这种技术在大幅度横向移动时特别有效——当目标手点在远处的侧面，而用蹦跳无法产生足够的水平动量时，swing-by 是更好的选择。\n\n**零式（Cypher）：** 一种独特的动态旋转技术。攀岩者以单脚为轴心，身体绕该脚点旋转，利用向心力将伸展的手臂甩向远处的目标手点。动作类似于花样滑冰中的旋转。零式需要精确的重心控制和时机把握，常出现在竞技抱石中的创意性动作序列中。\n\n**控制摆荡的关键：**\n- 摆荡的幅度取决于初始推力的大小和身体的「钟摆长度」（从支撑点到重心的距离）\n- 摆荡过程中核心力量至关重要——它决定了身体在摆荡结束时能否精确地停在目标位置\n- 抓住目标后，剩余的摆荡动量需要被吸收——通过弯曲手臂和核心收紧来减速\n\n**应用场景：** 摆荡技术在竞技攀岩中越来越普遍，因为路线设计者（定线员）越来越喜欢设置需要利用动量的创意性动作。在户外攀岩中，traversing 路线中的长距离横移也可能需要摆荡技术。",
+            "en": "Swing techniques use the body's pendulum motion or rotation to generate momentum toward distant holds. Unlike lunges and dynos, the force comes from gravity and inertia rather than explosive muscle contraction.\n\n**Swing-by:** Using gravity and pendulum effect to generate horizontal or arc-trajectory momentum. The climber swings to one side, then catches the target hold before the swing reaches its furthest point. Especially effective for large lateral movements when lunges cannot generate sufficient horizontal momentum.\n\n**Cypher:** A unique dynamic rotation technique. The climber pivots around a single foothold, rotating the body and using centripetal force to swing an outstretched arm toward a distant target. Similar to a figure skating spin. Requires precise center of gravity control and timing, common in creative competition bouldering sequences.\n\n**Controlling the swing:** Amplitude depends on initial push force and pendulum length (support point to COG distance). Core strength is critical for stopping precisely at the target position. After catching the target, remaining momentum must be absorbed through arm bending and core bracing.\n\n**Applications:** Swing techniques are increasingly common in competition climbing as route setters design creative momentum-dependent movements. In outdoor climbing, long traverses may also require swing techniques."
+          },
+          "terms": [
+            { "zh": "重力助推", "en": "swing-by" },
+            { "zh": "零式", "en": "cypher" },
+            { "zh": "摆荡", "en": "pendulum" },
+            { "zh": "动量", "en": "momentum" }
+          ],
+          "crossRefs": ["kp-dyno-technique", "kp-coordination-timing"],
+          "tags": ["advanced", "technique", "competition"]
+        },
+        {
+          "id": "kp-campus-moves",
+          "title": {
+            "zh": "指力跳与无脚动态（Campus Moves）",
+            "en": "Campus Moves"
+          },
+          "content": {
+            "zh": "指力跳（Campus Move）是双脚脱离岩壁，仅靠双手（甚至单手）完成动态移动的高级技术。这是攀岩中对手指力量、上肢爆发力和核心力量要求最高的技术类型。名称来源于校园板（Campus Board）——由德国攀岩者 Wolfgang Güllich 发明的训练器械。\n\n**指力跳（Campus Lunge）：** 双脚悬空或主动脱离岩壁，仅用手在手点之间向上跳跃。一只手保持在当前手点上（或两手同时抓同一个手点），另一只手向上跳抓下一个手点。这是校园板训练中最基本的动作模式。\n\n**竞技攀岩中的无脚动态：** 在现代竞技抱石和先锋攀岩中，脚脱离岩壁（feet cutting）经常是动作设计的一部分。有些动作的设计本身就要求脚在空中——比如从一个远距离的手点摆荡到另一个手点，中间没有可用的脚点。在这些情况下，能否在无脚状态下完成动态移动直接决定了能否完成路线。\n\n**力量基础与受伤风险：**\n- 指力跳对手指屈肌腱和滑车韧带施加极大的冲击力，尤其是在抓住目标手点的瞬间\n- 肩部旋转肌群也承受很大压力，容易导致肩袖损伤\n- **强烈建议至少有2-3年攀岩经验后再开始校园板训练**，手指和肌腱需要足够的适应时间\n- 每次校园板训练前必须充分热身，训练后需要充足的恢复时间\n\n**训练进阶：** 从最大的横档开始，先练习基本的双手交替向上移动（laddering）。逐步过渡到跳跃式移动（skipping rungs）。单手悬挂和引体向上是校园板训练的力量前提。训练频率不应超过每周两次，每次训练的组数和强度应严格控制。",
+            "en": "Campus moves are dynamic movements performed with only the hands -- feet completely off the wall. This is the most demanding technique type for finger strength, upper body power, and core strength. Named after the Campus Board invented by Wolfgang Güllich.\n\n**Campus Lunge:** With feet hanging or deliberately cut from the wall, jumping hand-to-hand upward. One hand stays on the current hold while the other jumps to the next. This is the fundamental campus board movement pattern.\n\n**Competition context:** In modern competition bouldering and lead climbing, feet cutting is often part of the intended movement design -- some sequences have no available footholds between distant hand positions. The ability to move dynamically without feet directly determines route completion.\n\n**Strength foundation and injury risk:**\n- Campus moves create extreme impact forces on finger flexor tendons and pulleys, especially at the moment of catching the target hold\n- Shoulder rotator cuff muscles are also heavily stressed\n- **Strongly recommended to have 2-3 years of climbing experience before starting campus board training** to allow tendons adequate adaptation time\n- Thorough warm-up before every session is mandatory, with sufficient recovery time afterward\n\n**Training progression:** Start on the largest rungs with basic alternating laddering. Progress to skipping rungs. Single-arm hangs and pull-ups are strength prerequisites. Training frequency should not exceed twice per week with strictly controlled volume and intensity."
+          },
+          "terms": [
+            { "zh": "指力跳", "en": "campus lunge" },
+            { "zh": "无脚动态", "en": "feet-off dynamic" },
+            { "zh": "校园板", "en": "campus board" }
+          ],
+          "crossRefs": ["kp-dyno-technique", "kp-hangboard-training", "kp-upper-body-exercises"],
+          "tags": ["advanced", "technique", "training"]
+        }
+      ]
+    },
+    {
+      "id": "s03-terrain",
+      "number": "3.5",
+      "slug": "terrain",
+      "title": {
+        "zh": "特殊地形技术",
+        "en": "Terrain-Specific Techniques"
+      },
+      "overview": {
+        "zh": "不同的岩壁地形需要不同的攀爬策略和技术侧重。从缓斜的板岩到倒悬的屋檐，从垂直裂缝到凸起的棱角，每种地形都有其独特的攀爬方法。了解和练习不同地形的专项技术，能让攀岩者在面对多变的户外岩壁时更加从容。",
+        "en": "Different rock terrain demands different climbing strategies and technical emphasis. From gentle slabs to overhanging roofs, vertical cracks to protruding aretes, each terrain type has unique climbing methods. Practicing terrain-specific techniques prepares climbers for diverse outdoor rock."
+      },
+      "knowledgePoints": [
+        {
+          "id": "kp-slab-technique",
+          "title": {
+            "zh": "板岩技术（Slab）",
+            "en": "Slab Technique"
+          },
+          "content": {
+            "zh": "板岩（Slab）是角度小于垂直面的岩壁，通常在70-90度之间。板岩攀爬的核心在于脚法和平衡，而非手臂力量。在板岩上，手的作用更多是维持平衡而非承重，脚才是真正的主角。\n\n**板岩核心技术：**\n- **摩擦踩为主：** 板岩上的脚点常常不明显甚至不存在，大量使用摩擦踩。保持鞋底清洁、信任橡胶摩擦力是成功的关键。\n- **重心前移：** 身体重心需要位于脚的正上方甚至略前方。新手在板岩上常犯的错误是身体后仰（因为害怕），这反而减少了脚底的正压力，增加了滑脚的风险。\n- **微小体重转移：** 板岩上的动作幅度通常很小，通过细微的体重转移来切换支撑脚。动作越轻柔、越缓慢，越容易保持平衡。\n- **踩点精度：** 在板岩上，每一次踩点的位置差异几毫米就可能决定成败。用目光锁定脚点，精确放置，放置后不要移动。\n\n**心理因素：** 板岩攀爬有很强的心理挑战。因为手上无力可抓，坠落时通常会沿岩面滑下，可能造成擦伤。这使得板岩攀爬比仰角攀爬更令某些攀岩者恐惧。建立对脚法的信心和对板岩特有的平衡感是长期的过程。",
+            "en": "Slabs are walls angled less than vertical (typically 70-90 degrees). The core of slab climbing is footwork and balance rather than arm strength -- hands are primarily for balance, feet are the protagonists.\n\n**Core techniques:** Heavy reliance on smearing with clean soles. Keep center of gravity directly above or slightly ahead of feet (leaning back reduces friction and increases slip risk). Use micro-weight transfers for foot switches. Every millimeter of foot placement matters.\n\n**Mental challenge:** Slabs are psychologically demanding because there is little to grip and falls involve sliding along the rock face. Building trust in footwork and developing slab-specific balance sense is a long-term process."
+          },
+          "terms": [
+            { "zh": "板岩", "en": "slab" },
+            { "zh": "重心前移", "en": "forward weight shift" },
+            { "zh": "微小体重转移", "en": "micro-weight transfer" }
+          ],
+          "crossRefs": ["kp-smearing", "kp-edging", "kp-fear-management", "kp-climbing-shoes"],
+          "tags": ["beginner", "intermediate", "technique"]
+        },
+        {
+          "id": "kp-overhang-technique",
+          "title": {
+            "zh": "仰角技术（Overhang）",
+            "en": "Overhang Technique"
+          },
+          "content": {
+            "zh": "仰角（Overhang）是角度大于垂直面的岩壁，通常在95-130度之间。仰角攀爬对手臂力量、核心力量和脚法都有很高的要求，是最能体现综合攀岩能力的地形类型。\n\n**仰角攀爬的关键策略：**\n- **保持脚在墙上：** 仰角上最大的挑战是脚容易从岩壁上脱落（cut feet），一旦脚脱落，全部体重瞬间转移到手臂上。积极使用勾脚尖、勾脚跟和高踩（high step）来保持脚与岩壁的接触。\n- **利用落膝和扭锁：** 这些身体定位技术在仰角上的价值尤为突出。通过侧身攀爬减少手臂的负荷，是在仰角上节省体力的核心策略。\n- **快速出手：** 在仰角上，每一秒的悬挂都在消耗手臂力量。识别路线中的难点段落后，以果断、快速的节奏通过，不要在中间犹豫。\n- **利用身体张力（body tension）：** 核心力量将上半身和下半身连接为一个整体，防止脚部「甩」开。在仰角上，核心力量的重要性可能超过手臂力量。\n\n**休息策略：** 在仰角路线上寻找可以做膝盖钩（knee bar）或大把手点的位置进行休息。学会在「不完美」的休息点也能放松恢复，是仰角攀爬耐力的关键。",
+            "en": "Overhangs are walls steeper than vertical (typically 95-130 degrees), demanding strong arms, core, and footwork.\n\n**Key strategies:** Keep feet on the wall using toe hooks, heel hooks, and high steps to prevent cutting feet (total arm loading). Use drop knees and twist locks for efficient sideways climbing. Move quickly through crux sections without hesitation. Maintain body tension through core engagement to connect upper and lower body.\n\n**Rest strategy:** Identify knee bars and jug positions for resting. Learning to recover even at imperfect rest points is essential for overhang endurance."
+          },
+          "terms": [
+            { "zh": "仰角", "en": "overhang" },
+            { "zh": "脚脱落", "en": "cut feet" },
+            { "zh": "身体张力", "en": "body tension" },
+            { "zh": "膝盖钩", "en": "knee bar" }
+          ],
+          "crossRefs": ["kp-toe-hook", "kp-heel-hook", "kp-drop-knee", "kp-core-role", "kp-aerobic-endurance"],
+          "tags": ["intermediate", "technique"]
+        },
+        {
+          "id": "kp-roof-technique",
+          "title": {
+            "zh": "屋檐技术（Roof）",
+            "en": "Roof Technique"
+          },
+          "content": {
+            "zh": "屋檐（Roof）是角度接近水平（130度以上甚至完全水平）的岩壁地形。屋檐攀爬是所有地形中对身体素质要求最高的，需要极强的手指力量、核心力量和脚部勾挂技术。\n\n**屋檐攀爬的核心要素：**\n- **脚部勾挂是生命线：** 在屋檐上，如果没有有效的脚部勾挂（勾脚跟或勾脚尖），全部体重都由手臂承担。积极寻找可以勾挂的岩点，利用自行车技术（bicycle）创造稳定的身体位置。\n- **核心全程参与：** 核心力量在屋檐攀爬中达到极致需求。从保持身体张力防止下半身下垂，到辅助脚部勾挂的发力，核心无时无刻不在工作。\n- **翻唇（Lip Turn）技术：** 从屋檐过渡到垂直或板岩面（翻越屋檐唇边）是最关键的技术难点。通常需要在唇边找到一个好的勾脚跟位置，然后利用脚跟的拉力将身体翻上去。\n- **路线解读：** 屋檐路线的手点和脚点往往不在直觉的位置上。很多手点需要反抓（undercling），很多脚点在身体上方而非下方。仔细观察和分析路线是成功的前提。\n\n屋檐攀爬虽然对身体要求极高，但因为坠落时远离岩壁，反而是所有地形中最安全的——这也是为什么竞技攀岩经常设置屋檐地形。",
+            "en": "Roofs are near-horizontal or fully horizontal terrain (130+ degrees), demanding the highest physical requirements of any terrain type.\n\n**Core elements:** Foot hooks are essential -- without them, arms bear all weight. Use heel hooks, toe hooks, and bicycle techniques. Core engagement is maximal throughout. The lip turn (transitioning from roof to vertical face) is the critical technical challenge, typically requiring a strong heel hook on the lip edge.\n\n**Route reading:** Holds on roofs are often in non-intuitive positions. Many handholds require underclings, and footholds may be above rather than below.\n\nDespite extreme physical demands, roof falls are actually the safest terrain type since the climber falls away from the wall -- which is why competition routes frequently feature roof sections."
+          },
+          "terms": [
+            { "zh": "屋檐", "en": "roof" },
+            { "zh": "翻唇", "en": "lip turn / topping out" },
+            { "zh": "唇边", "en": "lip" }
+          ],
+          "crossRefs": ["kp-toe-hook", "kp-heel-hook", "kp-bicycle", "kp-core-role"],
+          "tags": ["advanced", "technique"]
+        },
+        {
+          "id": "kp-crack-technique",
+          "title": {
+            "zh": "裂缝技术（Crack）",
+            "en": "Crack Climbing Technique"
+          },
+          "content": {
+            "zh": "裂缝攀岩（Crack Climbing）是传统攀岩的核心技术，指利用岩壁上的裂缝作为手点和脚点进行攀登。裂缝攀岩的技术体系与面攀完全不同，需要将身体的各个部位「塞入」裂缝中卡住来获得支撑。裂缝宽度从仅能容纳指尖到可以容纳整个人体，每种宽度都有对应的专门技术。\n\n**一、裂缝宽度分级与对应技术：**\n\n裂缝按宽度从窄到宽依次为：薄指缝 → 指缝 → 薄手缝 → 手缝 → 拳缝 → 宽缝 → 烟囱。每种宽度使用不同的塞入技术（jam），选择正确的 jam 类型是裂缝攀岩的核心能力。\n\n**二、指锁类型（Finger Jam）：**\n- **薄指锁（Thin Finger Lock）：** 仅能插入一到两根手指的极窄裂缝。将手指插入后旋转使指关节卡在裂缝收窄处，利用骨骼结构形成锁定。痛感强烈，对皮肤磨损大。\n- **指叠（Finger Stacking）：** 当裂缝宽度介于单指和双指之间时，将一根手指叠在另一根上方来填充空间。中指叠在食指上是最常见的组合。\n- **指缝要点：** 拇指朝上（thumbs-up）或拇指朝下（thumbs-down）取决于裂缝方向和身体位置。拇指朝下通常能提供更稳固的锁定，但在某些位置拇指朝上更自然。\n\n**三、手塞类型（Hand Jam）：**\n- **标准手塞（Hand Jam）：** 将手掌插入裂缝，拇指收拢贴向掌心，手掌形成拱形膨胀卡紧裂缝壁。「完美的手缝」（splitter）提供如同大把手点般的安全感，是最令人享受的裂缝宽度。\n- **薄手塞（Thin Hand）：** 裂缝略窄于标准手缝，手掌需要尽量收紧才能插入。可以将拇指叠在掌心增加宽度，或使用「杯状」手型来填充空间。\n- **环锁（Ring Lock）：** 介于指缝和手缝之间的尴尬宽度。手指插入过深但手掌又塞不进去。将手指弯曲成环状，利用指节的膨胀来卡住。\n- **臂锁（Arm Lock）：** 当裂缝宽度超过拳头但不够容纳肩膀时，将整个前臂插入裂缝，弯曲肘部使前臂和上臂形成楔形卡紧。\n- **Leavittation/叠塞：** 以传奇攀岩者 Randy Leavitt 命名的技术，在宽裂缝中将拳头叠在手掌上方来填充空间，适用于宽度介于拳缝和宽缝之间的裂缝。\n\n**四、拳塞（Fist Jam）：** 握拳插入裂缝，利用拳头与裂缝壁之间的摩擦力和膨胀力支撑。拳头可以竖握（vertical fist）或横握（horizontal fist），取决于裂缝方向。拳塞的安全感不如手塞，需要更大的信心。\n\n**五、脚塞类型（Foot Jam）：**\n- **标准脚塞（Foot Jam）：** 将脚侧插入裂缝，然后旋转使脚掌卡紧裂缝壁。脚尖朝上旋转是最常见的方式。穿着攀岩鞋能提供更精确的脚塞。\n- **T型叠脚（T-stack）：** 在较宽的裂缝中，将一只脚横放在裂缝中，另一只脚的脚尖顶住第一只脚形成T字形，创造更大的卡入面积。\n- **背脚法（Back-and-foot）：** 在宽缝和烟囱中，背部靠一面墙，脚踩对面的墙，通过前后对抗力来支撑身体上移。\n\n**六、宽缝与烟囱（Off-width & Chimney）：** 宽缝是裂缝攀岩中最具挑战性的宽度——太宽无法有效拳塞，太窄无法侧身进入。需要使用「鸡翅膀」（chicken wing，肘部弯曲塞入裂缝）、膝盖塞（knee jam）和各种身体堆叠技术。烟囱是可以容纳整个人体的宽裂缝，使用背脚法和外撑技术（stemming）在两壁之间上升。\n\n**七、手部保护与贴布（Taping）：** 裂缝攀岩对手背皮肤磨损极大，尤其是手缝和宽缝。使用运动贴布（athletic tape）缠绕手背制作「胶带手套」（tape glove）是标准做法。贴布方法：从手腕开始，覆盖手背，绕过指间固定。专用裂缝手套（crack gloves）如 Outdoor Research Splitter Crack Gloves 也越来越流行。\n\n**装备需求：** 传统攀裂缝需要携带机械塞（cam）和岩塞（nut）进行保护点放置。不同宽度的裂缝需要对应尺寸的保护装备。裂缝技术需要长期专项练习，初学者应从标准手缝开始——这是最容易获得安全感的裂缝宽度。",
+            "en": "Crack climbing uses rock fissures as holds by jamming body parts into the crack. The technique system is entirely different from face climbing. Crack widths range from fingertip-thin to full-body chimneys, each with specialized techniques.\n\n**I. Crack Width Progression:** Thin finger → finger → thin hand → hand → fist → off-width → chimney. Each width uses different jam types; selecting the correct jam is the core skill.\n\n**II. Finger Jam Types:**\n- **Thin Finger Lock:** Only one or two fingers fit. Insert and rotate to cam the knuckle against a constriction. Painful with high skin abrasion.\n- **Finger Stacking:** When width falls between single and double fingers, stack one finger atop another to fill the space. Middle over index is most common.\n- **Key consideration:** Thumbs-up or thumbs-down orientation depends on crack direction and body position. Thumbs-down typically provides more secure locks.\n\n**III. Hand Jam Types:**\n- **Standard Hand Jam:** Insert the palm, tuck the thumb across the palm, and expand the hand into an arch shape to wedge against crack walls. A perfect splitter hand crack feels as secure as a jug.\n- **Thin Hand:** Slightly narrow for a standard jam. Tuck thumb deep across the palm or use a cupped hand shape to fill the gap.\n- **Ring Lock:** Awkward width between finger and hand cracks. Curl fingers into a ring shape, using knuckle expansion to wedge.\n- **Arm Lock:** When too wide for fists but too narrow for shoulders, insert the forearm and bend the elbow to create a wedge shape.\n- **Leavittation/Stacking:** Named after Randy Leavitt. Stack a fist on top of a cupped hand to fill width between fist and off-width cracks.\n\n**IV. Fist Jam:** Insert a clenched fist, relying on friction and expansion. Vertical or horizontal fist depending on crack orientation. Less secure-feeling than hand jams, requiring more confidence.\n\n**V. Foot Jam Types:**\n- **Standard Foot Jam:** Insert foot sideways, rotate to cam against crack walls. Toe-up rotation is most common.\n- **T-stack:** In wider cracks, place one foot horizontally with the other foot's toe bracing it in a T-shape for larger wedging area.\n- **Back-and-foot:** In off-widths and chimneys, back against one wall, feet against the opposite, using opposition to move upward.\n\n**VI. Off-width & Chimney:** Off-widths are the most challenging width -- too wide for fist jams, too narrow for full-body entry. Use chicken wing (bent elbow jammed in), knee jams, and body stacking. Chimneys accommodate the full body, using back-and-foot and stemming between walls.\n\n**VII. Taping:** Crack climbing causes severe hand abrasion, especially on hand and off-width cracks. Athletic tape gloves are standard: wrap from wrist across the back of the hand, securing between fingers. Dedicated crack gloves (e.g., Outdoor Research Splitter Crack Gloves) are increasingly popular.\n\n**Gear:** Trad crack climbing requires cams and nuts for protection placement, sized to match crack width. Crack technique demands dedicated practice; beginners should start with hand-width cracks for the most natural security feeling."
+          },
+          "terms": [
+            { "zh": "裂缝攀岩", "en": "crack climbing" },
+            { "zh": "手塞", "en": "hand jam" },
+            { "zh": "拳塞", "en": "fist jam" },
+            { "zh": "指锁", "en": "finger lock" },
+            { "zh": "薄手塞", "en": "thin hand jam" },
+            { "zh": "环锁", "en": "ring lock" },
+            { "zh": "臂锁", "en": "arm lock" },
+            { "zh": "脚塞", "en": "foot jam" },
+            { "zh": "指叠", "en": "finger stacking" },
+            { "zh": "宽缝", "en": "off-width" },
+            { "zh": "烟囱", "en": "chimney" },
+            { "zh": "胶带手套", "en": "tape glove" }
+          ],
+          "crossRefs": ["kp-climbing-categories", "kp-fall-technique", "kp-harness", "kp-layback", "kp-stemming"],
+          "tags": ["intermediate", "advanced", "technique"]
+        },
+        {
+          "id": "kp-arete-mantle",
+          "title": {
+            "zh": "棱角与翻越技术",
+            "en": "Arete & Mantle Techniques"
+          },
+          "content": {
+            "zh": "棱角（Arete）和翻越（Mantle）是两种特殊地形的攀爬技术，虽然不如板岩或仰角常见，但在户外攀岩中经常遇到。\n\n**棱角攀爬（Arete）：** 棱角是两面岩壁交汇形成的外凸边缘线。攀爬棱角时，攀岩者通常横跨在棱角两侧，一只手抓棱角的一面，另一只手抓另一面，双脚也分布在两侧。棱角攀爬的关键在于身体平衡的管理——需要在两侧之间找到精确的平衡点。侧拉和反抓在棱角攀爬中非常常用。有些棱角可以直接用手「捏」住棱角本身，类似于一个巨大的捏点。\n\n**翻越技术（Mantle）：** 翻越是从岩壁顶部翻上平台的技术，类似于从游泳池边翻上岸的动作。技术分解如下：\n1. 双手撑在平台边缘（岩坎），手掌向下压\n2. 通过推力将身体抬高，直到手臂伸直（lock out）\n3. 一只脚翻上平台边缘，踩在手的旁边\n4. 站起身来完成翻越\n\n翻越的难度在于从「拉」转换到「推」的过渡阶段——攀岩者需要在一个非常不稳定的位置完成手的旋转（从抓握变为下压）。肩部灵活性和推力是翻越的关键身体素质。",
+            "en": "Aretes and mantles are special terrain techniques frequently encountered outdoors.\n\n**Arete:** The protruding edge where two rock faces meet. Climbers straddle both sides, using side pulls, underclings, and sometimes pinching the arete itself. Body balance between both sides is the key challenge.\n\n**Mantle:** Topping out onto a ledge, similar to climbing out of a swimming pool. Transition from pulling to pressing, rotating hands from gripping to pushing down. Then step a foot up beside your hands and stand up.\n\nThe mantle's difficulty lies in the pull-to-push transition at an unstable position. Shoulder mobility and pressing strength are essential."
+          },
+          "terms": [
+            { "zh": "棱角", "en": "arete" },
+            { "zh": "翻越", "en": "mantle / mantelshelf" },
+            { "zh": "推力", "en": "pressing power" },
+            { "zh": "手掌下压", "en": "palming / press" }
+          ],
+          "crossRefs": ["kp-pinch-hold", "kp-undercling-sidepull-gaston", "kp-slab-technique"],
+          "tags": ["intermediate", "technique"]
+        }
+      ]
+    },
+    {
+      "id": "s03-reading",
+      "number": "3.6",
+      "slug": "route-reading",
+      "title": {
+        "zh": "路线阅读",
+        "en": "Route Reading"
+      },
+      "overview": {
+        "zh": "路线阅读是在攀爬之前或攀爬过程中分析路线、制定攀爬计划的能力。优秀的路线阅读能力可以让攀岩者在出发前就对路线有清晰的理解，减少不必要的试错，节省体力。路线阅读能力的培养需要大量的攀爬经验和有意识的刻意练习。",
+        "en": "Route reading is the ability to analyze routes and formulate climbing plans before or during a climb. Strong route reading reduces trial and error, saves energy, and enables clearer understanding before leaving the ground. Developing this skill requires extensive climbing experience and deliberate practice."
+      },
+      "knowledgePoints": [
+        {
+          "id": "kp-route-reading-basics",
+          "title": {
+            "zh": "路线阅读基础",
+            "en": "Route Reading Fundamentals"
+          },
+          "content": {
+            "zh": "路线阅读（Route Reading）是攀岩者最重要的认知技能之一。好的路线阅读能力意味着你能在地面上就「预攀」一遍路线，大大提高首次尝试成功的概率。\n\n**地面阅读（Ground-Level Reading）：**\n1. **整体扫描：** 先从远处观察整条路线的走向和大致轮廓，确认起点和终点\n2. **识别关键特征：** 找出路线上最大和最小的手点，识别明显的休息位和可能的难点段\n3. **从上到下分析：** 从路线顶部开始向下分析，因为最后的动作往往对体力影响最大\n4. **规划手脚序列：** 尝试在脑中「攀爬」每一步，想象用哪只手抓哪个点，哪只脚踩哪个位置\n5. **标记核心难点（Crux）：** 找出路线中最困难的段落，提前思考解决方案\n\n**攀爬中的阅读：**\n- 在每个休息点重新评估上方的路线\n- 如果预设的动作方案不可行，及时调整（beta adjustment）\n- 注意从不同角度看到的手脚点可能与地面观察时不同\n- 保持对身体状态（体力储备、手臂泵感程度）的感知\n\n路线阅读能力的培养没有捷径，需要大量的攀爬经验积累。但可以通过以下方式加速：观察比你水平高的攀岩者攀爬同一条路线、在攀爬前与他人讨论路线、攀爬后回顾哪些判断是正确的哪些需要修正。",
+            "en": "Route reading is one of climbing's most important cognitive skills. Good route reading means mentally climbing the route from the ground.\n\n**Ground-Level Reading:** Scan the overall line from a distance. Identify the biggest and smallest holds, rest positions, and potential crux sections. Analyze from top to bottom since final moves impact fatigue most. Plan hand-foot sequences mentally. Mark the crux.\n\n**On-Route Reading:** Reassess at every rest point. Adjust beta if planned sequences don't work. Note that holds may look different from above than from the ground. Monitor your physical state.\n\nAccelerate development by watching stronger climbers on the same route, discussing routes before climbing, and reviewing decisions afterward."
+          },
+          "terms": [
+            { "zh": "路线阅读", "en": "route reading" },
+            { "zh": "核心难点", "en": "crux" },
+            { "zh": "休息位", "en": "rest position" },
+            { "zh": "方案调整", "en": "beta adjustment" }
+          ],
+          "crossRefs": ["kp-rest-management", "kp-projecting-strategy", "kp-grading-systems"],
+          "tags": ["beginner", "intermediate", "technique"]
+        },
+        {
+          "id": "kp-onsight-flash-redpoint",
+          "title": {
+            "zh": "Onsight、Flash 与 Redpoint 策略",
+            "en": "Onsight, Flash & Redpoint Strategies"
+          },
+          "content": {
+            "zh": "攀岩者完攀一条路线的方式（攀爬风格）有严格的定义，不同的风格对路线阅读和策略提出了不同的要求。\n\n**Onsight（看攀）：** 在没有获得任何关于路线的信息（除了可以用眼睛看到的）的情况下，首次尝试就成功完攀。这是最高的攀爬风格，要求攀岩者具备出色的路线阅读能力和随机应变能力。Onsight 策略的核心是保守和高效——不确定的地方宁可选择更稳妥的动作方案，在每个可能的位置都进行充分的休息和观察。\n\n**Flash（闪攀）：** 在获得路线信息（观看他人攀爬、口头描述的动作方案等）后，首次尝试成功完攀。Flash 策略允许攀岩者提前了解关键动作序列和难点的解决方案，成功率比 Onsight 高。获取高质量的信息（beta）是 Flash 成功的关键——但信息太多也可能造成干扰，需要筛选最关键的信息。\n\n**Redpoint（红点）：** 在经过多次尝试后成功完攀。Redpoint 是攀爬极限难度路线的常用方式。策略上需要：分段练习掌握每个段落的最优动作方案、识别休息点的最佳休息姿势、安排合理的尝试节奏和休息周期。很多攀岩者会花费数天甚至数周来 Redpoint 一条项目路线（project）。\n\n理解这三种风格的区别和策略，有助于攀岩者根据路线难度和自身能力选择最合适的攀爬方式。",
+            "en": "Climbing ascent styles have strict definitions, each requiring different reading and strategy:\n\n**Onsight:** First attempt success with no prior information (only what eyes can see). The highest style, demanding excellent reading and adaptability. Strategy: conservative, efficient, rest and observe at every opportunity.\n\n**Flash:** First attempt success with prior information (watching others, verbal beta). Higher success rate than onsight. Key is selecting the most critical beta without information overload.\n\n**Redpoint:** Success after multiple attempts. Standard for pushing difficulty limits. Strategy: practice sections to optimize sequences, identify best rest positions, plan attempt rhythm and recovery.\n\nUnderstanding these styles helps climbers choose appropriate approaches based on route difficulty and personal ability."
+          },
+          "terms": [
+            { "zh": "看攀", "en": "onsight" },
+            { "zh": "闪攀", "en": "flash" },
+            { "zh": "红点", "en": "redpoint" },
+            { "zh": "项目路线", "en": "project" },
+            { "zh": "攀爬风格", "en": "ascent style" }
+          ],
+          "crossRefs": ["kp-route-reading-basics", "kp-projecting-strategy", "kp-climbing-ethics", "kp-rest-management"],
+          "tags": ["intermediate", "technique", "mental"]
+        }
+      ]
+    }
+  ]
+}

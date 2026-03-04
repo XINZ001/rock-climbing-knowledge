@@ -1,0 +1,326 @@
+{
+  "sectionId": "section-09",
+  "subSections": [
+    {
+      "id": "s09-kids",
+      "number": "9.1",
+      "slug": "kids",
+      "title": {
+        "zh": "儿童攀岩",
+        "en": "Kids Climbing"
+      },
+      "overview": {
+        "zh": "儿童攀岩近年来越来越受欢迎，许多攀岩馆都设有专门的儿童区域和课程。攀岩对儿童的身体协调性、自信心和问题解决能力有极大的促进作用。然而，儿童的身体发育特点决定了他们的训练方式和安全注意事项与成人截然不同。以趣味性为核心、以安全为底线，是儿童攀岩教学的基本原则。",
+        "en": "Kids climbing has grown rapidly in popularity, with many gyms offering dedicated children's areas and programs. Climbing develops coordination, confidence, and problem-solving skills in young climbers. However, children's developmental characteristics require fundamentally different approaches to training and safety compared to adults. Fun-focused, safety-first instruction is the guiding principle."
+      },
+      "knowledgePoints": [
+        {
+          "id": "kp-kids-development",
+          "title": {
+            "zh": "儿童发育阶段与攀岩",
+            "en": "Developmental Stages and Climbing"
+          },
+          "content": {
+            "zh": "不同年龄段的儿童在身体和认知发展上有显著差异，攀岩活动的设计应与儿童的发育阶段相匹配。\n\n**4-6岁（启蒙阶段）：** 这个年龄段的儿童正在发展基本的运动能力，包括跑、跳、攀爬和平衡。攀岩活动应以探索和游戏为主，例如在横移墙（traverse wall）上玩游戏，或在很低的高度尝试不同的移动方式。不建议进行任何结构化的训练。注意力集中时间短（约15-20分钟），活动应频繁变换形式。这个阶段的重点是培养对攀爬的兴趣和自然的身体意识。\n\n**7-9岁（基础阶段）：** 儿童开始具备更好的协调性和力量控制能力。可以引入基础的攀岩技术概念，如使用脚尖踩点、身体贴近岩壁等。但训练仍应以趣味活动和游戏化的方式进行。可以开始参加简单的抱石课程。这个年龄段开始发展精细运动控制，但肌肉和骨骼系统仍在快速成长中，绝对不应进行大重量或高强度的力量训练。\n\n**10-12岁（发展阶段）：** 进入前青春期后，儿童的力量、耐力和协调性有显著提升。可以开始更系统的技术训练，学习不同的手法和脚法。但生长板（growth plate）仍然脆弱，应避免高冲击性训练和重复性的高强度手指训练。鼓励多样化运动参与，而非过早的专项化，这对长期发展更有利。",
+            "en": "Children's climbing activities must match their developmental stage. Ages 4-6 should focus on exploration and play on traverse walls, with no structured training and sessions of 15-20 minutes. Ages 7-9 can learn basic technique concepts like using toe tips and keeping the body close to the wall, but through game-based activities. Ages 10-12 can begin more systematic technique training, though growth plates remain vulnerable and high-intensity finger training must be avoided.\n\nAcross all stages, multi-sport participation is more beneficial than early specialization. Physical development must be respected above all performance goals."
+          },
+          "terms": [
+            { "zh": "横移墙", "en": "traverse wall" },
+            { "zh": "生长板", "en": "growth plate" },
+            { "zh": "精细运动控制", "en": "fine motor control" },
+            { "zh": "运动启蒙", "en": "motor development" },
+            { "zh": "专项化", "en": "specialization" }
+          ],
+          "crossRefs": ["kp-warmup", "kp-edging", "kp-flagging"],
+          "tags": ["beginner", "special"]
+        },
+        {
+          "id": "kp-kids-safety",
+          "title": {
+            "zh": "儿童攀岩安全考量",
+            "en": "Safety Considerations for Kids"
+          },
+          "content": {
+            "zh": "儿童攀岩的安全管理需要比成人更加细致和全面。儿童的判断力和风险意识尚未成熟，成年指导者承担着更大的监护责任。\n\n**体重差异与保护：** 儿童的体重通常远小于成年保护者，这在先锋攀登保护中会产生问题。当轻体重的儿童坠落时，较重的保护者可能无法提供足够的动态缓冲，导致儿童承受较大的冲击力。反之，如果儿童为成人保护，坠落可能将儿童保护者拉离地面。使用辅助保护装置（如地面锚点或辅助制动器）可以缓解这些问题。在顶绳攀登中，这个问题相对较小但仍需注意。\n\n**心理安全：** 对儿童来说，攀岩中的心理安全与身体安全同样重要。不要强迫孩子攀爬超过他们心理舒适区的高度。恐高是正常的反应，应通过循序渐进的方式帮助他们建立信心，而非通过施压。当孩子表示想下来时，应立即予以配合，不要说「再试一下」或「你已经快到顶了」之类的话。正面鼓励和庆祝每一个小进步，比追求完攀更重要。\n\n**装备适配：** 儿童需要使用专为其体型设计的装备。全身式安全带（full-body harness）推荐给较小的儿童（约40kg以下），因为它们的重心较高，普通腰部安全带在坠落时可能导致儿童从安全带中滑出。攀岩鞋应合脚但不要过紧——儿童正在发育的脚部不应受到过度挤压。头盔在户外攀登中是必需的。",
+            "en": "Safety management for children's climbing demands extra care. Weight differences between child climbers and adult belayers can create belaying issues: a heavy belayer may not give a soft catch to a light child, while a child belaying an adult may be pulled off the ground. Ground anchors or assisted braking devices help mitigate these risks.\n\nPsychological safety is equally important. Never pressure children to climb beyond their comfort zone. Respect their wish to come down immediately. Use positive reinforcement to celebrate small achievements rather than pushing for sends. Children under approximately 40kg should use full-body harnesses, as their high center of gravity may cause them to slip from a standard waist harness."
+          },
+          "terms": [
+            { "zh": "全身式安全带", "en": "full-body harness" },
+            { "zh": "动态缓冲", "en": "soft catch" },
+            { "zh": "地面锚点", "en": "ground anchor" },
+            { "zh": "辅助制动器", "en": "assisted braking device" },
+            { "zh": "心理安全", "en": "psychological safety" }
+          ],
+          "crossRefs": ["kp-belaying", "kp-harness", "kp-fall-technique", "kp-fear-management"],
+          "tags": ["beginner", "safety", "special"]
+        },
+        {
+          "id": "kp-kids-fun-approach",
+          "title": {
+            "zh": "趣味导向的教学方法",
+            "en": "Fun-Focused Approach"
+          },
+          "content": {
+            "zh": "将攀岩变成有趣的游戏体验是吸引和留住儿童攀岩者的关键。枯燥的技术训练会迅速消磨孩子们的热情，而游戏化的方法可以在不知不觉中发展攀岩技能。\n\n**游戏化教学：** 将攀岩技术融入游戏中是最有效的教学方式。例如：「消除脚」游戏——在横移中规定只能踩指定颜色的脚点，培养精确踩点的能力。「粘脚」游戏——脚踩上去后不能移动，锻炼路线规划能力。「机器人攀岩」——一个孩子用语言指挥另一个孩子的每一步动作（「左手上、右脚右移」），培养沟通和路线读线能力。「淘汰赛」——多人在横移墙上同时攀爬，互相追赶。这些游戏不仅有趣，还能自然地发展核心攀岩技能。\n\n**奖励与激励：** 儿童需要即时的正面反馈来保持动力。建立简单的奖励系统——完成一定数量的路线可以获得贴纸或徽章，学会新技能时给予特别认可。但注意奖励不应过度依赖外在激励，最终目标是培养孩子对攀岩本身的内在兴趣。庆祝努力过程而非仅仅是结果（「你一直坚持尝试那个难点，太棒了！」而不是只在完攀时鼓励）。\n\n**协调性发展：** 攀岩是发展全身协调性的绝佳运动。通过攀岩，儿童可以发展手眼协调、空间感知和平衡能力。设计涉及不同移动模式的活动——横移、上攀、下攀、甚至在低处的动态动作。引入平衡板（balance board）和其他辅助工具来增强核心稳定性和本体感觉。鼓励孩子尝试不同类型的路线和岩壁角度，而非反复攀爬同一条路线。",
+            "en": "Gamification is the most effective way to teach climbing to children. Games like elimination traversing (only use certain colored footholds), sticky feet (feet cannot move once placed), and robot climbing (verbal commands to direct a partner) develop real skills through play.\n\nPositive reinforcement should celebrate effort over outcomes. Simple reward systems like stickers or badges help maintain motivation, but the long-term goal is developing intrinsic love for climbing. Climbing naturally develops hand-eye coordination, spatial awareness, and balance. Vary activities across traversing, ascending, descending, and low-level dynamic movements to build comprehensive motor skills."
+          },
+          "terms": [
+            { "zh": "游戏化教学", "en": "gamification" },
+            { "zh": "横移训练", "en": "traverse training" },
+            { "zh": "手眼协调", "en": "hand-eye coordination" },
+            { "zh": "本体感觉", "en": "proprioception" },
+            { "zh": "内在动机", "en": "intrinsic motivation" }
+          ],
+          "crossRefs": ["kp-edging", "kp-flagging", "kp-route-reading-basics"],
+          "tags": ["beginner", "special", "technique"]
+        }
+      ]
+    },
+    {
+      "id": "s09-youth",
+      "number": "9.2",
+      "slug": "youth",
+      "title": {
+        "zh": "青少年攀岩",
+        "en": "Youth Climbing"
+      },
+      "overview": {
+        "zh": "青少年攀岩者（13-18岁）正处于身体快速发育和技术快速提升的阶段。这个时期是发展攀岩能力的黄金窗口，但同时也是最需要科学管理训练负荷、保护身体健康的关键时期。平衡竞技追求与身心健康发展，是青少年攀岩训练的核心课题。",
+        "en": "Youth climbers (ages 13-18) are in a golden window for developing climbing ability while undergoing rapid physical development. Balancing competitive ambitions with physical health and mental wellbeing is the central challenge of youth climbing training."
+      },
+      "knowledgePoints": [
+        {
+          "id": "kp-youth-training-load",
+          "title": {
+            "zh": "训练负荷管理",
+            "en": "Training Load Management"
+          },
+          "content": {
+            "zh": "青少年攀岩者的训练负荷管理需要格外谨慎。过度训练不仅会降低运动表现，还可能对正在发育的身体造成长期损害。\n\n**训练量与强度的平衡：** 青少年的恢复能力虽然通常优于成人，但他们的骨骼、肌腱和韧带系统尚未完全成熟。建议每周攀岩训练不超过4-5次，每次训练时间控制在2-3小时之内。高强度训练（如最大力量训练、校板训练）的比例应显著低于成人，建议不超过总训练量的20-30%。大部分训练时间应用于技术练习和中等强度的攀爬。\n\n**渐进式负荷增加：** 遵循10%规则——每周的训练量增加不应超过前一周的10%。在生长加速期（通常12-15岁），身体的适应能力会暂时下降，这时应减少训练强度而非增加。教练和家长应关注青少年的疲劳信号：持续的肌肉酸痛、睡眠质量下降、食欲变化、情绪波动或对训练失去兴趣。出现这些信号时应立即降低训练负荷。\n\n**恢复与营养：** 青少年运动员需要比成人更多的睡眠时间（建议8-10小时）。营养方面，需要确保足够的总热量摄入以支持生长发育和运动消耗——限制热量摄入在青少年运动员中是绝对不可取的。蛋白质、钙质和维生素D的充足摄入对骨骼和肌肉发育尤为重要。鼓励健康的饮食习惯，避免将体重管理与运动表现挂钩。",
+            "en": "Training load management for youth climbers requires extra caution. Weekly training should not exceed 4-5 sessions of 2-3 hours each. High-intensity training (max strength, campus board) should be limited to 20-30% of total volume, with the majority devoted to technique and moderate-intensity climbing.\n\nFollow the 10% rule: increase weekly volume by no more than 10%. During growth spurts, reduce intensity as the body's adaptation capacity temporarily declines. Watch for fatigue signals: persistent soreness, poor sleep, appetite changes, mood swings, or loss of interest. Youth athletes need 8-10 hours of sleep and must never restrict caloric intake. Adequate protein, calcium, and vitamin D are essential for development."
+          },
+          "terms": [
+            { "zh": "训练负荷", "en": "training load" },
+            { "zh": "10%规则", "en": "10% rule" },
+            { "zh": "生长加速期", "en": "growth spurt" },
+            { "zh": "过度训练", "en": "overtraining" },
+            { "zh": "恢复周期", "en": "recovery period" }
+          ],
+          "crossRefs": ["kp-periodization", "kp-rest-management", "kp-hangboard-training"],
+          "tags": ["intermediate", "training", "special"]
+        },
+        {
+          "id": "kp-growth-plate-concerns",
+          "title": {
+            "zh": "生长板损伤风险",
+            "en": "Growth Plate Concerns"
+          },
+          "content": {
+            "zh": "生长板（骨骺板）损伤是青少年攀岩者面临的最严重的特异性风险之一。了解这一风险并采取预防措施是教练、家长和青少年攀岩者的共同责任。\n\n**什么是生长板损伤：** 生长板位于长骨的末端，是骨骼生长的活跃区域，由软骨组成，比周围的成熟骨骼更脆弱。在攀岩中，手指关节承受的反复高强度负荷可能导致生长板损伤，医学上称为「骨骺炎」或「骨骺分离」。这种损伤在青少年攀岩者的手指中指关节（PIP关节）和掌指关节（MCP关节）最为常见。严重的生长板损伤可能导致手指发育异常甚至永久性畸形。\n\n**高风险因素：** 以下因素会增加生长板损伤的风险——过度使用全捏握（full crimp）、在校板（campus board）上进行高冲击力训练、单指或双指悬挂训练、频繁的高强度抱石训练、以及训练量突然大幅增加。在生长加速期，生长板尤其脆弱，因为骨骼的生长速度暂时超过了软组织的适应速度。\n\n**预防措施：** 青少年攀岩者（尤其是16岁以下）应避免校板训练和挂板上的最大力量训练。鼓励使用张手握（open hand grip）而非捏握。当手指出现疼痛或肿胀时，必须立即停止训练并寻求医学评估——X光可以显示生长板是否有异常。教练应定期询问青少年运动员是否有手指疼痛。建立「疼痛不等于进步」的正确理念，避免年轻攀岩者在疼痛中强行训练。",
+            "en": "Growth plate (epiphyseal plate) injuries are the most significant specific risk for youth climbers. Located at the ends of long bones, growth plates consist of cartilage that is more vulnerable than mature bone. Repeated high-intensity loading on finger joints during climbing can cause epiphysitis or epiphyseal separation, most commonly in the PIP and MCP joints. Severe injuries can cause permanent finger deformity.\n\nHigh-risk factors include full crimping, campus board training, mono/duo pocket hangs, and sudden training volume increases. Youth climbers under 16 should avoid campus boards and max-intensity hangboard training. Encourage open-hand grip over crimping. Any finger pain or swelling requires immediate cessation of training and medical evaluation with X-ray imaging."
+          },
+          "terms": [
+            { "zh": "生长板", "en": "growth plate / epiphyseal plate" },
+            { "zh": "骨骺炎", "en": "epiphysitis" },
+            { "zh": "校板", "en": "campus board" },
+            { "zh": "PIP关节", "en": "PIP joint" },
+            { "zh": "MCP关节", "en": "MCP joint" }
+          ],
+          "crossRefs": ["kp-pulley-injury", "kp-grip-types", "kp-campus-training", "kp-hangboard-training"],
+          "tags": ["intermediate", "safety", "special"]
+        },
+        {
+          "id": "kp-youth-competition",
+          "title": {
+            "zh": "竞赛路径",
+            "en": "Competition Pathway"
+          },
+          "content": {
+            "zh": "青少年攀岩竞赛体系为有竞技追求的年轻攀岩者提供了成长平台。了解竞赛路径有助于合理规划训练和发展方向。\n\n**竞赛体系：** 国际攀联（IFSC）下设青少年世界锦标赛，按年龄分为Youth A（16-17岁）、Youth B（14-15岁）和Youth C（12-13岁）三个组别。各国也有自己的全国青少年锦标赛体系。比赛项目通常包括先锋赛、速度赛和抱石赛。近年来随着攀岩进入奥运会，青少年竞赛体系越来越完善，为有天赋的年轻选手提供了从地区赛到世界赛的完整上升通道。\n\n**竞赛训练特点：** 青少年竞赛训练应在全面发展的基础上逐步增加专项训练。过早的专项化可能限制长期发展潜力。建议在14岁之前以多样化的攀爬体验为主，之后可以根据个人特长和兴趣逐渐侧重某个或某些项目。竞赛前的模拟训练——包括隔离区适应、限时攀爬、观察时间管理等——对比赛表现有重要帮助。\n\n**职业倦怠预防：** 青少年运动员的职业倦怠（burnout）是一个严重问题。高强度的训练和竞赛压力可能导致身体疲劳、情绪耗竭和对攀岩丧失热情。预防倦怠的关键因素包括：保持训练的趣味性和多样性、设定合理的目标、尊重运动员的个人生活和学业、避免过度的外部期望压力。当运动员出现倦怠迹象时，减少竞赛安排并回归「享受攀爬」的初心比坚持训练更为重要。教练和家长的支持与理解是预防倦怠的最重要因素。",
+            "en": "The IFSC youth competition system is divided into Youth A (16-17), Youth B (14-15), and Youth C (12-13) categories, with World Youth Championships in lead, speed, and bouldering. National federations run corresponding domestic series, creating a pathway from local to international competition.\n\nYouth competition training should build on broad development before adding specialization, ideally after age 14. Competition simulation, including isolation zone practice and time management, significantly improves performance. Burnout prevention is critical: maintain training variety and fun, set reasonable goals, respect academic and personal life, and avoid excessive external pressure. When burnout signs appear, reducing competition load and returning to the joy of climbing is more important than pushing through."
+          },
+          "terms": [
+            { "zh": "青少年世界锦标赛", "en": "Youth World Championships" },
+            { "zh": "年龄组别", "en": "age category" },
+            { "zh": "职业倦怠", "en": "burnout" },
+            { "zh": "隔离区", "en": "isolation zone" },
+            { "zh": "专项化", "en": "specialization" }
+          ],
+          "crossRefs": ["kp-fear-management", "kp-flow-state", "kp-periodization"],
+          "tags": ["intermediate", "competition", "special"]
+        }
+      ]
+    },
+    {
+      "id": "s09-elderly",
+      "number": "9.3",
+      "slug": "elderly",
+      "title": {
+        "zh": "中老年攀岩",
+        "en": "Elderly Climbing"
+      },
+      "overview": {
+        "zh": "攀岩并非年轻人的专利。越来越多的中老年人（50岁以上）开始或继续从事攀岩运动。攀岩对中老年人的身体和心理健康有诸多益处，但训练方法和安全考量需要根据年龄特点进行调整。合理的训练方式可以让攀岩成为一项终身运动。",
+        "en": "Climbing is not exclusive to the young. A growing number of adults over 50 are taking up or continuing climbing. The sport offers numerous physical and mental health benefits for older adults, though training methods and safety considerations must be adapted to age-related changes. With proper adjustments, climbing can be a lifelong pursuit."
+      },
+      "knowledgePoints": [
+        {
+          "id": "kp-elderly-injury-prevention",
+          "title": {
+            "zh": "伤害预防重点",
+            "en": "Injury Prevention Focus"
+          },
+          "content": {
+            "zh": "随着年龄增长，身体的恢复能力下降、组织弹性降低，伤害预防成为中老年攀岩者最重要的训练原则。预防胜于治疗，尤其对于恢复周期更长的年长攀岩者而言。\n\n**常见伤害风险：** 中老年攀岩者面临的主要伤害风险包括：肩袖（rotator cuff）损伤、肘关节炎症（网球肘/高尔夫球肘）、手指肌腱和韧带损伤、以及膝关节问题。随着年龄增长，肌腱和韧带的弹性降低，修复速度变慢，一次中等程度的伤害在年轻人可能几周恢复，在年长者可能需要数月。因此，避免受伤比追求训练强度更为重要。\n\n**热身的重要性：** 中老年攀岩者需要比年轻人更长的热身时间。建议在攀爬前进行至少20-30分钟的系统热身，包括：全身性有氧活动（快走、轻松慢跑）5-10分钟提升体温；关节活动度练习（手指、手腕、肩膀、髋关节、脚踝的旋转和伸展）5-10分钟；从非常简单的路线开始逐步增加难度攀爬10-15分钟。冷身和拉伸同样重要，攀爬结束后应进行10-15分钟的放松拉伸。\n\n**预防策略：** 采用保守的训练进度，避免突然增加训练量或强度。优先使用对关节负担较小的抓握方式（张手握而非全捏握）。在攀爬中注重技术而非蛮力，用巧妙的身体定位减少对手臂和手指的依赖。定期进行肩袖稳定性训练和对抗肌群（如手指伸展肌、肱二头肌对抗肌群）的强化训练。任何不适或疼痛信号都应认真对待，及时休息和就医。",
+            "en": "Injury prevention is the most important training principle for older climbers. Key risks include rotator cuff injuries, elbow tendinitis (tennis/golfer's elbow), finger tendon and ligament injuries, and knee problems. With age, tendons and ligaments lose elasticity and heal more slowly; a moderate injury that takes weeks to heal in youth may require months for older adults.\n\nThorough warm-ups of 20-30 minutes are essential: start with general cardio, followed by joint mobility exercises, then gradually increasing climbing difficulty. Use open-hand grips over crimps, prioritize technique over power, and regularly perform rotator cuff stability and antagonist muscle training. Take all pain signals seriously and seek medical attention promptly."
+          },
+          "terms": [
+            { "zh": "肩袖", "en": "rotator cuff" },
+            { "zh": "网球肘", "en": "tennis elbow" },
+            { "zh": "对抗肌群", "en": "antagonist muscles" },
+            { "zh": "关节活动度", "en": "range of motion" },
+            { "zh": "冷身", "en": "cool-down" }
+          ],
+          "crossRefs": ["kp-warmup", "kp-pulley-injury", "kp-grip-types"],
+          "tags": ["beginner", "safety", "special"]
+        },
+        {
+          "id": "kp-elderly-training-adjustments",
+          "title": {
+            "zh": "训练调整策略",
+            "en": "Training Adjustments"
+          },
+          "content": {
+            "zh": "中老年攀岩者的训练方案需要针对年龄相关的生理变化进行智慧调整。正确的训练策略不仅能维持甚至提升攀岩水平，还能促进整体健康。\n\n**训练频率与恢复：** 随着年龄增长，恢复时间会显著延长。建议每次高强度攀岩训练之间至少休息48-72小时（年轻人通常24-48小时即可）。每周攀岩2-3次是比较合理的频率。可以在休息日进行低强度的辅助训练，如瑜伽、游泳或步行，以促进血液循环和肌肉恢复。避免连续两天进行高强度攀爬。「休息也是训练的一部分」这个理念对中老年攀岩者尤为重要。\n\n**力量训练调整：** 中老年攀岩者仍然可以进行力量训练，但方式需要调整。降低训练强度、增加训练量的策略通常比最大力量训练更安全有效。例如，挂板训练可以使用较大的边缘、较少的负重，但增加悬挂次数和组数。核心训练尤为重要——强壮的核心可以减少对上肢关节的压力。加入平衡训练和本体感觉训练，这些能力随年龄下降但可以通过训练维持。\n\n**技术提升的优势：** 中老年攀岩者拥有年轻人往往缺乏的优势——耐心、经验和身体意识。随着年龄增长，应更多地依靠精湛的技术而非绝对力量来攀登。精确的脚法、巧妙的重心转移和高效的休息技巧可以很大程度上弥补力量的下降。很多资深攀岩者在50岁以上仍能完成高难度路线，正是因为他们通过技术的提升补偿了力量的自然衰退。",
+            "en": "Training for older climbers must adapt to age-related physiological changes. Allow 48-72 hours recovery between intense sessions (versus 24-48 for younger climbers), and limit climbing to 2-3 sessions per week. Rest days can include low-intensity cross-training like yoga, swimming, or walking.\n\nAdjust strength training by lowering intensity while increasing volume: use larger hangboard edges with less weight but more repetitions. Core training is especially valuable as it reduces upper-body joint stress. Older climbers' greatest advantage lies in patience, experience, and body awareness. Precise footwork, efficient weight shifting, and skilled rest techniques can substantially compensate for natural strength decline."
+          },
+          "terms": [
+            { "zh": "恢复时间", "en": "recovery time" },
+            { "zh": "低强度交叉训练", "en": "low-intensity cross-training" },
+            { "zh": "核心训练", "en": "core training" },
+            { "zh": "训练量", "en": "training volume" },
+            { "zh": "平衡训练", "en": "balance training" }
+          ],
+          "crossRefs": ["kp-core-role", "kp-hangboard-training", "kp-periodization", "kp-rest-management"],
+          "tags": ["intermediate", "training", "special"]
+        },
+        {
+          "id": "kp-elderly-benefits",
+          "title": {
+            "zh": "攀岩对中老年人的益处",
+            "en": "Benefits of Climbing for Older Adults"
+          },
+          "content": {
+            "zh": "越来越多的研究表明，攀岩为中老年人提供了独特的身心健康益处，这些益处是许多其他运动形式难以替代的。\n\n**身体层面：** 攀岩是一项全身性运动，可以同时锻炼上肢力量、核心稳定性、下肢力量、柔韧性和心肺耐力。对中老年人尤为重要的是，攀岩能有效改善平衡能力和本体感觉——这些能力的衰退是导致老年人摔倒的主要原因。研究显示，定期攀岩可以提升骨密度（有助于预防骨质疏松）、改善握力（握力是整体健康状况的重要指标），以及增强关节活动度和灵活性。\n\n**认知层面：** 攀岩是一项高度认知参与的运动——需要持续的路线规划、动作决策和身体感知。这种认知挑战有助于保持大脑的活跃度，可能对延缓认知功能衰退有积极作用。攀岩中的问题解决过程（如何在有限的岩点上找到最优解法）类似于一种三维拼图，对认知功能有良好的刺激效果。\n\n**心理和社交层面：** 攀岩对抗焦虑和抑郁的效果已被多项研究证实。攀岩时需要高度集中注意力，这种「沉浸」状态有助于暂时放下日常压力和烦恼。完成一条路线带来的成就感和自我效能感，对中老年人的自信心建设尤为有价值。此外，攀岩社区的社交属性为中老年人提供了结交志同道合朋友的机会，对抗孤独感和社交隔离。",
+            "en": "Research increasingly demonstrates unique physical and mental health benefits of climbing for older adults. Physically, climbing improves balance and proprioception (key factors in fall prevention), increases bone density (countering osteoporosis), enhances grip strength (a key health indicator), and maintains joint mobility and flexibility.\n\nCognitively, climbing's continuous route-planning and decision-making stimulates brain activity, potentially delaying cognitive decline. Psychologically, climbing reduces anxiety and depression through immersive focus, builds self-efficacy through achievement, and provides a welcoming social community that combats loneliness and social isolation."
+          },
+          "terms": [
+            { "zh": "骨密度", "en": "bone density" },
+            { "zh": "本体感觉", "en": "proprioception" },
+            { "zh": "握力", "en": "grip strength" },
+            { "zh": "认知功能", "en": "cognitive function" },
+            { "zh": "自我效能感", "en": "self-efficacy" }
+          ],
+          "crossRefs": ["kp-core-role", "kp-flow-state", "kp-fear-management"],
+          "tags": ["beginner", "special"]
+        },
+        {
+          "id": "kp-elderly-flexibility",
+          "title": {
+            "zh": "柔韧性训练重点",
+            "en": "Flexibility Emphasis"
+          },
+          "content": {
+            "zh": "柔韧性是中老年攀岩者最需要重视的身体素质之一。良好的柔韧性不仅能提升攀爬表现，更是预防伤害的关键因素。\n\n**为什么柔韧性如此重要：** 随着年龄增长，肌肉和结缔组织的弹性自然下降，关节活动范围逐渐缩小。在攀岩中，有限的柔韧性意味着无法做出大幅度的蹬腿动作（high step）、侧向跨步和转体动作，这些限制会直接降低攀爬效率。更重要的是，柔韧性不足会增加在不常见动作中肌肉拉伤的风险。\n\n**重点柔韧性训练区域：** 对攀岩最关键的柔韧性区域包括：髋关节（外展和旋转）——影响高蹬和侧向踩点能力；肩关节（前屈和外旋）——影响高举手臂和背后勾握能力；胸椎（旋转和伸展）——影响身体转动和背弓能力；脚踝（背屈）——影响在仰角面上保持脚跟贴近岩壁的能力。建议每天进行15-20分钟的针对性拉伸练习，不仅限于攀爬日。\n\n**柔韧性训练方法：** 对中老年人来说，静态拉伸和瑜伽是最安全有效的柔韧性训练方法。每个拉伸动作保持30-60秒，不要弹震。PNF拉伸（本体感觉神经肌肉促进法）也很有效，但需要在了解原理后正确执行。泡沫轴和筋膜球可以用来放松紧张的肌肉和筋膜，为拉伸做准备。避免在肌肉完全冷却的状态下进行深度拉伸——先用5分钟轻度活动提升体温后再开始。坚持每天练习比偶尔高强度拉伸更有效。",
+            "en": "Flexibility is critical for older climbers both for performance and injury prevention. Age-related loss of muscle and connective tissue elasticity reduces range of motion, limiting high steps, lateral reaches, and body rotations while increasing strain injury risk.\n\nKey areas include hip flexibility (abduction and rotation for high steps), shoulder mobility (for overhead reaches), thoracic spine rotation (for body turns), and ankle dorsiflexion (for keeping heels close on overhangs). Daily sessions of 15-20 minutes of static stretching or yoga are recommended. Hold each stretch for 30-60 seconds without bouncing. Foam rollers and massage balls help prepare tissue for stretching. Always warm up for 5 minutes before deep stretching. Consistency matters more than intensity."
+          },
+          "terms": [
+            { "zh": "高蹬", "en": "high step" },
+            { "zh": "髋关节外展", "en": "hip abduction" },
+            { "zh": "胸椎旋转", "en": "thoracic rotation" },
+            { "zh": "PNF拉伸", "en": "PNF stretching" },
+            { "zh": "泡沫轴", "en": "foam roller" },
+            { "zh": "静态拉伸", "en": "static stretching" }
+          ],
+          "crossRefs": ["kp-warmup", "kp-slab-technique", "kp-overhang-technique"],
+          "tags": ["beginner", "training", "special"]
+        }
+      ]
+    },
+    {
+      "id": "s09-adaptive",
+      "number": "9.4",
+      "slug": "adaptive",
+      "title": {
+        "zh": "适应性攀岩",
+        "en": "Adaptive Climbing"
+      },
+      "overview": {
+        "zh": "适应性攀岩（Adaptive Climbing）是指为身体或认知障碍者提供的攀岩活动形式。通过装备改造、技术调整和适当的辅助，攀岩可以成为一项真正包容所有人的运动。适应性攀岩不仅为参与者提供了挑战自我的机会，也展示了人类精神的无限潜能。",
+        "en": "Adaptive climbing provides climbing opportunities for individuals with physical or cognitive disabilities. Through equipment modifications, technique adaptations, and appropriate assistance, climbing becomes a truly inclusive sport. Adaptive climbing offers participants the chance to challenge themselves while demonstrating the boundless potential of the human spirit."
+      },
+      "knowledgePoints": [
+        {
+          "id": "kp-adaptive-types",
+          "title": {
+            "zh": "适应性攀岩类型",
+            "en": "Types of Adaptive Climbing"
+          },
+          "content": {
+            "zh": "适应性攀岩涵盖了多种不同类型的障碍，每种类型都有其特定的挑战和解决方案。\n\n**肢体障碍：** 这是最常见的适应性攀岩类别，包括截肢（上肢或下肢）、脊髓损伤导致的瘫痪（截瘫或四肢瘫痪）以及各种肢体功能受限的情况。单臂攀岩者可以通过强化另一侧手臂和发展精妙的平衡技术来攀爬高难度路线。轮椅使用者可以通过上肢力量进行攀爬，使用特殊的保护系统。下肢截肢者可能使用专门的假肢适配器来配合攀岩。\n\n**视觉障碍：** 视障攀岩者通过触觉和语音引导来「看」路线。保护者或教练从地面提供详细的岩点位置描述（「右手上方约30厘米有一个向右侧开的口袋点」）。盲人攀岩者发展出极为敏锐的触觉和空间感知能力，往往展现出令人惊叹的攀爬水平。\n\n**听觉障碍：** 聋哑攀岩者面临的主要挑战在于沟通——标准的攀岩口令系统无法使用。解决方案包括使用视觉信号（手势、旗帜、LED灯）、绳索信号（拉绳次数代表不同指令）或震动设备。在保护操作方面，聋哑攀岩者需要与搭档发展出一套可靠的非语言沟通系统。\n\n**认知障碍：** 智力发育障碍或自闭症谱系障碍的参与者可以通过简化的指令、重复性练习和一对一的指导参与攀岩。攀岩对感觉统合有良好的促进作用，对自闭症谱系障碍的参与者尤为有益。",
+            "en": "Adaptive climbing encompasses various disability categories. Limb differences include amputation (upper or lower), spinal cord injuries (paraplegia or tetraplegia), and other mobility limitations. Single-arm climbers develop remarkable balance and strength, while wheelchair users climb with upper-body power and specialized protection systems.\n\nVisually impaired climbers use touch and verbal guidance to navigate routes, developing extraordinary tactile and spatial skills. Deaf climbers replace verbal commands with visual signals, rope tugs, or vibration devices. Cognitively impaired participants benefit from simplified instructions and one-on-one guidance, with climbing particularly beneficial for sensory integration in individuals on the autism spectrum."
+          },
+          "terms": [
+            { "zh": "适应性攀岩", "en": "adaptive climbing" },
+            { "zh": "截肢", "en": "amputation" },
+            { "zh": "截瘫", "en": "paraplegia" },
+            { "zh": "视觉引导", "en": "visual guidance" },
+            { "zh": "感觉统合", "en": "sensory integration" }
+          ],
+          "crossRefs": ["kp-belaying", "kp-harness", "kp-route-reading-basics"],
+          "tags": ["beginner", "special"]
+        },
+        {
+          "id": "kp-adaptive-equipment",
+          "title": {
+            "zh": "装备改造",
+            "en": "Equipment Modifications"
+          },
+          "content": {
+            "zh": "适应性攀岩往往需要对标准攀岩装备进行改造，以满足不同障碍类型的攀岩者的需求。这些改造可能是简单的调整，也可能需要专门定制。\n\n**安全带改造：** 标准攀岩安全带可能不适合所有使用者。对于脊髓损伤导致下肢瘫痪的攀岩者，全身式安全带可以更好地分散坠落力量。对于只有单侧上肢的攀岩者，安全带的腿环可能需要调整以便于单手穿脱。一些制造商已经开发了专为适应性攀岩设计的安全带系列。\n\n**假肢与辅助装置：** 攀岩专用假肢是一个不断发展的领域。上肢假肢可能配备不同的末端工具——用于抓握的钩状末端、用于裂缝攀登的楔形末端等。下肢假肢可能使用特殊的脚部设计来适应岩面踩踏。一些攀岩者还使用定制的膝盖垫或假肢适配器来优化特定的攀爬动作。\n\n**辅助保护系统：** 对于四肢瘫痪等严重障碍的攀岩者，可能需要使用辅助绳索系统（如顶绳加配重系统或电动绞盘）来辅助上升。这些系统在保证安全的同时，让攀岩者可以利用有限的身体功能参与攀爬。一些攀岩馆安装了自动保护器（auto-belay）配合适应性安全带，使参与更加便捷。所有改造装备都应经过严格的安全测试后才能使用。",
+            "en": "Adaptive climbing often requires equipment modifications. Full-body harnesses better distribute fall forces for climbers with spinal cord injuries, while harness leg loops may need adjustment for single-arm operation. Some manufacturers now offer adaptive-specific harness lines.\n\nClimbing-specific prosthetics are an evolving field: upper-limb prosthetics may feature hook-style or wedge-shaped terminals, while lower-limb designs accommodate rock stepping. For climbers with severe disabilities such as tetraplegia, assisted rope systems like weighted top-rope setups or electric winches enable participation. All modified equipment must undergo rigorous safety testing before use."
+          },
+          "terms": [
+            { "zh": "全身式安全带", "en": "full-body harness" },
+            { "zh": "攀岩假肢", "en": "climbing prosthetic" },
+            { "zh": "电动绞盘", "en": "electric winch" },
+            { "zh": "自动保护器", "en": "auto-belay" },
+            { "zh": "辅助绳索系统", "en": "assisted rope system" }
+          ],
+          "crossRefs": ["kp-harness", "kp-belaying", "kp-climbing-shoes"],
+          "tags": ["beginner", "special", "safety"]
+        },
+        {
+          "id": "kp-adaptive-organizations",
+          "title": {
+            "zh": "组织与包容性攀岩",
+            "en": "Organizations and Inclusive Climbing"
+          },
+          "content": {
+            "zh": "适应性攀岩在全球范围内得到了越来越多组织的支持和推广。这些组织在推动包容性攀岩文化方面发挥着关键作用。\n\n**国际组织：** 国际攀联（IFSC）已将适应性攀岩纳入其发展战略，并举办国际级适应性攀岩赛事。国际残疾人攀岩联盟（Paraclimbing）致力于制定统一的分级标准和竞赛规则。在比赛中，选手按照功能能力（而非具体的障碍类型）进行分组，确保竞赛的公平性。适应性攀岩的目标之一是进入残疾人奥运会（Paralympic Games）。\n\n**地区组织：** 世界各地有众多致力于适应性攀岩的地方组织。在美国，Paradox Sports和Adaptive Adventures提供适应性户外攀岩项目。在英国，Thrive Outdoors和British Mountaineering Council（BMC）推动适应性攀岩发展。许多地方攀岩馆也开始举办定期的适应性攀岩活动日，为障碍者提供参与机会。\n\n**包容性岩馆建设：** 真正的包容性攀岩意味着让岩馆对所有人开放和友好。包容性设计包括：无障碍通道和更衣设施、宽敞的地面空间允许轮椅通行、适合不同能力水平的路线设置（包括低处的横移路线）、训练有素的工作人员能够提供适应性攀岩指导、以及开放接纳的社区氛围。攀岩社区的态度同样重要——消除对障碍者的刻板印象，以尊重和平等的心态欢迎每一位攀岩者。",
+            "en": "Adaptive climbing receives growing support worldwide. The IFSC has incorporated adaptive climbing into its development strategy and organizes international paraclimbing competitions. Athletes are classified by functional ability rather than specific disability, ensuring fair competition. Entering the Paralympic Games is a long-term goal.\n\nRegional organizations like Paradox Sports and Adaptive Adventures (USA), Thrive Outdoors and the BMC (UK) promote adaptive climbing programs. Inclusive gym design includes wheelchair-accessible facilities, spacious floor areas, varied route difficulty including low traverses, staff trained in adaptive instruction, and a welcoming community atmosphere. True inclusion requires both physical accessibility and a culture of respect and equality for all climbers."
+          },
+          "terms": [
+            { "zh": "适应性攀岩赛事", "en": "paraclimbing competition" },
+            { "zh": "功能分级", "en": "functional classification" },
+            { "zh": "无障碍设计", "en": "accessible design" },
+            { "zh": "包容性", "en": "inclusivity" },
+            { "zh": "残疾人奥运会", "en": "Paralympic Games" }
+          ],
+          "crossRefs": ["kp-route-reading-basics", "kp-belaying"],
+          "tags": ["beginner", "special"]
+        }
+      ]
+    }
+  ]
+}

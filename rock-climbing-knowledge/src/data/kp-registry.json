@@ -1,0 +1,8104 @@
+{
+  "_meta": {
+    "description": "Knowledge Point Registry - Master index of all knowledge points in the climbing knowledge base",
+    "generatedAt": "2026-03-01T21:32:19.263Z",
+    "totalCount": 177,
+    "usage": "This file is the single source of truth for all knowledge point IDs, keywords, and status tracking. Update this file whenever knowledge points are added, removed, or enriched with new content (illustrations, videos, etc.)"
+  },
+  "registry": [
+    {
+      "id": "kp-climbing-origins",
+      "path": "overview/history",
+      "sectionId": "section-01",
+      "sectionSlug": "overview",
+      "sectionTitle": {
+        "zh": "攀岩概览",
+        "en": "Overview"
+      },
+      "subSectionId": "s01-history",
+      "subSectionSlug": "history",
+      "subSectionTitle": {
+        "zh": "攀岩的历史与发展",
+        "en": "History & Development"
+      },
+      "title": {
+        "zh": "攀岩的起源",
+        "en": "Origins of Climbing"
+      },
+      "keywords": [
+        "萨克森地区",
+        "Saxon Switzerland",
+        "自由攀登",
+        "free climbing",
+        "纯粹主义",
+        "purism",
+        "优胜美地",
+        "Yosemite"
+      ],
+      "tags": [
+        "beginner"
+      ],
+      "crossRefs": [
+        "kp-climbing-categories",
+        "kp-climbing-ethics"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-free-climbing-revolution",
+      "path": "overview/history",
+      "sectionId": "section-01",
+      "sectionSlug": "overview",
+      "sectionTitle": {
+        "zh": "攀岩概览",
+        "en": "Overview"
+      },
+      "subSectionId": "s01-history",
+      "subSectionSlug": "history",
+      "subSectionTitle": {
+        "zh": "攀岩的历史与发展",
+        "en": "History & Development"
+      },
+      "title": {
+        "zh": "自由攀登运动",
+        "en": "The Free Climbing Movement"
+      },
+      "keywords": [
+        "器械攀登",
+        "aid climbing",
+        "清洁攀登",
+        "clean climbing",
+        "岩钉",
+        "piton",
+        "机械塞",
+        "cam",
+        "酋长岩",
+        "El Capitan"
+      ],
+      "tags": [
+        "beginner"
+      ],
+      "crossRefs": [
+        "kp-climbing-origins",
+        "kp-climbing-categories"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-sport-climbing-emergence",
+      "path": "overview/history",
+      "sectionId": "section-01",
+      "sectionSlug": "overview",
+      "sectionTitle": {
+        "zh": "攀岩概览",
+        "en": "Overview"
+      },
+      "subSectionId": "s01-history",
+      "subSectionSlug": "history",
+      "subSectionTitle": {
+        "zh": "攀岩的历史与发展",
+        "en": "History & Development"
+      },
+      "title": {
+        "zh": "运动攀岩的兴起",
+        "en": "Emergence of Sport Climbing"
+      },
+      "keywords": [
+        "运动攀岩",
+        "sport climbing",
+        "膨胀螺栓",
+        "bolt",
+        "快挂",
+        "quickdraw",
+        "石灰岩",
+        "limestone"
+      ],
+      "tags": [
+        "beginner"
+      ],
+      "crossRefs": [
+        "kp-climbing-categories",
+        "kp-olympics-history"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-modern-era",
+      "path": "overview/history",
+      "sectionId": "section-01",
+      "sectionSlug": "overview",
+      "sectionTitle": {
+        "zh": "攀岩概览",
+        "en": "Overview"
+      },
+      "subSectionId": "s01-history",
+      "subSectionSlug": "history",
+      "subSectionTitle": {
+        "zh": "攀岩的历史与发展",
+        "en": "History & Development"
+      },
+      "title": {
+        "zh": "现代攀岩时代",
+        "en": "The Modern Era"
+      },
+      "keywords": [
+        "室内攀岩馆",
+        "indoor climbing gym",
+        "系统板",
+        "system board",
+        "抱石",
+        "bouldering",
+        "竞技攀岩",
+        "competition climbing"
+      ],
+      "tags": [
+        "beginner"
+      ],
+      "crossRefs": [
+        "kp-climbing-categories",
+        "kp-olympics-history",
+        "kp-hangboard-training"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-climbing-categories",
+      "path": "overview/categories",
+      "sectionId": "section-01",
+      "sectionSlug": "overview",
+      "sectionTitle": {
+        "zh": "攀岩概览",
+        "en": "Overview"
+      },
+      "subSectionId": "s01-categories",
+      "subSectionSlug": "categories",
+      "subSectionTitle": {
+        "zh": "攀岩的分类",
+        "en": "Climbing Categories"
+      },
+      "title": {
+        "zh": "主要攀岩类型",
+        "en": "Major Climbing Categories"
+      },
+      "keywords": [
+        "运动攀",
+        "sport climbing",
+        "传统攀",
+        "trad climbing",
+        "抱石",
+        "bouldering",
+        "大岩壁",
+        "big wall",
+        "绳距",
+        "pitch",
+        "抱石垫",
+        "crash pad",
+        "吊帐",
+        "portaledge"
+      ],
+      "tags": [
+        "beginner"
+      ],
+      "crossRefs": [
+        "kp-climbing-origins",
+        "kp-grading-systems"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-special-categories",
+      "path": "overview/categories",
+      "sectionId": "section-01",
+      "sectionSlug": "overview",
+      "sectionTitle": {
+        "zh": "攀岩概览",
+        "en": "Overview"
+      },
+      "subSectionId": "s01-categories",
+      "subSectionSlug": "categories",
+      "subSectionTitle": {
+        "zh": "攀岩的分类",
+        "en": "Climbing Categories"
+      },
+      "title": {
+        "zh": "特殊攀岩类型",
+        "en": "Specialized Climbing Types"
+      },
+      "keywords": [
+        "深水独攀",
+        "deep water solo (DWS)",
+        "冰攀",
+        "ice climbing",
+        "干攀",
+        "dry tooling",
+        "冰镐",
+        "ice axe / ice tool",
+        "冰爪",
+        "crampons",
+        "混合攀登",
+        "mixed climbing"
+      ],
+      "tags": [
+        "beginner",
+        "intermediate"
+      ],
+      "crossRefs": [
+        "kp-climbing-categories",
+        "kp-grading-systems"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-grading-systems",
+      "path": "overview/grading",
+      "sectionId": "section-01",
+      "sectionSlug": "overview",
+      "sectionTitle": {
+        "zh": "攀岩概览",
+        "en": "Overview"
+      },
+      "subSectionId": "s01-grading",
+      "subSectionSlug": "grading",
+      "subSectionTitle": {
+        "zh": "攀岩的等级系统",
+        "en": "Grading Systems"
+      },
+      "title": {
+        "zh": "主要等级系统详解",
+        "en": "Major Grading Systems Explained"
+      },
+      "keywords": [
+        "YDS 系统",
+        "Yosemite Decimal System",
+        "法国等级",
+        "French scale",
+        "V 等级",
+        "V-scale / Hueco scale",
+        "枫丹白露等级",
+        "Fontainebleau scale",
+        "子级",
+        "sub-grade"
+      ],
+      "tags": [
+        "beginner"
+      ],
+      "crossRefs": [
+        "kp-climbing-categories",
+        "kp-route-reading-basics"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-grade-comparison",
+      "path": "overview/grading",
+      "sectionId": "section-01",
+      "sectionSlug": "overview",
+      "sectionTitle": {
+        "zh": "攀岩概览",
+        "en": "Overview"
+      },
+      "subSectionId": "s01-grading",
+      "subSectionSlug": "grading",
+      "subSectionTitle": {
+        "zh": "攀岩的等级系统",
+        "en": "Grading Systems"
+      },
+      "title": {
+        "zh": "等级对照与注意事项",
+        "en": "Grade Comparison & Considerations"
+      },
+      "keywords": [
+        "等级膨胀",
+        "grade inflation",
+        "给分偏软",
+        "soft grading",
+        "给分偏硬",
+        "sandbagged",
+        "核心难点",
+        "crux",
+        "持续性路线",
+        "sustained route"
+      ],
+      "tags": [
+        "beginner",
+        "intermediate"
+      ],
+      "crossRefs": [
+        "kp-grading-systems",
+        "kp-route-reading-basics"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-climbing-ethics",
+      "path": "overview/culture",
+      "sectionId": "section-01",
+      "sectionSlug": "overview",
+      "sectionTitle": {
+        "zh": "攀岩概览",
+        "en": "Overview"
+      },
+      "subSectionId": "s01-culture",
+      "subSectionSlug": "culture",
+      "subSectionTitle": {
+        "zh": "攀岩文化与社区",
+        "en": "Culture & Community"
+      },
+      "title": {
+        "zh": "攀岩伦理",
+        "en": "Climbing Ethics"
+      },
+      "keywords": [
+        "首攀",
+        "first ascent",
+        "不留痕迹",
+        "Leave No Trace",
+        "从地面向上",
+        "ground-up",
+        "完攀",
+        "send / complete ascent"
+      ],
+      "tags": [
+        "beginner"
+      ],
+      "crossRefs": [
+        "kp-climbing-origins",
+        "kp-free-climbing-revolution",
+        "kp-route-reading-basics"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-community-media",
+      "path": "overview/culture",
+      "sectionId": "section-01",
+      "sectionSlug": "overview",
+      "sectionTitle": {
+        "zh": "攀岩概览",
+        "en": "Overview"
+      },
+      "subSectionId": "s01-culture",
+      "subSectionSlug": "culture",
+      "subSectionTitle": {
+        "zh": "攀岩文化与社区",
+        "en": "Culture & Community"
+      },
+      "title": {
+        "zh": "社区与媒体",
+        "en": "Community & Media"
+      },
+      "keywords": [
+        "路线信息",
+        "beta",
+        "保护",
+        "belay",
+        "无保护自由独攀",
+        "free solo",
+        "攀岩社区",
+        "climbing community"
+      ],
+      "tags": [
+        "beginner"
+      ],
+      "crossRefs": [
+        "kp-climbing-ethics",
+        "kp-climbing-origins",
+        "kp-free-climbing-revolution"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-olympics-history",
+      "path": "overview/olympics",
+      "sectionId": "section-01",
+      "sectionSlug": "overview",
+      "sectionTitle": {
+        "zh": "攀岩概览",
+        "en": "Overview"
+      },
+      "subSectionId": "s01-olympics",
+      "subSectionSlug": "olympics",
+      "subSectionTitle": {
+        "zh": "攀岩与奥运会",
+        "en": "Climbing & Olympics"
+      },
+      "title": {
+        "zh": "奥运竞技攀岩的发展历程",
+        "en": "Olympic Competition Climbing History"
+      },
+      "keywords": [
+        "国际攀联",
+        "IFSC (International Federation of Sport Climbing)",
+        "全能赛",
+        "combined format",
+        "速度攀岩",
+        "speed climbing",
+        "难度攀岩",
+        "lead climbing",
+        "攀石",
+        "bouldering (competition)"
+      ],
+      "tags": [
+        "beginner"
+      ],
+      "crossRefs": [
+        "kp-climbing-categories",
+        "kp-sport-climbing-emergence",
+        "kp-modern-era"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-olympics-athletes",
+      "path": "overview/olympics",
+      "sectionId": "section-01",
+      "sectionSlug": "overview",
+      "sectionTitle": {
+        "zh": "攀岩概览",
+        "en": "Overview"
+      },
+      "subSectionId": "s01-olympics",
+      "subSectionSlug": "olympics",
+      "subSectionTitle": {
+        "zh": "攀岩与奥运会",
+        "en": "Climbing & Olympics"
+      },
+      "title": {
+        "zh": "奥运攀岩著名运动员",
+        "en": "Notable Olympic Climbing Athletes"
+      },
+      "keywords": [
+        "世界杯赛",
+        "World Cup",
+        "竞技攀岩者",
+        "competition climber",
+        "动态攀爬",
+        "dynamic climbing",
+        "赛站",
+        "event / round"
+      ],
+      "tags": [
+        "beginner"
+      ],
+      "crossRefs": [
+        "kp-olympics-history",
+        "kp-modern-era",
+        "kp-flow-state"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-grip-types",
+      "path": "physical/finger-strength",
+      "sectionId": "section-02",
+      "sectionSlug": "physical",
+      "sectionTitle": {
+        "zh": "身体素质",
+        "en": "Physical Fitness"
+      },
+      "subSectionId": "s02-finger",
+      "subSectionSlug": "finger-strength",
+      "subSectionTitle": {
+        "zh": "指力",
+        "en": "Finger Strength"
+      },
+      "title": {
+        "zh": "抓握类型",
+        "en": "Grip Types"
+      },
+      "keywords": [
+        "全捏握",
+        "full crimp",
+        "半捏握",
+        "half crimp",
+        "张手握",
+        "open hand",
+        "捏握",
+        "pinch",
+        "A2滑车韧带",
+        "A2 pulley",
+        "圆润岩点",
+        "sloper"
+      ],
+      "tags": [
+        "beginner",
+        "technique",
+        "strength"
+      ],
+      "crossRefs": [
+        "kp-pulley-injury",
+        "kp-slab-technique"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-hangboard-training",
+      "path": "physical/finger-strength",
+      "sectionId": "section-02",
+      "sectionSlug": "physical",
+      "sectionTitle": {
+        "zh": "身体素质",
+        "en": "Physical Fitness"
+      },
+      "subSectionId": "s02-finger",
+      "subSectionSlug": "finger-strength",
+      "subSectionTitle": {
+        "zh": "指力",
+        "en": "Finger Strength"
+      },
+      "title": {
+        "zh": "挂板训练",
+        "en": "Hangboard Training"
+      },
+      "keywords": [
+        "挂板",
+        "hangboard / fingerboard",
+        "负重悬挂",
+        "weighted hang",
+        "最小边缘训练",
+        "minimum edge training",
+        "重复悬挂",
+        "repeaters"
+      ],
+      "tags": [
+        "intermediate",
+        "training",
+        "strength"
+      ],
+      "crossRefs": [
+        "kp-hangboard-gear",
+        "kp-pulley-injury",
+        "kp-warmup"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-finger-assessment",
+      "path": "physical/finger-strength",
+      "sectionId": "section-02",
+      "sectionSlug": "physical",
+      "sectionTitle": {
+        "zh": "身体素质",
+        "en": "Physical Fitness"
+      },
+      "subSectionId": "s02-finger",
+      "subSectionSlug": "finger-strength",
+      "subSectionTitle": {
+        "zh": "指力",
+        "en": "Finger Strength"
+      },
+      "title": {
+        "zh": "指力评估与测试",
+        "en": "Finger Strength Assessment"
+      },
+      "keywords": [
+        "最大负重",
+        "max weight",
+        "体重比",
+        "body weight ratio",
+        "基准测试",
+        "benchmark test"
+      ],
+      "tags": [
+        "intermediate",
+        "training",
+        "strength"
+      ],
+      "crossRefs": [
+        "kp-hangboard-gear",
+        "kp-warmup"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-advanced-finger",
+      "path": "physical/finger-strength",
+      "sectionId": "section-02",
+      "sectionSlug": "physical",
+      "sectionTitle": {
+        "zh": "身体素质",
+        "en": "Physical Fitness"
+      },
+      "subSectionId": "s02-finger",
+      "subSectionSlug": "finger-strength",
+      "subSectionTitle": {
+        "zh": "指力",
+        "en": "Finger Strength"
+      },
+      "title": {
+        "zh": "进阶指力训练",
+        "en": "Advanced Finger Training"
+      },
+      "keywords": [
+        "单指口袋",
+        "mono pocket",
+        "离心训练",
+        "eccentric training",
+        "周期化训练",
+        "periodization",
+        "单臂悬挂",
+        "one-arm hang"
+      ],
+      "tags": [
+        "advanced",
+        "training",
+        "strength"
+      ],
+      "crossRefs": [
+        "kp-pulley-injury",
+        "kp-hangboard-gear",
+        "kp-rest-management"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-pulling-power",
+      "path": "physical/upper-body",
+      "sectionId": "section-02",
+      "sectionSlug": "physical",
+      "sectionTitle": {
+        "zh": "身体素质",
+        "en": "Physical Fitness"
+      },
+      "subSectionId": "s02-upper-body",
+      "subSectionSlug": "upper-body",
+      "subSectionTitle": {
+        "zh": "上肢力量",
+        "en": "Upper Body Strength"
+      },
+      "title": {
+        "zh": "拉力训练",
+        "en": "Pulling Power"
+      },
+      "keywords": [
+        "引体向上",
+        "pull-up",
+        "锁定",
+        "lock-off",
+        "弓箭手引体",
+        "archer pull-up",
+        "负重引体",
+        "weighted pull-up",
+        "系统板",
+        "system board"
+      ],
+      "tags": [
+        "beginner",
+        "intermediate",
+        "training",
+        "strength"
+      ],
+      "crossRefs": [
+        "kp-overhang-technique",
+        "kp-roof-technique"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-pushing-power",
+      "path": "physical/upper-body",
+      "sectionId": "section-02",
+      "sectionSlug": "physical",
+      "sectionTitle": {
+        "zh": "身体素质",
+        "en": "Physical Fitness"
+      },
+      "subSectionId": "s02-upper-body",
+      "subSectionSlug": "upper-body",
+      "subSectionTitle": {
+        "zh": "上肢力量",
+        "en": "Upper Body Strength"
+      },
+      "title": {
+        "zh": "推力与翻越",
+        "en": "Pushing Power & Mantling"
+      },
+      "keywords": [
+        "翻越",
+        "mantle / mantling",
+        "出顶",
+        "topping out",
+        "双杠臂屈伸",
+        "dips",
+        "肱三头肌",
+        "triceps"
+      ],
+      "tags": [
+        "beginner",
+        "intermediate",
+        "training",
+        "strength"
+      ],
+      "crossRefs": [
+        "kp-slab-technique"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-shoulder-stability",
+      "path": "physical/upper-body",
+      "sectionId": "section-02",
+      "sectionSlug": "physical",
+      "sectionTitle": {
+        "zh": "身体素质",
+        "en": "Physical Fitness"
+      },
+      "subSectionId": "s02-upper-body",
+      "subSectionSlug": "upper-body",
+      "subSectionTitle": {
+        "zh": "上肢力量",
+        "en": "Upper Body Strength"
+      },
+      "title": {
+        "zh": "肩部稳定性",
+        "en": "Shoulder Stability"
+      },
+      "keywords": [
+        "肩袖",
+        "rotator cuff",
+        "肩胛骨引体",
+        "scapular pull-up",
+        "面拉",
+        "face pull",
+        "外旋",
+        "external rotation",
+        "肩关节稳定性",
+        "shoulder stability"
+      ],
+      "tags": [
+        "beginner",
+        "intermediate",
+        "training",
+        "strength"
+      ],
+      "crossRefs": [
+        "kp-warmup",
+        "kp-dyno-technique"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-core-role",
+      "path": "physical/core",
+      "sectionId": "section-02",
+      "sectionSlug": "physical",
+      "sectionTitle": {
+        "zh": "身体素质",
+        "en": "Physical Fitness"
+      },
+      "subSectionId": "s02-core",
+      "subSectionSlug": "core",
+      "subSectionTitle": {
+        "zh": "核心力量",
+        "en": "Core Strength"
+      },
+      "title": {
+        "zh": "核心在攀岩中的作用",
+        "en": "The Role of Core in Climbing"
+      },
+      "keywords": [
+        "身体张力",
+        "body tension",
+        "barn door（身体摆开）",
+        "barn door",
+        "重心控制",
+        "center of gravity control",
+        "脚切（脚离开岩点）",
+        "feet cutting loose"
+      ],
+      "tags": [
+        "beginner",
+        "intermediate",
+        "technique",
+        "strength"
+      ],
+      "crossRefs": [
+        "kp-overhang-technique",
+        "kp-roof-technique",
+        "kp-toe-hook",
+        "kp-heel-hook"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-core-training",
+      "path": "physical/core",
+      "sectionId": "section-02",
+      "sectionSlug": "physical",
+      "sectionTitle": {
+        "zh": "身体素质",
+        "en": "Physical Fitness"
+      },
+      "subSectionId": "s02-core",
+      "subSectionSlug": "core",
+      "subSectionTitle": {
+        "zh": "核心力量",
+        "en": "Core Strength"
+      },
+      "title": {
+        "zh": "核心训练方法",
+        "en": "Core Training Methods"
+      },
+      "keywords": [
+        "前水平",
+        "front lever",
+        "悬垂举腿",
+        "hanging leg raise",
+        "L型支撑",
+        "L-sit",
+        "龙旗",
+        "dragon flag",
+        "收腿前水平",
+        "tuck front lever"
+      ],
+      "tags": [
+        "intermediate",
+        "advanced",
+        "training",
+        "strength"
+      ],
+      "crossRefs": [
+        "kp-overhang-technique",
+        "kp-roof-technique",
+        "kp-warmup"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-anti-rotation",
+      "path": "physical/core",
+      "sectionId": "section-02",
+      "sectionSlug": "physical",
+      "sectionTitle": {
+        "zh": "身体素质",
+        "en": "Physical Fitness"
+      },
+      "subSectionId": "s02-core",
+      "subSectionSlug": "core",
+      "subSectionTitle": {
+        "zh": "核心力量",
+        "en": "Core Strength"
+      },
+      "title": {
+        "zh": "抗旋转核心力量",
+        "en": "Anti-Rotation Core Strength"
+      },
+      "keywords": [
+        "抗旋转",
+        "anti-rotation",
+        "帕洛夫推举",
+        "Pallof press",
+        "腹横肌",
+        "transverse abdominis",
+        "旗帜脚",
+        "flagging"
+      ],
+      "tags": [
+        "intermediate",
+        "advanced",
+        "training",
+        "strength"
+      ],
+      "crossRefs": [
+        "kp-overhang-technique",
+        "kp-dyno-technique"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-hip-flexibility",
+      "path": "physical/flexibility",
+      "sectionId": "section-02",
+      "sectionSlug": "physical",
+      "sectionTitle": {
+        "zh": "身体素质",
+        "en": "Physical Fitness"
+      },
+      "subSectionId": "s02-flexibility",
+      "subSectionSlug": "flexibility",
+      "subSectionTitle": {
+        "zh": "柔韧性与灵活性",
+        "en": "Flexibility & Mobility"
+      },
+      "title": {
+        "zh": "髋关节柔韧性",
+        "en": "Hip Flexibility"
+      },
+      "keywords": [
+        "高踏步",
+        "high step",
+        "劈叉",
+        "splits",
+        "撑壁",
+        "stemming",
+        "桥接",
+        "bridging",
+        "蛙式姿势",
+        "frog position",
+        "内收肌",
+        "adductors"
+      ],
+      "tags": [
+        "beginner",
+        "intermediate",
+        "training",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-slab-technique",
+        "kp-warmup"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-shoulder-mobility",
+      "path": "physical/flexibility",
+      "sectionId": "section-02",
+      "sectionSlug": "physical",
+      "sectionTitle": {
+        "zh": "身体素质",
+        "en": "Physical Fitness"
+      },
+      "subSectionId": "s02-flexibility",
+      "subSectionSlug": "flexibility",
+      "subSectionTitle": {
+        "zh": "柔韧性与灵活性",
+        "en": "Flexibility & Mobility"
+      },
+      "title": {
+        "zh": "肩部灵活性",
+        "en": "Shoulder Mobility"
+      },
+      "keywords": [
+        "Gaston（外推）",
+        "Gaston",
+        "胸椎灵活性",
+        "thoracic mobility",
+        "肩部过头动作",
+        "shoulder pass-through",
+        "悬吊拉伸",
+        "dead hang stretch"
+      ],
+      "tags": [
+        "beginner",
+        "intermediate",
+        "training"
+      ],
+      "crossRefs": [
+        "kp-warmup",
+        "kp-shoulder-stability"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-warmup-stretching",
+      "path": "physical/flexibility",
+      "sectionId": "section-02",
+      "sectionSlug": "physical",
+      "sectionTitle": {
+        "zh": "身体素质",
+        "en": "Physical Fitness"
+      },
+      "subSectionId": "s02-flexibility",
+      "subSectionSlug": "flexibility",
+      "subSectionTitle": {
+        "zh": "柔韧性与灵活性",
+        "en": "Flexibility & Mobility"
+      },
+      "title": {
+        "zh": "热身与拉伸方案",
+        "en": "Warmup & Stretching Routines"
+      },
+      "keywords": [
+        "动态拉伸",
+        "dynamic stretching",
+        "静态拉伸",
+        "static stretching",
+        "渐进式热身",
+        "progressive warmup",
+        "关节活动度",
+        "joint mobility"
+      ],
+      "tags": [
+        "beginner",
+        "training"
+      ],
+      "crossRefs": [
+        "kp-warmup",
+        "kp-rest-management",
+        "kp-pulley-injury"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-endurance-types",
+      "path": "physical/endurance",
+      "sectionId": "section-02",
+      "sectionSlug": "physical",
+      "sectionTitle": {
+        "zh": "身体素质",
+        "en": "Physical Fitness"
+      },
+      "subSectionId": "s02-endurance",
+      "subSectionSlug": "endurance",
+      "subSectionTitle": {
+        "zh": "耐力",
+        "en": "Endurance"
+      },
+      "title": {
+        "zh": "有氧与无氧耐力",
+        "en": "Aerobic vs Anaerobic Endurance"
+      },
+      "keywords": [
+        "有氧耐力",
+        "aerobic endurance",
+        "力量耐力",
+        "power endurance",
+        "泵感/前臂充血",
+        "pump / forearm pump",
+        "红点攀登",
+        "redpoint",
+        "乳酸堆积",
+        "lactate accumulation"
+      ],
+      "tags": [
+        "beginner",
+        "intermediate",
+        "training",
+        "strength"
+      ],
+      "crossRefs": [
+        "kp-rest-management"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-arc-training",
+      "path": "physical/endurance",
+      "sectionId": "section-02",
+      "sectionSlug": "physical",
+      "sectionTitle": {
+        "zh": "身体素质",
+        "en": "Physical Fitness"
+      },
+      "subSectionId": "s02-endurance",
+      "subSectionSlug": "endurance",
+      "subSectionTitle": {
+        "zh": "耐力",
+        "en": "Endurance"
+      },
+      "title": {
+        "zh": "ARC训练",
+        "en": "ARC Training"
+      },
+      "keywords": [
+        "ARC训练",
+        "ARC training (Aerobic Restoration and Capillarity)",
+        "毛细血管密度",
+        "capillary density",
+        "基础阶段",
+        "base phase",
+        "横移",
+        "traverse"
+      ],
+      "tags": [
+        "intermediate",
+        "training",
+        "strength"
+      ],
+      "crossRefs": [
+        "kp-rest-management",
+        "kp-warmup"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-4x4-training",
+      "path": "physical/endurance",
+      "sectionId": "section-02",
+      "sectionSlug": "physical",
+      "sectionTitle": {
+        "zh": "身体素质",
+        "en": "Physical Fitness"
+      },
+      "subSectionId": "s02-endurance",
+      "subSectionSlug": "endurance",
+      "subSectionTitle": {
+        "zh": "耐力",
+        "en": "Endurance"
+      },
+      "title": {
+        "zh": "4x4训练法",
+        "en": "4x4 Training Method"
+      },
+      "keywords": [
+        "4x4训练法",
+        "4x4 training method",
+        "力量耐力",
+        "power endurance",
+        "链接",
+        "link / linking",
+        "轮次",
+        "round / set"
+      ],
+      "tags": [
+        "intermediate",
+        "advanced",
+        "training",
+        "strength"
+      ],
+      "crossRefs": [
+        "kp-rest-management",
+        "kp-warmup"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-long-route-endurance",
+      "path": "physical/endurance",
+      "sectionId": "section-02",
+      "sectionSlug": "physical",
+      "sectionTitle": {
+        "zh": "身体素质",
+        "en": "Physical Fitness"
+      },
+      "subSectionId": "s02-endurance",
+      "subSectionSlug": "endurance",
+      "subSectionTitle": {
+        "zh": "耐力",
+        "en": "Endurance"
+      },
+      "title": {
+        "zh": "长路线耐力管理",
+        "en": "Long Route Endurance Management"
+      },
+      "keywords": [
+        "休息位置",
+        "rest position",
+        "甩臂",
+        "shaking out / arm shake",
+        "膝挡",
+        "knee bar",
+        "难点段落",
+        "crux section",
+        "体力分配",
+        "pacing"
+      ],
+      "tags": [
+        "intermediate",
+        "advanced",
+        "training",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-rest-management",
+        "kp-fear-management"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-campus-training",
+      "path": "physical/power",
+      "sectionId": "section-02",
+      "sectionSlug": "physical",
+      "sectionTitle": {
+        "zh": "身体素质",
+        "en": "Physical Fitness"
+      },
+      "subSectionId": "s02-power",
+      "subSectionSlug": "power",
+      "subSectionTitle": {
+        "zh": "爆发力",
+        "en": "Power"
+      },
+      "title": {
+        "zh": "校园板训练",
+        "en": "Campus Board Training"
+      },
+      "keywords": [
+        "校园板",
+        "campus board",
+        "横档",
+        "rung",
+        "阶梯上行",
+        "laddering",
+        "跳级上行",
+        "bumping",
+        "接触力量",
+        "contact strength"
+      ],
+      "tags": [
+        "advanced",
+        "training",
+        "strength"
+      ],
+      "crossRefs": [
+        "kp-campus-board-gear",
+        "kp-pulley-injury",
+        "kp-warmup"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-dynamic-movement",
+      "path": "physical/power",
+      "sectionId": "section-02",
+      "sectionSlug": "physical",
+      "sectionTitle": {
+        "zh": "身体素质",
+        "en": "Physical Fitness"
+      },
+      "subSectionId": "s02-power",
+      "subSectionSlug": "power",
+      "subSectionTitle": {
+        "zh": "爆发力",
+        "en": "Power"
+      },
+      "title": {
+        "zh": "动态动作",
+        "en": "Dynamic Movement"
+      },
+      "keywords": [
+        "动态动作",
+        "dynamic movement",
+        "趋势点",
+        "deadpoint",
+        "飞跃/Dyno",
+        "dyno",
+        "接触力量",
+        "contact strength",
+        "失重瞬间",
+        "zero-gravity moment / apex"
+      ],
+      "tags": [
+        "intermediate",
+        "advanced",
+        "technique",
+        "strength"
+      ],
+      "crossRefs": [
+        "kp-deadpoint",
+        "kp-dyno-technique",
+        "kp-campus-board-gear"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-coordination-timing",
+      "path": "physical/power",
+      "sectionId": "section-02",
+      "sectionSlug": "physical",
+      "sectionTitle": {
+        "zh": "身体素质",
+        "en": "Physical Fitness"
+      },
+      "subSectionId": "s02-power",
+      "subSectionSlug": "power",
+      "subSectionTitle": {
+        "zh": "爆发力",
+        "en": "Power"
+      },
+      "title": {
+        "zh": "协调性与时机",
+        "en": "Coordination & Timing"
+      },
+      "keywords": [
+        "协调性",
+        "coordination",
+        "时机把握",
+        "timing",
+        "动作流畅性",
+        "movement fluency",
+        "节奏",
+        "rhythm",
+        "全身协调",
+        "whole-body coordination"
+      ],
+      "tags": [
+        "intermediate",
+        "advanced",
+        "technique",
+        "training"
+      ],
+      "crossRefs": [
+        "kp-deadpoint",
+        "kp-dyno-technique",
+        "kp-fear-management"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-edging",
+      "path": "technique/footwork",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique"
+      },
+      "subSectionId": "s03-footwork",
+      "subSectionSlug": "footwork",
+      "subSectionTitle": {
+        "zh": "脚法",
+        "en": "Footwork"
+      },
+      "title": {
+        "zh": "边踩（Edging）",
+        "en": "Edging"
+      },
+      "keywords": [
+        "边踩",
+        "edging",
+        "内侧边踩",
+        "inside edge",
+        "外侧边踩",
+        "outside edge",
+        "静音踩点",
+        "silent feet"
+      ],
+      "tags": [
+        "beginner",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-climbing-shoes",
+        "kp-slab-technique",
+        "kp-drop-knee"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-smearing",
+      "path": "technique/footwork",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique"
+      },
+      "subSectionId": "s03-footwork",
+      "subSectionSlug": "footwork",
+      "subSectionTitle": {
+        "zh": "脚法",
+        "en": "Footwork"
+      },
+      "title": {
+        "zh": "摩擦踩（Smearing）",
+        "en": "Smearing"
+      },
+      "keywords": [
+        "摩擦踩",
+        "smearing",
+        "正压力",
+        "normal force",
+        "板岩",
+        "slab",
+        "鞋底橡胶",
+        "sole rubber"
+      ],
+      "tags": [
+        "beginner",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-slab-technique",
+        "kp-climbing-shoes",
+        "kp-edging"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-toe-hook",
+      "path": "technique/footwork",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique"
+      },
+      "subSectionId": "s03-footwork",
+      "subSectionSlug": "footwork",
+      "subSectionTitle": {
+        "zh": "脚法",
+        "en": "Footwork"
+      },
+      "title": {
+        "zh": "勾脚尖（Toe Hook）",
+        "en": "Toe Hook"
+      },
+      "keywords": [
+        "勾脚尖",
+        "toe hook",
+        "门打开效应",
+        "barn door",
+        "身体张力",
+        "body tension",
+        "体积点",
+        "volume"
+      ],
+      "tags": [
+        "intermediate",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-heel-hook",
+        "kp-overhang-technique",
+        "kp-roof-technique",
+        "kp-core-role"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-heel-hook",
+      "path": "technique/footwork",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique"
+      },
+      "subSectionId": "s03-footwork",
+      "subSectionSlug": "footwork",
+      "subSectionTitle": {
+        "zh": "脚法",
+        "en": "Footwork"
+      },
+      "title": {
+        "zh": "勾脚跟（Heel Hook）",
+        "en": "Heel Hook"
+      },
+      "keywords": [
+        "勾脚跟",
+        "heel hook",
+        "高勾脚跟",
+        "high heel hook",
+        "腘绳肌",
+        "hamstrings",
+        "臀肌",
+        "glutes"
+      ],
+      "tags": [
+        "intermediate",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-toe-hook",
+        "kp-hip-flexibility",
+        "kp-overhang-technique",
+        "kp-climbing-shoes"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-bicycle",
+      "path": "technique/footwork",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique"
+      },
+      "subSectionId": "s03-footwork",
+      "subSectionSlug": "footwork",
+      "subSectionTitle": {
+        "zh": "脚法",
+        "en": "Footwork"
+      },
+      "title": {
+        "zh": "自行车技术（Bicycle）",
+        "en": "Bicycle Technique"
+      },
+      "keywords": [
+        "自行车技术",
+        "bicycle",
+        "对向夹力",
+        "opposing clamp force",
+        "体积点",
+        "volume"
+      ],
+      "tags": [
+        "intermediate",
+        "advanced",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-toe-hook",
+        "kp-heel-hook",
+        "kp-core-role",
+        "kp-roof-technique"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-foot-switching",
+      "path": "technique/footwork",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique"
+      },
+      "subSectionId": "s03-footwork",
+      "subSectionSlug": "footwork",
+      "subSectionTitle": {
+        "zh": "脚法",
+        "en": "Footwork"
+      },
+      "title": {
+        "zh": "换脚技术",
+        "en": "Foot Switching"
+      },
+      "keywords": [
+        "换脚",
+        "foot switch",
+        "跳换",
+        "hop switch",
+        "滑换",
+        "slide switch",
+        "垫步换脚",
+        "dab switch"
+      ],
+      "tags": [
+        "beginner",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-edging",
+        "kp-smearing",
+        "kp-route-reading-basics"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-smedging",
+      "path": "technique/footwork",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique"
+      },
+      "subSectionId": "s03-footwork",
+      "subSectionSlug": "footwork",
+      "subSectionTitle": {
+        "zh": "脚法",
+        "en": "Footwork"
+      },
+      "title": {
+        "zh": "蹬踩（Smedging）",
+        "en": "Smedging"
+      },
+      "keywords": [
+        "蹬踩",
+        "smedging",
+        "混合脚法",
+        "hybrid footwork",
+        "模糊边缘",
+        "vague edge"
+      ],
+      "tags": [
+        "beginner",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-edging",
+        "kp-smearing",
+        "kp-slab-technique"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-jug-hold",
+      "path": "technique/handholds",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique"
+      },
+      "subSectionId": "s03-handholds",
+      "subSectionSlug": "handholds",
+      "subSectionTitle": {
+        "zh": "手法与抓握",
+        "en": "Handholds & Gripping"
+      },
+      "title": {
+        "zh": "大把手点（Jug）",
+        "en": "Jug Holds"
+      },
+      "keywords": [
+        "大把手点",
+        "jug",
+        "岩坎",
+        "ledge",
+        "抖手",
+        "shake out"
+      ],
+      "tags": [
+        "beginner",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-route-reading-basics",
+        "kp-rest-management",
+        "kp-grip-types"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-crimp-hold",
+      "path": "technique/handholds",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique"
+      },
+      "subSectionId": "s03-handholds",
+      "subSectionSlug": "handholds",
+      "subSectionTitle": {
+        "zh": "手法与抓握",
+        "en": "Handholds & Gripping"
+      },
+      "title": {
+        "zh": "抠点与捏握（Crimp）",
+        "en": "Crimp Holds"
+      },
+      "keywords": [
+        "抠点",
+        "crimp",
+        "全捏握",
+        "full crimp",
+        "半捏握",
+        "half crimp",
+        "A2 滑车韧带",
+        "A2 pulley"
+      ],
+      "tags": [
+        "beginner",
+        "technique",
+        "safety"
+      ],
+      "crossRefs": [
+        "kp-grip-types",
+        "kp-pulley-injury",
+        "kp-hangboard-training"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-sloper-hold",
+      "path": "technique/handholds",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique"
+      },
+      "subSectionId": "s03-handholds",
+      "subSectionSlug": "handholds",
+      "subSectionTitle": {
+        "zh": "手法与抓握",
+        "en": "Handholds & Gripping"
+      },
+      "title": {
+        "zh": "圆点（Sloper）",
+        "en": "Sloper Holds"
+      },
+      "keywords": [
+        "圆点",
+        "sloper",
+        "张手握",
+        "open hand",
+        "镁粉/粉笔",
+        "chalk",
+        "接触面积",
+        "contact area"
+      ],
+      "tags": [
+        "intermediate",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-grip-types",
+        "kp-smearing",
+        "kp-fear-management"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-pinch-hold",
+      "path": "technique/handholds",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique"
+      },
+      "subSectionId": "s03-handholds",
+      "subSectionSlug": "handholds",
+      "subSectionTitle": {
+        "zh": "手法与抓握",
+        "en": "Handholds & Gripping"
+      },
+      "title": {
+        "zh": "捏点（Pinch）",
+        "en": "Pinch Holds"
+      },
+      "keywords": [
+        "捏点",
+        "pinch",
+        "对握力",
+        "opposing grip force",
+        "宽捏",
+        "wide pinch",
+        "捏力训练器",
+        "pinch block"
+      ],
+      "tags": [
+        "intermediate",
+        "technique",
+        "strength"
+      ],
+      "crossRefs": [
+        "kp-grip-types",
+        "kp-hangboard-training",
+        "kp-hangboard-gear"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-pocket-hold",
+      "path": "technique/handholds",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique"
+      },
+      "subSectionId": "s03-handholds",
+      "subSectionSlug": "handholds",
+      "subSectionTitle": {
+        "zh": "手法与抓握",
+        "en": "Handholds & Gripping"
+      },
+      "title": {
+        "zh": "指洞（Pocket）",
+        "en": "Pocket Holds"
+      },
+      "keywords": [
+        "指洞",
+        "pocket",
+        "单指洞",
+        "mono",
+        "双指洞",
+        "two-finger pocket",
+        "屈肌腱",
+        "flexor tendon"
+      ],
+      "tags": [
+        "intermediate",
+        "technique",
+        "safety"
+      ],
+      "crossRefs": [
+        "kp-grip-types",
+        "kp-pulley-injury",
+        "kp-warmup"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-undercling-sidepull-gaston",
+      "path": "technique/handholds",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique"
+      },
+      "subSectionId": "s03-handholds",
+      "subSectionSlug": "handholds",
+      "subSectionTitle": {
+        "zh": "手法与抓握",
+        "en": "Handholds & Gripping"
+      },
+      "title": {
+        "zh": "反抓、侧拉与加斯顿",
+        "en": "Undercling, Side Pull & Gaston"
+      },
+      "keywords": [
+        "反抓",
+        "undercling",
+        "侧拉",
+        "side pull",
+        "加斯顿",
+        "gaston",
+        "遍历",
+        "traverse"
+      ],
+      "tags": [
+        "intermediate",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-grip-types",
+        "kp-flagging",
+        "kp-twist-lock",
+        "kp-route-reading-basics"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-palming",
+      "path": "technique/handholds",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique"
+      },
+      "subSectionId": "s03-handholds",
+      "subSectionSlug": "handholds",
+      "subSectionTitle": {
+        "zh": "手法与抓握",
+        "en": "Handholds & Gripping"
+      },
+      "title": {
+        "zh": "掌撑/摩擦抓法（Palming）",
+        "en": "Palming"
+      },
+      "keywords": [
+        "掌撑",
+        "palming",
+        "摩擦抓法",
+        "friction grip",
+        "正压力",
+        "normal force"
+      ],
+      "tags": [
+        "intermediate",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-sloper-hold",
+        "kp-arete-mantle",
+        "kp-slab-technique"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-hand-sequence",
+      "path": "technique/handholds",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique"
+      },
+      "subSectionId": "s03-handholds",
+      "subSectionSlug": "handholds",
+      "subSectionTitle": {
+        "zh": "手法与抓握",
+        "en": "Handholds & Gripping"
+      },
+      "title": {
+        "zh": "手顺与换手技术（Hand Sequences）",
+        "en": "Hand Sequences"
+      },
+      "keywords": [
+        "同点",
+        "match",
+        "跳点",
+        "bump",
+        "交叉手",
+        "cross move",
+        "交叉式",
+        "crossover",
+        "换手",
+        "hand switch"
+      ],
+      "tags": [
+        "beginner",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-route-reading-basics",
+        "kp-foot-switching"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-center-of-gravity",
+      "path": "technique/body-positioning",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique"
+      },
+      "subSectionId": "s03-positioning",
+      "subSectionSlug": "body-positioning",
+      "subSectionTitle": {
+        "zh": "身体定位与重心",
+        "en": "Body Positioning"
+      },
+      "title": {
+        "zh": "重心管理",
+        "en": "Center of Gravity Management"
+      },
+      "keywords": [
+        "重心",
+        "center of gravity (COG)",
+        "伸直手臂",
+        "straight arms",
+        "骨骼承重",
+        "skeletal loading",
+        "侧身入墙",
+        "turning in"
+      ],
+      "tags": [
+        "beginner",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-flagging",
+        "kp-drop-knee",
+        "kp-slab-technique",
+        "kp-aerobic-endurance"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-flagging",
+      "path": "technique/body-positioning",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique"
+      },
+      "subSectionId": "s03-positioning",
+      "subSectionSlug": "body-positioning",
+      "subSectionTitle": {
+        "zh": "身体定位与重心",
+        "en": "Body Positioning"
+      },
+      "title": {
+        "zh": "旗帜步（Flagging）",
+        "en": "Flagging"
+      },
+      "keywords": [
+        "旗帜步",
+        "flagging",
+        "内侧旗帜步",
+        "inside flag",
+        "外侧旗帜步",
+        "outside flag",
+        "平衡杆",
+        "counterbalance"
+      ],
+      "tags": [
+        "beginner",
+        "intermediate",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-center-of-gravity",
+        "kp-twist-lock",
+        "kp-drop-knee"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-drop-knee",
+      "path": "technique/body-positioning",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique"
+      },
+      "subSectionId": "s03-positioning",
+      "subSectionSlug": "body-positioning",
+      "subSectionTitle": {
+        "zh": "身体定位与重心",
+        "en": "Body Positioning"
+      },
+      "title": {
+        "zh": "落膝（Drop Knee）",
+        "en": "Drop Knee"
+      },
+      "keywords": [
+        "落膝",
+        "drop knee",
+        "出手距离",
+        "reach",
+        "侧身姿态",
+        "sideways stance"
+      ],
+      "tags": [
+        "intermediate",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-edging",
+        "kp-flagging",
+        "kp-overhang-technique",
+        "kp-hip-flexibility"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-twist-lock",
+      "path": "technique/body-positioning",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique"
+      },
+      "subSectionId": "s03-positioning",
+      "subSectionSlug": "body-positioning",
+      "subSectionTitle": {
+        "zh": "身体定位与重心",
+        "en": "Body Positioning"
+      },
+      "title": {
+        "zh": "扭锁（Twist Lock）",
+        "en": "Twist Lock"
+      },
+      "keywords": [
+        "扭锁",
+        "twist lock",
+        "锁定",
+        "lock-off",
+        "转体",
+        "body rotation",
+        "出手侧",
+        "reaching side"
+      ],
+      "tags": [
+        "intermediate",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-drop-knee",
+        "kp-pulling-power",
+        "kp-aerobic-endurance",
+        "kp-flagging"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-back-step",
+      "path": "technique/body-positioning",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique"
+      },
+      "subSectionId": "s03-positioning",
+      "subSectionSlug": "body-positioning",
+      "subSectionTitle": {
+        "zh": "身体定位与重心",
+        "en": "Body Positioning"
+      },
+      "title": {
+        "zh": "背步（Back Step）",
+        "en": "Back Step"
+      },
+      "keywords": [
+        "背步",
+        "back step",
+        "外侧边踩",
+        "outside edge",
+        "侧身攀爬",
+        "sideways climbing"
+      ],
+      "tags": [
+        "beginner",
+        "intermediate",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-drop-knee",
+        "kp-edging",
+        "kp-twist-lock"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-diagonal-support",
+      "path": "technique/body-positioning",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique"
+      },
+      "subSectionId": "s03-positioning",
+      "subSectionSlug": "body-positioning",
+      "subSectionTitle": {
+        "zh": "身体定位与重心",
+        "en": "Body Positioning"
+      },
+      "title": {
+        "zh": "对角支撑（Diagonal Support / Opposition）",
+        "en": "Diagonal Support"
+      },
+      "keywords": [
+        "对角支撑",
+        "diagonal support",
+        "内对角",
+        "inside diagonal",
+        "外对角",
+        "outside diagonal",
+        "对立力",
+        "opposition"
+      ],
+      "tags": [
+        "beginner",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-center-of-gravity",
+        "kp-flagging"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-stemming",
+      "path": "technique/body-positioning",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique"
+      },
+      "subSectionId": "s03-positioning",
+      "subSectionSlug": "body-positioning",
+      "subSectionTitle": {
+        "zh": "身体定位与重心",
+        "en": "Body Positioning"
+      },
+      "title": {
+        "zh": "外撑/桥接（Stemming）",
+        "en": "Stemming"
+      },
+      "keywords": [
+        "外撑",
+        "stemming",
+        "桥接",
+        "bridging",
+        "二面角",
+        "dihedral",
+        "内角",
+        "corner"
+      ],
+      "tags": [
+        "intermediate",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-center-of-gravity",
+        "kp-slab-technique",
+        "kp-crack-technique"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-layback",
+      "path": "technique/body-positioning",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique"
+      },
+      "subSectionId": "s03-positioning",
+      "subSectionSlug": "body-positioning",
+      "subSectionTitle": {
+        "zh": "身体定位与重心",
+        "en": "Body Positioning"
+      },
+      "title": {
+        "zh": "侧拉/侧身（Layback / Lieback）",
+        "en": "Layback"
+      },
+      "keywords": [
+        "侧拉",
+        "layback",
+        "侧身",
+        "lieback",
+        "对拉力",
+        "opposing pull"
+      ],
+      "tags": [
+        "intermediate",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-crack-technique",
+        "kp-arete-mantle",
+        "kp-undercling-sidepull-gaston"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-high-step-mantle",
+      "path": "technique/body-positioning",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique"
+      },
+      "subSectionId": "s03-positioning",
+      "subSectionSlug": "body-positioning",
+      "subSectionTitle": {
+        "zh": "身体定位与重心",
+        "en": "Body Positioning"
+      },
+      "title": {
+        "zh": "高跨步与翻越（High Step & Mantling）",
+        "en": "High Step & Mantling"
+      },
+      "keywords": [
+        "高跨步",
+        "high step",
+        "翻越",
+        "mantle",
+        "下压",
+        "press",
+        "登顶",
+        "top-out"
+      ],
+      "tags": [
+        "intermediate",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-hip-flexibility",
+        "kp-center-of-gravity"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-dyno-technique",
+      "path": "technique/dynamic",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique"
+      },
+      "subSectionId": "s03-dynamic",
+      "subSectionSlug": "dynamic",
+      "subSectionTitle": {
+        "zh": "动态技术",
+        "en": "Dynamic Movement"
+      },
+      "title": {
+        "zh": "飞跃（Dyno）",
+        "en": "Dyno"
+      },
+      "keywords": [
+        "飞跃",
+        "dyno",
+        "起跳点",
+        "launch hold",
+        "动量",
+        "momentum",
+        "协调飞跃",
+        "coordination dyno"
+      ],
+      "tags": [
+        "intermediate",
+        "advanced",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-deadpoint",
+        "kp-dynamic-power",
+        "kp-campus-training",
+        "kp-campus-board-gear"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-deadpoint",
+      "path": "technique/dynamic",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique"
+      },
+      "subSectionId": "s03-dynamic",
+      "subSectionSlug": "dynamic",
+      "subSectionTitle": {
+        "zh": "动态技术",
+        "en": "Dynamic Movement"
+      },
+      "title": {
+        "zh": "死点（Deadpoint）",
+        "en": "Deadpoint"
+      },
+      "keywords": [
+        "死点",
+        "deadpoint",
+        "失重瞬间",
+        "weightless moment",
+        "时机",
+        "timing",
+        "静态出手",
+        "static reach"
+      ],
+      "tags": [
+        "intermediate",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-dyno-technique",
+        "kp-pulling-power",
+        "kp-route-reading-basics"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-coordination-timing",
+      "path": "technique/dynamic",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique"
+      },
+      "subSectionId": "s03-dynamic",
+      "subSectionSlug": "dynamic",
+      "subSectionTitle": {
+        "zh": "动态技术",
+        "en": "Dynamic Movement"
+      },
+      "title": {
+        "zh": "协调动作与节奏",
+        "en": "Coordination Moves & Timing"
+      },
+      "keywords": [
+        "协调动作",
+        "coordination move",
+        "节奏",
+        "rhythm / timing",
+        "本体感觉",
+        "proprioception",
+        "标准化训练板",
+        "standardized training board"
+      ],
+      "tags": [
+        "advanced",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-dyno-technique",
+        "kp-deadpoint",
+        "kp-dynamic-power",
+        "kp-flow-state"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-lunge-types",
+      "path": "technique/dynamic",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique"
+      },
+      "subSectionId": "s03-dynamic",
+      "subSectionSlug": "dynamic",
+      "subSectionTitle": {
+        "zh": "动态技术",
+        "en": "Dynamic Movement"
+      },
+      "title": {
+        "zh": "蹦跳类型详解（Lunge Types）",
+        "en": "Lunge Types"
+      },
+      "keywords": [
+        "蹦跳",
+        "lunge",
+        "小蹦跳",
+        "short lunge",
+        "单手蹦跳",
+        "one-hand lunge"
+      ],
+      "tags": [
+        "intermediate",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-dyno-technique",
+        "kp-deadpoint",
+        "kp-coordination-timing"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-swing-momentum",
+      "path": "technique/dynamic",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique"
+      },
+      "subSectionId": "s03-dynamic",
+      "subSectionSlug": "dynamic",
+      "subSectionTitle": {
+        "zh": "动态技术",
+        "en": "Dynamic Movement"
+      },
+      "title": {
+        "zh": "重力助推与摆荡技术（Swing-by & Momentum）",
+        "en": "Swing-by & Momentum"
+      },
+      "keywords": [
+        "重力助推",
+        "swing-by",
+        "零式",
+        "cypher",
+        "摆荡",
+        "pendulum",
+        "动量",
+        "momentum"
+      ],
+      "tags": [
+        "advanced",
+        "technique",
+        "competition"
+      ],
+      "crossRefs": [
+        "kp-dyno-technique",
+        "kp-coordination-timing"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-campus-moves",
+      "path": "technique/dynamic",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique"
+      },
+      "subSectionId": "s03-dynamic",
+      "subSectionSlug": "dynamic",
+      "subSectionTitle": {
+        "zh": "动态技术",
+        "en": "Dynamic Movement"
+      },
+      "title": {
+        "zh": "指力跳与无脚动态（Campus Moves）",
+        "en": "Campus Moves"
+      },
+      "keywords": [
+        "指力跳",
+        "campus lunge",
+        "无脚动态",
+        "feet-off dynamic",
+        "校园板",
+        "campus board"
+      ],
+      "tags": [
+        "advanced",
+        "technique",
+        "training"
+      ],
+      "crossRefs": [
+        "kp-dyno-technique",
+        "kp-hangboard-training",
+        "kp-upper-body-exercises"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-slab-technique",
+      "path": "technique/terrain",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique"
+      },
+      "subSectionId": "s03-terrain",
+      "subSectionSlug": "terrain",
+      "subSectionTitle": {
+        "zh": "特殊地形技术",
+        "en": "Terrain-Specific Techniques"
+      },
+      "title": {
+        "zh": "板岩技术（Slab）",
+        "en": "Slab Technique"
+      },
+      "keywords": [
+        "板岩",
+        "slab",
+        "重心前移",
+        "forward weight shift",
+        "微小体重转移",
+        "micro-weight transfer"
+      ],
+      "tags": [
+        "beginner",
+        "intermediate",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-smearing",
+        "kp-edging",
+        "kp-fear-management",
+        "kp-climbing-shoes"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-overhang-technique",
+      "path": "technique/terrain",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique"
+      },
+      "subSectionId": "s03-terrain",
+      "subSectionSlug": "terrain",
+      "subSectionTitle": {
+        "zh": "特殊地形技术",
+        "en": "Terrain-Specific Techniques"
+      },
+      "title": {
+        "zh": "仰角技术（Overhang）",
+        "en": "Overhang Technique"
+      },
+      "keywords": [
+        "仰角",
+        "overhang",
+        "脚脱落",
+        "cut feet",
+        "身体张力",
+        "body tension",
+        "膝盖钩",
+        "knee bar"
+      ],
+      "tags": [
+        "intermediate",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-toe-hook",
+        "kp-heel-hook",
+        "kp-drop-knee",
+        "kp-core-role",
+        "kp-aerobic-endurance"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-roof-technique",
+      "path": "technique/terrain",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique"
+      },
+      "subSectionId": "s03-terrain",
+      "subSectionSlug": "terrain",
+      "subSectionTitle": {
+        "zh": "特殊地形技术",
+        "en": "Terrain-Specific Techniques"
+      },
+      "title": {
+        "zh": "屋檐技术（Roof）",
+        "en": "Roof Technique"
+      },
+      "keywords": [
+        "屋檐",
+        "roof",
+        "翻唇",
+        "lip turn / topping out",
+        "唇边",
+        "lip"
+      ],
+      "tags": [
+        "advanced",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-toe-hook",
+        "kp-heel-hook",
+        "kp-bicycle",
+        "kp-core-role"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-crack-technique",
+      "path": "technique/terrain",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique"
+      },
+      "subSectionId": "s03-terrain",
+      "subSectionSlug": "terrain",
+      "subSectionTitle": {
+        "zh": "特殊地形技术",
+        "en": "Terrain-Specific Techniques"
+      },
+      "title": {
+        "zh": "裂缝技术（Crack）",
+        "en": "Crack Climbing Technique"
+      },
+      "keywords": [
+        "裂缝攀岩",
+        "crack climbing",
+        "手塞",
+        "hand jam",
+        "拳塞",
+        "fist jam",
+        "指锁",
+        "finger lock",
+        "薄手塞",
+        "thin hand jam",
+        "环锁",
+        "ring lock",
+        "臂锁",
+        "arm lock",
+        "脚塞",
+        "foot jam",
+        "指叠",
+        "finger stacking",
+        "宽缝",
+        "off-width",
+        "烟囱",
+        "chimney",
+        "胶带手套",
+        "tape glove"
+      ],
+      "tags": [
+        "intermediate",
+        "advanced",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-climbing-categories",
+        "kp-fall-technique",
+        "kp-harness",
+        "kp-layback",
+        "kp-stemming"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-arete-mantle",
+      "path": "technique/terrain",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique"
+      },
+      "subSectionId": "s03-terrain",
+      "subSectionSlug": "terrain",
+      "subSectionTitle": {
+        "zh": "特殊地形技术",
+        "en": "Terrain-Specific Techniques"
+      },
+      "title": {
+        "zh": "棱角与翻越技术",
+        "en": "Arete & Mantle Techniques"
+      },
+      "keywords": [
+        "棱角",
+        "arete",
+        "翻越",
+        "mantle / mantelshelf",
+        "推力",
+        "pressing power",
+        "手掌下压",
+        "palming / press"
+      ],
+      "tags": [
+        "intermediate",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-pinch-hold",
+        "kp-undercling-sidepull-gaston",
+        "kp-slab-technique"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-route-reading-basics",
+      "path": "technique/route-reading",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique"
+      },
+      "subSectionId": "s03-reading",
+      "subSectionSlug": "route-reading",
+      "subSectionTitle": {
+        "zh": "路线阅读",
+        "en": "Route Reading"
+      },
+      "title": {
+        "zh": "路线阅读基础",
+        "en": "Route Reading Fundamentals"
+      },
+      "keywords": [
+        "路线阅读",
+        "route reading",
+        "核心难点",
+        "crux",
+        "休息位",
+        "rest position",
+        "方案调整",
+        "beta adjustment"
+      ],
+      "tags": [
+        "beginner",
+        "intermediate",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-rest-management",
+        "kp-projecting-strategy",
+        "kp-grading-systems"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-onsight-flash-redpoint",
+      "path": "technique/route-reading",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique"
+      },
+      "subSectionId": "s03-reading",
+      "subSectionSlug": "route-reading",
+      "subSectionTitle": {
+        "zh": "路线阅读",
+        "en": "Route Reading"
+      },
+      "title": {
+        "zh": "Onsight、Flash 与 Redpoint 策略",
+        "en": "Onsight, Flash & Redpoint Strategies"
+      },
+      "keywords": [
+        "看攀",
+        "onsight",
+        "闪攀",
+        "flash",
+        "红点",
+        "redpoint",
+        "项目路线",
+        "project",
+        "攀爬风格",
+        "ascent style"
+      ],
+      "tags": [
+        "intermediate",
+        "technique",
+        "mental"
+      ],
+      "crossRefs": [
+        "kp-route-reading-basics",
+        "kp-projecting-strategy",
+        "kp-climbing-ethics",
+        "kp-rest-management"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-fear-management",
+      "path": "mental/fear",
+      "sectionId": "section-04",
+      "sectionSlug": "mental",
+      "sectionTitle": {
+        "zh": "心理与策略",
+        "en": "Mental Game & Strategy"
+      },
+      "subSectionId": "s04-fear",
+      "subSectionSlug": "fear",
+      "subSectionTitle": {
+        "zh": "恐惧管理",
+        "en": "Fear Management"
+      },
+      "title": {
+        "zh": "攀岩恐惧的类型与应对",
+        "en": "Types of Climbing Fear & Coping"
+      },
+      "keywords": [
+        "坠落恐惧",
+        "fall fear",
+        "高度恐惧",
+        "height fear",
+        "冻结反应",
+        "freezing",
+        "渐进式暴露",
+        "gradual exposure"
+      ],
+      "tags": [
+        "beginner",
+        "mental",
+        "safety"
+      ],
+      "crossRefs": [
+        "kp-fall-technique",
+        "kp-belaying",
+        "kp-flow-state"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-desensitization",
+      "path": "mental/fear",
+      "sectionId": "section-04",
+      "sectionSlug": "mental",
+      "sectionTitle": {
+        "zh": "心理与策略",
+        "en": "Mental Game & Strategy"
+      },
+      "subSectionId": "s04-fear",
+      "subSectionSlug": "fear",
+      "subSectionTitle": {
+        "zh": "恐惧管理",
+        "en": "Fear Management"
+      },
+      "title": {
+        "zh": "渐进脱敏与呼吸技术",
+        "en": "Gradual Desensitization & Breathing"
+      },
+      "keywords": [
+        "渐进脱敏",
+        "gradual desensitization",
+        "坠落练习",
+        "fall practice",
+        "动态保护",
+        "soft catch",
+        "方框呼吸",
+        "box breathing",
+        "副交感神经",
+        "parasympathetic nervous system"
+      ],
+      "tags": [
+        "beginner",
+        "intermediate",
+        "mental",
+        "safety"
+      ],
+      "crossRefs": [
+        "kp-fear-management",
+        "kp-fall-technique",
+        "kp-belaying",
+        "kp-flow-state"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-attention-management",
+      "path": "mental/focus",
+      "sectionId": "section-04",
+      "sectionSlug": "mental",
+      "sectionTitle": {
+        "zh": "心理与策略",
+        "en": "Mental Game & Strategy"
+      },
+      "subSectionId": "s04-focus",
+      "subSectionSlug": "focus",
+      "subSectionTitle": {
+        "zh": "专注与心流",
+        "en": "Focus & Flow State"
+      },
+      "title": {
+        "zh": "注意力管理",
+        "en": "Attention Management"
+      },
+      "keywords": [
+        "外部焦点",
+        "external focus",
+        "内部焦点",
+        "internal focus",
+        "正念冥想",
+        "mindfulness meditation",
+        "单步聚焦",
+        "single-step focus"
+      ],
+      "tags": [
+        "intermediate",
+        "mental"
+      ],
+      "crossRefs": [
+        "kp-fear-management",
+        "kp-flow-state",
+        "kp-route-reading-basics"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-flow-state",
+      "path": "mental/focus",
+      "sectionId": "section-04",
+      "sectionSlug": "mental",
+      "sectionTitle": {
+        "zh": "心理与策略",
+        "en": "Mental Game & Strategy"
+      },
+      "subSectionId": "s04-focus",
+      "subSectionSlug": "focus",
+      "subSectionTitle": {
+        "zh": "专注与心流",
+        "en": "Focus & Flow State"
+      },
+      "title": {
+        "zh": "心流状态",
+        "en": "Flow State"
+      },
+      "keywords": [
+        "心流",
+        "flow state",
+        "挑战-能力匹配",
+        "challenge-skill balance",
+        "全神贯注",
+        "total absorption",
+        "最佳体验",
+        "optimal experience"
+      ],
+      "tags": [
+        "intermediate",
+        "advanced",
+        "mental"
+      ],
+      "crossRefs": [
+        "kp-attention-management",
+        "kp-fear-management",
+        "kp-route-reading-basics",
+        "kp-projecting-strategy"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-competition-psychology",
+      "path": "mental/focus",
+      "sectionId": "section-04",
+      "sectionSlug": "mental",
+      "sectionTitle": {
+        "zh": "心理与策略",
+        "en": "Mental Game & Strategy"
+      },
+      "subSectionId": "s04-focus",
+      "subSectionSlug": "focus",
+      "subSectionTitle": {
+        "zh": "专注与心流",
+        "en": "Focus & Flow State"
+      },
+      "title": {
+        "zh": "竞技心理",
+        "en": "Competition Psychology"
+      },
+      "keywords": [
+        "表现焦虑",
+        "performance anxiety",
+        "隔离区",
+        "isolation zone",
+        "赛前准备程序",
+        "pre-performance routine",
+        "可视化",
+        "visualization",
+        "过程导向",
+        "process orientation"
+      ],
+      "tags": [
+        "advanced",
+        "mental"
+      ],
+      "crossRefs": [
+        "kp-flow-state",
+        "kp-attention-management",
+        "kp-fear-management"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-periodization",
+      "path": "mental/goals",
+      "sectionId": "section-04",
+      "sectionSlug": "mental",
+      "sectionTitle": {
+        "zh": "心理与策略",
+        "en": "Mental Game & Strategy"
+      },
+      "subSectionId": "s04-goals",
+      "subSectionSlug": "goals",
+      "subSectionTitle": {
+        "zh": "目标设定与训练规划",
+        "en": "Goal Setting & Training Planning"
+      },
+      "title": {
+        "zh": "周期化训练",
+        "en": "Periodization"
+      },
+      "keywords": [
+        "周期化训练",
+        "periodization",
+        "基础期",
+        "base phase",
+        "力量期",
+        "strength phase",
+        "爆发力期",
+        "power phase",
+        "表现期",
+        "performance phase",
+        "训练量",
+        "training volume"
+      ],
+      "tags": [
+        "intermediate",
+        "advanced",
+        "training"
+      ],
+      "crossRefs": [
+        "kp-hangboard-training",
+        "kp-campus-training",
+        "kp-aerobic-endurance",
+        "kp-rest-management"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-goal-setting",
+      "path": "mental/goals",
+      "sectionId": "section-04",
+      "sectionSlug": "mental",
+      "sectionTitle": {
+        "zh": "心理与策略",
+        "en": "Mental Game & Strategy"
+      },
+      "subSectionId": "s04-goals",
+      "subSectionSlug": "goals",
+      "subSectionTitle": {
+        "zh": "目标设定与训练规划",
+        "en": "Goal Setting & Training Planning"
+      },
+      "title": {
+        "zh": "短期与长期目标设定",
+        "en": "Short & Long Term Goal Setting"
+      },
+      "keywords": [
+        "SMART 原则",
+        "SMART goals",
+        "结果目标",
+        "outcome goal",
+        "过程目标",
+        "process goal",
+        "里程碑",
+        "milestone"
+      ],
+      "tags": [
+        "beginner",
+        "intermediate",
+        "training",
+        "mental"
+      ],
+      "crossRefs": [
+        "kp-periodization",
+        "kp-projecting-strategy",
+        "kp-flow-state"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-training-log",
+      "path": "mental/goals",
+      "sectionId": "section-04",
+      "sectionSlug": "mental",
+      "sectionTitle": {
+        "zh": "心理与策略",
+        "en": "Mental Game & Strategy"
+      },
+      "subSectionId": "s04-goals",
+      "subSectionSlug": "goals",
+      "subSectionTitle": {
+        "zh": "目标设定与训练规划",
+        "en": "Goal Setting & Training Planning"
+      },
+      "title": {
+        "zh": "训练日志与弱点分析",
+        "en": "Training Log & Weakness Analysis"
+      },
+      "keywords": [
+        "训练日志",
+        "training log",
+        "弱点分析",
+        "weakness analysis",
+        "技术评估矩阵",
+        "technical assessment matrix",
+        "视频分析",
+        "video analysis"
+      ],
+      "tags": [
+        "intermediate",
+        "training"
+      ],
+      "crossRefs": [
+        "kp-periodization",
+        "kp-goal-setting",
+        "kp-warmup"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-projecting-strategy",
+      "path": "mental/projecting",
+      "sectionId": "section-04",
+      "sectionSlug": "mental",
+      "sectionTitle": {
+        "zh": "心理与策略",
+        "en": "Mental Game & Strategy"
+      },
+      "subSectionId": "s04-projecting",
+      "subSectionSlug": "projecting",
+      "subSectionTitle": {
+        "zh": "项目攀登策略",
+        "en": "Projecting"
+      },
+      "title": {
+        "zh": "选择与分析项目路线",
+        "en": "Choosing & Analyzing a Project"
+      },
+      "keywords": [
+        "项目路线",
+        "project",
+        "分段研究",
+        "working sections",
+        "连接练习",
+        "linking",
+        "完整尝试",
+        "burn / redpoint attempt"
+      ],
+      "tags": [
+        "intermediate",
+        "advanced",
+        "technique",
+        "mental"
+      ],
+      "crossRefs": [
+        "kp-route-reading-basics",
+        "kp-onsight-flash-redpoint",
+        "kp-rest-management",
+        "kp-periodization"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-working-linking",
+      "path": "mental/projecting",
+      "sectionId": "section-04",
+      "sectionSlug": "mental",
+      "sectionTitle": {
+        "zh": "心理与策略",
+        "en": "Mental Game & Strategy"
+      },
+      "subSectionId": "s04-projecting",
+      "subSectionSlug": "projecting",
+      "subSectionTitle": {
+        "zh": "项目攀登策略",
+        "en": "Projecting"
+      },
+      "title": {
+        "zh": "分段练习与连接策略",
+        "en": "Working Sections & Linking"
+      },
+      "keywords": [
+        "分段练习",
+        "working sections",
+        "连接",
+        "linking",
+        "肌肉记忆",
+        "muscle memory",
+        "最高到达点",
+        "high point",
+        "动作方案",
+        "beta"
+      ],
+      "tags": [
+        "intermediate",
+        "advanced",
+        "training",
+        "mental"
+      ],
+      "crossRefs": [
+        "kp-projecting-strategy",
+        "kp-rest-management",
+        "kp-aerobic-endurance",
+        "kp-fear-management"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-plateau-breaking",
+      "path": "mental/projecting",
+      "sectionId": "section-04",
+      "sectionSlug": "mental",
+      "sectionTitle": {
+        "zh": "心理与策略",
+        "en": "Mental Game & Strategy"
+      },
+      "subSectionId": "s04-projecting",
+      "subSectionSlug": "projecting",
+      "subSectionTitle": {
+        "zh": "项目攀登策略",
+        "en": "Projecting"
+      },
+      "title": {
+        "zh": "突破平台期",
+        "en": "Breaking Plateaus"
+      },
+      "keywords": [
+        "平台期",
+        "plateau",
+        "训练单调化",
+        "training monotony",
+        "过度训练",
+        "overtraining",
+        "自我设限",
+        "self-limiting beliefs",
+        "主动恢复",
+        "active recovery / deload"
+      ],
+      "tags": [
+        "intermediate",
+        "advanced",
+        "training",
+        "mental"
+      ],
+      "crossRefs": [
+        "kp-periodization",
+        "kp-training-log",
+        "kp-goal-setting",
+        "kp-fear-management"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-climbing-shoes",
+      "path": "gear/basic-gear",
+      "sectionId": "section-05",
+      "sectionSlug": "gear",
+      "sectionTitle": {
+        "zh": "装备知识",
+        "en": "Gear & Equipment"
+      },
+      "subSectionId": "s05-basic",
+      "subSectionSlug": "basic-gear",
+      "subSectionTitle": {
+        "zh": "基础装备",
+        "en": "Basic Gear"
+      },
+      "title": {
+        "zh": "攀岩鞋",
+        "en": "Climbing Shoes"
+      },
+      "keywords": [
+        "攀岩鞋",
+        "climbing shoes",
+        "下弯鞋",
+        "downturn shoe",
+        "楦型",
+        "last shape",
+        "平底鞋",
+        "flat shoe",
+        "橡胶鞋底",
+        "rubber sole",
+        "不对称楦型",
+        "asymmetric last"
+      ],
+      "tags": [
+        "beginner",
+        "gear"
+      ],
+      "crossRefs": [
+        "kp-edging",
+        "kp-toe-hook",
+        "kp-heel-hook",
+        "kp-slab-technique"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-chalk",
+      "path": "gear/basic-gear",
+      "sectionId": "section-05",
+      "sectionSlug": "gear",
+      "sectionTitle": {
+        "zh": "装备知识",
+        "en": "Gear & Equipment"
+      },
+      "subSectionId": "s05-basic",
+      "subSectionSlug": "basic-gear",
+      "subSectionTitle": {
+        "zh": "基础装备",
+        "en": "Basic Gear"
+      },
+      "title": {
+        "zh": "镁粉与镁粉袋",
+        "en": "Chalk & Chalk Bag"
+      },
+      "keywords": [
+        "镁粉",
+        "chalk",
+        "碳酸镁",
+        "magnesium carbonate",
+        "镁粉球",
+        "chalk ball",
+        "液态镁粉",
+        "liquid chalk",
+        "镁粉袋",
+        "chalk bag"
+      ],
+      "tags": [
+        "beginner",
+        "gear"
+      ],
+      "crossRefs": [
+        "kp-crimp-hold",
+        "kp-sloper-hold"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-climbing-clothing",
+      "path": "gear/basic-gear",
+      "sectionId": "section-05",
+      "sectionSlug": "gear",
+      "sectionTitle": {
+        "zh": "装备知识",
+        "en": "Gear & Equipment"
+      },
+      "subSectionId": "s05-basic",
+      "subSectionSlug": "basic-gear",
+      "subSectionTitle": {
+        "zh": "基础装备",
+        "en": "Basic Gear"
+      },
+      "title": {
+        "zh": "攀岩服装",
+        "en": "Climbing Clothing"
+      },
+      "keywords": [
+        "攀岩裤",
+        "climbing pants",
+        "吸湿排汗",
+        "moisture-wicking",
+        "弹性面料",
+        "stretch fabric"
+      ],
+      "tags": [
+        "beginner",
+        "gear"
+      ],
+      "crossRefs": [
+        "kp-hip-flexibility"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-harness",
+      "path": "gear/protection",
+      "sectionId": "section-05",
+      "sectionSlug": "gear",
+      "sectionTitle": {
+        "zh": "装备知识",
+        "en": "Gear & Equipment"
+      },
+      "subSectionId": "s05-protection",
+      "subSectionSlug": "protection",
+      "subSectionTitle": {
+        "zh": "保护装备",
+        "en": "Protection Gear"
+      },
+      "title": {
+        "zh": "安全带",
+        "en": "Harness"
+      },
+      "keywords": [
+        "安全带",
+        "harness",
+        "腰带",
+        "waistbelt",
+        "腿环",
+        "leg loops",
+        "保护环",
+        "belay loop",
+        "装备环",
+        "gear loops"
+      ],
+      "tags": [
+        "beginner",
+        "gear",
+        "safety"
+      ],
+      "crossRefs": [
+        "kp-belaying",
+        "kp-rappelling",
+        "kp-fall-technique"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-helmet",
+      "path": "gear/protection",
+      "sectionId": "section-05",
+      "sectionSlug": "gear",
+      "sectionTitle": {
+        "zh": "装备知识",
+        "en": "Gear & Equipment"
+      },
+      "subSectionId": "s05-protection",
+      "subSectionSlug": "protection",
+      "subSectionTitle": {
+        "zh": "保护装备",
+        "en": "Protection Gear"
+      },
+      "title": {
+        "zh": "头盔",
+        "en": "Helmet"
+      },
+      "keywords": [
+        "头盔",
+        "helmet",
+        "硬壳头盔",
+        "hardshell helmet",
+        "泡沫头盔",
+        "foam helmet",
+        "混合型头盔",
+        "hybrid helmet"
+      ],
+      "tags": [
+        "beginner",
+        "gear",
+        "safety"
+      ],
+      "crossRefs": [
+        "kp-fall-technique",
+        "kp-belaying"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-rope",
+      "path": "gear/protection",
+      "sectionId": "section-05",
+      "sectionSlug": "gear",
+      "sectionTitle": {
+        "zh": "装备知识",
+        "en": "Gear & Equipment"
+      },
+      "subSectionId": "s05-protection",
+      "subSectionSlug": "protection",
+      "subSectionTitle": {
+        "zh": "保护装备",
+        "en": "Protection Gear"
+      },
+      "title": {
+        "zh": "攀岩绳",
+        "en": "Climbing Rope"
+      },
+      "keywords": [
+        "动力绳",
+        "dynamic rope",
+        "静力绳",
+        "static rope",
+        "绳径",
+        "rope diameter",
+        "延展率",
+        "elongation",
+        "绳皮",
+        "rope sheath",
+        "芯线",
+        "core strands"
+      ],
+      "tags": [
+        "beginner",
+        "gear",
+        "safety"
+      ],
+      "crossRefs": [
+        "kp-belaying",
+        "kp-rappelling",
+        "kp-knots",
+        "kp-fall-technique"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-belay-device",
+      "path": "gear/protection",
+      "sectionId": "section-05",
+      "sectionSlug": "gear",
+      "sectionTitle": {
+        "zh": "装备知识",
+        "en": "Gear & Equipment"
+      },
+      "subSectionId": "s05-protection",
+      "subSectionSlug": "protection",
+      "subSectionTitle": {
+        "zh": "保护装备",
+        "en": "Protection Gear"
+      },
+      "title": {
+        "zh": "保护器",
+        "en": "Belay Device"
+      },
+      "keywords": [
+        "保护器",
+        "belay device",
+        "管状保护器",
+        "tubular device / ATC",
+        "辅助制动保护器",
+        "assisted-braking device",
+        "制动手",
+        "brake hand",
+        "凸轮装置",
+        "cam mechanism"
+      ],
+      "tags": [
+        "beginner",
+        "gear",
+        "safety"
+      ],
+      "crossRefs": [
+        "kp-belaying",
+        "kp-rope",
+        "kp-rappelling"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-quickdraw",
+      "path": "gear/protection",
+      "sectionId": "section-05",
+      "sectionSlug": "gear",
+      "sectionTitle": {
+        "zh": "装备知识",
+        "en": "Gear & Equipment"
+      },
+      "subSectionId": "s05-protection",
+      "subSectionSlug": "protection",
+      "subSectionTitle": {
+        "zh": "保护装备",
+        "en": "Protection Gear"
+      },
+      "title": {
+        "zh": "快挂",
+        "en": "Quickdraw"
+      },
+      "keywords": [
+        "快挂",
+        "quickdraw",
+        "锁扣",
+        "carabiner",
+        "狗骨带",
+        "dogbone",
+        "丝扣锁",
+        "screw-gate carabiner",
+        "自动锁",
+        "auto-locking carabiner",
+        "挂片",
+        "bolt"
+      ],
+      "tags": [
+        "beginner",
+        "gear",
+        "safety"
+      ],
+      "crossRefs": [
+        "kp-belaying",
+        "kp-rope",
+        "kp-fall-technique"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-nuts-stoppers",
+      "path": "gear/trad-gear",
+      "sectionId": "section-05",
+      "sectionSlug": "gear",
+      "sectionTitle": {
+        "zh": "装备知识",
+        "en": "Gear & Equipment"
+      },
+      "subSectionId": "s05-trad",
+      "subSectionSlug": "trad-gear",
+      "subSectionTitle": {
+        "zh": "传统攀保护装备",
+        "en": "Trad Climbing Gear"
+      },
+      "title": {
+        "zh": "机械塞与岩石塞",
+        "en": "Nuts & Stoppers"
+      },
+      "keywords": [
+        "岩石塞",
+        "nut / stopper",
+        "被动保护",
+        "passive protection",
+        "六角塞",
+        "hexentric / hex",
+        "取塞器",
+        "nut tool",
+        "微型岩石塞",
+        "micro nut"
+      ],
+      "tags": [
+        "intermediate",
+        "gear",
+        "safety"
+      ],
+      "crossRefs": [
+        "kp-crack-technique",
+        "kp-rope"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-cams",
+      "path": "gear/trad-gear",
+      "sectionId": "section-05",
+      "sectionSlug": "gear",
+      "sectionTitle": {
+        "zh": "装备知识",
+        "en": "Gear & Equipment"
+      },
+      "subSectionId": "s05-trad",
+      "subSectionSlug": "trad-gear",
+      "subSectionTitle": {
+        "zh": "传统攀保护装备",
+        "en": "Trad Climbing Gear"
+      },
+      "title": {
+        "zh": "凸轮装置（机械塞）",
+        "en": "Cams / Friends"
+      },
+      "keywords": [
+        "机械塞",
+        "cam / SLCD / Friend",
+        "凸轮叶片",
+        "cam lobe",
+        "触发杆",
+        "trigger / stem",
+        "主动保护",
+        "active protection",
+        "行走移位",
+        "cam walking"
+      ],
+      "tags": [
+        "intermediate",
+        "advanced",
+        "gear",
+        "safety"
+      ],
+      "crossRefs": [
+        "kp-crack-technique",
+        "kp-rope",
+        "kp-nuts-stoppers"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-pitons",
+      "path": "gear/trad-gear",
+      "sectionId": "section-05",
+      "sectionSlug": "gear",
+      "sectionTitle": {
+        "zh": "装备知识",
+        "en": "Gear & Equipment"
+      },
+      "subSectionId": "s05-trad",
+      "subSectionSlug": "trad-gear",
+      "subSectionTitle": {
+        "zh": "传统攀保护装备",
+        "en": "Trad Climbing Gear"
+      },
+      "title": {
+        "zh": "岩钉",
+        "en": "Pitons"
+      },
+      "keywords": [
+        "岩钉",
+        "piton",
+        "刃型岩钉",
+        "blade piton / knife blade",
+        "角型岩钉",
+        "angle piton",
+        "固定岩钉",
+        "fixed piton",
+        "援助攀登",
+        "aid climbing"
+      ],
+      "tags": [
+        "advanced",
+        "gear"
+      ],
+      "crossRefs": [
+        "kp-crack-technique",
+        "kp-cams",
+        "kp-nuts-stoppers"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-anchor-building",
+      "path": "gear/trad-gear",
+      "sectionId": "section-05",
+      "sectionSlug": "gear",
+      "sectionTitle": {
+        "zh": "装备知识",
+        "en": "Gear & Equipment"
+      },
+      "subSectionId": "s05-trad",
+      "subSectionSlug": "trad-gear",
+      "subSectionTitle": {
+        "zh": "传统攀保护装备",
+        "en": "Trad Climbing Gear"
+      },
+      "title": {
+        "zh": "保护站构建",
+        "en": "Anchor Building"
+      },
+      "keywords": [
+        "保护站",
+        "anchor",
+        "均衡受力",
+        "equalization",
+        "冗余",
+        "redundancy",
+        "辅助绳环",
+        "cordelette",
+        "限位结",
+        "limiting knot",
+        "滑动X",
+        "Sliding X"
+      ],
+      "tags": [
+        "intermediate",
+        "advanced",
+        "gear",
+        "safety"
+      ],
+      "crossRefs": [
+        "kp-knots",
+        "kp-cams",
+        "kp-nuts-stoppers",
+        "kp-belaying"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-portaledge",
+      "path": "gear/bigwall-gear",
+      "sectionId": "section-05",
+      "sectionSlug": "gear",
+      "sectionTitle": {
+        "zh": "装备知识",
+        "en": "Gear & Equipment"
+      },
+      "subSectionId": "s05-bigwall",
+      "subSectionSlug": "bigwall-gear",
+      "subSectionTitle": {
+        "zh": "大岩壁装备",
+        "en": "Big Wall Gear"
+      },
+      "title": {
+        "zh": "岩壁吊帐",
+        "en": "Portaledge"
+      },
+      "keywords": [
+        "岩壁吊帐",
+        "portaledge",
+        "防雨罩",
+        "fly / rain fly",
+        "悬挂系统",
+        "suspension system"
+      ],
+      "tags": [
+        "advanced",
+        "gear"
+      ],
+      "crossRefs": [
+        "kp-anchor-building",
+        "kp-harness"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-haul-bag",
+      "path": "gear/bigwall-gear",
+      "sectionId": "section-05",
+      "sectionSlug": "gear",
+      "sectionTitle": {
+        "zh": "装备知识",
+        "en": "Gear & Equipment"
+      },
+      "subSectionId": "s05-bigwall",
+      "subSectionSlug": "bigwall-gear",
+      "subSectionTitle": {
+        "zh": "大岩壁装备",
+        "en": "Big Wall Gear"
+      },
+      "title": {
+        "zh": "拖包",
+        "en": "Haul Bag"
+      },
+      "keywords": [
+        "拖包",
+        "haul bag",
+        "拖运系统",
+        "hauling system",
+        "滑轮",
+        "pulley",
+        "省力系统",
+        "mechanical advantage system"
+      ],
+      "tags": [
+        "advanced",
+        "gear"
+      ],
+      "crossRefs": [
+        "kp-anchor-building",
+        "kp-rope"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-ascender",
+      "path": "gear/bigwall-gear",
+      "sectionId": "section-05",
+      "sectionSlug": "gear",
+      "sectionTitle": {
+        "zh": "装备知识",
+        "en": "Gear & Equipment"
+      },
+      "subSectionId": "s05-bigwall",
+      "subSectionSlug": "bigwall-gear",
+      "subSectionTitle": {
+        "zh": "大岩壁装备",
+        "en": "Big Wall Gear"
+      },
+      "title": {
+        "zh": "上升器",
+        "en": "Ascender / Jumar"
+      },
+      "keywords": [
+        "上升器",
+        "ascender / jumar",
+        "带齿凸轮",
+        "toothed cam",
+        "跟攀清理",
+        "jumaring / ascending",
+        "固定绳",
+        "fixed rope"
+      ],
+      "tags": [
+        "advanced",
+        "gear"
+      ],
+      "crossRefs": [
+        "kp-rope",
+        "kp-anchor-building",
+        "kp-haul-bag"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-hangboard-gear",
+      "path": "gear/training-gear",
+      "sectionId": "section-05",
+      "sectionSlug": "gear",
+      "sectionTitle": {
+        "zh": "装备知识",
+        "en": "Gear & Equipment"
+      },
+      "subSectionId": "s05-training",
+      "subSectionSlug": "training-gear",
+      "subSectionTitle": {
+        "zh": "训练装备",
+        "en": "Training Equipment"
+      },
+      "title": {
+        "zh": "挂板/指力板",
+        "en": "Hangboard / Fingerboard"
+      },
+      "keywords": [
+        "挂板",
+        "hangboard / fingerboard",
+        "边缘",
+        "edge",
+        "口袋",
+        "pocket",
+        "负重悬挂",
+        "weighted hang"
+      ],
+      "tags": [
+        "intermediate",
+        "gear",
+        "training"
+      ],
+      "crossRefs": [
+        "kp-hangboard-training",
+        "kp-grip-types",
+        "kp-pulley-injury",
+        "kp-warmup"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-campus-board-gear",
+      "path": "gear/training-gear",
+      "sectionId": "section-05",
+      "sectionSlug": "gear",
+      "sectionTitle": {
+        "zh": "装备知识",
+        "en": "Gear & Equipment"
+      },
+      "subSectionId": "s05-training",
+      "subSectionSlug": "training-gear",
+      "subSectionTitle": {
+        "zh": "训练装备",
+        "en": "Training Equipment"
+      },
+      "title": {
+        "zh": "校园板",
+        "en": "Campus Board"
+      },
+      "keywords": [
+        "校园板",
+        "campus board",
+        "横档",
+        "rung",
+        "接触力量",
+        "contact strength",
+        "爆发力",
+        "power / explosive strength"
+      ],
+      "tags": [
+        "advanced",
+        "gear",
+        "training"
+      ],
+      "crossRefs": [
+        "kp-campus-training",
+        "kp-pulling-power",
+        "kp-pulley-injury",
+        "kp-warmup"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-gymnastic-rings",
+      "path": "gear/training-gear",
+      "sectionId": "section-05",
+      "sectionSlug": "gear",
+      "sectionTitle": {
+        "zh": "装备知识",
+        "en": "Gear & Equipment"
+      },
+      "subSectionId": "s05-training",
+      "subSectionSlug": "training-gear",
+      "subSectionTitle": {
+        "zh": "训练装备",
+        "en": "Training Equipment"
+      },
+      "title": {
+        "zh": "体操吊环",
+        "en": "Gymnastic Rings"
+      },
+      "keywords": [
+        "体操吊环",
+        "gymnastic rings",
+        "吊环臂屈伸",
+        "ring dips",
+        "吊环支撑",
+        "ring support hold",
+        "拮抗肌训练",
+        "antagonist training"
+      ],
+      "tags": [
+        "intermediate",
+        "gear",
+        "training"
+      ],
+      "crossRefs": [
+        "kp-pulling-power",
+        "kp-shoulder-stability",
+        "kp-core-role",
+        "kp-antagonist-training"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-system-wall",
+      "path": "gear/training-gear",
+      "sectionId": "section-05",
+      "sectionSlug": "gear",
+      "sectionTitle": {
+        "zh": "装备知识",
+        "en": "Gear & Equipment"
+      },
+      "subSectionId": "s05-training",
+      "subSectionSlug": "training-gear",
+      "subSectionTitle": {
+        "zh": "训练装备",
+        "en": "Training Equipment"
+      },
+      "title": {
+        "zh": "系统板与训练岩板",
+        "en": "System Wall / Moon Board / Kilter Board"
+      },
+      "keywords": [
+        "系统板",
+        "system wall / spray wall",
+        "训练岩板",
+        "training board",
+        "Moon Board",
+        "Moon Board",
+        "Kilter Board",
+        "Kilter Board",
+        "Tension Board",
+        "Tension Board",
+        "LED标示",
+        "LED-lit holds"
+      ],
+      "tags": [
+        "intermediate",
+        "advanced",
+        "gear",
+        "training"
+      ],
+      "crossRefs": [
+        "kp-hangboard-training",
+        "kp-overhang-technique",
+        "kp-dyno-technique",
+        "kp-crimp-hold"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-bouldering-fall",
+      "path": "safety/indoor",
+      "sectionId": "section-06",
+      "sectionSlug": "safety",
+      "sectionTitle": {
+        "zh": "安全与风险管理",
+        "en": "Safety & Risk Management"
+      },
+      "subSectionId": "s06-indoor",
+      "subSectionSlug": "indoor",
+      "subSectionTitle": {
+        "zh": "室内安全",
+        "en": "Indoor Safety"
+      },
+      "title": {
+        "zh": "抱石坠落技巧",
+        "en": "Bouldering Fall Technique"
+      },
+      "keywords": [
+        "坠落技巧",
+        "fall technique",
+        "滚动卸力",
+        "rolling breakfall",
+        "缓冲",
+        "absorbing impact"
+      ],
+      "tags": [
+        "beginner",
+        "safety"
+      ],
+      "crossRefs": [
+        "kp-fall-technique",
+        "kp-fear-management"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-lead-belay-indoor",
+      "path": "safety/indoor",
+      "sectionId": "section-06",
+      "sectionSlug": "safety",
+      "sectionTitle": {
+        "zh": "安全与风险管理",
+        "en": "Safety & Risk Management"
+      },
+      "subSectionId": "s06-indoor",
+      "subSectionSlug": "indoor",
+      "subSectionTitle": {
+        "zh": "室内安全",
+        "en": "Indoor Safety"
+      },
+      "title": {
+        "zh": "室内先锋保护与冲坠",
+        "en": "Indoor Lead Belaying & Falls"
+      },
+      "keywords": [
+        "先锋保护",
+        "lead belaying",
+        "给绳",
+        "feeding rope / paying out",
+        "软制动",
+        "soft catch",
+        "冲坠距离",
+        "fall distance",
+        "地锚",
+        "ground anchor"
+      ],
+      "tags": [
+        "beginner",
+        "intermediate",
+        "safety"
+      ],
+      "crossRefs": [
+        "kp-belaying",
+        "kp-belay-device",
+        "kp-fall-technique",
+        "kp-fear-management"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-gym-etiquette",
+      "path": "safety/indoor",
+      "sectionId": "section-06",
+      "sectionSlug": "safety",
+      "sectionTitle": {
+        "zh": "安全与风险管理",
+        "en": "Safety & Risk Management"
+      },
+      "subSectionId": "s06-indoor",
+      "subSectionSlug": "indoor",
+      "subSectionTitle": {
+        "zh": "室内安全",
+        "en": "Indoor Safety"
+      },
+      "title": {
+        "zh": "岩馆礼仪",
+        "en": "Gym Etiquette"
+      },
+      "keywords": [
+        "岩馆礼仪",
+        "gym etiquette",
+        "优先权",
+        "right of way",
+        "beta spraying",
+        "unsolicited advice / beta spraying"
+      ],
+      "tags": [
+        "beginner",
+        "safety"
+      ],
+      "crossRefs": [
+        "kp-fall-technique",
+        "kp-belaying"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-rockfall-risk",
+      "path": "safety/outdoor",
+      "sectionId": "section-06",
+      "sectionSlug": "safety",
+      "sectionTitle": {
+        "zh": "安全与风险管理",
+        "en": "Safety & Risk Management"
+      },
+      "subSectionId": "s06-outdoor",
+      "subSectionSlug": "outdoor",
+      "subSectionTitle": {
+        "zh": "户外安全",
+        "en": "Outdoor Safety"
+      },
+      "title": {
+        "zh": "落石风险",
+        "en": "Rockfall Risk"
+      },
+      "keywords": [
+        "落石",
+        "rockfall",
+        "客观危险",
+        "objective hazard",
+        "冰冻融化循环",
+        "freeze-thaw cycle"
+      ],
+      "tags": [
+        "beginner",
+        "safety"
+      ],
+      "crossRefs": [
+        "kp-helmet",
+        "kp-belaying"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-weather-assessment",
+      "path": "safety/outdoor",
+      "sectionId": "section-06",
+      "sectionSlug": "safety",
+      "sectionTitle": {
+        "zh": "安全与风险管理",
+        "en": "Safety & Risk Management"
+      },
+      "subSectionId": "s06-outdoor",
+      "subSectionSlug": "outdoor",
+      "subSectionTitle": {
+        "zh": "户外安全",
+        "en": "Outdoor Safety"
+      },
+      "title": {
+        "zh": "天气评估",
+        "en": "Weather Assessment"
+      },
+      "keywords": [
+        "天气评估",
+        "weather assessment",
+        "雷暴",
+        "thunderstorm",
+        "积雨云",
+        "cumulonimbus",
+        "失温",
+        "hypothermia"
+      ],
+      "tags": [
+        "beginner",
+        "intermediate",
+        "safety"
+      ],
+      "crossRefs": [
+        "kp-rockfall-risk",
+        "kp-rope"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-retreat-strategy",
+      "path": "safety/outdoor",
+      "sectionId": "section-06",
+      "sectionSlug": "safety",
+      "sectionTitle": {
+        "zh": "安全与风险管理",
+        "en": "Safety & Risk Management"
+      },
+      "subSectionId": "s06-outdoor",
+      "subSectionSlug": "outdoor",
+      "subSectionTitle": {
+        "zh": "户外安全",
+        "en": "Outdoor Safety"
+      },
+      "title": {
+        "zh": "撤退策略",
+        "en": "Retreat Strategy"
+      },
+      "keywords": [
+        "撤退",
+        "retreat",
+        "下攀",
+        "downclimbing",
+        "下降",
+        "rappelling / abseiling",
+        "留置装备",
+        "leaving gear / bail gear"
+      ],
+      "tags": [
+        "intermediate",
+        "safety"
+      ],
+      "crossRefs": [
+        "kp-rappelling",
+        "kp-knots",
+        "kp-weather-assessment"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-leave-no-trace",
+      "path": "safety/outdoor",
+      "sectionId": "section-06",
+      "sectionSlug": "safety",
+      "sectionTitle": {
+        "zh": "安全与风险管理",
+        "en": "Safety & Risk Management"
+      },
+      "subSectionId": "s06-outdoor",
+      "subSectionSlug": "outdoor",
+      "subSectionTitle": {
+        "zh": "户外安全",
+        "en": "Outdoor Safety"
+      },
+      "title": {
+        "zh": "不留痕迹原则",
+        "en": "Leave No Trace"
+      },
+      "keywords": [
+        "不留痕迹",
+        "Leave No Trace / LNT",
+        "猫洞",
+        "cat hole",
+        "废物收集袋",
+        "WAG bag",
+        "季节性封闭",
+        "seasonal closure"
+      ],
+      "tags": [
+        "beginner",
+        "safety"
+      ],
+      "crossRefs": [],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-wilderness-first-aid",
+      "path": "safety/outdoor",
+      "sectionId": "section-06",
+      "sectionSlug": "safety",
+      "sectionTitle": {
+        "zh": "安全与风险管理",
+        "en": "Safety & Risk Management"
+      },
+      "subSectionId": "s06-outdoor",
+      "subSectionSlug": "outdoor",
+      "subSectionTitle": {
+        "zh": "户外安全",
+        "en": "Outdoor Safety"
+      },
+      "title": {
+        "zh": "野外急救",
+        "en": "Wilderness First Aid"
+      },
+      "keywords": [
+        "野外急救",
+        "wilderness first aid",
+        "失温",
+        "hypothermia",
+        "中暑",
+        "heat stroke",
+        "急救包",
+        "first aid kit",
+        "紧急通讯设备",
+        "emergency communicator / satellite messenger"
+      ],
+      "tags": [
+        "intermediate",
+        "safety"
+      ],
+      "crossRefs": [
+        "kp-helmet",
+        "kp-rockfall-risk"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-knots",
+      "path": "safety/rope-skills",
+      "sectionId": "section-06",
+      "sectionSlug": "safety",
+      "sectionTitle": {
+        "zh": "安全与风险管理",
+        "en": "Safety & Risk Management"
+      },
+      "subSectionId": "s06-rope",
+      "subSectionSlug": "rope-skills",
+      "subSectionTitle": {
+        "zh": "绳索技术",
+        "en": "Rope Skills"
+      },
+      "title": {
+        "zh": "攀岩绳结",
+        "en": "Climbing Knots"
+      },
+      "keywords": [
+        "八字结",
+        "figure-8 follow-through",
+        "双套结",
+        "clove hitch",
+        "意大利半扣",
+        "Munter hitch",
+        "普鲁士结",
+        "Prusik knot",
+        "双渔人结",
+        "double fisherman's knot",
+        "平结",
+        "flat overhand / EDK"
+      ],
+      "tags": [
+        "beginner",
+        "safety"
+      ],
+      "crossRefs": [
+        "kp-harness",
+        "kp-rope",
+        "kp-belaying",
+        "kp-rappelling"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-belaying",
+      "path": "safety/rope-skills",
+      "sectionId": "section-06",
+      "sectionSlug": "safety",
+      "sectionTitle": {
+        "zh": "安全与风险管理",
+        "en": "Safety & Risk Management"
+      },
+      "subSectionId": "s06-rope",
+      "subSectionSlug": "rope-skills",
+      "subSectionTitle": {
+        "zh": "绳索技术",
+        "en": "Rope Skills"
+      },
+      "title": {
+        "zh": "保护操作",
+        "en": "Belaying"
+      },
+      "keywords": [
+        "保护",
+        "belaying",
+        "顶绳保护",
+        "top-rope belaying",
+        "先锋保护",
+        "lead belaying",
+        "制动手",
+        "brake hand",
+        "地面坠落区",
+        "ground fall zone",
+        "保护指令",
+        "belay commands"
+      ],
+      "tags": [
+        "beginner",
+        "safety"
+      ],
+      "crossRefs": [
+        "kp-belay-device",
+        "kp-rope",
+        "kp-harness",
+        "kp-fall-technique"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-rappelling",
+      "path": "safety/rope-skills",
+      "sectionId": "section-06",
+      "sectionSlug": "safety",
+      "sectionTitle": {
+        "zh": "安全与风险管理",
+        "en": "Safety & Risk Management"
+      },
+      "subSectionId": "s06-rope",
+      "subSectionSlug": "rope-skills",
+      "subSectionTitle": {
+        "zh": "绳索技术",
+        "en": "Rope Skills"
+      },
+      "title": {
+        "zh": "下降技术",
+        "en": "Rappelling"
+      },
+      "keywords": [
+        "下降",
+        "rappelling / abseiling",
+        "下降环",
+        "rappel rings",
+        "防脱结",
+        "stopper knot",
+        "普鲁士备份",
+        "Prusik backup",
+        "双绳下降",
+        "double-rope rappel"
+      ],
+      "tags": [
+        "intermediate",
+        "safety"
+      ],
+      "crossRefs": [
+        "kp-knots",
+        "kp-rope",
+        "kp-belay-device",
+        "kp-anchor-building"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-basic-rescue",
+      "path": "safety/rope-skills",
+      "sectionId": "section-06",
+      "sectionSlug": "safety",
+      "sectionTitle": {
+        "zh": "安全与风险管理",
+        "en": "Safety & Risk Management"
+      },
+      "subSectionId": "s06-rope",
+      "subSectionSlug": "rope-skills",
+      "subSectionTitle": {
+        "zh": "绳索技术",
+        "en": "Rope Skills"
+      },
+      "title": {
+        "zh": "基础救援",
+        "en": "Basic Rescue"
+      },
+      "keywords": [
+        "自救",
+        "self-rescue",
+        "绳索上升",
+        "ascending the rope",
+        "脱离保护系统",
+        "escaping the belay",
+        "Z-拖拽系统",
+        "Z-pulley hauling system",
+        "辅助下降",
+        "assisted rappel"
+      ],
+      "tags": [
+        "advanced",
+        "safety"
+      ],
+      "crossRefs": [
+        "kp-knots",
+        "kp-rappelling",
+        "kp-belaying",
+        "kp-rope"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-crash-pad",
+      "path": "safety/bouldering-safety",
+      "sectionId": "section-06",
+      "sectionSlug": "safety",
+      "sectionTitle": {
+        "zh": "安全与风险管理",
+        "en": "Safety & Risk Management"
+      },
+      "subSectionId": "s06-boulder",
+      "subSectionSlug": "bouldering-safety",
+      "subSectionTitle": {
+        "zh": "抱石安全",
+        "en": "Bouldering Safety"
+      },
+      "title": {
+        "zh": "抱石垫的放置",
+        "en": "Crash Pad Placement"
+      },
+      "keywords": [
+        "抱石垫",
+        "crash pad",
+        "落区",
+        "fall zone / landing zone",
+        "辅助垫",
+        "supplementary pad"
+      ],
+      "tags": [
+        "beginner",
+        "safety",
+        "gear"
+      ],
+      "crossRefs": [
+        "kp-fall-technique",
+        "kp-bouldering-fall"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-spotter",
+      "path": "safety/bouldering-safety",
+      "sectionId": "section-06",
+      "sectionSlug": "safety",
+      "sectionTitle": {
+        "zh": "安全与风险管理",
+        "en": "Safety & Risk Management"
+      },
+      "subSectionId": "s06-boulder",
+      "subSectionSlug": "bouldering-safety",
+      "subSectionTitle": {
+        "zh": "抱石安全",
+        "en": "Bouldering Safety"
+      },
+      "title": {
+        "zh": "保护人的角色与技巧",
+        "en": "Spotter Role & Technique"
+      },
+      "keywords": [
+        "保护人",
+        "spotter",
+        "保护站位",
+        "spotting",
+        "高落区问题",
+        "highball"
+      ],
+      "tags": [
+        "beginner",
+        "safety"
+      ],
+      "crossRefs": [
+        "kp-crash-pad",
+        "kp-fall-technique",
+        "kp-bouldering-fall"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-landing-position",
+      "path": "safety/bouldering-safety",
+      "sectionId": "section-06",
+      "sectionSlug": "safety",
+      "sectionTitle": {
+        "zh": "安全与风险管理",
+        "en": "Safety & Risk Management"
+      },
+      "subSectionId": "s06-boulder",
+      "subSectionSlug": "bouldering-safety",
+      "subSectionTitle": {
+        "zh": "抱石安全",
+        "en": "Bouldering Safety"
+      },
+      "title": {
+        "zh": "着地姿势",
+        "en": "Landing Position"
+      },
+      "keywords": [
+        "着地姿势",
+        "landing position",
+        "渐进式缓冲",
+        "progressive impact absorption",
+        "柔道前滚翻",
+        "ukemi / breakfall roll"
+      ],
+      "tags": [
+        "beginner",
+        "safety",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-crash-pad",
+        "kp-spotter",
+        "kp-bouldering-fall"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-pulley-injury",
+      "path": "injury/common-injuries",
+      "sectionId": "section-07",
+      "sectionSlug": "injury",
+      "sectionTitle": {
+        "zh": "伤病预防与恢复",
+        "en": "Injury Prevention & Recovery"
+      },
+      "subSectionId": "s07-common",
+      "subSectionSlug": "common-injuries",
+      "subSectionTitle": {
+        "zh": "常见伤病",
+        "en": "Common Injuries"
+      },
+      "title": {
+        "zh": "手指滑车韧带损伤",
+        "en": "Finger Pulley Injury"
+      },
+      "keywords": [
+        "滑车韧带",
+        "pulley",
+        "A2滑车",
+        "A2 pulley",
+        "A4滑车",
+        "A4 pulley",
+        "弓弦效应",
+        "bowstringing",
+        "H型胶带固定",
+        "H-tape"
+      ],
+      "tags": [
+        "beginner",
+        "health",
+        "safety"
+      ],
+      "crossRefs": [
+        "kp-grip-types",
+        "kp-crimp-hold",
+        "kp-warmup",
+        "kp-hangboard-training"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-tendonitis",
+      "path": "injury/common-injuries",
+      "sectionId": "section-07",
+      "sectionSlug": "injury",
+      "sectionTitle": {
+        "zh": "伤病预防与恢复",
+        "en": "Injury Prevention & Recovery"
+      },
+      "subSectionId": "s07-common",
+      "subSectionSlug": "common-injuries",
+      "subSectionTitle": {
+        "zh": "常见伤病",
+        "en": "Common Injuries"
+      },
+      "title": {
+        "zh": "肌腱炎",
+        "en": "Tendonitis"
+      },
+      "keywords": [
+        "肌腱炎",
+        "tendonitis",
+        "内上髁炎",
+        "medial epicondylitis / golfer's elbow",
+        "外上髁炎",
+        "lateral epicondylitis / tennis elbow",
+        "离心训练",
+        "eccentric exercise",
+        "过度使用",
+        "overuse"
+      ],
+      "tags": [
+        "beginner",
+        "intermediate",
+        "health"
+      ],
+      "crossRefs": [
+        "kp-antagonist-training",
+        "kp-rest-management",
+        "kp-warmup",
+        "kp-pulling-power"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-shoulder-injury",
+      "path": "injury/common-injuries",
+      "sectionId": "section-07",
+      "sectionSlug": "injury",
+      "sectionTitle": {
+        "zh": "伤病预防与恢复",
+        "en": "Injury Prevention & Recovery"
+      },
+      "subSectionId": "s07-common",
+      "subSectionSlug": "common-injuries",
+      "subSectionTitle": {
+        "zh": "常见伤病",
+        "en": "Common Injuries"
+      },
+      "title": {
+        "zh": "肩部损伤",
+        "en": "Shoulder Injuries"
+      },
+      "keywords": [
+        "肩袖",
+        "rotator cuff",
+        "冈上肌",
+        "supraspinatus",
+        "肩峰撞击",
+        "shoulder impingement",
+        "肩胛骨稳定",
+        "scapular stability",
+        "疼痛弧",
+        "painful arc"
+      ],
+      "tags": [
+        "intermediate",
+        "health"
+      ],
+      "crossRefs": [
+        "kp-shoulder-stability",
+        "kp-antagonist-training",
+        "kp-warmup",
+        "kp-pulling-power"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-skin-management",
+      "path": "injury/common-injuries",
+      "sectionId": "section-07",
+      "sectionSlug": "injury",
+      "sectionTitle": {
+        "zh": "伤病预防与恢复",
+        "en": "Injury Prevention & Recovery"
+      },
+      "subSectionId": "s07-common",
+      "subSectionSlug": "common-injuries",
+      "subSectionTitle": {
+        "zh": "常见伤病",
+        "en": "Common Injuries"
+      },
+      "title": {
+        "zh": "皮肤管理",
+        "en": "Skin Management"
+      },
+      "keywords": [
+        "老茧",
+        "callus",
+        "皮瓣",
+        "flapper",
+        "水泡",
+        "blister",
+        "指尖开裂",
+        "tip split",
+        "攀岩胶带",
+        "climbing tape"
+      ],
+      "tags": [
+        "beginner",
+        "health"
+      ],
+      "crossRefs": [
+        "kp-crimp-hold",
+        "kp-sloper-hold"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-warmup",
+      "path": "injury/prevention",
+      "sectionId": "section-07",
+      "sectionSlug": "injury",
+      "sectionTitle": {
+        "zh": "伤病预防与恢复",
+        "en": "Injury Prevention & Recovery"
+      },
+      "subSectionId": "s07-prevention",
+      "subSectionSlug": "prevention",
+      "subSectionTitle": {
+        "zh": "预防策略",
+        "en": "Prevention Strategies"
+      },
+      "title": {
+        "zh": "热身方案",
+        "en": "Warm-up Protocols"
+      },
+      "keywords": [
+        "热身",
+        "warm-up",
+        "动态拉伸",
+        "dynamic stretching",
+        "渐进加载",
+        "progressive loading",
+        "肩胛骨激活",
+        "scapular activation"
+      ],
+      "tags": [
+        "beginner",
+        "health",
+        "training"
+      ],
+      "crossRefs": [
+        "kp-pulley-injury",
+        "kp-tendonitis",
+        "kp-shoulder-injury",
+        "kp-hangboard-training"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-rest-management",
+      "path": "injury/prevention",
+      "sectionId": "section-07",
+      "sectionSlug": "injury",
+      "sectionTitle": {
+        "zh": "伤病预防与恢复",
+        "en": "Injury Prevention & Recovery"
+      },
+      "subSectionId": "s07-prevention",
+      "subSectionSlug": "prevention",
+      "subSectionTitle": {
+        "zh": "预防策略",
+        "en": "Prevention Strategies"
+      },
+      "title": {
+        "zh": "训练负荷管理",
+        "en": "Training Load Management"
+      },
+      "keywords": [
+        "训练负荷管理",
+        "training load management",
+        "周期化训练",
+        "periodization",
+        "减量周",
+        "deload week",
+        "过度训练",
+        "overtraining",
+        "10%规则",
+        "10% rule"
+      ],
+      "tags": [
+        "intermediate",
+        "health",
+        "training"
+      ],
+      "crossRefs": [
+        "kp-pulley-injury",
+        "kp-tendonitis",
+        "kp-warmup"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-antagonist-training",
+      "path": "injury/prevention",
+      "sectionId": "section-07",
+      "sectionSlug": "injury",
+      "sectionTitle": {
+        "zh": "伤病预防与恢复",
+        "en": "Injury Prevention & Recovery"
+      },
+      "subSectionId": "s07-prevention",
+      "subSectionSlug": "prevention",
+      "subSectionTitle": {
+        "zh": "预防策略",
+        "en": "Prevention Strategies"
+      },
+      "title": {
+        "zh": "拮抗肌训练",
+        "en": "Antagonist Training"
+      },
+      "keywords": [
+        "拮抗肌训练",
+        "antagonist training",
+        "肌肉失衡",
+        "muscle imbalance",
+        "反向手腕弯举",
+        "reverse wrist curl",
+        "弹力带外旋",
+        "band external rotation",
+        "手指伸展训练",
+        "finger extension training"
+      ],
+      "tags": [
+        "beginner",
+        "intermediate",
+        "health",
+        "training"
+      ],
+      "crossRefs": [
+        "kp-shoulder-stability",
+        "kp-shoulder-injury",
+        "kp-tendonitis",
+        "kp-gymnastic-rings"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-when-to-rest",
+      "path": "injury/prevention",
+      "sectionId": "section-07",
+      "sectionSlug": "injury",
+      "sectionTitle": {
+        "zh": "伤病预防与恢复",
+        "en": "Injury Prevention & Recovery"
+      },
+      "subSectionId": "s07-prevention",
+      "subSectionSlug": "prevention",
+      "subSectionTitle": {
+        "zh": "预防策略",
+        "en": "Prevention Strategies"
+      },
+      "title": {
+        "zh": "何时休息",
+        "en": "When to Rest"
+      },
+      "keywords": [
+        "休息",
+        "rest",
+        "积极恢复",
+        "active recovery",
+        "锐痛",
+        "sharp pain",
+        "过度训练信号",
+        "overtraining signals"
+      ],
+      "tags": [
+        "beginner",
+        "health",
+        "training"
+      ],
+      "crossRefs": [
+        "kp-rest-management",
+        "kp-pulley-injury",
+        "kp-tendonitis"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-injury-assessment",
+      "path": "injury/recovery",
+      "sectionId": "section-07",
+      "sectionSlug": "injury",
+      "sectionTitle": {
+        "zh": "伤病预防与恢复",
+        "en": "Injury Prevention & Recovery"
+      },
+      "subSectionId": "s07-recovery",
+      "subSectionSlug": "recovery",
+      "subSectionTitle": {
+        "zh": "康复",
+        "en": "Recovery"
+      },
+      "title": {
+        "zh": "伤后评估",
+        "en": "Post-Injury Assessment"
+      },
+      "keywords": [
+        "伤后评估",
+        "post-injury assessment",
+        "锐痛",
+        "sharp pain",
+        "钝痛",
+        "dull ache",
+        "超声波检查",
+        "ultrasound examination",
+        "核磁共振",
+        "MRI"
+      ],
+      "tags": [
+        "beginner",
+        "health"
+      ],
+      "crossRefs": [
+        "kp-pulley-injury",
+        "kp-tendonitis",
+        "kp-shoulder-injury"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-rehab-programs",
+      "path": "injury/recovery",
+      "sectionId": "section-07",
+      "sectionSlug": "injury",
+      "sectionTitle": {
+        "zh": "伤病预防与恢复",
+        "en": "Injury Prevention & Recovery"
+      },
+      "subSectionId": "s07-recovery",
+      "subSectionSlug": "recovery",
+      "subSectionTitle": {
+        "zh": "康复",
+        "en": "Recovery"
+      },
+      "title": {
+        "zh": "康复方案",
+        "en": "Rehab Programs"
+      },
+      "keywords": [
+        "康复方案",
+        "rehab program",
+        "主动康复",
+        "active recovery / active rehabilitation",
+        "离心训练",
+        "eccentric exercise",
+        "无痛原则",
+        "pain-free principle",
+        "渐进恢复",
+        "progressive return"
+      ],
+      "tags": [
+        "intermediate",
+        "health"
+      ],
+      "crossRefs": [
+        "kp-pulley-injury",
+        "kp-tendonitis",
+        "kp-warmup",
+        "kp-rest-management"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-return-criteria",
+      "path": "injury/recovery",
+      "sectionId": "section-07",
+      "sectionSlug": "injury",
+      "sectionTitle": {
+        "zh": "伤病预防与恢复",
+        "en": "Injury Prevention & Recovery"
+      },
+      "subSectionId": "s07-recovery",
+      "subSectionSlug": "recovery",
+      "subSectionTitle": {
+        "zh": "康复",
+        "en": "Recovery"
+      },
+      "title": {
+        "zh": "回归攀爬标准",
+        "en": "Return to Climbing Criteria"
+      },
+      "keywords": [
+        "回归标准",
+        "return-to-climbing criteria",
+        "力量对称性",
+        "strength symmetry",
+        "功能测试",
+        "functional test",
+        "渐进式回归",
+        "gradual return protocol"
+      ],
+      "tags": [
+        "intermediate",
+        "health"
+      ],
+      "crossRefs": [
+        "kp-rehab-programs",
+        "kp-warmup",
+        "kp-rest-management"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-rehab-mistakes",
+      "path": "injury/recovery",
+      "sectionId": "section-07",
+      "sectionSlug": "injury",
+      "sectionTitle": {
+        "zh": "伤病预防与恢复",
+        "en": "Injury Prevention & Recovery"
+      },
+      "subSectionId": "s07-recovery",
+      "subSectionSlug": "recovery",
+      "subSectionTitle": {
+        "zh": "康复",
+        "en": "Recovery"
+      },
+      "title": {
+        "zh": "常见康复错误",
+        "en": "Common Rehab Mistakes"
+      },
+      "keywords": [
+        "过早回归",
+        "premature return",
+        "主动康复",
+        "active rehabilitation",
+        "非甾体抗炎药",
+        "NSAIDs",
+        "运动物理治疗师",
+        "sports physiotherapist"
+      ],
+      "tags": [
+        "beginner",
+        "intermediate",
+        "health"
+      ],
+      "crossRefs": [
+        "kp-return-criteria",
+        "kp-rehab-programs",
+        "kp-rest-management",
+        "kp-antagonist-training"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-climber-nutrition",
+      "path": "injury/nutrition",
+      "sectionId": "section-07",
+      "sectionSlug": "injury",
+      "sectionTitle": {
+        "zh": "伤病预防与恢复",
+        "en": "Injury Prevention & Recovery"
+      },
+      "subSectionId": "s07-nutrition",
+      "subSectionSlug": "nutrition",
+      "subSectionTitle": {
+        "zh": "营养与恢复",
+        "en": "Nutrition & Recovery"
+      },
+      "title": {
+        "zh": "攀岩者的营养需求",
+        "en": "Climber Nutrition Needs"
+      },
+      "keywords": [
+        "宏量营养素",
+        "macronutrients",
+        "蛋白质",
+        "protein",
+        "碳水化合物",
+        "carbohydrates",
+        "胶原蛋白",
+        "collagen",
+        "恢复窗口",
+        "recovery window"
+      ],
+      "tags": [
+        "beginner",
+        "health"
+      ],
+      "crossRefs": [
+        "kp-rest-management",
+        "kp-tendonitis",
+        "kp-pulley-injury"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-weight-management",
+      "path": "injury/nutrition",
+      "sectionId": "section-07",
+      "sectionSlug": "injury",
+      "sectionTitle": {
+        "zh": "伤病预防与恢复",
+        "en": "Injury Prevention & Recovery"
+      },
+      "subSectionId": "s07-nutrition",
+      "subSectionSlug": "nutrition",
+      "subSectionTitle": {
+        "zh": "营养与恢复",
+        "en": "Nutrition & Recovery"
+      },
+      "title": {
+        "zh": "体重管理",
+        "en": "Weight Management"
+      },
+      "keywords": [
+        "力量体重比",
+        "strength-to-weight ratio",
+        "身体成分",
+        "body composition",
+        "饮食失调",
+        "eating disorder",
+        "能量不足",
+        "energy deficiency"
+      ],
+      "tags": [
+        "intermediate",
+        "health"
+      ],
+      "crossRefs": [
+        "kp-climber-nutrition",
+        "kp-rest-management"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-hydration",
+      "path": "injury/nutrition",
+      "sectionId": "section-07",
+      "sectionSlug": "injury",
+      "sectionTitle": {
+        "zh": "伤病预防与恢复",
+        "en": "Injury Prevention & Recovery"
+      },
+      "subSectionId": "s07-nutrition",
+      "subSectionSlug": "nutrition",
+      "subSectionTitle": {
+        "zh": "营养与恢复",
+        "en": "Nutrition & Recovery"
+      },
+      "title": {
+        "zh": "水分补充",
+        "en": "Hydration"
+      },
+      "keywords": [
+        "水分补充",
+        "hydration",
+        "脱水",
+        "dehydration",
+        "电解质",
+        "electrolytes",
+        "低钠血症",
+        "hyponatremia"
+      ],
+      "tags": [
+        "beginner",
+        "health"
+      ],
+      "crossRefs": [
+        "kp-climber-nutrition",
+        "kp-weather-assessment"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-sleep-recovery",
+      "path": "injury/nutrition",
+      "sectionId": "section-07",
+      "sectionSlug": "injury",
+      "sectionTitle": {
+        "zh": "伤病预防与恢复",
+        "en": "Injury Prevention & Recovery"
+      },
+      "subSectionId": "s07-nutrition",
+      "subSectionSlug": "nutrition",
+      "subSectionTitle": {
+        "zh": "营养与恢复",
+        "en": "Nutrition & Recovery"
+      },
+      "title": {
+        "zh": "睡眠与恢复",
+        "en": "Sleep & Recovery"
+      },
+      "keywords": [
+        "睡眠恢复",
+        "sleep recovery",
+        "生长激素",
+        "growth hormone",
+        "泡沫轴",
+        "foam roller",
+        "筋膜放松",
+        "myofascial release",
+        "对比浴",
+        "contrast bath"
+      ],
+      "tags": [
+        "beginner",
+        "health"
+      ],
+      "crossRefs": [
+        "kp-rest-management",
+        "kp-climber-nutrition"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-indoor-outdoor-diff",
+      "path": "outdoor/transition",
+      "sectionId": "section-08",
+      "sectionSlug": "outdoor",
+      "sectionTitle": {
+        "zh": "户外攀岩实践",
+        "en": "Outdoor Climbing"
+      },
+      "subSectionId": "s08-transition",
+      "subSectionSlug": "transition",
+      "subSectionTitle": {
+        "zh": "从室内到户外的过渡",
+        "en": "Indoor to Outdoor Transition"
+      },
+      "title": {
+        "zh": "室内与户外攀岩的差异",
+        "en": "Indoor vs Outdoor Differences"
+      },
+      "keywords": [
+        "快挂",
+        "quickdraw",
+        "裂缝",
+        "crack",
+        "口袋点",
+        "pocket",
+        "岩点识别",
+        "route finding",
+        "落石",
+        "rockfall"
+      ],
+      "tags": [
+        "beginner",
+        "outdoor",
+        "safety"
+      ],
+      "crossRefs": [
+        "kp-route-reading-basics",
+        "kp-belaying",
+        "kp-fall-technique"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-first-outdoor-trip",
+      "path": "outdoor/transition",
+      "sectionId": "section-08",
+      "sectionSlug": "outdoor",
+      "sectionTitle": {
+        "zh": "户外攀岩实践",
+        "en": "Outdoor Climbing"
+      },
+      "subSectionId": "s08-transition",
+      "subSectionSlug": "transition",
+      "subSectionTitle": {
+        "zh": "从室内到户外的过渡",
+        "en": "Indoor to Outdoor Transition"
+      },
+      "title": {
+        "zh": "第一次户外攀岩准备",
+        "en": "First Outdoor Trip Preparation"
+      },
+      "keywords": [
+        "头盔",
+        "helmet",
+        "锚点",
+        "anchor",
+        "扁带",
+        "sling",
+        "锁扣",
+        "locking carabiner",
+        "降低",
+        "lowering"
+      ],
+      "tags": [
+        "beginner",
+        "outdoor",
+        "safety"
+      ],
+      "crossRefs": [
+        "kp-harness",
+        "kp-rope",
+        "kp-knots",
+        "kp-rappelling"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-rock-types",
+      "path": "outdoor/transition",
+      "sectionId": "section-08",
+      "sectionSlug": "outdoor",
+      "sectionTitle": {
+        "zh": "户外攀岩实践",
+        "en": "Outdoor Climbing"
+      },
+      "subSectionId": "s08-transition",
+      "subSectionSlug": "transition",
+      "subSectionTitle": {
+        "zh": "从室内到户外的过渡",
+        "en": "Indoor to Outdoor Transition"
+      },
+      "title": {
+        "zh": "岩石类型",
+        "en": "Rock Types"
+      },
+      "keywords": [
+        "花岗岩",
+        "granite",
+        "石灰岩",
+        "limestone",
+        "砂岩",
+        "sandstone",
+        "玄武岩",
+        "basalt",
+        "摩擦攀登",
+        "friction climbing",
+        "凹槽",
+        "tufa"
+      ],
+      "tags": [
+        "beginner",
+        "outdoor"
+      ],
+      "crossRefs": [
+        "kp-slab-technique",
+        "kp-crack-technique",
+        "kp-climbing-shoes"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-clipping-technique",
+      "path": "outdoor/sport-climbing",
+      "sectionId": "section-08",
+      "sectionSlug": "outdoor",
+      "sectionTitle": {
+        "zh": "户外攀岩实践",
+        "en": "Outdoor Climbing"
+      },
+      "subSectionId": "s08-sport",
+      "subSectionSlug": "sport-climbing",
+      "subSectionTitle": {
+        "zh": "户外运动攀登",
+        "en": "Outdoor Sport Climbing"
+      },
+      "title": {
+        "zh": "挂片技术",
+        "en": "Clipping Technique"
+      },
+      "keywords": [
+        "挂片",
+        "clipping",
+        "反扣",
+        "back-clipping",
+        "Z字挂片",
+        "Z-clipping",
+        "膨胀钉",
+        "bolt",
+        "绳索拖拽",
+        "rope drag"
+      ],
+      "tags": [
+        "beginner",
+        "outdoor",
+        "technique",
+        "safety"
+      ],
+      "crossRefs": [
+        "kp-belaying",
+        "kp-fall-technique",
+        "kp-rope"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-lead-strategy-outdoor",
+      "path": "outdoor/sport-climbing",
+      "sectionId": "section-08",
+      "sectionSlug": "outdoor",
+      "sectionTitle": {
+        "zh": "户外攀岩实践",
+        "en": "Outdoor Climbing"
+      },
+      "subSectionId": "s08-sport",
+      "subSectionSlug": "sport-climbing",
+      "subSectionTitle": {
+        "zh": "户外运动攀登",
+        "en": "Outdoor Sport Climbing"
+      },
+      "title": {
+        "zh": "户外先锋攀登策略",
+        "en": "Outdoor Lead Climbing Strategy"
+      },
+      "keywords": [
+        "路线预读",
+        "route preview",
+        "甩手恢复",
+        "shake out",
+        "坠落区域",
+        "ground fall zone",
+        "挂绳前进",
+        "hang-dogging",
+        "平台",
+        "ledge"
+      ],
+      "tags": [
+        "intermediate",
+        "outdoor",
+        "technique",
+        "safety"
+      ],
+      "crossRefs": [
+        "kp-route-reading-basics",
+        "kp-rest-management",
+        "kp-fall-technique"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-outdoor-sport-safety",
+      "path": "outdoor/sport-climbing",
+      "sectionId": "section-08",
+      "sectionSlug": "outdoor",
+      "sectionTitle": {
+        "zh": "户外攀岩实践",
+        "en": "Outdoor Climbing"
+      },
+      "subSectionId": "s08-sport",
+      "subSectionSlug": "sport-climbing",
+      "subSectionTitle": {
+        "zh": "户外运动攀登",
+        "en": "Outdoor Sport Climbing"
+      },
+      "title": {
+        "zh": "户外运动攀登安全",
+        "en": "Outdoor Sport Climbing Safety"
+      },
+      "keywords": [
+        "反扣",
+        "double back",
+        "攀登口令",
+        "climbing commands",
+        "保护准备",
+        "on belay",
+        "装备检查",
+        "gear inspection",
+        "雷暴",
+        "thunderstorm"
+      ],
+      "tags": [
+        "beginner",
+        "outdoor",
+        "safety"
+      ],
+      "crossRefs": [
+        "kp-belaying",
+        "kp-harness",
+        "kp-rope",
+        "kp-knots"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-placing-protection",
+      "path": "outdoor/trad-climbing",
+      "sectionId": "section-08",
+      "sectionSlug": "outdoor",
+      "sectionTitle": {
+        "zh": "户外攀岩实践",
+        "en": "Outdoor Climbing"
+      },
+      "subSectionId": "s08-trad",
+      "subSectionSlug": "trad-climbing",
+      "subSectionTitle": {
+        "zh": "传统攀登",
+        "en": "Traditional Climbing"
+      },
+      "title": {
+        "zh": "放置保护装置",
+        "en": "Placing Protection"
+      },
+      "keywords": [
+        "机械塞",
+        "cam / SLCD",
+        "岩塞",
+        "nut / stopper",
+        "六角塞",
+        "hexentric",
+        "保护装置",
+        "protection / pro",
+        "受力方向",
+        "loading direction"
+      ],
+      "tags": [
+        "intermediate",
+        "outdoor",
+        "safety"
+      ],
+      "crossRefs": [
+        "kp-crack-technique",
+        "kp-fall-technique",
+        "kp-rope"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-anchor-building",
+      "path": "outdoor/trad-climbing",
+      "sectionId": "section-08",
+      "sectionSlug": "outdoor",
+      "sectionTitle": {
+        "zh": "户外攀岩实践",
+        "en": "Outdoor Climbing"
+      },
+      "subSectionId": "s08-trad",
+      "subSectionSlug": "trad-climbing",
+      "subSectionTitle": {
+        "zh": "传统攀登",
+        "en": "Traditional Climbing"
+      },
+      "title": {
+        "zh": "锚点搭建",
+        "en": "Anchor Building"
+      },
+      "keywords": [
+        "锚点",
+        "anchor",
+        "均衡",
+        "equalization",
+        "冗余",
+        "redundancy",
+        "滑动X",
+        "sliding X",
+        "四股锚点",
+        "quad anchor",
+        "绳套",
+        "cordelette"
+      ],
+      "tags": [
+        "intermediate",
+        "outdoor",
+        "safety"
+      ],
+      "crossRefs": [
+        "kp-knots",
+        "kp-belaying",
+        "kp-rappelling"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-crack-climbing-systems",
+      "path": "outdoor/trad-climbing",
+      "sectionId": "section-08",
+      "sectionSlug": "outdoor",
+      "sectionTitle": {
+        "zh": "户外攀岩实践",
+        "en": "Outdoor Climbing"
+      },
+      "subSectionId": "s08-trad",
+      "subSectionSlug": "trad-climbing",
+      "subSectionTitle": {
+        "zh": "传统攀登",
+        "en": "Traditional Climbing"
+      },
+      "title": {
+        "zh": "裂缝攀登系统",
+        "en": "Crack Climbing Systems"
+      },
+      "keywords": [
+        "手塞",
+        "hand jam",
+        "指锁",
+        "finger lock",
+        "拳塞",
+        "fist jam",
+        "宽缝",
+        "offwidth",
+        "烟囱",
+        "chimney",
+        "胶布保护",
+        "taping"
+      ],
+      "tags": [
+        "intermediate",
+        "outdoor",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-crack-technique",
+        "kp-climbing-shoes",
+        "kp-edging"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-multi-pitch",
+      "path": "outdoor/trad-climbing",
+      "sectionId": "section-08",
+      "sectionSlug": "outdoor",
+      "sectionTitle": {
+        "zh": "户外攀岩实践",
+        "en": "Outdoor Climbing"
+      },
+      "subSectionId": "s08-trad",
+      "subSectionSlug": "trad-climbing",
+      "subSectionTitle": {
+        "zh": "传统攀登",
+        "en": "Traditional Climbing"
+      },
+      "title": {
+        "zh": "多段攀登",
+        "en": "Multi-Pitch Climbing"
+      },
+      "keywords": [
+        "多段攀登",
+        "multi-pitch",
+        "绳距",
+        "pitch",
+        "跟攀",
+        "seconding / following",
+        "铅交替",
+        "swing leads",
+        "保护站",
+        "belay station",
+        "路线图",
+        "topo"
+      ],
+      "tags": [
+        "advanced",
+        "outdoor",
+        "safety"
+      ],
+      "crossRefs": [
+        "kp-rappelling",
+        "kp-knots",
+        "kp-belaying"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-outdoor-bouldering-chars",
+      "path": "outdoor/bouldering",
+      "sectionId": "section-08",
+      "sectionSlug": "outdoor",
+      "sectionTitle": {
+        "zh": "户外攀岩实践",
+        "en": "Outdoor Climbing"
+      },
+      "subSectionId": "s08-boulder",
+      "subSectionSlug": "bouldering",
+      "subSectionTitle": {
+        "zh": "户外抱石",
+        "en": "Outdoor Bouldering"
+      },
+      "title": {
+        "zh": "户外抱石特点",
+        "en": "Outdoor Bouldering Characteristics"
+      },
+      "keywords": [
+        "V级",
+        "V-grade / Hueco Scale",
+        "枫丹白露级",
+        "Font Scale",
+        "线路解法",
+        "beta",
+        "摩擦条件",
+        "friction conditions",
+        "皮肤状态",
+        "skin condition"
+      ],
+      "tags": [
+        "beginner",
+        "outdoor"
+      ],
+      "crossRefs": [
+        "kp-route-reading-basics",
+        "kp-crimp-hold",
+        "kp-slab-technique"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-landing-strategy",
+      "path": "outdoor/bouldering",
+      "sectionId": "section-08",
+      "sectionSlug": "outdoor",
+      "sectionTitle": {
+        "zh": "户外攀岩实践",
+        "en": "Outdoor Climbing"
+      },
+      "subSectionId": "s08-boulder",
+      "subSectionSlug": "bouldering",
+      "subSectionTitle": {
+        "zh": "户外抱石",
+        "en": "Outdoor Bouldering"
+      },
+      "title": {
+        "zh": "读线与落地策略",
+        "en": "Reading and Landing Strategy"
+      },
+      "keywords": [
+        "防坠垫",
+        "crash pad",
+        "保护者",
+        "spotter",
+        "高球",
+        "highball",
+        "读线",
+        "reading / route reading",
+        "坠落区域",
+        "fall zone"
+      ],
+      "tags": [
+        "beginner",
+        "outdoor",
+        "safety"
+      ],
+      "crossRefs": [
+        "kp-fall-technique",
+        "kp-route-reading-basics",
+        "kp-dyno-technique"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-area-exploration",
+      "path": "outdoor/bouldering",
+      "sectionId": "section-08",
+      "sectionSlug": "outdoor",
+      "sectionTitle": {
+        "zh": "户外攀岩实践",
+        "en": "Outdoor Climbing"
+      },
+      "subSectionId": "s08-boulder",
+      "subSectionSlug": "bouldering",
+      "subSectionTitle": {
+        "zh": "户外抱石",
+        "en": "Outdoor Bouldering"
+      },
+      "title": {
+        "zh": "岩区探索",
+        "en": "Area Exploration"
+      },
+      "keywords": [
+        "攀岩指南",
+        "guidebook",
+        "接近路线",
+        "approach",
+        "无痕原则",
+        "Leave No Trace",
+        "准入权",
+        "access",
+        "镁粉",
+        "chalk"
+      ],
+      "tags": [
+        "beginner",
+        "outdoor"
+      ],
+      "crossRefs": [
+        "kp-climbing-shoes",
+        "kp-route-reading-basics"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-bigwall-planning",
+      "path": "outdoor/big-wall",
+      "sectionId": "section-08",
+      "sectionSlug": "outdoor",
+      "sectionTitle": {
+        "zh": "户外攀岩实践",
+        "en": "Outdoor Climbing"
+      },
+      "subSectionId": "s08-bigwall",
+      "subSectionSlug": "big-wall",
+      "subSectionTitle": {
+        "zh": "大岩壁攀登",
+        "en": "Big Wall Climbing"
+      },
+      "title": {
+        "zh": "大岩壁规划与后勤",
+        "en": "Big Wall Planning and Logistics"
+      },
+      "keywords": [
+        "拖包",
+        "haul bag",
+        "吊帐",
+        "portaledge",
+        "拖拽系统",
+        "hauling system",
+        "排泄物处理",
+        "waste kit",
+        "天然平台",
+        "ledge"
+      ],
+      "tags": [
+        "advanced",
+        "outdoor",
+        "safety"
+      ],
+      "crossRefs": [
+        "kp-rope",
+        "kp-knots",
+        "kp-rappelling"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-aid-climbing",
+      "path": "outdoor/big-wall",
+      "sectionId": "section-08",
+      "sectionSlug": "outdoor",
+      "sectionTitle": {
+        "zh": "户外攀岩实践",
+        "en": "Outdoor Climbing"
+      },
+      "subSectionId": "s08-bigwall",
+      "subSectionSlug": "big-wall",
+      "subSectionTitle": {
+        "zh": "大岩壁攀登",
+        "en": "Big Wall Climbing"
+      },
+      "title": {
+        "zh": "器械攀登",
+        "en": "Aid Climbing"
+      },
+      "keywords": [
+        "器械攀登",
+        "aid climbing",
+        "梯绳",
+        "aider / etrier",
+        "铜头",
+        "copperhead",
+        "岩钉",
+        "piton",
+        "干净攀登",
+        "clean climbing",
+        "钩子",
+        "skyhook"
+      ],
+      "tags": [
+        "advanced",
+        "outdoor",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-crack-technique",
+        "kp-placing-protection",
+        "kp-rope"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-wall-living",
+      "path": "outdoor/big-wall",
+      "sectionId": "section-08",
+      "sectionSlug": "outdoor",
+      "sectionTitle": {
+        "zh": "户外攀岩实践",
+        "en": "Outdoor Climbing"
+      },
+      "subSectionId": "s08-bigwall",
+      "subSectionSlug": "big-wall",
+      "subSectionTitle": {
+        "zh": "大岩壁攀登",
+        "en": "Big Wall Climbing"
+      },
+      "title": {
+        "zh": "岩壁生活",
+        "en": "Living on the Wall"
+      },
+      "keywords": [
+        "吊帐",
+        "portaledge",
+        "岩壁生活",
+        "wall living / bivy",
+        "排泄物收集管",
+        "waste tube",
+        "便携炉具",
+        "portable stove",
+        "雨罩",
+        "rain fly"
+      ],
+      "tags": [
+        "advanced",
+        "outdoor"
+      ],
+      "crossRefs": [
+        "kp-knots",
+        "kp-rappelling",
+        "kp-rest-management"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-classic-destinations",
+      "path": "outdoor/travel",
+      "sectionId": "section-08",
+      "sectionSlug": "outdoor",
+      "sectionTitle": {
+        "zh": "户外攀岩实践",
+        "en": "Outdoor Climbing"
+      },
+      "subSectionId": "s08-travel",
+      "subSectionSlug": "travel",
+      "subSectionTitle": {
+        "zh": "攀岩旅行",
+        "en": "Climbing Travel"
+      },
+      "title": {
+        "zh": "世界经典攀岩目的地",
+        "en": "Classic Worldwide Climbing Destinations"
+      },
+      "keywords": [
+        "优胜美地",
+        "Yosemite",
+        "枫丹白露",
+        "Fontainebleau",
+        "阳朔",
+        "Yangshuo",
+        "喀斯特地貌",
+        "karst",
+        "攀岩圣地",
+        "climbing mecca"
+      ],
+      "tags": [
+        "beginner",
+        "outdoor"
+      ],
+      "crossRefs": [
+        "kp-rock-types",
+        "kp-climbing-shoes",
+        "kp-crack-technique"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-trip-planning",
+      "path": "outdoor/travel",
+      "sectionId": "section-08",
+      "sectionSlug": "outdoor",
+      "sectionTitle": {
+        "zh": "户外攀岩实践",
+        "en": "Outdoor Climbing"
+      },
+      "subSectionId": "s08-travel",
+      "subSectionSlug": "travel",
+      "subSectionTitle": {
+        "zh": "攀岩旅行",
+        "en": "Climbing Travel"
+      },
+      "title": {
+        "zh": "旅行规划与准备",
+        "en": "Trip Planning and Preparation"
+      },
+      "keywords": [
+        "行李托运",
+        "checked luggage",
+        "攀岩指南书",
+        "guidebook",
+        "旅行保险",
+        "travel insurance",
+        "高海拔适应",
+        "altitude acclimatization",
+        "装备租借",
+        "gear rental"
+      ],
+      "tags": [
+        "beginner",
+        "outdoor"
+      ],
+      "crossRefs": [
+        "kp-periodization",
+        "kp-warmup",
+        "kp-aerobic-endurance"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-kids-development",
+      "path": "special/kids",
+      "sectionId": "section-09",
+      "sectionSlug": "special",
+      "sectionTitle": {
+        "zh": "特殊人群",
+        "en": "Special Populations"
+      },
+      "subSectionId": "s09-kids",
+      "subSectionSlug": "kids",
+      "subSectionTitle": {
+        "zh": "儿童攀岩",
+        "en": "Kids Climbing"
+      },
+      "title": {
+        "zh": "儿童发育阶段与攀岩",
+        "en": "Developmental Stages and Climbing"
+      },
+      "keywords": [
+        "横移墙",
+        "traverse wall",
+        "生长板",
+        "growth plate",
+        "精细运动控制",
+        "fine motor control",
+        "运动启蒙",
+        "motor development",
+        "专项化",
+        "specialization"
+      ],
+      "tags": [
+        "beginner",
+        "special"
+      ],
+      "crossRefs": [
+        "kp-warmup",
+        "kp-edging",
+        "kp-flagging"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-kids-safety",
+      "path": "special/kids",
+      "sectionId": "section-09",
+      "sectionSlug": "special",
+      "sectionTitle": {
+        "zh": "特殊人群",
+        "en": "Special Populations"
+      },
+      "subSectionId": "s09-kids",
+      "subSectionSlug": "kids",
+      "subSectionTitle": {
+        "zh": "儿童攀岩",
+        "en": "Kids Climbing"
+      },
+      "title": {
+        "zh": "儿童攀岩安全考量",
+        "en": "Safety Considerations for Kids"
+      },
+      "keywords": [
+        "全身式安全带",
+        "full-body harness",
+        "动态缓冲",
+        "soft catch",
+        "地面锚点",
+        "ground anchor",
+        "辅助制动器",
+        "assisted braking device",
+        "心理安全",
+        "psychological safety"
+      ],
+      "tags": [
+        "beginner",
+        "safety",
+        "special"
+      ],
+      "crossRefs": [
+        "kp-belaying",
+        "kp-harness",
+        "kp-fall-technique",
+        "kp-fear-management"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-kids-fun-approach",
+      "path": "special/kids",
+      "sectionId": "section-09",
+      "sectionSlug": "special",
+      "sectionTitle": {
+        "zh": "特殊人群",
+        "en": "Special Populations"
+      },
+      "subSectionId": "s09-kids",
+      "subSectionSlug": "kids",
+      "subSectionTitle": {
+        "zh": "儿童攀岩",
+        "en": "Kids Climbing"
+      },
+      "title": {
+        "zh": "趣味导向的教学方法",
+        "en": "Fun-Focused Approach"
+      },
+      "keywords": [
+        "游戏化教学",
+        "gamification",
+        "横移训练",
+        "traverse training",
+        "手眼协调",
+        "hand-eye coordination",
+        "本体感觉",
+        "proprioception",
+        "内在动机",
+        "intrinsic motivation"
+      ],
+      "tags": [
+        "beginner",
+        "special",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-edging",
+        "kp-flagging",
+        "kp-route-reading-basics"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-youth-training-load",
+      "path": "special/youth",
+      "sectionId": "section-09",
+      "sectionSlug": "special",
+      "sectionTitle": {
+        "zh": "特殊人群",
+        "en": "Special Populations"
+      },
+      "subSectionId": "s09-youth",
+      "subSectionSlug": "youth",
+      "subSectionTitle": {
+        "zh": "青少年攀岩",
+        "en": "Youth Climbing"
+      },
+      "title": {
+        "zh": "训练负荷管理",
+        "en": "Training Load Management"
+      },
+      "keywords": [
+        "训练负荷",
+        "training load",
+        "10%规则",
+        "10% rule",
+        "生长加速期",
+        "growth spurt",
+        "过度训练",
+        "overtraining",
+        "恢复周期",
+        "recovery period"
+      ],
+      "tags": [
+        "intermediate",
+        "training",
+        "special"
+      ],
+      "crossRefs": [
+        "kp-periodization",
+        "kp-rest-management",
+        "kp-hangboard-training"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-growth-plate-concerns",
+      "path": "special/youth",
+      "sectionId": "section-09",
+      "sectionSlug": "special",
+      "sectionTitle": {
+        "zh": "特殊人群",
+        "en": "Special Populations"
+      },
+      "subSectionId": "s09-youth",
+      "subSectionSlug": "youth",
+      "subSectionTitle": {
+        "zh": "青少年攀岩",
+        "en": "Youth Climbing"
+      },
+      "title": {
+        "zh": "生长板损伤风险",
+        "en": "Growth Plate Concerns"
+      },
+      "keywords": [
+        "生长板",
+        "growth plate / epiphyseal plate",
+        "骨骺炎",
+        "epiphysitis",
+        "校板",
+        "campus board",
+        "PIP关节",
+        "PIP joint",
+        "MCP关节",
+        "MCP joint"
+      ],
+      "tags": [
+        "intermediate",
+        "safety",
+        "special"
+      ],
+      "crossRefs": [
+        "kp-pulley-injury",
+        "kp-grip-types",
+        "kp-campus-training",
+        "kp-hangboard-training"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-youth-competition",
+      "path": "special/youth",
+      "sectionId": "section-09",
+      "sectionSlug": "special",
+      "sectionTitle": {
+        "zh": "特殊人群",
+        "en": "Special Populations"
+      },
+      "subSectionId": "s09-youth",
+      "subSectionSlug": "youth",
+      "subSectionTitle": {
+        "zh": "青少年攀岩",
+        "en": "Youth Climbing"
+      },
+      "title": {
+        "zh": "竞赛路径",
+        "en": "Competition Pathway"
+      },
+      "keywords": [
+        "青少年世界锦标赛",
+        "Youth World Championships",
+        "年龄组别",
+        "age category",
+        "职业倦怠",
+        "burnout",
+        "隔离区",
+        "isolation zone",
+        "专项化",
+        "specialization"
+      ],
+      "tags": [
+        "intermediate",
+        "competition",
+        "special"
+      ],
+      "crossRefs": [
+        "kp-fear-management",
+        "kp-flow-state",
+        "kp-periodization"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-elderly-injury-prevention",
+      "path": "special/elderly",
+      "sectionId": "section-09",
+      "sectionSlug": "special",
+      "sectionTitle": {
+        "zh": "特殊人群",
+        "en": "Special Populations"
+      },
+      "subSectionId": "s09-elderly",
+      "subSectionSlug": "elderly",
+      "subSectionTitle": {
+        "zh": "中老年攀岩",
+        "en": "Elderly Climbing"
+      },
+      "title": {
+        "zh": "伤害预防重点",
+        "en": "Injury Prevention Focus"
+      },
+      "keywords": [
+        "肩袖",
+        "rotator cuff",
+        "网球肘",
+        "tennis elbow",
+        "对抗肌群",
+        "antagonist muscles",
+        "关节活动度",
+        "range of motion",
+        "冷身",
+        "cool-down"
+      ],
+      "tags": [
+        "beginner",
+        "safety",
+        "special"
+      ],
+      "crossRefs": [
+        "kp-warmup",
+        "kp-pulley-injury",
+        "kp-grip-types"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-elderly-training-adjustments",
+      "path": "special/elderly",
+      "sectionId": "section-09",
+      "sectionSlug": "special",
+      "sectionTitle": {
+        "zh": "特殊人群",
+        "en": "Special Populations"
+      },
+      "subSectionId": "s09-elderly",
+      "subSectionSlug": "elderly",
+      "subSectionTitle": {
+        "zh": "中老年攀岩",
+        "en": "Elderly Climbing"
+      },
+      "title": {
+        "zh": "训练调整策略",
+        "en": "Training Adjustments"
+      },
+      "keywords": [
+        "恢复时间",
+        "recovery time",
+        "低强度交叉训练",
+        "low-intensity cross-training",
+        "核心训练",
+        "core training",
+        "训练量",
+        "training volume",
+        "平衡训练",
+        "balance training"
+      ],
+      "tags": [
+        "intermediate",
+        "training",
+        "special"
+      ],
+      "crossRefs": [
+        "kp-core-role",
+        "kp-hangboard-training",
+        "kp-periodization",
+        "kp-rest-management"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-elderly-benefits",
+      "path": "special/elderly",
+      "sectionId": "section-09",
+      "sectionSlug": "special",
+      "sectionTitle": {
+        "zh": "特殊人群",
+        "en": "Special Populations"
+      },
+      "subSectionId": "s09-elderly",
+      "subSectionSlug": "elderly",
+      "subSectionTitle": {
+        "zh": "中老年攀岩",
+        "en": "Elderly Climbing"
+      },
+      "title": {
+        "zh": "攀岩对中老年人的益处",
+        "en": "Benefits of Climbing for Older Adults"
+      },
+      "keywords": [
+        "骨密度",
+        "bone density",
+        "本体感觉",
+        "proprioception",
+        "握力",
+        "grip strength",
+        "认知功能",
+        "cognitive function",
+        "自我效能感",
+        "self-efficacy"
+      ],
+      "tags": [
+        "beginner",
+        "special"
+      ],
+      "crossRefs": [
+        "kp-core-role",
+        "kp-flow-state",
+        "kp-fear-management"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-elderly-flexibility",
+      "path": "special/elderly",
+      "sectionId": "section-09",
+      "sectionSlug": "special",
+      "sectionTitle": {
+        "zh": "特殊人群",
+        "en": "Special Populations"
+      },
+      "subSectionId": "s09-elderly",
+      "subSectionSlug": "elderly",
+      "subSectionTitle": {
+        "zh": "中老年攀岩",
+        "en": "Elderly Climbing"
+      },
+      "title": {
+        "zh": "柔韧性训练重点",
+        "en": "Flexibility Emphasis"
+      },
+      "keywords": [
+        "高蹬",
+        "high step",
+        "髋关节外展",
+        "hip abduction",
+        "胸椎旋转",
+        "thoracic rotation",
+        "PNF拉伸",
+        "PNF stretching",
+        "泡沫轴",
+        "foam roller",
+        "静态拉伸",
+        "static stretching"
+      ],
+      "tags": [
+        "beginner",
+        "training",
+        "special"
+      ],
+      "crossRefs": [
+        "kp-warmup",
+        "kp-slab-technique",
+        "kp-overhang-technique"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-adaptive-types",
+      "path": "special/adaptive",
+      "sectionId": "section-09",
+      "sectionSlug": "special",
+      "sectionTitle": {
+        "zh": "特殊人群",
+        "en": "Special Populations"
+      },
+      "subSectionId": "s09-adaptive",
+      "subSectionSlug": "adaptive",
+      "subSectionTitle": {
+        "zh": "适应性攀岩",
+        "en": "Adaptive Climbing"
+      },
+      "title": {
+        "zh": "适应性攀岩类型",
+        "en": "Types of Adaptive Climbing"
+      },
+      "keywords": [
+        "适应性攀岩",
+        "adaptive climbing",
+        "截肢",
+        "amputation",
+        "截瘫",
+        "paraplegia",
+        "视觉引导",
+        "visual guidance",
+        "感觉统合",
+        "sensory integration"
+      ],
+      "tags": [
+        "beginner",
+        "special"
+      ],
+      "crossRefs": [
+        "kp-belaying",
+        "kp-harness",
+        "kp-route-reading-basics"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-adaptive-equipment",
+      "path": "special/adaptive",
+      "sectionId": "section-09",
+      "sectionSlug": "special",
+      "sectionTitle": {
+        "zh": "特殊人群",
+        "en": "Special Populations"
+      },
+      "subSectionId": "s09-adaptive",
+      "subSectionSlug": "adaptive",
+      "subSectionTitle": {
+        "zh": "适应性攀岩",
+        "en": "Adaptive Climbing"
+      },
+      "title": {
+        "zh": "装备改造",
+        "en": "Equipment Modifications"
+      },
+      "keywords": [
+        "全身式安全带",
+        "full-body harness",
+        "攀岩假肢",
+        "climbing prosthetic",
+        "电动绞盘",
+        "electric winch",
+        "自动保护器",
+        "auto-belay",
+        "辅助绳索系统",
+        "assisted rope system"
+      ],
+      "tags": [
+        "beginner",
+        "special",
+        "safety"
+      ],
+      "crossRefs": [
+        "kp-harness",
+        "kp-belaying",
+        "kp-climbing-shoes"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-adaptive-organizations",
+      "path": "special/adaptive",
+      "sectionId": "section-09",
+      "sectionSlug": "special",
+      "sectionTitle": {
+        "zh": "特殊人群",
+        "en": "Special Populations"
+      },
+      "subSectionId": "s09-adaptive",
+      "subSectionSlug": "adaptive",
+      "subSectionTitle": {
+        "zh": "适应性攀岩",
+        "en": "Adaptive Climbing"
+      },
+      "title": {
+        "zh": "组织与包容性攀岩",
+        "en": "Organizations and Inclusive Climbing"
+      },
+      "keywords": [
+        "适应性攀岩赛事",
+        "paraclimbing competition",
+        "功能分级",
+        "functional classification",
+        "无障碍设计",
+        "accessible design",
+        "包容性",
+        "inclusivity",
+        "残疾人奥运会",
+        "Paralympic Games"
+      ],
+      "tags": [
+        "beginner",
+        "special"
+      ],
+      "crossRefs": [
+        "kp-route-reading-basics",
+        "kp-belaying"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-lead-competition",
+      "path": "competition/formats",
+      "sectionId": "section-10",
+      "sectionSlug": "competition",
+      "sectionTitle": {
+        "zh": "竞技攀岩",
+        "en": "Competition Climbing"
+      },
+      "subSectionId": "s10-formats",
+      "subSectionSlug": "formats",
+      "subSectionTitle": {
+        "zh": "竞赛形式",
+        "en": "Competition Formats"
+      },
+      "title": {
+        "zh": "先锋赛形式",
+        "en": "Lead Competition Format"
+      },
+      "keywords": [
+        "先锋赛",
+        "lead competition",
+        "隔离",
+        "isolation",
+        "观察时间",
+        "observation period",
+        "控制",
+        "controlled hold",
+        "完攀",
+        "top"
+      ],
+      "tags": [
+        "beginner",
+        "competition"
+      ],
+      "crossRefs": [
+        "kp-route-reading-basics",
+        "kp-rest-management",
+        "kp-fall-technique"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-speed-competition",
+      "path": "competition/formats",
+      "sectionId": "section-10",
+      "sectionSlug": "competition",
+      "sectionTitle": {
+        "zh": "竞技攀岩",
+        "en": "Competition Climbing"
+      },
+      "subSectionId": "s10-formats",
+      "subSectionSlug": "formats",
+      "subSectionTitle": {
+        "zh": "竞赛形式",
+        "en": "Competition Formats"
+      },
+      "title": {
+        "zh": "速度赛形式",
+        "en": "Speed Competition Format"
+      },
+      "keywords": [
+        "速度赛",
+        "speed competition",
+        "标准路线",
+        "standardized route",
+        "计时按钮",
+        "buzzer",
+        "抢跑",
+        "false start",
+        "淘汰赛",
+        "elimination bracket"
+      ],
+      "tags": [
+        "beginner",
+        "competition"
+      ],
+      "crossRefs": [
+        "kp-dyno-technique",
+        "kp-campus-training",
+        "kp-warmup"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-boulder-competition",
+      "path": "competition/formats",
+      "sectionId": "section-10",
+      "sectionSlug": "competition",
+      "sectionTitle": {
+        "zh": "竞技攀岩",
+        "en": "Competition Climbing"
+      },
+      "subSectionId": "s10-formats",
+      "subSectionSlug": "formats",
+      "subSectionTitle": {
+        "zh": "竞赛形式",
+        "en": "Competition Formats"
+      },
+      "title": {
+        "zh": "抱石赛形式",
+        "en": "Bouldering Competition Format"
+      },
+      "keywords": [
+        "抱石赛",
+        "bouldering competition",
+        "问题",
+        "problem",
+        "区域点",
+        "zone",
+        "顶点",
+        "top",
+        "定线员",
+        "route setter"
+      ],
+      "tags": [
+        "beginner",
+        "competition"
+      ],
+      "crossRefs": [
+        "kp-dyno-technique",
+        "kp-crimp-hold",
+        "kp-toe-hook",
+        "kp-route-reading-basics"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-combined-olympic",
+      "path": "competition/formats",
+      "sectionId": "section-10",
+      "sectionSlug": "competition",
+      "sectionTitle": {
+        "zh": "竞技攀岩",
+        "en": "Competition Climbing"
+      },
+      "subSectionId": "s10-formats",
+      "subSectionSlug": "formats",
+      "subSectionTitle": {
+        "zh": "竞赛形式",
+        "en": "Competition Formats"
+      },
+      "title": {
+        "zh": "全能赛与奥运形式",
+        "en": "Combined and Olympic Format"
+      },
+      "keywords": [
+        "全能赛",
+        "combined competition",
+        "两项全能",
+        "boulder & lead combined",
+        "乘积排名",
+        "multiplication ranking",
+        "奥运攀岩",
+        "Olympic climbing",
+        "分项赛",
+        "individual discipline"
+      ],
+      "tags": [
+        "beginner",
+        "competition"
+      ],
+      "crossRefs": [
+        "kp-periodization",
+        "kp-aerobic-endurance",
+        "kp-campus-training"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-scoring-systems",
+      "path": "competition/rules",
+      "sectionId": "section-10",
+      "sectionSlug": "competition",
+      "sectionTitle": {
+        "zh": "竞技攀岩",
+        "en": "Competition Climbing"
+      },
+      "subSectionId": "s10-rules",
+      "subSectionSlug": "rules",
+      "subSectionTitle": {
+        "zh": "竞赛规则",
+        "en": "Competition Rules"
+      },
+      "title": {
+        "zh": "计分系统",
+        "en": "Scoring Systems"
+      },
+      "keywords": [
+        "控制手点",
+        "controlled hold",
+        "加号规则",
+        "plus rule",
+        "首攀奖励",
+        "flash bonus",
+        "千分之一秒",
+        "millisecond timing",
+        "犯规",
+        "foul / infraction"
+      ],
+      "tags": [
+        "beginner",
+        "competition"
+      ],
+      "crossRefs": [
+        "kp-route-reading-basics",
+        "kp-projecting-strategy"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-isolation-zone",
+      "path": "competition/rules",
+      "sectionId": "section-10",
+      "sectionSlug": "competition",
+      "sectionTitle": {
+        "zh": "竞技攀岩",
+        "en": "Competition Climbing"
+      },
+      "subSectionId": "s10-rules",
+      "subSectionSlug": "rules",
+      "subSectionTitle": {
+        "zh": "竞赛规则",
+        "en": "Competition Rules"
+      },
+      "title": {
+        "zh": "隔离区与比赛流程",
+        "en": "Isolation Zone and Procedures"
+      },
+      "keywords": [
+        "隔离区",
+        "isolation zone",
+        "观察时间",
+        "observation period",
+        "过渡区",
+        "transit zone",
+        "出场顺序",
+        "start order",
+        "取消资格",
+        "disqualification"
+      ],
+      "tags": [
+        "beginner",
+        "competition"
+      ],
+      "crossRefs": [
+        "kp-warmup",
+        "kp-route-reading-basics",
+        "kp-fear-management"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-time-limits-attempts",
+      "path": "competition/rules",
+      "sectionId": "section-10",
+      "sectionSlug": "competition",
+      "sectionTitle": {
+        "zh": "竞技攀岩",
+        "en": "Competition Climbing"
+      },
+      "subSectionId": "s10-rules",
+      "subSectionSlug": "rules",
+      "subSectionTitle": {
+        "zh": "竞赛规则",
+        "en": "Competition Rules"
+      },
+      "title": {
+        "zh": "时间限制与尝试规则",
+        "en": "Time Limits and Attempt Rules"
+      },
+      "keywords": [
+        "有效尝试",
+        "valid attempt",
+        "技术犯规",
+        "technical infraction",
+        "申诉",
+        "appeal",
+        "攀爬时限",
+        "climbing time limit",
+        "裁判",
+        "judge / official"
+      ],
+      "tags": [
+        "beginner",
+        "competition"
+      ],
+      "crossRefs": [
+        "kp-rest-management",
+        "kp-projecting-strategy",
+        "kp-route-reading-basics"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-comp-specific-training",
+      "path": "competition/training",
+      "sectionId": "section-10",
+      "sectionSlug": "competition",
+      "sectionTitle": {
+        "zh": "竞技攀岩",
+        "en": "Competition Climbing"
+      },
+      "subSectionId": "s10-training",
+      "subSectionSlug": "training",
+      "subSectionTitle": {
+        "zh": "竞赛训练",
+        "en": "Competition Training"
+      },
+      "title": {
+        "zh": "比赛专项训练",
+        "en": "Competition-Specific Training"
+      },
+      "keywords": [
+        "onsight能力",
+        "onsight ability",
+        "隔离热身",
+        "isolation warm-up",
+        "读线训练",
+        "route reading training",
+        "动作激活",
+        "movement activation",
+        "难点识别",
+        "crux identification"
+      ],
+      "tags": [
+        "intermediate",
+        "competition",
+        "training"
+      ],
+      "crossRefs": [
+        "kp-route-reading-basics",
+        "kp-warmup",
+        "kp-projecting-strategy"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-peaking",
+      "path": "competition/training",
+      "sectionId": "section-10",
+      "sectionSlug": "competition",
+      "sectionTitle": {
+        "zh": "竞技攀岩",
+        "en": "Competition Climbing"
+      },
+      "subSectionId": "s10-training",
+      "subSectionSlug": "training",
+      "subSectionTitle": {
+        "zh": "竞赛训练",
+        "en": "Competition Training"
+      },
+      "title": {
+        "zh": "竞技状态调整",
+        "en": "Peaking for Competition"
+      },
+      "keywords": [
+        "竞技巅峰",
+        "peaking",
+        "赛前减量",
+        "taper",
+        "激活训练",
+        "activation session",
+        "训练周期",
+        "training cycle",
+        "意象化",
+        "visualization"
+      ],
+      "tags": [
+        "advanced",
+        "competition",
+        "training"
+      ],
+      "crossRefs": [
+        "kp-periodization",
+        "kp-rest-management",
+        "kp-warmup"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-comp-simulation",
+      "path": "competition/training",
+      "sectionId": "section-10",
+      "sectionSlug": "competition",
+      "sectionTitle": {
+        "zh": "竞技攀岩",
+        "en": "Competition Climbing"
+      },
+      "subSectionId": "s10-training",
+      "subSectionSlug": "training",
+      "subSectionTitle": {
+        "zh": "竞赛训练",
+        "en": "Competition Training"
+      },
+      "title": {
+        "zh": "模拟比赛训练",
+        "en": "Competition Simulation"
+      },
+      "keywords": [
+        "模拟比赛",
+        "competition simulation",
+        "赛后复盘",
+        "post-competition analysis",
+        "比赛日志",
+        "competition journal",
+        "限时读线",
+        "timed route reading",
+        "onsight马拉松",
+        "onsight marathon"
+      ],
+      "tags": [
+        "intermediate",
+        "competition",
+        "training"
+      ],
+      "crossRefs": [
+        "kp-projecting-strategy",
+        "kp-flow-state",
+        "kp-fear-management"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-competition-anxiety",
+      "path": "competition/psychology",
+      "sectionId": "section-10",
+      "sectionSlug": "competition",
+      "sectionTitle": {
+        "zh": "竞技攀岩",
+        "en": "Competition Climbing"
+      },
+      "subSectionId": "s10-psychology",
+      "subSectionSlug": "psychology",
+      "subSectionTitle": {
+        "zh": "竞赛心理",
+        "en": "Competition Psychology"
+      },
+      "title": {
+        "zh": "竞赛焦虑管理",
+        "en": "Competition Anxiety Management"
+      },
+      "keywords": [
+        "竞赛焦虑",
+        "competition anxiety",
+        "呼吸控制",
+        "breath control",
+        "认知重构",
+        "cognitive reframing",
+        "过程导向",
+        "process-oriented",
+        "副交感神经",
+        "parasympathetic nervous system"
+      ],
+      "tags": [
+        "intermediate",
+        "competition"
+      ],
+      "crossRefs": [
+        "kp-fear-management",
+        "kp-flow-state",
+        "kp-warmup"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-performance-mindset",
+      "path": "competition/psychology",
+      "sectionId": "section-10",
+      "sectionSlug": "competition",
+      "sectionTitle": {
+        "zh": "竞技攀岩",
+        "en": "Competition Climbing"
+      },
+      "subSectionId": "s10-psychology",
+      "subSectionSlug": "psychology",
+      "subSectionTitle": {
+        "zh": "竞赛心理",
+        "en": "Competition Psychology"
+      },
+      "title": {
+        "zh": "竞技表现心态",
+        "en": "Performance Mindset"
+      },
+      "keywords": [
+        "成长型心态",
+        "growth mindset",
+        "注意力锚点",
+        "attention anchor",
+        "窄聚焦",
+        "narrow focus",
+        "表现线索",
+        "performance cues",
+        "双目标设定",
+        "dual goal setting"
+      ],
+      "tags": [
+        "intermediate",
+        "competition"
+      ],
+      "crossRefs": [
+        "kp-flow-state",
+        "kp-projecting-strategy",
+        "kp-fear-management"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-pressure-visualization",
+      "path": "competition/psychology",
+      "sectionId": "section-10",
+      "sectionSlug": "competition",
+      "sectionTitle": {
+        "zh": "竞技攀岩",
+        "en": "Competition Climbing"
+      },
+      "subSectionId": "s10-psychology",
+      "subSectionSlug": "psychology",
+      "subSectionTitle": {
+        "zh": "竞赛心理",
+        "en": "Competition Psychology"
+      },
+      "title": {
+        "zh": "压力管理与意象化训练",
+        "en": "Pressure Management and Visualization"
+      },
+      "keywords": [
+        "意象化训练",
+        "visualization",
+        "动觉意象",
+        "kinesthetic imagery",
+        "压力脱敏",
+        "pressure desensitization",
+        "过程目标",
+        "process goal",
+        "困难应对意象",
+        "coping imagery"
+      ],
+      "tags": [
+        "advanced",
+        "competition"
+      ],
+      "crossRefs": [
+        "kp-flow-state",
+        "kp-fear-management",
+        "kp-projecting-strategy"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-ifsc",
+      "path": "competition/organizations",
+      "sectionId": "section-10",
+      "sectionSlug": "competition",
+      "sectionTitle": {
+        "zh": "竞技攀岩",
+        "en": "Competition Climbing"
+      },
+      "subSectionId": "s10-organizations",
+      "subSectionSlug": "organizations",
+      "subSectionTitle": {
+        "zh": "竞赛组织与体系",
+        "en": "Competition Organizations"
+      },
+      "title": {
+        "zh": "国际攀联（IFSC）",
+        "en": "IFSC"
+      },
+      "keywords": [
+        "国际攀联",
+        "IFSC",
+        "世界锦标赛",
+        "World Championships",
+        "世界杯",
+        "World Cup",
+        "国际奥委会",
+        "IOC",
+        "反兴奋剂",
+        "anti-doping"
+      ],
+      "tags": [
+        "beginner",
+        "competition"
+      ],
+      "crossRefs": [
+        "kp-lead-competition",
+        "kp-speed-competition",
+        "kp-boulder-competition"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-national-federations",
+      "path": "competition/organizations",
+      "sectionId": "section-10",
+      "sectionSlug": "competition",
+      "sectionTitle": {
+        "zh": "竞技攀岩",
+        "en": "Competition Climbing"
+      },
+      "subSectionId": "s10-organizations",
+      "subSectionSlug": "organizations",
+      "subSectionTitle": {
+        "zh": "竞赛组织与体系",
+        "en": "Competition Organizations"
+      },
+      "title": {
+        "zh": "国家联合会",
+        "en": "National Federations"
+      },
+      "keywords": [
+        "国家联合会",
+        "national federation",
+        "全国锦标赛",
+        "national championships",
+        "国家队选拔",
+        "national team selection",
+        "教练认证",
+        "coach certification",
+        "选手发展",
+        "athlete development"
+      ],
+      "tags": [
+        "beginner",
+        "competition"
+      ],
+      "crossRefs": [
+        "kp-youth-competition",
+        "kp-periodization"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    },
+    {
+      "id": "kp-competition-circuit-rankings",
+      "path": "competition/organizations",
+      "sectionId": "section-10",
+      "sectionSlug": "competition",
+      "sectionTitle": {
+        "zh": "竞技攀岩",
+        "en": "Competition Climbing"
+      },
+      "subSectionId": "s10-organizations",
+      "subSectionSlug": "organizations",
+      "subSectionTitle": {
+        "zh": "竞赛组织与体系",
+        "en": "Competition Organizations"
+      },
+      "title": {
+        "zh": "赛事巡回与排名系统",
+        "en": "Competition Circuit and Rankings"
+      },
+      "keywords": [
+        "世界杯巡回赛",
+        "World Cup circuit",
+        "积分系统",
+        "points system",
+        "种子选手",
+        "seeded athlete",
+        "年度排名",
+        "annual ranking",
+        "参赛资格",
+        "qualification / quota"
+      ],
+      "tags": [
+        "beginner",
+        "competition"
+      ],
+      "crossRefs": [
+        "kp-ifsc",
+        "kp-combined-olympic",
+        "kp-peaking"
+      ],
+      "status": {
+        "content": "done",
+        "illustration": "pending",
+        "video": "pending"
+      }
+    }
+  ]
+}

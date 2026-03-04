@@ -1,0 +1,635 @@
+{
+  "kp-4x4-training": [
+    "/images/illustrations/kp-4x4-training.png"
+  ],
+  "kp-adaptive-equipment": [
+    "/images/illustrations/kp-adaptive-equipment-harness.png",
+    "/images/illustrations/kp-adaptive-equipment-leg-adapter.png",
+    "/images/illustrations/kp-adaptive-equipment-upper-prosthetic.png"
+  ],
+  "kp-adaptive-organizations": [
+    "/images/illustrations/kp-adaptive-organizations.png"
+  ],
+  "kp-adaptive-types": [
+    "/images/illustrations/kp-adaptive-types-lower-limb.png",
+    "/images/illustrations/kp-adaptive-types-seated.png",
+    "/images/illustrations/kp-adaptive-types-visual.png"
+  ],
+  "kp-advanced-finger": [
+    "/images/illustrations/kp-advanced-finger-eccentric.png",
+    "/images/illustrations/kp-advanced-finger-mono.png",
+    "/images/illustrations/kp-advanced-finger-one-arm.png"
+  ],
+  "kp-aid-climbing": [
+    "/images/illustrations/kp-aid-climbing.png"
+  ],
+  "kp-anchor-building": [
+    "/images/illustrations/kp-anchor-building-outdoor.png",
+    "/images/illustrations/kp-anchor-building.png"
+  ],
+  "kp-antagonist-training": [
+    "/images/illustrations/kp-antagonist-training-external-rotation.png",
+    "/images/illustrations/kp-antagonist-training-finger-extension.png",
+    "/images/illustrations/kp-antagonist-training-imbalance.png",
+    "/images/illustrations/kp-antagonist-training-pushup.png",
+    "/images/illustrations/kp-antagonist-training-reverse-wrist-curl.png",
+    "/images/illustrations/kp-antagonist-training-ring-dips.png"
+  ],
+  "kp-anti-rotation": [
+    "/images/illustrations/kp-anti-rotation-bird-dog.png",
+    "/images/illustrations/kp-anti-rotation-pallof.png"
+  ],
+  "kp-arc-training": [
+    "/images/illustrations/kp-arc-training.png"
+  ],
+  "kp-area-exploration": [
+    "/images/illustrations/kp-area-exploration-approach.png",
+    "/images/illustrations/kp-area-exploration-guidebook.png",
+    "/images/illustrations/kp-area-exploration-matching.png"
+  ],
+  "kp-arete-mantle": [
+    "/images/illustrations/kp-arete-technique.png"
+  ],
+  "kp-ascender": [
+    "/images/illustrations/kp-ascender.png"
+  ],
+  "kp-attention-management": [
+    "/images/illustrations/kp-attention-management.png"
+  ],
+  "kp-back-step": [
+    "/images/illustrations/kp-back-step.png"
+  ],
+  "kp-basic-rescue": [
+    "/images/illustrations/kp-basic-rescue-ascending.png",
+    "/images/illustrations/kp-basic-rescue-z-pulley.png"
+  ],
+  "kp-belay-device": [
+    "/images/illustrations/kp-belay-device-atc.png",
+    "/images/illustrations/kp-belay-device-grigri.png"
+  ],
+  "kp-belaying": [
+    "/images/illustrations/kp-belaying-ground-fall-zone.png",
+    "/images/illustrations/kp-belaying-pbus.png"
+  ],
+  "kp-bicycle": [
+    "/images/illustrations/kp-bicycle.png"
+  ],
+  "kp-bigwall-planning": [
+    "/images/illustrations/kp-bigwall-planning.png"
+  ],
+  "kp-boulder-competition": [
+    "/images/illustrations/kp-boulder-competition.png"
+  ],
+  "kp-bouldering-fall": [
+    "/images/illustrations/kp-bouldering-fall.png"
+  ],
+  "kp-campus-board-gear": [
+    "/images/illustrations/kp-campus-board-gear.png"
+  ],
+  "kp-campus-moves": [
+    "/images/illustrations/kp-campus-moves.png"
+  ],
+  "kp-campus-training": [
+    "/images/illustrations/kp-campus-training-bumping.png",
+    "/images/illustrations/kp-campus-training-double-dyno.png",
+    "/images/illustrations/kp-campus-training-laddering.png"
+  ],
+  "kp-cams": [
+    "/images/illustrations/kp-cams-mechanism.png",
+    "/images/illustrations/kp-cams-placement.png"
+  ],
+  "kp-center-of-gravity": [
+    "/images/illustrations/kp-center-of-gravity.png"
+  ],
+  "kp-chalk": [
+    "/images/illustrations/kp-chalk-bag.png",
+    "/images/illustrations/kp-chalk-types.png"
+  ],
+  "kp-classic-destinations": [
+    "/images/illustrations/kp-classic-destinations.png"
+  ],
+  "kp-climber-nutrition": [
+    "/images/illustrations/kp-climber-nutrition.png"
+  ],
+  "kp-climbing-categories": [
+    "/images/illustrations/kp-climbing-categories-bigwall.png",
+    "/images/illustrations/kp-climbing-categories-bouldering.png",
+    "/images/illustrations/kp-climbing-categories-sport.png",
+    "/images/illustrations/kp-climbing-categories-trad.png"
+  ],
+  "kp-climbing-clothing": [
+    "/images/illustrations/kp-climbing-clothing.png"
+  ],
+  "kp-climbing-ethics": [
+    "/images/illustrations/kp-climbing-ethics-bolt-debate.png",
+    "/images/illustrations/kp-climbing-ethics-first-ascent.png",
+    "/images/illustrations/kp-climbing-ethics-lnt.png"
+  ],
+  "kp-climbing-origins": [
+    "/images/illustrations/kp-climbing-origins.png"
+  ],
+  "kp-climbing-shoes": [
+    "/images/illustrations/kp-climbing-shoes-aggressive.png",
+    "/images/illustrations/kp-climbing-shoes-asymmetric-last.png",
+    "/images/illustrations/kp-climbing-shoes-flat.png",
+    "/images/illustrations/kp-climbing-shoes-moderate.png",
+    "/images/illustrations/kp-climbing-shoes-symmetric-last.png"
+  ],
+  "kp-clipping-technique": [
+    "/images/illustrations/kp-clipping-technique-backclip.png",
+    "/images/illustrations/kp-clipping-technique-correct.png",
+    "/images/illustrations/kp-clipping-technique-zclip.png"
+  ],
+  "kp-combined-olympic": [
+    "/images/illustrations/kp-combined-olympic.png"
+  ],
+  "kp-community-media": [
+    "/images/illustrations/kp-community-media.png"
+  ],
+  "kp-comp-simulation": [
+    "/images/illustrations/kp-comp-simulation.png"
+  ],
+  "kp-comp-specific-training": [
+    "/images/illustrations/kp-comp-training-onsight.png",
+    "/images/illustrations/kp-comp-training-reading.png",
+    "/images/illustrations/kp-comp-training-warmup.png"
+  ],
+  "kp-competition-anxiety": [
+    "/images/illustrations/kp-anxiety-breathing.png",
+    "/images/illustrations/kp-anxiety-preclimb.png",
+    "/images/illustrations/kp-anxiety-reframing.png"
+  ],
+  "kp-competition-circuit-rankings": [
+    "/images/illustrations/kp-competition-circuit-rankings.png"
+  ],
+  "kp-competition-psychology": [
+    "/images/illustrations/kp-competition-psychology.png"
+  ],
+  "kp-coordination-timing": [
+    "/images/illustrations/kp-coordination-timing.png"
+  ],
+  "kp-core-role": [
+    "/images/illustrations/kp-core-role.png"
+  ],
+  "kp-core-training": [
+    "/images/illustrations/kp-core-training-dragon-flag.png",
+    "/images/illustrations/kp-core-training-front-lever.png",
+    "/images/illustrations/kp-core-training-l-sit.png",
+    "/images/illustrations/kp-core-training-leg-raise.png"
+  ],
+  "kp-crack-climbing-systems": [
+    "/images/illustrations/kp-crack-climbing-chimney.png",
+    "/images/illustrations/kp-crack-climbing-finger.png",
+    "/images/illustrations/kp-crack-climbing-fist.png",
+    "/images/illustrations/kp-crack-climbing-hand.png",
+    "/images/illustrations/kp-crack-climbing-offwidth.png"
+  ],
+  "kp-crack-technique": [
+    "/images/illustrations/kp-crack-technique-finger.png",
+    "/images/illustrations/kp-crack-technique-fist.png",
+    "/images/illustrations/kp-crack-technique-hand.png"
+  ],
+  "kp-crash-pad": [
+    "/images/illustrations/kp-crash-pad.png"
+  ],
+  "kp-crimp-hold": [
+    "/images/illustrations/kp-crimp-hold.png"
+  ],
+  "kp-deadpoint": [
+    "/images/illustrations/kp-deadpoint.png"
+  ],
+  "kp-desensitization": [
+    "/images/illustrations/kp-desensitization-box-breathing.png",
+    "/images/illustrations/kp-desensitization-fall-practice.png"
+  ],
+  "kp-diagonal-support": [
+    "/images/illustrations/kp-diagonal-support.png"
+  ],
+  "kp-drop-knee": [
+    "/images/illustrations/kp-drop-knee.png"
+  ],
+  "kp-dynamic-movement": [
+    "/images/illustrations/kp-dynamic-movement.png"
+  ],
+  "kp-dyno-technique": [
+    "/images/illustrations/kp-dyno-technique.png"
+  ],
+  "kp-edging": [
+    "/images/illustrations/kp-edging-inside.png",
+    "/images/illustrations/kp-edging-outside.png"
+  ],
+  "kp-elderly-benefits": [
+    "/images/illustrations/kp-elderly-benefits.png"
+  ],
+  "kp-elderly-flexibility": [
+    "/images/illustrations/kp-elderly-flexibility-ankle.png",
+    "/images/illustrations/kp-elderly-flexibility-hip.png",
+    "/images/illustrations/kp-elderly-flexibility-shoulder.png",
+    "/images/illustrations/kp-elderly-flexibility-thoracic.png"
+  ],
+  "kp-elderly-injury-prevention": [
+    "/images/illustrations/kp-elderly-injury-prevention-elbow.png",
+    "/images/illustrations/kp-elderly-injury-prevention-rotator.png"
+  ],
+  "kp-elderly-training-adjustments": [
+    "/images/illustrations/kp-elderly-training-adjustments.png"
+  ],
+  "kp-endurance-types": [
+    "/images/illustrations/kp-endurance-types.png"
+  ],
+  "kp-fear-management": [
+    "/images/illustrations/kp-fear-management.png"
+  ],
+  "kp-finger-assessment": [
+    "/images/illustrations/kp-finger-assessment.png"
+  ],
+  "kp-first-outdoor-trip": [
+    "/images/illustrations/kp-first-outdoor-trip.png"
+  ],
+  "kp-flagging": [
+    "/images/illustrations/kp-flagging-backstep.png",
+    "/images/illustrations/kp-flagging-inside.png",
+    "/images/illustrations/kp-flagging-outside.png"
+  ],
+  "kp-flow-state": [
+    "/images/illustrations/kp-flow-state.png"
+  ],
+  "kp-foot-switching": [
+    "/images/illustrations/kp-foot-switching-dab.png",
+    "/images/illustrations/kp-foot-switching-hop.png",
+    "/images/illustrations/kp-foot-switching-slide.png"
+  ],
+  "kp-free-climbing-revolution": [
+    "/images/illustrations/kp-free-climbing-revolution.png"
+  ],
+  "kp-goal-setting": [
+    "/images/illustrations/kp-goal-setting.png"
+  ],
+  "kp-grade-comparison": [
+    "/images/illustrations/kp-grade-comparison.png"
+  ],
+  "kp-grading-systems": [
+    "/images/illustrations/kp-grading-systems.png"
+  ],
+  "kp-grip-types": [
+    "/images/illustrations/kp-grip-types-comparison.png",
+    "/images/illustrations/kp-grip-types-full-crimp.png",
+    "/images/illustrations/kp-grip-types-half-crimp.png",
+    "/images/illustrations/kp-grip-types-open-hand.png",
+    "/images/illustrations/kp-grip-types-pinch.png"
+  ],
+  "kp-growth-plate-concerns": [
+    "/images/illustrations/kp-growth-plate-concerns.png"
+  ],
+  "kp-gym-etiquette": [
+    "/images/illustrations/kp-gym-etiquette-cleaning.png",
+    "/images/illustrations/kp-gym-etiquette-communication.png",
+    "/images/illustrations/kp-gym-etiquette-fall-zone.png",
+    "/images/illustrations/kp-gym-etiquette-queuing.png"
+  ],
+  "kp-gymnastic-rings": [
+    "/images/illustrations/kp-gymnastic-rings-face-pull.png",
+    "/images/illustrations/kp-gymnastic-rings-l-sit.png",
+    "/images/illustrations/kp-gymnastic-rings-pistol-squat.png",
+    "/images/illustrations/kp-gymnastic-rings-pull-up.png",
+    "/images/illustrations/kp-gymnastic-rings-row.png",
+    "/images/illustrations/kp-gymnastic-rings-support-hold.png"
+  ],
+  "kp-hand-sequence": [
+    "/images/illustrations/kp-hand-sequence-bumping.png",
+    "/images/illustrations/kp-hand-sequence-matching.png",
+    "/images/illustrations/kp-hand-sequence-swap.png"
+  ],
+  "kp-hangboard-gear": [
+    "/images/illustrations/kp-hangboard-gear.png"
+  ],
+  "kp-hangboard-training": [
+    "/images/illustrations/kp-hangboard-training.png"
+  ],
+  "kp-harness": [
+    "/images/illustrations/kp-harness.png"
+  ],
+  "kp-haul-bag": [
+    "/images/illustrations/kp-haul-bag.png"
+  ],
+  "kp-heel-hook": [
+    "/images/illustrations/kp-heel-hook-high.png",
+    "/images/illustrations/kp-heel-hook-standard.png"
+  ],
+  "kp-helmet": [
+    "/images/illustrations/kp-helmet.png"
+  ],
+  "kp-high-step-mantle": [
+    "/images/illustrations/kp-high-step-mantle.png"
+  ],
+  "kp-hip-flexibility": [
+    "/images/illustrations/kp-hip-flexibility-frog.png",
+    "/images/illustrations/kp-hip-flexibility-high-step.png",
+    "/images/illustrations/kp-hip-flexibility-stemming.png"
+  ],
+  "kp-hydration": [
+    "/images/illustrations/kp-hydration.png"
+  ],
+  "kp-ifsc": [
+    "/images/illustrations/kp-ifsc.png"
+  ],
+  "kp-indoor-outdoor-diff": [
+    "/images/illustrations/kp-indoor-outdoor-diff.png"
+  ],
+  "kp-injury-assessment": [
+    "/images/illustrations/kp-injury-assessment.png"
+  ],
+  "kp-isolation-zone": [
+    "/images/illustrations/kp-isolation-zone.png"
+  ],
+  "kp-jug-hold": [
+    "/images/illustrations/kp-jug-hold.png"
+  ],
+  "kp-kids-development": [
+    "/images/illustrations/kp-kids-development.png"
+  ],
+  "kp-kids-fun-approach": [
+    "/images/illustrations/kp-kids-fun-approach-addon.png",
+    "/images/illustrations/kp-kids-fun-approach-color.png",
+    "/images/illustrations/kp-kids-fun-approach-traverse.png"
+  ],
+  "kp-kids-safety": [
+    "/images/illustrations/kp-kids-safety.png"
+  ],
+  "kp-knots": [
+    "/images/illustrations/kp-knots-clove-hitch.png",
+    "/images/illustrations/kp-knots-figure-eight.png",
+    "/images/illustrations/kp-knots-munter-hitch.png"
+  ],
+  "kp-landing-position": [
+    "/images/illustrations/kp-landing-position.png"
+  ],
+  "kp-landing-strategy": [
+    "/images/illustrations/kp-landing-strategy-reading.png",
+    "/images/illustrations/kp-landing-strategy-zone.png"
+  ],
+  "kp-layback": [
+    "/images/illustrations/kp-layback.png"
+  ],
+  "kp-lead-belay-indoor": [
+    "/images/illustrations/kp-lead-belay-indoor.png"
+  ],
+  "kp-lead-competition": [
+    "/images/illustrations/kp-lead-competition.png"
+  ],
+  "kp-lead-strategy-outdoor": [
+    "/images/illustrations/kp-lead-strategy-outdoor.png"
+  ],
+  "kp-leave-no-trace": [
+    "/images/illustrations/kp-leave-no-trace.png"
+  ],
+  "kp-lunge-types": [
+    "/images/illustrations/kp-lunge-deadpoint.png",
+    "/images/illustrations/kp-lunge-full-dyno.png",
+    "/images/illustrations/kp-lunge-pop.png"
+  ],
+  "kp-modern-era": [
+    "/images/illustrations/kp-modern-era-competition.png",
+    "/images/illustrations/kp-modern-era-gym.png",
+    "/images/illustrations/kp-modern-era-system-wall.png"
+  ],
+  "kp-multi-pitch": [
+    "/images/illustrations/kp-multi-pitch.png"
+  ],
+  "kp-national-federations": [
+    "/images/illustrations/kp-national-federations.png"
+  ],
+  "kp-nuts-stoppers": [
+    "/images/illustrations/kp-nuts-stoppers.png"
+  ],
+  "kp-olympics-athletes": [
+    "/images/illustrations/kp-olympics-athletes.png"
+  ],
+  "kp-olympics-history": [
+    "/images/illustrations/kp-olympics-history.png"
+  ],
+  "kp-onsight-flash-redpoint": [
+    "/images/illustrations/kp-flash.png",
+    "/images/illustrations/kp-onsight.png",
+    "/images/illustrations/kp-redpoint.png"
+  ],
+  "kp-outdoor-bouldering-chars": [
+    "/images/illustrations/kp-outdoor-bouldering-chars.png"
+  ],
+  "kp-outdoor-sport-safety": [
+    "/images/illustrations/kp-outdoor-sport-safety.png"
+  ],
+  "kp-palming": [
+    "/images/illustrations/kp-palming.png"
+  ],
+  "kp-peaking": [
+    "/images/illustrations/kp-peaking.png"
+  ],
+  "kp-performance-mindset": [
+    "/images/illustrations/kp-performance-mindset.png"
+  ],
+  "kp-periodization": [
+    "/images/illustrations/kp-periodization.png"
+  ],
+  "kp-pinch-hold": [
+    "/images/illustrations/kp-pinch-hold-narrow.png",
+    "/images/illustrations/kp-pinch-hold-round.png",
+    "/images/illustrations/kp-pinch-hold-wide.png"
+  ],
+  "kp-pitons": [
+    "/images/illustrations/kp-pitons.png"
+  ],
+  "kp-placing-protection": [
+    "/images/illustrations/kp-placing-protection-cam.png",
+    "/images/illustrations/kp-placing-protection-nut.png"
+  ],
+  "kp-plateau-breaking": [
+    "/images/illustrations/kp-plateau-breaking.png"
+  ],
+  "kp-pocket-hold": [
+    "/images/illustrations/kp-pocket-hold-mono.png",
+    "/images/illustrations/kp-pocket-hold-three.png",
+    "/images/illustrations/kp-pocket-hold-two.png"
+  ],
+  "kp-portaledge": [
+    "/images/illustrations/kp-portaledge.png"
+  ],
+  "kp-pressure-visualization": [
+    "/images/illustrations/kp-pressure-visualization.png"
+  ],
+  "kp-projecting-strategy": [
+    "/images/illustrations/kp-projecting-strategy.png"
+  ],
+  "kp-pulley-injury": [
+    "/images/illustrations/kp-pulley-injury-anatomy.png",
+    "/images/illustrations/kp-pulley-injury-bowstringing.png",
+    "/images/illustrations/kp-pulley-injury-taping.png"
+  ],
+  "kp-pulling-power": [
+    "/images/illustrations/kp-pulling-power-archer.png",
+    "/images/illustrations/kp-pulling-power-lockoff.png",
+    "/images/illustrations/kp-pulling-power-pullup.png"
+  ],
+  "kp-pushing-power": [
+    "/images/illustrations/kp-pushing-power.png"
+  ],
+  "kp-quickdraw": [
+    "/images/illustrations/kp-quickdraw.png"
+  ],
+  "kp-rappelling": [
+    "/images/illustrations/kp-rappelling.png"
+  ],
+  "kp-rehab-mistakes": [
+    "/images/illustrations/kp-rehab-mistakes.png"
+  ],
+  "kp-rehab-programs": [
+    "/images/illustrations/kp-rehab-programs.png"
+  ],
+  "kp-rest-management": [
+    "/images/illustrations/kp-rest-management.png"
+  ],
+  "kp-retreat-strategy": [
+    "/images/illustrations/kp-retreat-strategy-downclimb.png",
+    "/images/illustrations/kp-retreat-strategy-leave-gear.png",
+    "/images/illustrations/kp-retreat-strategy-rappel.png"
+  ],
+  "kp-return-criteria": [
+    "/images/illustrations/kp-return-criteria.png"
+  ],
+  "kp-rock-types": [
+    "/images/illustrations/kp-rock-types-granite.png",
+    "/images/illustrations/kp-rock-types-limestone.png",
+    "/images/illustrations/kp-rock-types-sandstone.png"
+  ],
+  "kp-rockfall-risk": [
+    "/images/illustrations/kp-rockfall-risk.png"
+  ],
+  "kp-roof-technique": [
+    "/images/illustrations/kp-roof-technique.png"
+  ],
+  "kp-rope": [
+    "/images/illustrations/kp-rope-cross-section.png",
+    "/images/illustrations/kp-rope-diameter.png",
+    "/images/illustrations/kp-rope-dynamic-vs-static.png"
+  ],
+  "kp-route-reading-basics": [
+    "/images/illustrations/kp-route-reading.png"
+  ],
+  "kp-scoring-systems": [
+    "/images/illustrations/kp-scoring-systems-boulder.png",
+    "/images/illustrations/kp-scoring-systems-lead.png"
+  ],
+  "kp-shoulder-injury": [
+    "/images/illustrations/kp-shoulder-injury-anatomy.png",
+    "/images/illustrations/kp-shoulder-injury-painful-arc.png"
+  ],
+  "kp-shoulder-mobility": [
+    "/images/illustrations/kp-shoulder-mobility-gaston.png",
+    "/images/illustrations/kp-shoulder-mobility-thoracic.png"
+  ],
+  "kp-shoulder-stability": [
+    "/images/illustrations/kp-shoulder-stability-rotation.png",
+    "/images/illustrations/kp-shoulder-stability-scapular.png"
+  ],
+  "kp-skin-management": [
+    "/images/illustrations/kp-skin-management-blister.png",
+    "/images/illustrations/kp-skin-management-callus.png",
+    "/images/illustrations/kp-skin-management-flapper.png",
+    "/images/illustrations/kp-skin-management-post-climb.png"
+  ],
+  "kp-sleep-recovery": [
+    "/images/illustrations/kp-sleep-recovery.png"
+  ],
+  "kp-sloper-hold": [
+    "/images/illustrations/kp-sloper-hold-hand.png",
+    "/images/illustrations/kp-sloper-hold-position.png"
+  ],
+  "kp-smearing": [
+    "/images/illustrations/kp-smearing.png"
+  ],
+  "kp-smedging": [
+    "/images/illustrations/kp-smedging.png"
+  ],
+  "kp-special-categories": [
+    "/images/illustrations/kp-special-categories-dry-tooling.png",
+    "/images/illustrations/kp-special-categories-dws.png",
+    "/images/illustrations/kp-special-categories-ice.png",
+    "/images/illustrations/kp-special-categories-mixed.png"
+  ],
+  "kp-speed-competition": [
+    "/images/illustrations/kp-speed-competition.png"
+  ],
+  "kp-sport-climbing-emergence": [
+    "/images/illustrations/kp-sport-climbing-emergence.png"
+  ],
+  "kp-spotter": [
+    "/images/illustrations/kp-spotter.png"
+  ],
+  "kp-stemming": [
+    "/images/illustrations/kp-stemming.png"
+  ],
+  "kp-swing-momentum": [
+    "/images/illustrations/kp-swing-momentum.png"
+  ],
+  "kp-system-wall": [
+    "/images/illustrations/kp-system-wall.png"
+  ],
+  "kp-tendonitis": [
+    "/images/illustrations/kp-tendonitis-flexbar.png",
+    "/images/illustrations/kp-tendonitis-pain-zones.png"
+  ],
+  "kp-time-limits-attempts": [
+    "/images/illustrations/kp-time-limits-boulder.png",
+    "/images/illustrations/kp-time-limits-lead.png"
+  ],
+  "kp-toe-hook": [
+    "/images/illustrations/kp-toe-hook.png"
+  ],
+  "kp-training-log": [
+    "/images/illustrations/kp-training-log.png"
+  ],
+  "kp-trip-planning": [
+    "/images/illustrations/kp-trip-planning.png"
+  ],
+  "kp-twist-lock": [
+    "/images/illustrations/kp-twist-lock.png"
+  ],
+  "kp-undercling-sidepull-gaston": [
+    "/images/illustrations/kp-gaston.png",
+    "/images/illustrations/kp-sidepull.png",
+    "/images/illustrations/kp-undercling.png"
+  ],
+  "kp-wall-living": [
+    "/images/illustrations/kp-wall-living.png"
+  ],
+  "kp-warmup": [
+    "/images/illustrations/kp-warmup.png"
+  ],
+  "kp-warmup-stretching": [
+    "/images/illustrations/kp-warmup-stretching.png"
+  ],
+  "kp-weather-assessment": [
+    "/images/illustrations/kp-weather-assessment.png"
+  ],
+  "kp-weight-management": [
+    "/images/illustrations/kp-weight-management.png"
+  ],
+  "kp-when-to-rest": [
+    "/images/illustrations/kp-when-to-rest.png"
+  ],
+  "kp-wilderness-first-aid": [
+    "/images/illustrations/kp-wilderness-first-aid-carry.png",
+    "/images/illustrations/kp-wilderness-first-aid-hypothermia.png",
+    "/images/illustrations/kp-wilderness-first-aid-kit.png",
+    "/images/illustrations/kp-wilderness-first-aid-splinting.png"
+  ],
+  "kp-working-linking": [
+    "/images/illustrations/kp-working-linking.png"
+  ],
+  "kp-youth-competition": [
+    "/images/illustrations/kp-youth-competition.png"
+  ],
+  "kp-youth-training-load": [
+    "/images/illustrations/kp-youth-training-load.png"
+  ]
+}

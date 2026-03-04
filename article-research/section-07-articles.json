@@ -1,0 +1,519 @@
+{
+  "_meta": {
+    "section": "section-07",
+    "sectionTitle": "伤病预防与恢复",
+    "searchDate": "2026-03-03",
+    "totalArticles": 17,
+    "coveredKps": 16,
+    "totalKps": 16,
+    "uncoveredKps": [],
+    "partiallyCoveredKps": []
+  },
+  "articles": [
+    {
+      "id": "s07-001",
+      "url": "https://www.hoopersbeta.com/library/a2-pulley-manual-for-climbers",
+      "title": "A2 Pulley Rehab Manual for Climbers",
+      "source": "Hooper's Beta",
+      "author": "Jason Hooper, PT, DPT, OCS, SCS, CAFS",
+      "language": "en",
+      "publishDate": "2020-06-03",
+      "articleType": "tutorial",
+      "primaryKp": "kp-pulley-injury",
+      "secondaryKps": ["kp-injury-assessment", "kp-rehab-programs", "kp-return-criteria"],
+      "quality": {
+        "authority": 4,
+        "depth": 5,
+        "practicality": 5,
+        "recency": 3,
+        "uniqueness": 5,
+        "total": 22
+      },
+      "summary": "由注册物理治疗师 Jason Hooper 设计的 A2 滑轮损伤完整康复手册。包含损伤机制（400N 临界力）、四类临床评估（观察/触诊/关节活动/组织加载）、损伤分级（拉伤/部分撕裂/完全撕裂/多滑轮断裂）、三阶段康复方案（手掌内扣 → 泥灰练习 → 农夫内扣渐进加重），以及基于 V 级阶梯的复攀方案。",
+      "keyInsights": [
+        "A2 滑轮损伤占攀岩手指损伤 50%，内扣姿势产生约 400N 临界力",
+        "四类评估框架：观察（肌腱弓弦）/ 触诊 / 关节活动度 / 组织加载测试",
+        "损伤分级决定恢复时间：拉伤 2–6 周，部分撕裂 4–12 周，完全撕裂 3+ 个月",
+        "三阶段康复：手掌内扣（无痛基线）→ 泥灰多次训练 → 农夫内扣加重至 25 磅+",
+        "复攀使用 V 点系统，从 V0–V2 开始，每周递增，避免初期动态动作",
+        "预防关键：单次尝试不超过 7 次，多样化攀爬风格，保证睡眠/水分/营养"
+      ],
+      "tags": ["pulley-injury", "A2-pulley", "finger-rehab", "injury-assessment", "return-to-climbing", "physical-therapy"]
+    },
+    {
+      "id": "s07-002",
+      "url": "https://www.trainingbeta.com/pulley-diagnosis-rehab/",
+      "title": "Finger Pulley Injury Diagnoses and Rehab by Dr. Jared Vagy",
+      "source": "TrainingBeta",
+      "author": "Neely Quinn（采访 Dr. Jared Vagy, DPT）",
+      "language": "en",
+      "publishDate": "2023-02-27",
+      "articleType": "tutorial",
+      "primaryKp": "kp-injury-assessment",
+      "secondaryKps": ["kp-pulley-injury", "kp-rehab-programs"],
+      "quality": {
+        "authority": 4,
+        "depth": 4,
+        "practicality": 4,
+        "recency": 4,
+        "uniqueness": 3,
+        "total": 19
+      },
+      "summary": "TrainingBeta 主编 Neely Quinn 采访物理治疗师 Dr. Jared Vagy，系统讲解攀岩者滑轮损伤的自我评估与诊断方法，包括超声检查标准分级体系（Grade I–IVb）、临床替代标准（Cooper 标准：疼痛对日常活动的影响、主动关节活动度、徒手肌力测试、触诊痛），以及针对攀岩者的康复协议。",
+      "keyInsights": [
+        "超声是诊断滑轮损伤的金标准，可确定 Grade I–IVb 分级",
+        "无超声条件时可用 Cooper 临床标准：疼痛影响日评、关节活动度、徒手肌力、触诊痛",
+        "四阶段康复框架：组织减载 → 恢复活动度 → 增强力量 → 回归攀爬动作",
+        "\"疼痛规则\"模型广泛应用于术后和运动回归方案的进阶判断",
+        "保守治疗的预后极佳：2–3 级损伤无需手术，大多数可恢复至受伤前水平"
+      ],
+      "tags": ["pulley-injury", "injury-diagnosis", "injury-grading", "rehab-protocol", "Dr-Vagy"]
+    },
+    {
+      "id": "s07-003",
+      "url": "https://www.trainingbeta.com/pulley/",
+      "title": "Pulley Sprain Injury Protocol – Rock Rehab Pyramid for Rock Climbers",
+      "source": "TrainingBeta",
+      "author": "TrainingBeta（Rock Rehab Pyramid 框架）",
+      "language": "en",
+      "publishDate": "2018-12-13",
+      "articleType": "training",
+      "primaryKp": "kp-rehab-programs",
+      "secondaryKps": ["kp-pulley-injury", "kp-return-criteria"],
+      "quality": {
+        "authority": 4,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 3,
+        "uniqueness": 4,
+        "total": 20
+      },
+      "summary": "TrainingBeta 针对攀岩者滑轮拉伤开发的 Rock Rehab Pyramid 康复方案。采用金字塔结构组织康复阶段：组织减载（避免刺激）→ 提高活动度 → 增强力量 → 回归攀爬动作。该框架被攀岩康复界广泛引用，适合 A2/A4 滑轮 Grade I–III 损伤的系统性恢复。",
+      "keyInsights": [
+        "Rock Rehab Pyramid 四层结构：减载 → 活动度 → 力量 → 攀爬动作回归",
+        "针对攀岩者特点设计，区别于通用运动医学康复协议",
+        "可作为自我引导康复的结构化路线图，无需每次就诊物理治疗师",
+        "每阶段有明确的进阶标准，防止过早进入下一阶段导致复发",
+        "2023 年更新确保方案与当前循证医学实践保持一致"
+      ],
+      "tags": ["pulley-injury", "rehab-pyramid", "rehabilitation", "structured-protocol", "finger-injury"]
+    },
+    {
+      "id": "s07-004",
+      "url": "https://trainingforclimbing.com/treating-climbers-elbow-medial-epicondylitis/",
+      "title": "Treating \"Climber's Elbow\" (Medial Epicondylitis)",
+      "source": "Training For Climbing (Eric Hörst)",
+      "author": "Eric Hörst",
+      "language": "en",
+      "publishDate": "2025-04-18",
+      "articleType": "tutorial",
+      "primaryKp": "kp-tendonitis",
+      "secondaryKps": ["kp-antagonist-training", "kp-warmup"],
+      "quality": {
+        "authority": 4,
+        "depth": 4,
+        "practicality": 4,
+        "recency": 5,
+        "uniqueness": 3,
+        "total": 20
+      },
+      "summary": "Eric Hörst 撰写的攀岩者肘关节肌腱炎（内上髁炎/Climber's Elbow）综合治疗指南，2025 年最新更新版。详解损伤机制（旋前圆肌与肱二头肌拮抗产生的生物力学冲突），两阶段治疗方案（急性期冰敷/休息，康复期伸展+离心加载），以及五种具体练习（手指屈肌伸展、前臂旋前哑铃、密度悬挂、血流限制训练）。",
+      "keyInsights": [
+        "Climber's Elbow 由旋前圆肌与肱二头肌旋后的生物力学冲突导致，过量训练叠加",
+        "急性期：停攀 + 冰敷（20分钟/次，3–6次/天）+ 短期 NSAID",
+        "康复期五练习：指屈肌双姿势伸展、前臂伸展、旋前哑铃、密度悬挂、血流限制训练",
+        "密度悬挂（中性握）和血流限制训练是独特的加载策略，加速肌腱愈合",
+        "轻症 1–2 个月可愈，坚持终身拮抗肌训练是预防复发的关键",
+        "2025 年最新内容，在所有攀岩肘关节文章中权威性最高"
+      ],
+      "tags": ["tendonitis", "climbers-elbow", "medial-epicondylitis", "elbow-injury", "treatment", "Eric-Horst"]
+    },
+    {
+      "id": "s07-005",
+      "url": "https://www.trainingbeta.com/cuff/",
+      "title": "Rotator Cuff Strain Protocol for Rock Climbers",
+      "source": "TrainingBeta",
+      "author": "Dr. Jared Vagy, DPT",
+      "language": "en",
+      "publishDate": "2017-10-13",
+      "articleType": "tutorial",
+      "primaryKp": "kp-shoulder-injury",
+      "secondaryKps": ["kp-antagonist-training", "kp-rehab-programs"],
+      "quality": {
+        "authority": 4,
+        "depth": 4,
+        "practicality": 4,
+        "recency": 3,
+        "uniqueness": 3,
+        "total": 18
+      },
+      "summary": "Dr. Jared Vagy 设计的攀岩者肩袖拉伤四步康复方案。针对攀岩以拉力为主导、肩袖撞击综合征高发的特点，提供专门的攀岩者肩部康复流程，区别于通用运动医学方案。2023 年更新维护。",
+      "keyInsights": [
+        "肩袖撞击综合征（SIS）是攀岩者最常见肩部损伤，持续下拉动作是主因",
+        "四步方案：评估 → 减载 → 力量重建 → 攀岩动作回归",
+        "鸡翅式肘部姿势（泵感时常见）会加重撞击，需主动纠正",
+        "壁架压顶（Mantle）和拇指朝下的裂缝卡手也是高风险动作",
+        "肩部健康的长期维护需要定期的外旋强化和拮抗肌训练计划",
+        "Dr. Vagy 是攀岩物理治疗领域最具影响力的专家之一"
+      ],
+      "tags": ["shoulder-injury", "rotator-cuff", "impingement", "shoulder-rehab", "Dr-Vagy", "climbing-PT"]
+    },
+    {
+      "id": "s07-006",
+      "url": "https://www.99boulders.com/skin-care-for-climbers",
+      "title": "Skin Care For Climbers: How to Deal with Flappers, Split Tips & More",
+      "source": "99Boulders",
+      "author": "Danaan Markey",
+      "language": "en",
+      "publishDate": "2021-12-01",
+      "articleType": "tutorial",
+      "primaryKp": "kp-skin-management",
+      "secondaryKps": [],
+      "quality": {
+        "authority": 3,
+        "depth": 3,
+        "practicality": 5,
+        "recency": 4,
+        "uniqueness": 3,
+        "total": 18
+      },
+      "summary": "攀岩者皮肤护理的实用综合指南，覆盖撕皮（Flappers）、裂尖（Split Tips）和老茧管理三大核心问题。强调皮肤状态是精英攀岩者的重要表现因素，高手不仅依赖天生皮肤，更需要主动护理。包含热水的负面影响、保湿膏的使用时机、砂纸打磨技巧等。",
+      "keyInsights": [
+        "皮肤状态直接影响攀岩表现，湿度等环境条件比训练本身更决定岩感",
+        "撕皮处理：用指甲刀剪断（勿重新粘合），让伤口暴露在空气中快速干燥",
+        "裂尖处理：先锉去翘皮，再厚涂 E45 乳液或芦荟保湿霜",
+        "老茧管理：攀爬前打磨过厚区域，均匀老茧比厚老茧表现更好",
+        "热水软化老茧：长时间热水浸泡会松动老茧，须限制热水接触时间",
+        "极端情况：酒精吸收多余皮脂；Antihydral 乳膏效果因人而异"
+      ],
+      "tags": ["skin-management", "flappers", "split-tips", "callus", "skin-care", "hand-care"]
+    },
+    {
+      "id": "s07-007",
+      "url": "https://trainingforclimbing.com/finger-warm-ups/",
+      "title": "Finger Warm-Ups for Better Climbing (with Reduced Injury Risk)",
+      "source": "Training For Climbing (Eric Hörst)",
+      "author": "Lucie Hanes",
+      "language": "en",
+      "publishDate": "2024-10-07",
+      "articleType": "tutorial",
+      "primaryKp": "kp-warmup",
+      "secondaryKps": ["kp-pulley-injury"],
+      "quality": {
+        "authority": 3,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 5,
+        "uniqueness": 3,
+        "total": 20
+      },
+      "summary": "专注于手指热身的详细指南，针对高强度训练后手指僵硬和疲劳积累的问题。解释手指不如大肌群耐受恢复的生理原因，并给出四步手指热身流程：手指卷曲+按摩 → 单指独立伸展 → 指屈肌伸展（两种姿势）→ 指伸肌伸展，以及从大把手点到一节边缘的渐进悬板加载方案。还涵盖攀爬前30–60分钟摄入胶原蛋白补充的建议。",
+      "keyInsights": [
+        "手指恢复能力弱于大肌群，专项热身是减少损伤的关键，而非可选项",
+        "四步指部热身：卷曲按摩 → 单指伸展（10–20秒/指）→ 指屈肌伸展（两姿势）→ 指伸肌伸展",
+        "悬板渐进加载：从大把手点到一节边缘，每次10秒，肩肘全程参与",
+        "攀爬前30–60分钟补充胶原蛋白可支持结缔组织健康（循证建议）",
+        "2024年最新内容，是 Training For Climbing 平台目前最系统的指部热身文章"
+      ],
+      "tags": ["warmup", "finger-warmup", "injury-prevention", "collagen", "hangboard-warmup"]
+    },
+    {
+      "id": "s07-008",
+      "url": "https://gripped.com/indoor-climbing/help-protect-your-fingers-with-this-daily-six-minute-workout/",
+      "title": "Help Protect Your Fingers With This Daily Six-Minute Workout",
+      "source": "Gripped Magazine",
+      "author": "Aaron Pardy（整理自 Eric Hörst 方案）",
+      "language": "en",
+      "publishDate": "2023-01-30",
+      "articleType": "training",
+      "primaryKp": "kp-warmup",
+      "secondaryKps": ["kp-pulley-injury", "kp-antagonist-training"],
+      "quality": {
+        "authority": 4,
+        "depth": 3,
+        "practicality": 5,
+        "recency": 4,
+        "uniqueness": 3,
+        "total": 19
+      },
+      "summary": "介绍 Eric Hörst 设计的每日6分钟指部保护训练方案，基于肌腱和韧带从关节液获取营养（而非主要依赖血流）的生理原理。三个练习各30秒–1分钟：哑铃指卷（30秒）→ 手指伸展（30秒，橡皮筋/设备）→ 悬板重复悬挂（1分钟，10秒on/5秒off，4组）。强调不应引起泵感，适合每日作为预防性训练。",
+      "keyInsights": [
+        "肌腱/韧带通过关节液获取营养，需要轻度加载（而非纯休息）促进营养输送",
+        "6分钟方案：哑铃指卷 + 手指伸展 + 低强度悬板重复悬挂",
+        "关键：整个流程不应引起泵感，训练目的是预防而非增强力量",
+        "可每日进行，作为休息日预康复或正式训练前的热身",
+        "Eric Hörst 方案，Gripped Magazine 整理，同时适合初学者和经验丰富的攀岩者"
+      ],
+      "tags": ["warmup", "prehab", "finger-protection", "tendon-health", "Eric-Horst", "daily-training"]
+    },
+    {
+      "id": "s07-009",
+      "url": "https://gripped.com/indoor-climbing/get-balanced-how-to-train-antagonist-muscles/",
+      "title": "Get Balanced: How to Train Antagonist Muscles",
+      "source": "Gripped Magazine",
+      "author": "Bonnie de Bruijn",
+      "language": "en",
+      "publishDate": "2019-02-13",
+      "articleType": "training",
+      "primaryKp": "kp-antagonist-training",
+      "secondaryKps": ["kp-shoulder-injury", "kp-tendonitis"],
+      "quality": {
+        "authority": 4,
+        "depth": 3,
+        "practicality": 4,
+        "recency": 3,
+        "uniqueness": 3,
+        "total": 17
+      },
+      "summary": "攀岩者拮抗肌训练入门指南，解释为何攀岩这项以拉力为主的运动会造成肌肉失衡（前臂屈肌/肱二头肌/背阔肌过度发展），并提供三个核心拮抗肌练习：掌心向下腕部弯举（强化后臂）、手指弹展（用橡皮筋强化指伸肌）和窄距俯卧撑（前三角/胸肌/肱三头肌）。引用物理治疗师 Nina Tappin 的原则：拉多重就必须推多重。",
+      "keyInsights": [
+        "攀岩是拉力主导运动，不平衡训练导致肘关节肌腱病变、肩撞击和肩袖损伤",
+        "拮抗肌目标：后臂（腕伸肌）、肱三头肌、前三角/胸肌",
+        "三个基础练习：掌心向下腕卷 + 手指弹展（橡皮筋）+ 窄距俯卧撑",
+        "物理治疗师原则：\"拉多重就必须推多重\"，训练强度需要对等匹配",
+        "每组 8–10 次，3 组，使用较轻重量保证正确动作模式"
+      ],
+      "tags": ["antagonist-training", "muscle-balance", "injury-prevention", "push-muscles", "wrist-extensors"]
+    },
+    {
+      "id": "s07-010",
+      "url": "https://philarockgym.com/preventing-overtraining-in-climbing-tips-for-staying-healthy/",
+      "title": "Preventing Overtraining in Climbing: Tips for Staying Healthy",
+      "source": "Philly Rock Gym",
+      "author": "Dave Rowland（Owner & CTO）",
+      "language": "en",
+      "publishDate": "2024-05-29",
+      "articleType": "training",
+      "primaryKp": "kp-rest-management",
+      "secondaryKps": ["kp-when-to-rest"],
+      "quality": {
+        "authority": 3,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 5,
+        "uniqueness": 4,
+        "total": 21
+      },
+      "summary": "按训练类型分别给出具体休息时间指南的过训预防文章。核心理念：过训是\"在系统充分恢复前对其持续施压\"。按训练类型给出明确参数——爆发力训练：组间最少2分钟，送出之间5分钟，每次训练间隔3天；力量训练：间隔2–3天，训练内休息：攀爬/休息 = 2:1（最少）；耐力/肌肥大训练：间隔1–2天，不同比例。",
+      "keyInsights": [
+        "过训定义：在恢复完成前反复施压，导致表现停滞或下降",
+        "爆发力训练：送出之间最少5分钟，训练间隔平均3天",
+        "力量训练：每组攀爬后2–5分钟休息，训练间隔2–3天",
+        "耐力训练：休息:攀爬 = 1:1（肌肥大）/ 1:2（耐力），间隔1–2天",
+        "超代偿：充足恢复后身体会超额重建，过早再训会错失这一收益",
+        "2024年最新内容，量化数字是同类文章中最具体的"
+      ],
+      "tags": ["rest-management", "overtraining", "recovery", "training-frequency", "supercompensation"]
+    },
+    {
+      "id": "s07-011",
+      "url": "https://jfireclimbing.com/2022/06/03/overtraining-in-climbers-what-it-is-how-to-spot-it-and-how-to-deal-with-it/",
+      "title": "Overtraining in Climbers: What It Is, How to Spot It, and How to Deal With It",
+      "source": "Jesse Firestone Climbing",
+      "author": "Jesse Firestone",
+      "language": "en",
+      "publishDate": "2022-06-03",
+      "articleType": "training",
+      "primaryKp": "kp-when-to-rest",
+      "secondaryKps": ["kp-rest-management"],
+      "quality": {
+        "authority": 3,
+        "depth": 4,
+        "practicality": 4,
+        "recency": 4,
+        "uniqueness": 4,
+        "total": 19
+      },
+      "summary": "从 NSCA 四阶段过训模型（急性疲劳 → 功能性过度训练 → 非功能性过度训练 → 过训综合征）分析攀岩者何时应当休息。强调攀岩文化特有的过训风险（无固定休赛期、成就导向文化、难度不可控的训练量），以及如何识别预警信号：情绪障碍、睡眠紊乱、食欲变化、动力下降。自动调节策略：根据当日疲劳状态调整强度。",
+      "keyInsights": [
+        "NSCA 四阶段模型：急性疲劳（天）→ 功能性过度（周）→ 非功能性（周至月）→ 过训综合征（月至年）",
+        "攀岩文化使过训风险更高：成就导向、无休赛期、单次难度不可控",
+        "预警信号：情绪障碍+睡眠紊乱+食欲变化+动力下降（四者同时出现才是真正过训）",
+        "自动调节策略：根据当日实际疲劳感调整训练强度，而非刻板执行计划",
+        "训练日志、简单计划、合理营养/睡眠是防止过训\"深坑\"的核心工具",
+        "生活压力（工作、人际）会叠加到训练压力上，需纳入整体疲劳评估"
+      ],
+      "tags": ["when-to-rest", "overtraining", "overtraining-syndrome", "recovery", "autoregulation", "climbing-culture"]
+    },
+    {
+      "id": "s07-012",
+      "url": "https://www.hoopersbeta.com/library/top-10-reasons-rehab-mistakes",
+      "title": "10 Reasons Your Climbing Injury Won't Heal",
+      "source": "Hooper's Beta",
+      "author": "Jason Hooper, PT, DPT, OCS, SCS, CAFS",
+      "language": "en",
+      "publishDate": "2021-02-03",
+      "articleType": "tutorial",
+      "primaryKp": "kp-rehab-mistakes",
+      "secondaryKps": ["kp-injury-assessment", "kp-return-criteria"],
+      "quality": {
+        "authority": 5,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 4,
+        "uniqueness": 4,
+        "total": 22
+      },
+      "summary": "物理治疗师 Jason Hooper 总结的攀岩者康复最常犯的10个错误，以\"不愈合的10个原因\"为框架进行呈现。涵盖：不信任康复方案（第1）、低估损伤严重性（第2）、混淆组织愈合与力量恢复（第3）、执着于过去水平（第4）、急于康复（第5）、过度执行练习（第6）、方案不实用（第7）、消极依赖休息（第8）、自我误诊（第9）、听从非专业建议（第10）。",
+      "keyInsights": [
+        "最常见错误：把疼痛消失等同于可以恢复正常训练，而忽略组织强度重建",
+        "\"过度康复\"是真实问题：将4周一次的练习变成4天一次，适得其反",
+        "依赖其他攀岩者建议而非物理治疗师是重大风险，即使他们有攀岩经验",
+        "消极依赖（只休息不主动训练）阻止组织力量重建，是延迟恢复的核心原因",
+        "被动方法 vs 主动方法：组织愈合需要控制性加载而非单纯休息",
+        "实用性原则：方案必须融入日常生活才能坚持，否则依从性会降低"
+      ],
+      "tags": ["rehab-mistakes", "common-errors", "injury-recovery", "physical-therapy", "rehabilitation"]
+    },
+    {
+      "id": "s07-013",
+      "url": "https://gripped.com/indoor-climbing/a-safe-and-injury-free-return-to-climbing/",
+      "title": "A Safe and Injury-Free Return to Climbing",
+      "source": "Gripped Magazine",
+      "author": "Noah Walker",
+      "language": "en",
+      "publishDate": "2020-05-26",
+      "articleType": "tutorial",
+      "primaryKp": "kp-return-criteria",
+      "secondaryKps": ["kp-antagonist-training"],
+      "quality": {
+        "authority": 4,
+        "depth": 3,
+        "practicality": 4,
+        "recency": 3,
+        "uniqueness": 3,
+        "total": 17
+      },
+      "summary": "针对休息/受伤后回归攀岩的安全指南，提出一个独特视角：肌肉在休息期间萎缩，但肌腱保持拉伸强度，这一不平衡使看似\"感觉和受伤前一样强\"的攀岩者面临高风险。文章涵盖四个高风险部位（手指/膝盖/肘腕/核心）各自的恢复指标和渐进方案，并提供具体的恢复性练习。",
+      "keyInsights": [
+        "关键洞察：肌腱在休息期保持强度，但支撑肌肉（前臂/肩/肱二头肌/核心）会萎缩",
+        "这一不平衡使恢复中的攀岩者比新手更危险——肌腱\"欺骗\"了主观感受",
+        "手指恢复：主动捏握 + 米桶康复腕部，从低等级路线开始",
+        "膝盖恢复：渐进深蹲至单腿深蹲，恢复股四头肌/腘绳肌平衡",
+        "肘腕恢复：反式俯卧撑对抗肱二头肌/肱三头肌不平衡",
+        "初次回归建议：比onsight水平低三个难度等级，专注脚法/平衡/呼吸"
+      ],
+      "tags": ["return-to-climbing", "injury-recovery", "muscle-tendon-imbalance", "comeback", "safe-return"]
+    },
+    {
+      "id": "s07-014",
+      "url": "https://www.hoopersbeta.com/library/nutrition-and-climbing",
+      "title": "How to Use Food to Heal and Climb Better (Nutrition for Climbers)",
+      "source": "Hooper's Beta",
+      "author": "Jason Hooper, PT, DPT（联合注册营养师 Savannah Miller, RD）",
+      "language": "en",
+      "publishDate": "2021-02-10",
+      "articleType": "tutorial",
+      "primaryKp": "kp-climber-nutrition",
+      "secondaryKps": ["kp-hydration", "kp-weight-management"],
+      "quality": {
+        "authority": 5,
+        "depth": 4,
+        "practicality": 4,
+        "recency": 4,
+        "uniqueness": 4,
+        "total": 21
+      },
+      "summary": "物理治疗师 Jason Hooper 与注册营养师 Savannah Miller 联合出品的攀岩营养指南，兼顾运动表现与恢复。核心内容：攀前1–4小时摄入1–4g/kg碳水，攀后4小时内补充足量蛋白质（耐力型1.2–1.4g/kg/天，抗阻型1.6–1.7g/kg/天），分散蛋白质摄入（约30g/餐，每3–4小时一次），运动中摄水0.4–0.8升/小时，含钠电解质补充。",
+      "keyInsights": [
+        "力量体重比是攀岩关键，营养需求因年龄/性别/强度高度个性化",
+        "攀前碳水（1–4小时前）：1–4g/kg，根据时间调整量（靠近时间则少量易消化）",
+        "攀后蛋白质：4小时内补充，每餐约30g，全天均匀分配（每3–4小时一次）",
+        "运动中水分：0.4–0.8升/小时，体重下降>2%即影响表现",
+        "整日营养而非仅围绕训练窗口：全天/全周一致的整体营养才是基础",
+        "注册营养师+物理治疗师双专家联合出品，权威性最高"
+      ],
+      "tags": ["climber-nutrition", "macronutrients", "protein", "carbohydrates", "timing", "registered-dietitian"]
+    },
+    {
+      "id": "s07-015",
+      "url": "https://latticetraining.com/blog/hydration-for-climbers/",
+      "title": "Hydration for Climbers: Don't Get Dehydrated at the Crag!",
+      "source": "Lattice Training",
+      "author": "Elle Hutchens",
+      "language": "en",
+      "publishDate": "2023-06-07",
+      "articleType": "tutorial",
+      "primaryKp": "kp-hydration",
+      "secondaryKps": ["kp-climber-nutrition"],
+      "quality": {
+        "authority": 4,
+        "depth": 3,
+        "practicality": 4,
+        "recency": 4,
+        "uniqueness": 3,
+        "total": 18
+      },
+      "summary": "Lattice Training 出品的攀岩者补水专项指南，涵盖脱水对心率/血压/核心体温/主观疲劳的具体影响，以及五个实用建议：出发前已完成补水 → 监测尿液颜色（淡稻草色）→ 随身携带水瓶每次攀爬间歇小口补水 → 高强度/高温条件增量 → 大量出汗时补充电解质（尤其是钠）。特别关注老年攀岩者体量感知减退问题。",
+      "keyInsights": [
+        "脱水不仅影响耐力，还会降低软组织健康、延长肌肉酸痛、增加恢复时间",
+        "尿液颜色监测：淡稻草色为佳，深黄说明需要补水",
+        "老年攀岩者：对渗透压变化敏感但体量信号迟钝，更需主动补水（不能只依赖口渴感）",
+        "大量出汗时：单纯白水不够，需添加含钠电解质饮料（钠是主要汗液电解质）",
+        "高强度训练日和高温环境补水量需相应增加",
+        "Lattice Training 第一梯队来源，科学与实用兼备"
+      ],
+      "tags": ["hydration", "electrolytes", "dehydration", "sodium", "climbing-nutrition", "older-climbers"]
+    },
+    {
+      "id": "s07-016",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9960533/",
+      "title": "Sleep and Athletic Performance: Impacts on Physical Performance, Mental Performance, Injury Risk and Recovery",
+      "source": "PubMed Central (Sleep Medicine Clinics)",
+      "author": "Jonathan Charest & Michael A. Grandner",
+      "language": "en",
+      "publishDate": "2020-03-01",
+      "articleType": "research",
+      "primaryKp": "kp-sleep-recovery",
+      "secondaryKps": ["kp-rest-management"],
+      "quality": {
+        "authority": 5,
+        "depth": 4,
+        "practicality": 3,
+        "recency": 4,
+        "uniqueness": 4,
+        "total": 20
+      },
+      "summary": "发表于《Sleep Medicine Clinics》的学术综述，系统分析睡眠质量与运动员表现的关系。关键发现：运动员平均睡眠6.5小时（低于推荐7小时以上），39.1%报告睡眠不足，高达50%精英运动员睡眠质量差。睡眠不足损害肌肉力量、速度、有氧能力、反应时间、执行功能和决策。充足睡眠支持生长激素释放、皮质醇调节、免疫功能和肌糖原补充。",
+      "keyInsights": [
+        "39.1% 运动员睡眠不足，50% 精英运动员睡眠质量差，是被严重忽视的恢复因素",
+        "睡眠不足影响：肌肉力量 + 速度 + 有氧能力 + 反应时间 + 决策能力同时下降",
+        "睡眠对恢复的四大机制：生长激素释放 / 皮质醇调节 / 免疫功能 / 肌糖原补充",
+        "中-重度失眠和白天过度嗜睡将脑震荡风险显著提高（超过传统风险因素）",
+        "运动员建议：系统性睡眠质量筛查 + 团队睡眠文化建设 + 合理安排训练时间",
+        "攀岩者应将睡眠视为与训练同等重要的恢复手段"
+      ],
+      "tags": ["sleep-recovery", "sleep-quality", "athletic-performance", "injury-risk", "recovery", "research"]
+    },
+    {
+      "id": "s07-017",
+      "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2023.1277623/full",
+      "title": "Nutrition Knowledge, Weight Loss Practices, and Supplement Use in Senior Competition Climbers",
+      "source": "Frontiers in Nutrition",
+      "author": "Edward Gibson-Smith, Ryan Storey, Marisa Michael, Mayur Ranchordas",
+      "language": "en",
+      "publishDate": "2024-01-17",
+      "articleType": "research",
+      "primaryKp": "kp-weight-management",
+      "secondaryKps": ["kp-climber-nutrition"],
+      "quality": {
+        "authority": 5,
+        "depth": 4,
+        "practicality": 2,
+        "recency": 5,
+        "uniqueness": 4,
+        "total": 20
+      },
+      "summary": "发表于《Frontiers in Nutrition》的攀岩竞技选手营养知识和减重行为研究。调查发现：46%男性和38%女性有意识减重备赛，其中76%采用风险行为（脱水/呕吐/泻药）。平均减重3–8%体重。营养知识评分仅53.5%（\"平均\"水平），蛋白质/碳水知识较好但水分/微量营养素知识薄弱。仅不足1/5有营养师支持。",
+      "keyInsights": [
+        "76% 尝试减重的攀岩竞技选手采用高风险方法（脱水/呕吐/泻药），健康危害严重",
+        "目标减重3–8%体重，但研究未证实体重减轻能显著提高高水平攀岩者的表现",
+        "饮食失调风险：43%精英女性攀岩者处于饮食失调高风险区，相关损伤风险翻倍",
+        "营养知识缺口：水分和微量营养素知识最薄弱，过度重视蛋白质和碳水",
+        "65%使用补充剂，44%同时使用多种补充剂，但多数缺乏科学依据",
+        "建议：专业营养师介入和团队级监控是预防 RED-S 和饮食失调的关键"
+      ],
+      "tags": ["weight-management", "eating-disorder", "RED-S", "competition-climbing", "nutrition-knowledge", "research"]
+    }
+  ]
+}

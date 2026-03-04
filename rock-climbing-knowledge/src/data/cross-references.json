@@ -1,0 +1,614 @@
+{
+  "references": {
+    "kp-grip-types": {
+      "sectionId": "section-02",
+      "subSectionSlug": "finger-strength",
+      "sectionSlug": "physical",
+      "title": {
+        "zh": "握姿类型",
+        "en": "Grip Types"
+      },
+      "path": "/section/physical/finger-strength"
+    },
+    "kp-hangboard-training": {
+      "sectionId": "section-02",
+      "subSectionSlug": "finger-strength",
+      "sectionSlug": "physical",
+      "title": {
+        "zh": "指力板训练",
+        "en": "Hangboard Training"
+      },
+      "path": "/section/physical/finger-strength"
+    },
+    "kp-finger-assessment": {
+      "sectionId": "section-02",
+      "subSectionSlug": "finger-strength",
+      "sectionSlug": "physical",
+      "title": {
+        "zh": "手指力量评估",
+        "en": "Finger Strength Assessment"
+      },
+      "path": "/section/physical/finger-strength"
+    },
+    "kp-advanced-finger": {
+      "sectionId": "section-02",
+      "subSectionSlug": "finger-strength",
+      "sectionSlug": "physical",
+      "title": {
+        "zh": "进阶手指训练",
+        "en": "Advanced Finger Training"
+      },
+      "path": "/section/physical/finger-strength"
+    },
+    "kp-pulling-power": {
+      "sectionId": "section-02",
+      "subSectionSlug": "upper-body",
+      "sectionSlug": "physical",
+      "title": {
+        "zh": "拉力训练",
+        "en": "Pulling Power"
+      },
+      "path": "/section/physical/upper-body"
+    },
+    "kp-pushing-power": {
+      "sectionId": "section-02",
+      "subSectionSlug": "upper-body",
+      "sectionSlug": "physical",
+      "title": {
+        "zh": "推力训练",
+        "en": "Pushing Power"
+      },
+      "path": "/section/physical/upper-body"
+    },
+    "kp-shoulder-stability": {
+      "sectionId": "section-02",
+      "subSectionSlug": "upper-body",
+      "sectionSlug": "physical",
+      "title": {
+        "zh": "肩部稳定性",
+        "en": "Shoulder Stability"
+      },
+      "path": "/section/physical/upper-body"
+    },
+    "kp-core-role": {
+      "sectionId": "section-02",
+      "subSectionSlug": "core",
+      "sectionSlug": "physical",
+      "title": {
+        "zh": "核心肌群的作用",
+        "en": "Role of Core Muscles"
+      },
+      "path": "/section/physical/core"
+    },
+    "kp-core-training": {
+      "sectionId": "section-02",
+      "subSectionSlug": "core",
+      "sectionSlug": "physical",
+      "title": {
+        "zh": "核心力量训练",
+        "en": "Core Strength Training"
+      },
+      "path": "/section/physical/core"
+    },
+    "kp-anti-rotation": {
+      "sectionId": "section-02",
+      "subSectionSlug": "core",
+      "sectionSlug": "physical",
+      "title": {
+        "zh": "抗旋转训练",
+        "en": "Anti-Rotation Training"
+      },
+      "path": "/section/physical/core"
+    },
+    "kp-hip-flexibility": {
+      "sectionId": "section-02",
+      "subSectionSlug": "flexibility",
+      "sectionSlug": "physical",
+      "title": {
+        "zh": "髋部柔韧性",
+        "en": "Hip Flexibility"
+      },
+      "path": "/section/physical/flexibility"
+    },
+    "kp-shoulder-mobility": {
+      "sectionId": "section-02",
+      "subSectionSlug": "flexibility",
+      "sectionSlug": "physical",
+      "title": {
+        "zh": "肩部灵活性",
+        "en": "Shoulder Mobility"
+      },
+      "path": "/section/physical/flexibility"
+    },
+    "kp-stretching": {
+      "sectionId": "section-02",
+      "subSectionSlug": "flexibility",
+      "sectionSlug": "physical",
+      "title": {
+        "zh": "拉伸训练",
+        "en": "Stretching"
+      },
+      "path": "/section/physical/flexibility"
+    },
+    "kp-aerobic-endurance": {
+      "sectionId": "section-02",
+      "subSectionSlug": "endurance",
+      "sectionSlug": "physical",
+      "title": {
+        "zh": "有氧耐力",
+        "en": "Aerobic Endurance"
+      },
+      "path": "/section/physical/endurance"
+    },
+    "kp-arc-training": {
+      "sectionId": "section-02",
+      "subSectionSlug": "endurance",
+      "sectionSlug": "physical",
+      "title": {
+        "zh": "ARC训练法",
+        "en": "ARC Training"
+      },
+      "path": "/section/physical/endurance"
+    },
+    "kp-4x4-training": {
+      "sectionId": "section-02",
+      "subSectionSlug": "endurance",
+      "sectionSlug": "physical",
+      "title": {
+        "zh": "4x4训练法",
+        "en": "4x4 Training"
+      },
+      "path": "/section/physical/endurance"
+    },
+    "kp-route-endurance": {
+      "sectionId": "section-02",
+      "subSectionSlug": "endurance",
+      "sectionSlug": "physical",
+      "title": {
+        "zh": "线路耐力",
+        "en": "Route Endurance"
+      },
+      "path": "/section/physical/endurance"
+    },
+    "kp-campus-training": {
+      "sectionId": "section-02",
+      "subSectionSlug": "power",
+      "sectionSlug": "physical",
+      "title": {
+        "zh": "校园板训练",
+        "en": "Campus Board Training"
+      },
+      "path": "/section/physical/power"
+    },
+    "kp-dynamic-power": {
+      "sectionId": "section-02",
+      "subSectionSlug": "power",
+      "sectionSlug": "physical",
+      "title": {
+        "zh": "动态爆发力",
+        "en": "Dynamic Power"
+      },
+      "path": "/section/physical/power"
+    },
+    "kp-coordination": {
+      "sectionId": "section-02",
+      "subSectionSlug": "power",
+      "sectionSlug": "physical",
+      "title": {
+        "zh": "协调性训练",
+        "en": "Coordination Training"
+      },
+      "path": "/section/physical/power"
+    },
+    "kp-edging": {
+      "sectionId": "section-03",
+      "subSectionSlug": "footwork",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "侧踩技术",
+        "en": "Edging"
+      },
+      "path": "/section/technique/footwork"
+    },
+    "kp-smearing": {
+      "sectionId": "section-03",
+      "subSectionSlug": "footwork",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "摩擦踩法",
+        "en": "Smearing"
+      },
+      "path": "/section/technique/footwork"
+    },
+    "kp-toe-hook": {
+      "sectionId": "section-03",
+      "subSectionSlug": "footwork",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "脚尖勾",
+        "en": "Toe Hook"
+      },
+      "path": "/section/technique/footwork"
+    },
+    "kp-heel-hook": {
+      "sectionId": "section-03",
+      "subSectionSlug": "footwork",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "脚跟勾",
+        "en": "Heel Hook"
+      },
+      "path": "/section/technique/footwork"
+    },
+    "kp-crimp-hold": {
+      "sectionId": "section-03",
+      "subSectionSlug": "handholds",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "抠握手法",
+        "en": "Crimp Hold"
+      },
+      "path": "/section/technique/handholds"
+    },
+    "kp-sloper-hold": {
+      "sectionId": "section-03",
+      "subSectionSlug": "handholds",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "大面积手点",
+        "en": "Sloper Hold"
+      },
+      "path": "/section/technique/handholds"
+    },
+    "kp-pinch-hold": {
+      "sectionId": "section-03",
+      "subSectionSlug": "handholds",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "捏握手法",
+        "en": "Pinch Hold"
+      },
+      "path": "/section/technique/handholds"
+    },
+    "kp-pocket-hold": {
+      "sectionId": "section-03",
+      "subSectionSlug": "handholds",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "指洞手点",
+        "en": "Pocket Hold"
+      },
+      "path": "/section/technique/handholds"
+    },
+    "kp-flagging": {
+      "sectionId": "section-03",
+      "subSectionSlug": "body-positioning",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "旗帜式平衡",
+        "en": "Flagging"
+      },
+      "path": "/section/technique/body-positioning"
+    },
+    "kp-drop-knee": {
+      "sectionId": "section-03",
+      "subSectionSlug": "body-positioning",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "垂膝技术",
+        "en": "Drop Knee"
+      },
+      "path": "/section/technique/body-positioning"
+    },
+    "kp-twist-lock": {
+      "sectionId": "section-03",
+      "subSectionSlug": "body-positioning",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "扭锁技术",
+        "en": "Twist Lock"
+      },
+      "path": "/section/technique/body-positioning"
+    },
+    "kp-dyno-technique": {
+      "sectionId": "section-03",
+      "subSectionSlug": "dynamic",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "飞跃技术",
+        "en": "Dyno Technique"
+      },
+      "path": "/section/technique/dynamic"
+    },
+    "kp-deadpoint": {
+      "sectionId": "section-03",
+      "subSectionSlug": "dynamic",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "死点技术",
+        "en": "Deadpoint"
+      },
+      "path": "/section/technique/dynamic"
+    },
+    "kp-slab-technique": {
+      "sectionId": "section-03",
+      "subSectionSlug": "terrain",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "板面攀爬技术",
+        "en": "Slab Technique"
+      },
+      "path": "/section/technique/terrain"
+    },
+    "kp-overhang-technique": {
+      "sectionId": "section-03",
+      "subSectionSlug": "terrain",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "仰角攀爬技术",
+        "en": "Overhang Technique"
+      },
+      "path": "/section/technique/terrain"
+    },
+    "kp-roof-technique": {
+      "sectionId": "section-03",
+      "subSectionSlug": "terrain",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "屋檐攀爬技术",
+        "en": "Roof Technique"
+      },
+      "path": "/section/technique/terrain"
+    },
+    "kp-crack-technique": {
+      "sectionId": "section-03",
+      "subSectionSlug": "terrain",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "裂缝攀爬技术",
+        "en": "Crack Technique"
+      },
+      "path": "/section/technique/terrain"
+    },
+    "kp-route-reading-basics": {
+      "sectionId": "section-03",
+      "subSectionSlug": "route-reading",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "读线基础",
+        "en": "Route Reading Basics"
+      },
+      "path": "/section/technique/route-reading"
+    },
+    "kp-fall-technique": {
+      "sectionId": "section-06",
+      "subSectionSlug": "indoor",
+      "sectionSlug": "safety",
+      "title": {
+        "zh": "落地技术",
+        "en": "Fall Technique"
+      },
+      "path": "/section/safety/indoor"
+    },
+    "kp-belaying": {
+      "sectionId": "section-06",
+      "subSectionSlug": "rope-skills",
+      "sectionSlug": "safety",
+      "title": {
+        "zh": "保护技术",
+        "en": "Belaying"
+      },
+      "path": "/section/safety/rope-skills"
+    },
+    "kp-knots": {
+      "sectionId": "section-06",
+      "subSectionSlug": "rope-skills",
+      "sectionSlug": "safety",
+      "title": {
+        "zh": "绳结技术",
+        "en": "Knots"
+      },
+      "path": "/section/safety/rope-skills"
+    },
+    "kp-rappelling": {
+      "sectionId": "section-06",
+      "subSectionSlug": "rope-skills",
+      "sectionSlug": "safety",
+      "title": {
+        "zh": "下降技术",
+        "en": "Rappelling"
+      },
+      "path": "/section/safety/rope-skills"
+    },
+    "kp-pulley-injury": {
+      "sectionId": "section-07",
+      "subSectionSlug": "common-injuries",
+      "sectionSlug": "injury",
+      "title": {
+        "zh": "滑轮韧带损伤",
+        "en": "Pulley Injury"
+      },
+      "path": "/section/injury/common-injuries"
+    },
+    "kp-tendonitis": {
+      "sectionId": "section-07",
+      "subSectionSlug": "common-injuries",
+      "sectionSlug": "injury",
+      "title": {
+        "zh": "肌腱炎",
+        "en": "Tendonitis"
+      },
+      "path": "/section/injury/common-injuries"
+    },
+    "kp-shoulder-injury": {
+      "sectionId": "section-07",
+      "subSectionSlug": "common-injuries",
+      "sectionSlug": "injury",
+      "title": {
+        "zh": "肩部损伤",
+        "en": "Shoulder Injury"
+      },
+      "path": "/section/injury/common-injuries"
+    },
+    "kp-warmup": {
+      "sectionId": "section-07",
+      "subSectionSlug": "prevention",
+      "sectionSlug": "injury",
+      "title": {
+        "zh": "热身运动",
+        "en": "Warm-Up"
+      },
+      "path": "/section/injury/prevention"
+    },
+    "kp-rest-management": {
+      "sectionId": "section-07",
+      "subSectionSlug": "prevention",
+      "sectionSlug": "injury",
+      "title": {
+        "zh": "休息管理",
+        "en": "Rest Management"
+      },
+      "path": "/section/injury/prevention"
+    },
+    "kp-antagonist-training": {
+      "sectionId": "section-07",
+      "subSectionSlug": "prevention",
+      "sectionSlug": "injury",
+      "title": {
+        "zh": "拮抗肌训练",
+        "en": "Antagonist Training"
+      },
+      "path": "/section/injury/prevention"
+    },
+    "kp-climbing-shoes": {
+      "sectionId": "section-05",
+      "subSectionSlug": "basic-gear",
+      "sectionSlug": "gear",
+      "title": {
+        "zh": "攀岩鞋",
+        "en": "Climbing Shoes"
+      },
+      "path": "/section/gear/basic-gear"
+    },
+    "kp-chalk": {
+      "sectionId": "section-05",
+      "subSectionSlug": "basic-gear",
+      "sectionSlug": "gear",
+      "title": {
+        "zh": "镁粉",
+        "en": "Chalk"
+      },
+      "path": "/section/gear/basic-gear"
+    },
+    "kp-harness": {
+      "sectionId": "section-05",
+      "subSectionSlug": "protection",
+      "sectionSlug": "gear",
+      "title": {
+        "zh": "安全带",
+        "en": "Harness"
+      },
+      "path": "/section/gear/protection"
+    },
+    "kp-rope": {
+      "sectionId": "section-05",
+      "subSectionSlug": "protection",
+      "sectionSlug": "gear",
+      "title": {
+        "zh": "攀岩绳",
+        "en": "Rope"
+      },
+      "path": "/section/gear/protection"
+    },
+    "kp-belay-device": {
+      "sectionId": "section-05",
+      "subSectionSlug": "protection",
+      "sectionSlug": "gear",
+      "title": {
+        "zh": "保护器",
+        "en": "Belay Device"
+      },
+      "path": "/section/gear/protection"
+    },
+    "kp-quickdraw": {
+      "sectionId": "section-05",
+      "subSectionSlug": "protection",
+      "sectionSlug": "gear",
+      "title": {
+        "zh": "快挂",
+        "en": "Quickdraw"
+      },
+      "path": "/section/gear/protection"
+    },
+    "kp-hangboard-gear": {
+      "sectionId": "section-05",
+      "subSectionSlug": "training-gear",
+      "sectionSlug": "gear",
+      "title": {
+        "zh": "指力板",
+        "en": "Hangboard"
+      },
+      "path": "/section/gear/training-gear"
+    },
+    "kp-campus-board-gear": {
+      "sectionId": "section-05",
+      "subSectionSlug": "training-gear",
+      "sectionSlug": "gear",
+      "title": {
+        "zh": "校园板",
+        "en": "Campus Board"
+      },
+      "path": "/section/gear/training-gear"
+    },
+    "kp-system-wall": {
+      "sectionId": "section-05",
+      "subSectionSlug": "training-gear",
+      "sectionSlug": "gear",
+      "title": {
+        "zh": "系统训练墙",
+        "en": "System Wall"
+      },
+      "path": "/section/gear/training-gear"
+    },
+    "kp-fear-management": {
+      "sectionId": "section-04",
+      "subSectionSlug": "fear",
+      "sectionSlug": "mental",
+      "title": {
+        "zh": "恐惧管理",
+        "en": "Fear Management"
+      },
+      "path": "/section/mental/fear"
+    },
+    "kp-flow-state": {
+      "sectionId": "section-04",
+      "subSectionSlug": "focus",
+      "sectionSlug": "mental",
+      "title": {
+        "zh": "心流状态",
+        "en": "Flow State"
+      },
+      "path": "/section/mental/focus"
+    },
+    "kp-periodization": {
+      "sectionId": "section-04",
+      "subSectionSlug": "goals",
+      "sectionSlug": "mental",
+      "title": {
+        "zh": "周期化训练",
+        "en": "Periodization"
+      },
+      "path": "/section/mental/goals"
+    },
+    "kp-projecting-strategy": {
+      "sectionId": "section-04",
+      "subSectionSlug": "projecting",
+      "sectionSlug": "mental",
+      "title": {
+        "zh": "目标线路攻略",
+        "en": "Projecting Strategy"
+      },
+      "path": "/section/mental/projecting"
+    }
+  }
+}

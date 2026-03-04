@@ -1,0 +1,494 @@
+{
+  "_meta": {
+    "section": "section-10",
+    "sectionTitle": "竞技攀岩",
+    "searchDate": "2026-03-03",
+    "totalArticles": 16,
+    "coveredKps": 16,
+    "totalKps": 16,
+    "uncoveredKps": [],
+    "partiallyCoveredKps": [],
+    "notes": "全部 16 个 KP 已覆盖（100%）。Training Bible 三篇（Phase 5/7/8）来自 Climbing.com，该网站需要登录，文章内容已由用户保存为本地文件（training-bible/）。竞赛规则与格式类 KP 覆盖质量高；竞赛心理类 KP 以 Lattice Training 和 Strong Mind Climbing 两个专业来源为主。"
+  },
+  "articles": [
+    {
+      "id": "art-s10-001",
+      "url": "https://rockclimbingrealms.com/guide-to-ifsc-formats-scoring-rules-rounds/",
+      "title": "Guide to IFSC Formats: Scoring, Rules & Rounds",
+      "source": "Rock Climbing Realms",
+      "author": "Alfredo Ramses",
+      "language": "en",
+      "publishDate": "2025-05",
+      "lastModified": "2025-10",
+      "articleType": "tutorial",
+      "primaryKp": "kp-lead-competition",
+      "secondaryKps": ["kp-boulder-competition", "kp-speed-competition", "kp-scoring-systems"],
+      "quality": {
+        "authority": 4,
+        "depth": 4,
+        "practicality": 4,
+        "recency": 5,
+        "uniqueness": 4,
+        "total": 21
+      },
+      "summary": "完整解析 IFSC 竞技攀岩三大格式（先锋、抱石、速攀）的赛制规则、评分方式与赛次结构，包括资格赛、半决赛、决赛各阶段流程，以及速攀世界杯淘汰制对决赛制等细节。是当前最全面的 IFSC 赛制英文综合指南之一，2025 年更新。",
+      "keyInsights": [
+        "先锋赛：单次 6 分钟攀爬机会，以最高得分位置评分，触碰不算必须控制",
+        "抱石赛：4 分钟窗口内尝试各题，TOP > ZONE 优先，再比 Attempts",
+        "速攀赛：两侧标准化 15 米墙同时竞速，资格赛取最快成绩，决赛采用 16 强淘汰制",
+        "各格式均包括资格赛（Qualification）、半决赛（Semi-final）、决赛（Final）三阶段"
+      ],
+      "tags": ["lead-competition", "boulder-competition", "speed-competition", "IFSC", "scoring", "competition-format", "rules"]
+    },
+    {
+      "id": "art-s10-002",
+      "url": "https://usaclimbing.org/climb/speed/",
+      "title": "Speed – USA Climbing",
+      "source": "USA Climbing",
+      "author": "USA Climbing Staff",
+      "language": "en",
+      "publishDate": "2020",
+      "lastModified": "2025-09",
+      "articleType": "tutorial",
+      "primaryKp": "kp-speed-competition",
+      "secondaryKps": ["kp-national-federations"],
+      "quality": {
+        "authority": 4,
+        "depth": 3,
+        "practicality": 3,
+        "recency": 5,
+        "uniqueness": 4,
+        "total": 19
+      },
+      "summary": "美国攀岩国家管理机构官方速攀项目页面，介绍标准化 15 米墙规格（5 度倾斜，固定线路）、单次赛格（Heat）对决制度，以及美国与世界纪录数据（Sam Watson 4.64 秒男子世界纪录，Aleksandra Miroslaw 6.03 秒女子世界纪录，2025 年 9 月最新）。",
+      "keyInsights": [
+        "速攀使用完全标准化路线：15 米高，5 度倾斜，全球所有 IFSC 赛事使用相同支点和顺序",
+        "赛制为 Head-to-Head：两名选手在并排的两条相同路线上同时竞速",
+        "美国男子纪录：Sam Watson 4.64 秒（2025 年 5 月，与世界纪录持平）",
+        "女子世界纪录：Aleksandra Miroslaw（波兰）6.03 秒（2025 年 9 月）",
+        "USA Climbing 提供资源：词汇表、训练馆查找、自动保护器合作伙伴信息"
+      ],
+      "tags": ["speed-climbing", "competition-format", "world-record", "standardized-wall", "USA-Climbing", "IFSC"]
+    },
+    {
+      "id": "art-s10-003",
+      "url": "https://gripped.com/news/what-the-heck-does-2t3z-9-12-mean/",
+      "title": "What the Heck Does '2T3z 9 12' Mean?",
+      "source": "Gripped Magazine",
+      "author": "Aaron Pardy",
+      "language": "en",
+      "publishDate": "2023-05",
+      "lastModified": "2023-05",
+      "articleType": "tutorial",
+      "primaryKp": "kp-boulder-competition",
+      "secondaryKps": ["kp-scoring-systems"],
+      "quality": {
+        "authority": 4,
+        "depth": 4,
+        "practicality": 4,
+        "recency": 3,
+        "uniqueness": 5,
+        "total": 20
+      },
+      "summary": "解析竞技抱石赛最令人困惑的评分记录格式——以「2T3z 9 12」为例，拆解 Tops（完成顶点）、Zones（中间控制点）、Attempts（尝试次数）三要素含义、优先顺序与名次判定逻辑，是观赛和参赛必备的入门指南。",
+      "keyInsights": [
+        "「2T3z 9 12」解读：2 个 Top，3 个 Zone，9 次 Top 尝试，12 次 Zone 尝试",
+        "名次优先顺序：Tops 数量 > Zones 数量 > Top 尝试次数 > Zone 尝试次数",
+        "Zone 是题目中段的控制点，即使未完成也能得分",
+        "攀爬者必须在 4 分钟内完成每道题，时间到立即停止计分",
+        "每道抱石题独立计分，不同题之间的尝试次数分开计算"
+      ],
+      "tags": ["boulder-competition", "scoring", "IFSC", "competition-format", "tops-zones-attempts", "observation-window"]
+    },
+    {
+      "id": "art-s10-004",
+      "url": "https://gripped.com/news/how-is-climbing-scored-at-the-paris-olympics/",
+      "title": "How Is Climbing Scored at the Paris Olympics?",
+      "source": "Gripped Magazine",
+      "author": "Aaron Pardy",
+      "language": "en",
+      "publishDate": "2024-08",
+      "lastModified": "2024-08",
+      "articleType": "tutorial",
+      "primaryKp": "kp-combined-olympic",
+      "secondaryKps": ["kp-scoring-systems", "kp-speed-competition", "kp-lead-competition"],
+      "quality": {
+        "authority": 4,
+        "depth": 4,
+        "practicality": 3,
+        "recency": 4,
+        "uniqueness": 4,
+        "total": 19
+      },
+      "summary": "详解巴黎奥运会新版赛制重大改革：2024 年起速攀独立成项，先锋与抱石合并为双项综合赛（Bouldering + Lead Combined）。逐一解析资格赛结构（先看抱石，再看先锋，成绩相乘排名）、半决赛与决赛流程，以及与东京奥运三项综合赛的关键区别。",
+      "keyInsights": [
+        "2024 巴黎奥运重大改革：速攀从三项综合中分离，成为独立比赛项目",
+        "先锋+抱石综合赛：资格赛阶段先进行抱石，再进行先锋，成绩相乘（Bouldering Rank × Lead Rank）决定排名",
+        "相乘制鼓励全能型选手，单项弱势难以靠另一项大幅弥补",
+        "资格赛中抱石成绩和先锋成绩均独立评定，不能相互补偿",
+        "新格式使速攀专项选手有机会独立争夺奥运奖牌，不需精通抱石和先锋"
+      ],
+      "tags": ["combined-event", "Paris-Olympics", "bouldering", "lead", "speed", "Olympic-format", "scoring-reform"]
+    },
+    {
+      "id": "art-s10-005",
+      "url": "https://gearjunkie.com/climbing/ifsc-climbing-explained",
+      "title": "IFSC World Cup Climbing Rules & Scoring Explained",
+      "source": "GearJunkie",
+      "author": "Jilli Cluff",
+      "language": "en",
+      "publishDate": "2022-07",
+      "lastModified": "2024-06",
+      "articleType": "tutorial",
+      "primaryKp": "kp-scoring-systems",
+      "secondaryKps": ["kp-lead-competition", "kp-boulder-competition", "kp-competition-circuit-rankings"],
+      "quality": {
+        "authority": 3,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 4,
+        "uniqueness": 4,
+        "total": 20
+      },
+      "summary": "面向新观众的 IFSC 世界杯综合讲解：三项赛制（抱石/先锋/速攀）的规则与评分、世界杯积分制度运作方式、赛季总排名逻辑，语言通俗，配有具体示例，是入门竞技攀岩赛制最易读的综合指南之一。",
+      "keyInsights": [
+        "世界杯积分制：冠军得 1000 分，第 2 名 805 分，依次递减，累计积分决定赛季总排名",
+        "赛季赛事超过 6 站时，选手最差成绩可被剔除，鼓励全程参赛",
+        "先锋赛评分以最高接触点计算，但必须「控制」支点（非仅接触）",
+        "速攀赛开始信号反应时间 < 0.1 秒即判抢跑（False Start），直接淘汰",
+        "三个项目（抱石/先锋/速攀）各自独立排名，也有跨项综合排名"
+      ],
+      "tags": ["scoring-systems", "World-Cup", "IFSC", "points-system", "rankings", "lead", "bouldering", "speed"]
+    },
+    {
+      "id": "art-s10-006",
+      "url": "https://climbingbusinessjournal.com/strategies-to-help-youth-team-climbers-survive-isolation/",
+      "title": "Strategies to Help Youth Team Climbers Survive Isolation",
+      "source": "Climbing Business Journal",
+      "author": "Jason Chang",
+      "language": "en",
+      "publishDate": "2025-02",
+      "lastModified": "2025-06",
+      "articleType": "training",
+      "primaryKp": "kp-isolation-zone",
+      "secondaryKps": ["kp-competition-anxiety", "kp-time-limits-attempts"],
+      "quality": {
+        "authority": 3,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 5,
+        "uniqueness": 5,
+        "total": 22
+      },
+      "summary": "从青少年攀岩教练视角系统讲解比赛隔离区（Isolation Zone）的生理与心理挑战，提供具体可操作策略：热身节奏规划、营养补给时机选择、模拟低刺激环境的训练方法、以及帮助运动员在隔离中维持心理激活状态而非过度焦虑的实用框架。",
+      "keyInsights": [
+        "隔离区定义：选手在赛前被隔离于特定区域，无法观察其他选手或路线，维持 Onsight 公平性",
+        "主要挑战：等待时间过长（可达 2-4 小时）导致生理冷却和心理过激活",
+        "热身策略：先完整热身至高强度，再在隔离区内执行维持性动态活动（10-15 分钟/小时）",
+        "营养时机：隔离区内保持碳水补给，避免低血糖影响判断力和爆发力",
+        "心理技巧：使用专注性任务（读线可视化、音乐）避免赛前过度思考，保持「受控激活」状态"
+      ],
+      "tags": ["isolation-zone", "competition-preparation", "youth-climbing", "warm-up", "mental-preparation", "pre-competition"]
+    },
+    {
+      "id": "art-s10-007",
+      "url": "https://climbingbusinessjournal.com/getting-your-team-prepared-for-onsight-bouldering-competitions/",
+      "title": "Getting Your Team Prepared for Onsight Bouldering Competitions",
+      "source": "Climbing Business Journal",
+      "author": "Jason Chang",
+      "language": "en",
+      "publishDate": "2025-01",
+      "lastModified": "2025-06",
+      "articleType": "training",
+      "primaryKp": "kp-time-limits-attempts",
+      "secondaryKps": ["kp-boulder-competition", "kp-isolation-zone"],
+      "quality": {
+        "authority": 3,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 5,
+        "uniqueness": 4,
+        "total": 21
+      },
+      "summary": "专项讲解视场抱石赛（Onsight Bouldering Competition）的时间结构与尝试管理策略：观察窗口分配、4 分钟攀爬时间的节奏规划、尝试次数管理与撤退决策，以及如何在训练中系统模拟竞赛时间限制，建立高效的读线与执行循环。",
+      "keyInsights": [
+        "观察窗口（Observation Window）：通常 5-8 分钟，不同赛事有差异，需提前了解规则",
+        "4 分钟攀爬窗口的策略：第一次尝试应在窗口开始后立即出发，预留时间给后续尝试",
+        "尝试次数管理：若前两次均未过 Zone，第三次以后的尝试通常得不偿失，应考虑保留体力",
+        "训练方法：设置计时器模拟 5 分钟观察 + 4 分钟攀爬结构，建立「快速读线-执行-评估」节奏",
+        "心理建设：接受失败的题，将注意力快速转移到下一道题，避免单题失败影响整体发挥"
+      ],
+      "tags": ["time-limits", "attempts-management", "onsight-bouldering", "competition-strategy", "observation-window", "youth-training"]
+    },
+    {
+      "id": "art-s10-008",
+      "url": "https://www.climbing.com/skills/climbing-training-strength-power/",
+      "title": "Building a Better Climber: Phase 5 — Strength and Power",
+      "source": "Climbing Magazine / Rock and Ice Magazine",
+      "author": "Neil Gresham",
+      "language": "en",
+      "publishDate": "2013",
+      "lastModified": "2013",
+      "articleType": "training",
+      "primaryKp": "kp-comp-specific-training",
+      "secondaryKps": ["kp-peaking", "kp-comp-simulation"],
+      "quality": {
+        "authority": 4,
+        "depth": 5,
+        "practicality": 5,
+        "recency": 3,
+        "uniqueness": 5,
+        "total": 22
+      },
+      "summary": "Neil Gresham 年度训练圣经第五阶段——力量与爆发力训练，是竞赛周期前的核心强化阶段：详细规定抱石（2-3次/周）、悬挂板/Campus 木板训练（0-1次）、低强度耐力维持（1次）、拮抗肌与柔韧性（1-2次）的周频次配置，提供初级/中级/精英三档执行方案，帮助选手在竞赛季到来前将力量水平推至顶峰。",
+      "keyInsights": [
+        "第五阶段是第二轮力量周期，在第一轮（Phase 3）基础上进一步提升强度和专项性",
+        "精英级选手每周可做 3 次抱石 + 悬挂板 + Campus 木板，总训练量达 6-7 sessions/周",
+        "Campus 木板训练（仅进阶/精英）：亚最大热身组 1 次 + 最大间距组 4 次",
+        "悬挂板死挂：按握法分组（Half crimp、Open-hand、Full crimp），失败前 10 秒为目标负荷",
+        "训练周期结束后进入 Phase 6（耐力恢复），为 Phase 7 功率耐力做准备"
+      ],
+      "tags": ["strength-training", "power", "hangboard", "campus-board", "periodization", "competition-preparation", "bouldering"]
+    },
+    {
+      "id": "art-s10-009",
+      "url": "https://www.climbing.com/skills/climbing-training-peaking/",
+      "title": "Building a Better Climber: Phase 8 — Peaking",
+      "source": "Climbing Magazine / Rock and Ice Magazine",
+      "author": "Neil Gresham",
+      "language": "en",
+      "publishDate": "2013",
+      "lastModified": "2013",
+      "articleType": "training",
+      "primaryKp": "kp-peaking",
+      "secondaryKps": ["kp-comp-simulation", "kp-pressure-visualization"],
+      "quality": {
+        "authority": 4,
+        "depth": 5,
+        "practicality": 5,
+        "recency": 3,
+        "uniqueness": 5,
+        "total": 22
+      },
+      "summary": "年度训练圣经最终阶段——竞赛状态巅峰期：以视场（Onsight）和红点（Redpoint）技术专项会话替代高量重复训练，降低组间频率使身体充分恢复，提供完整的视场热身流程（4 步渐进式热身 + 25-45 分钟组间休息 + 三遍可视化）和赛后表现复盘框架，强调技巧与运动智能的最终整合。",
+      "keyInsights": [
+        "巅峰期核心原则：减少训练量、增加休息，使身体从全年训练积累中恢复，以最佳状态参赛",
+        "视场热身流程：4 条逐级难度热身路线（Easy→Light pump→Major pump→Light pump），组间休息 10/12/15 分钟",
+        "视场策略：赛前三遍完整实时可视化（读线 + 计划手序 + 确定关键动作和休息位），执行时才离开地面",
+        "红点阶段：bolt-to-bolt 熟悉 → 分段链接 → 完整红点，同一项目不超过 3 次会话",
+        "赛后复盘问题：失败原因、读线是否误判、技术或心理因素哪个先失效"
+      ],
+      "tags": ["peaking", "competition-preparation", "onsight-skills", "redpoint-skills", "taper", "visualization", "performance-review"]
+    },
+    {
+      "id": "art-s10-010",
+      "url": "https://www.climbing.com/skills/complete-climbing-training-program-power-endurance/",
+      "title": "Building a Better Climber: Phase 7 — Power Endurance",
+      "source": "Climbing Magazine / Rock and Ice Magazine",
+      "author": "Neil Gresham",
+      "language": "en",
+      "publishDate": "2013",
+      "lastModified": "2013",
+      "articleType": "training",
+      "primaryKp": "kp-comp-simulation",
+      "secondaryKps": ["kp-comp-specific-training", "kp-peaking"],
+      "quality": {
+        "authority": 4,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 3,
+        "uniqueness": 4,
+        "total": 20
+      },
+      "summary": "年度训练圣经第七阶段——红点功率耐力，可直接映射竞技比赛的模拟训练场景：从逐段（bolt-to-bolt）→ 分段链接（2-4 节）→ 完整红点尝试的三步进阶结构，以及 7×3 分钟抱石组合间歇和 6×40 动作循环训练，是最接近实战赛制的系统化模拟训练框架。",
+      "keyInsights": [
+        "红点模拟三步法：bolt-to-bolt 记忆线路 → 分 2-4 节链接（提高流畅度和疲劳下精准度）→ 完整红点冲刺",
+        "路线双组（Doubles，6×2s）：连续爬两条同难度路线不休息，6 组，休息时间等于攀爬时间",
+        "抱石间歇（7×3s）：连续爬三道同难度题，8 分钟休息，7 组，目标是在第 6-7 组失败",
+        "40 动作循环：涵盖上行、下行、横切，6 组 × 10 分钟休息，是模拟长难路线的耐力核心训练",
+        "连续两天训练时：先做抱石/悬挂板（Day 1），再做功率耐力（Day 2）"
+      ],
+      "tags": ["power-endurance", "competition-simulation", "redpoint-training", "boulder-intervals", "circuits", "periodization"]
+    },
+    {
+      "id": "art-s10-011",
+      "url": "https://latticetraining.com/2023/03/16/overcome-performance-anxiety/",
+      "title": "Overcome Performance Anxiety",
+      "source": "Lattice Training",
+      "author": "Tess Whitfield",
+      "language": "en",
+      "publishDate": "2023-03-16",
+      "lastModified": "2023-04",
+      "articleType": "training",
+      "primaryKp": "kp-competition-anxiety",
+      "secondaryKps": ["kp-performance-mindset", "kp-pressure-visualization"],
+      "quality": {
+        "authority": 5,
+        "depth": 4,
+        "practicality": 4,
+        "recency": 3,
+        "uniqueness": 4,
+        "total": 20
+      },
+      "summary": "Lattice Training 运动心理专家系统解析竞技焦虑的生理-认知双重机制，提供五步应对框架：认知重框架（将焦虑重新标签为兴奋）、呼吸调节（Box Breathing）、有计划的注意力转移、赛前例行程序建立，以及如何区分有益的高激活状态（Activation）与有害的焦虑（Anxiety）。",
+      "keyInsights": [
+        "焦虑 vs. 激活：生理反应相同，区别在于认知评价——「这是危险信号」vs.「这是准备好的信号」",
+        "认知重框架：将「我很紧张」重新解读为「我已准备好」，有科学依据支持的有效干预手段",
+        "Box Breathing（方形呼吸）：4 秒吸气-4 秒屏住-4 秒呼气-4 秒屏住，快速激活副交感神经系统",
+        "赛前例行程序（Pre-competition Routine）：建立一套固定行为序列，帮助大脑进入「表现模式」",
+        "注意力聚焦：将注意力从结果（输赢）转移到过程（下一个动作、读线），降低焦虑触发频率"
+      ],
+      "tags": ["competition-anxiety", "performance-anxiety", "mental-training", "breathing", "pre-competition-routine", "reframing"]
+    },
+    {
+      "id": "art-s10-012",
+      "url": "https://strongmindclimbing.com/strong-mind-course/",
+      "title": "What is the Strong Mind Course",
+      "source": "Strong Mind Climbing",
+      "author": "Hazel Findlay",
+      "language": "en",
+      "publishDate": "2024-05",
+      "lastModified": "2024-05",
+      "articleType": "training",
+      "primaryKp": "kp-performance-mindset",
+      "secondaryKps": ["kp-competition-anxiety", "kp-pressure-visualization"],
+      "quality": {
+        "authority": 4,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 4,
+        "uniqueness": 5,
+        "total": 22
+      },
+      "summary": "世界级攀岩心理教练 Hazel Findlay 介绍其系统性思维训练课程框架：从恐惧管理、自我认知到高表现心态的完整路径，涵盖以过程为中心的目标设定、即时反馈的自我对话管理、以及如何在高压比赛中维持最优心理状态（Flow State 导向），是最具权威的攀岩专项心理训练内容来源之一。",
+      "keyInsights": [
+        "心理训练的核心误区：只「知道」技术方法但缺乏内化练习，心理技能与体能技能同样需要系统性重复",
+        "恐惧管理：区分「有用的恐惧」（提示安全边界）和「无用的恐惧」（妨碍表现的焦虑），分别应对",
+        "过程导向目标：将「完成路线」替换为「达到流畅的节奏感」等可控过程目标，降低焦虑触发",
+        "自我对话管理：识别负面内部叙事（「我做不到」），替换为中性或激励性陈述",
+        "Hazel Findlay 本人作为 E9 大岩壁传统攀岩者的实战背书，使内容兼具理论深度和实战可信度"
+      ],
+      "tags": ["performance-mindset", "mental-training", "fear-management", "flow-state", "self-talk", "process-goals", "Hazel-Findlay"]
+    },
+    {
+      "id": "art-s10-013",
+      "url": "https://strongmindclimbing.com/visualisation/",
+      "title": "Visualisation for Bold Climbing",
+      "source": "Strong Mind Climbing",
+      "author": "Angus Kille",
+      "language": "en",
+      "publishDate": "2024-01",
+      "lastModified": "2024-01",
+      "articleType": "training",
+      "primaryKp": "kp-pressure-visualization",
+      "secondaryKps": ["kp-performance-mindset", "kp-competition-anxiety"],
+      "quality": {
+        "authority": 4,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 4,
+        "uniqueness": 4,
+        "total": 21
+      },
+      "summary": "详解攀岩可视化（Visualization/Mental Imagery）技术的科学原理与实践方法：运动意象的神经机制（镜像神经元与运动预编程）、有效练习的五个关键要素（多感官细节、情绪状态纳入、实时节奏、错误修正、第一人称视角），以及如何将可视化整合进赛前常规程序以提升高压下的执行精准度。",
+      "keyInsights": [
+        "神经机制：可视化时激活与实际攀爬高度重叠的神经回路，属于「无痛的神经训练」",
+        "五要素：1) 多感官（视觉+触觉+动感）2) 情绪投入 3) 实时速度（不要加速）4) 预演错误并修正 5) 第一人称视角",
+        "实时节奏：可视化应与实际攀爬时间基本一致，快进版可视化无法有效建立神经肌肉预编程",
+        "赛前应用：建议在隔离区结束前 20-30 分钟进行完整可视化，配合呼吸放松进入表现状态",
+        "大胆攀岩（Bold Climbing）应用：可视化可预先脱敏高风险动作，减少执行时的犹豫和犹豫引发的失败"
+      ],
+      "tags": ["visualization", "mental-imagery", "competition-preparation", "bold-climbing", "pressure-management", "pre-performance-routine"]
+    },
+    {
+      "id": "art-s10-014",
+      "url": "https://gripped.com/events/indoor-weekly-history-climbing-olympic-sport/",
+      "title": "Indoor Weekly: History of Climbing as Olympic Sport",
+      "source": "Gripped Magazine",
+      "author": "Gripped Staff",
+      "language": "en",
+      "publishDate": "2018-02",
+      "lastModified": "2018-02",
+      "articleType": "research",
+      "primaryKp": "kp-ifsc",
+      "secondaryKps": ["kp-combined-olympic", "kp-national-federations"],
+      "quality": {
+        "authority": 4,
+        "depth": 3,
+        "practicality": 2,
+        "recency": 1,
+        "uniqueness": 4,
+        "total": 14
+      },
+      "summary": "梳理 IFSC（国际攀岩联合会）作为独立国际单项体育联合会的发展历程：从 1985 年 SportRoccia 竞技攀岩萌芽期、UIAA 旗下攀岩委员会阶段、2007 年 IFSC 独立成立，到 2016 年 IOC 正式接受攀岩为奥运项目的完整历史时间线。",
+      "keyInsights": [
+        "1985 年：意大利 Bardonecchia 举办 SportRoccia——首届有组织的先锋攀岩竞赛",
+        "1985 年同年：法国 FFME 在 Lyon 举办首届室内攀岩赛，室内竞技攀岩从此起步",
+        "2007 年：IFSC 从 UIAA 独立成为专属单项体育联合会，完成组织架构现代化",
+        "2016 年：IOC 正式批准攀岩列入 2020 东京奥运会竞技项目",
+        "文章时效性说明：发布于 2018 年，仅记录至东京奥运批准阶段，巴黎奥运改革内容不含"
+      ],
+      "tags": ["IFSC", "Olympic-history", "sport-climbing-history", "governing-body", "competition-history"]
+    },
+    {
+      "id": "art-s10-015",
+      "url": "https://usaclimbing.org/about/",
+      "title": "About – USA Climbing",
+      "source": "USA Climbing",
+      "author": "USA Climbing Staff",
+      "language": "en",
+      "publishDate": "2017",
+      "lastModified": "2025",
+      "articleType": "research",
+      "primaryKp": "kp-national-federations",
+      "secondaryKps": ["kp-ifsc", "kp-competition-circuit-rankings"],
+      "quality": {
+        "authority": 5,
+        "depth": 3,
+        "practicality": 3,
+        "recency": 5,
+        "uniqueness": 4,
+        "total": 20
+      },
+      "summary": "美国攀岩国家管理机构（NGB）官方介绍页面：作为 USOPC（美国奥委会/残奥委会）认可的 NGB，如何与 IFSC/World Climbing 对接国际赛事授权，管理国内三项竞技（抱石/先锋/速攀）及青少年/精英/高校赛季，以及 16 名成员董事会的治理结构、五大核心价值观与 501(c)(3) 非营利身份。",
+      "keyInsights": [
+        "USA Climbing 是 USOPC（美国奥委会）认可的攀岩项目国家管理机构（NGB），于 2017 年获得认可",
+        "同时获得 IOC、World Climbing（前 IFSC）的国际认可，有权派遣运动员参加世界杯和奥运会",
+        "赛事体系：三项竞技（抱石/先锋/速攀）× 三个级别（精英/青少年/高校）× 9 个地理分区 + 18 个地区",
+        "董事会结构：16 名投票成员，包含运动员代表、独立董事、行业专业人士，确保多方利益平衡",
+        "五大核心价值：运动员关怀、多元包容、诚信与社区精神、环境责任、卓越运营"
+      ],
+      "tags": ["national-federation", "USA-Climbing", "NGB", "IFSC", "governance", "competition-structure", "Olympic-pathway"]
+    },
+    {
+      "id": "art-s10-016",
+      "url": "https://rockspotclimbing.com/blog/2025/07/07/how-to-watch-the-next-ifsc-world-cup-climbing-explained/",
+      "title": "How to Watch the Next IFSC World Cup: Climbing Explained",
+      "source": "Rock Spot Climbing",
+      "author": "Rock Spot Climbing Staff",
+      "language": "en",
+      "publishDate": "2025-07-07",
+      "lastModified": "2025-07-07",
+      "articleType": "tutorial",
+      "primaryKp": "kp-competition-circuit-rankings",
+      "secondaryKps": ["kp-scoring-systems", "kp-boulder-competition", "kp-lead-competition"],
+      "quality": {
+        "authority": 2,
+        "depth": 3,
+        "practicality": 4,
+        "recency": 5,
+        "uniqueness": 3,
+        "total": 17
+      },
+      "summary": "面向首次观赛新观众解析 IFSC 世界杯赛季整体结构：抱石与先锋项目赛制简介、世界杯积分赛季制（多站累积积分，赛季总冠军）、2025 年完整赛历（11 站，横跨 9 个国家，以首尔世锦赛收尾），以及 Janja Garnbret 等标志性选手的成就介绍，是理解竞技攀岩赛季节奏的友好入门读物。",
+      "keyInsights": [
+        "世界杯赛季制：每年多站（2025 年共 11 站），选手在各站积累积分，赛季末决出总冠军",
+        "2025 年赛历横跨中国、印度尼西亚、巴西、美国、捷克、瑞士、法国、西班牙、斯洛文尼亚",
+        "赛季高潮：2025 世界锦标赛于首尔（8 月 22-24 日）举办，是赛季最重要的单项赛事",
+        "Janja Garnbret 里程碑：2019 年成为首位（男女皆无）单赛季赢得所有 IFSC 抱石世界杯分站的攀爬者",
+        "抱石评分优先顺序：TOP 数 > ZONE 数 > TOP 尝试次数 > ZONE 尝试次数（与 GearJunkie 文章相互印证）"
+      ],
+      "tags": ["competition-circuit", "World-Cup", "rankings", "IFSC", "season-structure", "2025-schedule", "beginner-guide"]
+    }
+  ]
+}

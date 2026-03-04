@@ -1,0 +1,494 @@
+{
+  "s01-categories": [
+    {
+      "title": { "zh": "攀岩分类详解：传统攀、运动攀、抱石等", "en": "Climbing Types: Trad, Sport, Free Solo, Aid, Bouldering" },
+      "url": "https://www.youtube.com/watch?v=DxZbc6PJjHE",
+      "channel": "Vertizontal",
+      "lang": "en"
+    },
+    {
+      "title": { "zh": "抱石入门 101", "en": "Climbing 101: How to Boulder Indoors" },
+      "url": "https://www.youtube.com/watch?v=eFkfVMnlpIA",
+      "channel": "—",
+      "lang": "en"
+    },
+    {
+      "title": { "zh": "学习先锋攀", "en": "Learning to Lead" },
+      "url": "https://www.youtube.com/watch?v=ecx75KwBCV8",
+      "channel": "Climbing Magazine",
+      "lang": "en"
+    },
+    {
+      "title": { "zh": "传统攀入门介绍", "en": "An Introduction to Trad Climbing" },
+      "url": "https://www.youtube.com/watch?v=VrLf6GwzLdo",
+      "channel": "Cotswold Outdoors",
+      "lang": "en"
+    },
+    {
+      "title": { "zh": "室内攀岩科普基础入门视频教程", "en": "Indoor Climbing Beginner Tutorial" },
+      "url": "https://www.bilibili.com/video/BV1dg4y1871t/",
+      "channel": "艾艾艾小艾",
+      "lang": "zh"
+    }
+  ],
+  "s01-history": [
+    {
+      "title": { "zh": "Reel Rock 攀岩纪录片系列", "en": "Reel Rock Film Tour Series" },
+      "url": "https://www.youtube.com/@reelrock",
+      "channel": "Reel Rock",
+      "lang": "en"
+    }
+  ],
+  "s01-culture": [
+    {
+      "title": { "zh": "Magnus Midtbø 攀岩频道", "en": "Magnus Midtbø Climbing Channel" },
+      "url": "https://www.youtube.com/@magmidt",
+      "channel": "Magnus Midtbø",
+      "lang": "en"
+    }
+  ],
+  "s01-olympics": [
+    {
+      "title": { "zh": "2024 巴黎奥运攀岩精彩集锦", "en": "Paris 2024 Sport Climbing Highlights" },
+      "url": "https://www.olympics.com/en/video/highlights-sport-climbing-olympic-games-paris-2024",
+      "channel": "Olympics",
+      "lang": "en"
+    }
+  ],
+  "s02-finger": [
+    {
+      "title": { "zh": "Adam Ondra 教你如何正确捏握", "en": "Crimp Grips Tutorial: Crimp Like a Pro" },
+      "url": "https://www.youtube.com/watch?v=o59qz4orcWs",
+      "channel": "Adam Ondra",
+      "lang": "en"
+    },
+    {
+      "title": { "zh": "指力板初中阶完整训练模板分享", "en": "Hangboard Training Template (Beginner to Intermediate)" },
+      "url": "https://www.bilibili.com/video/BV1W44y1y7nT/",
+      "channel": "Jamin_Yan",
+      "lang": "zh"
+    },
+    {
+      "title": { "zh": "家用指力板选购安装训练详解", "en": "Home Hangboard: Selection, Installation & Training Guide" },
+      "url": "https://www.bilibili.com/video/BV1FE411A7uR/",
+      "channel": "知岩片语",
+      "lang": "zh"
+    },
+    {
+      "title": { "zh": "Lattice Training 指力训练系列", "en": "Lattice Training Hangboard Series" },
+      "url": "https://www.youtube.com/@LatticeTraining",
+      "channel": "Lattice Training",
+      "lang": "en"
+    }
+  ],
+  "s02-upper": [
+    {
+      "title": { "zh": "Magnus Midtbø 上肢力量训练", "en": "Magnus Midtbø Upper Body Training & Pull-Ups" },
+      "url": "https://www.youtube.com/@magmidt",
+      "channel": "Magnus Midtbø",
+      "lang": "en"
+    }
+  ],
+  "s02-core": [
+    {
+      "title": { "zh": "Hooper's Beta 攀岩核心训练系列", "en": "Hooper's Beta Advanced Core Training for Climbers" },
+      "url": "https://www.youtube.com/@HoopersBeta",
+      "channel": "Hooper's Beta",
+      "lang": "en"
+    }
+  ],
+  "s02-flexibility": [
+    {
+      "title": { "zh": "Hooper's Beta 攀岩者髋部柔韧性训练", "en": "Hip Mobility and Stretch Routine for Climbers" },
+      "url": "https://www.youtube.com/@HoopersBeta",
+      "channel": "Hooper's Beta",
+      "lang": "en"
+    }
+  ],
+  "s02-endurance": [
+    {
+      "title": { "zh": "如何用指力板练爆发耐力", "en": "How to Train Power Endurance on Hangboard" },
+      "url": "https://www.bilibili.com/video/BV1fZ4y1M7gc/",
+      "channel": "未來攀登",
+      "lang": "zh"
+    }
+  ],
+  "s02-power": [
+    {
+      "title": { "zh": "Catalyst Climbing 动态动作训练", "en": "Dynamic Movement Training" },
+      "url": "https://www.youtube.com/@CatalystClimbing",
+      "channel": "Catalyst Climbing",
+      "lang": "en"
+    }
+  ],
+  "s03-footwork": [
+    {
+      "title": { "zh": "Movement for Climbers 抱石进阶系列", "en": "Bouldering Progression Series" },
+      "url": "https://www.youtube.com/@movementforclimbers",
+      "channel": "Movement for Climbers",
+      "lang": "en"
+    },
+    {
+      "title": { "zh": "Rockentry 技术教程（正误对比）", "en": "Rockentry Technique Tutorials (Split-Screen Comparison)" },
+      "url": "https://www.youtube.com/@rockentry",
+      "channel": "Rockentry",
+      "lang": "en"
+    },
+    {
+      "title": { "zh": "攀岩动作与技巧—正身动作", "en": "Climbing Technique: Front-Facing Stance" },
+      "url": "https://www.bilibili.com/video/BV1v64y1c78u/",
+      "channel": "岩时攀岩",
+      "lang": "zh"
+    },
+    {
+      "title": { "zh": "新手怎么入门攀岩？沉浸式教程", "en": "Beginner's Guide to Rock Climbing (Immersive Tutorial)" },
+      "url": "https://www.bilibili.com/video/BV1JNpJzcERW/",
+      "channel": "—",
+      "lang": "zh"
+    }
+  ],
+  "s03-handholds": [
+    {
+      "title": { "zh": "Adam Ondra 教你三种捏握技术", "en": "Crimp Grips Tutorial: Crimp Like a Pro" },
+      "url": "https://www.youtube.com/watch?v=o59qz4orcWs",
+      "channel": "Adam Ondra",
+      "lang": "en"
+    }
+  ],
+  "s03-positioning": [
+    {
+      "title": { "zh": "Movement for Climbers 旗杆技术教学", "en": "How to Flag — Movement for Climbers" },
+      "url": "https://www.youtube.com/@movementforclimbers",
+      "channel": "Movement for Climbers",
+      "lang": "en"
+    },
+    {
+      "title": { "zh": "Bouldering Bobat 身体定位入门", "en": "Body Position 101 — Climbing for Beginners" },
+      "url": "https://www.youtube.com/@BoulderingBobat",
+      "channel": "Bouldering Bobat",
+      "lang": "en"
+    }
+  ],
+  "s03-dynamic": [
+    {
+      "title": { "zh": "Catalyst Climbing 动态动作教学", "en": "Dynamic Movement Tutorials" },
+      "url": "https://www.youtube.com/@CatalystClimbing",
+      "channel": "Catalyst Climbing",
+      "lang": "en"
+    }
+  ],
+  "s03-terrain": [
+    {
+      "title": { "zh": "Wide Boyz 裂缝攀登教学（Crack School）", "en": "Wide Boyz Crack School" },
+      "url": "https://www.youtube.com/@WideBoyztv",
+      "channel": "Wide Boyz",
+      "lang": "en"
+    }
+  ],
+  "s03-reading": [
+    {
+      "title": { "zh": "Bouldering Highlights 比赛读线分析", "en": "Competition Route Reading Analysis" },
+      "url": "https://www.youtube.com/@BoulderingHighlights",
+      "channel": "Bouldering Highlights",
+      "lang": "en"
+    }
+  ],
+  "s04-fear": [
+    {
+      "title": { "zh": "先锋攀不敢冲坠？安全冲坠和保护教学", "en": "Overcome Lead Fall Fear: Safe Falling & Belay Techniques" },
+      "url": "https://www.bilibili.com/video/BV1j5411Y7kQ/",
+      "channel": "知岩片语",
+      "lang": "zh"
+    },
+    {
+      "title": { "zh": "Lattice Training 恐惧管理", "en": "Fear of Falling with Allegra Maguire" },
+      "url": "https://www.youtube.com/@LatticeTraining",
+      "channel": "Lattice Training",
+      "lang": "en"
+    }
+  ],
+  "s04-focus": [
+    {
+      "title": { "zh": "Strong Mind 攀岩心理训练", "en": "Flow and Mental Mastery — Strong Mind Climbing" },
+      "url": "https://www.strongmindclimbing.com/",
+      "channel": "Strong Mind Climbing",
+      "lang": "en"
+    }
+  ],
+  "s04-goals": [
+    {
+      "title": { "zh": "Lattice Training 训练计划制定", "en": "How to Structure Your Training — Lattice Training" },
+      "url": "https://www.youtube.com/@LatticeTraining",
+      "channel": "Lattice Training",
+      "lang": "en"
+    }
+  ],
+  "s04-projecting": [
+    {
+      "title": { "zh": "Adam Ondra 项目攀登技巧", "en": "Adam Ondra Tips & Tricks — Projecting" },
+      "url": "https://www.youtube.com/@AdamOndra",
+      "channel": "Adam Ondra",
+      "lang": "en"
+    },
+    {
+      "title": { "zh": "Power Company Climbing 红点策略", "en": "Top 3 Redpoint Tactics — Power Company Climbing" },
+      "url": "https://www.youtube.com/@powercompanyclimbing",
+      "channel": "Power Company Climbing",
+      "lang": "en"
+    }
+  ],
+  "s05-basic": [
+    {
+      "title": { "zh": "户外运动攀/传统攀装备 10 分钟全知道", "en": "All Climbing Gear Explained in 10 Minutes" },
+      "url": "https://www.bilibili.com/video/BV1ok4y127UL/",
+      "channel": "知岩片语",
+      "lang": "zh"
+    }
+  ],
+  "s05-protection": [
+    {
+      "title": { "zh": "Petzl 官方 GRIGRI 保护教学", "en": "Belaying with a GRIGRI — Official Petzl Tutorial" },
+      "url": "https://www.youtube.com/@petzl",
+      "channel": "Petzl",
+      "lang": "en"
+    }
+  ],
+  "s05-trad": [
+    {
+      "title": { "zh": "机械塞和岩塞怎么用？传统攀放置保护方法", "en": "How to Place Cams and Nuts for Trad Climbing" },
+      "url": "https://www.bilibili.com/video/BV1K64y117Bi/",
+      "channel": "知岩片语",
+      "lang": "zh"
+    },
+    {
+      "title": { "zh": "VDiff 传统攀装备放置教学", "en": "VDiff Trad Climbing Gear Placement" },
+      "url": "https://www.vdiffclimbing.com/",
+      "channel": "VDiff Climbing",
+      "lang": "en"
+    }
+  ],
+  "s05-bigwall": [
+    {
+      "title": { "zh": "HowNOT2 大岩壁装备指南", "en": "Big Wall Gear Guide — HowNOT2" },
+      "url": "https://www.youtube.com/@HowNOT2",
+      "channel": "HowNOT2",
+      "lang": "en"
+    }
+  ],
+  "s05-training": [
+    {
+      "title": { "zh": "Lattice Training 指力板训练指南", "en": "Hangboard Training Guide — Lattice Training" },
+      "url": "https://www.youtube.com/@LatticeTraining",
+      "channel": "Lattice Training",
+      "lang": "en"
+    }
+  ],
+  "s06-indoor": [
+    {
+      "title": { "zh": "VDiff 顶绳保护基础", "en": "How To Belay: Top Rope Basics — VDiff" },
+      "url": "https://www.vdiffclimbing.com/",
+      "channel": "VDiff Climbing",
+      "lang": "en"
+    }
+  ],
+  "s06-outdoor": [
+    {
+      "title": { "zh": "Ortovox Safety Academy 户外攀岩安全系列", "en": "Safety Academy Lab Rock Series — Ortovox" },
+      "url": "https://www.youtube.com/@ORTOVOX",
+      "channel": "Ortovox",
+      "lang": "en"
+    },
+    {
+      "title": { "zh": "REI 顶绳锚点建设教学", "en": "How to Set & Clean Top Rope Anchors — REI" },
+      "url": "https://www.youtube.com/@REI",
+      "channel": "REI",
+      "lang": "en"
+    },
+    {
+      "title": { "zh": "Chris Sharma 先锋攀保护技术讲解", "en": "Lead Belay Techniques by Chris Sharma" },
+      "url": "https://www.bilibili.com/video/BV1yX4y1w7SX/",
+      "channel": "Petzl Sport (中文字幕)",
+      "lang": "zh"
+    }
+  ],
+  "s06-rope": [
+    {
+      "title": { "zh": "一日一结—八字结教程", "en": "Essential Knots: Figure 8 Knot Tutorial" },
+      "url": "https://www.bilibili.com/video/BV1bx411y7y9/",
+      "channel": "—",
+      "lang": "zh"
+    },
+    {
+      "title": { "zh": "一分钟绳结教程—双套结", "en": "Quick Knot Tutorial: Clove Hitch" },
+      "url": "https://www.bilibili.com/video/BV1hY411E7S6/",
+      "channel": "—",
+      "lang": "zh"
+    },
+    {
+      "title": { "zh": "VDiff 绳降（下降）技术详解", "en": "Abseiling (Rappelling) Explained — VDiff" },
+      "url": "https://www.vdiffclimbing.com/",
+      "channel": "VDiff Climbing",
+      "lang": "en"
+    },
+    {
+      "title": { "zh": "Petzl 多段绳降教学", "en": "Multi-pitch Rappelling with a Single Rope — Petzl" },
+      "url": "https://www.youtube.com/@petzl",
+      "channel": "Petzl",
+      "lang": "en"
+    }
+  ],
+  "s06-boulder": [
+    {
+      "title": { "zh": "抱石安全：落地、保护与垫子放置", "en": "How to Boulder Safely: Spotting, Pad Placement & Falling" },
+      "url": "https://www.youtube.com/@ClimbingMagazine",
+      "channel": "Climbing Magazine",
+      "lang": "en"
+    }
+  ],
+  "s07-common": [
+    {
+      "title": { "zh": "Hooper's Beta A2 滑车韧带康复指南", "en": "A2 Pulley Rehab Manual — Hooper's Beta" },
+      "url": "https://www.youtube.com/@HoopersBeta",
+      "channel": "Hooper's Beta",
+      "lang": "en"
+    },
+    {
+      "title": { "zh": "The Climbing Doctor 攀岩伤病康复（80+ 视频）", "en": "Rock Rehab Pyramid — The Climbing Doctor" },
+      "url": "https://www.youtube.com/@theclimbingdoctor",
+      "channel": "The Climbing Doctor",
+      "lang": "en"
+    }
+  ],
+  "s07-prevention": [
+    {
+      "title": { "zh": "Hooper's Beta 攀岩者肩部热身", "en": "Simple Shoulder Warm-Up for Climbers" },
+      "url": "https://youtu.be/_XONhxQ-Gbk",
+      "channel": "Hooper's Beta",
+      "lang": "en"
+    },
+    {
+      "title": { "zh": "Lattice Training 最佳热身方法", "en": "The Fastest and Best Way to Warm Up for Climbing" },
+      "url": "https://www.youtube.com/@LatticeTraining",
+      "channel": "Lattice Training",
+      "lang": "en"
+    }
+  ],
+  "s07-recovery": [
+    {
+      "title": { "zh": "The Climbing Doctor 肘部伤病康复", "en": "How to Heal Elbow Injuries in Climbers" },
+      "url": "https://www.youtube.com/@theclimbingdoctor",
+      "channel": "The Climbing Doctor",
+      "lang": "en"
+    }
+  ],
+  "s07-nutrition": [
+    {
+      "title": { "zh": "Hooper's Beta 攀岩者饮食与营养", "en": "How to Use Food to Heal and Climb Better" },
+      "url": "https://www.youtube.com/@HoopersBeta",
+      "channel": "Hooper's Beta",
+      "lang": "en"
+    }
+  ],
+  "s08-transition": [
+    {
+      "title": { "zh": "Climbing Nomads 岩馆到户外", "en": "Gym to Crag Vlogs — Climbing Nomads" },
+      "url": "https://www.youtube.com/@TheClimbingNomads",
+      "channel": "Climbing Nomads",
+      "lang": "en"
+    },
+    {
+      "title": { "zh": "VDiff 户外攀岩学习系列", "en": "Learn to Climb Outdoors — VDiff" },
+      "url": "https://www.vdiffclimbing.com/",
+      "channel": "VDiff Climbing",
+      "lang": "en"
+    }
+  ],
+  "s08-sport": [
+    {
+      "title": { "zh": "Adam Ondra 运动攀频道", "en": "Adam Ondra — Sport Climbing Channel" },
+      "url": "https://www.youtube.com/@AdamOndra",
+      "channel": "Adam Ondra",
+      "lang": "en"
+    }
+  ],
+  "s08-trad": [
+    {
+      "title": { "zh": "Wide Boyz 裂缝攀登教学", "en": "Wide Boyz — Crack Climbing" },
+      "url": "https://www.youtube.com/@WideBoyztv",
+      "channel": "Wide Boyz",
+      "lang": "en"
+    }
+  ],
+  "s08-bouldering": [
+    {
+      "title": { "zh": "Mellow Climbing 户外抱石", "en": "World-Class Outdoor Bouldering — Mellow Climbing" },
+      "url": "https://www.youtube.com/@mellowclimbing",
+      "channel": "Mellow Climbing",
+      "lang": "en"
+    }
+  ],
+  "s08-bigwall": [
+    {
+      "title": { "zh": "AlpineSavvy 大岩壁教学", "en": "Big Wall & Aid Climbing Tutorials — AlpineSavvy" },
+      "url": "https://www.alpinesavvy.com/videos",
+      "channel": "AlpineSavvy",
+      "lang": "en"
+    }
+  ],
+  "s08-travel": [
+    {
+      "title": { "zh": "Climbing Nomads 攀岩旅行", "en": "Climbing Destination Vlogs — Climbing Nomads" },
+      "url": "https://www.youtube.com/@TheClimbingNomads",
+      "channel": "Climbing Nomads",
+      "lang": "en"
+    }
+  ],
+  "s09-kids": [
+    {
+      "title": { "zh": "Bouldering Bobat 入门友好抱石", "en": "Accessible Bouldering Content — Bouldering Bobat" },
+      "url": "https://www.youtube.com/@BoulderingBobat",
+      "channel": "Bouldering Bobat",
+      "lang": "en"
+    }
+  ],
+  "s09-youth": [
+    {
+      "title": { "zh": "Lattice Training 攀岩训练入门", "en": "Beginner's Guide to Training — Lattice Training" },
+      "url": "https://www.youtube.com/@LatticeTraining",
+      "channel": "Lattice Training",
+      "lang": "en"
+    }
+  ],
+  "s09-adaptive": [
+    {
+      "title": { "zh": "PBS 残障攀岩纪录片", "en": "Upwardly Mobile: Paraclimbers — PBS" },
+      "url": "https://www.pbs.org/newshour/show/adaptive-climbing",
+      "channel": "PBS News",
+      "lang": "en"
+    }
+  ],
+  "s10-formats": [
+    {
+      "title": { "zh": "IFSC 官方频道（比赛直播与回放）", "en": "IFSC Official Channel — Live & Highlights" },
+      "url": "https://www.youtube.com/@IFSClimbing",
+      "channel": "IFSC",
+      "lang": "en"
+    }
+  ],
+  "s10-training": [
+    {
+      "title": { "zh": "Magnus Midtbø 训练与挑战", "en": "Training & Challenges — Magnus Midtbø" },
+      "url": "https://www.youtube.com/@magmidt",
+      "channel": "Magnus Midtbø",
+      "lang": "en"
+    }
+  ],
+  "s10-psychology": [
+    {
+      "title": { "zh": "Strong Mind 攀岩心理训练课程", "en": "Mental Training Course for Climbers" },
+      "url": "https://www.strongmindclimbing.com/",
+      "channel": "Strong Mind Climbing",
+      "lang": "en"
+    }
+  ]
+}

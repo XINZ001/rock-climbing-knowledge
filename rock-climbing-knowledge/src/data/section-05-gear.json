@@ -1,0 +1,531 @@
+{
+  "sectionId": "section-05",
+  "subSections": [
+    {
+      "id": "s05-basic",
+      "number": "5.1",
+      "slug": "basic-gear",
+      "title": {
+        "zh": "基础装备",
+        "en": "Basic Gear"
+      },
+      "overview": {
+        "zh": "攀岩基础装备是每位攀岩者最先接触的器械，包括攀岩鞋、镁粉与镁粉袋以及合适的攀岩服装。选择正确的基础装备不仅影响攀爬表现，也关系到舒适度和安全性。了解不同装备的特点和适用场景，是迈入攀岩世界的第一步。",
+        "en": "Basic climbing gear is the first equipment every climber encounters, including climbing shoes, chalk and chalk bags, and appropriate clothing. Choosing the right basic gear affects both performance and comfort, forming the essential foundation for all climbing activities."
+      },
+      "knowledgePoints": [
+        {
+          "id": "kp-climbing-shoes",
+          "title": {
+            "zh": "攀岩鞋",
+            "en": "Climbing Shoes"
+          },
+          "content": {
+            "zh": "攀岩鞋是攀岩者最重要的装备之一，直接影响脚法精准度和攀爬表现。攀岩鞋的鞋底采用高摩擦力橡胶（如 Vibram XS Grip 或 Stealth C4），能够在各种岩石表面提供出色的抓地力。选择攀岩鞋时需要综合考虑鞋型、楦型、尺码和穿着场景。\n\n**鞋型分类：**\n- **平底鞋（Flat）**：鞋底平直，穿着舒适，适合初学者和长时间攀爬（如多段攀登）。在摩擦步（slab）上表现良好。\n- **中等下弯鞋（Moderate Downturn）**：鞋底略微弯曲，兼顾舒适性和性能，适合中级攀岩者。在垂直面和小仰角路线上表现均衡。\n- **激进下弯鞋（Aggressive Downturn）**：鞋底大幅弯曲，脚趾集中发力，适合陡峭仰角路线和抱石。穿着较不舒适，不适合长时间穿着。\n\n**楦型（Last Shape）：**\n- **对称楦型**：鞋型对称，穿着舒适，适合入门和全能用途。\n- **不对称楦型**：鞋型向大脚趾方向倾斜，使大脚趾成为主要发力点，在精确踩点时更有优势。大多数中高级攀岩鞋采用此设计。\n\n**尺码选择：**\n攀岩鞋通常需要比日常鞋偏小。初学者建议选择「紧贴但不疼痛」的尺码；进阶攀岩者可能选择更紧的鞋以获得更精确的脚感。不同品牌的尺码标准差异较大，建议试穿后再购买。新鞋会有一定程度的撑大（尤其是皮革材质），需要考虑这一因素。",
+            "en": "Climbing shoes are one of the most important pieces of gear, directly affecting footwork precision and climbing performance. They feature high-friction rubber soles (such as Vibram XS Grip or Stealth C4) that provide excellent grip on rock surfaces.\n\n**Shoe profiles:** Flat shoes offer comfort for beginners and multi-pitch; moderate downturn shoes balance comfort and performance for intermediate climbers; aggressive downturn shoes concentrate power at the toe for steep overhangs and bouldering.\n\n**Last shapes:** Symmetric lasts are comfortable and versatile; asymmetric lasts angle toward the big toe for precise edging on small footholds.\n\n**Sizing:** Climbing shoes should fit snugly. Beginners should aim for tight but pain-free; advanced climbers may size down further. Leather shoes stretch more than synthetic. Always try before buying as sizing varies significantly between brands."
+          },
+          "terms": [
+            { "zh": "攀岩鞋", "en": "climbing shoes" },
+            { "zh": "下弯鞋", "en": "downturn shoe" },
+            { "zh": "楦型", "en": "last shape" },
+            { "zh": "平底鞋", "en": "flat shoe" },
+            { "zh": "橡胶鞋底", "en": "rubber sole" },
+            { "zh": "不对称楦型", "en": "asymmetric last" }
+          ],
+          "crossRefs": [
+            "kp-edging",
+            "kp-toe-hook",
+            "kp-heel-hook",
+            "kp-slab-technique"
+          ],
+          "tags": ["beginner", "gear"]
+        },
+        {
+          "id": "kp-chalk",
+          "title": {
+            "zh": "镁粉与镁粉袋",
+            "en": "Chalk & Chalk Bag"
+          },
+          "content": {
+            "zh": "镁粉（碳酸镁，MgCO3）是攀岩者用于吸收手汗、增加摩擦力的必备消耗品。手掌出汗会显著降低抓握力，尤其在高温潮湿环境下，镁粉的作用更加关键。\n\n**镁粉类型：**\n- **散装粉状镁粉（Loose Chalk）**：最常见的形式，可直接涂抹在手上。吸汗效果好，但容易产生粉尘，部分室内岩馆可能限制使用。\n- **镁粉球（Chalk Ball）**：粉状镁粉装入网状布袋中，使用时通过挤压释放粉末。产生的粉尘较少，很多岩馆要求使用这种形式。\n- **液态镁粉（Liquid Chalk）**：镁粉与酒精的混合物，涂抹后酒精蒸发留下镁粉薄层。粉尘极少，持续时间较长，适合作为基底层使用。\n\n**镁粉袋选择：**\n镁粉袋分为腰挂式和落地式（bucket）。腰挂式适合攀爬时随身携带，落地式容量大，适合抱石时放在地面使用。选择时注意开口大小（方便伸手取粉）、闭合方式（防止洒落）和内部刷毛（帮助均匀分布镁粉）。",
+            "en": "Chalk (magnesium carbonate, MgCO3) absorbs sweat from hands to maintain friction while climbing. It is an essential consumable for all climbers.\n\n**Types:** Loose chalk provides the best coverage but creates dust; chalk balls reduce airborne particles and are required at many gyms; liquid chalk (chalk mixed with alcohol) leaves a long-lasting base layer with minimal dust.\n\n**Chalk bags:** Waist-mounted bags are used while climbing on routes; bucket-style bags sit on the ground for bouldering sessions. Look for a wide opening, secure closure, and a fleece lining for even chalk distribution."
+          },
+          "terms": [
+            { "zh": "镁粉", "en": "chalk" },
+            { "zh": "碳酸镁", "en": "magnesium carbonate" },
+            { "zh": "镁粉球", "en": "chalk ball" },
+            { "zh": "液态镁粉", "en": "liquid chalk" },
+            { "zh": "镁粉袋", "en": "chalk bag" }
+          ],
+          "crossRefs": [
+            "kp-crimp-hold",
+            "kp-sloper-hold"
+          ],
+          "tags": ["beginner", "gear"]
+        },
+        {
+          "id": "kp-climbing-clothing",
+          "title": {
+            "zh": "攀岩服装",
+            "en": "Climbing Clothing"
+          },
+          "content": {
+            "zh": "攀岩服装的选择以不限制活动范围、吸湿排汗和耐磨为原则。良好的攀岩服装能让攀岩者在各种动作中保持灵活，同时提供足够的保护。\n\n**上装：**选择弹性好、不限制肩部和手臂活动的上衣。合成纤维或美利奴羊毛材质优于纯棉，因为它们吸湿排汗更快。避免过于宽松的上衣，以免挂住岩点或装备。户外攀岩时应根据天气准备防风层和保暖层。\n\n**下装：**攀岩裤需要在大腿和胯部有足够的弹性，以满足高抬腿和劈腿等动作的需求。专业攀岩裤通常采用立体裁剪和弹性面料。短裤适合抱石和室内攀岩，但户外攀岩时长裤能保护腿部免受岩石擦伤。\n\n**其他考量：**避免佩戴戒指、项链等首饰，以防在攀爬中卡住造成伤害。长发应扎起，防止遮挡视线或被装备缠绕。户外攀岩还需考虑防晒措施。",
+            "en": "Climbing clothing should allow full range of motion, manage moisture, and be durable enough to withstand contact with rock.\n\n**Tops:** Choose stretchy, moisture-wicking fabrics (synthetic or merino wool) that do not restrict shoulder movement. Avoid overly loose tops that can snag on holds or gear. Layer for outdoor climbing.\n\n**Bottoms:** Climbing pants need sufficient stretch at the thighs and hips for high steps and stemming. Long pants protect against rock abrasion outdoors, while shorts work well for bouldering and gym climbing.\n\nRemove jewelry before climbing to prevent injury, tie back long hair, and consider sun protection for outdoor sessions."
+          },
+          "terms": [
+            { "zh": "攀岩裤", "en": "climbing pants" },
+            { "zh": "吸湿排汗", "en": "moisture-wicking" },
+            { "zh": "弹性面料", "en": "stretch fabric" }
+          ],
+          "crossRefs": [
+            "kp-hip-flexibility"
+          ],
+          "tags": ["beginner", "gear"]
+        }
+      ]
+    },
+    {
+      "id": "s05-protection",
+      "number": "5.2",
+      "slug": "protection",
+      "title": {
+        "zh": "保护装备",
+        "en": "Protection Gear"
+      },
+      "overview": {
+        "zh": "保护装备是攀岩安全体系的核心，包括安全带、头盔、绳索、保护器和快挂等。正确选择和使用这些装备是攀岩者保护自身安全的基本功。每件保护装备都有其特定的使用寿命和维护要求，了解这些知识对于安全攀岩至关重要。",
+        "en": "Protection gear forms the core of the climbing safety system, including harnesses, helmets, ropes, belay devices, quickdraws, and carabiners. Proper selection and use of this equipment is fundamental to climbing safety, and understanding the lifespan and maintenance requirements of each piece is critical."
+      },
+      "knowledgePoints": [
+        {
+          "id": "kp-harness",
+          "title": {
+            "zh": "安全带",
+            "en": "Harness"
+          },
+          "content": {
+            "zh": "攀岩安全带（harness）是连接攀岩者与绳索系统的关键装备，在冲坠时将冲击力分散到腰部和大腿，保护攀岩者的安全。\n\n**安全带的基本结构：**\n- **腰带（Waistbelt）**：环绕腰部的主承力带，应紧贴腰部不滑落，通常位于髋骨上方。\n- **腿环（Leg Loops）**：环绕大腿的承力带，分为固定式和可调式。可调式腿环方便在穿着厚衣物时调节松紧。\n- **保护环（Belay Loop）**：连接腰带和腿环的高强度环扣，是挂入保护器和确保的主要连接点。保护环的额定强度通常在 15-25kN 之间。\n- **装备环（Gear Loops）**：用于悬挂装备的环扣，通常有4个，不承受冲坠力，仅用于携带装备。\n\n**选择要点：**\n安全带应根据攀岩类型选择。运动攀和室内攀岩可选择轻量化的安全带；传统攀和大岩壁攀登需要更多装备环和更宽的腰带以提高舒适度。尺码选择的关键是腰带紧贴腰部且不能拉过髋骨。\n\n**安全使用：**\n每次穿戴后检查腰带是否翻回（double-back）并扣紧，确认保护环无磨损。安全带的使用寿命一般为3-5年（无冲坠或异常磨损），受到严重冲坠后应考虑更换。",
+            "en": "A climbing harness connects the climber to the rope system, distributing fall forces across the waist and thighs.\n\n**Key components:** The waistbelt sits above the hip bones; leg loops (fixed or adjustable) encircle the thighs; the belay loop (rated 15-25kN) is the primary attachment point for belay devices; gear loops carry equipment but are not load-bearing.\n\n**Selection:** Sport climbers prefer lightweight harnesses; trad and big wall climbers need more gear loops and wider padding for comfort during long hangs. The waistbelt must be snug and unable to slide over the hips.\n\n**Safety:** Always verify the waistbelt is doubled back and buckled. Inspect the belay loop for wear regularly. Replace the harness every 3-5 years or after a severe fall."
+          },
+          "terms": [
+            { "zh": "安全带", "en": "harness" },
+            { "zh": "腰带", "en": "waistbelt" },
+            { "zh": "腿环", "en": "leg loops" },
+            { "zh": "保护环", "en": "belay loop" },
+            { "zh": "装备环", "en": "gear loops" }
+          ],
+          "crossRefs": [
+            "kp-belaying",
+            "kp-rappelling",
+            "kp-fall-technique"
+          ],
+          "tags": ["beginner", "gear", "safety"]
+        },
+        {
+          "id": "kp-helmet",
+          "title": {
+            "zh": "头盔",
+            "en": "Helmet"
+          },
+          "content": {
+            "zh": "攀岩头盔在户外攀岩中是必不可少的安全装备，主要提供两方面的保护：防止落石击中头部，以及在冲坠时保护头部免受岩壁撞击。\n\n**头盔类型：**\n- **硬壳头盔（Hardshell）**：外壳坚硬（通常为ABS塑料），通过悬挂系统分散冲击力。重量较大但防护性能好，价格实惠，适合多段攀登和传统攀。\n- **泡沫头盔（Foam）**：使用 EPS 泡沫（类似自行车头盔）直接吸收冲击能量。轻量舒适，但受到一次严重冲击后必须更换。适合运动攀和追求轻量化的攀岩者。\n- **混合型头盔（Hybrid）**：结合硬壳和泡沫的优点，在保持较轻重量的同时提供良好的全方位防护。是目前最流行的类型。\n\n**佩戴要点：**\n头盔应水平戴在头上，前沿位于眉毛上方约一指宽的位置。调节带应紧贴但不压迫，头盔不应前后或左右晃动。攀岩和保护时都应佩戴头盔。",
+            "en": "Climbing helmets are essential for outdoor climbing, protecting against rockfall from above and head impact against the wall during falls.\n\n**Types:** Hardshell helmets use a suspension system to distribute impact; foam helmets (EPS) absorb energy directly but must be replaced after a significant impact; hybrid helmets combine both technologies for lightweight all-around protection.\n\n**Fit:** The helmet should sit level on the head, about one finger-width above the eyebrows. Straps should be snug without pressure, and the helmet should not rock in any direction. Wear it while climbing and belaying."
+          },
+          "terms": [
+            { "zh": "头盔", "en": "helmet" },
+            { "zh": "硬壳头盔", "en": "hardshell helmet" },
+            { "zh": "泡沫头盔", "en": "foam helmet" },
+            { "zh": "混合型头盔", "en": "hybrid helmet" }
+          ],
+          "crossRefs": [
+            "kp-fall-technique",
+            "kp-belaying"
+          ],
+          "tags": ["beginner", "gear", "safety"]
+        },
+        {
+          "id": "kp-rope",
+          "title": {
+            "zh": "攀岩绳",
+            "en": "Climbing Rope"
+          },
+          "content": {
+            "zh": "攀岩绳是保护系统中最关键的单件装备，直接承受冲坠冲击力并保护攀岩者的安全。选择合适的绳索需要了解绳索的类型、直径、长度和性能参数。\n\n**动力绳（Dynamic Rope）vs 静力绳（Static Rope）：**\n- **动力绳**是攀岩保护的标准用绳，具有弹性（延展率约30-40%），能在冲坠时吸收冲击能量，降低施加在攀岩者和保护点上的峰值力。所有先锋攀登必须使用动力绳。\n- **静力绳**几乎没有弹性（延展率<5%），主要用于下降、固定绳作业和上升器使用。绝对不能用于先锋攀登，因为冲坠时产生的峰值力可能导致装备断裂或人体损伤。\n\n**直径与重量：**\n- **粗绳（10-11mm）**：耐磨性好，适合顶绳攀岩和初学者。较重但更耐用。\n- **标准绳（9.4-9.9mm）**：最常用的全能绳径，兼顾重量和耐用性，适合运动攀和传统攀。\n- **细绳（8.5-9.3mm）**：轻量化设计，适合有经验的攀岩者用于长路线或轻量化需求。操作手感较滑，需要适配的保护器。\n\n**长度选择：**\n目前标准绳长为 60m 或 70m。70m 绳子可以覆盖绝大多数运动攀路线。如果经常攀爬较长的路线，80m 绳子也越来越常见。购买前应了解攀爬区域的路线长度需求。\n\n**绳索保养：**\n避免踩踏绳索（碎石会磨损内芯），远离酸性物质和紫外线长时间暴晒。发现绳皮严重磨损、芯线外露或受过大的冲坠次数过多时应及时更换。",
+            "en": "The climbing rope is the single most critical piece of protection equipment, absorbing fall energy and safeguarding the climber.\n\n**Dynamic vs Static:** Dynamic ropes stretch 30-40% to absorb fall forces and are mandatory for lead climbing. Static ropes have minimal stretch (<5%) and are used only for rappelling, fixed lines, and hauling — never for lead climbing.\n\n**Diameter:** Thick ropes (10-11mm) are durable and beginner-friendly; standard ropes (9.4-9.9mm) balance weight and durability; thin ropes (8.5-9.3mm) are lightweight for experienced climbers but require compatible belay devices.\n\n**Length:** 60m and 70m are standard; 70m covers most sport routes. Check local route lengths before purchasing.\n\n**Care:** Never step on the rope, avoid chemicals and prolonged UV exposure, and retire it when the sheath shows significant wear or core shots appear."
+          },
+          "terms": [
+            { "zh": "动力绳", "en": "dynamic rope" },
+            { "zh": "静力绳", "en": "static rope" },
+            { "zh": "绳径", "en": "rope diameter" },
+            { "zh": "延展率", "en": "elongation" },
+            { "zh": "绳皮", "en": "rope sheath" },
+            { "zh": "芯线", "en": "core strands" }
+          ],
+          "crossRefs": [
+            "kp-belaying",
+            "kp-rappelling",
+            "kp-knots",
+            "kp-fall-technique"
+          ],
+          "tags": ["beginner", "gear", "safety"]
+        },
+        {
+          "id": "kp-belay-device",
+          "title": {
+            "zh": "保护器",
+            "en": "Belay Device"
+          },
+          "content": {
+            "zh": "保护器（belay device）是攀岩保护系统中用于控制绳索、制停冲坠的核心器械。不同类型的保护器有各自的优缺点和适用场景。\n\n**管状保护器（Tubular / ATC 类型）：**\nATC（Air Traffic Controller）是最经典的管状保护器，通过绳索在管体中的弯折产生摩擦力来制停冲坠。优点是重量轻、操作简单、适用范围广（可用于各种直径的绳索和双绳操作）。缺点是完全依赖保护者的手动制动，没有辅助锁定功能。适合有一定经验的攀岩者和多段攀登。\n\n**辅助制动保护器（Assisted-Braking / GriGri 类型）：**\nPetzl GriGri 是最知名的辅助制动保护器，内部的凸轮装置在绳索快速抽动时会自动锁定绳索。极大提高了保护安全性，尤其在保护者注意力不集中时提供额外保障。缺点是较重、价格较高，且每个型号有适用的绳径范围。强烈建议初学者使用辅助制动保护器。\n\n**注意事项：**\n无论使用哪种保护器，制动手（brake hand）永远不能离开绳索。辅助制动保护器是「辅助」而非「自动」——它不能替代正确的保护技术。定期检查保护器的磨损情况，金属磨损出凹槽时应更换。",
+            "en": "A belay device controls the rope to catch falls and lower the climber. Understanding the two main categories is essential for safe climbing.\n\n**Tubular devices (ATC-style):** Create friction by bending the rope through a tube. Lightweight, versatile, and compatible with various rope diameters and double-rope techniques. Requires the belayer to manually maintain braking — no assisted locking.\n\n**Assisted-braking devices (GriGri-style):** Feature a cam mechanism that automatically locks the rope during a sudden pull. Highly recommended for beginners. However, they are heavier, more expensive, and have specific rope diameter ranges.\n\n**Critical rule:** The brake hand must never leave the rope regardless of device type. Assisted-braking is an aid, not a substitute for proper technique. Replace any device showing groove wear from rope friction."
+          },
+          "terms": [
+            { "zh": "保护器", "en": "belay device" },
+            { "zh": "管状保护器", "en": "tubular device / ATC" },
+            { "zh": "辅助制动保护器", "en": "assisted-braking device" },
+            { "zh": "制动手", "en": "brake hand" },
+            { "zh": "凸轮装置", "en": "cam mechanism" }
+          ],
+          "crossRefs": [
+            "kp-belaying",
+            "kp-rope",
+            "kp-rappelling"
+          ],
+          "tags": ["beginner", "gear", "safety"]
+        },
+        {
+          "id": "kp-quickdraw",
+          "title": {
+            "zh": "快挂",
+            "en": "Quickdraw"
+          },
+          "content": {
+            "zh": "快挂（quickdraw）是运动攀中用于连接绳索与岩壁保护点（挂片bolt）的标准装备，由两个锁扣（carabiner）和一条狗骨带（dogbone）组成。\n\n**快挂结构：**\n- **上方锁扣（bolt-end carabiner）**：挂入岩壁上的挂片，通常使用直门（straight gate）锁扣。\n- **狗骨带（Dogbone / Sling）**：连接两个锁扣的尼龙或迪尼玛（Dyneema）织带，长度通常在10-25cm之间。\n- **下方锁扣（rope-end carabiner）**：用于挂入绳索，通常使用弯门（bent gate）锁扣以便于快速挂绳。下方锁扣有橡胶固定套，防止锁扣在狗骨带上翻转。\n\n**锁扣类型：**\n- **丝扣锁（Screw-gate）**：手动旋转锁定，最可靠但操作较慢，主要用于保护站和确保。\n- **自动锁（Auto-locking）**：弹簧自动锁定，操作方便且安全，适合保护环连接。常见的有双动自动锁（twist-lock）和三动自动锁（triple-action）。\n- **非锁定锁扣（Non-locking）**：即快挂上使用的直门或弯门锁扣，门开时可以快速操作。\n\n快挂的数量根据路线长度决定，通常运动攀路线需要10-15把快挂。户外攀爬还需要额外准备2把长快挂（alpine draw / extendable quickdraw）用于减少绳索阻力。",
+            "en": "A quickdraw connects the rope to bolt protection on sport routes, consisting of two carabiners linked by a dogbone sling.\n\n**Components:** The bolt-end carabiner (usually straight gate) clips into wall bolts; the dogbone (nylon or Dyneema, 10-25cm) connects them; the rope-end carabiner (usually bent gate with rubber keeper) clips the rope.\n\n**Carabiner locking types:** Screw-gate carabiners lock manually and are used at anchors; auto-locking carabiners (twist-lock or triple-action) are convenient for belay loop connections; non-locking carabiners on quickdraws allow fast clipping.\n\nMost sport routes require 10-15 quickdraws. Carry 2 alpine draws (extendable quickdraws) to reduce rope drag on wandering routes."
+          },
+          "terms": [
+            { "zh": "快挂", "en": "quickdraw" },
+            { "zh": "锁扣", "en": "carabiner" },
+            { "zh": "狗骨带", "en": "dogbone" },
+            { "zh": "丝扣锁", "en": "screw-gate carabiner" },
+            { "zh": "自动锁", "en": "auto-locking carabiner" },
+            { "zh": "挂片", "en": "bolt" }
+          ],
+          "crossRefs": [
+            "kp-belaying",
+            "kp-rope",
+            "kp-fall-technique"
+          ],
+          "tags": ["beginner", "gear", "safety"]
+        }
+      ]
+    },
+    {
+      "id": "s05-trad",
+      "number": "5.3",
+      "slug": "trad-gear",
+      "title": {
+        "zh": "传统攀保护装备",
+        "en": "Trad Climbing Gear"
+      },
+      "overview": {
+        "zh": "传统攀（Trad Climbing）不依赖岩壁上预设的挂片，而是由攀岩者自行在岩缝中放置可拆卸的保护装备来构建保护系统。这要求攀岩者掌握各种传统保护装备的使用方法和放置技巧。传统攀装备的正确使用是传统攀安全的基石。",
+        "en": "Traditional climbing relies on removable protection placed by the climber in natural rock features, rather than pre-installed bolts. Mastering the selection and placement of trad gear is fundamental to safe traditional climbing."
+      },
+      "knowledgePoints": [
+        {
+          "id": "kp-nuts-stoppers",
+          "title": {
+            "zh": "机械塞与岩石塞",
+            "en": "Nuts & Stoppers"
+          },
+          "content": {
+            "zh": "岩石塞（Nut / Stopper）是最基本的被动保护装备（passive protection），利用金属楔形块卡在岩缝收窄处来提供保护。它们没有活动部件，结构简单、重量轻、可靠性高。\n\n**工作原理：**\n岩石塞利用岩缝中「上宽下窄」的锥形空间，将楔形金属块楔入其中。当受到向下的拉力时，楔块会更深地嵌入缝中，提供更强的固定力。良好的放置应使岩石塞与缝壁有尽可能多的接触面积。\n\n**常见类型：**\n- **标准岩石塞（Wired Nut）**：如 Black Diamond Stopper，铝合金楔形块配钢丝挂环。通过一套不同尺寸的岩石塞（通常1-13号）来适配不同宽度的岩缝。\n- **微型岩石塞（Micro Nut）**：用于非常细小的岩缝，体积极小但额定强度较低（约2-5kN），主要用于辅助保护。\n- **六角塞（Hexentric / Hex）**：六边形截面的铝合金块，可以在更宽的裂缝中使用，也可利用旋转产生凸轮效应提供额外固定力。\n\n**放置技巧：**\n选择缝隙收窄的位置，将合适尺寸的岩石塞放入并向预期受力方向轻拉以确认稳固。好的放置应该感觉「卡住了」而不是仅靠摩擦力固定。使用取塞器（nut tool）移除放置的岩石塞。",
+            "en": "Nuts (stoppers) are the most basic passive protection, using wedge-shaped metal pieces lodged in constrictions within cracks.\n\n**How they work:** The tapered metal wedge seats in a narrowing crack. Downward force drives it deeper, creating a stronger hold. Good placements maximize surface contact between the nut and rock.\n\n**Types:** Standard wired nuts (e.g., Black Diamond Stoppers) come in sets of graduated sizes; micro nuts are used in thin cracks with lower strength ratings (2-5kN); hexentrics (hexes) fit wider cracks and can use a camming rotation for extra security.\n\n**Placement:** Find a constriction, seat the appropriately sized nut, and test with a firm pull in the expected fall direction. Use a nut tool for removal."
+          },
+          "terms": [
+            { "zh": "岩石塞", "en": "nut / stopper" },
+            { "zh": "被动保护", "en": "passive protection" },
+            { "zh": "六角塞", "en": "hexentric / hex" },
+            { "zh": "取塞器", "en": "nut tool" },
+            { "zh": "微型岩石塞", "en": "micro nut" }
+          ],
+          "crossRefs": [
+            "kp-crack-technique",
+            "kp-rope"
+          ],
+          "tags": ["intermediate", "gear", "safety"]
+        },
+        {
+          "id": "kp-cams",
+          "title": {
+            "zh": "凸轮装置（机械塞）",
+            "en": "Cams / Friends"
+          },
+          "content": {
+            "zh": "弹簧凸轮装置（Spring-Loaded Camming Device, SLCD），俗称「机械塞」或「Friend」，是传统攀中最常用的主动保护装备。它利用弹簧驱动的凸轮叶片（cam lobe）在平行或外扩的岩缝中提供保护。\n\n**工作原理：**\n按压触发杆使凸轮叶片收缩，插入岩缝后松开触发杆，弹簧将凸轮叶片推向缝壁。当受到向下的拉力时，凸轮叶片会进一步撑开，产生更大的固定力。这种「越拉越紧」的特性是凸轮装置的核心优势。\n\n**选择与尺寸：**\n主流品牌包括 Black Diamond Camalot、Wild Country Friend 和 Totem Cam 等。凸轮装置以颜色编码区分尺寸，从适合手指缝的微型（如 C4 #0.3）到适合烟囱的超大型号（如 C4 #6）。传统攀攀岩者通常携带一套双份的中间尺寸凸轮（#0.5-#3）。\n\n**放置要点：**\n- 凸轮叶片应展开约25-75%的可用行程范围，50%为理想状态\n- 所有凸轮叶片应均匀接触缝壁\n- 避免在外扩过大的缝中放置（凸轮叶片可能「行走」移位）\n- 触发杆不应抵住缝壁（否则无法取出）\n- 放置后向预期受力方向拉测以确认稳固",
+            "en": "Spring-Loaded Camming Devices (SLCDs), commonly called cams or Friends, are the most versatile active protection for trad climbing. They use spring-driven lobes to grip parallel or flared cracks.\n\n**How they work:** Squeezing the trigger retracts the lobes for insertion. Once released, the spring pushes lobes against the crack walls. A downward pull forces the lobes further apart, increasing holding force.\n\n**Sizing:** Color-coded from finger-width (#0.3) to chimney-width (#6). Trad climbers typically carry double racks of mid-sizes (#0.5-#3). Major brands include Black Diamond Camalot, Wild Country Friend, and Totem Cam.\n\n**Placement guidelines:** Lobes should be 25-75% retracted (50% ideal); all lobes should contact evenly; avoid over-flared placements where cams can walk; ensure the trigger stem is accessible for removal; test each placement with a pull."
+          },
+          "terms": [
+            { "zh": "机械塞", "en": "cam / SLCD / Friend" },
+            { "zh": "凸轮叶片", "en": "cam lobe" },
+            { "zh": "触发杆", "en": "trigger / stem" },
+            { "zh": "主动保护", "en": "active protection" },
+            { "zh": "行走移位", "en": "cam walking" }
+          ],
+          "crossRefs": [
+            "kp-crack-technique",
+            "kp-rope",
+            "kp-nuts-stoppers"
+          ],
+          "tags": ["intermediate", "advanced", "gear", "safety"]
+        },
+        {
+          "id": "kp-pitons",
+          "title": {
+            "zh": "岩钉",
+            "en": "Pitons"
+          },
+          "content": {
+            "zh": "岩钉（Piton）是攀岩历史上最古老的保护装备之一，通过用锤子将金属钉打入岩缝来提供保护。在现代攀岩中，由于岩钉会对岩石造成永久性损伤，其使用已大幅减少，但在某些特定场景下仍然不可替代。\n\n**类型与材质：**\n- **刃型岩钉（Blade / Knife Blade）**：薄而平的岩钉，适合非常细小的裂缝。\n- **角型岩钉（Angle Piton）**：V形截面，适合中等宽度的裂缝。\n- **箭头岩钉（Lost Arrow）**：经典设计，适合多种裂缝宽度。\n- 岩钉材质分为硬钢和软钢（铬钼钢）。硬钢岩钉适合坚硬的花岗岩裂缝，软钢岩钉能弯曲适应不规则的裂缝形状。\n\n**现代应用场景：**\n岩钉在援助攀登（aid climbing）、冬季攀登和大岩壁攀登中仍有使用。在某些无法放置凸轮装置或岩石塞的位置，岩钉可能是唯一的保护选择。大岩壁经典路线上常见前人留下的固定岩钉（fixed piton），使用前应仔细评估其可靠性。\n\n在强调「不留痕迹」的现代攀岩伦理中，应尽量避免在新路线上使用岩钉，优先选择可拆卸的保护装备。",
+            "en": "Pitons are metal spikes hammered into cracks for protection. Though largely replaced by removable gear due to rock damage, they remain relevant in specific contexts.\n\n**Types:** Blade/knife blade pitons fit thin cracks; angle pitons suit medium cracks; Lost Arrows are versatile classics. Hard steel pitons work in granite; soft steel (chrome-moly) bends to fit irregular cracks.\n\n**Modern use:** Pitons are still used in aid climbing, winter climbing, and big wall routes. Fixed pitons left by previous parties should be carefully assessed before trusting. Modern climbing ethics favor removable protection to minimize rock damage."
+          },
+          "terms": [
+            { "zh": "岩钉", "en": "piton" },
+            { "zh": "刃型岩钉", "en": "blade piton / knife blade" },
+            { "zh": "角型岩钉", "en": "angle piton" },
+            { "zh": "固定岩钉", "en": "fixed piton" },
+            { "zh": "援助攀登", "en": "aid climbing" }
+          ],
+          "crossRefs": [
+            "kp-crack-technique",
+            "kp-cams",
+            "kp-nuts-stoppers"
+          ],
+          "tags": ["advanced", "gear"]
+        },
+        {
+          "id": "kp-anchor-building",
+          "title": {
+            "zh": "保护站构建",
+            "en": "Anchor Building"
+          },
+          "content": {
+            "zh": "保护站（anchor）是多段攀登中连接攀岩者与岩壁的固定系统，由多个保护点通过绳索或扁带连接而成。保护站的可靠性直接关系到所有人的安全，构建时必须遵循系统化的原则。\n\n**SERENE 原则：**\n- **S（Solid / 坚固）**：每个保护点都必须单独可靠，能够承受预期的冲坠力。\n- **E（Equalized / 均衡受力）**：所有保护点应尽可能均匀分担负载，避免单点过载。\n- **R（Redundant / 冗余）**：至少使用3个保护点（如果使用2个挂片则需至少2个），任何单点失效不应导致整个系统失效。\n- **E（Efficient / 高效）**：在保证安全的前提下，构建应简洁高效，节省时间和装备。\n- **NE（No Extension / 无延伸）**：如果一个保护点失效，系统不应产生大幅度的松弛或冲击负载。使用限位结或 cordelette 等方式解决。\n\n**常见构建方式：**\n- **Quad（四股绳环）**：用长扁带或绳环打成四股，夹两个限位结，适合两个固定挂片。\n- **Cordelette（辅助绳环）**：5-6mm、5-6米长的辅助绳围成环，分别挂入各保护点后在中央收拢打一个大的八字结。经典且可靠的方式。\n- **滑动X（Sliding X）**：扁带交叉形成X形，可以自动均衡受力方向变化，但需要加限位结防止延伸。",
+            "en": "Anchors are fixed systems at belay stations connecting climbers to the wall, built from multiple protection points linked together.\n\n**SERENE principles:** Solid (each piece individually reliable), Equalized (load shared across points), Redundant (minimum 3 pieces; single failure must not collapse the system), Efficient (simple and quick to build), No Extension (minimal slack if a piece fails — use limiting knots).\n\n**Common methods:** Quad anchors work well with two bolts; cordelette (5-6mm cord) connects multiple trad placements with a central master knot; Sliding X auto-equalizes with direction changes but requires limiting knots to prevent extension."
+          },
+          "terms": [
+            { "zh": "保护站", "en": "anchor" },
+            { "zh": "均衡受力", "en": "equalization" },
+            { "zh": "冗余", "en": "redundancy" },
+            { "zh": "辅助绳环", "en": "cordelette" },
+            { "zh": "限位结", "en": "limiting knot" },
+            { "zh": "滑动X", "en": "Sliding X" }
+          ],
+          "crossRefs": [
+            "kp-knots",
+            "kp-cams",
+            "kp-nuts-stoppers",
+            "kp-belaying"
+          ],
+          "tags": ["intermediate", "advanced", "gear", "safety"]
+        }
+      ]
+    },
+    {
+      "id": "s05-bigwall",
+      "number": "5.4",
+      "slug": "bigwall-gear",
+      "title": {
+        "zh": "大岩壁装备",
+        "en": "Big Wall Gear"
+      },
+      "overview": {
+        "zh": "大岩壁攀登（Big Wall Climbing）是攀岩中最具挑战性的类型之一，需要在岩壁上待数天甚至数周。这种攀登方式需要专门的装备来满足悬挂生活、物资运输和高效攀升的需求。大岩壁装备通常体积大、重量重，但每一件都为极端环境中的生存和效率而设计。",
+        "en": "Big wall climbing involves multi-day ascents requiring specialized equipment for living on the wall, hauling supplies, and efficient ascending. This gear is bulky and heavy but purpose-built for the extreme demands of vertical living."
+      },
+      "knowledgePoints": [
+        {
+          "id": "kp-portaledge",
+          "title": {
+            "zh": "岩壁吊帐",
+            "en": "Portaledge"
+          },
+          "content": {
+            "zh": "岩壁吊帐（Portaledge）是大岩壁攀登中用于在垂直岩壁上过夜的悬挂帐篷，本质上是一个悬挂在保护站上的可折叠平台加防雨罩。\n\n**结构组成：**\n- **床板框架**：铝合金管搭建的矩形或三角形框架，撑起一块尼龙布面形成睡眠平台。单人版宽约55-60cm，双人版宽约100-110cm。\n- **悬挂系统**：通过4-6个点悬挂在保护站上，可以调节水平度。核心悬挂点通常集中在一根主承力吊带上。\n- **防雨罩（Fly）**：覆盖在框架上方的防水罩，保护攀岩者免受雨雪侵袭。在El Capitan等大岩壁上，即使天气预报良好也建议携带防雨罩。\n\n**使用要点：**\n搭建岩壁吊帐需要在保护站处有足够的操作空间。攀岩者必须全程系好安全带并连接到保护站，即使在睡觉时也不例外。选择保护站位置时应避开落水区和落石区。品牌推荐包括 Black Diamond、Metolius 和 Fish 等。\n\n大岩壁吊帐是高度专业化的装备，价格昂贵且使用频率低，很多攀岩者选择租借而非购买。",
+            "en": "A portaledge is a deployable hanging platform used for sleeping on vertical walls during multi-day big wall climbs.\n\n**Components:** An aluminum tube frame supports a nylon bed platform (single ~55-60cm wide, double ~100-110cm); a suspension system connects to the anchor via 4-6 equalized points; a rain fly provides weather protection.\n\n**Usage:** Setup requires adequate space at the belay station. Climbers must remain tied in at all times, even while sleeping. Position away from water runoff and rockfall zones. Major brands include Black Diamond, Metolius, and Fish.\n\nPortaledges are expensive specialty items; many climbers rent rather than buy for occasional big wall trips."
+          },
+          "terms": [
+            { "zh": "岩壁吊帐", "en": "portaledge" },
+            { "zh": "防雨罩", "en": "fly / rain fly" },
+            { "zh": "悬挂系统", "en": "suspension system" }
+          ],
+          "crossRefs": [
+            "kp-anchor-building",
+            "kp-harness"
+          ],
+          "tags": ["advanced", "gear"]
+        },
+        {
+          "id": "kp-haul-bag",
+          "title": {
+            "zh": "拖包",
+            "en": "Haul Bag"
+          },
+          "content": {
+            "zh": "拖包（Haul Bag）是大岩壁攀登中用于运输物资的超耐磨大容量包，需要沿岩壁垂直拖运到每个保护站。拖包的设计以耐磨和高负重为首要目标。\n\n**设计特点：**\n- 采用超厚防水织物（通常为 TPU 涂层或超高分子量聚乙烯），能承受岩壁反复摩擦。\n- 顶部开口设计，方便在狭窄的保护站取放物品。\n- 拖曳悬挂点使用高强度金属环或扁带环，额定强度在 20kN 以上。\n- 容量通常在 70-145 升之间，可装载所有攀登装备、食物、水和生活用品。\n\n**拖运系统：**\n使用滑轮（pulley）和上升器构建 2:1 或 3:1 省力系统来拖运沉重的拖包。保护者在拖运时需要将拖包挂在独立的保护点上，确保拖包不会意外脱落。常见的拖运方式是「先锋者到达下一个保护站后，由下方的保护者将拖包释放，先锋者在上方使用滑轮系统拖拽」。\n\n拖包的重量管理至关重要。大岩壁攀登的物资计划应精确到每天每人的用水量（通常4-6升/天）和食物热量需求。",
+            "en": "A haul bag is an extremely durable, high-capacity pack designed to be dragged up the wall during big wall climbs, carrying all supplies for multi-day ascents.\n\n**Design:** Made from ultra-thick waterproof fabric (TPU or UHMWPE) to withstand repeated rock abrasion. Top-loading for easy access at cramped belay stations. Haul points rated above 20kN. Capacity ranges from 70-145 liters.\n\n**Hauling system:** A pulley-based mechanical advantage system (2:1 or 3:1) raises the bag between pitches. The leader hauls from above while the second releases the bag from below. Always secure the bag to an independent anchor point.\n\nWeight planning is critical: budget 4-6 liters of water per person per day, plus food and gear."
+          },
+          "terms": [
+            { "zh": "拖包", "en": "haul bag" },
+            { "zh": "拖运系统", "en": "hauling system" },
+            { "zh": "滑轮", "en": "pulley" },
+            { "zh": "省力系统", "en": "mechanical advantage system" }
+          ],
+          "crossRefs": [
+            "kp-anchor-building",
+            "kp-rope"
+          ],
+          "tags": ["advanced", "gear"]
+        },
+        {
+          "id": "kp-ascender",
+          "title": {
+            "zh": "上升器",
+            "en": "Ascender / Jumar"
+          },
+          "content": {
+            "zh": "上升器（Ascender），也常被称为 Jumar（源自最早的品牌名），是一种允许攀岩者沿固定绳索向上攀升但阻止向下滑动的机械装置。在大岩壁攀登和绳索救援中广泛使用。\n\n**工作原理：**\n上升器内部有一个带齿的凸轮（toothed cam），当向上推动时凸轮打开，绳索自由通过；当施加向下的力时凸轮闭合，齿面咬住绳索防止下滑。上升器分为左手型和右手型，分别适用于不同手的操作。\n\n**主要应用场景：**\n- **跟攀清理（Jumaring / Ascending）**：在大岩壁攀登中，跟攀者使用一对上升器（一左一右）沿先锋者固定的绳索上升，同时清理沿途保护装备。\n- **固定绳上升**：在阿尔卑斯攀登和探险攀登中，在危险路段固定绳索后使用上升器通过。\n- **拖运辅助**：上升器也用于拖包系统中锁定绳索位置。\n\n**安全注意事项：**\n上升器不应作为唯一的安全连接——必须有备份连接（如绳结或额外的上升器）。上升器在冰冻或泥污的绳索上可能失效。使用前检查凸轮弹簧和安全锁是否正常工作。注意上升器对绳皮有一定的磨损，避免在同一位置反复使用。",
+            "en": "An ascender (also called a Jumar, after the original brand) is a mechanical device that allows upward movement on a fixed rope while preventing downward sliding.\n\n**Mechanism:** A toothed cam inside the device opens when pushed upward and locks when downward force is applied, gripping the rope via teeth. Available in left-hand and right-hand versions.\n\n**Applications:** Jumaring (following and cleaning big wall pitches); ascending fixed ropes in alpine and expedition climbing; locking rope position in hauling systems.\n\n**Safety:** Never rely on a single ascender as your only connection — always maintain a backup tie-in via knots or a second device. Ascenders may fail on icy or muddy ropes. Inspect the cam spring and safety catch before use. Be aware that ascender teeth wear the rope sheath over time."
+          },
+          "terms": [
+            { "zh": "上升器", "en": "ascender / jumar" },
+            { "zh": "带齿凸轮", "en": "toothed cam" },
+            { "zh": "跟攀清理", "en": "jumaring / ascending" },
+            { "zh": "固定绳", "en": "fixed rope" }
+          ],
+          "crossRefs": [
+            "kp-rope",
+            "kp-anchor-building",
+            "kp-haul-bag"
+          ],
+          "tags": ["advanced", "gear"]
+        }
+      ]
+    },
+    {
+      "id": "s05-training",
+      "number": "5.5",
+      "slug": "training-gear",
+      "title": {
+        "zh": "训练装备",
+        "en": "Training Equipment"
+      },
+      "overview": {
+        "zh": "专业训练装备能够帮助攀岩者在非攀岩时间进行针对性的力量和技巧训练。从挂板到攀岩系统板，这些器械各有侧重，合理使用可以高效提升攀岩能力。选择训练装备时应根据自身水平、训练目标和可用空间来决定。",
+        "en": "Specialized training equipment allows climbers to develop strength and technique outside of climbing sessions. From hangboards to system walls, each tool targets specific aspects of climbing performance. Equipment selection should match your level, goals, and available space."
+      },
+      "knowledgePoints": [
+        {
+          "id": "kp-hangboard-gear",
+          "title": {
+            "zh": "挂板/指力板",
+            "en": "Hangboard / Fingerboard"
+          },
+          "content": {
+            "zh": "挂板（Hangboard / Fingerboard）是攀岩者最基本、最高效的指力训练工具，可以安装在门框或墙壁上方，随时进行指力训练。\n\n**设计与特点：**\n挂板的表面设有多种不同深度和形状的边缘（edge）、口袋（pocket）和捏握点（pinch），供攀岩者悬挂训练。材质分为树脂/聚氨酯（纹理好、对皮肤友好）和木质（摩擦适中、触感舒适）两大类。常见品牌包括 Beastmaker（木质经典）、Metolius（入门友好）和 Tension（多种型号）。\n\n**选择建议：**\n- **入门级**：选择边缘较深（20mm以上）、握点种类较少的简单型号。Metolius Project Board 或 Beastmaker 1000 适合大多数初中级攀岩者。\n- **进阶级**：选择边缘更浅（6-15mm）、有多种口袋和捏握位置的复杂型号。Beastmaker 2000 和 Tension Grindstone 等适合高级攀岩者。\n\n**安装注意事项：**\n挂板必须安装在足够坚固的结构上（承重墙或实心门框），安装高度应使悬挂时双脚可以离地但不需要跳跃去够。安装不牢固的挂板存在严重安全隐患。如果无法固定安装，可以选择便携式挂板配合吊带使用。\n\n攀岩经验不足一年的初学者不建议使用挂板训练，因为手指肌腱的适应需要时间，过早进行高强度指力训练容易导致滑车韧带损伤。",
+            "en": "A hangboard (fingerboard) is the most essential and efficient finger strength training tool, mountable above a doorframe or on a wall for convenient training sessions.\n\n**Design:** Features edges, pockets, and pinches of varying depths and shapes. Materials include resin/polyurethane (textured, skin-friendly) and wood (moderate friction, comfortable). Popular brands: Beastmaker (wood classic), Metolius (beginner-friendly), Tension (varied models).\n\n**Selection:** Beginners should choose boards with deeper edges (20mm+) like the Metolius Project Board or Beastmaker 1000. Advanced climbers can use boards with shallow edges (6-15mm) and varied holds like the Beastmaker 2000.\n\n**Installation:** Mount on a load-bearing wall or solid doorframe. Hanging height should allow feet to clear the ground without jumping. Climbers with less than one year of experience should avoid hangboard training to allow tendons time to adapt."
+          },
+          "terms": [
+            { "zh": "挂板", "en": "hangboard / fingerboard" },
+            { "zh": "边缘", "en": "edge" },
+            { "zh": "口袋", "en": "pocket" },
+            { "zh": "负重悬挂", "en": "weighted hang" }
+          ],
+          "crossRefs": [
+            "kp-hangboard-training",
+            "kp-grip-types",
+            "kp-pulley-injury",
+            "kp-warmup"
+          ],
+          "tags": ["intermediate", "gear", "training"]
+        },
+        {
+          "id": "kp-campus-board-gear",
+          "title": {
+            "zh": "校园板",
+            "en": "Campus Board"
+          },
+          "content": {
+            "zh": "校园板（Campus Board）是一种用于训练上肢爆发力和手指接触力量（contact strength）的专业训练工具，由德国攀岩者 Wolfgang Güllich 在纽伦堡的 Campus Center 体育馆发明，因此得名。\n\n**结构设计：**\n校园板是一面倾斜约15-20度的木板墙，上面按等间距安装了多排逐渐变小的木质横档（rung）。标准校园板横档间距约22cm（MOON 间距），横档深度从约30mm（最大）递减到约10mm（最小）。攀岩者不使用脚点，纯靠双手在横档上进行上攀、跳跃和锁定练习。\n\n**训练类型：**\n- **阶梯式（Laddering）**：双手交替向上攀升，基础训练动作。\n- **跳级（Bumping）**：一只手原地不动，另一只手从低横档跳到高横档。\n- **双手弹跳（Double Dyno）**：双手同时从低处弹跳到高处横档。\n- **1-5-9 等组合**：从第1格出发，跳到第5格再到第9格，锻炼最大爆发力。\n\n**安全警告：**\n校园板训练对手指的负荷极大，仅适合攀爬两年以上、V5/5.12a 以上水平的攀岩者。训练前必须充分热身。手指有任何不适应立即停止。每周校园板训练不应超过2次，且不应在攀岩训练后疲劳状态下进行。",
+            "en": "The campus board is a specialized training tool for upper body power and contact strength, invented by Wolfgang Güllich at the Campus Center gym in Nuremberg, Germany.\n\n**Design:** An overhanging board (15-20 degrees past vertical) with horizontal wooden rungs spaced ~22cm apart. Rung depths range from ~30mm to ~10mm. Training is performed using only hands (no feet).\n\n**Exercises:** Laddering (alternating hands upward); bumping (one hand stationary, other jumps up); double dynos (both hands jump simultaneously); specific sequences like 1-5-9 for maximum power.\n\n**Safety:** Campus board training is extremely demanding on fingers. Only for climbers with 2+ years experience at V5/5.12a or above. Always warm up thoroughly, stop at any finger discomfort, and limit sessions to twice per week when fresh."
+          },
+          "terms": [
+            { "zh": "校园板", "en": "campus board" },
+            { "zh": "横档", "en": "rung" },
+            { "zh": "接触力量", "en": "contact strength" },
+            { "zh": "爆发力", "en": "power / explosive strength" }
+          ],
+          "crossRefs": [
+            "kp-campus-training",
+            "kp-pulling-power",
+            "kp-pulley-injury",
+            "kp-warmup"
+          ],
+          "tags": ["advanced", "gear", "training"]
+        },
+        {
+          "id": "kp-gymnastic-rings",
+          "title": {
+            "zh": "体操吊环",
+            "en": "Gymnastic Rings"
+          },
+          "content": {
+            "zh": "体操吊环（Gymnastic Rings）是攀岩者进行上肢力量和核心稳定性训练的优秀辅助工具。吊环的不稳定性迫使身体动员更多稳定肌群参与，训练效果优于固定器械。\n\n**攀岩相关训练动作：**\n- **吊环引体向上**：比单杠引体更加激活肩袖稳定肌群，对肩关节健康有益。可以在动作顶部增加外旋来进一步训练肩部稳定性。\n- **吊环臂屈伸（Ring Dips）**：优秀的推力训练和拮抗肌训练动作，帮助平衡攀岩者过度发达的拉力肌群。\n- **吊环支撑（Ring Support Hold）**：双臂伸直在吊环上支撑身体，训练肩部稳定性和核心力量。\n- **吊环卷腹和举腿**：利用吊环的不稳定性增强核心训练效果。\n\n**选择与安装：**\n木质吊环触感最好，握持舒适。选择可承重至少 300kg 的工业级吊带和五金件。安装高度应使完全伸展时脚不触地。便携式吊环可以悬挂在单杠、树枝或门框式安装杆上。\n\n吊环训练对肩关节灵活性要求较高，初次使用者应从最基础的支撑和引体开始，循序渐进。",
+            "en": "Gymnastic rings are excellent tools for upper body strength and core stability training in climbers. The inherent instability of rings recruits more stabilizer muscles than fixed equipment.\n\n**Climbing-relevant exercises:** Ring pull-ups (greater shoulder stabilizer activation than bar pull-ups); ring dips (antagonist push training to balance climbing muscles); ring support holds (shoulder stability and core); ring leg raises (enhanced core training via instability).\n\n**Selection:** Wood rings offer the best grip feel. Use industrial-grade straps rated for 300kg+. Hang at a height that clears the ground at full extension. Portable rings can hang from pull-up bars, sturdy branches, or doorframe bars.\n\nBegin with basic support holds and pull-ups, progressing gradually as shoulder mobility allows."
+          },
+          "terms": [
+            { "zh": "体操吊环", "en": "gymnastic rings" },
+            { "zh": "吊环臂屈伸", "en": "ring dips" },
+            { "zh": "吊环支撑", "en": "ring support hold" },
+            { "zh": "拮抗肌训练", "en": "antagonist training" }
+          ],
+          "crossRefs": [
+            "kp-pulling-power",
+            "kp-shoulder-stability",
+            "kp-core-role",
+            "kp-antagonist-training"
+          ],
+          "tags": ["intermediate", "gear", "training"]
+        },
+        {
+          "id": "kp-system-wall",
+          "title": {
+            "zh": "系统板与训练岩板",
+            "en": "System Wall / Moon Board / Kilter Board"
+          },
+          "content": {
+            "zh": "系统板和训练岩板是现代攀岩训练设施中越来越普及的专业训练工具，通过标准化的岩点布局和数字化的路线数据库，提供系统化的攀爬训练体验。\n\n**系统板（System Wall / Spray Wall）：**\n系统板是一面布满各种岩点的固定角度岩壁（通常为30-50度仰角），没有预设路线。攀岩者可以根据训练需要自行设计动作序列，针对性地训练特定弱点。系统板的核心优势是灵活性——你可以设计无数种动作组合来针对性训练。\n\n**标准化训练板（Moon Board / Kilter Board / Tension Board）：**\n这些是采用标准化布局的商业训练板系统：\n- **Moon Board**：由英国攀岩者 Ben Moon 创建。固定的40度角，标准岩点布局，全球共享的路线数据库。通过手机APP选择路线，LED灯标示岩点位置。\n- **Kilter Board**：角度可调（15-70度），岩点更多样，LED全彩照明。路线数据库极为丰富，适合各级别攀岩者。\n- **Tension Board**：类似Moon Board的固定角度设计，木质岩点触感出色，社区活跃。\n\n**训练价值：**\n标准化训练板的最大价值在于可以精确追踪训练进度，与全球攀岩者比较成绩。每条路线都有社区评定的难度等级，攀岩者可以按等级阶梯式进步。此外，它们提供了海量的路线选择，解决了「刷线」后无新路线可爬的问题。",
+            "en": "System walls and standardized training boards are increasingly common in modern climbing gyms, offering systematic training through standardized hold layouts and digital route databases.\n\n**System Wall / Spray Wall:** A fixed-angle wall (30-50 degrees overhanging) covered in varied holds without preset routes. Climbers design their own movement sequences to target specific weaknesses. Maximum flexibility for personalized training.\n\n**Standardized boards:**\n- **Moon Board**: Created by Ben Moon. Fixed 40-degree angle, standardized holds, global route database with LED-lit holds via smartphone app.\n- **Kilter Board**: Adjustable angles (15-70 degrees), diverse holds, full-color LED lighting, massive route database suitable for all levels.\n- **Tension Board**: Fixed angle, excellent wood hold texture, active community.\n\nThe primary value of standardized boards is precise progress tracking and global benchmarking. Each route has a community-graded difficulty, enabling structured progression and solving the problem of running out of fresh climbs."
+          },
+          "terms": [
+            { "zh": "系统板", "en": "system wall / spray wall" },
+            { "zh": "训练岩板", "en": "training board" },
+            { "zh": "Moon Board", "en": "Moon Board" },
+            { "zh": "Kilter Board", "en": "Kilter Board" },
+            { "zh": "Tension Board", "en": "Tension Board" },
+            { "zh": "LED标示", "en": "LED-lit holds" }
+          ],
+          "crossRefs": [
+            "kp-hangboard-training",
+            "kp-overhang-technique",
+            "kp-dyno-technique",
+            "kp-crimp-hold"
+          ],
+          "tags": ["intermediate", "advanced", "gear", "training"]
+        }
+      ]
+    }
+  ]
+}
