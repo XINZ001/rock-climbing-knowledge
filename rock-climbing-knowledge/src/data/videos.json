@@ -1,494 +1,5722 @@
 {
-  "s01-categories": [
+  "_meta": {
+    "description": "Videos mapped to knowledge points, with quality ranking",
+    "updatedAt": "2026-03-04",
+    "totalVideos": 340,
+    "kpsCovered": 137
+  },
+  "kp-edging": [
     {
-      "title": { "zh": "攀岩分类详解：传统攀、运动攀、抱石等", "en": "Climbing Types: Trad, Sport, Free Solo, Aid, Bouldering" },
-      "url": "https://www.youtube.com/watch?v=DxZbc6PJjHE",
-      "channel": "Vertizontal",
-      "lang": "en"
+      "title": {
+        "zh": "Climbing Technique For Beginners - Episode 1 - Foot Placement",
+        "en": "Climbing Technique For Beginners - Episode 1 - Foot Placement"
+      },
+      "url": "https://www.youtube.com/watch?v=oqd39cc0HL0",
+      "channel": "Eric Karlsson Bouldering",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "初学者脚法系列第1集，讲解室内攀岩中边踩（edging）和摩擦踩（smearing）的基础原理与练习方法，强调精准落脚的重要性。",
+        "en": ""
+      },
+      "relevance": "primary"
     },
     {
-      "title": { "zh": "抱石入门 101", "en": "Climbing 101: How to Boulder Indoors" },
-      "url": "https://www.youtube.com/watch?v=eFkfVMnlpIA",
-      "channel": "—",
-      "lang": "en"
-    },
-    {
-      "title": { "zh": "学习先锋攀", "en": "Learning to Lead" },
-      "url": "https://www.youtube.com/watch?v=ecx75KwBCV8",
-      "channel": "Climbing Magazine",
-      "lang": "en"
-    },
-    {
-      "title": { "zh": "传统攀入门介绍", "en": "An Introduction to Trad Climbing" },
-      "url": "https://www.youtube.com/watch?v=VrLf6GwzLdo",
-      "channel": "Cotswold Outdoors",
-      "lang": "en"
-    },
-    {
-      "title": { "zh": "室内攀岩科普基础入门视频教程", "en": "Indoor Climbing Beginner Tutorial" },
-      "url": "https://www.bilibili.com/video/BV1dg4y1871t/",
-      "channel": "艾艾艾小艾",
-      "lang": "zh"
-    }
-  ],
-  "s01-history": [
-    {
-      "title": { "zh": "Reel Rock 攀岩纪录片系列", "en": "Reel Rock Film Tour Series" },
-      "url": "https://www.youtube.com/@reelrock",
-      "channel": "Reel Rock",
-      "lang": "en"
-    }
-  ],
-  "s01-culture": [
-    {
-      "title": { "zh": "Magnus Midtbø 攀岩频道", "en": "Magnus Midtbø Climbing Channel" },
-      "url": "https://www.youtube.com/@magmidt",
-      "channel": "Magnus Midtbø",
-      "lang": "en"
-    }
-  ],
-  "s01-olympics": [
-    {
-      "title": { "zh": "2024 巴黎奥运攀岩精彩集锦", "en": "Paris 2024 Sport Climbing Highlights" },
-      "url": "https://www.olympics.com/en/video/highlights-sport-climbing-olympic-games-paris-2024",
-      "channel": "Olympics",
-      "lang": "en"
-    }
-  ],
-  "s02-finger": [
-    {
-      "title": { "zh": "Adam Ondra 教你如何正确捏握", "en": "Crimp Grips Tutorial: Crimp Like a Pro" },
-      "url": "https://www.youtube.com/watch?v=o59qz4orcWs",
-      "channel": "Adam Ondra",
-      "lang": "en"
-    },
-    {
-      "title": { "zh": "指力板初中阶完整训练模板分享", "en": "Hangboard Training Template (Beginner to Intermediate)" },
-      "url": "https://www.bilibili.com/video/BV1W44y1y7nT/",
-      "channel": "Jamin_Yan",
-      "lang": "zh"
-    },
-    {
-      "title": { "zh": "家用指力板选购安装训练详解", "en": "Home Hangboard: Selection, Installation & Training Guide" },
-      "url": "https://www.bilibili.com/video/BV1FE411A7uR/",
-      "channel": "知岩片语",
-      "lang": "zh"
-    },
-    {
-      "title": { "zh": "Lattice Training 指力训练系列", "en": "Lattice Training Hangboard Series" },
-      "url": "https://www.youtube.com/@LatticeTraining",
-      "channel": "Lattice Training",
-      "lang": "en"
-    }
-  ],
-  "s02-upper": [
-    {
-      "title": { "zh": "Magnus Midtbø 上肢力量训练", "en": "Magnus Midtbø Upper Body Training & Pull-Ups" },
-      "url": "https://www.youtube.com/@magmidt",
-      "channel": "Magnus Midtbø",
-      "lang": "en"
-    }
-  ],
-  "s02-core": [
-    {
-      "title": { "zh": "Hooper's Beta 攀岩核心训练系列", "en": "Hooper's Beta Advanced Core Training for Climbers" },
-      "url": "https://www.youtube.com/@HoopersBeta",
-      "channel": "Hooper's Beta",
-      "lang": "en"
-    }
-  ],
-  "s02-flexibility": [
-    {
-      "title": { "zh": "Hooper's Beta 攀岩者髋部柔韧性训练", "en": "Hip Mobility and Stretch Routine for Climbers" },
-      "url": "https://www.youtube.com/@HoopersBeta",
-      "channel": "Hooper's Beta",
-      "lang": "en"
-    }
-  ],
-  "s02-endurance": [
-    {
-      "title": { "zh": "如何用指力板练爆发耐力", "en": "How to Train Power Endurance on Hangboard" },
-      "url": "https://www.bilibili.com/video/BV1fZ4y1M7gc/",
-      "channel": "未來攀登",
-      "lang": "zh"
-    }
-  ],
-  "s02-power": [
-    {
-      "title": { "zh": "Catalyst Climbing 动态动作训练", "en": "Dynamic Movement Training" },
-      "url": "https://www.youtube.com/@CatalystClimbing",
-      "channel": "Catalyst Climbing",
-      "lang": "en"
-    }
-  ],
-  "s03-footwork": [
-    {
-      "title": { "zh": "Movement for Climbers 抱石进阶系列", "en": "Bouldering Progression Series" },
-      "url": "https://www.youtube.com/@movementforclimbers",
-      "channel": "Movement for Climbers",
-      "lang": "en"
-    },
-    {
-      "title": { "zh": "Rockentry 技术教程（正误对比）", "en": "Rockentry Technique Tutorials (Split-Screen Comparison)" },
-      "url": "https://www.youtube.com/@rockentry",
-      "channel": "Rockentry",
-      "lang": "en"
-    },
-    {
-      "title": { "zh": "攀岩动作与技巧—正身动作", "en": "Climbing Technique: Front-Facing Stance" },
+      "title": {
+        "zh": "攀岩动作与技巧—正身动作",
+        "en": "攀岩动作与技巧—正身动作"
+      },
       "url": "https://www.bilibili.com/video/BV1v64y1c78u/",
       "channel": "岩时攀岩",
-      "lang": "zh"
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "讲解正面朝墙（正身）时的脚法技术和重心控制，包括边踩要领和身体姿态的协调配合。",
+        "en": ""
+      },
+      "relevance": "primary"
     },
     {
-      "title": { "zh": "新手怎么入门攀岩？沉浸式教程", "en": "Beginner's Guide to Rock Climbing (Immersive Tutorial)" },
-      "url": "https://www.bilibili.com/video/BV1JNpJzcERW/",
-      "channel": "—",
-      "lang": "zh"
+      "title": {
+        "zh": "Footwork Technique｜Rock Climbing｜SULIMORO",
+        "en": "Footwork Technique｜Rock Climbing｜SULIMORO"
+      },
+      "url": "https://www.youtube.com/watch?v=4GoeXNOX_x0",
+      "channel": "日光山石 SULIMORO",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "系列首集，英文授课，讲解攀岩基础脚法：精准用脚趾内侧站点（edging）、使用鞋底大面积贴岩（smearing），配合实际攀爬示范，内容简洁清晰，适合初学者。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "[攀岩\\",
+        "en": "[攀岩\\"
+      },
+      "url": "https://www.bilibili.com/video/BV1Bt4y1q7jQ",
+      "channel": "ClimbingWorld（搬运）",
+      "platform": "bilibili",
+      "lang": "en",
+      "quality": 3,
+      "summary": {
+        "zh": "英文原版脚法教学搬运，涵盖边踩、摩擦踩、勾脚尖、勾脚跟四种基础脚法技术，配有清晰的动作演示。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "攀岩鞋，怎麼選？｜日光山石",
+        "en": "攀岩鞋，怎麼選？｜日光山石"
+      },
+      "url": "https://www.youtube.com/watch?v=oOxxZWc09_M",
+      "channel": "日光山石 SULIMORO",
+      "platform": "youtube",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "繁体中文攀岩鞋选购指南：从鞋型（平底/下弯/大下弯）、鞋底材质、松紧度、适合使用场景（室内/室外/先锋/抱石）等维度系统讲解如何选择适合自己的攀岩鞋，由职业选手亲身推荐。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "攀岩如何換腳｜日光山石",
+        "en": "攀岩如何換腳｜日光山石"
+      },
+      "url": "https://www.youtube.com/watch?v=-a9OI11FA_Q",
+      "channel": "日光山石 SULIMORO",
+      "platform": "youtube",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "专项讲解攀岩换脚技巧：匹配换脚（match）、踩点换脚（step-through）、跳换脚（hop switch）等方式的使用时机与动作要领，配合实拍动作示范，是 kp-foot-switching 的专项教学视频。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "攀岩动作细节 推膝与折膝的运用 脚尖踩点 原理讲解",
+        "en": "攀岩动作细节 推膝与折膝的运用 脚尖踩点 原理讲解"
+      },
+      "url": "https://www.bilibili.com/video/BV1sTNBenEFN/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "详细讲解推膝（drop knee/back step）和折膝动作的生物力学原理，以及脚尖踩点配合的方法，分析不同情境下的应用技巧。",
+        "en": ""
+      },
+      "relevance": "secondary"
     }
   ],
-  "s03-handholds": [
+  "kp-smearing": [
     {
-      "title": { "zh": "Adam Ondra 教你三种捏握技术", "en": "Crimp Grips Tutorial: Crimp Like a Pro" },
+      "title": {
+        "zh": "Climbing Technique For Beginners - Episode 1 - Foot Placement",
+        "en": "Climbing Technique For Beginners - Episode 1 - Foot Placement"
+      },
+      "url": "https://www.youtube.com/watch?v=oqd39cc0HL0",
+      "channel": "Eric Karlsson Bouldering",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "初学者脚法系列第1集，讲解室内攀岩中边踩（edging）和摩擦踩（smearing）的基础原理与练习方法，强调精准落脚的重要性。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "[攀岩\\",
+        "en": "[攀岩\\"
+      },
+      "url": "https://www.bilibili.com/video/BV1Bt4y1q7jQ",
+      "channel": "ClimbingWorld（搬运）",
+      "platform": "bilibili",
+      "lang": "en",
+      "quality": 3,
+      "summary": {
+        "zh": "英文原版脚法教学搬运，涵盖边踩、摩擦踩、勾脚尖、勾脚跟四种基础脚法技术，配有清晰的动作演示。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "Footwork Technique｜Rock Climbing｜SULIMORO",
+        "en": "Footwork Technique｜Rock Climbing｜SULIMORO"
+      },
+      "url": "https://www.youtube.com/watch?v=4GoeXNOX_x0",
+      "channel": "日光山石 SULIMORO",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "系列首集，英文授课，讲解攀岩基础脚法：精准用脚趾内侧站点（edging）、使用鞋底大面积贴岩（smearing），配合实际攀爬示范，内容简洁清晰，适合初学者。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-center-of-gravity": [
+    {
+      "title": {
+        "zh": "Climbing Technique For Beginners - Episode 5 - Hips",
+        "en": "Climbing Technique For Beginners - Episode 5 - Hips"
+      },
+      "url": "https://www.youtube.com/watch?v=jbj7XMLOWgE",
+      "channel": "（系列教程）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "专门讲解髋部和重心在攀岩中的作用，涵盖扭锁（twist lock）基础、如何用髋部控制重心贴近岩壁，以及旗帜步和背步的基本原理。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "「Movement for Climbers」给小个子的攀岩TIPS 2.0: 臂展不够？来看看这三点建议！",
+        "en": "「Movement for Climbers」给小个子的攀岩TIPS 2.0: 臂展不够？来看看这三点建议！"
+      },
+      "url": "https://www.bilibili.com/video/BV1s84y1t784/",
+      "channel": "（搬运 Movement for Climbers）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "Movement for Climbers 搬运版（含中文字幕），专门讲解身材较矮或臂展较短攀岩者如何通过更好的重心管理和对角支撑来克服身高劣势。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "Climbing Expert Advice: Balance Training",
+        "en": "Climbing Expert Advice: Balance Training"
+      },
+      "url": "https://www.youtube.com/watch?v=4lyMr6LT9wM",
+      "channel": "（攀岩专家建议系列）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 3,
+      "summary": {
+        "zh": "攀岩重心与平衡训练专项讲解，提供改善身体平衡感的具体练习方法，帮助攀岩者在动作中保持稳定的重心控制。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "8 Neil Greshams Masterclass - Flag",
+        "en": "8 Neil Greshams Masterclass - Flag"
+      },
+      "url": "https://www.youtube.com/watch?v=ts2jrYSsisA",
+      "channel": "Neil Gresham",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "Neil Gresham 大师课系列之旗帜步（Flag），详细讲解旗帜步的力学原理、何时使用、常见错误及纠正方法，是业界公认的最权威旗帜步教程之一。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "Rock Climbing Technique for Beginners: The Back Step / Drop Knee",
+        "en": "Rock Climbing Technique for Beginners: The Back Step / Drop Knee"
+      },
+      "url": "https://www.youtube.com/watch?v=5MEKUQ9vYZI",
+      "channel": "Mani the Monkey",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "Mani the Monkey 讲解背步（back step）与落膝（drop knee）的原理、何时使用、动作要领及常见错误，配有清晰的室内演示，适合初中级攀岩者系统学习这两个相关技术。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "Climbing Technique For Beginners - Episode 1 - Foot Placement",
+        "en": "Climbing Technique For Beginners - Episode 1 - Foot Placement"
+      },
+      "url": "https://www.youtube.com/watch?v=oqd39cc0HL0",
+      "channel": "Eric Karlsson Bouldering",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "初学者脚法系列第1集，讲解室内攀岩中边踩（edging）和摩擦踩（smearing）的基础原理与练习方法，强调精准落脚的重要性。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "攀岩动作与技巧—正身动作",
+        "en": "攀岩动作与技巧—正身动作"
+      },
+      "url": "https://www.bilibili.com/video/BV1v64y1c78u/",
+      "channel": "岩时攀岩",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "讲解正面朝墙（正身）时的脚法技术和重心控制，包括边踩要领和身体姿态的协调配合。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "Rock Climbing Technique for Intermediates: Flagging",
+        "en": "Rock Climbing Technique for Intermediates: Flagging"
+      },
+      "url": "https://www.youtube.com/watch?v=nOkv9uFHojU",
+      "channel": "EpicTV Climbing Daily",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "中级攀岩者旗帜步（flagging）完整教程，包括内旗（inside flag）、外旗（outside flag）和背旗（back flag）三种变体，有清晰的演示和讲解。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "【攀岩那些事】如何正确做旗式动作",
+        "en": "【攀岩那些事】如何正确做旗式动作"
+      },
+      "url": "https://www.bilibili.com/video/BV1dT4y1r7VD/",
+      "channel": "攀岩不需要仰望",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "中文讲解旗式（旗帜步）的正确做法和常见错误，结合室内抱石线路演示，适合中文用户学习旗帜步技术。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "攀岩视频分析｜仰角如何高效发力（和训练）",
+        "en": "攀岩视频分析｜仰角如何高效发力（和训练）"
+      },
+      "url": "https://www.bilibili.com/video/BV1RD4aeGE19/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "通过视频分析形式，讲解仰角线路中的高效发力方式，包括身体姿态、重心位置和省力技巧，结合了具体训练建议。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-toe-hook": [
+    {
+      "title": {
+        "zh": "【Hook勾脚挂脚篇】- 攀岩进阶向技巧系列 为什么要勾脚 以及如何才能勾得牢？",
+        "en": "【Hook勾脚挂脚篇】- 攀岩进阶向技巧系列 为什么要勾脚 以及如何才能勾得牢？"
+      },
+      "url": "https://www.bilibili.com/video/BV1nW411C7mM/",
+      "channel": "小宇Ylvaaaa",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "进阶向技巧系列，讲解勾脚（toe hook）和挂脚（heel hook）的区别、原理及如何在仰角线路上正确使用，有正误对比演示。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "攀岩勾脚技术 与挂脚的异同之处 原理讲解",
+        "en": "攀岩勾脚技术 与挂脚的异同之处 原理讲解"
+      },
+      "url": "https://www.bilibili.com/video/BV1LFqDYiELF/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "从生物力学角度讲解勾脚尖（toe hook）与挂脚跟（heel hook）的力学原理差异，以及在不同地形中的应用场景。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "[攀岩\\",
+        "en": "[攀岩\\"
+      },
+      "url": "https://www.bilibili.com/video/BV1xt4y147D1/",
+      "channel": "ClimbingWorld（搬运）",
+      "platform": "bilibili",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "专门讲解 Toe Hook 的高阶技巧，包括那些常被忽视的用法——如侧向稳定、防止外摆等，适合已经知道基础勾脚尖但想进阶的攀岩者。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "攀岩动作与技巧系列视频-勾脚",
+        "en": "攀岩动作与技巧系列视频-勾脚"
+      },
+      "url": "https://www.bilibili.com/video/BV1H54y1v7Kd/",
+      "channel": "（系列视频）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "攀岩技术系列之勾脚专题，演示不同情境下勾脚技术的应用方法。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "攀岩技术动作讲解 动态小跳 推膝移动 勾脚技术",
+        "en": "攀岩技术动作讲解 动态小跳 推膝移动 勾脚技术"
+      },
+      "url": "https://www.bilibili.com/video/BV1UpkhY2EKY/",
+      "channel": "草莓特大蛋糕（待确认）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "综合讲解三种技术：动态小跳（deadpoint类）、推膝移动（drop knee）和勾脚，通过实际线路演示各技术的触发时机。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "攀岩身体倒挂勾脚 原理讲解 动作练习技巧",
+        "en": "攀岩身体倒挂勾脚 原理讲解 动作练习技巧"
+      },
+      "url": "https://www.bilibili.com/video/BV1UpCjY5EzK/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "讲解身体倒挂姿势下（屋檐地形）的勾脚技术，原理解析加上具体的动作练习方法，对屋檐攀登有实际帮助。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "攀岩腳法篇 - HEEL HOOK（掛腳）｜日光山石",
+        "en": "攀岩腳法篇 - HEEL HOOK（掛腳）｜日光山石"
+      },
+      "url": "https://www.youtube.com/watch?v=4Drbw5cfGoQ",
+      "channel": "日光山石 SULIMORO",
+      "platform": "youtube",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "专项讲解 Heel Hook（后跟挂脚）技术：使用时机、发力部位（后跟与小腿肌肉协同）、常见错误与纠正，并配合实拍动作示范，由职业选手亲身演示。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "[攀岩\\",
+        "en": "[攀岩\\"
+      },
+      "url": "https://www.bilibili.com/video/BV1Bt4y1q7jQ",
+      "channel": "ClimbingWorld（搬运）",
+      "platform": "bilibili",
+      "lang": "en",
+      "quality": 3,
+      "summary": {
+        "zh": "英文原版脚法教学搬运，涵盖边踩、摩擦踩、勾脚尖、勾脚跟四种基础脚法技术，配有清晰的动作演示。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-heel-hook": [
+    {
+      "title": {
+        "zh": "Make Your Heel Hooks Work",
+        "en": "Make Your Heel Hooks Work"
+      },
+      "url": "https://www.youtube.com/watch?v=vqUlYup0lpU",
+      "channel": "Movement for Climbers",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "Movement for Climbers 出品的 heel hook 专项教学，讲解 heel hook 的激活原理、发力要点和常见错误，适用于中级以上攀岩者。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "Heel Hook Training",
+        "en": "Heel Hook Training"
+      },
+      "url": "https://www.youtube.com/watch?v=b8sHOSukVi8",
+      "channel": "Lattice Training",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "Lattice Training 出品的 heel hook 力量训练专项视频，从训练科学角度讲解如何提升 heel hook 能力，包含具体训练动作和方案。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "攀岩腳法篇 - HEEL HOOK（掛腳）\\",
+        "en": "攀岩腳法篇 - HEEL HOOK（掛腳）\\"
+      },
+      "url": "https://www.bilibili.com/video/BV1sVkeYnEq1/",
+      "channel": "日光山石",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "台湾攀岩频道「日光山石」出品的脚法系列第 16 集，专项讲解 heel hook（掛腳/勾脚）技术：高跟挂的力量来源（腘绳肌/臀部激活）、不同场景的应用（仰角/侧墙）、与 toe hook 的配合，演示清晰，中文友好。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "攀岩腳法篇 - HEEL HOOK（掛腳）｜日光山石",
+        "en": "攀岩腳法篇 - HEEL HOOK（掛腳）｜日光山石"
+      },
+      "url": "https://www.youtube.com/watch?v=4Drbw5cfGoQ",
+      "channel": "日光山石 SULIMORO",
+      "platform": "youtube",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "专项讲解 Heel Hook（后跟挂脚）技术：使用时机、发力部位（后跟与小腿肌肉协同）、常见错误与纠正，并配合实拍动作示范，由职业选手亲身演示。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "【Hook勾脚挂脚篇】- 攀岩进阶向技巧系列 为什么要勾脚 以及如何才能勾得牢？",
+        "en": "【Hook勾脚挂脚篇】- 攀岩进阶向技巧系列 为什么要勾脚 以及如何才能勾得牢？"
+      },
+      "url": "https://www.bilibili.com/video/BV1nW411C7mM/",
+      "channel": "小宇Ylvaaaa",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "进阶向技巧系列，讲解勾脚（toe hook）和挂脚（heel hook）的区别、原理及如何在仰角线路上正确使用，有正误对比演示。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "攀岩勾脚技术 与挂脚的异同之处 原理讲解",
+        "en": "攀岩勾脚技术 与挂脚的异同之处 原理讲解"
+      },
+      "url": "https://www.bilibili.com/video/BV1LFqDYiELF/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "从生物力学角度讲解勾脚尖（toe hook）与挂脚跟（heel hook）的力学原理差异，以及在不同地形中的应用场景。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "攀岩动作与技巧系列视频-勾脚",
+        "en": "攀岩动作与技巧系列视频-勾脚"
+      },
+      "url": "https://www.bilibili.com/video/BV1H54y1v7Kd/",
+      "channel": "（系列视频）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "攀岩技术系列之勾脚专题，演示不同情境下勾脚技术的应用方法。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "[攀岩\\",
+        "en": "[攀岩\\"
+      },
+      "url": "https://www.bilibili.com/video/BV1Bt4y1q7jQ",
+      "channel": "ClimbingWorld（搬运）",
+      "platform": "bilibili",
+      "lang": "en",
+      "quality": 3,
+      "summary": {
+        "zh": "英文原版脚法教学搬运，涵盖边踩、摩擦踩、勾脚尖、勾脚跟四种基础脚法技术，配有清晰的动作演示。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "攀岩身体移动细节 动态摆荡发力 推膝 挂脚 踩点",
+        "en": "攀岩身体移动细节 动态摆荡发力 推膝 挂脚 踩点"
+      },
+      "url": "https://www.bilibili.com/video/BV1EHFueSEfD/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "综合讲解动态摆荡（swing-by）的发力原理，结合推膝、挂脚和踩点的协调配合，适合中级攀岩者提升动态动作效率。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-overhang-technique": [
+    {
+      "title": {
+        "zh": "攀岩视频分析｜仰角如何高效发力（和训练）",
+        "en": "攀岩视频分析｜仰角如何高效发力（和训练）"
+      },
+      "url": "https://www.bilibili.com/video/BV1RD4aeGE19/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "通过视频分析形式，讲解仰角线路中的高效发力方式，包括身体姿态、重心位置和省力技巧，结合了具体训练建议。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "【Hook勾脚挂脚篇】- 攀岩进阶向技巧系列 为什么要勾脚 以及如何才能勾得牢？",
+        "en": "【Hook勾脚挂脚篇】- 攀岩进阶向技巧系列 为什么要勾脚 以及如何才能勾得牢？"
+      },
+      "url": "https://www.bilibili.com/video/BV1nW411C7mM/",
+      "channel": "小宇Ylvaaaa",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "进阶向技巧系列，讲解勾脚（toe hook）和挂脚（heel hook）的区别、原理及如何在仰角线路上正确使用，有正误对比演示。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "攀岩勾脚技术 与挂脚的异同之处 原理讲解",
+        "en": "攀岩勾脚技术 与挂脚的异同之处 原理讲解"
+      },
+      "url": "https://www.bilibili.com/video/BV1LFqDYiELF/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "从生物力学角度讲解勾脚尖（toe hook）与挂脚跟（heel hook）的力学原理差异，以及在不同地形中的应用场景。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "[攀岩\\",
+        "en": "[攀岩\\"
+      },
+      "url": "https://www.bilibili.com/video/BV1xt4y147D1/",
+      "channel": "ClimbingWorld（搬运）",
+      "platform": "bilibili",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "专门讲解 Toe Hook 的高阶技巧，包括那些常被忽视的用法——如侧向稳定、防止外摆等，适合已经知道基础勾脚尖但想进阶的攀岩者。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-drop-knee": [
+    {
+      "title": {
+        "zh": "Rock Climbing Technique for Beginners: The Back Step / Drop Knee",
+        "en": "Rock Climbing Technique for Beginners: The Back Step / Drop Knee"
+      },
+      "url": "https://www.youtube.com/watch?v=5MEKUQ9vYZI",
+      "channel": "Mani the Monkey",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "Mani the Monkey 讲解背步（back step）与落膝（drop knee）的原理、何时使用、动作要领及常见错误，配有清晰的室内演示，适合初中级攀岩者系统学习这两个相关技术。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "攀岩动作细节 推膝与折膝的运用 脚尖踩点 原理讲解",
+        "en": "攀岩动作细节 推膝与折膝的运用 脚尖踩点 原理讲解"
+      },
+      "url": "https://www.bilibili.com/video/BV1sTNBenEFN/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "详细讲解推膝（drop knee/back step）和折膝动作的生物力学原理，以及脚尖踩点配合的方法，分析不同情境下的应用技巧。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "攀岩视频分析｜仰角如何高效发力（和训练）",
+        "en": "攀岩视频分析｜仰角如何高效发力（和训练）"
+      },
+      "url": "https://www.bilibili.com/video/BV1RD4aeGE19/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "通过视频分析形式，讲解仰角线路中的高效发力方式，包括身体姿态、重心位置和省力技巧，结合了具体训练建议。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "攀岩技术动作讲解 动态小跳 推膝移动 勾脚技术",
+        "en": "攀岩技术动作讲解 动态小跳 推膝移动 勾脚技术"
+      },
+      "url": "https://www.bilibili.com/video/BV1UpkhY2EKY/",
+      "channel": "草莓特大蛋糕（待确认）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "综合讲解三种技术：动态小跳（deadpoint类）、推膝移动（drop knee）和勾脚，通过实际线路演示各技术的触发时机。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "攀岩身体移动细节 动态摆荡发力 推膝 挂脚 踩点",
+        "en": "攀岩身体移动细节 动态摆荡发力 推膝 挂脚 踩点"
+      },
+      "url": "https://www.bilibili.com/video/BV1EHFueSEfD/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "综合讲解动态摆荡（swing-by）的发力原理，结合推膝、挂脚和踩点的协调配合，适合中级攀岩者提升动态动作效率。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-dynamic-movement": [
+    {
+      "title": {
+        "zh": "攀岩技术动作讲解 动态小跳 推膝移动 勾脚技术",
+        "en": "攀岩技术动作讲解 动态小跳 推膝移动 勾脚技术"
+      },
+      "url": "https://www.bilibili.com/video/BV1UpkhY2EKY/",
+      "channel": "草莓特大蛋糕（待确认）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "综合讲解三种技术：动态小跳（deadpoint类）、推膝移动（drop knee）和勾脚，通过实际线路演示各技术的触发时机。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-jug-hold": [
+    {
+      "title": {
+        "zh": "Rock Climbing: Climbing Holds",
+        "en": "Rock Climbing: Climbing Holds"
+      },
+      "url": "https://www.youtube.com/watch?v=9CuByOqafxA",
+      "channel": "REI",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "REI 官方出品的攀岩手点入门介绍，涵盖大把手（jug）、抠点（crimp）、圆点（sloper）、捏点（pinch）、指洞（pocket）等主要手点类型，每种手点都有握法示范。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "攀岩新手教程—open点的抓握技巧",
+        "en": "攀岩新手教程—open点的抓握技巧"
+      },
+      "url": "https://www.bilibili.com/video/BV1Jb4y187i9/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "新手向攀岩抓握技巧教程，重点讲解 open（张手）抓握类型，分析为何初学者应优先掌握开放式握法以保护手指。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "岩點種類 -［六大岩點］｜攀岩｜日光山石",
+        "en": "岩點種類 -［六大岩點］｜攀岩｜日光山石"
+      },
+      "url": "https://www.youtube.com/watch?v=jsqKmC441XY",
+      "channel": "日光山石 SULIMORO",
+      "platform": "youtube",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "完整介绍攀岩六大岩点类型：大把手（jug）、捏握（crimp）、斜面岩点（sloper）、捏点（pinch）、口袋（pocket）及侧拉点，每种岩点均有实拍示范，繁体中文，一集覆盖 kp-jug-hold、kp-crimp-hold、kp-sloper-hold、kp-pinch-hold、kp-pocket-hold 全部主要手点类型。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "Climbing Technique For Beginners - Episode 2 - Hand Placement",
+        "en": "Climbing Technique For Beginners - Episode 2 - Hand Placement"
+      },
+      "url": "https://www.youtube.com/watch?v=G634356Sti0",
+      "channel": "（系列教程）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 3,
+      "summary": {
+        "zh": "初学者系列第2集，讲解手部放置的基础原则，包括手顺、换手时机和不同手点的基本握法。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-crimp-hold": [
+    {
+      "title": {
+        "zh": "Crimp Grips Tutorial: Crimp Like a Pro",
+        "en": "Crimp Grips Tutorial: Crimp Like a Pro"
+      },
       "url": "https://www.youtube.com/watch?v=o59qz4orcWs",
       "channel": "Adam Ondra",
-      "lang": "en"
-    }
-  ],
-  "s03-positioning": [
-    {
-      "title": { "zh": "Movement for Climbers 旗杆技术教学", "en": "How to Flag — Movement for Climbers" },
-      "url": "https://www.youtube.com/@movementforclimbers",
-      "channel": "Movement for Climbers",
-      "lang": "en"
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "Adam Ondra 深度讲解三种捏握方式（全捏握/Full Crimp、半捏握/Open Crimp、三指握），分析各类型的受力和损伤风险，以及适用场景。",
+        "en": ""
+      },
+      "relevance": "primary"
     },
     {
-      "title": { "zh": "Bouldering Bobat 身体定位入门", "en": "Body Position 101 — Climbing for Beginners" },
-      "url": "https://www.youtube.com/@BoulderingBobat",
-      "channel": "Bouldering Bobat",
-      "lang": "en"
+      "title": {
+        "zh": "岩點種類 -［六大岩點］｜攀岩｜日光山石",
+        "en": "岩點種類 -［六大岩點］｜攀岩｜日光山石"
+      },
+      "url": "https://www.youtube.com/watch?v=jsqKmC441XY",
+      "channel": "日光山石 SULIMORO",
+      "platform": "youtube",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "完整介绍攀岩六大岩点类型：大把手（jug）、捏握（crimp）、斜面岩点（sloper）、捏点（pinch）、口袋（pocket）及侧拉点，每种岩点均有实拍示范，繁体中文，一集覆盖 kp-jug-hold、kp-crimp-hold、kp-sloper-hold、kp-pinch-hold、kp-pocket-hold 全部主要手点类型。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "Rock Climbing: Climbing Holds",
+        "en": "Rock Climbing: Climbing Holds"
+      },
+      "url": "https://www.youtube.com/watch?v=9CuByOqafxA",
+      "channel": "REI",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "REI 官方出品的攀岩手点入门介绍，涵盖大把手（jug）、抠点（crimp）、圆点（sloper）、捏点（pinch）、指洞（pocket）等主要手点类型，每种手点都有握法示范。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "攀岩新手教程—open点的抓握技巧",
+        "en": "攀岩新手教程—open点的抓握技巧"
+      },
+      "url": "https://www.bilibili.com/video/BV1Jb4y187i9/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "新手向攀岩抓握技巧教程，重点讲解 open（张手）抓握类型，分析为何初学者应优先掌握开放式握法以保护手指。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "Grip Basics Technique｜Rock Climbing｜SULIMORO",
+        "en": "Grip Basics Technique｜Rock Climbing｜SULIMORO"
+      },
+      "url": "https://www.youtube.com/watch?v=6HztPosJGAc",
+      "channel": "日光山石 SULIMORO",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "英文授课，讲解三大抓握方式：全捏握（full crimp）、半捏握（half crimp）、张手握（open hand）的使用场景与发力差异，并说明各抓握方式对手指健康的影响，与 kp-grip-types 高度对应。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "Climbing Technique For Beginners - Episode 2 - Hand Placement",
+        "en": "Climbing Technique For Beginners - Episode 2 - Hand Placement"
+      },
+      "url": "https://www.youtube.com/watch?v=G634356Sti0",
+      "channel": "（系列教程）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 3,
+      "summary": {
+        "zh": "初学者系列第2集，讲解手部放置的基础原则，包括手顺、换手时机和不同手点的基本握法。",
+        "en": ""
+      },
+      "relevance": "secondary"
     }
   ],
-  "s03-dynamic": [
+  "kp-sloper-hold": [
     {
-      "title": { "zh": "Catalyst Climbing 动态动作教学", "en": "Dynamic Movement Tutorials" },
-      "url": "https://www.youtube.com/@CatalystClimbing",
-      "channel": "Catalyst Climbing",
-      "lang": "en"
+      "title": {
+        "zh": "Rock Climbing: Climbing Holds",
+        "en": "Rock Climbing: Climbing Holds"
+      },
+      "url": "https://www.youtube.com/watch?v=9CuByOqafxA",
+      "channel": "REI",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "REI 官方出品的攀岩手点入门介绍，涵盖大把手（jug）、抠点（crimp）、圆点（sloper）、捏点（pinch）、指洞（pocket）等主要手点类型，每种手点都有握法示范。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "【攀岩教学】快速提高斜面点（sloper）的技巧",
+        "en": "【攀岩教学】快速提高斜面点（sloper）的技巧"
+      },
+      "url": "https://www.bilibili.com/video/BV1c44y1w7Gp/",
+      "channel": "跑团Thinker",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "专项讲解斜面点（sloper）的握法技巧，包括手掌与岩点的接触面积优化、重心位置的配合，以及快速提升斜面点能力的训练建议。",
+        "en": ""
+      },
+      "relevance": "primary"
     }
   ],
-  "s03-terrain": [
+  "kp-pinch-hold": [
     {
-      "title": { "zh": "Wide Boyz 裂缝攀登教学（Crack School）", "en": "Wide Boyz Crack School" },
-      "url": "https://www.youtube.com/@WideBoyztv",
-      "channel": "Wide Boyz",
-      "lang": "en"
+      "title": {
+        "zh": "Rock Climbing: Climbing Holds",
+        "en": "Rock Climbing: Climbing Holds"
+      },
+      "url": "https://www.youtube.com/watch?v=9CuByOqafxA",
+      "channel": "REI",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "REI 官方出品的攀岩手点入门介绍，涵盖大把手（jug）、抠点（crimp）、圆点（sloper）、捏点（pinch）、指洞（pocket）等主要手点类型，每种手点都有握法示范。",
+        "en": ""
+      },
+      "relevance": "primary"
     }
   ],
-  "s03-reading": [
+  "kp-pocket-hold": [
     {
-      "title": { "zh": "Bouldering Highlights 比赛读线分析", "en": "Competition Route Reading Analysis" },
-      "url": "https://www.youtube.com/@BoulderingHighlights",
-      "channel": "Bouldering Highlights",
-      "lang": "en"
+      "title": {
+        "zh": "Rock Climbing: Climbing Holds",
+        "en": "Rock Climbing: Climbing Holds"
+      },
+      "url": "https://www.youtube.com/watch?v=9CuByOqafxA",
+      "channel": "REI",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "REI 官方出品的攀岩手点入门介绍，涵盖大把手（jug）、抠点（crimp）、圆点（sloper）、捏点（pinch）、指洞（pocket）等主要手点类型，每种手点都有握法示范。",
+        "en": ""
+      },
+      "relevance": "secondary"
     }
   ],
-  "s04-fear": [
+  "kp-grip-types": [
     {
-      "title": { "zh": "先锋攀不敢冲坠？安全冲坠和保护教学", "en": "Overcome Lead Fall Fear: Safe Falling & Belay Techniques" },
+      "title": {
+        "zh": "Grip Basics Technique｜Rock Climbing｜SULIMORO",
+        "en": "Grip Basics Technique｜Rock Climbing｜SULIMORO"
+      },
+      "url": "https://www.youtube.com/watch?v=6HztPosJGAc",
+      "channel": "日光山石 SULIMORO",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "英文授课，讲解三大抓握方式：全捏握（full crimp）、半捏握（half crimp）、张手握（open hand）的使用场景与发力差异，并说明各抓握方式对手指健康的影响，与 kp-grip-types 高度对应。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "Crimp Grips Tutorial: Crimp Like a Pro",
+        "en": "Crimp Grips Tutorial: Crimp Like a Pro"
+      },
+      "url": "https://www.youtube.com/watch?v=o59qz4orcWs",
+      "channel": "Adam Ondra",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "Adam Ondra 深度讲解三种捏握方式（全捏握/Full Crimp、半捏握/Open Crimp、三指握），分析各类型的受力和损伤风险，以及适用场景。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "指力板初中阶完整训练模板分享",
+        "en": "指力板初中阶完整训练模板分享"
+      },
+      "url": "https://www.bilibili.com/video/BV1W44y1y7nT/",
+      "channel": "Jamin_Yan",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "Jamin_Yan（翻译 Hooper's Beta 内容）分享的指力板完整训练计划，涵盖初学者和中级爬者的训练强度、组数安排和动作示范。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "攀岩新手教程—open点的抓握技巧",
+        "en": "攀岩新手教程—open点的抓握技巧"
+      },
+      "url": "https://www.bilibili.com/video/BV1Jb4y187i9/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "新手向攀岩抓握技巧教程，重点讲解 open（张手）抓握类型，分析为何初学者应优先掌握开放式握法以保护手指。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-hand-sequence": [
+    {
+      "title": {
+        "zh": "Climbing Technique For Beginners - Episode 2 - Hand Placement",
+        "en": "Climbing Technique For Beginners - Episode 2 - Hand Placement"
+      },
+      "url": "https://www.youtube.com/watch?v=G634356Sti0",
+      "channel": "（系列教程）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 3,
+      "summary": {
+        "zh": "初学者系列第2集，讲解手部放置的基础原则，包括手顺、换手时机和不同手点的基本握法。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "Rock Climbing: How to Climb Finger Cracks",
+        "en": "Rock Climbing: How to Climb Finger Cracks"
+      },
+      "url": "https://www.youtube.com/watch?v=jzdgWsbGbMc",
+      "channel": "REI（系列）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "REI 出品的指缝（finger crack）攀登技术讲解，演示手指塞入技巧（finger jam）、扭锁方式和身体位置协调，适合户外传统攀入门。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "Rock Climbing: How to Jam Hand Cracks",
+        "en": "Rock Climbing: How to Jam Hand Cracks"
+      },
+      "url": "https://www.youtube.com/watch?v=l4EzbCLfUkc",
+      "channel": "REI（系列）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "REI 出品的手缝（hand crack）塞手技术讲解，演示手掌塞入（hand jam）的角度、用力方向和脚法配合。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-crack-technique": [
+    {
+      "title": {
+        "zh": "Rock Climbing: How to Climb Finger Cracks",
+        "en": "Rock Climbing: How to Climb Finger Cracks"
+      },
+      "url": "https://www.youtube.com/watch?v=jzdgWsbGbMc",
+      "channel": "REI（系列）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "REI 出品的指缝（finger crack）攀登技术讲解，演示手指塞入技巧（finger jam）、扭锁方式和身体位置协调，适合户外传统攀入门。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "Rock Climbing: How to Jam Hand Cracks",
+        "en": "Rock Climbing: How to Jam Hand Cracks"
+      },
+      "url": "https://www.youtube.com/watch?v=l4EzbCLfUkc",
+      "channel": "REI（系列）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "REI 出品的手缝（hand crack）塞手技术讲解，演示手掌塞入（hand jam）的角度、用力方向和脚法配合。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "攀岩动作与技巧系列视频-对抗发力1：反肩/外撑/上撑",
+        "en": "攀岩动作与技巧系列视频-对抗发力1：反肩/外撑/上撑"
+      },
+      "url": "https://www.bilibili.com/video/BV16i4y1j7vc/",
+      "channel": "岩时攀岩",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "岩时攀岩出品的动作技巧系列，专讲对抗发力三种形式：外撑（stemming，两脚蹬两侧墙面形成对抗）、反肩（back step 变体）、上撑（pressing），重点讲解外撑的应用场景（角落/宽裂缝），是 kp-stemming 在 Bilibili 端的首个专项视频。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "Laybacking / Liebacking Technique",
+        "en": "Laybacking / Liebacking Technique"
+      },
+      "url": "https://www.youtube.com/watch?v=-n6iMUjaz_0",
+      "channel": "（攀岩技巧博主）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 3,
+      "summary": {
+        "zh": "讲解 layback（liebacking）技术的专项视频：将裂缝或棱角作为一条长侧拉，上身向后倾斜借力，双脚在岩面上蹬踩形成对抗力，是传统攀和户外裂缝中的核心技术。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-twist-lock": [
+    {
+      "title": {
+        "zh": "Climbing Technique For Beginners - Episode 5 - Hips",
+        "en": "Climbing Technique For Beginners - Episode 5 - Hips"
+      },
+      "url": "https://www.youtube.com/watch?v=jbj7XMLOWgE",
+      "channel": "（系列教程）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "专门讲解髋部和重心在攀岩中的作用，涵盖扭锁（twist lock）基础、如何用髋部控制重心贴近岩壁，以及旗帜步和背步的基本原理。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "Rock Climbing Technique for Beginners: The Back Step / Drop Knee",
+        "en": "Rock Climbing Technique for Beginners: The Back Step / Drop Knee"
+      },
+      "url": "https://www.youtube.com/watch?v=5MEKUQ9vYZI",
+      "channel": "Mani the Monkey",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "Mani the Monkey 讲解背步（back step）与落膝（drop knee）的原理、何时使用、动作要领及常见错误，配有清晰的室内演示，适合初中级攀岩者系统学习这两个相关技术。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-flagging": [
+    {
+      "title": {
+        "zh": "8 Neil Greshams Masterclass - Flag",
+        "en": "8 Neil Greshams Masterclass - Flag"
+      },
+      "url": "https://www.youtube.com/watch?v=ts2jrYSsisA",
+      "channel": "Neil Gresham",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "Neil Gresham 大师课系列之旗帜步（Flag），详细讲解旗帜步的力学原理、何时使用、常见错误及纠正方法，是业界公认的最权威旗帜步教程之一。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "Rock Climbing Technique for Intermediates: Flagging",
+        "en": "Rock Climbing Technique for Intermediates: Flagging"
+      },
+      "url": "https://www.youtube.com/watch?v=nOkv9uFHojU",
+      "channel": "EpicTV Climbing Daily",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "中级攀岩者旗帜步（flagging）完整教程，包括内旗（inside flag）、外旗（outside flag）和背旗（back flag）三种变体，有清晰的演示和讲解。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "【攀岩那些事】如何正确做旗式动作",
+        "en": "【攀岩那些事】如何正确做旗式动作"
+      },
+      "url": "https://www.bilibili.com/video/BV1dT4y1r7VD/",
+      "channel": "攀岩不需要仰望",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "中文讲解旗式（旗帜步）的正确做法和常见错误，结合室内抱石线路演示，适合中文用户学习旗帜步技术。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "Climbing Technique For Beginners - Episode 5 - Hips",
+        "en": "Climbing Technique For Beginners - Episode 5 - Hips"
+      },
+      "url": "https://www.youtube.com/watch?v=jbj7XMLOWgE",
+      "channel": "（系列教程）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "专门讲解髋部和重心在攀岩中的作用，涵盖扭锁（twist lock）基础、如何用髋部控制重心贴近岩壁，以及旗帜步和背步的基本原理。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "「Movement for Climbers」给小个子的攀岩TIPS 2.0: 臂展不够？来看看这三点建议！",
+        "en": "「Movement for Climbers」给小个子的攀岩TIPS 2.0: 臂展不够？来看看这三点建议！"
+      },
+      "url": "https://www.bilibili.com/video/BV1s84y1t784/",
+      "channel": "（搬运 Movement for Climbers）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "Movement for Climbers 搬运版（含中文字幕），专门讲解身材较矮或臂展较短攀岩者如何通过更好的重心管理和对角支撑来克服身高劣势。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "Climbing Expert Advice: Balance Training",
+        "en": "Climbing Expert Advice: Balance Training"
+      },
+      "url": "https://www.youtube.com/watch?v=4lyMr6LT9wM",
+      "channel": "（攀岩专家建议系列）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 3,
+      "summary": {
+        "zh": "攀岩重心与平衡训练专项讲解，提供改善身体平衡感的具体练习方法，帮助攀岩者在动作中保持稳定的重心控制。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-back-step": [
+    {
+      "title": {
+        "zh": "Rock Climbing Technique for Beginners: The Back Step / Drop Knee",
+        "en": "Rock Climbing Technique for Beginners: The Back Step / Drop Knee"
+      },
+      "url": "https://www.youtube.com/watch?v=5MEKUQ9vYZI",
+      "channel": "Mani the Monkey",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "Mani the Monkey 讲解背步（back step）与落膝（drop knee）的原理、何时使用、动作要领及常见错误，配有清晰的室内演示，适合初中级攀岩者系统学习这两个相关技术。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "8 Neil Greshams Masterclass - Flag",
+        "en": "8 Neil Greshams Masterclass - Flag"
+      },
+      "url": "https://www.youtube.com/watch?v=ts2jrYSsisA",
+      "channel": "Neil Gresham",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "Neil Gresham 大师课系列之旗帜步（Flag），详细讲解旗帜步的力学原理、何时使用、常见错误及纠正方法，是业界公认的最权威旗帜步教程之一。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "Climbing Technique For Beginners - Episode 5 - Hips",
+        "en": "Climbing Technique For Beginners - Episode 5 - Hips"
+      },
+      "url": "https://www.youtube.com/watch?v=jbj7XMLOWgE",
+      "channel": "（系列教程）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "专门讲解髋部和重心在攀岩中的作用，涵盖扭锁（twist lock）基础、如何用髋部控制重心贴近岩壁，以及旗帜步和背步的基本原理。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "Rock Climbing Technique for Intermediates: Flagging",
+        "en": "Rock Climbing Technique for Intermediates: Flagging"
+      },
+      "url": "https://www.youtube.com/watch?v=nOkv9uFHojU",
+      "channel": "EpicTV Climbing Daily",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "中级攀岩者旗帜步（flagging）完整教程，包括内旗（inside flag）、外旗（outside flag）和背旗（back flag）三种变体，有清晰的演示和讲解。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "攀岩动作细节 推膝与折膝的运用 脚尖踩点 原理讲解",
+        "en": "攀岩动作细节 推膝与折膝的运用 脚尖踩点 原理讲解"
+      },
+      "url": "https://www.bilibili.com/video/BV1sTNBenEFN/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "详细讲解推膝（drop knee/back step）和折膝动作的生物力学原理，以及脚尖踩点配合的方法，分析不同情境下的应用技巧。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-swing-momentum": [
+    {
+      "title": {
+        "zh": "攀岩身体移动细节 动态摆荡发力 推膝 挂脚 踩点",
+        "en": "攀岩身体移动细节 动态摆荡发力 推膝 挂脚 踩点"
+      },
+      "url": "https://www.bilibili.com/video/BV1EHFueSEfD/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "综合讲解动态摆荡（swing-by）的发力原理，结合推膝、挂脚和踩点的协调配合，适合中级攀岩者提升动态动作效率。",
+        "en": ""
+      },
+      "relevance": "primary"
+    }
+  ],
+  "kp-diagonal-support": [
+    {
+      "title": {
+        "zh": "「Movement for Climbers」给小个子的攀岩TIPS 2.0: 臂展不够？来看看这三点建议！",
+        "en": "「Movement for Climbers」给小个子的攀岩TIPS 2.0: 臂展不够？来看看这三点建议！"
+      },
+      "url": "https://www.bilibili.com/video/BV1s84y1t784/",
+      "channel": "（搬运 Movement for Climbers）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "Movement for Climbers 搬运版（含中文字幕），专门讲解身材较矮或臂展较短攀岩者如何通过更好的重心管理和对角支撑来克服身高劣势。",
+        "en": ""
+      },
+      "relevance": "primary"
+    }
+  ],
+  "kp-high-step-mantle": [
+    {
+      "title": {
+        "zh": "攀岩动作与技巧系列视频-Knee Bar / Mantling",
+        "en": "攀岩动作与技巧系列视频-Knee Bar / Mantling"
+      },
+      "url": "https://www.bilibili.com/video/BV1oa411w7Pm/",
+      "channel": "（系列视频）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "讲解 Knee Bar（锁膝）和 Mantling（翻越/撑顶）两种进阶技术，演示如何在顶部岩点和平台处完成翻越动作。",
+        "en": ""
+      },
+      "relevance": "primary"
+    }
+  ],
+  "kp-stemming": [
+    {
+      "title": {
+        "zh": "攀岩动作与技巧系列视频-对抗发力1：反肩/外撑/上撑",
+        "en": "攀岩动作与技巧系列视频-对抗发力1：反肩/外撑/上撑"
+      },
+      "url": "https://www.bilibili.com/video/BV16i4y1j7vc/",
+      "channel": "岩时攀岩",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "岩时攀岩出品的动作技巧系列，专讲对抗发力三种形式：外撑（stemming，两脚蹬两侧墙面形成对抗）、反肩（back step 变体）、上撑（pressing），重点讲解外撑的应用场景（角落/宽裂缝），是 kp-stemming 在 Bilibili 端的首个专项视频。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "攀岩动作与技巧系列视频-Knee Bar / Mantling",
+        "en": "攀岩动作与技巧系列视频-Knee Bar / Mantling"
+      },
+      "url": "https://www.bilibili.com/video/BV1oa411w7Pm/",
+      "channel": "（系列视频）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "讲解 Knee Bar（锁膝）和 Mantling（翻越/撑顶）两种进阶技术，演示如何在顶部岩点和平台处完成翻越动作。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-dyno-technique": [
+    {
+      "title": {
+        "zh": "Climbing Technique For Intermediate - Episode 1 - Dynos",
+        "en": "Climbing Technique For Intermediate - Episode 1 - Dynos"
+      },
+      "url": "https://www.youtube.com/watch?v=XjUsX8X9XGw",
+      "channel": "Eric Karlsson Bouldering",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "中级系列之 Dyno（飞跃）教程，讲解全飞跃（full dyno）与死点（deadpoint）的区别，以及起跳时机、落点预判和失败处理，配有室内抱石演示。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "Rock Climbing: How to Dyno in Rock Climbing",
+        "en": "Rock Climbing: How to Dyno in Rock Climbing"
+      },
+      "url": "https://www.youtube.com/watch?v=at8e-jBBU5E",
+      "channel": "（攀岩基础系列）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 3,
+      "summary": {
+        "zh": "飞跃技术基础教程，讲解 dyno 的基本动作模式、准备姿势和常见错误纠正。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "[攀岩\\",
+        "en": "[攀岩\\"
+      },
+      "url": "https://www.bilibili.com/video/BV1EU4y1n7Fw/",
+      "channel": "ClimbingWorld（搬运）",
+      "platform": "bilibili",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "英文教程搬运版，专门讲解死点（deadpoint）的原理——在运动最高点（速度为零时）完成抓握，分析其比全飞跃更高效的原因，配有抱石演示。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-deadpoint": [
+    {
+      "title": {
+        "zh": "[攀岩\\",
+        "en": "[攀岩\\"
+      },
+      "url": "https://www.bilibili.com/video/BV1EU4y1n7Fw/",
+      "channel": "ClimbingWorld（搬运）",
+      "platform": "bilibili",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "英文教程搬运版，专门讲解死点（deadpoint）的原理——在运动最高点（速度为零时）完成抓握，分析其比全飞跃更高效的原因，配有抱石演示。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "Climbing Technique For Intermediate - Episode 1 - Dynos",
+        "en": "Climbing Technique For Intermediate - Episode 1 - Dynos"
+      },
+      "url": "https://www.youtube.com/watch?v=XjUsX8X9XGw",
+      "channel": "Eric Karlsson Bouldering",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "中级系列之 Dyno（飞跃）教程，讲解全飞跃（full dyno）与死点（deadpoint）的区别，以及起跳时机、落点预判和失败处理，配有室内抱石演示。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-lunge-types": [
+    {
+      "title": {
+        "zh": "Climbing Technique For Intermediate - Episode 1 - Dynos",
+        "en": "Climbing Technique For Intermediate - Episode 1 - Dynos"
+      },
+      "url": "https://www.youtube.com/watch?v=XjUsX8X9XGw",
+      "channel": "Eric Karlsson Bouldering",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "中级系列之 Dyno（飞跃）教程，讲解全飞跃（full dyno）与死点（deadpoint）的区别，以及起跳时机、落点预判和失败处理，配有室内抱石演示。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-roof-technique": [
+    {
+      "title": {
+        "zh": "攀岩身体倒挂勾脚 原理讲解 动作练习技巧",
+        "en": "攀岩身体倒挂勾脚 原理讲解 动作练习技巧"
+      },
+      "url": "https://www.bilibili.com/video/BV1UpCjY5EzK/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "讲解身体倒挂姿势下（屋檐地形）的勾脚技术，原理解析加上具体的动作练习方法，对屋檐攀登有实际帮助。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-route-reading-basics": [
+    {
+      "title": {
+        "zh": "攀岩基本功，线路分析，动作顺序",
+        "en": "攀岩基本功，线路分析，动作顺序"
+      },
+      "url": "https://www.bilibili.com/video/BV1q1VAzxEoo/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "讲解攀岩前如何进行线路阅读（route reading），包括分析手点顺序、预判移动方式和制定动作策略，适合想要提升 onsight 能力的中级攀岩者。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "【攀岩教学】如何分步骤解读线路",
+        "en": "【攀岩教学】如何分步骤解读线路"
+      },
+      "url": "https://www.bilibili.com/video/BV1Zh4y1F7Tb/",
+      "channel": "（攀岩教学博主）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "讲解如何系统拆解难线路（Project）：从初识线路、分段研究每个 crux，到连接练习（linking）和最终完攀尝试的策略，包括 beta 记忆技巧和合理分配尝试次数的方法论。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-onsight-flash-redpoint": [
+    {
+      "title": {
+        "zh": "5分钟讲解攀岩难度系数 Sport Climbing Grades in Yangshuo Explained",
+        "en": "5分钟讲解攀岩难度系数 Sport Climbing Grades in Yangshuo Explained"
+      },
+      "url": "https://www.bilibili.com/video/BV1Bp421U7cX/",
+      "channel": "（阳朔攀岩户外教练）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "5分钟内清晰讲解攀岩难度分级体系（法国分级、Yosemite 十进制体系及中国常用分级），结合阳朔户外线路实例，帮助攀岩者理解不同难度等级的含义和参考依据。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "攀岩基本功，线路分析，动作顺序",
+        "en": "攀岩基本功，线路分析，动作顺序"
+      },
+      "url": "https://www.bilibili.com/video/BV1q1VAzxEoo/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "讲解攀岩前如何进行线路阅读（route reading），包括分析手点顺序、预判移动方式和制定动作策略，适合想要提升 onsight 能力的中级攀岩者。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-bouldering-fall": [
+    {
+      "title": {
+        "zh": "Bouldering 101 with Waylon Lewis & Jackie Hueftle",
+        "en": "Bouldering 101 with Waylon Lewis & Jackie Hueftle"
+      },
+      "url": "https://www.youtube.com/watch?v=LWq53Gn07HY",
+      "channel": "（攀岩入门系列）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "抱石101入门视频，涵盖正确坠落技术（bouldering fall）、抱石垫的使用和放置、保护员（spotter）的作用与技巧，以及正确的落地姿势。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "【攀岩技术】冲坠是每一位难度攀岩者必须面对的一个坎 大神Adam这次教我们无惧冲坠",
+        "en": "【攀岩技术】冲坠是每一位难度攀岩者必须面对的一个坎 大神Adam这次教我们无惧冲坠"
+      },
+      "url": "https://www.bilibili.com/video/BV14P4y147vo/",
+      "channel": "（搬运 Adam Ondra）",
+      "platform": "bilibili",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "Adam Ondra 讲解如何克服冲坠恐惧、正确处理先锋攀冲坠，包括心理建设和具体的冲坠技术演示。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "Rock Climbing: Lead Fall",
+        "en": "Rock Climbing: Lead Fall"
+      },
+      "url": "https://www.youtube.com/watch?v=RJZ8OxYP5T4",
+      "channel": "REI（系列）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "REI 出品的先锋攀冲坠教程，讲解安全冲坠的正确姿势、身体准备和心理准备，以及保护员如何配合处理冲坠。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-crash-pad": [
+    {
+      "title": {
+        "zh": "Bouldering 101 with Waylon Lewis & Jackie Hueftle",
+        "en": "Bouldering 101 with Waylon Lewis & Jackie Hueftle"
+      },
+      "url": "https://www.youtube.com/watch?v=LWq53Gn07HY",
+      "channel": "（攀岩入门系列）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "抱石101入门视频，涵盖正确坠落技术（bouldering fall）、抱石垫的使用和放置、保护员（spotter）的作用与技巧，以及正确的落地姿势。",
+        "en": ""
+      },
+      "relevance": "primary"
+    }
+  ],
+  "kp-landing-position": [
+    {
+      "title": {
+        "zh": "Bouldering 101 with Waylon Lewis & Jackie Hueftle",
+        "en": "Bouldering 101 with Waylon Lewis & Jackie Hueftle"
+      },
+      "url": "https://www.youtube.com/watch?v=LWq53Gn07HY",
+      "channel": "（攀岩入门系列）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "抱石101入门视频，涵盖正确坠落技术（bouldering fall）、抱石垫的使用和放置、保护员（spotter）的作用与技巧，以及正确的落地姿势。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-spotter": [
+    {
+      "title": {
+        "zh": "Bouldering 101 with Waylon Lewis & Jackie Hueftle",
+        "en": "Bouldering 101 with Waylon Lewis & Jackie Hueftle"
+      },
+      "url": "https://www.youtube.com/watch?v=LWq53Gn07HY",
+      "channel": "（攀岩入门系列）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "抱石101入门视频，涵盖正确坠落技术（bouldering fall）、抱石垫的使用和放置、保护员（spotter）的作用与技巧，以及正确的落地姿势。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-lead-belay-indoor": [
+    {
+      "title": {
+        "zh": "Chris Sharma's Lead Belay Techniques",
+        "en": "Chris Sharma's Lead Belay Techniques"
+      },
+      "url": "https://www.bilibili.com/video/BV1yX4y1w7SX/",
+      "channel": "Petzl Sport（中文字幕版）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "由传奇攀岩家 Chris Sharma 讲解先锋保护技术，Petzl 官方出品，Bilibili 版本配有中文字幕，是目前 Bilibili 上先锋保护的最佳教学资源之一。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "Rock Climbing: Lead Fall",
+        "en": "Rock Climbing: Lead Fall"
+      },
+      "url": "https://www.youtube.com/watch?v=RJZ8OxYP5T4",
+      "channel": "REI（系列）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "REI 出品的先锋攀冲坠教程，讲解安全冲坠的正确姿势、身体准备和心理准备，以及保护员如何配合处理冲坠。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "Rock Climbing: Lead Belay",
+        "en": "Rock Climbing: Lead Belay"
+      },
+      "url": "https://www.youtube.com/watch?v=S_F1MfVGOzk",
+      "channel": "REI（系列）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "REI 出品先锋保护操作教程，讲解先锋保护的完整流程，包括放绳时机、动态保护技术和制动方式。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "先锋攀不敢冲坠？安全冲坠和保护教学",
+        "en": "先锋攀不敢冲坠？安全冲坠和保护教学"
+      },
       "url": "https://www.bilibili.com/video/BV1j5411Y7kQ/",
       "channel": "知岩片语",
-      "lang": "zh"
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "讲解先锋攀冲坠恐惧的心理根源，以及克服恐惧的安全冲坠技术，包括落点预判和保护配合，适合有冲坠恐惧的攀岩者。",
+        "en": ""
+      },
+      "relevance": "primary"
     },
     {
-      "title": { "zh": "Lattice Training 恐惧管理", "en": "Fear of Falling with Allegra Maguire" },
-      "url": "https://www.youtube.com/@LatticeTraining",
-      "channel": "Lattice Training",
-      "lang": "en"
-    }
-  ],
-  "s04-focus": [
-    {
-      "title": { "zh": "Strong Mind 攀岩心理训练", "en": "Flow and Mental Mastery — Strong Mind Climbing" },
-      "url": "https://www.strongmindclimbing.com/",
-      "channel": "Strong Mind Climbing",
-      "lang": "en"
-    }
-  ],
-  "s04-goals": [
-    {
-      "title": { "zh": "Lattice Training 训练计划制定", "en": "How to Structure Your Training — Lattice Training" },
-      "url": "https://www.youtube.com/@LatticeTraining",
-      "channel": "Lattice Training",
-      "lang": "en"
-    }
-  ],
-  "s04-projecting": [
-    {
-      "title": { "zh": "Adam Ondra 项目攀登技巧", "en": "Adam Ondra Tips & Tricks — Projecting" },
-      "url": "https://www.youtube.com/@AdamOndra",
-      "channel": "Adam Ondra",
-      "lang": "en"
+      "title": {
+        "zh": "【攀岩技术】冲坠是每一位难度攀岩者必须面对的一个坎 大神Adam这次教我们无惧冲坠",
+        "en": "【攀岩技术】冲坠是每一位难度攀岩者必须面对的一个坎 大神Adam这次教我们无惧冲坠"
+      },
+      "url": "https://www.bilibili.com/video/BV14P4y147vo/",
+      "channel": "（搬运 Adam Ondra）",
+      "platform": "bilibili",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "Adam Ondra 讲解如何克服冲坠恐惧、正确处理先锋攀冲坠，包括心理建设和具体的冲坠技术演示。",
+        "en": ""
+      },
+      "relevance": "primary"
     },
     {
-      "title": { "zh": "Power Company Climbing 红点策略", "en": "Top 3 Redpoint Tactics — Power Company Climbing" },
-      "url": "https://www.youtube.com/@powercompanyclimbing",
-      "channel": "Power Company Climbing",
-      "lang": "en"
+      "title": {
+        "zh": "Lead Climbing",
+        "en": "Lead Climbing"
+      },
+      "url": "https://www.youtube.com/watch?v=q4rVY3sLQqA",
+      "channel": "（攀岩系列）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 3,
+      "summary": {
+        "zh": "先锋攀入门综合教程，涵盖先锋攀的基本操作流程、挂绳（clipping）技术和冲坠处理，是室内先锋保护的好入门视频。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "（攀岩教学）先锋攀登的入绳方法",
+        "en": "（攀岩教学）先锋攀登的入绳方法"
+      },
+      "url": "https://www.bilibili.com/video/BV15J41147fW/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "讲解先锋攀入绳（tie-in）的正确方法，包括八字结连接安全带的要点和检查步骤，是先锋攀最基础的安全操作。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "How to belay the leader with a REVERSO",
+        "en": "How to belay the leader with a REVERSO"
+      },
+      "url": "https://www.youtube.com/watch?v=ymJb6tW5_BE",
+      "channel": "Petzl（官方系列）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "Petzl 官方讲解使用 REVERSO 保护器的先锋保护操作，包括正确的绳索管理、制动方式和紧急情况处理。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "攀岩馆先锋 如何扣快挂",
+        "en": "攀岩馆先锋 如何扣快挂"
+      },
+      "url": "https://www.bilibili.com/video/BV1rE411y7r3/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "讲解先锋攀中正确扣快挂（clipping）的方法，包括单手扣绳、避免背扣（z-clip / back-clip）等安全注意事项，是先锋攀入门的关键技术之一。",
+        "en": ""
+      },
+      "relevance": "secondary"
     }
   ],
-  "s05-basic": [
+  "kp-belaying": [
     {
-      "title": { "zh": "户外运动攀/传统攀装备 10 分钟全知道", "en": "All Climbing Gear Explained in 10 Minutes" },
-      "url": "https://www.bilibili.com/video/BV1ok4y127UL/",
+      "title": {
+        "zh": "How to belay the leader with a REVERSO",
+        "en": "How to belay the leader with a REVERSO"
+      },
+      "url": "https://www.youtube.com/watch?v=ymJb6tW5_BE",
+      "channel": "Petzl（官方系列）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "Petzl 官方讲解使用 REVERSO 保护器的先锋保护操作，包括正确的绳索管理、制动方式和紧急情况处理。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "How to belay the leader with a GRIGRI",
+        "en": "How to belay the leader with a GRIGRI"
+      },
+      "url": "https://www.youtube.com/watch?v=FHdqjjyeTtg",
+      "channel": "Petzl（官方系列）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "Petzl 官方讲解使用 GRIGRI（辅助制停保护器）的先锋保护操作，重点强调 GRIGRI 的特殊使用注意事项和常见误用场景。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "Chris Sharma's Lead Belay Techniques",
+        "en": "Chris Sharma's Lead Belay Techniques"
+      },
+      "url": "https://www.bilibili.com/video/BV1yX4y1w7SX/",
+      "channel": "Petzl Sport（中文字幕版）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "由传奇攀岩家 Chris Sharma 讲解先锋保护技术，Petzl 官方出品，Bilibili 版本配有中文字幕，是目前 Bilibili 上先锋保护的最佳教学资源之一。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "Rock Climbing: Lead Belay",
+        "en": "Rock Climbing: Lead Belay"
+      },
+      "url": "https://www.youtube.com/watch?v=S_F1MfVGOzk",
+      "channel": "REI（系列）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "REI 出品先锋保护操作教程，讲解先锋保护的完整流程，包括放绳时机、动态保护技术和制动方式。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "Dmm传统攀教学P6 多段领攀｜How to lead multipitch",
+        "en": "Dmm传统攀教学P6 多段领攀｜How to lead multipitch"
+      },
+      "url": "https://www.bilibili.com/video/BV1nX4y1h74g/",
+      "channel": "奚山不是山",
+      "platform": "bilibili",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "DMM 传统攀系列第 6 集，专项讲解多段攀登：保护站建立与交接、绳距管理、领攀与跟攀的角色转换，以及多段攀登中的安全要点。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "[攀岩\\",
+        "en": "[攀岩\\"
+      },
+      "url": "https://www.bilibili.com/video/BV1E34y1a75j/",
+      "channel": "云攀岩爱好者",
+      "platform": "bilibili",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "英文攀岩教学翻译视频（4.1 万播放），通过室内训练克服先锋坠落恐惧：从最低处坠落开始、逐渐增加高度和冲坠距离的渐进式训练方案，强调保护员的重要性和动态保护技术，是实操导向的恐惧脱敏教学。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-clipping-technique": [
+    {
+      "title": {
+        "zh": "Climbing Tech Tips - Sport Climbing Series（11集合辑）",
+        "en": "Climbing Tech Tips - Sport Climbing Series（11集合辑）"
+      },
+      "url": "https://www.bilibili.com/video/BV15J411q78F/",
+      "channel": "ClimbingWorld（搬运自 Climbing Tech Tips）",
+      "platform": "bilibili",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "Climbing Tech Tips 出品的 11 集户外运动攀系列，涵盖快扣扣法、绳子管理、先锋落地、户外运动攀安全规范等完整内容，是从室内过渡到户外运动攀的系统教程。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "攀岩馆先锋 如何扣快挂",
+        "en": "攀岩馆先锋 如何扣快挂"
+      },
+      "url": "https://www.bilibili.com/video/BV1rE411y7r3/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "讲解先锋攀中正确扣快挂（clipping）的方法，包括单手扣绳、避免背扣（z-clip / back-clip）等安全注意事项，是先锋攀入门的关键技术之一。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "Lead Climbing",
+        "en": "Lead Climbing"
+      },
+      "url": "https://www.youtube.com/watch?v=q4rVY3sLQqA",
+      "channel": "（攀岩系列）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 3,
+      "summary": {
+        "zh": "先锋攀入门综合教程，涵盖先锋攀的基本操作流程、挂绳（clipping）技术和冲坠处理，是室内先锋保护的好入门视频。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "（攀岩教学）先锋攀登的入绳方法",
+        "en": "（攀岩教学）先锋攀登的入绳方法"
+      },
+      "url": "https://www.bilibili.com/video/BV15J41147fW/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "讲解先锋攀入绳（tie-in）的正确方法，包括八字结连接安全带的要点和检查步骤，是先锋攀最基础的安全操作。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-fear-management": [
+    {
+      "title": {
+        "zh": "「Hard Is Easy」克服冲坠恐惧 - FOF P1",
+        "en": "「Hard Is Easy」克服冲坠恐惧 - FOF P1"
+      },
+      "url": "https://www.bilibili.com/video/BV1RM411L7Rd/",
+      "channel": "晓燕yancy",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "系列视频第一集，深入讲解先锋攀岩中冲坠恐惧（Fear Of Falling，FOF）的心理根源：本能反应与学习获得的恐惧的区别、渐进式暴露训练原理，以及第一步坠落练习的方法论，适合对先锋坠落有焦虑的攀岩者。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "[攀岩\\",
+        "en": "[攀岩\\"
+      },
+      "url": "https://www.bilibili.com/video/BV1E34y1a75j/",
+      "channel": "云攀岩爱好者",
+      "platform": "bilibili",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "英文攀岩教学翻译视频（4.1 万播放），通过室内训练克服先锋坠落恐惧：从最低处坠落开始、逐渐增加高度和冲坠距离的渐进式训练方案，强调保护员的重要性和动态保护技术，是实操导向的恐惧脱敏教学。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "先锋攀不敢冲坠？安全冲坠和保护教学",
+        "en": "先锋攀不敢冲坠？安全冲坠和保护教学"
+      },
+      "url": "https://www.bilibili.com/video/BV1j5411Y7kQ/",
       "channel": "知岩片语",
-      "lang": "zh"
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "讲解先锋攀冲坠恐惧的心理根源，以及克服恐惧的安全冲坠技术，包括落点预判和保护配合，适合有冲坠恐惧的攀岩者。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "【攀岩技术】冲坠是每一位难度攀岩者必须面对的一个坎 大神Adam这次教我们无惧冲坠",
+        "en": "【攀岩技术】冲坠是每一位难度攀岩者必须面对的一个坎 大神Adam这次教我们无惧冲坠"
+      },
+      "url": "https://www.bilibili.com/video/BV14P4y147vo/",
+      "channel": "（搬运 Adam Ondra）",
+      "platform": "bilibili",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "Adam Ondra 讲解如何克服冲坠恐惧、正确处理先锋攀冲坠，包括心理建设和具体的冲坠技术演示。",
+        "en": ""
+      },
+      "relevance": "secondary"
     }
   ],
-  "s05-protection": [
+  "kp-knots": [
     {
-      "title": { "zh": "Petzl 官方 GRIGRI 保护教学", "en": "Belaying with a GRIGRI — Official Petzl Tutorial" },
-      "url": "https://www.youtube.com/@petzl",
-      "channel": "Petzl",
-      "lang": "en"
+      "title": {
+        "zh": "How-to Tie Common Climbing Knots",
+        "en": "How-to Tie Common Climbing Knots"
+      },
+      "url": "https://www.youtube.com/watch?v=wBuUHaAU-Wo",
+      "channel": "（攀岩基础系列）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "攀岩常用绳结综合教程，涵盖多种常用绳结，配有清晰的分步骤演示，是绳结入门的首选视频。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "Climbing Knots Tutorial - Figure Eight, Clove Hitch, Overhand on a Bight",
+        "en": "Climbing Knots Tutorial - Figure Eight, Clove Hitch, Overhand on a Bight"
+      },
+      "url": "https://www.youtube.com/watch?v=nw7ohO02d2M",
+      "channel": "（攀岩教程系列）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "重点讲解攀岩三大核心绳结：八字结、双套结（clove hitch）和单绳结（overhand on a bight），每个绳结有详细的打法步骤。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "手把手教你学会打攀岩中最常用的各种绳结",
+        "en": "手把手教你学会打攀岩中最常用的各种绳结"
+      },
+      "url": "https://www.bilibili.com/video/BV1Mz411b7x4/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "中文版攀岩绳结综合教程，手把手讲解攀岩中最常用的绳结打法，每种绳结均有清晰的步骤演示，适合完全无绳结基础的新手。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "一日一结—八字结教程",
+        "en": "一日一结—八字结教程"
+      },
+      "url": "https://www.bilibili.com/video/BV1bx411y7y9/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "八字结（figure 8）专项教程，详细演示穿绳八字结的打法步骤，是最重要的攀岩入绳绳结。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "一分钟绳结教程—双套结",
+        "en": "一分钟绳结教程—双套结"
+      },
+      "url": "https://www.bilibili.com/video/BV1hY411E7S6/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "双套结（clove hitch）快速教程，一分钟内完整演示双套结的打法，非常适合需要快速学习的新手。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "【攀岩技术】如何再双绳上进行下降",
+        "en": "【攀岩技术】如何再双绳上进行下降"
+      },
+      "url": "https://www.bilibili.com/video/BV1qa411s7d4/",
+      "channel": "阳朔攀岩 Jerry",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "讲解户外双绳下降技术，包括绳子连接、防脱绳结、下降操作和安全检查，适合户外先锋攀或传统攀用户。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "Rock Climbing: Building a Top-Rope Anchor Using the Quad",
+        "en": "Rock Climbing: Building a Top-Rope Anchor Using the Quad"
+      },
+      "url": "https://www.youtube.com/watch?v=9liByriQRag",
+      "channel": "REI（系列）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "REI 出品的顶绳保护站搭建教程（Quad 方法），详细演示如何用 Quad 系统构建可靠的顶绳固定点。",
+        "en": ""
+      },
+      "relevance": "secondary"
     }
   ],
-  "s05-trad": [
+  "kp-belay-device": [
     {
-      "title": { "zh": "机械塞和岩塞怎么用？传统攀放置保护方法", "en": "How to Place Cams and Nuts for Trad Climbing" },
+      "title": {
+        "zh": "How to belay the leader with a GRIGRI",
+        "en": "How to belay the leader with a GRIGRI"
+      },
+      "url": "https://www.youtube.com/watch?v=FHdqjjyeTtg",
+      "channel": "Petzl（官方系列）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "Petzl 官方讲解使用 GRIGRI（辅助制停保护器）的先锋保护操作，重点强调 GRIGRI 的特殊使用注意事项和常见误用场景。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "户外运动攀、传统攀都需要哪些装备？10分钟告诉你所有知识点！",
+        "en": "户外运动攀、传统攀都需要哪些装备？10分钟告诉你所有知识点！"
+      },
+      "url": "https://www.bilibili.com/video/BV1ok4y127UL/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "10分钟全面介绍户外运动攀和传统攀所需的完整装备体系，包括绳、安全带、头盔、保护器、快挂、岩塞、机械塞等，是了解户外攀装备的综合入门视频。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "「攀岩装备讲解」关于户外攀岩的装备/从室内到户外你需要的硬件装备",
+        "en": "「攀岩装备讲解」关于户外攀岩的装备/从室内到户外你需要的硬件装备"
+      },
+      "url": "https://www.bilibili.com/video/BV1bh411r7iB/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "系统讲解从室内到户外攀岩所需的硬件装备，包括安全带（harness）、头盔（helmet）、动力绳（rope）、保护器（belay device）和快挂（quickdraw）的选择要点和基本使用方法。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-rappelling": [
+    {
+      "title": {
+        "zh": "Rock Climbing: How to Rappel",
+        "en": "Rock Climbing: How to Rappel"
+      },
+      "url": "https://www.youtube.com/watch?v=7U6tdEevJgs",
+      "channel": "REI（系列）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "REI 出品的绳降（rappel/abseil）入门教程，讲解下降设备的安装、下降操作步骤和安全检查要点。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "【攀岩技术】如何再双绳上进行下降",
+        "en": "【攀岩技术】如何再双绳上进行下降"
+      },
+      "url": "https://www.bilibili.com/video/BV1qa411s7d4/",
+      "channel": "阳朔攀岩 Jerry",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "讲解户外双绳下降技术，包括绳子连接、防脱绳结、下降操作和安全检查，适合户外先锋攀或传统攀用户。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "Multi-pitch Climbing 101: The Complete Guide",
+        "en": "Multi-pitch Climbing 101: The Complete Guide"
+      },
+      "url": "https://www.youtube.com/watch?v=7vPqJ_r5rKE",
+      "channel": "99Boulders",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "多段攀登完整指南：从单段过渡到多段所需的技能（锚点建立、跟攀、绳距管理、下降）以及装备清单，适合有一定基础的攀岩者学习多段入门。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-anchor-building": [
+    {
+      "title": {
+        "zh": "Rock Climbing: Building a Top-Rope Anchor Using the Quad",
+        "en": "Rock Climbing: Building a Top-Rope Anchor Using the Quad"
+      },
+      "url": "https://www.youtube.com/watch?v=9liByriQRag",
+      "channel": "REI（系列）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "REI 出品的顶绳保护站搭建教程（Quad 方法），详细演示如何用 Quad 系统构建可靠的顶绳固定点。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "How To Build An Anchor With Two Slings And Three Pieces",
+        "en": "How To Build An Anchor With Two Slings And Three Pieces"
+      },
+      "url": "https://www.youtube.com/watch?v=2mSZ5ROlPoY",
+      "channel": "（攀岩保护技术系列）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "讲解传统攀中使用两根扁带和三个保护点构建保护站的方法，是传统攀保护站搭建的进阶教程。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "机械塞和岩塞怎么用？传统攀放置保护的基本方法",
+        "en": "机械塞和岩塞怎么用？传统攀放置保护的基本方法"
+      },
       "url": "https://www.bilibili.com/video/BV1K64y117Bi/",
       "channel": "知岩片语",
-      "lang": "zh"
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "知岩片语出品的传统攀保护放置教学，讲解机械塞（cam）和岩石塞（nut/stopper）的正确放置方法，确保在冲坠受力时不失效，是传统攀\"第一课也是最重要的一课\"。",
+        "en": ""
+      },
+      "relevance": "secondary"
     },
     {
-      "title": { "zh": "VDiff 传统攀装备放置教学", "en": "VDiff Trad Climbing Gear Placement" },
-      "url": "https://www.vdiffclimbing.com/",
-      "channel": "VDiff Climbing",
-      "lang": "en"
-    }
-  ],
-  "s05-bigwall": [
-    {
-      "title": { "zh": "HowNOT2 大岩壁装备指南", "en": "Big Wall Gear Guide — HowNOT2" },
-      "url": "https://www.youtube.com/@HowNOT2",
-      "channel": "HowNOT2",
-      "lang": "en"
-    }
-  ],
-  "s05-training": [
-    {
-      "title": { "zh": "Lattice Training 指力板训练指南", "en": "Hangboard Training Guide — Lattice Training" },
-      "url": "https://www.youtube.com/@LatticeTraining",
-      "channel": "Lattice Training",
-      "lang": "en"
-    }
-  ],
-  "s06-indoor": [
-    {
-      "title": { "zh": "VDiff 顶绳保护基础", "en": "How To Belay: Top Rope Basics — VDiff" },
-      "url": "https://www.vdiffclimbing.com/",
-      "channel": "VDiff Climbing",
-      "lang": "en"
-    }
-  ],
-  "s06-outdoor": [
-    {
-      "title": { "zh": "Ortovox Safety Academy 户外攀岩安全系列", "en": "Safety Academy Lab Rock Series — Ortovox" },
-      "url": "https://www.youtube.com/@ORTOVOX",
-      "channel": "Ortovox",
-      "lang": "en"
+      "title": {
+        "zh": "传统攀岩：从入门到认怂（DMM传统攀教程）",
+        "en": "传统攀岩：从入门到认怂（DMM传统攀教程）"
+      },
+      "url": "https://www.bilibili.com/video/BV1mT411E7nJ/",
+      "channel": "（DMM 教程搬运）",
+      "platform": "bilibili",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "DMM 出品的传统攀入门综合教程，涵盖传统攀概念、保护装置（cam/nut）的正确使用、锚点搭建原则和基本裂缝技术，适合从运动攀过渡到传统攀的攀岩者。",
+        "en": ""
+      },
+      "relevance": "secondary"
     },
     {
-      "title": { "zh": "REI 顶绳锚点建设教学", "en": "How to Set & Clean Top Rope Anchors — REI" },
-      "url": "https://www.youtube.com/@REI",
-      "channel": "REI",
-      "lang": "en"
+      "title": {
+        "zh": "Dmm传统攀教学P6 多段领攀｜How to lead multipitch",
+        "en": "Dmm传统攀教学P6 多段领攀｜How to lead multipitch"
+      },
+      "url": "https://www.bilibili.com/video/BV1nX4y1h74g/",
+      "channel": "奚山不是山",
+      "platform": "bilibili",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "DMM 传统攀系列第 6 集，专项讲解多段攀登：保护站建立与交接、绳距管理、领攀与跟攀的角色转换，以及多段攀登中的安全要点。",
+        "en": ""
+      },
+      "relevance": "secondary"
     },
     {
-      "title": { "zh": "Chris Sharma 先锋攀保护技术讲解", "en": "Lead Belay Techniques by Chris Sharma" },
-      "url": "https://www.bilibili.com/video/BV1yX4y1w7SX/",
-      "channel": "Petzl Sport (中文字幕)",
-      "lang": "zh"
+      "title": {
+        "zh": "Multi-pitch Climbing 101: The Complete Guide",
+        "en": "Multi-pitch Climbing 101: The Complete Guide"
+      },
+      "url": "https://www.youtube.com/watch?v=7vPqJ_r5rKE",
+      "channel": "99Boulders",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "多段攀登完整指南：从单段过渡到多段所需的技能（锚点建立、跟攀、绳距管理、下降）以及装备清单，适合有一定基础的攀岩者学习多段入门。",
+        "en": ""
+      },
+      "relevance": "secondary"
     }
   ],
-  "s06-rope": [
+  "kp-placing-protection": [
     {
-      "title": { "zh": "一日一结—八字结教程", "en": "Essential Knots: Figure 8 Knot Tutorial" },
-      "url": "https://www.bilibili.com/video/BV1bx411y7y9/",
-      "channel": "—",
-      "lang": "zh"
+      "title": {
+        "zh": "传统攀岩：从入门到认怂（DMM传统攀教程）",
+        "en": "传统攀岩：从入门到认怂（DMM传统攀教程）"
+      },
+      "url": "https://www.bilibili.com/video/BV1mT411E7nJ/",
+      "channel": "（DMM 教程搬运）",
+      "platform": "bilibili",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "DMM 出品的传统攀入门综合教程，涵盖传统攀概念、保护装置（cam/nut）的正确使用、锚点搭建原则和基本裂缝技术，适合从运动攀过渡到传统攀的攀岩者。",
+        "en": ""
+      },
+      "relevance": "primary"
     },
     {
-      "title": { "zh": "一分钟绳结教程—双套结", "en": "Quick Knot Tutorial: Clove Hitch" },
-      "url": "https://www.bilibili.com/video/BV1hY411E7S6/",
-      "channel": "—",
-      "lang": "zh"
+      "title": {
+        "zh": "机械塞和岩塞怎么用？传统攀放置保护的基本方法",
+        "en": "机械塞和岩塞怎么用？传统攀放置保护的基本方法"
+      },
+      "url": "https://www.bilibili.com/video/BV1K64y117Bi/",
+      "channel": "知岩片语",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "知岩片语出品的传统攀保护放置教学，讲解机械塞（cam）和岩石塞（nut/stopper）的正确放置方法，确保在冲坠受力时不失效，是传统攀\"第一课也是最重要的一课\"。",
+        "en": ""
+      },
+      "relevance": "secondary"
     },
     {
-      "title": { "zh": "VDiff 绳降（下降）技术详解", "en": "Abseiling (Rappelling) Explained — VDiff" },
-      "url": "https://www.vdiffclimbing.com/",
-      "channel": "VDiff Climbing",
-      "lang": "en"
+      "title": {
+        "zh": "WILD COUNTRY CRACK SCHOOL 裂缝攀岩教学第一集 指缝技术",
+        "en": "WILD COUNTRY CRACK SCHOOL 裂缝攀岩教学第一集 指缝技术"
+      },
+      "url": "https://www.bilibili.com/video/BV1TT41177K7/",
+      "channel": "（Wild Country 官方教学搬运）",
+      "platform": "bilibili",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "Wild Country（攀岩器材老牌厂商）出品的裂缝学校系列第一集，详解指缝（finger crack）技术：手指锁缝原理、不同宽度指缝的应对方法，以及保护自己手指的贴扎技术。",
+        "en": ""
+      },
+      "relevance": "secondary"
     },
     {
-      "title": { "zh": "Petzl 多段绳降教学", "en": "Multi-pitch Rappelling with a Single Rope — Petzl" },
-      "url": "https://www.youtube.com/@petzl",
-      "channel": "Petzl",
-      "lang": "en"
+      "title": {
+        "zh": "How To Build An Anchor With Two Slings And Three Pieces",
+        "en": "How To Build An Anchor With Two Slings And Three Pieces"
+      },
+      "url": "https://www.youtube.com/watch?v=2mSZ5ROlPoY",
+      "channel": "（攀岩保护技术系列）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "讲解传统攀中使用两根扁带和三个保护点构建保护站的方法，是传统攀保护站搭建的进阶教程。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "Introduction to Crack Climbing",
+        "en": "Introduction to Crack Climbing"
+      },
+      "url": "https://www.youtube.com/watch?v=l4EzbCLfUkc",
+      "channel": "（裂缝攀博主）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "裂缝攀岩入门介绍视频，讲解不同尺寸裂缝的应对方法（指缝/手塞/拳塞）和基本保护放置原则，适合裂缝攀零基础者。",
+        "en": ""
+      },
+      "relevance": "secondary"
     }
   ],
-  "s06-boulder": [
+  "kp-hangboard-training": [
     {
-      "title": { "zh": "抱石安全：落地、保护与垫子放置", "en": "How to Boulder Safely: Spotting, Pad Placement & Falling" },
-      "url": "https://www.youtube.com/@ClimbingMagazine",
-      "channel": "Climbing Magazine",
-      "lang": "en"
-    }
-  ],
-  "s07-common": [
-    {
-      "title": { "zh": "Hooper's Beta A2 滑车韧带康复指南", "en": "A2 Pulley Rehab Manual — Hooper's Beta" },
-      "url": "https://www.youtube.com/@HoopersBeta",
-      "channel": "Hooper's Beta",
-      "lang": "en"
+      "title": {
+        "zh": "指力板初中阶完整训练模板分享",
+        "en": "指力板初中阶完整训练模板分享"
+      },
+      "url": "https://www.bilibili.com/video/BV1W44y1y7nT/",
+      "channel": "Jamin_Yan",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "Jamin_Yan（翻译 Hooper's Beta 内容）分享的指力板完整训练计划，涵盖初学者和中级爬者的训练强度、组数安排和动作示范。",
+        "en": ""
+      },
+      "relevance": "primary"
     },
     {
-      "title": { "zh": "The Climbing Doctor 攀岩伤病康复（80+ 视频）", "en": "Rock Rehab Pyramid — The Climbing Doctor" },
-      "url": "https://www.youtube.com/@theclimbingdoctor",
-      "channel": "The Climbing Doctor",
-      "lang": "en"
+      "title": {
+        "zh": "家用指力板选购安装训练详解",
+        "en": "家用指力板选购安装训练详解"
+      },
+      "url": "https://www.bilibili.com/video/BV1FE411A7uR/",
+      "channel": "知岩片语",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "全面讲解家用指力板的选购标准、安装方法和入门训练计划，适合想在家里进行指力训练的攀岩者。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "【转】初、中级攀岩指力板训练计划",
+        "en": "【转】初、中级攀岩指力板训练计划"
+      },
+      "url": "https://www.bilibili.com/video/BV1Zy4y1m7UQ/",
+      "channel": "（搬运/翻译）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "初中级指力板训练计划的详细介绍，包含热身和训练动作，针对指力处于平台期的攀岩者，提供具体的组数安排和负重建议。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "【攀岩训练】如何用指力板练爆发耐力",
+        "en": "【攀岩训练】如何用指力板练爆发耐力"
+      },
+      "url": "https://www.bilibili.com/video/BV1fZ4y1M7gc/",
+      "channel": "未來攀登",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "未来攀登（翻译 Lattice Training 内容）讲解如何用指力板进行爆发耐力（power endurance）训练，包含具体的训练协议和强度控制方法。",
+        "en": ""
+      },
+      "relevance": "secondary"
     }
   ],
-  "s07-prevention": [
+  "kp-hangboard-gear": [
     {
-      "title": { "zh": "Hooper's Beta 攀岩者肩部热身", "en": "Simple Shoulder Warm-Up for Climbers" },
+      "title": {
+        "zh": "家用指力板选购安装训练详解",
+        "en": "家用指力板选购安装训练详解"
+      },
+      "url": "https://www.bilibili.com/video/BV1FE411A7uR/",
+      "channel": "知岩片语",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "全面讲解家用指力板的选购标准、安装方法和入门训练计划，适合想在家里进行指力训练的攀岩者。",
+        "en": ""
+      },
+      "relevance": "primary"
+    }
+  ],
+  "kp-advanced-finger": [
+    {
+      "title": {
+        "zh": "【转】初、中级攀岩指力板训练计划",
+        "en": "【转】初、中级攀岩指力板训练计划"
+      },
+      "url": "https://www.bilibili.com/video/BV1Zy4y1m7UQ/",
+      "channel": "（搬运/翻译）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "初中级指力板训练计划的详细介绍，包含热身和训练动作，针对指力处于平台期的攀岩者，提供具体的组数安排和负重建议。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-power-endurance": [
+    {
+      "title": {
+        "zh": "【攀岩训练】如何用指力板练爆发耐力",
+        "en": "【攀岩训练】如何用指力板练爆发耐力"
+      },
+      "url": "https://www.bilibili.com/video/BV1fZ4y1M7gc/",
+      "channel": "未來攀登",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "未来攀登（翻译 Lattice Training 内容）讲解如何用指力板进行爆发耐力（power endurance）训练，包含具体的训练协议和强度控制方法。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "【攀岩训练】Adam Ondra传授如何最大化你的攀岩耐力 力量耐力训练方法 中文自翻",
+        "en": "【攀岩训练】Adam Ondra传授如何最大化你的攀岩耐力 力量耐力训练方法 中文自翻"
+      },
+      "url": "https://www.bilibili.com/video/BV1rU4y1Y7sW/",
+      "channel": "（中文自翻译）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "Adam Ondra 讲解如何最大化攀岩耐力，涵盖力量耐力（power endurance）训练方法，包括 4x4 和 ARC 相关概念，有中文字幕翻译。",
+        "en": ""
+      },
+      "relevance": "primary"
+    }
+  ],
+  "kp-4x4-training": [
+    {
+      "title": {
+        "zh": "【攀岩训练】如何用指力板练爆发耐力",
+        "en": "【攀岩训练】如何用指力板练爆发耐力"
+      },
+      "url": "https://www.bilibili.com/video/BV1fZ4y1M7gc/",
+      "channel": "未來攀登",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "未来攀登（翻译 Lattice Training 内容）讲解如何用指力板进行爆发耐力（power endurance）训练，包含具体的训练协议和强度控制方法。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "【攀岩训练】Adam Ondra传授如何最大化你的攀岩耐力 力量耐力训练方法 中文自翻",
+        "en": "【攀岩训练】Adam Ondra传授如何最大化你的攀岩耐力 力量耐力训练方法 中文自翻"
+      },
+      "url": "https://www.bilibili.com/video/BV1rU4y1Y7sW/",
+      "channel": "（中文自翻译）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "Adam Ondra 讲解如何最大化攀岩耐力，涵盖力量耐力（power endurance）训练方法，包括 4x4 和 ARC 相关概念，有中文字幕翻译。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-warmup-stretching": [
+    {
+      "title": {
+        "zh": "Simple Shoulder Warm-Up for Climbers",
+        "en": "Simple Shoulder Warm-Up for Climbers"
+      },
       "url": "https://youtu.be/_XONhxQ-Gbk",
       "channel": "Hooper's Beta",
-      "lang": "en"
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "Hooper's Beta 出品的攀岩者肩部专项热身教程，提供简单有效的肩部热身动作序列，针对攀岩者常见肩部问题设计。",
+        "en": ""
+      },
+      "relevance": "primary"
     },
     {
-      "title": { "zh": "Lattice Training 最佳热身方法", "en": "The Fastest and Best Way to Warm Up for Climbing" },
-      "url": "https://www.youtube.com/@LatticeTraining",
-      "channel": "Lattice Training",
-      "lang": "en"
+      "title": {
+        "zh": "Basic Stretching After Climbing (with timer)｜SULIMORO",
+        "en": "Basic Stretching After Climbing (with timer)｜SULIMORO"
+      },
+      "url": "https://www.youtube.com/watch?v=aZP9FsgV_Mo",
+      "channel": "日光山石 SULIMORO",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "英文跟练视频，提供完整攀岩后拉伸流程，内含计时器辅助，依次引导上肢、肩部、前臂、手指、核心及下肢的放松伸展动作，可直接跟练使用，时长约 10 分钟。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "How To Warm Up For Climbing With Louis Parkinson",
+        "en": "How To Warm Up For Climbing With Louis Parkinson"
+      },
+      "url": "https://www.youtube.com/watch?v=eD8yRPydCDQ",
+      "channel": "（攀岩热身系列）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "攀岩热身专项教程，由 Louis Parkinson 讲解完整的攀岩前热身流程，包括肩部、髋部和手指的热身动作序列。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "Dynamic Climbing Warm-up",
+        "en": "Dynamic Climbing Warm-up"
+      },
+      "url": "https://www.youtube.com/watch?v=B86QxHCDiM0",
+      "channel": "（攀岩热身系列）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 3,
+      "summary": {
+        "zh": "动态热身教程，提供适合攀岩者的动态拉伸动作序列，强调在攀岩前通过动态（而非静态）方式激活肌肉和关节。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "攀爬前暖身篇【跟著影片做】｜日光山石",
+        "en": "攀爬前暖身篇【跟著影片做】｜日光山石"
+      },
+      "url": "https://www.youtube.com/watch?v=NQTgW6Ud0O8",
+      "channel": "日光山石 SULIMORO",
+      "platform": "youtube",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "攀爬前热身跟练视频，由职业选手带领，涵盖关节活化、动态拉伸、肩部激活、手指逐渐加负荷等完整热身流程，可直接跟练，繁体中文解说，对 kp-warmup 内容高度契合。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "可以在家练习的攀岩体能训练 How to Train for Climbing by REI 英语字幕",
+        "en": "可以在家练习的攀岩体能训练 How to Train for Climbing by REI 英语字幕"
+      },
+      "url": "https://www.bilibili.com/video/BV1F84y1c7Tg/",
+      "channel": "（搬运 REI）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "REI 官方出品的居家攀岩体能训练视频，涵盖拉力、耐力和核心训练的基础动作，Bilibili 版本提供中文字幕，适合没有条件去岩馆时的家庭训练。",
+        "en": ""
+      },
+      "relevance": "secondary"
     }
   ],
-  "s07-recovery": [
+  "kp-warmup": [
     {
-      "title": { "zh": "The Climbing Doctor 肘部伤病康复", "en": "How to Heal Elbow Injuries in Climbers" },
-      "url": "https://www.youtube.com/@theclimbingdoctor",
-      "channel": "The Climbing Doctor",
-      "lang": "en"
-    }
-  ],
-  "s07-nutrition": [
-    {
-      "title": { "zh": "Hooper's Beta 攀岩者饮食与营养", "en": "How to Use Food to Heal and Climb Better" },
-      "url": "https://www.youtube.com/@HoopersBeta",
+      "title": {
+        "zh": "Simple Shoulder Warm-Up for Climbers",
+        "en": "Simple Shoulder Warm-Up for Climbers"
+      },
+      "url": "https://youtu.be/_XONhxQ-Gbk",
       "channel": "Hooper's Beta",
-      "lang": "en"
-    }
-  ],
-  "s08-transition": [
-    {
-      "title": { "zh": "Climbing Nomads 岩馆到户外", "en": "Gym to Crag Vlogs — Climbing Nomads" },
-      "url": "https://www.youtube.com/@TheClimbingNomads",
-      "channel": "Climbing Nomads",
-      "lang": "en"
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "Hooper's Beta 出品的攀岩者肩部专项热身教程，提供简单有效的肩部热身动作序列，针对攀岩者常见肩部问题设计。",
+        "en": ""
+      },
+      "relevance": "primary"
     },
     {
-      "title": { "zh": "VDiff 户外攀岩学习系列", "en": "Learn to Climb Outdoors — VDiff" },
-      "url": "https://www.vdiffclimbing.com/",
-      "channel": "VDiff Climbing",
-      "lang": "en"
+      "title": {
+        "zh": "攀爬前暖身篇【跟著影片做】｜日光山石",
+        "en": "攀爬前暖身篇【跟著影片做】｜日光山石"
+      },
+      "url": "https://www.youtube.com/watch?v=NQTgW6Ud0O8",
+      "channel": "日光山石 SULIMORO",
+      "platform": "youtube",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "攀爬前热身跟练视频，由职业选手带领，涵盖关节活化、动态拉伸、肩部激活、手指逐渐加负荷等完整热身流程，可直接跟练，繁体中文解说，对 kp-warmup 内容高度契合。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "How To Warm Up For Climbing With Louis Parkinson",
+        "en": "How To Warm Up For Climbing With Louis Parkinson"
+      },
+      "url": "https://www.youtube.com/watch?v=eD8yRPydCDQ",
+      "channel": "（攀岩热身系列）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "攀岩热身专项教程，由 Louis Parkinson 讲解完整的攀岩前热身流程，包括肩部、髋部和手指的热身动作序列。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "How to Warm Up for Climbing and Bouldering",
+        "en": "How to Warm Up for Climbing and Bouldering"
+      },
+      "url": "https://www.bilibili.com/video/BV1L54y1z72R/",
+      "channel": "（国内攀岩博主转载/搬运）",
+      "platform": "bilibili",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "系统讲解攀岩热身流程：从有氧激活、关节活动度练习，到手指渐进热身和专项动作准备，适合攀岩前热身流程建立。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "Warm Up Your Fingers to Prevent Finger Injury",
+        "en": "Warm Up Your Fingers to Prevent Finger Injury"
+      },
+      "url": "https://www.youtube.com/watch?v=N2N4lMe9aIM",
+      "channel": "（攀岩健康/PT 频道）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 3,
+      "summary": {
+        "zh": "针对攀岩者手指热身的短视频，演示赛前/训练前手指活化动作，帮助减少滑车和腱鞘损伤风险。",
+        "en": ""
+      },
+      "relevance": "primary"
     }
   ],
-  "s08-sport": [
+  "kp-shoulder-mobility": [
     {
-      "title": { "zh": "Adam Ondra 运动攀频道", "en": "Adam Ondra — Sport Climbing Channel" },
-      "url": "https://www.youtube.com/@AdamOndra",
-      "channel": "Adam Ondra",
-      "lang": "en"
+      "title": {
+        "zh": "攀岩的活動度測試｜日光山石",
+        "en": "攀岩的活動度測試｜日光山石"
+      },
+      "url": "https://www.youtube.com/watch?v=IMGkL6QsgCQ",
+      "channel": "日光山石 SULIMORO",
+      "platform": "youtube",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "专项讲解攀岩者需要的关节活动度自测方法：肩关节灵活性、髋部开合度、脚踝活动范围等关键测试动作，帮助攀岩者找出自身活动度弱点并制定改善方向。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "Simple Shoulder Warm-Up for Climbers",
+        "en": "Simple Shoulder Warm-Up for Climbers"
+      },
+      "url": "https://youtu.be/_XONhxQ-Gbk",
+      "channel": "Hooper's Beta",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "Hooper's Beta 出品的攀岩者肩部专项热身教程，提供简单有效的肩部热身动作序列，针对攀岩者常见肩部问题设计。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "How To Warm Up For Climbing With Louis Parkinson",
+        "en": "How To Warm Up For Climbing With Louis Parkinson"
+      },
+      "url": "https://www.youtube.com/watch?v=eD8yRPydCDQ",
+      "channel": "（攀岩热身系列）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "攀岩热身专项教程，由 Louis Parkinson 讲解完整的攀岩前热身流程，包括肩部、髋部和手指的热身动作序列。",
+        "en": ""
+      },
+      "relevance": "secondary"
     }
   ],
-  "s08-trad": [
+  "kp-hip-flexibility": [
     {
-      "title": { "zh": "Wide Boyz 裂缝攀登教学", "en": "Wide Boyz — Crack Climbing" },
-      "url": "https://www.youtube.com/@WideBoyztv",
-      "channel": "Wide Boyz",
-      "lang": "en"
+      "title": {
+        "zh": "How To Warm Up For Climbing With Louis Parkinson",
+        "en": "How To Warm Up For Climbing With Louis Parkinson"
+      },
+      "url": "https://www.youtube.com/watch?v=eD8yRPydCDQ",
+      "channel": "（攀岩热身系列）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "攀岩热身专项教程，由 Louis Parkinson 讲解完整的攀岩前热身流程，包括肩部、髋部和手指的热身动作序列。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "攀岩的活動度測試｜日光山石",
+        "en": "攀岩的活動度測試｜日光山石"
+      },
+      "url": "https://www.youtube.com/watch?v=IMGkL6QsgCQ",
+      "channel": "日光山石 SULIMORO",
+      "platform": "youtube",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "专项讲解攀岩者需要的关节活动度自测方法：肩关节灵活性、髋部开合度、脚踝活动范围等关键测试动作，帮助攀岩者找出自身活动度弱点并制定改善方向。",
+        "en": ""
+      },
+      "relevance": "secondary"
     }
   ],
-  "s08-bouldering": [
+  "kp-shoulder-stability": [
     {
-      "title": { "zh": "Mellow Climbing 户外抱石", "en": "World-Class Outdoor Bouldering — Mellow Climbing" },
-      "url": "https://www.youtube.com/@mellowclimbing",
-      "channel": "Mellow Climbing",
-      "lang": "en"
+      "title": {
+        "zh": "【攀岩康复】用好肩胛骨收缩避免肩关节损伤 肩袖 肩峰撞击原理 攀岩平民爱好者的自修",
+        "en": "【攀岩康复】用好肩胛骨收缩避免肩关节损伤 肩袖 肩峰撞击原理 攀岩平民爱好者的自修"
+      },
+      "url": "https://www.bilibili.com/video/BV1vG411G7fN/",
+      "channel": "（攀岩康复系列）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "讲解攀岩中肩关节损伤的解剖原理（肩袖/肩峰撞击），并教授如何通过正确使用肩胛骨收缩来预防肩关节损伤，适合所有有肩部问题或想预防的攀岩者。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "Simple Shoulder Warm-Up for Climbers",
+        "en": "Simple Shoulder Warm-Up for Climbers"
+      },
+      "url": "https://youtu.be/_XONhxQ-Gbk",
+      "channel": "Hooper's Beta",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "Hooper's Beta 出品的攀岩者肩部专项热身教程，提供简单有效的肩部热身动作序列，针对攀岩者常见肩部问题设计。",
+        "en": ""
+      },
+      "relevance": "secondary"
     }
   ],
-  "s08-bigwall": [
+  "kp-core-role": [
     {
-      "title": { "zh": "AlpineSavvy 大岩壁教学", "en": "Big Wall & Aid Climbing Tutorials — AlpineSavvy" },
-      "url": "https://www.alpinesavvy.com/videos",
-      "channel": "AlpineSavvy",
-      "lang": "en"
+      "title": {
+        "zh": "壶铃核心练习，攀岩运动中核心的重要性",
+        "en": "壶铃核心练习，攀岩运动中核心的重要性"
+      },
+      "url": "https://www.bilibili.com/video/BV1TQ4y1U7py/",
+      "channel": "窦神",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "讲解核心力量在攀岩中的重要性，并提供壶铃核心训练动作序列，适合想提升核心控制能力的攀岩者。",
+        "en": ""
+      },
+      "relevance": "primary"
     }
   ],
-  "s08-travel": [
+  "kp-core-training": [
     {
-      "title": { "zh": "Climbing Nomads 攀岩旅行", "en": "Climbing Destination Vlogs — Climbing Nomads" },
-      "url": "https://www.youtube.com/@TheClimbingNomads",
-      "channel": "Climbing Nomads",
-      "lang": "en"
+      "title": {
+        "zh": "壶铃核心练习，攀岩运动中核心的重要性",
+        "en": "壶铃核心练习，攀岩运动中核心的重要性"
+      },
+      "url": "https://www.bilibili.com/video/BV1TQ4y1U7py/",
+      "channel": "窦神",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "讲解核心力量在攀岩中的重要性，并提供壶铃核心训练动作序列，适合想提升核心控制能力的攀岩者。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "可以在家练习的攀岩体能训练 How to Train for Climbing by REI 英语字幕",
+        "en": "可以在家练习的攀岩体能训练 How to Train for Climbing by REI 英语字幕"
+      },
+      "url": "https://www.bilibili.com/video/BV1F84y1c7Tg/",
+      "channel": "（搬运 REI）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "REI 官方出品的居家攀岩体能训练视频，涵盖拉力、耐力和核心训练的基础动作，Bilibili 版本提供中文字幕，适合没有条件去岩馆时的家庭训练。",
+        "en": ""
+      },
+      "relevance": "secondary"
     }
   ],
-  "s09-kids": [
+  "kp-pulling-power": [
     {
-      "title": { "zh": "Bouldering Bobat 入门友好抱石", "en": "Accessible Bouldering Content — Bouldering Bobat" },
-      "url": "https://www.youtube.com/@BoulderingBobat",
-      "channel": "Bouldering Bobat",
-      "lang": "en"
+      "title": {
+        "zh": "可以在家练习的攀岩体能训练 How to Train for Climbing by REI 英语字幕",
+        "en": "可以在家练习的攀岩体能训练 How to Train for Climbing by REI 英语字幕"
+      },
+      "url": "https://www.bilibili.com/video/BV1F84y1c7Tg/",
+      "channel": "（搬运 REI）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "REI 官方出品的居家攀岩体能训练视频，涵盖拉力、耐力和核心训练的基础动作，Bilibili 版本提供中文字幕，适合没有条件去岩馆时的家庭训练。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "壶铃核心练习，攀岩运动中核心的重要性",
+        "en": "壶铃核心练习，攀岩运动中核心的重要性"
+      },
+      "url": "https://www.bilibili.com/video/BV1TQ4y1U7py/",
+      "channel": "窦神",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "讲解核心力量在攀岩中的重要性，并提供壶铃核心训练动作序列，适合想提升核心控制能力的攀岩者。",
+        "en": ""
+      },
+      "relevance": "secondary"
     }
   ],
-  "s09-youth": [
+  "kp-palming": [
     {
-      "title": { "zh": "Lattice Training 攀岩训练入门", "en": "Beginner's Guide to Training — Lattice Training" },
-      "url": "https://www.youtube.com/@LatticeTraining",
+      "title": {
+        "zh": "【攀岩教学】快速提高斜面点（sloper）的技巧",
+        "en": "【攀岩教学】快速提高斜面点（sloper）的技巧"
+      },
+      "url": "https://www.bilibili.com/video/BV1c44y1w7Gp/",
+      "channel": "跑团Thinker",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "专项讲解斜面点（sloper）的握法技巧，包括手掌与岩点的接触面积优化、重心位置的配合，以及快速提升斜面点能力的训练建议。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-endurance-types": [
+    {
+      "title": {
+        "zh": "【攀岩训练】Adam Ondra传授如何最大化你的攀岩耐力 力量耐力训练方法 中文自翻",
+        "en": "【攀岩训练】Adam Ondra传授如何最大化你的攀岩耐力 力量耐力训练方法 中文自翻"
+      },
+      "url": "https://www.bilibili.com/video/BV1rU4y1Y7sW/",
+      "channel": "（中文自翻译）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "Adam Ondra 讲解如何最大化攀岩耐力，涵盖力量耐力（power endurance）训练方法，包括 4x4 和 ARC 相关概念，有中文字幕翻译。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "可以在家练习的攀岩体能训练 How to Train for Climbing by REI 英语字幕",
+        "en": "可以在家练习的攀岩体能训练 How to Train for Climbing by REI 英语字幕"
+      },
+      "url": "https://www.bilibili.com/video/BV1F84y1c7Tg/",
+      "channel": "（搬运 REI）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "REI 官方出品的居家攀岩体能训练视频，涵盖拉力、耐力和核心训练的基础动作，Bilibili 版本提供中文字幕，适合没有条件去岩馆时的家庭训练。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "攀岩ARC训练20分钟",
+        "en": "攀岩ARC训练20分钟"
+      },
+      "url": "https://www.bilibili.com/video/BV1ev411W7xA/",
+      "channel": "阿龙onthewall",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "实操演示攀岩 ARC（Aerobic Restoration and Capillarity）训练：选择低于 onsight 两三级的路线、20-45 分钟不间断低强度攀爬、控制泵感在 3/10 以内，以提高前臂毛细血管密度和有氧代谢能力，是 ARC 训练方法最直观的中文示范。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-arc-training": [
+    {
+      "title": {
+        "zh": "攀岩ARC训练20分钟",
+        "en": "攀岩ARC训练20分钟"
+      },
+      "url": "https://www.bilibili.com/video/BV1ev411W7xA/",
+      "channel": "阿龙onthewall",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "实操演示攀岩 ARC（Aerobic Restoration and Capillarity）训练：选择低于 onsight 两三级的路线、20-45 分钟不间断低强度攀爬、控制泵感在 3/10 以内，以提高前臂毛细血管密度和有氧代谢能力，是 ARC 训练方法最直观的中文示范。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "【攀岩训练】Adam Ondra传授如何最大化你的攀岩耐力 力量耐力训练方法 中文自翻",
+        "en": "【攀岩训练】Adam Ondra传授如何最大化你的攀岩耐力 力量耐力训练方法 中文自翻"
+      },
+      "url": "https://www.bilibili.com/video/BV1rU4y1Y7sW/",
+      "channel": "（中文自翻译）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "Adam Ondra 讲解如何最大化攀岩耐力，涵盖力量耐力（power endurance）训练方法，包括 4x4 和 ARC 相关概念，有中文字幕翻译。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-climbing-shoes": [
+    {
+      "title": {
+        "zh": "攀岩鞋，怎麼選？｜日光山石",
+        "en": "攀岩鞋，怎麼選？｜日光山石"
+      },
+      "url": "https://www.youtube.com/watch?v=oOxxZWc09_M",
+      "channel": "日光山石 SULIMORO",
+      "platform": "youtube",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "繁体中文攀岩鞋选购指南：从鞋型（平底/下弯/大下弯）、鞋底材质、松紧度、适合使用场景（室内/室外/先锋/抱石）等维度系统讲解如何选择适合自己的攀岩鞋，由职业选手亲身推荐。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "致新人 入坑攀岩！在选购首套装备时的一些小建议 小tips... 从攀岩鞋开始",
+        "en": "致新人 入坑攀岩！在选购首套装备时的一些小建议 小tips... 从攀岩鞋开始"
+      },
+      "url": "https://www.bilibili.com/video/BV1W44y1g7m8/",
+      "channel": "泓峷climber",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "针对攀岩新人的首套装备选购指南，重点从攀岩鞋讲起，介绍鞋型选择（平底vs下弯）、尺码建议、品牌推荐，并延伸到镁粉、安全带等基础装备的选购注意事项。注意：视频默认用户了解 UIAA/CE 认证。",
+        "en": ""
+      },
+      "relevance": "primary"
+    }
+  ],
+  "kp-chalk": [
+    {
+      "title": {
+        "zh": "致新人 入坑攀岩！在选购首套装备时的一些小建议 小tips... 从攀岩鞋开始",
+        "en": "致新人 入坑攀岩！在选购首套装备时的一些小建议 小tips... 从攀岩鞋开始"
+      },
+      "url": "https://www.bilibili.com/video/BV1W44y1g7m8/",
+      "channel": "泓峷climber",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "针对攀岩新人的首套装备选购指南，重点从攀岩鞋讲起，介绍鞋型选择（平底vs下弯）、尺码建议、品牌推荐，并延伸到镁粉、安全带等基础装备的选购注意事项。注意：视频默认用户了解 UIAA/CE 认证。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-harness": [
+    {
+      "title": {
+        "zh": "户外运动攀、传统攀都需要哪些装备？10分钟告诉你所有知识点！",
+        "en": "户外运动攀、传统攀都需要哪些装备？10分钟告诉你所有知识点！"
+      },
+      "url": "https://www.bilibili.com/video/BV1ok4y127UL/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "10分钟全面介绍户外运动攀和传统攀所需的完整装备体系，包括绳、安全带、头盔、保护器、快挂、岩塞、机械塞等，是了解户外攀装备的综合入门视频。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "How to Choose a Climbing Harness",
+        "en": "How to Choose a Climbing Harness"
+      },
+      "url": "https://www.youtube.com/watch?v=aRrLfR7rnw0",
+      "channel": "REI",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "REI 专家讲解攀岩安全带的类型和选购要点：各类安全带的适用场景（顶绳/先锋/大岩壁/冰攀）、腰围和腿围调节、挂物环配置，以及首次购买者的推荐。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "「攀岩装备讲解」关于户外攀岩的装备/从室内到户外你需要的硬件装备",
+        "en": "「攀岩装备讲解」关于户外攀岩的装备/从室内到户外你需要的硬件装备"
+      },
+      "url": "https://www.bilibili.com/video/BV1bh411r7iB/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "系统讲解从室内到户外攀岩所需的硬件装备，包括安全带（harness）、头盔（helmet）、动力绳（rope）、保护器（belay device）和快挂（quickdraw）的选择要点和基本使用方法。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "致新人 入坑攀岩！在选购首套装备时的一些小建议 小tips... 从攀岩鞋开始",
+        "en": "致新人 入坑攀岩！在选购首套装备时的一些小建议 小tips... 从攀岩鞋开始"
+      },
+      "url": "https://www.bilibili.com/video/BV1W44y1g7m8/",
+      "channel": "泓峷climber",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "针对攀岩新人的首套装备选购指南，重点从攀岩鞋讲起，介绍鞋型选择（平底vs下弯）、尺码建议、品牌推荐，并延伸到镁粉、安全带等基础装备的选购注意事项。注意：视频默认用户了解 UIAA/CE 认证。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-helmet": [
+    {
+      "title": {
+        "zh": "「攀岩装备讲解」关于户外攀岩的装备/从室内到户外你需要的硬件装备",
+        "en": "「攀岩装备讲解」关于户外攀岩的装备/从室内到户外你需要的硬件装备"
+      },
+      "url": "https://www.bilibili.com/video/BV1bh411r7iB/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "系统讲解从室内到户外攀岩所需的硬件装备，包括安全带（harness）、头盔（helmet）、动力绳（rope）、保护器（belay device）和快挂（quickdraw）的选择要点和基本使用方法。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "户外运动攀、传统攀都需要哪些装备？10分钟告诉你所有知识点！",
+        "en": "户外运动攀、传统攀都需要哪些装备？10分钟告诉你所有知识点！"
+      },
+      "url": "https://www.bilibili.com/video/BV1ok4y127UL/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "10分钟全面介绍户外运动攀和传统攀所需的完整装备体系，包括绳、安全带、头盔、保护器、快挂、岩塞、机械塞等，是了解户外攀装备的综合入门视频。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-rope": [
+    {
+      "title": {
+        "zh": "户外运动攀、传统攀都需要哪些装备？10分钟告诉你所有知识点！",
+        "en": "户外运动攀、传统攀都需要哪些装备？10分钟告诉你所有知识点！"
+      },
+      "url": "https://www.bilibili.com/video/BV1ok4y127UL/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "10分钟全面介绍户外运动攀和传统攀所需的完整装备体系，包括绳、安全带、头盔、保护器、快挂、岩塞、机械塞等，是了解户外攀装备的综合入门视频。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "「攀岩装备讲解」关于户外攀岩的装备/从室内到户外你需要的硬件装备",
+        "en": "「攀岩装备讲解」关于户外攀岩的装备/从室内到户外你需要的硬件装备"
+      },
+      "url": "https://www.bilibili.com/video/BV1bh411r7iB/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "系统讲解从室内到户外攀岩所需的硬件装备，包括安全带（harness）、头盔（helmet）、动力绳（rope）、保护器（belay device）和快挂（quickdraw）的选择要点和基本使用方法。",
+        "en": ""
+      },
+      "relevance": "primary"
+    }
+  ],
+  "kp-quickdraw": [
+    {
+      "title": {
+        "zh": "户外运动攀、传统攀都需要哪些装备？10分钟告诉你所有知识点！",
+        "en": "户外运动攀、传统攀都需要哪些装备？10分钟告诉你所有知识点！"
+      },
+      "url": "https://www.bilibili.com/video/BV1ok4y127UL/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "10分钟全面介绍户外运动攀和传统攀所需的完整装备体系，包括绳、安全带、头盔、保护器、快挂、岩塞、机械塞等，是了解户外攀装备的综合入门视频。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "攀岩馆先锋 如何扣快挂",
+        "en": "攀岩馆先锋 如何扣快挂"
+      },
+      "url": "https://www.bilibili.com/video/BV1rE411y7r3/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "讲解先锋攀中正确扣快挂（clipping）的方法，包括单手扣绳、避免背扣（z-clip / back-clip）等安全注意事项，是先锋攀入门的关键技术之一。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "「攀岩装备讲解」关于户外攀岩的装备/从室内到户外你需要的硬件装备",
+        "en": "「攀岩装备讲解」关于户外攀岩的装备/从室内到户外你需要的硬件装备"
+      },
+      "url": "https://www.bilibili.com/video/BV1bh411r7iB/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "系统讲解从室内到户外攀岩所需的硬件装备，包括安全带（harness）、头盔（helmet）、动力绳（rope）、保护器（belay device）和快挂（quickdraw）的选择要点和基本使用方法。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-nuts-stoppers": [
+    {
+      "title": {
+        "zh": "户外运动攀、传统攀都需要哪些装备？10分钟告诉你所有知识点！",
+        "en": "户外运动攀、传统攀都需要哪些装备？10分钟告诉你所有知识点！"
+      },
+      "url": "https://www.bilibili.com/video/BV1ok4y127UL/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "10分钟全面介绍户外运动攀和传统攀所需的完整装备体系，包括绳、安全带、头盔、保护器、快挂、岩塞、机械塞等，是了解户外攀装备的综合入门视频。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "机械塞和岩塞怎么用？传统攀放置保护的基本方法",
+        "en": "机械塞和岩塞怎么用？传统攀放置保护的基本方法"
+      },
+      "url": "https://www.bilibili.com/video/BV1K64y117Bi/",
+      "channel": "知岩片语",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "知岩片语出品的传统攀保护放置教学，讲解机械塞（cam）和岩石塞（nut/stopper）的正确放置方法，确保在冲坠受力时不失效，是传统攀\"第一课也是最重要的一课\"。",
+        "en": ""
+      },
+      "relevance": "primary"
+    }
+  ],
+  "kp-cams": [
+    {
+      "title": {
+        "zh": "户外运动攀、传统攀都需要哪些装备？10分钟告诉你所有知识点！",
+        "en": "户外运动攀、传统攀都需要哪些装备？10分钟告诉你所有知识点！"
+      },
+      "url": "https://www.bilibili.com/video/BV1ok4y127UL/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "10分钟全面介绍户外运动攀和传统攀所需的完整装备体系，包括绳、安全带、头盔、保护器、快挂、岩塞、机械塞等，是了解户外攀装备的综合入门视频。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "机械塞和岩塞怎么用？传统攀放置保护的基本方法",
+        "en": "机械塞和岩塞怎么用？传统攀放置保护的基本方法"
+      },
+      "url": "https://www.bilibili.com/video/BV1K64y117Bi/",
+      "channel": "知岩片语",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "知岩片语出品的传统攀保护放置教学，讲解机械塞（cam）和岩石塞（nut/stopper）的正确放置方法，确保在冲坠受力时不失效，是传统攀\"第一课也是最重要的一课\"。",
+        "en": ""
+      },
+      "relevance": "primary"
+    }
+  ],
+  "kp-finger-injury": [
+    {
+      "title": {
+        "zh": "【攀岩康复】这类常见的手指疼痛并不是滑车受伤 而可能是手指腱鞘炎 中文自译",
+        "en": "【攀岩康复】这类常见的手指疼痛并不是滑车受伤 而可能是手指腱鞘炎 中文自译"
+      },
+      "url": "https://www.bilibili.com/video/BV1Ye4y1L73Z/",
+      "channel": "（Hooper's Beta 中文翻译版）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "Hooper's Beta 内容中文翻译版，讲解手指疼痛的鉴别诊断——如何区分滑车损伤（pulley injury）和手指腱鞘炎（flexor tenosynovitis），防止误诊导致错误的康复方案。对有手指疼痛困扰的攀岩者极有价值。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "攀岩手指受伤如何复健？三阶段摆脱伤痛",
+        "en": "攀岩手指受伤如何复健？三阶段摆脱伤痛"
+      },
+      "url": "https://www.bilibili.com/video/BV1vy4y1e7bx/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "系统讲解攀岩手指受伤（含滑车损伤）的三阶段康复流程：急性期处理→恢复期训练→返回攀岩阶段，提供具体的康复训练动作和时间线，适合手指受伤的攀岩者参考。",
+        "en": ""
+      },
+      "relevance": "primary"
+    }
+  ],
+  "kp-pulley-injury": [
+    {
+      "title": {
+        "zh": "【攀岩康复】这类常见的手指疼痛并不是滑车受伤 而可能是手指腱鞘炎 中文自译",
+        "en": "【攀岩康复】这类常见的手指疼痛并不是滑车受伤 而可能是手指腱鞘炎 中文自译"
+      },
+      "url": "https://www.bilibili.com/video/BV1Ye4y1L73Z/",
+      "channel": "（Hooper's Beta 中文翻译版）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "Hooper's Beta 内容中文翻译版，讲解手指疼痛的鉴别诊断——如何区分滑车损伤（pulley injury）和手指腱鞘炎（flexor tenosynovitis），防止误诊导致错误的康复方案。对有手指疼痛困扰的攀岩者极有价值。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "攀岩手指受伤如何复健？三阶段摆脱伤痛",
+        "en": "攀岩手指受伤如何复健？三阶段摆脱伤痛"
+      },
+      "url": "https://www.bilibili.com/video/BV1vy4y1e7bx/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "系统讲解攀岩手指受伤（含滑车损伤）的三阶段康复流程：急性期处理→恢复期训练→返回攀岩阶段，提供具体的康复训练动作和时间线，适合手指受伤的攀岩者参考。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "【攀岩】A2pulley损伤 攀岩手指损伤",
+        "en": "【攀岩】A2pulley损伤 攀岩手指损伤"
+      },
+      "url": "https://www.bilibili.com/video/BV1Mf4y1x7MN/",
+      "channel": "（攀岩康复博主）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "专门讲解 A2 滑车（Pulley）损伤的成因、识别方法、康复阶段和重返攀爬时间线，包括攀岩手指贴扎支撑技巧（H-taping）。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "How to Warm Up for Climbing and Bouldering",
+        "en": "How to Warm Up for Climbing and Bouldering"
+      },
+      "url": "https://www.bilibili.com/video/BV1L54y1z72R/",
+      "channel": "（国内攀岩博主转载/搬运）",
+      "platform": "bilibili",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "系统讲解攀岩热身流程：从有氧激活、关节活动度练习，到手指渐进热身和专项动作准备，适合攀岩前热身流程建立。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "Warm Up Your Fingers to Prevent Finger Injury",
+        "en": "Warm Up Your Fingers to Prevent Finger Injury"
+      },
+      "url": "https://www.youtube.com/watch?v=N2N4lMe9aIM",
+      "channel": "（攀岩健康/PT 频道）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 3,
+      "summary": {
+        "zh": "针对攀岩者手指热身的短视频，演示赛前/训练前手指活化动作，帮助减少滑车和腱鞘损伤风险。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-recovery-protocol": [
+    {
+      "title": {
+        "zh": "攀岩手指受伤如何复健？三阶段摆脱伤痛",
+        "en": "攀岩手指受伤如何复健？三阶段摆脱伤痛"
+      },
+      "url": "https://www.bilibili.com/video/BV1vy4y1e7bx/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "系统讲解攀岩手指受伤（含滑车损伤）的三阶段康复流程：急性期处理→恢复期训练→返回攀岩阶段，提供具体的康复训练动作和时间线，适合手指受伤的攀岩者参考。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-injury-diagnosis": [
+    {
+      "title": {
+        "zh": "【攀岩康复】这类常见的手指疼痛并不是滑车受伤 而可能是手指腱鞘炎 中文自译",
+        "en": "【攀岩康复】这类常见的手指疼痛并不是滑车受伤 而可能是手指腱鞘炎 中文自译"
+      },
+      "url": "https://www.bilibili.com/video/BV1Ye4y1L73Z/",
+      "channel": "（Hooper's Beta 中文翻译版）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "Hooper's Beta 内容中文翻译版，讲解手指疼痛的鉴别诊断——如何区分滑车损伤（pulley injury）和手指腱鞘炎（flexor tenosynovitis），防止误诊导致错误的康复方案。对有手指疼痛困扰的攀岩者极有价值。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-shoulder-injury": [
+    {
+      "title": {
+        "zh": "【攀岩康复】用好肩胛骨收缩避免肩关节损伤 肩袖 肩峰撞击原理 攀岩平民爱好者的自修",
+        "en": "【攀岩康复】用好肩胛骨收缩避免肩关节损伤 肩袖 肩峰撞击原理 攀岩平民爱好者的自修"
+      },
+      "url": "https://www.bilibili.com/video/BV1vG411G7fN/",
+      "channel": "（攀岩康复系列）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "讲解攀岩中肩关节损伤的解剖原理（肩袖/肩峰撞击），并教授如何通过正确使用肩胛骨收缩来预防肩关节损伤，适合所有有肩部问题或想预防的攀岩者。",
+        "en": ""
+      },
+      "relevance": "primary"
+    }
+  ],
+  "kp-injury-prevention": [
+    {
+      "title": {
+        "zh": "How not to get injured - Antagonistic training for climbers \\",
+        "en": "How not to get injured - Antagonistic training for climbers \\"
+      },
+      "url": "https://www.bilibili.com/video/BV1tY411h7W9/",
+      "channel": "长跑健将昂德拉",
+      "platform": "bilibili",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "Adam Ondra 讲解拮抗肌训练法：为何攀岩过度依赖拉力肌群会导致失衡，以及如何通过推力训练（俯卧撑变体、肩推、绳肌练习）维持肌肉平衡，降低受伤风险。时长约 11 分钟，附中文字幕。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "【攀岩康复】用好肩胛骨收缩避免肩关节损伤 肩袖 肩峰撞击原理 攀岩平民爱好者的自修",
+        "en": "【攀岩康复】用好肩胛骨收缩避免肩关节损伤 肩袖 肩峰撞击原理 攀岩平民爱好者的自修"
+      },
+      "url": "https://www.bilibili.com/video/BV1vG411G7fN/",
+      "channel": "（攀岩康复系列）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "讲解攀岩中肩关节损伤的解剖原理（肩袖/肩峰撞击），并教授如何通过正确使用肩胛骨收缩来预防肩关节损伤，适合所有有肩部问题或想预防的攀岩者。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-route-grading": [
+    {
+      "title": {
+        "zh": "5分钟讲解攀岩难度系数 Sport Climbing Grades in Yangshuo Explained",
+        "en": "5分钟讲解攀岩难度系数 Sport Climbing Grades in Yangshuo Explained"
+      },
+      "url": "https://www.bilibili.com/video/BV1Bp421U7cX/",
+      "channel": "（阳朔攀岩户外教练）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "5分钟内清晰讲解攀岩难度分级体系（法国分级、Yosemite 十进制体系及中国常用分级），结合阳朔户外线路实例，帮助攀岩者理解不同难度等级的含义和参考依据。",
+        "en": ""
+      },
+      "relevance": "primary"
+    }
+  ],
+  "kp-footwork-basics": [
+    {
+      "title": {
+        "zh": "Make Your Heel Hooks Work",
+        "en": "Make Your Heel Hooks Work"
+      },
+      "url": "https://www.youtube.com/watch?v=vqUlYup0lpU",
+      "channel": "Movement for Climbers",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "Movement for Climbers 出品的 heel hook 专项教学，讲解 heel hook 的激活原理、发力要点和常见错误，适用于中级以上攀岩者。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "攀岩 裂缝攀登教学Episode 2 - Hand Cracks",
+        "en": "攀岩 裂缝攀登教学Episode 2 - Hand Cracks"
+      },
+      "url": "https://www.bilibili.com/video/BV12u411f7Sj/",
+      "channel": "（裂缝攀系列搬运）",
+      "platform": "bilibili",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "裂缝攀系列第 2 集，专项讲解手塞（hand jam）技术：手掌插入裂缝的方向、大拇指姿势（上/下）、踩脚技术，以及曲线裂缝的应对策略。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "尼尔·格雷沙姆的攀岩大师课214 传统攀-Slab岩壁",
+        "en": "尼尔·格雷沙姆的攀岩大师课214 传统攀-Slab岩壁"
+      },
+      "url": "https://www.bilibili.com/video/BV1iocKzaEZM/",
+      "channel": "（Neil Gresham Masterclass 搬运）",
+      "platform": "bilibili",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "Neil Gresham 攀岩大师课第 214 集，专项讲解板岩（Slab）攀登技术：重心前移原则、涂抹脚法（smearing）与精准踩点技术、信任脚感的心理建设，结合传统攀板岩线路实例演示。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "攀岩腳法篇 - HEEL HOOK（掛腳）\\",
+        "en": "攀岩腳法篇 - HEEL HOOK（掛腳）\\"
+      },
+      "url": "https://www.bilibili.com/video/BV1sVkeYnEq1/",
+      "channel": "日光山石",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "台湾攀岩频道「日光山石」出品的脚法系列第 16 集，专项讲解 heel hook（掛腳/勾脚）技术：高跟挂的力量来源（腘绳肌/臀部激活）、不同场景的应用（仰角/侧墙）、与 toe hook 的配合，演示清晰，中文友好。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-strength-training": [
+    {
+      "title": {
+        "zh": "Heel Hook Training",
+        "en": "Heel Hook Training"
+      },
+      "url": "https://www.youtube.com/watch?v=b8sHOSukVi8",
       "channel": "Lattice Training",
-      "lang": "en"
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "Lattice Training 出品的 heel hook 力量训练专项视频，从训练科学角度讲解如何提升 heel hook 能力，包含具体训练动作和方案。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "How not to get injured - Antagonistic training for climbers \\",
+        "en": "How not to get injured - Antagonistic training for climbers \\"
+      },
+      "url": "https://www.bilibili.com/video/BV1tY411h7W9/",
+      "channel": "长跑健将昂德拉",
+      "platform": "bilibili",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "Adam Ondra 讲解拮抗肌训练法：为何攀岩过度依赖拉力肌群会导致失衡，以及如何通过推力训练（俯卧撑变体、肩推、绳肌练习）维持肌肉平衡，降低受伤风险。时长约 11 分钟，附中文字幕。",
+        "en": ""
+      },
+      "relevance": "secondary"
     }
   ],
-  "s09-adaptive": [
+  "kp-layback": [
     {
-      "title": { "zh": "PBS 残障攀岩纪录片", "en": "Upwardly Mobile: Paraclimbers — PBS" },
-      "url": "https://www.pbs.org/newshour/show/adaptive-climbing",
-      "channel": "PBS News",
-      "lang": "en"
+      "title": {
+        "zh": "Laybacking / Liebacking Technique",
+        "en": "Laybacking / Liebacking Technique"
+      },
+      "url": "https://www.youtube.com/watch?v=-n6iMUjaz_0",
+      "channel": "（攀岩技巧博主）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 3,
+      "summary": {
+        "zh": "讲解 layback（liebacking）技术的专项视频：将裂缝或棱角作为一条长侧拉，上身向后倾斜借力，双脚在岩面上蹬踩形成对抗力，是传统攀和户外裂缝中的核心技术。",
+        "en": ""
+      },
+      "relevance": "primary"
     }
   ],
-  "s10-formats": [
+  "kp-gear-overview": [
     {
-      "title": { "zh": "IFSC 官方频道（比赛直播与回放）", "en": "IFSC Official Channel — Live & Highlights" },
-      "url": "https://www.youtube.com/@IFSClimbing",
-      "channel": "IFSC",
-      "lang": "en"
+      "title": {
+        "zh": "How to Choose a Climbing Harness",
+        "en": "How to Choose a Climbing Harness"
+      },
+      "url": "https://www.youtube.com/watch?v=aRrLfR7rnw0",
+      "channel": "REI",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "REI 专家讲解攀岩安全带的类型和选购要点：各类安全带的适用场景（顶绳/先锋/大岩壁/冰攀）、腰围和腿围调节、挂物环配置，以及首次购买者的推荐。",
+        "en": ""
+      },
+      "relevance": "secondary"
     }
   ],
-  "s10-training": [
+  "kp-skin-management": [
     {
-      "title": { "zh": "Magnus Midtbø 训练与挑战", "en": "Training & Challenges — Magnus Midtbø" },
-      "url": "https://www.youtube.com/@magmidt",
-      "channel": "Magnus Midtbø",
-      "lang": "en"
+      "title": {
+        "zh": "【攀岩】A2pulley损伤 攀岩手指损伤",
+        "en": "【攀岩】A2pulley损伤 攀岩手指损伤"
+      },
+      "url": "https://www.bilibili.com/video/BV1Mf4y1x7MN/",
+      "channel": "（攀岩康复博主）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "专门讲解 A2 滑车（Pulley）损伤的成因、识别方法、康复阶段和重返攀爬时间线，包括攀岩手指贴扎支撑技巧（H-taping）。",
+        "en": ""
+      },
+      "relevance": "secondary"
     }
   ],
-  "s10-psychology": [
+  "kp-antagonist-training": [
     {
-      "title": { "zh": "Strong Mind 攀岩心理训练课程", "en": "Mental Training Course for Climbers" },
-      "url": "https://www.strongmindclimbing.com/",
-      "channel": "Strong Mind Climbing",
-      "lang": "en"
+      "title": {
+        "zh": "How not to get injured - Antagonistic training for climbers \\",
+        "en": "How not to get injured - Antagonistic training for climbers \\"
+      },
+      "url": "https://www.bilibili.com/video/BV1tY411h7W9/",
+      "channel": "长跑健将昂德拉",
+      "platform": "bilibili",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "Adam Ondra 讲解拮抗肌训练法：为何攀岩过度依赖拉力肌群会导致失衡，以及如何通过推力训练（俯卧撑变体、肩推、绳肌练习）维持肌肉平衡，降低受伤风险。时长约 11 分钟，附中文字幕。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "Vlog03【攀岩選手的重量訓練】健身工廠｜日光山石",
+        "en": "Vlog03【攀岩選手的重量訓練】健身工廠｜日光山石"
+      },
+      "url": "https://www.youtube.com/watch?v=Hun8sKocsTo",
+      "channel": "日光山石 SULIMORO",
+      "platform": "youtube",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "职业攀岩选手进行重量训练（拮抗肌训练）的 Vlog，记录在健身工厂进行推举、肩袖训练等对抗性力量练习的过程，对理解攀岩者为何及如何进行拮抗肌训练有实际参考价值。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "手肘受伤后攀岩人如何保持训练 ｜ How to Deal with Elbow Injuries (for climbers)",
+        "en": "手肘受伤后攀岩人如何保持训练 ｜ How to Deal with Elbow Injuries (for climbers)"
+      },
+      "url": "https://www.bilibili.com/video/BV1hL41187Yq/",
+      "channel": "奚山不是山",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "基于 Lattice Training 素材，讲解攀岩者肘部受伤后的三大策略：保持指力训练、在不加重受伤部位的前提下继续攀岩、最大化利用当前身体能力；强调适当休息与保守恢复的重要性。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-lead-strategy-outdoor": [
+    {
+      "title": {
+        "zh": "Climbing Tech Tips - Sport Climbing Series（11集合辑）",
+        "en": "Climbing Tech Tips - Sport Climbing Series（11集合辑）"
+      },
+      "url": "https://www.bilibili.com/video/BV15J411q78F/",
+      "channel": "ClimbingWorld（搬运自 Climbing Tech Tips）",
+      "platform": "bilibili",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "Climbing Tech Tips 出品的 11 集户外运动攀系列，涵盖快扣扣法、绳子管理、先锋落地、户外运动攀安全规范等完整内容，是从室内过渡到户外运动攀的系统教程。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "攀岩馆先锋 如何扣快挂 2/13",
+        "en": "攀岩馆先锋 如何扣快挂 2/13"
+      },
+      "url": "https://www.bilibili.com/video/BV1rE411y7r3/",
+      "channel": "（攀岩系统教学 UP 主）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "13 集先锋攀系统教学系列第 2 集，专门讲解快扣正确扣法，包括扣入方向、绳子走向、避免反扣和 Z 字扣等常见错误，语言清晰直白，适合中文初学者。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-outdoor-sport-safety": [
+    {
+      "title": {
+        "zh": "Climbing Tech Tips - Sport Climbing Series（11集合辑）",
+        "en": "Climbing Tech Tips - Sport Climbing Series（11集合辑）"
+      },
+      "url": "https://www.bilibili.com/video/BV15J411q78F/",
+      "channel": "ClimbingWorld（搬运自 Climbing Tech Tips）",
+      "platform": "bilibili",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "Climbing Tech Tips 出品的 11 集户外运动攀系列，涵盖快扣扣法、绳子管理、先锋落地、户外运动攀安全规范等完整内容，是从室内过渡到户外运动攀的系统教程。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-trad-intro": [
+    {
+      "title": {
+        "zh": "传统攀岩：从入门到认怂（DMM传统攀教程）",
+        "en": "传统攀岩：从入门到认怂（DMM传统攀教程）"
+      },
+      "url": "https://www.bilibili.com/video/BV1mT411E7nJ/",
+      "channel": "（DMM 教程搬运）",
+      "platform": "bilibili",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "DMM 出品的传统攀入门综合教程，涵盖传统攀概念、保护装置（cam/nut）的正确使用、锚点搭建原则和基本裂缝技术，适合从运动攀过渡到传统攀的攀岩者。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-crack-climbing-systems": [
+    {
+      "title": {
+        "zh": "WILD COUNTRY CRACK SCHOOL 裂缝攀岩教学第一集 指缝技术",
+        "en": "WILD COUNTRY CRACK SCHOOL 裂缝攀岩教学第一集 指缝技术"
+      },
+      "url": "https://www.bilibili.com/video/BV1TT41177K7/",
+      "channel": "（Wild Country 官方教学搬运）",
+      "platform": "bilibili",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "Wild Country（攀岩器材老牌厂商）出品的裂缝学校系列第一集，详解指缝（finger crack）技术：手指锁缝原理、不同宽度指缝的应对方法，以及保护自己手指的贴扎技术。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "攀岩 裂缝攀登教学Episode 2 - Hand Cracks",
+        "en": "攀岩 裂缝攀登教学Episode 2 - Hand Cracks"
+      },
+      "url": "https://www.bilibili.com/video/BV12u411f7Sj/",
+      "channel": "（裂缝攀系列搬运）",
+      "platform": "bilibili",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "裂缝攀系列第 2 集，专项讲解手塞（hand jam）技术：手掌插入裂缝的方向、大拇指姿势（上/下）、踩脚技术，以及曲线裂缝的应对策略。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "Introduction to Crack Climbing",
+        "en": "Introduction to Crack Climbing"
+      },
+      "url": "https://www.youtube.com/watch?v=l4EzbCLfUkc",
+      "channel": "（裂缝攀博主）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "裂缝攀岩入门介绍视频，讲解不同尺寸裂缝的应对方法（指缝/手塞/拳塞）和基本保护放置原则，适合裂缝攀零基础者。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "传统攀岩：从入门到认怂（DMM传统攀教程）",
+        "en": "传统攀岩：从入门到认怂（DMM传统攀教程）"
+      },
+      "url": "https://www.bilibili.com/video/BV1mT411E7nJ/",
+      "channel": "（DMM 教程搬运）",
+      "platform": "bilibili",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "DMM 出品的传统攀入门综合教程，涵盖传统攀概念、保护装置（cam/nut）的正确使用、锚点搭建原则和基本裂缝技术，适合从运动攀过渡到传统攀的攀岩者。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "尼尔·格雷沙姆的攀岩大师课214 传统攀-Slab岩壁",
+        "en": "尼尔·格雷沙姆的攀岩大师课214 传统攀-Slab岩壁"
+      },
+      "url": "https://www.bilibili.com/video/BV1iocKzaEZM/",
+      "channel": "（Neil Gresham Masterclass 搬运）",
+      "platform": "bilibili",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "Neil Gresham 攀岩大师课第 214 集，专项讲解板岩（Slab）攀登技术：重心前移原则、涂抹脚法（smearing）与精准踩点技术、信任脚感的心理建设，结合传统攀板岩线路实例演示。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-multi-pitch": [
+    {
+      "title": {
+        "zh": "Dmm传统攀教学P6 多段领攀｜How to lead multipitch",
+        "en": "Dmm传统攀教学P6 多段领攀｜How to lead multipitch"
+      },
+      "url": "https://www.bilibili.com/video/BV1nX4y1h74g/",
+      "channel": "奚山不是山",
+      "platform": "bilibili",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "DMM 传统攀系列第 6 集，专项讲解多段攀登：保护站建立与交接、绳距管理、领攀与跟攀的角色转换，以及多段攀登中的安全要点。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "Multi-pitch Climbing 101: The Complete Guide",
+        "en": "Multi-pitch Climbing 101: The Complete Guide"
+      },
+      "url": "https://www.youtube.com/watch?v=7vPqJ_r5rKE",
+      "channel": "99Boulders",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "多段攀登完整指南：从单段过渡到多段所需的技能（锚点建立、跟攀、绳距管理、下降）以及装备清单，适合有一定基础的攀岩者学习多段入门。",
+        "en": ""
+      },
+      "relevance": "primary"
+    }
+  ],
+  "kp-outdoor-bouldering-chars": [
+    {
+      "title": {
+        "zh": "如何愉快安全地野外抱石？从岩馆进阶到野外所需的装备、技能和注意事项",
+        "en": "如何愉快安全地野外抱石？从岩馆进阶到野外所需的装备、技能和注意事项"
+      },
+      "url": "https://www.bilibili.com/video/BV1M5411G72Z/",
+      "channel": "（攀岩户外博主）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "从岩馆攀岩过渡到野外抱石的系统指南：防坠垫选择和使用、保护者角色、岩区选择方法、天气因素影响，以及无痕出行原则，涵盖 kp-outdoor-bouldering-chars 和 kp-area-exploration 的核心内容。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "野外抱石你最好知道这六件事～",
+        "en": "野外抱石你最好知道这六件事～"
+      },
+      "url": "https://www.bilibili.com/video/BV1cq4y1z7WP/",
+      "channel": "（户外攀岩博主）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "野外抱石六大注意事项：落地区准备（防坠垫摆放）、保护者站位、高球风险判断、当天皮肤状态管理、接近路线和无痕原则，以落地安全为核心。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-area-exploration": [
+    {
+      "title": {
+        "zh": "如何愉快安全地野外抱石？从岩馆进阶到野外所需的装备、技能和注意事项",
+        "en": "如何愉快安全地野外抱石？从岩馆进阶到野外所需的装备、技能和注意事项"
+      },
+      "url": "https://www.bilibili.com/video/BV1M5411G72Z/",
+      "channel": "（攀岩户外博主）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "从岩馆攀岩过渡到野外抱石的系统指南：防坠垫选择和使用、保护者角色、岩区选择方法、天气因素影响，以及无痕出行原则，涵盖 kp-outdoor-bouldering-chars 和 kp-area-exploration 的核心内容。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-landing-strategy": [
+    {
+      "title": {
+        "zh": "野外抱石你最好知道这六件事～",
+        "en": "野外抱石你最好知道这六件事～"
+      },
+      "url": "https://www.bilibili.com/video/BV1cq4y1z7WP/",
+      "channel": "（户外攀岩博主）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "野外抱石六大注意事项：落地区准备（防坠垫摆放）、保护者站位、高球风险判断、当天皮肤状态管理、接近路线和无痕原则，以落地安全为核心。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "如何愉快安全地野外抱石？从岩馆进阶到野外所需的装备、技能和注意事项",
+        "en": "如何愉快安全地野外抱石？从岩馆进阶到野外所需的装备、技能和注意事项"
+      },
+      "url": "https://www.bilibili.com/video/BV1M5411G72Z/",
+      "channel": "（攀岩户外博主）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "从岩馆攀岩过渡到野外抱石的系统指南：防坠垫选择和使用、保护者角色、岩区选择方法、天气因素影响，以及无痕出行原则，涵盖 kp-outdoor-bouldering-chars 和 kp-area-exploration 的核心内容。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-fall-technique": [
+    {
+      "title": {
+        "zh": "「Hard Is Easy」克服冲坠恐惧 - FOF P1",
+        "en": "「Hard Is Easy」克服冲坠恐惧 - FOF P1"
+      },
+      "url": "https://www.bilibili.com/video/BV1RM411L7Rd/",
+      "channel": "晓燕yancy",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "系列视频第一集，深入讲解先锋攀岩中冲坠恐惧（Fear Of Falling，FOF）的心理根源：本能反应与学习获得的恐惧的区别、渐进式暴露训练原理，以及第一步坠落练习的方法论，适合对先锋坠落有焦虑的攀岩者。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "野外抱石你最好知道这六件事～",
+        "en": "野外抱石你最好知道这六件事～"
+      },
+      "url": "https://www.bilibili.com/video/BV1cq4y1z7WP/",
+      "channel": "（户外攀岩博主）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "野外抱石六大注意事项：落地区准备（防坠垫摆放）、保护者站位、高球风险判断、当天皮肤状态管理、接近路线和无痕原则，以落地安全为核心。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-slab-technique": [
+    {
+      "title": {
+        "zh": "尼尔·格雷沙姆的攀岩大师课214 传统攀-Slab岩壁",
+        "en": "尼尔·格雷沙姆的攀岩大师课214 传统攀-Slab岩壁"
+      },
+      "url": "https://www.bilibili.com/video/BV1iocKzaEZM/",
+      "channel": "（Neil Gresham Masterclass 搬运）",
+      "platform": "bilibili",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "Neil Gresham 攀岩大师课第 214 集，专项讲解板岩（Slab）攀登技术：重心前移原则、涂抹脚法（smearing）与精准踩点技术、信任脚感的心理建设，结合传统攀板岩线路实例演示。",
+        "en": ""
+      },
+      "relevance": "primary"
+    }
+  ],
+  "kp-desensitization": [
+    {
+      "title": {
+        "zh": "「Hard Is Easy」克服冲坠恐惧 - FOF P1",
+        "en": "「Hard Is Easy」克服冲坠恐惧 - FOF P1"
+      },
+      "url": "https://www.bilibili.com/video/BV1RM411L7Rd/",
+      "channel": "晓燕yancy",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "系列视频第一集，深入讲解先锋攀岩中冲坠恐惧（Fear Of Falling，FOF）的心理根源：本能反应与学习获得的恐惧的区别、渐进式暴露训练原理，以及第一步坠落练习的方法论，适合对先锋坠落有焦虑的攀岩者。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "[攀岩\\",
+        "en": "[攀岩\\"
+      },
+      "url": "https://www.bilibili.com/video/BV1E34y1a75j/",
+      "channel": "云攀岩爱好者",
+      "platform": "bilibili",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "英文攀岩教学翻译视频（4.1 万播放），通过室内训练克服先锋坠落恐惧：从最低处坠落开始、逐渐增加高度和冲坠距离的渐进式训练方案，强调保护员的重要性和动态保护技术，是实操导向的恐惧脱敏教学。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-flow-state": [
+    {
+      "title": {
+        "zh": "攀岩读书分享：心理篇 - Training for Climbing - Eric Horst",
+        "en": "攀岩读书分享：心理篇 - Training for Climbing - Eric Horst"
+      },
+      "url": "https://www.bilibili.com/video/BV1ap4y1H7yz/",
+      "channel": "（攀岩读书分享博主）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "Eric Hörst 经典著作《Training for Climbing》心理篇精华分享：涵盖流心状态（flow state）的定义与触发条件、注意力外部/内部焦点切换、赛前程序（pre-performance routine），以及如何通过正念训练提升攀岩专注力。",
+        "en": ""
+      },
+      "relevance": "primary"
+    }
+  ],
+  "kp-attention-management": [
+    {
+      "title": {
+        "zh": "攀岩读书分享：心理篇 - Training for Climbing - Eric Horst",
+        "en": "攀岩读书分享：心理篇 - Training for Climbing - Eric Horst"
+      },
+      "url": "https://www.bilibili.com/video/BV1ap4y1H7yz/",
+      "channel": "（攀岩读书分享博主）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "Eric Hörst 经典著作《Training for Climbing》心理篇精华分享：涵盖流心状态（flow state）的定义与触发条件、注意力外部/内部焦点切换、赛前程序（pre-performance routine），以及如何通过正念训练提升攀岩专注力。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-competition-psychology": [
+    {
+      "title": {
+        "zh": "攀岩读书分享：心理篇 - Training for Climbing - Eric Horst",
+        "en": "攀岩读书分享：心理篇 - Training for Climbing - Eric Horst"
+      },
+      "url": "https://www.bilibili.com/video/BV1ap4y1H7yz/",
+      "channel": "（攀岩读书分享博主）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "Eric Hörst 经典著作《Training for Climbing》心理篇精华分享：涵盖流心状态（flow state）的定义与触发条件、注意力外部/内部焦点切换、赛前程序（pre-performance routine），以及如何通过正念训练提升攀岩专注力。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "香港攀岩代表選手 黃淨淳 專訪｜日光山石",
+        "en": "香港攀岩代表選手 黃淨淳 專訪｜日光山石"
+      },
+      "url": "https://www.youtube.com/watch?v=xU6FDfibEpI",
+      "channel": "日光山石 SULIMORO",
+      "platform": "youtube",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "专访香港攀岩代表队选手黄净淳，深入访谈其竞技经历、备战心态、比赛压力管理及对攀岩运动的理解，从亚洲职业竞技选手视角呈现 kp-olympics-athletes 和 kp-competition-psychology 的真实内容。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-periodization": [
+    {
+      "title": {
+        "zh": "【攀岩训练】如何自己写训练计划 攀岩训练计划的规划和定制",
+        "en": "【攀岩训练】如何自己写训练计划 攀岩训练计划的规划和定制"
+      },
+      "url": "https://www.bilibili.com/video/BV1dw411Z7mw/",
+      "channel": "Jamin_Yan",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "攀岩训练名博主 Jamin_Yan 出品的训练规划系统教程：周期化训练框架（基础期/力量期/爆发力期/表现期）、SMART 目标设定、弱点识别与针对性训练，以及如何根据个人情况定制计划，是中文 Bilibili 端训练规划最系统的内容。",
+        "en": ""
+      },
+      "relevance": "primary"
+    }
+  ],
+  "kp-training-log": [
+    {
+      "title": {
+        "zh": "如何制定适合自己的攀岩训练计划pt.1",
+        "en": "如何制定适合自己的攀岩训练计划pt.1"
+      },
+      "url": "https://www.bilibili.com/video/BV1Qv4y1b72X/",
+      "channel": "奚山不是山",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "奚山不是山出品的个性化训练计划系列第一集，专注于自我评估（识别最强项和最弱项）、结合目标设定方法论，讲解如何构建针对个人短板的训练计划框架，与 #99 互补形成系统内容。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "【攀岩训练】如何自己写训练计划 攀岩训练计划的规划和定制",
+        "en": "【攀岩训练】如何自己写训练计划 攀岩训练计划的规划和定制"
+      },
+      "url": "https://www.bilibili.com/video/BV1dw411Z7mw/",
+      "channel": "Jamin_Yan",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "攀岩训练名博主 Jamin_Yan 出品的训练规划系统教程：周期化训练框架（基础期/力量期/爆发力期/表现期）、SMART 目标设定、弱点识别与针对性训练，以及如何根据个人情况定制计划，是中文 Bilibili 端训练规划最系统的内容。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-goal-setting": [
+    {
+      "title": {
+        "zh": "【攀岩训练】如何自己写训练计划 攀岩训练计划的规划和定制",
+        "en": "【攀岩训练】如何自己写训练计划 攀岩训练计划的规划和定制"
+      },
+      "url": "https://www.bilibili.com/video/BV1dw411Z7mw/",
+      "channel": "Jamin_Yan",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "攀岩训练名博主 Jamin_Yan 出品的训练规划系统教程：周期化训练框架（基础期/力量期/爆发力期/表现期）、SMART 目标设定、弱点识别与针对性训练，以及如何根据个人情况定制计划，是中文 Bilibili 端训练规划最系统的内容。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "如何制定适合自己的攀岩训练计划pt.1",
+        "en": "如何制定适合自己的攀岩训练计划pt.1"
+      },
+      "url": "https://www.bilibili.com/video/BV1Qv4y1b72X/",
+      "channel": "奚山不是山",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "奚山不是山出品的个性化训练计划系列第一集，专注于自我评估（识别最强项和最弱项）、结合目标设定方法论，讲解如何构建针对个人短板的训练计划框架，与 #99 互补形成系统内容。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-plateau-breaking": [
+    {
+      "title": {
+        "zh": "如何制定适合自己的攀岩训练计划pt.1",
+        "en": "如何制定适合自己的攀岩训练计划pt.1"
+      },
+      "url": "https://www.bilibili.com/video/BV1Qv4y1b72X/",
+      "channel": "奚山不是山",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "奚山不是山出品的个性化训练计划系列第一集，专注于自我评估（识别最强项和最弱项）、结合目标设定方法论，讲解如何构建针对个人短板的训练计划框架，与 #99 互补形成系统内容。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "大咖來訪，Geek Climber 專訪｜日光山石",
+        "en": "大咖來訪，Geek Climber 專訪｜日光山石"
+      },
+      "url": "https://www.youtube.com/watch?v=v0VbC_wkk88",
+      "channel": "日光山石 SULIMORO",
+      "platform": "youtube",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "专访 Geek Climber（知名英文攀岩 YouTube 频道主理人），对谈攀岩内容创作、训练理念、东西方攀岩文化差异，以及如何突破平台期，呈现攀岩社群跨文化交流视角。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-projecting-strategy": [
+    {
+      "title": {
+        "zh": "【攀岩教学】如何分步骤解读线路",
+        "en": "【攀岩教学】如何分步骤解读线路"
+      },
+      "url": "https://www.bilibili.com/video/BV1Zh4y1F7Tb/",
+      "channel": "（攀岩教学博主）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "讲解如何系统拆解难线路（Project）：从初识线路、分段研究每个 crux，到连接练习（linking）和最终完攀尝试的策略，包括 beta 记忆技巧和合理分配尝试次数的方法论。",
+        "en": ""
+      },
+      "relevance": "primary"
+    }
+  ],
+  "kp-working-linking": [
+    {
+      "title": {
+        "zh": "【攀岩教学】如何分步骤解读线路",
+        "en": "【攀岩教学】如何分步骤解读线路"
+      },
+      "url": "https://www.bilibili.com/video/BV1Zh4y1F7Tb/",
+      "channel": "（攀岩教学博主）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "讲解如何系统拆解难线路（Project）：从初识线路、分段研究每个 crux，到连接练习（linking）和最终完攀尝试的策略，包括 beta 记忆技巧和合理分配尝试次数的方法论。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-aerobic-endurance": [
+    {
+      "title": {
+        "zh": "攀岩ARC训练20分钟",
+        "en": "攀岩ARC训练20分钟"
+      },
+      "url": "https://www.bilibili.com/video/BV1ev411W7xA/",
+      "channel": "阿龙onthewall",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "实操演示攀岩 ARC（Aerobic Restoration and Capillarity）训练：选择低于 onsight 两三级的路线、20-45 分钟不间断低强度攀爬、控制泵感在 3/10 以内，以提高前臂毛细血管密度和有氧代谢能力，是 ARC 训练方法最直观的中文示范。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-body-position": [
+    {
+      "title": {
+        "zh": "攀岩动作与技巧系列视频-对抗发力1：反肩/外撑/上撑",
+        "en": "攀岩动作与技巧系列视频-对抗发力1：反肩/外撑/上撑"
+      },
+      "url": "https://www.bilibili.com/video/BV16i4y1j7vc/",
+      "channel": "岩时攀岩",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "岩时攀岩出品的动作技巧系列，专讲对抗发力三种形式：外撑（stemming，两脚蹬两侧墙面形成对抗）、反肩（back step 变体）、上撑（pressing），重点讲解外撑的应用场景（角落/宽裂缝），是 kp-stemming 在 Bilibili 端的首个专项视频。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-kids-safety": [
+    {
+      "title": {
+        "zh": "家长们看过来！带小朋友开始攀岩，你需要知道的二三事",
+        "en": "家长们看过来！带小朋友开始攀岩，你需要知道的二三事"
+      },
+      "url": "https://www.bilibili.com/video/BV1B64y1Q7GY/",
+      "channel": "（攀岩亲子博主）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "专为家长设计的儿童攀岩入门指南：儿童安全带选择（全身式）、生长板保护要点（避免过早上校园板和指力板）、趣味导向教学方法，以及何时开始专项训练的年龄建议，覆盖 s09-kids 小节的核心安全和发展内容。",
+        "en": ""
+      },
+      "relevance": "primary"
+    }
+  ],
+  "kp-kids-development": [
+    {
+      "title": {
+        "zh": "家长们看过来！带小朋友开始攀岩，你需要知道的二三事",
+        "en": "家长们看过来！带小朋友开始攀岩，你需要知道的二三事"
+      },
+      "url": "https://www.bilibili.com/video/BV1B64y1Q7GY/",
+      "channel": "（攀岩亲子博主）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "专为家长设计的儿童攀岩入门指南：儿童安全带选择（全身式）、生长板保护要点（避免过早上校园板和指力板）、趣味导向教学方法，以及何时开始专项训练的年龄建议，覆盖 s09-kids 小节的核心安全和发展内容。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-kids-fun-approach": [
+    {
+      "title": {
+        "zh": "家长们看过来！带小朋友开始攀岩，你需要知道的二三事",
+        "en": "家长们看过来！带小朋友开始攀岩，你需要知道的二三事"
+      },
+      "url": "https://www.bilibili.com/video/BV1B64y1Q7GY/",
+      "channel": "（攀岩亲子博主）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "专为家长设计的儿童攀岩入门指南：儿童安全带选择（全身式）、生长板保护要点（避免过早上校园板和指力板）、趣味导向教学方法，以及何时开始专项训练的年龄建议，覆盖 s09-kids 小节的核心安全和发展内容。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-lead-competition": [
+    {
+      "title": {
+        "zh": "【竞技攀岩规则科普】如何看懂一场攀岩比赛",
+        "en": "【竞技攀岩规则科普】如何看懂一场攀岩比赛"
+      },
+      "url": "https://www.bilibili.com/video/BV1F54y1y7pD/",
+      "channel": "（攀岩科普博主）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "全面科普攀岩竞技赛事规则：先锋赛（隔离区制度、观察时间、计分方式）、抱石赛（区域点/顶点积分）、全能赛（乘积排名）以及奥运会格式的演变，适合对竞技攀岩感兴趣的观众和初学者。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "攀岩世界杯即将开始！手把手教你如何观赛",
+        "en": "攀岩世界杯即将开始！手把手教你如何观赛"
+      },
+      "url": "https://www.bilibili.com/video/BV1je6FBhEY5/",
+      "channel": "世界攀岩计划",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "为初次观看世界杯的观众系统介绍竞技攀岩的世界杯赛制：先锋赛与抱石赛的规则差异、积分体系、各赛站形式，以及如何读懂现场计分板，内容全面，兼顾多项赛制讲解。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "111年度全國青少年運動攀登錦標賽 ｜ Lead Taiwan Youth Championships 2022",
+        "en": "111年度全國青少年運動攀登錦標賽 ｜ Lead Taiwan Youth Championships 2022"
+      },
+      "url": "https://www.youtube.com/watch?v=qA5LAHtbo-s",
+      "channel": "日光山石 SULIMORO",
+      "platform": "youtube",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "台湾 2022 年全国青少年运动攀登锦标赛先锋赛资格赛完整直播录像，展示正式比赛中先锋赛的进行方式、裁判流程、隔离区安排及选手攀爬过程，是 kp-lead-competition 的真实赛事范例。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "111年度全國青少年運動攀登錦標賽 國高中決賽 ｜ Lead Taiwan Youth Championships 2022 Finals",
+        "en": "111年度全國青少年運動攀登錦標賽 國高中決賽 ｜ Lead Taiwan Youth Championships 2022 Finals"
+      },
+      "url": "https://www.youtube.com/watch?v=kRrG00IbdIg",
+      "channel": "日光山石 SULIMORO",
+      "platform": "youtube",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "台湾 2022 年全国青少年先锋赛国高中组决赛直播录像，展示决赛阶段的路线难度、选手攀爬表现及赛场气氛，与资格赛录像合并可构成完整的先锋赛流程展示。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "攀岩世锦赛观赛指南【8分钟看懂攀岩比赛】",
+        "en": "攀岩世锦赛观赛指南【8分钟看懂攀岩比赛】"
+      },
+      "url": "https://www.bilibili.com/video/BV1tQayzMEie/",
+      "channel": "岩究生APP",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "8 分钟速通攀岩世锦赛赛制：覆盖先锋赛、抱石赛、速度赛、全能赛（Combined）的规则要点，重点讲解 Paris 奥运会采用的\"两项全能\"（Boulder+Lead）新格式与旧三项全能的区别，发布于 2025 年 1 月。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-boulder-competition": [
+    {
+      "title": {
+        "zh": "抱石攀岩规则｜新手必看！抱石比赛从资格赛到决赛的完整规则介绍",
+        "en": "抱石攀岩规则｜新手必看！抱石比赛从资格赛到决赛的完整规则介绍"
+      },
+      "url": "https://www.bilibili.com/video/BV1qxnPzCE8c/",
+      "channel": "露西逃",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "专项讲解 IFSC 抱石赛规则：资格赛、半决赛、决赛的晋级人数与题目数量，区域点（Zone）与顶点（Top）的计分规则，Flash 奖励机制，以及排名并列时的处理规则，图文结合，覆盖 kp-boulder-competition 全部核心规则。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "BOULDERING 101 The 1st Session [Bouldering Battle] - 抱石對抗表演賽",
+        "en": "BOULDERING 101 The 1st Session [Bouldering Battle] - 抱石對抗表演賽"
+      },
+      "url": "https://www.youtube.com/watch?v=dObzCaj7MMw",
+      "channel": "日光山石 SULIMORO",
+      "platform": "youtube",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "抱石对抗表演赛第一场直播录像，展示真实的抱石竞技赛格式：多条 Problem 依次攀爬、计分规则、观众互动，对了解抱石赛气氛与实际竞技形式有参考价值。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "Bouldering 101 抱石對抗表演賽 2nd Session",
+        "en": "Bouldering 101 抱石對抗表演賽 2nd Session"
+      },
+      "url": "https://www.youtube.com/watch?v=0XWWoVYGUlo",
+      "channel": "日光山石 SULIMORO",
+      "platform": "youtube",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "抱石对抗表演赛第二场直播录像，延续第一场格式，展示更多 Problem 的攀爬比赛过程，作为台湾本地抱石竞技社群活动的真实记录。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "【竞技攀岩规则科普】如何看懂一场攀岩比赛",
+        "en": "【竞技攀岩规则科普】如何看懂一场攀岩比赛"
+      },
+      "url": "https://www.bilibili.com/video/BV1F54y1y7pD/",
+      "channel": "（攀岩科普博主）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "全面科普攀岩竞技赛事规则：先锋赛（隔离区制度、观察时间、计分方式）、抱石赛（区域点/顶点积分）、全能赛（乘积排名）以及奥运会格式的演变，适合对竞技攀岩感兴趣的观众和初学者。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "攀岩世界杯即将开始！手把手教你如何观赛",
+        "en": "攀岩世界杯即将开始！手把手教你如何观赛"
+      },
+      "url": "https://www.bilibili.com/video/BV1je6FBhEY5/",
+      "channel": "世界攀岩计划",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "为初次观看世界杯的观众系统介绍竞技攀岩的世界杯赛制：先锋赛与抱石赛的规则差异、积分体系、各赛站形式，以及如何读懂现场计分板，内容全面，兼顾多项赛制讲解。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-combined-olympic": [
+    {
+      "title": {
+        "zh": "Vlog02【攀岩三項模擬賽】亞運選拔｜日光山石",
+        "en": "Vlog02【攀岩三項模擬賽】亞運選拔｜日光山石"
+      },
+      "url": "https://www.youtube.com/watch?v=5t2wsxQ4D4s",
+      "channel": "日光山石 SULIMORO",
+      "platform": "youtube",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "记录亚运会选拔赛前的三项全能（先锋+抱石+速度）模拟训练赛，展示职业选手如何备战全能赛，以及三项赛之间的体能与心理调配，是理解 kp-combined-olympic 比赛形式的真实案例。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "攀岩世锦赛观赛指南【8分钟看懂攀岩比赛】",
+        "en": "攀岩世锦赛观赛指南【8分钟看懂攀岩比赛】"
+      },
+      "url": "https://www.bilibili.com/video/BV1tQayzMEie/",
+      "channel": "岩究生APP",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "8 分钟速通攀岩世锦赛赛制：覆盖先锋赛、抱石赛、速度赛、全能赛（Combined）的规则要点，重点讲解 Paris 奥运会采用的\"两项全能\"（Boulder+Lead）新格式与旧三项全能的区别，发布于 2025 年 1 月。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "【竞技攀岩规则科普】如何看懂一场攀岩比赛",
+        "en": "【竞技攀岩规则科普】如何看懂一场攀岩比赛"
+      },
+      "url": "https://www.bilibili.com/video/BV1F54y1y7pD/",
+      "channel": "（攀岩科普博主）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "全面科普攀岩竞技赛事规则：先锋赛（隔离区制度、观察时间、计分方式）、抱石赛（区域点/顶点积分）、全能赛（乘积排名）以及奥运会格式的演变，适合对竞技攀岩感兴趣的观众和初学者。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "人类进化又不带我！一口气看懂奥运攀岩比赛！",
+        "en": "人类进化又不带我！一口气看懂奥运攀岩比赛！"
+      },
+      "url": "https://www.bilibili.com/video/BV1QM4m1272M/",
+      "channel": "果壳",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "果壳科普频道出品，以生动轻松的风格全面讲解奥运攀岩的发展历程、比赛形式（先锋/抱石/速度/全能）、计分规则，以及中国运动员在巴黎奥运会中的表现（邓丽娟获银牌）。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "速度攀岩规则｜为什么速度攀岩冠军，不一定是爬得最快的那个？",
+        "en": "速度攀岩规则｜为什么速度攀岩冠军，不一定是爬得最快的那个？"
+      },
+      "url": "https://www.bilibili.com/video/BV1oUauzpEbE/",
+      "channel": "（速度攀岩解说博主）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "专项讲解速度攀岩竞赛规则：标准化路线（15 米、5 度仰角）的设计原因、双轨淘汰赛制（大决赛/小决赛）、计时系统和抢跑判定，以及为何采用淘汰赛制可能产生\"最快者非冠军\"的现象，配有真实比赛案例分析。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "你知道奥运会中的攀岩比赛吗？来跟我一起从奥运中看懂攀岩！",
+        "en": "你知道奥运会中的攀岩比赛吗？来跟我一起从奥运中看懂攀岩！"
+      },
+      "url": "https://www.bilibili.com/video/BV15e4y1B7EN/",
+      "channel": "小平爱爬墙",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "从奥运会角度系统介绍竞技攀岩：东京奥运会攀岩首次亮相的背景、三项全能赛制、参赛运动员阵容，以及攀岩进入奥运的历史意义，对 kp-olympics-history 和全能赛制均有完整讲解。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-speed-competition": [
+    {
+      "title": {
+        "zh": "速度攀岩规则｜为什么速度攀岩冠军，不一定是爬得最快的那个？",
+        "en": "速度攀岩规则｜为什么速度攀岩冠军，不一定是爬得最快的那个？"
+      },
+      "url": "https://www.bilibili.com/video/BV1oUauzpEbE/",
+      "channel": "（速度攀岩解说博主）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "专项讲解速度攀岩竞赛规则：标准化路线（15 米、5 度仰角）的设计原因、双轨淘汰赛制（大决赛/小决赛）、计时系统和抢跑判定，以及为何采用淘汰赛制可能产生\"最快者非冠军\"的现象，配有真实比赛案例分析。",
+        "en": ""
+      },
+      "relevance": "primary"
+    }
+  ],
+  "kp-community-media": [
+    {
+      "title": {
+        "zh": "第一次攀岩该如何开始？一个视频带你快速入门！",
+        "en": "第一次攀岩该如何开始？一个视频带你快速入门！"
+      },
+      "url": "https://www.bilibili.com/video/BV1SrcvzNEVU/",
+      "channel": "世界攀岩计划",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "以真实攀岩者（Buluofun）探访伦敦 City Bouldering 馆并与教练 Ade 对话为主线，系统解答初学者常见问题：如何选择攀岩馆、如何入门、需要什么装备，内容贴近社区生活，兼具实用性与人文气息。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "Vlog01【選手攀爬日常】The Depot City｜日光山石",
+        "en": "Vlog01【選手攀爬日常】The Depot City｜日光山石"
+      },
+      "url": "https://www.youtube.com/watch?v=ngZ6hDmiVyI",
+      "channel": "日光山石 SULIMORO",
+      "platform": "youtube",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "职业选手日常攀爬 Vlog，记录在 The Depot City 岩馆的训练日常，包括热身、专项攀爬、训练节奏，呈现竞技选手的真实训练生活与攀岩社群文化。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "Vlog04【日本攀岩】不夠自虐，千萬別去的日本岩館｜日光山石",
+        "en": "Vlog04【日本攀岩】不夠自虐，千萬別去的日本岩館｜日光山石"
+      },
+      "url": "https://www.youtube.com/watch?v=TEGXwawk8qo",
+      "channel": "日光山石 SULIMORO",
+      "platform": "youtube",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "探访日本顶级攀岩馆的 Vlog，记录日本岩馆的路线设置风格、训练文化、与台湾/香港岩馆的比较，展现东亚攀岩社群文化的差异与共通点。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "大咖來訪，Geek Climber 專訪｜日光山石",
+        "en": "大咖來訪，Geek Climber 專訪｜日光山石"
+      },
+      "url": "https://www.youtube.com/watch?v=v0VbC_wkk88",
+      "channel": "日光山石 SULIMORO",
+      "platform": "youtube",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "专访 Geek Climber（知名英文攀岩 YouTube 频道主理人），对谈攀岩内容创作、训练理念、东西方攀岩文化差异，以及如何突破平台期，呈现攀岩社群跨文化交流视角。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "BOULDERING 101 The 1st Session [Bouldering Battle] - 抱石對抗表演賽",
+        "en": "BOULDERING 101 The 1st Session [Bouldering Battle] - 抱石對抗表演賽"
+      },
+      "url": "https://www.youtube.com/watch?v=dObzCaj7MMw",
+      "channel": "日光山石 SULIMORO",
+      "platform": "youtube",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "抱石对抗表演赛第一场直播录像，展示真实的抱石竞技赛格式：多条 Problem 依次攀爬、计分规则、观众互动，对了解抱石赛气氛与实际竞技形式有参考价值。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "Bouldering 101 抱石對抗表演賽 2nd Session",
+        "en": "Bouldering 101 抱石對抗表演賽 2nd Session"
+      },
+      "url": "https://www.youtube.com/watch?v=0XWWoVYGUlo",
+      "channel": "日光山石 SULIMORO",
+      "platform": "youtube",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "抱石对抗表演赛第二场直播录像，延续第一场格式，展示更多 Problem 的攀爬比赛过程，作为台湾本地抱石竞技社群活动的真实记录。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-comp-specific-training": [
+    {
+      "title": {
+        "zh": "攀岩职业运动员日常训练",
+        "en": "攀岩职业运动员日常训练"
+      },
+      "url": "https://www.bilibili.com/video/BV1k54y1479L/",
+      "channel": "悟空视觉",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "记录职业攀岩运动员的日常训练全程：力量训练、校园板练习、技术训练的周期安排，以及备战比赛前的状态调整方法，是了解竞赛专项训练的真实案例视频。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "Vlog03【攀岩選手的重量訓練】健身工廠｜日光山石",
+        "en": "Vlog03【攀岩選手的重量訓練】健身工廠｜日光山石"
+      },
+      "url": "https://www.youtube.com/watch?v=Hun8sKocsTo",
+      "channel": "日光山石 SULIMORO",
+      "platform": "youtube",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "职业攀岩选手进行重量训练（拮抗肌训练）的 Vlog，记录在健身工厂进行推举、肩袖训练等对抗性力量练习的过程，对理解攀岩者为何及如何进行拮抗肌训练有实际参考价值。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "聊聊顶级竞技攀岩运动员们（男子选手篇）",
+        "en": "聊聊顶级竞技攀岩运动员们（男子选手篇）"
+      },
+      "url": "https://www.bilibili.com/video/BV1By4y1z7Ch/",
+      "channel": "知岩片语",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "知岩片语频道出品，系统介绍顶级男子竞技攀岩运动员的特点与风格：Adam Ondra、Tomoa Narasaki、Colin Duffy 等世界级选手的攀爬特点、训练理念与竞技成绩，帮助观众建立对竞技攀岩选手阵容的认识。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "Vlog01【選手攀爬日常】The Depot City｜日光山石",
+        "en": "Vlog01【選手攀爬日常】The Depot City｜日光山石"
+      },
+      "url": "https://www.youtube.com/watch?v=ngZ6hDmiVyI",
+      "channel": "日光山石 SULIMORO",
+      "platform": "youtube",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "职业选手日常攀爬 Vlog，记录在 The Depot City 岩馆的训练日常，包括热身、专项攀爬、训练节奏，呈现竞技选手的真实训练生活与攀岩社群文化。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-rest-management": [
+    {
+      "title": {
+        "zh": "運動後的放鬆工具｜日光山石",
+        "en": "運動後的放鬆工具｜日光山石"
+      },
+      "url": "https://www.youtube.com/watch?v=kziAfCBHaQA",
+      "channel": "日光山石 SULIMORO",
+      "platform": "youtube",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "介绍攀岩者常用的运动后放松工具：泡沫轴（foam roller）、筋膜球、按摩枪等器材的使用方式与适用部位，包含手部、前臂、肩部、背部的针对性放松示范。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "Basic Stretching After Climbing (with timer)｜SULIMORO",
+        "en": "Basic Stretching After Climbing (with timer)｜SULIMORO"
+      },
+      "url": "https://www.youtube.com/watch?v=aZP9FsgV_Mo",
+      "channel": "日光山石 SULIMORO",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "英文跟练视频，提供完整攀岩后拉伸流程，内含计时器辅助，依次引导上肢、肩部、前臂、手指、核心及下肢的放松伸展动作，可直接跟练使用，时长约 10 分钟。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-comp-simulation": [
+    {
+      "title": {
+        "zh": "Vlog02【攀岩三項模擬賽】亞運選拔｜日光山石",
+        "en": "Vlog02【攀岩三項模擬賽】亞運選拔｜日光山石"
+      },
+      "url": "https://www.youtube.com/watch?v=5t2wsxQ4D4s",
+      "channel": "日光山石 SULIMORO",
+      "platform": "youtube",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "记录亚运会选拔赛前的三项全能（先锋+抱石+速度）模拟训练赛，展示职业选手如何备战全能赛，以及三项赛之间的体能与心理调配，是理解 kp-combined-olympic 比赛形式的真实案例。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-sleep-recovery": [
+    {
+      "title": {
+        "zh": "運動後的放鬆工具｜日光山石",
+        "en": "運動後的放鬆工具｜日光山石"
+      },
+      "url": "https://www.youtube.com/watch?v=kziAfCBHaQA",
+      "channel": "日光山石 SULIMORO",
+      "platform": "youtube",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "介绍攀岩者常用的运动后放松工具：泡沫轴（foam roller）、筋膜球、按摩枪等器材的使用方式与适用部位，包含手部、前臂、肩部、背部的针对性放松示范。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-foot-switching": [
+    {
+      "title": {
+        "zh": "攀岩如何換腳｜日光山石",
+        "en": "攀岩如何換腳｜日光山石"
+      },
+      "url": "https://www.youtube.com/watch?v=-a9OI11FA_Q",
+      "channel": "日光山石 SULIMORO",
+      "platform": "youtube",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "专项讲解攀岩换脚技巧：匹配换脚（match）、踩点换脚（step-through）、跳换脚（hop switch）等方式的使用时机与动作要领，配合实拍动作示范，是 kp-foot-switching 的专项教学视频。",
+        "en": ""
+      },
+      "relevance": "primary"
+    }
+  ],
+  "kp-indoor-outdoor-diff": [
+    {
+      "title": {
+        "zh": "户外攀岩｜新人野攀指南",
+        "en": "户外攀岩｜新人野攀指南"
+      },
+      "url": "https://www.bilibili.com/video/BV1gG4y1w7nr/",
+      "channel": "Gigi在孤独星球",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "为室内攀岩者转向户外提供实用指南：户外岩壁特性与室内岩壁的差异、野攀必备装备清单、选择岩场的注意事项，以及常见初次户外攀岩的问题处理方法，约 6 分钟。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "Vlog04【日本攀岩】不夠自虐，千萬別去的日本岩館｜日光山石",
+        "en": "Vlog04【日本攀岩】不夠自虐，千萬別去的日本岩館｜日光山石"
+      },
+      "url": "https://www.youtube.com/watch?v=TEGXwawk8qo",
+      "channel": "日光山石 SULIMORO",
+      "platform": "youtube",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "探访日本顶级攀岩馆的 Vlog，记录日本岩馆的路线设置风格、训练文化、与台湾/香港岩馆的比较，展现东亚攀岩社群文化的差异与共通点。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "室内室外攀岩种类介绍",
+        "en": "室内室外攀岩种类介绍"
+      },
+      "url": "https://www.bilibili.com/video/BV1kr4y1F7Ux/",
+      "channel": "跟我一起来攀岩",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "分别介绍室内攀岩（抱石馆、先锋馆）和室外攀岩（自然岩壁）的种类与特点，并对竞技攀岩格式做简要说明，帮助观众了解室内与室外环境的异同，是理解 kp-indoor-outdoor-diff 的基础视频。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-olympics-athletes": [
+    {
+      "title": {
+        "zh": "香港攀岩代表選手 黃淨淳 專訪｜日光山石",
+        "en": "香港攀岩代表選手 黃淨淳 專訪｜日光山石"
+      },
+      "url": "https://www.youtube.com/watch?v=xU6FDfibEpI",
+      "channel": "日光山石 SULIMORO",
+      "platform": "youtube",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "专访香港攀岩代表队选手黄净淳，深入访谈其竞技经历、备战心态、比赛压力管理及对攀岩运动的理解，从亚洲职业竞技选手视角呈现 kp-olympics-athletes 和 kp-competition-psychology 的真实内容。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "攀岩比赛考古！看看东京奥运会的大魔王如何拿下金牌",
+        "en": "攀岩比赛考古！看看东京奥运会的大魔王如何拿下金牌"
+      },
+      "url": "https://www.bilibili.com/video/BV1kjnBzmEZh/",
+      "channel": "十壹Zaelynn",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "回顾东京奥运会攀岩比赛，分析以 Adam Ondra、Janja Garnbret 为代表的顶级竞技选手的夺金路径与技术特点，对了解奥运竞技运动员风格极有参考价值。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "聊聊顶级竞技攀岩运动员们（男子选手篇）",
+        "en": "聊聊顶级竞技攀岩运动员们（男子选手篇）"
+      },
+      "url": "https://www.bilibili.com/video/BV1By4y1z7Ch/",
+      "channel": "知岩片语",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "知岩片语频道出品，系统介绍顶级男子竞技攀岩运动员的特点与风格：Adam Ondra、Tomoa Narasaki、Colin Duffy 等世界级选手的攀爬特点、训练理念与竞技成绩，帮助观众建立对竞技攀岩选手阵容的认识。",
+        "en": ""
+      },
+      "relevance": "primary"
+    }
+  ],
+  "kp-youth-competition": [
+    {
+      "title": {
+        "zh": "111年度全國青少年運動攀登錦標賽 ｜ Lead Taiwan Youth Championships 2022",
+        "en": "111年度全國青少年運動攀登錦標賽 ｜ Lead Taiwan Youth Championships 2022"
+      },
+      "url": "https://www.youtube.com/watch?v=qA5LAHtbo-s",
+      "channel": "日光山石 SULIMORO",
+      "platform": "youtube",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "台湾 2022 年全国青少年运动攀登锦标赛先锋赛资格赛完整直播录像，展示正式比赛中先锋赛的进行方式、裁判流程、隔离区安排及选手攀爬过程，是 kp-lead-competition 的真实赛事范例。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "111年度全國青少年運動攀登錦標賽 國高中決賽 ｜ Lead Taiwan Youth Championships 2022 Finals",
+        "en": "111年度全國青少年運動攀登錦標賽 國高中決賽 ｜ Lead Taiwan Youth Championships 2022 Finals"
+      },
+      "url": "https://www.youtube.com/watch?v=kRrG00IbdIg",
+      "channel": "日光山石 SULIMORO",
+      "platform": "youtube",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "台湾 2022 年全国青少年先锋赛国高中组决赛直播录像，展示决赛阶段的路线难度、选手攀爬表现及赛场气氛，与资格赛录像合并可构成完整的先锋赛流程展示。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-climbing-origins": [
+    {
+      "title": {
+        "zh": "5分钟了解中国攀岩运动史",
+        "en": "5分钟了解中国攀岩运动史"
+      },
+      "url": "https://www.bilibili.com/video/BV1JZ4y1N7m2/",
+      "channel": "攀岩中国",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "攀岩中国官方频道出品，5 分钟梳理中国攀岩运动从引进到发展壮大的历史脉络，涵盖中国攀协成立、国家队建设、奥运征程等关键节点，补充了 kp-climbing-origins 的中国视角。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "攀岩起源因为爱情？！听我讲睡前故事，花点时间了解下你热爱的运动发展",
+        "en": "攀岩起源因为爱情？！听我讲睡前故事，花点时间了解下你热爱的运动发展"
+      },
+      "url": "https://www.bilibili.com/video/BV1ud4y1m7fx/",
+      "channel": "泓深-Anchor",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "以轻松讲故事的方式介绍攀岩运动的历史渊源：从欧洲 Saxon Switzerland、优胜美地自由攀登理念的形成，到现代运动攀岩的诞生，是\"基础理论\"系列第一讲，入门友好。",
+        "en": ""
+      },
+      "relevance": "primary"
+    }
+  ],
+  "kp-free-climbing-revolution": [
+    {
+      "title": {
+        "zh": "攀岩起源因为爱情？！听我讲睡前故事，花点时间了解下你热爱的运动发展",
+        "en": "攀岩起源因为爱情？！听我讲睡前故事，花点时间了解下你热爱的运动发展"
+      },
+      "url": "https://www.bilibili.com/video/BV1ud4y1m7fx/",
+      "channel": "泓深-Anchor",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "以轻松讲故事的方式介绍攀岩运动的历史渊源：从欧洲 Saxon Switzerland、优胜美地自由攀登理念的形成，到现代运动攀岩的诞生，是\"基础理论\"系列第一讲，入门友好。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-climbing-categories": [
+    {
+      "title": {
+        "zh": "在攀岩中不同形式的攀登到底区别在哪？！新人科普帖，纯干货很无聊",
+        "en": "在攀岩中不同形式的攀登到底区别在哪？！新人科普帖，纯干货很无聊"
+      },
+      "url": "https://www.bilibili.com/video/BV1br4y147VV/",
+      "channel": "泓深-Anchor",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "系统对比抱石、先锋、传统攀、大岩壁、深水独攀、冰攀等各类攀岩形式的定义与区别，图文并茂，\"基础理论\"系列第二讲，逻辑清晰，覆盖主流与特殊分类。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "室内室外攀岩种类介绍",
+        "en": "室内室外攀岩种类介绍"
+      },
+      "url": "https://www.bilibili.com/video/BV1kr4y1F7Ux/",
+      "channel": "跟我一起来攀岩",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "分别介绍室内攀岩（抱石馆、先锋馆）和室外攀岩（自然岩壁）的种类与特点，并对竞技攀岩格式做简要说明，帮助观众了解室内与室外环境的异同，是理解 kp-indoor-outdoor-diff 的基础视频。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "第一次攀岩该如何开始？一个视频带你快速入门！",
+        "en": "第一次攀岩该如何开始？一个视频带你快速入门！"
+      },
+      "url": "https://www.bilibili.com/video/BV1SrcvzNEVU/",
+      "channel": "世界攀岩计划",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "以真实攀岩者（Buluofun）探访伦敦 City Bouldering 馆并与教练 Ade 对话为主线，系统解答初学者常见问题：如何选择攀岩馆、如何入门、需要什么装备，内容贴近社区生活，兼具实用性与人文气息。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-special-categories": [
+    {
+      "title": {
+        "zh": "在攀岩中不同形式的攀登到底区别在哪？！新人科普帖，纯干货很无聊",
+        "en": "在攀岩中不同形式的攀登到底区别在哪？！新人科普帖，纯干货很无聊"
+      },
+      "url": "https://www.bilibili.com/video/BV1br4y147VV/",
+      "channel": "泓深-Anchor",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "系统对比抱石、先锋、传统攀、大岩壁、深水独攀、冰攀等各类攀岩形式的定义与区别，图文并茂，\"基础理论\"系列第二讲，逻辑清晰，覆盖主流与特殊分类。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-grading-systems": [
+    {
+      "title": {
+        "zh": "【概念】攀岩的难度体系（难度篇）",
+        "en": "【概念】攀岩的难度体系（难度篇）"
+      },
+      "url": "https://www.bilibili.com/video/BV1fS4y167cE/",
+      "channel": "泓深-Anchor",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "简明讲解攀岩难度评级体系：YDS（优胜美地十进制）、法国系统、V级抱石评级及枫丹白露系统，解释各系统的使用场景与换算关系，时长约 2 分 18 秒，\"基础理论\"系列。",
+        "en": ""
+      },
+      "relevance": "primary"
+    }
+  ],
+  "kp-grade-comparison": [
+    {
+      "title": {
+        "zh": "【概念】攀岩的难度体系（难度篇）",
+        "en": "【概念】攀岩的难度体系（难度篇）"
+      },
+      "url": "https://www.bilibili.com/video/BV1fS4y167cE/",
+      "channel": "泓深-Anchor",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "简明讲解攀岩难度评级体系：YDS（优胜美地十进制）、法国系统、V级抱石评级及枫丹白露系统，解释各系统的使用场景与换算关系，时长约 2 分 18 秒，\"基础理论\"系列。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-olympics-history": [
+    {
+      "title": {
+        "zh": "人类进化又不带我！一口气看懂奥运攀岩比赛！",
+        "en": "人类进化又不带我！一口气看懂奥运攀岩比赛！"
+      },
+      "url": "https://www.bilibili.com/video/BV1QM4m1272M/",
+      "channel": "果壳",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "果壳科普频道出品，以生动轻松的风格全面讲解奥运攀岩的发展历程、比赛形式（先锋/抱石/速度/全能）、计分规则，以及中国运动员在巴黎奥运会中的表现（邓丽娟获银牌）。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "你知道奥运会中的攀岩比赛吗？来跟我一起从奥运中看懂攀岩！",
+        "en": "你知道奥运会中的攀岩比赛吗？来跟我一起从奥运中看懂攀岩！"
+      },
+      "url": "https://www.bilibili.com/video/BV15e4y1B7EN/",
+      "channel": "小平爱爬墙",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "从奥运会角度系统介绍竞技攀岩：东京奥运会攀岩首次亮相的背景、三项全能赛制、参赛运动员阵容，以及攀岩进入奥运的历史意义，对 kp-olympics-history 和全能赛制均有完整讲解。",
+        "en": ""
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "攀岩比赛考古！看看东京奥运会的大魔王如何拿下金牌",
+        "en": "攀岩比赛考古！看看东京奥运会的大魔王如何拿下金牌"
+      },
+      "url": "https://www.bilibili.com/video/BV1kjnBzmEZh/",
+      "channel": "十壹Zaelynn",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "回顾东京奥运会攀岩比赛，分析以 Adam Ondra、Janja Garnbret 为代表的顶级竞技选手的夺金路径与技术特点，对了解奥运竞技运动员风格极有参考价值。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-modern-era": [
+    {
+      "title": {
+        "zh": "5分钟了解中国攀岩运动史",
+        "en": "5分钟了解中国攀岩运动史"
+      },
+      "url": "https://www.bilibili.com/video/BV1JZ4y1N7m2/",
+      "channel": "攀岩中国",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "攀岩中国官方频道出品，5 分钟梳理中国攀岩运动从引进到发展壮大的历史脉络，涵盖中国攀协成立、国家队建设、奥运征程等关键节点，补充了 kp-climbing-origins 的中国视角。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-sport-climbing-emergence": [
+    {
+      "title": {
+        "zh": "Statement of Youth: The Birth of British Sport Climbing",
+        "en": "Statement of Youth: The Birth of British Sport Climbing"
+      },
+      "url": "https://www.youtube.com/watch?v=zeqI9axxrco",
+      "channel": "（英国攀岩历史纪录片）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "记录英国运动攀岩兴起的历史纪录片，追溯螺栓保护理念的引入与争议、英国先锋路线开发史，以及从传统攀向运动攀转变过程中产生的伦理碰撞，对 kp-sport-climbing-emergence 高度契合。",
+        "en": ""
+      },
+      "relevance": "primary"
+    }
+  ],
+  "kp-climbing-ethics": [
+    {
+      "title": {
+        "zh": "Statement of Youth: The Birth of British Sport Climbing",
+        "en": "Statement of Youth: The Birth of British Sport Climbing"
+      },
+      "url": "https://www.youtube.com/watch?v=zeqI9axxrco",
+      "channel": "（英国攀岩历史纪录片）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "记录英国运动攀岩兴起的历史纪录片，追溯螺栓保护理念的引入与争议、英国先锋路线开发史，以及从传统攀向运动攀转变过程中产生的伦理碰撞，对 kp-sport-climbing-emergence 高度契合。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-elbow-injury": [
+    {
+      "title": {
+        "zh": "手肘受伤后攀岩人如何保持训练 ｜ How to Deal with Elbow Injuries (for climbers)",
+        "en": "手肘受伤后攀岩人如何保持训练 ｜ How to Deal with Elbow Injuries (for climbers)"
+      },
+      "url": "https://www.bilibili.com/video/BV1hL41187Yq/",
+      "channel": "奚山不是山",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "基于 Lattice Training 素材，讲解攀岩者肘部受伤后的三大策略：保持指力训练、在不加重受伤部位的前提下继续攀岩、最大化利用当前身体能力；强调适当休息与保守恢复的重要性。",
+        "en": ""
+      },
+      "relevance": "primary"
+    }
+  ],
+  "kp-campus-training": [
+    {
+      "title": {
+        "zh": "[攀岩\\",
+        "en": "[攀岩\\"
+      },
+      "url": "https://www.bilibili.com/video/BV1zgNRepEJE/",
+      "channel": "ClimbingWorld",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "演示职业攀岩者使用校园板（Campus Board）进行无脚训练的完整过程，涵盖基础梯步、跳跃练习及接触力量专项动作，时长 22 分钟，内容详实，是 Campus 训练的中文版实操演示。",
+        "en": ""
+      },
+      "relevance": "primary"
+    }
+  ],
+  "kp-contact-strength": [
+    {
+      "title": {
+        "zh": "[攀岩\\",
+        "en": "[攀岩\\"
+      },
+      "url": "https://www.bilibili.com/video/BV1zgNRepEJE/",
+      "channel": "ClimbingWorld",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "演示职业攀岩者使用校园板（Campus Board）进行无脚训练的完整过程，涵盖基础梯步、跳跃练习及接触力量专项动作，时长 22 分钟，内容详实，是 Campus 训练的中文版实操演示。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-outdoor-rock-types": [
+    {
+      "title": {
+        "zh": "户外攀岩｜新人野攀指南",
+        "en": "户外攀岩｜新人野攀指南"
+      },
+      "url": "https://www.bilibili.com/video/BV1gG4y1w7nr/",
+      "channel": "Gigi在孤独星球",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "为室内攀岩者转向户外提供实用指南：户外岩壁特性与室内岩壁的差异、野攀必备装备清单、选择岩场的注意事项，以及常见初次户外攀岩的问题处理方法，约 6 分钟。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-scoring-systems": [
+    {
+      "title": {
+        "zh": "抱石攀岩规则｜新手必看！抱石比赛从资格赛到决赛的完整规则介绍",
+        "en": "抱石攀岩规则｜新手必看！抱石比赛从资格赛到决赛的完整规则介绍"
+      },
+      "url": "https://www.bilibili.com/video/BV1qxnPzCE8c/",
+      "channel": "露西逃",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "专项讲解 IFSC 抱石赛规则：资格赛、半决赛、决赛的晋级人数与题目数量，区域点（Zone）与顶点（Top）的计分规则，Flash 奖励机制，以及排名并列时的处理规则，图文结合，覆盖 kp-boulder-competition 全部核心规则。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-competition-anxiety": [
+    {
+      "title": {
+        "zh": "攀岩心态爆炸了，来学习如何心理建设",
+        "en": "攀岩心态爆炸了，来学习如何心理建设"
+      },
+      "url": "https://www.bilibili.com/video/BV1RgZ7BQEqe/",
+      "channel": "FEntropy",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "从竞技心理角度分析攀岩者在比赛/训练中出现\"心态崩溃\"的原因，提供具体的心理建设方法：认知重构、过程导向思维、呼吸调节等，内容聚焦于竞技压力管理，与 kp-competition-anxiety 高度契合。",
+        "en": ""
+      },
+      "relevance": "primary"
+    }
+  ],
+  "kp-performance-mindset": [
+    {
+      "title": {
+        "zh": "攀岩心态爆炸了，来学习如何心理建设",
+        "en": "攀岩心态爆炸了，来学习如何心理建设"
+      },
+      "url": "https://www.bilibili.com/video/BV1RgZ7BQEqe/",
+      "channel": "FEntropy",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "从竞技心理角度分析攀岩者在比赛/训练中出现\"心态崩溃\"的原因，提供具体的心理建设方法：认知重构、过程导向思维、呼吸调节等，内容聚焦于竞技压力管理，与 kp-competition-anxiety 高度契合。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-peaking": [
+    {
+      "title": {
+        "zh": "攀岩职业运动员日常训练",
+        "en": "攀岩职业运动员日常训练"
+      },
+      "url": "https://www.bilibili.com/video/BV1k54y1479L/",
+      "channel": "悟空视觉",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "记录职业攀岩运动员的日常训练全程：力量训练、校园板练习、技术训练的周期安排，以及备战比赛前的状态调整方法，是了解竞赛专项训练的真实案例视频。",
+        "en": ""
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-ifsc": [
+    {
+      "title": {
+        "zh": "[攀岩] 世界攀岩联合会（IFSC）官方训练板",
+        "en": "[攀岩] 世界攀岩联合会（IFSC）官方训练板"
+      },
+      "url": "https://www.bilibili.com/video/BV1aJzwBREXq/",
+      "channel": "ClimbingWorld",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "介绍 IFSC（国际攀岩联合会）官方认证的训练板标准与使用方式，涉及 IFSC 组织架构在竞技训练标准化中的作用，从装备标准化角度切入理解 IFSC 这一组织的影响力。",
+        "en": ""
+      },
+      "relevance": "primary"
+    }
+  ],
+  "kp-national-federations": [
+    {
+      "title": {
+        "zh": "[攀岩] 世界攀岩联合会（IFSC）官方训练板",
+        "en": "[攀岩] 世界攀岩联合会（IFSC）官方训练板"
+      },
+      "url": "https://www.bilibili.com/video/BV1aJzwBREXq/",
+      "channel": "ClimbingWorld",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "介绍 IFSC（国际攀岩联合会）官方认证的训练板标准与使用方式，涉及 IFSC 组织架构在竞技训练标准化中的作用，从装备标准化角度切入理解 IFSC 这一组织的影响力。",
+        "en": ""
+      },
+      "relevance": "secondary"
     }
   ]
 }

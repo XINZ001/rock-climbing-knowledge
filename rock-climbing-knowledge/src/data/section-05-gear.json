@@ -25,12 +25,30 @@
             "en": "Climbing shoes are one of the most important pieces of gear, directly affecting footwork precision and climbing performance. They feature high-friction rubber soles (such as Vibram XS Grip or Stealth C4) that provide excellent grip on rock surfaces.\n\n**Shoe profiles:** Flat shoes offer comfort for beginners and multi-pitch; moderate downturn shoes balance comfort and performance for intermediate climbers; aggressive downturn shoes concentrate power at the toe for steep overhangs and bouldering.\n\n**Last shapes:** Symmetric lasts are comfortable and versatile; asymmetric lasts angle toward the big toe for precise edging on small footholds.\n\n**Sizing:** Climbing shoes should fit snugly. Beginners should aim for tight but pain-free; advanced climbers may size down further. Leather shoes stretch more than synthetic. Always try before buying as sizing varies significantly between brands."
           },
           "terms": [
-            { "zh": "攀岩鞋", "en": "climbing shoes" },
-            { "zh": "下弯鞋", "en": "downturn shoe" },
-            { "zh": "楦型", "en": "last shape" },
-            { "zh": "平底鞋", "en": "flat shoe" },
-            { "zh": "橡胶鞋底", "en": "rubber sole" },
-            { "zh": "不对称楦型", "en": "asymmetric last" }
+            {
+              "zh": "攀岩鞋",
+              "en": "climbing shoes"
+            },
+            {
+              "zh": "下弯鞋",
+              "en": "downturn shoe"
+            },
+            {
+              "zh": "楦型",
+              "en": "last shape"
+            },
+            {
+              "zh": "平底鞋",
+              "en": "flat shoe"
+            },
+            {
+              "zh": "橡胶鞋底",
+              "en": "rubber sole"
+            },
+            {
+              "zh": "不对称楦型",
+              "en": "asymmetric last"
+            }
           ],
           "crossRefs": [
             "kp-edging",
@@ -38,7 +56,27 @@
             "kp-heel-hook",
             "kp-slab-technique"
           ],
-          "tags": ["beginner", "gear"]
+          "tags": [
+            "beginner",
+            "gear"
+          ],
+          "expertInsights": [
+            {
+              "zh": "新手应优先选择中性或中等下弯的舒适鞋型，而非追求激进下弯的专业赛鞋。尺码上，抱石鞋可更紧半码以获得精确脚感，运动攀鞋可宽松一个码以适应长时间穿着。",
+              "en": "Beginners should prioritize neutral or moderate downturn shoes for comfort rather than aggressive competition models. For sizing, bouldering shoes can be half a size tighter for precision, while sport climbing shoes can be a full size looser for extended wear.",
+              "source": "99Boulders",
+              "sourceUrl": "https://www.99boulders.com/best-climbing-shoes"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "The Best Climbing Shoes in 2025",
+              "url": "https://www.99boulders.com/best-climbing-shoes",
+              "source": "99Boulders",
+              "language": "en",
+              "articleType": "gear-review"
+            }
+          ]
         },
         {
           "id": "kp-chalk",
@@ -51,17 +89,52 @@
             "en": "Chalk (magnesium carbonate, MgCO3) absorbs sweat from hands to maintain friction while climbing. It is an essential consumable for all climbers.\n\n**Types:** Loose chalk provides the best coverage but creates dust; chalk balls reduce airborne particles and are required at many gyms; liquid chalk (chalk mixed with alcohol) leaves a long-lasting base layer with minimal dust.\n\n**Chalk bags:** Waist-mounted bags are used while climbing on routes; bucket-style bags sit on the ground for bouldering sessions. Look for a wide opening, secure closure, and a fleece lining for even chalk distribution."
           },
           "terms": [
-            { "zh": "镁粉", "en": "chalk" },
-            { "zh": "碳酸镁", "en": "magnesium carbonate" },
-            { "zh": "镁粉球", "en": "chalk ball" },
-            { "zh": "液态镁粉", "en": "liquid chalk" },
-            { "zh": "镁粉袋", "en": "chalk bag" }
+            {
+              "zh": "镁粉",
+              "en": "chalk"
+            },
+            {
+              "zh": "碳酸镁",
+              "en": "magnesium carbonate"
+            },
+            {
+              "zh": "镁粉球",
+              "en": "chalk ball"
+            },
+            {
+              "zh": "液态镁粉",
+              "en": "liquid chalk"
+            },
+            {
+              "zh": "镁粉袋",
+              "en": "chalk bag"
+            }
           ],
           "crossRefs": [
             "kp-crimp-hold",
             "kp-sloper-hold"
           ],
-          "tags": ["beginner", "gear"]
+          "tags": [
+            "beginner",
+            "gear"
+          ],
+          "expertInsights": [
+            {
+              "zh": "室内攀岩馆通常限制散粉使用以减少空气粉尘，液态镁粉（chalk + 酒精混合物）是室内攀岩最环保且规则友好的选择，可作为基底层使用后再补充粉状镁粉。",
+              "en": "Many indoor gyms restrict loose chalk to reduce airborne dust. Liquid chalk (a chalk-alcohol mixture) is the most eco-friendly and rule-compliant option for gym climbing, and works well as a base layer before topping up with powdered chalk.",
+              "source": "Gripped Magazine",
+              "sourceUrl": "https://gripped.com/indoor-climbing/how-to-choose-the-best-chalk/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "How to Choose the Best Chalk for Rock Climbing",
+              "url": "https://gripped.com/indoor-climbing/how-to-choose-the-best-chalk/",
+              "source": "Gripped Magazine",
+              "language": "en",
+              "articleType": "gear-review"
+            }
+          ]
         },
         {
           "id": "kp-climbing-clothing",
@@ -74,14 +147,43 @@
             "en": "Climbing clothing should allow full range of motion, manage moisture, and be durable enough to withstand contact with rock.\n\n**Tops:** Choose stretchy, moisture-wicking fabrics (synthetic or merino wool) that do not restrict shoulder movement. Avoid overly loose tops that can snag on holds or gear. Layer for outdoor climbing.\n\n**Bottoms:** Climbing pants need sufficient stretch at the thighs and hips for high steps and stemming. Long pants protect against rock abrasion outdoors, while shorts work well for bouldering and gym climbing.\n\nRemove jewelry before climbing to prevent injury, tie back long hair, and consider sun protection for outdoor sessions."
           },
           "terms": [
-            { "zh": "攀岩裤", "en": "climbing pants" },
-            { "zh": "吸湿排汗", "en": "moisture-wicking" },
-            { "zh": "弹性面料", "en": "stretch fabric" }
+            {
+              "zh": "攀岩裤",
+              "en": "climbing pants"
+            },
+            {
+              "zh": "吸湿排汗",
+              "en": "moisture-wicking"
+            },
+            {
+              "zh": "弹性面料",
+              "en": "stretch fabric"
+            }
           ],
           "crossRefs": [
             "kp-hip-flexibility"
           ],
-          "tags": ["beginner", "gear"]
+          "tags": [
+            "beginner",
+            "gear"
+          ],
+          "expertInsights": [
+            {
+              "zh": "攀岩专用裤多采用膝部预成型设计（articulated knees），保证高脚步时的活动范围。避免过于宽松的裤子——它们会在高脚点时遮挡视线，影响踩点精确性。",
+              "en": "Purpose-built climbing pants feature articulated knees for unrestricted high-stepping. Avoid overly baggy pants, as they can block your view of footholds during high steps and reduce placement precision.",
+              "source": "Advnture",
+              "sourceUrl": "https://www.advnture.com/features/climbing-clothing"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "What to Wear for Rock Climbing: A Guide for Beginners",
+              "url": "https://www.advnture.com/features/climbing-clothing",
+              "source": "Advnture",
+              "language": "en",
+              "articleType": "gear-review"
+            }
+          ]
         }
       ]
     },
@@ -109,18 +211,54 @@
             "en": "A climbing harness connects the climber to the rope system, distributing fall forces across the waist and thighs.\n\n**Key components:** The waistbelt sits above the hip bones; leg loops (fixed or adjustable) encircle the thighs; the belay loop (rated 15-25kN) is the primary attachment point for belay devices; gear loops carry equipment but are not load-bearing.\n\n**Selection:** Sport climbers prefer lightweight harnesses; trad and big wall climbers need more gear loops and wider padding for comfort during long hangs. The waistbelt must be snug and unable to slide over the hips.\n\n**Safety:** Always verify the waistbelt is doubled back and buckled. Inspect the belay loop for wear regularly. Replace the harness every 3-5 years or after a severe fall."
           },
           "terms": [
-            { "zh": "安全带", "en": "harness" },
-            { "zh": "腰带", "en": "waistbelt" },
-            { "zh": "腿环", "en": "leg loops" },
-            { "zh": "保护环", "en": "belay loop" },
-            { "zh": "装备环", "en": "gear loops" }
+            {
+              "zh": "安全带",
+              "en": "harness"
+            },
+            {
+              "zh": "腰带",
+              "en": "waistbelt"
+            },
+            {
+              "zh": "腿环",
+              "en": "leg loops"
+            },
+            {
+              "zh": "保护环",
+              "en": "belay loop"
+            },
+            {
+              "zh": "装备环",
+              "en": "gear loops"
+            }
           ],
           "crossRefs": [
             "kp-belaying",
             "kp-rappelling",
             "kp-fall-technique"
           ],
-          "tags": ["beginner", "gear", "safety"]
+          "tags": [
+            "beginner",
+            "gear",
+            "safety"
+          ],
+          "expertInsights": [
+            {
+              "zh": "腿环是否可调节影响安全带的季节适用性——冬季分层穿搭时可调节腿环更为实用。装备环数量和位置是传统攀爬者的核心考量点，建议至少4个装备环。",
+              "en": "Adjustable leg loops extend a harness's seasonal versatility, especially important when layering in winter. For trad climbers, gear loop count and placement are critical selection criteria -- aim for at least 4 gear loops.",
+              "source": "99Boulders",
+              "sourceUrl": "https://www.99boulders.com/best-climbing-harnesses"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "7 Best Climbing Harnesses in 2026",
+              "url": "https://www.99boulders.com/best-climbing-harnesses",
+              "source": "99Boulders",
+              "language": "en",
+              "articleType": "gear-review"
+            }
+          ]
         },
         {
           "id": "kp-helmet",
@@ -133,16 +271,49 @@
             "en": "Climbing helmets are essential for outdoor climbing, protecting against rockfall from above and head impact against the wall during falls.\n\n**Types:** Hardshell helmets use a suspension system to distribute impact; foam helmets (EPS) absorb energy directly but must be replaced after a significant impact; hybrid helmets combine both technologies for lightweight all-around protection.\n\n**Fit:** The helmet should sit level on the head, about one finger-width above the eyebrows. Straps should be snug without pressure, and the helmet should not rock in any direction. Wear it while climbing and belaying."
           },
           "terms": [
-            { "zh": "头盔", "en": "helmet" },
-            { "zh": "硬壳头盔", "en": "hardshell helmet" },
-            { "zh": "泡沫头盔", "en": "foam helmet" },
-            { "zh": "混合型头盔", "en": "hybrid helmet" }
+            {
+              "zh": "头盔",
+              "en": "helmet"
+            },
+            {
+              "zh": "硬壳头盔",
+              "en": "hardshell helmet"
+            },
+            {
+              "zh": "泡沫头盔",
+              "en": "foam helmet"
+            },
+            {
+              "zh": "混合型头盔",
+              "en": "hybrid helmet"
+            }
           ],
           "crossRefs": [
             "kp-fall-technique",
             "kp-belaying"
           ],
-          "tags": ["beginner", "gear", "safety"]
+          "tags": [
+            "beginner",
+            "gear",
+            "safety"
+          ],
+          "expertInsights": [
+            {
+              "zh": "EPP 泡沫（如 Petzl 使用）比 EPS 更抗裂、可提供侧面冲击保护，同时保持轻量化。长时间多绳距攀岩者应优先选择轻量舒适的泡沫头盔，将重量、防护性和舒适度三者权衡。",
+              "en": "EPP foam (used by Petzl) is more crack-resistant than EPS and provides lateral impact protection while staying lightweight. For long multi-pitch days, prioritize a lightweight foam helmet and balance weight, protection, and comfort.",
+              "source": "99Boulders",
+              "sourceUrl": "https://www.99boulders.com/best-climbing-helmets"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "5 Best Climbing Helmets in 2025",
+              "url": "https://www.99boulders.com/best-climbing-helmets",
+              "source": "99Boulders",
+              "language": "en",
+              "articleType": "gear-review"
+            }
+          ]
         },
         {
           "id": "kp-rope",
@@ -155,12 +326,30 @@
             "en": "The climbing rope is the single most critical piece of protection equipment, absorbing fall energy and safeguarding the climber.\n\n**Dynamic vs Static:** Dynamic ropes stretch 30-40% to absorb fall forces and are mandatory for lead climbing. Static ropes have minimal stretch (<5%) and are used only for rappelling, fixed lines, and hauling — never for lead climbing.\n\n**Diameter:** Thick ropes (10-11mm) are durable and beginner-friendly; standard ropes (9.4-9.9mm) balance weight and durability; thin ropes (8.5-9.3mm) are lightweight for experienced climbers but require compatible belay devices.\n\n**Length:** 60m and 70m are standard; 70m covers most sport routes. Check local route lengths before purchasing.\n\n**Care:** Never step on the rope, avoid chemicals and prolonged UV exposure, and retire it when the sheath shows significant wear or core shots appear."
           },
           "terms": [
-            { "zh": "动力绳", "en": "dynamic rope" },
-            { "zh": "静力绳", "en": "static rope" },
-            { "zh": "绳径", "en": "rope diameter" },
-            { "zh": "延展率", "en": "elongation" },
-            { "zh": "绳皮", "en": "rope sheath" },
-            { "zh": "芯线", "en": "core strands" }
+            {
+              "zh": "动力绳",
+              "en": "dynamic rope"
+            },
+            {
+              "zh": "静力绳",
+              "en": "static rope"
+            },
+            {
+              "zh": "绳径",
+              "en": "rope diameter"
+            },
+            {
+              "zh": "延展率",
+              "en": "elongation"
+            },
+            {
+              "zh": "绳皮",
+              "en": "rope sheath"
+            },
+            {
+              "zh": "芯线",
+              "en": "core strands"
+            }
           ],
           "crossRefs": [
             "kp-belaying",
@@ -168,7 +357,28 @@
             "kp-knots",
             "kp-fall-technique"
           ],
-          "tags": ["beginner", "gear", "safety"]
+          "tags": [
+            "beginner",
+            "gear",
+            "safety"
+          ],
+          "expertInsights": [
+            {
+              "zh": "干绳处理（dry treatment）适合潮湿环境，可防止绳子吸水变重变硬，但价格更高。UIAA 认证的坠落次数（fall rating）是绳子耐久性的重要指标，运动攀用绳至少需通过5次测试坠落。",
+              "en": "Dry-treated ropes prevent water absorption that makes ropes heavy and stiff in wet conditions, though they cost more. The UIAA fall rating is a key durability indicator -- sport climbing ropes should withstand at least 5 test falls.",
+              "source": "Gripped Magazine",
+              "sourceUrl": "https://gripped.com/profiles/how-to-choose-your-first-outdoor-climbing-rope/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "How to Choose Your First Outdoor Climbing Rope",
+              "url": "https://gripped.com/profiles/how-to-choose-your-first-outdoor-climbing-rope/",
+              "source": "Gripped Magazine",
+              "language": "en",
+              "articleType": "gear-review"
+            }
+          ]
         },
         {
           "id": "kp-belay-device",
@@ -181,18 +391,54 @@
             "en": "A belay device controls the rope to catch falls and lower the climber. Understanding the two main categories is essential for safe climbing.\n\n**Tubular devices (ATC-style):** Create friction by bending the rope through a tube. Lightweight, versatile, and compatible with various rope diameters and double-rope techniques. Requires the belayer to manually maintain braking — no assisted locking.\n\n**Assisted-braking devices (GriGri-style):** Feature a cam mechanism that automatically locks the rope during a sudden pull. Highly recommended for beginners. However, they are heavier, more expensive, and have specific rope diameter ranges.\n\n**Critical rule:** The brake hand must never leave the rope regardless of device type. Assisted-braking is an aid, not a substitute for proper technique. Replace any device showing groove wear from rope friction."
           },
           "terms": [
-            { "zh": "保护器", "en": "belay device" },
-            { "zh": "管状保护器", "en": "tubular device / ATC" },
-            { "zh": "辅助制动保护器", "en": "assisted-braking device" },
-            { "zh": "制动手", "en": "brake hand" },
-            { "zh": "凸轮装置", "en": "cam mechanism" }
+            {
+              "zh": "保护器",
+              "en": "belay device"
+            },
+            {
+              "zh": "管状保护器",
+              "en": "tubular device / ATC"
+            },
+            {
+              "zh": "辅助制动保护器",
+              "en": "assisted-braking device"
+            },
+            {
+              "zh": "制动手",
+              "en": "brake hand"
+            },
+            {
+              "zh": "凸轮装置",
+              "en": "cam mechanism"
+            }
           ],
           "crossRefs": [
             "kp-belaying",
             "kp-rope",
             "kp-rappelling"
           ],
-          "tags": ["beginner", "gear", "safety"]
+          "tags": [
+            "beginner",
+            "gear",
+            "safety"
+          ],
+          "expertInsights": [
+            {
+              "zh": "初学者可从 ATC 管状保护器入手学习制动基础，再过渡到 GriGri 辅助制动器——两者并非互斥而是互补。ATC 轻便、多功能（支持半绳/双绳），适合传统攀和多绳距场景。",
+              "en": "Beginners can start with an ATC tubular device to learn braking fundamentals, then transition to a GriGri -- the two are complementary rather than competing. ATCs are lightweight and versatile (supporting half/twin ropes), ideal for trad and multi-pitch scenarios.",
+              "source": "99Boulders",
+              "sourceUrl": "https://www.99boulders.com/grigri-vs-atc"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "GriGri vs. ATC: When to Use Each Belay Device",
+              "url": "https://www.99boulders.com/grigri-vs-atc",
+              "source": "99Boulders",
+              "language": "en",
+              "articleType": "gear-review"
+            }
+          ]
         },
         {
           "id": "kp-quickdraw",
@@ -205,19 +451,58 @@
             "en": "A quickdraw connects the rope to bolt protection on sport routes, consisting of two carabiners linked by a dogbone sling.\n\n**Components:** The bolt-end carabiner (usually straight gate) clips into wall bolts; the dogbone (nylon or Dyneema, 10-25cm) connects them; the rope-end carabiner (usually bent gate with rubber keeper) clips the rope.\n\n**Carabiner locking types:** Screw-gate carabiners lock manually and are used at anchors; auto-locking carabiners (twist-lock or triple-action) are convenient for belay loop connections; non-locking carabiners on quickdraws allow fast clipping.\n\nMost sport routes require 10-15 quickdraws. Carry 2 alpine draws (extendable quickdraws) to reduce rope drag on wandering routes."
           },
           "terms": [
-            { "zh": "快挂", "en": "quickdraw" },
-            { "zh": "锁扣", "en": "carabiner" },
-            { "zh": "狗骨带", "en": "dogbone" },
-            { "zh": "丝扣锁", "en": "screw-gate carabiner" },
-            { "zh": "自动锁", "en": "auto-locking carabiner" },
-            { "zh": "挂片", "en": "bolt" }
+            {
+              "zh": "快挂",
+              "en": "quickdraw"
+            },
+            {
+              "zh": "锁扣",
+              "en": "carabiner"
+            },
+            {
+              "zh": "狗骨带",
+              "en": "dogbone"
+            },
+            {
+              "zh": "丝扣锁",
+              "en": "screw-gate carabiner"
+            },
+            {
+              "zh": "自动锁",
+              "en": "auto-locking carabiner"
+            },
+            {
+              "zh": "挂片",
+              "en": "bolt"
+            }
           ],
           "crossRefs": [
             "kp-belaying",
             "kp-rope",
             "kp-fall-technique"
           ],
-          "tags": ["beginner", "gear", "safety"]
+          "tags": [
+            "beginner",
+            "gear",
+            "safety"
+          ],
+          "expertInsights": [
+            {
+              "zh": "快挂织带长度（10cm、12cm、17cm）影响绳路走向和绳阻——路线曲折时用更长的快挂减少绳阻。下锁使用弯门锁方便挂绳，上锁推荐钢丝门锁以减轻重量。",
+              "en": "Quickdraw dogbone length (10cm, 12cm, 17cm) affects rope path and drag -- use longer draws on wandering routes to reduce rope drag. Bent-gate carabiners on the rope end ease clipping, while wire-gate carabiners on the bolt end save weight.",
+              "source": "99Boulders",
+              "sourceUrl": "https://www.99boulders.com/best-quickdraws"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "11 Best Quickdraws for Climbing in 2025",
+              "url": "https://www.99boulders.com/best-quickdraws",
+              "source": "99Boulders",
+              "language": "en",
+              "articleType": "gear-review"
+            }
+          ]
         }
       ]
     },
@@ -245,17 +530,60 @@
             "en": "Nuts (stoppers) are the most basic passive protection, using wedge-shaped metal pieces lodged in constrictions within cracks.\n\n**How they work:** The tapered metal wedge seats in a narrowing crack. Downward force drives it deeper, creating a stronger hold. Good placements maximize surface contact between the nut and rock.\n\n**Types:** Standard wired nuts (e.g., Black Diamond Stoppers) come in sets of graduated sizes; micro nuts are used in thin cracks with lower strength ratings (2-5kN); hexentrics (hexes) fit wider cracks and can use a camming rotation for extra security.\n\n**Placement:** Find a constriction, seat the appropriately sized nut, and test with a firm pull in the expected fall direction. Use a nut tool for removal."
           },
           "terms": [
-            { "zh": "岩石塞", "en": "nut / stopper" },
-            { "zh": "被动保护", "en": "passive protection" },
-            { "zh": "六角塞", "en": "hexentric / hex" },
-            { "zh": "取塞器", "en": "nut tool" },
-            { "zh": "微型岩石塞", "en": "micro nut" }
+            {
+              "zh": "岩石塞",
+              "en": "nut / stopper"
+            },
+            {
+              "zh": "被动保护",
+              "en": "passive protection"
+            },
+            {
+              "zh": "六角塞",
+              "en": "hexentric / hex"
+            },
+            {
+              "zh": "取塞器",
+              "en": "nut tool"
+            },
+            {
+              "zh": "微型岩石塞",
+              "en": "micro nut"
+            }
           ],
           "crossRefs": [
             "kp-crack-technique",
             "kp-rope"
           ],
-          "tags": ["intermediate", "gear", "safety"]
+          "tags": [
+            "intermediate",
+            "gear",
+            "safety"
+          ],
+          "expertInsights": [
+            {
+              "zh": "偏置坚果（offset nuts）适合喇叭形裂缝和岩钉疤痕，普通坚果适合平行裂缝。放置后需用拇指下压并横向摇晃测试，确保在坠落方向上有稳定接触面。",
+              "en": "Offset nuts work best in flared cracks and piton scars, while regular nuts suit parallel cracks. After placement, test by pressing down with your thumb and rocking side to side to verify stable contact surfaces in the expected fall direction.",
+              "source": "VDiff Climbing",
+              "sourceUrl": "https://www.vdiffclimbing.com/nuts/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Climbing Nuts and Stoppers: The Complete Guide",
+              "url": "https://www.vdiffclimbing.com/nuts/",
+              "source": "VDiff Climbing",
+              "language": "en",
+              "articleType": "gear-review"
+            },
+            {
+              "title": "How to Build Your First Trad Rack in 8 Steps",
+              "url": "https://www.99boulders.com/how-to-build-a-trad-rack",
+              "source": "99Boulders",
+              "language": "en",
+              "articleType": "gear-review"
+            }
+          ]
         },
         {
           "id": "kp-cams",
@@ -268,18 +596,55 @@
             "en": "Spring-Loaded Camming Devices (SLCDs), commonly called cams or Friends, are the most versatile active protection for trad climbing. They use spring-driven lobes to grip parallel or flared cracks.\n\n**How they work:** Squeezing the trigger retracts the lobes for insertion. Once released, the spring pushes lobes against the crack walls. A downward pull forces the lobes further apart, increasing holding force.\n\n**Sizing:** Color-coded from finger-width (#0.3) to chimney-width (#6). Trad climbers typically carry double racks of mid-sizes (#0.5-#3). Major brands include Black Diamond Camalot, Wild Country Friend, and Totem Cam.\n\n**Placement guidelines:** Lobes should be 25-75% retracted (50% ideal); all lobes should contact evenly; avoid over-flared placements where cams can walk; ensure the trigger stem is accessible for removal; test each placement with a pull."
           },
           "terms": [
-            { "zh": "机械塞", "en": "cam / SLCD / Friend" },
-            { "zh": "凸轮叶片", "en": "cam lobe" },
-            { "zh": "触发杆", "en": "trigger / stem" },
-            { "zh": "主动保护", "en": "active protection" },
-            { "zh": "行走移位", "en": "cam walking" }
+            {
+              "zh": "机械塞",
+              "en": "cam / SLCD / Friend"
+            },
+            {
+              "zh": "凸轮叶片",
+              "en": "cam lobe"
+            },
+            {
+              "zh": "触发杆",
+              "en": "trigger / stem"
+            },
+            {
+              "zh": "主动保护",
+              "en": "active protection"
+            },
+            {
+              "zh": "行走移位",
+              "en": "cam walking"
+            }
           ],
           "crossRefs": [
             "kp-crack-technique",
             "kp-rope",
             "kp-nuts-stoppers"
           ],
-          "tags": ["intermediate", "advanced", "gear", "safety"]
+          "tags": [
+            "intermediate",
+            "advanced",
+            "gear",
+            "safety"
+          ],
+          "expertInsights": [
+            {
+              "zh": "入门凸轮套装推荐 0.5\"~3\" 各一个，最常用的 0.4~1\" 尺寸优先配置双份。细杆软杆凸轮适合斜向/水平裂缝，选购前应了解当地岩场的主要裂缝类型，分阶段购买而非一次性配齐。",
+              "en": "A starter cam set should include one of each from 0.5\" to 3\", with doubles of the most-used 0.4-1\" sizes. Flexible-stem cams suit horizontal and diagonal cracks. Research your local crag's crack types before buying, and build your rack in stages rather than all at once.",
+              "source": "99Boulders",
+              "sourceUrl": "https://www.99boulders.com/how-to-build-a-trad-rack"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "How to Build Your First Trad Rack in 8 Steps",
+              "url": "https://www.99boulders.com/how-to-build-a-trad-rack",
+              "source": "99Boulders",
+              "language": "en",
+              "articleType": "gear-review"
+            }
+          ]
         },
         {
           "id": "kp-pitons",
@@ -292,18 +657,59 @@
             "en": "Pitons are metal spikes hammered into cracks for protection. Though largely replaced by removable gear due to rock damage, they remain relevant in specific contexts.\n\n**Types:** Blade/knife blade pitons fit thin cracks; angle pitons suit medium cracks; Lost Arrows are versatile classics. Hard steel pitons work in granite; soft steel (chrome-moly) bends to fit irregular cracks.\n\n**Modern use:** Pitons are still used in aid climbing, winter climbing, and big wall routes. Fixed pitons left by previous parties should be carefully assessed before trusting. Modern climbing ethics favor removable protection to minimize rock damage."
           },
           "terms": [
-            { "zh": "岩钉", "en": "piton" },
-            { "zh": "刃型岩钉", "en": "blade piton / knife blade" },
-            { "zh": "角型岩钉", "en": "angle piton" },
-            { "zh": "固定岩钉", "en": "fixed piton" },
-            { "zh": "援助攀登", "en": "aid climbing" }
+            {
+              "zh": "岩钉",
+              "en": "piton"
+            },
+            {
+              "zh": "刃型岩钉",
+              "en": "blade piton / knife blade"
+            },
+            {
+              "zh": "角型岩钉",
+              "en": "angle piton"
+            },
+            {
+              "zh": "固定岩钉",
+              "en": "fixed piton"
+            },
+            {
+              "zh": "援助攀登",
+              "en": "aid climbing"
+            }
           ],
           "crossRefs": [
             "kp-crack-technique",
             "kp-cams",
             "kp-nuts-stoppers"
           ],
-          "tags": ["advanced", "gear"]
+          "tags": [
+            "advanced",
+            "gear"
+          ],
+          "expertInsights": [
+            {
+              "zh": "岩钉按裂缝形状分为刀片钉（knife blade，超薄裂缝）、角钉（角落裂缝）、RURP（极窄裂缝）等类型。铬钼钢岩钉比软铁更坚固、可重复使用，是现代大岩壁攀岩的首选材质。",
+              "en": "Pitons are typed by crack shape: knife blades for ultra-thin cracks, angle pitons for corner cracks, and RURPs for extremely narrow placements. Chrome-moly steel pitons are stronger and reusable compared to soft iron, making them the modern standard for big wall climbing.",
+              "source": "American Alpine Club",
+              "sourceUrl": "https://americanalpineclub.org/news/2019/4/4/pitons"
+            },
+            {
+              "zh": "锤击放置的岩钉会造成岩石剥落和岩钉疤痕，在环境敏感区域应尽量避免使用。现代岩钉主要用于大岩壁人工攀岩中无法放置主动保护装置的位置。",
+              "en": "Hammered pitons cause rock flaking and piton scars, and should be avoided in environmentally sensitive areas. Modern piton use is mainly confined to big wall aid climbing where no active protection placement is possible.",
+              "source": "American Alpine Club",
+              "sourceUrl": "https://americanalpineclub.org/news/2019/4/4/pitons"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Pitons: A Guide to Gear",
+              "url": "https://americanalpineclub.org/news/2019/4/4/pitons",
+              "source": "American Alpine Club",
+              "language": "en",
+              "articleType": "gear-review"
+            }
+          ]
         },
         {
           "id": "kp-anchor-building",
@@ -316,12 +722,30 @@
             "en": "Anchors are fixed systems at belay stations connecting climbers to the wall, built from multiple protection points linked together.\n\n**SERENE principles:** Solid (each piece individually reliable), Equalized (load shared across points), Redundant (minimum 3 pieces; single failure must not collapse the system), Efficient (simple and quick to build), No Extension (minimal slack if a piece fails — use limiting knots).\n\n**Common methods:** Quad anchors work well with two bolts; cordelette (5-6mm cord) connects multiple trad placements with a central master knot; Sliding X auto-equalizes with direction changes but requires limiting knots to prevent extension."
           },
           "terms": [
-            { "zh": "保护站", "en": "anchor" },
-            { "zh": "均衡受力", "en": "equalization" },
-            { "zh": "冗余", "en": "redundancy" },
-            { "zh": "辅助绳环", "en": "cordelette" },
-            { "zh": "限位结", "en": "limiting knot" },
-            { "zh": "滑动X", "en": "Sliding X" }
+            {
+              "zh": "保护站",
+              "en": "anchor"
+            },
+            {
+              "zh": "均衡受力",
+              "en": "equalization"
+            },
+            {
+              "zh": "冗余",
+              "en": "redundancy"
+            },
+            {
+              "zh": "辅助绳环",
+              "en": "cordelette"
+            },
+            {
+              "zh": "限位结",
+              "en": "limiting knot"
+            },
+            {
+              "zh": "滑动X",
+              "en": "Sliding X"
+            }
           ],
           "crossRefs": [
             "kp-knots",
@@ -329,7 +753,29 @@
             "kp-nuts-stoppers",
             "kp-belaying"
           ],
-          "tags": ["intermediate", "advanced", "gear", "safety"]
+          "tags": [
+            "intermediate",
+            "advanced",
+            "gear",
+            "safety"
+          ],
+          "expertInsights": [
+            {
+              "zh": "尼龙绳环比 Dyneema 更重但更耐磨、UV 老化更慢，适合长期高频使用。Dyneema 绳环更轻、强度更高，但在结点处强度损失更大，不建议打结使用。60cm 绳环延伸单一保护装置，120cm 用于岩角或等力分配锚点。",
+              "en": "Nylon slings are heavier but more abrasion-resistant and UV-durable than Dyneema, suited for long-term frequent use. Dyneema slings are lighter and stronger but lose more strength at knots and should not be knotted. Use 60cm slings to extend single pieces and 120cm slings for threading rock features or building equalized anchors.",
+              "source": "VDiff Climbing",
+              "sourceUrl": "https://www.vdiffclimbing.com/slings/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Trad Climbing Gear: Slings",
+              "url": "https://www.vdiffclimbing.com/slings/",
+              "source": "VDiff Climbing",
+              "language": "en",
+              "articleType": "gear-review"
+            }
+          ]
         }
       ]
     },
@@ -357,15 +803,44 @@
             "en": "A portaledge is a deployable hanging platform used for sleeping on vertical walls during multi-day big wall climbs.\n\n**Components:** An aluminum tube frame supports a nylon bed platform (single ~55-60cm wide, double ~100-110cm); a suspension system connects to the anchor via 4-6 equalized points; a rain fly provides weather protection.\n\n**Usage:** Setup requires adequate space at the belay station. Climbers must remain tied in at all times, even while sleeping. Position away from water runoff and rockfall zones. Major brands include Black Diamond, Metolius, and Fish.\n\nPortaledges are expensive specialty items; many climbers rent rather than buy for occasional big wall trips."
           },
           "terms": [
-            { "zh": "岩壁吊帐", "en": "portaledge" },
-            { "zh": "防雨罩", "en": "fly / rain fly" },
-            { "zh": "悬挂系统", "en": "suspension system" }
+            {
+              "zh": "岩壁吊帐",
+              "en": "portaledge"
+            },
+            {
+              "zh": "防雨罩",
+              "en": "fly / rain fly"
+            },
+            {
+              "zh": "悬挂系统",
+              "en": "suspension system"
+            }
           ],
           "crossRefs": [
             "kp-anchor-building",
             "kp-harness"
           ],
-          "tags": ["advanced", "gear"]
+          "tags": [
+            "advanced",
+            "gear"
+          ],
+          "expertInsights": [
+            {
+              "zh": "岩壁床的主挂点应配合可调 daisy chain 使用，并用 8mm 绳从独立螺栓做安全备份——睡眠时不能仅依赖织带。四角绑扎绳环连接至锚点防止翻转是新手最容易忽视的安全步骤。",
+              "en": "The portaledge's main suspension point should use an adjustable daisy chain, backed up with 8mm cord from an independent bolt -- never rely solely on webbing while sleeping. Tying corner leashes to the anchor to prevent flipping is the safety step most often missed by beginners.",
+              "source": "Alpinesavvy",
+              "sourceUrl": "https://www.alpinesavvy.com/blog/portaledge-setup-top-tips"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Portaledge Setup: Top Tips",
+              "url": "https://www.alpinesavvy.com/blog/portaledge-setup-top-tips",
+              "source": "Alpinesavvy",
+              "language": "en",
+              "articleType": "gear-review"
+            }
+          ]
         },
         {
           "id": "kp-haul-bag",
@@ -378,16 +853,55 @@
             "en": "A haul bag is an extremely durable, high-capacity pack designed to be dragged up the wall during big wall climbs, carrying all supplies for multi-day ascents.\n\n**Design:** Made from ultra-thick waterproof fabric (TPU or UHMWPE) to withstand repeated rock abrasion. Top-loading for easy access at cramped belay stations. Haul points rated above 20kN. Capacity ranges from 70-145 liters.\n\n**Hauling system:** A pulley-based mechanical advantage system (2:1 or 3:1) raises the bag between pitches. The leader hauls from above while the second releases the bag from below. Always secure the bag to an independent anchor point.\n\nWeight planning is critical: budget 4-6 liters of water per person per day, plus food and gear."
           },
           "terms": [
-            { "zh": "拖包", "en": "haul bag" },
-            { "zh": "拖运系统", "en": "hauling system" },
-            { "zh": "滑轮", "en": "pulley" },
-            { "zh": "省力系统", "en": "mechanical advantage system" }
+            {
+              "zh": "拖包",
+              "en": "haul bag"
+            },
+            {
+              "zh": "拖运系统",
+              "en": "hauling system"
+            },
+            {
+              "zh": "滑轮",
+              "en": "pulley"
+            },
+            {
+              "zh": "省力系统",
+              "en": "mechanical advantage system"
+            }
           ],
           "crossRefs": [
             "kp-anchor-building",
             "kp-rope"
           ],
-          "tags": ["advanced", "gear"]
+          "tags": [
+            "advanced",
+            "gear"
+          ],
+          "expertInsights": [
+            {
+              "zh": "大岩壁吊袋容量按攀登天数选择：一日行程 70L、多日行程 130L+。打包原则：重物（水、食物）放底层，常用装备（头灯、雨衣）放顶层；底部放置泡沫垫保护物品，四周用衣物填充防止拖拽中受损。",
+              "en": "Choose haul bag capacity by climb duration: 70L for single-day pushes, 130L+ for multi-day ascents. Pack heavy items (water, food) at the bottom and frequently needed gear (headlamp, rain jacket) on top. Line the bottom with foam padding and stuff clothing around items to prevent damage during hauling.",
+              "source": "VDiff Climbing",
+              "sourceUrl": "https://www.vdiffclimbing.com/bigwall-haulbag/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "How To Climb a Big Wall: Packing the Haulbag",
+              "url": "https://www.vdiffclimbing.com/bigwall-haulbag/",
+              "source": "VDiff Climbing",
+              "language": "en",
+              "articleType": "gear-review"
+            },
+            {
+              "title": "Big Wall Climbing Gear: The Essential Equipment",
+              "url": "https://www.vdiffclimbing.com/bigwall-gear/",
+              "source": "VDiff Climbing",
+              "language": "en",
+              "articleType": "gear-review"
+            }
+          ]
         },
         {
           "id": "kp-ascender",
@@ -400,17 +914,55 @@
             "en": "An ascender (also called a Jumar, after the original brand) is a mechanical device that allows upward movement on a fixed rope while preventing downward sliding.\n\n**Mechanism:** A toothed cam inside the device opens when pushed upward and locks when downward force is applied, gripping the rope via teeth. Available in left-hand and right-hand versions.\n\n**Applications:** Jumaring (following and cleaning big wall pitches); ascending fixed ropes in alpine and expedition climbing; locking rope position in hauling systems.\n\n**Safety:** Never rely on a single ascender as your only connection — always maintain a backup tie-in via knots or a second device. Ascenders may fail on icy or muddy ropes. Inspect the cam spring and safety catch before use. Be aware that ascender teeth wear the rope sheath over time."
           },
           "terms": [
-            { "zh": "上升器", "en": "ascender / jumar" },
-            { "zh": "带齿凸轮", "en": "toothed cam" },
-            { "zh": "跟攀清理", "en": "jumaring / ascending" },
-            { "zh": "固定绳", "en": "fixed rope" }
+            {
+              "zh": "上升器",
+              "en": "ascender / jumar"
+            },
+            {
+              "zh": "带齿凸轮",
+              "en": "toothed cam"
+            },
+            {
+              "zh": "跟攀清理",
+              "en": "jumaring / ascending"
+            },
+            {
+              "zh": "固定绳",
+              "en": "fixed rope"
+            }
           ],
           "crossRefs": [
             "kp-rope",
             "kp-anchor-building",
             "kp-haul-bag"
           ],
-          "tags": ["advanced", "gear"]
+          "tags": [
+            "advanced",
+            "gear"
+          ],
+          "expertInsights": [
+            {
+              "zh": "手持式上升器（如 Petzl Ascension）和胸式上升器（如 Petzl Croll）组合使用是标准大岩壁上升方案。大岩壁专用确保器（如 Petzl ID）支持辅助制动和多档下降速度调节，适合复杂下降场景。",
+              "en": "The standard big wall ascending setup combines a handled ascender (e.g., Petzl Ascension) with a chest ascender (e.g., Petzl Croll). Dedicated big wall belay devices (e.g., Petzl ID) support assisted braking with adjustable descent speed, suited for complex rappelling scenarios.",
+              "source": "VDiff Climbing",
+              "sourceUrl": "https://www.vdiffclimbing.com/bigwall-gear/"
+            },
+            {
+              "zh": "装备总重量应作为大岩壁行程规划的关键变量——每增加一天约需额外 3~5kg 的水和食物。大岩壁滑轮系统（3:1 或 6:1）是拖拽重型吊袋的核心装备，需专门学习操作方法。",
+              "en": "Total gear weight is a critical variable in big wall trip planning -- each additional day requires roughly 3-5kg of extra water and food. Pulley hauling systems (3:1 or 6:1 mechanical advantage) are essential for raising heavy bags and require dedicated practice to master.",
+              "source": "VDiff Climbing",
+              "sourceUrl": "https://www.vdiffclimbing.com/bigwall-gear/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Big Wall Climbing Gear: The Essential Equipment",
+              "url": "https://www.vdiffclimbing.com/bigwall-gear/",
+              "source": "VDiff Climbing",
+              "language": "en",
+              "articleType": "gear-review"
+            }
+          ]
         }
       ]
     },
@@ -438,10 +990,22 @@
             "en": "A hangboard (fingerboard) is the most essential and efficient finger strength training tool, mountable above a doorframe or on a wall for convenient training sessions.\n\n**Design:** Features edges, pockets, and pinches of varying depths and shapes. Materials include resin/polyurethane (textured, skin-friendly) and wood (moderate friction, comfortable). Popular brands: Beastmaker (wood classic), Metolius (beginner-friendly), Tension (varied models).\n\n**Selection:** Beginners should choose boards with deeper edges (20mm+) like the Metolius Project Board or Beastmaker 1000. Advanced climbers can use boards with shallow edges (6-15mm) and varied holds like the Beastmaker 2000.\n\n**Installation:** Mount on a load-bearing wall or solid doorframe. Hanging height should allow feet to clear the ground without jumping. Climbers with less than one year of experience should avoid hangboard training to allow tendons time to adapt."
           },
           "terms": [
-            { "zh": "挂板", "en": "hangboard / fingerboard" },
-            { "zh": "边缘", "en": "edge" },
-            { "zh": "口袋", "en": "pocket" },
-            { "zh": "负重悬挂", "en": "weighted hang" }
+            {
+              "zh": "挂板",
+              "en": "hangboard / fingerboard"
+            },
+            {
+              "zh": "边缘",
+              "en": "edge"
+            },
+            {
+              "zh": "口袋",
+              "en": "pocket"
+            },
+            {
+              "zh": "负重悬挂",
+              "en": "weighted hang"
+            }
           ],
           "crossRefs": [
             "kp-hangboard-training",
@@ -449,7 +1013,28 @@
             "kp-pulley-injury",
             "kp-warmup"
           ],
-          "tags": ["intermediate", "gear", "training"]
+          "tags": [
+            "intermediate",
+            "gear",
+            "training"
+          ],
+          "expertInsights": [
+            {
+              "zh": "指力板按材质分为木质（亲肤、适合长时间训练）和树脂（握点多样、适合高强度练习）。选购时应优先选择提供多种刃型深度（10~45mm）和不同宽度槽型的综合款。初学者应在至少2年攀岩基础后再开始专项指力板训练。",
+              "en": "Hangboards come in wood (skin-friendly, suited for longer sessions) and resin (varied hold profiles, suited for high-intensity work). Prioritize boards offering multiple edge depths (10-45mm) and varied slot widths. Begin dedicated hangboard training only after at least 2 years of climbing experience to allow tendon adaptation.",
+              "source": "Training For Climbing",
+              "sourceUrl": "https://trainingforclimbing.com/intro-to-fingerboard-training/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Introduction to Hangboard (Fingerboard) Training for Climbers",
+              "url": "https://trainingforclimbing.com/intro-to-fingerboard-training/",
+              "source": "Training For Climbing",
+              "language": "en",
+              "articleType": "training"
+            }
+          ]
         },
         {
           "id": "kp-campus-board-gear",
@@ -462,10 +1047,22 @@
             "en": "The campus board is a specialized training tool for upper body power and contact strength, invented by Wolfgang Güllich at the Campus Center gym in Nuremberg, Germany.\n\n**Design:** An overhanging board (15-20 degrees past vertical) with horizontal wooden rungs spaced ~22cm apart. Rung depths range from ~30mm to ~10mm. Training is performed using only hands (no feet).\n\n**Exercises:** Laddering (alternating hands upward); bumping (one hand stationary, other jumps up); double dynos (both hands jump simultaneously); specific sequences like 1-5-9 for maximum power.\n\n**Safety:** Campus board training is extremely demanding on fingers. Only for climbers with 2+ years experience at V5/5.12a or above. Always warm up thoroughly, stop at any finger discomfort, and limit sessions to twice per week when fresh."
           },
           "terms": [
-            { "zh": "校园板", "en": "campus board" },
-            { "zh": "横档", "en": "rung" },
-            { "zh": "接触力量", "en": "contact strength" },
-            { "zh": "爆发力", "en": "power / explosive strength" }
+            {
+              "zh": "校园板",
+              "en": "campus board"
+            },
+            {
+              "zh": "横档",
+              "en": "rung"
+            },
+            {
+              "zh": "接触力量",
+              "en": "contact strength"
+            },
+            {
+              "zh": "爆发力",
+              "en": "power / explosive strength"
+            }
           ],
           "crossRefs": [
             "kp-campus-training",
@@ -473,7 +1070,28 @@
             "kp-pulley-injury",
             "kp-warmup"
           ],
-          "tags": ["advanced", "gear", "training"]
+          "tags": [
+            "advanced",
+            "gear",
+            "training"
+          ],
+          "expertInsights": [
+            {
+              "zh": "校园板（campus board）的核心训练动作包括双手同步上跳（matching）、隔级跳（skipping rungs）和单臂锁定稳定。标准校园板由无纹理木板制成，踏板间距约22cm，训练强度极高，建议仅供有3年以上攀岩基础的高级攀爬者使用。",
+              "en": "Core campus board exercises include matching (both hands move together), skipping rungs, and single-arm lock-offs. Standard boards use smooth wooden rungs spaced ~22cm apart. Training intensity is extreme -- restrict use to advanced climbers with 3+ years of experience, maximum twice per week.",
+              "source": "Training For Climbing",
+              "sourceUrl": "https://trainingforclimbing.com/5-campus-board-exercises-to-train-contact-strength-for-climbing/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "5 Campus Board Exercises to Train Contact Strength for Climbing",
+              "url": "https://trainingforclimbing.com/5-campus-board-exercises-to-train-contact-strength-for-climbing/",
+              "source": "Training For Climbing",
+              "language": "en",
+              "articleType": "training"
+            }
+          ]
         },
         {
           "id": "kp-gymnastic-rings",
@@ -486,10 +1104,22 @@
             "en": "Gymnastic rings are excellent tools for upper body strength and core stability training in climbers. The inherent instability of rings recruits more stabilizer muscles than fixed equipment.\n\n**Climbing-relevant exercises:** Ring pull-ups (greater shoulder stabilizer activation than bar pull-ups); ring dips (antagonist push training to balance climbing muscles); ring support holds (shoulder stability and core); ring leg raises (enhanced core training via instability).\n\n**Selection:** Wood rings offer the best grip feel. Use industrial-grade straps rated for 300kg+. Hang at a height that clears the ground at full extension. Portable rings can hang from pull-up bars, sturdy branches, or doorframe bars.\n\nBegin with basic support holds and pull-ups, progressing gradually as shoulder mobility allows."
           },
           "terms": [
-            { "zh": "体操吊环", "en": "gymnastic rings" },
-            { "zh": "吊环臂屈伸", "en": "ring dips" },
-            { "zh": "吊环支撑", "en": "ring support hold" },
-            { "zh": "拮抗肌训练", "en": "antagonist training" }
+            {
+              "zh": "体操吊环",
+              "en": "gymnastic rings"
+            },
+            {
+              "zh": "吊环臂屈伸",
+              "en": "ring dips"
+            },
+            {
+              "zh": "吊环支撑",
+              "en": "ring support hold"
+            },
+            {
+              "zh": "拮抗肌训练",
+              "en": "antagonist training"
+            }
           ],
           "crossRefs": [
             "kp-pulling-power",
@@ -497,7 +1127,28 @@
             "kp-core-role",
             "kp-antagonist-training"
           ],
-          "tags": ["intermediate", "gear", "training"]
+          "tags": [
+            "intermediate",
+            "gear",
+            "training"
+          ],
+          "expertInsights": [
+            {
+              "zh": "体操环的不稳定性迫使肩部稳定肌群和核心同时工作，高度模拟攀岩中维持身体张力的神经肌肉需求。入门动作从吊环支撑、倒置划船和窄握引体开始，再逐步进阶到侧平支撑和屈体支撑等高难度动作。",
+              "en": "Ring instability forces shoulder stabilizers and core muscles to engage simultaneously, closely simulating the neuromuscular demands of maintaining body tension while climbing. Start with ring support holds, inverted rows, and narrow-grip pull-ups before progressing to iron cross and tuck planche movements.",
+              "source": "Gripped Magazine",
+              "sourceUrl": "https://gripped.com/indoor-climbing/how-to-use-rings-for-better-tension-in-climbing/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "How To Use Rings For Better Tension in Climbing",
+              "url": "https://gripped.com/indoor-climbing/how-to-use-rings-for-better-tension-in-climbing/",
+              "source": "Gripped Magazine",
+              "language": "en",
+              "articleType": "training"
+            }
+          ]
         },
         {
           "id": "kp-system-wall",
@@ -510,12 +1161,30 @@
             "en": "System walls and standardized training boards are increasingly common in modern climbing gyms, offering systematic training through standardized hold layouts and digital route databases.\n\n**System Wall / Spray Wall:** A fixed-angle wall (30-50 degrees overhanging) covered in varied holds without preset routes. Climbers design their own movement sequences to target specific weaknesses. Maximum flexibility for personalized training.\n\n**Standardized boards:**\n- **Moon Board**: Created by Ben Moon. Fixed 40-degree angle, standardized holds, global route database with LED-lit holds via smartphone app.\n- **Kilter Board**: Adjustable angles (15-70 degrees), diverse holds, full-color LED lighting, massive route database suitable for all levels.\n- **Tension Board**: Fixed angle, excellent wood hold texture, active community.\n\nThe primary value of standardized boards is precise progress tracking and global benchmarking. Each route has a community-graded difficulty, enabling structured progression and solving the problem of running out of fresh climbs."
           },
           "terms": [
-            { "zh": "系统板", "en": "system wall / spray wall" },
-            { "zh": "训练岩板", "en": "training board" },
-            { "zh": "Moon Board", "en": "Moon Board" },
-            { "zh": "Kilter Board", "en": "Kilter Board" },
-            { "zh": "Tension Board", "en": "Tension Board" },
-            { "zh": "LED标示", "en": "LED-lit holds" }
+            {
+              "zh": "系统板",
+              "en": "system wall / spray wall"
+            },
+            {
+              "zh": "训练岩板",
+              "en": "training board"
+            },
+            {
+              "zh": "Moon Board",
+              "en": "Moon Board"
+            },
+            {
+              "zh": "Kilter Board",
+              "en": "Kilter Board"
+            },
+            {
+              "zh": "Tension Board",
+              "en": "Tension Board"
+            },
+            {
+              "zh": "LED标示",
+              "en": "LED-lit holds"
+            }
           ],
           "crossRefs": [
             "kp-hangboard-training",
@@ -523,7 +1192,29 @@
             "kp-dyno-technique",
             "kp-crimp-hold"
           ],
-          "tags": ["intermediate", "advanced", "gear", "training"]
+          "tags": [
+            "intermediate",
+            "advanced",
+            "gear",
+            "training"
+          ],
+          "expertInsights": [
+            {
+              "zh": "MoonBoard 强调小握点和指力，Kilter Board 以用户友好握点侧重爆发力，Tension Board 用光滑木质握点强化核心。智能训练板通过 App + 蓝牙互联实现全球课题分享和竞技对比，极大提升了训练的可量化性和趣味性。",
+              "en": "MoonBoard emphasizes small holds and finger strength, Kilter Board focuses on power with user-friendly holds, and Tension Board uses smooth wooden holds for core-intensive climbing. Smart boards with app-Bluetooth connectivity enable global problem sharing and competitive benchmarking, greatly enhancing training measurability and engagement.",
+              "source": "Training For Climbing",
+              "sourceUrl": "https://trainingforclimbing.com/interactive-climbing-boards/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Get Lit: An Introduction to Interactive Climbing Boards",
+              "url": "https://trainingforclimbing.com/interactive-climbing-boards/",
+              "source": "Training For Climbing",
+              "language": "en",
+              "articleType": "training"
+            }
+          ]
         }
       ]
     }

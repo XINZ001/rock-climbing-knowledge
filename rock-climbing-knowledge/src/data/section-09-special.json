@@ -25,14 +25,59 @@
             "en": "Children's climbing activities must match their developmental stage. Ages 4-6 should focus on exploration and play on traverse walls, with no structured training and sessions of 15-20 minutes. Ages 7-9 can learn basic technique concepts like using toe tips and keeping the body close to the wall, but through game-based activities. Ages 10-12 can begin more systematic technique training, though growth plates remain vulnerable and high-intensity finger training must be avoided.\n\nAcross all stages, multi-sport participation is more beneficial than early specialization. Physical development must be respected above all performance goals."
           },
           "terms": [
-            { "zh": "横移墙", "en": "traverse wall" },
-            { "zh": "生长板", "en": "growth plate" },
-            { "zh": "精细运动控制", "en": "fine motor control" },
-            { "zh": "运动启蒙", "en": "motor development" },
-            { "zh": "专项化", "en": "specialization" }
+            {
+              "zh": "横移墙",
+              "en": "traverse wall"
+            },
+            {
+              "zh": "生长板",
+              "en": "growth plate"
+            },
+            {
+              "zh": "精细运动控制",
+              "en": "fine motor control"
+            },
+            {
+              "zh": "运动启蒙",
+              "en": "motor development"
+            },
+            {
+              "zh": "专项化",
+              "en": "specialization"
+            }
           ],
-          "crossRefs": ["kp-warmup", "kp-edging", "kp-flagging"],
-          "tags": ["beginner", "special"]
+          "crossRefs": [
+            "kp-warmup",
+            "kp-edging",
+            "kp-flagging"
+          ],
+          "tags": [
+            "beginner",
+            "special"
+          ],
+          "expertInsights": [
+            {
+              "zh": "攀岩是技能运动，技术掌握应先于力量发展——儿童大脑在运动神经学习上具有超强可塑性。教练应提供多样化地形体验（平板、垂直、细微地形、动态动作），防止儿童早期固化低效动作模式。",
+              "en": "Climbing is a skill sport where technique acquisition should precede strength development -- children's brains have exceptional neuroplasticity for motor learning. Coaches should provide varied terrain exposure (slab, vertical, technical features, dynamic moves) to prevent early fixation on inefficient movement patterns.",
+              "source": "Training For Climbing",
+              "sourceUrl": "https://trainingforclimbing.com/skill-development-youth/"
+            },
+            {
+              "zh": "13岁以前参与多种运动而非过早专业化，能最大化神经运动发展潜力，为后期专项训练奠定更好基础。结构化反馈至关重要——正确的动作习惯一旦形成即难以改变。",
+              "en": "Participating in multiple sports before age 13, rather than early specialization, maximizes neuromotor development potential and builds a stronger foundation for later specialized training. Structured feedback is vital -- correct movement habits become deeply ingrained once established and are difficult to change later.",
+              "source": "Training For Climbing",
+              "sourceUrl": "https://trainingforclimbing.com/skill-development-youth/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Skill Development for Youth Climbers",
+              "url": "https://trainingforclimbing.com/skill-development-youth/",
+              "source": "Training For Climbing",
+              "language": "en",
+              "articleType": "training"
+            }
+          ]
         },
         {
           "id": "kp-kids-safety",
@@ -45,14 +90,61 @@
             "en": "Safety management for children's climbing demands extra care. Weight differences between child climbers and adult belayers can create belaying issues: a heavy belayer may not give a soft catch to a light child, while a child belaying an adult may be pulled off the ground. Ground anchors or assisted braking devices help mitigate these risks.\n\nPsychological safety is equally important. Never pressure children to climb beyond their comfort zone. Respect their wish to come down immediately. Use positive reinforcement to celebrate small achievements rather than pushing for sends. Children under approximately 40kg should use full-body harnesses, as their high center of gravity may cause them to slip from a standard waist harness."
           },
           "terms": [
-            { "zh": "全身式安全带", "en": "full-body harness" },
-            { "zh": "动态缓冲", "en": "soft catch" },
-            { "zh": "地面锚点", "en": "ground anchor" },
-            { "zh": "辅助制动器", "en": "assisted braking device" },
-            { "zh": "心理安全", "en": "psychological safety" }
+            {
+              "zh": "全身式安全带",
+              "en": "full-body harness"
+            },
+            {
+              "zh": "动态缓冲",
+              "en": "soft catch"
+            },
+            {
+              "zh": "地面锚点",
+              "en": "ground anchor"
+            },
+            {
+              "zh": "辅助制动器",
+              "en": "assisted braking device"
+            },
+            {
+              "zh": "心理安全",
+              "en": "psychological safety"
+            }
           ],
-          "crossRefs": ["kp-belaying", "kp-harness", "kp-fall-technique", "kp-fear-management"],
-          "tags": ["beginner", "safety", "special"]
+          "crossRefs": [
+            "kp-belaying",
+            "kp-harness",
+            "kp-fall-technique",
+            "kp-fear-management"
+          ],
+          "tags": [
+            "beginner",
+            "safety",
+            "special"
+          ],
+          "expertInsights": [
+            {
+              "zh": "青少年攀岩损伤中骺板骨折最为严重，女性11~14岁、男性12~16岁是最高风险窗口期。应禁止双手 campus board 和极度负重孤立训练，并选用开放握型（open-hand）而非死扣（crimp）以降低指节受力。",
+              "en": "Growth plate fractures are the most serious injury in youth climbing, with females aged 11-14 and males aged 12-16 at highest risk. Ban two-handed campus board training and high-resistance isolated finger exercises. Encourage open-hand grip over crimping from an early age to reduce joint stress.",
+              "source": "Training For Climbing",
+              "sourceUrl": "https://trainingforclimbing.com/youth-climbing-injuries/"
+            },
+            {
+              "zh": "每周攀岩天数上限为4天，保持8~10小时充足睡眠，且必须保持每年至少8~12周的休赛期，让身体有完整的恢复和生长周期。",
+              "en": "Limit climbing to a maximum of 4 days per week with 8-10 hours of sleep, and maintain at least 8-12 weeks of off-season rest per year to allow complete recovery and growth cycles.",
+              "source": "Training For Climbing",
+              "sourceUrl": "https://trainingforclimbing.com/youth-climbing-injuries/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Youth Climbing Injuries (and Prevention)",
+              "url": "https://trainingforclimbing.com/youth-climbing-injuries/",
+              "source": "Training For Climbing",
+              "language": "en",
+              "articleType": "safety-case"
+            }
+          ]
         },
         {
           "id": "kp-kids-fun-approach",
@@ -65,14 +157,54 @@
             "en": "Gamification is the most effective way to teach climbing to children. Games like elimination traversing (only use certain colored footholds), sticky feet (feet cannot move once placed), and robot climbing (verbal commands to direct a partner) develop real skills through play.\n\nPositive reinforcement should celebrate effort over outcomes. Simple reward systems like stickers or badges help maintain motivation, but the long-term goal is developing intrinsic love for climbing. Climbing naturally develops hand-eye coordination, spatial awareness, and balance. Vary activities across traversing, ascending, descending, and low-level dynamic movements to build comprehensive motor skills."
           },
           "terms": [
-            { "zh": "游戏化教学", "en": "gamification" },
-            { "zh": "横移训练", "en": "traverse training" },
-            { "zh": "手眼协调", "en": "hand-eye coordination" },
-            { "zh": "本体感觉", "en": "proprioception" },
-            { "zh": "内在动机", "en": "intrinsic motivation" }
+            {
+              "zh": "游戏化教学",
+              "en": "gamification"
+            },
+            {
+              "zh": "横移训练",
+              "en": "traverse training"
+            },
+            {
+              "zh": "手眼协调",
+              "en": "hand-eye coordination"
+            },
+            {
+              "zh": "本体感觉",
+              "en": "proprioception"
+            },
+            {
+              "zh": "内在动机",
+              "en": "intrinsic motivation"
+            }
           ],
-          "crossRefs": ["kp-edging", "kp-flagging", "kp-route-reading-basics"],
-          "tags": ["beginner", "special", "technique"]
+          "crossRefs": [
+            "kp-edging",
+            "kp-flagging",
+            "kp-route-reading-basics"
+          ],
+          "tags": [
+            "beginner",
+            "special",
+            "technique"
+          ],
+          "expertInsights": [
+            {
+              "zh": "9岁以下儿童攀岩课程应以游戏和探索为核心，正式结构训练会抑制这一阶段的自发学习动力。青少年应保留选择权——自主决定何时攀爬、何时休息，外部强制参与是导致精英青少年运动员提前退出的首要因素。",
+              "en": "Climbing sessions for children under 9 should center on games and exploration -- formal structured training suppresses spontaneous learning motivation at this age. Youth climbers should retain autonomy over when to climb and rest; external coercion is the leading cause of early dropout among elite young athletes.",
+              "source": "Training For Climbing",
+              "sourceUrl": "https://trainingforclimbing.com/youth-climbers-cognitive-development/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Cognitive Development for Youth Climbers",
+              "url": "https://trainingforclimbing.com/youth-climbers-cognitive-development/",
+              "source": "Training For Climbing",
+              "language": "en",
+              "articleType": "training"
+            }
+          ]
         }
       ]
     },
@@ -100,14 +232,61 @@
             "en": "Training load management for youth climbers requires extra caution. Weekly training should not exceed 4-5 sessions of 2-3 hours each. High-intensity training (max strength, campus board) should be limited to 20-30% of total volume, with the majority devoted to technique and moderate-intensity climbing.\n\nFollow the 10% rule: increase weekly volume by no more than 10%. During growth spurts, reduce intensity as the body's adaptation capacity temporarily declines. Watch for fatigue signals: persistent soreness, poor sleep, appetite changes, mood swings, or loss of interest. Youth athletes need 8-10 hours of sleep and must never restrict caloric intake. Adequate protein, calcium, and vitamin D are essential for development."
           },
           "terms": [
-            { "zh": "训练负荷", "en": "training load" },
-            { "zh": "10%规则", "en": "10% rule" },
-            { "zh": "生长加速期", "en": "growth spurt" },
-            { "zh": "过度训练", "en": "overtraining" },
-            { "zh": "恢复周期", "en": "recovery period" }
+            {
+              "zh": "训练负荷",
+              "en": "training load"
+            },
+            {
+              "zh": "10%规则",
+              "en": "10% rule"
+            },
+            {
+              "zh": "生长加速期",
+              "en": "growth spurt"
+            },
+            {
+              "zh": "过度训练",
+              "en": "overtraining"
+            },
+            {
+              "zh": "恢复周期",
+              "en": "recovery period"
+            }
           ],
-          "crossRefs": ["kp-periodization", "kp-rest-management", "kp-hangboard-training"],
-          "tags": ["intermediate", "training", "special"]
+          "crossRefs": [
+            "kp-periodization",
+            "kp-rest-management",
+            "kp-hangboard-training"
+          ],
+          "tags": [
+            "intermediate",
+            "training",
+            "special"
+          ],
+          "expertInsights": [
+            {
+              "zh": "6~9岁儿童通过正常攀岩练习即可获得最大化力量收益，额外力量训练意义甚微。10~15岁青少年每周最多3次力量训练、每次20~40分钟，强度应控制在中等。拮抗肌训练（俯卧撑、哑铃胸飞、肩袖稳定）每周2次是预防肌肉失衡损伤的必要安排。",
+              "en": "Children aged 6-9 gain maximum strength benefits from regular climbing alone, with negligible returns from supplementary strength training. Youth aged 10-15 should do at most 3 strength sessions per week of 20-40 minutes at moderate intensity. Antagonist training (push-ups, dumbbell flyes, rotator cuff work) twice weekly is essential for preventing muscle imbalance injuries.",
+              "source": "Training For Climbing",
+              "sourceUrl": "https://trainingforclimbing.com/age-appropriate-strength-training-for-youth-climbers/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Skill Development for Youth Climbers",
+              "url": "https://trainingforclimbing.com/skill-development-youth/",
+              "source": "Training For Climbing",
+              "language": "en",
+              "articleType": "training"
+            },
+            {
+              "title": "Age-Appropriate Strength Training for Youth Climbers",
+              "url": "https://trainingforclimbing.com/age-appropriate-strength-training-for-youth-climbers/",
+              "source": "Training For Climbing",
+              "language": "en",
+              "articleType": "training"
+            }
+          ]
         },
         {
           "id": "kp-growth-plate-concerns",
@@ -120,14 +299,68 @@
             "en": "Growth plate (epiphyseal plate) injuries are the most significant specific risk for youth climbers. Located at the ends of long bones, growth plates consist of cartilage that is more vulnerable than mature bone. Repeated high-intensity loading on finger joints during climbing can cause epiphysitis or epiphyseal separation, most commonly in the PIP and MCP joints. Severe injuries can cause permanent finger deformity.\n\nHigh-risk factors include full crimping, campus board training, mono/duo pocket hangs, and sudden training volume increases. Youth climbers under 16 should avoid campus boards and max-intensity hangboard training. Encourage open-hand grip over crimping. Any finger pain or swelling requires immediate cessation of training and medical evaluation with X-ray imaging."
           },
           "terms": [
-            { "zh": "生长板", "en": "growth plate / epiphyseal plate" },
-            { "zh": "骨骺炎", "en": "epiphysitis" },
-            { "zh": "校板", "en": "campus board" },
-            { "zh": "PIP关节", "en": "PIP joint" },
-            { "zh": "MCP关节", "en": "MCP joint" }
+            {
+              "zh": "生长板",
+              "en": "growth plate / epiphyseal plate"
+            },
+            {
+              "zh": "骨骺炎",
+              "en": "epiphysitis"
+            },
+            {
+              "zh": "校板",
+              "en": "campus board"
+            },
+            {
+              "zh": "PIP关节",
+              "en": "PIP joint"
+            },
+            {
+              "zh": "MCP关节",
+              "en": "MCP joint"
+            }
           ],
-          "crossRefs": ["kp-pulley-injury", "kp-grip-types", "kp-campus-training", "kp-hangboard-training"],
-          "tags": ["intermediate", "safety", "special"]
+          "crossRefs": [
+            "kp-pulley-injury",
+            "kp-grip-types",
+            "kp-campus-training",
+            "kp-hangboard-training"
+          ],
+          "tags": [
+            "intermediate",
+            "safety",
+            "special"
+          ],
+          "expertInsights": [
+            {
+              "zh": "过去十年骺板骨折发生率上升600%，年度竞赛攀岩和全年无间断训练是两大直接诱因。生长高峰期骨骼延伸速度超过肌腱伸展速度，导致关节末端应力集中，指骨骺板极易在负荷中断裂。",
+              "en": "Growth plate fracture incidence has risen 600% over the past decade, driven by year-round competition climbing and uninterrupted training cycles. During growth spurts, bone elongation outpaces tendon adaptation, concentrating stress at joint endpoints and making finger epiphyseal plates extremely vulnerable to fracture under load.",
+              "source": "Training For Climbing",
+              "sourceUrl": "https://trainingforclimbing.com/growth-plate-fractures-in-youth-climbers/"
+            },
+            {
+              "zh": "实用筛查工具：追踪攀爬者的身高增长速度（每年>5cm视为快速生长期），生长高峰期应即时降低训练强度并暂停所有高风险训练方式。高危动作包括双手 campus 训练、极度负重死扣和超量限制抱石。",
+              "en": "Practical screening tool: track the climber's height growth rate (>5cm per year indicates a growth spurt). During growth peaks, immediately reduce training intensity and suspend all high-risk activities. High-danger exercises include two-handed campus training, heavy weighted crimping, and excessive limit bouldering.",
+              "source": "Training For Climbing",
+              "sourceUrl": "https://trainingforclimbing.com/growth-plate-fractures-in-youth-climbers/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Youth Climbing Injuries (and Prevention)",
+              "url": "https://trainingforclimbing.com/youth-climbing-injuries/",
+              "source": "Training For Climbing",
+              "language": "en",
+              "articleType": "safety-case"
+            },
+            {
+              "title": "Reducing Risk of Growth Plate Fractures in Youth Climbers",
+              "url": "https://trainingforclimbing.com/growth-plate-fractures-in-youth-climbers/",
+              "source": "Training For Climbing",
+              "language": "en",
+              "articleType": "safety-case"
+            }
+          ]
         },
         {
           "id": "kp-youth-competition",
@@ -140,14 +373,54 @@
             "en": "The IFSC youth competition system is divided into Youth A (16-17), Youth B (14-15), and Youth C (12-13) categories, with World Youth Championships in lead, speed, and bouldering. National federations run corresponding domestic series, creating a pathway from local to international competition.\n\nYouth competition training should build on broad development before adding specialization, ideally after age 14. Competition simulation, including isolation zone practice and time management, significantly improves performance. Burnout prevention is critical: maintain training variety and fun, set reasonable goals, respect academic and personal life, and avoid excessive external pressure. When burnout signs appear, reducing competition load and returning to the joy of climbing is more important than pushing through."
           },
           "terms": [
-            { "zh": "青少年世界锦标赛", "en": "Youth World Championships" },
-            { "zh": "年龄组别", "en": "age category" },
-            { "zh": "职业倦怠", "en": "burnout" },
-            { "zh": "隔离区", "en": "isolation zone" },
-            { "zh": "专项化", "en": "specialization" }
+            {
+              "zh": "青少年世界锦标赛",
+              "en": "Youth World Championships"
+            },
+            {
+              "zh": "年龄组别",
+              "en": "age category"
+            },
+            {
+              "zh": "职业倦怠",
+              "en": "burnout"
+            },
+            {
+              "zh": "隔离区",
+              "en": "isolation zone"
+            },
+            {
+              "zh": "专项化",
+              "en": "specialization"
+            }
           ],
-          "crossRefs": ["kp-fear-management", "kp-flow-state", "kp-periodization"],
-          "tags": ["intermediate", "competition", "special"]
+          "crossRefs": [
+            "kp-fear-management",
+            "kp-flow-state",
+            "kp-periodization"
+          ],
+          "tags": [
+            "intermediate",
+            "competition",
+            "special"
+          ],
+          "expertInsights": [
+            {
+              "zh": "带着成长型思维（growth mindset）进入赛季能显著提升面对失利的心理弹性。在训练中主动暴露弱点而非回避是精英青少年攀爬者区别于同龄人的核心特征。教练应帮助青少年建立「比赛分数不能定义你作为攀爬者的价值」的健康认知。",
+              "en": "Entering a competition season with a growth mindset significantly improves psychological resilience when facing setbacks. Proactively exposing weaknesses in training rather than avoiding them distinguishes elite youth climbers from their peers. Coaches should help youth establish the healthy belief that competition scores do not define their worth as climbers.",
+              "source": "Climbing Business Journal",
+              "sourceUrl": "https://climbingbusinessjournal.com/the-short-beta-6-tips-to-help-youth-climbers-start-competition-season-on-the-right-foot/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "6 Tips to Help Youth Climbers Start Competition Season on the Right Foot",
+              "url": "https://climbingbusinessjournal.com/the-short-beta-6-tips-to-help-youth-climbers-start-competition-season-on-the-right-foot/",
+              "source": "Climbing Business Journal",
+              "language": "en",
+              "articleType": "training"
+            }
+          ]
         }
       ]
     },
@@ -175,14 +448,54 @@
             "en": "Injury prevention is the most important training principle for older climbers. Key risks include rotator cuff injuries, elbow tendinitis (tennis/golfer's elbow), finger tendon and ligament injuries, and knee problems. With age, tendons and ligaments lose elasticity and heal more slowly; a moderate injury that takes weeks to heal in youth may require months for older adults.\n\nThorough warm-ups of 20-30 minutes are essential: start with general cardio, followed by joint mobility exercises, then gradually increasing climbing difficulty. Use open-hand grips over crimps, prioritize technique over power, and regularly perform rotator cuff stability and antagonist muscle training. Take all pain signals seriously and seek medical attention promptly."
           },
           "terms": [
-            { "zh": "肩袖", "en": "rotator cuff" },
-            { "zh": "网球肘", "en": "tennis elbow" },
-            { "zh": "对抗肌群", "en": "antagonist muscles" },
-            { "zh": "关节活动度", "en": "range of motion" },
-            { "zh": "冷身", "en": "cool-down" }
+            {
+              "zh": "肩袖",
+              "en": "rotator cuff"
+            },
+            {
+              "zh": "网球肘",
+              "en": "tennis elbow"
+            },
+            {
+              "zh": "对抗肌群",
+              "en": "antagonist muscles"
+            },
+            {
+              "zh": "关节活动度",
+              "en": "range of motion"
+            },
+            {
+              "zh": "冷身",
+              "en": "cool-down"
+            }
           ],
-          "crossRefs": ["kp-warmup", "kp-pulley-injury", "kp-grip-types"],
-          "tags": ["beginner", "safety", "special"]
+          "crossRefs": [
+            "kp-warmup",
+            "kp-pulley-injury",
+            "kp-grip-types"
+          ],
+          "tags": [
+            "beginner",
+            "safety",
+            "special"
+          ],
+          "expertInsights": [
+            {
+              "zh": "对于60岁以上攀爬者，伤病预防策略比追求等级突破更重要。核心原则：感到疲劳前立即停止，永远不要让训练强度超过身体的恢复能力。严格热身（比年轻时多50%的热身时间）和赛后拮抗肌训练是60岁以上攀爬者保持健康的两大基石。",
+              "en": "For climbers over 60, injury prevention strategy matters more than grade chasing. Core principle: stop before fatigue sets in, and never let training intensity exceed your body's recovery capacity. Rigorous warm-ups (50% longer than in your younger years) and post-session antagonist training are the two pillars of healthy climbing past 60.",
+              "source": "Gripped Magazine",
+              "sourceUrl": "https://gripped.com/profiles/tips-for-rock-climbing-in-your-60s-70s-80s/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Tips for Rock Climbing in Your 60s, 70s & 80s",
+              "url": "https://gripped.com/profiles/tips-for-rock-climbing-in-your-60s-70s-80s/",
+              "source": "Gripped Magazine",
+              "language": "en",
+              "articleType": "training"
+            }
+          ]
         },
         {
           "id": "kp-elderly-training-adjustments",
@@ -195,14 +508,61 @@
             "en": "Training for older climbers must adapt to age-related physiological changes. Allow 48-72 hours recovery between intense sessions (versus 24-48 for younger climbers), and limit climbing to 2-3 sessions per week. Rest days can include low-intensity cross-training like yoga, swimming, or walking.\n\nAdjust strength training by lowering intensity while increasing volume: use larger hangboard edges with less weight but more repetitions. Core training is especially valuable as it reduces upper-body joint stress. Older climbers' greatest advantage lies in patience, experience, and body awareness. Precise footwork, efficient weight shifting, and skilled rest techniques can substantially compensate for natural strength decline."
           },
           "terms": [
-            { "zh": "恢复时间", "en": "recovery time" },
-            { "zh": "低强度交叉训练", "en": "low-intensity cross-training" },
-            { "zh": "核心训练", "en": "core training" },
-            { "zh": "训练量", "en": "training volume" },
-            { "zh": "平衡训练", "en": "balance training" }
+            {
+              "zh": "恢复时间",
+              "en": "recovery time"
+            },
+            {
+              "zh": "低强度交叉训练",
+              "en": "low-intensity cross-training"
+            },
+            {
+              "zh": "核心训练",
+              "en": "core training"
+            },
+            {
+              "zh": "训练量",
+              "en": "training volume"
+            },
+            {
+              "zh": "平衡训练",
+              "en": "balance training"
+            }
           ],
-          "crossRefs": ["kp-core-role", "kp-hangboard-training", "kp-periodization", "kp-rest-management"],
-          "tags": ["intermediate", "training", "special"]
+          "crossRefs": [
+            "kp-core-role",
+            "kp-hangboard-training",
+            "kp-periodization",
+            "kp-rest-management"
+          ],
+          "tags": [
+            "intermediate",
+            "training",
+            "special"
+          ],
+          "expertInsights": [
+            {
+              "zh": "年龄带来的攀岩能力下降中60~70%属于「选择性的」——由训练减少和惰性引起，而非不可逆转的生理退化。50岁以上攀爬者需要更长的组间恢复时间（加倍）和更完整的赛后恢复期（增加50%），但训练强度可与年轻时保持相当。",
+              "en": "60-70% of climbing ability decline with age is 'elective' -- caused by reduced training and inactivity, not irreversible physiological deterioration. Climbers over 50 need longer inter-set recovery (double) and more thorough post-session recovery (50% longer), but training intensity can remain comparable to younger years.",
+              "source": "Training For Climbing",
+              "sourceUrl": "https://trainingforclimbing.com/aging-is-mostly-a-state-of-body-fit-over-50/"
+            },
+            {
+              "zh": "阻力训练（每周3次）是对抗肌肉萎缩最有效的干预手段，同时维持中枢神经系统的爆发力控制能力。营养补充策略（维生素D、锌、镁）支持激素健康，是维持高年龄段运动表现的重要辅助。",
+              "en": "Resistance training (3 times per week) is the most effective intervention against muscle wasting (sarcopenia) while maintaining the central nervous system's power output capacity. Nutritional supplementation (vitamin D, zinc, magnesium) supports hormonal health and is an important aid for maintaining athletic performance at older ages.",
+              "source": "Training For Climbing",
+              "sourceUrl": "https://trainingforclimbing.com/aging-is-mostly-a-state-of-body-fit-over-50/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Aging Is (Mostly) A State of Body: Staying Fit into Your 40s, 50s and Beyond!",
+              "url": "https://trainingforclimbing.com/aging-is-mostly-a-state-of-body-fit-over-50/",
+              "source": "Training For Climbing",
+              "language": "en",
+              "articleType": "training"
+            }
+          ]
         },
         {
           "id": "kp-elderly-benefits",
@@ -215,14 +575,53 @@
             "en": "Research increasingly demonstrates unique physical and mental health benefits of climbing for older adults. Physically, climbing improves balance and proprioception (key factors in fall prevention), increases bone density (countering osteoporosis), enhances grip strength (a key health indicator), and maintains joint mobility and flexibility.\n\nCognitively, climbing's continuous route-planning and decision-making stimulates brain activity, potentially delaying cognitive decline. Psychologically, climbing reduces anxiety and depression through immersive focus, builds self-efficacy through achievement, and provides a welcoming social community that combats loneliness and social isolation."
           },
           "terms": [
-            { "zh": "骨密度", "en": "bone density" },
-            { "zh": "本体感觉", "en": "proprioception" },
-            { "zh": "握力", "en": "grip strength" },
-            { "zh": "认知功能", "en": "cognitive function" },
-            { "zh": "自我效能感", "en": "self-efficacy" }
+            {
+              "zh": "骨密度",
+              "en": "bone density"
+            },
+            {
+              "zh": "本体感觉",
+              "en": "proprioception"
+            },
+            {
+              "zh": "握力",
+              "en": "grip strength"
+            },
+            {
+              "zh": "认知功能",
+              "en": "cognitive function"
+            },
+            {
+              "zh": "自我效能感",
+              "en": "self-efficacy"
+            }
           ],
-          "crossRefs": ["kp-core-role", "kp-flow-state", "kp-fear-management"],
-          "tags": ["beginner", "special"]
+          "crossRefs": [
+            "kp-core-role",
+            "kp-flow-state",
+            "kp-fear-management"
+          ],
+          "tags": [
+            "beginner",
+            "special"
+          ],
+          "expertInsights": [
+            {
+              "zh": "攀岩是极少数随年龄增长仍能持续进步的运动之一——技术积累、路线读取和心理稳定性弥补了爆发力的下降。多位攀爬者在50多岁完成了个人难度最高的5.14级别首攀，打破了「攀岩高峰期在20~30岁」的偏见。",
+              "en": "Climbing is one of the few sports where continued improvement is possible with age -- accumulated technique, route-reading skill, and mental stability compensate for declining explosive power. Multiple climbers have completed their hardest 5.14-grade first ascents in their 50s, shattering the myth that climbing peaks at 20-30.",
+              "source": "Gripped Magazine",
+              "sourceUrl": "https://gripped.com/profiles/older-stronger-and-harder-sending-after-mid-life/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Older, Stronger and Harder: Sending After Mid-Life",
+              "url": "https://gripped.com/profiles/older-stronger-and-harder-sending-after-mid-life/",
+              "source": "Gripped Magazine",
+              "language": "en",
+              "articleType": "research"
+            }
+          ]
         },
         {
           "id": "kp-elderly-flexibility",
@@ -235,15 +634,64 @@
             "en": "Flexibility is critical for older climbers both for performance and injury prevention. Age-related loss of muscle and connective tissue elasticity reduces range of motion, limiting high steps, lateral reaches, and body rotations while increasing strain injury risk.\n\nKey areas include hip flexibility (abduction and rotation for high steps), shoulder mobility (for overhead reaches), thoracic spine rotation (for body turns), and ankle dorsiflexion (for keeping heels close on overhangs). Daily sessions of 15-20 minutes of static stretching or yoga are recommended. Hold each stretch for 30-60 seconds without bouncing. Foam rollers and massage balls help prepare tissue for stretching. Always warm up for 5 minutes before deep stretching. Consistency matters more than intensity."
           },
           "terms": [
-            { "zh": "高蹬", "en": "high step" },
-            { "zh": "髋关节外展", "en": "hip abduction" },
-            { "zh": "胸椎旋转", "en": "thoracic rotation" },
-            { "zh": "PNF拉伸", "en": "PNF stretching" },
-            { "zh": "泡沫轴", "en": "foam roller" },
-            { "zh": "静态拉伸", "en": "static stretching" }
+            {
+              "zh": "高蹬",
+              "en": "high step"
+            },
+            {
+              "zh": "髋关节外展",
+              "en": "hip abduction"
+            },
+            {
+              "zh": "胸椎旋转",
+              "en": "thoracic rotation"
+            },
+            {
+              "zh": "PNF拉伸",
+              "en": "PNF stretching"
+            },
+            {
+              "zh": "泡沫轴",
+              "en": "foam roller"
+            },
+            {
+              "zh": "静态拉伸",
+              "en": "static stretching"
+            }
           ],
-          "crossRefs": ["kp-warmup", "kp-slab-technique", "kp-overhang-technique"],
-          "tags": ["beginner", "training", "special"]
+          "crossRefs": [
+            "kp-warmup",
+            "kp-slab-technique",
+            "kp-overhang-technique"
+          ],
+          "tags": [
+            "beginner",
+            "training",
+            "special"
+          ],
+          "expertInsights": [
+            {
+              "zh": "被动柔韧性（活动范围）不等于主动活动度（主动控制的活动范围），攀岩需要的是后者。主动静态拉伸是提升可用活动范围最快的训练方式，需每周1~2次专项训练（含72小时恢复）。",
+              "en": "Passive flexibility (range of motion) does not equal active mobility (actively controlled range of motion) -- climbing requires the latter. Active static stretching is the fastest way to improve usable range of motion, requiring 1-2 dedicated sessions per week with 72-hour recovery between them.",
+              "source": "Lattice Training",
+              "sourceUrl": "https://latticetraining.com/blog/lattice-training-insights-flexibility-training-for-climbers/"
+            },
+            {
+              "zh": "髋部灵活性存在遗传性骨骼结构限制——许多中老年攀爬者的髋部活动范围受髋臼形状制约，强行追求大幅度提升可能适得其反。日常动态热身 + 赛后被动静态拉伸组合是维持老年攀爬者关节健康的最优基础方案。",
+              "en": "Hip flexibility has genetic skeletal constraints -- many older climbers' hip range is limited by acetabular shape, and aggressively pushing for large gains can backfire. A daily dynamic warm-up before climbing combined with passive static stretching afterward is the optimal baseline strategy for maintaining joint health in older climbers.",
+              "source": "Lattice Training",
+              "sourceUrl": "https://latticetraining.com/blog/lattice-training-insights-flexibility-training-for-climbers/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "The Fundamentals of Flexibility Training for Climbers",
+              "url": "https://latticetraining.com/blog/lattice-training-insights-flexibility-training-for-climbers/",
+              "source": "Lattice Training",
+              "language": "en",
+              "articleType": "training"
+            }
+          ]
         }
       ]
     },
@@ -271,14 +719,60 @@
             "en": "Adaptive climbing encompasses various disability categories. Limb differences include amputation (upper or lower), spinal cord injuries (paraplegia or tetraplegia), and other mobility limitations. Single-arm climbers develop remarkable balance and strength, while wheelchair users climb with upper-body power and specialized protection systems.\n\nVisually impaired climbers use touch and verbal guidance to navigate routes, developing extraordinary tactile and spatial skills. Deaf climbers replace verbal commands with visual signals, rope tugs, or vibration devices. Cognitively impaired participants benefit from simplified instructions and one-on-one guidance, with climbing particularly beneficial for sensory integration in individuals on the autism spectrum."
           },
           "terms": [
-            { "zh": "适应性攀岩", "en": "adaptive climbing" },
-            { "zh": "截肢", "en": "amputation" },
-            { "zh": "截瘫", "en": "paraplegia" },
-            { "zh": "视觉引导", "en": "visual guidance" },
-            { "zh": "感觉统合", "en": "sensory integration" }
+            {
+              "zh": "适应性攀岩",
+              "en": "adaptive climbing"
+            },
+            {
+              "zh": "截肢",
+              "en": "amputation"
+            },
+            {
+              "zh": "截瘫",
+              "en": "paraplegia"
+            },
+            {
+              "zh": "视觉引导",
+              "en": "visual guidance"
+            },
+            {
+              "zh": "感觉统合",
+              "en": "sensory integration"
+            }
           ],
-          "crossRefs": ["kp-belaying", "kp-harness", "kp-route-reading-basics"],
-          "tags": ["beginner", "special"]
+          "crossRefs": [
+            "kp-belaying",
+            "kp-harness",
+            "kp-route-reading-basics"
+          ],
+          "tags": [
+            "beginner",
+            "special"
+          ],
+          "expertInsights": [
+            {
+              "zh": "研究涵盖三大残障类型：截肢（上肢/下肢）、脊髓损伤和创伤性脑损伤（TBI）。参与者普遍报告幸福感、自尊心、力量和柔韧性的显著改善。两种主要适应性攀岩方式：顶绳攀岩（技术攀登动作）和绳索上升（滑轮辅助系统），适合不同功能水平的残障者。",
+              "en": "Research covers three major disability types: amputation (upper/lower limb), spinal cord injury, and traumatic brain injury (TBI). Participants consistently report significant improvements in well-being, self-esteem, strength, and flexibility. Two primary adaptive approaches are top-rope climbing (technical movement) and rope ascending (pulley-assisted systems), suited to different functional levels.",
+              "source": "VA Research (U.S. Department of Veterans Affairs)",
+              "sourceUrl": "https://www.research.va.gov/currents/0520-Adaptive-rock-climbing-has-physical-and-psychological-benefits-for-people-with-disabilities.cfm"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Adaptive Rock Climbing Has Physical, Psychological Benefits for People with Disabilities",
+              "url": "https://www.research.va.gov/currents/0520-Adaptive-rock-climbing-has-physical-and-psychological-benefits-for-people-with-disabilities.cfm",
+              "source": "VA Research (U.S. Department of Veterans Affairs)",
+              "language": "en",
+              "articleType": "research"
+            },
+            {
+              "title": "Adaptive Climbing: Making the Sport Accessible",
+              "url": "https://altaclimbing.com/adaptive-climbing/",
+              "source": "Alta Climbing and Fitness",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-adaptive-equipment",
@@ -291,14 +785,54 @@
             "en": "Adaptive climbing often requires equipment modifications. Full-body harnesses better distribute fall forces for climbers with spinal cord injuries, while harness leg loops may need adjustment for single-arm operation. Some manufacturers now offer adaptive-specific harness lines.\n\nClimbing-specific prosthetics are an evolving field: upper-limb prosthetics may feature hook-style or wedge-shaped terminals, while lower-limb designs accommodate rock stepping. For climbers with severe disabilities such as tetraplegia, assisted rope systems like weighted top-rope setups or electric winches enable participation. All modified equipment must undergo rigorous safety testing before use."
           },
           "terms": [
-            { "zh": "全身式安全带", "en": "full-body harness" },
-            { "zh": "攀岩假肢", "en": "climbing prosthetic" },
-            { "zh": "电动绞盘", "en": "electric winch" },
-            { "zh": "自动保护器", "en": "auto-belay" },
-            { "zh": "辅助绳索系统", "en": "assisted rope system" }
+            {
+              "zh": "全身式安全带",
+              "en": "full-body harness"
+            },
+            {
+              "zh": "攀岩假肢",
+              "en": "climbing prosthetic"
+            },
+            {
+              "zh": "电动绞盘",
+              "en": "electric winch"
+            },
+            {
+              "zh": "自动保护器",
+              "en": "auto-belay"
+            },
+            {
+              "zh": "辅助绳索系统",
+              "en": "assisted rope system"
+            }
           ],
-          "crossRefs": ["kp-harness", "kp-belaying", "kp-climbing-shoes"],
-          "tags": ["beginner", "special", "safety"]
+          "crossRefs": [
+            "kp-harness",
+            "kp-belaying",
+            "kp-climbing-shoes"
+          ],
+          "tags": [
+            "beginner",
+            "special",
+            "safety"
+          ],
+          "expertInsights": [
+            {
+              "zh": "适应性假肢可根据攀岩特定需求定制（如适合裂缝攀岩的指状假肢），与通用假肢在功能上有本质差别。辅助上升系统（滑轮/上升器系统）使下肢功能受限的攀爬者能通过上肢力量实现独立上升，是最普及的适应性攀岩方式。",
+              "en": "Adaptive prosthetics can be custom-designed for climbing-specific needs (e.g., finger-shaped terminals for crack climbing), fundamentally different from general-purpose prosthetics. Pulley/ascender assisted systems enable climbers with limited lower-limb function to ascend independently using upper-body strength, making it the most widespread adaptive climbing method.",
+              "source": "Alta Climbing and Fitness",
+              "sourceUrl": "https://altaclimbing.com/adaptive-climbing/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Adaptive Climbing: Making the Sport Accessible",
+              "url": "https://altaclimbing.com/adaptive-climbing/",
+              "source": "Alta Climbing and Fitness",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-adaptive-organizations",
@@ -311,14 +845,52 @@
             "en": "Adaptive climbing receives growing support worldwide. The IFSC has incorporated adaptive climbing into its development strategy and organizes international paraclimbing competitions. Athletes are classified by functional ability rather than specific disability, ensuring fair competition. Entering the Paralympic Games is a long-term goal.\n\nRegional organizations like Paradox Sports and Adaptive Adventures (USA), Thrive Outdoors and the BMC (UK) promote adaptive climbing programs. Inclusive gym design includes wheelchair-accessible facilities, spacious floor areas, varied route difficulty including low traverses, staff trained in adaptive instruction, and a welcoming community atmosphere. True inclusion requires both physical accessibility and a culture of respect and equality for all climbers."
           },
           "terms": [
-            { "zh": "适应性攀岩赛事", "en": "paraclimbing competition" },
-            { "zh": "功能分级", "en": "functional classification" },
-            { "zh": "无障碍设计", "en": "accessible design" },
-            { "zh": "包容性", "en": "inclusivity" },
-            { "zh": "残疾人奥运会", "en": "Paralympic Games" }
+            {
+              "zh": "适应性攀岩赛事",
+              "en": "paraclimbing competition"
+            },
+            {
+              "zh": "功能分级",
+              "en": "functional classification"
+            },
+            {
+              "zh": "无障碍设计",
+              "en": "accessible design"
+            },
+            {
+              "zh": "包容性",
+              "en": "inclusivity"
+            },
+            {
+              "zh": "残疾人奥运会",
+              "en": "Paralympic Games"
+            }
           ],
-          "crossRefs": ["kp-route-reading-basics", "kp-belaying"],
-          "tags": ["beginner", "special"]
+          "crossRefs": [
+            "kp-route-reading-basics",
+            "kp-belaying"
+          ],
+          "tags": [
+            "beginner",
+            "special"
+          ],
+          "expertInsights": [
+            {
+              "zh": "Paradox Sports（2007年成立，丹佛）是北美最早的适应性攀岩非营利组织，2015年出版首部适应性攀岩手册。IFSC 残障攀岩设立了标准化的残障分类系统（RP、AL、AU、B四大类别），为国际竞技参赛提供明确路径。",
+              "en": "Paradox Sports (founded 2007, Denver) is North America's earliest adaptive climbing nonprofit, publishing the first adaptive climbing manual in 2015. The IFSC paraclimbing division established a standardized disability classification system (RP, AL, AU, B categories) providing a clear pathway for international competitive participation.",
+              "source": "5.life",
+              "sourceUrl": "https://5.life/blog/2024/04/05/the-importance-of-adaptive-climbing/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "The Importance of Adaptive Climbing",
+              "url": "https://5.life/blog/2024/04/05/the-importance-of-adaptive-climbing/",
+              "source": "5.life",
+              "language": "en",
+              "articleType": "research"
+            }
+          ]
         }
       ]
     }

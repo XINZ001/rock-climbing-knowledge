@@ -1,0 +1,554 @@
+{
+  "_meta": {
+    "section": "section-08",
+    "sectionName": "户外攀岩实践",
+    "searchDate": "2026-03-03",
+    "totalArticles": 18,
+    "coveredKps": 18,
+    "totalKps": 18,
+    "uncoveredKps": [],
+    "partiallyCoveredKps": []
+  },
+  "articles": [
+    {
+      "id": "art-08-001",
+      "url": "https://www.alpinetothemax.com/blog/rock-climbing-outside",
+      "title": "Rock Climbing Outside vs Indoors: Key Differences To Know About",
+      "source": "Alpine to the Max",
+      "author": "Max Lurie",
+      "language": "en",
+      "publishDate": "2024-02-15",
+      "lastModified": "2024-02-15",
+      "articleType": "tutorial",
+      "primaryKp": "kp-indoor-outdoor-diff",
+      "secondaryKps": ["kp-first-outdoor-trip", "kp-rock-types"],
+      "quality": {
+        "authority": 3,
+        "depth": 3,
+        "practicality": 4,
+        "recency": 4,
+        "uniqueness": 3,
+        "total": 17
+      },
+      "summary": "由 AMGA 认证向导创办的 Alpine to the Max 系统比较了室内外攀岩的六大核心差异：岩石多样性（真实岩石 vs 标准塑料把手）、天气影响、装备需求、技术技能（路线阅读/保护放置）、心理挑战以及安全风险管理。强调户外攀岩需要系统学习，建议寻找导师或 AMGA 认证向导带入门。",
+      "keyInsights": [
+        "户外岩石纹理多变（花岗岩/石灰岩/砂岩），需要适应真实岩石手感，与健身房标准塑料把手差异显著",
+        "户外攀岩受天气影响大，极端温度、风雨雪均影响安全性，而室内攀岩馆环境可控",
+        "户外攀岩需要额外装备：动态绳、保护器材（坚果/岩械）、头盔和保暖服装",
+        "户外路线无颜色编码，路线阅读是必须掌握的核心技能，初学者往往被实际难度出乎意料",
+        "心理挑战显著增加：户外暴露感、高度恐惧和未知风险对心理素质要求更高"
+      ],
+      "tags": ["户外攀岩入门", "室内外差异", "过渡指南", "初学者"]
+    },
+    {
+      "id": "art-08-002",
+      "url": "https://philarockgym.com/top-8-tips-for-your-first-outdoor-climbing-trip/",
+      "title": "Top 8 Tips for Your First Outdoor Climbing Trip",
+      "source": "Philly Rock Gym",
+      "author": "PRG Staff",
+      "language": "en",
+      "publishDate": "2023-05-30",
+      "lastModified": "2025-09-11",
+      "articleType": "tutorial",
+      "primaryKp": "kp-first-outdoor-trip",
+      "secondaryKps": ["kp-trip-planning", "kp-rock-types"],
+      "quality": {
+        "authority": 3,
+        "depth": 3,
+        "practicality": 5,
+        "recency": 4,
+        "uniqueness": 3,
+        "total": 18
+      },
+      "summary": "费城攀岩馆（PRG）出品的户外首次攀岩实用指南，涵盖 8 个关键准备事项：顶绳架设方法、路线收绳流程（Cleaning Routes）、指南手册使用（Mountain Project 等应用）、接近徒步准备、户外路线阅读、抱石安全、螺栓间距意识、岩石类型辨认。2023 年发布，2025 年 9 月更新，内容时效性好。",
+      "keyInsights": [
+        "收绳（Cleaning Routes）是户外攀岩必须掌握的关键技能，务必在正式攀岩前在地面充分练习",
+        "使用 Mountain Project 等导航 App 提前下载离线地图和路线信息，避免在场地迷失方向",
+        "户外岩石（花岗岩/石灰岩/砂岩）比健身房更尖锐，砂岩遇水极易损坏不可在雨后攀岩",
+        "户外螺栓间距比室内更大，建议携带延伸裂缝（Stick Clip）预先挂好第一颗螺栓",
+        "户外攀爬应预期难度分级与室内有差异，首次户外攀岩很可能感觉比熟悉的室内等级更难"
+      ],
+      "tags": ["首次户外攀岩", "户外入门", "收绳技术", "攀岩准备"]
+    },
+    {
+      "id": "art-08-003",
+      "url": "https://www.advnture.com/features/5-types-of-rock",
+      "title": "5 types of rock you'll encounter when climbing outdoors",
+      "source": "Advnture",
+      "author": "Julia Clarke",
+      "language": "en",
+      "publishDate": "2023-08-01",
+      "lastModified": "2023-08-01",
+      "articleType": "tutorial",
+      "primaryKp": "kp-rock-types",
+      "secondaryKps": ["kp-indoor-outdoor-diff"],
+      "quality": {
+        "authority": 3,
+        "depth": 3,
+        "practicality": 4,
+        "recency": 4,
+        "uniqueness": 3,
+        "total": 17
+      },
+      "summary": "Advnture 户外媒体系统介绍了户外攀岩中常见的 5 种岩石类型：花岗岩（Granite）、砂岩（Sandstone）、石灰岩（Limestone）、板岩（Slate）、玄武岩（Basalt）。每种岩石的形成原理、特征纹理、典型攀岩区域（Yosemite、北威尔士、Kalymnos 等）以及攀岩者需要注意的特殊安全事项均有说明。",
+      "keyInsights": [
+        "花岗岩：极硬，富含石英，适合大型整块攀岩和裂缝攀岩（Yosemite El Capitan 典型），摩擦力好",
+        "砂岩：质软粗糙，抓地力极好但雨后绝对禁止攀岩，湿砂岩极易破坏岩点，Red Rock 等地为典型区域",
+        "石灰岩：以口袋点（pockets）和挂拉（tufas）著称，Kalymnos 和 Dolomites 为代表区域，岩面多变有趣",
+        "板岩：主要见于北威尔士，层状结构使裂缝攀岩具有独特挑战，需注意分层剥落风险",
+        "玄武岩：由岩浆快速冷却形成，通常呈柱状节理，质地坚硬但表面可能较粗糙"
+      ],
+      "tags": ["岩石类型", "花岗岩", "砂岩", "石灰岩", "户外攀岩"]
+    },
+    {
+      "id": "art-08-004",
+      "url": "https://mojagear.com/sport-climbing-tips-clipping/",
+      "title": "How to Lead Climb: Clipping, Techniques, and Safety",
+      "source": "Mojagear",
+      "author": "Mojagear Staff",
+      "language": "en",
+      "publishDate": "2023-01-01",
+      "lastModified": "2023-01-01",
+      "articleType": "tutorial",
+      "primaryKp": "kp-clipping-technique",
+      "secondaryKps": ["kp-outdoor-sport-safety"],
+      "quality": {
+        "authority": 3,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 3,
+        "uniqueness": 3,
+        "total": 18
+      },
+      "summary": "专注于先锋攀岩挂绳技术的综合指南，涵盖正确挂绳手法（双手挂绳法和单手捏持法）、反挂（Back-clipping）与 Z 字挂绳（Z-clipping）的识别与避免方法、绳子管理、力竭状态下快速挂绳技巧。特别强调反挂和 Z 字挂绳在领攀中的危险性，是先锋攀岩安全的核心内容。",
+      "keyInsights": [
+        "正确挂绳方向：绳子应从快挂（quickdraw）下方卡扣的 gate 后侧穿出，面向攀爬方向开口",
+        "反挂（Back-clipping）：绳子方向颠倒，坠落时绳子可能从快挂自行脱出，是极危险的错误",
+        "Z 字挂绳（Z-clipping）：从上一个螺栓以下抽绳挂入下一个螺栓，实际上延长了坠落距离",
+        "力竭状态挂绳技巧：提前将快挂调整到最佳位置，练习单手快速挂绳以减少抽绳时间",
+        "保护者应主动监督领攀者的挂绳方式，及时提醒反挂和 Z 字错误"
+      ],
+      "tags": ["先锋攀岩", "挂绳技术", "反挂", "Z字挂绳", "运动攀岩安全"]
+    },
+    {
+      "id": "art-08-005",
+      "url": "https://trainingforclimbing.com/10-dos-donts-for-effective-redpointing/",
+      "title": "10 Do's and Don'ts for Effective Redpoint Climbing",
+      "source": "Training For Climbing",
+      "author": "Eric Hörst",
+      "language": "en",
+      "publishDate": "2024-06-27",
+      "lastModified": "2025-10-19",
+      "articleType": "training",
+      "primaryKp": "kp-lead-strategy-outdoor",
+      "secondaryKps": ["kp-outdoor-sport-safety"],
+      "quality": {
+        "authority": 4,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 4,
+        "uniqueness": 4,
+        "total": 21
+      },
+      "summary": "世界知名攀岩教练 Eric Hörst 撰写的红点攀岩（Redpointing）策略指南。包含 10 条核心原则：路线分段练习、探索多种解法、专注本体感觉、平衡核心难点练习与终段练习、强化成功体验、坠落恐惧管理、休息期间心理复演、辅助训练策略、热身方案和心态调节。2024 年发布，2025 年更新，是目前最权威的红点攀岩方法论。",
+      "keyInsights": [
+        "分段练习（Chunking）：将路线按休息点或保护点分成小段独立训练，避免全程消耗的低效模式",
+        "主动寻找替代路线：不要假设其他人的核心动作顺序最适合自己，在绳上多次探索不同解法",
+        "不要过度练习核心难点：留足够时间练习路线终段（final chunk），预防在顶部力竭失手的「心碎落」",
+        "练习控制落坠恐惧：在安全条件下从高于舒适区的高度进行受控坠落训练，系统克服心理恐惧",
+        "休息间隔 20-45 分钟：休息时短暂步行甩动双臂，进行心理复演而非坐着焦虑，提高下次尝试质量"
+      ],
+      "tags": ["红点攀岩", "先锋策略", "心理训练", "技术攀岩", "Eric Hörst"]
+    },
+    {
+      "id": "art-08-006",
+      "url": "https://gripped.com/profiles/three-common-lead-climbing-mistakes-to-avoid/",
+      "title": "Three Common Lead Climbing Mistakes to Avoid",
+      "source": "Gripped Magazine",
+      "author": "Gripped Magazine",
+      "language": "en",
+      "publishDate": "2021-03-01",
+      "lastModified": "2021-03-01",
+      "articleType": "safety-case",
+      "primaryKp": "kp-outdoor-sport-safety",
+      "secondaryKps": ["kp-clipping-technique"],
+      "quality": {
+        "authority": 4,
+        "depth": 3,
+        "practicality": 5,
+        "recency": 3,
+        "uniqueness": 3,
+        "total": 18
+      },
+      "summary": "Gripped Magazine 总结的先锋攀岩三大常见危险错误：反挂（Back-clipping）、Z 字挂绳（Z-clipping）、腿绕绳（Leg Behind Rope）。文章对每种错误的成因、危险后果和预防方法均有清晰说明，特别强调保护者作为「第二道防线」的责任。简洁实用，适合室内先锋提升者在转向户外前复习。",
+      "keyInsights": [
+        "反挂（Back-clipping）：绳子错误方向通过快挂，坠落时绳子可能自行脱出导致无保护坠落",
+        "Z 字挂绳（Z-clipping）：从上一个螺栓下方抽绳挂入新螺栓，引入大量松弛产生额外坠落距离",
+        "腿绕绳（Leg Behind Rope）：攀爬中将腿放在绳子后方，坠落时腿被卡住导致倒挂头朝下",
+        "以上三种错误均可由保护者辅助监控并及时提醒，保护者不应只关注给绳质量",
+        "建议初次户外先锋前与有经验同伴进行实地检查训练，确保每次挂绳前确认方向正确"
+      ],
+      "tags": ["先锋攀岩", "安全错误", "挂绳危险", "保护责任"]
+    },
+    {
+      "id": "art-08-007",
+      "url": "https://www.vdiffclimbing.com/cam/",
+      "title": "Trad Climbing Gear: Cams – How to Use Climbing Cams",
+      "source": "VDiff Climbing",
+      "author": "VDiff",
+      "language": "en",
+      "publishDate": "2025-12-26",
+      "lastModified": "2026-01-03",
+      "articleType": "tutorial",
+      "primaryKp": "kp-placing-protection",
+      "secondaryKps": ["kp-crack-climbing-systems", "kp-anchor-building"],
+      "quality": {
+        "authority": 4,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 5,
+        "uniqueness": 3,
+        "total": 21
+      },
+      "summary": "VDiff Climbing 2025 年 12 月最新发布的凸轮放置指南，系统涵盖凸轮工作原理（摩擦力与弧形锁紧原理）、正确放置技术（触发器操作、朝向、放置深度）、不同裂缝角度的放置策略、最佳尺寸选择原则（中间范围最强）、取出方法以及组合装备的排架系统。2026 年 1 月维护更新，是当前最新的凸轮技术参考资料。",
+      "keyInsights": [
+        "凸轮的最优放置范围是其行程的中间区段，此时强度最大；避免接近全展开或全收缩的极端状态",
+        "优先寻找平行缝或轻微向上倾斜的裂缝，向下喇叭口的裂缝在坠落时凸轮会越撑越松",
+        "水平和对角裂缝放置时，应将外侧弧片朝下，这样放置更稳定、不易翻转",
+        "凸轮取出时先触发触发器使弧片收缩，再轻柔提拉，强力扯拉会让凸轮卡得更紧",
+        "凸轮比楔形器放置更快，在力竭状态下尤为宝贵，但需保证放置质量不因追求速度而降低"
+      ],
+      "tags": ["传统攀岩", "凸轮放置", "保护放置", "绳段技术", "裂缝攀岩"]
+    },
+    {
+      "id": "art-08-008",
+      "url": "https://rockclimbingrealms.com/trad-anchors-build-bombproof-with-serene-ernest/",
+      "title": "Trad Anchors: Build Bombproof with SERENE/ERNEST",
+      "source": "Rock Climbing Realms",
+      "author": "Alfredo Ramses",
+      "language": "en",
+      "publishDate": "2025-05-26",
+      "lastModified": "2025-09-27",
+      "articleType": "tutorial",
+      "primaryKp": "kp-anchor-building",
+      "secondaryKps": ["kp-multi-pitch", "kp-placing-protection"],
+      "quality": {
+        "authority": 3,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 4,
+        "uniqueness": 3,
+        "total": 19
+      },
+      "summary": "系统讲解传统攀岩锚点建立的 SERENE/ERNEST 框架：S-Solid（坚固）、E-Equalized（均衡受力）、R-Redundant（冗余）、E-Efficient（高效）、N-No Extension（无延展）、E-Efficient timing（及时高效）。文章强调每个保护点的独立强度是基础，均衡化和冗余设计不能弥补单个弱点，并提供具体锚点建立步骤和常见错误。",
+      "keyInsights": [
+        "SERENE 框架核心：Solid（每个保护点必须独立牢固）、Equalized（均衡分载）、Redundant（任一失效不影响系统）、Efficient（高效搭建）、No Extension（任一失效时系统不产生冲击延伸）",
+        "固态（Solid）是首要原则：再完美的均衡化也无法补偿单个弱保护点的不足，这是最常被忽视的要点",
+        "均衡角度（Equalization Angle）应保持在 60° 以内，角度越大则各锚点受力越大，超过 120° 时各点受力超过总载荷",
+        "冗余性要求：主绳、锚点系统、连接方式均需有备份，不能依赖单一连接",
+        "No Extension 原则防止单个保护点脱落时系统产生动态冲击，这是区分 SERENE 与早期 SRENE 标准的关键点"
+      ],
+      "tags": ["传统攀岩", "锚点建立", "SERENE", "ERNEST", "多绳距"]
+    },
+    {
+      "id": "art-08-009",
+      "url": "https://americanalpineclub.org/news/2023/6/22/protection-the-ins-and-outs-of-sport-and-trad-climbing-protection",
+      "title": "The \"Ins and Outs\" of Sport and Trad Climbing Protection",
+      "source": "American Alpine Club",
+      "author": "AAC Staff",
+      "language": "en",
+      "publishDate": "2023-06-22",
+      "lastModified": "2023-06-22",
+      "articleType": "tutorial",
+      "primaryKp": "kp-crack-climbing-systems",
+      "secondaryKps": ["kp-placing-protection", "kp-outdoor-sport-safety"],
+      "quality": {
+        "authority": 5,
+        "depth": 3,
+        "practicality": 4,
+        "recency": 4,
+        "uniqueness": 3,
+        "total": 19
+      },
+      "summary": "美国高山俱乐部（AAC）出品的运动攀岩与传统攀岩保护系统对比指南。涵盖运动攀岩的螺栓系统（螺栓检查、退役标准、快挂使用规范）与传统攀岩的可移除器材系统（坚果、凸轮、六角形、三角器的放置和备份原则），并分析两种系统的保护效力差异与选择注意事项。AAC 权威出品，适合过渡阶段系统学习。",
+      "keyInsights": [
+        "运动攀岩保护系统：全程依赖固定螺栓和快挂，螺栓需定期检查锈蚀/弯曲/松动，顶锚也是固定装置",
+        "传统攀岩保护系统：使用可移除器材（坚果 Nuts、凸轮 Cams、六角形 Hexes、三角器 Tricams）放入自然裂缝",
+        "传统攀岩保护原则：应尽量在每个保护位置放置备份（Back-up placements），尤其在第一颗保护点或可疑位置",
+        "螺栓状态检查要点：检查锈蚀程度、螺栓帽的松紧和转动情况，发现问题应向当地岩壁维护组织报告",
+        "选择路线时需评估保护密度和保护质量，传统攀岩路线因保护间距和质量差异大，需提前研究"
+      ],
+      "tags": ["传统攀岩", "裂缝攀岩系统", "保护放置", "运动攀岩", "AAC"]
+    },
+    {
+      "id": "art-08-010",
+      "url": "https://www.99boulders.com/multi-pitch-climbing",
+      "title": "Multi-pitch Climbing 101: The Complete Guide",
+      "source": "99Boulders",
+      "author": "Willis Kuelthau",
+      "language": "en",
+      "publishDate": "2021-08-28",
+      "lastModified": "2022-02-25",
+      "articleType": "tutorial",
+      "primaryKp": "kp-multi-pitch",
+      "secondaryKps": ["kp-anchor-building", "kp-placing-protection"],
+      "quality": {
+        "authority": 3,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 3,
+        "uniqueness": 4,
+        "total": 19
+      },
+      "summary": "综合性多绳距攀岩入门指南，包含专业向导 Eric Whewell（IFMGA 认证，科罗拉多山地学校首席向导）的专家建议。涵盖多绳距攀岩与单绳距的核心区别、所需装备清单、锚点建立与转换技术、搭档间通讯系统、坠落系数计算、绳子盘绕管理和上保护技术。强调实践学习的不可替代性。",
+      "keyInsights": [
+        "多绳距攀岩中「沟通是最重要也最容易出问题的环节」——搭档间必须事先约定完整的信号系统",
+        "坠落系数（Fall Factor）：坠落距离除以系统内绳子长度，锚点上方坠落的系数最高（最危险）",
+        "中间人（Second）的保护建议直接连接于锚点（Direct belay from anchor），而非通过保护者身体传递冲击力",
+        "绳子在绳距站管理：绳子必须系统盘绕或挂环以防打结，绳子打结是多绳距最常见的耗时事故",
+        "美国大部分多绳距路线需要传统攀岩装备，纯运动多绳距路线（全螺栓）在美国相对少见"
+      ],
+      "tags": ["多绳距", "传统攀岩", "绳距转换", "搭档沟通", "IFMGA"]
+    },
+    {
+      "id": "art-08-011",
+      "url": "https://gripped.com/profiles/a-beginners-guide-to-outdoor-bouldering/",
+      "title": "A Beginner's Guide to Outdoor Bouldering",
+      "source": "Gripped Magazine",
+      "author": "Gripped Magazine",
+      "language": "en",
+      "publishDate": "2025-05-27",
+      "lastModified": "2025-05-27",
+      "articleType": "tutorial",
+      "primaryKp": "kp-outdoor-bouldering-chars",
+      "secondaryKps": ["kp-landing-strategy", "kp-area-exploration"],
+      "quality": {
+        "authority": 4,
+        "depth": 3,
+        "practicality": 4,
+        "recency": 4,
+        "uniqueness": 3,
+        "total": 18
+      },
+      "summary": "Gripped Magazine 2025 年最新发布的户外抱石入门指南，系统阐述户外抱石与健身房的核心差异：不规则着地区、无专业安全设计的路线、松动岩石风险、保护垫更薄等。重点讲述正确保护技术（「汤匙而非叉子」的双手保护姿势）、保护垫管理、坠落意识训练和攀岩场地礼仪。",
+      "keyInsights": [
+        "户外抱石健身房最大的区别：健身房有超出实际坠落区域的规整安全垫，户外保护垫覆盖范围有限且地形不规则",
+        "健身房路线由路线设计师考虑了安全性，户外线路无此设计——需要自己评估每条线路的坠落风险",
+        "户外岩石中存在粉笔标记不能代表「安全抓手」，有些粉迹恰好来自失败的错误尝试",
+        "保护者双手应呈「汤匙状」（手心朝上、指尖并拢）而非「叉子状」，以保护攀爬者髋部和脊椎安全落地",
+        "场地礼仪：避免大声播放音乐、合理使用镁粉、保持轻踩脚印的无痕原则，给场地留下良好印象"
+      ],
+      "tags": ["户外抱石", "抱石特点", "保护技术", "初学者", "场地礼仪"]
+    },
+    {
+      "id": "art-08-012",
+      "url": "https://gripped.com/indoor-climbing/bouldering-outside-5-tips-for-a-safer-landing/",
+      "title": "Bouldering Outside? 5 Tips for a Safer Landing",
+      "source": "Gripped Magazine",
+      "author": "Bonnie de Bruijn",
+      "language": "en",
+      "publishDate": "2019-05-02",
+      "lastModified": "2019-05-02",
+      "articleType": "safety-case",
+      "primaryKp": "kp-landing-strategy",
+      "secondaryKps": ["kp-outdoor-bouldering-chars"],
+      "quality": {
+        "authority": 4,
+        "depth": 3,
+        "practicality": 5,
+        "recency": 2,
+        "uniqueness": 3,
+        "total": 17
+      },
+      "summary": "Gripped Magazine 出品的户外抱石安全落地 5 条策略：识别并覆盖「坠落区域」（Fall Zone）而非仅关注岩块正下方；通过填平凹凸用多块垫子创造水平落地面；避免垫子之间产生裂缝；高岩块需要叠放垫子增加厚度；以标准站姿（前后脚错开）进行有效保护。内容经典不过时，是户外抱石坠落安全的基础指导。",
+      "keyInsights": [
+        "坠落区域（Fall Zone）概念：攀爬者实际坠落轨迹往往不是岩块正下方，尤其斜面或超角路线坠落区域偏外侧",
+        "制造水平落地面：地形不平时先用小垫填低处，再在上面铺大垫，步行测试确保不会塌陷",
+        "垫子间缝隙的致命性：落在垫缝中导致踝关节扭伤/骨折是户外抱石最常见受伤方式，需持续检查并推挤合拢",
+        "高路线需要垫子叠放：冲击力与高度正相关，在平坦地面也需要 2-3 块垫子叠放增加缓冲深度",
+        "保护者需要以「前后脚错开」站姿吸收冲击，双手引导攀爬者在髋部平稳落地，头部最后着地"
+      ],
+      "tags": ["户外抱石", "落地策略", "保护垫", "坠落安全", "保护技术"]
+    },
+    {
+      "id": "art-08-013",
+      "url": "https://gymtocrag.org/2023/12/19/climbing-guidebooks-versus-mountain-project/",
+      "title": "Climbing Guidebooks Versus Mountain Project",
+      "source": "Gym to Crag",
+      "author": "Daniel",
+      "language": "en",
+      "publishDate": "2023-12-19",
+      "lastModified": "2023-12-19",
+      "articleType": "tutorial",
+      "primaryKp": "kp-area-exploration",
+      "secondaryKps": ["kp-trip-planning"],
+      "quality": {
+        "authority": 2,
+        "depth": 3,
+        "practicality": 5,
+        "recency": 4,
+        "uniqueness": 3,
+        "total": 17
+      },
+      "summary": "Gym to Crag 对三种户外攀岩区域探索方式的实用对比：询问朋友、使用 Mountain Project 应用、购买纸质导览手册。系统分析各方式的优缺点——Mountain Project 免费全面但位置描述模糊且需预先下载离线地图；纸质手册可靠精准但需购买且可能过时；建议经验丰富的攀爬者三者结合使用。",
+      "keyInsights": [
+        "Mountain Project：拥有 155,000+ 条路线数据库，社区驱动持续更新，但离线使用需提前分区下载",
+        "Mountain Project 的路线位置描述常模糊（「在某路线左方 3 英尺」），初次到访陌生场地需配合其他参考",
+        "纸质导览手册的优势：不依赖电子设备和信号、照片质量更高、附有完整地图索引，且购买支持作者（通常是当地开发者）",
+        "询问当地攀爬者或向导是获取最新实地信息（岩石状况、路线关闭、停车变化）的最有效方式",
+        "进阶建议：三种方式结合使用，Mountain Project 用于路线搜索，纸质手册用于精确导航，当地社群用于实时信息"
+      ],
+      "tags": ["攀岩区域探索", "Mountain Project", "攀岩指南手册", "新场地探索"]
+    },
+    {
+      "id": "art-08-014",
+      "url": "https://www.vdiffclimbing.com/bigwall-intro/",
+      "title": "An Introduction To Big Wall Climbing",
+      "source": "VDiff Climbing",
+      "author": "VDiff",
+      "language": "en",
+      "publishDate": "2025-12-30",
+      "lastModified": "2026-01-06",
+      "articleType": "tutorial",
+      "primaryKp": "kp-bigwall-planning",
+      "secondaryKps": ["kp-aid-climbing", "kp-wall-living"],
+      "quality": {
+        "authority": 4,
+        "depth": 4,
+        "practicality": 4,
+        "recency": 5,
+        "uniqueness": 3,
+        "total": 20
+      },
+      "summary": "VDiff Climbing 2025 年 12 月发布的大岩壁入门综合指南，定义大岩壁为「无法单日完成、需要携带食物水源并在岩壁上过夜」的路线类型。系统介绍主要技术体系（人工攀岩、上升器攀升、拉包系统）、基础技能入门路径以及适合初学者的全球入门大岩壁目的地（Yosemite、Squamish、Dolomites、Orco Valley、Catalonia、Zion）。",
+      "keyInsights": [
+        "大岩壁定义：单日无法完成、需携带给养在岩壁上过夜，与多绳距的核心区别在于后勤和营地管理",
+        "三大核心技术体系：人工攀岩（Aid Climbing，踩踏梯子进步）、上升器攀升（Jugging，跟攀清理保护）、拉包（Hauling，把装备袋从岩壁上拉升）",
+        "推荐入门地：Yosemite Valley（天气稳定、路线完善），Squamish、Dolomites、Zion 适合不同进阶阶段",
+        "大岩壁技术对有传统攀岩基础者是「合理可达的技能」，并非只属于精英攀岩者",
+        "时间管理是大岩壁规划的核心挑战：需精确估算每段绳距的领攀、跟攀、拉包时间以确保在指定营地过夜"
+      ],
+      "tags": ["大岩壁", "人工攀岩", "Yosemite", "大岩壁规划", "VDiff"]
+    },
+    {
+      "id": "art-08-015",
+      "url": "https://www.alpinesavvy.com/blog/aid-climbing-rig-for-seconding",
+      "title": "Aid climbing: rig for seconding",
+      "source": "Alpinesavvy",
+      "author": "John Godino",
+      "language": "en",
+      "publishDate": "2022-05-02",
+      "lastModified": "2024-04-30",
+      "articleType": "tutorial",
+      "primaryKp": "kp-aid-climbing",
+      "secondaryKps": ["kp-bigwall-planning", "kp-wall-living"],
+      "quality": {
+        "authority": 3,
+        "depth": 4,
+        "practicality": 5,
+        "recency": 4,
+        "uniqueness": 4,
+        "total": 20
+      },
+      "summary": "Alpinesavvy 出品的人工攀岩跟攀（Seconding/Cleaning）系统设置详解，作者 John Godino 提供高度实用的上升器改装方案（添加不锈钢快扣为绳梯提供专用挂点）、绳套长度调节（上升器卡扣应在眉头高度）、对称绳套设置、装备分类收纳（两条 60cm 扁带分挂凸轮和扁带类）、大斜面和斜横攀段的变型方案。2024 年更新，内容精准。",
+      "keyInsights": [
+        "上升器改装：在握柄上端小孔加装不锈钢快扣，为绳梯提供独立挂点（与安全绳套分离），大幅提升操作灵活性",
+        "最佳绳套长度：调整至上升器主卡扣正好在眉毛高度时，跟攀效率最优（不会过高或过低造成操作困难）",
+        "两个绳套应设为完全相同的长度，以适应左右两侧的斜向段和横攀段切换",
+        "清理装备时使用两条 60cm 扁带分别挂在双肩：一侧挂凸轮和楔形器，另一侧挂扁带和铁锁，在绳距站集中整理",
+        "组合专用装备（绳梯、绳套、上升器各配专用铁锁）不借给其他用途，确保系统始终处于就绪状态"
+      ],
+      "tags": ["人工攀岩", "大岩壁", "跟攀技术", "上升器", "清理保护"]
+    },
+    {
+      "id": "art-08-016",
+      "url": "https://www.vdiffclimbing.com/big-wall-camping/",
+      "title": "Portaledge Life and Poop Tubes - Big Wall Climbing",
+      "source": "VDiff Climbing",
+      "author": "VDiff",
+      "language": "en",
+      "publishDate": "2025-12-30",
+      "lastModified": "2026-01-06",
+      "articleType": "tutorial",
+      "primaryKp": "kp-wall-living",
+      "secondaryKps": ["kp-bigwall-planning"],
+      "quality": {
+        "authority": 4,
+        "depth": 3,
+        "practicality": 4,
+        "recency": 5,
+        "uniqueness": 4,
+        "total": 20
+      },
+      "summary": "VDiff Climbing 2025 年 12 月发布的大岩壁营地生活实用指南。涵盖悬挂式睡台（Portaledge）设置方法（避免倾斜的稳定技巧）、粪便管理（Poop Tube 使用规范，满足国家公园排泄物携带要求）、风雨天紧急飞篷搭设（提前预挂而非临时应急）、物品悬挂组织和营地作息管理。VDiff 2025 年最新出品。",
+      "keyInsights": [
+        "Portaledge 稳定技巧：在岩壁侧角落挂一条扁带到锚点，防止单侧受力时Portaledge意外翻转",
+        "雨棚（Fly）预装策略：除非确定天气，应在设置时即把雨棚收纳在连接状态，夜间可 30 秒快速展开",
+        "粪便管理（Waste Pack Out）：Yosemite 和大多数国家公园强制要求携带排泄物下山，Poop Tube 是标准工具",
+        "晚间物品组织：将当晚需要的物品夹挂在 Portaledge 扶手上，避免在狭小空间反复翻找装备袋",
+        "早餐规划：将早餐食品放在触手可及处，实现「不下床」完成起床进食的高效节省时间策略"
+      ],
+      "tags": ["大岩壁", "营地生活", "Portaledge", "粪便管理", "大岩壁后勤"]
+    },
+    {
+      "id": "art-08-017",
+      "url": "https://57hours.com/best-of/rock-climbing-worldwide/",
+      "title": "Your 2024 Guide to Finding the Best Rock Climbing in the World",
+      "source": "57hours",
+      "author": "Jurica Levatić",
+      "language": "en",
+      "publishDate": "2020-03-26",
+      "lastModified": "2024-01-09",
+      "articleType": "tutorial",
+      "primaryKp": "kp-classic-destinations",
+      "secondaryKps": ["kp-trip-planning"],
+      "quality": {
+        "authority": 3,
+        "depth": 4,
+        "practicality": 3,
+        "recency": 4,
+        "uniqueness": 3,
+        "total": 17
+      },
+      "summary": "57hours 探险平台出品的 2024 年全球攀岩目的地精选指南，介绍 9 大世界顶级攀岩地：Yosemite（大岩壁）、Kalymnos（运动攀）、Dolomites（高山攀）、Fontainebleau（抱石）、Squamish（全能）、Zermatt（高海拔）、Red Rock（初级友好）、Rocklands（当代抱石）和 Tonsai/Railay（休闲热带运动攀）。每个目的地包含攀岩风格、难度范围和目标人群描述。",
+      "keyInsights": [
+        "Yosemite：花岗岩大岩壁圣地，El Capitan 和 Half Dome 是全球最著名大岩壁，天气稳定是初级大岩壁首选",
+        "Kalymnos（希腊）：全球最受欢迎的休闲运动攀胜地之一，石灰岩品质优秀，社交氛围友好，适合各级别",
+        "Fontainebleau（法国）：「世界抱石圣地」，砂岩岩块独特的技术性在全球无出其右，拥有数千条线路",
+        "Squamish（加拿大）：花岗岩全能目的地，运动攀/传统攀/抱石均有世界级资源，温哥华仅 1 小时车程",
+        "Red Rock Canyon（美国）：砂岩地形适合初中级攀爬者，距离 Las Vegas 30 分钟，后勤便利"
+      ],
+      "tags": ["攀岩目的地", "世界攀岩", "Yosemite", "Kalymnos", "Fontainebleau", "经典区域"]
+    },
+    {
+      "id": "art-08-018",
+      "url": "https://stories.27crags.com/index/climbing-season-calendar-when-to-go",
+      "title": "The Ultimate Rock Climbing Calendar – Where To Go And When",
+      "source": "27 Crags Stories",
+      "author": "Danaan Markey",
+      "language": "en",
+      "publishDate": "2018-11-18",
+      "lastModified": "2019-01-17",
+      "articleType": "tutorial",
+      "primaryKp": "kp-trip-planning",
+      "secondaryKps": ["kp-classic-destinations"],
+      "quality": {
+        "authority": 3,
+        "depth": 3,
+        "practicality": 4,
+        "recency": 2,
+        "uniqueness": 4,
+        "total": 16
+      },
+      "summary": "27crags 出品的攀岩年历，按月份推荐适合前往的全球攀岩目的地，涵盖 1–12 月的欧洲、南非、亚洲等区域。重点展示季节性选择的逻辑：冬季选择西班牙/希腊南方石灰岩区；夏季前往高海拔的瑞士/挪威；秋季选择欧洲大陆中部。是攀岩行程规划中季节匹配的独特参考工具，文章偏旧（2018/2019）但气候季节规律稳定适用。",
+      "keyInsights": [
+        "冬季旅行首选（1-2月）：西班牙 Siurana、Margalef，希腊南部，全年最温暖的欧洲运动攀岩目的地",
+        "春季经典（3-4月）：西班牙 Albarracín 抱石、法国 Fontainebleau，温度最适合岩石摩擦力",
+        "夏季避暑选择（7-8月）：南非 Rocklands（南半球冬季）、瑞士 Magic Wood、挪威花岗岩，高海拔或高纬度保持凉爽",
+        "秋季最佳（9-11月）：西班牙 Rodellar、Kalymnos，全年气候最舒适的经典攀岩旺季",
+        "攀岩行程规划要点：当地摩擦系数（friction conditions）强烈依赖温度和湿度，同一目的地夏季与冬季难度体验差异显著"
+      ],
+      "tags": ["攀岩行程规划", "攀岩季节", "旅行计划", "世界攀岩目的地", "27crags"]
+    }
+  ]
+}

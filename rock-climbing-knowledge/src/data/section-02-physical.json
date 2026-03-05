@@ -50,6 +50,30 @@
               "en": "sloper"
             }
           ],
+          "expertInsights": [
+            {
+              "zh": "Lattice Training 的研究表明，不同握姿（half crimp / open hand / full crimp）的选择应基于项目需求，而非教条式地认为某种更优。顶尖攀岩者中，Aidan Roberts 偏好 open hand，Will Bosi 偏好 half crimp，Dave MacLeod 则以 full crimp 见长——这说明没有「最佳握姿」，关键在于根据目标路线的岩点特征做针对性训练。",
+              "en": "Research from Lattice Training shows that grip position choice should be project-specific rather than dogmatic. Among elite climbers, Aidan Roberts favors open hand, Will Bosi prefers half crimp, and Dave MacLeod excels at full crimp — demonstrating there is no single 'best grip.' The key is to train specifically for the hold types on your target routes.",
+              "source": "Lattice Training",
+              "sourceUrl": "https://latticetraining.com/blog/how-to-manage-finger-strength-for-climbers/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Finger Strength Training for Climbers",
+              "url": "https://latticetraining.com/blog/how-to-manage-finger-strength-for-climbers/",
+              "source": "Lattice Training",
+              "language": "en",
+              "articleType": "training"
+            },
+            {
+              "title": "Half Crimp and Open Hand Grip Positions",
+              "url": "https://www.trainingbeta.com/grip-positions/",
+              "source": "TrainingBeta",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ],
           "crossRefs": [
             "kp-pulley-injury",
             "kp-slab-technique"
@@ -88,6 +112,43 @@
               "en": "repeaters"
             }
           ],
+          "expertInsights": [
+            {
+              "zh": "Eric Hörst（《Training for Climbing》作者）按攀岩水平提供了 4 套分级训练方案，并强调 max hangs、repeaters 和 density hangs 三种方法各有适用场景——max hangs 发展绝对力量，repeaters 建立基础耐力，density hangs 则针对高级爬者的力量耐力。此外，他还指出训练前补充胶原蛋白（配合维C）可能有助于肌腱适应。",
+              "en": "Eric Hörst (author of Training for Climbing) offers 4 level-specific hangboard programs, emphasizing that max hangs, repeaters, and density hangs each serve different purposes — max hangs build peak strength, repeaters develop base endurance, and density hangs target advanced power endurance. He also notes that collagen supplementation with vitamin C before training may support tendon adaptation.",
+              "source": "PhysiVantage / Eric Hörst",
+              "sourceUrl": "https://www.physivantage.com/pages/the-ultimate-guide-to-hangboard-training-for-climbers"
+            },
+            {
+              "zh": "Anderson 兄弟（《The Rock Climber's Training Manual》作者）将指力板定位为攀岩进阶的核心手段而非辅助工具，并详述了 repeater 训练法的科学配比。他们的核心原则是渐进超负荷——系统性地增加训练强度，而非盲目追求更小的边缘或更大的负重。",
+              "en": "The Anderson brothers (authors of The Rock Climber's Training Manual) position the hangboard as a core advancement tool rather than supplementary equipment, detailing the scientific calibration of repeater protocols. Their fundamental principle is progressive overload — systematically increasing training intensity rather than blindly chasing smaller edges or heavier weights.",
+              "source": "TrainingBeta",
+              "sourceUrl": "https://www.trainingbeta.com/mark-and-mike-anderson-guide-to-hangboard-training/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "The Ultimate Guide to Hangboard Training for Climbers",
+              "url": "https://www.physivantage.com/pages/the-ultimate-guide-to-hangboard-training-for-climbers",
+              "source": "PhysiVantage / Eric Hörst",
+              "language": "en",
+              "articleType": "training"
+            },
+            {
+              "title": "Mark and Mike Anderson's Guide to Hangboard Training",
+              "url": "https://www.trainingbeta.com/mark-and-mike-anderson-guide-to-hangboard-training/",
+              "source": "TrainingBeta",
+              "language": "en",
+              "articleType": "training"
+            },
+            {
+              "title": "Finger Strength Training for Climbers",
+              "url": "https://latticetraining.com/blog/how-to-manage-finger-strength-for-climbers/",
+              "source": "Lattice Training",
+              "language": "en",
+              "articleType": "training"
+            }
+          ],
           "crossRefs": [
             "kp-hangboard-gear",
             "kp-pulley-injury",
@@ -121,6 +182,30 @@
             {
               "zh": "基准测试",
               "en": "benchmark test"
+            }
+          ],
+          "expertInsights": [
+            {
+              "zh": "2025 年发表在 Frontiers in Sports 的系统综述推荐 20-23mm 边沿作为标准测试尺寸，并指出单手测试比双手测试更能发现左右手力量不均衡问题。此外，坐姿屈肘测试位置在可靠性上表现最优，这为教练和攀岩者提供了更标准化的评估方案。",
+              "en": "A 2025 systematic review in Frontiers in Sports recommends 20-23mm edges as the standard testing size and finds that single-hand tests are better at detecting left-right strength imbalances than two-hand tests. Seated bent-arm test positions showed the best reliability, offering coaches and climbers a more standardized assessment approach.",
+              "source": "Frontiers in Sports and Active Living",
+              "sourceUrl": "https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2025.1650198/full"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Reliability of finger strength assessment methods in climbing: a systematic review",
+              "url": "https://www.frontiersin.org/journals/sports-and-active-living/articles/10.3389/fspor.2025.1650198/full",
+              "source": "Frontiers in Sports and Active Living",
+              "language": "en",
+              "articleType": "research"
+            },
+            {
+              "title": "The Best Way to Test Finger Strength for Climbers, According to Research",
+              "url": "https://www.camp4humanperformance.com/research/finger-strength-testing-for-climbers",
+              "source": "CAMP4 Human Performance",
+              "language": "en",
+              "articleType": "research"
             }
           ],
           "crossRefs": [
@@ -159,6 +244,43 @@
             {
               "zh": "单臂悬挂",
               "en": "one-arm hang"
+            }
+          ],
+          "expertInsights": [
+            {
+              "zh": "2024 年 PubMed Central 发表的随机对照试验发现，低强度高频率的指力训练（Abrahangs 协议）与传统最大负荷训练在效果上相当。这意味着初学者和中级攀岩者有了一个更安全的替代方案——每天进行短时间低强度指力训练，既能有效提升指力，又大幅降低了受伤风险。",
+              "en": "A 2024 randomized controlled trial published in PubMed Central found that low-intensity, high-frequency finger training (the Abrahangs protocol) produces comparable results to traditional max-load training. This gives beginners and intermediate climbers a safer alternative — short daily low-intensity sessions that effectively build finger strength while significantly reducing injury risk.",
+              "source": "PubMed Central (PMC)",
+              "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11576708/"
+            },
+            {
+              "zh": "Lattice Training 指出，进阶攀岩者应区分力量提升（max hangs）与肌肉耐力（repeaters）的不同训练目标，且每周只需一组 max hangs 即可有效维持高端力量。进阶者的关键是减少训练量但提高强度，避免过度训练带来的平台期。",
+              "en": "Lattice Training emphasizes that advanced climbers should differentiate between strength building (max hangs) and muscular endurance (repeaters), noting that just one set of max hangs per week can effectively maintain peak strength. The key for advanced climbers is to reduce volume while increasing intensity, avoiding plateaus caused by overtraining.",
+              "source": "Lattice Training",
+              "sourceUrl": "https://latticetraining.com/2019/02/04/training-series-finger-strength/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Effects of Different Loading Programs on Finger Strength in Rock Climbers",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC11576708/",
+              "source": "PubMed Central (PMC)",
+              "language": "en",
+              "articleType": "research"
+            },
+            {
+              "title": "Training Series: Finger Strength",
+              "url": "https://latticetraining.com/2019/02/04/training-series-finger-strength/",
+              "source": "Lattice Training",
+              "language": "en",
+              "articleType": "training"
+            },
+            {
+              "title": "The Ultimate Guide to Hangboard Training for Climbers",
+              "url": "https://www.physivantage.com/pages/the-ultimate-guide-to-hangboard-training-for-climbers",
+              "source": "PhysiVantage / Eric Hörst",
+              "language": "en",
+              "articleType": "training"
             }
           ],
           "crossRefs": [
@@ -219,6 +341,23 @@
               "en": "system board"
             }
           ],
+          "expertInsights": [
+            {
+              "zh": "Lattice Training 提出了 5 种引体向上训练变体，分别对应不同训练目标：最大力量（负重引体）、增肌（高容量组）、离心控制（缓慢下降）、等长锁定（90°和120°各保持10秒）和爆发力（快速引体）。尤其值得注意的是，他们强调引体向上训练应安排在攀岩 session 之后而非之前，以避免疲劳影响攀爬技术。",
+              "en": "Lattice Training identifies 5 pull-up variants targeting different goals: max strength (weighted), hypertrophy (high volume), eccentric control (slow lowering), isometric lock-off (10s holds at 90° and 120°), and explosiveness (speed pulls). Notably, they emphasize that pull-up training should be placed after climbing sessions, not before, to prevent fatigue from compromising climbing technique.",
+              "source": "Lattice Training",
+              "sourceUrl": "https://latticetraining.com/blog/pull-up-workout-session-upper-body-strength-for-climbing/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Pull Up Workout Session: Upper Body Strength for Climbing",
+              "url": "https://latticetraining.com/blog/pull-up-workout-session-upper-body-strength-for-climbing/",
+              "source": "Lattice Training",
+              "language": "en",
+              "articleType": "training"
+            }
+          ],
           "crossRefs": [
             "kp-overhang-technique",
             "kp-roof-technique"
@@ -256,6 +395,23 @@
             {
               "zh": "肱三头肌",
               "en": "triceps"
+            }
+          ],
+          "expertInsights": [
+            {
+              "zh": "Eric Hörst 指出，过度强调握力训练而忽略拮抗肌（伸腕肌群、推力肌群）是攀岩者最常见的肌肉失衡来源。拮抗肌训练不仅能预防肘部和前臂伤病，实际上还能提升整体攀岩表现——因为平衡的肌肉系统能更高效地传递力量。",
+              "en": "Eric Hörst points out that overemphasizing grip training while neglecting antagonist muscles (wrist extensors, pushing muscles) is the most common source of muscle imbalance in climbers. Antagonist training not only prevents elbow and forearm injuries but actually improves overall climbing performance — because balanced muscle systems transmit force more efficiently.",
+              "source": "Training For Climbing / Eric Hörst",
+              "sourceUrl": "https://trainingforclimbing.com/effective-forearm-antagonist-training-for-climbers/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Effective Forearm Antagonist Training for Climbers",
+              "url": "https://trainingforclimbing.com/effective-forearm-antagonist-training-for-climbers/",
+              "source": "Training For Climbing / Eric Hörst",
+              "language": "en",
+              "articleType": "training"
             }
           ],
           "crossRefs": [
@@ -298,6 +454,30 @@
             {
               "zh": "肩关节稳定性",
               "en": "shoulder stability"
+            }
+          ],
+          "expertInsights": [
+            {
+              "zh": "Matt Pincus（TrainingBeta）从肩袖解剖结构出发，强调肩袖训练应纳入日常热身，而非等到受伤后才开始。他提供了一套可独立执行的肩袖强化动作序列，核心理念是：稳定肌群需要在低强度下长时间持续工作，这与爆发力训练的思路完全不同。",
+              "en": "Matt Pincus (TrainingBeta) emphasizes from a rotator cuff anatomy perspective that shoulder stability work should be part of your daily warm-up, not something you start only after injury. He provides a standalone rotator cuff strengthening sequence, noting that stabilizer muscles need sustained low-intensity work — a fundamentally different approach from power training.",
+              "source": "TrainingBeta",
+              "sourceUrl": "https://www.trainingbeta.com/effective-rotator-cuff-exercises/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Effective Rotator Cuff Exercises",
+              "url": "https://www.trainingbeta.com/effective-rotator-cuff-exercises/",
+              "source": "TrainingBeta",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "6 Shoulder Stability Exercises for Climbers",
+              "url": "https://moonclimbing.com/News/post/6-shoulder-stability-exercises-for-climbers-by-olivia-ratcliffe",
+              "source": "Moon Climbing",
+              "language": "en",
+              "articleType": "tutorial"
             }
           ],
           "crossRefs": [
@@ -354,6 +534,30 @@
               "en": "feet cutting loose"
             }
           ],
+          "expertInsights": [
+            {
+              "zh": "Power Company Climbing 的 Kris Hampton 指出，在墙上练习「脚切」（cutting feet，即主动让脚离开岩壁再收回）是学习核心收紧的最有效方式之一。核心在攀岩中的真正作用是管理旋转力，而非单纯发力——这意味着传统的卷腹训练对攀岩帮助有限，应转向抗旋转和身体张力训练。",
+              "en": "Kris Hampton of Power Company Climbing notes that on-wall 'cutting feet' drills (deliberately releasing and recatching footholds) are among the most effective ways to learn core engagement. The core's true role in climbing is managing rotational forces, not generating raw power — meaning traditional crunches have limited climbing benefit, and training should shift toward anti-rotation and body tension work.",
+              "source": "Power Company Climbing",
+              "sourceUrl": "https://www.powercompanyclimbing.com/blog/2018/9/13/progressing-core-workouts-part-5-climbing-exercises"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Progressing Core Workouts, Part 5: Climbing Exercises",
+              "url": "https://www.powercompanyclimbing.com/blog/2018/9/13/progressing-core-workouts-part-5-climbing-exercises",
+              "source": "Power Company Climbing",
+              "language": "en",
+              "articleType": "training"
+            },
+            {
+              "title": "Matt Pincus: Principles of Core Training",
+              "url": "https://www.trainingbeta.com/matt-pincus-principles-of-core-training/",
+              "source": "TrainingBeta",
+              "language": "en",
+              "articleType": "training"
+            }
+          ],
           "crossRefs": [
             "kp-overhang-technique",
             "kp-roof-technique",
@@ -399,6 +603,30 @@
               "en": "tuck front lever"
             }
           ],
+          "expertInsights": [
+            {
+              "zh": "Matt Pincus 纠正了攀岩者最常见的核心训练误区：将核心等同于卷腹，忽略了反旋转与稳定能力。他强调两个关键点——核心的范围从髋部一直延伸到斜方肌（不仅是腹部），且训练强度应足够高（5次做完接近力竭），轻量高次数的训练对攀岩核心提升效果有限。",
+              "en": "Matt Pincus corrects the most common core training mistake among climbers: equating core with crunches while neglecting anti-rotation and stability. He emphasizes two key points — the core extends from the hips all the way to the trapezius (not just the abs), and training intensity must be sufficient (near failure at 5 reps). Light, high-rep work has limited benefit for climbing-specific core strength.",
+              "source": "TrainingBeta",
+              "sourceUrl": "https://www.trainingbeta.com/matt-pincus-principles-of-core-training/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Matt Pincus: Principles of Core Training",
+              "url": "https://www.trainingbeta.com/matt-pincus-principles-of-core-training/",
+              "source": "TrainingBeta",
+              "language": "en",
+              "articleType": "training"
+            },
+            {
+              "title": "Progressing Core Workouts, Part 5: Climbing Exercises",
+              "url": "https://www.powercompanyclimbing.com/blog/2018/9/13/progressing-core-workouts-part-5-climbing-exercises",
+              "source": "Power Company Climbing",
+              "language": "en",
+              "articleType": "training"
+            }
+          ],
           "crossRefs": [
             "kp-overhang-technique",
             "kp-roof-technique",
@@ -437,6 +665,30 @@
             {
               "zh": "旗帜脚",
               "en": "flagging"
+            }
+          ],
+          "expertInsights": [
+            {
+              "zh": "Lattice Training 的 Tom Randall 分享了突破 front lever 瓶颈的经验：采用「润滑沟槽法」（greasing the groove）——全天多次进行低量练习来打基础，而非集中一次高强度训练。他还发现，训练出现停滞时，生活压力和睡眠质量往往是被忽视的关键因素，核心力量进步需要一致性、正确负荷和适当休息三者结合。",
+              "en": "Lattice Training's Tom Randall shares his front lever breakthrough experience: using 'greasing the groove' — multiple low-volume practice sessions throughout the day to build a foundation, rather than a single high-intensity session. He also found that when progress stalls, life stress and sleep quality are often overlooked key factors. Core strength gains require consistency, correct loading, and adequate rest working together.",
+              "source": "Lattice Training",
+              "sourceUrl": "https://latticetraining.com/blog/front-lever-goals-tom-randall/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Front Lever Goals – Tom Randall",
+              "url": "https://latticetraining.com/blog/front-lever-goals-tom-randall/",
+              "source": "Lattice Training",
+              "language": "en",
+              "articleType": "training"
+            },
+            {
+              "title": "Matt Pincus: Principles of Core Training",
+              "url": "https://www.trainingbeta.com/matt-pincus-principles-of-core-training/",
+              "source": "TrainingBeta",
+              "language": "en",
+              "articleType": "training"
             }
           ],
           "crossRefs": [
@@ -501,6 +753,30 @@
               "en": "adductors"
             }
           ],
+          "expertInsights": [
+            {
+              "zh": "Lattice Training 的柔韧性科学指南区分了四类拉伸方式：主动动态、主动静态、被动静态、被动动态，各有不同适用时机。他们还破解了一个常见误区——「拉伸会降低爆发力」：实际上，充分休息后爆发力可快速恢复。更关键的洞见是，「末端范围的力量」（end-range strength）才是安全使用柔韧性的关键，单纯拉伸并不足够。",
+              "en": "Lattice Training's flexibility science guide distinguishes four stretching types: active dynamic, active static, passive static, and passive dynamic, each with different optimal timing. They also debunk the myth that 'stretching reduces power' — power recovers quickly after adequate rest. The more critical insight is that end-range strength is the key to safely using flexibility; stretching alone is not enough.",
+              "source": "Lattice Training",
+              "sourceUrl": "https://latticetraining.com/blog/lattice-training-insights-flexibility-training-for-climbers/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "The Fundamentals of Flexibility Training for Climbers",
+              "url": "https://latticetraining.com/blog/lattice-training-insights-flexibility-training-for-climbers/",
+              "source": "Lattice Training",
+              "language": "en",
+              "articleType": "training"
+            },
+            {
+              "title": "Hip Mobility for Rock Climbers to Improve High Stepping & Frogging",
+              "url": "https://www.trainingbeta.com/hip-mobility-for-rock-climbers/",
+              "source": "TrainingBeta",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ],
           "crossRefs": [
             "kp-slab-technique",
             "kp-warmup"
@@ -540,6 +816,23 @@
               "en": "dead hang stretch"
             }
           ],
+          "expertInsights": [
+            {
+              "zh": "Lattice Training 指出，骨骼结构差异会影响每个人实际可达到的柔韧极限——这意味着并非所有人都能达到相同的肩部活动范围。关键不是追求极限柔韧性，而是在自己的结构限制内发展充分的「末端范围力量」，确保在最大活动范围内仍有控制力。",
+              "en": "Lattice Training notes that skeletal structure differences affect each person's achievable flexibility limits — meaning not everyone can reach the same shoulder range of motion. The key isn't pursuing extreme flexibility, but developing sufficient 'end-range strength' within your structural limits to maintain control at maximum range.",
+              "source": "Lattice Training",
+              "sourceUrl": "https://latticetraining.com/blog/lattice-training-insights-flexibility-training-for-climbers/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "The Fundamentals of Flexibility Training for Climbers",
+              "url": "https://latticetraining.com/blog/lattice-training-insights-flexibility-training-for-climbers/",
+              "source": "Lattice Training",
+              "language": "en",
+              "articleType": "training"
+            }
+          ],
           "crossRefs": [
             "kp-warmup",
             "kp-shoulder-stability"
@@ -576,6 +869,30 @@
             {
               "zh": "关节活动度",
               "en": "joint mobility"
+            }
+          ],
+          "expertInsights": [
+            {
+              "zh": "物理治疗师 Jason Hooper（Hooper's Beta）设计的 10 分钟科学热身方案揭示了一个被广泛忽视的要素：腱鞘滑动（tendon glides）是热身中最重要的手指准备动作。此外，他推荐的「No Money」肩袖激活动作简单有效，直接对应攀岩中肩关节最易损伤的角度；招募拉（recruitment pulls）则是攀岩独有的热身动作，模拟实际攀爬的发力模式。",
+              "en": "Physical therapist Jason Hooper (Hooper's Beta) reveals a widely overlooked element in his 10-minute scientific warm-up: tendon glides are the most important finger preparation movement. His recommended 'No Money' rotator cuff activation is simple yet effective, directly targeting the shoulder angles most vulnerable in climbing. Recruitment pulls are a climbing-specific warm-up movement that mimics actual climbing force patterns.",
+              "source": "Hooper's Beta",
+              "sourceUrl": "https://www.hoopersbeta.com/library/proper-warm-up-for-climbers"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "A Great 10-Minute Warm-Up for Climbers",
+              "url": "https://www.hoopersbeta.com/library/proper-warm-up-for-climbers",
+              "source": "Hooper's Beta",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "The Fundamentals of Flexibility Training for Climbers",
+              "url": "https://latticetraining.com/blog/lattice-training-insights-flexibility-training-for-climbers/",
+              "source": "Lattice Training",
+              "language": "en",
+              "articleType": "training"
             }
           ],
           "crossRefs": [
@@ -635,6 +952,23 @@
               "en": "lactate accumulation"
             }
           ],
+          "expertInsights": [
+            {
+              "zh": "Lattice Training 指出一个关键误区：仅仅「练到泵」并不等于有效的耐力训练，必须针对特定能量系统选择对应方法。他们将攀岩耐力训练细分为三种模式：短间歇（1分钟攀/1分钟休）训练有氧高强度区间，长间歇（5分钟攀/3分钟休）训练低强度有氧能力，ARC 持续训练则针对毛细血管化和有氧基础。",
+              "en": "Lattice Training highlights a key misconception: simply 'getting pumped' does not equal effective endurance training — you must target specific energy systems with corresponding methods. They break climbing endurance into three modes: short intervals (1 min on/1 min off) for high-intensity aerobic zones, long intervals (5 min on/3 min off) for low-intensity aerobic capacity, and ARC continuous training for capillarization and aerobic base.",
+              "source": "Lattice Training",
+              "sourceUrl": "https://latticetraining.com/blog/what-is-endurance-training-in-climbing/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "What is endurance training in climbing?",
+              "url": "https://latticetraining.com/blog/what-is-endurance-training-in-climbing/",
+              "source": "Lattice Training",
+              "language": "en",
+              "articleType": "training"
+            }
+          ],
           "crossRefs": [
             "kp-rest-management"
           ],
@@ -673,6 +1007,30 @@
               "en": "traverse"
             }
           ],
+          "expertInsights": [
+            {
+              "zh": "Uphill Athlete 的 Steve House 将 ARC 训练等同于其他运动中的 Zone 2 训练，并提供了具体的 6 周进阶计划：第1-2周 2组×30分钟，第3-4周 3组×25分钟，第5-6周 3组×30分钟。关键指标是保持「轻微但可持续的泵感」——如果泵感过强，说明强度已经转为无氧训练，ARC 的效果就会大打折扣。",
+              "en": "Uphill Athlete's Steve House equates ARC training with Zone 2 training in other sports, providing a concrete 6-week progression: weeks 1-2 at 2×30min, weeks 3-4 at 3×25min, weeks 5-6 at 3×30min. The key metric is maintaining a 'slight but sustainable pump' — if the pump becomes too intense, the training has shifted to anaerobic, and ARC's effectiveness is significantly diminished.",
+              "source": "Uphill Athlete",
+              "sourceUrl": "https://uphillathlete.com/rock-climbing/rock-climbing-training-arcing/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Rock Climbing Training: ARCing",
+              "url": "https://uphillathlete.com/rock-climbing/rock-climbing-training-arcing/",
+              "source": "Uphill Athlete",
+              "language": "en",
+              "articleType": "training"
+            },
+            {
+              "title": "What is endurance training in climbing?",
+              "url": "https://latticetraining.com/blog/what-is-endurance-training-in-climbing/",
+              "source": "Lattice Training",
+              "language": "en",
+              "articleType": "training"
+            }
+          ],
           "crossRefs": [
             "kp-rest-management",
             "kp-warmup"
@@ -709,6 +1067,30 @@
             {
               "zh": "轮次",
               "en": "round / set"
+            }
+          ],
+          "expertInsights": [
+            {
+              "zh": "Gripped Magazine 提供了更精细的 4x4 训练建议：推荐选择更长（多动作）、偏倾斜（非竖直）且无明显休息位置的抱石问题，因为这更贴近运动攀中持续发力的场景。休息时间建议与攀爬时间等比（1:1），初学者可适当延长。训练后至少需要 48-72 小时恢复，每周不超过 2 次。",
+              "en": "Gripped Magazine provides refined 4x4 guidance: choose longer (more moves), overhanging (non-vertical) problems without obvious rest positions, as these better simulate sustained effort in sport climbing. Rest-to-climb ratio should be 1:1, with beginners allowed longer rest. Recovery requires at least 48-72 hours, with a maximum of 2 sessions per week.",
+              "source": "Gripped Magazine",
+              "sourceUrl": "https://gripped.com/indoor-climbing/boost-your-power-endurance-with-bouldering-4x4s/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Boost Your Power Endurance with Bouldering 4x4s",
+              "url": "https://gripped.com/indoor-climbing/boost-your-power-endurance-with-bouldering-4x4s/",
+              "source": "Gripped Magazine",
+              "language": "en",
+              "articleType": "training"
+            },
+            {
+              "title": "4x4's – What They Are & How To Do Them",
+              "url": "https://www.trainingbeta.com/4x4s/",
+              "source": "TrainingBeta",
+              "language": "en",
+              "articleType": "training"
             }
           ],
           "crossRefs": [
@@ -752,6 +1134,23 @@
             {
               "zh": "体力分配",
               "en": "pacing"
+            }
+          ],
+          "expertInsights": [
+            {
+              "zh": "ARC 训练（有氧恢复攀登）是提升长路线耐力的核心方法：在低于极限2-3级的难度上连续攀爬 20-45 分钟，保持手臂微泵但不至于力竭的「有氧区间」。Steve House 指出，长路线耐力的瓶颈往往不是手指力量，而是有氧系统的恢复能力——在休息位你能多快从泵胀中恢复，直接决定了你能爬多长的路线。",
+              "en": "ARC training (Aerobic Restoration and Capillarity) is the core method for building long-route endurance: climb continuously for 20-45 minutes at 2-3 grades below your limit, maintaining a light pump without failure. Steve House notes that the bottleneck for long-route endurance is often not finger strength but aerobic recovery capacity -- how quickly you recover from pump at rest positions directly determines how long a route you can sustain.",
+              "source": "Uphill Athlete (Steve House)",
+              "sourceUrl": "https://uphillathlete.com/training-for-rock-climbing-endurance/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Training for Rock Climbing Endurance",
+              "url": "https://uphillathlete.com/training-for-rock-climbing-endurance/",
+              "source": "Uphill Athlete",
+              "language": "en",
+              "articleType": "training"
             }
           ],
           "crossRefs": [
@@ -812,6 +1211,30 @@
               "en": "contact strength"
             }
           ],
+          "expertInsights": [
+            {
+              "zh": "Power Company Climbing 的 Kris Hampton 提出了校园板训练的 5 条关键规则：限制向上攀爬时间（专注爆发而非耐力）、增加组间休息（至少3-5分钟）、避免锁臂静止动作（这是力量训练而非校园板的目标）、禁止全捏握姿（full crimp 在校园板上极易导致滑车韧带损伤）、始终保持肩胛骨收紧。他还强调入门门槛：需要稳定攀爬 5.12 / V6-7 才应开始校园板训练。",
+              "en": "Kris Hampton of Power Company Climbing outlines 5 key campus board rules: limit time going up (focus on explosiveness, not endurance), increase rest between sets (minimum 3-5 minutes), avoid lock-off holds (that's strength training, not campus training), never use full crimp (extremely high pulley injury risk on campus boards), and always keep scapulae engaged. He also sets a clear entry threshold: climbers should be solidly at 5.12 / V6-7 before starting campus training.",
+              "source": "TrainingBeta / Power Company Climbing",
+              "sourceUrl": "https://www.trainingbeta.com/campusing-part-1-for-power-big-rungs-big-moves/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Campusing, Part 1: For Power – Big Rungs, Big Moves",
+              "url": "https://www.trainingbeta.com/campusing-part-1-for-power-big-rungs-big-moves/",
+              "source": "TrainingBeta / Power Company Climbing",
+              "language": "en",
+              "articleType": "training"
+            },
+            {
+              "title": "VIDEO & Q+A | Everything You Need to Know About Campusing",
+              "url": "https://latticetraining.com/blog/video-qa-everything-you-need-to-know-about-campusing/",
+              "source": "Lattice Training",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ],
           "crossRefs": [
             "kp-campus-board-gear",
             "kp-pulley-injury",
@@ -853,6 +1276,30 @@
             {
               "zh": "失重瞬间",
               "en": "zero-gravity moment / apex"
+            }
+          ],
+          "expertInsights": [
+            {
+              "zh": "The Climbing Doctor 从生物力学角度解释了 deadpoint 的核心原理：关键在于把握上升和下降之间的「最高点」瞬间（静止点），此时有效体重接近零。他们还提供了从地面爆发力练习（深蹲跳、爆发式引体向上）到墙面动态动作的系统迁移训练方案，强调动态攀岩的速度感最终来自重复和肌肉记忆。",
+              "en": "The Climbing Doctor explains the biomechanics of deadpointing: the key is capturing the apex moment between ascent and descent (the still point) when effective body weight approaches zero. They also provide a systematic transfer training plan from ground-based explosive exercises (squat jumps, explosive pull-ups) to wall-based dynamic moves, emphasizing that speed in dynamic climbing ultimately comes from repetition and muscle memory.",
+              "source": "The Climbing Doctor",
+              "sourceUrl": "https://theclimbingdoctor.com/mastering-dynamic-techniques-and-gaining-power/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Mastering Dynamic Techniques and Gaining Power",
+              "url": "https://theclimbingdoctor.com/mastering-dynamic-techniques-and-gaining-power/",
+              "source": "The Climbing Doctor",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Three Exercises To Become a More Dynamic Climber",
+              "url": "https://gripped.com/indoor-climbing/three-exercises-to-become-a-more-dynamic-climber/",
+              "source": "Gripped Magazine",
+              "language": "en",
+              "articleType": "tutorial"
             }
           ],
           "crossRefs": [
@@ -897,6 +1344,23 @@
             {
               "zh": "全身协调",
               "en": "whole-body coordination"
+            }
+          ],
+          "expertInsights": [
+            {
+              "zh": "协调性的核心是「预编程」——大脑在动作执行前就必须完成完整的运动规划。这就是为什么反复练习同一个动态动作能显著提升成功率：每次尝试都在优化神经肌肉的预编程精度。球类运动（排球、篮球）对攀岩协调性有良好的交叉训练效果，因为它们同样要求视觉-运动协调和全身爆发时机。",
+              "en": "The core of coordination is 'pre-programming' -- the brain must complete a full motor plan before execution begins. This is why repeatedly practicing the same dynamic move dramatically improves success rate: each attempt refines neuromuscular pre-programming precision. Ball sports (volleyball, basketball) provide excellent cross-training for climbing coordination because they similarly demand visual-motor coordination and whole-body explosive timing.",
+              "source": "Lattice Training",
+              "sourceUrl": "https://latticetraining.com/2022/10/20/power-training-for-climbing/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Power Training for Climbing: Developing Explosive Movement",
+              "url": "https://latticetraining.com/2022/10/20/power-training-for-climbing/",
+              "source": "Lattice Training",
+              "language": "en",
+              "articleType": "training"
             }
           ],
           "crossRefs": [

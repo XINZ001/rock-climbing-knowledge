@@ -1,0 +1,452 @@
+{
+  "_meta": {
+    "collection": "japanese-sources",
+    "description": "从日语网站收集的攀岩资料，包含中文和英文双语翻译",
+    "searchDate": "2026-03-04",
+    "totalArticles": 9,
+    "sectionsCovrered": ["section-02", "section-03", "section-05", "section-07", "section-08", "section-10"],
+    "language": "ja",
+    "translationLanguages": ["zh-CN", "en"],
+    "notes": "所有文章均来自日语权威攀岩网站。摘要、关键洞见均提供日文原文、中文翻译、英文翻译三语版本。质量评分标准与英文文章库保持一致（≥12 为合格）。"
+  },
+  "articles": [
+    {
+      "id": "art-ja-001",
+      "url": "https://www.climbing-net.com/special/topics/article.php?id=1044",
+      "titleJa": "クライミングで強く、上手くなるための7つのヒント",
+      "titleCn": "让你变强变精的7个攀岩提升技巧",
+      "titleEn": "7 Tips for Becoming Stronger and Better at Climbing",
+      "source": "CLIMBING-net（山と溪谷社）",
+      "authorJa": "佐川史佳（ビースリー春日部）",
+      "authorCn": "佐川史佳（B-Three 春日部健身房）",
+      "authorEn": "Sayaka Sagawa (B-Three Kasukabe gym)",
+      "language": "ja",
+      "publishDate": "2017-08-04",
+      "lastModified": "2017-08-04",
+      "articleType": "tutorial",
+      "primaryKp": "kp-training-principles",
+      "secondaryKps": ["kp-recovery", "kp-dynamic-movement"],
+      "quality": {
+        "authority": 4,
+        "depth": 3,
+        "practicality": 4,
+        "recency": 2,
+        "uniqueness": 3,
+        "total": 16
+      },
+      "summaryJa": "クライミング上達のための7つの実践的なヒントを紹介。定期的なジム通い、グレード制の活用、自分専用のシューズの購入、上手い人を観察して技術を盗む、難問と易問のバランス、ダイナミックムーブの練習、そして回復を最優先にすることを推奨。「怪我を防ぐことが上達への近道」というメッセージが中心テーマ。",
+      "summaryCn": "介绍7个提升攀岩水平的实用建议：定期上攀岩馆、善用等级体系记录进步、购置专属攀岩鞋、观察高手并学习细节技巧、难题与简单题合理搭配、系统练习动态动作（Deadpoint/Lunge）、以及将恢复列为最高优先级。文章核心信息是：防止受伤是进步的最短路径，睡眠、营养和拉伸是训练计划不可缺少的组成部分。",
+      "summaryEn": "Presents 7 practical tips for climbing improvement: regular gym attendance, using the grading system to track progress, owning personal shoes, observing skilled climbers to absorb technique, balancing difficult and easier problems, practicing dynamic movements deliberately on easier routes first, and prioritizing recovery. The central message is that injury prevention is the fastest path to improvement, and sleep, nutrition, and stretching are non-negotiable parts of any training plan.",
+      "keyInsightsJa": [
+        "自分専用のシューズを持つだけで、ジムのレンタルシューズと比べてフリクションと感触が大幅に向上する",
+        "難問に取り組むだけでなく、易しい課題でダイナミックムーブ（デッドポイント、ランジ）を意識的に練習することで技術定着が早まる",
+        "上手い人を「盗む気持ち」で観察し、細かい足の置き方や体の使い方を真似ることが上達の最短ルート",
+        "怪我をすると練習できなくなるため、回復（睡眠・ストレッチ・栄養）の優先度を高めることが長期的な強さに直結する"
+      ],
+      "keyInsightsCn": [
+        "拥有自己的攀岩鞋（而非借用馆鞋）可显著提升摩擦力和脚感，是最值得投资的装备之一",
+        "不仅要挑战难题，更要在容易的路线上有意识地练习动态动作（Deadpoint、Lunge），技术才能真正扎根",
+        "带着「偷师」的心态观察高手，模仿其细微的脚点使用和身体重心移动，是最短的进步路径",
+        "受伤就无法训练——将恢复（睡眠、拉伸、营养）列为高优先级，是长期持续进步的根基"
+      ],
+      "keyInsightsEn": [
+        "Owning your own climbing shoes (vs. gym rentals) significantly improves friction and foot sensitivity—one of the best early investments",
+        "Don't only project hard problems; deliberately practice dynamic moves (deadpoints, lunges) on easier routes to ingrain the technique properly",
+        "Observe skilled climbers with a 'stealing mindset'—imitate subtle foot placements and body positioning for the fastest skill transfer",
+        "Injury stops all training—prioritizing recovery (sleep, stretching, nutrition) is the foundation of long-term, sustained improvement"
+      ],
+      "tags": ["training-principles", "beginner-tips", "recovery", "dynamic-movement", "footwork", "observation"]
+    },
+    {
+      "id": "art-ja-002",
+      "url": "https://www.climbers-web.jp/feature/article-20/",
+      "titleJa": "\"脱ビギナー\"への近道！小林由佳のオブザベーション講座",
+      "titleCn": "告别初学者的捷径！小林由佳的观察读线课",
+      "titleEn": "Shortcut to Leaving Beginner Status: Yuka Kobayashi's Observation Masterclass",
+      "source": "CLIMBERS（クライミング・ボルダリング総合WEBサイト）",
+      "authorJa": "編集部（協力：小林由佳）",
+      "authorCn": "编辑部（采访对象：小林由佳）",
+      "authorEn": "Editorial team (featuring Yuka Kobayashi)",
+      "language": "ja",
+      "publishDate": "2017-06",
+      "lastModified": "2017-06",
+      "articleType": "tutorial",
+      "primaryKp": "kp-route-reading",
+      "secondaryKps": ["kp-sequence-planning", "kp-crux-identification"],
+      "quality": {
+        "authority": 4,
+        "depth": 4,
+        "practicality": 4,
+        "recency": 2,
+        "uniqueness": 5,
+        "total": 19
+      },
+      "summaryJa": "世界大会4位入賞経験を持つ小林由佳が伝授するオブザベーション技術。3つのポイントに集約される：①前後左右から課題を多角的に観察すること、②手順・足順を複数手先まで先読みし無駄な動きを排除すること、③「核心」（最重要クリアポイント）を見極め最適なムーブを選択すること。同じ課題でも複数の解法が存在し、自分の身体特性に合ったムーブを選ぶことがオブザベーションの本質。",
+      "summaryCn": "由曾获世界锦标赛第4名的日本顶级攀岩选手小林由佳传授的观察读线技术，归纳为三个核心要点：①从前后左右多角度观察路线（「課題全体をよく見ること」）；②提前规划手序和脚序，预见数步之后的动作，消除无效用力；③识别「核心」（最关键的克服点），并从多个可能解法中选择最适合自身身体特点的动作方案。文章通过具体示例说明：错误的手序顺序会导致手臂交叉、浪费体力；而正确的顺序能维持身体效率。",
+      "summaryEn": "Observation technique masterclass by Yuka Kobayashi, Japan's top female boulderer and 4th-place finisher at World Championships. Three key principles: ①Observe the problem from multiple angles (front, back, sides) to see the full picture; ②Plan hand and foot sequences several moves ahead, eliminating wasted movements through pre-visualization; ③Identify the 'crux' (critical difficulty point) and select the optimal move from multiple possible solutions based on your body type and strengths. The article demonstrates with concrete examples how incorrect sequencing causes crossed arms and energy waste, while correct sequencing maintains flow and efficiency.",
+      "keyInsightsJa": [
+        "「前後左右に動いて課題全体をよく見ること」——一方向だけで観察すると見逃すホールドや動きがある",
+        "手順を間違えると腕が交差してしまい、次の動きが強制的に遠くなる——先読みによって無駄な動きを根本から排除できる",
+        "「核心」の見極めは個人差があり、同じ課題でも自分の体格・得意ムーブに合わせた解法を選ぶことが重要",
+        "オブザベーションは単なる「見る」行為ではなく、「登る前に頭の中で試登する」という能動的な思考プロセス"
+      ],
+      "keyInsightsCn": [
+        "「从前后左右移动，全面观察整个路线」——仅从单一方向观察会遗漏支点和动作",
+        "手序错误会导致手臂交叉，迫使下一个动作距离变远——提前预读可从根本上消除无效动作",
+        "「核心」的判断因人而异——同一路线，不同体型和特长的攀登者应选择适合自己的解法",
+        "观察读线不是单纯的「看」，而是「在上墙前先用大脑进行试攀」的主动思考过程"
+      ],
+      "keyInsightsEn": [
+        "'Move around the problem—observe from front, back, and both sides'—looking from only one angle misses holds and movements",
+        "Wrong hand sequencing causes arm crossing and forces the next hold further away—pre-reading eliminates wasted movements at the root",
+        "Identifying the 'crux' is personal—the same problem may have multiple solutions; choose the one that suits your body type and strengths",
+        "Observation isn't passive 'looking'—it's an active mental process of 'climbing the route in your head before touching the wall'"
+      ],
+      "tags": ["route-reading", "observation", "sequence-planning", "crux-identification", "bouldering", "technique", "Yuka-Kobayashi"]
+    },
+    {
+      "id": "art-ja-003",
+      "url": "https://maeda-seikei.jp/blog/%E3%82%AF%E3%83%A9%E3%82%A4%E3%83%9E%E3%83%BC%E3%81%AE%E6%89%8B%E3%81%AE%E3%82%B1%E3%82%AC%E3%80%80%E8%85%B1%E9%9E%98%E6%90%8D%E5%82%B7/",
+      "titleJa": "クライマーの手のケガ　腱鞘損傷",
+      "titleCn": "攀岩者的手部受伤：腱鞘损伤",
+      "titleEn": "Climber Hand Injuries: Tendon Sheath (Pulley) Damage",
+      "source": "まえだ整形外科・手のクリニック（杉並区）",
+      "authorJa": "前田利雄（手外科専門医）",
+      "authorCn": "前田利雄（手外科专科医生）",
+      "authorEn": "Dr. Toshio Maeda (Hand Surgery Specialist)",
+      "language": "ja",
+      "publishDate": "2020-06-21",
+      "lastModified": "2020-06-21",
+      "articleType": "research",
+      "primaryKp": "kp-pulley-injury",
+      "secondaryKps": ["kp-finger-injury", "kp-injury-prevention", "kp-return-to-climbing"],
+      "quality": {
+        "authority": 5,
+        "depth": 5,
+        "practicality": 4,
+        "recency": 3,
+        "uniqueness": 5,
+        "total": 22
+      },
+      "summaryJa": "手外科専門医による攀岩者向けの腱鞘損傷の医学的解説。フルクリンプ時に腱鞘（プーリー）に30〜40kgの引張力がかかることを定量的に示し、損傷のメカニズム（ランペル力超過による腱鞘断裂）を説明。診断には超音波検査が有効で、健常腱鞘では腱が骨に接触しているのに対し、断裂腱鞘では腱が浮き上がる。治療は保存療法（2週間固定→2〜3ヶ月でクライミング復帰）または手術療法（複数腱鞘断裂の場合、腱グラフトで再建、復帰まで約6ヶ月）に分類。",
+      "summaryCn": "手外科专科医生针对攀岩者的腱鞘损伤（俗称「滑车损伤」）的医学详解。通过量化数据揭示：Full Crimp握法会对腱鞘产生约30-40kg的拉力；损伤机制为超过腱鞘承受极限后的断裂，最常见于中指和无名指的A2滑车。诊断方法：超声波检查最有效——健康腱鞘显示肌腱贴近骨面，断裂腱鞘则显示肌腱漂浮。治疗分两类：①保守治疗：2周手指固定伸展位，之后2-3个月逐步恢复攀岩；②手术治疗（多处断裂）：取腱移植重建，约6个月恢复期。这是为数不多的由专科医生撰写、专门针对攀岩损伤的日文医学文章。",
+      "summaryEn": "Medical explanation of tendon sheath (pulley) injuries for climbers, written by a hand surgery specialist. Quantifies the load: full crimping exerts approximately 30-40kg of pulling force on the pulley sheath. Explains injury mechanism (sheath rupture when load exceeds capacity), most commonly affecting the A2 pulley of the middle and ring fingers. Diagnosis: ultrasound imaging is most effective—healthy sheaths show tendon-to-bone contact; ruptured sheaths show floating tendons. Treatment: ①Conservative—2 weeks finger immobilization in extension, then 2-3 months gradual return; ②Surgical (multiple ruptures)—tendon graft reconstruction, ~6 months recovery. One of the few Japanese climbing injury articles written by a board-certified hand surgery specialist.",
+      "keyInsightsJa": [
+        "フルクリンプ時の腱鞘への引張力は約30〜40kg——これは日常動作の数倍であり、繰り返しの累積負荷が断裂を引き起こす",
+        "超音波検査（エコー）は腱鞘断裂の診断に最も有効——MRIより簡便で動的評価も可能",
+        "保存療法の場合、2週間の固定後にテーピング保護しながら段階的にリハビリを開始し、2〜3ヶ月でクライミング復帰が目安",
+        "複数の腱鞘が同時断裂した場合は手術（腱グラフト）が必要で、復帰まで約6ヶ月かかる",
+        "予防策：十分なウォームアップ、休息期間の確保、そしてフルクリンプへの過度な依存を避けること"
+      ],
+      "keyInsightsCn": [
+        "Full Crimp时腱鞘受力约30-40kg——是日常动作的数倍，反复累积负荷是导致断裂的根本原因",
+        "超声波检查是诊断腱鞘断裂最有效的方法——比MRI更简便，还能进行动态评估",
+        "保守治疗：2周固定后在贴扎保护下开始分阶段康复训练，2-3个月为恢复攀岩的参考时间线",
+        "多处腱鞘同时断裂时需要手术（肌腱移植），恢复攀岩约需6个月",
+        "预防建议：充分热身、保证休息期间、避免过度依赖Full Crimp握法"
+      ],
+      "keyInsightsEn": [
+        "Full crimping exerts ~30-40kg of force on the pulley—several times daily load; cumulative stress is the root cause of rupture",
+        "Ultrasound imaging is the most effective diagnostic tool for pulley tears—simpler than MRI and allows dynamic assessment",
+        "Conservative treatment: 2 weeks immobilization, then staged rehab with taping protection; 2-3 months is the reference timeline for return to climbing",
+        "Multiple simultaneous pulley ruptures require surgery (tendon graft); expect ~6 months recovery",
+        "Prevention: thorough warm-up, adequate rest periods, and avoiding over-reliance on the full crimp grip"
+      ],
+      "tags": ["pulley-injury", "finger-injury", "A2-pulley", "tendon-sheath", "diagnosis", "treatment", "recovery", "prevention", "medical"]
+    },
+    {
+      "id": "art-ja-004",
+      "url": "https://www.climbing-net.com/news/selfcare_01_20210922/",
+      "titleJa": "セルフケアの羅針盤 Vol.1 痛めやすい指の部位とセルフケア",
+      "titleCn": "自我护理指南 Vol.1 易受伤的手指部位与自我护理方法",
+      "titleEn": "Self-Care Compass Vol. 1: Vulnerable Finger Areas and Self-Care for Climbers",
+      "source": "CLIMBING-net（山と溪谷社）",
+      "authorJa": "根本国彰（文）、町田早季（イラスト）",
+      "authorCn": "根本国彰（文）、町田早季（插图）",
+      "authorEn": "Kuniaki Nemoto (text), Saki Machida (illustrations)",
+      "language": "ja",
+      "publishDate": "2021-09-22",
+      "lastModified": "2021-09-22",
+      "articleType": "tutorial",
+      "primaryKp": "kp-injury-prevention",
+      "secondaryKps": ["kp-finger-injury", "kp-self-care"],
+      "quality": {
+        "authority": 4,
+        "depth": 3,
+        "practicality": 4,
+        "recency": 3,
+        "uniqueness": 4,
+        "total": 18
+      },
+      "summaryJa": "クライマーが痛めやすい指の3大障害（腱鞘炎・へバーデン結節・A3プーリー損傷）を解説し、各部位の自己ケア方法を紹介。初期症状は軽微で他の指でカバーできてしまうため、発見が遅れやすい点を警告。「賢明なクライマーほど怪我に気づくのが早い」というメッセージを中心に、アイシング（最長15分）、安静、急性期後のストレッチとマッサージを段階的なセルフケアプロトコルとして提示。",
+      "summaryCn": "解析攀岩者最容易受伤的手指三大障碍：腱鞘炎（最常见，A2滑车）、Heberden结节（远端指间关节退变）、A3滑车损伤（常见于Gaston握法）。文章特别警告：初期症状轻微，其他手指可以代偿，导致损伤往往被拖延发现。核心信息：「有经验的攀岩者越早发现受伤，恢复越快」。自我护理分阶段流程：急性期冰敷（每次最多15分钟）+ 休息，急性期过后加入拉伸和按摩，轻症2-4周可恢复。附有插图说明各部位解剖结构。",
+      "summaryEn": "Covers the three most common finger injuries for climbers: tenosynovitis/pulley inflammation (most common, A2), Heberden's nodes (DIP joint degeneration), and A3 pulley damage (from gaston-style holds). Key warning: initial symptoms are mild and other fingers compensate, causing delayed recognition. Core message: 'Experienced climbers recognize injuries early—faster recognition means faster recovery.' Self-care protocol: acute phase—ice application (max 15 minutes per session) + rest; post-acute phase—add stretching and massage. Illustrated anatomy diagrams included. Mild cases typically recover in 2-4 weeks.",
+      "keyInsightsJa": [
+        "指の障害は初期段階で症状が軽く他の指でカバーできてしまうため、発見が遅れがち——「痛みを感じたらすぐ止める」習慣が最重要",
+        "アイシングは1回15分以内を厳守——それ以上冷やすと組織損傷のリスクがある",
+        "急性炎症期（腫れ・熱感がある間）はストレッチ・マッサージ禁止——症状を悪化させる可能性がある",
+        "腱鞘炎の最多発部位はA2プーリー（第二関節付近）、次いでA3プーリー（ガストンや開いた状態での負荷が多い場合）",
+        "軽症なら2〜4週間の適切な休養とセルフケアで回復可能——無理して継続すると慢性化し完治に数ヶ月かかる"
+      ],
+      "keyInsightsCn": [
+        "手指损伤初期症状轻微，其他手指可代偿，导致发现延迟——「感到疼痛立即停止」是最关键的习惯",
+        "冰敷每次严格控制在15分钟以内——超过时间有组织损伤风险",
+        "急性炎症期（有肿胀和热感时）禁止拉伸和按摩——可能加重症状",
+        "腱鞘炎最高发部位是A2滑车（第二关节附近），其次是A3滑车（Gaston握法或手张开时受力多）",
+        "轻症若能合理休息加自我护理，2-4周可恢复——强行继续容易慢性化，完全康复可能需数月"
+      ],
+      "keyInsightsEn": [
+        "Finger injuries have mild early symptoms that other fingers compensate for, causing delayed detection—'Stop immediately when you feel pain' is the most critical habit",
+        "Strictly limit icing to 15 minutes per session—longer risks tissue damage",
+        "During acute inflammation (swelling and heat present), avoid stretching and massage—they can worsen symptoms",
+        "Most common location: A2 pulley (near second knuckle), followed by A3 pulley (from gaston-style or open-hand loading)",
+        "Mild injuries recover in 2-4 weeks with proper rest and self-care—pushing through causes chronic issues requiring months to resolve"
+      ],
+      "tags": ["injury-prevention", "finger-injury", "tenosynovitis", "A2-pulley", "self-care", "icing", "recovery-protocol"]
+    },
+    {
+      "id": "art-ja-005",
+      "url": "https://attack-climb.jp/%E3%82%B9%E3%83%A1%E3%82%A2%E3%82%A8%E3%83%83%E3%82%B8%E3%83%B3%E3%82%B0",
+      "titleJa": "【ボルダリング】初心者がまず覚えたいスメアリングとエッジング",
+      "titleCn": "【抱石】初学者必学：抹鞋（Smearing）与踩棱（Edging）技术",
+      "titleEn": "Bouldering: Smearing and Edging Footwork Techniques for Beginners",
+      "source": "進撃のクライマー（attack-climb.jp）",
+      "authorJa": "kaztosy",
+      "authorCn": "kaztosy",
+      "authorEn": "kaztosy",
+      "language": "ja",
+      "publishDate": "2022-10-18",
+      "lastModified": "2024-03-16",
+      "articleType": "tutorial",
+      "primaryKp": "kp-footwork",
+      "secondaryKps": ["kp-smearing", "kp-edging", "kp-climbing-shoes"],
+      "quality": {
+        "authority": 2,
+        "depth": 3,
+        "practicality": 4,
+        "recency": 4,
+        "uniqueness": 3,
+        "total": 16
+      },
+      "summaryJa": "ボルダリング初心者向けに、足技の基本である「スメアリング」と「エッジング」を解説。スメアリングはスローパーやボリュームなどの平坦な面に足裏前部をホールドに対して垂直方向に押しつけるフリクション技術で、「ホールドの角度に対して垂直に力をかけることで滑りを防ぐ」。エッジングはシューズの端（主に親指側）を小さなホールドの縁に乗せる技術で、「つま先筋肉のテンションを維持することが重要、緩むとシューズが後退してしまう」。シューズ選びとの関係（ソフト→スメア優位、ハード→エッジ優位）も解説。",
+      "summaryCn": "为抱石初学者详解两种基础脚步技术：①抹鞋（Smearing）——用于坡形支点（Sloper）和体积支点（Volume）等平面，以脚掌前部贴覆支点，利用摩擦力承重；关键要领：「对支点角度施加垂直方向的力才能防止打滑」。②踩棱（Edging）——将鞋尖（主要是大拇指侧的内棱）精准放置在细小支点的边缘；关键要领：「保持脚趾肌肉的张力——一旦松弛，鞋尖会向后退，重心无法传递」。文章还解析了攀岩鞋软硬度与两种技术的关系（软鞋→适合抹鞋，硬鞋→适合踩棱）。",
+      "summaryEn": "Explains the two fundamental footwork techniques for bouldering beginners: ①Smearing—used on slopers and volumes, pressing the forefoot flat against the hold surface; key principle: 'apply force perpendicular to the hold angle to prevent slipping.' ②Edging—placing the shoe's inner edge (big toe side) precisely on small footholds; key principle: 'maintain tension in your toe muscles—if they relax, the shoe slides backward and weight transfer fails.' Also explains the relationship between shoe stiffness and technique (soft = smearing-friendly; stiff = edging-friendly).",
+      "keyInsightsJa": [
+        "スメアリングの成否は「ホールドの角度に対して垂直に力をかけること」で決まる——斜めに押すと必ず滑る",
+        "エッジングは「つま先の筋肉のテンション維持」が命——緩んだ瞬間にシューズが後退して体重移動が失敗する",
+        "スメアリングはソールの柔らかいシューズが有利（面積を最大化）、エッジングはソールが硬いシューズが有利（力点を1点に集中）",
+        "現代のクライミングシューズは両方の性能を高いレベルで両立しようとしているが、特性を理解して使い分けることで表現力が大幅に向上する"
+      ],
+      "keyInsightsCn": [
+        "抹鞋成功与否取决于「对支点角度施加垂直方向的力」——斜向施力必然打滑",
+        "踩棱的关键是「维持脚趾肌肉的张力」——一旦松弛，鞋尖立即后退，重心传递失败",
+        "抹鞋用软底鞋更有优势（最大化接触面积），踩棱用硬底鞋更有优势（将力集中于一点）",
+        "现代攀岩鞋力求两种性能兼顾，但理解特性并灵活运用能大幅提升脚步表达能力"
+      ],
+      "keyInsightsEn": [
+        "Smearing success depends on 'applying force perpendicular to the hold angle'—angled force causes slipping every time",
+        "Edging requires 'maintaining toe muscle tension'—when tension drops, the shoe slides backward and weight transfer fails",
+        "Soft-soled shoes favor smearing (maximizing contact area); stiff-soled shoes favor edging (concentrating force at one point)",
+        "Modern climbing shoes attempt to balance both, but understanding their characteristics and switching consciously dramatically expands footwork expression"
+      ],
+      "tags": ["footwork", "smearing", "edging", "bouldering", "beginner-technique", "climbing-shoes", "foot-placement"]
+    },
+    {
+      "id": "art-ja-006",
+      "url": "https://www.climbing-net.com/special/topics/article.php?id=1022",
+      "titleJa": "初心者向け！失敗しないクライミングシューズの選び方",
+      "titleCn": "初学者必看！不踩雷的攀岩鞋选购指南",
+      "titleEn": "Beginner's Guide: How to Choose Climbing Shoes Without Making Mistakes",
+      "source": "CLIMBING-net（山と溪谷社）",
+      "authorJa": "榎戸雄一（公益社団法人日本山岳・スポーツクライミング協会 協力）",
+      "authorCn": "榎戸雄一（日本山岳・スポーツクライミング协会协力）",
+      "authorEn": "Yuichi Enokido (with cooperation from Japan Mountaineering and Sport Climbing Association / JMSCA)",
+      "language": "ja",
+      "publishDate": "2017-04-20",
+      "lastModified": "2017-04-20",
+      "articleType": "tutorial",
+      "primaryKp": "kp-climbing-shoes",
+      "secondaryKps": ["kp-footwork", "kp-beginner-gear"],
+      "quality": {
+        "authority": 4,
+        "depth": 3,
+        "practicality": 4,
+        "recency": 2,
+        "uniqueness": 3,
+        "total": 16
+      },
+      "summaryJa": "JMSCA協力のもと制作された、初心者向けクライミングシューズ選び方ガイド。3大原則：①必ず試着すること（モデルによってサイズ感が大きく異なる）；②「指が少し曲がる程度」のフィット感を目安にする（きつすぎると痛みで集中できず、ゆるすぎるとフリクションが失われる）；③ソールの硬さ（ハード→エッジング優位、ソフト→スメアリング優位）を理解して選ぶ。閉め方（シューレース・スリッポン・マジックテープ）の特性と、初心者にはソフトシューズを勧める理由も解説。",
+      "summaryCn": "在JMSCA（日本山岳・スポーツクライミング协会）协作下制作的初学者攀岩鞋选购指南。三大原则：①一定要试穿（不同型号尺码感差异很大）；②以「脚趾稍稍弯曲」的贴合感为标准（太紧→疼痛影响注意力；太松→摩擦力丧失）；③了解鞋底硬度特性再选（硬底→踩棱优势，软底→抹鞋优势）。同时解析三种固定方式（鞋带/套入式/魔术贴）的特点，并说明推荐初学者选软底鞋的理由：培养脚趾本体感觉和抓力，而非依赖鞋底的硬撑。",
+      "summaryEn": "Climbing shoe selection guide for beginners, produced with JMSCA cooperation. Three core principles: ①Always try before buying (sizing varies significantly between models); ②Aim for a fit where 'toes are slightly bent'—too tight causes pain and distraction; too loose loses friction; ③Understand sole stiffness—stiff = edging-friendly; soft = smearing-friendly. Also covers the characteristics of three closure types (lace-up/slip-on/velcro) and explains why beginners should choose softer shoes: to develop toe proprioception and gripping strength rather than relying on sole rigidity.",
+      "keyInsightsJa": [
+        "「必ず試着する」——ブランドやモデルによってサイズが1〜2サイズ異なることは珍しくない",
+        "「指が少し曲がる程度、ちょっとキツいくらい」が最適フィット感——普段の靴感覚で選ぶと必ずゆるすぎる",
+        "初心者にはソフトシューズを推奨——硬いシューズは安定性を「ソールに頼る」ため、足の筋力とセンサリーが鍛えられない",
+        "ダウントウ（つま先が下向きに反った形状）はオーバーハングで威力を発揮するが、長時間使用で疲れやすく初心者には不向き",
+        "スリッポンタイプはソフトで感触が良いが、かかとのフィット問題が起きやすい——マジックテープが現代のスタンダード"
+      ],
+      "keyInsightsCn": [
+        "「一定要试穿」——不同品牌和型号尺码差1-2码是常事，不能照搬日常鞋码",
+        "「脚趾稍稍弯曲、稍微偏紧」是最佳贴合感——用日常穿鞋的感觉选必然太松",
+        "推荐初学者选软底鞋——硬底鞋的稳定性靠「鞋底撑着」，长此以往脚部力量和感觉得不到锻炼",
+        "下弯型（Downturn，鞋尖向下弯曲）在仰角路线上威力强大，但长时间穿着会疲劳，不适合初学者",
+        "套入式柔软感触好，但鞋跟容易有空隙；魔术贴是当代主流选择"
+      ],
+      "keyInsightsEn": [
+        "'Always try before buying'—sizes differ by 1-2 sizes between brands/models; never assume based on your normal shoe size",
+        "'Slightly bent toes, slightly snug' is the target fit—choosing by everyday shoe comfort always results in shoes that are too loose",
+        "Beginners should choose softer shoes—stiff shoes provide stability 'through the sole,' preventing development of toe strength and proprioception",
+        "Downturn shape excels on overhanging walls but causes fatigue with prolonged wear—not suitable for beginners",
+        "Slip-on closure feels soft and sensitive but suffers heel slippage; velcro is the modern standard"
+      ],
+      "tags": ["climbing-shoes", "gear-selection", "beginner-gear", "sole-stiffness", "fit", "downturn", "JMSCA"]
+    },
+    {
+      "id": "art-ja-007",
+      "url": "https://yamahack.com/6",
+      "titleJa": "ボルダリングの基本的な15のコツ・テクニック大公開！",
+      "titleCn": "抱石基础15大技巧与技术全公开！",
+      "titleEn": "15 Basic Bouldering Tips & Techniques Revealed!",
+      "source": "YAMA HACK（ヤマハック）",
+      "authorJa": "YAMA HACK 編集部",
+      "authorCn": "YAMA HACK 编辑部",
+      "authorEn": "YAMA HACK Editorial Team",
+      "language": "ja",
+      "publishDate": "2015-08-25",
+      "lastModified": "2023-05-18",
+      "articleType": "tutorial",
+      "primaryKp": "kp-movement-basics",
+      "secondaryKps": ["kp-footwork", "kp-body-position", "kp-hold-types"],
+      "quality": {
+        "authority": 3,
+        "depth": 3,
+        "practicality": 4,
+        "recency": 3,
+        "uniqueness": 3,
+        "total": 16
+      },
+      "summaryJa": "抱石初心者が習得すべき基本テクニックを15個体系的に紹介する総合ガイド。3部構成：①基本15のコツ（つま先でホールドに立つ、足元をよく見る、重心移動、体を回転させて遠くのホールドを取るなど）、②5つのムーブテクニック（キョン・ダイアゴナル・フラッギング・ランジ）を動画で解説、③ホールディングの種類と持ち方（カチ・パーミング・ピンチなど）を画像で詳述。「腕の力で登ろうとすると疲れやすく上達に限界がある——足を使ってぐいぐい登ることが重要」という核心メッセージで統一。",
+      "summaryCn": "系统介绍抱石初学者必学的15个基础技巧，分三部分：①15个基础技巧（用脚尖站支点、仔细看脚点、重心转移、旋转身体够远处支点等）；②五种动作技术（Kyon/キョン、对角线动作/Diagonal、旗帜脚/Flagging、跳跃动作/Lunge），配有视频说明；③支点种类与持握方式（Crimp/カチ、Palming/パーミング、Pinch/ピンチ等），配有图示。全文核心信息：「依靠手臂力量攀登容易疲劳、进步有限——用脚主动推登才是关键」。",
+      "summaryEn": "Systematic guide to 15 fundamental bouldering techniques for beginners, in three parts: ①15 basic tips (standing on footholds with toes, watching your feet, weight transfer, rotating body to reach far holds, etc.); ②Five movement techniques (Kyon, Diagonal, Flagging, Lunge) with video demonstrations; ③Hold types and grip styles (Crimp, Palming, Pinch, etc.) with illustrated images. Unified core message: 'Trying to climb using arm strength causes fatigue and limits progress—actively using feet to push upward is the key.'",
+      "keyInsightsJa": [
+        "「足を使ってぐいぐい登る」——腕に頼るとすぐにパンプ、足で体を押し上げることで腕の負担を根本的に減らせる",
+        "「つま先でホールドに立つ」——靴底全体ではなくつま先の一点に体重を集中することで精度が上がりフリクションが強くなる",
+        "フラッギング（Flagging）は、余った足を壁や空中に伸ばしてバランスを取る技術——使い方次第で遠いホールドへのリーチが格段に伸びる",
+        "キョン（Kyon）は体を壁に対して真横に向ける動き——骨盤を壁に近づけることで腕のリーチが飛躍的に伸び、難しいサイドプルが可能になる",
+        "カチ（クリンプ）は最も多用される握り方だが、フルクリンプは指への負担が最大——初心者はハーフクリンプやオープンハンドから習慣をつけると怪我を防げる"
+      ],
+      "keyInsightsCn": [
+        "「用脚主动推登」——依赖手臂很快就会pump，用脚将身体上推才能从根本上减轻手臂负担",
+        "「用脚尖站支点」——集中重心于一点（而非全掌），精准度提升，摩擦力也更强",
+        "旗帜脚（Flagging）：将空余的脚伸向墙面或空中来维持平衡——善用此技术能大幅延伸到远处支点的触达能力",
+        "Kyon（侧身动作）：将身体完全侧向面墙——骨盆贴近墙面使手臂伸展距离大幅增加，可以完成困难的侧拉动作",
+        "Crimp（卡齿握法）是最常用的握法，但Full Crimp对手指负担最大——初学者应养成Half Crimp和Open Hand习惯以预防受伤"
+      ],
+      "keyInsightsEn": [
+        "'Use your feet to push upward'—relying on arms causes rapid pumping; feet-driven climbing fundamentally reduces arm load",
+        "'Stand on footholds with your toes'—concentrating weight at one point (not whole sole) increases precision and friction",
+        "Flagging: extend the free foot against the wall or into space for balance—this technique dramatically extends reach to distant holds",
+        "Kyon: turn the body fully sideways to the wall—bringing the hip close to the wall greatly increases arm reach, enabling difficult side-pull moves",
+        "Crimp is the most-used grip, but full crimp maximizes finger load—beginners should develop half crimp and open-hand habits to prevent injury"
+      ],
+      "tags": ["movement-basics", "bouldering", "footwork", "flagging", "kyon", "diagonal", "hold-types", "crimp", "beginner-technique"]
+    },
+    {
+      "id": "art-ja-008",
+      "url": "https://takahashigawa-climb.net/safety/rootclimbing2021/",
+      "titleJa": "外岩におけるルートクライミングのマナー・安全など",
+      "titleCn": "户外岩壁线路攀岩的礼仪与安全规范",
+      "titleEn": "Etiquette and Safety in Outdoor Route Climbing",
+      "source": "TCNet 高梁川流域クライミング交流会",
+      "authorJa": "TCNet 高梁川流域クライミング交流会",
+      "authorCn": "TCNet 高梁川流域攀岩交流会",
+      "authorEn": "TCNet Takahashigawa Basin Climbing Exchange Society",
+      "language": "ja",
+      "publishDate": "2021-09-16",
+      "lastModified": "2022-01-08",
+      "articleType": "tutorial",
+      "primaryKp": "kp-crag-ethics",
+      "secondaryKps": ["kp-outdoor-safety", "kp-belay-technique", "kp-anchor-ethics"],
+      "quality": {
+        "authority": 3,
+        "depth": 4,
+        "practicality": 4,
+        "recency": 3,
+        "uniqueness": 4,
+        "total": 18
+      },
+      "summaryJa": "外岩でのルートクライミングにおけるマナーと安全管理の包括的ガイド。自己責任の原則を前提に、固定ボルトへの直接ロープ掛け禁止、クイックドローの向きと安全管理、ダイナミックビレイの必要性、ローダウン時のアンカー保護、スタイル（プリクリップ禁止、動き方の指示禁止）、環境保全（ゴミ拾い・チョークレス推奨・チッピング禁止）、JFA（日本フリークライミング協会）加入推奨など、外岩特有のルールを体系的に解説。",
+      "summaryCn": "在「自我责任原则」前提下，系统解析日本户外岩壁线路攀岩的礼仪和安全规范。主要内容：禁止将绳子直接搭在固定金属件上下降（会加速磨损）、快挂方向的安全管理（防止绳子弹出）、动态确保的必要性（缓冲坠落冲击）、下降时保护固定点的方法、攀岩风格礼仪（禁止预先挂扣超出必要范围、禁止未经同意指导他人动作——这会剥夺对方Onsight的机会）、环境保护（捡垃圾、减少粉末使用、禁止凿改岩壁）、以及推荐加入JFA（日本自由攀岩协会）支持再固化工作。",
+      "summaryEn": "Comprehensive guide to etiquette and safety in outdoor sport climbing in Japan, based on the 'own risk' principle. Key topics: prohibition of routing rope directly over fixed anchor hardware (accelerates wear), quickdraw orientation safety (preventing rope ejection), necessity of dynamic belaying (cushioning fall impact), anchor protection during lower-offs, climbing style etiquette (no pre-clipping beyond necessity, no unsolicited movement coaching—which destroys onsight opportunities), environmental responsibility (trash removal, reduced chalk use, no chipping), and recommendation to join JFA (Japan Free Climbing Association) to support rebolting efforts.",
+      "keyInsightsJa": [
+        "固定カラビナに直接ロープを掛けてのトップロープや下降は厳禁——固定金具の寿命を著しく縮め、他のクライマーへの危険を招く",
+        "ダイナミックビレイの習得は外岩での必須技術——静的ビレイでは墜落時の衝撃がクライマーと支点に集中し、重大事故の原因になりうる",
+        "「先登者と同等以上のスタイルで登ること」——他人の未登に入るときはムーブの指示をしない（Onsightの機会を奪う行為）",
+        "外岩ではJFA加入推奨——再ボルト工事の資金は会費から賄われており、クライマーとして岩場維持に貢献することが責務",
+        "チッピング（岩を削ってホールドを作ること）は絶対禁止——永続的なダメージで岩場の価値を破壊し、日本ではクライミングエリアの閉鎖原因にもなる"
+      ],
+      "keyInsightsCn": [
+        "禁止将绳子直接搭在固定金属件上做顶绳或下降——会大幅缩短固定件寿命，危及其他攀登者",
+        "掌握动态确保（Dynamic Belay）是户外岩壁的必修技术——静态确保会将坠落冲击集中于攀登者和固定点，可能导致严重事故",
+        "「以与首攀者同等或更好的风格攀登」——进入他人未完成的路线时不要指导动作（剥夺对方的Onsight机会）",
+        "推荐加入JFA——再固化施工经费来自会费，作为攀岩者有责任为岩场维护贡献一份力",
+        "凿改岩壁（Chipping）绝对禁止——造成永久性损害，摧毁岩壁价值，在日本也是攀岩区域关闭的原因之一"
+      ],
+      "keyInsightsEn": [
+        "Never route rope directly over fixed anchor hardware for toproping or lowering—severely shortens the hardware's lifespan and endangers other climbers",
+        "Dynamic belaying is essential outdoor technique—static belaying concentrates fall impact on the climber and anchors, potentially causing serious accidents",
+        "'Climb in equal or superior style to the first ascentionist'—don't coach moves when entering someone's unfinished project (stealing their onsight opportunity)",
+        "JFA membership is recommended—rebolting costs are funded by membership fees; climbers have a responsibility to contribute to crag maintenance",
+        "Chipping (carving holds into rock) is absolutely prohibited—causes permanent damage, destroys the crag's value, and in Japan has led to climbing area closures"
+      ],
+      "tags": ["crag-ethics", "outdoor-safety", "belay-technique", "anchor-ethics", "dynamic-belay", "environmental-responsibility", "JFA", "Japan"]
+    },
+    {
+      "id": "art-ja-009",
+      "url": "https://goodbouldering.com/?mode=grp&gid=1929182",
+      "titleJa": "クライマーのコンディショニングとメンタル",
+      "titleCn": "攀岩者的状态调整与心理管理",
+      "titleEn": "Conditioning and Mental Management for Climbers",
+      "source": "グッぼる（GoodBouldering）",
+      "authorJa": "土屋ルリ",
+      "authorCn": "土屋琉里",
+      "authorEn": "Tsuchiya Ruri",
+      "language": "ja",
+      "publishDate": "2018-08-29",
+      "lastModified": "2018-08-29",
+      "articleType": "training",
+      "primaryKp": "kp-competition-anxiety",
+      "secondaryKps": ["kp-performance-mindset", "kp-pre-competition-routine"],
+      "quality": {
+        "authority": 2,
+        "depth": 3,
+        "practicality": 3,
+        "recency": 2,
+        "uniqueness": 3,
+        "total": 13
+      },
+      "summaryJa": "競技クライミングにおける心理的コンディショニングと競技不安への対処法を解説。「過度な緊張を避けながら適度な興奮状態を保つことが重要」という逆U字理論を基盤に、コンペ前の精神的準備方法、パフォーマンス最適化のための覚醒レベル管理、各難易度のコンペへの出場経験を積んでコンペ特有のメンタルスキルを培う重要性を強調。可視化技術、段階的なプレッシャー環境への暴露訓練についても言及。",
+      "summaryCn": "解析竞技攀岩中的心理状态调整与赛场焦虑管理。以「逆U字理论」（过高或过低的紧张程度均会影响表现，保持适度兴奋状态最优）为基础，讲解赛前心理准备方法、最优唤醒水平（Arousal Level）管理策略、以及通过参加各难度级别比赛来积累赛场专属心理技能的重要性。同时提及可视化训练和逐步暴露于压力环境的重要性。",
+      "summaryEn": "Covers psychological conditioning and competition anxiety management in competitive climbing. Based on the inverted-U theory (both too much and too little arousal harm performance; optimal moderate arousal is the goal), explains pre-competition mental preparation, managing arousal levels for peak performance, and the importance of building competition-specific mental skills through progressive exposure to competitions at various levels. Also mentions visualization training and systematic exposure to pressure environments.",
+      "keyInsightsJa": [
+        "逆U字理論：緊張が高すぎても低すぎてもパフォーマンスは落ちる——「適度な興奮状態」を意識的にコントロールすることが競技力の鍵",
+        "コンペ特有のメンタルスキルは「コンペに出ることでしか培えない」——練習でいくら強くなっても、コンペ環境での精神訓練なしに本番で実力を出せない",
+        "過度な緊張（Anxiety）を避けながら覚醒状態（Activation）を維持する具体的手段として、ルーティンの確立とセルフトークが有効",
+        "段階的なコンペ参加（小規模→大規模）でプレッシャー環境への慣れを積み上げることが最も実践的なメンタル強化法"
+      ],
+      "keyInsightsCn": [
+        "逆U字理论：紧张过高或过低均会损害表现——有意识地管理「适度兴奋状态」是竞技能力的关键",
+        "赛场专属心理技能「只有通过参加比赛才能培养」——无论训练多强，没有赛场心理训练就无法在真正比赛中发挥实力",
+        "避免过度焦虑同时保持唤醒状态的具体手段：建立赛前程序（Routine）和积极自我对话（Self-talk）",
+        "逐步参加比赛（小规模→大规模）是最实践性的心理强化方法，通过积累压力环境经验来建立适应能力"
+      ],
+      "keyInsightsEn": [
+        "Inverted-U theory: both excessive and insufficient arousal hurt performance—consciously managing 'optimal moderate arousal' is key to competitive performance",
+        "Competition-specific mental skills 'can only be built by competing'—no amount of training strength substitutes for experience managing the competitive mental environment",
+        "Concrete tools for maintaining activation while avoiding anxiety: establishing pre-competition routines and positive self-talk",
+        "Progressive competition participation (small-scale → large-scale) is the most practical mental toughening method—building adaptability through accumulated pressure experience"
+      ],
+      "tags": ["competition-anxiety", "mental-training", "arousal-management", "inverted-U-theory", "pre-competition-routine", "self-talk", "competition-mindset"]
+    }
+  ]
+}

@@ -25,14 +25,67 @@
             "en": "Lead climbing competition is the oldest format, testing how high a climber can ascend within a time limit. Routes are typically 12-15 meters tall with increasing difficulty. Each climber gets one attempt within 6 minutes under isolation conditions, meaning they cannot watch others climb beforehand. A collective 6-minute observation period precedes climbing.\n\nScoring is based on the highest hold controlled (both hands stable). Touching but not controlling the next hold earns a \"+\" suffix. Ties are broken by faster completion time. Major competitions use a qualification-semifinal-final structure, with different and progressively harder routes in each round."
           },
           "terms": [
-            { "zh": "先锋赛", "en": "lead competition" },
-            { "zh": "隔离", "en": "isolation" },
-            { "zh": "观察时间", "en": "observation period" },
-            { "zh": "控制", "en": "controlled hold" },
-            { "zh": "完攀", "en": "top" }
+            {
+              "zh": "先锋赛",
+              "en": "lead competition"
+            },
+            {
+              "zh": "隔离",
+              "en": "isolation"
+            },
+            {
+              "zh": "观察时间",
+              "en": "observation period"
+            },
+            {
+              "zh": "控制",
+              "en": "controlled hold"
+            },
+            {
+              "zh": "完攀",
+              "en": "top"
+            }
           ],
-          "crossRefs": ["kp-route-reading-basics", "kp-rest-management", "kp-fall-technique"],
-          "tags": ["beginner", "competition"]
+          "crossRefs": [
+            "kp-route-reading-basics",
+            "kp-rest-management",
+            "kp-fall-technique"
+          ],
+          "tags": [
+            "beginner",
+            "competition"
+          ],
+          "expertInsights": [
+            {
+              "zh": "先锋赛评分的「+」规则：如果选手在某个手点位置做出了有控制的动态出手（如跳跃、蹦跳），即使未抓住下一个点，也会在当前点号后加「+」。例如「32+」意味着选手稳定控制了第 32 个手点并有效发力向上。这个细节经常决定名次。观察期（Observation Period）为全体选手集体观察路线 6 分钟，是先锋赛独有的策略窗口。",
+              "en": "The lead scoring 'plus' rule: if a climber makes a controlled dynamic attempt (lunge, dyno) from a hold, even without reaching the next one, a '+' is added to the hold number. For example, '32+' means the climber had stable control of hold 32 and made a valid upward attempt. This detail often decides rankings. The 6-minute Observation Period where all climbers collectively view the route is a unique strategic window in lead competitions.",
+              "source": "Rock Climbing Realms",
+              "sourceUrl": "https://rockclimbingrealms.com/guide-to-ifsc-formats-scoring-rules-rounds/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Guide to IFSC Formats: Scoring, Rules & Rounds",
+              "url": "https://rockclimbingrealms.com/guide-to-ifsc-formats-scoring-rules-rounds/",
+              "source": "Rock Climbing Realms",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "IFSC World Cup Climbing Rules & Scoring Explained",
+              "url": "https://gearjunkie.com/climbing/ifsc-climbing-explained",
+              "source": "GearJunkie",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "How Is Climbing Scored at the Paris Olympics?",
+              "url": "https://gripped.com/news/how-is-climbing-scored-at-the-paris-olympics/",
+              "source": "Gripped Magazine",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-speed-competition",
@@ -45,14 +98,67 @@
             "en": "Speed climbing is the most visually spectacular competition format, featuring head-to-head races on a standardized route. The route is globally identical: 15 meters tall at a 5-degree overhang with fixed hold positions and types. Current world records approach sub-5 seconds for men and approximately 6 seconds for women.\n\nCompetition uses dual-lane elimination: two climbers race simultaneously on identical parallel routes, with the first to hit the top buzzer advancing. Qualification features two timed runs (best time counts), followed by a 16-person single-elimination bracket. False starts or falls result in a loss. Training focuses on explosive power, reaction time, and movement precision through muscle memory."
           },
           "terms": [
-            { "zh": "速度赛", "en": "speed competition" },
-            { "zh": "标准路线", "en": "standardized route" },
-            { "zh": "计时按钮", "en": "buzzer" },
-            { "zh": "抢跑", "en": "false start" },
-            { "zh": "淘汰赛", "en": "elimination bracket" }
+            {
+              "zh": "速度赛",
+              "en": "speed competition"
+            },
+            {
+              "zh": "标准路线",
+              "en": "standardized route"
+            },
+            {
+              "zh": "计时按钮",
+              "en": "buzzer"
+            },
+            {
+              "zh": "抢跑",
+              "en": "false start"
+            },
+            {
+              "zh": "淘汰赛",
+              "en": "elimination bracket"
+            }
           ],
-          "crossRefs": ["kp-dyno-technique", "kp-campus-training", "kp-warmup"],
-          "tags": ["beginner", "competition"]
+          "crossRefs": [
+            "kp-dyno-technique",
+            "kp-campus-training",
+            "kp-warmup"
+          ],
+          "tags": [
+            "beginner",
+            "competition"
+          ],
+          "expertInsights": [
+            {
+              "zh": "速攀使用全球完全统一的标准化路线：15 米高、5 度倾斜、固定支点位置和顺序，在所有 IFSC 赛事中完全相同——这使得速攀成为唯一可以跨赛事直接对比成绩的攀岩项目。2025 年世界纪录：男子 Sam Watson（美国）4.64 秒，女子 Aleksandra Miroslaw（波兰）6.03 秒。决赛采用 16 强淘汰对决（Head-to-Head），两名选手在并排路线上同时竞速，起跑反应时间 <0.1 秒判抢跑淘汰。",
+              "en": "Speed uses a globally standardized route: 15m high, 5° overhanging, with identical hold positions and sequence at every IFSC event -- making it the only climbing discipline where times are directly comparable across competitions. 2025 world records: men's Sam Watson (USA) 4.64s, women's Aleksandra Miroslaw (Poland) 6.03s. Finals use 16-climber head-to-head elimination on parallel routes; reaction time <0.1s triggers disqualification for false start.",
+              "source": "USA Climbing",
+              "sourceUrl": "https://usaclimbing.org/climb/speed/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Speed – USA Climbing",
+              "url": "https://usaclimbing.org/climb/speed/",
+              "source": "USA Climbing",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Guide to IFSC Formats: Scoring, Rules & Rounds",
+              "url": "https://rockclimbingrealms.com/guide-to-ifsc-formats-scoring-rules-rounds/",
+              "source": "Rock Climbing Realms",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "How Is Climbing Scored at the Paris Olympics?",
+              "url": "https://gripped.com/news/how-is-climbing-scored-at-the-paris-olympics/",
+              "source": "Gripped Magazine",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-boulder-competition",
@@ -65,14 +171,68 @@
             "en": "Bouldering competition is the most popular spectator format, showcasing power and technique in compact, high-intensity problems. Each round features 4-5 problems, typically 4-5 meters tall, with 4-5 minutes per problem. Each problem has a zone hold (midway) and a top hold, both requiring dual-hand control.\n\nScoring prioritizes: (1) number of tops, (2) number of zones, (3) fewer attempts to reach tops, (4) fewer attempts to reach zones. For example, 3T5z 5/7 beats 2T5z 3/5 because more tops were achieved. Competitions use isolation; climbers cannot preview routes before their attempts. The format's appeal lies in its unpredictability and the dramatic breakthroughs when climbers unlock a crux sequence."
           },
           "terms": [
-            { "zh": "抱石赛", "en": "bouldering competition" },
-            { "zh": "问题", "en": "problem" },
-            { "zh": "区域点", "en": "zone" },
-            { "zh": "顶点", "en": "top" },
-            { "zh": "定线员", "en": "route setter" }
+            {
+              "zh": "抱石赛",
+              "en": "bouldering competition"
+            },
+            {
+              "zh": "问题",
+              "en": "problem"
+            },
+            {
+              "zh": "区域点",
+              "en": "zone"
+            },
+            {
+              "zh": "顶点",
+              "en": "top"
+            },
+            {
+              "zh": "定线员",
+              "en": "route setter"
+            }
           ],
-          "crossRefs": ["kp-dyno-technique", "kp-crimp-hold", "kp-toe-hook", "kp-route-reading-basics"],
-          "tags": ["beginner", "competition"]
+          "crossRefs": [
+            "kp-dyno-technique",
+            "kp-crimp-hold",
+            "kp-toe-hook",
+            "kp-route-reading-basics"
+          ],
+          "tags": [
+            "beginner",
+            "competition"
+          ],
+          "expertInsights": [
+            {
+              "zh": "抱石赛评分解读——以「2T3z 9 12」为例：2 个 Top（完成顶点）、3 个 Zone（中间控制点）、9 次 Top 尝试、12 次 Zone 尝试。名次优先顺序：Top 数 > Zone 数 > Top 尝试数（越少越好）> Zone 尝试数。Zone 是每道题中段设置的控制点，选手双手稳定触碰即可得分。每道题限时 4 分钟，时间到立即停止。第一次尝试应在窗口开始后立即出发，为后续尝试预留时间。",
+              "en": "Boulder scoring explained -- take '2T3z 9 12': 2 Tops (completed problems), 3 Zones (midpoint control holds), 9 Top attempts, 12 Zone attempts. Ranking priority: Tops > Zones > Top attempts (fewer is better) > Zone attempts. Zone is a midpoint hold requiring stable two-hand control for scoring. Each problem has a 4-minute time limit. The first attempt should begin immediately after the window opens, reserving time for retries.",
+              "source": "Gripped Magazine",
+              "sourceUrl": "https://gripped.com/news/what-the-heck-does-2t3z-9-12-mean/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "What the Heck Does '2T3z 9 12' Mean?",
+              "url": "https://gripped.com/news/what-the-heck-does-2t3z-9-12-mean/",
+              "source": "Gripped Magazine",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Guide to IFSC Formats: Scoring, Rules & Rounds",
+              "url": "https://rockclimbingrealms.com/guide-to-ifsc-formats-scoring-rules-rounds/",
+              "source": "Rock Climbing Realms",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Getting Your Team Prepared for Onsight Bouldering Competitions",
+              "url": "https://climbingbusinessjournal.com/getting-your-team-prepared-for-onsight-bouldering-competitions/",
+              "source": "Climbing Business Journal",
+              "language": "en",
+              "articleType": "training"
+            }
+          ]
         },
         {
           "id": "kp-combined-olympic",
@@ -85,14 +245,60 @@
             "en": "Climbing's Olympic debut marked a historic milestone. At Tokyo 2020, the combined format required athletes to compete in lead, speed, and bouldering, with final ranking determined by multiplying placements across all three (lower product = better rank). This demanded well-rounded athletes.\n\nFrom Paris 2024, speed became a standalone medal event, while lead and bouldering merged into a two-discipline combined event. This allowed speed specialists and technical climbers to compete more fairly within their strengths. The Olympic platform has accelerated climbing's global growth and spurred competitive program development worldwide."
           },
           "terms": [
-            { "zh": "全能赛", "en": "combined competition" },
-            { "zh": "两项全能", "en": "boulder & lead combined" },
-            { "zh": "乘积排名", "en": "multiplication ranking" },
-            { "zh": "奥运攀岩", "en": "Olympic climbing" },
-            { "zh": "分项赛", "en": "individual discipline" }
+            {
+              "zh": "全能赛",
+              "en": "combined competition"
+            },
+            {
+              "zh": "两项全能",
+              "en": "boulder & lead combined"
+            },
+            {
+              "zh": "乘积排名",
+              "en": "multiplication ranking"
+            },
+            {
+              "zh": "奥运攀岩",
+              "en": "Olympic climbing"
+            },
+            {
+              "zh": "分项赛",
+              "en": "individual discipline"
+            }
           ],
-          "crossRefs": ["kp-periodization", "kp-aerobic-endurance", "kp-campus-training"],
-          "tags": ["beginner", "competition"]
+          "crossRefs": [
+            "kp-periodization",
+            "kp-aerobic-endurance",
+            "kp-campus-training"
+          ],
+          "tags": [
+            "beginner",
+            "competition"
+          ],
+          "expertInsights": [
+            {
+              "zh": "2024 巴黎奥运会重大改革：速攀从三项综合中分离成为独立项目（使速攀专项选手能独立争夺奥运奖牌），先锋与抱石合并为双项综合赛。综合赛采用名次相乘制（抱石排名 × 先锋排名），这种机制鼓励全能型选手——单项弱势几乎无法靠另一项弥补（例如一项第 1 × 一项第 8 = 8，不如两项都拿第 3 = 9 的选手）。",
+              "en": "2024 Paris Olympics reform: speed climbing split into a standalone event (allowing speed specialists to compete for their own medal), while lead and bouldering merged into a combined event. Combined scoring multiplies rankings (boulder rank × lead rank), rewarding all-rounders -- a weakness in one discipline is nearly impossible to offset by the other (e.g., 1st × 8th = 8 loses to two 3rd places = 9).",
+              "source": "Gripped Magazine",
+              "sourceUrl": "https://gripped.com/news/how-is-climbing-scored-at-the-paris-olympics/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "How Is Climbing Scored at the Paris Olympics?",
+              "url": "https://gripped.com/news/how-is-climbing-scored-at-the-paris-olympics/",
+              "source": "Gripped Magazine",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Indoor Weekly: History of Climbing as Olympic Sport",
+              "url": "https://gripped.com/events/indoor-weekly-history-climbing-olympic-sport/",
+              "source": "Gripped Magazine",
+              "language": "en",
+              "articleType": "research"
+            }
+          ]
         }
       ]
     },
@@ -120,14 +326,66 @@
             "en": "Scoring systems vary by discipline. In lead, scores correspond to the highest controlled hold number, with \"+\" for touching but not controlling the next hold (e.g., 35+ > 35 but < 36). Ties are broken by faster time.\n\nSince 2024, IFSC bouldering uses a points-based system: 25 points per top, 5 per zone, with bonuses for first-attempt successes. Total points determine ranking, with flash counts as tiebreakers. This replaced the older multiplication system for better spectator comprehension.\n\nSpeed scoring is the most straightforward: fastest time to the buzzer (to 0.001 seconds) wins. False starts and falls result in a loss. If both climbers fault, the higher-seeded qualifier advances."
           },
           "terms": [
-            { "zh": "控制手点", "en": "controlled hold" },
-            { "zh": "加号规则", "en": "plus rule" },
-            { "zh": "首攀奖励", "en": "flash bonus" },
-            { "zh": "千分之一秒", "en": "millisecond timing" },
-            { "zh": "犯规", "en": "foul / infraction" }
+            {
+              "zh": "控制手点",
+              "en": "controlled hold"
+            },
+            {
+              "zh": "加号规则",
+              "en": "plus rule"
+            },
+            {
+              "zh": "首攀奖励",
+              "en": "flash bonus"
+            },
+            {
+              "zh": "千分之一秒",
+              "en": "millisecond timing"
+            },
+            {
+              "zh": "犯规",
+              "en": "foul / infraction"
+            }
           ],
-          "crossRefs": ["kp-route-reading-basics", "kp-projecting-strategy"],
-          "tags": ["beginner", "competition"]
+          "crossRefs": [
+            "kp-route-reading-basics",
+            "kp-projecting-strategy"
+          ],
+          "tags": [
+            "beginner",
+            "competition"
+          ],
+          "expertInsights": [
+            {
+              "zh": "世界杯积分制：冠军得 1000 分，第 2 名 805 分，之后依次递减。赛季超过 6 站时，选手的最差成绩可被剔除，鼓励全程参赛。先锋赛评分以最高「控制」位置计算——仅触碰不算，必须稳定抓握。速攀反应时间 <0.1 秒判抢跑直接淘汰（False Start）。三个项目各自独立排名，也有跨项综合排名。",
+              "en": "World Cup points system: 1st place gets 1000 points, 2nd gets 805, declining thereafter. When the season exceeds 6 events, each climber's worst result can be dropped, incentivizing full participation. Lead scoring counts the highest 'controlled' position -- mere touching doesn't count, stable grip is required. Speed reaction time <0.1s is a false start with immediate elimination. Each discipline has independent rankings plus a cross-discipline combined ranking.",
+              "source": "GearJunkie",
+              "sourceUrl": "https://gearjunkie.com/climbing/ifsc-climbing-explained"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "IFSC World Cup Climbing Rules & Scoring Explained",
+              "url": "https://gearjunkie.com/climbing/ifsc-climbing-explained",
+              "source": "GearJunkie",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Guide to IFSC Formats: Scoring, Rules & Rounds",
+              "url": "https://rockclimbingrealms.com/guide-to-ifsc-formats-scoring-rules-rounds/",
+              "source": "Rock Climbing Realms",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "What the Heck Does '2T3z 9 12' Mean?",
+              "url": "https://gripped.com/news/what-the-heck-does-2t3z-9-12-mean/",
+              "source": "Gripped Magazine",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-isolation-zone",
@@ -140,14 +398,60 @@
             "en": "The isolation system ensures equal information conditions for all competitors. Before competition, athletes must enter the isolation zone by a set time. Inside, they cannot use phones, watch other climbers, or receive route information. The zone provides warm-up walls, stretching space, and water.\n\nObservation periods (typically 6 minutes for lead) allow climbers to study routes from the ground without touching the wall. Bouldering observation may cover all problems collectively. Climbers can discuss beta during observation. The transit zone bridges isolation to the climbing area, with a brief preparation period (40-60 seconds) before timing begins. Violating isolation rules can result in disqualification."
           },
           "terms": [
-            { "zh": "隔离区", "en": "isolation zone" },
-            { "zh": "观察时间", "en": "observation period" },
-            { "zh": "过渡区", "en": "transit zone" },
-            { "zh": "出场顺序", "en": "start order" },
-            { "zh": "取消资格", "en": "disqualification" }
+            {
+              "zh": "隔离区",
+              "en": "isolation zone"
+            },
+            {
+              "zh": "观察时间",
+              "en": "observation period"
+            },
+            {
+              "zh": "过渡区",
+              "en": "transit zone"
+            },
+            {
+              "zh": "出场顺序",
+              "en": "start order"
+            },
+            {
+              "zh": "取消资格",
+              "en": "disqualification"
+            }
           ],
-          "crossRefs": ["kp-warmup", "kp-route-reading-basics", "kp-fear-management"],
-          "tags": ["beginner", "competition"]
+          "crossRefs": [
+            "kp-warmup",
+            "kp-route-reading-basics",
+            "kp-fear-management"
+          ],
+          "tags": [
+            "beginner",
+            "competition"
+          ],
+          "expertInsights": [
+            {
+              "zh": "隔离区最大的挑战不是无聊，而是等待时间过长（可达 2-4 小时）导致的生理冷却和心理过度激活。应对策略：先完成完整热身至高强度水平，然后在隔离区内每小时执行 10-15 分钟的维持性动态拉伸和轻度活动。营养方面保持碳水补给避免低血糖。心理上使用专注性任务（可视化读线、听音乐）维持「受控激活」状态，避免赛前过度思考。",
+              "en": "The biggest isolation challenge isn't boredom but physiological cooling and psychological over-activation from waiting 2-4 hours. Strategy: complete full warm-up to high intensity first, then perform 10-15 minutes of maintenance dynamic stretching every hour in isolation. Maintain carbohydrate intake to prevent blood sugar drops. Mentally, use focused tasks (route visualization, music) to maintain 'controlled activation' rather than pre-competition overthinking.",
+              "source": "Climbing Business Journal",
+              "sourceUrl": "https://climbingbusinessjournal.com/strategies-to-help-youth-team-climbers-survive-isolation/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Strategies to Help Youth Team Climbers Survive Isolation",
+              "url": "https://climbingbusinessjournal.com/strategies-to-help-youth-team-climbers-survive-isolation/",
+              "source": "Climbing Business Journal",
+              "language": "en",
+              "articleType": "training"
+            },
+            {
+              "title": "Getting Your Team Prepared for Onsight Bouldering Competitions",
+              "url": "https://climbingbusinessjournal.com/getting-your-team-prepared-for-onsight-bouldering-competitions/",
+              "source": "Climbing Business Journal",
+              "language": "en",
+              "articleType": "training"
+            }
+          ]
         },
         {
           "id": "kp-time-limits-attempts",
@@ -160,14 +464,60 @@
             "en": "Time and attempt rules shape competition strategy. Lead allows 6 minutes per climber (timed from leaving the ground), with one attempt only. A fall ends the attempt.\n\nBouldering allows 4-5 minutes per problem with unlimited attempts. Time management becomes tactical: rapid attempts maximize chances, while pausing to strategize improves attempt quality. A 30-second rest after two failed attempts is generally advisable.\n\nAn attempt in bouldering counts when both feet leave the ground with at least one hold controlled. In lead, using features outside the defined route may constitute a technical infraction. Climbers can file appeals through their coaches within a specified timeframe if they disagree with a judge's ruling."
           },
           "terms": [
-            { "zh": "有效尝试", "en": "valid attempt" },
-            { "zh": "技术犯规", "en": "technical infraction" },
-            { "zh": "申诉", "en": "appeal" },
-            { "zh": "攀爬时限", "en": "climbing time limit" },
-            { "zh": "裁判", "en": "judge / official" }
+            {
+              "zh": "有效尝试",
+              "en": "valid attempt"
+            },
+            {
+              "zh": "技术犯规",
+              "en": "technical infraction"
+            },
+            {
+              "zh": "申诉",
+              "en": "appeal"
+            },
+            {
+              "zh": "攀爬时限",
+              "en": "climbing time limit"
+            },
+            {
+              "zh": "裁判",
+              "en": "judge / official"
+            }
           ],
-          "crossRefs": ["kp-rest-management", "kp-projecting-strategy", "kp-route-reading-basics"],
-          "tags": ["beginner", "competition"]
+          "crossRefs": [
+            "kp-rest-management",
+            "kp-projecting-strategy",
+            "kp-route-reading-basics"
+          ],
+          "tags": [
+            "beginner",
+            "competition"
+          ],
+          "expertInsights": [
+            {
+              "zh": "抱石赛 4 分钟时间管理策略：第一次尝试应在窗口开始后立即出发，不要浪费时间犹豫。若前两次尝试均未触碰 Zone，第三次以后的尝试通常得不偿失——此时应考虑保留体力给下一道题。训练中用计时器模拟 5 分钟观察 + 4 分钟攀爬结构，建立「快速读线→执行→评估→调整」的自动化节奏循环。学会接受单题失败，快速将注意力转移到下一道题。",
+              "en": "4-minute boulder time management: start your first attempt immediately after the window opens -- don't waste time hesitating. If two attempts fail to reach Zone, subsequent attempts are usually counterproductive -- consider conserving energy for the next problem. In training, use timers to simulate the 5-min observation + 4-min climbing structure, building an automated 'quick read → execute → evaluate → adjust' rhythm cycle. Learn to accept single-problem failure and quickly shift focus to the next one.",
+              "source": "Climbing Business Journal",
+              "sourceUrl": "https://climbingbusinessjournal.com/getting-your-team-prepared-for-onsight-bouldering-competitions/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Getting Your Team Prepared for Onsight Bouldering Competitions",
+              "url": "https://climbingbusinessjournal.com/getting-your-team-prepared-for-onsight-bouldering-competitions/",
+              "source": "Climbing Business Journal",
+              "language": "en",
+              "articleType": "training"
+            },
+            {
+              "title": "Strategies to Help Youth Team Climbers Survive Isolation",
+              "url": "https://climbingbusinessjournal.com/strategies-to-help-youth-team-climbers-survive-isolation/",
+              "source": "Climbing Business Journal",
+              "language": "en",
+              "articleType": "training"
+            }
+          ]
         }
       ]
     },
@@ -195,14 +545,61 @@
             "en": "Competition-specific training aims to optimize performance under competition conditions. Onsight ability is central: schedule 2-3 onsight sessions weekly on freshly set routes across different wall angles and gyms. Practice rapid route reading, identifying crux moves, and real-time plan adjustment.\n\nRegularly simulate isolation warm-ups: use limited wall space to progress from cold to competition-ready within 30-40 minutes. Develop a standardized personal warm-up routine. Train route reading systematically: scan bottom-to-top identifying all holds, rests, and cruxes within the 6-minute observation window. Advanced climbers mentally rehearse the entire sequence during observation."
           },
           "terms": [
-            { "zh": "onsight能力", "en": "onsight ability" },
-            { "zh": "隔离热身", "en": "isolation warm-up" },
-            { "zh": "读线训练", "en": "route reading training" },
-            { "zh": "动作激活", "en": "movement activation" },
-            { "zh": "难点识别", "en": "crux identification" }
+            {
+              "zh": "onsight能力",
+              "en": "onsight ability"
+            },
+            {
+              "zh": "隔离热身",
+              "en": "isolation warm-up"
+            },
+            {
+              "zh": "读线训练",
+              "en": "route reading training"
+            },
+            {
+              "zh": "动作激活",
+              "en": "movement activation"
+            },
+            {
+              "zh": "难点识别",
+              "en": "crux identification"
+            }
           ],
-          "crossRefs": ["kp-route-reading-basics", "kp-warmup", "kp-projecting-strategy"],
-          "tags": ["intermediate", "competition", "training"]
+          "crossRefs": [
+            "kp-route-reading-basics",
+            "kp-warmup",
+            "kp-projecting-strategy"
+          ],
+          "tags": [
+            "intermediate",
+            "competition",
+            "training"
+          ],
+          "expertInsights": [
+            {
+              "zh": "竞赛专项训练与日常训练的核心区别：竞赛需要 onsight 能力（首攀成功率）、隔离区热身技巧和高压下的路线阅读能力。每周安排 2-3 次 onsight 专项训练——在不熟悉的路线上一次性攀爬，模拟赛场的未知感。同时练习从冷启动到准备状态的 30-40 分钟热身流程（4 条渐进难度路线：轻松→微泵→大泵→轻泵），因为在隔离区你无法按平时的方式热身。",
+              "en": "Competition-specific training differs fundamentally from regular training: competitions demand onsight ability (first-attempt success rate), isolation warm-up skills, and route reading under pressure. Schedule 2-3 weekly onsight sessions on unfamiliar routes to simulate competition uncertainty. Also practice the cold-start to ready-state 30-40 minute warm-up protocol (4 progressive routes: easy → light pump → major pump → light pump), because you cannot warm up normally in isolation.",
+              "source": "Climbing Magazine (Neil Gresham)",
+              "sourceUrl": "https://www.climbing.com/skills/climbing-training-strength-power/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Building a Better Climber: Phase 5 — Strength and Power",
+              "url": "https://www.climbing.com/skills/climbing-training-strength-power/",
+              "source": "Climbing Magazine / Rock and Ice Magazine",
+              "language": "en",
+              "articleType": "training"
+            },
+            {
+              "title": "Building a Better Climber: Phase 7 — Power Endurance",
+              "url": "https://www.climbing.com/skills/complete-climbing-training-program-power-endurance/",
+              "source": "Climbing Magazine / Rock and Ice Magazine",
+              "language": "en",
+              "articleType": "training"
+            }
+          ]
         },
         {
           "id": "kp-peaking",
@@ -215,14 +612,68 @@
             "en": "Peaking for key competitions requires precise periodization. The taper period (1-2 weeks before competition) reduces training volume by 40-60% while maintaining or slightly increasing intensity. This allows recovery from accumulated fatigue while keeping the neuromuscular system sharp. An exponential taper is common: ~30% volume reduction in the first week, down to 40-50% of normal in the final days.\n\nA typical final week: days 7-5 moderate climbing with limited hard attempts; days 4-3 light technical climbing; day 2 complete rest; day 1 a brief 30-minute activation session. Competition-day warm-up follows the practiced standard routine. Mental preparation during the taper includes visualization of competition scenarios, attention-focus techniques, and recalling past successes to build confidence."
           },
           "terms": [
-            { "zh": "竞技巅峰", "en": "peaking" },
-            { "zh": "赛前减量", "en": "taper" },
-            { "zh": "激活训练", "en": "activation session" },
-            { "zh": "训练周期", "en": "training cycle" },
-            { "zh": "意象化", "en": "visualization" }
+            {
+              "zh": "竞技巅峰",
+              "en": "peaking"
+            },
+            {
+              "zh": "赛前减量",
+              "en": "taper"
+            },
+            {
+              "zh": "激活训练",
+              "en": "activation session"
+            },
+            {
+              "zh": "训练周期",
+              "en": "training cycle"
+            },
+            {
+              "zh": "意象化",
+              "en": "visualization"
+            }
           ],
-          "crossRefs": ["kp-periodization", "kp-rest-management", "kp-warmup"],
-          "tags": ["advanced", "competition", "training"]
+          "crossRefs": [
+            "kp-periodization",
+            "kp-rest-management",
+            "kp-warmup"
+          ],
+          "tags": [
+            "advanced",
+            "competition",
+            "training"
+          ],
+          "expertInsights": [
+            {
+              "zh": "巅峰期（Peaking）的核心原则是减量恢复（Taper）：赛前 1-2 周将训练量减少 40-60%，但保持训练强度不降。这让身体从长期训练积累中恢复，以最佳状态参赛。减量期间运动员常感到「变弱了」的心理不安——这是正常现象，体力实际上在恢复中超量补偿。赛前可用 1-2 次短时高强度激活训练（而非长时间训练）维持状态感。",
+              "en": "The core peaking principle is taper: reduce training volume by 40-60% in the 1-2 weeks before competition while maintaining intensity. This allows the body to recover from accumulated training stress and supercompensate. Athletes often feel 'weaker' during taper -- this is normal; fitness is actually rebounding through supercompensation. Maintain the performance feel with 1-2 short, high-intensity activation sessions (not long training sessions) before competition.",
+              "source": "Climbing Magazine (Neil Gresham)",
+              "sourceUrl": "https://www.climbing.com/skills/climbing-training-peaking/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Building a Better Climber: Phase 8 — Peaking",
+              "url": "https://www.climbing.com/skills/climbing-training-peaking/",
+              "source": "Climbing Magazine / Rock and Ice Magazine",
+              "language": "en",
+              "articleType": "training"
+            },
+            {
+              "title": "Building a Better Climber: Phase 5 — Strength and Power",
+              "url": "https://www.climbing.com/skills/climbing-training-strength-power/",
+              "source": "Climbing Magazine / Rock and Ice Magazine",
+              "language": "en",
+              "articleType": "training"
+            },
+            {
+              "title": "Building a Better Climber: Phase 7 — Power Endurance",
+              "url": "https://www.climbing.com/skills/complete-climbing-training-program-power-endurance/",
+              "source": "Climbing Magazine / Rock and Ice Magazine",
+              "language": "en",
+              "articleType": "training"
+            }
+          ]
         },
         {
           "id": "kp-comp-simulation",
@@ -235,14 +686,68 @@
             "en": "Competition simulation bridges training and performance. Organize regular full simulations including isolation (phones off), timed observation, timed climbing, and scored results. Invite other climbers as competitors and even non-climbing friends as audience to simulate psychological pressure. Conduct at least one full simulation monthly.\n\nTarget specific elements with focused drills: timed route reading (6 minutes for a new route), pressure climbing (near-limit routes while fatigued or observed), and onsight marathons (consecutive onsight attempts simulating sustained output). After every simulation or competition, conduct detailed post-analysis: review video footage, assess decision quality, note psychological state changes, and discuss tactics with coaches. Maintain a competition journal to track progress trends."
           },
           "terms": [
-            { "zh": "模拟比赛", "en": "competition simulation" },
-            { "zh": "赛后复盘", "en": "post-competition analysis" },
-            { "zh": "比赛日志", "en": "competition journal" },
-            { "zh": "限时读线", "en": "timed route reading" },
-            { "zh": "onsight马拉松", "en": "onsight marathon" }
+            {
+              "zh": "模拟比赛",
+              "en": "competition simulation"
+            },
+            {
+              "zh": "赛后复盘",
+              "en": "post-competition analysis"
+            },
+            {
+              "zh": "比赛日志",
+              "en": "competition journal"
+            },
+            {
+              "zh": "限时读线",
+              "en": "timed route reading"
+            },
+            {
+              "zh": "onsight马拉松",
+              "en": "onsight marathon"
+            }
           ],
-          "crossRefs": ["kp-projecting-strategy", "kp-flow-state", "kp-fear-management"],
-          "tags": ["intermediate", "competition", "training"]
+          "crossRefs": [
+            "kp-projecting-strategy",
+            "kp-flow-state",
+            "kp-fear-management"
+          ],
+          "tags": [
+            "intermediate",
+            "competition",
+            "training"
+          ],
+          "expertInsights": [
+            {
+              "zh": "有效的竞赛模拟必须复制赛场的完整体验，而不仅仅是爬难路线。月度全真模拟应包括：隔离等待（至少 30 分钟无攀爬、无观察）、限时观察窗口、计时攀爬、以及观众压力（邀请朋友围观）。赛后分析同样重要：视频回看每次尝试，分析决策失误（读线错误？节奏问题？心理崩盘？），建立个人「失败模式数据库」，针对性改进。",
+              "en": "Effective competition simulation must replicate the complete competition experience, not just climbing hard routes. Monthly full simulations should include: isolation wait (at least 30 minutes with no climbing or viewing), timed observation window, timed climbing, and audience pressure (invite friends to watch). Post-analysis is equally important: video review each attempt, analyze decision errors (misread? pacing? mental breakdown?), build a personal 'failure pattern database' for targeted improvement.",
+              "source": "Climbing Magazine (Neil Gresham)",
+              "sourceUrl": "https://www.climbing.com/skills/complete-climbing-training-program-power-endurance/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Building a Better Climber: Phase 7 — Power Endurance",
+              "url": "https://www.climbing.com/skills/complete-climbing-training-program-power-endurance/",
+              "source": "Climbing Magazine / Rock and Ice Magazine",
+              "language": "en",
+              "articleType": "training"
+            },
+            {
+              "title": "Building a Better Climber: Phase 5 — Strength and Power",
+              "url": "https://www.climbing.com/skills/climbing-training-strength-power/",
+              "source": "Climbing Magazine / Rock and Ice Magazine",
+              "language": "en",
+              "articleType": "training"
+            },
+            {
+              "title": "Building a Better Climber: Phase 8 — Peaking",
+              "url": "https://www.climbing.com/skills/climbing-training-peaking/",
+              "source": "Climbing Magazine / Rock and Ice Magazine",
+              "language": "en",
+              "articleType": "training"
+            }
+          ]
         }
       ]
     },
@@ -270,14 +775,67 @@
             "en": "Competition anxiety affects virtually all athletes. Moderate anxiety enhances alertness, but excessive anxiety impairs performance. The goal is to manage, not eliminate, anxiety.\n\nPhysical symptoms include elevated heart rate, sweaty palms, muscle tension, and rapid breathing. Psychological symptoms include excessive worry, attention deficits, negative self-talk, and mental rigidity. Breath control is the most accessible tool: the 4-7-8 technique (inhale 4s, hold 7s, exhale 8s) or simply ensuring exhales are longer than inhales activates the parasympathetic relaxation response.\n\nCognitive reframing transforms anxiety's impact: reframe nervousness as readiness, difficulty as opportunity. Shift focus from uncontrollable factors (opponents, grades, results) to controllable ones (breathing, movement execution, the present step). This process-oriented mindset is a powerful anxiety management strategy."
           },
           "terms": [
-            { "zh": "竞赛焦虑", "en": "competition anxiety" },
-            { "zh": "呼吸控制", "en": "breath control" },
-            { "zh": "认知重构", "en": "cognitive reframing" },
-            { "zh": "过程导向", "en": "process-oriented" },
-            { "zh": "副交感神经", "en": "parasympathetic nervous system" }
+            {
+              "zh": "竞赛焦虑",
+              "en": "competition anxiety"
+            },
+            {
+              "zh": "呼吸控制",
+              "en": "breath control"
+            },
+            {
+              "zh": "认知重构",
+              "en": "cognitive reframing"
+            },
+            {
+              "zh": "过程导向",
+              "en": "process-oriented"
+            },
+            {
+              "zh": "副交感神经",
+              "en": "parasympathetic nervous system"
+            }
           ],
-          "crossRefs": ["kp-fear-management", "kp-flow-state", "kp-warmup"],
-          "tags": ["intermediate", "competition"]
+          "crossRefs": [
+            "kp-fear-management",
+            "kp-flow-state",
+            "kp-warmup"
+          ],
+          "tags": [
+            "intermediate",
+            "competition"
+          ],
+          "expertInsights": [
+            {
+              "zh": "焦虑与激活（Activation）的生理反应几乎相同——心跳加速、手心出汗、肌肉紧张——区别完全在于认知评价。认知重框架（Reframing）是最有效的干预手段：将「我好紧张」重新解读为「我的身体已准备好高水平表现」。配合 Box Breathing（方形呼吸：4 秒吸-4 秒屏-4 秒呼-4 秒屏）可快速激活副交感神经系统，在 2-3 个循环内显著降低焦虑水平。建立固定的赛前例行程序（Pre-competition Routine），帮助大脑自动切换至「表现模式」。",
+              "en": "Anxiety and activation share nearly identical physiological responses -- elevated heart rate, sweaty palms, muscle tension -- the difference is entirely cognitive. Reframing is the most effective intervention: relabel 'I'm so nervous' as 'my body is ready to perform at a high level.' Combined with Box Breathing (4s inhale-4s hold-4s exhale-4s hold), this rapidly activates the parasympathetic nervous system, significantly reducing anxiety within 2-3 cycles. Establish a fixed pre-competition routine to help the brain automatically switch to 'performance mode.'",
+              "source": "Lattice Training",
+              "sourceUrl": "https://latticetraining.com/2023/03/16/overcome-performance-anxiety/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Overcome Performance Anxiety",
+              "url": "https://latticetraining.com/2023/03/16/overcome-performance-anxiety/",
+              "source": "Lattice Training",
+              "language": "en",
+              "articleType": "training"
+            },
+            {
+              "title": "Strategies to Help Youth Team Climbers Survive Isolation",
+              "url": "https://climbingbusinessjournal.com/strategies-to-help-youth-team-climbers-survive-isolation/",
+              "source": "Climbing Business Journal",
+              "language": "en",
+              "articleType": "training"
+            },
+            {
+              "title": "What is the Strong Mind Course",
+              "url": "https://strongmindclimbing.com/strong-mind-course/",
+              "source": "Strong Mind Climbing",
+              "language": "en",
+              "articleType": "training"
+            }
+          ]
         },
         {
           "id": "kp-performance-mindset",
@@ -290,14 +848,67 @@
             "en": "A growth mindset, where ability is seen as developable through effort, is crucial for competitive climbers. It transforms failures into learning opportunities rather than judgments of ability. This means actively seeking challenges, viewing unsuccessful attempts as weakness identification, and tracking personal progress rather than comparing with others.\n\nAttention management is critical: use sensory anchors (breath awareness, feet on ground) during waiting periods, and maintain narrow focus during climbing (only the current and next move). Build competition confidence through performance cues (recalling past breakthroughs), avoiding negative comparisons, and setting dual goals: a floor goal (solid performance) and a stretch goal (peak performance), reducing pressure while maintaining motivation."
           },
           "terms": [
-            { "zh": "成长型心态", "en": "growth mindset" },
-            { "zh": "注意力锚点", "en": "attention anchor" },
-            { "zh": "窄聚焦", "en": "narrow focus" },
-            { "zh": "表现线索", "en": "performance cues" },
-            { "zh": "双目标设定", "en": "dual goal setting" }
+            {
+              "zh": "成长型心态",
+              "en": "growth mindset"
+            },
+            {
+              "zh": "注意力锚点",
+              "en": "attention anchor"
+            },
+            {
+              "zh": "窄聚焦",
+              "en": "narrow focus"
+            },
+            {
+              "zh": "表现线索",
+              "en": "performance cues"
+            },
+            {
+              "zh": "双目标设定",
+              "en": "dual goal setting"
+            }
           ],
-          "crossRefs": ["kp-flow-state", "kp-projecting-strategy", "kp-fear-management"],
-          "tags": ["intermediate", "competition"]
+          "crossRefs": [
+            "kp-flow-state",
+            "kp-projecting-strategy",
+            "kp-fear-management"
+          ],
+          "tags": [
+            "intermediate",
+            "competition"
+          ],
+          "expertInsights": [
+            {
+              "zh": "心理技能与体能技能一样需要系统性重复训练——仅仅「知道」呼吸技巧或可视化方法远远不够，必须像训练指力一样规律练习才能内化。Hazel Findlay 的核心框架：①区分有用的恐惧（提示安全边界）和无用的恐惧（妨碍表现的焦虑）；②用过程导向目标替代结果导向目标——将「完成路线」替换为「保持流畅节奏」；③识别并替换负面自我对话（「我做不到」→「专注下一个动作」）。",
+              "en": "Mental skills require systematic repetitive training just like physical skills -- merely 'knowing' breathing techniques or visualization methods is insufficient; they must be practiced as regularly as finger strength to become internalized. Hazel Findlay's core framework: (1) distinguish useful fear (safety boundary signals) from useless fear (performance-blocking anxiety); (2) replace outcome goals with process goals -- swap 'complete the route' for 'maintain smooth rhythm'; (3) identify and replace negative self-talk ('I can't do this' → 'focus on the next move').",
+              "source": "Strong Mind Climbing (Hazel Findlay)",
+              "sourceUrl": "https://strongmindclimbing.com/strong-mind-course/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "What is the Strong Mind Course",
+              "url": "https://strongmindclimbing.com/strong-mind-course/",
+              "source": "Strong Mind Climbing",
+              "language": "en",
+              "articleType": "training"
+            },
+            {
+              "title": "Visualisation for Bold Climbing",
+              "url": "https://strongmindclimbing.com/visualisation/",
+              "source": "Strong Mind Climbing",
+              "language": "en",
+              "articleType": "training"
+            },
+            {
+              "title": "Overcome Performance Anxiety",
+              "url": "https://latticetraining.com/2023/03/16/overcome-performance-anxiety/",
+              "source": "Lattice Training",
+              "language": "en",
+              "articleType": "training"
+            }
+          ]
         },
         {
           "id": "kp-pressure-visualization",
@@ -310,14 +921,67 @@
             "en": "At elite levels, psychological resilience often determines outcomes. Effective pressure management begins with identifying personal pressure sources (ranking expectations, audience, opponents, self-imposed standards) and developing targeted coping strategies. Replace outcome goals with process goals, and desensitize to audience pressure through gradual exposure in training.\n\nVisualization is one of the most powerful mental training tools. Vivid mental imagery incorporating visual, kinesthetic, auditory, and emotional elements strengthens motor patterns and mental readiness without physical fatigue. Research shows high-quality visualization activates nearly the same brain regions as actual movement.\n\nPractice 10-15 minutes daily: begin with familiar routes, progressively adding competition scenarios including waiting in isolation, route observation, climbing, encountering cruxes, and successful completion. Critically, include coping imagery: visualize potential problems (failed moves, sweaty hands, attention drift) and your calm response to them. Pre-competition visualization on the day before and morning of the event is particularly effective."
           },
           "terms": [
-            { "zh": "意象化训练", "en": "visualization" },
-            { "zh": "动觉意象", "en": "kinesthetic imagery" },
-            { "zh": "压力脱敏", "en": "pressure desensitization" },
-            { "zh": "过程目标", "en": "process goal" },
-            { "zh": "困难应对意象", "en": "coping imagery" }
+            {
+              "zh": "意象化训练",
+              "en": "visualization"
+            },
+            {
+              "zh": "动觉意象",
+              "en": "kinesthetic imagery"
+            },
+            {
+              "zh": "压力脱敏",
+              "en": "pressure desensitization"
+            },
+            {
+              "zh": "过程目标",
+              "en": "process goal"
+            },
+            {
+              "zh": "困难应对意象",
+              "en": "coping imagery"
+            }
           ],
-          "crossRefs": ["kp-flow-state", "kp-fear-management", "kp-projecting-strategy"],
-          "tags": ["advanced", "competition"]
+          "crossRefs": [
+            "kp-flow-state",
+            "kp-fear-management",
+            "kp-projecting-strategy"
+          ],
+          "tags": [
+            "advanced",
+            "competition"
+          ],
+          "expertInsights": [
+            {
+              "zh": "有效的攀岩可视化必须满足五个要素：①多感官（不只「看」到动作，还要「感受」岩石触感和肌肉发力）；②情绪投入（模拟赛场紧张感而非完全放松状态下练习）；③实时速度（不可快进，可视化时间应与实际攀爬时间基本一致）；④预演错误并修正（不要只想完美执行，也要想象失误后如何恢复）；⑤第一人称视角（从自己的眼睛看，而非旁观者角度）。赛前建议在隔离区结束前 20-30 分钟进行完整可视化。",
+              "en": "Effective climbing visualization requires five elements: (1) Multi-sensory (not just 'seeing' movements but 'feeling' rock texture and muscle engagement); (2) Emotional involvement (simulate competition tension, don't practice in a fully relaxed state); (3) Real-time speed (no fast-forwarding; visualization duration should match actual climbing time); (4) Error rehearsal and recovery (don't only imagine perfect execution; also imagine recovering from mistakes); (5) First-person perspective (see from your own eyes, not as a spectator). Pre-competition visualization should be completed 20-30 minutes before leaving isolation.",
+              "source": "Strong Mind Climbing",
+              "sourceUrl": "https://strongmindclimbing.com/visualisation/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Visualisation for Bold Climbing",
+              "url": "https://strongmindclimbing.com/visualisation/",
+              "source": "Strong Mind Climbing",
+              "language": "en",
+              "articleType": "training"
+            },
+            {
+              "title": "Building a Better Climber: Phase 8 — Peaking",
+              "url": "https://www.climbing.com/skills/climbing-training-peaking/",
+              "source": "Climbing Magazine / Rock and Ice Magazine",
+              "language": "en",
+              "articleType": "training"
+            },
+            {
+              "title": "What is the Strong Mind Course",
+              "url": "https://strongmindclimbing.com/strong-mind-course/",
+              "source": "Strong Mind Climbing",
+              "language": "en",
+              "articleType": "training"
+            }
+          ]
         }
       ]
     },
@@ -345,14 +1009,60 @@
             "en": "The International Federation of Sport Climbing (IFSC), established in 2007 and headquartered in Turin, Italy, is the global governing body for competitive climbing. It separated from the UIAA to focus exclusively on competition climbing and currently has over 90 member federations. The IFSC is recognized by the International Olympic Committee (IOC).\n\nCore responsibilities include setting competition rules, organizing World Championships (biennial) and World Cup series (annual multi-city circuit), managing athlete rankings, promoting global development, enforcing anti-doping policy, and certifying international judges and route setters. The IFSC also manages climbing's participation in the Olympic Games and other multi-sport events like the Asian Games."
           },
           "terms": [
-            { "zh": "国际攀联", "en": "IFSC" },
-            { "zh": "世界锦标赛", "en": "World Championships" },
-            { "zh": "世界杯", "en": "World Cup" },
-            { "zh": "国际奥委会", "en": "IOC" },
-            { "zh": "反兴奋剂", "en": "anti-doping" }
+            {
+              "zh": "国际攀联",
+              "en": "IFSC"
+            },
+            {
+              "zh": "世界锦标赛",
+              "en": "World Championships"
+            },
+            {
+              "zh": "世界杯",
+              "en": "World Cup"
+            },
+            {
+              "zh": "国际奥委会",
+              "en": "IOC"
+            },
+            {
+              "zh": "反兴奋剂",
+              "en": "anti-doping"
+            }
           ],
-          "crossRefs": ["kp-lead-competition", "kp-speed-competition", "kp-boulder-competition"],
-          "tags": ["beginner", "competition"]
+          "crossRefs": [
+            "kp-lead-competition",
+            "kp-speed-competition",
+            "kp-boulder-competition"
+          ],
+          "tags": [
+            "beginner",
+            "competition"
+          ],
+          "expertInsights": [
+            {
+              "zh": "IFSC 的历史起点：1985 年意大利 Bardonecchia 的 SportRoccia 是首届有组织的先锋攀岩比赛，同年法国 FFME 在 Lyon 举办首届室内攀岩赛。2007 年 IFSC 从 UIAA（国际登山联合会）独立为专属单项体育联合会。2016 年 IOC 批准攀岩列入 2020 东京奥运。如今 IFSC 管辖 90+ 个国家/地区会员联合会，管理世界锦标赛（双年制）、世界杯（年度多站制）和全球运动员排名系统。",
+              "en": "IFSC's origins: the 1985 SportRoccia in Bardonecchia, Italy was the first organized lead climbing competition; the same year, France's FFME held the first indoor climbing event in Lyon. IFSC became independent from UIAA in 2007 as a dedicated international federation. In 2016, the IOC approved climbing for the 2020 Tokyo Olympics. Today IFSC governs 90+ member federations, managing World Championships (biennial), World Cup (annual multi-stop), and global athlete ranking systems.",
+              "source": "Gripped Magazine",
+              "sourceUrl": "https://gripped.com/events/indoor-weekly-history-climbing-olympic-sport/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Indoor Weekly: History of Climbing as Olympic Sport",
+              "url": "https://gripped.com/events/indoor-weekly-history-climbing-olympic-sport/",
+              "source": "Gripped Magazine",
+              "language": "en",
+              "articleType": "research"
+            },
+            {
+              "title": "About – USA Climbing",
+              "url": "https://usaclimbing.org/about/",
+              "source": "USA Climbing",
+              "language": "en",
+              "articleType": "research"
+            }
+          ]
         },
         {
           "id": "kp-national-federations",
@@ -365,14 +1075,66 @@
             "en": "National federations manage domestic competitive climbing, organize national events, select national team members, and represent their countries in IFSC affairs. Key federations include USA Climbing (comprehensive youth development ladder), JMSCA of Japan (globally benchmarked youth training), the China Mountaineering Association's climbing committee, FFME of France (Europe's largest climbing membership), and the BMC of the UK.\n\nDomestic competition systems typically progress from local to regional to national championships, often including a multi-round national league. Mature federations provide coach certification, national training centers, sports science support (physical testing, nutrition, psychology), international travel funding, and academic-athletic balance guidance. The sophistication of these support systems directly affects international competitiveness."
           },
           "terms": [
-            { "zh": "国家联合会", "en": "national federation" },
-            { "zh": "全国锦标赛", "en": "national championships" },
-            { "zh": "国家队选拔", "en": "national team selection" },
-            { "zh": "教练认证", "en": "coach certification" },
-            { "zh": "选手发展", "en": "athlete development" }
+            {
+              "zh": "国家联合会",
+              "en": "national federation"
+            },
+            {
+              "zh": "全国锦标赛",
+              "en": "national championships"
+            },
+            {
+              "zh": "国家队选拔",
+              "en": "national team selection"
+            },
+            {
+              "zh": "教练认证",
+              "en": "coach certification"
+            },
+            {
+              "zh": "选手发展",
+              "en": "athlete development"
+            }
           ],
-          "crossRefs": ["kp-youth-competition", "kp-periodization"],
-          "tags": ["beginner", "competition"]
+          "crossRefs": [
+            "kp-youth-competition",
+            "kp-periodization"
+          ],
+          "tags": [
+            "beginner",
+            "competition"
+          ],
+          "expertInsights": [
+            {
+              "zh": "成熟的国家攀岩联合会提供的不仅是赛事组织，更是一套完整的竞技支持体系：教练认证系统、国家训练中心、运动科学支持（体能测试/营养/运动心理）、国际赛事差旅经费等。这种体系的成熟度直接影响奥运竞争力——日本、法国、奥地利等攀岩强国的联合会系统远比新兴国家完善。以 USA Climbing 为例：2017 年获 USOPC 认可后建立了 9 个地理分区 + 精英/青少年/高校三级赛事体系。",
+              "en": "Mature national climbing federations provide far more than event organization -- they offer complete competitive support systems: coach certification, national training centers, sports science support (testing/nutrition/psychology), and international travel funding. System maturity directly impacts Olympic competitiveness -- powerhouses like Japan, France, and Austria have far more developed federation systems than emerging nations. USA Climbing, for example, built a 9-region + elite/youth/collegiate three-tier competition system after gaining USOPC recognition in 2017.",
+              "source": "USA Climbing",
+              "sourceUrl": "https://usaclimbing.org/about/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "About – USA Climbing",
+              "url": "https://usaclimbing.org/about/",
+              "source": "USA Climbing",
+              "language": "en",
+              "articleType": "research"
+            },
+            {
+              "title": "Speed – USA Climbing",
+              "url": "https://usaclimbing.org/climb/speed/",
+              "source": "USA Climbing",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Indoor Weekly: History of Climbing as Olympic Sport",
+              "url": "https://gripped.com/events/indoor-weekly-history-climbing-olympic-sport/",
+              "source": "Gripped Magazine",
+              "language": "en",
+              "articleType": "research"
+            }
+          ]
         },
         {
           "id": "kp-competition-circuit-rankings",
@@ -385,14 +1147,67 @@
             "en": "The IFSC World Cup is the premier annual series, with 6-10 events per discipline across global cities. Points are awarded by placement at each event, with cumulative season points determining the overall World Cup champion. Events typically feature qualification, semifinal, and final rounds, with top-ranked athletes potentially receiving seeded entry.\n\nThe IFSC maintains a global ranking system based on results over 12-24 months, with different event tiers receiving different point weights. Rankings determine start order (higher-ranked climbers start later in lead, an advantage for warm-up time) and influence Olympic qualification. Beyond official IFSC events, commercial competitions and exhibition matches with innovative formats (elimination bouldering, head-to-head lead) are growing, along with outdoor bouldering competitions on natural rock."
           },
           "terms": [
-            { "zh": "世界杯巡回赛", "en": "World Cup circuit" },
-            { "zh": "积分系统", "en": "points system" },
-            { "zh": "种子选手", "en": "seeded athlete" },
-            { "zh": "年度排名", "en": "annual ranking" },
-            { "zh": "参赛资格", "en": "qualification / quota" }
+            {
+              "zh": "世界杯巡回赛",
+              "en": "World Cup circuit"
+            },
+            {
+              "zh": "积分系统",
+              "en": "points system"
+            },
+            {
+              "zh": "种子选手",
+              "en": "seeded athlete"
+            },
+            {
+              "zh": "年度排名",
+              "en": "annual ranking"
+            },
+            {
+              "zh": "参赛资格",
+              "en": "qualification / quota"
+            }
           ],
-          "crossRefs": ["kp-ifsc", "kp-combined-olympic", "kp-peaking"],
-          "tags": ["beginner", "competition"]
+          "crossRefs": [
+            "kp-ifsc",
+            "kp-combined-olympic",
+            "kp-peaking"
+          ],
+          "tags": [
+            "beginner",
+            "competition"
+          ],
+          "expertInsights": [
+            {
+              "zh": "IFSC 世界杯赛季制：每年 10+ 站（2025 年共 11 站，横跨中国、巴西、美国、欧洲等 9 国），选手在各站积累积分，赛季末决出总冠军。排名不仅关乎荣誉——先锋赛中高排名选手后出场（更多热身时间和观察信息的优势），且世界排名直接影响奥运参赛名额分配。赛季高潮为世界锦标赛（2025 年首尔），是唯一的世界冠军头衔授予赛事。Janja Garnbret 2019 年创造历史：首位单赛季赢得全部抱石世界杯分站的攀岩者。",
+              "en": "IFSC World Cup season: 10+ stops annually (11 in 2025 across 9 countries including China, Brazil, USA, and Europe), with cumulative points determining the overall champion. Rankings matter beyond prestige -- higher-ranked lead climbers start later (gaining warm-up and observation advantages), and world rankings directly influence Olympic quota allocation. The season peaks at the World Championships (Seoul 2025), the only event awarding world champion titles. Janja Garnbret made history in 2019 as the first climber to win every World Cup bouldering stop in a single season.",
+              "source": "Rock Spot Climbing",
+              "sourceUrl": "https://rockspotclimbing.com/blog/2025/07/07/how-to-watch-the-next-ifsc-world-cup-climbing-explained/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "How to Watch the Next IFSC World Cup: Climbing Explained",
+              "url": "https://rockspotclimbing.com/blog/2025/07/07/how-to-watch-the-next-ifsc-world-cup-climbing-explained/",
+              "source": "Rock Spot Climbing",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "IFSC World Cup Climbing Rules & Scoring Explained",
+              "url": "https://gearjunkie.com/climbing/ifsc-climbing-explained",
+              "source": "GearJunkie",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "About – USA Climbing",
+              "url": "https://usaclimbing.org/about/",
+              "source": "USA Climbing",
+              "language": "en",
+              "articleType": "research"
+            }
+          ]
         }
       ]
     }

@@ -25,13 +25,62 @@
             "en": "Edging is the most fundamental footwork technique, using the edge of the climbing shoe (typically the inside big-toe edge) to stand on holds, concentrating pressure on a small area for maximum friction.\n\n**Inside Edge:** Using the big-toe side, the strongest and most common stance. Toes turned slightly inward, weight centered on the ball of the big toe. Best for most hold types when facing the wall.\n\n**Outside Edge:** Using the pinky-toe side. Weaker but essential for back stepping and drop knees, allowing hips to stay closer to the wall.\n\nBeginners should develop the habit of watching their feet on every placement and practice silent feet (placing feet without sound) to build precision."
           },
           "terms": [
-            { "zh": "边踩", "en": "edging" },
-            { "zh": "内侧边踩", "en": "inside edge" },
-            { "zh": "外侧边踩", "en": "outside edge" },
-            { "zh": "静音踩点", "en": "silent feet" }
+            {
+              "zh": "边踩",
+              "en": "edging"
+            },
+            {
+              "zh": "内侧边踩",
+              "en": "inside edge"
+            },
+            {
+              "zh": "外侧边踩",
+              "en": "outside edge"
+            },
+            {
+              "zh": "静音踩点",
+              "en": "silent feet"
+            }
           ],
-          "crossRefs": ["kp-climbing-shoes", "kp-slab-technique", "kp-drop-knee"],
-          "tags": ["beginner", "technique"]
+          "crossRefs": [
+            "kp-climbing-shoes",
+            "kp-slab-technique",
+            "kp-drop-knee"
+          ],
+          "tags": [
+            "beginner",
+            "technique"
+          ],
+          "expertInsights": [
+            {
+              "zh": "硬底攀岩鞋更擅长 edging，软底鞋更适合 smearing——根据路线脚点特征选择鞋子硬度，而非只凭偏好。",
+              "en": "Stiff-soled shoes excel at edging while soft-soled shoes are better for smearing -- choose shoe stiffness based on route foothold characteristics, not just preference.",
+              "source": "VDiff Climbing",
+              "sourceUrl": "https://www.vdiffclimbing.com/sport-technique-footwork/"
+            },
+            {
+              "zh": "脚法精度训练的核心是「看眼睛到脚上去」——每次踩点时保持目光锁定脚部直到放置完全稳定，这一个习惯就能大幅提升脚法质量。",
+              "en": "The core of footwork precision is keeping your eyes on your foot until the placement is fully secure -- this single habit dramatically improves footwork quality.",
+              "source": "VDiff Climbing",
+              "sourceUrl": "https://www.vdiffclimbing.com/sport-technique-footwork/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Footwork – Improve Your Rock Climbing Technique",
+              "url": "https://www.vdiffclimbing.com/sport-technique-footwork/",
+              "source": "VDiff Climbing",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "The Science of Footwork: An Edging & Smearing Masterclass",
+              "url": "https://rockclimbingrealms.com/the-science-of-footwork-an-edging-smearing-masterclass/",
+              "source": "Rock Climbing Realms",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-smearing",
@@ -44,13 +93,49 @@
             "en": "Smearing is the technique of using shoe rubber friction against the wall surface when no defined footholds exist. The climber presses as much sole area as possible onto the rock, relying on rubber-to-rock friction for support. This is the core technique for slab climbing.\n\n**Key elements:** Maximize contact area by pressing the foot flat against the rock. Push the knee forward with the heel slightly lower than the toes to increase normal force. Trust the friction and commit your weight confidently.\n\n**Applications:** Essential on slabs but useful on steep terrain when holds are vague. Quality rubber (like Vibram XS Grip 2) significantly improves smearing performance. Keep soles clean by wiping them before climbing."
           },
           "terms": [
-            { "zh": "摩擦踩", "en": "smearing" },
-            { "zh": "正压力", "en": "normal force" },
-            { "zh": "板岩", "en": "slab" },
-            { "zh": "鞋底橡胶", "en": "sole rubber" }
+            {
+              "zh": "摩擦踩",
+              "en": "smearing"
+            },
+            {
+              "zh": "正压力",
+              "en": "normal force"
+            },
+            {
+              "zh": "板岩",
+              "en": "slab"
+            },
+            {
+              "zh": "鞋底橡胶",
+              "en": "sole rubber"
+            }
           ],
-          "crossRefs": ["kp-slab-technique", "kp-climbing-shoes", "kp-edging"],
-          "tags": ["beginner", "technique"]
+          "crossRefs": [
+            "kp-slab-technique",
+            "kp-climbing-shoes",
+            "kp-edging"
+          ],
+          "tags": [
+            "beginner",
+            "technique"
+          ],
+          "expertInsights": [
+            {
+              "zh": "成功掌握脚法需要刻意、渐进的专项练习，而非仅靠更多攀爬。可以从注意力（是否看脚）、顺序（先放脚还是先出手）、张力（是否持续施压）三个维度诊断和改进脚法失误。",
+              "en": "Mastering footwork requires deliberate, progressive practice, not just more climbing. Diagnose footwork errors across three dimensions: attention (watching feet), sequence (feet before hands), and tension (continuous pressure application).",
+              "source": "Rock Climbing Realms",
+              "sourceUrl": "https://rockclimbingrealms.com/the-science-of-footwork-an-edging-smearing-masterclass/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "The Science of Footwork: An Edging & Smearing Masterclass",
+              "url": "https://rockclimbingrealms.com/the-science-of-footwork-an-edging-smearing-masterclass/",
+              "source": "Rock Climbing Realms",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-toe-hook",
@@ -63,13 +148,63 @@
             "en": "Toe hooking uses the top of the foot (shoe upper) to hook over a hold, pulling the body toward the foot. Unlike normal stepping where the sole faces down, the top of the foot faces up. This is critical for overhang and roof climbing.\n\n**Key points:** Hook the top or back of the hold with the toe area, actively pull with the leg, and engage core tension. Toe hooks effectively prevent barn-dooring (swinging out sideways due to imbalance).\n\n**Applications:** Hooking roof lips to aid transitions, using volumes in bouldering, and combining with heel hooks for bicycle technique.\n\nPractice on overhanging routes and look for toe hook opportunities. Competition shoes with more rubber coverage on the toe box perform better for this technique."
           },
           "terms": [
-            { "zh": "勾脚尖", "en": "toe hook" },
-            { "zh": "门打开效应", "en": "barn door" },
-            { "zh": "身体张力", "en": "body tension" },
-            { "zh": "体积点", "en": "volume" }
+            {
+              "zh": "勾脚尖",
+              "en": "toe hook"
+            },
+            {
+              "zh": "门打开效应",
+              "en": "barn door"
+            },
+            {
+              "zh": "身体张力",
+              "en": "body tension"
+            },
+            {
+              "zh": "体积点",
+              "en": "volume"
+            }
           ],
-          "crossRefs": ["kp-heel-hook", "kp-overhang-technique", "kp-roof-technique", "kp-core-role"],
-          "tags": ["intermediate", "technique"]
+          "crossRefs": [
+            "kp-heel-hook",
+            "kp-overhang-technique",
+            "kp-roof-technique",
+            "kp-core-role"
+          ],
+          "tags": [
+            "intermediate",
+            "technique"
+          ],
+          "expertInsights": [
+            {
+              "zh": "Toe hook 最常见的误解是用「脚趾」勾——实际上力点在脚背（dorsum），类似 kneebar 中用的不是膝盖本身。它是技巧动作而非力量动作，重点在于身体位置和压缩力。",
+              "en": "The most common misconception about toe hooks is using the toes -- the actual contact point is the dorsum (top of foot), similar to how a kneebar doesn't actually use the kneecap. It's a technique move, not a strength move, focusing on body position and compression.",
+              "source": "Power Company Climbing",
+              "sourceUrl": "https://www.powercompanyclimbing.com/blog/how-to-toe-hook"
+            },
+            {
+              "zh": "Toe hook 在屋顶和倒壁地形中的核心作用是减轻手臂负担而非发力拉起身体。正确执行时，髋部放低、腿保持相对伸直，利用脚勾和对侧手之间的压缩力。",
+              "en": "The core purpose of toe hooks on roofs and overhangs is to reduce arm load, not to pull the body up. Execute correctly with hips low, legs relatively straight, using compression between the toe hook and the opposite hand.",
+              "source": "Power Company Climbing",
+              "sourceUrl": "https://www.powercompanyclimbing.com/blog/how-to-toe-hook"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "How To Toe Hook: The Most Misunderstood Climbing Technique",
+              "url": "https://www.powercompanyclimbing.com/blog/how-to-toe-hook",
+              "source": "Power Company Climbing",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Develop Fantastic Footwork with Heel-Hook and Toe-Hook Technique",
+              "url": "https://trainingforclimbing.com/develop-fantastic-footwork-with-heel-hook-and-toe-hook-technique/",
+              "source": "Training For Climbing (Eric Hörst)",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-heel-hook",
@@ -82,13 +217,57 @@
             "en": "Heel hooking uses the heel to hook onto holds, pulling the body via the hamstrings and glutes. This is one of the most frequently used advanced footwork techniques on overhangs, significantly offloading the arms.\n\n**Key points:** Place the heel's rubber area on top or behind the hold. Actively pull with hamstrings and glutes (like a leg curl). Higher heel hooks bear more weight. Maintain core tension to prevent rotation.\n\n**High Heel Hooks:** Hooking at hand-level or higher requires good hamstring and hip flexibility, enabling nearly arm-free upward movement on steep terrain.\n\n**Common mistakes:** Passively resting the heel without pulling, neglecting core engagement, and poor shoe heel fit causing slippage. Shoe selection should prioritize heel cup fit and rubber coverage."
           },
           "terms": [
-            { "zh": "勾脚跟", "en": "heel hook" },
-            { "zh": "高勾脚跟", "en": "high heel hook" },
-            { "zh": "腘绳肌", "en": "hamstrings" },
-            { "zh": "臀肌", "en": "glutes" }
+            {
+              "zh": "勾脚跟",
+              "en": "heel hook"
+            },
+            {
+              "zh": "高勾脚跟",
+              "en": "high heel hook"
+            },
+            {
+              "zh": "腘绳肌",
+              "en": "hamstrings"
+            },
+            {
+              "zh": "臀肌",
+              "en": "glutes"
+            }
           ],
-          "crossRefs": ["kp-toe-hook", "kp-hip-flexibility", "kp-overhang-technique", "kp-climbing-shoes"],
-          "tags": ["intermediate", "technique"]
+          "crossRefs": [
+            "kp-toe-hook",
+            "kp-hip-flexibility",
+            "kp-overhang-technique",
+            "kp-climbing-shoes"
+          ],
+          "tags": [
+            "intermediate",
+            "technique"
+          ],
+          "expertInsights": [
+            {
+              "zh": "Heel hook 的主要发力肌群是腘绳肌（而非小腿），配合核心张力稳定身体。两种勾脚技术（heel hook 和 toe hook）都需要良好的髋部灵活性才能充分发挥效果。",
+              "en": "The primary muscle group for heel hooks is the hamstrings (not the calves), combined with core tension for body stability. Both hooking techniques (heel and toe) require good hip flexibility for full effectiveness.",
+              "source": "Training For Climbing (Eric Hörst)",
+              "sourceUrl": "https://trainingforclimbing.com/develop-fantastic-footwork-with-heel-hook-and-toe-hook-technique/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Develop Fantastic Footwork with Heel-Hook and Toe-Hook Technique",
+              "url": "https://trainingforclimbing.com/develop-fantastic-footwork-with-heel-hook-and-toe-hook-technique/",
+              "source": "Training For Climbing (Eric Hörst)",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "10 Techniques for Climbing Overhangs",
+              "url": "https://gripped.com/indoor-climbing/10-techniques-for-climbing-overhangs/",
+              "source": "Gripped Magazine",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-bicycle",
@@ -101,12 +280,60 @@
             "en": "The bicycle technique uses a heel hook and toe hook simultaneously to clamp a hold between both feet. One heel hooks from above while the opposite toe hooks from below on the same hold (or adjacent holds), creating opposing clamping force.\n\n**Characteristics:** Provides extremely stable body positioning on overhangs and roofs. Can free both hands for adjustments or rest. Requires strong core and leg strength.\n\nThis is a high-frequency technique in modern competition climbing and bouldering. Train by finding volumes or large holds to practice clamping while releasing hands. Supplement with leg curls and core exercises."
           },
           "terms": [
-            { "zh": "自行车技术", "en": "bicycle" },
-            { "zh": "对向夹力", "en": "opposing clamp force" },
-            { "zh": "体积点", "en": "volume" }
+            {
+              "zh": "自行车技术",
+              "en": "bicycle"
+            },
+            {
+              "zh": "对向夹力",
+              "en": "opposing clamp force"
+            },
+            {
+              "zh": "体积点",
+              "en": "volume"
+            }
           ],
-          "crossRefs": ["kp-toe-hook", "kp-heel-hook", "kp-core-role", "kp-roof-technique"],
-          "tags": ["intermediate", "advanced", "technique"]
+          "crossRefs": [
+            "kp-toe-hook",
+            "kp-heel-hook",
+            "kp-core-role",
+            "kp-roof-technique"
+          ],
+          "tags": [
+            "intermediate",
+            "advanced",
+            "technique"
+          ],
+          "expertInsights": [
+            {
+              "zh": "Heel-toe cam 利用楔形原理固定脚部，效果可媲美踩在台阶上。硬底攀岩鞋在执行此技术时效果更佳——软底鞋容易折叠失去力量传递。",
+              "en": "The heel-toe cam uses a wedging principle to lock the foot in place, with effectiveness comparable to standing on a ledge. Stiff-soled shoes perform better -- soft shoes tend to fold and lose force transmission.",
+              "source": "Climbing Magazine",
+              "sourceUrl": "https://www.climbing.com/skills/the-heel-toe-cam/"
+            },
+            {
+              "zh": "从 heel-toe cam 发力站起时，应同时用腿发力和手臂向外拉，两股力协调才能有效利用楔形固定。此技术特别适用于存在明显圆形或凸出特征的倒壁路线。",
+              "en": "When powering up from a heel-toe cam, simultaneously push with the leg and pull outward with the arms -- coordinating both forces is key to leveraging the wedge. This technique is particularly effective on overhanging routes with prominent round or protruding features.",
+              "source": "Climbing Magazine",
+              "sourceUrl": "https://www.climbing.com/skills/the-heel-toe-cam/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "The Heel-Toe Cam",
+              "url": "https://www.climbing.com/skills/the-heel-toe-cam/",
+              "source": "Climbing Magazine",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "10 Terms to Understand Climbing Footwork",
+              "url": "https://gripped.com/profiles/10-terms-to-understand-climbing-footwork/",
+              "source": "Gripped Magazine",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-foot-switching",
@@ -119,13 +346,49 @@
             "en": "Foot switching replaces one foot with the other on the same hold. Multiple techniques exist:\n\n**Hop Switch:** Quickly hop to replace one foot with the other. Intuitive but risky on small holds.\n\n**Slide Switch:** Both feet share the hold briefly as one slides in and pushes the other out. Smooth and stable for larger holds.\n\n**Dab/Smear Switch:** Temporarily smear the replacement foot beside the hold, lift the original foot, then place the new foot. Best for tiny footholds.\n\nPractice all methods on easy routes, focusing on maintaining center of gravity stability throughout the switch."
           },
           "terms": [
-            { "zh": "换脚", "en": "foot switch" },
-            { "zh": "跳换", "en": "hop switch" },
-            { "zh": "滑换", "en": "slide switch" },
-            { "zh": "垫步换脚", "en": "dab switch" }
+            {
+              "zh": "换脚",
+              "en": "foot switch"
+            },
+            {
+              "zh": "跳换",
+              "en": "hop switch"
+            },
+            {
+              "zh": "滑换",
+              "en": "slide switch"
+            },
+            {
+              "zh": "垫步换脚",
+              "en": "dab switch"
+            }
           ],
-          "crossRefs": ["kp-edging", "kp-smearing", "kp-route-reading-basics"],
-          "tags": ["beginner", "technique"]
+          "crossRefs": [
+            "kp-edging",
+            "kp-smearing",
+            "kp-route-reading-basics"
+          ],
+          "tags": [
+            "beginner",
+            "technique"
+          ],
+          "expertInsights": [
+            {
+              "zh": "换脚时机的选择比换脚方法更重要。在出手之前完成换脚，而非出手后才发现脚的位置不对——提前规划脚的位置是流畅攀爬的基础。",
+              "en": "Timing the foot switch matters more than the method. Complete the switch before reaching, not after discovering your foot is wrong -- pre-planning foot position is the foundation of fluid climbing.",
+              "source": "Gripped Magazine",
+              "sourceUrl": "https://gripped.com/profiles/10-terms-to-understand-climbing-footwork/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "10 Terms to Understand Climbing Footwork",
+              "url": "https://gripped.com/profiles/10-terms-to-understand-climbing-footwork/",
+              "source": "Gripped Magazine",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-smedging",
@@ -138,12 +401,52 @@
             "en": "Smedging is a hybrid footwork technique between smearing and edging. When footholds exist but lack definition -- rounded surfaces, vague edges, or low-angle features -- pure edging lacks purchase while pure smearing wastes usable features. Smedging bridges this gap.\n\n**Technique:** Place the shoe's edge zone near the hold's vague edge, but instead of targeting a precise line (as in edging), create a broader contact area. Press downward with a slight inward rubbing motion, combining edging's directionality with smearing's area advantage. Push the knee forward over the toe to increase normal force.\n\n**Smedging vs Smearing vs Edging:**\n- **Pure edging** for crisp, well-defined edges\n- **Pure smearing** for completely featureless surfaces\n- **Smedging** for everything in between: rounded bumps on low-angle slabs, weathered and dulled edges, granular granite textures\n\n**Training:** Smedging is most common on outdoor low-angle slabs and granite friction routes. Practice on rounded slab holds in the gym, deliberately using the edge zone rather than full smearing. The key is developing sensitivity to subtle foothold features -- recognizing when an edge supports edging versus when you need to transition to smedging. Clean soles and good rubber condition are critical for smedging performance."
           },
           "terms": [
-            { "zh": "蹬踩", "en": "smedging" },
-            { "zh": "混合脚法", "en": "hybrid footwork" },
-            { "zh": "模糊边缘", "en": "vague edge" }
+            {
+              "zh": "蹬踩",
+              "en": "smedging"
+            },
+            {
+              "zh": "混合脚法",
+              "en": "hybrid footwork"
+            },
+            {
+              "zh": "模糊边缘",
+              "en": "vague edge"
+            }
           ],
-          "crossRefs": ["kp-edging", "kp-smearing", "kp-slab-technique"],
-          "tags": ["beginner", "technique"]
+          "crossRefs": [
+            "kp-edging",
+            "kp-smearing",
+            "kp-slab-technique"
+          ],
+          "tags": [
+            "beginner",
+            "technique"
+          ],
+          "expertInsights": [
+            {
+              "zh": "Smedging 的关键在于根据脚点的「模糊程度」调整鞋底接触策略：边缘越模糊，越需要增大接触面积；鞋子硬度也影响效果——硬底鞋更擅长 edging，软底鞋更适合 smearing，而 smedging 恰好利用两者之间的中间地带。",
+              "en": "The key to smedging is adjusting sole contact strategy based on foothold ambiguity: the vaguer the edge, the more contact area needed. Shoe stiffness matters too -- stiff soles favor edging, soft soles favor smearing, and smedging occupies the sweet spot between both.",
+              "source": "VDiff Climbing",
+              "sourceUrl": "https://www.vdiffclimbing.com/sport-technique-footwork/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Footwork – Improve Your Rock Climbing Technique",
+              "url": "https://www.vdiffclimbing.com/sport-technique-footwork/",
+              "source": "VDiff Climbing",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "The Science of Footwork: An Edging & Smearing Masterclass",
+              "url": "https://rockclimbingrealms.com/the-science-of-footwork-an-edging-smearing-masterclass/",
+              "source": "Rock Climbing Realms",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         }
       ]
     },
@@ -171,12 +474,45 @@
             "en": "Jugs are the easiest hold type, featuring deep, wide recesses that accommodate the full hand. Common on beginner routes in gyms and as natural ledges or horizontal cracks outdoors.\n\n**Usage tips:** Even on jugs, develop good habits. Avoid over-gripping since jugs provide ample friction. On overhanging jug routes, use each jug as a rest point to shake out. Jugs are the best opportunity to practice footwork since hand burden is minimal.\n\nIn harder routes, jugs typically appear at starts, key rest positions, and tops. Identifying jug locations during route reading helps plan rest strategies."
           },
           "terms": [
-            { "zh": "大把手点", "en": "jug" },
-            { "zh": "岩坎", "en": "ledge" },
-            { "zh": "抖手", "en": "shake out" }
+            {
+              "zh": "大把手点",
+              "en": "jug"
+            },
+            {
+              "zh": "岩坎",
+              "en": "ledge"
+            },
+            {
+              "zh": "抖手",
+              "en": "shake out"
+            }
           ],
-          "crossRefs": ["kp-route-reading-basics", "kp-rest-management", "kp-grip-types"],
-          "tags": ["beginner", "technique"]
+          "crossRefs": [
+            "kp-route-reading-basics",
+            "kp-rest-management",
+            "kp-grip-types"
+          ],
+          "tags": [
+            "beginner",
+            "technique"
+          ],
+          "expertInsights": [
+            {
+              "zh": "Jug 是练习高效攀爬习惯的最佳时机：强调「最有效技术」比「最强壮」更重要——在 Jug 上练习以最少动作到达下一个点，培养效率意识。",
+              "en": "Jugs are the best opportunity to practice efficient climbing habits: emphasize that effective technique matters more than strength -- use jugs to practice reaching the next hold with minimum moves, building efficiency awareness.",
+              "source": "99Boulders",
+              "sourceUrl": "https://www.99boulders.com/climbing-moves-holds-and-technique"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Climbing Moves, Holds, & Technique: The Beginner's Guide",
+              "url": "https://www.99boulders.com/climbing-moves-holds-and-technique",
+              "source": "99Boulders",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-crimp-hold",
@@ -189,13 +525,50 @@
             "en": "Crimps are among the most common and important hold types: shallow edges (typically 6-20mm deep) requiring specific finger bending angles.\n\n**Full Crimp:** Fingers bent ~90 degrees with thumb locked over the index finger. Maximum strength but highest A2 pulley stress. The leading cause of finger injuries.\n\n**Half Crimp:** Same finger angle without thumb lock. Reduces tendon load by ~20% while maintaining good grip. The recommended default grip for training.\n\n**Safety:** Beginners should favor half crimp and open hand, avoiding full crimps. Stop immediately if you feel A2 pulley pain (near the first joint of ring/middle finger). Systematic hangboard training safely builds crimp strength."
           },
           "terms": [
-            { "zh": "抠点", "en": "crimp" },
-            { "zh": "全捏握", "en": "full crimp" },
-            { "zh": "半捏握", "en": "half crimp" },
-            { "zh": "A2 滑车韧带", "en": "A2 pulley" }
+            {
+              "zh": "抠点",
+              "en": "crimp"
+            },
+            {
+              "zh": "全捏握",
+              "en": "full crimp"
+            },
+            {
+              "zh": "半捏握",
+              "en": "half crimp"
+            },
+            {
+              "zh": "A2 滑车韧带",
+              "en": "A2 pulley"
+            }
           ],
-          "crossRefs": ["kp-grip-types", "kp-pulley-injury", "kp-hangboard-training"],
-          "tags": ["beginner", "technique", "safety"]
+          "crossRefs": [
+            "kp-grip-types",
+            "kp-pulley-injury",
+            "kp-hangboard-training"
+          ],
+          "tags": [
+            "beginner",
+            "technique",
+            "safety"
+          ],
+          "expertInsights": [
+            {
+              "zh": "Crimp 是岩点类型也是握姿名称——理解这一点很重要：同一个浅边缘岩点，可以用 full crimp、half crimp 或 open hand 三种方式抓握，选择取决于边缘深度和路线需求。任何时候都应善用拇指：即使不做 full crimp，将拇指压在岩点侧面或顶部也能显著增加抓握力。",
+              "en": "Crimp is both a hold type and a grip name -- understanding this distinction matters. The same shallow edge can be gripped with full crimp, half crimp, or open hand, and the choice depends on edge depth and route demands. Always engage the thumb: even without full crimping, pressing the thumb against the side or top of the hold significantly increases grip strength.",
+              "source": "99Boulders",
+              "sourceUrl": "https://www.99boulders.com/climbing-moves-holds-and-technique"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Climbing Moves, Holds, & Technique: The Beginner's Guide",
+              "url": "https://www.99boulders.com/climbing-moves-holds-and-technique",
+              "source": "99Boulders",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-sloper-hold",
@@ -208,13 +581,49 @@
             "en": "Slopers are rounded holds without defined edges, relying entirely on friction between skin and rock surface. Counterintuitively, gripping harder makes slopers more difficult.\n\n**Grip technique:** Use open hand position, maximize skin contact area, drop the wrist slightly to conform to the curved surface, and keep hands dry with chalk.\n\n**Body positioning:** Position is more critical than grip strength on slopers. Keep your center of gravity directly below or slightly behind the hold so gravity aligns with friction direction.\n\n**Mental aspect:** Slopers require trusting friction without the security of a defined grip edge. Learning to stay relaxed and confident is key."
           },
           "terms": [
-            { "zh": "圆点", "en": "sloper" },
-            { "zh": "张手握", "en": "open hand" },
-            { "zh": "镁粉/粉笔", "en": "chalk" },
-            { "zh": "接触面积", "en": "contact area" }
+            {
+              "zh": "圆点",
+              "en": "sloper"
+            },
+            {
+              "zh": "张手握",
+              "en": "open hand"
+            },
+            {
+              "zh": "镁粉/粉笔",
+              "en": "chalk"
+            },
+            {
+              "zh": "接触面积",
+              "en": "contact area"
+            }
           ],
-          "crossRefs": ["kp-grip-types", "kp-smearing", "kp-fear-management"],
-          "tags": ["intermediate", "technique"]
+          "crossRefs": [
+            "kp-grip-types",
+            "kp-smearing",
+            "kp-fear-management"
+          ],
+          "tags": [
+            "intermediate",
+            "technique"
+          ],
+          "expertInsights": [
+            {
+              "zh": "Sloper 更多依赖身体位置而非握力。攀爬 sloper 需要额外的精神耐心、核心张力和安静的动作——相比其他岩点，sloper 对身体整体协调性和重心控制的要求高出一个档次。",
+              "en": "Slopers depend more on body position than grip strength. Climbing slopers demands extra mental patience, core tension, and quiet movement -- compared to other holds, slopers require a significantly higher level of overall body coordination and center of gravity control.",
+              "source": "TrainingBeta",
+              "sourceUrl": "https://www.trainingbeta.com/how-to-climb-slopers/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "How to Climb Slopers",
+              "url": "https://www.trainingbeta.com/how-to-climb-slopers/",
+              "source": "TrainingBeta",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-pinch-hold",
@@ -227,13 +636,50 @@
             "en": "Pinches require the thumb opposing other fingers to squeeze a hold from both sides. Common on natural rock and increasingly featured in gym route setting.\n\n**Variations:** Wide pinches (greater thumb spread), narrow pinches (closer grip), and round pinches (cylinder-like, combining squeeze and friction).\n\n**Training:** Thumb strength is the bottleneck. Use pinch blocks or hangboard pinch hangs. A simple exercise: pinch two weight plates together and hold. Bent arms generally produce more effective pinch force because pulling assists the opposing squeeze.\n\nIn climbing, deliberately choose pinch-heavy routes for practice, ensuring thumb force direction opposes the other fingers."
           },
           "terms": [
-            { "zh": "捏点", "en": "pinch" },
-            { "zh": "对握力", "en": "opposing grip force" },
-            { "zh": "宽捏", "en": "wide pinch" },
-            { "zh": "捏力训练器", "en": "pinch block" }
+            {
+              "zh": "捏点",
+              "en": "pinch"
+            },
+            {
+              "zh": "对握力",
+              "en": "opposing grip force"
+            },
+            {
+              "zh": "宽捏",
+              "en": "wide pinch"
+            },
+            {
+              "zh": "捏力训练器",
+              "en": "pinch block"
+            }
           ],
-          "crossRefs": ["kp-grip-types", "kp-hangboard-training", "kp-hangboard-gear"],
-          "tags": ["intermediate", "technique", "strength"]
+          "crossRefs": [
+            "kp-grip-types",
+            "kp-hangboard-training",
+            "kp-hangboard-gear"
+          ],
+          "tags": [
+            "intermediate",
+            "technique",
+            "strength"
+          ],
+          "expertInsights": [
+            {
+              "zh": "拇指是捏点的关键：任何时候抓握岩点都应该善用拇指参与，拇指的对握力能大幅增加有效握力。即使是非典型捏点，尝试让拇指接触岩面也能提供额外支撑。",
+              "en": "The thumb is key to pinches: always engage the thumb when gripping holds -- the opposing thumb force dramatically increases effective grip strength. Even on non-typical pinches, getting the thumb onto the rock surface provides extra support.",
+              "source": "99Boulders",
+              "sourceUrl": "https://www.99boulders.com/climbing-moves-holds-and-technique"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Climbing Moves, Holds, & Technique: The Beginner's Guide",
+              "url": "https://www.99boulders.com/climbing-moves-holds-and-technique",
+              "source": "99Boulders",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-pocket-hold",
@@ -246,13 +692,56 @@
             "en": "Pockets are hole-shaped holds accommodating one to three fingers. Classified as monos (one finger), two-finger pockets, and three-finger pockets. Most common on limestone and characteristic of areas like Ceuse (France) and Yangshuo (China).\n\n**Technique:** Three-finger pockets use index, middle, and ring fingers. Two-finger pockets prefer middle and ring fingers (strongest pair). Monos use the middle finger with extreme caution. Enter pockets in open hand position, avoiding full crimps.\n\n**Injury prevention:** Pockets create high stress on A2/A4 pulleys and flexor tendons. Dynamic catches into pockets multiply impact forces. Warm up thoroughly before pocket routes and carefully assess risk on monos."
           },
           "terms": [
-            { "zh": "指洞", "en": "pocket" },
-            { "zh": "单指洞", "en": "mono" },
-            { "zh": "双指洞", "en": "two-finger pocket" },
-            { "zh": "屈肌腱", "en": "flexor tendon" }
+            {
+              "zh": "指洞",
+              "en": "pocket"
+            },
+            {
+              "zh": "单指洞",
+              "en": "mono"
+            },
+            {
+              "zh": "双指洞",
+              "en": "two-finger pocket"
+            },
+            {
+              "zh": "屈肌腱",
+              "en": "flexor tendon"
+            }
           ],
-          "crossRefs": ["kp-grip-types", "kp-pulley-injury", "kp-warmup"],
-          "tags": ["intermediate", "technique", "safety"]
+          "crossRefs": [
+            "kp-grip-types",
+            "kp-pulley-injury",
+            "kp-warmup"
+          ],
+          "tags": [
+            "intermediate",
+            "technique",
+            "safety"
+          ],
+          "expertInsights": [
+            {
+              "zh": "Mono pocket 对手指滑车的压力远大于其他握姿——不对称的手指弯曲角度（某些手指悬空而其他手指承重）会急剧增加滑车受力。爬 pocket 前必须充分热身，最好先在更容易的 pocket 路线上逐步适应。",
+              "en": "Mono pockets create far more pulley stress than other grip types -- asymmetric finger flexion angles (some fingers loaded while others hang free) dramatically increase pulley forces. Always warm up thoroughly before pocket routes, ideally progressing through easier pockets first.",
+              "source": "TrainingBeta / The Climbing Doctor",
+              "sourceUrl": "https://www.trainingbeta.com/avoiding-injuries-on-pockets-the-climbing-doctor/"
+            },
+            {
+              "zh": "对拮抗肌（手指伸展肌群）的忽视是导致 pocket 伤病的主要因素之一。定期训练手指伸展力量（如使用橡皮筋）可以平衡屈肌和伸肌的力量比例，显著降低受伤风险。",
+              "en": "Neglecting antagonist muscles (finger extensors) is a major factor in pocket injuries. Regular extensor training (e.g., rubber band exercises) balances the flexor-to-extensor strength ratio, significantly reducing injury risk.",
+              "source": "TrainingBeta / The Climbing Doctor",
+              "sourceUrl": "https://www.trainingbeta.com/avoiding-injuries-on-pockets-the-climbing-doctor/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Avoiding Injuries on Pockets",
+              "url": "https://www.trainingbeta.com/avoiding-injuries-on-pockets-the-climbing-doctor/",
+              "source": "TrainingBeta / The Climbing Doctor",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-undercling-sidepull-gaston",
@@ -265,13 +754,50 @@
             "en": "These three techniques use pulling forces in non-standard directions:\n\n**Undercling:** Palm faces up, fingers grip from below. Body must be below the hold, using foot pushes to create opposing force. Many holds become usable when the grip direction is inverted.\n\n**Side Pull:** Pulling a hold from the side with fingers pointing sideways. The body leans opposite to the pull direction for balance. Common in traverses.\n\n**Gaston:** A special side pull with fingers facing outward, elbows splayed, like prying open elevator doors. Named after Gaston Rebuffat. Demands shoulder stability and bicep strength.\n\nAll three require coordinated body positioning and footwork. Arm strength alone cannot effectively utilize directional holds."
           },
           "terms": [
-            { "zh": "反抓", "en": "undercling" },
-            { "zh": "侧拉", "en": "side pull" },
-            { "zh": "加斯顿", "en": "gaston" },
-            { "zh": "遍历", "en": "traverse" }
+            {
+              "zh": "反抓",
+              "en": "undercling"
+            },
+            {
+              "zh": "侧拉",
+              "en": "side pull"
+            },
+            {
+              "zh": "加斯顿",
+              "en": "gaston"
+            },
+            {
+              "zh": "遍历",
+              "en": "traverse"
+            }
           ],
-          "crossRefs": ["kp-grip-types", "kp-flagging", "kp-twist-lock", "kp-route-reading-basics"],
-          "tags": ["intermediate", "technique"]
+          "crossRefs": [
+            "kp-grip-types",
+            "kp-flagging",
+            "kp-twist-lock",
+            "kp-route-reading-basics"
+          ],
+          "tags": [
+            "intermediate",
+            "technique"
+          ],
+          "expertInsights": [
+            {
+              "zh": "VDiff 的技术指南涵盖了 undercling、sidepull、gaston 三种非常规握姿的关键共同点：每种技术都配有身体位置要求的具体说明，强调身体位置比手臂力量更重要。",
+              "en": "VDiff's technique guide covers the key common thread across undercling, sidepull, and gaston: each technique requires specific body positioning, emphasizing that body position matters more than arm strength.",
+              "source": "VDiff Climbing",
+              "sourceUrl": "https://www.vdiffclimbing.com/sport-technique-movement/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Climbing Techniques: Moving on Rock",
+              "url": "https://www.vdiffclimbing.com/sport-technique-movement/",
+              "source": "VDiff Climbing",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-palming",
@@ -284,12 +810,45 @@
             "en": "Palming uses the entire palm surface pressed flat against rock for friction-based support. Unlike sloper gripping where fingers try to curl around the hold, palming treats the palm as a friction pad, relying purely on normal force and friction.\n\n**Key applications:**\n- **Volumes:** Modern gym volumes with smooth, large surfaces are ideal for palming. Press the full palm against flat or curved surfaces for support.\n- **Aretes:** One hand often palms one face of the arete to maintain balance, wrapping the palm surface to prevent body rotation.\n- **Mantles:** The critical pull-to-push transition requires palming the ledge top with fingers pointing toward the body, pushing up through the triceps.\n\n**Technique:** Palming effectiveness depends heavily on body position -- keep center of gravity aligned so gravity works with friction direction. Keep palms dry and clean; use chalk moderately since excess chalk can reduce friction on smooth surfaces. On steep terrain, palming effectiveness drops significantly as gravity no longer aids normal force production."
           },
           "terms": [
-            { "zh": "掌撑", "en": "palming" },
-            { "zh": "摩擦抓法", "en": "friction grip" },
-            { "zh": "正压力", "en": "normal force" }
+            {
+              "zh": "掌撑",
+              "en": "palming"
+            },
+            {
+              "zh": "摩擦抓法",
+              "en": "friction grip"
+            },
+            {
+              "zh": "正压力",
+              "en": "normal force"
+            }
           ],
-          "crossRefs": ["kp-sloper-hold", "kp-arete-mantle", "kp-slab-technique"],
-          "tags": ["intermediate", "technique"]
+          "crossRefs": [
+            "kp-sloper-hold",
+            "kp-arete-mantle",
+            "kp-slab-technique"
+          ],
+          "tags": [
+            "intermediate",
+            "technique"
+          ],
+          "expertInsights": [
+            {
+              "zh": "Palming 被专门列为中级技术：手掌平贴岩壁利用摩擦力，常用于板岩侧面保持平衡。按 V 级分级组织技术学习路径，palming 建议在 V3-V5 阶段重点掌握。",
+              "en": "Palming is specifically classified as an intermediate technique: pressing the palm flat against the wall for friction, commonly used on slab sides for balance. In a V-grade learning progression, palming should be a focus during the V3-V5 stage.",
+              "source": "Send Edition",
+              "sourceUrl": "https://sendedition.com/22-climbing-techniques-and-how-to-do-them/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Climbing Technique Fundamentals: 22 Essential Techniques Explained",
+              "url": "https://sendedition.com/22-climbing-techniques-and-how-to-do-them/",
+              "source": "Send Edition",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-hand-sequence",
@@ -302,14 +861,52 @@
             "en": "Hand sequences are the order and method of moving hands between holds during climbing. Correct sequencing creates fluid, efficient movement, while poor sequencing causes awkward positions, wasted energy, or impossible moves.\n\n**Core techniques:**\n- **Match:** Both hands on the same hold simultaneously. A transitional move for switching hand direction or adjusting grip position. Requires a hold large enough for two hands.\n- **Bump:** Moving the same hand to the next hold without switching -- skipping the match step. Saves one move and is valuable when energy is limited, but requires good balance.\n- **Cross Move:** Reaching across the other hand to grab a hold on the opposite side. Can cross over (above) or cross under (below). Efficiently covers lateral movement without multiple hand switches.\n- **Crossover:** A larger-amplitude cross where the crossing hand reaches well past the other, typically involving body rotation. Common in traverses.\n- **Hand Switch:** Replacing one hand with the other on the same hold. Similar to foot switching -- accomplished through quick exchange or brief hand sharing.\n\n**Sequence planning:** Plan hand sequences during route reading. Key considerations: Which hand needs to reach next? Will current sequencing cause awkward positions later? Can a bump save a move? Is a cross more efficient than multiple matches? Good sequence planning significantly reduces total moves and energy expenditure."
           },
           "terms": [
-            { "zh": "同点", "en": "match" },
-            { "zh": "跳点", "en": "bump" },
-            { "zh": "交叉手", "en": "cross move" },
-            { "zh": "交叉式", "en": "crossover" },
-            { "zh": "换手", "en": "hand switch" }
+            {
+              "zh": "同点",
+              "en": "match"
+            },
+            {
+              "zh": "跳点",
+              "en": "bump"
+            },
+            {
+              "zh": "交叉手",
+              "en": "cross move"
+            },
+            {
+              "zh": "交叉式",
+              "en": "crossover"
+            },
+            {
+              "zh": "换手",
+              "en": "hand switch"
+            }
           ],
-          "crossRefs": ["kp-route-reading-basics", "kp-foot-switching"],
-          "tags": ["beginner", "technique"]
+          "crossRefs": [
+            "kp-route-reading-basics",
+            "kp-foot-switching"
+          ],
+          "tags": [
+            "beginner",
+            "technique"
+          ],
+          "expertInsights": [
+            {
+              "zh": "路线阅读中规划手顺的最低要求是：识别所有岩点并规划手的顺序——仅此一步就能大幅提升 onsight 成功率。在地面模拟动作（mime）是最有效的手顺可视化方法。",
+              "en": "The minimum requirement for planning hand sequences during route reading is: identify all holds and plan the hand order -- this single step dramatically improves onsight success rate. Miming the moves on the ground is the most effective visualization method.",
+              "source": "Climbing Magazine",
+              "sourceUrl": "https://www.climbing.com/skills/reading-routes/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Increase Your Onsight Grade By Reading Routes From the Ground",
+              "url": "https://www.climbing.com/skills/reading-routes/",
+              "source": "Climbing Magazine",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         }
       ]
     },
@@ -337,13 +934,57 @@
             "en": "Center of gravity (COG) management is the foundation of all body positioning techniques, directly determining arm load, balance, and movement efficiency.\n\n**Principles:** On vertical/slab terrain, keep hips close to the wall with straight arms, letting the skeleton bear weight. On overhangs, use hooks and core strength to pull COG closer. Before reaching for the next hold, shift COG over the supporting foot first.\n\n**Methods:** Adjust vertically through knee flexion/extension, laterally through hip rotation (turning sideways), and through flagging for balance.\n\nThe most common beginner error is climbing with bent arms and hips away from the wall, causing rapid forearm fatigue. Practicing straight arms and hips against the wall is one of the most effective efficiency improvements."
           },
           "terms": [
-            { "zh": "重心", "en": "center of gravity (COG)" },
-            { "zh": "伸直手臂", "en": "straight arms" },
-            { "zh": "骨骼承重", "en": "skeletal loading" },
-            { "zh": "侧身入墙", "en": "turning in" }
+            {
+              "zh": "重心",
+              "en": "center of gravity (COG)"
+            },
+            {
+              "zh": "伸直手臂",
+              "en": "straight arms"
+            },
+            {
+              "zh": "骨骼承重",
+              "en": "skeletal loading"
+            },
+            {
+              "zh": "侧身入墙",
+              "en": "turning in"
+            }
           ],
-          "crossRefs": ["kp-flagging", "kp-drop-knee", "kp-slab-technique", "kp-aerobic-endurance"],
-          "tags": ["beginner", "technique"]
+          "crossRefs": [
+            "kp-flagging",
+            "kp-drop-knee",
+            "kp-slab-technique",
+            "kp-aerobic-endurance"
+          ],
+          "tags": [
+            "beginner",
+            "technique"
+          ],
+          "expertInsights": [
+            {
+              "zh": "所有技术技巧的核心目的是将重心保持在支撑点之上。技术流畅性（fluid movement）比掌握单个技术动作更重要——多种技术在真实路线中需要组合使用，而非孤立应用。",
+              "en": "The core purpose of all techniques is keeping the center of gravity over support points. Movement fluidity matters more than mastering individual techniques -- multiple techniques must be combined on real routes, not applied in isolation.",
+              "source": "Gripped Magazine",
+              "sourceUrl": "https://gripped.com/indoor-climbing/a-comprehensive-guide-to-climbing-technique/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "A Comprehensive Guide to Climbing Technique",
+              "url": "https://gripped.com/indoor-climbing/a-comprehensive-guide-to-climbing-technique/",
+              "source": "Gripped Magazine",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Climbing Techniques: Moving on Rock",
+              "url": "https://www.vdiffclimbing.com/sport-technique-movement/",
+              "source": "VDiff Climbing",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-flagging",
@@ -356,13 +997,57 @@
             "en": "Flagging uses a free leg as a counterbalance to maintain body equilibrium when only one foot has a hold.\n\n**Inside Flag:** The free foot crosses behind the standing foot to the opposite side, counterbalancing lateral rotation.\n\n**Outside Flag:** The free foot extends to the same side, preventing barn-dooring when reaching with the same-side hand.\n\n**Backstep Flag:** The free foot extends behind the standing foot, typically combined with twist locks.\n\nPractice by deliberately flagging before every reach on moderate routes. Good flagging creates a noticeable feeling of stability and controlled reaching."
           },
           "terms": [
-            { "zh": "旗帜步", "en": "flagging" },
-            { "zh": "内侧旗帜步", "en": "inside flag" },
-            { "zh": "外侧旗帜步", "en": "outside flag" },
-            { "zh": "平衡杆", "en": "counterbalance" }
+            {
+              "zh": "旗帜步",
+              "en": "flagging"
+            },
+            {
+              "zh": "内侧旗帜步",
+              "en": "inside flag"
+            },
+            {
+              "zh": "外侧旗帜步",
+              "en": "outside flag"
+            },
+            {
+              "zh": "平衡杆",
+              "en": "counterbalance"
+            }
           ],
-          "crossRefs": ["kp-center-of-gravity", "kp-twist-lock", "kp-drop-knee"],
-          "tags": ["beginner", "intermediate", "technique"]
+          "crossRefs": [
+            "kp-center-of-gravity",
+            "kp-twist-lock",
+            "kp-drop-knee"
+          ],
+          "tags": [
+            "beginner",
+            "intermediate",
+            "technique"
+          ],
+          "expertInsights": [
+            {
+              "zh": "Flagging 的三种变体各有适用场景：Normal（外侧伸腿）、Back（后叉腿）、Inside（前叉腿）。Flag 的本质是管理重心——让重心落在支撑脚的正上方，纯粹依靠身体位置实现平衡，比使用额外岩点更节能。",
+              "en": "Three flagging variants each suit different situations: Normal (extending the outside leg), Back (crossing behind), Inside (crossing in front). Flagging's essence is managing the center of gravity -- keeping it directly above the support foot, achieving balance purely through body position, more energy-efficient than using additional footholds.",
+              "source": "Rock Climbing Realms",
+              "sourceUrl": "https://rockclimbingrealms.com/climbing-movement-101-flagging-drop-knee-mastery-guide/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Climbing Movement 101: Flagging & Drop-Knee Mastery Guide",
+              "url": "https://rockclimbingrealms.com/climbing-movement-101-flagging-drop-knee-mastery-guide/",
+              "source": "Rock Climbing Realms",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Twist-Locking Series: The Complete Guidelines",
+              "url": "https://philarockgym.com/twist-locking-series-the-complete-guidelines/",
+              "source": "Philly Rock Gym",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-drop-knee",
@@ -375,12 +1060,53 @@
             "en": "The drop knee rotates one knee downward and inward, turning the body sideways to the wall. This brings the hips extremely close to the wall, extends reach significantly, and reduces arm load. It is considered one of climbing's most efficient positioning techniques.\n\n**Technique:** One foot uses outside edge with the knee rotated down toward the ground. The other foot edges normally, bearing most weight. Hips turn toward the drop-knee side.\n\n**Advantages:** Extends reach by 15-20cm compared to facing the wall. Reduces arm load by bringing hips close. Highly effective on overhangs and can serve as a rest position.\n\n**Caution:** Overuse or improper angles can stress the knee joint. Keep rotation within comfortable range and strengthen surrounding muscles."
           },
           "terms": [
-            { "zh": "落膝", "en": "drop knee" },
-            { "zh": "出手距离", "en": "reach" },
-            { "zh": "侧身姿态", "en": "sideways stance" }
+            {
+              "zh": "落膝",
+              "en": "drop knee"
+            },
+            {
+              "zh": "出手距离",
+              "en": "reach"
+            },
+            {
+              "zh": "侧身姿态",
+              "en": "sideways stance"
+            }
           ],
-          "crossRefs": ["kp-edging", "kp-flagging", "kp-overhang-technique", "kp-hip-flexibility"],
-          "tags": ["intermediate", "technique"]
+          "crossRefs": [
+            "kp-edging",
+            "kp-flagging",
+            "kp-overhang-technique",
+            "kp-hip-flexibility"
+          ],
+          "tags": [
+            "intermediate",
+            "technique"
+          ],
+          "expertInsights": [
+            {
+              "zh": "Drop-knee 的黄金法则：下降的膝盖与伸手的方向一致（向左伸手就落左膝）。Drop-knee 与 flagging 的选择标准在于是否有可用的外侧踩点——有踩点用 drop-knee，无踩点用 flag。",
+              "en": "The golden rule of drop-knees: the dropping knee matches the reaching direction (reach left, drop left knee). The choice between drop-knee and flagging depends on whether an outside foothold is available -- use drop-knee with a foothold, flag without one.",
+              "source": "Philly Rock Gym",
+              "sourceUrl": "https://philarockgym.com/twist-locking-series-the-complete-guidelines/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Climbing Movement 101: Flagging & Drop-Knee Mastery Guide",
+              "url": "https://rockclimbingrealms.com/climbing-movement-101-flagging-drop-knee-mastery-guide/",
+              "source": "Rock Climbing Realms",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Twist-Locking Series: The Complete Guidelines",
+              "url": "https://philarockgym.com/twist-locking-series-the-complete-guidelines/",
+              "source": "Philly Rock Gym",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-twist-lock",
@@ -393,13 +1119,50 @@
             "en": "The twist lock combines body rotation with arm locking. The climber twists sideways, using rotation to lock the support arm in a bent position, then reaches with the other hand from close to the wall.\n\n**Sequence:** Twist the body opposite to the reaching direction, naturally locking the support arm. Reach from close to the wall to maximize extension while maintaining core tension.\n\n**Twist Lock vs Frontal Reaching:** Frontal reaching requires a pull-up motion consuming significant arm strength. Twist locks use body rotation to position the reaching arm near the wall, greatly reducing upper body energy expenditure. On endurance routes, frequent twist locks significantly delay forearm fatigue.\n\nTwist locks and drop knees naturally combine: the drop knee creates the ideal twist lock body position."
           },
           "terms": [
-            { "zh": "扭锁", "en": "twist lock" },
-            { "zh": "锁定", "en": "lock-off" },
-            { "zh": "转体", "en": "body rotation" },
-            { "zh": "出手侧", "en": "reaching side" }
+            {
+              "zh": "扭锁",
+              "en": "twist lock"
+            },
+            {
+              "zh": "锁定",
+              "en": "lock-off"
+            },
+            {
+              "zh": "转体",
+              "en": "body rotation"
+            },
+            {
+              "zh": "出手侧",
+              "en": "reaching side"
+            }
           ],
-          "crossRefs": ["kp-drop-knee", "kp-pulling-power", "kp-aerobic-endurance", "kp-flagging"],
-          "tags": ["intermediate", "technique"]
+          "crossRefs": [
+            "kp-drop-knee",
+            "kp-pulling-power",
+            "kp-aerobic-endurance",
+            "kp-flagging"
+          ],
+          "tags": [
+            "intermediate",
+            "technique"
+          ],
+          "expertInsights": [
+            {
+              "zh": "Twist-lock 是一个技术家族的统称，包括 backstep、drop-knee 和 reverse flag 三种变体。核心原理是通过扭转髋部将体重从手臂转移到腿部，让攀岩者在不交叉手的情况下向侧面大幅伸手。",
+              "en": "Twist-lock is an umbrella term for a technique family including backstep, drop-knee, and reverse flag variants. The core principle is transferring weight from arms to legs through hip rotation, enabling large lateral reaches without crossing hands.",
+              "source": "Philly Rock Gym",
+              "sourceUrl": "https://philarockgym.com/twist-locking-series-the-complete-guidelines/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Twist-Locking Series: The Complete Guidelines",
+              "url": "https://philarockgym.com/twist-locking-series-the-complete-guidelines/",
+              "source": "Philly Rock Gym",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-back-step",
@@ -412,12 +1175,53 @@
             "en": "Back stepping places one foot using the outside edge with the body turned sideways to the wall. It is the foundational form of the drop knee -- when the back step deepens with the knee rotating downward, it becomes a drop knee.\n\n**Applications:** Best for diagonally spaced holds, traverses, steep terrain where hips need to stay close, and side pull holds.\n\n**Choosing back step vs frontal climbing:** Not always appropriate. Frontal climbing may be more efficient when holds are close and directly ahead. Back stepping excels when reach extension is needed or footholds are lateral.\n\nIn practice, back steps frequently combine with flagging and twist locks to create fluid sideways climbing sequences."
           },
           "terms": [
-            { "zh": "背步", "en": "back step" },
-            { "zh": "外侧边踩", "en": "outside edge" },
-            { "zh": "侧身攀爬", "en": "sideways climbing" }
+            {
+              "zh": "背步",
+              "en": "back step"
+            },
+            {
+              "zh": "外侧边踩",
+              "en": "outside edge"
+            },
+            {
+              "zh": "侧身攀爬",
+              "en": "sideways climbing"
+            }
           ],
-          "crossRefs": ["kp-drop-knee", "kp-edging", "kp-twist-lock"],
-          "tags": ["beginner", "intermediate", "technique"]
+          "crossRefs": [
+            "kp-drop-knee",
+            "kp-edging",
+            "kp-twist-lock"
+          ],
+          "tags": [
+            "beginner",
+            "intermediate",
+            "technique"
+          ],
+          "expertInsights": [
+            {
+              "zh": "Backstep 让攀岩者在不交叉手的情况下向侧面伸手，大幅扩展可触及范围。它是 twist-lock 技术家族的基础形态，在需要对角线出手的路线段落中效果最佳。",
+              "en": "Backstep enables lateral reaching without crossing hands, greatly extending reach range. It is the foundational form of the twist-lock technique family, most effective on route sections requiring diagonal reaches.",
+              "source": "Philly Rock Gym",
+              "sourceUrl": "https://philarockgym.com/twist-locking-series-the-complete-guidelines/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Climbing Techniques: Moving on Rock",
+              "url": "https://www.vdiffclimbing.com/sport-technique-movement/",
+              "source": "VDiff Climbing",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Twist-Locking Series: The Complete Guidelines",
+              "url": "https://philarockgym.com/twist-locking-series-the-complete-guidelines/",
+              "source": "Philly Rock Gym",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-diagonal-support",
@@ -430,13 +1234,55 @@
             "en": "Diagonal support is one of climbing's most fundamental mechanical principles: stability relies on diagonal tension between hands and feet. When the right hand grips, the left foot bears primary weight (and vice versa). This diagonal connection creates a stable X-shaped support structure on the wall and underlies all body positioning techniques.\n\n**Inside Diagonal:** Right hand gripping with left foot directly below or slightly left, forming a diagonal through the body's interior. The most natural support pattern, best for frontal climbing. Most beginners use inside diagonals instinctively.\n\n**Outside Diagonal:** Right hand gripping with left foot crossing to the right side, or the right foot placed far from the centerline. Usually combined with flagging, especially effective for sideways climbing or preventing barn-dooring.\n\n**Choosing which diagonal:** Observe the spatial distribution of holds. Diagonally distributed holds (upper left - lower right) suit inside diagonals. Same-side holds (upper right - lower right) require outside diagonals or flagging for balance.\n\n**Training:** On easy routes, consciously feel the diagonal support. Before every reach, ask: where is my weight, and is a diagonal formed? This deliberate practice rapidly improves body positioning intuition."
           },
           "terms": [
-            { "zh": "对角支撑", "en": "diagonal support" },
-            { "zh": "内对角", "en": "inside diagonal" },
-            { "zh": "外对角", "en": "outside diagonal" },
-            { "zh": "对立力", "en": "opposition" }
+            {
+              "zh": "对角支撑",
+              "en": "diagonal support"
+            },
+            {
+              "zh": "内对角",
+              "en": "inside diagonal"
+            },
+            {
+              "zh": "外对角",
+              "en": "outside diagonal"
+            },
+            {
+              "zh": "对立力",
+              "en": "opposition"
+            }
           ],
-          "crossRefs": ["kp-center-of-gravity", "kp-flagging"],
-          "tags": ["beginner", "technique"]
+          "crossRefs": [
+            "kp-center-of-gravity",
+            "kp-flagging"
+          ],
+          "tags": [
+            "beginner",
+            "technique"
+          ],
+          "expertInsights": [
+            {
+              "zh": "所有攀岩技术的核心目的都是将重心保持在支撑点之上——对角支撑正是这一原理最直接的体现。理解对角线后，flagging、drop-knee、backstep 等进阶技术都只是对角支撑在不同地形中的延伸应用。",
+              "en": "The core purpose of all climbing techniques is keeping the center of gravity over support points -- diagonal support is the most direct expression of this principle. Once you understand the diagonal, advanced techniques like flagging, drop-knee, and backstep are simply extensions of diagonal support adapted to different terrain.",
+              "source": "Gripped Magazine",
+              "sourceUrl": "https://gripped.com/indoor-climbing/a-comprehensive-guide-to-climbing-technique/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "A Comprehensive Guide to Climbing Technique",
+              "url": "https://gripped.com/indoor-climbing/a-comprehensive-guide-to-climbing-technique/",
+              "source": "Gripped Magazine",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Climbing Techniques: Moving on Rock",
+              "url": "https://www.vdiffclimbing.com/sport-technique-movement/",
+              "source": "VDiff Climbing",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-stemming",
@@ -449,13 +1295,56 @@
             "en": "Stemming presses both feet (sometimes hands too) outward against two opposing surfaces, using counter-force to maintain position. The classic stemming scenario is inside a dihedral (corner) where two walls meet, with each foot pushing against opposite walls.\n\n**Technique:** Feet press outward on opposing walls using smearing or edging. Center of gravity stays between both feet, body slightly leaned back to let gravity assist outward force. Hands use cracks, edges, or wall surfaces in the corner for balance and upward progress.\n\n**Stemming as rest technique:** In dihedral routes, stemming provides excellent rest positions. With feet firmly bridged, legs bear most weight and hands can shake out alternately. Many classic multi-pitch trad routes (like Yosemite crack climbs) include dihedral sections for stemming rests.\n\n**Open stemming:** Stemming is not limited to enclosed corners. On open walls with footholds or friction surfaces on both sides, bridging outward adds stability. Competition climbing features volumes and macro structures that offer stemming opportunities.\n\n**Relationship to other techniques:** Stemming's core mechanic -- opposing counter-force -- shares principles with side pulls and gastons. Mastering stemming helps understand all opposition-based climbing techniques."
           },
           "terms": [
-            { "zh": "外撑", "en": "stemming" },
-            { "zh": "桥接", "en": "bridging" },
-            { "zh": "二面角", "en": "dihedral" },
-            { "zh": "内角", "en": "corner" }
+            {
+              "zh": "外撑",
+              "en": "stemming"
+            },
+            {
+              "zh": "桥接",
+              "en": "bridging"
+            },
+            {
+              "zh": "二面角",
+              "en": "dihedral"
+            },
+            {
+              "zh": "内角",
+              "en": "corner"
+            }
           ],
-          "crossRefs": ["kp-center-of-gravity", "kp-slab-technique", "kp-crack-technique"],
-          "tags": ["intermediate", "technique"]
+          "crossRefs": [
+            "kp-center-of-gravity",
+            "kp-slab-technique",
+            "kp-crack-technique"
+          ],
+          "tags": [
+            "intermediate",
+            "technique"
+          ],
+          "expertInsights": [
+            {
+              "zh": "Stemming（对压）的核心效果：双脚在角落两侧向外推，对冲压力抵消重力，可大幅减少手臂负担。在二面角中，stemming 提供的休息效果是所有技术中最彻底的——双手完全可以松开抖手恢复。",
+              "en": "Stemming's core effect: feet push outward on both sides of a corner, the counter-pressure cancels gravity, dramatically reducing arm burden. In dihedrals, stemming provides the most thorough rest of any technique -- both hands can be fully released to shake out.",
+              "source": "VDiff Climbing",
+              "sourceUrl": "https://www.vdiffclimbing.com/sport-technique-movement/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Climbing Techniques: Moving on Rock",
+              "url": "https://www.vdiffclimbing.com/sport-technique-movement/",
+              "source": "VDiff Climbing",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "A Comprehensive Guide to Climbing Technique",
+              "url": "https://gripped.com/indoor-climbing/a-comprehensive-guide-to-climbing-technique/",
+              "source": "Gripped Magazine",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-layback",
@@ -468,12 +1357,52 @@
             "en": "A layback (lieback) is a classic opposition technique: hands pull sideways on a vertical edge (crack edge or arete) while feet push in the opposite direction against the opposing wall. The body leans away from the grip surface, creating a hand-pull / foot-push equilibrium.\n\n**Mechanics:** Horizontal opposition between pulling hands and pushing feet distributes body weight. Higher foot placement (closer to hand level) reduces arm load but demands more core strength.\n\n**Applications:**\n- **Crack layback:** The classic scenario. When a crack has good edges but poor jamming width, layback is an efficient alternative with hands pulling along the crack edge and feet pushing the opposite wall.\n- **Arete layback:** One hand pulls the arete edge while feet push the opposite face, common on overhanging aretes.\n\n**Energy management:** Laybacks are energy-intensive since arms must continuously generate horizontal pull force, causing rapid forearm pump. Move quickly through layback sections rather than lingering. Rest fully before entering a layback. Look for opportunities to transition to jams or other grips to briefly reduce arm load.\n\n**Transitions:** Entering and exiting layback position are critical moments. When entering, establish foot placement before leaning back. When exiting, find holds that allow returning to a frontal position, gradually shifting weight back over the wall."
           },
           "terms": [
-            { "zh": "侧拉", "en": "layback" },
-            { "zh": "侧身", "en": "lieback" },
-            { "zh": "对拉力", "en": "opposing pull" }
+            {
+              "zh": "侧拉",
+              "en": "layback"
+            },
+            {
+              "zh": "侧身",
+              "en": "lieback"
+            },
+            {
+              "zh": "对拉力",
+              "en": "opposing pull"
+            }
           ],
-          "crossRefs": ["kp-crack-technique", "kp-arete-mantle", "kp-undercling-sidepull-gaston"],
-          "tags": ["intermediate", "technique"]
+          "crossRefs": [
+            "kp-crack-technique",
+            "kp-arete-mantle",
+            "kp-undercling-sidepull-gaston"
+          ],
+          "tags": [
+            "intermediate",
+            "technique"
+          ],
+          "expertInsights": [
+            {
+              "zh": "Layback（侧拉）最适用于裂缝和突出的侧面特征：手拉脚推产生对抗力。关键要点是脚踩位置越高（越接近手的高度），手臂负荷越小，但对核心力量要求也越高。",
+              "en": "Layback works best on cracks and protruding lateral features: hand-pull and foot-push create opposition force. The key is that higher foot placement (closer to hand level) reduces arm load but demands more core strength.",
+              "source": "VDiff Climbing",
+              "sourceUrl": "https://www.vdiffclimbing.com/sport-technique-movement/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Climbing Techniques: Moving on Rock",
+              "url": "https://www.vdiffclimbing.com/sport-technique-movement/",
+              "source": "VDiff Climbing",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Everything You Need to Know About Climbing Arêtes",
+              "url": "https://butorausa.com/blogs/beta-blog/everything-you-need-to-know-about-climbing-aretes",
+              "source": "Butora USA",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-high-step-mantle",
@@ -486,13 +1415,48 @@
             "en": "High steps and mantles are body positioning techniques demanding flexibility and strength coordination, extremely common in outdoor climbing and bouldering.\n\n**High Step:** Raising one foot to hip level or higher, then standing up using leg power. The key is not just flexibility but weight transfer -- center of gravity must shift directly over the high foot to use legs rather than arms for upward drive.\n\n**High step technique:** Shift hips toward the high foot to align COG. Lean the torso forward, chest close to the raised knee. Drive up with glutes and quads, not arm pulling. Keep support arm straight for balance, not force. Hip flexibility is the primary limiting factor.\n\n**Mantling:** Pushing the body from the wall side up onto a ledge or boulder top, transitioning from pulling to pushing. Nearly always required for outdoor boulder top-outs.\n\n**Mantle breakdown:** Pull up to chest level, rotate one hand to a palm-down press (fingers toward body), push through triceps to straighten the arm, lean the abdomen on the ledge edge, step a foot up beside the hand, transfer weight to the foot and stand.\n\n**Training:** Improve high step range through hip openers and yoga. Practice mantles on low gym platforms or outdoor boulders. Safe height and good landing conditions are critical since mantle falls can produce awkward body positions."
           },
           "terms": [
-            { "zh": "高跨步", "en": "high step" },
-            { "zh": "翻越", "en": "mantle" },
-            { "zh": "下压", "en": "press" },
-            { "zh": "登顶", "en": "top-out" }
+            {
+              "zh": "高跨步",
+              "en": "high step"
+            },
+            {
+              "zh": "翻越",
+              "en": "mantle"
+            },
+            {
+              "zh": "下压",
+              "en": "press"
+            },
+            {
+              "zh": "登顶",
+              "en": "top-out"
+            }
           ],
-          "crossRefs": ["kp-hip-flexibility", "kp-center-of-gravity"],
-          "tags": ["intermediate", "technique"]
+          "crossRefs": [
+            "kp-hip-flexibility",
+            "kp-center-of-gravity"
+          ],
+          "tags": [
+            "intermediate",
+            "technique"
+          ],
+          "expertInsights": [
+            {
+              "zh": "高跨步的成功与否，90% 取决于重心转移而非腿部力量。很多攀岩者高跨步失败是因为重心仍留在低脚上方——将臀部充分侧移到高脚正上方后，站起来只需要很小的力量。翻越同理：关键不在于臂力，而在于从「拉」到「推」的转换时机。",
+              "en": "High step success is 90% weight transfer, not leg strength. Most climbers fail high steps because their COG remains over the lower foot -- once the hips shift fully above the high foot, standing up requires minimal effort. Same principle for mantling: the key is not arm strength but the timing of transitioning from pulling to pushing.",
+              "source": "Gripped Magazine",
+              "sourceUrl": "https://gripped.com/indoor-climbing/a-comprehensive-guide-to-climbing-technique/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "A Comprehensive Guide to Climbing Technique",
+              "url": "https://gripped.com/indoor-climbing/a-comprehensive-guide-to-climbing-technique/",
+              "source": "Gripped Magazine",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         }
       ]
     },
@@ -520,13 +1484,64 @@
             "en": "A dyno is climbing's most spectacular dynamic technique: the climber completely leaves the wall (all points of contact released) and jumps to catch a target hold.\n\n**Technique breakdown:** Prepare by sinking low on bent knees. Explode upward coordinating arm pull and leg drive. Catch at the apex when momentum reaches zero. Absorb with slightly bent arms and quickly find footholds.\n\n**Types:** Single-hand dyno (one hand stays), double dyno (both hands release), and coordination dyno (hands grab two targets sequentially).\n\nStart with short double dynos in the gym, warming up thoroughly since dynos create high impact on fingers and shoulders. Campus board training effectively builds dyno power."
           },
           "terms": [
-            { "zh": "飞跃", "en": "dyno" },
-            { "zh": "起跳点", "en": "launch hold" },
-            { "zh": "动量", "en": "momentum" },
-            { "zh": "协调飞跃", "en": "coordination dyno" }
+            {
+              "zh": "飞跃",
+              "en": "dyno"
+            },
+            {
+              "zh": "起跳点",
+              "en": "launch hold"
+            },
+            {
+              "zh": "动量",
+              "en": "momentum"
+            },
+            {
+              "zh": "协调飞跃",
+              "en": "coordination dyno"
+            }
           ],
-          "crossRefs": ["kp-deadpoint", "kp-dynamic-power", "kp-campus-training", "kp-campus-board-gear"],
-          "tags": ["intermediate", "advanced", "technique"]
+          "crossRefs": [
+            "kp-deadpoint",
+            "kp-dynamic-power",
+            "kp-campus-training",
+            "kp-campus-board-gear"
+          ],
+          "tags": [
+            "intermediate",
+            "advanced",
+            "technique"
+          ],
+          "expertInsights": [
+            {
+              "zh": "动量生成的具体序列：先直臂产生摆动 → 拉手到胸部高度后开始蹬腿 → 腿伸直时松开起始点。关键是每次 dyno 只做一次蓄力摆动，多次摆动反而损失能量。",
+              "en": "Specific momentum sequence: straight arms generate the swing → start leg drive when hands reach chest height → release when legs extend. Key rule: one loading swing per dyno -- multiple swings actually lose energy.",
+              "source": "Philly Rock Gym",
+              "sourceUrl": "https://philarockgym.com/the-ultimate-guide-to-dyno-tips-and-tricks-5/"
+            },
+            {
+              "zh": "建议从较小的 dyno 开始练习，逐步增加距离。先掌握时机感再追求高度——时机比力量更重要。",
+              "en": "Start with shorter dynos and gradually increase distance. Master timing before chasing height -- timing matters more than power.",
+              "source": "Philly Rock Gym",
+              "sourceUrl": "https://philarockgym.com/the-ultimate-guide-to-dyno-tips-and-tricks-5/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "The Ultimate Guide To Dyno Tips and Tricks",
+              "url": "https://philarockgym.com/the-ultimate-guide-to-dyno-tips-and-tricks-5/",
+              "source": "Philly Rock Gym",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Climbing Technique Fundamentals: 22 Essential Techniques Explained",
+              "url": "https://sendedition.com/22-climbing-techniques-and-how-to-do-them/",
+              "source": "Send Edition",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-deadpoint",
@@ -539,13 +1554,49 @@
             "en": "A deadpoint is a precisely controlled dynamic reach. The climber generates upward momentum, then catches the target hold at the apex when velocity momentarily equals zero. Unlike dynos, at least one hand and foot maintain contact.\n\n**Key -- Timing:** Generate momentum through foot push and hand pull. Reach at the exact apex when the body is momentarily weightless and grip load is minimal. Too early or too late results in failure.\n\n**Deadpoint vs Static:** Many moves requiring heavy lock-off strength are actually easier with a deadpoint, exploiting the brief weightless moment. Knowing when to use each approach is key to climbing efficiency.\n\nPractice on familiar routes starting with short distances, developing the rhythm of push-rise-reach-catch."
           },
           "terms": [
-            { "zh": "死点", "en": "deadpoint" },
-            { "zh": "失重瞬间", "en": "weightless moment" },
-            { "zh": "时机", "en": "timing" },
-            { "zh": "静态出手", "en": "static reach" }
+            {
+              "zh": "死点",
+              "en": "deadpoint"
+            },
+            {
+              "zh": "失重瞬间",
+              "en": "weightless moment"
+            },
+            {
+              "zh": "时机",
+              "en": "timing"
+            },
+            {
+              "zh": "静态出手",
+              "en": "static reach"
+            }
           ],
-          "crossRefs": ["kp-dyno-technique", "kp-pulling-power", "kp-route-reading-basics"],
-          "tags": ["intermediate", "technique"]
+          "crossRefs": [
+            "kp-dyno-technique",
+            "kp-pulling-power",
+            "kp-route-reading-basics"
+          ],
+          "tags": [
+            "intermediate",
+            "technique"
+          ],
+          "expertInsights": [
+            {
+              "zh": "Deadpoint 的关键：在上升和下降之间的「静止点」接触目标点，此时阻力最小、体重最轻。这个瞬间窗口非常短暂，但掌握后能让很多看似需要强大锁定力量的动作变得轻松。",
+              "en": "The key to deadpoints: contact the target at the 'stillpoint' between rising and falling, when resistance and apparent body weight are minimal. This window is extremely brief, but mastering it makes many seemingly lock-off-intensive moves feel effortless.",
+              "source": "Philly Rock Gym",
+              "sourceUrl": "https://philarockgym.com/the-ultimate-guide-to-dyno-tips-and-tricks-5/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "The Ultimate Guide To Dyno Tips and Tricks",
+              "url": "https://philarockgym.com/the-ultimate-guide-to-dyno-tips-and-tricks-5/",
+              "source": "Philly Rock Gym",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-coordination-timing",
@@ -558,13 +1609,50 @@
             "en": "Coordination moves are dynamic sequences requiring multiple limbs to work in precise timing. Not a single jump, but a fluid chain of dynamic actions common in competition climbing and hard bouldering.\n\n**Characteristics:** Hands grab different targets in rapid succession, the body continuously adjusts direction and force angles, and flow is critical -- any hesitation causes failure.\n\n**Rhythm:** In dynamic climbing, rhythm matters more than raw power. Good rhythm means generating force and relaxing at the right moments, moving like a dancer.\n\nTrain by repeating coordination sequences, analyzing failure points each attempt. Standardized training boards (Moon Board, Kilter Board) with classic coordination problems are excellent practice tools."
           },
           "terms": [
-            { "zh": "协调动作", "en": "coordination move" },
-            { "zh": "节奏", "en": "rhythm / timing" },
-            { "zh": "本体感觉", "en": "proprioception" },
-            { "zh": "标准化训练板", "en": "standardized training board" }
+            {
+              "zh": "协调动作",
+              "en": "coordination move"
+            },
+            {
+              "zh": "节奏",
+              "en": "rhythm / timing"
+            },
+            {
+              "zh": "本体感觉",
+              "en": "proprioception"
+            },
+            {
+              "zh": "标准化训练板",
+              "en": "standardized training board"
+            }
           ],
-          "crossRefs": ["kp-dyno-technique", "kp-deadpoint", "kp-dynamic-power", "kp-flow-state"],
-          "tags": ["advanced", "technique"]
+          "crossRefs": [
+            "kp-dyno-technique",
+            "kp-deadpoint",
+            "kp-dynamic-power",
+            "kp-flow-state"
+          ],
+          "tags": [
+            "advanced",
+            "technique"
+          ],
+          "expertInsights": [
+            {
+              "zh": "动态攀爬中技术流畅性比单个动作更重要。协调动作的本质是「节奏型运动」——类似舞蹈或体操，身体在连续动量中转换方向。反复练习同一个协调序列，每次微调时机，比练十个不同的 dyno 更能提升协调能力。",
+              "en": "In dynamic climbing, movement fluidity matters more than individual moves. Coordination moves are essentially rhythmic -- like dance or gymnastics, the body redirects within continuous momentum. Repeating the same coordination sequence with micro-timing adjustments builds coordination better than practicing ten different dynos.",
+              "source": "Philly Rock Gym",
+              "sourceUrl": "https://philarockgym.com/the-ultimate-guide-to-dyno-tips-and-tricks-5/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "The Ultimate Guide To Dyno Tips and Tricks",
+              "url": "https://philarockgym.com/the-ultimate-guide-to-dyno-tips-and-tricks-5/",
+              "source": "Philly Rock Gym",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-lunge-types",
@@ -577,12 +1665,45 @@
             "en": "A lunge is a dynamic technique between a static reach and a full dyno. Unlike dynos, at least one hand maintains wall contact during a lunge. Understanding lunge subtypes helps select the right dynamic strategy.\n\n**Types:**\n- **Standard Lunge:** A controlled dynamic reach generating momentum through leg drive and core engagement, with at least one hand staying on its hold. The most common dynamic reach.\n- **Short Lunge:** A minimal dynamic reach barely exceeding static range -- just a few extra centimeters of momentum. Lowest risk and highest control.\n- **One-hand Lunge:** Launching from one hand's support while the other reaches for the target. The support hand maintains contact throughout. Requires good single-arm lock-off and precise directional control.\n\n**Lunge vs Dyno:** The key difference is maintaining contact. Lunges always have at least one contact point, making recovery from failure possible. Dynos release all contact, meaning failure equals a fall. When a lunge can solve a move, it is generally preferred over a dyno.\n\n**Training:** Start with the shortest distances and increase gradually. Focus on timing and directional precision -- lunge accuracy matters more than in dynos. On familiar routes, try converting static reaches to short lunges to develop a feel for using momentum."
           },
           "terms": [
-            { "zh": "蹦跳", "en": "lunge" },
-            { "zh": "小蹦跳", "en": "short lunge" },
-            { "zh": "单手蹦跳", "en": "one-hand lunge" }
+            {
+              "zh": "蹦跳",
+              "en": "lunge"
+            },
+            {
+              "zh": "小蹦跳",
+              "en": "short lunge"
+            },
+            {
+              "zh": "单手蹦跳",
+              "en": "one-hand lunge"
+            }
           ],
-          "crossRefs": ["kp-dyno-technique", "kp-deadpoint", "kp-coordination-timing"],
-          "tags": ["intermediate", "technique"]
+          "crossRefs": [
+            "kp-dyno-technique",
+            "kp-deadpoint",
+            "kp-coordination-timing"
+          ],
+          "tags": [
+            "intermediate",
+            "technique"
+          ],
+          "expertInsights": [
+            {
+              "zh": "蹦跳（lunge）的动量生成有一个精确序列：先直臂产生初始摆动 → 拉手到胸部高度后开始蹬腿 → 腿伸直时松开起始点。每次蹦跳只做一次蓄力摆动——多次摆动反而损失能量，因为肌肉在反复收缩中提前疲劳。",
+              "en": "Lunge momentum has a precise generation sequence: start with straight arms to create initial swing → pull hands to chest height then begin leg drive → release the starting hold as legs straighten. Only use one preparatory swing per lunge -- multiple swings actually waste energy because muscles fatigue from repeated contractions.",
+              "source": "Philly Rock Gym",
+              "sourceUrl": "https://philarockgym.com/the-ultimate-guide-to-dyno-tips-and-tricks-5/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "The Ultimate Guide To Dyno Tips and Tricks",
+              "url": "https://philarockgym.com/the-ultimate-guide-to-dyno-tips-and-tricks-5/",
+              "source": "Philly Rock Gym",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-swing-momentum",
@@ -595,13 +1716,49 @@
             "en": "Swing techniques use the body's pendulum motion or rotation to generate momentum toward distant holds. Unlike lunges and dynos, the force comes from gravity and inertia rather than explosive muscle contraction.\n\n**Swing-by:** Using gravity and pendulum effect to generate horizontal or arc-trajectory momentum. The climber swings to one side, then catches the target hold before the swing reaches its furthest point. Especially effective for large lateral movements when lunges cannot generate sufficient horizontal momentum.\n\n**Cypher:** A unique dynamic rotation technique. The climber pivots around a single foothold, rotating the body and using centripetal force to swing an outstretched arm toward a distant target. Similar to a figure skating spin. Requires precise center of gravity control and timing, common in creative competition bouldering sequences.\n\n**Controlling the swing:** Amplitude depends on initial push force and pendulum length (support point to COG distance). Core strength is critical for stopping precisely at the target position. After catching the target, remaining momentum must be absorbed through arm bending and core bracing.\n\n**Applications:** Swing techniques are increasingly common in competition climbing as route setters design creative momentum-dependent movements. In outdoor climbing, long traverses may also require swing techniques."
           },
           "terms": [
-            { "zh": "重力助推", "en": "swing-by" },
-            { "zh": "零式", "en": "cypher" },
-            { "zh": "摆荡", "en": "pendulum" },
-            { "zh": "动量", "en": "momentum" }
+            {
+              "zh": "重力助推",
+              "en": "swing-by"
+            },
+            {
+              "zh": "零式",
+              "en": "cypher"
+            },
+            {
+              "zh": "摆荡",
+              "en": "pendulum"
+            },
+            {
+              "zh": "动量",
+              "en": "momentum"
+            }
           ],
-          "crossRefs": ["kp-dyno-technique", "kp-coordination-timing"],
-          "tags": ["advanced", "technique", "competition"]
+          "crossRefs": [
+            "kp-dyno-technique",
+            "kp-coordination-timing"
+          ],
+          "tags": [
+            "advanced",
+            "technique",
+            "competition"
+          ],
+          "expertInsights": [
+            {
+              "zh": "Deadpoint 的核心秘诀：在上升与下降之间的「静止点」接触目标手点——此时身体动量为零、阻力最小。这个原理同样适用于摆荡技术：出手时机不是摆到最远处，而是即将改变方向的那个瞬间。",
+              "en": "The core secret of deadpoints applies equally to swing technique: contact the target at the 'still point' between ascent and descent -- where momentum is zero and resistance is minimal. For swings, the ideal release is not at the farthest point but at the moment just before direction reversal.",
+              "source": "Philly Rock Gym",
+              "sourceUrl": "https://philarockgym.com/the-ultimate-guide-to-dyno-tips-and-tricks-5/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "The Ultimate Guide To Dyno Tips and Tricks",
+              "url": "https://philarockgym.com/the-ultimate-guide-to-dyno-tips-and-tricks-5/",
+              "source": "Philly Rock Gym",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-campus-moves",
@@ -614,12 +1771,46 @@
             "en": "Campus moves are dynamic movements performed with only the hands -- feet completely off the wall. This is the most demanding technique type for finger strength, upper body power, and core strength. Named after the Campus Board invented by Wolfgang Güllich.\n\n**Campus Lunge:** With feet hanging or deliberately cut from the wall, jumping hand-to-hand upward. One hand stays on the current hold while the other jumps to the next. This is the fundamental campus board movement pattern.\n\n**Competition context:** In modern competition bouldering and lead climbing, feet cutting is often part of the intended movement design -- some sequences have no available footholds between distant hand positions. The ability to move dynamically without feet directly determines route completion.\n\n**Strength foundation and injury risk:**\n- Campus moves create extreme impact forces on finger flexor tendons and pulleys, especially at the moment of catching the target hold\n- Shoulder rotator cuff muscles are also heavily stressed\n- **Strongly recommended to have 2-3 years of climbing experience before starting campus board training** to allow tendons adequate adaptation time\n- Thorough warm-up before every session is mandatory, with sufficient recovery time afterward\n\n**Training progression:** Start on the largest rungs with basic alternating laddering. Progress to skipping rungs. Single-arm hangs and pull-ups are strength prerequisites. Training frequency should not exceed twice per week with strictly controlled volume and intensity."
           },
           "terms": [
-            { "zh": "指力跳", "en": "campus lunge" },
-            { "zh": "无脚动态", "en": "feet-off dynamic" },
-            { "zh": "校园板", "en": "campus board" }
+            {
+              "zh": "指力跳",
+              "en": "campus lunge"
+            },
+            {
+              "zh": "无脚动态",
+              "en": "feet-off dynamic"
+            },
+            {
+              "zh": "校园板",
+              "en": "campus board"
+            }
           ],
-          "crossRefs": ["kp-dyno-technique", "kp-hangboard-training", "kp-upper-body-exercises"],
-          "tags": ["advanced", "technique", "training"]
+          "crossRefs": [
+            "kp-dyno-technique",
+            "kp-hangboard-training",
+            "kp-upper-body-exercises"
+          ],
+          "tags": [
+            "advanced",
+            "technique",
+            "training"
+          ],
+          "expertInsights": [
+            {
+              "zh": "在倒壁和仰角地形中，脚法技术（bicycle/kneebar/toe-hook）的重要性往往超过手法——campus move 应该是最后手段，不是首选策略。真正的高手更擅长用脚保持接触来减轻手臂负担，只有在路线设计确实没有可用脚点时才使用 campus 技术。",
+              "en": "On overhangs and steep terrain, foot techniques (bicycle/kneebar/toe-hook) often matter more than hand technique -- campus moves should be a last resort, not a first strategy. Elite climbers excel at keeping feet engaged to reduce arm load, only resorting to campus technique when the route design genuinely provides no usable footholds.",
+              "source": "Gripped Magazine",
+              "sourceUrl": "https://gripped.com/indoor-climbing/10-techniques-for-climbing-overhangs/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "10 Techniques for Climbing Overhangs",
+              "url": "https://gripped.com/indoor-climbing/10-techniques-for-climbing-overhangs/",
+              "source": "Gripped Magazine",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         }
       ]
     },
@@ -647,12 +1838,60 @@
             "en": "Slabs are walls angled less than vertical (typically 70-90 degrees). The core of slab climbing is footwork and balance rather than arm strength -- hands are primarily for balance, feet are the protagonists.\n\n**Core techniques:** Heavy reliance on smearing with clean soles. Keep center of gravity directly above or slightly ahead of feet (leaning back reduces friction and increases slip risk). Use micro-weight transfers for foot switches. Every millimeter of foot placement matters.\n\n**Mental challenge:** Slabs are psychologically demanding because there is little to grip and falls involve sliding along the rock face. Building trust in footwork and developing slab-specific balance sense is a long-term process."
           },
           "terms": [
-            { "zh": "板岩", "en": "slab" },
-            { "zh": "重心前移", "en": "forward weight shift" },
-            { "zh": "微小体重转移", "en": "micro-weight transfer" }
+            {
+              "zh": "板岩",
+              "en": "slab"
+            },
+            {
+              "zh": "重心前移",
+              "en": "forward weight shift"
+            },
+            {
+              "zh": "微小体重转移",
+              "en": "micro-weight transfer"
+            }
           ],
-          "crossRefs": ["kp-smearing", "kp-edging", "kp-fear-management", "kp-climbing-shoes"],
-          "tags": ["beginner", "intermediate", "technique"]
+          "crossRefs": [
+            "kp-smearing",
+            "kp-edging",
+            "kp-fear-management",
+            "kp-climbing-shoes"
+          ],
+          "tags": [
+            "beginner",
+            "intermediate",
+            "technique"
+          ],
+          "expertInsights": [
+            {
+              "zh": "Quiet feet（静音踩点）练习：通过静音踩点来培养精确控制脚部的能力——脚落点发出声音说明控制不够。板岩攀登的姿势应像正常走路一样直立，而非贴壁。",
+              "en": "'Quiet feet' practice: cultivate precise foot control by placing feet silently -- any sound indicates insufficient control. Slab climbing posture should be upright like normal walking, not pressed flat against the wall.",
+              "source": "Climbing Magazine",
+              "sourceUrl": "https://www.climbing.com/skills/face-climbing-techniques-slab-climbing/"
+            },
+            {
+              "zh": "在板岩地形上，体重应通过双腿传递到岩壁，手仅用于辅助平衡而非承重。重心的微小移动对整体平衡影响极大，需要非常精细的身体控制。",
+              "en": "On slab terrain, weight should be transmitted through the legs to the wall -- hands are for balance only, not weight bearing. Small shifts in center of gravity have enormous impact on overall balance, demanding extremely fine body control.",
+              "source": "Climbing Magazine",
+              "sourceUrl": "https://www.climbing.com/skills/face-climbing-techniques-slab-climbing/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Get Better At Slab Climbing—Master This Critical Skill",
+              "url": "https://www.climbing.com/skills/face-climbing-techniques-slab-climbing/",
+              "source": "Climbing Magazine",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "The Science of Footwork: An Edging & Smearing Masterclass",
+              "url": "https://rockclimbingrealms.com/the-science-of-footwork-an-edging-smearing-masterclass/",
+              "source": "Rock Climbing Realms",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-overhang-technique",
@@ -665,13 +1904,57 @@
             "en": "Overhangs are walls steeper than vertical (typically 95-130 degrees), demanding strong arms, core, and footwork.\n\n**Key strategies:** Keep feet on the wall using toe hooks, heel hooks, and high steps to prevent cutting feet (total arm loading). Use drop knees and twist locks for efficient sideways climbing. Move quickly through crux sections without hesitation. Maintain body tension through core engagement to connect upper and lower body.\n\n**Rest strategy:** Identify knee bars and jug positions for resting. Learning to recover even at imperfect rest points is essential for overhang endurance."
           },
           "terms": [
-            { "zh": "仰角", "en": "overhang" },
-            { "zh": "脚脱落", "en": "cut feet" },
-            { "zh": "身体张力", "en": "body tension" },
-            { "zh": "膝盖钩", "en": "knee bar" }
+            {
+              "zh": "仰角",
+              "en": "overhang"
+            },
+            {
+              "zh": "脚脱落",
+              "en": "cut feet"
+            },
+            {
+              "zh": "身体张力",
+              "en": "body tension"
+            },
+            {
+              "zh": "膝盖钩",
+              "en": "knee bar"
+            }
           ],
-          "crossRefs": ["kp-toe-hook", "kp-heel-hook", "kp-drop-knee", "kp-core-role", "kp-aerobic-endurance"],
-          "tags": ["intermediate", "technique"]
+          "crossRefs": [
+            "kp-toe-hook",
+            "kp-heel-hook",
+            "kp-drop-knee",
+            "kp-core-role",
+            "kp-aerobic-endurance"
+          ],
+          "tags": [
+            "intermediate",
+            "technique"
+          ],
+          "expertInsights": [
+            {
+              "zh": "直臂（straight arms）是倒壁省力最核心的基础原则。在倒壁地形上，脚法技术（bicycle/kneebar/toe-hook）的重要性往往超过手法——积极使用这些脚法技术是减轻手臂负荷的关键。",
+              "en": "Straight arms are the most fundamental energy-saving principle on overhangs. On steep terrain, foot techniques (bicycle/kneebar/toe-hook) are often more important than hand techniques -- actively using these foot skills is key to reducing arm load.",
+              "source": "Gripped Magazine",
+              "sourceUrl": "https://gripped.com/indoor-climbing/10-techniques-for-climbing-overhangs/"
+            },
+            {
+              "zh": "Kneebar 可以让攀岩者松开双手完全休息，是倒壁路线省力的终极技术。Figure 4（腿压臂）和 bat hang（倒挂）是更高级的倒壁和屋顶技术。",
+              "en": "Kneebars allow climbers to release both hands for a complete rest -- the ultimate energy-saving technique on overhangs. Figure 4 (leg-over-arm) and bat hang are more advanced overhang and roof techniques.",
+              "source": "Gripped Magazine",
+              "sourceUrl": "https://gripped.com/indoor-climbing/10-techniques-for-climbing-overhangs/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "10 Techniques for Climbing Overhangs",
+              "url": "https://gripped.com/indoor-climbing/10-techniques-for-climbing-overhangs/",
+              "source": "Gripped Magazine",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-roof-technique",
@@ -684,12 +1967,59 @@
             "en": "Roofs are near-horizontal or fully horizontal terrain (130+ degrees), demanding the highest physical requirements of any terrain type.\n\n**Core elements:** Foot hooks are essential -- without them, arms bear all weight. Use heel hooks, toe hooks, and bicycle techniques. Core engagement is maximal throughout. The lip turn (transitioning from roof to vertical face) is the critical technical challenge, typically requiring a strong heel hook on the lip edge.\n\n**Route reading:** Holds on roofs are often in non-intuitive positions. Many handholds require underclings, and footholds may be above rather than below.\n\nDespite extreme physical demands, roof falls are actually the safest terrain type since the climber falls away from the wall -- which is why competition routes frequently feature roof sections."
           },
           "terms": [
-            { "zh": "屋檐", "en": "roof" },
-            { "zh": "翻唇", "en": "lip turn / topping out" },
-            { "zh": "唇边", "en": "lip" }
+            {
+              "zh": "屋檐",
+              "en": "roof"
+            },
+            {
+              "zh": "翻唇",
+              "en": "lip turn / topping out"
+            },
+            {
+              "zh": "唇边",
+              "en": "lip"
+            }
           ],
-          "crossRefs": ["kp-toe-hook", "kp-heel-hook", "kp-bicycle", "kp-core-role"],
-          "tags": ["advanced", "technique"]
+          "crossRefs": [
+            "kp-toe-hook",
+            "kp-heel-hook",
+            "kp-bicycle",
+            "kp-core-role"
+          ],
+          "tags": [
+            "advanced",
+            "technique"
+          ],
+          "expertInsights": [
+            {
+              "zh": "屋顶攀岩中核心力量（core）比臂力更重要，防止臀部下坠是关键。从侧面翻到屋顶的过渡动作：从侧翻到蛙式姿势来重新分配重心，是翻唇的实用技巧。",
+              "en": "In roof climbing, core strength matters more than arm strength -- preventing hip sag is the key. For the wall-to-roof transition: shift from a sideways position to a frog-like stance to redistribute the center of gravity, a practical tip for lip turns.",
+              "source": "Climbing Magazine",
+              "sourceUrl": "https://www.climbing.com/skills/climbing-techniques-how-to-climb-roofs/"
+            },
+            {
+              "zh": "屋顶地形需要灵活切换不同脚法技术，而非只依赖一种。Bat hang（双脚倒挂）不仅是展示动作，在某些路线中也是必要技术——既可用于休息也可用于位移。",
+              "en": "Roof terrain demands flexibly switching between different foot techniques rather than relying on just one. Bat hang is not just showmanship -- on certain routes it's a necessary technique for both resting and repositioning.",
+              "source": "Climbing Magazine",
+              "sourceUrl": "https://www.climbing.com/skills/climbing-techniques-how-to-climb-roofs/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Learn to Master Roof Climbing",
+              "url": "https://www.climbing.com/skills/climbing-techniques-how-to-climb-roofs/",
+              "source": "Climbing Magazine",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "10 Techniques for Climbing Overhangs",
+              "url": "https://gripped.com/indoor-climbing/10-techniques-for-climbing-overhangs/",
+              "source": "Gripped Magazine",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-crack-technique",
@@ -702,21 +2032,97 @@
             "en": "Crack climbing uses rock fissures as holds by jamming body parts into the crack. The technique system is entirely different from face climbing. Crack widths range from fingertip-thin to full-body chimneys, each with specialized techniques.\n\n**I. Crack Width Progression:** Thin finger → finger → thin hand → hand → fist → off-width → chimney. Each width uses different jam types; selecting the correct jam is the core skill.\n\n**II. Finger Jam Types:**\n- **Thin Finger Lock:** Only one or two fingers fit. Insert and rotate to cam the knuckle against a constriction. Painful with high skin abrasion.\n- **Finger Stacking:** When width falls between single and double fingers, stack one finger atop another to fill the space. Middle over index is most common.\n- **Key consideration:** Thumbs-up or thumbs-down orientation depends on crack direction and body position. Thumbs-down typically provides more secure locks.\n\n**III. Hand Jam Types:**\n- **Standard Hand Jam:** Insert the palm, tuck the thumb across the palm, and expand the hand into an arch shape to wedge against crack walls. A perfect splitter hand crack feels as secure as a jug.\n- **Thin Hand:** Slightly narrow for a standard jam. Tuck thumb deep across the palm or use a cupped hand shape to fill the gap.\n- **Ring Lock:** Awkward width between finger and hand cracks. Curl fingers into a ring shape, using knuckle expansion to wedge.\n- **Arm Lock:** When too wide for fists but too narrow for shoulders, insert the forearm and bend the elbow to create a wedge shape.\n- **Leavittation/Stacking:** Named after Randy Leavitt. Stack a fist on top of a cupped hand to fill width between fist and off-width cracks.\n\n**IV. Fist Jam:** Insert a clenched fist, relying on friction and expansion. Vertical or horizontal fist depending on crack orientation. Less secure-feeling than hand jams, requiring more confidence.\n\n**V. Foot Jam Types:**\n- **Standard Foot Jam:** Insert foot sideways, rotate to cam against crack walls. Toe-up rotation is most common.\n- **T-stack:** In wider cracks, place one foot horizontally with the other foot's toe bracing it in a T-shape for larger wedging area.\n- **Back-and-foot:** In off-widths and chimneys, back against one wall, feet against the opposite, using opposition to move upward.\n\n**VI. Off-width & Chimney:** Off-widths are the most challenging width -- too wide for fist jams, too narrow for full-body entry. Use chicken wing (bent elbow jammed in), knee jams, and body stacking. Chimneys accommodate the full body, using back-and-foot and stemming between walls.\n\n**VII. Taping:** Crack climbing causes severe hand abrasion, especially on hand and off-width cracks. Athletic tape gloves are standard: wrap from wrist across the back of the hand, securing between fingers. Dedicated crack gloves (e.g., Outdoor Research Splitter Crack Gloves) are increasingly popular.\n\n**Gear:** Trad crack climbing requires cams and nuts for protection placement, sized to match crack width. Crack technique demands dedicated practice; beginners should start with hand-width cracks for the most natural security feeling."
           },
           "terms": [
-            { "zh": "裂缝攀岩", "en": "crack climbing" },
-            { "zh": "手塞", "en": "hand jam" },
-            { "zh": "拳塞", "en": "fist jam" },
-            { "zh": "指锁", "en": "finger lock" },
-            { "zh": "薄手塞", "en": "thin hand jam" },
-            { "zh": "环锁", "en": "ring lock" },
-            { "zh": "臂锁", "en": "arm lock" },
-            { "zh": "脚塞", "en": "foot jam" },
-            { "zh": "指叠", "en": "finger stacking" },
-            { "zh": "宽缝", "en": "off-width" },
-            { "zh": "烟囱", "en": "chimney" },
-            { "zh": "胶带手套", "en": "tape glove" }
+            {
+              "zh": "裂缝攀岩",
+              "en": "crack climbing"
+            },
+            {
+              "zh": "手塞",
+              "en": "hand jam"
+            },
+            {
+              "zh": "拳塞",
+              "en": "fist jam"
+            },
+            {
+              "zh": "指锁",
+              "en": "finger lock"
+            },
+            {
+              "zh": "薄手塞",
+              "en": "thin hand jam"
+            },
+            {
+              "zh": "环锁",
+              "en": "ring lock"
+            },
+            {
+              "zh": "臂锁",
+              "en": "arm lock"
+            },
+            {
+              "zh": "脚塞",
+              "en": "foot jam"
+            },
+            {
+              "zh": "指叠",
+              "en": "finger stacking"
+            },
+            {
+              "zh": "宽缝",
+              "en": "off-width"
+            },
+            {
+              "zh": "烟囱",
+              "en": "chimney"
+            },
+            {
+              "zh": "胶带手套",
+              "en": "tape glove"
+            }
           ],
-          "crossRefs": ["kp-climbing-categories", "kp-fall-technique", "kp-harness", "kp-layback", "kp-stemming"],
-          "tags": ["intermediate", "advanced", "technique"]
+          "crossRefs": [
+            "kp-climbing-categories",
+            "kp-fall-technique",
+            "kp-harness",
+            "kp-layback",
+            "kp-stemming"
+          ],
+          "tags": [
+            "intermediate",
+            "advanced",
+            "technique"
+          ],
+          "expertInsights": [
+            {
+              "zh": "好的手塞（hand jam）比 jug 还可靠，好的脚塞可以站在上面休息——裂缝技术掌握到位后，裂缝攀登的安全感并不亚于面攀。关键在于选对 jam 类型：拇指朝上塞入，手握成杯状，手指压一侧而指节压另一侧。",
+              "en": "A good hand jam is more reliable than a jug, and a good foot jam lets you stand and rest -- once crack technique is mastered, crack climbing feels no less secure than face climbing. The key is choosing the right jam: insert thumbs up, cup the hand, press fingers on one side and knuckles on the other.",
+              "source": "VDiff Climbing",
+              "sourceUrl": "https://www.vdiffclimbing.com/crack-climbing/"
+            },
+            {
+              "zh": "脚塞（foot jam）的正确方法：脚侧面水平插入裂缝后旋转脚踝使其楔紧，站立时让脚跟下沉增加卡入力。另外，不同宽度裂缝需要完全不同的技术——从指宽到烟囱各有详细对应方法。",
+              "en": "Correct foot jam technique: insert the foot sideways horizontally, then rotate the ankle to wedge it tight; when standing, let the heel drop to increase wedging force. Different crack widths require completely different techniques -- from finger to chimney, each has its specific method.",
+              "source": "VDiff Climbing",
+              "sourceUrl": "https://www.vdiffclimbing.com/crack-climbing/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Crack Climbing Technique – Trad Climbing Skills",
+              "url": "https://www.vdiffclimbing.com/crack-climbing/",
+              "source": "VDiff Climbing",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "How to Crack Climb: Technique & Tips",
+              "url": "https://www.rei.com/learn/expert-advice/crack-climbing.html",
+              "source": "REI Expert Advice",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-arete-mantle",
@@ -729,13 +2135,55 @@
             "en": "Aretes and mantles are special terrain techniques frequently encountered outdoors.\n\n**Arete:** The protruding edge where two rock faces meet. Climbers straddle both sides, using side pulls, underclings, and sometimes pinching the arete itself. Body balance between both sides is the key challenge.\n\n**Mantle:** Topping out onto a ledge, similar to climbing out of a swimming pool. Transition from pulling to pressing, rotating hands from gripping to pushing down. Then step a foot up beside your hands and stand up.\n\nThe mantle's difficulty lies in the pull-to-push transition at an unstable position. Shoulder mobility and pressing strength are essential."
           },
           "terms": [
-            { "zh": "棱角", "en": "arete" },
-            { "zh": "翻越", "en": "mantle / mantelshelf" },
-            { "zh": "推力", "en": "pressing power" },
-            { "zh": "手掌下压", "en": "palming / press" }
+            {
+              "zh": "棱角",
+              "en": "arete"
+            },
+            {
+              "zh": "翻越",
+              "en": "mantle / mantelshelf"
+            },
+            {
+              "zh": "推力",
+              "en": "pressing power"
+            },
+            {
+              "zh": "手掌下压",
+              "en": "palming / press"
+            }
           ],
-          "crossRefs": ["kp-pinch-hold", "kp-undercling-sidepull-gaston", "kp-slab-technique"],
-          "tags": ["intermediate", "technique"]
+          "crossRefs": [
+            "kp-pinch-hold",
+            "kp-undercling-sidepull-gaston",
+            "kp-slab-technique"
+          ],
+          "tags": [
+            "intermediate",
+            "technique"
+          ],
+          "expertInsights": [
+            {
+              "zh": "棱角攀爬的最佳身体角度是面向 arête 约 45°，既能利用刃脊两侧又能保持平衡。Barndoor（风门效应）是最常见问题，用对侧脚贴壁或 flag 可以有效防止。",
+              "en": "The optimal body angle for arete climbing is approximately 45 degrees facing the arete, allowing use of both sides while maintaining balance. Barndoor effect is the most common problem -- using the opposite foot against the wall or flagging effectively prevents it.",
+              "source": "Butora USA",
+              "sourceUrl": "https://butorausa.com/blogs/beta-blog/everything-you-need-to-know-about-climbing-aretes"
+            },
+            {
+              "zh": "脚跟绕 arête 勾住（sneaky heel around）是棱角攀登的特色脚法，可提供稳定休息点。压缩技术（compression）也是关键：用双手从两侧夹住 arête，身体悬挂其间。",
+              "en": "The 'sneaky heel around' (hooking the heel around the arete) is a signature arete footwork technique providing stable rest points. Compression is also key: squeezing the arete from both sides with both hands, hanging the body in between.",
+              "source": "Butora USA",
+              "sourceUrl": "https://butorausa.com/blogs/beta-blog/everything-you-need-to-know-about-climbing-aretes"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Everything You Need to Know About Climbing Arêtes",
+              "url": "https://butorausa.com/blogs/beta-blog/everything-you-need-to-know-about-climbing-aretes",
+              "source": "Butora USA",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         }
       ]
     },
@@ -763,13 +2211,50 @@
             "en": "Route reading is one of climbing's most important cognitive skills. Good route reading means mentally climbing the route from the ground.\n\n**Ground-Level Reading:** Scan the overall line from a distance. Identify the biggest and smallest holds, rest positions, and potential crux sections. Analyze from top to bottom since final moves impact fatigue most. Plan hand-foot sequences mentally. Mark the crux.\n\n**On-Route Reading:** Reassess at every rest point. Adjust beta if planned sequences don't work. Note that holds may look different from above than from the ground. Monitor your physical state.\n\nAccelerate development by watching stronger climbers on the same route, discussing routes before climbing, and reviewing decisions afterward."
           },
           "terms": [
-            { "zh": "路线阅读", "en": "route reading" },
-            { "zh": "核心难点", "en": "crux" },
-            { "zh": "休息位", "en": "rest position" },
-            { "zh": "方案调整", "en": "beta adjustment" }
+            {
+              "zh": "路线阅读",
+              "en": "route reading"
+            },
+            {
+              "zh": "核心难点",
+              "en": "crux"
+            },
+            {
+              "zh": "休息位",
+              "en": "rest position"
+            },
+            {
+              "zh": "方案调整",
+              "en": "beta adjustment"
+            }
           ],
-          "crossRefs": ["kp-rest-management", "kp-projecting-strategy", "kp-grading-systems"],
-          "tags": ["beginner", "intermediate", "technique"]
+          "crossRefs": [
+            "kp-rest-management",
+            "kp-projecting-strategy",
+            "kp-grading-systems"
+          ],
+          "tags": [
+            "beginner",
+            "intermediate",
+            "technique"
+          ],
+          "expertInsights": [
+            {
+              "zh": "按难度分级策略来分配路线阅读精力：热身路线不读 → 接近极限的路线需要读手顺 + 休息位 + 挂绳位置 + 关键脚法。路线阅读从地面节省的时间和精力，会在路线上以更流畅的动作换回来。",
+              "en": "Allocate route reading effort by difficulty level: don't read warm-up routes → near-limit routes need hand sequence + rest positions + clipping positions + key footwork. Time and energy saved through ground reading translates directly into smoother movement on the wall.",
+              "source": "Climbing Magazine",
+              "sourceUrl": "https://www.climbing.com/skills/reading-routes/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Increase Your Onsight Grade By Reading Routes From the Ground",
+              "url": "https://www.climbing.com/skills/reading-routes/",
+              "source": "Climbing Magazine",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-onsight-flash-redpoint",
@@ -782,14 +2267,68 @@
             "en": "Climbing ascent styles have strict definitions, each requiring different reading and strategy:\n\n**Onsight:** First attempt success with no prior information (only what eyes can see). The highest style, demanding excellent reading and adaptability. Strategy: conservative, efficient, rest and observe at every opportunity.\n\n**Flash:** First attempt success with prior information (watching others, verbal beta). Higher success rate than onsight. Key is selecting the most critical beta without information overload.\n\n**Redpoint:** Success after multiple attempts. Standard for pushing difficulty limits. Strategy: practice sections to optimize sequences, identify best rest positions, plan attempt rhythm and recovery.\n\nUnderstanding these styles helps climbers choose appropriate approaches based on route difficulty and personal ability."
           },
           "terms": [
-            { "zh": "看攀", "en": "onsight" },
-            { "zh": "闪攀", "en": "flash" },
-            { "zh": "红点", "en": "redpoint" },
-            { "zh": "项目路线", "en": "project" },
-            { "zh": "攀爬风格", "en": "ascent style" }
+            {
+              "zh": "看攀",
+              "en": "onsight"
+            },
+            {
+              "zh": "闪攀",
+              "en": "flash"
+            },
+            {
+              "zh": "红点",
+              "en": "redpoint"
+            },
+            {
+              "zh": "项目路线",
+              "en": "project"
+            },
+            {
+              "zh": "攀爬风格",
+              "en": "ascent style"
+            }
           ],
-          "crossRefs": ["kp-route-reading-basics", "kp-projecting-strategy", "kp-climbing-ethics", "kp-rest-management"],
-          "tags": ["intermediate", "technique", "mental"]
+          "crossRefs": [
+            "kp-route-reading-basics",
+            "kp-projecting-strategy",
+            "kp-climbing-ethics",
+            "kp-rest-management"
+          ],
+          "tags": [
+            "intermediate",
+            "technique",
+            "mental"
+          ],
+          "expertInsights": [
+            {
+              "zh": "第二次尝试即送的策略：第一次尝试的目标不是送线，而是完成所有动作并排除所有疑问。提出「三分之一法则」：1/3 时间做项目，1/3 做第二次尝试路线，1/3 做 onsight。",
+              "en": "Second-try send strategy: the first attempt's goal is not to send but to complete all moves and eliminate all questions. The 'one-third rule': 1/3 of time on projects, 1/3 on second-try routes, 1/3 on onsight attempts.",
+              "source": "Power Company Climbing",
+              "sourceUrl": "https://www.powercompanyclimbing.com/blog/2019/7/21/redpoint-tactics-applying-the-art-of-the-second-try-send"
+            },
+            {
+              "zh": "路线选择很关键：介于最难 onsight 和最难 redpoint 之间的难度最适合第二次尝试。在第一次尝试中用 tick mark 标记关键岩点，为第二次尝试奠定基础。",
+              "en": "Route selection is crucial: difficulty between your hardest onsight and hardest redpoint is ideal for second-try attempts. Use tick marks on key holds during the first attempt to set up the second try.",
+              "source": "Power Company Climbing",
+              "sourceUrl": "https://www.powercompanyclimbing.com/blog/2019/7/21/redpoint-tactics-applying-the-art-of-the-second-try-send"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Redpoint Climbing: Applying the Art of the Second-Try Send",
+              "url": "https://www.powercompanyclimbing.com/blog/2019/7/21/redpoint-tactics-applying-the-art-of-the-second-try-send",
+              "source": "Power Company Climbing",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Increase Your Onsight Grade By Reading Routes From the Ground",
+              "url": "https://www.climbing.com/skills/reading-routes/",
+              "source": "Climbing Magazine",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         }
       ]
     }

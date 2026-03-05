@@ -25,13 +25,47 @@
             "en": "The history of climbing as a sport dates back to late 19th century Europe. The earliest technical rock climbing emerged in Saxony, Germany and the Lake District, England. Saxon climbers developed early ethics on sandstone towers, including prohibitions on artificial aids that profoundly influenced the free climbing movement.\n\nIn the early 20th century, climbing began separating from mountaineering as an independent pursuit. Paul Preuss championed the idea that climbers should ascend using only their own abilities. Meanwhile, Yosemite Valley became a global climbing mecca, with its granite big walls pushing the limits of human climbing ability from the 1930s onward."
           },
           "terms": [
-            { "zh": "萨克森地区", "en": "Saxon Switzerland" },
-            { "zh": "自由攀登", "en": "free climbing" },
-            { "zh": "纯粹主义", "en": "purism" },
-            { "zh": "优胜美地", "en": "Yosemite" }
+            {
+              "zh": "萨克森地区",
+              "en": "Saxon Switzerland"
+            },
+            {
+              "zh": "自由攀登",
+              "en": "free climbing"
+            },
+            {
+              "zh": "纯粹主义",
+              "en": "purism"
+            },
+            {
+              "zh": "优胜美地",
+              "en": "Yosemite"
+            }
           ],
-          "crossRefs": ["kp-climbing-categories", "kp-climbing-ethics"],
-          "tags": ["beginner"]
+          "crossRefs": [
+            "kp-climbing-categories",
+            "kp-climbing-ethics"
+          ],
+          "tags": [
+            "beginner"
+          ],
+          "expertInsights": [
+            {
+              "zh": "攀岩起源远早于 19 世纪欧洲登山运动——非洲、亚洲、美洲的原住民社区均有悠久的攀登文化，西方运动攀岩史学长期忽视了这些非欧洲传统。",
+              "en": "Climbing origins far predate 19th-century European mountaineering -- Indigenous communities in Africa, Asia, and the Americas all had longstanding climbing traditions that Western sport climbing historiography has long overlooked.",
+              "source": "Gripped Magazine",
+              "sourceUrl": "https://gripped.com/profiles/the-history-of-why-we-climb-part-one/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "The History of Why We Climb, Part One",
+              "url": "https://gripped.com/profiles/the-history-of-why-we-climb-part-one/",
+              "source": "Gripped Magazine",
+              "language": "en",
+              "articleType": "research"
+            }
+          ]
         },
         {
           "id": "kp-free-climbing-revolution",
@@ -44,14 +78,57 @@
             "en": "The Free Climbing Movement of the 1960s-70s was a pivotal revolution in climbing history. Before this, aid climbing with pitons and ladders was standard. Pioneers like Royal Robbins and Yvon Chouinard first promoted clean climbing using removable protection.\n\nThe next generation, including John Bachar, Ron Kauk, and Lynn Hill, pushed further, climbing with only body strength and skill while using gear solely for safety. Lynn Hill's 1993 free ascent of The Nose on El Capitan, previously thought impossible to free climb, stands as one of climbing's greatest milestones. This movement fundamentally shifted how climbing difficulty is measured and evaluated."
           },
           "terms": [
-            { "zh": "器械攀登", "en": "aid climbing" },
-            { "zh": "清洁攀登", "en": "clean climbing" },
-            { "zh": "岩钉", "en": "piton" },
-            { "zh": "机械塞", "en": "cam" },
-            { "zh": "酋长岩", "en": "El Capitan" }
+            {
+              "zh": "器械攀登",
+              "en": "aid climbing"
+            },
+            {
+              "zh": "清洁攀登",
+              "en": "clean climbing"
+            },
+            {
+              "zh": "岩钉",
+              "en": "piton"
+            },
+            {
+              "zh": "机械塞",
+              "en": "cam"
+            },
+            {
+              "zh": "酋长岩",
+              "en": "El Capitan"
+            }
           ],
-          "crossRefs": ["kp-climbing-origins", "kp-climbing-categories"],
-          "tags": ["beginner"]
+          "crossRefs": [
+            "kp-climbing-origins",
+            "kp-climbing-categories"
+          ],
+          "tags": [
+            "beginner"
+          ],
+          "expertInsights": [
+            {
+              "zh": "自由攀岩革命的核心是哲学转变：从「使用一切手段登顶」转变为「依靠自身能力攀登，保护装备只用于防止坠落」。Royal Robbins 在 Nutcracker（1967）上的全程坚果保护攀登开创了「净洁攀登」理念。",
+              "en": "The core of the free climbing revolution was a philosophical shift: from 'summit by any means' to 'climb with your own ability, using gear only to protect against falls.' Royal Robbins' all-nut-protected ascent of Nutcracker (1967) pioneered the clean climbing ethic.",
+              "source": "Rock Climbing Realms",
+              "sourceUrl": "https://rockclimbingrealms.com/historic-climbing-routes/"
+            },
+            {
+              "zh": "Smith Rock（俄勒冈）和 Hueco Tanks（德克萨斯）是美国运动攀和现代抱石的两大诞生地，现代攀爬者有责任通过 Leave No Trace 原则传承攀岩史上形成的岩石保护精神。",
+              "en": "Smith Rock (Oregon) and Hueco Tanks (Texas) are the two birthplaces of American sport climbing and modern bouldering. Modern climbers bear the responsibility of carrying forward the rock-preservation ethic formed throughout climbing history through Leave No Trace principles.",
+              "source": "Rock Climbing Realms",
+              "sourceUrl": "https://rockclimbingrealms.com/historic-climbing-routes/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Beyond the Grade: What Historic Routes Teach Climbers Today",
+              "url": "https://rockclimbingrealms.com/historic-climbing-routes/",
+              "source": "Rock Climbing Realms",
+              "language": "en",
+              "articleType": "research"
+            }
+          ]
         },
         {
           "id": "kp-sport-climbing-emergence",
@@ -64,13 +141,47 @@
             "en": "Sport climbing emerged in the 1980s as a modernizing force. Unlike trad climbing, sport routes use pre-placed bolts for protection, requiring only quickdraws. This revolution originated largely in France, where climbers like Patrick Edlinger pushed difficulty to new heights on limestone cliffs.\n\nIn 1991, Wolfgang Gullich established the world's first 5.14d (9a) route. Sport climbing dramatically lowered the barrier to entry, fueled the growth of indoor climbing gyms, and laid the groundwork for climbing's inclusion in the Olympics. It shifted emphasis from adventure to movement difficulty and precision."
           },
           "terms": [
-            { "zh": "运动攀岩", "en": "sport climbing" },
-            { "zh": "膨胀螺栓", "en": "bolt" },
-            { "zh": "快挂", "en": "quickdraw" },
-            { "zh": "石灰岩", "en": "limestone" }
+            {
+              "zh": "运动攀岩",
+              "en": "sport climbing"
+            },
+            {
+              "zh": "膨胀螺栓",
+              "en": "bolt"
+            },
+            {
+              "zh": "快挂",
+              "en": "quickdraw"
+            },
+            {
+              "zh": "石灰岩",
+              "en": "limestone"
+            }
           ],
-          "crossRefs": ["kp-climbing-categories", "kp-olympics-history"],
-          "tags": ["beginner"]
+          "crossRefs": [
+            "kp-climbing-categories",
+            "kp-olympics-history"
+          ],
+          "tags": [
+            "beginner"
+          ],
+          "expertInsights": [
+            {
+              "zh": "Alan Watts 于 1983 年在 Smith Rock 首次使用预打孔螺栓建立路线（Watts Tot 5.12b），创造了美国第一条运动攀路线——运动攀的核心创新是将保护系统外包给路线开辟者，使攀爬者专注于技术动作本身。",
+              "en": "Alan Watts established America's first sport climb at Smith Rock in 1983 using pre-placed bolts (Watts Tot 5.12b). Sport climbing's core innovation was outsourcing the protection system to route developers, allowing climbers to focus purely on technical movement.",
+              "source": "5.life",
+              "sourceUrl": "https://5.life/blog/2024/07/04/the-history-of-sport-climbing-in-the-u-s/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "The History of Sport Climbing in the U.S.",
+              "url": "https://5.life/blog/2024/07/04/the-history-of-sport-climbing-in-the-u-s/",
+              "source": "5.life",
+              "language": "en",
+              "articleType": "research"
+            }
+          ]
         },
         {
           "id": "kp-modern-era",
@@ -83,13 +194,48 @@
             "en": "Since the 2000s, climbing has entered an era of rapid growth. Indoor gyms have proliferated globally, becoming the primary entry point for new climbers. The climbing population more than doubled during the 2010s.\n\nIn performance, Adam Ondra established the world's first 5.15c in 2012 and completed the potential hardest route ever (5.15d) in 2017. In bouldering, the upper limits continue to rise. Women's climbing has seen tremendous breakthroughs, with Janja Garnbret dominating competition and Ashima Shiraishi climbing V15 as a teenager. Training has become increasingly scientific, and the sport has transformed from a niche adventure pursuit into a mainstream activity with systematic training, clear grading, and broad participation."
           },
           "terms": [
-            { "zh": "室内攀岩馆", "en": "indoor climbing gym" },
-            { "zh": "系统板", "en": "system board" },
-            { "zh": "抱石", "en": "bouldering" },
-            { "zh": "竞技攀岩", "en": "competition climbing" }
+            {
+              "zh": "室内攀岩馆",
+              "en": "indoor climbing gym"
+            },
+            {
+              "zh": "系统板",
+              "en": "system board"
+            },
+            {
+              "zh": "抱石",
+              "en": "bouldering"
+            },
+            {
+              "zh": "竞技攀岩",
+              "en": "competition climbing"
+            }
           ],
-          "crossRefs": ["kp-climbing-categories", "kp-olympics-history", "kp-hangboard-training"],
-          "tags": ["beginner"]
+          "crossRefs": [
+            "kp-climbing-categories",
+            "kp-olympics-history",
+            "kp-hangboard-training"
+          ],
+          "tags": [
+            "beginner"
+          ],
+          "expertInsights": [
+            {
+              "zh": "美国攀岩馆数量自 2000 年起翻四倍，至 2021 年达 591 家；室内攀岩参与人数年增长率在所有户外运动中名列前茅，攀岩行业至 2017 年已贡献约 125 亿美元经济产值。",
+              "en": "The number of US climbing gyms quadrupled since 2000, reaching 591 by 2021. Indoor climbing participation growth rate ranks among the highest of all outdoor sports, and the climbing industry had contributed approximately $12.5 billion in economic output by 2017.",
+              "source": "99Boulders",
+              "sourceUrl": "https://www.99boulders.com/the-growth-of-climbing"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Rock Climbing Statistics: Accidents, Injuries, Deaths & Demographics",
+              "url": "https://www.99boulders.com/the-growth-of-climbing",
+              "source": "99Boulders",
+              "language": "en",
+              "articleType": "research"
+            }
+          ]
         }
       ]
     },
@@ -117,16 +263,66 @@
             "en": "The major climbing categories include:\n\n**Sport Climbing:** Uses pre-placed bolts for protection. Climbers clip quickdraws while ascending, typically on single-pitch routes (25-35m). Emphasizes difficulty.\n\n**Trad Climbing:** Climbers place removable protection in cracks. Requires comprehensive skills including gear placement and route judgment. Considered the purest form by many.\n\n**Bouldering:** Ropeless climbing on low rocks (under 6m) with crash pads below. Short but intensely difficult problems emphasizing power and problem-solving. The fastest-growing discipline.\n\n**Big Wall:** Multi-day ascents of walls hundreds of meters tall, requiring portaledge bivouacs. Iconic routes include those on El Capitan in Yosemite."
           },
           "terms": [
-            { "zh": "运动攀", "en": "sport climbing" },
-            { "zh": "传统攀", "en": "trad climbing" },
-            { "zh": "抱石", "en": "bouldering" },
-            { "zh": "大岩壁", "en": "big wall" },
-            { "zh": "绳距", "en": "pitch" },
-            { "zh": "抱石垫", "en": "crash pad" },
-            { "zh": "吊帐", "en": "portaledge" }
+            {
+              "zh": "运动攀",
+              "en": "sport climbing"
+            },
+            {
+              "zh": "传统攀",
+              "en": "trad climbing"
+            },
+            {
+              "zh": "抱石",
+              "en": "bouldering"
+            },
+            {
+              "zh": "大岩壁",
+              "en": "big wall"
+            },
+            {
+              "zh": "绳距",
+              "en": "pitch"
+            },
+            {
+              "zh": "抱石垫",
+              "en": "crash pad"
+            },
+            {
+              "zh": "吊帐",
+              "en": "portaledge"
+            }
           ],
-          "crossRefs": ["kp-climbing-origins", "kp-grading-systems"],
-          "tags": ["beginner"]
+          "crossRefs": [
+            "kp-climbing-origins",
+            "kp-grading-systems"
+          ],
+          "tags": [
+            "beginner"
+          ],
+          "expertInsights": [
+            {
+              "zh": "攀岩学习曲线建议路径：抱石（入门门槛最低）→ 顶绳 → 先锋 → 传统攀，难度和技能要求逐级递增。室内攀岩馆通常同时设有抱石区和绳索区，是体验多种攀岩类型的最佳入门场地。",
+              "en": "Recommended climbing learning curve: bouldering (lowest entry barrier) -> top rope -> lead -> trad, with skill requirements increasing at each level. Indoor climbing gyms typically have both bouldering and rope sections, making them the ideal venue for experiencing multiple climbing types.",
+              "source": "99Boulders",
+              "sourceUrl": "https://www.99boulders.com/how-to-start-rock-climbing"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "How to Start Rock Climbing in 8 Easy Steps",
+              "url": "https://www.99boulders.com/how-to-start-rock-climbing",
+              "source": "99Boulders",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Types of Rock Climbing Explained",
+              "url": "https://www.advnture.com/features/types-climbing",
+              "source": "Advnture",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-special-categories",
@@ -139,15 +335,56 @@
             "en": "Beyond mainstream disciplines, several specialized forms exist:\n\n**Deep Water Solo (DWS):** Ropeless climbing over deep water, using it as natural protection. Popular in Thailand and Spain, typically on routes of 10-25m.\n\n**Ice Climbing:** Ascending frozen waterfalls with ice tools and crampons. Requires sub-zero temperatures and uses the WI (Water Ice) grading scale from WI1 to WI7.\n\n**Dry Tooling:** Using ice tools on dry rock, originally developed as ice climbing training but now an independent discipline. Uses M (Mixed) grades, with difficulties reaching M15+.\n\nThese specialized forms each have dedicated communities and add to climbing's rich diversity."
           },
           "terms": [
-            { "zh": "深水独攀", "en": "deep water solo (DWS)" },
-            { "zh": "冰攀", "en": "ice climbing" },
-            { "zh": "干攀", "en": "dry tooling" },
-            { "zh": "冰镐", "en": "ice axe / ice tool" },
-            { "zh": "冰爪", "en": "crampons" },
-            { "zh": "混合攀登", "en": "mixed climbing" }
+            {
+              "zh": "深水独攀",
+              "en": "deep water solo (DWS)"
+            },
+            {
+              "zh": "冰攀",
+              "en": "ice climbing"
+            },
+            {
+              "zh": "干攀",
+              "en": "dry tooling"
+            },
+            {
+              "zh": "冰镐",
+              "en": "ice axe / ice tool"
+            },
+            {
+              "zh": "冰爪",
+              "en": "crampons"
+            },
+            {
+              "zh": "混合攀登",
+              "en": "mixed climbing"
+            }
           ],
-          "crossRefs": ["kp-climbing-categories", "kp-grading-systems"],
-          "tags": ["beginner", "intermediate"]
+          "crossRefs": [
+            "kp-climbing-categories",
+            "kp-grading-systems"
+          ],
+          "tags": [
+            "beginner",
+            "intermediate"
+          ],
+          "expertInsights": [
+            {
+              "zh": "自由独攀（free soloing）是攀岩中风险最高的形式——无绳索、无保护装备，任何坠落后果均为致命。深水独攀（DWS）是更安全的变体，坠落落入深水中。冰攀使用冰爪和冰镐，是通向高山攀岩的重要专项技能。",
+              "en": "Free soloing is the highest-risk form of climbing -- no ropes, no protection gear, any fall is potentially fatal. Deep water soloing (DWS) is a safer variant where falls land in deep water. Ice climbing with crampons and ice tools is an important specialized skill for alpine climbing.",
+              "source": "Advnture",
+              "sourceUrl": "https://www.advnture.com/features/types-climbing"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Types of Rock Climbing Explained",
+              "url": "https://www.advnture.com/features/types-climbing",
+              "source": "Advnture",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         }
       ]
     },
@@ -175,14 +412,51 @@
             "en": "The major grading systems include:\n\n**YDS (Yosemite Decimal System):** The standard American system. Technical climbing starts at 5.0, with subdivisions a/b/c/d from 5.10 upward. Currently tops out at 5.15d.\n\n**French Scale:** Widely used in Europe and international competition. Ranges from 1 to 9c+, with sub-grades a/b/c and optional +. Roughly: 6a equals 5.10a, 7a equals 5.11d, 8a equals 5.13b.\n\n**V-Scale (Hueco Scale):** American bouldering grades from V0 to V17. Developed by John Sherman at Hueco Tanks, Texas.\n\n**Font Scale (Fontainebleau):** European bouldering grades developed in France. Uses a format similar to French sport grades but with different difficulty correspondence."
           },
           "terms": [
-            { "zh": "YDS 系统", "en": "Yosemite Decimal System" },
-            { "zh": "法国等级", "en": "French scale" },
-            { "zh": "V 等级", "en": "V-scale / Hueco scale" },
-            { "zh": "枫丹白露等级", "en": "Fontainebleau scale" },
-            { "zh": "子级", "en": "sub-grade" }
+            {
+              "zh": "YDS 系统",
+              "en": "Yosemite Decimal System"
+            },
+            {
+              "zh": "法国等级",
+              "en": "French scale"
+            },
+            {
+              "zh": "V 等级",
+              "en": "V-scale / Hueco scale"
+            },
+            {
+              "zh": "枫丹白露等级",
+              "en": "Fontainebleau scale"
+            },
+            {
+              "zh": "子级",
+              "en": "sub-grade"
+            }
           ],
-          "crossRefs": ["kp-climbing-categories", "kp-route-reading-basics"],
-          "tags": ["beginner"]
+          "crossRefs": [
+            "kp-climbing-categories",
+            "kp-route-reading-basics"
+          ],
+          "tags": [
+            "beginner"
+          ],
+          "expertInsights": [
+            {
+              "zh": "YDS 从 5.0 到 5.15d，5.10 以上分 a/b/c/d 四个细分等级；法国分级（1a-9c）是全球最通用的分级语言；抱石使用独立的 V 分级（V0-V17），由 John Sherman 于 1980 年代在 Hueco Tanks 创立。",
+              "en": "YDS ranges from 5.0 to 5.15d with a/b/c/d subdivisions from 5.10 up. The French scale (1a-9c) is the most universally used grading language globally. Bouldering uses the separate V-scale (V0-V17), created by John Sherman at Hueco Tanks in the 1980s.",
+              "source": "Rock Climbing Realms",
+              "sourceUrl": "https://rockclimbingrealms.com/sport-climbing-grades-yds-vs-french-vs-uiaa-explained/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Sport Climbing Grades: YDS vs French vs UIAA Explained",
+              "url": "https://rockclimbingrealms.com/sport-climbing-grades-yds-vs-french-vs-uiaa-explained/",
+              "source": "Rock Climbing Realms",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-grade-comparison",
@@ -195,14 +469,59 @@
             "en": "Grade conversions have important nuances:\n\n**Limitations:** Grades are influenced by sustainedness, crux intensity, wall angle, and hold types. Two routes at the same grade can feel vastly different.\n\n**Grade inflation and sandbagging:** Standards vary by region. Some areas grade generously (soft), others are notoriously stiff (sandbagged). Indoor grades are typically 1-2 sub-grades softer than outdoor.\n\n**Key conversions:** 5.10a = 6a (French); 5.12a = 7a+; 5.14a = 8b+. For bouldering: V4 = Font 6b+; V8 = Font 7b+; V12 = Font 8a+.\n\nGrades are reference tools, not absolute measures. Climbers should focus on well-rounded skill development rather than fixating on numbers."
           },
           "terms": [
-            { "zh": "等级膨胀", "en": "grade inflation" },
-            { "zh": "给分偏软", "en": "soft grading" },
-            { "zh": "给分偏硬", "en": "sandbagged" },
-            { "zh": "核心难点", "en": "crux" },
-            { "zh": "持续性路线", "en": "sustained route" }
+            {
+              "zh": "等级膨胀",
+              "en": "grade inflation"
+            },
+            {
+              "zh": "给分偏软",
+              "en": "soft grading"
+            },
+            {
+              "zh": "给分偏硬",
+              "en": "sandbagged"
+            },
+            {
+              "zh": "核心难点",
+              "en": "crux"
+            },
+            {
+              "zh": "持续性路线",
+              "en": "sustained route"
+            }
           ],
-          "crossRefs": ["kp-grading-systems", "kp-route-reading-basics"],
-          "tags": ["beginner", "intermediate"]
+          "crossRefs": [
+            "kp-grading-systems",
+            "kp-route-reading-basics"
+          ],
+          "tags": [
+            "beginner",
+            "intermediate"
+          ],
+          "expertInsights": [
+            {
+              "zh": "全球有七种以上的岩攀分级系统；澳大利亚 Ewbank 系统用纯数字（1-40+）标注，以保护难度为主要考量；英国双级系统同时考量整体严肃性和单步技术难度。换算图表仅为参考——岩石类型和各地评级文化差异使「精确换算」本身就是伪命题。",
+              "en": "There are seven or more route grading systems worldwide. Australia's Ewbank system uses pure numbers (1-40+) weighted toward protection difficulty. The British dual system considers both overall seriousness and single-move technical difficulty. Conversion charts are reference only -- differences in rock type and regional grading culture make 'precise conversion' inherently impossible.",
+              "source": "American Alpine Institute",
+              "sourceUrl": "https://www.alpineinstitute.com/articles/rock-climbing-grade-comparison-chart/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Rock Climbing Grade Comparison Chart",
+              "url": "https://www.alpineinstitute.com/articles/rock-climbing-grade-comparison-chart/",
+              "source": "American Alpine Institute",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Sport Climbing Grades: YDS vs French vs UIAA Explained",
+              "url": "https://rockclimbingrealms.com/sport-climbing-grades-yds-vs-french-vs-uiaa-explained/",
+              "source": "Rock Climbing Realms",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         }
       ]
     },
@@ -230,13 +549,55 @@
             "en": "Climbing ethics are the cultural foundation guiding how climbers interact with rock, nature, and each other.\n\n**First Ascent Ethics:** First ascensionists name and grade routes but bear responsibility for style. Using bolts where traditional protection suffices is generally considered poor ethics. Ground-up development is preferred over top-down.\n\n**Environmental Ethics:** Leave No Trace principles require carrying out all trash, minimizing chalk marks, and respecting seasonal closures for wildlife.\n\n**Style Ethics:** On-sight (first attempt with no information) is the highest style, followed by flash (first attempt with beta), then redpoint (completed after multiple attempts). Misrepresenting ascent style is a serious ethical violation."
           },
           "terms": [
-            { "zh": "首攀", "en": "first ascent" },
-            { "zh": "不留痕迹", "en": "Leave No Trace" },
-            { "zh": "从地面向上", "en": "ground-up" },
-            { "zh": "完攀", "en": "send / complete ascent" }
+            {
+              "zh": "首攀",
+              "en": "first ascent"
+            },
+            {
+              "zh": "不留痕迹",
+              "en": "Leave No Trace"
+            },
+            {
+              "zh": "从地面向上",
+              "en": "ground-up"
+            },
+            {
+              "zh": "完攀",
+              "en": "send / complete ascent"
+            }
           ],
-          "crossRefs": ["kp-climbing-origins", "kp-free-climbing-revolution", "kp-route-reading-basics"],
-          "tags": ["beginner"]
+          "crossRefs": [
+            "kp-climbing-origins",
+            "kp-free-climbing-revolution",
+            "kp-route-reading-basics"
+          ],
+          "tags": [
+            "beginner"
+          ],
+          "expertInsights": [
+            {
+              "zh": "户外攀岩比室内复杂得多：需要主动评估落石风险、路面状况、天气变化和紧急撤退路线。在户外看到不安全行为时，如何有建设性、非指责性地提供善意提醒是成熟攀岩伦理的重要组成部分。",
+              "en": "Outdoor climbing is far more complex than indoor: you must proactively assess rockfall risk, surface conditions, weather changes, and emergency retreat routes. Knowing how to offer constructive, non-judgmental safety reminders when witnessing unsafe behavior outdoors is an important part of mature climbing ethics.",
+              "source": "American Alpine Club",
+              "sourceUrl": "https://americanalpineclub.org/news/2023/6/29/gym-to-crag"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Gym to Crag",
+              "url": "https://americanalpineclub.org/news/2023/6/29/gym-to-crag",
+              "source": "American Alpine Club",
+              "language": "en",
+              "articleType": "safety-case"
+            },
+            {
+              "title": "Beyond the Grade: What Historic Routes Teach Climbers Today",
+              "url": "https://rockclimbingrealms.com/historic-climbing-routes/",
+              "source": "Rock Climbing Realms",
+              "language": "en",
+              "articleType": "research"
+            }
+          ]
         },
         {
           "id": "kp-community-media",
@@ -249,13 +610,48 @@
             "en": "The climbing community is known for its tight-knit social bonds. At gyms and crags, climbers naturally form supportive groups, sharing beta, belaying each other, and solving problems together.\n\n**Legendary Climbers:** Each era has iconic figures. From Royal Robbins' Yosemite pioneering to Alex Honnold's free solo of El Capitan and Adam Ondra's difficulty records. Modern climbers use social media to spread climbing culture to wider audiences.\n\n**Media Evolution:** Climbing culture spread through magazines and books, then films like the Oscar-winning documentary about free soloing. Social media, YouTube, and podcasts are now the primary platforms for sharing climbing experiences and knowledge."
           },
           "terms": [
-            { "zh": "路线信息", "en": "beta" },
-            { "zh": "保护", "en": "belay" },
-            { "zh": "无保护自由独攀", "en": "free solo" },
-            { "zh": "攀岩社区", "en": "climbing community" }
+            {
+              "zh": "路线信息",
+              "en": "beta"
+            },
+            {
+              "zh": "保护",
+              "en": "belay"
+            },
+            {
+              "zh": "无保护自由独攀",
+              "en": "free solo"
+            },
+            {
+              "zh": "攀岩社区",
+              "en": "climbing community"
+            }
           ],
-          "crossRefs": ["kp-climbing-ethics", "kp-climbing-origins", "kp-free-climbing-revolution"],
-          "tags": ["beginner"]
+          "crossRefs": [
+            "kp-climbing-ethics",
+            "kp-climbing-origins",
+            "kp-free-climbing-revolution"
+          ],
+          "tags": [
+            "beginner"
+          ],
+          "expertInsights": [
+            {
+              "zh": "社交媒体将攀岩从小众亚文化拉向大众视野，但同时引入了「为别人而爬」的压力——传统攀岩文化强调内在动机（探索、个人突破），而社交媒体倾向于外化动机（点赞、粉丝、赞助），「等级追逐」文化在社交媒体时代显著加速。",
+              "en": "Social media pulled climbing from a niche subculture into the mainstream spotlight, but also introduced pressure to 'climb for others.' Traditional climbing culture emphasizes intrinsic motivation (exploration, personal breakthroughs), while social media favors extrinsic motivation (likes, followers, sponsorships). Grade-chasing culture has accelerated significantly in the social media era.",
+              "source": "Evening Sends",
+              "sourceUrl": "https://eveningsends.com/climbing-for-likes-the-social-media-trap/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Climbing for Likes: The Social Media Trap",
+              "url": "https://eveningsends.com/climbing-for-likes-the-social-media-trap/",
+              "source": "Evening Sends",
+              "language": "en",
+              "articleType": "research"
+            }
+          ]
         }
       ]
     },
@@ -283,14 +679,52 @@
             "en": "Climbing's Olympic journey spanned decades of effort. The IFSC gained IOC recognition in 2007 and campaigned persistently. In 2016, the IOC announced climbing for the 2020 Tokyo Games.\n\n**Tokyo 2020:** Used a Combined format (Speed + Bouldering + Lead) with multiplicative scoring, which proved controversial due to speed climbing's distinct skill requirements. Alberto Gines Lopez (Spain) and Janja Garnbret (Slovenia) won gold.\n\n**Paris 2024:** Separated speed climbing as a standalone event, with bouldering and lead combined. Garnbret claimed gold again in bouldering + lead, while speed events produced world records.\n\nClimbing is confirmed for Los Angeles 2028, with format adjustments expected to better showcase each discipline."
           },
           "terms": [
-            { "zh": "国际攀联", "en": "IFSC (International Federation of Sport Climbing)" },
-            { "zh": "全能赛", "en": "combined format" },
-            { "zh": "速度攀岩", "en": "speed climbing" },
-            { "zh": "难度攀岩", "en": "lead climbing" },
-            { "zh": "攀石", "en": "bouldering (competition)" }
+            {
+              "zh": "国际攀联",
+              "en": "IFSC (International Federation of Sport Climbing)"
+            },
+            {
+              "zh": "全能赛",
+              "en": "combined format"
+            },
+            {
+              "zh": "速度攀岩",
+              "en": "speed climbing"
+            },
+            {
+              "zh": "难度攀岩",
+              "en": "lead climbing"
+            },
+            {
+              "zh": "攀石",
+              "en": "bouldering (competition)"
+            }
           ],
-          "crossRefs": ["kp-climbing-categories", "kp-sport-climbing-emergence", "kp-modern-era"],
-          "tags": ["beginner"]
+          "crossRefs": [
+            "kp-climbing-categories",
+            "kp-sport-climbing-emergence",
+            "kp-modern-era"
+          ],
+          "tags": [
+            "beginner"
+          ],
+          "expertInsights": [
+            {
+              "zh": "东京 2020 联合赛制受到批评：速度攀岩与技术攀岩训练体系完全不同，联合赛实际上是在比较两种不同运动。巴黎 2024 改革将速度独立设项，抱石+先锋联合，运动员规模从 40 人扩至 68 人。",
+              "en": "The Tokyo 2020 combined format was criticized: speed climbing and technical climbing have entirely different training systems, so the combined event was essentially comparing two different sports. Paris 2024 reforms separated speed as a standalone event with bouldering + lead combined, expanding the athlete pool from 40 to 68.",
+              "source": "NBC Olympics",
+              "sourceUrl": "https://www.nbcolympics.com/news/sport-climbing-101-olympic-history-and-results"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Sport Climbing 101: Olympic History and Results",
+              "url": "https://www.nbcolympics.com/news/sport-climbing-101-olympic-history-and-results",
+              "source": "NBC Olympics",
+              "language": "en",
+              "articleType": "research"
+            }
+          ]
         },
         {
           "id": "kp-olympics-athletes",
@@ -303,13 +737,55 @@
             "en": "Olympic climbing showcases the world's best competitive climbers:\n\n**Janja Garnbret (Slovenia):** Widely considered the greatest female competitive climber in history. She once won every bouldering and lead World Cup event in a single season. Gold medalist at both Tokyo and Paris Olympics.\n\n**Adam Ondra (Czech Republic):** Though without an Olympic medal, Ondra is considered one of the greatest climbers ever, having established the world's first 5.15d route. Known for creative body positioning and exceptional finger strength.\n\n**Tomoa Narasaki (Japan):** A leading figure in Japanese competition climbing, famous for explosive dynamic movement. Multiple IFSC Bouldering World Cup champion and Tokyo Olympic bronze medalist.\n\nThese athletes inspire global climbing participation through their competitive achievements and public influence."
           },
           "terms": [
-            { "zh": "世界杯赛", "en": "World Cup" },
-            { "zh": "竞技攀岩者", "en": "competition climber" },
-            { "zh": "动态攀爬", "en": "dynamic climbing" },
-            { "zh": "赛站", "en": "event / round" }
+            {
+              "zh": "世界杯赛",
+              "en": "World Cup"
+            },
+            {
+              "zh": "竞技攀岩者",
+              "en": "competition climber"
+            },
+            {
+              "zh": "动态攀爬",
+              "en": "dynamic climbing"
+            },
+            {
+              "zh": "赛站",
+              "en": "event / round"
+            }
           ],
-          "crossRefs": ["kp-olympics-history", "kp-modern-era", "kp-flow-state"],
-          "tags": ["beginner"]
+          "crossRefs": [
+            "kp-olympics-history",
+            "kp-modern-era",
+            "kp-flow-state"
+          ],
+          "tags": [
+            "beginner"
+          ],
+          "expertInsights": [
+            {
+              "zh": "首届奥运攀岩共 40 名运动员参赛（男女各 20），代表 20+ 个国家。Janja Garnbret 在赛前被视为女子夺冠最大热门，以压倒性实力最终如愿摘金，首届奥运攀岩在竞技层面验证了攀岩的国际吸引力。",
+              "en": "The inaugural Olympic climbing event featured 40 athletes (20 men, 20 women) representing 20+ countries. Janja Garnbret was the pre-event favorite for women's gold and won convincingly. The first Olympic climbing competition validated climbing's international competitive appeal.",
+              "source": "Gripped Magazine",
+              "sourceUrl": "https://gripped.com/profiles/the-40-climbers-competing-at-the-summer-2021-olympics/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "The 40 Climbers Competing at the Summer 2021 Olympics",
+              "url": "https://gripped.com/profiles/the-40-climbers-competing-at-the-summer-2021-olympics/",
+              "source": "Gripped Magazine",
+              "language": "en",
+              "articleType": "research"
+            },
+            {
+              "title": "Sport Climbing 101: Olympic History and Results",
+              "url": "https://www.nbcolympics.com/news/sport-climbing-101-olympic-history-and-results",
+              "source": "NBC Olympics",
+              "language": "en",
+              "articleType": "research"
+            }
+          ]
         }
       ]
     }

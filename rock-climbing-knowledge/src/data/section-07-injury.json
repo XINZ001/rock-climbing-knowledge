@@ -25,11 +25,26 @@
             "en": "Finger pulley injuries are the most iconic climbing injury, primarily affecting the A2 and A4 annular pulleys. Pulleys hold the flexor tendons close to the bone, enabling efficient force transfer during finger flexion. Overloading in a full crimp position is the most common cause.\n\n**Grading:** Grade I (mild stretch, minor pain, 2-4 weeks recovery); Grade II (partial tear, audible pop possible, significant pain, 4-8 weeks recovery); Grade III (complete rupture, loud pop, bowstringing of the tendon visible, 3-6 months recovery, may require surgery).\n\n**Prevention:** Minimize full crimping; prefer half crimp and open hand grips. Warm up thoroughly before high-intensity climbing. Stop immediately at any finger discomfort. Progress training loads gradually to allow tendon adaptation.\n\n**First aid:** Stop climbing immediately. Ice for 15-20 minutes. Apply H-tape or buddy tape for support. Seek medical evaluation (ultrasound or MRI) for suspected Grade II or III injuries."
           },
           "terms": [
-            { "zh": "滑车韧带", "en": "pulley" },
-            { "zh": "A2滑车", "en": "A2 pulley" },
-            { "zh": "A4滑车", "en": "A4 pulley" },
-            { "zh": "弓弦效应", "en": "bowstringing" },
-            { "zh": "H型胶带固定", "en": "H-tape" }
+            {
+              "zh": "滑车韧带",
+              "en": "pulley"
+            },
+            {
+              "zh": "A2滑车",
+              "en": "A2 pulley"
+            },
+            {
+              "zh": "A4滑车",
+              "en": "A4 pulley"
+            },
+            {
+              "zh": "弓弦效应",
+              "en": "bowstringing"
+            },
+            {
+              "zh": "H型胶带固定",
+              "en": "H-tape"
+            }
           ],
           "crossRefs": [
             "kp-grip-types",
@@ -37,7 +52,41 @@
             "kp-warmup",
             "kp-hangboard-training"
           ],
-          "tags": ["beginner", "health", "safety"]
+          "tags": [
+            "beginner",
+            "health",
+            "safety"
+          ],
+          "expertInsights": [
+            {
+              "zh": "A2 滑轮损伤占攀岩手指损伤的 50%，内扣（crimp）姿势产生约 400N 临界力。损伤分级决定恢复时间：拉伤 2-6 周，部分撕裂 4-12 周，完全撕裂 3 个月以上。",
+              "en": "A2 pulley injuries account for 50% of climbing finger injuries, with crimp position generating ~400N critical force. Injury grade determines recovery: strain 2-6 weeks, partial tear 4-12 weeks, complete rupture 3+ months.",
+              "source": "Hooper's Beta (Jason Hooper, DPT)",
+              "sourceUrl": "https://www.hoopersbeta.com/library/a2-pulley-manual-for-climbers"
+            },
+            {
+              "zh": "复攀使用 V 级阶梯系统：从 V0-V2 开始，每周递增，初期避免动态动作。预防关键：单次尝试不超过 7 次，多样化攀爬风格，保证充足睡眠和营养。",
+              "en": "Return to climbing uses a V-grade ladder: start at V0-V2, increase weekly, avoid dynamic moves initially. Prevention keys: no more than 7 attempts per move, diversify climbing styles, ensure adequate sleep and nutrition.",
+              "source": "Hooper's Beta (Jason Hooper, DPT)",
+              "sourceUrl": "https://www.hoopersbeta.com/library/a2-pulley-manual-for-climbers"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "A2 Pulley Rehab Manual for Climbers",
+              "url": "https://www.hoopersbeta.com/library/a2-pulley-manual-for-climbers",
+              "source": "Hooper's Beta",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Finger Pulley Injury Diagnoses and Rehab by Dr. Jared Vagy",
+              "url": "https://www.trainingbeta.com/pulley-diagnosis-rehab/",
+              "source": "TrainingBeta",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-tendonitis",
@@ -50,11 +99,26 @@
             "en": "Tendonitis is an extremely common overuse injury among climbers, primarily affecting the elbows and wrists. Unlike acute injuries, tendonitis develops gradually from repeated strain.\n\n**Elbow tendonitis:** Medial epicondylitis (golfer's elbow) causes inner elbow pain during gripping — the most common elbow issue in climbers due to heavy forearm flexor use. Lateral epicondylitis (tennis elbow) causes outer elbow pain during wrist extension, less common but possible from lack of antagonist training or specific moves like sidepulls.\n\n**Wrist tendonitis:** Flexor or extensor tendons inflame from repeated high-load use. Symptoms include pain during wrist flexion/extension and forearm swelling. Mantling and heavy pinch work are common triggers.\n\n**Treatment:** Modern approach favors active recovery over complete rest. Eccentric exercises (slow, controlled lengthening) are most effective for tendon repair. Ice and OTC anti-inflammatories help early symptoms but should not be relied on long-term. Seek professional evaluation if symptoms persist beyond 4-6 weeks."
           },
           "terms": [
-            { "zh": "肌腱炎", "en": "tendonitis" },
-            { "zh": "内上髁炎", "en": "medial epicondylitis / golfer's elbow" },
-            { "zh": "外上髁炎", "en": "lateral epicondylitis / tennis elbow" },
-            { "zh": "离心训练", "en": "eccentric exercise" },
-            { "zh": "过度使用", "en": "overuse" }
+            {
+              "zh": "肌腱炎",
+              "en": "tendonitis"
+            },
+            {
+              "zh": "内上髁炎",
+              "en": "medial epicondylitis / golfer's elbow"
+            },
+            {
+              "zh": "外上髁炎",
+              "en": "lateral epicondylitis / tennis elbow"
+            },
+            {
+              "zh": "离心训练",
+              "en": "eccentric exercise"
+            },
+            {
+              "zh": "过度使用",
+              "en": "overuse"
+            }
           ],
           "crossRefs": [
             "kp-antagonist-training",
@@ -62,7 +126,34 @@
             "kp-warmup",
             "kp-pulling-power"
           ],
-          "tags": ["beginner", "intermediate", "health"]
+          "tags": [
+            "beginner",
+            "intermediate",
+            "health"
+          ],
+          "expertInsights": [
+            {
+              "zh": "攀岩者肘（内上髁炎）由旋前圆肌与肱二头肌旋后的生物力学冲突导致。康复期五个关键练习：指屈肌双姿势伸展、前臂伸展、旋前哑铃、密度悬挂（中性握）和血流限制训练。",
+              "en": "Climber's elbow (medial epicondylitis) is caused by biomechanical conflict between the pronator teres and biceps supination. Five key rehab exercises: finger flexor dual-position stretches, forearm extensions, pronation dumbbells, density hangs (neutral grip), and blood flow restriction training.",
+              "source": "Training For Climbing (Eric Hörst)",
+              "sourceUrl": "https://trainingforclimbing.com/treating-climbers-elbow-medial-epicondylitis/"
+            },
+            {
+              "zh": "轻症 1-2 个月可愈，但坚持终身拮抗肌训练是预防复发的关键。急性期需完全停攀并冰敷（20 分钟/次，每天 3-6 次）。",
+              "en": "Mild cases can heal in 1-2 months, but lifelong antagonist training is key to preventing recurrence. During acute phase, stop climbing completely and ice (20 min/session, 3-6 times/day).",
+              "source": "Training For Climbing (Eric Hörst)",
+              "sourceUrl": "https://trainingforclimbing.com/treating-climbers-elbow-medial-epicondylitis/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Treating Climber's Elbow (Medial Epicondylitis)",
+              "url": "https://trainingforclimbing.com/treating-climbers-elbow-medial-epicondylitis/",
+              "source": "Training For Climbing (Eric Hörst)",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-shoulder-injury",
@@ -75,11 +166,26 @@
             "en": "The shoulder joint has the greatest range of motion in the body, which also makes it one of the most vulnerable joints in climbing. Overhead movements, extreme reaches, and sudden dynamic loads all challenge shoulder integrity.\n\n**Rotator cuff injuries:** The four rotator cuff muscles (supraspinatus, infraspinatus, teres minor, subscapularis) stabilize the shoulder joint. Common issues include tendinitis (pain during abduction/elevation, worse at night), partial tears (from chronic degeneration, significant pain and strength loss), and complete tears (from acute overload or end-stage degeneration, may require surgery).\n\n**Shoulder impingement:** Rotator cuff tendons get compressed under the acromion during arm elevation, causing pain and inflammation. Climbing's overhead movements exacerbate this. Symptoms include a painful arc at 60-120 degrees of elevation, worsening with internal rotation.\n\n**Prevention:** Strengthen rotator cuff stabilizers (external rotation, internal rotation, stability exercises). Maintain proper scapular positioning — keep shoulder blades depressed during climbing, not shrugged. Avoid heavy loading at extreme ranges of motion. Include shoulder warm-up in every pre-climbing routine."
           },
           "terms": [
-            { "zh": "肩袖", "en": "rotator cuff" },
-            { "zh": "冈上肌", "en": "supraspinatus" },
-            { "zh": "肩峰撞击", "en": "shoulder impingement" },
-            { "zh": "肩胛骨稳定", "en": "scapular stability" },
-            { "zh": "疼痛弧", "en": "painful arc" }
+            {
+              "zh": "肩袖",
+              "en": "rotator cuff"
+            },
+            {
+              "zh": "冈上肌",
+              "en": "supraspinatus"
+            },
+            {
+              "zh": "肩峰撞击",
+              "en": "shoulder impingement"
+            },
+            {
+              "zh": "肩胛骨稳定",
+              "en": "scapular stability"
+            },
+            {
+              "zh": "疼痛弧",
+              "en": "painful arc"
+            }
           ],
           "crossRefs": [
             "kp-shoulder-stability",
@@ -87,7 +193,34 @@
             "kp-warmup",
             "kp-pulling-power"
           ],
-          "tags": ["intermediate", "health"]
+          "tags": [
+            "intermediate",
+            "health"
+          ],
+          "expertInsights": [
+            {
+              "zh": "肩袖撞击综合征（SIS）是攀岩者最常见肩部损伤，持续下拉动作是主因。「鸡翅式」肘部姿势（泵感时常见）会加重撞击，需主动纠正。翻越（mantle）和拇指朝下的裂缝卡手也是高风险动作。",
+              "en": "Shoulder impingement syndrome (SIS) is the most common shoulder injury in climbers, caused by repetitive pulling. The 'chicken wing' elbow position (common when pumped) worsens impingement and must be corrected. Mantles and thumbs-down crack jams are also high-risk movements.",
+              "source": "TrainingBeta (Dr. Jared Vagy, DPT)",
+              "sourceUrl": "https://www.trainingbeta.com/cuff/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Rotator Cuff Strain Protocol for Rock Climbers",
+              "url": "https://www.trainingbeta.com/cuff/",
+              "source": "TrainingBeta (Dr. Jared Vagy)",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Get Balanced: How to Train Antagonist Muscles",
+              "url": "https://gripped.com/indoor-climbing/get-balanced-how-to-train-antagonist-muscles/",
+              "source": "Gripped Magazine",
+              "language": "en",
+              "articleType": "training"
+            }
+          ]
         },
         {
           "id": "kp-skin-management",
@@ -100,17 +233,52 @@
             "en": "Climbers' hand skin is the primary interface with rock, and skin condition directly affects grip performance. Too thin and it tears; too thick and calluses rip off as flappers. Good skin management is a daily practice for climbers.\n\n**Common issues:** Blisters (beginners, from friction — keep clean, do not pop intact blisters); calluses (protective when moderate, problematic when thick — sand regularly with fine sandpaper or a nail file); flappers (torn calluses — clean, trim with sterile scissors, protect with tape); tip splits (dry-skin finger cracks, common in arid conditions).\n\n**Care tips:** Apply moisturizer or climbing-specific balm (Climb On, Joshua Tree) after every session. Keep hands dry before climbing but avoid over-drying with excessive chalk. Sand thick calluses regularly, especially before high-intensity climbing days. Allow rest days for skin recovery and thickening."
           },
           "terms": [
-            { "zh": "老茧", "en": "callus" },
-            { "zh": "皮瓣", "en": "flapper" },
-            { "zh": "水泡", "en": "blister" },
-            { "zh": "指尖开裂", "en": "tip split" },
-            { "zh": "攀岩胶带", "en": "climbing tape" }
+            {
+              "zh": "老茧",
+              "en": "callus"
+            },
+            {
+              "zh": "皮瓣",
+              "en": "flapper"
+            },
+            {
+              "zh": "水泡",
+              "en": "blister"
+            },
+            {
+              "zh": "指尖开裂",
+              "en": "tip split"
+            },
+            {
+              "zh": "攀岩胶带",
+              "en": "climbing tape"
+            }
           ],
           "crossRefs": [
             "kp-crimp-hold",
             "kp-sloper-hold"
           ],
-          "tags": ["beginner", "health"]
+          "tags": [
+            "beginner",
+            "health"
+          ],
+          "expertInsights": [
+            {
+              "zh": "皮肤状态直接影响攀岩表现——均匀的薄老茧比厚老茧表现更好。撕皮处理：用指甲刀剪断（勿重新粘合），让伤口暴露在空气中快速干燥。长时间热水浸泡会松动老茧，需限制热水接触时间。",
+              "en": "Skin condition directly affects climbing performance -- even thin calluses outperform thick ones. Flapper treatment: trim with nail clippers (don't reattach), let the wound air-dry. Prolonged hot water exposure loosens calluses, so limit hot water contact time.",
+              "source": "99Boulders",
+              "sourceUrl": "https://www.99boulders.com/skin-care-for-climbers"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Skin Care For Climbers: How to Deal with Flappers, Split Tips & More",
+              "url": "https://www.99boulders.com/skin-care-for-climbers",
+              "source": "99Boulders",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         }
       ]
     },
@@ -138,10 +306,22 @@
             "en": "Thorough warm-up is the simplest and most effective injury prevention measure. The goal is to raise core temperature, increase joint lubrication, and activate the neuromuscular system. Skipping warm-up and jumping to hard routes is one of the most common causes of injury.\n\n**Systematic protocol (~20-30 minutes):**\n\n**Phase 1 — General activation (5 min):** Light cardio (jump rope, jogging, jumping jacks) plus dynamic stretches (arm circles, leg swings, hip circles).\n\n**Phase 2 — Joint and tendon preparation (5 min):** Progressive finger loading with a grip ball or resistance band; wrist circles and flexion/extension; shoulder internal/external rotation with band; scapular activation on a bar.\n\n**Phase 3 — Climbing warm-up (10-15 min):** Start well below your ability, focusing on footwork. Progressively increase difficulty over 3-5 routes. Fingers should feel warm and supple before attempting target grades.\n\n**Key principles:** Warm-up is gradual — never rush. Cold weather requires longer warm-ups. Hangboard and campus board sessions demand extra-thorough preparation. Re-warm-up after extended rest breaks."
           },
           "terms": [
-            { "zh": "热身", "en": "warm-up" },
-            { "zh": "动态拉伸", "en": "dynamic stretching" },
-            { "zh": "渐进加载", "en": "progressive loading" },
-            { "zh": "肩胛骨激活", "en": "scapular activation" }
+            {
+              "zh": "热身",
+              "en": "warm-up"
+            },
+            {
+              "zh": "动态拉伸",
+              "en": "dynamic stretching"
+            },
+            {
+              "zh": "渐进加载",
+              "en": "progressive loading"
+            },
+            {
+              "zh": "肩胛骨激活",
+              "en": "scapular activation"
+            }
           ],
           "crossRefs": [
             "kp-pulley-injury",
@@ -149,7 +329,41 @@
             "kp-shoulder-injury",
             "kp-hangboard-training"
           ],
-          "tags": ["beginner", "health", "training"]
+          "tags": [
+            "beginner",
+            "health",
+            "training"
+          ],
+          "expertInsights": [
+            {
+              "zh": "手指恢复能力弱于大肌群，专项热身是减少损伤的关键。四步指部热身：卷曲按摩 → 单指伸展（10-20 秒/指）→ 指屈肌伸展（两姿势）→ 指伸肌伸展。攀爬前 30-60 分钟补充胶原蛋白可支持结缔组织健康。",
+              "en": "Fingers recover slower than large muscle groups, making dedicated warm-up critical for injury prevention. Four-step finger warm-up: curl massage → individual finger stretches (10-20s each) → finger flexor stretches (two positions) → finger extensor stretches. Collagen supplementation 30-60 min before climbing supports connective tissue health.",
+              "source": "Training For Climbing",
+              "sourceUrl": "https://trainingforclimbing.com/finger-warm-ups/"
+            },
+            {
+              "zh": "肌腱和韧带通过关节液（而非血流）获取营养，需要轻度加载促进营养输送。Eric Hörst 的每日 6 分钟方案：哑铃指卷 + 手指伸展 + 低强度悬板重复悬挂——关键是整个流程不应引起泵感。",
+              "en": "Tendons and ligaments receive nutrition through joint fluid (not blood flow), requiring light loading to promote nutrient delivery. Eric Hörst's daily 6-minute protocol: dumbbell finger curls + finger extensions + low-intensity hangboard repeaters -- the key is the entire routine should not cause pump.",
+              "source": "Gripped Magazine / Eric Hörst",
+              "sourceUrl": "https://gripped.com/indoor-climbing/help-protect-your-fingers-with-this-daily-six-minute-workout/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Finger Warm-Ups for Better Climbing (with Reduced Injury Risk)",
+              "url": "https://trainingforclimbing.com/finger-warm-ups/",
+              "source": "Training For Climbing",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Help Protect Your Fingers With This Daily Six-Minute Workout",
+              "url": "https://gripped.com/indoor-climbing/help-protect-your-fingers-with-this-daily-six-minute-workout/",
+              "source": "Gripped Magazine",
+              "language": "en",
+              "articleType": "training"
+            }
+          ]
         },
         {
           "id": "kp-rest-management",
@@ -162,18 +376,54 @@
             "en": "Training load management is the core strategy for preventing overuse injuries. Connective tissues (tendons and ligaments) adapt much more slowly than muscles, so rushing volume or intensity increases is a primary injury trigger.\n\n**10% rule:** Weekly training volume should not increase more than 10% over the previous week. After extended breaks (2+ weeks), resume at 50-60% of pre-break volume and rebuild over 2-3 weeks.\n\n**Periodization:** Weekly — alternate high and low intensity days, never two consecutive hard days, minimum 2 full rest days. Monthly — include one deload week (50-60% volume) every 4 weeks. Seasonal — cycle through base volume, strength, power, and rest phases aligned with climbing goals.\n\n**Body signals:** Persistent fatigue that does not resolve with rest may indicate overtraining. Ongoing joint or tendon aches require reduced intensity. Declining performance signals a need for recovery. Poor sleep and appetite changes are systemic overtraining signs.\n\nMaintain a training log (time, grades, body feel) to identify load trends and emerging risks."
           },
           "terms": [
-            { "zh": "训练负荷管理", "en": "training load management" },
-            { "zh": "周期化训练", "en": "periodization" },
-            { "zh": "减量周", "en": "deload week" },
-            { "zh": "过度训练", "en": "overtraining" },
-            { "zh": "10%规则", "en": "10% rule" }
+            {
+              "zh": "训练负荷管理",
+              "en": "training load management"
+            },
+            {
+              "zh": "周期化训练",
+              "en": "periodization"
+            },
+            {
+              "zh": "减量周",
+              "en": "deload week"
+            },
+            {
+              "zh": "过度训练",
+              "en": "overtraining"
+            },
+            {
+              "zh": "10%规则",
+              "en": "10% rule"
+            }
           ],
           "crossRefs": [
             "kp-pulley-injury",
             "kp-tendonitis",
             "kp-warmup"
           ],
-          "tags": ["intermediate", "health", "training"]
+          "tags": [
+            "intermediate",
+            "health",
+            "training"
+          ],
+          "expertInsights": [
+            {
+              "zh": "按训练类型分配休息：爆发力训练送出之间最少 5 分钟、训练间隔 3 天；力量训练间隔 2-3 天；耐力训练间隔 1-2 天。超代偿原理：充足恢复后身体会超额重建，过早再训会错失这一收益。",
+              "en": "Rest allocation by training type: power training needs 5+ min between sends, 3-day intervals; strength training needs 2-3 day intervals; endurance training needs 1-2 day intervals. Supercompensation principle: adequate recovery triggers above-baseline rebuilding; training too soon misses this benefit.",
+              "source": "Philly Rock Gym",
+              "sourceUrl": "https://philarockgym.com/preventing-overtraining-in-climbing-tips-for-staying-healthy/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Preventing Overtraining in Climbing: Tips for Staying Healthy",
+              "url": "https://philarockgym.com/preventing-overtraining-in-climbing-tips-for-staying-healthy/",
+              "source": "Philly Rock Gym",
+              "language": "en",
+              "articleType": "training"
+            }
+          ]
         },
         {
           "id": "kp-antagonist-training",
@@ -186,11 +436,26 @@
             "en": "Climbing is predominantly a pulling sport. Without antagonist training, climbers develop severe muscle imbalances that lead to shoulder, elbow, and wrist injuries. Antagonist training is a necessary investment in balance and injury prevention.\n\n**Common imbalances in climbers:** Pull vs push (overdeveloped lats and biceps, weak chest and triceps); flexors vs extensors (forearm flexors far stronger than extensors, creating elbow strain); internal vs external rotation (strong internal rotators, weak rotator cuff external rotators causing shoulder instability).\n\n**Key exercises:** Push-ups or overhead press (balance pulling muscles, 3x8-12, 2-3 times per week); reverse wrist curls (light weight, critical for preventing elbow tendonitis); resistance band external rotation (elbow at side, strengthens rotator cuff); finger extension training (rubber bands or Expand Your Hand Bands); ring dips (comprehensive push and shoulder stability).\n\nAntagonist training requires only 10-15 minutes after each climbing session and dramatically reduces injury risk. Treat it as an inseparable part of your training."
           },
           "terms": [
-            { "zh": "拮抗肌训练", "en": "antagonist training" },
-            { "zh": "肌肉失衡", "en": "muscle imbalance" },
-            { "zh": "反向手腕弯举", "en": "reverse wrist curl" },
-            { "zh": "弹力带外旋", "en": "band external rotation" },
-            { "zh": "手指伸展训练", "en": "finger extension training" }
+            {
+              "zh": "拮抗肌训练",
+              "en": "antagonist training"
+            },
+            {
+              "zh": "肌肉失衡",
+              "en": "muscle imbalance"
+            },
+            {
+              "zh": "反向手腕弯举",
+              "en": "reverse wrist curl"
+            },
+            {
+              "zh": "弹力带外旋",
+              "en": "band external rotation"
+            },
+            {
+              "zh": "手指伸展训练",
+              "en": "finger extension training"
+            }
           ],
           "crossRefs": [
             "kp-shoulder-stability",
@@ -198,7 +463,29 @@
             "kp-tendonitis",
             "kp-gymnastic-rings"
           ],
-          "tags": ["beginner", "intermediate", "health", "training"]
+          "tags": [
+            "beginner",
+            "intermediate",
+            "health",
+            "training"
+          ],
+          "expertInsights": [
+            {
+              "zh": "攀岩是拉力主导运动，不平衡训练导致肘关节肌腱病变、肩撞击和肩袖损伤。物理治疗师原则：「拉多重就必须推多重」。三个基础练习：掌心向下腕卷 + 手指弹展（橡皮筋）+ 窄距俯卧撑。",
+              "en": "Climbing is pull-dominant, and imbalanced training leads to elbow tendinopathy, shoulder impingement, and rotator cuff injuries. Physical therapist principle: 'push as much as you pull.' Three foundational exercises: reverse wrist curls + finger extensions (rubber band) + narrow push-ups.",
+              "source": "Gripped Magazine",
+              "sourceUrl": "https://gripped.com/indoor-climbing/get-balanced-how-to-train-antagonist-muscles/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Get Balanced: How to Train Antagonist Muscles",
+              "url": "https://gripped.com/indoor-climbing/get-balanced-how-to-train-antagonist-muscles/",
+              "source": "Gripped Magazine",
+              "language": "en",
+              "articleType": "training"
+            }
+          ]
         },
         {
           "id": "kp-when-to-rest",
@@ -211,17 +498,63 @@
             "en": "Knowing when to stop and rest is one of the hardest skills for climbers to learn. The addictive nature of climbing and the \"one more route\" mentality are direct triggers for many injuries.\n\n**Stop climbing immediately if:** You feel sharp pain in fingers or joints (acute injury warning); a sudden pop with pain in a joint (possible ligament/tendon damage); muscle cramping or unexpected weakness; headache, dizziness, or vision changes.\n\n**Schedule a rest day when:** Fingers are stiff upon waking and take a long time to loosen; soreness from the last session has not fully resolved; climbing strength is noticeably below normal; motivation has dropped; you have climbed 3+ consecutive days.\n\n**Forms of rest:** Complete rest is not the only option. Active recovery includes light cardio (walking, swimming, yoga), stretching, and foam rolling — these promote circulation and muscle recovery without stressing fingers and joints.\n\nRemember: strength gains occur during recovery, not during training. Training provides the stimulus; growth and repair happen when you rest."
           },
           "terms": [
-            { "zh": "休息", "en": "rest" },
-            { "zh": "积极恢复", "en": "active recovery" },
-            { "zh": "锐痛", "en": "sharp pain" },
-            { "zh": "过度训练信号", "en": "overtraining signals" }
+            {
+              "zh": "休息",
+              "en": "rest"
+            },
+            {
+              "zh": "积极恢复",
+              "en": "active recovery"
+            },
+            {
+              "zh": "锐痛",
+              "en": "sharp pain"
+            },
+            {
+              "zh": "过度训练信号",
+              "en": "overtraining signals"
+            }
           ],
           "crossRefs": [
             "kp-rest-management",
             "kp-pulley-injury",
             "kp-tendonitis"
           ],
-          "tags": ["beginner", "health", "training"]
+          "tags": [
+            "beginner",
+            "health",
+            "training"
+          ],
+          "expertInsights": [
+            {
+              "zh": "NSCA 四阶段过训模型：急性疲劳（天）→ 功能性过度训练（周）→ 非功能性过度训练（周至月）→ 过训综合征（月至年）。预警信号：情绪障碍 + 睡眠紊乱 + 食欲变化 + 动力下降四者同时出现。",
+              "en": "NSCA four-stage overtraining model: acute fatigue (days) → functional overreaching (weeks) → non-functional overreaching (weeks-months) → overtraining syndrome (months-years). Warning signals: mood disturbance + sleep disruption + appetite changes + motivation decline occurring simultaneously.",
+              "source": "Jesse Firestone Climbing",
+              "sourceUrl": "https://jfireclimbing.com/2022/06/03/overtraining-in-climbers-what-it-is-how-to-spot-it-and-how-to-deal-with-it/"
+            },
+            {
+              "zh": "自动调节策略：根据当日实际疲劳感调整训练强度，而非刻板执行计划。生活压力（工作、人际）会叠加到训练压力上，需纳入整体疲劳评估。",
+              "en": "Autoregulation strategy: adjust training intensity based on actual daily fatigue rather than rigidly following the plan. Life stress (work, relationships) stacks on top of training stress and must be factored into overall fatigue assessment.",
+              "source": "Jesse Firestone Climbing",
+              "sourceUrl": "https://jfireclimbing.com/2022/06/03/overtraining-in-climbers-what-it-is-how-to-spot-it-and-how-to-deal-with-it/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Overtraining in Climbers: What It Is, How to Spot It, and How to Deal With It",
+              "url": "https://jfireclimbing.com/2022/06/03/overtraining-in-climbers-what-it-is-how-to-spot-it-and-how-to-deal-with-it/",
+              "source": "Jesse Firestone Climbing",
+              "language": "en",
+              "articleType": "training"
+            },
+            {
+              "title": "Preventing Overtraining in Climbing: Tips for Staying Healthy",
+              "url": "https://philarockgym.com/preventing-overtraining-in-climbing-tips-for-staying-healthy/",
+              "source": "Philly Rock Gym",
+              "language": "en",
+              "articleType": "training"
+            }
+          ]
         }
       ]
     },
@@ -249,18 +582,66 @@
             "en": "Correct post-injury assessment is the foundation for an effective rehabilitation plan. Incorrect self-diagnosis can lead to improper treatment, delayed recovery, or worsening of the injury.\n\n**Self-assessment steps:** Identify pain type (sharp = acute injury like tear or fracture; dull ache = chronic overuse or inflammation). Check for swelling and bruising (indicating tissue damage severity). Evaluate range of motion and whether specific movements trigger pain. Perform basic function tests (grip, weight-bearing).\n\n**Seek medical attention when:** You heard an audible pop at injury; severe pain that does not decrease; visible joint deformity or instability; swelling keeps increasing; inability to perform basic functions; no improvement after 24-48 hours.\n\n**Medical imaging:** X-ray (rule out fractures); ultrasound (tendons and ligaments, cost-effective and real-time); MRI (detailed soft tissue imaging for complex injuries like complete pulley ruptures or rotator cuff tears).\n\nNever dismiss climbing injuries as trivial. Early accurate diagnosis significantly shortens recovery time."
           },
           "terms": [
-            { "zh": "伤后评估", "en": "post-injury assessment" },
-            { "zh": "锐痛", "en": "sharp pain" },
-            { "zh": "钝痛", "en": "dull ache" },
-            { "zh": "超声波检查", "en": "ultrasound examination" },
-            { "zh": "核磁共振", "en": "MRI" }
+            {
+              "zh": "伤后评估",
+              "en": "post-injury assessment"
+            },
+            {
+              "zh": "锐痛",
+              "en": "sharp pain"
+            },
+            {
+              "zh": "钝痛",
+              "en": "dull ache"
+            },
+            {
+              "zh": "超声波检查",
+              "en": "ultrasound examination"
+            },
+            {
+              "zh": "核磁共振",
+              "en": "MRI"
+            }
           ],
           "crossRefs": [
             "kp-pulley-injury",
             "kp-tendonitis",
             "kp-shoulder-injury"
           ],
-          "tags": ["beginner", "health"]
+          "tags": [
+            "beginner",
+            "health"
+          ],
+          "expertInsights": [
+            {
+              "zh": "超声是诊断滑轮损伤的金标准，可确定 Grade I-IVb 分级。无超声条件时可用 Cooper 临床标准：疼痛对日常活动的影响、关节活动度、徒手肌力测试、触诊痛——四项评估即可做出初步判断。",
+              "en": "Ultrasound is the gold standard for pulley injury diagnosis, determining Grade I-IVb classification. Without ultrasound, use Cooper clinical criteria: pain impact on daily activities, range of motion, manual muscle testing, and palpation tenderness -- these four assessments provide initial grading.",
+              "source": "TrainingBeta (Dr. Jared Vagy, DPT)",
+              "sourceUrl": "https://www.trainingbeta.com/pulley-diagnosis-rehab/"
+            },
+            {
+              "zh": "四类评估框架：观察（是否出现肌腱弓弦现象）、触诊（精确定位痛点）、关节活动度测试、组织加载测试。保守治疗的预后极佳：2-3 级损伤无需手术，大多数可恢复至受伤前水平。",
+              "en": "Four-category assessment framework: observation (tendon bowstringing), palpation (precise pain localization), range of motion testing, and tissue loading tests. Conservative treatment prognosis is excellent: grade 2-3 injuries don't require surgery, and most can return to pre-injury level.",
+              "source": "Hooper's Beta (Jason Hooper, DPT)",
+              "sourceUrl": "https://www.hoopersbeta.com/library/a2-pulley-manual-for-climbers"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Finger Pulley Injury Diagnoses and Rehab by Dr. Jared Vagy",
+              "url": "https://www.trainingbeta.com/pulley-diagnosis-rehab/",
+              "source": "TrainingBeta",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "A2 Pulley Rehab Manual for Climbers",
+              "url": "https://www.hoopersbeta.com/library/a2-pulley-manual-for-climbers",
+              "source": "Hooper's Beta",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-rehab-programs",
@@ -273,11 +654,26 @@
             "en": "Climbing injury rehabilitation requires progressive, targeted training programs. Modern sports medicine emphasizes active recovery over pure rest, using controlled loading to stimulate tissue repair and remodeling.\n\n**Pulley injury rehab example:** Weeks 1-2 (acute): stop climbing, ice, H-tape, gentle pain-free finger movement. Weeks 3-4 (early rehab): light grip training (soft ball squeezes), restore range of motion. Weeks 5-8 (mid rehab): low-intensity climbing on large holds only, very light hangboard with pulley assist if needed. Weeks 9-12 (late rehab): gradually return to normal grades, observe 24-48 hours for pain response after each difficulty increase.\n\n**Elbow tendonitis rehab:** Eccentric exercise is key (e.g., Therabar/FlexBar twist protocol, 3x15 daily). Combine with forearm extensor stretching and massage. Resume climbing gradually, favoring grip types that do not aggravate symptoms.\n\n**Universal principles:** Follow the pain-free rule — no training or climbing should cause pain. Progress is not linear (expect good and bad days). Patience is the most important quality. Working with a sports physiotherapist significantly improves outcomes."
           },
           "terms": [
-            { "zh": "康复方案", "en": "rehab program" },
-            { "zh": "主动康复", "en": "active recovery / active rehabilitation" },
-            { "zh": "离心训练", "en": "eccentric exercise" },
-            { "zh": "无痛原则", "en": "pain-free principle" },
-            { "zh": "渐进恢复", "en": "progressive return" }
+            {
+              "zh": "康复方案",
+              "en": "rehab program"
+            },
+            {
+              "zh": "主动康复",
+              "en": "active recovery / active rehabilitation"
+            },
+            {
+              "zh": "离心训练",
+              "en": "eccentric exercise"
+            },
+            {
+              "zh": "无痛原则",
+              "en": "pain-free principle"
+            },
+            {
+              "zh": "渐进恢复",
+              "en": "progressive return"
+            }
           ],
           "crossRefs": [
             "kp-pulley-injury",
@@ -285,7 +681,40 @@
             "kp-warmup",
             "kp-rest-management"
           ],
-          "tags": ["intermediate", "health"]
+          "tags": [
+            "intermediate",
+            "health"
+          ],
+          "expertInsights": [
+            {
+              "zh": "Rock Rehab Pyramid 四层结构：减载 → 活动度 → 力量 → 攀爬动作回归。每阶段有明确的进阶标准，防止过早进入下一阶段导致复发。此框架可作为自我引导康复的结构化路线图。",
+              "en": "Rock Rehab Pyramid four-tier structure: unload → mobility → strength → climbing movement return. Each stage has clear progression criteria to prevent premature advancement causing relapse. This framework serves as a structured self-guided rehabilitation roadmap.",
+              "source": "TrainingBeta",
+              "sourceUrl": "https://www.trainingbeta.com/pulley/"
+            },
+            {
+              "zh": "三阶段滑轮康复方案：手掌内扣（建立无痛基线）→ 泥灰练习（多次重复）→ 农夫内扣渐进加重至 25 磅以上。方案针对攀岩者特点设计，区别于通用运动医学康复协议。",
+              "en": "Three-stage pulley rehab protocol: palm crimp (establish pain-free baseline) → putty exercises (multiple repetitions) → farmer crimp progressive loading to 25+ lbs. Designed specifically for climbers, distinct from general sports medicine rehab protocols.",
+              "source": "Hooper's Beta (Jason Hooper, DPT)",
+              "sourceUrl": "https://www.hoopersbeta.com/library/a2-pulley-manual-for-climbers"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Pulley Sprain Injury Protocol – Rock Rehab Pyramid",
+              "url": "https://www.trainingbeta.com/pulley/",
+              "source": "TrainingBeta",
+              "language": "en",
+              "articleType": "training"
+            },
+            {
+              "title": "A2 Pulley Rehab Manual for Climbers",
+              "url": "https://www.hoopersbeta.com/library/a2-pulley-manual-for-climbers",
+              "source": "Hooper's Beta",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-return-criteria",
@@ -298,17 +727,49 @@
             "en": "When it is safe to return to climbing is the most pressing question for injured climbers. Premature return is the number one cause of recurring injuries. Clear return-to-climbing criteria enable objective decisions, avoiding the influence of impatient emotions.\n\n**Prerequisites:** Pain-free daily activities (including grip-intensive tasks like opening doors, wringing towels). Range of motion restored to 90%+ of pre-injury levels. Strength symmetry (injured side at 80%+ of healthy side, measured by dynamometer or hangboard). Passing functional tests (pain-free light hangs, gripping various hold shapes). Psychological readiness (no fear or over-protection of the injured area).\n\n**Gradual return protocol:** Week 1: routes 3-4 grades below ability, large holds only, maximum 30 minutes. Week 2: increase by one grade, extend to 45 minutes. Weeks 3-4: continue progression, introduce more grip types. Weeks 5-6: approach pre-injury training levels if symptom-free. Monitor for 48 hours after each increase; any pain means stepping back.\n\nLog every session and body response during the return process — this data is invaluable for calibrating recovery pace."
           },
           "terms": [
-            { "zh": "回归标准", "en": "return-to-climbing criteria" },
-            { "zh": "力量对称性", "en": "strength symmetry" },
-            { "zh": "功能测试", "en": "functional test" },
-            { "zh": "渐进式回归", "en": "gradual return protocol" }
+            {
+              "zh": "回归标准",
+              "en": "return-to-climbing criteria"
+            },
+            {
+              "zh": "力量对称性",
+              "en": "strength symmetry"
+            },
+            {
+              "zh": "功能测试",
+              "en": "functional test"
+            },
+            {
+              "zh": "渐进式回归",
+              "en": "gradual return protocol"
+            }
           ],
           "crossRefs": [
             "kp-rehab-programs",
             "kp-warmup",
             "kp-rest-management"
           ],
-          "tags": ["intermediate", "health"]
+          "tags": [
+            "intermediate",
+            "health"
+          ],
+          "expertInsights": [
+            {
+              "zh": "肌腱在休息期保持拉伸强度，但支撑肌肉（前臂/肩/核心）会萎缩——这一不平衡使恢复中的攀岩者比新手更危险，因为肌腱「欺骗」了主观感受。初次回归建议：比 onsight 水平低三个难度等级。",
+              "en": "Tendons maintain tensile strength during rest, but supporting muscles (forearm/shoulder/core) atrophy -- this imbalance makes recovering climbers more injury-prone than beginners because tendons 'deceive' subjective perception. First return: climb three grades below onsight level.",
+              "source": "Gripped Magazine",
+              "sourceUrl": "https://gripped.com/indoor-climbing/a-safe-and-injury-free-return-to-climbing/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "A Safe and Injury-Free Return to Climbing",
+              "url": "https://gripped.com/indoor-climbing/a-safe-and-injury-free-return-to-climbing/",
+              "source": "Gripped Magazine",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-rehab-mistakes",
@@ -321,10 +782,22 @@
             "en": "Understanding common rehab mistakes is as important as knowing the correct approach. These errors can extend recovery, cause re-injury, or create new problems.\n\n**Mistake 1: Returning too early.** The most common and dangerous error. Pain disappearing does not mean tissue is fully healed — tendons typically need 4-8 weeks beyond symptom resolution. Follow return criteria and gradual protocols strictly.\n\n**Mistake 2: Complete immobility.** Total rest causes muscle atrophy, tendon degeneration, and joint stiffness. Controlled loading under professional guidance produces better outcomes than pure rest.\n\n**Mistake 3: Ignoring root causes.** If the injury resulted from poor training methods, inadequate warm-up, or muscle imbalances, failing to address these guarantees re-injury. Use the recovery period to examine and improve training habits.\n\n**Mistake 4: Over-relying on anti-inflammatories.** Short-term NSAID use (ibuprofen) helps acute symptoms, but long-term use can suppress the natural tissue repair process. Inflammation is part of healing.\n\n**Mistake 5: Not seeking professional help.** Self-rehabilitation has limitations. Sports medicine doctors and climbing-experienced physiotherapists provide more accurate diagnoses and personalized programs. Professional evaluation often dramatically shortens recovery."
           },
           "terms": [
-            { "zh": "过早回归", "en": "premature return" },
-            { "zh": "主动康复", "en": "active rehabilitation" },
-            { "zh": "非甾体抗炎药", "en": "NSAIDs" },
-            { "zh": "运动物理治疗师", "en": "sports physiotherapist" }
+            {
+              "zh": "过早回归",
+              "en": "premature return"
+            },
+            {
+              "zh": "主动康复",
+              "en": "active rehabilitation"
+            },
+            {
+              "zh": "非甾体抗炎药",
+              "en": "NSAIDs"
+            },
+            {
+              "zh": "运动物理治疗师",
+              "en": "sports physiotherapist"
+            }
           ],
           "crossRefs": [
             "kp-return-criteria",
@@ -332,7 +805,34 @@
             "kp-rest-management",
             "kp-antagonist-training"
           ],
-          "tags": ["beginner", "intermediate", "health"]
+          "tags": [
+            "beginner",
+            "intermediate",
+            "health"
+          ],
+          "expertInsights": [
+            {
+              "zh": "最常见的康复错误：把疼痛消失等同于可以恢复正常训练，而忽略了组织强度重建。消极依赖（只休息不主动训练）是延迟恢复的核心原因——组织愈合需要控制性加载而非单纯休息。",
+              "en": "The most common rehab mistake: equating pain disappearance with readiness for normal training, while ignoring tissue strength rebuilding. Passive dependence (rest only, no active training) is the core cause of delayed recovery -- tissue healing requires controlled loading, not just rest.",
+              "source": "Hooper's Beta (Jason Hooper, DPT)",
+              "sourceUrl": "https://www.hoopersbeta.com/library/top-10-reasons-rehab-mistakes"
+            },
+            {
+              "zh": "「过度康复」是真实问题：将 4 周一次的练习变成 4 天一次反而适得其反。依赖其他攀岩者的建议（而非物理治疗师）是重大风险——即使他们有攀岩经验。方案必须融入日常生活才能坚持。",
+              "en": "'Over-rehabbing' is a real problem: turning a once-per-4-weeks exercise into once-per-4-days is counterproductive. Relying on other climbers' advice (instead of physical therapists) is a major risk -- even if they have climbing experience. Rehab programs must integrate into daily life for adherence.",
+              "source": "Hooper's Beta (Jason Hooper, DPT)",
+              "sourceUrl": "https://www.hoopersbeta.com/library/top-10-reasons-rehab-mistakes"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "10 Reasons Your Climbing Injury Won't Heal",
+              "url": "https://www.hoopersbeta.com/library/top-10-reasons-rehab-mistakes",
+              "source": "Hooper's Beta",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         }
       ]
     },
@@ -360,18 +860,60 @@
             "en": "Climber nutrition shares commonalities with general athletic nutrition but has unique demands, particularly regarding tendon and connective tissue health.\n\n**Macronutrients:** Protein (1.4-2.0g/kg body weight daily for muscle repair and tendon health — higher on training days, from lean meats, fish, eggs, legumes, dairy). Carbohydrates (primary energy source, 3-5g/kg on training days, from whole grains, fruits, vegetables). Fats (20-35% of total calories for hormones and joint health, prioritize unsaturated sources).\n\n**Key micronutrients:** Vitamin C (essential cofactor for collagen synthesis, critical for tendon/ligament repair — take 30-60 minutes before collagen/gelatin supplements). Vitamin D (bone and muscle health, common deficiency in indoor climbers). Iron (oxygen transport, especially important for female climbers). Calcium (bone strength, works synergistically with Vitamin D).\n\n**Nutrient timing:** Eat an easily digestible carb-focused meal 1-2 hours before training. Within 30 minutes after training, consume a protein-carb combination (e.g., protein shake with banana) during the recovery window."
           },
           "terms": [
-            { "zh": "宏量营养素", "en": "macronutrients" },
-            { "zh": "蛋白质", "en": "protein" },
-            { "zh": "碳水化合物", "en": "carbohydrates" },
-            { "zh": "胶原蛋白", "en": "collagen" },
-            { "zh": "恢复窗口", "en": "recovery window" }
+            {
+              "zh": "宏量营养素",
+              "en": "macronutrients"
+            },
+            {
+              "zh": "蛋白质",
+              "en": "protein"
+            },
+            {
+              "zh": "碳水化合物",
+              "en": "carbohydrates"
+            },
+            {
+              "zh": "胶原蛋白",
+              "en": "collagen"
+            },
+            {
+              "zh": "恢复窗口",
+              "en": "recovery window"
+            }
           ],
           "crossRefs": [
             "kp-rest-management",
             "kp-tendonitis",
             "kp-pulley-injury"
           ],
-          "tags": ["beginner", "health"]
+          "tags": [
+            "beginner",
+            "health"
+          ],
+          "expertInsights": [
+            {
+              "zh": "攀前碳水补充：1-4 小时前摄入 1-4g/kg（靠近攀爬时间则少量易消化）。攀后蛋白质：4 小时内补充，每餐约 30g，全天均匀分配（每 3-4 小时一次）。整日一致的营养才是基础，而非仅关注训练窗口。",
+              "en": "Pre-climbing carbs: 1-4g/kg consumed 1-4 hours before (less and easier to digest if closer to climbing). Post-climbing protein: within 4 hours, ~30g per meal, distributed evenly throughout the day (every 3-4 hours). Consistent all-day nutrition is the foundation, not just the training window.",
+              "source": "Hooper's Beta (Jason Hooper, DPT & Savannah Miller, RD)",
+              "sourceUrl": "https://www.hoopersbeta.com/library/nutrition-and-climbing"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "How to Use Food to Heal and Climb Better (Nutrition for Climbers)",
+              "url": "https://www.hoopersbeta.com/library/nutrition-and-climbing",
+              "source": "Hooper's Beta",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Hydration for Climbers: Don't Get Dehydrated at the Crag!",
+              "url": "https://latticetraining.com/blog/hydration-for-climbers/",
+              "source": "Lattice Training",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-weight-management",
@@ -384,16 +926,48 @@
             "en": "Weight affects climbing performance through the strength-to-weight ratio — lower weight means less load to support. However, this topic requires careful and objective discussion, as unhealthy weight management is a serious issue in the climbing community.\n\n**Objective perspective:** Weight does matter, but its importance is frequently overestimated. Improvements in technique, strength training, and mental game typically contribute far more to performance than weight loss. Research shows that technique differences affect amateur climbers' performance more than weight differences.\n\n**Health warnings:** Eating disorders occur at higher rates in the climbing community than in the general population. Excessive dietary restriction leads to insufficient energy for training and recovery, reduced bone density, hormonal disruption, weakened immunity, impaired tendon/ligament repair, and mental health issues.\n\n**Healthy approach:** If weight adjustment is truly needed, pursue it slowly and sustainably. Focus on body composition rather than scale numbers. Ensure adequate nutrition to support training and recovery. If your relationship with food becomes unhealthy, seek help from a registered dietitian or mental health professional.\n\nClimbers should pursue being healthily strong rather than unhealthily light. A well-nourished, powerful body climbs better and longer than an undernourished one that weighs a few kilograms less."
           },
           "terms": [
-            { "zh": "力量体重比", "en": "strength-to-weight ratio" },
-            { "zh": "身体成分", "en": "body composition" },
-            { "zh": "饮食失调", "en": "eating disorder" },
-            { "zh": "能量不足", "en": "energy deficiency" }
+            {
+              "zh": "力量体重比",
+              "en": "strength-to-weight ratio"
+            },
+            {
+              "zh": "身体成分",
+              "en": "body composition"
+            },
+            {
+              "zh": "饮食失调",
+              "en": "eating disorder"
+            },
+            {
+              "zh": "能量不足",
+              "en": "energy deficiency"
+            }
           ],
           "crossRefs": [
             "kp-climber-nutrition",
             "kp-rest-management"
           ],
-          "tags": ["intermediate", "health"]
+          "tags": [
+            "intermediate",
+            "health"
+          ],
+          "expertInsights": [
+            {
+              "zh": "研究显示 76% 尝试减重的攀岩竞技选手采用高风险方法（脱水/呕吐/泻药）。43% 精英女性攀岩者处于饮食失调高风险区，相关损伤风险翻倍。目前研究未证实体重减轻能显著提高高水平攀岩者的表现。",
+              "en": "Research shows 76% of competition climbers attempting weight loss use high-risk methods (dehydration/vomiting/laxatives). 43% of elite female climbers are at high risk for eating disorders, doubling injury risk. Current research has not demonstrated that weight loss significantly improves performance in high-level climbers.",
+              "source": "Frontiers in Nutrition",
+              "sourceUrl": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2023.1277623/full"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Nutrition Knowledge, Weight Loss Practices, and Supplement Use in Senior Competition Climbers",
+              "url": "https://www.frontiersin.org/journals/nutrition/articles/10.3389/fnut.2023.1277623/full",
+              "source": "Frontiers in Nutrition",
+              "language": "en",
+              "articleType": "research"
+            }
+          ]
         },
         {
           "id": "kp-hydration",
@@ -406,16 +980,48 @@
             "en": "Hydration is fundamental to climbing performance and health. Even 2% dehydration significantly impairs strength output, endurance, and cognitive function — all critical for climbers.\n\n**Climbing fluid needs:** Expect 500-1000ml/hour fluid loss during climbing (varies with temperature, humidity, intensity). Indoor gyms can accelerate dehydration due to warm environments. High-altitude outdoor climbing increases fluid loss through dry air and accelerated breathing.\n\n**Hydration strategy:** Daily baseline: body weight (kg) x 30ml minimum, plus 500-1000ml on training days. Pre-training: 400-600ml two hours before. During training: 150-250ml every 15-20 minutes (do not wait for thirst — thirst indicates 1-2% dehydration). Post-training: roughly 1.5 liters per kg of body weight lost.\n\n**Electrolytes:** Water alone cannot replace electrolytes (sodium, potassium, magnesium) lost through sweat. For sessions over one hour, use sports drinks or electrolyte tablets. Excessive plain water intake can cause hyponatremia.\n\n**Status check:** Monitor urine color — pale yellow (like diluted lemonade) indicates adequate hydration; dark yellow signals dehydration."
           },
           "terms": [
-            { "zh": "水分补充", "en": "hydration" },
-            { "zh": "脱水", "en": "dehydration" },
-            { "zh": "电解质", "en": "electrolytes" },
-            { "zh": "低钠血症", "en": "hyponatremia" }
+            {
+              "zh": "水分补充",
+              "en": "hydration"
+            },
+            {
+              "zh": "脱水",
+              "en": "dehydration"
+            },
+            {
+              "zh": "电解质",
+              "en": "electrolytes"
+            },
+            {
+              "zh": "低钠血症",
+              "en": "hyponatremia"
+            }
           ],
           "crossRefs": [
             "kp-climber-nutrition",
             "kp-weather-assessment"
           ],
-          "tags": ["beginner", "health"]
+          "tags": [
+            "beginner",
+            "health"
+          ],
+          "expertInsights": [
+            {
+              "zh": "脱水不仅影响耐力，还会降低软组织健康、延长肌肉酸痛、增加恢复时间。尿液颜色监测：淡稻草色为佳。大量出汗时单纯白水不够，需添加含钠电解质饮料。老年攀岩者对渴感信号迟钝，更需主动补水。",
+              "en": "Dehydration affects not just endurance but also soft tissue health, prolongs muscle soreness, and increases recovery time. Monitor urine color: pale straw is ideal. During heavy sweating, plain water isn't enough -- add sodium-containing electrolyte drinks. Older climbers have dulled thirst signals and need proactive hydration.",
+              "source": "Lattice Training",
+              "sourceUrl": "https://latticetraining.com/blog/hydration-for-climbers/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Hydration for Climbers: Don't Get Dehydrated at the Crag!",
+              "url": "https://latticetraining.com/blog/hydration-for-climbers/",
+              "source": "Lattice Training",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-sleep-recovery",
@@ -428,17 +1034,52 @@
             "en": "Sleep is the most important window for recovery and adaptation to training stimuli. During deep sleep, growth hormone secretion peaks, promoting muscle repair, tendon remodeling, and immune system recovery. Sleep deprivation directly undermines training gains and increases injury risk.\n\n**Impact on climbing:** One night of poor sleep (<6 hours) can reduce grip strength by 10-15%. Reaction time and decision-making decline. Pain perception thresholds drop. Chronic sleep deprivation (<7 hours/night for weeks) can increase injury risk by 1.7x.\n\n**Optimization strategies:** Duration: 7-9 hours per night for adult climbers, trending higher during heavy training. Consistency: maintain fixed sleep and wake times including weekends. Training timing: avoid high-intensity sessions within 3 hours of bedtime. Pre-sleep routine: reduce blue light, create a cool, dark, quiet environment. Caffeine: none after 2 PM (half-life ~5-6 hours).\n\n**Supplementary recovery:** Foam rolling and self-myofascial release (improve circulation, reduce tension); contrast baths (accelerate metabolic waste clearance); gentle stretching before bed (promotes relaxation and sleep onset).\n\nTreat recovery as a component of training — training without adequate recovery is not just ineffective, it is harmful."
           },
           "terms": [
-            { "zh": "睡眠恢复", "en": "sleep recovery" },
-            { "zh": "生长激素", "en": "growth hormone" },
-            { "zh": "泡沫轴", "en": "foam roller" },
-            { "zh": "筋膜放松", "en": "myofascial release" },
-            { "zh": "对比浴", "en": "contrast bath" }
+            {
+              "zh": "睡眠恢复",
+              "en": "sleep recovery"
+            },
+            {
+              "zh": "生长激素",
+              "en": "growth hormone"
+            },
+            {
+              "zh": "泡沫轴",
+              "en": "foam roller"
+            },
+            {
+              "zh": "筋膜放松",
+              "en": "myofascial release"
+            },
+            {
+              "zh": "对比浴",
+              "en": "contrast bath"
+            }
           ],
           "crossRefs": [
             "kp-rest-management",
             "kp-climber-nutrition"
           ],
-          "tags": ["beginner", "health"]
+          "tags": [
+            "beginner",
+            "health"
+          ],
+          "expertInsights": [
+            {
+              "zh": "39.1% 运动员睡眠不足，50% 精英运动员睡眠质量差——睡眠是被严重忽视的恢复因素。睡眠不足同时损害肌肉力量、速度、有氧能力、反应时间和决策能力。睡眠对恢复的四大机制：生长激素释放、皮质醇调节、免疫功能、肌糖原补充。",
+              "en": "39.1% of athletes are sleep-deprived and 50% of elite athletes have poor sleep quality -- sleep is a severely neglected recovery factor. Sleep deprivation simultaneously impairs muscle strength, speed, aerobic capacity, reaction time, and decision-making. Four recovery mechanisms of sleep: growth hormone release, cortisol regulation, immune function, and muscle glycogen replenishment.",
+              "source": "PubMed Central (Sleep Medicine Clinics)",
+              "sourceUrl": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9960533/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Sleep and Athletic Performance: Impacts on Physical Performance, Mental Performance, Injury Risk and Recovery",
+              "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC9960533/",
+              "source": "PubMed Central",
+              "language": "en",
+              "articleType": "research"
+            }
+          ]
         }
       ]
     }

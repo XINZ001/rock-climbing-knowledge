@@ -1,28 +1,19 @@
 import { useParams, Link } from 'react-router-dom'
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useState } from 'react'
 import { useApp } from '../context/AppContext'
 import Breadcrumb from '../components/content/Breadcrumb'
 import KnowledgePoint from '../components/content/KnowledgePoint'
+import { useUserRegion } from '../hooks/useUserRegion'
+import { filterAndRankVideos } from '../utils/videoFilter'
 import videosData from '../data/videos.json'
 import illustrationRegistry from '../data/illustration-registry.json'
-
-function isEmbeddableVideo(url = '') {
-  return (
-    /(?:youtube\.com\/watch\?v=|youtu\.be\/|youtube\.com\/shorts\/)([\w-]{11})/.test(url) ||
-    /bilibili\.com\/video\/(BV[\w]+)/.test(url)
-  )
-}
-
-function canRenderInline(video) {
-  if (!video) return false
-  return isEmbeddableVideo(video.embedUrl || video.url || '')
-}
 
 export default function TopicPage() {
   const { sectionSlug, subSlug } = useParams()
   const { sections, loadSectionData, t, lang } = useApp()
   const [sectionData, setSectionData] = useState(null)
   const [loading, setLoading] = useState(true)
+  const { isMainlandChina, loading: regionLoading } = useUserRegion()
 
   const section = sections.find(s => s.slug === sectionSlug)
   const subMeta = section?.subSections.find(s => s.slug === subSlug)
@@ -51,37 +42,11 @@ export default function TopicPage() {
 
   const subData = sectionData?.subSections?.find(s => s.slug === subSlug)
   const knowledgePoints = subData?.knowledgePoints || []
-  const videos = videosData[subMeta?.id] || []
-  const videosByKnowledgePoint = useMemo(() => {
-    if (!knowledgePoints.length || !videos.length) return {}
 
-    const mapping = new Map()
-    const unassignedVideos = []
-
-    videos.forEach(video => {
-      if (!canRenderInline(video)) return
-      if (video.knowledgePointId) {
-        mapping.set(video.knowledgePointId, video)
-      } else {
-        unassignedVideos.push(video)
-      }
-    })
-
-    // Prefer embeddable videos to maximize inline playback.
-    unassignedVideos.sort((a, b) => {
-      const aEmbed = isEmbeddableVideo(a.url) ? 1 : 0
-      const bEmbed = isEmbeddableVideo(b.url) ? 1 : 0
-      return bEmbed - aEmbed
-    })
-
-    const remainingPoints = knowledgePoints.filter(kp => !mapping.has(kp.id))
-    remainingPoints.forEach((kp, idx) => {
-      const fallbackVideo = unassignedVideos[idx]
-      if (fallbackVideo) mapping.set(kp.id, fallbackVideo)
-    })
-
-    return Object.fromEntries(mapping)
-  }, [knowledgePoints, videos])
+  function getVideosForKp(kpId) {
+    const allVideos = videosData[kpId] || []
+    return filterAndRankVideos(allVideos, isMainlandChina, lang)
+  }
 
   // Scroll to hash on load
   useEffect(() => {
@@ -148,7 +113,11 @@ export default function TopicPage() {
           <div className="mt-6 space-y-8">
             {knowledgePoints.map(kp => (
               <div key={kp.id} className="pb-6 border-b border-stone-border last:border-b-0">
-                <KnowledgePoint point={kp} video={videosByKnowledgePoint[kp.id]} illustrations={illustrationRegistry[kp.id]} />
+                <KnowledgePoint
+                  point={kp}
+                  videos={regionLoading ? [] : getVideosForKp(kp.id)}
+                  illustrations={illustrationRegistry[kp.id]}
+                />
               </div>
             ))}
           </div>

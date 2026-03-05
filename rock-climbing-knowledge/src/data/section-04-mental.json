@@ -25,13 +25,70 @@
             "en": "Climbing fears fall into several distinct types:\n\n**Lead Fall Fear:** The most common fear. Uncertainty about fall distance triggers strong fear responses, causing climbers to freeze even on safe sport routes.\n\n**Height Fear:** Increasing anxiety with altitude, independent of actual fall risk. Prominent on multi-pitch routes.\n\n**Fear of Failure:** Performance anxiety in front of peers or in competition, causing avoidance of limit attempts.\n\n**Core coping principles:** Acknowledge fear as a normal protective response. Distinguish rational fear (actual risk) from irrational fear (safety in place but still afraid). Don't try to eliminate fear; learn to act despite it. Use gradual exposure to expand the comfort zone."
           },
           "terms": [
-            { "zh": "坠落恐惧", "en": "fall fear" },
-            { "zh": "高度恐惧", "en": "height fear" },
-            { "zh": "冻结反应", "en": "freezing" },
-            { "zh": "渐进式暴露", "en": "gradual exposure" }
+            {
+              "zh": "坠落恐惧",
+              "en": "fall fear"
+            },
+            {
+              "zh": "高度恐惧",
+              "en": "height fear"
+            },
+            {
+              "zh": "冻结反应",
+              "en": "freezing"
+            },
+            {
+              "zh": "渐进式暴露",
+              "en": "gradual exposure"
+            }
           ],
-          "crossRefs": ["kp-fall-technique", "kp-belaying", "kp-flow-state"],
-          "tags": ["beginner", "mental", "safety"]
+          "crossRefs": [
+            "kp-fall-technique",
+            "kp-belaying",
+            "kp-flow-state"
+          ],
+          "tags": [
+            "beginner",
+            "mental",
+            "safety"
+          ],
+          "expertInsights": [
+            {
+              "zh": "恐惧不是统一的——每位攀爬者的恐惧根源不同（信任缺失、失败恐惧、失控感），精确识别个人根源是有效应对的第一步，而非笼统地「练习克服恐惧」。",
+              "en": "Fear is not monolithic -- each climber's fear has a different root cause (distrust of belayer, fear of failure, loss of control). Precisely identifying your personal root is the first step to effective coping, rather than generically practicing to overcome fear.",
+              "source": "Climbing Psychology",
+              "sourceUrl": "https://www.climbingpsychology.com/fear-of-falling"
+            },
+            {
+              "zh": "认知工具（重构负面想法）与躯体工具（呼吸控制、身体扫描）协同使用比单独任何一种更有效——将「我会掉下来」重构为「保护系统会接住我」的同时配合深呼吸，双轨干预效果显著优于单一手段。",
+              "en": "Combining cognitive tools (reframing negative thoughts) with somatic tools (breath control, body scanning) is more effective than either alone -- reframing 'I will fall' into 'the protection system will catch me' while pairing it with deep breathing produces significantly better results than a single intervention.",
+              "source": "Climbing Psychology",
+              "sourceUrl": "https://www.climbingpsychology.com/fear-of-falling"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Fear of Falling Masterclass for Climbers",
+              "url": "https://www.climbingpsychology.com/fear-of-falling",
+              "source": "Climbing Psychology",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Fear of Falling – with climbing psychologist, Allegra Maguire",
+              "url": "https://latticetraining.com/blog/fear-of-falling/",
+              "source": "Lattice Training",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Flow: the basics",
+              "url": "https://www.strongmindclimbing.com/news-resources/flow-the-basics",
+              "source": "Strong Mind Climbing",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-desensitization",
@@ -44,14 +101,69 @@
             "en": "Gradual desensitization is the most effective method for overcoming climbing fear, repeatedly exposing the nervous system to increasing fear stimuli until the response diminishes.\n\n**Fall Practice Protocol:** Start with short falls above the first bolt. Ensure belayers give soft catches. Relax in the air. Progressively increase distance (30cm, 60cm, 1m, full lead falls). Practice at different angles and heights. Reflect after each session.\n\n**Breathing Techniques:**\n- **4-7-8 Breathing:** Inhale 4s, hold 7s, exhale 8s. Activates the parasympathetic nervous system.\n- **Box Breathing:** 4s inhale, 4s hold, 4s exhale, 4s hold. Simple and usable while climbing.\n- The key is exhaling longer than inhaling, sending safety signals to the brain.\n\nConduct desensitization on good mental days, not when exhausted or anxious. End each session positively. Progress is non-linear; occasional setbacks are normal."
           },
           "terms": [
-            { "zh": "渐进脱敏", "en": "gradual desensitization" },
-            { "zh": "坠落练习", "en": "fall practice" },
-            { "zh": "动态保护", "en": "soft catch" },
-            { "zh": "方框呼吸", "en": "box breathing" },
-            { "zh": "副交感神经", "en": "parasympathetic nervous system" }
+            {
+              "zh": "渐进脱敏",
+              "en": "gradual desensitization"
+            },
+            {
+              "zh": "坠落练习",
+              "en": "fall practice"
+            },
+            {
+              "zh": "动态保护",
+              "en": "soft catch"
+            },
+            {
+              "zh": "方框呼吸",
+              "en": "box breathing"
+            },
+            {
+              "zh": "副交感神经",
+              "en": "parasympathetic nervous system"
+            }
           ],
-          "crossRefs": ["kp-fear-management", "kp-fall-technique", "kp-belaying", "kp-flow-state"],
-          "tags": ["beginner", "intermediate", "mental", "safety"]
+          "crossRefs": [
+            "kp-fear-management",
+            "kp-fall-technique",
+            "kp-belaying",
+            "kp-flow-state"
+          ],
+          "tags": [
+            "beginner",
+            "intermediate",
+            "mental",
+            "safety"
+          ],
+          "expertInsights": [
+            {
+              "zh": "铅攀脱敏应优先选择超角（overhang）路线：超角路线坠落时身体远离岩壁，大幅降低撞墙风险，心理体验更正面，脱敏效率更高。",
+              "en": "Lead fall desensitization should prioritize overhanging routes: the body falls away from the wall on overhangs, greatly reducing the risk of hitting the wall, creating a more positive psychological experience and faster desensitization.",
+              "source": "Lattice Training",
+              "sourceUrl": "https://latticetraining.com/blog/fear-of-falling/"
+            },
+            {
+              "zh": "保持焦虑在「可管理范围」（1-10 量表上的 5-6 分）是脱敏成功的关键——焦虑过高会强化恐惧而非消除恐惧，搭档选择（能提供soft catch和情感支持的人）是重要变量。",
+              "en": "Keeping anxiety within a manageable range (5-6 on a 1-10 scale) is key to successful desensitization -- anxiety that is too high reinforces rather than reduces fear. Partner selection (someone who gives soft catches and emotional support) is a critical variable.",
+              "source": "Lattice Training",
+              "sourceUrl": "https://latticetraining.com/blog/fear-of-falling/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Fear of Falling – with climbing psychologist, Allegra Maguire",
+              "url": "https://latticetraining.com/blog/fear-of-falling/",
+              "source": "Lattice Training",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Fear of Falling Masterclass for Climbers",
+              "url": "https://www.climbingpsychology.com/fear-of-falling",
+              "source": "Climbing Psychology",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         }
       ]
     },
@@ -79,13 +191,69 @@
             "en": "Attention is a limited cognitive resource. Climbers must allocate it to critical information while filtering distractions.\n\n**Focus types:** External focus (on holds, rock features) is more effective for performance than internal focus (on body sensations). Use narrow focus during precise moves and wide focus during route planning.\n\n**Common distractors:** Future-oriented anxiety (fall worry), past-oriented rumination (mistakes), audience pressure, physical discomfort, and unrelated thoughts.\n\n**Training methods:** Single-step focus (only the current move), keyword cues (short reminders like \"precise\" or \"breathe\"), mindfulness meditation (5-10 min daily), and simulated pressure training (climbing while watched or timed)."
           },
           "terms": [
-            { "zh": "外部焦点", "en": "external focus" },
-            { "zh": "内部焦点", "en": "internal focus" },
-            { "zh": "正念冥想", "en": "mindfulness meditation" },
-            { "zh": "单步聚焦", "en": "single-step focus" }
+            {
+              "zh": "外部焦点",
+              "en": "external focus"
+            },
+            {
+              "zh": "内部焦点",
+              "en": "internal focus"
+            },
+            {
+              "zh": "正念冥想",
+              "en": "mindfulness meditation"
+            },
+            {
+              "zh": "单步聚焦",
+              "en": "single-step focus"
+            }
           ],
-          "crossRefs": ["kp-fear-management", "kp-flow-state", "kp-route-reading-basics"],
-          "tags": ["intermediate", "mental"]
+          "crossRefs": [
+            "kp-fear-management",
+            "kp-flow-state",
+            "kp-route-reading-basics"
+          ],
+          "tags": [
+            "intermediate",
+            "mental"
+          ],
+          "expertInsights": [
+            {
+              "zh": "视觉控制是专注力的核心杠杆：精英攀爬者几乎不凭「摸索感觉」找脚点，而是先用眼睛锁定目标再移动——训练自己「先看后动」的习惯比任何冥想练习对攀爬专注力的提升更直接。",
+              "en": "Visual control is the primary lever for focus: elite climbers rarely grope for footholds by feel -- they lock onto the target with their eyes before moving. Training the habit of 'look first, then move' improves climbing focus more directly than any meditation exercise.",
+              "source": "Training For Climbing",
+              "sourceUrl": "https://trainingforclimbing.com/5-strategies-to-sharpen-concentration-and-climb-better/"
+            },
+            {
+              "zh": "正向自我对话指令应是「做什么」而非「不要做什么」：「专注踩脚」比「不要分心」效果显著更好，因为大脑处理否定指令时会先激活被否定的行为。",
+              "en": "Positive self-talk cues should be 'do this' rather than 'don't do that': 'focus on your feet' works significantly better than 'don't get distracted,' because the brain first activates the negated behavior when processing negative instructions.",
+              "source": "Training For Climbing",
+              "sourceUrl": "https://trainingforclimbing.com/5-strategies-to-sharpen-concentration-and-climb-better/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "5 Strategies to Sharpen Your Concentration and Climb Better!",
+              "url": "https://trainingforclimbing.com/5-strategies-to-sharpen-concentration-and-climb-better/",
+              "source": "Training For Climbing",
+              "language": "en",
+              "articleType": "training"
+            },
+            {
+              "title": "Flow: the basics",
+              "url": "https://www.strongmindclimbing.com/news-resources/flow-the-basics",
+              "source": "Strong Mind Climbing",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Psychological aspects of elite performance in new Olympic disciplines: The case of climbing",
+              "url": "https://www.in-mind.org/article/psychological-aspects-of-elite-performance-in-new-olympic-disciplines-the-case-of-climbing",
+              "source": "In-Mind Magazine",
+              "language": "en",
+              "articleType": "research"
+            }
+          ]
         },
         {
           "id": "kp-flow-state",
@@ -98,13 +266,71 @@
             "en": "Flow state, described by psychologist Mihaly Csikszentmihalyi, is a state of complete immersion where movement becomes automatic, time perception shifts, self-consciousness fades, and the climber experiences intense focus and joy.\n\n**Flow conditions:** Challenge-skill balance (route difficulty at your upper limit). Clear goals (good route reading). Immediate feedback (inherent in climbing). Complete absorption. Sense of control despite challenge.\n\n**Practical tips:** Choose routes at the right difficulty (the most critical variable). Warm up fully before target routes. Do focused breathing to clear the mind. Minimize distractions. Don't chase flow directly -- it arises naturally as a byproduct of the right conditions.\n\nCompetition climbers frequently report flow experiences. Through conscious preparation and condition-setting, climbers can increase flow frequency."
           },
           "terms": [
-            { "zh": "心流", "en": "flow state" },
-            { "zh": "挑战-能力匹配", "en": "challenge-skill balance" },
-            { "zh": "全神贯注", "en": "total absorption" },
-            { "zh": "最佳体验", "en": "optimal experience" }
+            {
+              "zh": "心流",
+              "en": "flow state"
+            },
+            {
+              "zh": "挑战-能力匹配",
+              "en": "challenge-skill balance"
+            },
+            {
+              "zh": "全神贯注",
+              "en": "total absorption"
+            },
+            {
+              "zh": "最佳体验",
+              "en": "optimal experience"
+            }
           ],
-          "crossRefs": ["kp-attention-management", "kp-fear-management", "kp-route-reading-basics", "kp-projecting-strategy"],
-          "tags": ["intermediate", "advanced", "mental"]
+          "crossRefs": [
+            "kp-attention-management",
+            "kp-fear-management",
+            "kp-route-reading-basics",
+            "kp-projecting-strategy"
+          ],
+          "tags": [
+            "intermediate",
+            "advanced",
+            "mental"
+          ],
+          "expertInsights": [
+            {
+              "zh": "隐性系统 vs 显性系统：熟练动作由隐性系统（直觉/自动化）处理效率更高，过度意识控制（显性系统介入）反而阻碍表现——这解释了为什么「想太多」会让你在熟悉的路线上反而爬得更差。",
+              "en": "Implicit vs explicit system: well-practiced movements are more efficiently handled by the implicit system (intuition/automation). Excessive conscious control (explicit system intervention) actually hinders performance -- this explains why 'overthinking' makes you climb worse on familiar routes.",
+              "source": "Strong Mind Climbing",
+              "sourceUrl": "https://www.strongmindclimbing.com/news-resources/flow-the-basics"
+            },
+            {
+              "zh": "恐惧会人为拔高「心理挑战难度」，使本可进入心流的路线因心理障碍而无法触发——先处理恐惧（参见渐进脱敏），再追求心流，顺序不可颠倒。",
+              "en": "Fear artificially inflates the perceived challenge level, preventing flow on routes that would otherwise trigger it. Address fear first (see gradual desensitization), then pursue flow -- the order cannot be reversed.",
+              "source": "Strong Mind Climbing",
+              "sourceUrl": "https://www.strongmindclimbing.com/news-resources/flow-the-basics"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Flow: the basics",
+              "url": "https://www.strongmindclimbing.com/news-resources/flow-the-basics",
+              "source": "Strong Mind Climbing",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "5 Strategies to Sharpen Your Concentration and Climb Better!",
+              "url": "https://trainingforclimbing.com/5-strategies-to-sharpen-concentration-and-climb-better/",
+              "source": "Training For Climbing",
+              "language": "en",
+              "articleType": "training"
+            },
+            {
+              "title": "Psychological aspects of elite performance in new Olympic disciplines: The case of climbing",
+              "url": "https://www.in-mind.org/article/psychological-aspects-of-elite-performance-in-new-olympic-disciplines-the-case-of-climbing",
+              "source": "In-Mind Magazine",
+              "language": "en",
+              "articleType": "research"
+            }
+          ]
         },
         {
           "id": "kp-competition-psychology",
@@ -117,14 +343,59 @@
             "en": "Competition psychology differs significantly from recreational climbing. Time pressure, audience attention, ranking competition, and high uncertainty strongly affect mental state.\n\n**Competition characteristics:** Performance anxiety causes muscle tension and hesitation. The isolation zone requires managing activation and anxiety during waiting. Time limits (4-5 minutes per boulder) demand rapid decision-making.\n\n**Strategies:** Establish consistent pre-performance routines for familiarity and control. Adopt process orientation (focus on each move, not rankings). Use positive self-talk (\"I can do this\" vs. \"don't fail\"). Practice visualization -- mentally rehearsing successful ascents, which research confirms improves performance."
           },
           "terms": [
-            { "zh": "表现焦虑", "en": "performance anxiety" },
-            { "zh": "隔离区", "en": "isolation zone" },
-            { "zh": "赛前准备程序", "en": "pre-performance routine" },
-            { "zh": "可视化", "en": "visualization" },
-            { "zh": "过程导向", "en": "process orientation" }
+            {
+              "zh": "表现焦虑",
+              "en": "performance anxiety"
+            },
+            {
+              "zh": "隔离区",
+              "en": "isolation zone"
+            },
+            {
+              "zh": "赛前准备程序",
+              "en": "pre-performance routine"
+            },
+            {
+              "zh": "可视化",
+              "en": "visualization"
+            },
+            {
+              "zh": "过程导向",
+              "en": "process orientation"
+            }
           ],
-          "crossRefs": ["kp-flow-state", "kp-attention-management", "kp-fear-management"],
-          "tags": ["advanced", "mental"]
+          "crossRefs": [
+            "kp-flow-state",
+            "kp-attention-management",
+            "kp-fear-management"
+          ],
+          "tags": [
+            "advanced",
+            "mental"
+          ],
+          "expertInsights": [
+            {
+              "zh": "心理变量对攀岩成绩的预测力可能超过生理和生物力学参数——这意味着在竞技水平相近时，心理准备的质量往往是决定胜负的关键因素。",
+              "en": "Psychological variables may predict climbing performance better than physiological and biomechanical parameters -- meaning that at similar competitive levels, the quality of mental preparation is often the decisive factor.",
+              "source": "In-Mind Magazine",
+              "sourceUrl": "https://www.in-mind.org/article/psychological-aspects-of-elite-performance-in-new-olympic-disciplines-the-case-of-climbing"
+            },
+            {
+              "zh": "运动技能储备库（Movement Repertoire）概念：经验丰富的攀爬者在长期记忆中储存大量动作模式，能快速识别「熟悉场景」进入自动化执行，这在比赛限时条件下是巨大优势。",
+              "en": "The Movement Repertoire concept: experienced climbers store extensive movement patterns in long-term memory, enabling rapid recognition of familiar scenarios and automatic execution -- a huge advantage under competition time constraints.",
+              "source": "In-Mind Magazine",
+              "sourceUrl": "https://www.in-mind.org/article/psychological-aspects-of-elite-performance-in-new-olympic-disciplines-the-case-of-climbing"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Psychological aspects of elite performance in new Olympic disciplines: The case of climbing",
+              "url": "https://www.in-mind.org/article/psychological-aspects-of-elite-performance-in-new-olympic-disciplines-the-case-of-climbing",
+              "source": "In-Mind Magazine",
+              "language": "en",
+              "articleType": "research"
+            }
+          ]
         }
       ]
     },
@@ -152,15 +423,79 @@
             "en": "Periodization divides training into phases with different focuses and intensities, adapted from traditional sports to climbing.\n\n**Typical structure:** Base phase (4-6 weeks, high volume, low intensity: general fitness and aerobic endurance). Strength phase (4-6 weeks, lower volume, higher intensity: hangboard, weighted pull-ups, hard bouldering). Power phase (3-4 weeks, lowest volume, peak intensity: campus board, dynamic bouldering). Performance phase (4-8 weeks, converting gains to climbing: projecting, competitions, outdoor trips). Rest phase (1-2 weeks, active recovery).\n\n**Flexible application:** Recreational climbers can use simpler 3:1 patterns (3 weeks training, 1 week recovery). The key is avoiding monotonous high-intensity training through planned variation to promote continuous progress and prevent overtraining."
           },
           "terms": [
-            { "zh": "周期化训练", "en": "periodization" },
-            { "zh": "基础期", "en": "base phase" },
-            { "zh": "力量期", "en": "strength phase" },
-            { "zh": "爆发力期", "en": "power phase" },
-            { "zh": "表现期", "en": "performance phase" },
-            { "zh": "训练量", "en": "training volume" }
+            {
+              "zh": "周期化训练",
+              "en": "periodization"
+            },
+            {
+              "zh": "基础期",
+              "en": "base phase"
+            },
+            {
+              "zh": "力量期",
+              "en": "strength phase"
+            },
+            {
+              "zh": "爆发力期",
+              "en": "power phase"
+            },
+            {
+              "zh": "表现期",
+              "en": "performance phase"
+            },
+            {
+              "zh": "训练量",
+              "en": "training volume"
+            }
           ],
-          "crossRefs": ["kp-hangboard-training", "kp-campus-training", "kp-aerobic-endurance", "kp-rest-management"],
-          "tags": ["intermediate", "advanced", "training"]
+          "crossRefs": [
+            "kp-hangboard-training",
+            "kp-campus-training",
+            "kp-aerobic-endurance",
+            "kp-rest-management"
+          ],
+          "tags": [
+            "intermediate",
+            "advanced",
+            "training"
+          ],
+          "expertInsights": [
+            {
+              "zh": "超量补偿（Supercompensation）原理：训练刺激后身体经历疲劳、恢复、能力超过基线三个阶段，在能力超过基线的窗口期安排下一次训练刺激是持续进步的关键时机把控。",
+              "en": "The Supercompensation principle: after a training stimulus, the body goes through fatigue, recovery, and a phase where capacity exceeds baseline. Timing the next training stimulus during this above-baseline window is the key to continuous progress.",
+              "source": "Rock Climbing Realms",
+              "sourceUrl": "https://rockclimbingrealms.com/build-your-climbing-plan-a-periodization-framework/"
+            },
+            {
+              "zh": "三种周期化模式各有适用人群：线性周期化适合初级攀爬者（稳定递进负荷）；板块周期化适合中高级（集中训练单一特质如指力或耐力）；波动周期化适合需全年维持竞技状态的选手。",
+              "en": "Three periodization models suit different populations: linear periodization for beginners (steady progressive loading); block periodization for intermediate-advanced climbers (concentrated training of a single quality like finger strength or endurance); undulating periodization for athletes needing year-round competitive readiness.",
+              "source": "Rock Climbing Realms",
+              "sourceUrl": "https://rockclimbingrealms.com/build-your-climbing-plan-a-periodization-framework/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Build Your Climbing Plan: A Periodization Framework",
+              "url": "https://rockclimbingrealms.com/build-your-climbing-plan-a-periodization-framework/",
+              "source": "Rock Climbing Realms",
+              "language": "en",
+              "articleType": "training"
+            },
+            {
+              "title": "S.M.A.R.T Goals & Climbing",
+              "url": "https://latticetraining.com/blog/lattice-coaches-educational-series-s-m-a-r-t-goals/",
+              "source": "Lattice Training",
+              "language": "en",
+              "articleType": "training"
+            },
+            {
+              "title": "Training Tips for Climbers | Keeping a Training Log",
+              "url": "https://latticetraining.com/blog/training-tips-for-climbers-keeping-a-training-log/",
+              "source": "Lattice Training",
+              "language": "en",
+              "articleType": "training"
+            }
+          ]
         },
         {
           "id": "kp-goal-setting",
@@ -173,13 +508,71 @@
             "en": "Effective goal setting provides direction and motivation. Goals should span multiple time horizons:\n\n**Long-term (6-12+ months):** Set ambitious but achievable targets with personal meaning, like completing a specific classic route. Maintain flexibility.\n\n**Medium-term (1-3 months):** Break long-term goals into milestones. Use SMART principles (Specific, Measurable, Achievable, Relevant, Time-bound). Example: \"Increase 20mm max hang by 5kg this month.\"\n\n**Short-term (weekly/per session):** Set 1-2 specific practice focuses per session. Example: \"Use drop knees at least 3 times on every overhanging route today.\"\n\n**Common mistakes:** Only result goals without process goals, vague targets, overly packed schedules without recovery, and comparing yourself to others instead of tracking personal progress."
           },
           "terms": [
-            { "zh": "SMART 原则", "en": "SMART goals" },
-            { "zh": "结果目标", "en": "outcome goal" },
-            { "zh": "过程目标", "en": "process goal" },
-            { "zh": "里程碑", "en": "milestone" }
+            {
+              "zh": "SMART 原则",
+              "en": "SMART goals"
+            },
+            {
+              "zh": "结果目标",
+              "en": "outcome goal"
+            },
+            {
+              "zh": "过程目标",
+              "en": "process goal"
+            },
+            {
+              "zh": "里程碑",
+              "en": "milestone"
+            }
           ],
-          "crossRefs": ["kp-periodization", "kp-projecting-strategy", "kp-flow-state"],
-          "tags": ["beginner", "intermediate", "training", "mental"]
+          "crossRefs": [
+            "kp-periodization",
+            "kp-projecting-strategy",
+            "kp-flow-state"
+          ],
+          "tags": [
+            "beginner",
+            "intermediate",
+            "training",
+            "mental"
+          ],
+          "expertInsights": [
+            {
+              "zh": "三类目标层次中，过程目标（Process Goals，如「每条路线认真踩脚」）完全可控、最能建立信心，在高压情境（比赛/冲线）中比结果目标（Outcome Goals，如「拿第一名」）心理稳定性显著更高。",
+              "en": "Among three goal tiers, process goals (e.g., 'place feet precisely on every route') are fully controllable and best for building confidence. In high-pressure situations (competitions/sends), they provide significantly more psychological stability than outcome goals (e.g., 'win first place').",
+              "source": "Lattice Training",
+              "sourceUrl": "https://latticetraining.com/blog/lattice-coaches-educational-series-s-m-a-r-t-goals/"
+            },
+            {
+              "zh": "目标过载警告：同时追求多项攀岩风格进步（如同时提升耐力和最大力量）可能产生训练冲突，应在每个训练周期内聚焦单一优先项，书面化目标并找问责搭档可显著提升完成率。",
+              "en": "Goal overload warning: pursuing improvement in multiple climbing styles simultaneously (e.g., endurance and max strength at the same time) can create training conflicts. Focus on a single priority per training cycle, and writing goals down with an accountability partner significantly improves completion rates.",
+              "source": "Lattice Training",
+              "sourceUrl": "https://latticetraining.com/blog/lattice-coaches-educational-series-s-m-a-r-t-goals/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "S.M.A.R.T Goals & Climbing",
+              "url": "https://latticetraining.com/blog/lattice-coaches-educational-series-s-m-a-r-t-goals/",
+              "source": "Lattice Training",
+              "language": "en",
+              "articleType": "training"
+            },
+            {
+              "title": "Build Your Climbing Plan: A Periodization Framework",
+              "url": "https://rockclimbingrealms.com/build-your-climbing-plan-a-periodization-framework/",
+              "source": "Rock Climbing Realms",
+              "language": "en",
+              "articleType": "training"
+            },
+            {
+              "title": "Training Tips for Climbers | Keeping a Training Log",
+              "url": "https://latticetraining.com/blog/training-tips-for-climbers-keeping-a-training-log/",
+              "source": "Lattice Training",
+              "language": "en",
+              "articleType": "training"
+            }
+          ]
         },
         {
           "id": "kp-training-log",
@@ -192,13 +585,69 @@
             "en": "A training log is the core tool for tracking progress, identifying patterns, and analyzing weaknesses.\n\n**Log contents:** Date, duration, training type; routes climbed and completion status; specific training data (hang weights, pull-up reps); physical feeling scores (1-10 for fatigue, motivation, finger state); mental state observations; sleep and nutrition.\n\n**Weakness analysis methods:** Monthly data review to find patterns. Technical assessment matrix scoring each dimension (finger strength, pulling, core, footwork, slab, overhang, crack, etc.). Video analysis comparing with similar or higher-level climbers. Peer feedback from experienced climbers or coaches.\n\n**Weakness-first principle:** Training weaknesses yields greater overall improvement than reinforcing strengths. However, maintain strengths while addressing weaknesses for the optimal strategy."
           },
           "terms": [
-            { "zh": "训练日志", "en": "training log" },
-            { "zh": "弱点分析", "en": "weakness analysis" },
-            { "zh": "技术评估矩阵", "en": "technical assessment matrix" },
-            { "zh": "视频分析", "en": "video analysis" }
+            {
+              "zh": "训练日志",
+              "en": "training log"
+            },
+            {
+              "zh": "弱点分析",
+              "en": "weakness analysis"
+            },
+            {
+              "zh": "技术评估矩阵",
+              "en": "technical assessment matrix"
+            },
+            {
+              "zh": "视频分析",
+              "en": "video analysis"
+            }
           ],
-          "crossRefs": ["kp-periodization", "kp-goal-setting", "kp-warmup"],
-          "tags": ["intermediate", "training"]
+          "crossRefs": [
+            "kp-periodization",
+            "kp-goal-setting",
+            "kp-warmup"
+          ],
+          "tags": [
+            "intermediate",
+            "training"
+          ],
+          "expertInsights": [
+            {
+              "zh": "最佳记录时机是训练结束后立即记录——即时记录的准确性和感受真实性远高于事后回忆，而 RPE（主观疲劳感评分）是核心追踪指标，可以早期识别过度训练信号。",
+              "en": "The best time to log is immediately after training -- real-time recording is far more accurate and emotionally authentic than retrospective recall. RPE (Rate of Perceived Exertion) is the core tracking metric and can serve as an early warning signal for overtraining.",
+              "source": "Lattice Training",
+              "sourceUrl": "https://latticetraining.com/blog/training-tips-for-climbers-keeping-a-training-log/"
+            },
+            {
+              "zh": "刻意记录训练中的积极成果（而非只记失败），有助于建立长期训练动力和自我效能感——记录行为本身也是一种问责工具，当你知道需要记录时训练认真程度会提升。",
+              "en": "Deliberately logging positive outcomes from training (not just failures) helps build long-term motivation and self-efficacy. The act of logging itself is an accountability tool -- knowing you need to record your session increases training seriousness.",
+              "source": "Lattice Training",
+              "sourceUrl": "https://latticetraining.com/blog/training-tips-for-climbers-keeping-a-training-log/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Training Tips for Climbers | Keeping a Training Log",
+              "url": "https://latticetraining.com/blog/training-tips-for-climbers-keeping-a-training-log/",
+              "source": "Lattice Training",
+              "language": "en",
+              "articleType": "training"
+            },
+            {
+              "title": "Build Your Climbing Plan: A Periodization Framework",
+              "url": "https://rockclimbingrealms.com/build-your-climbing-plan-a-periodization-framework/",
+              "source": "Rock Climbing Realms",
+              "language": "en",
+              "articleType": "training"
+            },
+            {
+              "title": "S.M.A.R.T Goals & Climbing",
+              "url": "https://latticetraining.com/blog/lattice-coaches-educational-series-s-m-a-r-t-goals/",
+              "source": "Lattice Training",
+              "language": "en",
+              "articleType": "training"
+            }
+          ]
         }
       ]
     },
@@ -226,13 +675,65 @@
             "en": "Choosing the right project is the first step to success. The route should challenge but not overwhelm.\n\n**Selection principles:** Typically 2-4 sub-grades above onsight level (e.g., if you onsight 5.11c, project 5.12a-5.12c). Style should partially match your strengths. The route must be accessible for multiple visits.\n\n**Analysis steps:** Ground observation to identify holds, rests, and cruxes. First exploratory attempt without completion pressure. Section-by-section study to optimize sequences. Crux-focused sessions trying different solutions. Link practice connecting mastered sections. Full burns from start to finish when well-rested.\n\nProjecting is a learning process. Every failed attempt accumulates information, and the final send is the natural result of all accumulated effort."
           },
           "terms": [
-            { "zh": "项目路线", "en": "project" },
-            { "zh": "分段研究", "en": "working sections" },
-            { "zh": "连接练习", "en": "linking" },
-            { "zh": "完整尝试", "en": "burn / redpoint attempt" }
+            {
+              "zh": "项目路线",
+              "en": "project"
+            },
+            {
+              "zh": "分段研究",
+              "en": "working sections"
+            },
+            {
+              "zh": "连接练习",
+              "en": "linking"
+            },
+            {
+              "zh": "完整尝试",
+              "en": "burn / redpoint attempt"
+            }
           ],
-          "crossRefs": ["kp-route-reading-basics", "kp-onsight-flash-redpoint", "kp-rest-management", "kp-periodization"],
-          "tags": ["intermediate", "advanced", "technique", "mental"]
+          "crossRefs": [
+            "kp-route-reading-basics",
+            "kp-onsight-flash-redpoint",
+            "kp-rest-management",
+            "kp-periodization"
+          ],
+          "tags": [
+            "intermediate",
+            "advanced",
+            "technique",
+            "mental"
+          ],
+          "expertInsights": [
+            {
+              "zh": "项目路线的正确难度区间：高于最近红点 0-1 级（挑战区）或低于 2 级（技术巩固区），超出此范围效率极低。核心难点不仅要能完成，还要能在预设的最多 3 次尝试中 2 次成功——仅「偶尔能做到」远不够。",
+              "en": "The correct difficulty range for a project: 0-1 grades above your recent redpoint (challenge zone) or up to 2 grades below (technique consolidation zone). Outside this range, efficiency drops sharply. The crux should not just be doable -- you need to succeed 2 out of 3 preset attempts, not just 'sometimes manage it.'",
+              "source": "Training For Climbing",
+              "sourceUrl": "https://trainingforclimbing.com/projecting-101-6-tips-to-sending-your-project/"
+            },
+            {
+              "zh": "冲线前的关键准备：充分休息 30-60 分钟后进行全程成功的心理预演（想象复演），以平静而充满信念的心态发起尝试——将「没能冲线」视为「又发现了一个需要工作的点」而非个人失败。",
+              "en": "Key pre-send preparation: rest fully for 30-60 minutes, then perform a complete mental rehearsal of a successful ascent (visualization). Approach the attempt with a calm, confident mindset -- reframe 'didn't send' as 'discovered another point to work on' rather than personal failure.",
+              "source": "Training For Climbing",
+              "sourceUrl": "https://trainingforclimbing.com/projecting-101-6-tips-to-sending-your-project/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Projecting 101 – 6 Tips to Sending Your Project!",
+              "url": "https://trainingforclimbing.com/projecting-101-6-tips-to-sending-your-project/",
+              "source": "Training For Climbing",
+              "language": "en",
+              "articleType": "training"
+            },
+            {
+              "title": "Bouldering Tactics 101: Overlapping Links",
+              "url": "https://www.powercompanyclimbing.com/blog/2017/1/9/boulder-tactics-101-overlapping-links",
+              "source": "Power Company Climbing",
+              "language": "en",
+              "articleType": "training"
+            }
+          ]
         },
         {
           "id": "kp-working-linking",
@@ -245,14 +746,69 @@
             "en": "Working sections and linking are the core execution strategies in projecting, breaking an seemingly impossible route into manageable pieces.\n\n**Working methods:** Top-down vs bottom-up practice (each has advantages). Memorize exact beta for each section until it becomes muscle memory. Optimize rest positions at each rest point.\n\n**Linking strategy:** Short links (connect 2-3 adjacent sections). Half-route links (upper and lower halves separately). Progressive links (extend from the crux outward). Full burns (complete start-to-finish attempts on well-rested days).\n\n**Mental techniques:** Treat each attempt as learning, not testing. Track high points to see progress. Take rest breaks when plateauing -- fresh body and mind often bring breakthroughs. Share the process with project partners for mutual motivation."
           },
           "terms": [
-            { "zh": "分段练习", "en": "working sections" },
-            { "zh": "连接", "en": "linking" },
-            { "zh": "肌肉记忆", "en": "muscle memory" },
-            { "zh": "最高到达点", "en": "high point" },
-            { "zh": "动作方案", "en": "beta" }
+            {
+              "zh": "分段练习",
+              "en": "working sections"
+            },
+            {
+              "zh": "连接",
+              "en": "linking"
+            },
+            {
+              "zh": "肌肉记忆",
+              "en": "muscle memory"
+            },
+            {
+              "zh": "最高到达点",
+              "en": "high point"
+            },
+            {
+              "zh": "动作方案",
+              "en": "beta"
+            }
           ],
-          "crossRefs": ["kp-projecting-strategy", "kp-rest-management", "kp-aerobic-endurance", "kp-fear-management"],
-          "tags": ["intermediate", "advanced", "training", "mental"]
+          "crossRefs": [
+            "kp-projecting-strategy",
+            "kp-rest-management",
+            "kp-aerobic-endurance",
+            "kp-fear-management"
+          ],
+          "tags": [
+            "intermediate",
+            "advanced",
+            "training",
+            "mental"
+          ],
+          "expertInsights": [
+            {
+              "zh": "「地理假象」（Geographic Illusion）：物理上接近岩块顶部不等于接近发送——出口段不熟会成为反复阻碍。重叠链接策略建议先熟练出口段，再向下延伸链接，与多数人的直觉顺序相反。",
+              "en": "The 'Geographic Illusion': being physically close to the top of a boulder does not mean you are close to sending -- an unfamiliar exit section becomes a recurring obstacle. The overlapping links strategy recommends mastering the exit first, then extending links downward, which is the opposite of most people's intuitive approach.",
+              "source": "Power Company Climbing",
+              "sourceUrl": "https://www.powercompanyclimbing.com/blog/2017/1/9/boulder-tactics-101-overlapping-links"
+            },
+            {
+              "zh": "借力辅助（Power Spot）的战略性使用：不是为了偷懒，而是为了在消耗最小的情况下重复练习特定动作段，保存皮肤状态和精力对抱石项目攻关的整体效率影响极大。",
+              "en": "Strategic use of power spotting: it's not about being lazy, but about repeating specific movement sections with minimal energy expenditure. Preserving skin condition and energy has a massive impact on overall efficiency in bouldering project work.",
+              "source": "Power Company Climbing",
+              "sourceUrl": "https://www.powercompanyclimbing.com/blog/2017/1/9/boulder-tactics-101-overlapping-links"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Bouldering Tactics 101: Overlapping Links",
+              "url": "https://www.powercompanyclimbing.com/blog/2017/1/9/boulder-tactics-101-overlapping-links",
+              "source": "Power Company Climbing",
+              "language": "en",
+              "articleType": "training"
+            },
+            {
+              "title": "Projecting 101 – 6 Tips to Sending Your Project!",
+              "url": "https://trainingforclimbing.com/projecting-101-6-tips-to-sending-your-project/",
+              "source": "Training For Climbing",
+              "language": "en",
+              "articleType": "training"
+            }
+          ]
         },
         {
           "id": "kp-plateau-breaking",
@@ -265,14 +821,69 @@
             "en": "Plateaus are phases where progress seems to stall. Understanding causes and strategies is vital for long-term improvement.\n\n**Common causes:** Training monotony (body has adapted; introduce new methods). Weakness bottlenecks (a specific deficit limits overall progress). Insufficient recovery (overtraining keeps you fatigued; take a deload week). Mental barriers (self-limiting beliefs like \"I'm a 5.11 climber\"; climb different styles to break these). Technical deficits (relying on strength to compensate; revisit fundamentals).\n\n**Comprehensive strategies:** Change training environment and stimuli. Seek coaching or experienced feedback. Try completely different challenges (trad climbing, competition). Review training logs with data rather than feelings. Accept plateaus as natural parts of progression and maintain patience."
           },
           "terms": [
-            { "zh": "平台期", "en": "plateau" },
-            { "zh": "训练单调化", "en": "training monotony" },
-            { "zh": "过度训练", "en": "overtraining" },
-            { "zh": "自我设限", "en": "self-limiting beliefs" },
-            { "zh": "主动恢复", "en": "active recovery / deload" }
+            {
+              "zh": "平台期",
+              "en": "plateau"
+            },
+            {
+              "zh": "训练单调化",
+              "en": "training monotony"
+            },
+            {
+              "zh": "过度训练",
+              "en": "overtraining"
+            },
+            {
+              "zh": "自我设限",
+              "en": "self-limiting beliefs"
+            },
+            {
+              "zh": "主动恢复",
+              "en": "active recovery / deload"
+            }
           ],
-          "crossRefs": ["kp-periodization", "kp-training-log", "kp-goal-setting", "kp-fear-management"],
-          "tags": ["intermediate", "advanced", "training", "mental"]
+          "crossRefs": [
+            "kp-periodization",
+            "kp-training-log",
+            "kp-goal-setting",
+            "kp-fear-management"
+          ],
+          "tags": [
+            "intermediate",
+            "advanced",
+            "training",
+            "mental"
+          ],
+          "expertInsights": [
+            {
+              "zh": "初学者的「弱指优势」：弱手指迫使发现更省力的移动方式，一旦过早追求指力训练可能掩盖技术短板——瓶颈期最常见原因是过于专注自己擅长的攀爬风格，导致技术单一化。",
+              "en": "Beginners' 'weak finger advantage': weak fingers force the discovery of more efficient movement patterns. Pursuing finger strength training too early can mask technical deficits -- the most common cause of plateaus is over-focusing on preferred climbing styles, leading to technique homogenization.",
+              "source": "Lattice Training",
+              "sourceUrl": "https://latticetraining.com/blog/how-to-overcome-a-plateau-in-climbing/"
+            },
+            {
+              "zh": "瓶颈期经常源于慢性疲劳积累而非能力不足，充分休息（1-2 周完全减量）有时是最有效的「提升方法」。高变化性训练（单手攀岩等）比固定重复更有效促进技能攀岩的突破。",
+              "en": "Plateaus often stem from chronic fatigue accumulation rather than lack of ability. Adequate rest (1-2 weeks of full deload) is sometimes the most effective 'improvement method.' High-variability drills (one-arm climbing, etc.) promote breakthroughs in skill-based climbing more effectively than repetitive practice.",
+              "source": "Lattice Training",
+              "sourceUrl": "https://latticetraining.com/blog/how-to-overcome-a-plateau-in-climbing/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "How to Overcome A Plateau in Climbing",
+              "url": "https://latticetraining.com/blog/how-to-overcome-a-plateau-in-climbing/",
+              "source": "Lattice Training",
+              "language": "en",
+              "articleType": "training"
+            },
+            {
+              "title": "Projecting 101 – 6 Tips to Sending Your Project!",
+              "url": "https://trainingforclimbing.com/projecting-101-6-tips-to-sending-your-project/",
+              "source": "Training For Climbing",
+              "language": "en",
+              "articleType": "training"
+            }
+          ]
         }
       ]
     }

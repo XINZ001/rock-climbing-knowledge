@@ -25,15 +25,57 @@
             "en": "Bouldering falls are the most common source of injury in indoor climbing. Proper fall technique significantly reduces risk, especially given that boulder walls are typically 3-4.5 meters high.\n\n**Correct technique:** Anticipate the fall and push gently away from the wall. Land on both feet with knees bent, toes touching first. Roll backward or sideways to distribute impact across a larger body area. Tuck your chin to protect your head.\n\n**Common mistakes:** Landing on one foot (ankle sprains); landing with straight legs (knee/spine impact); catching yourself with outstretched hands (wrist fractures); holding onto holds while falling (finger injuries, loss of body control).\n\nPractice falls from low heights repeatedly to build muscle memory. Many gyms include fall technique in introductory classes."
           },
           "terms": [
-            { "zh": "坠落技巧", "en": "fall technique" },
-            { "zh": "滚动卸力", "en": "rolling breakfall" },
-            { "zh": "缓冲", "en": "absorbing impact" }
+            {
+              "zh": "坠落技巧",
+              "en": "fall technique"
+            },
+            {
+              "zh": "滚动卸力",
+              "en": "rolling breakfall"
+            },
+            {
+              "zh": "缓冲",
+              "en": "absorbing impact"
+            }
           ],
           "crossRefs": [
             "kp-fall-technique",
             "kp-fear-management"
           ],
-          "tags": ["beginner", "safety"]
+          "tags": [
+            "beginner",
+            "safety"
+          ],
+          "expertInsights": [
+            {
+              "zh": "崩垫的放置应基于攀爬者的重心运动轨迹，而非仅放在岩石正下方。覆顶线路的重心会向外抛出，垫子需更远离岩壁。",
+              "en": "Crash pad positioning should be based on the climber's center-of-gravity trajectory, not just directly below the rock. On overhung routes, the center of gravity swings outward, so pads need to be placed further from the wall.",
+              "source": "Advnture",
+              "sourceUrl": "https://www.advnture.com/how-to/fall-bouldering"
+            },
+            {
+              "zh": "每次攀爬前执行落地检查清单：确认崩垫无间隙、落地区无杂物（粉袋/手机/水瓶）、无人站在下方。严禁用手撑地——这是手腕骨折和韧带损伤的首要原因。",
+              "en": "Run a pre-climb landing checklist: confirm pads have no gaps, landing zone is clear of objects (chalk bags, phones, water bottles), and no one is standing below. Never brace with your hands — this is the leading cause of wrist fractures and ligament injuries.",
+              "source": "Tufas Boulder Lounge",
+              "sourceUrl": "https://tufasboulderlounge.com/bouldering-basics-how-to-fall-when-climbing/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "How to Fall Bouldering: 3 Techniques to Reduce Injury",
+              "url": "https://www.advnture.com/how-to/fall-bouldering",
+              "source": "Advnture",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Bouldering Basics: How to Fall When Climbing",
+              "url": "https://tufasboulderlounge.com/bouldering-basics-how-to-fall-when-climbing/",
+              "source": "Tufas Boulder Lounge",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-lead-belay-indoor",
@@ -46,11 +88,26 @@
             "en": "Lead belaying is significantly more complex than top-rope belaying. The belayer's skill directly determines the climber's safety and experience during falls.\n\n**Key principles:** Feed rope smoothly as the climber clips draws and take in slack as they move up. Too much slack increases fall distance; too little slack impedes climbing or pulls the climber off. Stand near the wall beneath the climber or first draw. Maintain brake hand contact at all times.\n\n**Soft catch:** When the climber falls, the belayer takes a small hop forward or bends their knees to absorb impact, creating a smoother catch. This is especially important when the belayer is lighter than the climber.\n\n**Fall practice:** Systematic lead fall practice in the gym builds confidence and trust. Start with short falls just above the last clip and gradually increase distance. Always communicate with your partner before each practice fall."
           },
           "terms": [
-            { "zh": "先锋保护", "en": "lead belaying" },
-            { "zh": "给绳", "en": "feeding rope / paying out" },
-            { "zh": "软制动", "en": "soft catch" },
-            { "zh": "冲坠距离", "en": "fall distance" },
-            { "zh": "地锚", "en": "ground anchor" }
+            {
+              "zh": "先锋保护",
+              "en": "lead belaying"
+            },
+            {
+              "zh": "给绳",
+              "en": "feeding rope / paying out"
+            },
+            {
+              "zh": "软制动",
+              "en": "soft catch"
+            },
+            {
+              "zh": "冲坠距离",
+              "en": "fall distance"
+            },
+            {
+              "zh": "地锚",
+              "en": "ground anchor"
+            }
           ],
           "crossRefs": [
             "kp-belaying",
@@ -58,7 +115,41 @@
             "kp-fall-technique",
             "kp-fear-management"
           ],
-          "tags": ["beginner", "intermediate", "safety"]
+          "tags": [
+            "beginner",
+            "intermediate",
+            "safety"
+          ],
+          "expertInsights": [
+            {
+              "zh": "GriGri不是自锁装置——它的工作原理类似汽车安全带，凸轮在坠落时旋转夹住绳子。最危险的习惯是持续按压手柄放绳时放开制动手，这会导致坠落时无法快速制动。",
+              "en": "The GriGri is NOT a self-locking device — it works like a car seatbelt, with a cam that rotates to pinch the rope during a fall. The most dangerous habit is releasing the brake hand while holding the handle down to pay out slack, which prevents quick braking during a fall.",
+              "source": "VDiff Climbing",
+              "sourceUrl": "https://www.vdiffclimbing.com/grigri-belay/"
+            },
+            {
+              "zh": "快速给绳技术（Quick Pay-out）是先锋确保的关键技能。攀爬者挂快挂时需要瞬间给出足够绳长，给绳不够快会增加不必要的坠落距离甚至把攀爬者拽下来。AMGA建议初学者先学ATC打好确保基础，再引入GriGri。",
+              "en": "Quick pay-out is a critical lead belaying skill. The climber needs instant slack when clipping — slow feeding increases unnecessary fall distance or can even pull the climber off. AMGA recommends beginners learn on an ATC first to build solid belay fundamentals before introducing the GriGri.",
+              "source": "VDiff Climbing",
+              "sourceUrl": "https://www.vdiffclimbing.com/grigri-belay/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "How To Belay with a GriGri",
+              "url": "https://www.vdiffclimbing.com/grigri-belay/",
+              "source": "VDiff Climbing",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Perfect Your Belay in Climbing: Safety & Skills",
+              "url": "https://rockclimbingrealms.com/belay-in-climbing/",
+              "source": "Rock Climbing Realms",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-gym-etiquette",
@@ -71,15 +162,44 @@
             "en": "Climbing gyms are shared spaces where etiquette directly affects everyone's safety. Following gym norms is a basic responsibility for all climbers.\n\n**Safety etiquette:** Never stand, walk, or sit beneath active climbers in the bouldering area. Check surroundings before starting a climb. Yield to climbers already on the wall. Manage ropes in lead/top-rope areas to prevent tripping hazards. Belayers must stay focused and off their phones.\n\n**Social etiquette:** Do not offer unsolicited advice (known as beta spraying, widely disliked in climbing culture). Share routes and problems fairly. Keep noise levels reasonable. Clean up personal belongings after use.\n\nNew climbers should attend the gym's safety briefing and learn facility-specific rules on their first visit."
           },
           "terms": [
-            { "zh": "岩馆礼仪", "en": "gym etiquette" },
-            { "zh": "优先权", "en": "right of way" },
-            { "zh": "beta spraying", "en": "unsolicited advice / beta spraying" }
+            {
+              "zh": "岩馆礼仪",
+              "en": "gym etiquette"
+            },
+            {
+              "zh": "优先权",
+              "en": "right of way"
+            },
+            {
+              "zh": "beta spraying",
+              "en": "unsolicited advice / beta spraying"
+            }
           ],
           "crossRefs": [
             "kp-fall-technique",
             "kp-belaying"
           ],
-          "tags": ["beginner", "safety"]
+          "tags": [
+            "beginner",
+            "safety"
+          ],
+          "expertInsights": [
+            {
+              "zh": "只有在对方明确同意的情况下才给予保护（spot），未经请求的beta分享（beta spraying）在攀岩社区中极不受欢迎。同样，发现松动岩点必须立即通知工作人员——这关系到所有攀爬者的安全。",
+              "en": "Only spot someone with their explicit consent, and never offer unsolicited beta (beta spraying is widely disliked in climbing culture). Additionally, loose holds must be reported to staff immediately — this is a safety issue affecting all climbers.",
+              "source": "Gripped Magazine",
+              "sourceUrl": "https://gripped.com/indoor-climbing/10-rules-for-indoor-bouldering-etiquette/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "10 Rules for Indoor Bouldering Etiquette",
+              "url": "https://gripped.com/indoor-climbing/10-rules-for-indoor-bouldering-etiquette/",
+              "source": "Gripped Magazine",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         }
       ]
     },
@@ -107,15 +227,57 @@
             "en": "Rockfall is one of the most serious objective hazards in outdoor climbing, with potential for fatal injury. Sources include natural weathering, stones dislodged by climbers above, animal activity, and freeze-thaw cycles.\n\n**Risk mitigation:** Avoid loose rock areas (shale, weathered sandstone); check for debris piles at the base indicating frequent rockfall. Climb early in the day before warming temperatures release frozen rocks. Choose belay stations under natural overhangs when possible. Test holds before pulling on them. Shout \"Rock!\" immediately if you dislodge anything.\n\n**Helmets are mandatory** for all outdoor climbing, whether you are climbing or belaying. Even small stones falling from height can cause severe head injuries."
           },
           "terms": [
-            { "zh": "落石", "en": "rockfall" },
-            { "zh": "客观危险", "en": "objective hazard" },
-            { "zh": "冰冻融化循环", "en": "freeze-thaw cycle" }
+            {
+              "zh": "落石",
+              "en": "rockfall"
+            },
+            {
+              "zh": "客观危险",
+              "en": "objective hazard"
+            },
+            {
+              "zh": "冰冻融化循环",
+              "en": "freeze-thaw cycle"
+            }
           ],
           "crossRefs": [
             "kp-helmet",
             "kp-belaying"
           ],
-          "tags": ["beginner", "safety"]
+          "tags": [
+            "beginner",
+            "safety"
+          ],
+          "expertInsights": [
+            {
+              "zh": "美国高山俱乐部（AAC）提出的风险分析框架：区分「危险」（客观存在）和「风险」（人类暴露于危险中产生）。攀登前列出危险清单并做预演分析——问自己「如果X发生我们怎么办?」，攀登后诚实反思「为什么」而非仅看「结果是否成功」。",
+              "en": "The AAC risk framework distinguishes 'hazards' (objective, exist regardless) from 'risk' (created by human exposure to hazards). Before climbing, create a hazard checklist and run scenario analysis — ask 'What if X happens?' After climbing, honestly reflect on 'why' rather than just 'did we succeed?'",
+              "source": "American Alpine Club",
+              "sourceUrl": "https://americanalpineclub.org/news/2020/4/8/managing-risk"
+            },
+            {
+              "zh": "三种认知偏差是攀岩事故的深层原因：确认偏见（只看到证实既有信念的信息）、乐观偏见（低估个人风险——觉得「不会发生在我身上」）和承诺偏见（已投入太多而不愿撤退）。识别这些偏差是风险管理的第一步。",
+              "en": "Three cognitive biases are root causes of climbing accidents: confirmation bias (seeking info that confirms existing beliefs), optimism bias (underestimating personal risk — 'it won't happen to me'), and commitment bias (invested too much to turn back). Recognizing these biases is the first step in risk management.",
+              "source": "American Alpine Club",
+              "sourceUrl": "https://americanalpineclub.org/news/2020/4/8/managing-risk"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Managing Risk in Rock Climbing",
+              "url": "https://americanalpineclub.org/news/2020/4/8/managing-risk",
+              "source": "American Alpine Club",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Thunderstorms on the Mountain: 5 Tips for Minimizing Risk",
+              "url": "https://www.lacrux.com/en/klettern/thunderstorm-on-the-mountain-5-tips-for-minimizing-risk/",
+              "source": "Lacrux Climbing Magazine",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-weather-assessment",
@@ -128,16 +290,62 @@
             "en": "Weather is one of the most critical variables in outdoor climbing. Severe weather can be life-threatening, and climbers must learn to read forecasts, observe changing conditions, and make sound retreat decisions.\n\n**Key factors:** Lightning — the highest risk; retreat immediately at the sound of distant thunder or sight of developing cumulonimbus clouds. Rain dramatically reduces rock friction, especially on granite and limestone; wet sandstone loses structural integrity. Heat accelerates dehydration; choose shaded aspects. Cold reduces finger dexterity and can lead to hypothermia.\n\n**Information sources:** Check multiple forecast services with hourly resolution before departing. Learn local weather patterns (e.g., afternoon thunderstorms common in mountain areas). In remote areas, carry a satellite communicator with weather capabilities."
           },
           "terms": [
-            { "zh": "天气评估", "en": "weather assessment" },
-            { "zh": "雷暴", "en": "thunderstorm" },
-            { "zh": "积雨云", "en": "cumulonimbus" },
-            { "zh": "失温", "en": "hypothermia" }
+            {
+              "zh": "天气评估",
+              "en": "weather assessment"
+            },
+            {
+              "zh": "雷暴",
+              "en": "thunderstorm"
+            },
+            {
+              "zh": "积雨云",
+              "en": "cumulonimbus"
+            },
+            {
+              "zh": "失温",
+              "en": "hypothermia"
+            }
           ],
           "crossRefs": [
             "kp-rockfall-risk",
             "kp-rope"
           ],
-          "tags": ["beginner", "intermediate", "safety"]
+          "tags": [
+            "beginner",
+            "intermediate",
+            "safety"
+          ],
+          "expertInsights": [
+            {
+              "zh": "闪电距离测量法：闪光到雷声间隔3秒约等于1公里。10秒以内必须立即行动撤离。清晨观察积云（Cumulus）边缘锐利度和上升速度——锐利且快速上升的积雨云（Castellanus）预示下午雷雨。",
+              "en": "Lightning distance measurement: 3 seconds between flash and thunder equals roughly 1 km. Under 10 seconds means you must act immediately. In the morning, watch cumulus cloud edges — sharp and rapidly rising castellanus clouds signal afternoon thunderstorms.",
+              "source": "Lacrux Climbing Magazine",
+              "sourceUrl": "https://www.lacrux.com/en/klettern/thunderstorm-on-the-mountain-5-tips-for-minimizing-risk/"
+            },
+            {
+              "zh": "被困雷暴时的避险姿势：远离山顶/山脊/岩尖/孤立树木至少15米，蹲下双脚并拢、膝盖收紧以减少地面接触面积，将所有金属装备（锁扣、冰爪等）放置在远处。雨后仍有落石风险——雨水会松动裂缝中的岩石。",
+              "en": "Lightning shelter position when trapped: move at least 15m from summits, ridges, rock spires, and lone trees. Crouch with feet together, knees tight to minimize ground contact. Place all metal gear (carabiners, crampons) far away. After rain, rockfall risk remains — water loosens rocks in cracks.",
+              "source": "Lacrux Climbing Magazine",
+              "sourceUrl": "https://www.lacrux.com/en/klettern/thunderstorm-on-the-mountain-5-tips-for-minimizing-risk/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Thunderstorms on the Mountain: 5 Tips for Minimizing Risk",
+              "url": "https://www.lacrux.com/en/klettern/thunderstorm-on-the-mountain-5-tips-for-minimizing-risk/",
+              "source": "Lacrux Climbing Magazine",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Managing Risk in Rock Climbing",
+              "url": "https://americanalpineclub.org/news/2020/4/8/managing-risk",
+              "source": "American Alpine Club",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-retreat-strategy",
@@ -150,17 +358,55 @@
             "en": "Knowing when and how to retreat safely is as important as climbing ability. Many accidents result from climbers pressing on when they should have turned back. Retreating is not failure — it is a hallmark of experienced judgment.\n\n**When to retreat:** Deteriorating or threatening weather; route difficulty exceeding safe ability; insufficient or damaged gear; partner illness or poor mental state; approaching darkness without headlamps; gut feeling that something is wrong.\n\n**Methods:** Downclimbing (face the wall, maintain three points of contact); rappelling from anchors (knot rope ends, verify descent line to avoid stuck ropes); leaving gear to establish retreat anchors when necessary — safety always outweighs equipment cost.\n\n**Preparation:** Always have a Plan B. Know alternative descent routes, identify retreat points along the route, carry extra slings and carabiners, and have emergency contacts established."
           },
           "terms": [
-            { "zh": "撤退", "en": "retreat" },
-            { "zh": "下攀", "en": "downclimbing" },
-            { "zh": "下降", "en": "rappelling / abseiling" },
-            { "zh": "留置装备", "en": "leaving gear / bail gear" }
+            {
+              "zh": "撤退",
+              "en": "retreat"
+            },
+            {
+              "zh": "下攀",
+              "en": "downclimbing"
+            },
+            {
+              "zh": "下降",
+              "en": "rappelling / abseiling"
+            },
+            {
+              "zh": "留置装备",
+              "en": "leaving gear / bail gear"
+            }
           ],
           "crossRefs": [
             "kp-rappelling",
             "kp-knots",
             "kp-weather-assessment"
           ],
-          "tags": ["intermediate", "safety"]
+          "tags": [
+            "intermediate",
+            "safety"
+          ],
+          "expertInsights": [
+            {
+              "zh": "撤退核心原则：「装备的代价远低于受伤的代价」。四种临时撤退锚点对比：普通锁扣（降绳最顺滑）/ 锁闸锁（最安全）/ 快速链接（容易生锈，不推荐）/ 胶带门锁扣（省钱又体谅后来者的选择）。",
+              "en": "Core retreat principle: 'The cost of gear is always less than the cost of injury.' Four bail anchor options compared: regular carabiner (smoothest rappel), locking carabiner (safest), quick link (rusts easily, not recommended), taped-gate carabiner (affordable and considerate of future climbers).",
+              "source": "Alpinesavvy",
+              "sourceUrl": "https://www.alpinesavvy.com/blog/retreat-anchors-sport-climbing"
+            },
+            {
+              "zh": "长路线撤退策略：当绳子已超过路线一半长度时，先降到中间岩钉建立临时锚点，回收绳子后再从该岩钉降绳到下方。重要警告：永远不要直接用绳子穿过岩钉挂片——会磨损绳子造成致命风险。",
+              "en": "Long-route retreat strategy: when the rope is past the halfway point, first rappel to a mid-point bolt, set a temporary anchor, retrieve the rope, then rappel from that bolt downward. Critical warning: never thread the rope directly through bolt hangers — it abrades the rope and creates fatal risk.",
+              "source": "Alpinesavvy",
+              "sourceUrl": "https://www.alpinesavvy.com/blog/retreat-anchors-sport-climbing"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Retreat Anchors – Sport Climbing",
+              "url": "https://www.alpinesavvy.com/blog/retreat-anchors-sport-climbing",
+              "source": "Alpinesavvy",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-leave-no-trace",
@@ -173,13 +419,51 @@
             "en": "Leave No Trace (LNT) is a core environmental ethic for outdoor activities. Climbing areas are often ecologically sensitive, and climber behavior directly determines the long-term sustainability of access.\n\n**LNT for climbers:** Pack out all trash including tape fragments, food scraps, and chalk wrappers. Handle human waste with WAG bags or properly dug cat holes (15-20cm deep, 60m+ from water). Brush chalk marks from rock after climbing. Protect vegetation by using established trails and avoiding gear placement in cracks with plant growth. Respect seasonal closures (e.g., raptor nesting) and local regulations.\n\nThe long-term accessibility of climbing areas depends on the climbing community's self-discipline. Every climber represents the sport."
           },
           "terms": [
-            { "zh": "不留痕迹", "en": "Leave No Trace / LNT" },
-            { "zh": "猫洞", "en": "cat hole" },
-            { "zh": "废物收集袋", "en": "WAG bag" },
-            { "zh": "季节性封闭", "en": "seasonal closure" }
+            {
+              "zh": "不留痕迹",
+              "en": "Leave No Trace / LNT"
+            },
+            {
+              "zh": "猫洞",
+              "en": "cat hole"
+            },
+            {
+              "zh": "废物收集袋",
+              "en": "WAG bag"
+            },
+            {
+              "zh": "季节性封闭",
+              "en": "seasonal closure"
+            }
           ],
           "crossRefs": [],
-          "tags": ["beginner", "safety"]
+          "tags": [
+            "beginner",
+            "safety"
+          ],
+          "expertInsights": [
+            {
+              "zh": "攀岩者的行为直接决定攀岩区域的通行权是否能被保留。应优先使用可移动保护装备（凸轮/岩塞）减少永久性岩钉安装对岩石的破坏，并使用尽可能少的镁粉——选择与岩石颜色相近的粉（石灰岩可用白粉，砂岩则应少用）。",
+              "en": "Climber behavior is the decisive factor in whether climbing areas retain or lose access. Prefer removable protection (cams/nuts) to minimize permanent bolt damage to rock, and use minimal chalk — choose chalk that matches the rock color (white for limestone, minimize on sandstone).",
+              "source": "Leave No Trace Center",
+              "sourceUrl": "https://lnt.org/how-to-leave-no-trace-on-the-crag/"
+            },
+            {
+              "zh": "超越个人影响最小化，拥抱「攀岩者-守护者」心态：主动参与攀岩区域的清洁和倡导工作。液体废物处理需离岩壁和水源至少70大步（约60-70米），不同土地管理机构（NPS/BLM/USFS）的规定差异显著，攀登前务必研究当地法规。",
+              "en": "Go beyond minimizing personal impact and embrace the 'climber-steward' mindset: actively participate in area cleanups and advocacy. Handle liquid waste at least 70 large steps (~60-70m) from walls and water. Different land managers (NPS/BLM/USFS) have significantly different regulations — always research local rules before climbing.",
+              "source": "Leave No Trace Center",
+              "sourceUrl": "https://lnt.org/how-to-leave-no-trace-on-the-crag/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "How to Leave No Trace on the Crag",
+              "url": "https://lnt.org/how-to-leave-no-trace-on-the-crag/",
+              "source": "Leave No Trace Center",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-wilderness-first-aid",
@@ -192,17 +476,58 @@
             "en": "In outdoor climbing settings, professional medical help may be hours away. Basic wilderness first aid knowledge can save lives or prevent injuries from worsening.\n\n**Common scenarios:** Wound care (clean with potable water, apply sterile dressings — infection risk is high outdoors); fractures and sprains (immobilize with climbing gear, assess need for evacuation); head injuries (monitor consciousness, pupil response — any change in mental status is an emergency); hypothermia and heat stroke (recognize early signs — uncontrolled shivering or confusion for hypothermia; cessation of sweating or confusion for heat stroke).\n\n**Preparation:** Carry a basic first aid kit on every outdoor session. Strongly consider completing a Wilderness First Aid (WFA) or Wilderness First Responder (WFR) certification. In remote areas, at least one person should carry an emergency communication device (satellite messenger)."
           },
           "terms": [
-            { "zh": "野外急救", "en": "wilderness first aid" },
-            { "zh": "失温", "en": "hypothermia" },
-            { "zh": "中暑", "en": "heat stroke" },
-            { "zh": "急救包", "en": "first aid kit" },
-            { "zh": "紧急通讯设备", "en": "emergency communicator / satellite messenger" }
+            {
+              "zh": "野外急救",
+              "en": "wilderness first aid"
+            },
+            {
+              "zh": "失温",
+              "en": "hypothermia"
+            },
+            {
+              "zh": "中暑",
+              "en": "heat stroke"
+            },
+            {
+              "zh": "急救包",
+              "en": "first aid kit"
+            },
+            {
+              "zh": "紧急通讯设备",
+              "en": "emergency communicator / satellite messenger"
+            }
           ],
           "crossRefs": [
             "kp-helmet",
             "kp-rockfall-risk"
           ],
-          "tags": ["intermediate", "safety"]
+          "tags": [
+            "intermediate",
+            "safety"
+          ],
+          "expertInsights": [
+            {
+              "zh": "卫星通讯器（如Garmin inReach Mini）是远郊攀岩最关键的急救工具——手机在偏远山区往往无信号。止血带（CAT tourniquet）适用于动脉出血场景，是普通绷带无法处理时的关键备选。",
+              "en": "A satellite communicator (like Garmin inReach Mini) is the single most critical first aid tool for backcountry climbing — phones often have no signal in remote areas. A CAT tourniquet is essential for arterial bleeding when standard bandages are insufficient.",
+              "source": "Fox Mountain Guides",
+              "sourceUrl": "https://foxmountainguides.com/climbing-first-aid-kit/"
+            },
+            {
+              "zh": "「预防是最好的急救」——正确的技术技能、充足的水分、营养和休息可以预防大多数意外。强烈推荐WFA（2天）或WFR（7-10天）认证课程：知道急救包里有什么和能正确使用是两回事。",
+              "en": "'Prevention is the best first aid' — proper technique, adequate hydration, nutrition, and rest prevent most incidents. A WFA (2-day) or WFR (7-10 day) certification is strongly recommended: knowing what's in your kit and knowing how to use it correctly are two very different things.",
+              "source": "Fox Mountain Guides",
+              "sourceUrl": "https://foxmountainguides.com/climbing-first-aid-kit/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "How to Build a First Aid Kit for Climbing",
+              "url": "https://foxmountainguides.com/climbing-first-aid-kit/",
+              "source": "Fox Mountain Guides",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         }
       ]
     },
@@ -230,12 +555,30 @@
             "en": "Knots are the bedrock of climbing safety. Climbers must master several essential knots and tie them quickly and correctly in any condition.\n\n**Essential knots:**\n- **Figure-8 Follow-Through**: The standard tie-in knot. Retains 75-80% of rope strength, easy to visually inspect, and can be untied after loading. Leave a 15cm tail and optionally back up with a fisherman's knot.\n- **Clove Hitch**: Used to fix the rope to a carabiner at anchors. Adjustable length, easy to tie and untie. May slip under repeated load-unload cycles.\n- **Munter Hitch**: Emergency belay/rappel method using only a locking carabiner. Critical when a belay device is lost. Creates rope kinks.\n\n**Other common knots:** Double Fisherman's (joining ropes or building cord loops); Prusik (friction hitch for self-belay during rappel and emergency ascending); Flat Overhand / EDK (joining ropes for rappel, resists snagging in cracks).\n\nAlways have your partner check your tie-in knot. This simple habit saves lives."
           },
           "terms": [
-            { "zh": "八字结", "en": "figure-8 follow-through" },
-            { "zh": "双套结", "en": "clove hitch" },
-            { "zh": "意大利半扣", "en": "Munter hitch" },
-            { "zh": "普鲁士结", "en": "Prusik knot" },
-            { "zh": "双渔人结", "en": "double fisherman's knot" },
-            { "zh": "平结", "en": "flat overhand / EDK" }
+            {
+              "zh": "八字结",
+              "en": "figure-8 follow-through"
+            },
+            {
+              "zh": "双套结",
+              "en": "clove hitch"
+            },
+            {
+              "zh": "意大利半扣",
+              "en": "Munter hitch"
+            },
+            {
+              "zh": "普鲁士结",
+              "en": "Prusik knot"
+            },
+            {
+              "zh": "双渔人结",
+              "en": "double fisherman's knot"
+            },
+            {
+              "zh": "平结",
+              "en": "flat overhand / EDK"
+            }
           ],
           "crossRefs": [
             "kp-harness",
@@ -243,7 +586,40 @@
             "kp-belaying",
             "kp-rappelling"
           ],
-          "tags": ["beginner", "safety"]
+          "tags": [
+            "beginner",
+            "safety"
+          ],
+          "expertInsights": [
+            {
+              "zh": "八字结自查标准：结形完整呈八字形，尾绳至少15厘米（6英寸），无交叉绳段。每次起攀前双方互检入绳结，即使是熟练的搭档也不例外——这个简单习惯能救命。",
+              "en": "Figure-8 self-check standard: complete 8-shape, tail at least 15cm (6 inches), no crossed strands. Always have both partners cross-check tie-in knots before every climb, even with experienced partners — this simple habit saves lives.",
+              "source": "VDiff Climbing",
+              "sourceUrl": "https://www.vdiffclimbing.com/basic-tie-in/"
+            },
+            {
+              "zh": "双套结（Bowline）的优点是坠落后更容易解开，但缺点是更容易打错且更难视觉检查。仅推荐技术娴熟的攀岩者使用，且必须配套备用结（Double Overhand）——缺少备用结的双套结可能自行松脱。",
+              "en": "The bowline's advantage is easier untying after heavy loading, but it is more error-prone and harder to visually inspect. Only recommended for experienced climbers who fully understand it, and it MUST include a backup knot (double overhand) — an unbacked bowline can work itself loose.",
+              "source": "VDiff Climbing",
+              "sourceUrl": "https://www.vdiffclimbing.com/basic-tie-in/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Figure of 8 Knot – How to Tie into a Climbing Rope",
+              "url": "https://www.vdiffclimbing.com/basic-tie-in/",
+              "source": "VDiff Climbing",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Retreat Anchors – Sport Climbing",
+              "url": "https://www.alpinesavvy.com/blog/retreat-anchors-sport-climbing",
+              "source": "Alpinesavvy",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-belaying",
@@ -256,12 +632,30 @@
             "en": "Belaying is the core safety technique where one person manages the rope to protect the climber. The belayer holds the climber's life in their hands.\n\n**Top-rope belaying:** The rope runs through a top anchor. The belayer takes in slack as the climber ascends using the PBUS method (Pull-Brake-Under-Slide). Maintain consistent but not excessive tension.\n\n**Lead belaying:** The climber clips protection while ascending. The belayer feeds slack for clipping and takes in rope as the climber moves up. The ground fall zone (below the first few clips) is the most dangerous section.\n\n**Key principles:** Brake hand never leaves the rope; eyes on the climber; clear communication using standard commands (on belay / climbing / take / slack / lower); account for weight differences; lower smoothly and steadily.\n\nBelaying must be learned through formal instruction and practiced extensively. Most gyms require passing a belay test for lead climbing areas."
           },
           "terms": [
-            { "zh": "保护", "en": "belaying" },
-            { "zh": "顶绳保护", "en": "top-rope belaying" },
-            { "zh": "先锋保护", "en": "lead belaying" },
-            { "zh": "制动手", "en": "brake hand" },
-            { "zh": "地面坠落区", "en": "ground fall zone" },
-            { "zh": "保护指令", "en": "belay commands" }
+            {
+              "zh": "保护",
+              "en": "belaying"
+            },
+            {
+              "zh": "顶绳保护",
+              "en": "top-rope belaying"
+            },
+            {
+              "zh": "先锋保护",
+              "en": "lead belaying"
+            },
+            {
+              "zh": "制动手",
+              "en": "brake hand"
+            },
+            {
+              "zh": "地面坠落区",
+              "en": "ground fall zone"
+            },
+            {
+              "zh": "保护指令",
+              "en": "belay commands"
+            }
           ],
           "crossRefs": [
             "kp-belay-device",
@@ -269,7 +663,34 @@
             "kp-harness",
             "kp-fall-technique"
           ],
-          "tags": ["beginner", "safety"]
+          "tags": [
+            "beginner",
+            "safety"
+          ],
+          "expertInsights": [
+            {
+              "zh": "PBUS确保动作（拉Pull → 制动Brake → 绕过Under → 滑动Slide）是确保制动手全程不离绳的标准方法。伙伴检查三项：入绳结正确 + 锁扣锁闭 + 确保系统正确——每次攀爬前必查，永不例外。",
+              "en": "The PBUS method (Pull → Brake → Under → Slide) is the standard technique for keeping the brake hand on the rope at all times. Three mandatory partner checks: tie-in knot correct + carabiner locked + belay system correct — before every single climb, no exceptions.",
+              "source": "Rock Climbing Realms",
+              "sourceUrl": "https://rockclimbingrealms.com/belay-in-climbing/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Perfect Your Belay in Climbing: Safety & Skills",
+              "url": "https://rockclimbingrealms.com/belay-in-climbing/",
+              "source": "Rock Climbing Realms",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "How To Belay with a GriGri",
+              "url": "https://www.vdiffclimbing.com/grigri-belay/",
+              "source": "VDiff Climbing",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-rappelling",
@@ -282,11 +703,26 @@
             "en": "Rappelling (abseiling) is the technique of descending a rope from the wall. Despite seeming straightforward, rappelling errors are a leading cause of fatal climbing accidents.\n\n**Basic procedure:** Set up the anchor and thread the rope through rappel rings. Load the rope into your belay device on the belay loop. Set a Prusik backup below the device, attached to your leg loop. Check all connections, knots, and rope end knots. Lean back with feet shoulder-width on the wall, controlling descent speed with the brake hand. Descend smoothly — avoid bouncing.\n\n**Fatal errors:** Rope not reaching the next station or ground (no end knots); rope getting stuck off-route; no backup and losing control; hair or clothing caught in the device.\n\nWhenever possible, prefer a safe walk-off descent. Rappelling should be the option when no alternative exists."
           },
           "terms": [
-            { "zh": "下降", "en": "rappelling / abseiling" },
-            { "zh": "下降环", "en": "rappel rings" },
-            { "zh": "防脱结", "en": "stopper knot" },
-            { "zh": "普鲁士备份", "en": "Prusik backup" },
-            { "zh": "双绳下降", "en": "double-rope rappel" }
+            {
+              "zh": "下降",
+              "en": "rappelling / abseiling"
+            },
+            {
+              "zh": "下降环",
+              "en": "rappel rings"
+            },
+            {
+              "zh": "防脱结",
+              "en": "stopper knot"
+            },
+            {
+              "zh": "普鲁士备份",
+              "en": "Prusik backup"
+            },
+            {
+              "zh": "双绳下降",
+              "en": "double-rope rappel"
+            }
           ],
           "crossRefs": [
             "kp-knots",
@@ -294,7 +730,33 @@
             "kp-belay-device",
             "kp-anchor-building"
           ],
-          "tags": ["intermediate", "safety"]
+          "tags": [
+            "intermediate",
+            "safety"
+          ],
+          "expertInsights": [
+            {
+              "zh": "绳端必须打止坠结——从绳末端滑脱是攀岩绳降最常见的死亡原因之一。约三分之一的攀岩致命事故发生在绳降过程中，主因并非技术困难，而是疏忽大意。",
+              "en": "Rope ends MUST have stopper knots — sliding off the rope end is one of the most common causes of fatal rappelling accidents. Roughly one-third of fatal climbing accidents occur during rappelling, primarily due to complacency rather than technical difficulty.",
+              "source": "VDiff Climbing",
+              "sourceUrl": "https://www.vdiffclimbing.com/abseil/"
+            },
+            {
+              "zh": "普鲁士备份是绳降安全的关键：在确保器下方接普鲁士/自锁绳结，手一旦松开会自动制动。绳降锚点是生死关口——必须仔细检查螺栓和绳套状态，如有疑问宁可更换或加固。",
+              "en": "A Prusik backup is key to rappel safety: attach a Prusik or autoblock below your device so it auto-locks if you release the rope. Rappel anchors are a life-or-death checkpoint — carefully inspect bolts and sling condition; if in doubt, replace or reinforce.",
+              "source": "VDiff Climbing",
+              "sourceUrl": "https://www.vdiffclimbing.com/abseil/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Abseiling (Rappelling) Explained",
+              "url": "https://www.vdiffclimbing.com/abseil/",
+              "source": "VDiff Climbing",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-basic-rescue",
@@ -307,11 +769,26 @@
             "en": "Basic self-rescue and partner rescue skills are essential for every outdoor climber. While you hope never to need them, these techniques can be lifesaving in emergencies.\n\n**Self-rescue:** Ascending the rope using two Prusik knots (one for sitting, one for standing, alternating upward); escaping the belay (transferring the load from your device to the anchor using friction hitches and mechanical advantage so you can go help your partner).\n\n**Partner rescue:** Assisted rappel (descending with an injured partner on your system); simple hauling systems (3:1 Z-pulley to raise an injured climber to the belay station).\n\n**Critical mindset:** The first rule of rescue is not to become a casualty yourself. Ensure your own safety before any rescue operation. If the situation exceeds your capability, calling professional rescue is the most responsible choice.\n\nStrongly recommended: take a formal self-rescue course (such as AMGA SPI) and practice regularly."
           },
           "terms": [
-            { "zh": "自救", "en": "self-rescue" },
-            { "zh": "绳索上升", "en": "ascending the rope" },
-            { "zh": "脱离保护系统", "en": "escaping the belay" },
-            { "zh": "Z-拖拽系统", "en": "Z-pulley hauling system" },
-            { "zh": "辅助下降", "en": "assisted rappel" }
+            {
+              "zh": "自救",
+              "en": "self-rescue"
+            },
+            {
+              "zh": "绳索上升",
+              "en": "ascending the rope"
+            },
+            {
+              "zh": "脱离保护系统",
+              "en": "escaping the belay"
+            },
+            {
+              "zh": "Z-拖拽系统",
+              "en": "Z-pulley hauling system"
+            },
+            {
+              "zh": "辅助下降",
+              "en": "assisted rappel"
+            }
           ],
           "crossRefs": [
             "kp-knots",
@@ -319,7 +796,33 @@
             "kp-belaying",
             "kp-rope"
           ],
-          "tags": ["advanced", "safety"]
+          "tags": [
+            "advanced",
+            "safety"
+          ],
+          "expertInsights": [
+            {
+              "zh": "确保脱离（Belay Escape）是高级传统攀岩中最重要的自救技术，适用于伙伴失能的紧急情况。三步骤：用普鲁士结接管负载 → 将负载转移到锚点（确保器不再受力）→ 释放确保者自由移动去施救。",
+              "en": "The belay escape is the most critical self-rescue skill in advanced trad climbing, used when your partner is incapacitated. Three steps: Prusik takes the load → transfer load to anchor (device is unweighted) → belayer is free to move and assist.",
+              "source": "VDiff Climbing",
+              "sourceUrl": "https://www.vdiffclimbing.com/belay-escape/"
+            },
+            {
+              "zh": "Z-字滑轮系统（3:1机械优势）：每拉3英尺绳子，负载上升1英尺。在没有确保器的紧急情况下，可用Munter结（意大利半扣）替代确保器执行降绳操作——这是每个户外攀岩者应该掌握的应急技能。",
+              "en": "Z-pulley system (3:1 mechanical advantage): for every 3 feet of rope pulled, the load rises 1 foot. In emergencies without a belay device, a Munter hitch can substitute for lowering operations — this is an emergency skill every outdoor climber should know.",
+              "source": "VDiff Climbing",
+              "sourceUrl": "https://www.vdiffclimbing.com/belay-escape/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "The Belay Escape – Self Rescue for Rock Climbers",
+              "url": "https://www.vdiffclimbing.com/belay-escape/",
+              "source": "VDiff Climbing",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         }
       ]
     },
@@ -347,15 +850,58 @@
             "en": "Crash pads are the core safety equipment for outdoor bouldering. Proper placement directly determines whether a fall will be safely cushioned.\n\n**Placement principles:** Cover the fall zone by analyzing potential landing spots at each point on the route; move pads as the climber progresses. Eliminate gaps between pads (ankle sprains from stepping in gaps are common). Level uneven ground with smaller pads and clear sharp rocks and roots. Check for stumps or rocks beneath and around the pads.\n\n**Selection:** Full-size pads (~100x120cm, 10-12cm thick) and supplementary pads work together. Quality pads have a firm top layer to distribute force and a soft bottom layer to absorb energy. Backpack-style folding designs are standard for approach hikes.\n\nSolo bouldering with limited pad coverage is risky — bring partners and multiple pads whenever possible."
           },
           "terms": [
-            { "zh": "抱石垫", "en": "crash pad" },
-            { "zh": "落区", "en": "fall zone / landing zone" },
-            { "zh": "辅助垫", "en": "supplementary pad" }
+            {
+              "zh": "抱石垫",
+              "en": "crash pad"
+            },
+            {
+              "zh": "落区",
+              "en": "fall zone / landing zone"
+            },
+            {
+              "zh": "辅助垫",
+              "en": "supplementary pad"
+            }
           ],
           "crossRefs": [
             "kp-fall-technique",
             "kp-bouldering-fall"
           ],
-          "tags": ["beginner", "safety", "gear"]
+          "tags": [
+            "beginner",
+            "safety",
+            "gear"
+          ],
+          "expertInsights": [
+            {
+              "zh": "崩垫放置的核心原则：基于坠落轨迹（重心+运动向量）决定位置，而非放在「岩石正下方」就完事。拼垫时使用错位拼接（offset interlocking）而非对齐拼接，防止脚踝落入垫缝受伤。",
+              "en": "Core pad placement principle: position pads based on fall trajectory (center of gravity + movement vector), not just 'directly below the rock.' When combining pads, use offset interlocking rather than edge-to-edge alignment to prevent ankle injuries from stepping in gaps.",
+              "source": "Jesse Firestone Climbing",
+              "sourceUrl": "https://jfireclimbing.com/2021/12/02/bouldering-101-how-to-place-crash-pads-and-not-break-your-legs/"
+            },
+            {
+              "zh": "崩垫的泡沫方向有讲究：硬泡沫朝上应对双脚踩落（吸收高冲击力），软泡沫朝上应对臀部/背部落地。在容易区域先故意测试落地感觉，了解实际落点后再挑战难点动作。所有带来的崩垫都应展开使用，不要留在背包里当备用。",
+              "en": "Pad foam orientation matters: firm foam up for foot landings (absorbs high impact), soft foam up for hip/back landings. Test your landing on easy sections first to calibrate actual fall zones before attempting crux moves. All pads you brought should be deployed — don't keep any in your pack as 'reserve.'",
+              "source": "Jesse Firestone Climbing",
+              "sourceUrl": "https://jfireclimbing.com/2021/12/02/bouldering-101-how-to-place-crash-pads-and-not-break-your-legs/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Bouldering 101: How to Place Crash Pads (and Not Break Your Legs)",
+              "url": "https://jfireclimbing.com/2021/12/02/bouldering-101-how-to-place-crash-pads-and-not-break-your-legs/",
+              "source": "Jesse Firestone Climbing",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Safer Bouldering: Master Spotting & Crash Pads",
+              "url": "https://rockclimbingrealms.com/safer-bouldering-master-spotting-crash-pads/",
+              "source": "Rock Climbing Realms",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-spotter",
@@ -368,16 +914,58 @@
             "en": "A spotter in bouldering plays a role analogous to a belayer in roped climbing. The spotter's job is not to catch the falling climber, but to guide them onto the crash pad and protect the head and spine.\n\n**Positioning:** Stand below the climber, slightly offset toward the likely fall direction. Athletic stance with feet staggered, center of gravity low. Hands raised with palms toward the climber's lower back/hips, not head or feet. Watch the climber's waist (center of gravity), not their hands or feet.\n\n**Technique:** Push the climber's hips/back to guide an upright landing on the pad center. Do not grab or bear-hug the falling climber. Prioritize head and neck protection if the climber is inverting. Adjust position as the climber moves on the wall.\n\n**Multiple spotters:** Highball problems or dynamic routes may need several spotters. Communicate roles in advance to avoid collisions.\n\nSpotting requires full attention. No phones, no chatting, no distractions while spotting."
           },
           "terms": [
-            { "zh": "保护人", "en": "spotter" },
-            { "zh": "保护站位", "en": "spotting" },
-            { "zh": "高落区问题", "en": "highball" }
+            {
+              "zh": "保护人",
+              "en": "spotter"
+            },
+            {
+              "zh": "保护站位",
+              "en": "spotting"
+            },
+            {
+              "zh": "高落区问题",
+              "en": "highball"
+            }
           ],
           "crossRefs": [
             "kp-crash-pad",
             "kp-fall-technique",
             "kp-bouldering-fall"
           ],
-          "tags": ["beginner", "safety"]
+          "tags": [
+            "beginner",
+            "safety"
+          ],
+          "expertInsights": [
+            {
+              "zh": "保护员的核心职责是「引导攀岩者落向崩垫」，而不是试图接住攀岩者（会双双受伤）。正确保护姿态：运动准备姿势——双膝微弯、双臂举起，像篮球防守一样可快速响应任何方向的坠落。",
+              "en": "The spotter's core job is to guide the climber ONTO the pad, not to catch them (which injures both). Correct spotting stance: athletic ready position — knees slightly bent, arms raised — like a basketball defensive stance, ready to respond to any direction of fall.",
+              "source": "Rock Climbing Realms",
+              "sourceUrl": "https://rockclimbingrealms.com/safer-bouldering-master-spotting-crash-pads/"
+            },
+            {
+              "zh": "多人保护时必须事先明确沟通分工和站位，避免保护员之间碰撞或同时扑向同一方向。户外地面不平整，保护员本人也需要注意自身站立稳定性——先扫描落地区域的树根、岩石和坡度。",
+              "en": "With multiple spotters, communicate roles and positions in advance to prevent collisions or everyone diving the same direction. On uneven outdoor terrain, spotters must also watch their own footing — scan the landing zone for roots, rocks, and slopes before positioning yourself.",
+              "source": "Rock Climbing Realms",
+              "sourceUrl": "https://rockclimbingrealms.com/safer-bouldering-master-spotting-crash-pads/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Safer Bouldering: Master Spotting & Crash Pads",
+              "url": "https://rockclimbingrealms.com/safer-bouldering-master-spotting-crash-pads/",
+              "source": "Rock Climbing Realms",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Bouldering 101: How to Place Crash Pads (and Not Break Your Legs)",
+              "url": "https://jfireclimbing.com/2021/12/02/bouldering-101-how-to-place-crash-pads-and-not-break-your-legs/",
+              "source": "Jesse Firestone Climbing",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-landing-position",
@@ -390,16 +978,53 @@
             "en": "Proper landing technique is the last line of defense in bouldering safety. Even with perfect pad placement and attentive spotters, poor landing form significantly increases injury risk.\n\n**Ideal landing:** Feet together or slightly apart, landing simultaneously. Knees bent like springs to absorb impact, increasing the bend angle with fall height. Contact order: toes, then forefoot, then whole foot. Hips slightly flexed, torso slightly forward. Roll backward or sideways after landing to distribute remaining force.\n\n**Special situations:** Side falls — rotate to face outward with feet down during flight. Inverted falls (from roofs) — tighten core, attempt to flip feet-down; spotter assistance is critical. Landing beyond pads — perform a martial arts roll (ukemi) to distribute impact along the body.\n\n**Training:** Practice falls from low heights on pads regularly. Draw on martial arts or gymnastics rolling techniques. Include landing practice in your warm-up routine."
           },
           "terms": [
-            { "zh": "着地姿势", "en": "landing position" },
-            { "zh": "渐进式缓冲", "en": "progressive impact absorption" },
-            { "zh": "柔道前滚翻", "en": "ukemi / breakfall roll" }
+            {
+              "zh": "着地姿势",
+              "en": "landing position"
+            },
+            {
+              "zh": "渐进式缓冲",
+              "en": "progressive impact absorption"
+            },
+            {
+              "zh": "柔道前滚翻",
+              "en": "ukemi / breakfall roll"
+            }
           ],
           "crossRefs": [
             "kp-crash-pad",
             "kp-spotter",
             "kp-bouldering-fall"
           ],
-          "tags": ["beginner", "safety", "technique"]
+          "tags": [
+            "beginner",
+            "safety",
+            "technique"
+          ],
+          "expertInsights": [
+            {
+              "zh": "标准着地五步法：双脚先落 → 面朝岩壁 → 屈膝减震 → 向后滚落 → 双臂交叉胸前保护。但背部落地时操作不同：双臂斜向两侧拍垫（而非交叉胸前），有助于抵消冲击力并保持稳定。",
+              "en": "Standard five-step landing: feet first → face the wall → bend knees to absorb → roll backward → arms crossed on chest. However, when landing on your back: slap arms diagonally to the sides of the pad (not crossed on chest) to counteract impact force and maintain stability.",
+              "source": "Tufas Boulder Lounge",
+              "sourceUrl": "https://tufasboulderlounge.com/bouldering-basics-how-to-fall-when-climbing/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Bouldering Basics: How to Fall When Climbing",
+              "url": "https://tufasboulderlounge.com/bouldering-basics-how-to-fall-when-climbing/",
+              "source": "Tufas Boulder Lounge",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "How to Fall Bouldering: 3 Techniques to Reduce Injury",
+              "url": "https://www.advnture.com/how-to/fall-bouldering",
+              "source": "Advnture",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         }
       ]
     }

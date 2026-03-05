@@ -25,14 +25,61 @@
             "en": "Indoor and outdoor climbing differ significantly in multiple aspects. Outdoors, there are no color-coded holds; climbers must identify natural features like cracks, edges, pockets, and slopers. Route finding becomes a skill in itself.\n\nProtection systems also change dramatically. Indoor gyms provide standardized top-rope setups and thick crash pads, whereas outdoor climbing requires clipping quickdraws on sport routes or placing removable protection on trad routes. Falls carry greater consequences due to uneven terrain and natural hazards.\n\nEnvironmental factors such as weather, rock temperature, humidity, wind, and wildlife add layers of complexity that simply do not exist indoors."
           },
           "terms": [
-            { "zh": "快挂", "en": "quickdraw" },
-            { "zh": "裂缝", "en": "crack" },
-            { "zh": "口袋点", "en": "pocket" },
-            { "zh": "岩点识别", "en": "route finding" },
-            { "zh": "落石", "en": "rockfall" }
+            {
+              "zh": "快挂",
+              "en": "quickdraw"
+            },
+            {
+              "zh": "裂缝",
+              "en": "crack"
+            },
+            {
+              "zh": "口袋点",
+              "en": "pocket"
+            },
+            {
+              "zh": "岩点识别",
+              "en": "route finding"
+            },
+            {
+              "zh": "落石",
+              "en": "rockfall"
+            }
           ],
-          "crossRefs": ["kp-route-reading-basics", "kp-belaying", "kp-fall-technique"],
-          "tags": ["beginner", "outdoor", "safety"]
+          "crossRefs": [
+            "kp-route-reading-basics",
+            "kp-belaying",
+            "kp-fall-technique"
+          ],
+          "tags": [
+            "beginner",
+            "outdoor",
+            "safety"
+          ],
+          "expertInsights": [
+            {
+              "zh": "户外攀岩不仅是体力挑战，更是认知转变：室内的标准化系统（颜色标记、预设保护、平整地面）给了你确定性，而户外的不确定性（天气变化、岩石质量判断、路线寻找）恰恰是户外攀岩的核心学习价值。最大的心理门槛往往不是难度本身，而是「没有人告诉你下一步该怎么做」的自主决策压力。",
+              "en": "Outdoor climbing is a cognitive shift, not just a physical challenge. Indoor standardization (color-coded holds, pre-set protection, flat floors) provides certainty, while outdoor uncertainty (weather, rock quality assessment, route finding) is the core learning value. The biggest mental barrier is often not difficulty itself but the pressure of autonomous decision-making with no one telling you what to do next.",
+              "source": "Alpine to the Max",
+              "sourceUrl": "https://www.alpinetothemax.com/blog/rock-climbing-outside"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Rock Climbing Outside vs Indoors: Key Differences To Know About",
+              "url": "https://www.alpinetothemax.com/blog/rock-climbing-outside",
+              "source": "Alpine to the Max",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "5 types of rock you'll encounter when climbing outdoors",
+              "url": "https://www.advnture.com/features/5-types-of-rock",
+              "source": "Advnture",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-first-outdoor-trip",
@@ -45,14 +92,62 @@
             "en": "Preparing for your first outdoor climbing trip requires careful planning in equipment, skills, and mindset.\n\nBeyond climbing shoes and a harness, outdoor climbing demands a helmet, a rope (typically 60-70m), quickdraws (12-16), slings, locking carabiners, water, food, sunscreen, a first-aid kit, and a headlamp. Skill-wise, you should be proficient in lead belaying, lowering, rappelling, and essential knots before heading outdoors.\n\nExpect outdoor grades to feel 1-2 grades harder than their indoor equivalents. Choose routes well within your ability for your first outing, and always go with an experienced mentor or guide. The goal is to build confidence and enjoy the experience, not to push your limits."
           },
           "terms": [
-            { "zh": "头盔", "en": "helmet" },
-            { "zh": "锚点", "en": "anchor" },
-            { "zh": "扁带", "en": "sling" },
-            { "zh": "锁扣", "en": "locking carabiner" },
-            { "zh": "降低", "en": "lowering" }
+            {
+              "zh": "头盔",
+              "en": "helmet"
+            },
+            {
+              "zh": "锚点",
+              "en": "anchor"
+            },
+            {
+              "zh": "扁带",
+              "en": "sling"
+            },
+            {
+              "zh": "锁扣",
+              "en": "locking carabiner"
+            },
+            {
+              "zh": "降低",
+              "en": "lowering"
+            }
           ],
-          "crossRefs": ["kp-harness", "kp-rope", "kp-knots", "kp-rappelling"],
-          "tags": ["beginner", "outdoor", "safety"]
+          "crossRefs": [
+            "kp-harness",
+            "kp-rope",
+            "kp-knots",
+            "kp-rappelling"
+          ],
+          "tags": [
+            "beginner",
+            "outdoor",
+            "safety"
+          ],
+          "expertInsights": [
+            {
+              "zh": "第一次户外攀岩务必在地面练习收绳（cleaning routes）和挂绳技术——这些在室内几乎不需要的技能，在户外是基本生存能力。同时带上 stick clip（伸缩挂杆）处理第一个锚点螺栓，避免在无保护的起步段冒险。户外难度评级普遍比室内「感觉难两级」，初次出行选择比你室内能力低2-3级的路线。",
+              "en": "Before your first outdoor trip, practice cleaning routes and clipping technique on the ground -- skills rarely needed indoors but essential survival skills outdoors. Bring a stick clip for the first bolt to avoid unprotected starts. Outdoor grades typically 'feel' 2 grades harder than indoor equivalents, so choose routes 2-3 grades below your gym ability.",
+              "source": "Philly Rock Gym",
+              "sourceUrl": "https://philarockgym.com/top-8-tips-for-your-first-outdoor-climbing-trip/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Top 8 Tips for Your First Outdoor Climbing Trip",
+              "url": "https://philarockgym.com/top-8-tips-for-your-first-outdoor-climbing-trip/",
+              "source": "Philly Rock Gym",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Rock Climbing Outside vs Indoors: Key Differences To Know About",
+              "url": "https://www.alpinetothemax.com/blog/rock-climbing-outside",
+              "source": "Alpine to the Max",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-rock-types",
@@ -65,15 +160,71 @@
             "en": "Different rock types create fundamentally different climbing experiences, affecting technique, gear selection, and even shoe choice.\n\n**Granite** is renowned for friction climbing and crack systems, exemplified by Yosemite. Its rough surface provides excellent friction but wears skin quickly. **Limestone** dominates sport climbing areas worldwide, featuring pockets, tufas, and overhangs formed by erosion. It demands strong finger strength but becomes slippery when wet. **Sandstone** offers unique textures but is fragile when wet; climbing on wet sandstone causes irreversible damage. **Basalt**, a volcanic rock, features columnar joints and small vesicles that create distinctive climbing."
           },
           "terms": [
-            { "zh": "花岗岩", "en": "granite" },
-            { "zh": "石灰岩", "en": "limestone" },
-            { "zh": "砂岩", "en": "sandstone" },
-            { "zh": "玄武岩", "en": "basalt" },
-            { "zh": "摩擦攀登", "en": "friction climbing" },
-            { "zh": "凹槽", "en": "tufa" }
+            {
+              "zh": "花岗岩",
+              "en": "granite"
+            },
+            {
+              "zh": "石灰岩",
+              "en": "limestone"
+            },
+            {
+              "zh": "砂岩",
+              "en": "sandstone"
+            },
+            {
+              "zh": "玄武岩",
+              "en": "basalt"
+            },
+            {
+              "zh": "摩擦攀登",
+              "en": "friction climbing"
+            },
+            {
+              "zh": "凹槽",
+              "en": "tufa"
+            }
           ],
-          "crossRefs": ["kp-slab-technique", "kp-crack-technique", "kp-climbing-shoes"],
-          "tags": ["beginner", "outdoor"]
+          "crossRefs": [
+            "kp-slab-technique",
+            "kp-crack-technique",
+            "kp-climbing-shoes"
+          ],
+          "tags": [
+            "beginner",
+            "outdoor"
+          ],
+          "expertInsights": [
+            {
+              "zh": "不同岩石类型决定完全不同的攀爬策略：花岗岩粗糙颗粒提供极好的摩擦力，适合涂抹脚法和裂缝攀登（Yosemite 典型）；石灰岩多溶蚀孔洞和口袋点，偏好指力和锁定技术；砂岩质地较软且潮湿时极脆弱——雨后需等待至少 24-48 小时才能攀爬，以保护岩壁不被永久损坏。",
+              "en": "Different rock types demand fundamentally different strategies: granite's rough texture provides excellent friction for smearing and crack climbing (classic Yosemite); limestone features solution pockets and tufas favoring finger strength and lock-offs; sandstone is soft and extremely fragile when wet -- wait at least 24-48 hours after rain to avoid permanently damaging the rock.",
+              "source": "Advnture",
+              "sourceUrl": "https://www.advnture.com/features/5-types-of-rock"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "5 types of rock you'll encounter when climbing outdoors",
+              "url": "https://www.advnture.com/features/5-types-of-rock",
+              "source": "Advnture",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Top 8 Tips for Your First Outdoor Climbing Trip",
+              "url": "https://philarockgym.com/top-8-tips-for-your-first-outdoor-climbing-trip/",
+              "source": "Philly Rock Gym",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Rock Climbing Outside vs Indoors: Key Differences To Know About",
+              "url": "https://www.alpinetothemax.com/blog/rock-climbing-outside",
+              "source": "Alpine to the Max",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         }
       ]
     },
@@ -101,14 +252,62 @@
             "en": "Efficient clipping technique is a critical lead climbing skill. The rope must enter the quickdraw from the wall side and exit toward the climber; incorrect orientation (back-clipping) can cause the rope to unclip during a fall. Z-clipping, where you clip a higher bolt before the nearest one, creates excessive rope drag.\n\nThe ideal clipping position is when the bolt is between chest and waist height. Clipping above your head wastes energy and increases fall distance. Practice single-hand clipping with both hands on the ground before attempting it on the wall. Choose which hand to clip with based on which is closer to the quickdraw."
           },
           "terms": [
-            { "zh": "挂片", "en": "clipping" },
-            { "zh": "反扣", "en": "back-clipping" },
-            { "zh": "Z字挂片", "en": "Z-clipping" },
-            { "zh": "膨胀钉", "en": "bolt" },
-            { "zh": "绳索拖拽", "en": "rope drag" }
+            {
+              "zh": "挂片",
+              "en": "clipping"
+            },
+            {
+              "zh": "反扣",
+              "en": "back-clipping"
+            },
+            {
+              "zh": "Z字挂片",
+              "en": "Z-clipping"
+            },
+            {
+              "zh": "膨胀钉",
+              "en": "bolt"
+            },
+            {
+              "zh": "绳索拖拽",
+              "en": "rope drag"
+            }
           ],
-          "crossRefs": ["kp-belaying", "kp-fall-technique", "kp-rope"],
-          "tags": ["beginner", "outdoor", "technique", "safety"]
+          "crossRefs": [
+            "kp-belaying",
+            "kp-fall-technique",
+            "kp-rope"
+          ],
+          "tags": [
+            "beginner",
+            "outdoor",
+            "technique",
+            "safety"
+          ],
+          "expertInsights": [
+            {
+              "zh": "正确挂绳方向：绳子应从快挂下方卡扣的 gate 后侧穿出、面向攀爬方向开口。反挂（back-clipping）是最危险的常见错误——坠落时绳子可能沿开口方向自行弹出，导致完全失去保护。在体力充沛时挂绳（而非极度泵胀时），并在每次挂完后花一秒钟检查绳路走向是否干净。",
+              "en": "Correct clipping direction: the rope should pass from behind the lower carabiner's gate, exiting toward the climbing direction. Back-clipping is the most dangerous common mistake -- during a fall, the rope can unclip itself along the gate opening, resulting in complete protection loss. Clip when you still have energy (not when pumped), and spend one second checking the rope path after each clip.",
+              "source": "Mojagear",
+              "sourceUrl": "https://mojagear.com/sport-climbing-tips-clipping/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "How to Lead Climb: Clipping, Techniques, and Safety",
+              "url": "https://mojagear.com/sport-climbing-tips-clipping/",
+              "source": "Mojagear",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Three Common Lead Climbing Mistakes to Avoid",
+              "url": "https://gripped.com/profiles/three-common-lead-climbing-mistakes-to-avoid/",
+              "source": "Gripped Magazine",
+              "language": "en",
+              "articleType": "safety-case"
+            }
+          ]
         },
         {
           "id": "kp-lead-strategy-outdoor",
@@ -121,14 +320,55 @@
             "en": "Outdoor lead strategy requires more planning than indoor leading. Before climbing, study the route from the ground: identify key holds, rest stances, crux sections, and bolt positions. Bolt spacing outdoors can be much wider than indoors, sometimes exceeding 3 meters.\n\nEnergy management is critical on longer outdoor routes. Identify rest positions and use shake-outs to recover forearms. In the ground-fall zone near the first few bolts, exercise extreme caution. Always assess fall consequences at each clip: consider ledges, features, and the distance to the last bolt. If a section feels too risky, it is wise to retreat or hang-dog rather than push into a dangerous fall."
           },
           "terms": [
-            { "zh": "路线预读", "en": "route preview" },
-            { "zh": "甩手恢复", "en": "shake out" },
-            { "zh": "坠落区域", "en": "ground fall zone" },
-            { "zh": "挂绳前进", "en": "hang-dogging" },
-            { "zh": "平台", "en": "ledge" }
+            {
+              "zh": "路线预读",
+              "en": "route preview"
+            },
+            {
+              "zh": "甩手恢复",
+              "en": "shake out"
+            },
+            {
+              "zh": "坠落区域",
+              "en": "ground fall zone"
+            },
+            {
+              "zh": "挂绳前进",
+              "en": "hang-dogging"
+            },
+            {
+              "zh": "平台",
+              "en": "ledge"
+            }
           ],
-          "crossRefs": ["kp-route-reading-basics", "kp-rest-management", "kp-fall-technique"],
-          "tags": ["intermediate", "outdoor", "technique", "safety"]
+          "crossRefs": [
+            "kp-route-reading-basics",
+            "kp-rest-management",
+            "kp-fall-technique"
+          ],
+          "tags": [
+            "intermediate",
+            "outdoor",
+            "technique",
+            "safety"
+          ],
+          "expertInsights": [
+            {
+              "zh": "Eric Hörst 的分段训练法（Chunking）：将路线按休息点分成 2-4 个小段，每段独立练习至熟练后再串联全程。许多攀岩者在核心难段耗尽体力后在看似简单的终段失败——为最后 3-4 个快挂预留 20% 体力是成功红点的关键策略。同时，不要执着于单一 beta，为关键动作准备至少两套方案。",
+              "en": "Eric Hörst's Chunking method: divide the route into 2-4 segments by rest points, master each independently before linking. Many climbers exhaust themselves on the crux only to fail on seemingly easy final moves -- reserving 20% energy for the last 3-4 clips is a critical redpoint strategy. Also, don't fixate on a single beta; prepare at least two solutions for key moves.",
+              "source": "Training For Climbing (Eric Hörst)",
+              "sourceUrl": "https://trainingforclimbing.com/10-dos-donts-for-effective-redpointing/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "10 Do's and Don'ts for Effective Redpoint Climbing",
+              "url": "https://trainingforclimbing.com/10-dos-donts-for-effective-redpointing/",
+              "source": "Training For Climbing",
+              "language": "en",
+              "articleType": "training"
+            }
+          ]
         },
         {
           "id": "kp-outdoor-sport-safety",
@@ -141,14 +381,69 @@
             "en": "Outdoor sport climbing safety encompasses equipment checks, environmental awareness, and emergency preparedness. Before every climb, inspect all gear: check the rope for wear, verify quickdraw gates function properly, and confirm your harness buckle is doubled back. Assess bolt conditions and avoid rusty or loose bolts.\n\nAlways check weather forecasts and avoid climbing during thunderstorms. Be aware of rockfall hazards, carry sufficient water, and know the location of the nearest medical facility. Use standardized verbal commands between climber and belayer, and establish rope signals in advance for situations where verbal communication is impossible."
           },
           "terms": [
-            { "zh": "反扣", "en": "double back" },
-            { "zh": "攀登口令", "en": "climbing commands" },
-            { "zh": "保护准备", "en": "on belay" },
-            { "zh": "装备检查", "en": "gear inspection" },
-            { "zh": "雷暴", "en": "thunderstorm" }
+            {
+              "zh": "反扣",
+              "en": "double back"
+            },
+            {
+              "zh": "攀登口令",
+              "en": "climbing commands"
+            },
+            {
+              "zh": "保护准备",
+              "en": "on belay"
+            },
+            {
+              "zh": "装备检查",
+              "en": "gear inspection"
+            },
+            {
+              "zh": "雷暴",
+              "en": "thunderstorm"
+            }
           ],
-          "crossRefs": ["kp-belaying", "kp-harness", "kp-rope", "kp-knots"],
-          "tags": ["beginner", "outdoor", "safety"]
+          "crossRefs": [
+            "kp-belaying",
+            "kp-harness",
+            "kp-rope",
+            "kp-knots"
+          ],
+          "tags": [
+            "beginner",
+            "outdoor",
+            "safety"
+          ],
+          "expertInsights": [
+            {
+              "zh": "户外先锋攀岩三大致命错误：①反挂（back-clipping）——绳子错误穿过快挂，坠落时可能自行脱出；②Z-挂（Z-clipping）——跨过一个快挂从下方挂绳，增加坠落距离和绳阻；③绳子绕腿——坠落时绳子钩住腿导致倒翻头朝下坠落。每次挂完绳花一秒检查绳路，保护者同步监控绳路走向。",
+              "en": "Three deadly outdoor lead climbing errors: (1) Back-clipping -- rope passes through the quickdraw incorrectly, may unclip during a fall; (2) Z-clipping -- clipping from below a lower quickdraw, increasing fall distance and rope drag; (3) Leg behind rope -- catching a leg during a fall causes an inverted head-down fall. Check rope path after each clip; the belayer should simultaneously monitor rope routing.",
+              "source": "Gripped Magazine",
+              "sourceUrl": "https://gripped.com/profiles/three-common-lead-climbing-mistakes-to-avoid/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Three Common Lead Climbing Mistakes to Avoid",
+              "url": "https://gripped.com/profiles/three-common-lead-climbing-mistakes-to-avoid/",
+              "source": "Gripped Magazine",
+              "language": "en",
+              "articleType": "safety-case"
+            },
+            {
+              "title": "10 Do's and Don'ts for Effective Redpoint Climbing",
+              "url": "https://trainingforclimbing.com/10-dos-donts-for-effective-redpointing/",
+              "source": "Training For Climbing",
+              "language": "en",
+              "articleType": "training"
+            },
+            {
+              "title": "The \"Ins and Outs\" of Sport and Trad Climbing Protection",
+              "url": "https://americanalpineclub.org/news/2023/6/22/protection-the-ins-and-outs-of-sport-and-trad-climbing-protection",
+              "source": "American Alpine Club",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         }
       ]
     },
@@ -176,14 +471,68 @@
             "en": "Placing protection is the foundation of trad climbing safety. The primary devices are cams (spring-loaded camming devices) that expand into cracks using spring-loaded lobes, and nuts (stoppers) that wedge passively into constrictions.\n\nKey placement principles include: place in constrictions where the device cannot slide out under load, maximize rock-surface contact, orient the device to resist the expected fall direction, and use extendable slings to reduce rope drag. Always test each placement with a firm tug in the anticipated fall direction. If you doubt a placement, add a backup piece nearby."
           },
           "terms": [
-            { "zh": "机械塞", "en": "cam / SLCD" },
-            { "zh": "岩塞", "en": "nut / stopper" },
-            { "zh": "六角塞", "en": "hexentric" },
-            { "zh": "保护装置", "en": "protection / pro" },
-            { "zh": "受力方向", "en": "loading direction" }
+            {
+              "zh": "机械塞",
+              "en": "cam / SLCD"
+            },
+            {
+              "zh": "岩塞",
+              "en": "nut / stopper"
+            },
+            {
+              "zh": "六角塞",
+              "en": "hexentric"
+            },
+            {
+              "zh": "保护装置",
+              "en": "protection / pro"
+            },
+            {
+              "zh": "受力方向",
+              "en": "loading direction"
+            }
           ],
-          "crossRefs": ["kp-crack-technique", "kp-fall-technique", "kp-rope"],
-          "tags": ["intermediate", "outdoor", "safety"]
+          "crossRefs": [
+            "kp-crack-technique",
+            "kp-fall-technique",
+            "kp-rope"
+          ],
+          "tags": [
+            "intermediate",
+            "outdoor",
+            "safety"
+          ],
+          "expertInsights": [
+            {
+              "zh": "凸轮（cam）的最优放置范围是行程的中间 25-75% 区段——此时凸轮瓣与岩壁接触角度最理想，强度最大。全展开状态接触面积过小易滑出，全收缩状态弹簧力不足无法适应裂缝微小变化。在垂直裂缝中朝下方放置比朝上更稳定，因坠落力方向与凸轮轴一致。放完后轻拉测试确认稳固。",
+              "en": "A cam's optimal placement range is the middle 25-75% of its expansion -- this is where lobe-to-rock contact angle is ideal and strength is maximum. Fully expanded means too little contact area (can slip out); fully retracted means insufficient spring force to adapt to slight crack variations. In vertical cracks, place stems downward for stability since fall forces align with the cam axis. Always test with a gentle tug after placement.",
+              "source": "VDiff Climbing",
+              "sourceUrl": "https://www.vdiffclimbing.com/cam/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Trad Climbing Gear: Cams – How to Use Climbing Cams",
+              "url": "https://www.vdiffclimbing.com/cam/",
+              "source": "VDiff Climbing",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Trad Anchors: Build Bombproof with SERENE/ERNEST",
+              "url": "https://rockclimbingrealms.com/trad-anchors-build-bombproof-with-serene-ernest/",
+              "source": "Rock Climbing Realms",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "The \"Ins and Outs\" of Sport and Trad Climbing Protection",
+              "url": "https://americanalpineclub.org/news/2023/6/22/protection-the-ins-and-outs-of-sport-and-trad-climbing-protection",
+              "source": "American Alpine Club",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-anchor-building",
@@ -196,15 +545,72 @@
             "en": "Anchor building is a critical skill for multi-pitch climbing, top-rope setups, and rappel stations. A solid anchor follows the SERENE-A principles: Solid individual placements, Equalized loading, Redundancy with at least two independent points, Efficient construction, No Extension if a piece fails, and proper Angle (below 60 degrees between components).\n\nCommon configurations include the sliding X, equalized anchor, and the quad anchor (a cordelette with two knots forming four strands). The quad is currently the most popular method, offering both equalization and minimal extension. After building any anchor, systematically verify every component before loading it."
           },
           "terms": [
-            { "zh": "锚点", "en": "anchor" },
-            { "zh": "均衡", "en": "equalization" },
-            { "zh": "冗余", "en": "redundancy" },
-            { "zh": "滑动X", "en": "sliding X" },
-            { "zh": "四股锚点", "en": "quad anchor" },
-            { "zh": "绳套", "en": "cordelette" }
+            {
+              "zh": "锚点",
+              "en": "anchor"
+            },
+            {
+              "zh": "均衡",
+              "en": "equalization"
+            },
+            {
+              "zh": "冗余",
+              "en": "redundancy"
+            },
+            {
+              "zh": "滑动X",
+              "en": "sliding X"
+            },
+            {
+              "zh": "四股锚点",
+              "en": "quad anchor"
+            },
+            {
+              "zh": "绳套",
+              "en": "cordelette"
+            }
           ],
-          "crossRefs": ["kp-knots", "kp-belaying", "kp-rappelling"],
-          "tags": ["intermediate", "outdoor", "safety"]
+          "crossRefs": [
+            "kp-knots",
+            "kp-belaying",
+            "kp-rappelling"
+          ],
+          "tags": [
+            "intermediate",
+            "outdoor",
+            "safety"
+          ],
+          "expertInsights": [
+            {
+              "zh": "SERENE 框架是户外锚点搭建的黄金标准：Solid（每个保护点独立牢固）、Equalized（均衡分载，理想夹角 <60°，超过 120° 时各保护点分力急剧增加至体重级别）、Redundant（冗余——任一点失效系统仍承载）、Efficient（快速搭建）、No Extension（无延伸——任一点失效时不产生冲击落差）。实际操作中最容易忽视的是 No Extension 原则。",
+              "en": "SERENE is the gold standard for anchor building: Solid (each piece independently bomber), Equalized (load sharing with ideal angle <60°; above 120° each piece bears near-bodyweight forces), Redundant (any single failure doesn't collapse the system), Efficient (fast to build), No Extension (no shock-loading drop if one piece fails). In practice, the No Extension principle is most commonly overlooked.",
+              "source": "Rock Climbing Realms",
+              "sourceUrl": "https://rockclimbingrealms.com/trad-anchors-build-bombproof-with-serene-ernest/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Trad Anchors: Build Bombproof with SERENE/ERNEST",
+              "url": "https://rockclimbingrealms.com/trad-anchors-build-bombproof-with-serene-ernest/",
+              "source": "Rock Climbing Realms",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Trad Climbing Gear: Cams – How to Use Climbing Cams",
+              "url": "https://www.vdiffclimbing.com/cam/",
+              "source": "VDiff Climbing",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Multi-pitch Climbing 101: The Complete Guide",
+              "url": "https://www.99boulders.com/multi-pitch-climbing",
+              "source": "99Boulders",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-crack-climbing-systems",
@@ -217,15 +623,65 @@
             "en": "Crack climbing is the cornerstone of trad climbing, requiring specialized jamming techniques for different crack widths. Finger cracks (1-2cm) use finger locks; hand cracks (5-8cm) use hand jams with the thumb tucked into the palm; fist cracks (8-12cm) use an expanded fist; offwidths require arm bars and knee bars; and chimneys use back-and-foot stemming.\n\nProtective tape for the backs of hands and crack gloves are essential gear. Stiffer, less asymmetric shoes work best for foot jams. Start learning on hand cracks, the most intuitive size, and gradually expand to wider and narrower cracks. Initial skin soreness is normal and improves with practice."
           },
           "terms": [
-            { "zh": "手塞", "en": "hand jam" },
-            { "zh": "指锁", "en": "finger lock" },
-            { "zh": "拳塞", "en": "fist jam" },
-            { "zh": "宽缝", "en": "offwidth" },
-            { "zh": "烟囱", "en": "chimney" },
-            { "zh": "胶布保护", "en": "taping" }
+            {
+              "zh": "手塞",
+              "en": "hand jam"
+            },
+            {
+              "zh": "指锁",
+              "en": "finger lock"
+            },
+            {
+              "zh": "拳塞",
+              "en": "fist jam"
+            },
+            {
+              "zh": "宽缝",
+              "en": "offwidth"
+            },
+            {
+              "zh": "烟囱",
+              "en": "chimney"
+            },
+            {
+              "zh": "胶布保护",
+              "en": "taping"
+            }
           ],
-          "crossRefs": ["kp-crack-technique", "kp-climbing-shoes", "kp-edging"],
-          "tags": ["intermediate", "outdoor", "technique"]
+          "crossRefs": [
+            "kp-crack-technique",
+            "kp-climbing-shoes",
+            "kp-edging"
+          ],
+          "tags": [
+            "intermediate",
+            "outdoor",
+            "technique"
+          ],
+          "expertInsights": [
+            {
+              "zh": "运动攀与传统攀的保护系统有根本性差异：运动攀全程依赖固定螺栓（需检查锈蚀、弯曲、松动——尤其海边岩区螺栓寿命短），传统攀使用可移除的凸轮和机械塞（放置者技能直接决定安全性）。通用原则：在困难段落前增加冗余保护点，不要「省着用」——宁可保护装备不够用被迫下撤，也不要在关键段落缺少保护。",
+              "en": "Sport and trad protection systems differ fundamentally: sport relies on fixed bolts (check for corrosion, bending, looseness -- especially in coastal areas where bolt lifespan is shorter), while trad uses removable cams and nuts where the placer's skill directly determines safety. Universal principle: add redundant protection before crux sections -- better to run out of gear and retreat than to be under-protected at critical moments.",
+              "source": "American Alpine Club",
+              "sourceUrl": "https://americanalpineclub.org/news/2023/6/22/protection-the-ins-and-outs-of-sport-and-trad-climbing-protection"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "The \"Ins and Outs\" of Sport and Trad Climbing Protection",
+              "url": "https://americanalpineclub.org/news/2023/6/22/protection-the-ins-and-outs-of-sport-and-trad-climbing-protection",
+              "source": "American Alpine Club",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Trad Climbing Gear: Cams – How to Use Climbing Cams",
+              "url": "https://www.vdiffclimbing.com/cam/",
+              "source": "VDiff Climbing",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-multi-pitch",
@@ -238,15 +694,65 @@
             "en": "Multi-pitch climbing involves routes longer than a single rope length, divided into pitches. A leader-follower team ascends one pitch at a time: the leader places gear or clips bolts, builds an anchor at the top, and belays the follower up. The follower cleans protection during their ascent. They then swap leads or continue with the same leader.\n\nEfficiency at belay stations is crucial on longer routes. Quick anchor building, organized gear handoffs, and concise communication save significant time across multiple transitions. Always study the route topo beforehand, assess weather windows and daylight, and have a clear retreat plan in case conditions deteriorate."
           },
           "terms": [
-            { "zh": "多段攀登", "en": "multi-pitch" },
-            { "zh": "绳距", "en": "pitch" },
-            { "zh": "跟攀", "en": "seconding / following" },
-            { "zh": "铅交替", "en": "swing leads" },
-            { "zh": "保护站", "en": "belay station" },
-            { "zh": "路线图", "en": "topo" }
+            {
+              "zh": "多段攀登",
+              "en": "multi-pitch"
+            },
+            {
+              "zh": "绳距",
+              "en": "pitch"
+            },
+            {
+              "zh": "跟攀",
+              "en": "seconding / following"
+            },
+            {
+              "zh": "铅交替",
+              "en": "swing leads"
+            },
+            {
+              "zh": "保护站",
+              "en": "belay station"
+            },
+            {
+              "zh": "路线图",
+              "en": "topo"
+            }
           ],
-          "crossRefs": ["kp-rappelling", "kp-knots", "kp-belaying"],
-          "tags": ["advanced", "outdoor", "safety"]
+          "crossRefs": [
+            "kp-rappelling",
+            "kp-knots",
+            "kp-belaying"
+          ],
+          "tags": [
+            "advanced",
+            "outdoor",
+            "safety"
+          ],
+          "expertInsights": [
+            {
+              "zh": "多绳距攀岩中沟通是最重要也最容易出问题的环节——风噪、距离和回声都会干扰口头信号。搭档必须在起步前约定完整信号系统（「收绳」「保护好了」「攀爬」等每个节点），并约定信号失灵时的默认行为（如：绳子收紧不动超过 30 秒即代表可以攀爬）。理解坠落系数（Fall Factor）概念也至关重要：先锋在锚点上方仅放出少量绳子时坠落，冲击力可能比高处坠落更大。",
+              "en": "Communication is the most critical and error-prone element in multi-pitch climbing -- wind, distance, and echoes all interfere with verbal signals. Partners must agree on a complete signal system before starting, and establish default behaviors when signals fail (e.g., rope tight and stationary for 30+ seconds means 'climb on'). Understanding Fall Factor is also crucial: a leader fall with little rope out above the anchor can generate greater impact forces than a longer fall higher up.",
+              "source": "99Boulders",
+              "sourceUrl": "https://www.99boulders.com/multi-pitch-climbing"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Multi-pitch Climbing 101: The Complete Guide",
+              "url": "https://www.99boulders.com/multi-pitch-climbing",
+              "source": "99Boulders",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Trad Anchors: Build Bombproof with SERENE/ERNEST",
+              "url": "https://rockclimbingrealms.com/trad-anchors-build-bombproof-with-serene-ernest/",
+              "source": "Rock Climbing Realms",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         }
       ]
     },
@@ -274,14 +780,60 @@
             "en": "Outdoor bouldering differs fundamentally from gym bouldering. Natural holds have no color markings, requiring climbers to discover and choose their own sequences. Rock friction is heavily weather-dependent; cooler, drier conditions provide the best friction, making autumn and winter prime bouldering seasons.\n\nOutdoor bouldering uses the V-scale (V0-V17) or Font scale (6A-9A). Grades feel more subjective outdoors, varying with body type and style. The social culture of outdoor bouldering, with groups sharing beta and encouragement, is a cherished aspect of the sport. Environmental stewardship, including leaving no trace, is essential."
           },
           "terms": [
-            { "zh": "V级", "en": "V-grade / Hueco Scale" },
-            { "zh": "枫丹白露级", "en": "Font Scale" },
-            { "zh": "线路解法", "en": "beta" },
-            { "zh": "摩擦条件", "en": "friction conditions" },
-            { "zh": "皮肤状态", "en": "skin condition" }
+            {
+              "zh": "V级",
+              "en": "V-grade / Hueco Scale"
+            },
+            {
+              "zh": "枫丹白露级",
+              "en": "Font Scale"
+            },
+            {
+              "zh": "线路解法",
+              "en": "beta"
+            },
+            {
+              "zh": "摩擦条件",
+              "en": "friction conditions"
+            },
+            {
+              "zh": "皮肤状态",
+              "en": "skin condition"
+            }
           ],
-          "crossRefs": ["kp-route-reading-basics", "kp-crimp-hold", "kp-slab-technique"],
-          "tags": ["beginner", "outdoor"]
+          "crossRefs": [
+            "kp-route-reading-basics",
+            "kp-crimp-hold",
+            "kp-slab-technique"
+          ],
+          "tags": [
+            "beginner",
+            "outdoor"
+          ],
+          "expertInsights": [
+            {
+              "zh": "户外抱石与健身房最大的安全差距不是难度，而是坠落环境：健身房的规整厚垫覆盖远超实际坠落区域，户外保护垫覆盖范围有限、地形不规则，岩块下方可能隐藏石头或树根。因此保护者（spotter）在户外比室内重要十倍——其职责不是接住你，而是引导你的坠落方向避开危险区域。户外路线的粉笔痕迹不一定可靠，因为不同身高体型的攀岩者 beta 可能完全不同。",
+              "en": "The biggest safety gap between outdoor and gym bouldering is not difficulty but the fall environment: gym pads are oversized and uniform, while outdoor pads have limited coverage over irregular terrain with hidden rocks or roots. Spotters are thus 10x more important outdoors -- their job is not to catch you but to guide your fall direction away from hazards. Outdoor chalk marks may be unreliable since beta varies significantly with body type and height.",
+              "source": "Gripped Magazine",
+              "sourceUrl": "https://gripped.com/profiles/a-beginners-guide-to-outdoor-bouldering/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "A Beginner's Guide to Outdoor Bouldering",
+              "url": "https://gripped.com/profiles/a-beginners-guide-to-outdoor-bouldering/",
+              "source": "Gripped Magazine",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Bouldering Outside? 5 Tips for a Safer Landing",
+              "url": "https://gripped.com/indoor-climbing/bouldering-outside-5-tips-for-a-safer-landing/",
+              "source": "Gripped Magazine",
+              "language": "en",
+              "articleType": "safety-case"
+            }
+          ]
         },
         {
           "id": "kp-landing-strategy",
@@ -294,14 +846,61 @@
             "en": "Without rope protection, landing strategy is the primary safety measure in outdoor bouldering. Before each attempt, study the boulder from multiple angles, feel holds with your hands, and plan your sequence. For highballs (tall boulders), thorough reading is especially critical.\n\nCrash pads should cover the entire likely fall zone with no gaps between pads. Pay attention to ground irregularities, rocks, and roots beneath the pads. A spotter's role is to guide the falling climber's upper body toward the pad, not to catch them. The spotter should stand behind and below the climber with hands up, directing shoulders toward the landing zone."
           },
           "terms": [
-            { "zh": "防坠垫", "en": "crash pad" },
-            { "zh": "保护者", "en": "spotter" },
-            { "zh": "高球", "en": "highball" },
-            { "zh": "读线", "en": "reading / route reading" },
-            { "zh": "坠落区域", "en": "fall zone" }
+            {
+              "zh": "防坠垫",
+              "en": "crash pad"
+            },
+            {
+              "zh": "保护者",
+              "en": "spotter"
+            },
+            {
+              "zh": "高球",
+              "en": "highball"
+            },
+            {
+              "zh": "读线",
+              "en": "reading / route reading"
+            },
+            {
+              "zh": "坠落区域",
+              "en": "fall zone"
+            }
           ],
-          "crossRefs": ["kp-fall-technique", "kp-route-reading-basics", "kp-dyno-technique"],
-          "tags": ["beginner", "outdoor", "safety"]
+          "crossRefs": [
+            "kp-fall-technique",
+            "kp-route-reading-basics",
+            "kp-dyno-technique"
+          ],
+          "tags": [
+            "beginner",
+            "outdoor",
+            "safety"
+          ],
+          "expertInsights": [
+            {
+              "zh": "坠落区域（fall zone）概念：攀爬者的实际坠落轨迹往往不是岩块正下方——仰角路线坠落区域偏外侧，斜面路线偏下坡方向。铺设保护垫前必须先判断最可能的坠落轨迹，而非简单铺在岩块正下方。多块垫子之间绝对不能有缝隙（脚踝最容易卡入垫间缝隙导致严重扭伤），地面的石头和树桩必须清除或用额外衣物覆盖。",
+              "en": "Fall zone concept: the actual fall trajectory is often not directly below the boulder -- overhanging routes push the fall zone outward, slabs push it downhill. Position pads based on the most likely fall trajectory, not simply under the boulder. Never leave gaps between pads (ankles can get trapped between pads causing severe sprains), and clear or cover rocks and stumps in the landing zone with extra clothing.",
+              "source": "Gripped Magazine",
+              "sourceUrl": "https://gripped.com/indoor-climbing/bouldering-outside-5-tips-for-a-safer-landing/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Bouldering Outside? 5 Tips for a Safer Landing",
+              "url": "https://gripped.com/indoor-climbing/bouldering-outside-5-tips-for-a-safer-landing/",
+              "source": "Gripped Magazine",
+              "language": "en",
+              "articleType": "safety-case"
+            },
+            {
+              "title": "A Beginner's Guide to Outdoor Bouldering",
+              "url": "https://gripped.com/profiles/a-beginners-guide-to-outdoor-bouldering/",
+              "source": "Gripped Magazine",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-area-exploration",
@@ -314,14 +913,59 @@
             "en": "Exploring new bouldering areas is one of outdoor climbing's greatest pleasures. Research areas using guidebooks, online databases like Mountain Project or thecrag.com, and local climbing communities. Key information includes approach trails, classic problems, grade distribution, optimal seasons, and any access restrictions.\n\nFollow area etiquette: take turns on popular problems, minimize chalk marks, carry out all trash, and stay on established trails. Embrace Leave No Trace principles by protecting vegetation, respecting wildlife, and never altering rock features. Support local climbing organizations that maintain access agreements with landowners."
           },
           "terms": [
-            { "zh": "攀岩指南", "en": "guidebook" },
-            { "zh": "接近路线", "en": "approach" },
-            { "zh": "无痕原则", "en": "Leave No Trace" },
-            { "zh": "准入权", "en": "access" },
-            { "zh": "镁粉", "en": "chalk" }
+            {
+              "zh": "攀岩指南",
+              "en": "guidebook"
+            },
+            {
+              "zh": "接近路线",
+              "en": "approach"
+            },
+            {
+              "zh": "无痕原则",
+              "en": "Leave No Trace"
+            },
+            {
+              "zh": "准入权",
+              "en": "access"
+            },
+            {
+              "zh": "镁粉",
+              "en": "chalk"
+            }
           ],
-          "crossRefs": ["kp-climbing-shoes", "kp-route-reading-basics"],
-          "tags": ["beginner", "outdoor"]
+          "crossRefs": [
+            "kp-climbing-shoes",
+            "kp-route-reading-basics"
+          ],
+          "tags": [
+            "beginner",
+            "outdoor"
+          ],
+          "expertInsights": [
+            {
+              "zh": "Mountain Project 拥有 155,000+ 条路线数据库并由社区持续更新，是出行规划的首选工具（离线使用需提前按区域下载）。但纸质指南书在信息密度和离线可靠性上仍有优势。最佳策略是三者结合：用 Mountain Project 做初步筛选和导航，用指南书理解岩区全貌和历史背景，再通过当地攀岩社群或岩馆获取最新条件信息（如哪些路线最近被清理过、哪些区域有临时封闭）。",
+              "en": "Mountain Project has 155,000+ routes with continuous community updates, making it the primary planning tool (download areas in advance for offline use). But printed guidebooks still excel in information density and offline reliability. The best strategy combines three sources: Mountain Project for initial filtering and navigation, guidebooks for understanding the area's full picture and historical context, and local climbing communities or gyms for current conditions (recently cleaned routes, temporary closures, etc.).",
+              "source": "Gym to Crag",
+              "sourceUrl": "https://gymtocrag.org/2023/12/19/climbing-guidebooks-versus-mountain-project/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Climbing Guidebooks Versus Mountain Project",
+              "url": "https://gymtocrag.org/2023/12/19/climbing-guidebooks-versus-mountain-project/",
+              "source": "Gym to Crag",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "A Beginner's Guide to Outdoor Bouldering",
+              "url": "https://gripped.com/profiles/a-beginners-guide-to-outdoor-bouldering/",
+              "source": "Gripped Magazine",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         }
       ]
     },
@@ -349,14 +993,68 @@
             "en": "Big wall planning requires meticulous preparation. Research the route thoroughly: understand its technical difficulty, length, water sources, natural ledges, and retreat options. Study trip reports to learn typical completion times and common challenges.\n\nProvisions include high-calorie lightweight food (3000-5000 calories per person per day), water (3-4 liters per person per day minimum), a portaledge and sleeping bag, extra warm layers, headlamps, first-aid supplies, communication devices, and a waste kit. All supplies travel in haul bags managed with hauling systems. Team coordination is essential: establish clear roles, communicate abilities honestly, and maintain flexibility to adjust plans as conditions change."
           },
           "terms": [
-            { "zh": "拖包", "en": "haul bag" },
-            { "zh": "吊帐", "en": "portaledge" },
-            { "zh": "拖拽系统", "en": "hauling system" },
-            { "zh": "排泄物处理", "en": "waste kit" },
-            { "zh": "天然平台", "en": "ledge" }
+            {
+              "zh": "拖包",
+              "en": "haul bag"
+            },
+            {
+              "zh": "吊帐",
+              "en": "portaledge"
+            },
+            {
+              "zh": "拖拽系统",
+              "en": "hauling system"
+            },
+            {
+              "zh": "排泄物处理",
+              "en": "waste kit"
+            },
+            {
+              "zh": "天然平台",
+              "en": "ledge"
+            }
           ],
-          "crossRefs": ["kp-rope", "kp-knots", "kp-rappelling"],
-          "tags": ["advanced", "outdoor", "safety"]
+          "crossRefs": [
+            "kp-rope",
+            "kp-knots",
+            "kp-rappelling"
+          ],
+          "tags": [
+            "advanced",
+            "outdoor",
+            "safety"
+          ],
+          "expertInsights": [
+            {
+              "zh": "大岩壁的定义不是高度而是时间：单日无法完成、需要在岩壁上过夜。相比多绳距，大岩壁的核心挑战从攀爬技术转向三大后勤系统——拖包系统（hauling）、固定绳系统（fixing lines）和营地系统（portaledge）。首次大岩壁建议选择信息充分的经典入门路线（如 Yosemite 的 The Nose 或 Zodiac），因为这些路线的每一段绳距都有详细的后勤攻略和营地位置记录。",
+              "en": "Big wall climbing is defined by time, not height: too long to complete in a day, requiring overnight stays on the wall. Compared to multi-pitch, the core challenge shifts from climbing technique to three logistical systems -- hauling, fixing lines, and portaledge camping. For your first big wall, choose well-documented classic entry routes (like Yosemite's The Nose or Zodiac) because every pitch has detailed logistics guides and documented bivy positions.",
+              "source": "VDiff Climbing",
+              "sourceUrl": "https://www.vdiffclimbing.com/bigwall-intro/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "An Introduction To Big Wall Climbing",
+              "url": "https://www.vdiffclimbing.com/bigwall-intro/",
+              "source": "VDiff Climbing",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Aid climbing: rig for seconding",
+              "url": "https://www.alpinesavvy.com/blog/aid-climbing-rig-for-seconding",
+              "source": "Alpinesavvy",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Portaledge Life and Poop Tubes - Big Wall Climbing",
+              "url": "https://www.vdiffclimbing.com/big-wall-camping/",
+              "source": "VDiff Climbing",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-aid-climbing",
@@ -369,15 +1067,65 @@
             "en": "Aid climbing involves standing directly on placed gear to ascend, using aiders (etriers) as foot ladders. The climber places protection, hangs an aider, stands up, and repeats the process. This technique is essential when free climbing difficulty exceeds ability or the rock lacks natural features.\n\nSpecialized aid gear includes copperheads for blank faces, skyhooks for edges, and pitons hammered into cracks. Aid ratings from A0 to A5 indicate placement reliability, with higher ratings meaning greater fall consequences. Modern climbing ethics favor clean aid (using only removable gear) over pitons that damage rock. Many historically aided routes have since been freed, marking advances in climbing ability."
           },
           "terms": [
-            { "zh": "器械攀登", "en": "aid climbing" },
-            { "zh": "梯绳", "en": "aider / etrier" },
-            { "zh": "铜头", "en": "copperhead" },
-            { "zh": "岩钉", "en": "piton" },
-            { "zh": "干净攀登", "en": "clean climbing" },
-            { "zh": "钩子", "en": "skyhook" }
+            {
+              "zh": "器械攀登",
+              "en": "aid climbing"
+            },
+            {
+              "zh": "梯绳",
+              "en": "aider / etrier"
+            },
+            {
+              "zh": "铜头",
+              "en": "copperhead"
+            },
+            {
+              "zh": "岩钉",
+              "en": "piton"
+            },
+            {
+              "zh": "干净攀登",
+              "en": "clean climbing"
+            },
+            {
+              "zh": "钩子",
+              "en": "skyhook"
+            }
           ],
-          "crossRefs": ["kp-crack-technique", "kp-placing-protection", "kp-rope"],
-          "tags": ["advanced", "outdoor", "technique"]
+          "crossRefs": [
+            "kp-crack-technique",
+            "kp-placing-protection",
+            "kp-rope"
+          ],
+          "tags": [
+            "advanced",
+            "outdoor",
+            "technique"
+          ],
+          "expertInsights": [
+            {
+              "zh": "器械攀登效率的关键改装：在上升器（ascender）握柄上端小孔加装不锈钢快扣，为绳梯（aider）提供独立挂点，使上升和站立动作可以独立调节互不干扰。另一个实用技巧：选择 50 米绳而非标准 60 米可减轻拖曳重量。器械攀登的两侧装备应尽量对称设置（左右各一套上升器+绳梯），这样在交替上升时效率最高。",
+              "en": "Key aid climbing efficiency hack: install a stainless steel mini-carabiner in the upper hole of the ascender handle, providing an independent aider attachment point so ascending and standing motions can be adjusted independently. Another practical tip: using 50m ropes instead of standard 60m reduces hauling weight. Keep the two-side setup symmetrical (one ascender + aider per side) for maximum alternating efficiency.",
+              "source": "Alpinesavvy",
+              "sourceUrl": "https://www.alpinesavvy.com/blog/aid-climbing-rig-for-seconding"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Aid climbing: rig for seconding",
+              "url": "https://www.alpinesavvy.com/blog/aid-climbing-rig-for-seconding",
+              "source": "Alpinesavvy",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "An Introduction To Big Wall Climbing",
+              "url": "https://www.vdiffclimbing.com/bigwall-intro/",
+              "source": "VDiff Climbing",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-wall-living",
@@ -390,14 +1138,67 @@
             "en": "Living on a big wall demands adapting daily activities to a vertical environment. A portaledge provides a suspended platform for sleeping; it must be anchored securely and kept level. All occupants stay tied in at all times, and a rain fly is essential for weather protection.\n\nMeals emphasize calorie efficiency: hot meals at dawn and dusk with a portable stove, and energy bars, nuts, and dried fruit during climbing hours. Water management is paramount; calculate precise daily needs and ration carefully. All human waste must be collected in waste tubes and carried off the wall, a fundamental ethical obligation. Wet wipes serve as the primary hygiene tool, and hand and foot skin care is critical during multi-day ascents."
           },
           "terms": [
-            { "zh": "吊帐", "en": "portaledge" },
-            { "zh": "岩壁生活", "en": "wall living / bivy" },
-            { "zh": "排泄物收集管", "en": "waste tube" },
-            { "zh": "便携炉具", "en": "portable stove" },
-            { "zh": "雨罩", "en": "rain fly" }
+            {
+              "zh": "吊帐",
+              "en": "portaledge"
+            },
+            {
+              "zh": "岩壁生活",
+              "en": "wall living / bivy"
+            },
+            {
+              "zh": "排泄物收集管",
+              "en": "waste tube"
+            },
+            {
+              "zh": "便携炉具",
+              "en": "portable stove"
+            },
+            {
+              "zh": "雨罩",
+              "en": "rain fly"
+            }
           ],
-          "crossRefs": ["kp-knots", "kp-rappelling", "kp-rest-management"],
-          "tags": ["advanced", "outdoor"]
+          "crossRefs": [
+            "kp-knots",
+            "kp-rappelling",
+            "kp-rest-management"
+          ],
+          "tags": [
+            "advanced",
+            "outdoor"
+          ],
+          "expertInsights": [
+            {
+              "zh": "岩壁生活三大实用技巧：①雨棚（fly）应在设营时即以折叠状态连接在吊帐上，夜间突降暴雨时 30 秒内可展开；②吊帐（portaledge）最稳固搭设方向是窄端朝主风向，减少受风面积；③所有排泄物必须使用 poop tube 收集带下岩壁（Leave No Trace 原则）。此外，将次日早餐食材在睡前就准备好放在触手可及处，避免在狭小空间翻找装备浪费时间和精力。",
+              "en": "Three essential wall living tips: (1) Pre-connect the fly to the portaledge in folded position during setup for 30-second deployment during surprise storms; (2) Orient the portaledge with the narrow end facing prevailing wind to minimize wind resistance; (3) All human waste must be collected in a poop tube and carried down (Leave No Trace). Also, pre-stage next morning's breakfast within arm's reach before sleeping to avoid fumbling through gear in cramped quarters.",
+              "source": "VDiff Climbing",
+              "sourceUrl": "https://www.vdiffclimbing.com/big-wall-camping/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Portaledge Life and Poop Tubes - Big Wall Climbing",
+              "url": "https://www.vdiffclimbing.com/big-wall-camping/",
+              "source": "VDiff Climbing",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "An Introduction To Big Wall Climbing",
+              "url": "https://www.vdiffclimbing.com/bigwall-intro/",
+              "source": "VDiff Climbing",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Aid climbing: rig for seconding",
+              "url": "https://www.alpinesavvy.com/blog/aid-climbing-rig-for-seconding",
+              "source": "Alpinesavvy",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         }
       ]
     },
@@ -425,14 +1226,60 @@
             "en": "The world offers countless world-class climbing destinations. In North America, Yosemite is the birthplace of big wall climbing on granite; Red River Gorge offers premier sandstone sport climbing; and Squamish provides elite granite bouldering and multi-pitch routes.\n\nIn Europe, Fontainebleau is the global bouldering mecca with thousands of sandstone problems; Kalymnos and Catalonia feature Mediterranean limestone sport climbing; and the Dolomites offer spectacular alpine multi-pitch. In Asia, Yangshuo (China) draws international climbers to its karst limestone, while Krabi (Thailand) combines tropical beaches with sport climbing. Rocklands in South Africa is renowned for sandstone bouldering."
           },
           "terms": [
-            { "zh": "优胜美地", "en": "Yosemite" },
-            { "zh": "枫丹白露", "en": "Fontainebleau" },
-            { "zh": "阳朔", "en": "Yangshuo" },
-            { "zh": "喀斯特地貌", "en": "karst" },
-            { "zh": "攀岩圣地", "en": "climbing mecca" }
+            {
+              "zh": "优胜美地",
+              "en": "Yosemite"
+            },
+            {
+              "zh": "枫丹白露",
+              "en": "Fontainebleau"
+            },
+            {
+              "zh": "阳朔",
+              "en": "Yangshuo"
+            },
+            {
+              "zh": "喀斯特地貌",
+              "en": "karst"
+            },
+            {
+              "zh": "攀岩圣地",
+              "en": "climbing mecca"
+            }
           ],
-          "crossRefs": ["kp-rock-types", "kp-climbing-shoes", "kp-crack-technique"],
-          "tags": ["beginner", "outdoor"]
+          "crossRefs": [
+            "kp-rock-types",
+            "kp-climbing-shoes",
+            "kp-crack-technique"
+          ],
+          "tags": [
+            "beginner",
+            "outdoor"
+          ],
+          "expertInsights": [
+            {
+              "zh": "全球五大经典攀岩圣地各有特色：Yosemite（花岗岩裂缝与大岩壁的殿堂）、Kalymnos 希腊（石灰岩运动攀，绝壁海景，路线密集且社区友好）、Fontainebleau 法国（砂岩抱石，世界最大的露天抱石场，超过 25,000 条问题）、Squamish 加拿大（花岗岩多类型攀登）、Red Rock 美国内华达（砂岩沙漠攀岩，冬季最佳）。初次攀岩旅行首选 Kalymnos 或 Red Rock——路线密集、气候稳定、基础设施完善。",
+              "en": "Five iconic climbing destinations with distinct characters: Yosemite (granite crack and big wall mecca), Kalymnos Greece (limestone sport with sea-cliff views, dense routes, friendly community), Fontainebleau France (sandstone bouldering, world's largest outdoor bouldering area with 25,000+ problems), Squamish Canada (granite multi-discipline), Red Rock Nevada (sandstone desert climbing, best in winter). For first climbing trips, Kalymnos or Red Rock are ideal -- dense routes, stable weather, well-developed infrastructure.",
+              "source": "57hours",
+              "sourceUrl": "https://57hours.com/best-of/rock-climbing-worldwide/"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "Your 2024 Guide to Finding the Best Rock Climbing in the World",
+              "url": "https://57hours.com/best-of/rock-climbing-worldwide/",
+              "source": "57hours",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "The Ultimate Rock Climbing Calendar – Where To Go And When",
+              "url": "https://stories.27crags.com/index/climbing-season-calendar-when-to-go",
+              "source": "27 Crags Stories",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         },
         {
           "id": "kp-trip-planning",
@@ -445,14 +1292,67 @@
             "en": "Successful climbing trips require thorough advance planning. For air travel, ropes and harnesses go in checked luggage; metallic gear like quickdraws and carabiners must be checked, not carried on. Check airline policies for chalk and sharp tools. Consider renting gear at the destination to reduce luggage weight.\n\nResearch local climbing communities, purchase or download guidebooks, join destination-specific online groups, and arrange transportation (many areas require a rental car). Verify medical facilities and emergency services. For international trips, address visas, travel insurance covering climbing activities, and language considerations. Train specifically for the destination's climbing style 2-3 months before departure, and taper the week before travel."
           },
           "terms": [
-            { "zh": "行李托运", "en": "checked luggage" },
-            { "zh": "攀岩指南书", "en": "guidebook" },
-            { "zh": "旅行保险", "en": "travel insurance" },
-            { "zh": "高海拔适应", "en": "altitude acclimatization" },
-            { "zh": "装备租借", "en": "gear rental" }
+            {
+              "zh": "行李托运",
+              "en": "checked luggage"
+            },
+            {
+              "zh": "攀岩指南书",
+              "en": "guidebook"
+            },
+            {
+              "zh": "旅行保险",
+              "en": "travel insurance"
+            },
+            {
+              "zh": "高海拔适应",
+              "en": "altitude acclimatization"
+            },
+            {
+              "zh": "装备租借",
+              "en": "gear rental"
+            }
           ],
-          "crossRefs": ["kp-periodization", "kp-warmup", "kp-aerobic-endurance"],
-          "tags": ["beginner", "outdoor"]
+          "crossRefs": [
+            "kp-periodization",
+            "kp-warmup",
+            "kp-aerobic-endurance"
+          ],
+          "tags": [
+            "beginner",
+            "outdoor"
+          ],
+          "expertInsights": [
+            {
+              "zh": "攀岩旅行季节规划的核心物理原则：岩石摩擦力随温度升高而降低，最佳攀岩温度通常在 5-15°C。实用季节日历：冬季（1-2月）→ 西班牙 Siurana/Margalef、希腊南部、泰国甲米；春秋（4-5月/9-10月）→ 欧洲大部分岩区最佳季、美国 Red Rock；夏季 → 仅适合高海拔（Chamonix、科罗拉多）或高纬度（北欧、英国）地区。规划时同步考虑航班淡旺季和当地节假日。",
+              "en": "Core physics principle for climbing trip planning: rock friction decreases with rising temperature; optimal climbing conditions are typically 5-15°C. Practical seasonal calendar: Winter (Jan-Feb) → Spain Siurana/Margalef, southern Greece, Thailand Krabi; Spring/Autumn (Apr-May/Sep-Oct) → most European crags at their best, US Red Rock; Summer → only viable at high altitude (Chamonix, Colorado) or high latitude (Scandinavia, UK). Also factor in flight pricing seasons and local holidays.",
+              "source": "27 Crags Stories",
+              "sourceUrl": "https://stories.27crags.com/index/climbing-season-calendar-when-to-go"
+            }
+          ],
+          "furtherReading": [
+            {
+              "title": "The Ultimate Rock Climbing Calendar – Where To Go And When",
+              "url": "https://stories.27crags.com/index/climbing-season-calendar-when-to-go",
+              "source": "27 Crags Stories",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Top 8 Tips for Your First Outdoor Climbing Trip",
+              "url": "https://philarockgym.com/top-8-tips-for-your-first-outdoor-climbing-trip/",
+              "source": "Philly Rock Gym",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "Climbing Guidebooks Versus Mountain Project",
+              "url": "https://gymtocrag.org/2023/12/19/climbing-guidebooks-versus-mountain-project/",
+              "source": "Gym to Crag",
+              "language": "en",
+              "articleType": "tutorial"
+            }
+          ]
         }
       ]
     }
