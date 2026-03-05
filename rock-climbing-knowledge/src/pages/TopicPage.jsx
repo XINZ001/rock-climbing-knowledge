@@ -1,5 +1,5 @@
 import { useParams, Link } from 'react-router-dom'
-import { useEffect, useState } from 'react'
+import { useEffect, useState, useMemo } from 'react'
 import { useApp } from '../context/AppContext'
 import Breadcrumb from '../components/content/Breadcrumb'
 import KnowledgePoint from '../components/content/KnowledgePoint'
@@ -43,10 +43,20 @@ export default function TopicPage() {
   const subData = sectionData?.subSections?.find(s => s.slug === subSlug)
   const knowledgePoints = subData?.knowledgePoints || []
 
-  function getVideosForKp(kpId) {
-    const allVideos = videosData[kpId] || []
-    return filterAndRankVideos(allVideos, isMainlandChina, lang)
-  }
+  // Deduplicate videos across KPs on the same page: a video shown for an earlier KP
+  // won't appear again for a later one on the same page.
+  const videosPerKp = useMemo(() => {
+    if (regionLoading || knowledgePoints.length === 0) return {}
+    const seenUrls = new Set()
+    const result = {}
+    for (const kp of knowledgePoints) {
+      const ranked = filterAndRankVideos(videosData[kp.id] || [], isMainlandChina, lang)
+      const deduped = ranked.filter(v => !seenUrls.has(v.url))
+      deduped.forEach(v => seenUrls.add(v.url))
+      result[kp.id] = deduped
+    }
+    return result
+  }, [knowledgePoints, isMainlandChina, lang, regionLoading])
 
   // Scroll to hash on load
   useEffect(() => {
@@ -115,7 +125,7 @@ export default function TopicPage() {
               <div key={kp.id} className="pb-6 border-b border-stone-border last:border-b-0">
                 <KnowledgePoint
                   point={kp}
-                  videos={regionLoading ? [] : getVideosForKp(kp.id)}
+                  videos={videosPerKp[kp.id] || []}
                   illustrations={illustrationRegistry[kp.id]}
                 />
               </div>
