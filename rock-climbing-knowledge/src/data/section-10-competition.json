@@ -231,6 +231,27 @@
               "source": "Climbing Business Journal",
               "language": "en",
               "articleType": "training"
+            },
+            {
+              "title": "New Rule Changes Take Effect for IFSC World Cup Series 2025",
+              "url": "https://www.worldclimbing.com/news/new-rule-changes-take-effect-for-ifsc-world-cup-series-2025",
+              "source": "World Climbing (IFSC)",
+              "language": "en",
+              "articleType": "research"
+            },
+            {
+              "title": "Sport Climbing: How Does the New Boulder Scoring Work?",
+              "url": "https://www.olympics.com/en/news/sport-climbing-how-does-the-new-boulder-scoring-work",
+              "source": "Olympics.com",
+              "language": "en",
+              "articleType": "tutorial"
+            },
+            {
+              "title": "A Deep Dive into the 2025 IFSC Boulder Format",
+              "url": "https://www.inside-climbing.com/2025/03/12/deep-dive-looking-new-2025-ifsc-boulder-format/",
+              "source": "Inside Climbing",
+              "language": "en",
+              "articleType": "tutorial"
             }
           ]
         },
@@ -322,8 +343,8 @@
             "en": "Scoring Systems"
           },
           "content": {
-            "zh": "攀岩竞赛的计分系统因项目不同而异，每种计分方式都经过精心设计，以公平反映选手的表现。\n\n**先锋赛计分：** 先锋赛以选手控制的最高手点位置为成绩。路线上的每个手点按从低到高编号（如1, 2, 3...40）。选手的成绩精确到手点编号，如果触碰了下一个手点但未控制，则在当前编号后加「+」。例如「35+」优于「35」但不如「36」。如果两名选手成绩相同，先完成的选手（用时更短者）排名靠前。在资格赛中若设有两条路线，则综合两条路线的排名来计算总排名。\n\n**抱石赛计分：** 2024年起IFSC启用了新的抱石计分系统。每个问题的top得25分，zone得5分。如果首次尝试就达到zone或top，有额外的奖励分。最终得分为所有问题得分之和。如果总分相同，则比较首次尝试成功的次数。这个新系统简化了之前较为复杂的乘积排名方式，让观众更容易理解比赛局势。\n\n**速度赛计分：** 速度赛的计分最为直观——以完成路线的时间为准，精确到千分之一秒。资格赛取两次攀爬的最佳成绩排名。淘汰赛阶段以胜负决定晋级。如果选手在攀爬中抢跑（在起步信号前开始移动），则判为犯规。坠落同样判负。如果双方同时犯规，则以资格赛排名较高者晋级。",
-            "en": "Scoring systems vary by discipline. In lead, scores correspond to the highest controlled hold number, with \"+\" for touching but not controlling the next hold (e.g., 35+ > 35 but < 36). Ties are broken by faster time.\n\nSince 2024, IFSC bouldering uses a points-based system: 25 points per top, 5 per zone, with bonuses for first-attempt successes. Total points determine ranking, with flash counts as tiebreakers. This replaced the older multiplication system for better spectator comprehension.\n\nSpeed scoring is the most straightforward: fastest time to the buzzer (to 0.001 seconds) wins. False starts and falls result in a loss. If both climbers fault, the higher-seeded qualifier advances."
+            "zh": "攀岩竞赛的计分系统因项目不同而异，每种计分方式都经过精心设计，以公平反映选手的表现。\n\n**先锋赛计分：** 先锋赛以选手控制的最高手点位置为成绩。路线上的每个手点按从低到高编号（如1, 2, 3...40）。选手的成绩精确到手点编号，如果触碰了下一个手点但未控制，则在当前编号后加「+」。例如「35+」优于「35」但不如「36」。如果两名选手成绩相同，先完成的选手（用时更短者）排名靠前。在资格赛中若设有两条路线，则综合两条路线的排名来计算总排名。\n\n**抱石赛计分：** 2025年起IFSC世界杯正式启用新的积分制计分系统（巴黎2024奥运会是其原型）。每个问题的top得25分，zone得10分。首次尝试完成（即flash）可拿到满分；每次失败尝试扣除0.1分（例如第二次才完成top则得24.9分）。最终得分为所有问题积分之和，分数高者排名靠前。这一新体系取代了之前的「Top数>Zone数>尝试次数」计次排名方式，使比赛实时局势对选手和观众都更为直观。\n\n**速度赛计分：** 速度赛的计分最为直观——以完成路线的时间为准，精确到千分之一秒。资格赛取两次攀爬的最佳成绩排名。淘汰赛阶段以胜负决定晋级。如果选手在攀爬中抢跑（在起步信号前开始移动），则判为犯规。坠落同样判负。如果双方同时犯规，则以资格赛排名较高者晋级。",
+            "en": "Scoring systems vary by discipline. In lead, scores correspond to the highest controlled hold number, with \"+\" for touching but not controlling the next hold (e.g., 35+ > 35 but < 36). Ties are broken by faster time.\n\nStarting with the 2025 IFSC World Cup series (modeled on the Paris 2024 Olympic format), bouldering uses a points-based system: 25 points per top, 10 per zone, with 0.1 points deducted per failed attempt (a flash earns full points; a second-attempt top earns 24.9). Total points determine ranking. This replaced the older count-based system (tops > zones > attempts) for better spectator comprehension.\n\nSpeed scoring is the most straightforward: fastest time to the buzzer (to 0.001 seconds) wins. False starts and falls result in a loss. If both climbers fault, the higher-seeded qualifier advances."
           },
           "terms": [
             {

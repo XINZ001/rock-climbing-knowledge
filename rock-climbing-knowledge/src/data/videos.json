@@ -4698,22 +4698,6 @@
   "kp-boulder-competition": [
     {
       "title": {
-        "zh": "抱石攀岩规则｜新手必看！抱石比赛从资格赛到决赛的完整规则介绍",
-        "en": "抱石攀岩规则｜新手必看！抱石比赛从资格赛到决赛的完整规则介绍"
-      },
-      "url": "https://www.bilibili.com/video/BV1qxnPzCE8c/",
-      "channel": "露西逃",
-      "platform": "bilibili",
-      "lang": "zh",
-      "quality": 5,
-      "summary": {
-        "zh": "专项讲解 IFSC 抱石赛规则：资格赛、半决赛、决赛的晋级人数与题目数量，区域点（Zone）与顶点（Top）的计分规则，Flash 奖励机制，以及排名并列时的处理规则，图文结合，覆盖 kp-boulder-competition 全部核心规则。",
-        "en": ""
-      },
-      "relevance": "primary"
-    },
-    {
-      "title": {
         "zh": "BOULDERING 101 The 1st Session [Bouldering Battle] - 抱石對抗表演賽",
         "en": "BOULDERING 101 The 1st Session [Bouldering Battle] - 抱石對抗表演賽"
       },
@@ -5611,24 +5595,7 @@
       "relevance": "secondary"
     }
   ],
-  "kp-scoring-systems": [
-    {
-      "title": {
-        "zh": "抱石攀岩规则｜新手必看！抱石比赛从资格赛到决赛的完整规则介绍",
-        "en": "抱石攀岩规则｜新手必看！抱石比赛从资格赛到决赛的完整规则介绍"
-      },
-      "url": "https://www.bilibili.com/video/BV1qxnPzCE8c/",
-      "channel": "露西逃",
-      "platform": "bilibili",
-      "lang": "zh",
-      "quality": 5,
-      "summary": {
-        "zh": "专项讲解 IFSC 抱石赛规则：资格赛、半决赛、决赛的晋级人数与题目数量，区域点（Zone）与顶点（Top）的计分规则，Flash 奖励机制，以及排名并列时的处理规则，图文结合，覆盖 kp-boulder-competition 全部核心规则。",
-        "en": ""
-      },
-      "relevance": "secondary"
-    }
-  ],
+  "kp-scoring-systems": [],
   "kp-competition-anxiety": [
     {
       "title": {
