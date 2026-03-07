@@ -7,6 +7,8 @@ import TopicPage from './pages/TopicPage'
 import SearchPage from './pages/SearchPage'
 import NotFoundPage from './pages/NotFoundPage'
 import FeedbackPage from './pages/FeedbackPage'
+import HallOfFamePage from './pages/HallOfFamePage'
+import AthletePage from './pages/AthletePage'
 
 function ScrollToTopOnNav() {
   const { pathname } = useLocation()
@@ -23,6 +25,8 @@ export default function App() {
       <Routes>
         <Route element={<Layout />}>
           <Route index element={<HomePage />} />
+          <Route path="hall-of-fame" element={<HallOfFamePage />} />
+          <Route path="hall-of-fame/:athleteSlug" element={<AthletePage />} />
           <Route path="section/:sectionSlug" element={<SectionPage />} />
           <Route path="section/:sectionSlug/:subSlug" element={<TopicPage />} />
           <Route path="search" element={<SearchPage />} />

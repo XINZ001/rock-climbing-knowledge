@@ -25,6 +25,30 @@ export default function HomePage() {
         </p>
       </div>
 
+      <Link
+        to="/hall-of-fame"
+        className="group relative mb-10 block overflow-hidden rounded-[1.75rem] border border-stone-border bg-stone-card shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-lg"
+      >
+        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(199,161,42,0.22),_transparent_38%),radial-gradient(circle_at_bottom_right,_rgba(74,124,89,0.18),_transparent_40%)]" />
+        <div className="relative flex flex-col gap-4 px-6 py-6 sm:flex-row sm:items-center sm:justify-between sm:px-8">
+          <div className="max-w-2xl">
+            <h2 className="mt-4 text-2xl font-bold">
+              {lang === 'zh' ? '攀岩名人堂' : 'Climbing Hall of Fame'}
+            </h2>
+            <p className="mt-2 text-sm sm:text-base text-text-secondary leading-relaxed">
+              {lang === 'zh'
+                ? '收录 John Gill、Lynn Hill、Janja Garnbret、潘愚非等代表人物，集中查看他们的生平、风格、访谈与相关影像。'
+                : 'Featuring figures such as John Gill, Lynn Hill, Janja Garnbret, and Pan Yufei, with biography, style, interviews, and related media.'}
+            </p>
+          </div>
+
+          <div className="flex items-center gap-3 text-sm font-medium text-forest">
+            <span>{lang === 'zh' ? '进入名人堂' : 'Open Hall of Fame'}</span>
+            <span className="transition-transform group-hover:translate-x-0.5">→</span>
+          </div>
+        </div>
+      </Link>
+
       {/* Section grid */}
       <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
         {sections.map((section) => (

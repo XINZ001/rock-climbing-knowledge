@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react'
-import { Link, useParams } from 'react-router-dom'
+import { Link, useLocation, useParams } from 'react-router-dom'
 import { useApp } from '../../context/AppContext'
 import { Icon } from '../../utils/icons'
 
@@ -34,15 +34,13 @@ function AccordionPanel({ isOpen, children }) {
 export default function Sidebar({ onNavigate }) {
   const { sections, t, lang } = useApp()
   const { sectionSlug, subSlug } = useParams()
-  const [expanded, setExpanded] = useState(sectionSlug || null)
-
-  // Auto-expand when navigating to a new section
-  useEffect(() => {
-    if (sectionSlug) setExpanded(sectionSlug)
-  }, [sectionSlug])
+  const location = useLocation()
+  const [manualExpanded, setManualExpanded] = useState(null)
+  const hallOfFameActive = location.pathname.startsWith('/hall-of-fame')
+  const expanded = sectionSlug || manualExpanded
 
   const toggleSection = (slug) => {
-    setExpanded(expanded === slug ? null : slug)
+    setManualExpanded(expanded === slug ? null : slug)
   }
 
   return (
@@ -54,6 +52,17 @@ export default function Sidebar({ onNavigate }) {
       >
         <Icon name="home" size={16} />
         <span>{lang === 'zh' ? '首页' : 'Home'}</span>
+      </Link>
+
+      <Link
+        to="/hall-of-fame"
+        onClick={onNavigate}
+        className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
+          hallOfFameActive ? 'bg-forest-light text-forest' : 'hover:bg-stone-bg'
+        }`}
+      >
+        <Icon name="trophy" size={16} />
+        <span>{lang === 'zh' ? '攀岩名人堂' : 'Hall of Fame'}</span>
       </Link>
 
       <div className="mt-2 space-y-0.5">

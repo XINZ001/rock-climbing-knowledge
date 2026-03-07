@@ -1,10 +1,1157 @@
 {
   "_meta": {
-    "description": "攀岩名人档案注册表 — 支柱三",
-    "version": "0.1.0",
-    "createdAt": "2026-03-06",
+    "description": "攀岩名人堂注册表 / Climbing Hall of Fame Registry",
+    "version": "1.0.0",
+    "createdAt": "2026-03-07",
     "schema": "team-lead/athlete-framework.md",
-    "totalCount": 0
+    "totalAthletes": 4,
+    "totalCards": 12
   },
-  "athletes": []
+  "athletes": [
+    {
+      "athleteId": "ath-001",
+      "slug": "john-gill",
+      "athleteName": {
+        "zh": "约翰·吉尔",
+        "en": "John Gill"
+      },
+      "category": "historical",
+      "nationality": {
+        "zh": "美国",
+        "en": "United States"
+      },
+      "activeEra": {
+        "zh": "1950 年代起持续影响至今",
+        "en": "Influential from the 1950s onward"
+      },
+      "tagline": {
+        "zh": "把体操式动态与审美意识带进抱石的人",
+        "en": "The climber who brought gymnastic movement and aesthetics into bouldering"
+      },
+      "overview": {
+        "zh": "美国登山协会将他称为“现代抱石之父”。Gill 把动态发力、镁粉和“动作之美”一起带进岩石，改变了人们理解抱石的方式。",
+        "en": "The American Alpine Club describes him as the father of modern bouldering. Gill brought dynamic movement, chalk, and an aesthetic view of motion onto rock and changed how climbers understood bouldering."
+      },
+      "accentColor": "#6F5B7B",
+      "specialties": [
+        {
+          "zh": "现代抱石观念",
+          "en": "Modern bouldering identity"
+        },
+        {
+          "zh": "动态动作",
+          "en": "Dynamic movement"
+        },
+        {
+          "zh": "动作审美",
+          "en": "Aesthetic movement"
+        }
+      ],
+      "heroStats": [
+        {
+          "label": {
+            "zh": "代表身份",
+            "en": "Known for"
+          },
+          "value": {
+            "zh": "现代抱石之父",
+            "en": "Father of modern bouldering"
+          }
+        },
+        {
+          "label": {
+            "zh": "里程碑",
+            "en": "Milestone"
+          },
+          "value": {
+            "zh": "1957 年 V8，1959 年 V9",
+            "en": "V8 in 1957, V9 in 1959"
+          }
+        },
+        {
+          "label": {
+            "zh": "文化文本",
+            "en": "Cultural text"
+          },
+          "value": {
+            "zh": "1969《The Art of Bouldering》",
+            "en": "1969 essay The Art of Bouldering"
+          }
+        }
+      ],
+      "cardIds": [
+        "ath-001-biography",
+        "ath-001-technique",
+        "ath-001-interview"
+      ]
+    },
+    {
+      "athleteId": "ath-002",
+      "slug": "lynn-hill",
+      "athleteName": {
+        "zh": "琳恩·希尔",
+        "en": "Lynn Hill"
+      },
+      "category": "historical",
+      "nationality": {
+        "zh": "美国",
+        "en": "United States"
+      },
+      "activeEra": {
+        "zh": "1970 年代至今",
+        "en": "1970s to present"
+      },
+      "tagline": {
+        "zh": "把大岩壁自由攀和竞技攀登同时推高的人",
+        "en": "The climber who raised both big-wall free climbing and competition climbing"
+      },
+      "overview": {
+        "zh": "她以 1993 年 The Nose 全自由首登、1994 年一日全自由完成而成为传奇，同时也是早期国际竞赛时代最成功的选手之一。",
+        "en": "She became legendary through the first free ascent of The Nose in 1993 and a one-day free ascent in 1994, while also being one of the most successful climbers of the early international competition era."
+      },
+      "accentColor": "#B85C4B",
+      "specialties": [
+        {
+          "zh": "大岩壁自由攀",
+          "en": "Big-wall free climbing"
+        },
+        {
+          "zh": "动作基础教学",
+          "en": "Movement fundamentals"
+        },
+        {
+          "zh": "训练周期化",
+          "en": "Training periodization"
+        }
+      ],
+      "heroStats": [
+        {
+          "label": {
+            "zh": "代表成就",
+            "en": "Signature ascent"
+          },
+          "value": {
+            "zh": "1993 年 The Nose 全自由首登",
+            "en": "1993 first free ascent of The Nose"
+          }
+        },
+        {
+          "label": {
+            "zh": "再次突破",
+            "en": "Next benchmark"
+          },
+          "value": {
+            "zh": "1994 年一日全自由完成",
+            "en": "1994 all-free in a day"
+          }
+        },
+        {
+          "label": {
+            "zh": "竞赛成绩",
+            "en": "Competition record"
+          },
+          "value": {
+            "zh": "30+ 国际赛冠军",
+            "en": "30+ international wins"
+          }
+        }
+      ],
+      "cardIds": [
+        "ath-002-biography",
+        "ath-002-training",
+        "ath-002-interview"
+      ]
+    },
+    {
+      "athleteId": "ath-101",
+      "slug": "janja-garnbret",
+      "athleteName": {
+        "zh": "扬娅·甘布雷特",
+        "en": "Janja Garnbret"
+      },
+      "category": "contemporary",
+      "nationality": {
+        "zh": "斯洛文尼亚",
+        "en": "Slovenia"
+      },
+      "activeEra": {
+        "zh": "2013 年至今",
+        "en": "Active since 2013"
+      },
+      "tagline": {
+        "zh": "把大赛统治力与室外攀爬热情同时拉满的全能标杆",
+        "en": "The all-around benchmark who pairs competitive dominance with outdoor passion"
+      },
+      "overview": {
+        "zh": "World Climbing 资料显示，她 2013 年进入国际赛场，2024 巴黎奥运卫冕抱石两项冠军，2025 首尔世锦赛再包揽抱石与难度金牌。",
+        "en": "World Climbing lists her as active since 2013. She defended Olympic gold in Paris 2024 and then swept both Boulder and Lead titles at the 2025 World Championships in Seoul."
+      },
+      "accentColor": "#356A57",
+      "specialties": [
+        {
+          "zh": "抱石与难度双修",
+          "en": "Boulder and lead mastery"
+        },
+        {
+          "zh": "高压下稳定输出",
+          "en": "Reliable under pressure"
+        },
+        {
+          "zh": "室内外并进",
+          "en": "Indoor and outdoor balance"
+        }
+      ],
+      "heroStats": [
+        {
+          "label": {
+            "zh": "奥运",
+            "en": "Olympics"
+          },
+          "value": {
+            "zh": "东京 2020、巴黎 2024 双金",
+            "en": "Gold at Tokyo 2020 and Paris 2024"
+          }
+        },
+        {
+          "label": {
+            "zh": "世界杯",
+            "en": "World Cup"
+          },
+          "value": {
+            "zh": "截至 2025-09-06 共 49 金",
+            "en": "49 World Cup golds as of 2025-09-06"
+          }
+        },
+        {
+          "label": {
+            "zh": "世锦赛",
+            "en": "World Championships"
+          },
+          "value": {
+            "zh": "截至 2025 首尔累计 10 冠",
+            "en": "10 world titles through Seoul 2025"
+          }
+        }
+      ],
+      "cardIds": [
+        "ath-101-biography",
+        "ath-101-training",
+        "ath-101-interview"
+      ]
+    },
+    {
+      "athleteId": "ath-201",
+      "slug": "pan-yufei",
+      "athleteName": {
+        "zh": "潘愚非",
+        "en": "Pan Yufei"
+      },
+      "category": "chinese",
+      "nationality": {
+        "zh": "中国",
+        "en": "China"
+      },
+      "activeEra": {
+        "zh": "2014 年至今",
+        "en": "Active since 2014"
+      },
+      "tagline": {
+        "zh": "把冷静执行和双项目经验揉在一起的中国代表",
+        "en": "A Chinese standout built on calm execution and cross-discipline experience"
+      },
+      "overview": {
+        "zh": "World Climbing 资料显示，潘愚非来自北京，2014 年起活跃于国际赛场。2024 巴黎奥运排名第 12，2025 伯尔尼抱石世界杯拿下个人首个世界杯金牌。",
+        "en": "World Climbing lists Pan Yufei of Beijing as active since 2014. He finished 12th at Paris 2024 and won his first World Cup gold at Bern 2025 in Boulder."
+      },
+      "accentColor": "#8C6A32",
+      "specialties": [
+        {
+          "zh": "抱石与难度双项目",
+          "en": "Boulder and lead crossover"
+        },
+        {
+          "zh": "比赛节奏控制",
+          "en": "Competition pacing"
+        },
+        {
+          "zh": "中国队代表人物",
+          "en": "Chinese team representative"
+        }
+      ],
+      "heroStats": [
+        {
+          "label": {
+            "zh": "奥运",
+            "en": "Olympics"
+          },
+          "value": {
+            "zh": "巴黎 2024 第 12 名",
+            "en": "12th at Paris 2024"
+          }
+        },
+        {
+          "label": {
+            "zh": "突破时刻",
+            "en": "Breakthrough"
+          },
+          "value": {
+            "zh": "伯尔尼 2025 抱石金牌",
+            "en": "Bern 2025 Boulder gold"
+          }
+        },
+        {
+          "label": {
+            "zh": "过往领奖台",
+            "en": "Earlier podiums"
+          },
+          "value": {
+            "zh": "厦门 2017 铜，维拉尔 2019 银",
+            "en": "Xiamen 2017 bronze, Villars 2019 silver"
+          }
+        }
+      ],
+      "cardIds": [
+        "ath-201-biography",
+        "ath-201-technique",
+        "ath-201-interview"
+      ]
+    }
+  ],
+  "cards": [
+    {
+      "id": "ath-001-biography",
+      "type": "biography",
+      "athleteId": "ath-001",
+      "athleteName": {
+        "zh": "约翰·吉尔",
+        "en": "John Gill"
+      },
+      "category": "historical",
+      "title": {
+        "zh": "约翰·吉尔：现代抱石之父",
+        "en": "John Gill: Father of Modern Bouldering"
+      },
+      "summary": {
+        "zh": "Gill 把抱石从“大路线前的练习”推进成独立门类，并用难度、形式与出版文本一起奠定现代抱石文化。",
+        "en": "Gill helped move bouldering from practice for bigger climbs into an independent pursuit, defining it through difficulty, form, and published ideas."
+      },
+      "paragraphs": [
+        {
+          "zh": "American Alpine Club 记载，Gill 原本是体操运动员，随后在 1950 年代中期开始专注短而难的抱石线路，推动人们重新认识“地面附近的高难动作”本身就值得追求。",
+          "en": "The American Alpine Club notes that Gill began as a gymnast and then specialized in short, difficult boulder problems in the mid-1950s, helping climbers see hard movement close to the ground as a pursuit in its own right."
+        },
+        {
+          "zh": "AAC 同时记录他在 1957 年完成 V8、1959 年完成 V9，并在 1961 年无保护自由独攀 5.12a。1969 年，他在 American Alpine Journal 发表《The Art of Bouldering》，把这套观念写入攀岩历史。",
+          "en": "AAC also records V8 in 1957, V9 in 1959, and an onsight free solo of 5.12a in 1961. In 1969 he published The Art of Bouldering in the American Alpine Journal, formalizing those ideas in climbing history."
+        }
+      ],
+      "keyFacts": [
+        {
+          "label": {
+            "zh": "难度里程碑",
+            "en": "Difficulty milestones"
+          },
+          "value": {
+            "zh": "V8（1957）、V9（1959）",
+            "en": "V8 (1957), V9 (1959)"
+          }
+        },
+        {
+          "label": {
+            "zh": "自由独攀",
+            "en": "Free solo"
+          },
+          "value": {
+            "zh": "5.12a（1961）",
+            "en": "5.12a (1961)"
+          }
+        },
+        {
+          "label": {
+            "zh": "文化文本",
+            "en": "Published legacy"
+          },
+          "value": {
+            "zh": "1969《The Art of Bouldering》",
+            "en": "1969 The Art of Bouldering"
+          }
+        }
+      ],
+      "relatedKps": [
+        "kp-climbing-origins",
+        "kp-dyno-technique",
+        "kp-swing-momentum"
+      ],
+      "relatedTraining": [],
+      "sources": [
+        {
+          "label": "American Alpine Club Legacy Series",
+          "url": "https://americanalpineclub.org/news/2022/7/26/legacy-series-john-gill"
+        },
+        {
+          "label": "Lynn Hill Climbing: John Gill, Visionary Bouldering Master",
+          "url": "https://lynnhillclimbing.com/media/essays/john-gill-visionary-bouldering-master/"
+        }
+      ]
+    },
+    {
+      "id": "ath-001-technique",
+      "type": "technique",
+      "athleteId": "ath-001",
+      "athleteName": {
+        "zh": "约翰·吉尔",
+        "en": "John Gill"
+      },
+      "category": "historical",
+      "title": {
+        "zh": "标志性风格：动态动作也可以精准而优雅",
+        "en": "Signature Style: Dynamic Movement Can Be Precise and Elegant"
+      },
+      "summary": {
+        "zh": "Gill 强调动作质量、摆荡时机和身体控制，而不是只看是否“省力”或“上去了没有”。",
+        "en": "Gill emphasized quality of movement, timing, and body control instead of judging a climb only by efficiency or completion."
+      },
+      "paragraphs": [
+        {
+          "zh": "AAC 与 Lynn Hill 的回顾都指出，Gill 不只是提高了抱石难度，还把体操中的动态发力、摆荡和落点控制带进岩石世界，让动态动作成为可训练、可审美的技术语言。",
+          "en": "Both AAC and Lynn Hill's retrospective show that Gill did more than raise grades: he imported gymnastic power, swing, and landing control into climbing, turning dynamic movement into a trainable and aesthetic technical language."
+        },
+        {
+          "zh": "他反复强调“形式”和“优雅”的价值，这种观念后来延伸为现代抱石里对协调、节奏和动作完成度的重视。",
+          "en": "His insistence on form and elegance later echoed through modern bouldering's focus on coordination, rhythm, and the completeness of a movement."
+        }
+      ],
+      "keyFacts": [
+        {
+          "label": {
+            "zh": "技术贡献",
+            "en": "Technical legacy"
+          },
+          "value": {
+            "zh": "动态发力进入主流",
+            "en": "Dynamic movement entered the mainstream"
+          }
+        },
+        {
+          "label": {
+            "zh": "器材文化",
+            "en": "Gear culture"
+          },
+          "value": {
+            "zh": "推广体操镁粉到攀岩",
+            "en": "Popularized gym chalk in climbing"
+          }
+        },
+        {
+          "label": {
+            "zh": "核心标准",
+            "en": "Core standard"
+          },
+          "value": {
+            "zh": "难度与动作美同等重要",
+            "en": "Difficulty and movement quality both mattered"
+          }
+        }
+      ],
+      "relatedKps": [
+        "kp-dyno-technique",
+        "kp-coordination-timing",
+        "kp-swing-momentum"
+      ],
+      "relatedTraining": [],
+      "sources": [
+        {
+          "label": "American Alpine Club Legacy Series",
+          "url": "https://americanalpineclub.org/news/2022/7/26/legacy-series-john-gill"
+        },
+        {
+          "label": "Lynn Hill Climbing: John Gill, Visionary Bouldering Master",
+          "url": "https://lynnhillclimbing.com/media/essays/john-gill-visionary-bouldering-master/"
+        }
+      ]
+    },
+    {
+      "id": "ath-001-interview",
+      "type": "interview",
+      "athleteId": "ath-001",
+      "athleteName": {
+        "zh": "约翰·吉尔",
+        "en": "John Gill"
+      },
+      "category": "historical",
+      "title": {
+        "zh": "观点与遗产：把攀登当作一种有意义的游戏",
+        "en": "Ideas and Legacy: Climbing as Meaningful Play"
+      },
+      "summary": {
+        "zh": "Gill 的影响不仅是难度数字，更在于他把攀登解释为一种兼具精神性、创造性和个人性的实践。",
+        "en": "Gill's legacy is not only about grades, but about framing climbing as a practice of spirit, creativity, and individuality."
+      },
+      "paragraphs": [
+        {
+          "zh": "在 Lynn Hill 的访谈记录里，Gill 把攀登描述成兼具游戏性和更深层体验的活动，并建议后来者不要被主流惯性牵着走，要去做真正能拓宽社区视野的事情。",
+          "en": "In Lynn Hill's interview record, Gill describes climbing as both playful and deeply experiential, and encourages later climbers not to be pulled along by the mainstream but to pursue work that expands the community's perspective."
+        },
+        {
+          "zh": "这种态度解释了为什么 AAC 会把他列入 Legacy Series，并记录他在 2008 年获得 Pinnacle Award: 他重写了“抱石为什么重要”这个问题。",
+          "en": "That attitude helps explain why AAC placed him in the Legacy Series and records his 2008 Pinnacle Award: he rewrote the question of why bouldering matters."
+        }
+      ],
+      "keyFacts": [
+        {
+          "label": {
+            "zh": "AAC 认可",
+            "en": "AAC recognition"
+          },
+          "value": {
+            "zh": "2008 Pinnacle Award",
+            "en": "2008 Pinnacle Award"
+          }
+        },
+        {
+          "label": {
+            "zh": "访谈主题",
+            "en": "Interview theme"
+          },
+          "value": {
+            "zh": "个体性、意义感、反主流惯性",
+            "en": "Individuality, meaning, resistance to convention"
+          }
+        }
+      ],
+      "relatedKps": [
+        "kp-community-media",
+        "kp-climbing-ethics"
+      ],
+      "relatedTraining": [],
+      "sources": [
+        {
+          "label": "Lynn Hill Climbing: John Gill, Visionary Bouldering Master",
+          "url": "https://lynnhillclimbing.com/media/essays/john-gill-visionary-bouldering-master/"
+        },
+        {
+          "label": "American Alpine Club Awards",
+          "url": "https://americanalpineclub.org/awards"
+        }
+      ]
+    },
+    {
+      "id": "ath-002-biography",
+      "type": "biography",
+      "athleteId": "ath-002",
+      "athleteName": {
+        "zh": "琳恩·希尔",
+        "en": "Lynn Hill"
+      },
+      "category": "historical",
+      "title": {
+        "zh": "琳恩·希尔：把 The Nose 变成自由攀路线的人",
+        "en": "Lynn Hill: The Climber Who Freed The Nose"
+      },
+      "summary": {
+        "zh": "Hill 既是大岩壁自由攀先驱，也是早期职业竞赛时代最成功的选手之一，她的生涯横跨传统攀、运动攀与竞技攀。",
+        "en": "Hill was both a big-wall free climbing pioneer and one of the most successful athletes of the early professional competition era, spanning trad, sport, and competition climbing."
+      },
+      "paragraphs": [
+        {
+          "zh": "她的官方简介写明：1993 年完成 The Nose 全自由首登，1994 年又做到 all-free in a day。这两次突破让她从顶尖攀岩者变成了改写历史的人。",
+          "en": "Her official biography states that she made the first free ascent of The Nose in 1993 and then climbed it all free in a day in 1994. Those two breakthroughs turned her from a top climber into a historical reference point."
+        },
+        {
+          "zh": "同一份简介还记录了她 1979 年完成 5.12d、1990 年成为首位完成 5.14a 的女性、1992 年成为首位 on-sight 5.13b 的女性，并拿下 30 多场国际赛冠军，其中包括 5 次 Rock Master。",
+          "en": "The same biography records a female first at 5.12d in 1979, the first female 5.14a in 1990, the first female 5.13b onsight in 1992, and more than 30 international victories including five Rock Master titles."
+        }
+      ],
+      "keyFacts": [
+        {
+          "label": {
+            "zh": "大岩壁",
+            "en": "Big wall"
+          },
+          "value": {
+            "zh": "The Nose 1993 / 1994",
+            "en": "The Nose 1993 / 1994"
+          }
+        },
+        {
+          "label": {
+            "zh": "女性首创",
+            "en": "Women's firsts"
+          },
+          "value": {
+            "zh": "5.12d、5.14a、on-sight 5.13b",
+            "en": "5.12d, 5.14a, and 5.13b onsight"
+          }
+        },
+        {
+          "label": {
+            "zh": "竞赛胜场",
+            "en": "Competition wins"
+          },
+          "value": {
+            "zh": "30+ 场国际赛冠军",
+            "en": "30+ international wins"
+          }
+        }
+      ],
+      "relatedKps": [
+        "kp-free-climbing-revolution",
+        "kp-projecting-strategy",
+        "kp-route-reading-basics"
+      ],
+      "relatedTraining": [],
+      "sources": [
+        {
+          "label": "Lynn Hill Climbing Biography",
+          "url": "https://lynnhillclimbing.com/biography/"
+        },
+        {
+          "label": "Journeys of the Rock",
+          "url": "https://lynnhillclimbing.com/media/essays/journeys-of-the-rock/"
+        }
+      ]
+    },
+    {
+      "id": "ath-002-training",
+      "type": "training",
+      "athleteId": "ath-002",
+      "athleteName": {
+        "zh": "琳恩·希尔",
+        "en": "Lynn Hill"
+      },
+      "category": "historical",
+      "title": {
+        "zh": "训练哲学：周期化、动作基础与左右平衡",
+        "en": "Training Philosophy: Periodization, Fundamentals, and Symmetry"
+      },
+      "summary": {
+        "zh": "Hill 的训练观不是盲目堆量，而是先打底，再做专项，再在峰值前减量，同时用基础动作教育保证技术效率。",
+        "en": "Hill's training view is not about endless volume. It builds a base, sharpens specificity, tapers before peaks, and uses movement education to protect efficiency."
+      },
+      "paragraphs": [
+        {
+          "zh": "在《Training Cycles》中，她把赛季训练拆成 foundation、general endurance、power specificity 和 peaking，强调训练强度与恢复都应被计划，而不是凭感觉乱堆。",
+          "en": "In Training Cycles, she breaks the season into foundation, general endurance, power specificity, and peaking, emphasizing that both loading and recovery should be planned instead of improvised."
+        },
+        {
+          "zh": "她同时在动作课程里反复强调 footwork、movement 和 risk awareness。对于指力板与 campus board，她关注的是热身、结构化练习和左右对称，而不是单纯追求最猛的练法。",
+          "en": "She also repeatedly emphasizes footwork, movement, and risk awareness in her teaching. On fingerboards and campus boards, her focus is warm-up, structured practice, and side-to-side symmetry rather than maximal loading for its own sake."
+        }
+      ],
+      "keyFacts": [
+        {
+          "label": {
+            "zh": "训练结构",
+            "en": "Training structure"
+          },
+          "value": {
+            "zh": "基础期 → 数量期 → 质量期 → 峰值期",
+            "en": "Foundation -> volume -> quality -> peaking"
+          }
+        },
+        {
+          "label": {
+            "zh": "器械观",
+            "en": "Board training view"
+          },
+          "value": {
+            "zh": "重视热身、对称和纪律",
+            "en": "Prioritizes warm-up, symmetry, and discipline"
+          }
+        },
+        {
+          "label": {
+            "zh": "教学重心",
+            "en": "Teaching focus"
+          },
+          "value": {
+            "zh": "脚法、动作与风险判断",
+            "en": "Footwork, movement, and risk awareness"
+          }
+        }
+      ],
+      "relatedKps": [
+        "kp-periodization",
+        "kp-edging",
+        "kp-campus-training"
+      ],
+      "relatedTraining": [],
+      "sources": [
+        {
+          "label": "Training Cycles",
+          "url": "https://lynnhillclimbing.com/media/essays/training-cycles/"
+        },
+        {
+          "label": "Fundamentals of Climbing",
+          "url": "https://lynnhillclimbing.com/fundamentals-of-climbing/"
+        }
+      ]
+    },
+    {
+      "id": "ath-002-interview",
+      "type": "interview",
+      "athleteId": "ath-002",
+      "athleteName": {
+        "zh": "琳恩·希尔",
+        "en": "Lynn Hill"
+      },
+      "category": "historical",
+      "title": {
+        "zh": "采访与观点：风格、责任感与持续探索",
+        "en": "Ideas and Voice: Style, Responsibility, and Ongoing Exploration"
+      },
+      "summary": {
+        "zh": "Hill 的文字里常见两个主题：攀登必须讲风格，也必须讲责任；真正的自由来自对环境、风险和自我动机的清醒认识。",
+        "en": "Two themes run through Hill's writing: style matters and responsibility matters; real freedom comes from clear awareness of environment, risk, and motivation."
+      },
+      "paragraphs": [
+        {
+          "zh": "在《Journeys of the Rock》和《Climbing Wisdom》中，她回顾自己从“别掉下去”的本能阶段，成长到更主动地询问信息、准备装备、为每个决策负责。",
+          "en": "In Journeys of the Rock and Climbing Wisdom, she describes moving from an instinctive 'don't fall' phase to a more deliberate approach that asks questions, prepares gear, and takes responsibility for each decision."
+        },
+        {
+          "zh": "她也始终把探索欲放在核心位置。无论是比赛、运动攀还是大岩壁，她看重的都不是单一标签，而是自由攀在不同环境里的延展可能。",
+          "en": "She also keeps exploration at the center. Whether in competitions, sport climbing, or big walls, what matters to her is not one label but the expanding possibilities of free climbing in different environments."
+        }
+      ],
+      "keyFacts": [
+        {
+          "label": {
+            "zh": "核心价值",
+            "en": "Core values"
+          },
+          "value": {
+            "zh": "风格、准备、责任感",
+            "en": "Style, preparation, responsibility"
+          }
+        },
+        {
+          "label": {
+            "zh": "长期主题",
+            "en": "Long-term theme"
+          },
+          "value": {
+            "zh": "自由攀的多样环境与探索",
+            "en": "Exploration across diverse forms of free climbing"
+          }
+        }
+      ],
+      "relatedKps": [
+        "kp-climbing-ethics",
+        "kp-fear-management",
+        "kp-projecting-strategy"
+      ],
+      "relatedTraining": [],
+      "sources": [
+        {
+          "label": "Journeys of the Rock",
+          "url": "https://lynnhillclimbing.com/media/essays/journeys-of-the-rock/"
+        },
+        {
+          "label": "Climbing Wisdom",
+          "url": "https://lynnhillclimbing.com/media/essays/climbing-wisdom/"
+        }
+      ]
+    },
+    {
+      "id": "ath-101-biography",
+      "type": "biography",
+      "athleteId": "ath-101",
+      "athleteName": {
+        "zh": "扬娅·甘布雷特",
+        "en": "Janja Garnbret"
+      },
+      "category": "contemporary",
+      "title": {
+        "zh": "扬娅·甘布雷特：现代竞技攀岩的统治级样本",
+        "en": "Janja Garnbret: The Dominant Template of Modern Competition Climbing"
+      },
+      "summary": {
+        "zh": "Garnbret 是同时覆盖奥运、世界杯和世锦赛顶峰的稀有选手，成绩跨度和稳定性都已进入历史级别。",
+        "en": "Garnbret is a rare climber who has dominated the Olympics, World Cups, and World Championships, with a breadth and consistency already at historical scale."
+      },
+      "paragraphs": [
+        {
+          "zh": "World Climbing 运动员主页显示，她来自斯洛文尼亚 Slovenj Gradec，自 2013 年开始国际比赛。东京 2020 与巴黎 2024 两届奥运都拿下金牌，是现代竞技攀岩最稳定的顶级选手之一。",
+          "en": "Her World Climbing athlete page lists her from Slovenj Gradec, active internationally since 2013. Gold at both Tokyo 2020 and Paris 2024 makes her one of the most consistently elite climbers in modern competition climbing."
+        },
+        {
+          "zh": "到 2025 年，她又在 Koper 拿到个人第 31 个难度世界杯冠军、总第 49 个世界杯金牌，并在首尔世锦赛连续两天拿下难度与抱石金牌，把世界冠军头衔累计到 10 个。",
+          "en": "By 2025 she had claimed her 31st Lead World Cup win and 49th World Cup gold overall in Koper, then added both Lead and Boulder world titles in Seoul to reach 10 World Championship golds."
+        }
+      ],
+      "keyFacts": [
+        {
+          "label": {
+            "zh": "奥运金牌",
+            "en": "Olympic golds"
+          },
+          "value": {
+            "zh": "东京 2020、巴黎 2024",
+            "en": "Tokyo 2020 and Paris 2024"
+          }
+        },
+        {
+          "label": {
+            "zh": "世界杯金牌",
+            "en": "World Cup golds"
+          },
+          "value": {
+            "zh": "49（金，截至 2025-09-06）",
+            "en": "49 (as of 2025-09-06)"
+          }
+        },
+        {
+          "label": {
+            "zh": "世锦赛头衔",
+            "en": "World titles"
+          },
+          "value": {
+            "zh": "10（截至 2025 首尔）",
+            "en": "10 (through Seoul 2025)"
+          }
+        }
+      ],
+      "relatedKps": [
+        "kp-olympics-athletes",
+        "kp-boulder-competition",
+        "kp-lead-competition"
+      ],
+      "relatedTraining": [],
+      "sources": [
+        {
+          "label": "World Climbing Athlete Profile",
+          "url": "https://www.worldclimbing.com/athlete/1147/janja-garnbret"
+        },
+        {
+          "label": "Koper 2025 Gold Report",
+          "url": "https://www.worldclimbing.com/events/ifsc-world-cup-koper-2025/news/sorato-soars-and-garnbret-grabs-gold"
+        },
+        {
+          "label": "Seoul 2025 Boulder Title",
+          "url": "https://www.worldclimbing.com/events/ifsc-climbing-world-championships-seoul-2025/news/garnbret-adds-boulder-gold-to-ever-growing-number-of-world-titles"
+        }
+      ]
+    },
+    {
+      "id": "ath-101-training",
+      "type": "training",
+      "athleteId": "ath-101",
+      "athleteName": {
+        "zh": "扬娅·甘布雷特",
+        "en": "Janja Garnbret"
+      },
+      "category": "contemporary",
+      "title": {
+        "zh": "训练哲学：长期领先，但不把自己困在比赛里",
+        "en": "Training Philosophy: Stay Ahead Without Living Only for Competition"
+      },
+      "summary": {
+        "zh": "Garnbret 的训练逻辑不是单线条备赛，而是在竞技训练、室外攀爬和心理恢复之间保持高质量循环。",
+        "en": "Garnbret's training logic is not a single-track race plan, but a high-quality cycle between competition training, outdoor climbing, and mental recovery."
+      },
+      "paragraphs": [
+        {
+          "zh": "她在 2025 Innsbruck 回归时提到，自己这段时间“训练了很多，也攀了很多真岩”，并刻意把一部分精力放回让心和灵魂都舒服的攀爬状态，而不是被赛历完全吞没。",
+          "en": "When she returned in Innsbruck 2025, she said she had been training a lot and climbing a lot outside, intentionally protecting a style of climbing that felt good for her heart and soul instead of being consumed entirely by the calendar."
+        },
+        {
+          "zh": "Koper 的赛后发言又补上了另一面：她清楚自己想始终领先一两步，因此训练并不松散。换句话说，她的优势来自高标准训练与高质量恢复并存，而不是只做其中一端。",
+          "en": "Her Koper comments add the other half: she wants to stay one or two steps ahead, so the work is not casual. Her edge comes from pairing very high standards with equally intentional recovery rather than leaning only on one side."
+        }
+      ],
+      "keyFacts": [
+        {
+          "label": {
+            "zh": "训练平衡",
+            "en": "Training balance"
+          },
+          "value": {
+            "zh": "室外真岩 + 室内专项 + 恢复期",
+            "en": "Outdoor rock + indoor specificity + recovery"
+          }
+        },
+        {
+          "label": {
+            "zh": "竞争心态",
+            "en": "Competitive approach"
+          },
+          "value": {
+            "zh": "始终让自己领先一两步",
+            "en": "Keep herself one or two steps ahead"
+          }
+        }
+      ],
+      "relatedKps": [
+        "kp-comp-specific-training",
+        "kp-peaking",
+        "kp-performance-mindset"
+      ],
+      "relatedTraining": [],
+      "sources": [
+        {
+          "label": "Innsbruck 2025 Comeback Interview",
+          "url": "https://www.worldclimbing.com/events/ifsc-world-cup-innsbruck-2025/news/garnbret-triumphs-on-comeback-with-four-top-masterclass"
+        },
+        {
+          "label": "Koper 2025 Gold Report",
+          "url": "https://www.worldclimbing.com/events/ifsc-world-cup-koper-2025/news/sorato-soars-and-garnbret-grabs-gold"
+        }
+      ]
+    },
+    {
+      "id": "ath-101-interview",
+      "type": "interview",
+      "athleteId": "ath-101",
+      "athleteName": {
+        "zh": "扬娅·甘布雷特",
+        "en": "Janja Garnbret"
+      },
+      "category": "contemporary",
+      "title": {
+        "zh": "采访与观点：顶级表现也要建立在享受感上",
+        "en": "Ideas and Voice: Peak Performance Still Needs Joy"
+      },
+      "summary": {
+        "zh": "Garnbret 的访谈里有很强的一致性：她并不把“统治力”建立在苦撑上，而是建立在专注、乐趣和回到自己节奏的能力上。",
+        "en": "A consistent pattern in Garnbret's interviews is that she does not build dominance through grim endurance alone, but through focus, joy, and the ability to return to her own rhythm."
+      },
+      "paragraphs": [
+        {
+          "zh": "Innsbruck 回归战后，她反复提到“在墙上很享受”“决赛像找回了原来的自己”。这说明她对比赛状态的判断，不只是排名，而是能否重新进入熟悉的表现感受。",
+          "en": "After her Innsbruck return, she repeatedly said she enjoyed herself on the wall and felt like her old self again in the final. That suggests she judges competitive form not only by ranking, but by whether she can return to a familiar performance state."
+        },
+        {
+          "zh": "Koper 拿下第 31 个难度世界杯冠军时，她又把十年职业跨度和当下成绩放在一起看，既知道数字的重量，也没有让数字反过来绑住自己。",
+          "en": "When she took her 31st Lead World Cup win in Koper, she framed the result within a decade-long career arc: she knows what the numbers mean, but does not let the numbers own her."
+        }
+      ],
+      "keyFacts": [
+        {
+          "label": {
+            "zh": "关键词",
+            "en": "Key words"
+          },
+          "value": {
+            "zh": "享受、回归自我、长线稳定",
+            "en": "Joy, self-return, long-term stability"
+          }
+        }
+      ],
+      "relatedKps": [
+        "kp-competition-psychology",
+        "kp-performance-mindset",
+        "kp-pressure-visualization"
+      ],
+      "relatedTraining": [],
+      "sources": [
+        {
+          "label": "IFSC World Cup Innsbruck 2025: What the Athletes Said",
+          "url": "https://www.worldclimbing.com/news/ifsc-climbing-world-cup-innsbruck-2025-what-the-athletes-said"
+        },
+        {
+          "label": "Koper 2025 Gold Report",
+          "url": "https://www.worldclimbing.com/events/ifsc-world-cup-koper-2025/news/sorato-soars-and-garnbret-grabs-gold"
+        }
+      ]
+    },
+    {
+      "id": "ath-201-biography",
+      "type": "biography",
+      "athleteId": "ath-201",
+      "athleteName": {
+        "zh": "潘愚非",
+        "en": "Pan Yufei"
+      },
+      "category": "chinese",
+      "title": {
+        "zh": "潘愚非：中国男子竞技攀岩的重要国际样本",
+        "en": "Pan Yufei: A Key International Reference for Chinese Men's Competition Climbing"
+      },
+      "summary": {
+        "zh": "Pan 的价值不只在一块奖牌，而在于他把中国选手在抱石和难度两端的国际竞争力都持续带到了世界舞台。",
+        "en": "Pan's value is not only one medal, but his steady presence carrying Chinese competitiveness in both boulder and lead onto the world stage."
+      },
+      "paragraphs": [
+        {
+          "zh": "World Climbing 运动员主页显示，潘愚非来自北京，2014 年起参加国际赛事。到 2024 巴黎奥运，他已经具备双项目出战能力，并在 Boulder & Lead 项目拿到第 12 名。",
+          "en": "The World Climbing athlete page lists Pan Yufei of Beijing as active since 2014. By Paris 2024 he had already built the range to compete in Boulder & Lead and finished 12th overall."
+        },
+        {
+          "zh": "2025 伯尔尼世界杯是他的代表性突破：那是他在抱石项目上的首枚世界杯奖牌，也是个人首枚世界杯金牌。与此同时，他此前还拿到过 2017 厦门难度铜牌和 2019 维拉尔难度银牌。",
+          "en": "The Bern 2025 World Cup was his signature breakthrough: his first Boulder World Cup medal and first World Cup gold overall. Before that he had already taken Lead bronze in Xiamen 2017 and Lead silver in Villars 2019."
+        }
+      ],
+      "keyFacts": [
+        {
+          "label": {
+            "zh": "国际出战",
+            "en": "International career"
+          },
+          "value": {
+            "zh": "2014 年起",
+            "en": "Since 2014"
+          }
+        },
+        {
+          "label": {
+            "zh": "奥运成绩",
+            "en": "Olympic result"
+          },
+          "value": {
+            "zh": "巴黎 2024 第 12 名",
+            "en": "12th at Paris 2024"
+          }
+        },
+        {
+          "label": {
+            "zh": "世界杯突破",
+            "en": "World Cup breakthrough"
+          },
+          "value": {
+            "zh": "伯尔尼 2025 抱石金牌",
+            "en": "Bern 2025 Boulder gold"
+          }
+        }
+      ],
+      "relatedKps": [
+        "kp-olympics-athletes",
+        "kp-boulder-competition",
+        "kp-lead-competition"
+      ],
+      "relatedTraining": [],
+      "sources": [
+        {
+          "label": "World Climbing Athlete Profile",
+          "url": "https://www.worldclimbing.com/athlete/2947/yufei_pan"
+        },
+        {
+          "label": "Pan Claims First Career Win on the World Cup Stage",
+          "url": "https://www.worldclimbing.com/news/pan-claims-first-career-win-on-the-world-cup-stage"
+        }
+      ]
+    },
+    {
+      "id": "ath-201-technique",
+      "type": "technique",
+      "athleteId": "ath-201",
+      "athleteName": {
+        "zh": "潘愚非",
+        "en": "Pan Yufei"
+      },
+      "category": "chinese",
+      "title": {
+        "zh": "标志性比赛风格：耐心执行，分轮归零",
+        "en": "Signature Competition Style: Patient Execution and Zero-Based Reset"
+      },
+      "summary": {
+        "zh": "围绕 Pan 的 IFSC 报道里，一个反复出现的特点是：他不靠情绪猛冲，而靠节奏控制、每轮重新开始和关键时刻的把握。",
+        "en": "Across IFSC coverage, one pattern keeps appearing: Pan does not rely on emotional surges, but on pacing, resetting between rounds, and delivering when the moment arrives."
+      },
+      "paragraphs": [
+        {
+          "zh": "伯尔尼夺冠战的报道把他的胜利总结为 patient execution。最后一题第二把成功登顶并以 0.1 分反超，本质上说明他的优势在于能把关键尝试留到最后并执行出来。",
+          "en": "The Bern victory report summarized his win through patient execution. Sending the last boulder on his second try and winning by 0.1 points shows an ability to preserve a decisive attempt and execute when it matters most."
+        },
+        {
+          "zh": "Innsbruck 的赛后发言又补充了这个风格的内部逻辑：即使刚拿到金牌，也要把上一站成绩清零，从每一轮、每一道题重新学习和开始。",
+          "en": "His Innsbruck comments add the internal logic behind that style: even after a gold medal, he tries to clear the previous result and start learning again from each round and each boulder."
+        }
+      ],
+      "keyFacts": [
+        {
+          "label": {
+            "zh": "伯尔尼决赛",
+            "en": "Bern final"
+          },
+          "value": {
+            "zh": "最后一题第二把，0.1 分逆转",
+            "en": "Second try on the last boulder, wins by 0.1"
+          }
+        },
+        {
+          "label": {
+            "zh": "风格关键词",
+            "en": "Style keywords"
+          },
+          "value": {
+            "zh": "耐心、节奏、归零",
+            "en": "Patience, pacing, reset"
+          }
+        }
+      ],
+      "relatedKps": [
+        "kp-route-reading-basics",
+        "kp-competition-psychology",
+        "kp-performance-mindset"
+      ],
+      "relatedTraining": [],
+      "sources": [
+        {
+          "label": "Pan Claims First Career Win on the World Cup Stage",
+          "url": "https://www.worldclimbing.com/news/pan-claims-first-career-win-on-the-world-cup-stage"
+        },
+        {
+          "label": "IFSC World Cup Innsbruck 2025: What the Athletes Said",
+          "url": "https://www.worldclimbing.com/news/ifsc-climbing-world-cup-innsbruck-2025-what-the-athletes-said"
+        }
+      ]
+    },
+    {
+      "id": "ath-201-interview",
+      "type": "interview",
+      "athleteId": "ath-201",
+      "athleteName": {
+        "zh": "潘愚非",
+        "en": "Pan Yufei"
+      },
+      "category": "chinese",
+      "title": {
+        "zh": "采访与观点：少一点压力，多一点过程感",
+        "en": "Ideas and Voice: Less Pressure, More Process"
+      },
+      "summary": {
+        "zh": "Pan 近期访谈里最清晰的信号，是他在学着减少结果压力，把注意力放回每轮表现和每一道题本身。",
+        "en": "The clearest message from Pan's recent interviews is that he is learning to reduce result pressure and put attention back on each round and each boulder."
+      },
+      "paragraphs": [
+        {
+          "zh": "伯尔尼夺金后，他形容那一刻“脑子一片空白”，说明突破并不总来自外显的激情，而可能来自高度专注后的释放。",
+          "en": "After winning Bern, he described his mind as empty, suggesting that breakthrough performances do not always come from visible excitement, but from release after deep concentration."
+        },
+        {
+          "zh": "到了 Innsbruck，他更明确地说自己不想给比赛施加太多压力，希望每轮都能学到东西，并把上一站的结果留在上一站。这是一种更成熟的国际赛心理策略。",
+          "en": "By Innsbruck he was more explicit: he did not want to put too much pressure on the competition, wanted to learn from every round, and leave the previous result behind. That is a more mature international competition strategy."
+        }
+      ],
+      "keyFacts": [
+        {
+          "label": {
+            "zh": "访谈主题",
+            "en": "Interview theme"
+          },
+          "value": {
+            "zh": "减压、学习、重新开始",
+            "en": "Lower pressure, keep learning, restart"
+          }
+        }
+      ],
+      "relatedKps": [
+        "kp-competition-anxiety",
+        "kp-performance-mindset",
+        "kp-pressure-visualization"
+      ],
+      "relatedTraining": [],
+      "sources": [
+        {
+          "label": "Pan Claims First Career Win on the World Cup Stage",
+          "url": "https://www.worldclimbing.com/news/pan-claims-first-career-win-on-the-world-cup-stage"
+        },
+        {
+          "label": "IFSC World Cup Innsbruck 2025: What the Athletes Said",
+          "url": "https://www.worldclimbing.com/news/ifsc-climbing-world-cup-innsbruck-2025-what-the-athletes-said"
+        }
+      ]
+    }
+  ]
 }
