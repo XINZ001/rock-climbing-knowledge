@@ -27,6 +27,8 @@ rock-climbing/
 ├── .gitignore
 │
 ├── team-lead/                             ← Team Lead
+│   ├── project-state.md                    ← 当前项目状态真源
+│   ├── documentation-architect-guide.md    ← 文档架构负责人指南
 │   ├── general-director-guide.md           ← 总负责人工作手册
 │   ├── climbing-knowledge-framework.md     ← 知识体系总纲
 │   └── content-integration-plan.md         ← 内容整合规划

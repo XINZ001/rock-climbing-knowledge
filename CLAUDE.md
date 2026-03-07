@@ -7,6 +7,8 @@
 ```
 rock-climbing/
 ├── team-lead/               ← Team Lead（规划、知识体系、内容整合）
+│   ├── project-state.md
+│   ├── documentation-architect-guide.md
 │   ├── general-director-guide.md
 │   ├── climbing-knowledge-framework.md
 │   └── content-integration-plan.md
@@ -33,6 +35,14 @@ rock-climbing/
 │   └── image-generation-guide.md
 ├── photo-regenerator/       ← 图片再生成（参考真实图片重新生成错误插图）
 │   └── image-regeneration-guide.md
+├── training-researcher/     ← 训练方案调研员（搜集训练协议，支柱二）
+│   ├── training-research-guide.md
+│   └── category-11X-report.md
+├── athlete-researcher/      ← 运动员调研员（搜集运动员资料，支柱三）
+│   ├── athlete-research-guide.md
+│   └── category-12X-report.md
+├── fact-checker/            ← 内容纠错员（核实用户反馈的知识点错误）
+│   └── fact-checker-guide.md
 ├── archive/                 ← 已归档内容
 │   └── video-analyst/       ← 视频分析师 Guide（暂归档，视频数据就绪后启用）
 │       └── video-tagging-guide.md
@@ -42,6 +52,12 @@ rock-climbing/
 ```
 
 每个角色文件夹 = Guide（指导文件）+ 产出 + reference/（参考资料）
+
+## 文档治理真源
+
+- 当前项目规模、目录真源、活跃角色：`team-lead/project-state.md`
+- 文档体系维护规则：`team-lead/documentation-architect-guide.md`
+- 如果某份 guide 中的数量、路径、当前状态与上述文件冲突，以这两份文件为准
 
 ## 产出归档位置
 
@@ -53,6 +69,9 @@ rock-climbing/
 | Prompt 工程师 | `prompt-engineer/` | `module-XX-*.md` |
 | 插画师 | `rock-climbing-knowledge/public/images/illustrations/` | `{kp-id}.png` |
 | 图片再生成 | 同上，替换原文件 | `{kp-id}.png` |
+| 训练方案调研员 | `training-researcher/` | `category-11X-report.md` → 最终 `training-registry.json` |
+| 运动员调研员 | `athlete-researcher/` | `category-12X-report.md` → 最终 `athlete-registry.json` |
+| 内容纠错员 | `fact-checker/` | `fact-check-{kp-id}-{YYYYMMDD}.md` |
 
 ## 任务结束 Checklist（每次必做）
 

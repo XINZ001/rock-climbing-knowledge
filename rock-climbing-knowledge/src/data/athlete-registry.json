@@ -1,0 +1,10 @@
+{
+  "_meta": {
+    "description": "攀岩名人档案注册表 — 支柱三",
+    "version": "0.1.0",
+    "createdAt": "2026-03-06",
+    "schema": "team-lead/athlete-framework.md",
+    "totalCount": 0
+  },
+  "athletes": []
+}
