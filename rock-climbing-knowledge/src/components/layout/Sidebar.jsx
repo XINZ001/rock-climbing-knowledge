@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef } from 'react'
-import { Link, useLocation, useParams } from 'react-router-dom'
+import { Link, useLocation, useParams, useNavigate } from 'react-router-dom'
 import { useApp } from '../../context/AppContext'
 import { Icon } from '../../utils/icons'
 
@@ -35,12 +35,21 @@ export default function Sidebar({ onNavigate }) {
   const { sections, t, lang } = useApp()
   const { sectionSlug, subSlug } = useParams()
   const location = useLocation()
+  const navigate = useNavigate()
   const [manualExpanded, setManualExpanded] = useState(null)
   const hallOfFameActive = location.pathname.startsWith('/hall-of-fame')
   const expanded = sectionSlug || manualExpanded
 
   const toggleSection = (slug) => {
     setManualExpanded(expanded === slug ? null : slug)
+  }
+
+  const handleSectionClick = (section) => {
+    onNavigate?.()
+    if (sectionSlug !== section.slug) {
+      navigate(`/section/${section.slug}`)
+    }
+    setManualExpanded(expanded === section.slug ? null : section.slug)
   }
 
   return (
@@ -73,7 +82,7 @@ export default function Sidebar({ onNavigate }) {
           return (
             <div key={section.id}>
               <button
-                onClick={() => toggleSection(section.slug)}
+                onClick={() => handleSectionClick(section)}
                 className={`w-full flex items-center gap-2 px-3 py-2 rounded-lg text-sm transition-colors ${
                   isActive ? 'bg-forest-light text-forest font-medium' : 'hover:bg-stone-bg'
                 }`}
