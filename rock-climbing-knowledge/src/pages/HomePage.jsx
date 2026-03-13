@@ -42,16 +42,14 @@ export default function HomePage() {
         className="group relative mb-10 block overflow-hidden rounded-[1.75rem] border border-stone-border bg-stone-card shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-lg"
       >
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(199,161,42,0.22),_transparent_38%),radial-gradient(circle_at_bottom_right,_rgba(74,124,89,0.18),_transparent_40%)]" />
+        <span className="absolute top-6 right-6 z-10 shrink-0 rounded px-1.5 py-0.5 text-xs font-semibold uppercase tracking-wide bg-amber-500/20 text-amber-600 dark:bg-amber-400/25 dark:text-amber-400">
+          NEW
+        </span>
         <div className="relative flex flex-col gap-4 px-6 py-6 sm:flex-row sm:items-center sm:justify-between sm:px-8">
           <div className="max-w-2xl">
-            <div className="flex items-center justify-between gap-2">
-              <h2 className="text-2xl font-bold">
-                {lang === 'zh' ? '攀岩名人堂' : 'Climbing Hall of Fame'}
-              </h2>
-              <span className="shrink-0 rounded px-1.5 py-0.5 text-xs font-semibold uppercase tracking-wide bg-amber-500/20 text-amber-600 dark:bg-amber-400/25 dark:text-amber-400">
-                NEW
-              </span>
-            </div>
+            <h2 className="text-2xl font-bold">
+              {lang === 'zh' ? '攀岩名人堂' : 'Climbing Hall of Fame'}
+            </h2>
             <p className="mt-2 text-sm sm:text-base text-text-secondary leading-relaxed">
               {lang === 'zh'
                 ? '收录 John Gill、Lynn Hill、Janja Garnbret、潘愚非等代表人物，集中查看他们的生平、风格、访谈与相关影像。'
