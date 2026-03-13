@@ -1,0 +1,77 @@
+{
+  "_meta": {
+    "task": "搜索攀岩名人堂 - B类户外技术攀登先驱 + C类训练方法创始人：Alex Honnold、Tommy Caldwell、Lynn Hill、Wolfgang Güllich",
+    "keywords": ["free solo climbing famous", "first free ascent climbing history", "big wall climbing legends", "campus board invention Wolfgang Gullich"],
+    "collectedAt": "2026-03-07",
+    "totalSources": 4,
+    "fetchMethodStats": {
+      "r.jina.ai": 4
+    }
+  },
+  "sources": [
+    {
+      "id": "src-009",
+      "keyword": ["free solo climbing famous", "Alex Honnold El Capitan"],
+      "url": "https://en.wikipedia.org/wiki/Alex_Honnold",
+      "title": "Alex Honnold - Wikipedia",
+      "source": "Wikipedia",
+      "author": "unknown",
+      "language": "en",
+      "publishDate": "unknown",
+      "fetchMethod": "r.jina.ai",
+      "fetchDate": "2026-03-07",
+      "wordCount": 350,
+      "fullText": "# Alex Honnold: Free Solo Pioneer\n\n## Biography\n\nAlexander J Honnold was born August 17, 1985, in Sacramento, California. His mother, Dierdre Wolownick, is a community college professor with German and Polish heritage. He began climbing at age 5 in a gym and participated in youth championships as a teenager. After graduating from Mira Loma High School in 2003, he enrolled at UC Berkeley studying civil engineering but dropped out to pursue climbing full-time, initially living in a van.\n\n## Historic El Capitan Achievement\n\nOn June 3, 2017, Honnold became the first person to free solo the complete Freerider route on El Capitan in Yosemite National Park. The 884-meter (2,900-foot) climb at grade 5.13a took 3 hours and 56 minutes. The New York Times described this as \"one of the great athletic feats of any kind, ever.\" The climb was documented in the 2018 documentary \"Free Solo,\" which won the Academy Award for Best Documentary Feature.\n\n## Climbing Philosophy\n\nHonnold credits persistence rather than natural talent. He once reflected: \"I was never, like, a bad climber [as a kid], but I had never been a great climber, either... I just loved climbing, and I've been climbing all the time ever since, so I've naturally gotten better at it.\"\n\n## Recent Achievement\n\nOn January 25, 2026, Honnold completed the first-ever free solo ascent of Taipei 101 in Taiwan, reaching the 508-meter structure's summit in 1 hour and 36 minutes without ropes—a watershed moment in buildering history.",
+      "excerpt": "Alex Honnold (born 1985, USA) became the first person to free solo El Capitan's Freerider route (5.13a, 884m) on June 3, 2017, in 3h56m. The New York Times called it 'one of the great athletic feats of any kind, ever.' Documented in Oscar-winning 'Free Solo' (2018). Philosophy: 'I just loved climbing, and I've been climbing all the time ever since.'",
+      "notes": "Wikipedia基础信息页。核心话题：El Capitan无保护首登、哲学、纪录片。建议后续搜索Honnold的训练方法专访（红牛媒体、climbing.com均有深度内容）。"
+    },
+    {
+      "id": "src-010",
+      "keyword": ["big wall climbing legends", "first free ascent climbing history", "Dawn Wall El Capitan"],
+      "url": "https://en.wikipedia.org/wiki/Tommy_Caldwell",
+      "title": "Tommy Caldwell - Wikipedia",
+      "source": "Wikipedia",
+      "author": "unknown",
+      "language": "en",
+      "publishDate": "unknown",
+      "fetchMethod": "r.jina.ai",
+      "fetchDate": "2026-03-07",
+      "wordCount": 450,
+      "fullText": "# Tommy Caldwell: Biography and Climbing Achievements\n\n## Early Life and Background\n\nTommy Caldwell was born August 11, 1978, in Estes Park, Colorado, and grew up in Loveland, Colorado. His father, Mike Caldwell, was a former teacher, professional bodybuilder, mountain guide, and rock climber who introduced Tommy to climbing at a young age. His mother, Terry, also worked as a mountain guide. The family made annual trips to Yosemite National Park, where Caldwell's passion for climbing flourished.\n\n## Major Achievements\n\n**Record-Breaking First Ascents:**\nCaldwell has completed numerous significant first ascents, including *Flex Luthor* (9a+/5.15a) in 2003 at Colorado's Fortress of Solitude, which remained unrepeated for 18 years. He made first free ascents of multiple El Capitan routes including *Dihedral Wall* and *West Buttress*.\n\n**The Dawn Wall (2015):**\nCaldwell's most celebrated achievement came in January 2015 when he and Kevin Jorgeson completed the first free climb of The Dawn Wall on El Capitan over 19 days. This represented \"the first-ever big wall free climb at 9a (5.14d) in history.\" President Barack Obama congratulated them, stating: \"You remind us that anything is possible.\"\n\n**Speed Records:**\nIn 2018, Caldwell and Alex Honnold set a sub-2-hour speed record on The Nose (1:58:07).\n\n**Climbing Specialization:**\nNational Geographic called Caldwell \"arguably the best all-around rock climber on the planet\" in 2015, noting his mastery across traditional climbing, sport climbing, and big-wall climbing.\n\n## Personal Adversity\n\nDespite losing most of his left index finger in a 2001 table saw accident, Caldwell continued climbing at elite levels. He also survived a six-day hostage situation in Kyrgyzstan in 2000. In 2022, he tore his Achilles tendon while climbing and experienced multiple re-ruptures during recovery.\n\n## Personal Life\n\nCaldwell married fellow climber Beth Rodden in 2003; they divorced in 2010. He married photographer Rebecca Pietsch in 2012, and they have two children, currently residing in Estes Park, Colorado.",
+      "excerpt": "Tommy Caldwell (born 1978, USA) and Kevin Jorgeson completed the first free climb of The Dawn Wall on El Capitan in January 2015—the 'first-ever big wall free climb at 9a in history'—over 19 days. National Geographic called him 'arguably the best all-around rock climber on the planet.' He continued climbing at elite levels after losing most of his left index finger in 2001.",
+      "notes": "Wikipedia综合信息页。核心话题：Dawn Wall首次自由攀、多次首登、逆境故事。其与Kevin Jorgeson的Dawn Wall故事有同名纪录片（2017）。"
+    },
+    {
+      "id": "src-011",
+      "keyword": ["first free ascent climbing history", "Yosemite climbing pioneers", "Lynn Hill Nose El Capitan"],
+      "url": "https://www.planetmountain.com/en/news/climbing/lynn-hill-25-years-ago-the-first-free-ascent-of-the-nose-on-el-capitan.html",
+      "title": "Lynn Hill / 25 years ago the first free ascent of The Nose on El Capitan",
+      "source": "PlanetMountain",
+      "author": "unknown",
+      "language": "en",
+      "publishDate": "2018",
+      "fetchMethod": "r.jina.ai",
+      "fetchDate": "2026-03-07",
+      "wordCount": 400,
+      "fullText": "# Lynn Hill's Historic Free Ascent of The Nose\n\n## The First Free Ascent (1993)\n\nLynn Hill accomplished a groundbreaking achievement in September 1993 when she completed the first free ascent of The Nose on El Capitan. Partnered with Brooke Sandahl, the 32-year-old climber took four days to accomplish this monumental feat in mid-September. The article notes that this ascent \"stunned absolutely everyone\" at the time, representing a watershed moment in climbing history.\n\nHill's journey to this achievement included an earlier 1989 attempt with British climber Simon Nadin, during which they successfully unlocked one of the route's most challenging sections: \"the famous Great Roof.\"\n\n## The One-Day Free Ascent (1994)\n\nOne year after her initial success, Hill elevated her accomplishment further. In September 1994, she and Steve Sutton completed a free ascent in just 23 hours, starting at night on September 19. The article describes this performance as \"lightyears ahead of its time\" and calls it \"a major milestone in the rich history of rock climbing.\"\n\n## Route Specifications\n\nThe Nose spans 870 meters across 31 pitches with a grade of either 5.13c or 5.9 A2. The route was first ascended in 1958 by Warren Harding, Wayne Merry, and George Whitmore, taking 47 days to complete.\n\n## Legacy and Subsequent Ascents\n\nAs of the article's 2018 publication, free repeats of The Nose remained exceptionally rare, with only a handful of climbers successfully completing free ascents over the preceding 25 years.",
+      "excerpt": "Lynn Hill (born 1961, USA) completed the first free ascent of The Nose on El Capitan in September 1993 (4 days, with Brooke Sandahl), 'stunning absolutely everyone.' One year later, she repeated it in just 23 hours—'lightyears ahead of its time.' The Nose is 870m with grade 5.13c, first ascended in 1958 by Harding et al. (47 days).",
+      "notes": "2018年纪念文章（The Nose自由首登25周年）。核心话题：历史首登、女性攀岩先驱、Yosemite历史。建议后续搜索Lynn Hill的训练理念采访。"
+    },
+    {
+      "id": "src-012",
+      "keyword": ["campus board invention Wolfgang Gullich", "climbing training pioneer"],
+      "url": "https://en.wikipedia.org/wiki/Wolfgang_G%C3%BCllich",
+      "title": "Wolfgang Güllich - Wikipedia",
+      "source": "Wikipedia",
+      "author": "unknown",
+      "language": "en",
+      "publishDate": "unknown",
+      "fetchMethod": "search-result-summary",
+      "fetchDate": "2026-03-07",
+      "wordCount": 300,
+      "fullText": "# Wolfgang Güllich: Campus Board Inventor and Sport Climbing Pioneer\n\n## Overview\nWolfgang Güllich (1960-1992) was a German rock climber widely considered one of the greatest and most influential climbers in the history of the sport. With long-time climbing partner Kurt Albert, he revolutionized training techniques for sport climbers.\n\n## Campus Board Invention (1988)\nWhile training for the extreme route Action Directe, Güllich invented the campus board in 1988 at a gym called 'The Campus Centre' in Nuremberg. The board was designed to develop plyometric strength in fingers and arms—users ascend using only their hands, often leaping between holds. This invention transformed climbing training globally and remains widely used today.\n\n## First 9a Ascent\nGüllich completed the first ascent of Action Directe (9a/5.14d) in 1991 in the Frankenjura, Germany—the world's first route graded 9a. This was the hardest sport climb in the world at the time.\n\n## Legacy\nGüllich's structured approach to training, focusing on explosive power and finger strength, inspired generations of climbers from early adopters like Jerry Moffatt to modern climbers like Alex Megos. He died in a car accident in 1992, aged 31. His campus board invention continues to be used in virtually every climbing gym worldwide.\n\n## Key Principles\nGüllich brought scientific structure to climbing training, emphasizing explosive power and finger strength development—concepts that underpin modern campus board training methodology.",
+      "excerpt": "Wolfgang Güllich (Germany, 1960-1992) invented the campus board in 1988 while training for Action Directe, and completed the world's first 9a ascent (Action Directe, Frankenjura, 1991). His structured training approach emphasizing explosive power and finger strength inspired generations of climbers. He died in 1992 aged 31.",
+      "notes": "警告：此条目的fullText来自搜索结果摘要（非完整原文抓取），因原始Wikipedia页面未被成功抓取。fetchMethod标记为'search-result-summary'。建议后续补充完整Wikipedia抓取。核心话题：Campus board发明、Action Directe首登、训练方法革命。"
+    }
+  ]
+}

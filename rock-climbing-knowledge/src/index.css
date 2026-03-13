@@ -13,7 +13,7 @@
   --color-amber: #D4913D;
   --color-amber-light: #FDF3E7;
 
-  --font-sans: "Inter", "PingFang SC", "Microsoft YaHei", "Helvetica Neue", sans-serif;
+  --font-sans: "Helvetica Neue", "Helvetica", "PingFang SC", "Microsoft YaHei", "Arial", sans-serif;
 }
 
 body {

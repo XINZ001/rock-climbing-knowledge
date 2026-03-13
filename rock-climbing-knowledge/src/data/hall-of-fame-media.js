@@ -1,522 +1,131 @@
 const hallOfFameMedia = {
-  'ath-001': {
-    cardImage: {
-      src: 'https://commons.wikimedia.org/wiki/Special:FilePath/John_Gill_1968.jpg',
-      alt: {
-        zh: 'John Gill 1968 年在 Boulder 的站立照片',
-        en: 'Standing portrait of John Gill in Boulder, 1968'
-      },
-      scale: 1.08,
-      translateX: '4%',
-      objectPosition: 'center top'
-    },
-    images: [
-      {
-        src: 'https://commons.wikimedia.org/wiki/Special:FilePath/John_Gill_1968.jpg',
-        alt: {
-          zh: 'John Gill 1968 年在 Boulder 的站立照片',
-          en: 'Standing portrait of John Gill in Boulder, 1968'
-        },
-        caption: {
-          zh: 'John Gill 于 1968 年在 Boulder 的站立照片。',
-          en: 'Standing portrait of John Gill in Boulder in 1968.'
-        },
-        creditLabel: 'Wikimedia Commons / Pat Ament',
-        creditUrl: 'https://commons.wikimedia.org/wiki/File:John_Gill_1968.jpg'
-      }
-    ],
-    videos: [
-      {
-        title: {
-          zh: 'John Gill 讲早期抱石哲学',
-          en: 'John Gill Explains His Early Philosophy of Bouldering'
-        },
-        url: 'https://www.youtube.com/watch?v=8FdMLil9lNU',
-        channel: 'YouTube Archive',
-        platform: 'youtube',
-        lang: 'en',
-        summary: {
-          zh: 'Gill 回顾早期抱石为什么应被视为独立门类，以及他如何看待动作、自由与形式。',
-          en: 'Gill reflects on why bouldering should be treated as its own discipline and how he thinks about movement, freedom, and form.'
-        },
-        relevance: 'primary'
-      },
-      {
-        title: {
-          zh: '电影《On the Rocks》中的 John Gill 片段',
-          en: 'John Gill Bouldering at 45 from On the Rocks'
-        },
-        url: 'https://www.youtube.com/watch?v=p9yaGXFkC8M',
-        channel: 'Climbing History archive',
-        platform: 'youtube',
-        lang: 'en',
-        summary: {
-          zh: '展示 Gill 在成年阶段仍保持极高动作控制能力，也能更直观看到他的“形式优先”风格。',
-          en: 'Shows Gill still climbing with exceptional control later in life, making his form-first style easier to see.'
-        },
-        relevance: 'secondary'
-      }
-    ],
-    timeline: [
-      {
-        year: '1950s',
-        detail: {
-          zh: '从体操背景转向抱石，把动态发力与镁粉使用带入攀岩。',
-          en: 'Moved from gymnastics into bouldering, bringing dynamic movement and chalk into climbing.'
-        }
-      },
-      {
-        year: '1957',
-        detail: {
-          zh: '完成当时极具突破性的 V8 抱石问题。',
-          en: 'Completed what is remembered as a breakthrough V8 boulder problem.'
-        }
-      },
-      {
-        year: '1959',
-        detail: {
-          zh: '再把当时世界级上限推进到 V9。',
-          en: 'Pushed the global upper end again with a V9-level ascent.'
-        }
-      },
-      {
-        year: '1969',
-        detail: {
-          zh: '发表《The Art of Bouldering》，把抱石的独立身份和审美标准写进攀岩文化。',
-          en: 'Published The Art of Bouldering, formalizing bouldering’s independent identity and aesthetic standards.'
-        }
-      }
-    ],
-    interviewNotes: [
-      {
-        zh: 'Gill 把攀登看成兼具游戏性与精神性的实践，这让他的影响不只停留在难度数字。',
-        en: 'Gill treats climbing as both playful and deeply experiential, which is why his legacy extends beyond grades.'
-      },
-      {
-        zh: '他反复强调动作质量、节奏与优雅，而不是只谈效率或结果。',
-        en: 'He repeatedly emphasized movement quality, rhythm, and elegance rather than efficiency or results alone.'
-      },
-      {
-        zh: '在后来者的回顾里，他更像是给抱石定义了“为什么值得做”的人。',
-        en: 'In later retrospectives, he appears as the figure who explained why bouldering was worth pursuing at all.'
-      }
-    ],
-    furtherReading: [
-      {
-        title: 'American Alpine Club Legacy Series: John Gill',
-        source: 'American Alpine Club',
-        url: 'https://americanalpineclub.org/news/2022/7/26/legacy-series-john-gill'
-      },
-      {
-        title: 'John Gill, Visionary Bouldering Master',
-        source: 'Lynn Hill Climbing',
-        url: 'https://lynnhillclimbing.com/media/essays/john-gill-visionary-bouldering-master/'
-      }
-    ]
-  },
-  'ath-002': {
-    cardImage: {
-      src: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lynn_Hill_in_Stavanger_during_world_cup_in_climbing_2015_crop.JPG',
-      alt: {
-        zh: 'Lynn Hill 在 2015 Stavanger 世界杯现场的近景照',
-        en: 'Close-up of Lynn Hill at the 2015 Stavanger World Cup'
-      },
-      scale: 1.04,
-      translateX: '0%',
-      objectPosition: 'center top'
-    },
-    images: [
-      {
-        src: 'https://commons.wikimedia.org/wiki/Special:FilePath/Lynn_Hill_in_Stavanger_during_world_cup_in_climbing_2015_crop.JPG',
-        alt: {
-          zh: 'Lynn Hill 在 2015 Stavanger 世界杯现场的近景照',
-          en: 'Close-up of Lynn Hill at the 2015 Stavanger World Cup'
-        },
-        caption: {
-          zh: 'Lynn Hill 在 2015 Stavanger 世界杯现场的近景照片。',
-          en: 'Close-up photo of Lynn Hill at the 2015 Stavanger World Cup.'
-        },
-        creditLabel: 'Wikimedia Commons / Jarle Vines',
-        creditUrl: 'https://commons.wikimedia.org/wiki/File:Lynn_Hill_in_Stavanger_during_world_cup_in_climbing_2015_crop.JPG'
-      }
-    ],
-    videos: [
-      {
-        title: {
-          zh: 'Lynn Hill: A Magician Needs A Stage',
-          en: 'Lynn Hill: A Magician Needs A Stage'
-        },
-        url: 'https://www.youtube.com/watch?v=aO-vIk3Qt8o',
-        channel: 'Climbing Gold with Alex Honnold',
-        platform: 'youtube',
-        lang: 'en',
-        summary: {
-          zh: '围绕 The Nose、职业生涯与历史影响的一期深度访谈式节目，适合补全 Hill 的时代位置。',
-          en: 'A deep episode around The Nose, Hill’s career, and her historical impact.'
-        },
-        relevance: 'primary'
-      },
-      {
-        title: {
-          zh: 'The Fundamentals of Climbing',
-          en: 'The Fundamentals of Climbing'
-        },
-        url: 'https://lynnhillclimbing.com/fundamentals-of-climbing/',
-        channel: 'Lynn Hill Climbing',
-        platform: 'web',
-        lang: 'en',
-        summary: {
-          zh: 'Hill 官方教学项目主页，能直接对应她在名人堂中的训练与动作哲学部分。',
-          en: 'Hill’s official teaching project page, directly tied to her movement and training philosophy.'
-        },
-        relevance: 'primary'
-      }
-    ],
-    timeline: [
-      {
-        year: '1979',
-        detail: {
-          zh: '完成女性首个 5.12d，开始被视为极限难度推进者。',
-          en: 'Became the first woman to climb 5.12d and emerged as a difficulty pioneer.'
-        }
-      },
-      {
-        year: '1990',
-        detail: {
-          zh: '完成女性首个 5.14a。',
-          en: 'Completed the first female ascent of 5.14a.'
-        }
-      },
-      {
-        year: '1993',
-        detail: {
-          zh: '完成 The Nose 全自由首登，改写大岩壁自由攀历史。',
-          en: 'Made the first free ascent of The Nose, redefining big-wall free climbing.'
-        }
-      },
-      {
-        year: '1994',
-        detail: {
-          zh: '再以一日完成 The Nose all-free，证明该成就不是偶然。',
-          en: 'Repeated The Nose all free in a day, proving the achievement was not a one-off.'
-        }
-      }
-    ],
-    interviewNotes: [
-      {
-        zh: 'Hill 常把“风格”和“责任”放在一起谈，说明她眼中的自由攀不仅是表现，也是一种判断力。',
-        en: 'Hill often links style with responsibility, showing that free climbing is not only performance but judgment.'
-      },
-      {
-        zh: '她的表达里很少只有“我有多强”，更多是“我如何理解环境、风险和动作”。',
-        en: 'Her voice is rarely just about strength; it is more often about how she reads environment, risk, and movement.'
-      },
-      {
-        zh: '后期的 Hill 更像一位长期实践者，把传授动作基础看得和成绩同样重要。',
-        en: 'Later-career Hill comes across as a long-term practitioner who values teaching fundamentals as much as achievement.'
-      }
-    ],
-    furtherReading: [
-      {
-        title: 'Biography',
-        source: 'Lynn Hill Climbing',
-        url: 'https://lynnhillclimbing.com/biography/'
-      },
-      {
-        title: 'Journeys of the Rock',
-        source: 'Lynn Hill Climbing',
-        url: 'https://lynnhillclimbing.com/media/essays/journeys-of-the-rock/'
-      },
-      {
-        title: 'Climbing Wisdom',
-        source: 'Lynn Hill Climbing',
-        url: 'https://lynnhillclimbing.com/media/essays/climbing-wisdom/'
-      }
-    ]
-  },
   'ath-101': {
-    cardImage: {
-      src: '/images/hall-of-fame/janja.jpeg',
-      alt: {
-        zh: 'Janja Garnbret 在伯尔尼 2023 夺冠后挥手的比赛照片',
-        en: 'Janja Garnbret waving after winning in Bern 2023'
-      },
-      scale: 1.2,
-      translateX: '4%',
-      objectPosition: 'center top'
-    },
-    images: [
-      {
-        src: '/images/hall-of-fame/janja.jpeg',
-        alt: {
-          zh: 'Janja Garnbret 在伯尔尼 2023 夺冠后挥手的比赛照片',
-          en: 'Janja Garnbret waving after winning in Bern 2023'
-        },
-        caption: {
-          zh: 'Janja Garnbret 在比赛现场挥手致意的照片。',
-          en: 'Photo of Janja Garnbret waving at the competition venue.'
-        },
-        creditLabel: 'User-provided image',
-        creditUrl: 'https://mariborinfo.com/novica/sport/izjemna-janja-garnbret-uvrstitev-na-olimpijske-igre-nadgradila-se-z-naslovom-svetovne'
-      },
-      {
-        src: 'https://commons.wikimedia.org/wiki/Special:FilePath/Janja_Garnbret,_Bern_2023,_4.jpg',
-        alt: {
-          zh: 'Janja Garnbret 在 2023 伯尔尼世锦赛中的比赛照',
-          en: 'Janja Garnbret competing at the 2023 World Championships in Bern'
-        },
-        caption: {
-          zh: 'Janja Garnbret 在伯尔尼世锦赛中的比赛照片。',
-          en: 'Competition photo of Janja Garnbret at the World Championships in Bern.'
-        },
-        creditLabel: 'Wikimedia Commons / Cipcippy',
-        creditUrl: 'https://commons.wikimedia.org/wiki/File:Janja_Garnbret,_Bern_2023,_4.jpg'
-      }
-    ],
+    images: [],
     videos: [
       {
-        title: {
-          zh: 'Janja Garnbret Unfiltered: Climbing’s Greatest Competitor',
-          en: 'Janja Garnbret Unfiltered: Climbing’s Greatest Competitor'
-        },
+        title: { zh: 'Janja Garnbret Unfiltered：攀岩史上最强竞争者', en: 'Janja Garnbret Unfiltered: Climbing\'s Greatest Competitor' },
         url: 'https://www.youtube.com/watch?v=JmlSSD7jDSI',
         channel: 'adidas TERREX',
         platform: 'youtube',
         lang: 'en',
-        summary: {
-          zh: '围绕成长背景、早期比赛和自我认知的长访谈，是理解她“为什么能长期统治”的最好入口之一。',
-          en: 'A long interview on early competition years, upbringing, and self-belief.'
-        },
+        summary: { zh: '扬娅谈 7 岁起步、舞蹈与攀岩、自我表达与命运感。', en: 'Janja on starting at 7, dance vs climbing, self-expression and destiny.' },
         relevance: 'primary'
       },
       {
-        title: {
-          zh: 'Janja Garnbret Unfiltered: Mindset Ahead of Paris 2024 Olympics',
-          en: 'Janja Garnbret Unfiltered: Mindset Ahead of Paris 2024 Olympics'
-        },
+        title: { zh: 'Janja Garnbret Unfiltered：巴黎奥运前心态', en: 'Janja Garnbret Unfiltered: Mindset Ahead of Paris 2024 Olympics' },
         url: 'https://www.youtube.com/watch?v=nN80Ct82TIc',
         channel: 'adidas TERREX',
         platform: 'youtube',
         lang: 'en',
-        summary: {
-          zh: '集中谈东京后的心理变化、巴黎备战压力与她对成功和自信的定义。',
-          en: 'Focused on her post-Tokyo mindset, Paris pressure, and how she defines success and confidence.'
-        },
+        summary: { zh: '东京与巴黎压力对比、成功定义、自信与享受攀岩。', en: 'Tokyo vs Paris pressure, definition of success, confidence and fun.' },
         relevance: 'primary'
       },
       {
-        title: {
-          zh: 'Janja Garnbret Unfiltered: Mental health, body image and insecurities',
-          en: 'Janja Garnbret Unfiltered: Mental health, body image and insecurities'
-        },
+        title: { zh: 'Janja Garnbret Unfiltered：心理健康与身体形象', en: 'Janja Garnbret Unfiltered: Mental health, body image and insecurities' },
         url: 'https://www.youtube.com/watch?v=pZCmsYxHRB8',
         channel: 'adidas TERREX',
         platform: 'youtube',
         lang: 'en',
-        summary: {
-          zh: '这集对心理健康、饮食文化、训练周期和女性运动员议题谈得更深。',
-          en: 'A deeper discussion of mental health, body image, fueling, and training as a female athlete.'
-        },
-        relevance: 'secondary'
-      },
-      {
-        title: {
-          zh: 'Koper 2024 第一天：和 Janja 聊几句',
-          en: 'Chatting with Janja Garnbret and a lot more on day one!'
-        },
-        url: 'https://www.youtube.com/watch?v=bC1KEFG3VmE',
-        channel: 'World Climbing',
-        platform: 'youtube',
-        lang: 'en',
-        summary: {
-          zh: '更轻松的赛事现场采访，适合补她在赛场环境里的状态感。',
-          en: 'A lighter event-floor interview that captures her competition presence.'
-        },
-        relevance: 'secondary'
+        summary: { zh: '心理师选择、生理周期与表现、身体形象与攀岩界的健康讨论。', en: 'On psychologists, periods and performance, body image and health in climbing.' },
+        relevance: 'primary'
       }
     ],
+    bilibiliVideos: [],
+    podcasts: [],
     timeline: [
-      {
-        year: '2013',
-        detail: {
-          zh: '开始国际赛场生涯。',
-          en: 'Began competing internationally.'
-        }
-      },
-      {
-        year: '2021',
-        detail: {
-          zh: '东京 2020 奥运成为首位攀岩奥运冠军。',
-          en: 'Won the first Olympic gold in sport climbing at Tokyo 2020.'
-        }
-      },
-      {
-        year: '2024',
-        detail: {
-          zh: '巴黎 2024 成功卫冕，巩固 GOAT 讨论中的领先位置。',
-          en: 'Defended Olympic gold at Paris 2024 and strengthened her GOAT status.'
-        }
-      },
-      {
-        year: '2025',
-        detail: {
-          zh: 'Koper 拿到第 49 个世界杯金牌，首尔世锦赛完成抱石与难度双金。',
-          en: 'Reached 49 World Cup golds in Koper and swept Boulder and Lead gold in Seoul.'
-        }
-      }
+      { year: '2007', detail: { zh: '7 岁开始攀岩', en: 'Started climbing at 7' } },
+      { year: '2008', detail: { zh: '8 岁首次参赛', en: 'First competition at 8' } },
+      { year: '2009', detail: { zh: '9 岁全国难度总冠军', en: 'National lead overall title at 9' } },
+      { year: '2015', detail: { zh: '进入成人国际赛', en: 'Senior international debut' } },
+      { year: '2021', detail: { zh: '东京奥运全能金牌', en: 'Olympic combined gold, Tokyo' } },
+      { year: '2024', detail: { zh: '巴黎奥运全能金牌', en: 'Olympic combined gold, Paris' } },
+      { year: '2025', detail: { zh: '首尔世锦赛难度+抱石双金，世锦赛金牌达 10 枚', en: 'Double gold Lead + Boulder at Seoul World Champs; 10 World Championship golds' } }
     ],
     interviewNotes: [
-      {
-        zh: '她越来越明确地把“享受攀登”当成高水平表现的一部分，而不是成绩之后的附属品。',
-        en: 'She increasingly treats enjoyment as part of elite performance, not something separate from it.'
-      },
-      {
-        zh: '面对心理健康、饮食和女性运动员压力时，她的表达比很多冠军更直接，也更具公共性。',
-        en: 'She speaks more directly than many champions about mental health, food, and female-athlete pressure.'
-      },
-      {
-        zh: '她的竞争心态不是消灭压力，而是把压力转回到自己熟悉的节奏里。',
-        en: 'Her competitive mindset is not about erasing pressure, but reabsorbing it into a familiar rhythm.'
-      }
+      { zh: '巴黎决赛手指卡住后仍完成难度路线，靠「这是你的日子」的自我对话与对攀岩之爱的提醒完成临场调节。', en: 'After catching her finger in the Paris final she still climbed the lead route, using self-talk and remembering why she loves climbing to reset.' },
+      { zh: '95% 岩壁、零指力板与零额外体能的训练方式，与「享受即胜利」的信念，构成她区别于多数精英的鲜明体系。', en: '95% wall time, no fingerboard, no extra fitness—and \"if I\'m not having fun I won\'t win\"—define her distinct approach.' }
     ],
     furtherReading: [
-      {
-        title: 'World Climbing Athlete Profile',
-        source: 'World Climbing',
-        url: 'https://www.worldclimbing.com/athlete/1147/janja-garnbret'
-      },
-      {
-        title: 'Garnbret Triumphs on Comeback with Four-Top Masterclass',
-        source: 'World Climbing',
-        url: 'https://www.worldclimbing.com/events/ifsc-world-cup-innsbruck-2025/news/garnbret-triumphs-on-comeback-with-four-top-masterclass'
-      },
-      {
-        title: 'Garnbret Adds Boulder Gold to Ever Growing Number of World Titles',
-        source: 'World Climbing',
-        url: 'https://www.worldclimbing.com/events/ifsc-climbing-world-championships-seoul-2025/news/garnbret-adds-boulder-gold-to-ever-growing-number-of-world-titles'
-      }
+      { title: 'Where the Heck Does Janja Garnbret Go From Here?', source: 'Climbing Magazine', url: 'https://www.climbing.com/people/janja-garnbret-post-olympic-2024-interview/' },
+      { title: 'How Janja Garnbret Beat Everyone By Preparing For The Worst', source: 'Climbing Magazine', url: 'https://www.climbing.com/people/janja-garnbret-olympic-sport-climbing-gold-worlds-bestcompetitor/' },
+      { title: 'Why Janja Garnbret Says Her Coach Makes Winning "Even Remotely Possible"', source: 'Climbing Magazine', url: 'https://www.climbing.com/people/why-janja-garnbret-says-her-coach-makes-winning-even-remotely-possible/' },
+      { title: 'Janja trains almost only on a spraywall', source: '8a.nu / Vertical-Life', url: 'https://www.8a.nu/news/janja-trains-almost-only-on-a-spraywall' },
+      { title: 'After Double Gold in Seoul and 10 World Championship Wins', source: 'Climbing Magazine', url: 'https://www.climbing.com/news/double-gold-seoul-2025-janja-garnbret/' }
     ]
   },
-  'ath-201': {
-    cardImage: {
-      src: 'https://www.worldclimbing.com/_next/image?q=75&url=https%3A%2F%2Fimages.ifsc-climbing.org%2Fifsc%2Fimage%2Fprivate%2Ft_ratio1_1-size60-f_webp-c_fill%2Fprd%2Fz3tiaq3ckmqlcq2eudsp&w=828',
-      alt: {
-        zh: '潘愚非在 Bern 2025 比赛中的面部近景',
-        en: 'Close-up of Pan Yufei during competition in Bern 2025'
-      },
-      scale: 1.14,
-      translateX: '8%',
-      objectPosition: 'center top'
-    },
-    images: [
-      {
-        src: 'https://www.worldclimbing.com/_next/image?q=75&url=https%3A%2F%2Fimages.ifsc-climbing.org%2Fifsc%2Fimage%2Fprivate%2Ft_ratio1_1-size60-f_webp-c_fill%2Fprd%2Fz3tiaq3ckmqlcq2eudsp&w=828',
-        alt: {
-          zh: '潘愚非在 Bern 2025 比赛中的面部近景',
-          en: 'Close-up of Pan Yufei during competition in Bern 2025'
-        },
-        caption: {
-          zh: '潘愚非在 Bern 2025 比赛中的近景照片。',
-          en: 'Close-up photo of Pan Yufei competing in Bern 2025.'
-        },
-        creditLabel: 'World Climbing / Bern 2025',
-        creditUrl: 'https://www.worldclimbing.com/news/pan-claims-first-career-win-on-the-world-cup-stage'
-      }
-    ],
-    videos: [
-      {
-        title: {
-          zh: 'Yufei Pan | Athlete of the Week',
-          en: 'Yufei Pan | Athlete of the Week'
-        },
-        url: 'https://www.youtube.com/watch?v=--luEieQuOQ',
-        channel: 'World Climbing',
-        platform: 'youtube',
-        lang: 'en',
-        summary: {
-          zh: '围绕伯尔尼夺冠后的个人故事和心理变化，是目前最直接的人物短片之一。',
-          en: 'A short official portrait centered on Bern and Pan’s shift in confidence.'
-        },
-        relevance: 'primary'
-      },
-      {
-        title: {
-          zh: 'Pan Yufei 在伯尔尼创造历史',
-          en: 'Chinese climber Pan Yufei makes history with victory in Bern'
-        },
-        url: 'https://www.youtube.com/watch?v=iCA0TzcZl9U',
-        channel: 'China Focus',
-        platform: 'youtube',
-        lang: 'en',
-        summary: {
-          zh: '新闻短片，聚焦他成为首位赢得男子抱石世界杯分站金牌的中国选手。',
-          en: 'A short news package on Pan becoming the first Chinese man to win a Boulder World Cup event.'
-        },
-        relevance: 'secondary'
-      }
-    ],
-    timeline: [
-      {
-        year: '2014',
-        detail: {
-          zh: '开始参加国际青年赛，逐步进入世界赛体系。',
-          en: 'Entered international youth competition and began building a world-stage career.'
-        }
-      },
-      {
-        year: '2021',
-        detail: {
-          zh: '参加东京奥运，获得 combined 第 14。',
-          en: 'Competed at Tokyo and finished 14th in the combined event.'
-        }
-      },
-      {
-        year: '2024',
-        detail: {
-          zh: '再次进入奥运体系，在巴黎 Boulder & Lead 获得第 12。',
-          en: 'Returned to the Olympics and finished 12th in Boulder & Lead at Paris.'
-        }
-      },
-      {
-        year: '2025',
-        detail: {
-          zh: '伯尔尼拿下个人首个世界杯金牌，也成为中国男子抱石历史性突破。',
-          en: 'Won his first World Cup gold in Bern, a historic breakthrough for Chinese men’s bouldering.'
-        }
-      }
-    ],
-    interviewNotes: [
-      {
-        zh: 'Pan 的公开表达很克制，几乎所有重点都回到“每轮重新开始”和“不要给自己太多压力”。',
-        en: 'Pan speaks in a restrained way, repeatedly returning to resetting each round and reducing pressure.'
-      },
-      {
-        zh: '伯尔尼之后他没有把自己包装成突然爆发的英雄，而是更强调此前几年确实很难。',
-        en: 'After Bern he did not frame himself as a sudden hero, but openly acknowledged that the previous years had been hard.'
-      },
-      {
-        zh: '这种语气很适合补中国竞技攀岩人物叙事里常缺的“心理过程层”。',
-        en: 'That tone adds a psychological layer often missing from Chinese competition-climbing storytelling.'
-      }
-    ],
-    furtherReading: [
-      {
-        title: 'World Climbing Athlete Profile',
-        source: 'World Climbing',
-        url: 'https://www.worldclimbing.com/athlete/2947/yufei_pan'
-      },
-      {
-        title: 'Pan Claims First Career Win on the World Cup Stage',
-        source: 'World Climbing',
-        url: 'https://www.worldclimbing.com/news/pan-claims-first-career-win-on-the-world-cup-stage'
-      },
-      {
-        title: 'Rookies and Champions Advance to Semi-Final',
-        source: 'World Climbing',
-        url: 'https://www.worldclimbing.com/news/rookies-and-champions-advance-to-semi-final'
-      }
-    ]
-  }
+  'ath-102': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'TBP 086: Adam Ondra on Silence', source: 'TrainingBeta', url: 'https://www.trainingbeta.com/media/adam-ondra-silence/' }, { title: 'TBP 017: Adam Ondra — Things About Training', source: 'TrainingBeta', url: 'https://www.trainingbeta.com/media/tbp-017-adam-ondra-things-training/' }] },
+  'ath-103': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Alberto Ginés López: Young, Strong and Taciturn', source: 'Lacrux', url: 'https://www.lacrux.com/en/klettern/alberto-gines-lopez-young,-strong-and-taciturn/' }] },
+  'ath-104': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Anze Peharc Interview', source: 'OCÚN', url: 'https://www.ocun.com/news/interview-with-anze-peharc' }] },
+  'ath-105': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Brooke Raboutou — The Nugget EP200', source: 'The Nugget Climbing Podcast', url: 'https://thenuggetclimbing.com/episodes/brooke-raboutou' }] },
+  'ath-106': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Colin Duffy: Applying Math to Sport Climbing', source: 'olympics.com', url: 'https://www.olympics.com/en/news/colin-duffy-olympian-applying-math-sport-climbing' }] },
+  'ath-107': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Jakob Schubert: Once a Competitor, Always a Competitor', source: 'Lacrux', url: 'https://www.lacrux.com/en/klettern/an-interview-with-jakob-schubert-once-a-competitor-always-a-competitor/' }] },
+  'ath-108': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Laura Rogora — First Woman to Climb 9b/+ (Erebor)', source: 'Lacrux', url: 'https://www.lacrux.com/en/klettern/laura-rogora-is-the-first-woman-to-climb-grade-9b-with-erebor/' }] },
+  'ath-109': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'The Basque Guru Who Trains the World\'s Best', source: 'Outside Online', url: 'https://www.outsideonline.com/outdoor-adventure/climbing/training-guru-behind-worlds-best-climbers/' }] },
+  'ath-110': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'All About Ramonet', source: 'Rest Jug', url: 'https://www.restjug.com/2013/11/all-about-ramon-julian-puigblanque/' }] },
+  'ath-111': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Romain Desgranges Interview', source: '8a.nu', url: 'https://www.8a.nu/news/romain-desgranges-interview' }] },
+  'ath-112': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'TBP 051: Sean McColl — How He Trains', source: 'TrainingBeta', url: 'https://www.trainingbeta.com/media/sean-mccoll/' }] },
+  'ath-113': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Sorato Anraku — Schoolboy to World Champion', source: 'olympics.com', url: 'https://www.olympics.com/en/news/asian-qualifier-paris-2024-sport-climbing-japan-anraku-sorato-school' }] },
+  'ath-114': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Stefano Ghisolfi — Lattice Key Strategies', source: 'Lattice Training', url: 'https://latticetraining.com/blog/stefano-ghisolfi-interview-key-strategies/' }] },
+  'ath-115': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'TBP 021: Alex Puccio — Training, Bodyweight, and Crowdfunding', source: 'TrainingBeta', url: 'https://www.trainingbeta.com/media/tbp-021-alex-puccio/' }] },
+  'ath-116': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Generation 5.16: The Ashima Shiraishi Profile', source: 'Climbing Magazine', url: 'https://www.climbing.com/people/generation-5-16-the-ashima-shiraishi-profile/' }, { title: 'The Evolution of Ashima Shiraishi', source: 'Arc\'teryx Blog', url: 'https://blog.arcteryx.com/stories/the-evolution-of-ashima-shiraishi/' }] },
+  'ath-117': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Guillaume Glairon-Mondet', source: 'Climbing History', url: 'https://climbing-history.org/climber/839/guillaume-glairon-mondet' }] },
+  'ath-118': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Jan Hojer — The Big Power House', source: '8a.nu', url: 'https://www.8a.nu/news/jan-hojer-the-big-power-house' }] },
+  'ath-119': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Kokoro Fujii 2021 World Championship Gold', source: 'olympics.com', url: 'https://www.olympics.com/en/news/ifsc-climbing-world-championships-men-bouldering-kokoro-fujii-japan' }] },
+  'ath-120': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Mejdi Schalck — World Cup Winning Recipe', source: '8a.nu', url: 'https://www.8a.nu/news/mejdi-schalck-18-winning-world-cup-recipe' }] },
+  'ath-121': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'TBP 107: Nathaniel Coleman — Staying Positive and Training to Win', source: 'TrainingBeta', url: 'https://www.trainingbeta.com/media/nathaniel-coleman/' }, { title: 'The Nugget EP94: Nathaniel Coleman', source: 'The Nugget Climbing Podcast', url: 'https://thenuggetclimbing.com/episodes/nathaniel-coleman' }] },
+  'ath-122': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Rustam Gelmanov — The Russian Rocket', source: 'TripleBlack', url: 'https://www.tripleblack.com/rustam-gelmanov' }] },
+  'ath-123': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Tomoa Narasaki — Coordination Training Method', source: 'Gripped Magazine', url: 'https://gripped.com/indoor-climbing/top-olympian-tomoa-narasaki-teaches-coordination/' }] },
+  'ath-124': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Conversation With Aleksandra Mirosław', source: 'World Climbing', url: 'https://www.worldclimbing.com/news/conversation-with-aleksandra-miroslaw' }, { title: 'Paris 2024 Sport Climbing — Mirosław & Leonardo', source: 'Olympics.com', url: 'https://www.olympics.com/en/news/paris-2024-sport-climbing-aleksandra-miros%C5%82aw-veddriq-leonardo' }] },
+  'ath-125': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Who Are the Mawem Brothers?', source: 'ClimberNews', url: 'https://climbernews.com/who-are-the-mawem-brothers-mickael-mawem-bassa-mawem/' }, { title: 'Bassa Mawem Profile', source: 'Mad Rock', url: 'https://madrock.com/blogs/the-madness/bassa-mawem' }] },
+  'ath-126': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Indonesia Kiromal Katibin & Veddriq Leonardo Redefining Limits', source: 'Olympics.com', url: 'https://www.olympics.com/en/news/indonesia-kiromal-katibin-veddriq-leonardo-redefining-limits' }, { title: 'What Is the Limit? Katibin Sets New Speed World Record', source: 'Gripped', url: 'https://gripped.com/indoor-climbing/what-is-the-limit-katibin-sets-new-speed-world-record/' }] },
+  'ath-127': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Paris 2024 Sport Climbing — Mirosław & Leonardo', source: 'Olympics.com', url: 'https://www.olympics.com/en/news/paris-2024-sport-climbing-aleksandra-miros%C5%82aw-veddriq-leonardo' }, { title: 'Indonesia Kiromal Katibin & Veddriq Leonardo', source: 'Olympics.com', url: 'https://www.olympics.com/en/news/indonesia-kiromal-katibin-veddriq-leonardo-redefining-limits' }] },
+  'ath-128': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Adam Ondra Silence 9c', source: 'PlanetMountain', url: 'https://www.planetmountain.com/en/news/interviews/adam-ondra-climbs-worlds-first-9c-at-flatanger-in-norway.html' }, { title: 'TrainingBeta Adam Ondra Silence', source: 'TrainingBeta', url: 'https://www.trainingbeta.com/media/adam-ondra-silence/' }] },
+  'ath-129': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Alex Megos Perfecto Mundo 5.15c', source: 'Climbing Magazine', url: 'https://www.climbing.com/news/interview-alex-megos-on-sending-chris-sharmas-perfecto-mundo-5-15c-project/' }] },
+  'ath-130': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Charles Albert barefoot', source: 'Fanatic Climbing', url: 'http://fanatic-climbing.com/interview-charles-albert/' }, { title: 'Charles Albert No Kapote Only 9A', source: 'PlanetMountain', url: 'https://www.planetmountain.com/en/news/climbing/charles-albert-at-fontainebleau-climbs-world-s-second-9a-boulder-problem.html' }] },
+  'ath-131': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'About Chris Sharma', source: 'chrissharma.com', url: 'http://www.chrissharma.com/about-chris/' }, { title: 'Chris Sharma 9b+', source: 'UKC', url: 'https://www.ukclimbing.com/articles/features/chris_sharma_talks_9b+-4894' }] },
+  'ath-132': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'The Nose — Lynn Hill', source: 'lynnhillclimbing.com', url: 'http://lynnhillclimbing.com/media/climbs-travels/the-nose/' }, { title: 'Lynn Hill interview', source: 'PlanetMountain', url: 'http://www.planetmountain.com/en/news/interviews/lynn-hill.html' }] },
+  'ath-133': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Seb Bouin DNA 9c', source: 'Lacrux', url: 'https://www.lacrux.com/en/klettern/seb-bouin-climbs-dna-and-suggests-a-rating-of-9c/' }, { title: 'Seb Bouin Change 3rd ascent', source: 'Climbing Magazine', url: 'https://www.climbing.com/news/seb-bouin-5-15c-change/' }] },
+  'ath-134': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Stefano Ghisolfi Excalibur', source: 'Climbing Magazine', url: 'https://www.climbing.com/news/stefano-ghisolfi-on-prying-excalibur-5-15c-from-the-stone-exclusive-qa/' }, { title: 'Stefano Ghisolfi Erebor', source: 'Lacrux', url: 'https://www.lacrux.com/en/klettern/stefano-ghisolfi-over-the-most-difficult-route-in-italy-erebor-9b/' }] },
+  'ath-135': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'The Dawn Wall interview', source: 'Fanatic Climbing', url: 'http://fanatic-climbing.com/the-dawn-wall-interview-tommy-caldwell-kevin-jorgeson/' }] },
+  'ath-136': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Will Bosi Burden of Dreams', source: '8a.nu', url: 'https://www.8a.nu/news/will-bosi-claims-the-first-repeat-of-burden-of-dreams-9a-aj8rf' }] },
+  'ath-137': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Warren Harding El Capitan 60th', source: 'California Sun', url: 'https://www.californiasun.co/in-warren-harding-redefined-the-possible-with-his-ascent-of-el-capitan/' }, { title: 'Dawn Wall 1970', source: 'PlanetMountain', url: 'https://www.planetmountain.com/en/news/climbing/warren-harding-and-dean-caldwell-and-the-wall-of-early-morning-light-on-el-capitan.html' }] },
+  'ath-138': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Royal Robbins', source: 'California Outdoors Hall of Fame', url: 'https://www.cohof.org/biographies/royal-robbins' }, { title: 'Royal Robbins pioneer', source: 'Climbing.com', url: 'https://www.climbing.com/people/royal-robbins-rock-climbing-pioneer/' }] },
+  'ath-139': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'El Capitan 1975 Jim Bridwell', source: 'Alpine Magazine', url: 'https://alpinemag.com/el-capitan-1975-jim-bridwell-visionary-ascent-of-the-nose-in-a-day/' }] },
+  'ath-140': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Nose speed record', source: 'National Geographic', url: 'https://www.nationalgeographic.com/travel/article/alex-honnold-tommy-caldwell-speed-record-el-capitan-nose-yosemite-culture' }] },
+  'ath-141': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Alex Honnold mental skills', source: 'OptimizeMindPerformance', url: 'https://optimizemindperformance.com/alex-honnold-mental-skills/' }, { title: 'Free Solo Oscar', source: 'Gripped', url: 'https://gripped.com/news/free-solo-wins-oscar-for-best-documentary-feature/' }] },
+  'ath-142': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Kevin Jorgeson', source: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Kevin_Jorgeson' }] },
+  'ath-143': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Peter Croft', source: 'HardClimbs.info', url: 'https://hardclimbs.info/peter-croft/' }] },
+  'ath-144': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'John Long', source: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/John_Long_(climber)' }] },
+  'ath-145': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Alex Honnold Free Solo El Capitan', source: 'National Geographic', url: 'https://www.nationalgeographic.com/magazine/article/alex-honnold-made-ultimate-climb-el-capitan-without-rope' }, { title: 'How Alex Honnold Faces Fear', source: 'TED', url: 'https://www.ted.com/pages/how-free-solo-climber-alex-honnold-faces-fear-transcript' }, { title: 'The Strange Brain of the World\'s Greatest Solo Climber', source: 'Nautilus', url: 'https://nautil.us/the-strange-brain-of-the-worlds-greatest-solo-climber-236051' }] },
+  'ath-146': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Yosemite Legends: John Bachar', source: 'Gripped', url: 'https://gripped.com/profiles/yosemite-climbing-legends-john-bachar/' }, { title: 'From the Archives: A Conversation With John Bachar', source: 'Gripped', url: 'https://gripped.com/profiles/from-the-archives-a-conversation-with-yosemite-legend-john-bachar/' }] },
+  'ath-147': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Peter Croft', source: 'HardClimbs.info', url: 'https://hardclimbs.info/climbers/peter-croft/' }, { title: 'Peter Croft — The Nugget Climbing Podcast', source: 'The Nugget', url: 'https://thenuggetclimbing.com/episodes/peter-croft' }] },
+  'ath-148': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Dean Potter Dead: BASE Jumping Accident in Yosemite', source: 'National Geographic', url: 'https://www.nationalgeographic.com/travel/article/150518-dean-potter-dead-base-jumping-yosemite-climbing-adventure' }, { title: 'Dean Potter: The Core (documentary)', source: 'YouTube / Sender Films', url: 'https://www.youtube.com/watch?v=PoyX8z5235c' }] },
+  'ath-149': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'John Gill', source: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/John_Gill_(climber)' }] },
+  'ath-150': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Wolfgang Gullich', source: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Wolfgang_Gullich' }] },
+  'ath-151': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Jerry Moffatt', source: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Jerry_Moffatt' }] },
+  'ath-152': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Ben Moon British rock climbing legend', source: 'PlanetMountain', url: 'https://www.planetmountain.com/en/news/interviews/ben-moon-british-rock-climbing-legend-interview.html' }] },
+  'ath-153': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Kurt Albert', source: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Kurt_Albert' }] },
+  'ath-154': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Royal Robbins', source: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Royal_Robbins' }] },
+  'ath-155': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Yvon Chouinard', source: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Yvon_Chouinard' }] },
+  'ath-156': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Patrick Edlinger', source: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Patrick_Edlinger' }] },
+  'ath-157': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Ron Kauk', source: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Ron_Kauk' }] },
+  'ath-158': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Catherine Destivelle', source: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Catherine_Destivelle' }] },
+  'ath-159': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'John Sherman (climber)', source: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/John_Sherman_(climber)' }] },
+  'ath-160': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Campus board', source: 'Wikipedia', url: 'https://en.wikipedia.org/wiki/Campus_board' }] },
+  'ath-161': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'The History of the MoonBoard by Ben Moon', source: 'Gripped', url: 'https://gripped.com/indoor-climbing/the-history-of-the-moonboard-by-ben-moon/' }] },
+  'ath-162': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Progression fingerboard', source: 'Eva Lopez blog', url: 'http://en-eva-lopez.blogspot.com/2012/02/new-tool-for-training-your-fingers.html' }] },
+  'ath-163': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Eric Horst Desnivel interview', source: 'Training for Climbing', url: 'https://trainingforclimbing.com/horst-training-interview-desnivel/' }] },
+  'ath-164': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Rock Climber\'s Training Manual', source: 'RCTM', url: 'https://rockclimberstrainingmanual.com/' }] },
+  'ath-165': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Neil Gresham Training', source: 'neilgresham.com', url: 'https://www.neilgresham.com/' }] },
+  'ath-166': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Pete Whittaker crack climbing', source: 'TrainingBeta', url: 'https://www.trainingbeta.com/media/pete-whittaker/' }] },
+  'ath-167': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: '9 out of 10 Climbers', source: 'Dave MacLeod', url: 'https://www.davemacleod.com/shop/9outof10climbers' }] },
+  'ath-168': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'Lattice Training About', source: 'Lattice', url: 'https://latticetraining.com/about/' }] },
+  'ath-169': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: '伍鹏 巴黎奥运银牌', source: '澎湃新闻', url: 'https://www.thepaper.cn/newsdetail_forward_28346976' }] },
+  'ath-170': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: '邓丽娟 中国首枚奥运奖牌', source: '东华大学', url: 'https://pe.dhu.edu.cn/2024/0830/c3458a349973/page.htm' }] },
+  'ath-171': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [] },
+  'ath-172': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: '首战世界杯 攀上新高度——小将骆知鹭为攀石项目实现新突破', source: '国家体育总局', url: 'https://www.sport.gov.cn/n20001280/n20067662/n20067613/c24372993/content.html' }, { title: '一周内两次登上领奖台，骆知鹭攀岩世界杯难度赛摘银', source: '国家体育总局', url: 'https://www.sport.gov.cn/n315/n20067006/c27637539/content.html' }, { title: '攀岩世界杯柯桥站摘铜，骆知鹭备战奥运资格赛添信心', source: '澎湃新闻', url: 'https://www.thepaper.cn/newsDetail_forward_26977817' }, { title: 'Meet Luo Zhilu, the 16-year-old at the forefront of China’s climbing boom', source: 'South China Morning Post', url: 'https://www.scmp.com/sport/china/article/3182870/meet-luo-zhilu-16-year-old-forefront-chinas-climbing-boom' }] },
+  'ath-173': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: 'First World Cup gold: Erin McNeice and Yufei Pan win in Bern', source: 'Lacrux', url: 'https://www.lacrux.com/en/bouldern/First-World-Cup-gold%3A-Erin-McNeice-and-Yufei-Pan-win-in-Bern/' }, { title: '潘愚非——摆脱低迷继续向上攀登', source: '国家体育总局', url: 'https://www.sport.gov.cn/n20001280/n20067662/n20067613/c27128312/content.html' }, { title: 'Feature: Powering through pain, Pan Yufei rises to peak', source: 'Xinhua', url: 'https://english.news.cn/20250620/9d036db9a001427f9e4fdbe661724e1c/c.html' }, { title: '攀岩小将潘愚非：心无旁骛，与岩壁对话', source: 'Olympics.com', url: 'https://www.olympics.com/zh/news/chinese-sports-climbing-pan-yu-fei' }] },
+  'ath-176': { images: [], videos: [], bilibiliVideos: [], podcasts: [], timeline: [], interviewNotes: [], furtherReading: [{ title: '钟齐鑫 中国速度攀岩', source: '知乎', url: 'https://zhuanlan.zhihu.com/p/718171045' }] }
 }
 
 export default hallOfFameMedia

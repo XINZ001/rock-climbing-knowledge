@@ -23,6 +23,18 @@ export default function HomePage() {
             ? '系统化的攀岩知识体系，涵盖技术、训练、装备、安全等 10 大领域'
             : 'A systematic climbing knowledge base covering technique, training, gear, safety and more across 10 domains'}
         </p>
+        <p className="text-sm text-text-secondary mt-4 flex flex-wrap items-center justify-center gap-3">
+          <span>{lang === 'zh' ? '制作人：行之' : 'By 行之'}</span>
+          <a
+            href="https://xhslink.com/m/7LQ0G4Nh0oU"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-flex items-center gap-2 px-2 py-2 text-sm font-medium rounded-lg border border-stone-border bg-stone-card text-text-secondary hover:bg-stone-hover hover:border-forest/40 transition-colors"
+          >
+            <img src="/images/xiaohongshu-logo.png" alt="小红书" className="w-[18px] h-[18px] rounded object-contain" />
+            {lang === 'zh' ? '查看小红书' : 'View Xiaohongshu'}
+          </a>
+        </p>
       </div>
 
       <Link
@@ -32,9 +44,14 @@ export default function HomePage() {
         <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(199,161,42,0.22),_transparent_38%),radial-gradient(circle_at_bottom_right,_rgba(74,124,89,0.18),_transparent_40%)]" />
         <div className="relative flex flex-col gap-4 px-6 py-6 sm:flex-row sm:items-center sm:justify-between sm:px-8">
           <div className="max-w-2xl">
-            <h2 className="mt-4 text-2xl font-bold">
-              {lang === 'zh' ? '攀岩名人堂' : 'Climbing Hall of Fame'}
-            </h2>
+            <div className="flex items-center justify-between gap-2">
+              <h2 className="text-2xl font-bold">
+                {lang === 'zh' ? '攀岩名人堂' : 'Climbing Hall of Fame'}
+              </h2>
+              <span className="shrink-0 rounded px-1.5 py-0.5 text-xs font-semibold uppercase tracking-wide bg-amber-500/20 text-amber-600 dark:bg-amber-400/25 dark:text-amber-400">
+                NEW
+              </span>
+            </div>
             <p className="mt-2 text-sm sm:text-base text-text-secondary leading-relaxed">
               {lang === 'zh'
                 ? '收录 John Gill、Lynn Hill、Janja Garnbret、潘愚非等代表人物，集中查看他们的生平、风格、访谈与相关影像。'
@@ -43,7 +60,7 @@ export default function HomePage() {
           </div>
 
           <div className="flex items-center gap-3 text-sm font-medium text-forest">
-            <span>{lang === 'zh' ? '进入名人堂' : 'Open Hall of Fame'}</span>
+            <span className="whitespace-nowrap shrink-0 min-w-max">{lang === 'zh' ? '进入名人堂' : 'Open Hall of Fame'}</span>
             <span className="transition-transform group-hover:translate-x-0.5">→</span>
           </div>
         </div>

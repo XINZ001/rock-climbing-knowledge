@@ -1,0 +1,45 @@
+{
+  "theme": "hall-of-fame",
+  "releaseDate": "2026-03-07",
+  "status": "ready-for-review",
+  "frontend": {
+    "listRoute": "/hall-of-fame",
+    "detailRoute": "/hall-of-fame/:athleteSlug",
+    "homeEntry": true,
+    "sidebarEntry": true,
+    "athleteMediaGallery": true,
+    "athleteVideoSection": true
+  },
+  "dataSource": "rock-climbing-knowledge/src/data/athlete-registry.json",
+  "mediaSource": "rock-climbing-knowledge/src/data/hall-of-fame-media.js",
+  "athletes": [
+    {
+      "athleteId": "ath-001",
+      "slug": "john-gill",
+      "category": "historical",
+      "cards": 3
+    },
+    {
+      "athleteId": "ath-002",
+      "slug": "lynn-hill",
+      "category": "historical",
+      "cards": 3
+    },
+    {
+      "athleteId": "ath-101",
+      "slug": "janja-garnbret",
+      "category": "contemporary",
+      "cards": 3
+    },
+    {
+      "athleteId": "ath-201",
+      "slug": "pan-yufei",
+      "category": "chinese",
+      "cards": 3
+    }
+  ],
+  "verification": {
+    "build": "passed",
+    "lint_scope": "new Hall of Fame files passed targeted eslint"
+  }
+}

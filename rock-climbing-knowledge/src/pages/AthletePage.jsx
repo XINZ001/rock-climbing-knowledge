@@ -5,11 +5,13 @@ import VideoSection from '../components/content/VideoSection'
 import ImageLightbox from '../components/ui/ImageLightbox'
 import {
   getHallOfFameAthleteBySlug,
-  getHallOfFameCardsForAthlete,
+  getHallOfFameChaptersForAthlete,
   getHallOfFameCrossReference,
   getHallOfFameMedia,
-  hallOfFameCardTypes,
-  hallOfFameCategories
+  getTabKeyForAthlete,
+  hallOfFameChapterTypes,
+  hallOfFameCategories,
+  hallOfFameMainCategories
 } from '../utils/hallOfFame'
 
 function hexToRgba(hex, alpha) {
@@ -30,8 +32,8 @@ export default function AthletePage() {
   const [lightboxIndex, setLightboxIndex] = useState(-1)
   const athlete = getHallOfFameAthleteBySlug(athleteSlug)
 
-  const cards = useMemo(
-    () => (athlete ? getHallOfFameCardsForAthlete(athlete.athleteId) : []),
+  const chapters = useMemo(
+    () => (athlete ? getHallOfFameChaptersForAthlete(athlete.athleteId) : []),
     [athlete]
   )
   const media = useMemo(
@@ -46,22 +48,22 @@ export default function AthletePage() {
 
   const relatedReferences = useMemo(() => {
     const seen = new Set()
-    return cards
-      .flatMap((card) => card.relatedKps || [])
+    return chapters
+      .flatMap((chapter) => chapter.relatedKps || [])
       .map((kpId) => getHallOfFameCrossReference(kpId))
       .filter((item) => item && !seen.has(item.path) && seen.add(item.path))
-  }, [cards])
+  }, [chapters])
 
   const allSources = useMemo(() => {
     const seen = new Set()
-    return cards
-      .flatMap((card) => card.sources || [])
+    return chapters
+      .flatMap((chapter) => chapter.sources || [])
       .filter((source) => {
         if (seen.has(source.url)) return false
         seen.add(source.url)
         return true
       })
-  }, [cards])
+  }, [chapters])
 
   if (!athlete) {
     return (
@@ -85,6 +87,13 @@ export default function AthletePage() {
         <span className="mx-2">/</span>
         <Link to="/hall-of-fame" className="hover:text-forest transition-colors">
           {lang === 'zh' ? '攀岩名人堂' : 'Hall of Fame'}
+        </Link>
+        <span className="mx-2">/</span>
+        <Link
+          to={`/hall-of-fame/browse/${athlete.category}`}
+          className="hover:text-forest transition-colors"
+        >
+          {t(hallOfFameCategories[getTabKeyForAthlete(athlete)] ?? hallOfFameMainCategories[athlete.category])}
         </Link>
         <span className="mx-2">/</span>
         <span>{t(athlete.athleteName)}</span>
@@ -126,7 +135,7 @@ export default function AthletePage() {
 
           <div className="relative z-10 max-w-4xl">
             <div className="inline-flex rounded-full border border-white/70 bg-white/70 px-3 py-1 text-xs font-semibold text-text-secondary">
-              {t(hallOfFameCategories[athlete.category])}
+              {t(hallOfFameCategories[getTabKeyForAthlete(athlete)] ?? hallOfFameMainCategories[athlete.category])}
             </div>
 
             <h1 className="mt-4 text-3xl sm:text-4xl font-bold">{t(athlete.athleteName)}</h1>
@@ -140,16 +149,19 @@ export default function AthletePage() {
               {t(athlete.overview)}
             </p>
 
-            <div className="mt-6 flex flex-wrap gap-2">
-              {athlete.specialties.map((specialty) => (
-                <span
-                  key={t(specialty)}
-                  className="rounded-full bg-white/80 px-3 py-1.5 text-sm font-medium"
-                >
-                  {t(specialty)}
-                </span>
-              ))}
-            </div>
+            {athlete.featuredQuote && (
+              <blockquote className="mt-5 max-w-3xl border-l-4 border-forest/60 pl-4">
+                <p className="text-sm leading-relaxed text-text-primary">
+                  "{t(athlete.featuredQuote.text)}"
+                </p>
+                {athlete.featuredQuote.source && (
+                  <cite className="mt-1 block text-xs text-text-secondary not-italic">
+                    — {athlete.featuredQuote.source}
+                  </cite>
+                )}
+              </blockquote>
+            )}
+
           </div>
 
           <div className="relative z-10 mt-8 grid grid-cols-1 gap-3 md:grid-cols-3">
@@ -189,67 +201,6 @@ export default function AthletePage() {
             </dl>
           </div>
 
-          {relatedReferences.length > 0 && (
-            <div className="rounded-[1.5rem] border border-stone-border bg-stone-card p-5 shadow-sm">
-              <h2 className="text-sm font-semibold uppercase tracking-[0.18em] text-text-secondary">
-                {lang === 'zh' ? '关联知识点' : 'Related Knowledge'}
-              </h2>
-              <div className="mt-4 flex flex-wrap gap-2">
-                {relatedReferences.map((reference) => (
-                  <Link
-                    key={reference.path}
-                    to={reference.path}
-                    className="rounded-full bg-forest-light px-3 py-1.5 text-xs font-medium text-forest hover:bg-forest hover:text-white transition-colors"
-                  >
-                    {t(reference.title)}
-                  </Link>
-                ))}
-              </div>
-            </div>
-          )}
-
-          <div className="rounded-[1.5rem] border border-stone-border bg-stone-card p-5 shadow-sm">
-            <h2 className="text-sm font-semibold uppercase tracking-[0.18em] text-text-secondary">
-              {lang === 'zh' ? '来源概览' : 'Sources'}
-            </h2>
-            <ul className="mt-4 space-y-3">
-              {allSources.map((source) => (
-                <li key={source.url} className="text-sm">
-                  <a
-                    href={source.url}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="text-forest hover:underline"
-                  >
-                    {source.label}
-                  </a>
-                </li>
-              ))}
-            </ul>
-          </div>
-
-          {media.furtherReading.length > 0 && (
-            <div className="rounded-[1.5rem] border border-stone-border bg-stone-card p-5 shadow-sm">
-              <h2 className="text-sm font-semibold uppercase tracking-[0.18em] text-text-secondary">
-                {lang === 'zh' ? '延伸阅读' : 'Further Reading'}
-              </h2>
-              <ul className="mt-4 space-y-3 text-sm">
-                {media.furtherReading.map((item) => (
-                  <li key={item.url}>
-                    <a
-                      href={item.url}
-                      target="_blank"
-                      rel="noreferrer"
-                      className="text-forest hover:underline"
-                    >
-                      {item.title}
-                    </a>
-                    <div className="mt-0.5 text-xs text-text-secondary">{item.source}</div>
-                  </li>
-                ))}
-              </ul>
-            </div>
-          )}
         </aside>
 
         <div className="space-y-5">
@@ -341,33 +292,54 @@ export default function AthletePage() {
             </section>
           )}
 
-          {cards.map((card) => (
+          {chapters.map((chapter) => (
             <article
-              key={card.id}
+              key={chapter.id}
               className="rounded-[1.5rem] border border-stone-border bg-stone-card p-6 shadow-sm"
             >
-              <div>
-                <div>
-                  <div className="text-xs font-semibold uppercase tracking-[0.18em] text-text-secondary">
-                    {t(hallOfFameCardTypes[card.type])}
-                  </div>
-                  <h2 className="mt-2 text-2xl font-semibold leading-tight">{t(card.title)}</h2>
+              <div className="text-xs font-semibold uppercase tracking-[0.18em] text-text-secondary">
+                {t(hallOfFameChapterTypes[chapter.type]) || chapter.type}
+              </div>
+              <h2 className="mt-2 text-2xl font-semibold leading-tight">{t(chapter.title)}</h2>
+
+              <p className="mt-4 text-base leading-relaxed text-text-primary">{t(chapter.summary)}</p>
+
+              {chapter.type !== 'quotes' && chapter.paragraphs?.length > 0 && (
+                <div className="mt-5 space-y-4">
+                  {chapter.paragraphs.map((paragraph, index) => (
+                    <p key={`${chapter.id}-p-${index}`} className="text-sm leading-7 text-text-secondary">
+                      {t(paragraph)}
+                    </p>
+                  ))}
                 </div>
-              </div>
+              )}
 
-              <p className="mt-4 text-base leading-relaxed text-text-primary">{t(card.summary)}</p>
+              {chapter.pullQuotes?.length > 0 && (
+                <div className="mt-6 space-y-4">
+                  {chapter.pullQuotes.map((quote, index) => (
+                    <blockquote
+                      key={`${chapter.id}-q-${index}`}
+                      className="rounded-2xl bg-stone-sidebar px-5 py-4 border-l-4 border-forest/50"
+                    >
+                      <p className="text-sm leading-relaxed text-text-primary">
+                        "{t(quote.text)}"
+                      </p>
+                      {quote.context && (
+                        <p className="mt-2 text-xs text-text-secondary">{t(quote.context)}</p>
+                      )}
+                      {quote.source && (
+                        <cite className="mt-1 block text-xs text-text-secondary not-italic">
+                          — {quote.source}
+                        </cite>
+                      )}
+                    </blockquote>
+                  ))}
+                </div>
+              )}
 
-              <div className="mt-5 space-y-4">
-                {card.paragraphs.map((paragraph, index) => (
-                  <p key={`${card.id}-${index}`} className="text-sm leading-7 text-text-secondary">
-                    {t(paragraph)}
-                  </p>
-                ))}
-              </div>
-
-              {card.keyFacts?.length > 0 && (
+              {chapter.keyFacts?.length > 0 && (
                 <div className="mt-6 grid grid-cols-1 gap-3 sm:grid-cols-2">
-                  {card.keyFacts.map((fact) => (
+                  {chapter.keyFacts.map((fact) => (
                     <div key={t(fact.label)} className="rounded-2xl bg-stone-sidebar px-4 py-4">
                       <div className="text-xs uppercase tracking-wide text-text-secondary">
                         {t(fact.label)}
@@ -380,19 +352,21 @@ export default function AthletePage() {
                 </div>
               )}
 
-              <div className="mt-6 flex flex-wrap gap-2">
-                {card.sources.map((source) => (
-                  <a
-                    key={source.url}
-                    href={source.url}
-                    target="_blank"
-                    rel="noreferrer"
-                    className="rounded-full border border-stone-border px-3 py-1.5 text-xs text-text-secondary hover:border-forest hover:text-forest transition-colors"
-                  >
-                    {source.label}
-                  </a>
-                ))}
-              </div>
+              {chapter.sources?.length > 0 && (
+                <div className="mt-6 flex flex-wrap gap-2">
+                  {chapter.sources.map((source) => (
+                    <a
+                      key={source.url}
+                      href={source.url}
+                      target="_blank"
+                      rel="noreferrer"
+                      className="rounded-full border border-stone-border px-3 py-1.5 text-xs text-text-secondary hover:border-forest hover:text-forest transition-colors"
+                    >
+                      {source.label}
+                    </a>
+                  ))}
+                </div>
+              )}
             </article>
           ))}
 
@@ -407,12 +381,144 @@ export default function AthletePage() {
               <p className="mt-3 text-sm leading-7 text-text-secondary">
                 {lang === 'zh'
                   ? '优先收录能直接看到比赛气质、动作风格和人物表达的影像与采访。'
-                  : 'This section highlights videos and interviews that show competitive presence, movement style, and the athlete’s own voice most directly.'}
+                  : "This section highlights videos and interviews that show competitive presence, movement style, and the athlete's own voice most directly."}
               </p>
               <VideoSection videos={media.videos} />
             </section>
           )}
+
+          {media.bilibiliVideos?.length > 0 && (
+            <section className="rounded-[1.5rem] border border-stone-border bg-stone-card p-6 shadow-sm">
+              <div className="text-xs font-semibold uppercase tracking-[0.18em] text-text-secondary">
+                {lang === 'zh' ? 'Bilibili 视频' : 'Bilibili Videos'}
+              </div>
+              <h2 className="mt-2 text-2xl font-semibold">
+                {lang === 'zh' ? '中文视频资源' : 'Chinese Video Resources'}
+              </h2>
+              <div className="mt-5 space-y-3">
+                {media.bilibiliVideos.map((video) => (
+                  <a
+                    key={video.url}
+                    href={video.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="flex items-start rounded-2xl bg-stone-sidebar px-4 py-4 hover:bg-stone-border transition-colors"
+                  >
+                    <div className="min-w-0">
+                      <div className="text-sm font-medium text-text-primary">{t(video.title)}</div>
+                      {video.uploader && (
+                        <div className="mt-0.5 text-xs text-text-secondary">{video.uploader}</div>
+                      )}
+                      {video.summary && (
+                        <p className="mt-1 text-xs leading-relaxed text-text-secondary line-clamp-2">
+                          {t(video.summary)}
+                        </p>
+                      )}
+                    </div>
+                  </a>
+                ))}
+              </div>
+            </section>
+          )}
+
+          {media.podcasts?.length > 0 && (
+            <section className="rounded-[1.5rem] border border-stone-border bg-stone-card p-6 shadow-sm">
+              <div className="text-xs font-semibold uppercase tracking-[0.18em] text-text-secondary">
+                {lang === 'zh' ? '播客' : 'Podcasts'}
+              </div>
+              <h2 className="mt-2 text-2xl font-semibold">
+                {lang === 'zh' ? '播客与音频访谈' : 'Podcast & Audio Interviews'}
+              </h2>
+              <div className="mt-5 space-y-3">
+                {media.podcasts.map((podcast) => (
+                  <a
+                    key={podcast.url}
+                    href={podcast.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="flex items-start gap-4 rounded-2xl bg-stone-sidebar px-4 py-4 hover:bg-stone-border transition-colors"
+                  >
+                    <div className="min-w-0">
+                      <div className="text-sm font-medium text-text-primary">{t(podcast.title)}</div>
+                      <div className="mt-0.5 text-xs text-text-secondary">
+                        {podcast.show}{podcast.episodeDate ? ` · ${podcast.episodeDate}` : ''}
+                      </div>
+                      {podcast.summary && (
+                        <p className="mt-1 text-xs leading-relaxed text-text-secondary line-clamp-2">
+                          {t(podcast.summary)}
+                        </p>
+                      )}
+                    </div>
+                  </a>
+                ))}
+              </div>
+            </section>
+          )}
         </div>
+      </section>
+
+      <section className="mt-8 grid grid-cols-1 gap-6 md:grid-cols-3">
+        {relatedReferences.length > 0 && (
+          <div className="rounded-[1.5rem] border border-stone-border bg-stone-card p-5 shadow-sm">
+            <h2 className="text-sm font-semibold uppercase tracking-[0.18em] text-text-secondary">
+              {lang === 'zh' ? '关联知识点' : 'Related Knowledge'}
+            </h2>
+            <div className="mt-4 flex flex-wrap gap-2">
+              {relatedReferences.map((reference) => (
+                <Link
+                  key={reference.path}
+                  to={reference.path}
+                  className="rounded-full bg-forest-light px-3 py-1.5 text-xs font-medium text-forest hover:bg-forest hover:text-white transition-colors"
+                >
+                  {t(reference.title)}
+                </Link>
+              ))}
+            </div>
+          </div>
+        )}
+
+        <div className="rounded-[1.5rem] border border-stone-border bg-stone-card p-5 shadow-sm">
+          <h2 className="text-sm font-semibold uppercase tracking-[0.18em] text-text-secondary">
+            {lang === 'zh' ? '来源概览' : 'Sources'}
+          </h2>
+          <ul className="mt-4 space-y-3">
+            {allSources.map((source) => (
+              <li key={source.url} className="text-sm">
+                <a
+                  href={source.url}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="text-forest hover:underline"
+                >
+                  {source.label}
+                </a>
+              </li>
+            ))}
+          </ul>
+        </div>
+
+        {media.furtherReading.length > 0 && (
+          <div className="rounded-[1.5rem] border border-stone-border bg-stone-card p-5 shadow-sm">
+            <h2 className="text-sm font-semibold uppercase tracking-[0.18em] text-text-secondary">
+              {lang === 'zh' ? '延伸阅读' : 'Further Reading'}
+            </h2>
+            <ul className="mt-4 space-y-3 text-sm">
+              {media.furtherReading.map((item) => (
+                <li key={item.url}>
+                  <a
+                    href={item.url}
+                    target="_blank"
+                    rel="noreferrer"
+                    className="text-forest hover:underline"
+                  >
+                    {item.title}
+                  </a>
+                  <div className="mt-0.5 text-xs text-text-secondary">{item.source}</div>
+                </li>
+              ))}
+            </ul>
+          </div>
+        )}
       </section>
 
       {lightboxIndex >= 0 && galleryImages.length > 0 && (

@@ -1,0 +1,61 @@
+{
+  "_meta": {
+    "task": "搜索攀岩名人堂 - D类中国攀岩：钟齐鑫、邓丽娟、潘愚非等中国代表性运动员",
+    "keywords": ["中国攀岩运动员 国家队 奥运 世界冠军", "钟齐鑫 邓丽娟 中国速度攀岩 世界纪录 采访", "潘愚非 中国首位攀石世界冠军 2025"],
+    "collectedAt": "2026-03-07",
+    "totalSources": 3,
+    "fetchMethodStats": {
+      "r.jina.ai": 3
+    }
+  },
+  "sources": [
+    {
+      "id": "src-006",
+      "keyword": ["中国攀岩运动员 国家队", "钟齐鑫 速度攀岩 大满贯"],
+      "url": "https://www.chinanews.com.cn/m/ty/2015/11-25/7639639.shtml",
+      "title": "\"中国壁虎\"钟齐鑫：攀岩十年练就大满贯",
+      "source": "中国新闻网",
+      "author": "unknown",
+      "language": "zh",
+      "publishDate": "2015-11",
+      "fetchMethod": "r.jina.ai",
+      "fetchDate": "2026-03-07",
+      "wordCount": 400,
+      "fullText": "# 钟齐鑫：中国攀岩传奇\n\n## 基本背景\n钟齐鑫是中国著名攀岩运动员，绰号"中国壁虎"。身材精壮，身高1米70出头，来自江西。他从2005年开始接触攀岩，用十年时间成为世界顶级选手。\n\n## 主要成就\n钟齐鑫获得了攀岩的大满贯荣誉，包括：\n- 20多次世界攀岩冠军\n- 4次世界攀岩锦标赛冠军\n- 世界运动会冠军\n- 攀岩世界杯冠军\n- 6次打破自己保持的世界纪录\n- 2015年速度攀岩世界杯年终总冠军\n\n他自豪地表示："速度攀岩被西方垄断了30多年，如今，我是世界第一个速度攀岩大满贯得主。"\n\n## 训练理念\n尽管身高劣势，钟齐鑫与身高超过1米90的欧美对手相抗衡。他相信"无论多难，都要接受挑战，战胜困难才是攀岩的意义"。通过日复一日的专业训练和坚持，他逐步证明了亚洲运动员的实力。\n\n## 未来目标\n钟齐鑫希望推广攀岩运动，梦想包括创办攀岩俱乐部、参加亚运会和奥运会竞赛。他兼顾家庭与事业，与同样热爱攀岩的妻子相识相知。",
+      "excerpt": "钟齐鑫，绰号"中国壁虎"，2005年开始攀岩，十年内成为世界顶级选手。成就：20多次世界冠军、4次世锦赛冠军、6次打破世界纪录。他是世界第一个速度攀岩大满贯得主。名言："速度攀岩被西方垄断了30多年，如今，我是世界第一个速度攀岩大满贯得主。"",
+      "notes": "2015年的人物专访，记录了钟齐鑫职业生涯高峰期的成就和理念。后期他转型为国家队教练。核心话题：成就、训练理念、中国攀岩史。"
+    },
+    {
+      "id": "src-007",
+      "keyword": ["中国攀岩运动员 国家队 奥运", "邓丽娟 巴黎奥运 银牌"],
+      "url": "https://finance.sina.com.cn/jjxw/2024-08-08/doc-inchwpir8876249.shtml",
+      "title": "中国攀岩的这枚突破性奖牌，为啥说建立在前辈们无数失败的基础上？",
+      "source": "新浪财经",
+      "author": "unknown",
+      "language": "zh",
+      "publishDate": "2024-08",
+      "fetchMethod": "r.jina.ai",
+      "fetchDate": "2026-03-07",
+      "wordCount": 400,
+      "fullText": "# Deng Lijuan's Historic Olympic Silver Medal: Built on Predecessors' Perseverance\n\n## Competition Achievement\n\nChinese climber Deng Lijuan earned a historic silver medal in women's speed climbing at the Paris Olympics, achieving \"6.18 seconds\" in the final. This marks \"China's first Olympic medal in climbing,\" though Poland's Mirosława edged her out by just 0.08 seconds.\n\n## Training Journey\n\nDeng wasn't initially prominent—she served as a sparring partner during the Tokyo Olympic cycle and didn't compete in that Games. Under coach Zhong Qixin's guidance, she underwent remarkable development. Her progression included:\n\n- 2020: Set national record at 7.088 seconds\n- 2021: Improved to 6.67 seconds\n- 2022: Won three World Cup titles, achieved 6.55 seconds\n- 2023: Won Asian qualifying competition, securing Olympic berth\n- 2024: Advanced to Paris finals\n\n## Coach Zhong Qixin's Transition\n\nZhong, known as \"China's Gecko\" during his 12-year competitive career (2007-2019), couldn't participate in Tokyo due to rule violations and pandemic-related cancellations. Rather than continuing as an athlete, he \"transitioned to coaching, using my failure experiences as lessons so teammates avoid detours and create new achievements.\"\n\n## Program Context\n\nChina's climbing program started late relative to Europe. After climbing's official Olympic debut in Tokyo, the program expanded in Paris with separated speed climbing events. Speed climbing remains China's strongest climbing category, though difficulty and boulder climbing remain developing areas.",
+      "excerpt": "邓丽娟在巴黎奥运会速度攀岩决赛中以6.18秒获得银牌，这是中国攀岩首枚奥运奖牌。她从东京周期的陪练成长为巴黎周期的奥运决赛选手，师从转型为教练的钟齐鑫。钟齐鑫说："用我失败的经验告诉队友，让他们少走弯路，创造新的成绩。"",
+      "notes": "2024年8月的深度报道，讲述了邓丽娟成长历程和中国速度攀岩发展背景。重要信息：钟齐鑫退役后担任国家队教练。核心话题：成就、训练历程、中国攀岩史、师承关系。"
+    },
+    {
+      "id": "src-008",
+      "keyword": ["潘愚非 中国首位攀石世界冠军 2025", "中国攀岩运动员 国家队"],
+      "url": "http://www.news.cn/sports/20250616/9cf79c9b511e468b98f582e0cff8646c/c.html",
+      "title": "带伤创造历史 潘愚非成为中国攀岩首位攀石世界冠军",
+      "source": "新华网",
+      "author": "unknown",
+      "language": "zh",
+      "publishDate": "2025-06",
+      "fetchMethod": "r.jina.ai",
+      "fetchDate": "2026-03-07",
+      "wordCount": 400,
+      "fullText": "# Pan Yufei: China's First Sport Climbing World Champion\n\n## Historic Achievement\n\nChinese climber Pan Yufei made history on June 15, 2025, by winning the men's boulder climbing gold medal at the World Cup competition in Bern, Switzerland. This victory marks a significant milestone—he became \"China's first world champion in the boulder climbing discipline.\"\n\n## Overcoming Adversity\n\nPan competed while injured, with both forearms still taped due to strain injuries that hadn't fully healed. During the semifinals, he placed sixth but advanced to the finals. In the decisive competition, he completed routes one and three but sustained additional injury on route two. He described the struggle: \"climbing routes three and four was very difficult, and when climbing route three, I felt unable to lift my left leg.\"\n\n## The Winning Performance\n\nThe championship came down to the fourth route. After failing on his first attempt, Pan succeeded on his second try while \"shouting and stubbornly reaching the summit.\" His opponent, French climber Sharke, couldn't complete the route. Pan secured victory with 84.2 points, winning by just 0.1 points.\n\n## Career Context\n\nAt nearly 25 years old, Pan joined the national team in 2015 and is China's only climber to participate in two Olympic Games. The International Sport Climbing Federation called this finals matchup \"one of the most thrilling contests of the 2025 season.\"\n\n## Athlete's Voice\n\nPan said in interview: \"I feel like everything is unreal, my mind is blank right now. The past few years have been really difficult for me, many times I felt I wasn't suited for competition. This season started with poor results, I tried to reduce the pressure on myself, change my mindset, just want to enjoy climbing.\"",
+      "excerpt": "潘愚非（1999年生，广州）2025年6月15日在瑞士伯尔尼世界杯带伤夺冠，成为中国首位攀石世界冠军，以84.2分险胜法国选手0.1分。赛后采访："过去几年对我来说真的非常艰难，很多时候我都觉得自己并不适合比赛……我尝试着给自己减轻压力，改变思路，只想享受攀爬。"",
+      "notes": "2025年6月的突发新闻报道，中国攀岩史上里程碑事件。潘愚非2015年入队，参加过两届奥运会（2021、2024）。核心话题：成就、心理状态、比赛经过。"
+    }
+  ]
+}

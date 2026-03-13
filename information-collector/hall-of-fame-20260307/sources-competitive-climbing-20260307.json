@@ -1,0 +1,93 @@
+{
+  "_meta": {
+    "task": "搜索攀岩名人堂 - A类竞技攀岩：奥运冠军、IFSC世界冠军、速度攀岩世界纪录保持者",
+    "keywords": ["IFSC world champion climbing", "Olympic climbing gold medal", "speed climbing world record"],
+    "collectedAt": "2026-03-07",
+    "totalSources": 5,
+    "fetchMethodStats": {
+      "r.jina.ai": 5
+    }
+  },
+  "sources": [
+    {
+      "id": "src-001",
+      "keyword": ["IFSC world champion climbing", "best lead climber of all time"],
+      "url": "https://www.olympics.com/en/news/interview-olympic-champion-janja-garnbret",
+      "title": "Sport climbing GOAT Janja Garnbret: \"Every day is another fight. I'm a perfectionist, so I want to be great.\"",
+      "source": "Olympics.com",
+      "author": "Lorena Encabo and Ash Tulloch",
+      "language": "en",
+      "publishDate": "2022-10",
+      "fetchMethod": "r.jina.ai",
+      "fetchDate": "2026-03-07",
+      "wordCount": 600,
+      "fullText": "# Janja Garnbret Interview: Olympic Champion on Perfectionism and Climbing\n\n**Author:** Lorena Encabo and Ash Tulloch\n**Published:** October 23, 2022\n\n## Overview\n\nSlovenia's Janja Garnbret, the most successful competitive climber in history, discusses her motivations, training regimen, and future plans in this extensive interview with Olympics.com. Her achievements include an Olympic gold medal, six World Championship titles, four European championships, and 37 IFSC World Cup victories.\n\n## Key Philosophy & Motivation\n\nGarnbret attributes her success to an unrelenting perfectionist mindset. She emphasizes that despite her accomplishments, she approaches each competition as though she has achieved nothing previously. She describes this approach: \"Every day is another fight. I'm a perfectionist and I want to be great.\"\n\nRather than resting on her accolades, Garnbret treats every tournament round as a separate challenge requiring maximum effort. She believes starting fresh daily enables her to maintain competitive edge against equally dedicated opponents.\n\n## Training Intensity\n\nDuring typical training seasons (November through April), Garnbret commits substantial time to her craft:\n\n- **Six training sessions weekly** lasting four to five hours each\n- **95 percent of training occurs on the wall** rather than supplementary fitness work\n- Additional physiotherapy sessions focusing on injury prevention (approximately 90 minutes)\n- Increased volume during Olympic preparation years\n\n## Handling Pressure & Doubt\n\nDespite her dominance, Garnbret acknowledges experiencing self-doubt and media pressure. Her coping strategy involves remaining present-focused rather than anticipating outcomes. She explains that supportive crowds help dispel uncertainty, allowing her to perform optimally.\n\n## Inspiration & Legacy\n\nGarnbret views her role as a mentor to younger climbers, particularly girls. Having admired previous climber Mia Krampl, she now occupies that inspirational position. She emphasizes demonstrating that athletic pursuits need not involve suffering and that dedication yields achievable goals.\n\n## Future Direction\n\nRather than contemplating retirement, Garnbret continues seeking fresh challenges. She intends competing as long as enjoyment persists, subsequently pursuing outdoor climbing and coaching younger athletes to transmit accumulated knowledge.",
+      "excerpt": "During typical training seasons (November through April), Garnbret commits substantial time to her craft: Six training sessions weekly lasting four to five hours each; 95 percent of training occurs on the wall rather than supplementary fitness work. Garnbret attributes her success to an unrelenting perfectionist mindset: \"Every day is another fight. I'm a perfectionist and I want to be great.\"",
+      "notes": "深度采访，涵盖训练方法（每周6次、每次4-5小时、95%在岩壁上）、心理哲学和未来计划。核心话题：训练、心理、哲学。"
+    },
+    {
+      "id": "src-002",
+      "keyword": ["IFSC world champion climbing", "best lead climber of all time"],
+      "url": "https://en.wikipedia.org/wiki/Janja_Garnbret",
+      "title": "Janja Garnbret - Wikipedia",
+      "source": "Wikipedia",
+      "author": "unknown",
+      "language": "en",
+      "publishDate": "unknown",
+      "fetchMethod": "r.jina.ai",
+      "fetchDate": "2026-03-07",
+      "wordCount": 350,
+      "fullText": "# Janja Garnbret: Biography and Achievements\n\n## Overview\nJanja Garnbret is a Slovenian professional rock climber born March 12, 1999, in Slovenj Gradec. She specializes in sport climbing and competition climbing, earning recognition as \"the greatest competition climber of all time.\"\n\n## Early Life and Training\nGarnbret began climbing at age seven and competed nationally by age eight. She won her first major title at the 2013 European Youth Championships in bouldering. Her training approach emphasizes focused preparation, with coach Roman Krajnik joining her team in late 2019.\n\n## Olympic Success\nShe made history as \"the first-ever female Olympic gold medalist in climbing\" at Tokyo 2020, competing in the women's combined event. She successfully defended her title at Paris 2024, becoming Slovenia's most successful Olympic athlete with two gold medals.\n\n## Competition Dominance\nHer World Cup record is extraordinary: 31 lead climbing victories, 18 bouldering wins, and 69 total podium finishes across all disciplines. In 2019, she achieved an unprecedented feat by winning all bouldering World Cup events in a single season, solving \"74 problems out of 78\" across six competitions.\n\n## World Championships\nGarnbret has captured 10 IFSC World Championship titles, including victories in lead climbing (2016, 2019, 2025), bouldering (2018, 2019, 2023, 2025), and combined (2018, 2019, 2023).\n\n## Outdoor Climbing\nBeyond competitions, she onsighted an 8c-graded route in 2021, becoming the \"world's first-ever female climber to onsight an 8c\" grade. She has also achieved redpoint grades of 9a and completed V15 bouldering problems.",
+      "excerpt": "Janja Garnbret is a Slovenian professional rock climber born March 12, 1999, recognized as 'the greatest competition climber of all time.' Olympic gold medalist at Tokyo 2020 and Paris 2024. 10 IFSC World Championship titles. In 2019, won all bouldering World Cup events in a single season.",
+      "notes": "Wikipedia综合信息页，成就数据来源可靠。含完整世锦赛获奖记录。核心话题：成就、竞赛记录。"
+    },
+    {
+      "id": "src-003",
+      "keyword": ["best lead climber of all time", "9c first ascent", "hardest free climb ever"],
+      "url": "https://en.wikipedia.org/wiki/Adam_Ondra",
+      "title": "Adam Ondra - Wikipedia",
+      "source": "Wikipedia",
+      "author": "unknown",
+      "language": "en",
+      "publishDate": "unknown",
+      "fetchMethod": "r.jina.ai",
+      "fetchDate": "2026-03-07",
+      "wordCount": 320,
+      "fullText": "# Adam Ondra: Czech Climbing Prodigy\n\n## Biography & Early Life\n\nAdam Ondra was born February 5, 1993, in Brno, Czech Republic. His parents were climbers who introduced him to the sport at age six. By 1999, at just six years old, he climbed a 6a route in Rovinj, Croatia. His rapid progression became legendary—he onsighted 7b+ routes by age eight and achieved his first graded 9a redpoint at thirteen.\n\n## Major Achievements\n\n**Record-Breaking Accomplishments:**\n- First climber to redpoint a 9c (5.15d) route: *Silence* (2017)\n- First to redpoint a 9b+ (5.15c): *Change* (2012)\n- First to flash a 9a+ (5.15a): *Super Crackinette* (2018)\n- Only male athlete to win World Championship titles in both lead climbing and bouldering in a single year (2014)\n\n**Competition Success:**\nOndra won World Cup titles in both lead climbing (2009, 2015, 2019) and bouldering (2010). He competed in the 2020 and 2024 Olympics, finishing sixth in the combined events both times.\n\n## The Silence Achievement\n\nOn September 3, 2017, Ondra completed *Silence* after approximately four years of dedicated work. This route represents the world's first proposed 9c grade—the highest difficulty level in sport climbing. The climb is located in Hanshelleren Cave, Flatanger Municipality, Norway.\n\n## Route Statistics\n\nBy November 2018, Ondra had completed 1,550+ routes graded 8a or harder, including: one 9c, four 9b+, twenty 9b routes, and numerous 9a ascents.\n\n## Physical Profile\n\nHeight: 186 cm (6'1\"), Weight: 70 kg (154 lbs), Ape Index: +1 cm",
+      "excerpt": "Adam Ondra (born 1993, Czech Republic) is the first climber to redpoint a 9c (Silence, 2017) and 9b+ (Change, 2012). By November 2018, had completed 1,550+ routes graded 8a or harder. Only male athlete to win World Championship titles in both lead and bouldering in a single year (2014).",
+      "notes": "Wikipedia基础信息页。核心话题：成就、难度攀岩纪录。建议后续搜索Ondra的训练方法和专访。"
+    },
+    {
+      "id": "src-004",
+      "keyword": ["speed climbing world record", "speed climbing world record holders men women history"],
+      "url": "https://en.wikipedia.org/wiki/Speed_climbing",
+      "title": "Speed climbing - Wikipedia",
+      "source": "Wikipedia",
+      "author": "unknown",
+      "language": "en",
+      "publishDate": "unknown",
+      "fetchMethod": "r.jina.ai",
+      "fetchDate": "2026-03-07",
+      "wordCount": 350,
+      "fullText": "# Speed Climbing: Records, Athletes, and History\n\n## Sport Overview\n\nSpeed climbing is a discipline focused on ascending standardized walls as quickly as possible. Speed climbing is a climbing discipline in which speed is the ultimate goal.\n\n## Competition Format\n\nCompetition speed climbing takes place on 15-meter artificial walls with specific standardization. The walls feature a 5-degree overhang, and competitors race side-by-side on identical routes. Timing precision has evolved significantly—modern competitions use mechanical-electric timing accurate to one-thousandth of a second.\n\n## Record Progression\n\n**Men's Records:**\nThe men's world record has seen dramatic improvement. Starting from 6.26 seconds in 2011, the record dropped to 4.64 seconds by May 2025—representing a 25.9% reduction. Samuel Watson (USA) currently holds the world record, set in Bali, Indonesia.\n\n**Women's Records:**\nWomen's records have similarly improved from 7.85 seconds (2013) to 6.03 seconds (September 2025). Aleksandra Mirosław of Poland dominates contemporary women's speed climbing, holding multiple recent records.\n\n## Notable Athletes\n\n- **Samuel Watson (USA)**: Current men's world record holder (4.64s, 2025)\n- **Aleksandra Mirosław (Poland)**: Women's record holder across multiple competitions\n- **Veddriq Leonardo (Indonesia)**: Multiple record holder and Paris 2024 Olympic champion\n- **Kiromal Katibin (Indonesia)**: Held men's world record through 2022\n\n## Olympic Integration\n\nSpeed climbing was included in the combined format at the 2020 Tokyo Olympics. Beginning in 2024 Paris, it became a standalone Olympic event separate from lead climbing and bouldering disciplines.",
+      "excerpt": "Men's speed climbing world record: from 6.26s (2011, Zhong Qixin, China) to 4.64s (2025, Samuel Watson, USA), a 25.9% reduction. Women's: from 7.85s (2013) to 6.03s (2025, Aleksandra Miroslaw). Veddriq Leonardo (Indonesia) won Paris 2024 Olympic gold.",
+      "notes": "速度攀岩历史综述，含世界纪录演变数据。注意：文章提到钟齐鑫（Zhong Qixin）2011年创下6.26秒纪录作为起点。核心话题：速度攀岩历史、世界纪录。"
+    },
+    {
+      "id": "src-005",
+      "keyword": ["speed climbing world record", "Olympic climbing gold medal"],
+      "url": "https://en.wikipedia.org/wiki/Aleksandra_Miros%C5%82aw",
+      "title": "Aleksandra Mirosław - Wikipedia",
+      "source": "Wikipedia",
+      "author": "unknown",
+      "language": "en",
+      "publishDate": "unknown",
+      "fetchMethod": "r.jina.ai",
+      "fetchDate": "2026-03-07",
+      "wordCount": 300,
+      "fullText": "# Aleksandra Mirosław: Biography and Career Overview\n\n## Biography\nAleksandra Mirosław (née Rudzińska) was born February 2, 1994, in Lublin, Poland. She began athletics at age seven with swimming before transitioning to speed climbing in 2007, influenced by her older sister Małgorzata. She studied at Lublin University of Technology and worked as a physical education teacher until 2019. In 2019, she married her coach, Mateusz Mirosław.\n\n## Career Achievements\nMirosław holds three World Championship gold medals in speed climbing (2018, 2019, 2025) and won the inaugural Olympic gold medal in women's speed climbing at Paris 2024. She also earned bronze medals at the 2014 Gijón, 2021 Moscow, and 2023 Bern World Championships. Her European Championship victories include gold medals in 2019 (Edinburgh) and 2022 (Munich).\n\n## World Records\nHer progression of speed-climbing world records demonstrates continuous improvement:\n- 6.84 seconds (August 2021, Tokyo Olympics)\n- 6.53 seconds (May 2022, Salt Lake City)\n- 6.25 seconds (April 2023, Seoul)\n- 6.06 seconds (August 2024, Paris Olympics qualification)\n- Current personal best: 6.03 seconds\n\n## Training\n\"Coached by Mateusz Mirosław,\" she competes for club KW Kotłownia (since 2015). Her competitive career spans 2009 to the present, with her height listed at 162 cm (5'4\").",
+      "excerpt": "Aleksandra Mirosław (born 1994, Poland) won the inaugural Olympic gold medal in women's speed climbing at Paris 2024. Three World Championship titles (2018, 2019, 2025). World record progression: 6.84s (Tokyo 2021) → 6.06s (Paris 2024 qualifying) → 6.03s (2025). Coached by her husband Mateusz Mirosław.",
+      "notes": "速度攀岩女子世界纪录保持者详细信息。核心话题：成就、世界纪录、训练（丈夫担任教练）。"
+    }
+  ]
+}

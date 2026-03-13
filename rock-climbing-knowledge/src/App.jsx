@@ -8,6 +8,7 @@ import SearchPage from './pages/SearchPage'
 import NotFoundPage from './pages/NotFoundPage'
 import FeedbackPage from './pages/FeedbackPage'
 import HallOfFamePage from './pages/HallOfFamePage'
+import HallOfFameCategoryPage from './pages/HallOfFameCategoryPage'
 import AthletePage from './pages/AthletePage'
 
 function ScrollToTopOnNav() {
@@ -26,6 +27,7 @@ export default function App() {
         <Route element={<Layout />}>
           <Route index element={<HomePage />} />
           <Route path="hall-of-fame" element={<HallOfFamePage />} />
+          <Route path="hall-of-fame/browse/:categoryKey" element={<HallOfFameCategoryPage />} />
           <Route path="hall-of-fame/:athleteSlug" element={<AthletePage />} />
           <Route path="section/:sectionSlug" element={<SectionPage />} />
           <Route path="section/:sectionSlug/:subSlug" element={<TopicPage />} />

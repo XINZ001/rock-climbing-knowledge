@@ -1,0 +1,5 @@
+{
+  "_comment": "Optional: add athleteId -> image URL from Google Image / IFSC / official sites. Example: \"ath-104\": \"https://upload.wikimedia.org/...\"",
+  "ath-173": "https://upload.wikimedia.org/wikipedia/commons/2/22/Climbing_Boys_Final_YOG18_10-10-2018_%28041%29.jpg",
+  "_needsReplacement": "ath-169 (伍鹏) 当前头像非本人/非运动员，已从前端 athlete-avatars 中移除；找到正确图片 URL 后填入此处并重新拉取。ath-174/ath-175 已从名人堂删除。"
+}

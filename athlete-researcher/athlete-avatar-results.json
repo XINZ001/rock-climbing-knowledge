@@ -1,0 +1,592 @@
+[
+  {
+    "athleteId": "ath-101",
+    "athleteNameEn": "Janja Garnbret",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e0/Janja_Garnbret_2017_%28cropped%29.jpg/330px-Janja_Garnbret_2017_%28cropped%29.jpg",
+    "source": "Wikipedia",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-101.jpg"
+  },
+  {
+    "athleteId": "ath-102",
+    "athleteNameEn": "Adam Ondra",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/20180227-LS-0055_by_Lukasz_Sokol.jpg/330px-20180227-LS-0055_by_Lukasz_Sokol.jpg",
+    "source": "Wikipedia",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-102.jpg"
+  },
+  {
+    "athleteId": "ath-103",
+    "athleteNameEn": "Alberto Ginés López",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/74/2022-08-12_European_Championships_2022_%E2%80%93_Sport_Climbing_Men%27s_Lead_by_Sandro_Halank%E2%80%93021_Alberto_Gin%C3%A9s_L%C3%B3pez.jpg/330px-2022-08-12_European_Championships_2022_%E2%80%93_Sport_Climbing_Men%27s_Lead_by_Sandro_Halank%E2%80%93021_Alberto_Gin%C3%A9s_L%C3%B3pez.jpg",
+    "source": "Wikipedia",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-103.jpg"
+  },
+  {
+    "athleteId": "ath-104",
+    "athleteNameEn": "Anže Peharc",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/0/00/Anze_Peharc_SLO_9023.jpg",
+    "source": "Commons search",
+    "licenseOrNote": "Wikipedia/Commons; verify license for production",
+    "localFile": "ath-104.jpg"
+  },
+  {
+    "athleteId": "ath-105",
+    "athleteNameEn": "Brooke Raboutou",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/Brooke_Raboutou_in_2019.jpg/330px-Brooke_Raboutou_in_2019.jpg",
+    "source": "Wikipedia",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-105.jpg"
+  },
+  {
+    "athleteId": "ath-106",
+    "athleteNameEn": "Colin Duffy",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/2019_Sport_%26_Speed_Open_Nationals_-_Semifinals_-_Colin_Duffy_-_01.jpg/330px-2019_Sport_%26_Speed_Open_Nationals_-_Semifinals_-_Colin_Duffy_-_01.jpg",
+    "source": "Wikipedia (en)",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-106.jpg"
+  },
+  {
+    "athleteId": "ath-107",
+    "athleteNameEn": "Jakob Schubert",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Jakob_Schubert_Climbing_WCh_2018.jpg/330px-Jakob_Schubert_Climbing_WCh_2018.jpg",
+    "source": "Wikipedia",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-107.jpg"
+  },
+  {
+    "athleteId": "ath-108",
+    "athleteNameEn": "Laura Rogora",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f0/Laura_Rogora_WCh_2018.jpg/330px-Laura_Rogora_WCh_2018.jpg",
+    "source": "Wikipedia",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-108.jpg"
+  },
+  {
+    "athleteId": "ath-109",
+    "athleteNameEn": "Patxi Usobiaga",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6f/Patxi_Usobiaga_Lakunza_2009.JPG/330px-Patxi_Usobiaga_Lakunza_2009.JPG",
+    "source": "Wikipedia",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-109.jpg"
+  },
+  {
+    "athleteId": "ath-110",
+    "athleteNameEn": "Ramón Julián Puigblanqué",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/08/Puigblanque_Imst_2010.JPG/330px-Puigblanque_Imst_2010.JPG",
+    "source": "Wikipedia",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-110.jpg"
+  },
+  {
+    "athleteId": "ath-111",
+    "athleteNameEn": "Romain Desgranges",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a6/RomainDesgranges-2.JPG/330px-RomainDesgranges-2.JPG",
+    "source": "Wikipedia",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-111.jpg"
+  },
+  {
+    "athleteId": "ath-112",
+    "athleteNameEn": "Sean McColl",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f5/BW_2012-08-26_Sean_McColl_CAN_0865.JPG/330px-BW_2012-08-26_Sean_McColl_CAN_0865.JPG",
+    "source": "Wikipedia",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-112.jpg"
+  },
+  {
+    "athleteId": "ath-113",
+    "athleteNameEn": "Sorato Anraku",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/a5/2024_Summer_Olympics_otin_44_%28Sorato_Anraku%29.jpg/330px-2024_Summer_Olympics_otin_44_%28Sorato_Anraku%29.jpg",
+    "source": "Wikipedia",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-113.jpg"
+  },
+  {
+    "athleteId": "ath-114",
+    "athleteNameEn": "Stefano Ghisolfi",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/StefanoGhisolfi-1.JPG/330px-StefanoGhisolfi-1.JPG",
+    "source": "Wikipedia",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-114.jpg"
+  },
+  {
+    "athleteId": "ath-115",
+    "athleteNameEn": "Alex Puccio",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/Alex_Puccio_USA_2017_%28cropped%29.jpg/330px-Alex_Puccio_USA_2017_%28cropped%29.jpg",
+    "source": "Wikipedia",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-115.jpg"
+  },
+  {
+    "athleteId": "ath-116",
+    "athleteNameEn": "Ashima Shiraishi",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cf/Climbing_World_Championships_2018_Lead_Final_Shiraishi_%28BT0A2525%29-3.jpg/330px-Climbing_World_Championships_2018_Lead_Final_Shiraishi_%28BT0A2525%29-3.jpg",
+    "source": "Wikipedia",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-116.jpg"
+  },
+  {
+    "athleteId": "ath-117",
+    "athleteNameEn": "Guillaume Glairon-Mondet",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/9/9f/Guillaume_Glairon_Mondet_-_Bloc.JPG",
+    "source": "Commons search",
+    "licenseOrNote": "Wikipedia/Commons; verify license for production",
+    "localFile": "ath-117.jpg"
+  },
+  {
+    "athleteId": "ath-118",
+    "athleteNameEn": "Jan Hojer",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/73/Climbing_World_Championships_2018_Combined_Final_Hojer_%28BT0B0593%29.jpg/330px-Climbing_World_Championships_2018_Combined_Final_Hojer_%28BT0B0593%29.jpg",
+    "source": "Wikipedia",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-118.jpg"
+  },
+  {
+    "athleteId": "ath-119",
+    "athleteNameEn": "Kokoro Fujii",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Kokoro_Fujii_%28JAP%29_2017.jpg/330px-Kokoro_Fujii_%28JAP%29_2017.jpg",
+    "source": "Wikipedia (en)",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-119.jpg"
+  },
+  {
+    "athleteId": "ath-120",
+    "athleteNameEn": "Mejdi Schalck",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Mejdi_Schalck_portrait.png/330px-Mejdi_Schalck_portrait.png",
+    "source": "Wikipedia (en)",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-120.png"
+  },
+  {
+    "athleteId": "ath-121",
+    "athleteNameEn": "Nathaniel Coleman",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/57/2019_Sport_%26_Speed_Open_Nationals_-_Awards_-_Nathan_Coleman_-_02.jpg/330px-2019_Sport_%26_Speed_Open_Nationals_-_Awards_-_Nathan_Coleman_-_02.jpg",
+    "source": "Wikipedia (en)",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-121.jpg"
+  },
+  {
+    "athleteId": "ath-122",
+    "athleteNameEn": "Rustam Gelmanov",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/9/98/BW_2012-08-26_Rustam_Gelmanov_RUS_0749.JPG",
+    "source": "Commons search",
+    "licenseOrNote": "Wikipedia/Commons; verify license for production",
+    "localFile": "ath-122.jpg"
+  },
+  {
+    "athleteId": "ath-123",
+    "athleteNameEn": "Tomoa Narasaki",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Tomoa_Narasaki_JPN_2017-08-19_2373.jpg/330px-Tomoa_Narasaki_JPN_2017-08-19_2373.jpg",
+    "source": "Wikipedia (en)",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-123.jpg"
+  },
+  {
+    "athleteId": "ath-124",
+    "athleteNameEn": "Aleksandra Mirosław",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/04/Aleksandra_Rudzi%C5%84ska_Climbing_WCh_2018.jpg/330px-Aleksandra_Rudzi%C5%84ska_Climbing_WCh_2018.jpg",
+    "source": "Wikipedia (en)",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-124.jpg"
+  },
+  {
+    "athleteId": "ath-125",
+    "athleteNameEn": "Bassa Mawem",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/79/Championnat_de_France_escalade_de_vitesse_-_2022-03-19_-_Massy_-_podium_M_06.jpg/330px-Championnat_de_France_escalade_de_vitesse_-_2022-03-19_-_Massy_-_podium_M_06.jpg",
+    "source": "Wikipedia (en)",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-125.jpg"
+  },
+  {
+    "athleteId": "ath-126",
+    "athleteNameEn": "Kiromal Katibin",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bd/Kiromal_Katibin_Bern2023.jpg/330px-Kiromal_Katibin_Bern2023.jpg",
+    "source": "Wikipedia (en)",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-126.jpg"
+  },
+  {
+    "athleteId": "ath-127",
+    "athleteNameEn": "Veddriq Leonardo",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Veddriq_Leonardo_Paris_2024_Olympics.jpg/330px-Veddriq_Leonardo_Paris_2024_Olympics.jpg",
+    "source": "Wikipedia (en)",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-127.jpg"
+  },
+  {
+    "athleteId": "ath-128",
+    "athleteNameEn": "Adam Ondra",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8c/20180227-LS-0055_by_Lukasz_Sokol.jpg/330px-20180227-LS-0055_by_Lukasz_Sokol.jpg",
+    "source": "Wikipedia",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-128.jpg"
+  },
+  {
+    "athleteId": "ath-129",
+    "athleteNameEn": "Alexander Megos",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/55/2022-08-12_European_Championships_2022_%E2%80%93_Sport_Climbing_Men%27s_Lead_by_Sandro_Halank%E2%80%93056.jpg/330px-2022-08-12_European_Championships_2022_%E2%80%93_Sport_Climbing_Men%27s_Lead_by_Sandro_Halank%E2%80%93056.jpg",
+    "source": "Wikipedia (en)",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-129.jpg"
+  },
+  {
+    "athleteId": "ath-130",
+    "athleteNameEn": "Charles Albert",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/0/08/Carlo_Alberto_by_Cavalleri.jpg",
+    "source": "Commons search",
+    "licenseOrNote": "Wikipedia/Commons; verify license for production",
+    "localFile": "ath-130.jpg"
+  },
+  {
+    "athleteId": "ath-131",
+    "athleteNameEn": "Chris Sharma",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/80/Chris_Sharma_-_1.jpg/330px-Chris_Sharma_-_1.jpg",
+    "source": "Wikipedia",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-131.jpg"
+  },
+  {
+    "athleteId": "ath-132",
+    "athleteNameEn": "Lynn Hill",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Lynn_Hill_in_Stavanger_during_world_cup_in_climbing_2015_crop.JPG/330px-Lynn_Hill_in_Stavanger_during_world_cup_in_climbing_2015_crop.JPG",
+    "source": "Wikipedia (en)",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-132.jpg"
+  },
+  {
+    "athleteId": "ath-133",
+    "athleteNameEn": "Seb Bouin",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/d/d9/Clark_Mountain_Third_Tier.jpg",
+    "source": "Commons search",
+    "licenseOrNote": "Wikipedia/Commons; verify license for production",
+    "localFile": "ath-133.jpg"
+  },
+  {
+    "athleteId": "ath-134",
+    "athleteNameEn": "Stefano Ghisolfi",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/2d/StefanoGhisolfi-1.JPG/330px-StefanoGhisolfi-1.JPG",
+    "source": "Wikipedia",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-134.jpg"
+  },
+  {
+    "athleteId": "ath-135",
+    "athleteNameEn": "Tommy Caldwell",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Tommy_Caldwell_%282015%29.jpg/330px-Tommy_Caldwell_%282015%29.jpg",
+    "source": "Wikipedia (en)",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-135.jpg"
+  },
+  {
+    "athleteId": "ath-136",
+    "athleteNameEn": "Will Bosi",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b0/Climbing_World_Championships_2018_Lead_Semi_Bosi_%28BT0A3307%29.jpg/330px-Climbing_World_Championships_2018_Lead_Semi_Bosi_%28BT0A3307%29.jpg",
+    "source": "Wikipedia (en)",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-136.jpg"
+  },
+  {
+    "athleteId": "ath-137",
+    "athleteNameEn": "Warren Harding",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4e/Warren_G._Harding_1920s_portrait_%283x4_cropped%29.jpg/330px-Warren_G._Harding_1920s_portrait_%283x4_cropped%29.jpg",
+    "source": "Wikipedia",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-137.jpg"
+  },
+  {
+    "athleteId": "ath-138",
+    "athleteNameEn": "Royal Robbins",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Royal_Robbins_2_by_Tom_Frost.jpg/330px-Royal_Robbins_2_by_Tom_Frost.jpg",
+    "source": "Wikipedia (en)",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-138.jpg"
+  },
+  {
+    "athleteId": "ath-139",
+    "athleteNameEn": "Jim Bridwell",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/c0/Jim_Bridwell_2003_cropped.jpg/330px-Jim_Bridwell_2003_cropped.jpg",
+    "source": "Wikipedia (en)",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-139.jpg"
+  },
+  {
+    "athleteId": "ath-140",
+    "athleteNameEn": "Tommy Caldwell",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bc/Tommy_Caldwell_%282015%29.jpg/330px-Tommy_Caldwell_%282015%29.jpg",
+    "source": "Wikipedia (en)",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-140.jpg"
+  },
+  {
+    "athleteId": "ath-141",
+    "athleteNameEn": "Alex Honnold",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Alex_Honnold_in_2023_in_Antarctica_%28cropped%29.jpg/330px-Alex_Honnold_in_2023_in_Antarctica_%28cropped%29.jpg",
+    "source": "Wikipedia",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-141.jpg"
+  },
+  {
+    "athleteId": "ath-142",
+    "athleteNameEn": "Kevin Jorgeson",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3f/TSM350_-_Kevin_Jorgeson_-_2015_-_Stierch.jpg/330px-TSM350_-_Kevin_Jorgeson_-_2015_-_Stierch.jpg",
+    "source": "Wikipedia (en)",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-142.jpg"
+  },
+  {
+    "athleteId": "ath-143",
+    "athleteNameEn": "Peter Croft",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Peter_Croft%2C_at_the_Salt_Lake_Trade_show.jpg/330px-Peter_Croft%2C_at_the_Salt_Lake_Trade_show.jpg",
+    "source": "Wikipedia (en)",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-143.jpg"
+  },
+  {
+    "athleteId": "ath-144",
+    "athleteNameEn": "John Long",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/John_Long_in_Papua_New_Guinea%2C_1982.jpg/330px-John_Long_in_Papua_New_Guinea%2C_1982.jpg",
+    "source": "Wikipedia (en)",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-144.jpg"
+  },
+  {
+    "athleteId": "ath-145",
+    "athleteNameEn": "Alex Honnold",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/84/Alex_Honnold_in_2023_in_Antarctica_%28cropped%29.jpg/330px-Alex_Honnold_in_2023_in_Antarctica_%28cropped%29.jpg",
+    "source": "Wikipedia",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-145.jpg"
+  },
+  {
+    "athleteId": "ath-146",
+    "athleteNameEn": "John Bachar",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/c/cc/John_Bachar%2C_in_Tuolumne%2C_above_Yosemite%2C_mid_1980s.jpg/330px-John_Bachar%2C_in_Tuolumne%2C_above_Yosemite%2C_mid_1980s.jpg",
+    "source": "Wikipedia (en)",
+    "licenseOrNote": "Wikipedia/Commons; verify license for production",
+    "localFile": "ath-146.jpg"
+  },
+  {
+    "athleteId": "ath-147",
+    "athleteNameEn": "Peter Croft",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/f/f8/Peter_Croft%2C_at_the_Salt_Lake_Trade_show.jpg/330px-Peter_Croft%2C_at_the_Salt_Lake_Trade_show.jpg",
+    "source": "Wikipedia (en)",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-147.jpg"
+  },
+  {
+    "athleteId": "ath-148",
+    "athleteNameEn": "Dean Potter",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/50/Dean-Potter.jpg/330px-Dean-Potter.jpg",
+    "source": "Wikipedia (en)",
+    "licenseOrNote": "Wikipedia/Commons; verify license for production",
+    "localFile": "ath-148.jpg"
+  },
+  {
+    "athleteId": "ath-149",
+    "athleteNameEn": "John Gill",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/2/21/John_Gill_1968.jpg/250px-John_Gill_1968.jpg",
+    "source": "Wikipedia (en)",
+    "licenseOrNote": "Wikipedia/Commons; verify license for production",
+    "localFile": "ath-149.jpg"
+  },
+  {
+    "athleteId": "ath-150",
+    "athleteNameEn": "Wolfgang Gullich",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Bild_auf_dem_Gedenkstein_fuer_Guellich_%28retuschiert%29.jpg/330px-Bild_auf_dem_Gedenkstein_fuer_Guellich_%28retuschiert%29.jpg",
+    "source": "Wikipedia (en)",
+    "licenseOrNote": "Wikipedia/Commons; verify license for production",
+    "localFile": "ath-150.jpg"
+  },
+  {
+    "athleteId": "ath-151",
+    "athleteNameEn": "Jerry Moffatt",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Jerry_moffatt_climb.jpg/330px-Jerry_moffatt_climb.jpg",
+    "source": "Wikipedia (en)",
+    "licenseOrNote": "Wikipedia/Commons; verify license for production",
+    "localFile": "ath-151.jpg"
+  },
+  {
+    "athleteId": "ath-152",
+    "athleteNameEn": "Ben Moon",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/LL-Q9610_%28ben%29-Titodutta-%E0%A6%AE%E0%A7%81%E0%A6%A8%E0%A6%AE%E0%A7%81%E0%A6%A8_%E0%A6%B8%E0%A7%87%E0%A6%A8.wav",
+    "source": "Commons search",
+    "licenseOrNote": "Wikipedia/Commons; verify license for production",
+    "localFile": "ath-152.jpg"
+  },
+  {
+    "athleteId": "ath-153",
+    "athleteNameEn": "Kurt Albert",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/Kurt_Albert_02.jpg/330px-Kurt_Albert_02.jpg",
+    "source": "Wikipedia (en)",
+    "licenseOrNote": "Wikipedia/Commons; verify license for production",
+    "localFile": "ath-153.jpg"
+  },
+  {
+    "athleteId": "ath-154",
+    "athleteNameEn": "Royal Robbins",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/b/bb/Royal_Robbins_2_by_Tom_Frost.jpg/330px-Royal_Robbins_2_by_Tom_Frost.jpg",
+    "source": "Wikipedia (en)",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-154.jpg"
+  },
+  {
+    "athleteId": "ath-155",
+    "athleteNameEn": "Yvon Chouinard",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/Yvon_Chouinard_by_Tom_Frost.jpg/330px-Yvon_Chouinard_by_Tom_Frost.jpg",
+    "source": "Wikipedia",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-155.jpg"
+  },
+  {
+    "athleteId": "ath-156",
+    "athleteNameEn": "Patrick Edlinger",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/5/52/Patrick_Edlinger_2.png/330px-Patrick_Edlinger_2.png",
+    "source": "Wikipedia (en)",
+    "licenseOrNote": "Wikipedia/Commons; verify license for production",
+    "localFile": "ath-156.png"
+  },
+  {
+    "athleteId": "ath-157",
+    "athleteNameEn": "Ron Kauk",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/0/0e/Ron_Kauk_-_Yosemite_-_2011.jpg/330px-Ron_Kauk_-_Yosemite_-_2011.jpg",
+    "source": "Wikipedia (en)",
+    "licenseOrNote": "Wikipedia/Commons; verify license for production",
+    "localFile": "ath-157.jpg"
+  },
+  {
+    "athleteId": "ath-158",
+    "athleteNameEn": "Catherine Destivelle",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/65/Catherine_Destivelle_in_Meteora.jpg/330px-Catherine_Destivelle_in_Meteora.jpg",
+    "source": "Wikipedia (en)",
+    "licenseOrNote": "Wikipedia/Commons; verify license for production",
+    "localFile": "ath-158.jpg"
+  },
+  {
+    "athleteId": "ath-159",
+    "athleteNameEn": "John Sherman",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/4/4a/John-Sherman-2-cropped.jpg/330px-John-Sherman-2-cropped.jpg",
+    "source": "Wikipedia (en)",
+    "licenseOrNote": "Wikipedia/Commons; verify license for production",
+    "localFile": "ath-159.jpg"
+  },
+  {
+    "athleteId": "ath-160",
+    "athleteNameEn": "Wolfgang Gullich",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/a/af/Bild_auf_dem_Gedenkstein_fuer_Guellich_%28retuschiert%29.jpg/330px-Bild_auf_dem_Gedenkstein_fuer_Guellich_%28retuschiert%29.jpg",
+    "source": "Wikipedia (en)",
+    "licenseOrNote": "Wikipedia/Commons; verify license for production",
+    "localFile": "ath-160.jpg"
+  },
+  {
+    "athleteId": "ath-161",
+    "athleteNameEn": "Ben Moon",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/9/96/LL-Q9610_%28ben%29-Titodutta-%E0%A6%AE%E0%A7%81%E0%A6%A8%E0%A6%AE%E0%A7%81%E0%A6%A8_%E0%A6%B8%E0%A7%87%E0%A6%A8.wav",
+    "source": "Commons search",
+    "licenseOrNote": "Wikipedia/Commons; verify license for production",
+    "localFile": "ath-161.jpg"
+  },
+  {
+    "athleteId": "ath-162",
+    "athleteNameEn": "Eva Lopez",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/a/aa/EvaLopez.jpg",
+    "source": "Commons search",
+    "licenseOrNote": "Wikipedia/Commons; verify license for production",
+    "localFile": "ath-162.jpg"
+  },
+  {
+    "athleteId": "ath-163",
+    "athleteNameEn": "Eric Horst",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/9/93/Eric_Phillips-Horst-1_FULL.jpg",
+    "source": "Commons search",
+    "licenseOrNote": "Wikipedia/Commons; verify license for production",
+    "localFile": "ath-163.jpg"
+  },
+  {
+    "athleteId": "ath-164",
+    "athleteNameEn": "Mark Anderson & Mike Anderson",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f9/Tom_Anderson_%26_Mike_Pence_2.jpg",
+    "source": "Commons search",
+    "licenseOrNote": "Wikipedia/Commons; verify license for production",
+    "localFile": "ath-164.jpg"
+  },
+  {
+    "athleteId": "ath-165",
+    "athleteNameEn": "Neil Gresham",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/e/ea/Atlanta_City_Directory_%281922%29_%2814783577995%29.jpg",
+    "source": "Commons search",
+    "licenseOrNote": "Wikipedia/Commons; verify license for production",
+    "localFile": "ath-165.jpg"
+  },
+  {
+    "athleteId": "ath-166",
+    "athleteNameEn": "Tom Randall & Pete Whittaker",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/f/f3/Yackety_yack_%28serial%29_%28IA_yacketyyackseria1957univ%29.pdf",
+    "source": "Commons search",
+    "licenseOrNote": "Wikipedia/Commons; verify license for production",
+    "localFile": "ath-166.jpg"
+  },
+  {
+    "athleteId": "ath-167",
+    "athleteNameEn": "Dave MacLeod",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/a/a8/Davemacleod.jpg",
+    "source": "Wikipedia",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-167.jpg"
+  },
+  {
+    "athleteId": "ath-168",
+    "athleteNameEn": "Lattice Training",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/4/42/Anthropomorphic_rhinoceros_standing_on_two_feet%2C_wearing_shirt_with_Moroccan_Lattice_pattern.jpg",
+    "source": "Commons search",
+    "licenseOrNote": "Wikipedia/Commons; verify license for production",
+    "localFile": "ath-168.jpg"
+  },
+  {
+    "athleteId": "ath-169",
+    "athleteNameEn": "Wu Peng",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/2/23/Army_%28ROCA%29_General_Wu_Ta-peng_%E9%99%B8%E8%BB%8D%E4%B8%8A%E5%B0%87%E5%90%B3%E9%81%94%E6%BE%8E_%2820110506_%E8%87%BA%E5%8C%97%E5%B8%82%E6%94%BF%E5%BA%9C100%E5%B9%B4%E5%BA%A6%E5%85%A8%E6%B0%91%E9%98%B2%E8%A1%9B%E5%8B%95%E5%93%A1%EF%BC%88%E8%90%AC%E5%AE%8934%E8%99%9F%EF%BC%89%E6%9A%A8%E8%A4%87%E5%90%88%E5%9E%8B%E7%81%BD%E5%AE%B3%E9%98%B2%E6%95%91%E6%BC%94%E7%BF%92_15618222620%29.jpg",
+    "source": "Commons search",
+    "licenseOrNote": "Wikipedia/Commons; verify license for production",
+    "localFile": "ath-169.jpg"
+  },
+  {
+    "athleteId": "ath-170",
+    "athleteNameEn": "Deng Lijuan",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/2/2e/Ultra-bright_emission_from_Sr_doped_TiO2_nanoparticles_through_r-GO_conjugation.pdf",
+    "source": "Commons search",
+    "licenseOrNote": "Wikipedia/Commons; verify license for production",
+    "localFile": "ath-170.jpg"
+  },
+  {
+    "athleteId": "ath-171",
+    "athleteNameEn": "Zhang Yuetong",
+    "avatarUrl": "",
+    "source": "",
+    "licenseOrNote": "Wikipedia/Commons: no thumbnail"
+  },
+  {
+    "athleteId": "ath-172",
+    "athleteNameEn": "Luo Zhilu",
+    "avatarUrl": "",
+    "source": "",
+    "licenseOrNote": "Wikipedia/Commons: no thumbnail"
+  },
+  {
+    "athleteId": "ath-173",
+    "athleteNameEn": "Pan Yufei",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/2/22/Climbing_Boys_Final_YOG18_10-10-2018_%28041%29.jpg",
+    "source": "override (Google/manual)",
+    "licenseOrNote": "Manual/Google; verify license",
+    "localFile": "ath-173.jpg"
+  },
+  {
+    "athleteId": "ath-176",
+    "athleteNameEn": "Zhong Qixin",
+    "avatarUrl": "https://upload.wikimedia.org/wikipedia/commons/thumb/e/e3/Climbing_World_Championships_2018_Speed_third_place_playoff_%28BT0A6526%29.jpg/330px-Climbing_World_Championships_2018_Speed_third_place_playoff_%28BT0A6526%29.jpg",
+    "source": "Wikipedia",
+    "licenseOrNote": "Wikipedia thumbnail; verify license for production",
+    "localFile": "ath-176.jpg"
+  }
+]
