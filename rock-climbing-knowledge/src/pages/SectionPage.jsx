@@ -2,6 +2,7 @@ import { useParams, Link } from 'react-router-dom'
 import { useApp } from '../context/AppContext'
 import { Icon } from '../utils/icons'
 import Breadcrumb from '../components/content/Breadcrumb'
+import PageSEO from '../components/PageSEO'
 
 export default function SectionPage() {
   const { sectionSlug } = useParams()
@@ -22,8 +23,12 @@ export default function SectionPage() {
     )
   }
 
+  const sectionTitle = lang === 'zh' ? section.title.zh : section.title.en
+  const sectionDesc = lang === 'zh' ? section.description.zh : section.description.en
+
   return (
     <div className="max-w-4xl mx-auto px-4 py-6">
+      <PageSEO title={sectionTitle} description={sectionDesc} path={`/section/${sectionSlug}`} />
       <Breadcrumb section={section} />
 
       <div className="mt-6">

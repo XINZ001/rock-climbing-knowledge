@@ -7,6 +7,7 @@ import { useUserRegion } from '../hooks/useUserRegion'
 import { filterAndRankVideos } from '../utils/videoFilter'
 import videosData from '../data/videos.json'
 import illustrationRegistry from '../data/illustration-registry.json'
+import PageSEO from '../components/PageSEO'
 
 export default function TopicPage() {
   const { sectionSlug, subSlug } = useParams()
@@ -66,8 +67,16 @@ export default function TopicPage() {
     }
   }, [loading])
 
+  const topicTitle = subMeta ? (lang === 'zh' ? subMeta.title.zh : subMeta.title.en) : ''
+  const sectionTitle = section ? (lang === 'zh' ? section.title.zh : section.title.en) : ''
+
   return (
     <div className="max-w-4xl mx-auto px-4 py-6">
+      <PageSEO
+        title={`${topicTitle} — ${sectionTitle}`}
+        description={`攀岩知识库「${sectionTitle}」模块：${topicTitle}的详细讲解与实用技巧。`}
+        path={`/section/${sectionSlug}/${subSlug}`}
+      />
       <Breadcrumb section={section} subSection={subMeta} />
 
       <div className="mt-6">

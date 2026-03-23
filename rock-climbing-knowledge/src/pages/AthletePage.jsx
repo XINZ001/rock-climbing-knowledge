@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react'
 import { Link, useParams } from 'react-router-dom'
 import { useApp } from '../context/AppContext'
+import PageSEO from '../components/PageSEO'
 import VideoSection from '../components/content/VideoSection'
 import ImageLightbox from '../components/ui/ImageLightbox'
 import {
@@ -78,8 +79,15 @@ export default function AthletePage() {
     )
   }
 
+  const athleteName = athlete ? t(athlete.name) : ''
+
   return (
     <div className="max-w-6xl mx-auto px-4 py-6">
+      <PageSEO
+        title={`${athleteName} — 攀岩名人堂`}
+        description={`${athleteName}的攀岩生涯与成就，了解这位传奇攀岩者的故事。`}
+        path={`/hall-of-fame/${athleteSlug}`}
+      />
       <nav className="text-sm text-text-secondary">
         <Link to="/" className="hover:text-forest transition-colors">
           {lang === 'zh' ? '首页' : 'Home'}

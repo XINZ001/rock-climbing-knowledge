@@ -3,6 +3,7 @@ import { Link, useNavigate } from 'react-router-dom'
 import { useApp } from '../context/AppContext'
 import { Icon } from '../utils/icons'
 import { getHallOfFameAthletes, getHallOfFameMedia } from '../utils/hallOfFame'
+import PageSEO from '../components/PageSEO'
 
 function hexToRgba(hex, alpha) {
   const normalized = hex.replace('#', '')
@@ -80,6 +81,7 @@ export default function HomePage() {
 
   return (
     <div className="relative max-w-6xl mx-auto px-4 py-8">
+      <PageSEO path="/" />
       {/* 圆点网格背景 */}
       <div
         className="fixed inset-0 pointer-events-none z-0"

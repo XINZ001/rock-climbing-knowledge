@@ -6,6 +6,7 @@ import { fetchInjuryReports, BODY_PARTS, CLIMBING_TYPES } from '../lib/injuries'
 import { supabase } from '../lib/supabase'
 import { Icon } from '../utils/icons'
 import UserAvatar from '../components/ui/UserAvatar'
+import PageSEO from '../components/PageSEO'
 
 // 根据受伤部位生成渐变色
 const BODY_PART_GRADIENTS = {
@@ -153,6 +154,7 @@ export default function InjuryListPage() {
 
   return (
     <div className="relative">
+      <PageSEO title="伤痛档案" description="来自真实攀岩者的受伤经历——了解风险、做好预防。查看常见攀岩伤痛案例，学习预防和恢复经验。" path="/injuries" />
       {/* 全景渐变背景 */}
       <div className="absolute inset-x-0 top-0 h-[320px] bg-[radial-gradient(circle_at_top_left,_rgba(212,145,61,0.18),_transparent_50%),radial-gradient(circle_at_top_right,_rgba(180,60,60,0.14),_transparent_45%)] pointer-events-none" />
       <div className="absolute inset-x-0 top-[240px] h-[80px] bg-gradient-to-b from-transparent to-stone-bg pointer-events-none" />

@@ -1,6 +1,7 @@
 import { useMemo, useState } from 'react'
 import { Link } from 'react-router-dom'
 import { useApp } from '../context/AppContext'
+import PageSEO from '../components/PageSEO'
 import {
   getHallOfFameAthletes,
   getHallOfFameMedia,
@@ -35,6 +36,7 @@ export default function HallOfFamePage() {
 
   return (
     <div className="relative">
+      <PageSEO title="攀岩名人堂" description="从竞技巨星到传奇先驱，了解塑造攀岩运动的伟大攀岩者们的故事与成就。" path="/hall-of-fame" />
       {/* 全景渐变背景 */}
       <div className="absolute inset-x-0 top-0 h-[320px] bg-[radial-gradient(circle_at_top_left,_rgba(74,124,89,0.18),_transparent_50%),radial-gradient(circle_at_top_right,_rgba(199,161,42,0.18),_transparent_45%)] pointer-events-none" />
       <div className="absolute inset-x-0 top-[240px] h-[80px] bg-gradient-to-b from-transparent to-stone-bg pointer-events-none" />

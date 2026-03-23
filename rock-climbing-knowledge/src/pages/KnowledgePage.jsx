@@ -1,12 +1,14 @@
 import { Link } from 'react-router-dom'
 import { useApp } from '../context/AppContext'
 import { Icon } from '../utils/icons'
+import PageSEO from '../components/PageSEO'
 
 export default function KnowledgePage() {
   const { sections, t, lang } = useApp()
 
   return (
     <div className="relative">
+      <PageSEO title="知识库" description="系统化的攀岩知识体系，从基础概览到高级技术，涵盖身体训练、攀岩技巧、心理建设、装备安全等十大模块。" path="/knowledge" />
       {/* 全景渐变背景 */}
       <div className="absolute inset-x-0 top-0 h-[320px] bg-[radial-gradient(circle_at_top_left,_rgba(74,124,89,0.18),_transparent_50%),radial-gradient(circle_at_top_right,_rgba(93,64,55,0.14),_transparent_45%)] pointer-events-none" />
       <div className="absolute inset-x-0 top-[240px] h-[80px] bg-gradient-to-b from-transparent to-stone-bg pointer-events-none" />
