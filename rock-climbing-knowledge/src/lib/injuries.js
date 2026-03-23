@@ -84,9 +84,9 @@ export async function fetchInjuryReports({
   let query = supabase
     .from('posts')
     .select(`
-      *,
+      id, title, description, created_at, user_id, climbing_type, grade,
       profiles:user_id ( id, username, avatar_url ),
-      injury_details!inner ( * ),
+      injury_details!inner ( body_parts, injury_type, climbing_type ),
       media ( id, storage_path, media_type, display_order ),
       likes ( user_id ),
       comments ( id )
@@ -107,7 +107,7 @@ export async function fetchInjuryReports({
   return { data, error }
 }
 
-/** 获取单个伤害案例详情 */
+/** 获取单个伤害案例详情（轻量版：不含评论） */
 export async function fetchInjuryReport(postId) {
   const { data, error } = await supabase
     .from('posts')
@@ -116,16 +116,26 @@ export async function fetchInjuryReport(postId) {
       profiles:user_id ( id, username, avatar_url, climbing_level ),
       injury_details ( * ),
       media ( id, storage_path, media_type, mime_type, display_order ),
-      likes ( user_id ),
-      comments (
-        *,
-        profiles:user_id ( id, username, avatar_url )
-      )
+      likes ( user_id )
     `)
     .eq('id', postId)
     .single()
 
   return { data, error }
+}
+
+/** 单独获取评论（延迟加载） */
+export async function fetchInjuryComments(postId) {
+  const { data, error } = await supabase
+    .from('comments')
+    .select(`
+      *,
+      profiles:user_id ( id, username, avatar_url )
+    `)
+    .eq('post_id', postId)
+    .order('created_at', { ascending: true })
+
+  return { data: data || [], error }
 }
 
 /** 获取下一篇伤害案例（按时间排序，比当前更早的那一篇） */

@@ -3,7 +3,7 @@ import { useParams, Link, useOutletContext } from 'react-router-dom'
 import { useApp } from '../context/AppContext'
 import { useAuth } from '../context/AuthContext'
 import { useNavigate } from 'react-router-dom'
-import { fetchInjuryReport, fetchNextInjuryId, fetchPrevInjuryId, deleteInjuryReport, BODY_PARTS, INJURY_TYPES, CLIMBING_TYPES, EXPERIENCE_LEVELS, FREQUENCY_OPTIONS, RECOVERY_DURATIONS } from '../lib/injuries'
+import { fetchInjuryReport, fetchInjuryComments, fetchNextInjuryId, fetchPrevInjuryId, deleteInjuryReport, BODY_PARTS, INJURY_TYPES, CLIMBING_TYPES, EXPERIENCE_LEVELS, FREQUENCY_OPTIONS, RECOVERY_DURATIONS } from '../lib/injuries'
 import { toggleLike, createComment } from '../lib/community'
 import { supabase } from '../lib/supabase'
 import { Icon } from '../utils/icons'
@@ -132,22 +132,31 @@ export default function InjuryDetailPage() {
       setTransitioning(true)
     }
 
+    // 第一阶段：拿核心内容（post + injury_details + media + likes），先渲染页面
     const { data } = await fetchInjuryReport(id)
     if (data) {
       setReport(data)
       setLikeCount(data.likes?.length || 0)
       setLiked(data.likes?.some((l) => l.user_id === user?.id) || false)
-      setComments(data.comments || [])
-      // 获取上一篇和下一篇
-      const [nid, pid] = await Promise.all([
-        fetchNextInjuryId(data.id, data.created_at),
-        fetchPrevInjuryId(data.id, data.created_at),
-      ])
-      setNextId(nid)
-      setPrevId(pid)
+      // 先清空旧评论和导航，让页面立刻渲染
+      setComments([])
+      setNextId(null)
+      setPrevId(null)
     }
     setLoading(false)
     setTransitioning(false)
+
+    // 第二阶段：异步加载评论 + prev/next（不阻塞页面渲染）
+    if (data) {
+      const [commentsResult, nid, pid] = await Promise.all([
+        fetchInjuryComments(id),
+        fetchNextInjuryId(data.id, data.created_at),
+        fetchPrevInjuryId(data.id, data.created_at),
+      ])
+      setComments(commentsResult.data || [])
+      setNextId(nid)
+      setPrevId(pid)
+    }
   }
 
   const handleLike = async () => {

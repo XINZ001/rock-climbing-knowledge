@@ -33,7 +33,7 @@ const BODY_PART_ICONS = {
   other:    'M12 2a10 10 0 100 20 10 10 0 000-20zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z',
 }
 
-function InjuryCard({ report, lang }) {
+function InjuryCard({ report, lang, userId }) {
   const details = report.injury_details?.[0] || report.injury_details
   if (!details) return null
 
@@ -44,7 +44,7 @@ function InjuryCard({ report, lang }) {
 
   const climbingLabel = CLIMBING_TYPES.find((c) => c.value === details.climbing_type)
   const likeCount = report.likes?.length || 0
-  const commentCount = report.comments?.length || 0
+  const liked = userId && report.likes?.some((l) => l.user_id === userId)
 
   // 获取第一张图片
   const mediaItems = (report.media || []).sort((a, b) => a.display_order - b.display_order)
@@ -119,8 +119,8 @@ function InjuryCard({ report, lang }) {
             <UserAvatar name={report.profiles?.username || '匿名'} size={16} />
             {report.profiles?.username || '匿名'}
           </span>
-          <span className="flex items-center gap-0.5">
-            <Icon name="heart" size={13} /> {likeCount}
+          <span className={`flex items-center gap-0.5 ${liked ? 'text-red-500' : ''}`}>
+            <Icon name={liked ? 'heartFilled' : 'heart'} size={13} /> {likeCount}
           </span>
         </div>
       </div>
@@ -255,7 +255,7 @@ export default function InjuryListPage() {
       ) : (
         <div className="columns-2 md:columns-3 lg:columns-4 gap-3">
           {reports.map((report) => (
-            <InjuryCard key={report.id} report={report} lang={lang} />
+            <InjuryCard key={report.id} report={report} lang={lang} userId={user?.id} />
           ))}
         </div>
       )}
