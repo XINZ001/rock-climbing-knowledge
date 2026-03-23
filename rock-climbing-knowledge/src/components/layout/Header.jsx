@@ -1,119 +1,181 @@
 import { useState, useRef, useEffect } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { Link, useLocation, useNavigate } from 'react-router-dom'
 import { useApp } from '../../context/AppContext'
+import { useAuth } from '../../context/AuthContext'
 import { Icon } from '../../utils/icons'
+import UserAvatar from '../ui/UserAvatar'
 
-export default function Header({ onToggleSidebar }) {
-  const { search, searchReady, lang, setLang, t } = useApp()
-  const [query, setQuery] = useState('')
-  const [results, setResults] = useState([])
-  const [showDropdown, setShowDropdown] = useState(false)
+function UserMenu() {
+  const { profile, signOut } = useAuth()
+  const [open, setOpen] = useState(false)
+  const ref = useRef(null)
   const navigate = useNavigate()
-  const inputRef = useRef(null)
-  const dropdownRef = useRef(null)
-
-  useEffect(() => {
-    if (!query.trim()) {
-      setResults([])
-      setShowDropdown(false)
-      return
-    }
-    const timer = setTimeout(() => {
-      const res = search(query)
-      setResults(res.slice(0, 8))
-      setShowDropdown(res.length > 0)
-    }, 200)
-    return () => clearTimeout(timer)
-  }, [query, search])
 
   useEffect(() => {
     const handleClick = (e) => {
-      if (dropdownRef.current && !dropdownRef.current.contains(e.target) &&
-          inputRef.current && !inputRef.current.contains(e.target)) {
-        setShowDropdown(false)
-      }
+      if (ref.current && !ref.current.contains(e.target)) setOpen(false)
     }
     document.addEventListener('mousedown', handleClick)
     return () => document.removeEventListener('mousedown', handleClick)
   }, [])
 
-  const handleSubmit = (e) => {
-    e.preventDefault()
-    if (query.trim()) {
-      navigate(`/search?q=${encodeURIComponent(query.trim())}`)
-      setShowDropdown(false)
-    }
+  const handleNav = (path) => {
+    navigate(path)
+    setOpen(false)
   }
 
-  const handleResultClick = (item) => {
-    navigate(`/section/${item.sectionSlug}/${item.subSectionSlug}`)
-    setQuery('')
-    setShowDropdown(false)
-  }
+  const displayName = profile?.username || '攀岩者'
+
+  return (
+    <div ref={ref} className="relative">
+      <button
+        onClick={() => setOpen(!open)}
+        className="flex items-center gap-1.5 px-2 py-1 rounded-lg hover:bg-stone-sidebar transition-colors"
+      >
+        <UserAvatar name={displayName} size={28} />
+        <span className="text-sm font-medium hidden sm:inline max-w-[80px] truncate">
+          {displayName}
+        </span>
+        <Icon name="chevronDown" size={12} className="text-text-secondary" />
+      </button>
+
+      {open && (
+        <div className="absolute right-0 top-full mt-1 w-48 bg-stone-card rounded-lg border border-stone-border shadow-lg overflow-hidden z-50">
+          <button
+            onClick={() => handleNav('/climbing-profile')}
+            className="w-full flex items-center gap-2 px-4 py-2.5 text-sm hover:bg-stone-bg transition-colors text-left"
+          >
+            <Icon name="mountain" size={14} className="text-text-secondary" />
+            攀岩档案
+          </button>
+          <div className="border-t border-stone-border" />
+          <button
+            onClick={() => handleNav('/settings')}
+            className="w-full flex items-center gap-2 px-4 py-2.5 text-sm hover:bg-stone-bg transition-colors text-left"
+          >
+            <Icon name="user" size={14} className="text-text-secondary" />
+            个人设置
+          </button>
+          <div className="border-t border-stone-border" />
+          <button
+            onClick={async () => { await signOut(); setOpen(false) }}
+            className="w-full flex items-center gap-2 px-4 py-2.5 text-sm hover:bg-stone-bg transition-colors text-left text-red-500"
+          >
+            <Icon name="logOut" size={14} />
+            退出登录
+          </button>
+        </div>
+      )}
+    </div>
+  )
+}
+
+export default function Header({ onToggleSidebar, onOpenAuth }) {
+  const { lang, setLang } = useApp()
+  const { user, profile, loading } = useAuth()
+  const location = useLocation()
+
+  // 判断当前板块用于高亮
+  const isKnowledge = location.pathname === '/knowledge' || location.pathname.startsWith('/section') || location.pathname.startsWith('/search')
+  const isHallOfFame = location.pathname.startsWith('/hall-of-fame')
+  const isInjuries = location.pathname.startsWith('/injuries')
+
+  const navItems = [
+    { label: lang === 'zh' ? '知识库' : 'Knowledge', to: '/knowledge', active: isKnowledge, icon: 'book' },
+    { label: lang === 'zh' ? '名人堂' : 'Hall of Fame', to: '/hall-of-fame', active: isHallOfFame, icon: 'trophy' },
+    { label: lang === 'zh' ? '伤痛档案' : 'Injury Archive', to: '/injuries', active: isInjuries, icon: 'medkit' },
+  ]
 
   return (
     <header className="sticky top-0 z-40 bg-stone-card border-b border-stone-border shadow-sm">
-      <div className="flex items-center gap-3 px-4 h-14">
-        <button
-          onClick={onToggleSidebar}
-          className="lg:hidden p-1.5 rounded-md hover:bg-stone-sidebar transition-colors"
-        >
-          <Icon name="menu" size={22} />
-        </button>
+      <div className="flex items-center px-4 h-14">
+        {/* 左侧：Logo + 菜单按钮（桌面端） */}
+        <div className="flex items-center gap-1 shrink-0">
+          <Link to="/" className="flex items-center gap-2">
+            <Icon name="mountain" size={24} className="text-forest" />
+            <span className="font-semibold text-lg">攀岩知识库</span>
+          </Link>
+          <button
+            onClick={onToggleSidebar}
+            className="hidden md:flex items-center justify-center w-8 h-8 rounded-md hover:bg-stone-sidebar transition-colors ml-1"
+          >
+            <Icon name="menu" size={18} className="text-text-secondary" />
+          </button>
+        </div>
 
-        <Link to="/" className="flex items-center gap-2 shrink-0">
-          <Icon name="mountain" size={24} className="text-forest" />
-          <span className="font-semibold text-lg hidden sm:inline">攀岩知识库</span>
-        </Link>
+        {/* 中间：三个顶级导航按钮居中 — 桌面端 */}
+        <nav className="hidden sm:flex items-center justify-center gap-1 flex-1">
+          {navItems.map((item) => (
+            <Link
+              key={item.to}
+              to={item.to}
+              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
+                item.active
+                  ? 'bg-forest-light text-forest'
+                  : 'text-text-secondary hover:bg-stone-bg hover:text-text-primary'
+              }`}
+            >
+              <Icon name={item.icon} size={14} />
+              {item.label}
+            </Link>
+          ))}
+        </nav>
 
-        <form onSubmit={handleSubmit} className="flex-1 max-w-xl mx-auto relative">
-          <div className="relative">
-            <Icon name="search" size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-text-secondary" />
-            <input
-              ref={inputRef}
-              type="text"
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-              onFocus={() => results.length > 0 && setShowDropdown(true)}
-              placeholder={searchReady
-                ? (lang === 'zh' ? '搜索知识点 / Search...' : 'Search...')
-                : (lang === 'zh' ? '索引加载中...' : 'Loading index...')}
-              className="w-full pl-9 pr-4 py-2 rounded-lg bg-stone-bg border border-stone-border text-sm focus:outline-none focus:border-forest focus:ring-1 focus:ring-forest transition-colors"
-            />
-          </div>
+        {/* 右侧 */}
+        <div className="flex items-center gap-2 shrink-0 ml-auto sm:ml-0">
+          {/* 语言切换 — 桌面端 */}
+          <button
+            onClick={() => setLang(lang === 'zh' ? 'en' : 'zh')}
+            className="hidden sm:inline-flex px-2.5 py-1 rounded-md border border-stone-border text-xs font-medium hover:bg-stone-sidebar transition-colors"
+          >
+            {lang === 'zh' ? 'EN' : '中文'}
+          </button>
 
-          {showDropdown && (
-            <div ref={dropdownRef} className="absolute top-full left-0 right-0 mt-1 bg-stone-card rounded-lg border border-stone-border shadow-lg overflow-hidden z-50">
-              {results.map((r) => (
+          {/* 登录状态 */}
+          {!loading && (
+            user ? (
+              <>
+                {/* 桌面端：完整用户菜单 */}
+                <div className="hidden sm:block">
+                  <UserMenu />
+                </div>
+                {/* 移动端：头像图标 */}
                 <button
-                  key={r.item.id}
-                  onClick={() => handleResultClick(r.item)}
-                  className="w-full text-left px-4 py-2.5 hover:bg-stone-bg transition-colors border-b border-stone-border last:border-b-0"
+                  onClick={() => {}}
+                  className="sm:hidden flex items-center justify-center w-9 h-9 rounded-md hover:bg-stone-sidebar transition-colors"
                 >
-                  <div className="text-sm font-medium">{lang === 'zh' ? r.item.title_zh : r.item.title_en}</div>
-                  <div className="text-xs text-text-secondary mt-0.5">
-                    {lang === 'zh' ? r.item.sectionTitle_zh : r.item.sectionTitle_en}
-                    {' · '}
-                    {lang === 'zh' ? r.item.subTitle_zh : r.item.subTitle_en}
-                  </div>
+                  <UserAvatar name={profile?.username || '攀岩者'} size={24} />
                 </button>
-              ))}
-              <button
-                onClick={handleSubmit}
-                className="w-full text-center px-4 py-2 text-sm text-forest hover:bg-forest-light transition-colors font-medium"
-              >
-                {lang === 'zh' ? '查看全部结果 →' : 'View all results →'}
-              </button>
-            </div>
+              </>
+            ) : (
+              <>
+                {/* 桌面端：完整登录按钮 */}
+                <button
+                  onClick={onOpenAuth}
+                  className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-forest text-white text-sm font-medium hover:bg-forest-dark transition-colors"
+                >
+                  <Icon name="user" size={14} />
+                  {lang === 'zh' ? '登录' : 'Sign in'}
+                </button>
+                {/* 移动端：仅用户图标 */}
+                <button
+                  onClick={onOpenAuth}
+                  className="sm:hidden flex items-center justify-center w-9 h-9 rounded-md hover:bg-stone-sidebar transition-colors"
+                >
+                  <Icon name="user" size={22} className="text-text-secondary" />
+                </button>
+              </>
+            )
           )}
-        </form>
 
-        <button
-          onClick={() => setLang(lang === 'zh' ? 'en' : 'zh')}
-          className="px-2.5 py-1 rounded-md border border-stone-border text-xs font-medium hover:bg-stone-sidebar transition-colors shrink-0"
-        >
-          {lang === 'zh' ? 'EN' : '中文'}
-        </button>
+          {/* 汉堡菜单 — 手机端右侧 */}
+          <button
+            onClick={onToggleSidebar}
+            className="md:hidden flex items-center justify-center w-9 h-9 rounded-md hover:bg-stone-sidebar transition-colors"
+          >
+            <Icon name="menu" size={22} className="text-text-secondary" />
+          </button>
+        </div>
       </div>
     </header>
   )

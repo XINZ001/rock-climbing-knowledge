@@ -37,7 +37,9 @@ export default function Sidebar({ onNavigate }) {
   const location = useLocation()
   const navigate = useNavigate()
   const [manualExpanded, setManualExpanded] = useState(null)
+  const knowledgeActive = location.pathname === '/knowledge' || location.pathname.startsWith('/section')
   const hallOfFameActive = location.pathname.startsWith('/hall-of-fame')
+  const injuriesActive = location.pathname.startsWith('/injuries')
   const expanded = sectionSlug || manualExpanded
 
   const toggleSection = (slug) => {
@@ -64,6 +66,17 @@ export default function Sidebar({ onNavigate }) {
       </Link>
 
       <Link
+        to="/knowledge"
+        onClick={onNavigate}
+        className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
+          knowledgeActive ? 'bg-forest-light text-forest' : 'hover:bg-stone-bg'
+        }`}
+      >
+        <Icon name="book" size={16} />
+        <span>{lang === 'zh' ? '攀岩知识库' : 'Knowledge Base'}</span>
+      </Link>
+
+      <Link
         to="/hall-of-fame"
         onClick={onNavigate}
         className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
@@ -72,6 +85,17 @@ export default function Sidebar({ onNavigate }) {
       >
         <Icon name="trophy" size={16} />
         <span>{lang === 'zh' ? '攀岩名人堂' : 'Hall of Fame'}</span>
+      </Link>
+
+      <Link
+        to="/injuries"
+        onClick={onNavigate}
+        className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
+          injuriesActive ? 'bg-amber-light text-amber' : 'hover:bg-stone-bg'
+        }`}
+      >
+        <Icon name="medkit" size={16} />
+        <span>{lang === 'zh' ? '伤痛档案' : 'Injury Archive'}</span>
       </Link>
 
       <div className="mt-2 space-y-0.5">

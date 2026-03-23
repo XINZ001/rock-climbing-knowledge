@@ -8,8 +8,15 @@ import SearchPage from './pages/SearchPage'
 import NotFoundPage from './pages/NotFoundPage'
 import FeedbackPage from './pages/FeedbackPage'
 import HallOfFamePage from './pages/HallOfFamePage'
-import HallOfFameCategoryPage from './pages/HallOfFameCategoryPage'
+
 import AthletePage from './pages/AthletePage'
+import InjuryListPage from './pages/InjuryListPage'
+import InjuryFormPage from './pages/InjuryFormPage'
+import InjuryDetailPage from './pages/InjuryDetailPage'
+import SettingsPage from './pages/SettingsPage'
+import ClimbingProfilePage from './pages/ClimbingProfilePage'
+import AuthCallbackPage from './pages/AuthCallbackPage'
+import KnowledgePage from './pages/KnowledgePage'
 
 function ScrollToTopOnNav() {
   const { pathname } = useLocation()
@@ -27,11 +34,18 @@ export default function App() {
         <Route element={<Layout />}>
           <Route index element={<HomePage />} />
           <Route path="hall-of-fame" element={<HallOfFamePage />} />
-          <Route path="hall-of-fame/browse/:categoryKey" element={<HallOfFameCategoryPage />} />
-          <Route path="hall-of-fame/:athleteSlug" element={<AthletePage />} />
+<Route path="hall-of-fame/:athleteSlug" element={<AthletePage />} />
+          <Route path="knowledge" element={<KnowledgePage />} />
           <Route path="section/:sectionSlug" element={<SectionPage />} />
           <Route path="section/:sectionSlug/:subSlug" element={<TopicPage />} />
           <Route path="search" element={<SearchPage />} />
+          <Route path="injuries" element={<InjuryListPage />} />
+          <Route path="injuries/new" element={<InjuryFormPage />} />
+          <Route path="injuries/:id" element={<InjuryDetailPage />} />
+          <Route path="injuries/:id/edit" element={<InjuryFormPage />} />
+          <Route path="climbing-profile" element={<ClimbingProfilePage />} />
+          <Route path="settings" element={<SettingsPage />} />
+          <Route path="auth/callback" element={<AuthCallbackPage />} />
           <Route path="admin/feedback" element={<FeedbackPage />} />
           <Route path="*" element={<NotFoundPage />} />
         </Route>
