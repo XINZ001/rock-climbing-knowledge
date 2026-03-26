@@ -31,8 +31,14 @@ function AccordionPanel({ isOpen, children }) {
   )
 }
 
+const langOptions = [
+  { code: 'zh', label: '中文' },
+  { code: 'en', label: 'EN' },
+  { code: 'ko', label: '한국어' },
+]
+
 export default function Sidebar({ onNavigate }) {
-  const { sections, t, lang } = useApp()
+  const { sections, t, lang, setLang } = useApp()
   const { sectionSlug, subSlug } = useParams()
   const location = useLocation()
   const navigate = useNavigate()
@@ -97,6 +103,23 @@ export default function Sidebar({ onNavigate }) {
         <Icon name="medkit" size={16} />
         <span>{lang === 'zh' ? '伤痛档案' : lang === 'en' ? 'Injury Archive' : '부상 기록'}</span>
       </Link>
+
+      {/* 语言切换 — 仅移动端可见（桌面端在 Header 中） */}
+      <div className="lg:hidden flex gap-1 mt-2 px-3 py-1.5">
+        {langOptions.map((opt) => (
+          <button
+            key={opt.code}
+            onClick={() => setLang(opt.code)}
+            className={`flex-1 py-1.5 rounded-md text-xs font-medium transition-colors ${
+              opt.code === lang
+                ? 'bg-forest-light text-forest'
+                : 'bg-stone-bg text-text-secondary hover:text-text-primary'
+            }`}
+          >
+            {opt.label}
+          </button>
+        ))}
+      </div>
 
       <div className="mt-2 space-y-0.5">
         {sections.map((section) => {
