@@ -36,7 +36,15 @@ export default function HallOfFamePage() {
 
   return (
     <div className="relative">
-      <PageSEO title="攀岩名人堂" description="从竞技巨星到传奇先驱，了解塑造攀岩运动的伟大攀岩者们的故事与成就。" path="/hall-of-fame" />
+      <PageSEO
+        title={lang === 'zh' ? '攀岩名人堂' : lang === 'en' ? 'Climbing Hall of Fame' : '클라이밍 명예의 전당'}
+        description={lang === 'zh'
+          ? '从竞技巨星到传奇先驱，了解塑造攀岩运动的伟大攀岩者们的故事与成就。'
+          : lang === 'en'
+          ? 'From competitive stars to legendary pioneers — stories and achievements of the greatest climbers.'
+          : '경쟁 스타부터 전설적인 선구자까지 — 위대한 클라이머들의 이야기와 업적.'}
+        path="/hall-of-fame"
+      />
       {/* 全景渐变背景 */}
       <div className="absolute inset-x-0 top-0 h-[320px] bg-[radial-gradient(circle_at_top_left,_rgba(74,124,89,0.18),_transparent_50%),radial-gradient(circle_at_top_right,_rgba(199,161,42,0.18),_transparent_45%)] pointer-events-none" />
       <div className="absolute inset-x-0 top-[240px] h-[80px] bg-gradient-to-b from-transparent to-stone-bg pointer-events-none" />
@@ -44,12 +52,14 @@ export default function HallOfFamePage() {
       <div className="relative max-w-6xl mx-auto px-4 pt-10 pb-8">
         <div className="max-w-3xl mb-10">
           <h1 className="text-3xl sm:text-4xl font-bold tracking-tight">
-            {lang === 'zh' ? '攀岩名人堂' : 'Climbing Hall of Fame'}
+            {lang === 'zh' ? '攀岩名人堂' : lang === 'en' ? 'Climbing Hall of Fame' : '클라이밍 명예의 전당'}
           </h1>
           <p className="mt-3 text-base sm:text-lg text-text-secondary leading-relaxed">
             {lang === 'zh'
               ? '收录攀岩历史与当代最具代表性的人物，集中展示他们的成就、风格、访谈与影像。'
-              : 'A curated Hall of Fame featuring defining figures from climbing history and the modern era.'}
+              : lang === 'en'
+              ? 'A curated Hall of Fame featuring defining figures from climbing history and the modern era.'
+              : '클라이밍 역사와 현대를 대표하는 인물들의 업적, 스타일, 인터뷰, 영상을 모았습니다.'}
           </p>
         </div>
 
@@ -58,7 +68,7 @@ export default function HallOfFamePage() {
         {FILTER_KEYS.map((key) => {
           const cat = hallOfFameMainCategories[key]
           if (!cat) return null
-          const label = lang === 'zh' ? cat.zh : cat.en
+          const label = lang === 'zh' ? cat.zh : lang === 'en' ? cat.en : (cat.ko || cat.en)
           const isActive = activeFilter === key
           const count = key === 'all'
             ? athletes.length
@@ -85,8 +95,8 @@ export default function HallOfFamePage() {
       {/* 人数 */}
       <div className="mb-4 text-sm text-text-secondary">
         {filtered.length > 0
-          ? (lang === 'zh' ? `共 ${filtered.length} 位人物` : `${filtered.length} athlete${filtered.length !== 1 ? 's' : ''}`)
-          : (lang === 'zh' ? '该类别暂无人物' : 'No athletes in this category')}
+          ? (lang === 'zh' ? `共 ${filtered.length} 位人物` : lang === 'en' ? `${filtered.length} athlete${filtered.length !== 1 ? 's' : ''}` : `총 ${filtered.length}명`)
+          : (lang === 'zh' ? '该类别暂无人物' : lang === 'en' ? 'No athletes in this category' : '이 카테고리에 인물이 없습니다')}
       </div>
 
       {/* 运动员卡片网格 — 使用原版富卡片样式 */}
@@ -163,7 +173,7 @@ export default function HallOfFamePage() {
               <div className="px-5 py-4">
                 <div className="flex items-center text-sm font-medium text-forest">
                   <span className="transition-transform group-hover:translate-x-0.5">
-                    {lang === 'zh' ? '查看详情' : 'View profile'} →
+                    {lang === 'zh' ? '查看详情' : lang === 'en' ? 'View profile' : '프로필 보기'} →
                   </span>
                 </div>
               </div>

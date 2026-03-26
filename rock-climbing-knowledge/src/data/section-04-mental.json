@@ -7,39 +7,47 @@
       "slug": "fear",
       "title": {
         "zh": "恐惧管理",
-        "en": "Fear Management"
+        "en": "Fear Management",
+        "ko": "두려움 관리"
       },
       "overview": {
         "zh": "恐惧是攀岩者最常面对的心理障碍，也是限制攀岩表现的重要因素。从先锋攀坠落恐惧到高度恐惧，不同类型的恐惧需要不同的应对策略。理解恐惧的本质、学会与恐惧共处并逐步建立信心，是攀岩心理训练的核心内容。",
-        "en": "Fear is the most common psychological barrier in climbing and a significant performance limiter. From lead fall fear to height anxiety, different fears require different coping strategies. Understanding fear's nature, learning to coexist with it, and gradually building confidence form the core of climbing mental training."
+        "en": "Fear is the most common psychological barrier in climbing and a significant performance limiter. From lead fall fear to height anxiety, different fears require different coping strategies. Understanding fear's nature, learning to coexist with it, and gradually building confidence form the core of climbing mental training.",
+        "ko": "두려움은 클라이밍에서 가장 흔한 심리 장애입니다. 다양한 두려움에 대응하는 방법을 배우면, 심리적 한계를 극복할 수 있습니다."
       },
       "knowledgePoints": [
         {
           "id": "kp-fear-management",
           "title": {
             "zh": "攀岩恐惧的类型与应对",
-            "en": "Types of Climbing Fear & Coping"
+            "en": "Types of Climbing Fear & Coping",
+            "ko": "클라이밍 두려움의 종류와 대응"
           },
           "content": {
             "zh": "攀岩中的恐惧可以分为几种不同的类型，每种恐惧有其独特的触发机制和应对方法：\n\n**先锋攀坠落恐惧（Lead Fall Fear）：** 这是最常见的攀岩恐惧。攀岩者在先锋攀（lead climbing）中，如果在挂入快挂之前坠落，会向下坠落一段距离（通常是快挂下方距离的两倍加上绳索延伸）。这种不确定性和潜在的坠落距离会引发强烈的恐惧反应。很多攀岩者即使在安全的运动攀路线上也会因为恐惧而「冻结」（freezing），无法出手抓下一个手点。\n\n**高度恐惧（Height Fear）：** 随着攀爬高度增加，某些攀岩者会感到越来越强烈的不适和焦虑。这种恐惧不一定与坠落风险直接相关——即使保护完全可靠，高度本身就足以触发恐惧反应。高度恐惧在多绳距攀登和户外长路线中尤为突出。\n\n**失败恐惧（Fear of Failure）：** 在同伴面前或比赛中担心表现不佳的心理压力。这种恐惧可能导致攀岩者回避尝试极限难度的路线，或在关键时刻因紧张而发挥失常。\n\n**应对策略的核心原则：**\n- 承认恐惧是正常的、有保护意义的生理反应\n- 区分「合理的恐惧」（确实存在安全风险）和「非理性恐惧」（安全措施已经到位但仍然害怕）\n- 不要试图消除恐惧，而是学会在恐惧存在的情况下仍然行动\n- 通过渐进式暴露（gradual exposure）逐步扩展舒适区",
-            "en": "Climbing fears fall into several distinct types:\n\n**Lead Fall Fear:** The most common fear. Uncertainty about fall distance triggers strong fear responses, causing climbers to freeze even on safe sport routes.\n\n**Height Fear:** Increasing anxiety with altitude, independent of actual fall risk. Prominent on multi-pitch routes.\n\n**Fear of Failure:** Performance anxiety in front of peers or in competition, causing avoidance of limit attempts.\n\n**Core coping principles:** Acknowledge fear as a normal protective response. Distinguish rational fear (actual risk) from irrational fear (safety in place but still afraid). Don't try to eliminate fear; learn to act despite it. Use gradual exposure to expand the comfort zone."
+            "en": "Climbing fears fall into several distinct types:\n\n**Lead Fall Fear:** The most common fear. Uncertainty about fall distance triggers strong fear responses, causing climbers to freeze even on safe sport routes.\n\n**Height Fear:** Increasing anxiety with altitude, independent of actual fall risk. Prominent on multi-pitch routes.\n\n**Fear of Failure:** Performance anxiety in front of peers or in competition, causing avoidance of limit attempts.\n\n**Core coping principles:** Acknowledge fear as a normal protective response. Distinguish rational fear (actual risk) from irrational fear (safety in place but still afraid). Don't try to eliminate fear; learn to act despite it. Use gradual exposure to expand the comfort zone.",
+            "ko": "클라이밍에서의 두려움은 몇 가지 다른 종류로 나뉘며, 각각 다른 대응 방법이 필요합니다.\n\n**선봉(리드) 등반 두려움:** 이것은 가장 흔한 클라이밍 두려움입니다. 빠른 메인(quick draw) 아래에서 넘어지면 거리를 떨어집니다. 이러한 불확실성과 잠재적 낙하 거리가 강한 두려움을 유발합니다. 많은 클라이머가 안전한 루트에서도 이 두려움 때문에 \"얼어붙을\" 수 있습니다.\n\n**높이 두려움:** 등반 높이가 증가할수록, 실제 낙하 위험과 관계없이 불안감이 증가합니다. 이 두려움은 멀티 피치 등반과 외부 긴 루트에서 특히 두드러집니다.\n\n**실패 두려움:** 동료나 경기 중 좋지 못한 성과를 보일 수 있다는 심리적 압박입니다. 이는 클라이머가 극한 난이도의 루트를 시도하지 않도록 만들거나, 중요한 순간에 긴장으로 인해 실력을 발휘하지 못하게 합니다.\n\n**대응 전략의 핵심 원칙:**\n- 두려움이 정상적이고 보호 역할을 하는 생리 반응임을 인정합니다.\n- \"합리적인 두려움\"(실제 안전 위험)과 \"비합리적인 두려움\"(안전 조치가 충분한데도 느끼는 두려움)을 구분합니다.\n- 두려움을 없애려고 하기보다는, 두려움이 있어도 행동할 수 있는 능력을 기릅니다.\n- 점진적 노출(gradual exposure)을 통해 편안함의 범위를 천천히 넓혀갑니다."
           },
           "terms": [
             {
               "zh": "坠落恐惧",
-              "en": "fall fear"
+              "en": "fall fear",
+              "ko": "두려움"
             },
             {
               "zh": "高度恐惧",
-              "en": "height fear"
+              "en": "height fear",
+              "ko": "낙하 두려움"
             },
             {
               "zh": "冻结反应",
-              "en": "freezing"
+              "en": "freezing",
+              "ko": "높이 두려움"
             },
             {
               "zh": "渐进式暴露",
-              "en": "gradual exposure"
+              "en": "gradual exposure",
+              "ko": "점진적 노출"
             }
           ],
           "crossRefs": [
@@ -57,13 +65,15 @@
               "zh": "恐惧不是统一的——每位攀爬者的恐惧根源不同（信任缺失、失败恐惧、失控感），精确识别个人根源是有效应对的第一步，而非笼统地「练习克服恐惧」。",
               "en": "Fear is not monolithic -- each climber's fear has a different root cause (distrust of belayer, fear of failure, loss of control). Precisely identifying your personal root is the first step to effective coping, rather than generically practicing to overcome fear.",
               "source": "Climbing Psychology",
-              "sourceUrl": "https://www.climbingpsychology.com/fear-of-falling"
+              "sourceUrl": "https://www.climbingpsychology.com/fear-of-falling",
+              "ko": "두려움은 통일되지 않습니다. 각 클라이머의 두려움의 근원은 다릅니다(벨레이 신뢰 부족, 실패 두려움, 통제 불감). 개인의 근원을 정확히 파악하는 것이 효과적 대처의 첫 번째 단계입니다. 단순히 일반적으로 \"두려움을 극복하기 위해 연습\"하는 것은 충분하지 않습니다."
             },
             {
               "zh": "认知工具（重构负面想法）与躯体工具（呼吸控制、身体扫描）协同使用比单独任何一种更有效——将「我会掉下来」重构为「保护系统会接住我」的同时配合深呼吸，双轨干预效果显著优于单一手段。",
               "en": "Combining cognitive tools (reframing negative thoughts) with somatic tools (breath control, body scanning) is more effective than either alone -- reframing 'I will fall' into 'the protection system will catch me' while pairing it with deep breathing produces significantly better results than a single intervention.",
               "source": "Climbing Psychology",
-              "sourceUrl": "https://www.climbingpsychology.com/fear-of-falling"
+              "sourceUrl": "https://www.climbingpsychology.com/fear-of-falling",
+              "ko": "인지 도구(부정적 생각 재구성)와 신체 도구(호흡 조절, 신체 스캔)를 함께 사용하는 것이 어느 한 가지만 사용하는 것보다 효과적입니다. \"나는 떨어질 것 같다\"는 생각을 \"보호 시스템이 나를 잡을 것이다\"로 재구성하면서 동시에 깊은 호흡을 하면, 한 가지 개입만 하는 것보다 훨씬 더 좋은 결과를 얻습니다."
             }
           ],
           "furtherReading": [
@@ -94,32 +104,39 @@
           "id": "kp-desensitization",
           "title": {
             "zh": "渐进脱敏与呼吸技术",
-            "en": "Gradual Desensitization & Breathing"
+            "en": "Gradual Desensitization & Breathing",
+            "ko": "점진적 둔감화와 호흡 기술"
           },
           "content": {
             "zh": "渐进脱敏（Gradual Desensitization）是克服攀岩恐惧最有效的方法之一。其核心理念是通过反复暴露在逐渐增加的恐惧刺激中，让神经系统适应并降低恐惧反应的强度。\n\n**坠落练习（Fall Practice）：**\n1. 从最低的快挂上方开始，在完全安全的环境中主动松手坠落\n2. 确保保护者使用动态保护（soft catch），减少坠落冲击\n3. 坠落后在空中放松身体，避免抓墙或挣扎\n4. 逐步增加坠落距离：先是挂片上方30厘米，然后60厘米，1米，最终到正常的先锋坠落距离\n5. 在不同的路线角度（垂直、仰角）和不同的高度重复练习\n6. 每次练习后反思感受：恐惧的强度、身体的反应、实际坠落的感觉\n\n**呼吸技术：**\n- **4-7-8 呼吸法：** 吸气4秒，屏住7秒，呼气8秒。在感到恐惧时使用可以激活副交感神经系统，降低心率和焦虑感。\n- **方框呼吸（Box Breathing）：** 吸气4秒、屏住4秒、呼气4秒、屏住4秒。更简单易记，适合在攀爬中使用。\n- **长呼气：** 关键在于呼气比吸气长。这能向大脑发送「安全」信号，降低战斗或逃跑反应的强度。\n- 在每个休息点有意识地进行3-5次深呼吸，这应该成为攀爬的标准流程\n\n**注意事项：** 脱敏训练应在良好的心理状态下进行，不要在已经极度疲惫或焦虑的日子强迫自己做坠落练习。每次训练结束应以一次正面的体验收尾。进步不是线性的——偶尔的退步是完全正常的。",
-            "en": "Gradual desensitization is the most effective method for overcoming climbing fear, repeatedly exposing the nervous system to increasing fear stimuli until the response diminishes.\n\n**Fall Practice Protocol:** Start with short falls above the first bolt. Ensure belayers give soft catches. Relax in the air. Progressively increase distance (30cm, 60cm, 1m, full lead falls). Practice at different angles and heights. Reflect after each session.\n\n**Breathing Techniques:**\n- **4-7-8 Breathing:** Inhale 4s, hold 7s, exhale 8s. Activates the parasympathetic nervous system.\n- **Box Breathing:** 4s inhale, 4s hold, 4s exhale, 4s hold. Simple and usable while climbing.\n- The key is exhaling longer than inhaling, sending safety signals to the brain.\n\nConduct desensitization on good mental days, not when exhausted or anxious. End each session positively. Progress is non-linear; occasional setbacks are normal."
+            "en": "Gradual desensitization is the most effective method for overcoming climbing fear, repeatedly exposing the nervous system to increasing fear stimuli until the response diminishes.\n\n**Fall Practice Protocol:** Start with short falls above the first bolt. Ensure belayers give soft catches. Relax in the air. Progressively increase distance (30cm, 60cm, 1m, full lead falls). Practice at different angles and heights. Reflect after each session.\n\n**Breathing Techniques:**\n- **4-7-8 Breathing:** Inhale 4s, hold 7s, exhale 8s. Activates the parasympathetic nervous system.\n- **Box Breathing:** 4s inhale, 4s hold, 4s exhale, 4s hold. Simple and usable while climbing.\n- The key is exhaling longer than inhaling, sending safety signals to the brain.\n\nConduct desensitization on good mental days, not when exhausted or anxious. End each session positively. Progress is non-linear; occasional setbacks are normal.",
+            "ko": "점진적 둔감화(Gradual Desensitization)는 클라이밍 두려움을 극복하는 가장 효과적인 방법 중 하나입니다. 핵심은 점차 증가하는 두려움 자극에 반복적으로 노출함으로써 신경계가 적응하고 두려움 반응의 강도를 낮추는 것입니다.\n\n**낙하 연습 프로토콜:**\n1. 가장 낮은 빠른 메인 위에서 시작하여, 완전히 안전한 환경에서 의도적으로 손을 놓고 낙하합니다.\n2. 확보자가 동적 보호(soft catch)를 사용하여 낙하 충격을 줄입니다.\n3. 낙하 중에 신체를 이완하고 벽을 집거나 저항하지 않습니다.\n4. 점진적으로 낙하 거리를 증가시킵니다: 먼저 메인 위 30cm, 그 다음 60cm, 1m, 최종적으로 정상적인 리드 낙하 거리까지\n5. 다양한 루트 각도(수직, 오버행)와 다양한 높이에서 반복 연습합니다.\n6. 각 세션 후 느낌을 반성합니다: 두려움의 강도, 신체 반응, 실제 낙하 감각\n\n**호흡 기술:**\n- **4-7-8 호흡법:** 4초 흡입, 7초 보유, 8초 호출. 두려움을 느낄 때 사용하면 부교감 신경계를 활성화하여 심박수와 불안감을 낮춥니다.\n- **박스 호흡(Box Breathing):** 4초 흡입, 4초 보유, 4초 호출, 4초 보유. 더 간단하고 기억하기 쉬우며, 등반 중에 사용할 수 있습니다.\n- **긴 호출:** 핵심은 호출이 흡입보다 길어야 합니다. 이는 뇌에 \"안전\" 신호를 보내 싸움-도주 반응의 강도를 낮춥니다.\n- 각 휴식 지점에서 의식적으로 3-5회 깊은 호흡을 하며, 이것이 등반의 표준 절차가 되어야 합니다.\n\n**주의사항:** 둔감화 훈련은 좋은 심리 상태에서 수행해야 하며, 이미 극도로 피로하거나 불안한 날에는 자신을 억지로 낙하 연습하게 하지 마세요. 각 훈련 세션은 긍정적인 경험으로 마무리되어야 합니다. 진전이 선형적이지 않으며, 때때로 퇴보가 완전히 정상입니다."
           },
           "terms": [
             {
               "zh": "渐进脱敏",
-              "en": "gradual desensitization"
+              "en": "gradual desensitization",
+              "ko": "점진적 둔감화"
             },
             {
               "zh": "坠落练习",
-              "en": "fall practice"
+              "en": "fall practice",
+              "ko": "낙하 연습"
             },
             {
               "zh": "动态保护",
-              "en": "soft catch"
+              "en": "soft catch",
+              "ko": "동적 보호"
             },
             {
               "zh": "方框呼吸",
-              "en": "box breathing"
+              "en": "box breathing",
+              "ko": "박스 호흡"
             },
             {
               "zh": "副交感神经",
-              "en": "parasympathetic nervous system"
+              "en": "parasympathetic nervous system",
+              "ko": "부교감 신경"
             }
           ],
           "crossRefs": [
@@ -139,13 +156,15 @@
               "zh": "铅攀脱敏应优先选择超角（overhang）路线：超角路线坠落时身体远离岩壁，大幅降低撞墙风险，心理体验更正面，脱敏效率更高。",
               "en": "Lead fall desensitization should prioritize overhanging routes: the body falls away from the wall on overhangs, greatly reducing the risk of hitting the wall, creating a more positive psychological experience and faster desensitization.",
               "source": "Lattice Training",
-              "sourceUrl": "https://latticetraining.com/blog/fear-of-falling/"
+              "sourceUrl": "https://latticetraining.com/blog/fear-of-falling/",
+              "ko": "리드 낙하 탈감작 훈련은 역각(오버행) 루트를 우선적으로 선택해야 합니다. 역각 루트에서 떨어질 때는 신체가 암벽에서 멀어지므로 벽에 부딪힐 위험이 크게 줄어들고, 심리적 경험이 더 긍정적이며, 탈감작 효율이 더 높습니다."
             },
             {
               "zh": "保持焦虑在「可管理范围」（1-10 量表上的 5-6 分）是脱敏成功的关键——焦虑过高会强化恐惧而非消除恐惧，搭档选择（能提供soft catch和情感支持的人）是重要变量。",
               "en": "Keeping anxiety within a manageable range (5-6 on a 1-10 scale) is key to successful desensitization -- anxiety that is too high reinforces rather than reduces fear. Partner selection (someone who gives soft catches and emotional support) is a critical variable.",
               "source": "Lattice Training",
-              "sourceUrl": "https://latticetraining.com/blog/fear-of-falling/"
+              "sourceUrl": "https://latticetraining.com/blog/fear-of-falling/",
+              "ko": "불안을 \"관리 가능한 범위\"(1-10 척도에서 5-6)로 유지하는 것이 둔감화 성공의 핵심입니다. 불안이 너무 높으면 두려움을 제거하기보다는 강화합니다. 파트너 선택(soft catch를 제공하고 정서적 지원을 해주는 사람)이 중요한 변수입니다."
             }
           ],
           "furtherReading": [
@@ -173,39 +192,47 @@
       "slug": "focus",
       "title": {
         "zh": "专注与心流",
-        "en": "Focus & Flow State"
+        "en": "Focus & Flow State",
+        "ko": "초점과 심상 상태"
       },
       "overview": {
         "zh": "专注力是攀岩表现的基石。在攀爬中保持对当前动作的全然专注，能够显著提升动作质量和决策效率。当专注力达到最佳状态时，攀岩者可能进入「心流」（flow state）——一种身心合一、动作自动流畅的巅峰体验。理解专注力的运作机制和心流状态的条件，有助于攀岩者更频繁地达到最佳表现。",
-        "en": "Focus is the bedrock of climbing performance. Maintaining complete attention on the current move significantly improves movement quality and decision efficiency. When focus reaches its optimal state, climbers may enter flow -- a peak experience of mind-body unity and effortless movement. Understanding attention mechanics and flow conditions helps climbers reach peak performance more consistently."
+        "en": "Focus is the bedrock of climbing performance. Maintaining complete attention on the current move significantly improves movement quality and decision efficiency. When focus reaches its optimal state, climbers may enter flow -- a peak experience of mind-body unity and effortless movement. Understanding attention mechanics and flow conditions helps climbers reach peak performance more consistently.",
+        "ko": "초점은 등반 성과의 기초입니다. 초점이 최적 상태에 도달하면, 클라이머는 \"심상 상태\"(flow state)에 진입할 수 있습니다."
       },
       "knowledgePoints": [
         {
           "id": "kp-attention-management",
           "title": {
             "zh": "注意力管理",
-            "en": "Attention Management"
+            "en": "Attention Management",
+            "ko": "주의력 관리"
           },
           "content": {
             "zh": "注意力是有限的认知资源，攀岩者需要学会将注意力分配到最关键的信息上，同时过滤掉不相关的干扰。\n\n**注意力的焦点类型：**\n- **外部焦点（External Focus）：** 关注岩壁上的手点、脚点、岩壁特征等外部环境信息。研究表明，外部焦点比内部焦点更有利于运动表现。例如，关注「把脚精确地放在那个点上」比关注「控制我的脚踝角度」更有效。\n- **内部焦点（Internal Focus）：** 关注身体内部的感觉，如肌肉紧张度、呼吸节奏、心跳速度等。适合在休息位进行身体状态评估。\n- **窄焦点 vs 宽焦点：** 在执行精确动作时使用窄焦点（只关注下一个手点），在路线阅读和规划时使用宽焦点（纵观全局）。\n\n**分散注意力的常见因素：**\n- 对坠落的担忧（未来导向的焦虑）\n- 对上一个失误的懊悔（过去导向的反刍）\n- 周围观众或同伴的目光\n- 身体不适（前臂泵胀、手指疼痛）\n- 与路线无关的杂念\n\n**注意力训练方法：**\n- **单步聚焦：** 将注意力只放在当前这一步动作上，不去想上方的路线或可能的结果\n- **关键词提示：** 为自己设定简短的注意力提示词，如「精确」「呼吸」「推」，在需要时默念\n- **正念冥想：** 日常练习5-10分钟的正念冥想，训练将注意力从杂念中拉回的能力\n- **模拟压力训练：** 在有人观看或限时的情况下攀爬，练习在压力下保持专注",
-            "en": "Attention is a limited cognitive resource. Climbers must allocate it to critical information while filtering distractions.\n\n**Focus types:** External focus (on holds, rock features) is more effective for performance than internal focus (on body sensations). Use narrow focus during precise moves and wide focus during route planning.\n\n**Common distractors:** Future-oriented anxiety (fall worry), past-oriented rumination (mistakes), audience pressure, physical discomfort, and unrelated thoughts.\n\n**Training methods:** Single-step focus (only the current move), keyword cues (short reminders like \"precise\" or \"breathe\"), mindfulness meditation (5-10 min daily), and simulated pressure training (climbing while watched or timed)."
+            "en": "Attention is a limited cognitive resource. Climbers must allocate it to critical information while filtering distractions.\n\n**Focus types:** External focus (on holds, rock features) is more effective for performance than internal focus (on body sensations). Use narrow focus during precise moves and wide focus during route planning.\n\n**Common distractors:** Future-oriented anxiety (fall worry), past-oriented rumination (mistakes), audience pressure, physical discomfort, and unrelated thoughts.\n\n**Training methods:** Single-step focus (only the current move), keyword cues (short reminders like \"precise\" or \"breathe\"), mindfulness meditation (5-10 min daily), and simulated pressure training (climbing while watched or timed).",
+            "ko": "주의력은 제한된 인지 자원이며, 클라이머는 가장 중요한 정보에 주의를 할당하고 무관한 방해를 필터링하는 법을 배워야 합니다.\n\n**주의력 초점의 유형:**\n- **외부 초점(External Focus):** 암벽의 손 홀드, 발 디딤돌, 암벽 특징 등 외부 환경 정보에 초점을 맞춥니다. 연구에 따르면 외부 초점이 내부 초점보다 운동 성과에 더 유리합니다. 예를 들어, \"그 지점에 발을 정확하게 올려놓기\"에 초점을 맞추는 것이 \"발목 각도 제어\"에 초점을 맞추는 것보다 더 효과적입니다.\n- **내부 초점(Internal Focus):** 신체 내부 감각(근육 긴장, 호흡 리듬, 심박수)에 초점을 맞춥니다. 휴식 위치에서 신체 상태를 평가할 때 적합합니다.\n- **좁은 초점 vs 넓은 초점:** 정확한 동작을 실행할 때 좁은 초점을 사용(다음 손 홀드만 집중), 루트 읽기와 계획할 때 넓은 초점을 사용(전체적으로 봅니다).\n\n**주의 분산의 흔한 요인:**\n- 낙하에 대한 걱정(미래 지향적 불안)\n- 이전 실수에 대한 후회(과거 지향적 반추)\n- 주변 관찰자나 동료의 시선\n- 신체 불편(전완부 펌핑, 손가락 통증)\n- 루트와 관계없는 생각\n\n**주의력 훈련 방법:**\n- **한 걸음 초점:** 주의를 현재 이 한 동작에만 집중하고, 위의 루트나 가능한 결과를 생각하지 마세요.\n- **핵심 단어 힌트:** 자신을 위해 짧은 주의력 힌트 단어를 정합니다. 예를 들어 \"정확\", \"호흡\", \"밀기\"를 필요할 때 중얼거립니다.\n- **마음챙김 명상:** 매일 5-10분의 마음챙김 명상을 연습하여, 주의를 산만한 생각에서 끌어당기는 능력을 훈련합니다.\n- **시뮬레이션 압박 훈련:** 관찰자가 있거나 시간 제한이 있는 상황에서 등반하여 압박 속에서 주의력을 유지하는 연습을 합니다."
           },
           "terms": [
             {
               "zh": "外部焦点",
-              "en": "external focus"
+              "en": "external focus",
+              "ko": "주의력"
             },
             {
               "zh": "内部焦点",
-              "en": "internal focus"
+              "en": "internal focus",
+              "ko": "외부 초점"
             },
             {
               "zh": "正念冥想",
-              "en": "mindfulness meditation"
+              "en": "mindfulness meditation",
+              "ko": "내부 초점"
             },
             {
               "zh": "单步聚焦",
-              "en": "single-step focus"
+              "en": "single-step focus",
+              "ko": "좁은 초점"
             }
           ],
           "crossRefs": [
@@ -222,13 +249,15 @@
               "zh": "视觉控制是专注力的核心杠杆：精英攀爬者几乎不凭「摸索感觉」找脚点，而是先用眼睛锁定目标再移动——训练自己「先看后动」的习惯比任何冥想练习对攀爬专注力的提升更直接。",
               "en": "Visual control is the primary lever for focus: elite climbers rarely grope for footholds by feel -- they lock onto the target with their eyes before moving. Training the habit of 'look first, then move' improves climbing focus more directly than any meditation exercise.",
               "source": "Training For Climbing",
-              "sourceUrl": "https://trainingforclimbing.com/5-strategies-to-sharpen-concentration-and-climb-better/"
+              "sourceUrl": "https://trainingforclimbing.com/5-strategies-to-sharpen-concentration-and-climb-better/",
+              "ko": "좋은 초점은 클라이밍 성과의 기초입니다."
             },
             {
               "zh": "正向自我对话指令应是「做什么」而非「不要做什么」：「专注踩脚」比「不要分心」效果显著更好，因为大脑处理否定指令时会先激活被否定的行为。",
               "en": "Positive self-talk cues should be 'do this' rather than 'don't do that': 'focus on your feet' works significantly better than 'don't get distracted,' because the brain first activates the negated behavior when processing negative instructions.",
               "source": "Training For Climbing",
-              "sourceUrl": "https://trainingforclimbing.com/5-strategies-to-sharpen-concentration-and-climb-better/"
+              "sourceUrl": "https://trainingforclimbing.com/5-strategies-to-sharpen-concentration-and-climb-better/",
+              "ko": "긍정적 자기 대화는 \"하지 마\"가 아니라 \"이것을 해\"라는 형태여야 합니다. \"발 디딤돌에 집중\"이 \"산만해지지 말\"보다 훨씬 더 효과적입니다. 뇌는 부정 지시를 처리할 때 먼저 부정되는 행동을 활성화하기 때문입니다."
             }
           ],
           "furtherReading": [
@@ -259,28 +288,34 @@
           "id": "kp-flow-state",
           "title": {
             "zh": "心流状态",
-            "en": "Flow State"
+            "en": "Flow State",
+            "ko": "몰입(Flow State)"
           },
           "content": {
             "zh": "心流（Flow State）是心理学家 Mihaly Csikszentmihalyi 提出的概念，描述一种完全沉浸在当前活动中、身心高度统一的最佳体验状态。在攀岩中，心流体验被描述为动作自动流畅、时间感消失、自我意识减弱、同时感到极度专注和愉悦。\n\n**心流产生的条件：**\n- **挑战与能力的匹配：** 路线难度刚好处于你能力的上限——太简单会无聊，太难会焦虑。通常选择比你 onsight 水平稍高但在 redpoint 能力范围内的路线最容易触发心流。\n- **清晰的目标：** 每一步都有明确的行动方向和目标。好的路线阅读能力有助于建立这种清晰感。\n- **即时反馈：** 每次出手、踩点都能立即感知成功或失败。攀岩天然具备这一条件。\n- **全神贯注：** 注意力完全投入在攀爬中，没有任何杂念。\n- **控制感：** 虽然面临挑战，但感觉自己有能力应对。\n\n**促进心流的实践建议：**\n- 选择适当难度的路线——难度是触发心流最关键的变量\n- 充分热身，让身体进入最佳状态后再挑战目标路线\n- 在攀爬前进行几分钟的专注呼吸，清空杂念\n- 避免分心因素：关闭手机，减少与他人的闲聊\n- 不要刻意追求心流——越想进入越难达到。心流是自然产生的副产物\n\n竞技攀岩者经常提到在比赛中进入心流的体验。这种状态并非不可触及——通过有意识的准备和适当的条件创造，攀岩者可以增加进入心流的频率。",
-            "en": "Flow state, described by psychologist Mihaly Csikszentmihalyi, is a state of complete immersion where movement becomes automatic, time perception shifts, self-consciousness fades, and the climber experiences intense focus and joy.\n\n**Flow conditions:** Challenge-skill balance (route difficulty at your upper limit). Clear goals (good route reading). Immediate feedback (inherent in climbing). Complete absorption. Sense of control despite challenge.\n\n**Practical tips:** Choose routes at the right difficulty (the most critical variable). Warm up fully before target routes. Do focused breathing to clear the mind. Minimize distractions. Don't chase flow directly -- it arises naturally as a byproduct of the right conditions.\n\nCompetition climbers frequently report flow experiences. Through conscious preparation and condition-setting, climbers can increase flow frequency."
+            "en": "Flow state, described by psychologist Mihaly Csikszentmihalyi, is a state of complete immersion where movement becomes automatic, time perception shifts, self-consciousness fades, and the climber experiences intense focus and joy.\n\n**Flow conditions:** Challenge-skill balance (route difficulty at your upper limit). Clear goals (good route reading). Immediate feedback (inherent in climbing). Complete absorption. Sense of control despite challenge.\n\n**Practical tips:** Choose routes at the right difficulty (the most critical variable). Warm up fully before target routes. Do focused breathing to clear the mind. Minimize distractions. Don't chase flow directly -- it arises naturally as a byproduct of the right conditions.\n\nCompetition climbers frequently report flow experiences. Through conscious preparation and condition-setting, climbers can increase flow frequency.",
+            "ko": "몰입은 심리학자 Mihaly Csikszentmihalyi가 정의한 개념으로, 활동에 완전히 몰입되어 시간 감각을 잃고 최고의 성과를 내는 상태입니다.\n\n**몰입의 특징:**\n- **완벽한 집중:** 주변의 방해물이 없어지고 오직 과제에만 집중합니다.\n- **즐거움:** 활동 자체가 매우 즐겁고 보상입니다.\n- **시간 왜곡:** 시간이 빠르게 지나갑니다.\n- **자동적 행동:** 의식적 노력 없이 행동이 자동으로 흘러갑니다.\n\n**클라이밍에서의 몰입:**\n- 루트에 완전히 집중하여 다른 생각이 없습니다.\n- 다음 무브가 자동으로 흘러갑니다.\n- 두려움이나 불안감이 사라집니다.\n- 성공할 확률이 매우 높아집니다.\n\n**몰입 상태 달성:**\n- **적절한 난이도:** 도전과 능력의 균형이 맞아야 합니다.\n- **명확한 목표:** 루트의 목표가 명확해야 합니다.\n- **즉각적인 피드백:** 루트에서 즉시 성공/실패를 알 수 있습니다.\n- **환경 제어:** 외부 방해를 최소화합니다."
           },
           "terms": [
             {
               "zh": "心流",
-              "en": "flow state"
+              "en": "flow state",
+              "ko": "몰입"
             },
             {
               "zh": "挑战-能力匹配",
-              "en": "challenge-skill balance"
+              "en": "challenge-skill balance",
+              "ko": "완벽한 집중"
             },
             {
               "zh": "全神贯注",
-              "en": "total absorption"
+              "en": "total absorption",
+              "ko": "자동적 행동"
             },
             {
               "zh": "最佳体验",
-              "en": "optimal experience"
+              "en": "optimal experience",
+              "ko": "도전 능력 균형"
             }
           ],
           "crossRefs": [
@@ -299,13 +334,15 @@
               "zh": "隐性系统 vs 显性系统：熟练动作由隐性系统（直觉/自动化）处理效率更高，过度意识控制（显性系统介入）反而阻碍表现——这解释了为什么「想太多」会让你在熟悉的路线上反而爬得更差。",
               "en": "Implicit vs explicit system: well-practiced movements are more efficiently handled by the implicit system (intuition/automation). Excessive conscious control (explicit system intervention) actually hinders performance -- this explains why 'overthinking' makes you climb worse on familiar routes.",
               "source": "Strong Mind Climbing",
-              "sourceUrl": "https://www.strongmindclimbing.com/news-resources/flow-the-basics"
+              "sourceUrl": "https://www.strongmindclimbing.com/news-resources/flow-the-basics",
+              "ko": "몰입 상태에 진입하는 것은 우연이 아니라, 의도적으로 조성할 수 있는 조건이 있습니다. 적절한 난이도의 루트를 선택하고, 초점을 방해하는 외부 요소를 제거하며, 루트의 목표를 명확히 하면 몰입 상태에 더 쉽게 진입할 수 있습니다."
             },
             {
               "zh": "恐惧会人为拔高「心理挑战难度」，使本可进入心流的路线因心理障碍而无法触发——先处理恐惧（参见渐进脱敏），再追求心流，顺序不可颠倒。",
               "en": "Fear artificially inflates the perceived challenge level, preventing flow on routes that would otherwise trigger it. Address fear first (see gradual desensitization), then pursue flow -- the order cannot be reversed.",
               "source": "Strong Mind Climbing",
-              "sourceUrl": "https://www.strongmindclimbing.com/news-resources/flow-the-basics"
+              "sourceUrl": "https://www.strongmindclimbing.com/news-resources/flow-the-basics",
+              "ko": "두려움은 \"심리적 난이도\"를 인위적으로 높여서, 본래 심리 흐름 상태에 진입할 수 있었던 루트도 심리적 장애로 인해 진입할 수 없게 만듭니다. 먼저 두려움을 처리(점진적 탈감작 참고)한 후 심리 흐름 상태를 추구하세요. 순서를 바꾸면 안 됩니다."
             }
           ],
           "furtherReading": [
@@ -336,32 +373,39 @@
           "id": "kp-competition-psychology",
           "title": {
             "zh": "竞技心理",
-            "en": "Competition Psychology"
+            "en": "Competition Psychology",
+            "ko": "경기 심리학"
           },
           "content": {
             "zh": "竞技攀岩的心理挑战与日常攀爬有显著不同。比赛环境中的时间压力、观众注视、排名竞争和高度不确定性，都会对攀岩者的心理状态产生强烈影响。\n\n**竞赛环境的心理特点：**\n- **表现焦虑（Performance Anxiety）：** 对比赛结果的过度关注会导致肌肉紧张、动作僵硬、决策迟疑。研究表明，适度的焦虑能提升表现（Yerkes-Dodson法则），但过度焦虑会显著降低表现。\n- **隔离区心理（Isolation Zone）：** 在难度赛和抱石赛中，选手在出场前被隔离在封闭区域内，无法看到其他选手的攀爬。这段等待时间的心理管理至关重要——既要保持身体的激活状态，又要控制焦虑水平。\n- **时间压力：** 抱石赛中每条线路通常只有4-5分钟，需要快速阅读路线并做出决策。这种压力与户外攀岩完全不同。\n\n**竞技心理策略：**\n- **赛前准备程序（Pre-Performance Routine）：** 建立一套固定的赛前热身和心理准备流程，在不同比赛中保持一致。固定的程序能提供控制感和熟悉感。\n- **过程导向 vs 结果导向：** 将注意力集中在「完成每一步动作」而非「获得什么名次」。过程导向的心态能减少焦虑、提升发挥稳定性。\n- **积极自我对话：** 用「我可以做到」「专注在这一步」等正面语言替代「不要犯错」「不能失败」等负面思维。\n- **可视化（Visualization）：** 在出场前闭眼想象自己成功完成路线的画面和身体感觉。研究证实可视化训练能有效提升运动表现。",
-            "en": "Competition psychology differs significantly from recreational climbing. Time pressure, audience attention, ranking competition, and high uncertainty strongly affect mental state.\n\n**Competition characteristics:** Performance anxiety causes muscle tension and hesitation. The isolation zone requires managing activation and anxiety during waiting. Time limits (4-5 minutes per boulder) demand rapid decision-making.\n\n**Strategies:** Establish consistent pre-performance routines for familiarity and control. Adopt process orientation (focus on each move, not rankings). Use positive self-talk (\"I can do this\" vs. \"don't fail\"). Practice visualization -- mentally rehearsing successful ascents, which research confirms improves performance."
+            "en": "Competition psychology differs significantly from recreational climbing. Time pressure, audience attention, ranking competition, and high uncertainty strongly affect mental state.\n\n**Competition characteristics:** Performance anxiety causes muscle tension and hesitation. The isolation zone requires managing activation and anxiety during waiting. Time limits (4-5 minutes per boulder) demand rapid decision-making.\n\n**Strategies:** Establish consistent pre-performance routines for familiarity and control. Adopt process orientation (focus on each move, not rankings). Use positive self-talk (\"I can do this\" vs. \"don't fail\"). Practice visualization -- mentally rehearsing successful ascents, which research confirms improves performance.",
+            "ko": "경기 중 심리 관리는 신체 능력만큼 중요합니다."
           },
           "terms": [
             {
               "zh": "表现焦虑",
-              "en": "performance anxiety"
+              "en": "performance anxiety",
+              "ko": "경기 심리"
             },
             {
               "zh": "隔离区",
-              "en": "isolation zone"
+              "en": "isolation zone",
+              "ko": "압박 관리"
             },
             {
               "zh": "赛前准备程序",
-              "en": "pre-performance routine"
+              "en": "pre-performance routine",
+              "ko": "집중력"
             },
             {
               "zh": "可视化",
-              "en": "visualization"
+              "en": "visualization",
+              "ko": "자신감"
             },
             {
               "zh": "过程导向",
-              "en": "process orientation"
+              "en": "process orientation",
+              "ko": "과정 지향"
             }
           ],
           "crossRefs": [
@@ -378,13 +422,15 @@
               "zh": "心理变量对攀岩成绩的预测力可能超过生理和生物力学参数——这意味着在竞技水平相近时，心理准备的质量往往是决定胜负的关键因素。",
               "en": "Psychological variables may predict climbing performance better than physiological and biomechanical parameters -- meaning that at similar competitive levels, the quality of mental preparation is often the decisive factor.",
               "source": "In-Mind Magazine",
-              "sourceUrl": "https://www.in-mind.org/article/psychological-aspects-of-elite-performance-in-new-olympic-disciplines-the-case-of-climbing"
+              "sourceUrl": "https://www.in-mind.org/article/psychological-aspects-of-elite-performance-in-new-olympic-disciplines-the-case-of-climbing",
+              "ko": "경기 경험이 많을수록 압박 속에서 성과를 내기 쉬워집니다."
             },
             {
               "zh": "运动技能储备库（Movement Repertoire）概念：经验丰富的攀爬者在长期记忆中储存大量动作模式，能快速识别「熟悉场景」进入自动化执行，这在比赛限时条件下是巨大优势。",
               "en": "The Movement Repertoire concept: experienced climbers store extensive movement patterns in long-term memory, enabling rapid recognition of familiar scenarios and automatic execution -- a huge advantage under competition time constraints.",
               "source": "In-Mind Magazine",
-              "sourceUrl": "https://www.in-mind.org/article/psychological-aspects-of-elite-performance-in-new-olympic-disciplines-the-case-of-climbing"
+              "sourceUrl": "https://www.in-mind.org/article/psychological-aspects-of-elite-performance-in-new-olympic-disciplines-the-case-of-climbing",
+              "ko": "무브먼트 레퍼토리(Movement Repertoire) 개념: 경험이 풍부한 클라이머는 장기 기억에 많은 동작 패턴을 저장하고 있어서 \"익숙한 상황\"을 빠르게 인식하여 자동화된 실행으로 진입할 수 있습니다. 이는 제한된 시간 내 의사결정이 필요한 경기 상황에서 매우 중요합니다."
             }
           ],
           "furtherReading": [
@@ -405,47 +451,57 @@
       "slug": "goals",
       "title": {
         "zh": "目标设定与训练规划",
-        "en": "Goal Setting & Training Planning"
+        "en": "Goal Setting & Training Planning",
+        "ko": "목표와 계획"
       },
       "overview": {
         "zh": "系统的目标设定和训练规划是攀岩持续进步的基础。从长期愿景到每日训练安排，从周期化训练到弱点分析，科学的规划能够最大化训练效果、减少伤病风险，帮助攀岩者稳步达成目标。",
-        "en": "Systematic goal setting and training planning form the foundation of sustained climbing improvement. From long-term vision to daily training schedules, periodization to weakness analysis, scientific planning maximizes training effectiveness, reduces injury risk, and helps climbers steadily achieve their goals."
+        "en": "Systematic goal setting and training planning form the foundation of sustained climbing improvement. From long-term vision to daily training schedules, periodization to weakness analysis, scientific planning maximizes training effectiveness, reduces injury risk, and helps climbers steadily achieve their goals.",
+        "ko": "명확한 목표 설정은 클라이머의 동기를 유지하고 진전을 측정하게 합니다."
       },
       "knowledgePoints": [
         {
           "id": "kp-periodization",
           "title": {
             "zh": "周期化训练",
-            "en": "Periodization"
+            "en": "Periodization",
+            "ko": "주기화의 기초"
           },
           "content": {
             "zh": "周期化训练（Periodization）是将训练划分为不同阶段，每个阶段有不同的训练重点和强度的系统方法。这一概念源自田径等传统体育项目，已被广泛应用于攀岩训练。\n\n**攀岩周期化的典型结构：**\n- **基础期（Base Phase / Hypertrophy）：** 持续4-6周，以高训练量（volume）和较低强度为特征。重点发展一般体能、有氧耐力和基础力量。大量的中低难度攀爬、长路线和一般性力量训练。\n- **力量期（Strength Phase）：** 持续4-6周，降低训练量，提高训练强度。专注于最大力量的发展：挂板训练、负重引体向上、高难度抱石问题。每次训练间确保充分恢复。\n- **爆发力期（Power Phase）：** 持续3-4周，训练量进一步降低，强度达到峰值。Campus board 训练、动态抱石、极短且爆发性的攀爬。追求最大输出。\n- **表现/赛季期（Performance Phase）：** 持续4-8周，将前期训练成果转化为实际攀爬表现。大量的尝试项目路线（projecting）、参加比赛或户外攀岩旅行。训练量和强度都适度降低以保持最佳状态。\n- **恢复期（Rest Phase）：** 持续1-2周，主动降低训练量和强度，让身体充分恢复。可以进行轻松的攀爬或其他低强度活动。\n\n**周期化的灵活应用：** 并非所有攀岩者都需要严格遵循上述模板。业余攀岩者可以采用更简单的「3:1」模式——训练3周、恢复1周，或者根据个人感受进行调整。关键是避免长期的高强度单调训练，通过有计划的变化来促进持续进步并预防过度训练。",
-            "en": "Periodization divides training into phases with different focuses and intensities, adapted from traditional sports to climbing.\n\n**Typical structure:** Base phase (4-6 weeks, high volume, low intensity: general fitness and aerobic endurance). Strength phase (4-6 weeks, lower volume, higher intensity: hangboard, weighted pull-ups, hard bouldering). Power phase (3-4 weeks, lowest volume, peak intensity: campus board, dynamic bouldering). Performance phase (4-8 weeks, converting gains to climbing: projecting, competitions, outdoor trips). Rest phase (1-2 weeks, active recovery).\n\n**Flexible application:** Recreational climbers can use simpler 3:1 patterns (3 weeks training, 1 week recovery). The key is avoiding monotonous high-intensity training through planned variation to promote continuous progress and prevent overtraining."
+            "en": "Periodization divides training into phases with different focuses and intensities, adapted from traditional sports to climbing.\n\n**Typical structure:** Base phase (4-6 weeks, high volume, low intensity: general fitness and aerobic endurance). Strength phase (4-6 weeks, lower volume, higher intensity: hangboard, weighted pull-ups, hard bouldering). Power phase (3-4 weeks, lowest volume, peak intensity: campus board, dynamic bouldering). Performance phase (4-8 weeks, converting gains to climbing: projecting, competitions, outdoor trips). Rest phase (1-2 weeks, active recovery).\n\n**Flexible application:** Recreational climbers can use simpler 3:1 patterns (3 weeks training, 1 week recovery). The key is avoiding monotonous high-intensity training through planned variation to promote continuous progress and prevent overtraining.",
+            "ko": "주기화는 훈련을 여러 단계(phase)로 나누어 각 단계마다 다른 초점을 맞추는 방법입니다.\n\n**주기화의 기본 단계:**\n\n**1. 기초 단계(Base Phase):** 광범위한 체력과 기술 기초를 구축합니다.\n- 다양한 루트 유형을 경험합니다.\n- 일반적인 신체 체력(근력, 지구력, 유연성)을 개발합니다.\n- 훈련 강도는 중간 정도이고, 훈련량은 많습니다.\n- 기간: 4-8주\n\n**2. 구체화 단계(Build Phase):** 특정 목표를 향해 체력을 개발합니다.\n- 목표 루트의 특성에 맞춘 훈련을 합니다.\n- 훈련 강도를 점차 높입니다.\n- 훈련 부하의 변화를 통해 신체를 자극합니다.\n- 기간: 4-8주\n\n**3. 피크 단계(Peak Phase):** 최고의 성능을 위해 훈련 양을 줄이면서 강도는 유지합니다.\n- 목표 루트에 집중합니다.\n- 훈련 횟수를 줄이지만 강도는 유지합니다.\n- 신체 회복을 우선합니다.\n- 기간: 2-4주\n\n**4. 회복 단계(Recovery Phase):** 신체와 정신을 회복시킵니다.\n- 훈련 강도와 양을 크게 줄입니다.\n- 가벼운 등반이나 크로스 트레이닝을 합니다.\n- 부상 회복에 집중합니다.\n- 기간: 1-2주\n\n**주기화의 이점:**\n- 목표 달성률이 높아집니다.\n- 부상 위험이 감소합니다.\n- 장기적인 진전이 가능합니다.\n- 심한 번아웃을 방지합니다."
           },
           "terms": [
             {
               "zh": "周期化训练",
-              "en": "periodization"
+              "en": "periodization",
+              "ko": "주기화"
             },
             {
               "zh": "基础期",
-              "en": "base phase"
+              "en": "base phase",
+              "ko": "기초 단계"
             },
             {
               "zh": "力量期",
-              "en": "strength phase"
+              "en": "strength phase",
+              "ko": "구체화 단계"
             },
             {
               "zh": "爆发力期",
-              "en": "power phase"
+              "en": "power phase",
+              "ko": "피크 단계"
             },
             {
               "zh": "表现期",
-              "en": "performance phase"
+              "en": "performance phase",
+              "ko": "표현 단계"
             },
             {
               "zh": "训练量",
-              "en": "training volume"
+              "en": "training volume",
+              "ko": "훈련량"
             }
           ],
           "crossRefs": [
@@ -464,13 +520,15 @@
               "zh": "超量补偿（Supercompensation）原理：训练刺激后身体经历疲劳、恢复、能力超过基线三个阶段，在能力超过基线的窗口期安排下一次训练刺激是持续进步的关键时机把控。",
               "en": "The Supercompensation principle: after a training stimulus, the body goes through fatigue, recovery, and a phase where capacity exceeds baseline. Timing the next training stimulus during this above-baseline window is the key to continuous progress.",
               "source": "Rock Climbing Realms",
-              "sourceUrl": "https://rockclimbingrealms.com/build-your-climbing-plan-a-periodization-framework/"
+              "sourceUrl": "https://rockclimbingrealms.com/build-your-climbing-plan-a-periodization-framework/",
+              "ko": "많은 초보자는 항상 최대 강도로 훈련하려고 합니다. 하지만 이것은 오히려 진전을 방해하고 부상을 초래합니다. 계획적인 주기화를 통해 강화, 약화, 회복의 사이클을 의도적으로 조성하면, 장기적으로 훨씬 더 빠른 진전을 이룰 수 있습니다."
             },
             {
               "zh": "三种周期化模式各有适用人群：线性周期化适合初级攀爬者（稳定递进负荷）；板块周期化适合中高级（集中训练单一特质如指力或耐力）；波动周期化适合需全年维持竞技状态的选手。",
               "en": "Three periodization models suit different populations: linear periodization for beginners (steady progressive loading); block periodization for intermediate-advanced climbers (concentrated training of a single quality like finger strength or endurance); undulating periodization for athletes needing year-round competitive readiness.",
               "source": "Rock Climbing Realms",
-              "sourceUrl": "https://rockclimbingrealms.com/build-your-climbing-plan-a-periodization-framework/"
+              "sourceUrl": "https://rockclimbingrealms.com/build-your-climbing-plan-a-periodization-framework/",
+              "ko": "세 가지 주기화 모델은 각각 다른 클라이머 집단에 적합합니다. 선형 주기화는 초급 클라이머에 적합(안정적인 부하 증가); 블록 주기화는 중급 이상에 적합(손가락 힘이나 지구력 같은 단일 특성에 집중); 파동 주기화는 전 시즌 경기력을 유지해야 하는 선수에 적합합니다."
             }
           ],
           "furtherReading": [
@@ -501,28 +559,34 @@
           "id": "kp-goal-setting",
           "title": {
             "zh": "短期与长期目标设定",
-            "en": "Short & Long Term Goal Setting"
+            "en": "Short & Long Term Goal Setting",
+            "ko": "목표 설정"
           },
           "content": {
             "zh": "有效的目标设定能为攀岩训练提供方向和动力。好的目标应该同时包含不同时间维度，形成从远及近的目标层次。\n\n**长期目标（6-12个月以上）：**\n- 设定一个有野心但可实现的大目标，如「一年内完攀一条5.12a路线」或「完成某条经典户外路线」\n- 长期目标应具有个人意义——能激发你日复一日坚持训练的热情\n- 保持一定的灵活性，允许根据实际进展调整目标\n\n**中期目标（1-3个月）：**\n- 将长期目标分解为阶段性的里程碑\n- 例如：「本月专注于挂板训练，将20mm边缘的最大悬挂负重提升5公斤」\n- 中期目标应具体、可量化、有时间限制（SMART 原则）\n\n**短期目标（每周/每次训练）：**\n- 每次训练前设定1-2个具体的练习重点\n- 例如：「今天专注于落膝技术，在每条仰角路线上至少使用3次落膝」\n- 短期目标是将中期目标转化为日常行动的桥梁\n\n**目标设定的常见误区：**\n- 只设定结果目标（如「完攀V8」）而忽略过程目标（如「提升指力」「改善脚法精度」）\n- 目标过于模糊（「变得更强」而非「半捏握力量提升到体重+20%」）\n- 目标过于密集，没有留出恢复和享受攀岩乐趣的时间\n- 将自己与他人比较而非关注自身的进步轨迹",
-            "en": "Effective goal setting provides direction and motivation. Goals should span multiple time horizons:\n\n**Long-term (6-12+ months):** Set ambitious but achievable targets with personal meaning, like completing a specific classic route. Maintain flexibility.\n\n**Medium-term (1-3 months):** Break long-term goals into milestones. Use SMART principles (Specific, Measurable, Achievable, Relevant, Time-bound). Example: \"Increase 20mm max hang by 5kg this month.\"\n\n**Short-term (weekly/per session):** Set 1-2 specific practice focuses per session. Example: \"Use drop knees at least 3 times on every overhanging route today.\"\n\n**Common mistakes:** Only result goals without process goals, vague targets, overly packed schedules without recovery, and comparing yourself to others instead of tracking personal progress."
+            "en": "Effective goal setting provides direction and motivation. Goals should span multiple time horizons:\n\n**Long-term (6-12+ months):** Set ambitious but achievable targets with personal meaning, like completing a specific classic route. Maintain flexibility.\n\n**Medium-term (1-3 months):** Break long-term goals into milestones. Use SMART principles (Specific, Measurable, Achievable, Relevant, Time-bound). Example: \"Increase 20mm max hang by 5kg this month.\"\n\n**Short-term (weekly/per session):** Set 1-2 specific practice focuses per session. Example: \"Use drop knees at least 3 times on every overhanging route today.\"\n\n**Common mistakes:** Only result goals without process goals, vague targets, overly packed schedules without recovery, and comparing yourself to others instead of tracking personal progress.",
+            "ko": "명확한 목표 설정은 클라이머의 동기를 유지하고 진전을 측정하게 합니다.\n\n**목표 설정의 원칙(SMART):**\n- **구체적(Specific):** \"더 열심히 등반하기\"가 아니라, \"한 달 안에 5.10d를 온사이트하기\"처럼 구체적이어야 합니다.\n- **측정 가능(Measurable):** 진전을 측정할 수 있어야 합니다.\n- **달성 가능(Achievable):** 현재 능력보다 약간 높은 수준이어야 합니다.\n- **관련성(Relevant):** 당신의 진정한 목표와 연결되어야 합니다.\n- **시간 제한(Time-bound):** 구체적인 기한이 있어야 합니다.\n\n**목표의 종류:**\n- **최종 목표(Outcome Goals):** \"V6 볼더링 완등\", \"El Capitan 리드 클라이밍 완등\"\n- **행동 목표(Process Goals):** \"매주 3번 이상 훈련하기\", \"하루에 20분 이상 발 기술 훈련하기\"\n- **성능 목표(Performance Goals):** \"온사이트 등급을 한 등급 올리기\", \"프로젝팅 성공률을 50%에서 70%로 올리기\"\n\n**목표 설정 팁:**\n- 여러 수준의 목표를 설정합니다(단기, 중기, 장기).\n- 정기적으로 목표를 검토하고 조정합니다.\n- 달성한 목표에 대해 자신을 칭찬합니다.\n- 목표 달성에 방해가 되는 요소를 파악하고 해결합니다."
           },
           "terms": [
             {
               "zh": "SMART 原则",
-              "en": "SMART goals"
+              "en": "SMART goals",
+              "ko": "목표 설정"
             },
             {
               "zh": "结果目标",
-              "en": "outcome goal"
+              "en": "outcome goal",
+              "ko": "구체적 목표"
             },
             {
               "zh": "过程目标",
-              "en": "process goal"
+              "en": "process goal",
+              "ko": "측정 가능"
             },
             {
               "zh": "里程碑",
-              "en": "milestone"
+              "en": "milestone",
+              "ko": "SMART 원칙"
             }
           ],
           "crossRefs": [
@@ -541,13 +605,15 @@
               "zh": "三类目标层次中，过程目标（Process Goals，如「每条路线认真踩脚」）完全可控、最能建立信心，在高压情境（比赛/冲线）中比结果目标（Outcome Goals，如「拿第一名」）心理稳定性显著更高。",
               "en": "Among three goal tiers, process goals (e.g., 'place feet precisely on every route') are fully controllable and best for building confidence. In high-pressure situations (competitions/sends), they provide significantly more psychological stability than outcome goals (e.g., 'win first place').",
               "source": "Lattice Training",
-              "sourceUrl": "https://latticetraining.com/blog/lattice-coaches-educational-series-s-m-a-r-t-goals/"
+              "sourceUrl": "https://latticetraining.com/blog/lattice-coaches-educational-series-s-m-a-r-t-goals/",
+              "ko": "목표 설정 없는 훈련은 방향성 없이 떠도는 것과 같습니다. 명확한 목표가 있으면, 훈련이 더 의미 있고 효과적이 됩니다."
             },
             {
               "zh": "目标过载警告：同时追求多项攀岩风格进步（如同时提升耐力和最大力量）可能产生训练冲突，应在每个训练周期内聚焦单一优先项，书面化目标并找问责搭档可显著提升完成率。",
               "en": "Goal overload warning: pursuing improvement in multiple climbing styles simultaneously (e.g., endurance and max strength at the same time) can create training conflicts. Focus on a single priority per training cycle, and writing goals down with an accountability partner significantly improves completion rates.",
               "source": "Lattice Training",
-              "sourceUrl": "https://latticetraining.com/blog/lattice-coaches-educational-series-s-m-a-r-t-goals/"
+              "sourceUrl": "https://latticetraining.com/blog/lattice-coaches-educational-series-s-m-a-r-t-goals/",
+              "ko": "목표 과부하 경고: 여러 클라이밍 스타일의 진전을 동시에 추구(예: 지구력과 최대 힘 동시 향상)하면 훈련 충돌이 발생할 수 있습니다. 각 훈련 주기마다 단일 우선순위에 집중하세요. 목표를 글로 작성하고 책임 파트너를 찾으면 완성률이 크게 높아집니다."
             }
           ],
           "furtherReading": [
@@ -578,28 +644,34 @@
           "id": "kp-training-log",
           "title": {
             "zh": "训练日志与弱点分析",
-            "en": "Training Log & Weakness Analysis"
+            "en": "Training Log & Weakness Analysis",
+            "ko": "훈련 로그 작성"
           },
           "content": {
             "zh": "训练日志（Training Log）是攀岩者追踪进步、识别模式和进行弱点分析的核心工具。持续记录训练数据不仅有助于量化进步，还能帮助发现训练中的问题和改进方向。\n\n**训练日志应记录的内容：**\n- 日期、训练时长、训练类型（攀爬、挂板、体能等）\n- 攀爬的路线和难度等级，完成情况（完攀/坠落位置）\n- 特定训练的数据（挂板负重、引体次数等）\n- 身体感受评分（1-10分：疲劳度、动力、手指状态）\n- 心理状态和特殊观察（如「今天在板岩上脚法特别好」或「仰角路线上总是在第三个快挂后力竭」）\n- 睡眠质量和营养状况\n\n**弱点分析方法：**\n- **数据回顾：** 每月回顾训练日志，找出规律。例如，如果你总是在耐力路线上失败，那么有氧耐力可能是你的弱点。\n- **技术评估矩阵：** 列出攀岩的各项技术和体能维度（指力、拉力、核心、脚法、板岩、仰角、裂缝等），为自己在每个维度上打分，识别最薄弱的环节。\n- **视频分析：** 录下自己的攀爬视频，与同等级或更高水平攀岩者的视频对比，找出技术差异。\n- **同伴反馈：** 请有经验的攀岩者或教练观察你的攀爬，提供客观反馈。\n\n**弱点优先原则：** 训练弱点比强化优势能带来更大的整体进步。如果你的指力很强但脚法很差，花时间在脚法上的回报通常比继续提升指力更大。然而，也要避免完全忽视优势——保持强项的同时补强弱项是最理想的策略。",
-            "en": "A training log is the core tool for tracking progress, identifying patterns, and analyzing weaknesses.\n\n**Log contents:** Date, duration, training type; routes climbed and completion status; specific training data (hang weights, pull-up reps); physical feeling scores (1-10 for fatigue, motivation, finger state); mental state observations; sleep and nutrition.\n\n**Weakness analysis methods:** Monthly data review to find patterns. Technical assessment matrix scoring each dimension (finger strength, pulling, core, footwork, slab, overhang, crack, etc.). Video analysis comparing with similar or higher-level climbers. Peer feedback from experienced climbers or coaches.\n\n**Weakness-first principle:** Training weaknesses yields greater overall improvement than reinforcing strengths. However, maintain strengths while addressing weaknesses for the optimal strategy."
+            "en": "A training log is the core tool for tracking progress, identifying patterns, and analyzing weaknesses.\n\n**Log contents:** Date, duration, training type; routes climbed and completion status; specific training data (hang weights, pull-up reps); physical feeling scores (1-10 for fatigue, motivation, finger state); mental state observations; sleep and nutrition.\n\n**Weakness analysis methods:** Monthly data review to find patterns. Technical assessment matrix scoring each dimension (finger strength, pulling, core, footwork, slab, overhang, crack, etc.). Video analysis comparing with similar or higher-level climbers. Peer feedback from experienced climbers or coaches.\n\n**Weakness-first principle:** Training weaknesses yields greater overall improvement than reinforcing strengths. However, maintain strengths while addressing weaknesses for the optimal strategy.",
+            "ko": "훈련 로그를 작성하면 진전을 추적하고 패턴을 식별할 수 있습니다."
           },
           "terms": [
             {
               "zh": "训练日志",
-              "en": "training log"
+              "en": "training log",
+              "ko": "훈련 로그"
             },
             {
               "zh": "弱点分析",
-              "en": "weakness analysis"
+              "en": "weakness analysis",
+              "ko": "진전 추적"
             },
             {
               "zh": "技术评估矩阵",
-              "en": "technical assessment matrix"
+              "en": "technical assessment matrix",
+              "ko": "패턴 분석"
             },
             {
               "zh": "视频分析",
-              "en": "video analysis"
+              "en": "video analysis",
+              "ko": "자기 평가"
             }
           ],
           "crossRefs": [
@@ -616,13 +688,15 @@
               "zh": "最佳记录时机是训练结束后立即记录——即时记录的准确性和感受真实性远高于事后回忆，而 RPE（主观疲劳感评分）是核心追踪指标，可以早期识别过度训练信号。",
               "en": "The best time to log is immediately after training -- real-time recording is far more accurate and emotionally authentic than retrospective recall. RPE (Rate of Perceived Exertion) is the core tracking metric and can serve as an early warning signal for overtraining.",
               "source": "Lattice Training",
-              "sourceUrl": "https://latticetraining.com/blog/training-tips-for-climbers-keeping-a-training-log/"
+              "sourceUrl": "https://latticetraining.com/blog/training-tips-for-climbers-keeping-a-training-log/",
+              "ko": "훈련 로그는 당신의 가장 좋은 코치가 될 수 있습니다."
             },
             {
               "zh": "刻意记录训练中的积极成果（而非只记失败），有助于建立长期训练动力和自我效能感——记录行为本身也是一种问责工具，当你知道需要记录时训练认真程度会提升。",
               "en": "Deliberately logging positive outcomes from training (not just failures) helps build long-term motivation and self-efficacy. The act of logging itself is an accountability tool -- knowing you need to record your session increases training seriousness.",
               "source": "Lattice Training",
-              "sourceUrl": "https://latticetraining.com/blog/training-tips-for-climbers-keeping-a-training-log/"
+              "sourceUrl": "https://latticetraining.com/blog/training-tips-for-climbers-keeping-a-training-log/",
+              "ko": "훈련에서 긍정적인 성과를 의도적으로 기록(실패만 기록하지 말고)하면 장기 훈련 동기와 자기 효능감을 구축하는 데 도움이 됩니다. 기록 행위 자체도 책임 도구입니다. 기록할 것을 알면 훈련의 진지함이 높아집니다."
             }
           ],
           "furtherReading": [
@@ -657,39 +731,47 @@
       "slug": "projecting",
       "title": {
         "zh": "项目攀登策略",
-        "en": "Projecting"
+        "en": "Projecting",
+        "ko": "프로젝팅"
       },
       "overview": {
         "zh": "项目攀登（Projecting）是指攀岩者选定一条超越当前 onsight 能力的路线，通过多次有策略的尝试逐步掌握并最终完攀的过程。项目攀登是攀岩者突破个人极限最有效的方式，也是一段充满挑战、学习和满足感的旅程。",
-        "en": "Projecting is the process of selecting a route beyond current onsight ability and systematically working it through multiple strategic attempts until successful completion. It is the most effective way for climbers to push personal limits and is a journey rich with challenge, learning, and satisfaction."
+        "en": "Projecting is the process of selecting a route beyond current onsight ability and systematically working it through multiple strategic attempts until successful completion. It is the most effective way for climbers to push personal limits and is a journey rich with challenge, learning, and satisfaction.",
+        "ko": "어려운 루트를 반복해서 시도하는 것은 클라이밍 실력을 가장 빠르게 향상시키는 방법입니다."
       },
       "knowledgePoints": [
         {
           "id": "kp-projecting-strategy",
           "title": {
             "zh": "选择与分析项目路线",
-            "en": "Choosing & Analyzing a Project"
+            "en": "Choosing & Analyzing a Project",
+            "ko": "프로젝팅 전략"
           },
           "content": {
             "zh": "选择一条合适的项目路线（project）是成功的第一步。项目路线应该有足够的挑战性来激发动力，同时不至于遥不可及导致沮丧。\n\n**选择项目的原则：**\n- 难度通常比你的 onsight 水平高2-4个子级。例如，如果你能 onsight 5.11c，那么 5.12a-5.12c 是合理的项目范围\n- 路线风格应与你的强项有一定匹配，但也可以选择弱项风格的路线来全面提升\n- 地理和时间上的可达性——你需要能够多次前往该路线\n- 路线的质量和名声也是考虑因素——攀爬一条经典路线能带来额外的满足感\n\n**项目分析的步骤：**\n1. **地面观察：** 仔细观察路线，识别所有可见的手点和脚点，标记可能的休息位和核心难点\n2. **首次尝试：** 以探索为目的攀爬路线，不追求完攀。记录每个段落的动作感觉和难度分布\n3. **分段研究：** 将路线分为若干段落，在 top-rope 或反复尝试中逐段掌握最优动作方案\n4. **难点攻关：** 集中精力解决核心难点（crux），尝试不同的动作方案直到找到最高效的解法\n5. **连接练习：** 将已掌握的各段落串联起来，从较容易的段落开始逐步向上延伸连接范围\n6. **完整尝试（Burn）：** 在体力最充沛时从起点到终点完整尝试\n\n项目攀登是一个学习过程。每一次「失败」的尝试都在积累信息和经验，最终的完攀是所有尝试积累的自然结果。",
-            "en": "Choosing the right project is the first step to success. The route should challenge but not overwhelm.\n\n**Selection principles:** Typically 2-4 sub-grades above onsight level (e.g., if you onsight 5.11c, project 5.12a-5.12c). Style should partially match your strengths. The route must be accessible for multiple visits.\n\n**Analysis steps:** Ground observation to identify holds, rests, and cruxes. First exploratory attempt without completion pressure. Section-by-section study to optimize sequences. Crux-focused sessions trying different solutions. Link practice connecting mastered sections. Full burns from start to finish when well-rested.\n\nProjecting is a learning process. Every failed attempt accumulates information, and the final send is the natural result of all accumulated effort."
+            "en": "Choosing the right project is the first step to success. The route should challenge but not overwhelm.\n\n**Selection principles:** Typically 2-4 sub-grades above onsight level (e.g., if you onsight 5.11c, project 5.12a-5.12c). Style should partially match your strengths. The route must be accessible for multiple visits.\n\n**Analysis steps:** Ground observation to identify holds, rests, and cruxes. First exploratory attempt without completion pressure. Section-by-section study to optimize sequences. Crux-focused sessions trying different solutions. Link practice connecting mastered sections. Full burns from start to finish when well-rested.\n\nProjecting is a learning process. Every failed attempt accumulates information, and the final send is the natural result of all accumulated effort.",
+            "ko": "프로젝팅은 아직 완등하지 못한 루트를 반복해서 시도하고 있는 상태를 의미합니다. 효과적인 프로젝팅 전략은 시간을 절약하고 성공 확률을 높입니다."
           },
           "terms": [
             {
               "zh": "项目路线",
-              "en": "project"
+              "en": "project",
+              "ko": "프로젝팅"
             },
             {
               "zh": "分段研究",
-              "en": "working sections"
+              "en": "working sections",
+              "ko": "반복 시도"
             },
             {
               "zh": "连接练习",
-              "en": "linking"
+              "en": "linking",
+              "ko": "전략"
             },
             {
               "zh": "完整尝试",
-              "en": "burn / redpoint attempt"
+              "en": "burn / redpoint attempt",
+              "ko": "점진적 진전"
             }
           ],
           "crossRefs": [
@@ -709,13 +791,15 @@
               "zh": "项目路线的正确难度区间：高于最近红点 0-1 级（挑战区）或低于 2 级（技术巩固区），超出此范围效率极低。核心难点不仅要能完成，还要能在预设的最多 3 次尝试中 2 次成功——仅「偶尔能做到」远不够。",
               "en": "The correct difficulty range for a project: 0-1 grades above your recent redpoint (challenge zone) or up to 2 grades below (technique consolidation zone). Outside this range, efficiency drops sharply. The crux should not just be doable -- you need to succeed 2 out of 3 preset attempts, not just 'sometimes manage it.'",
               "source": "Training For Climbing",
-              "sourceUrl": "https://trainingforclimbing.com/projecting-101-6-tips-to-sending-your-project/"
+              "sourceUrl": "https://trainingforclimbing.com/projecting-101-6-tips-to-sending-your-project/",
+              "ko": "프로젝팅 중에도 신체와 정신의 상태 관리가 매우 중요합니다."
             },
             {
               "zh": "冲线前的关键准备：充分休息 30-60 分钟后进行全程成功的心理预演（想象复演），以平静而充满信念的心态发起尝试——将「没能冲线」视为「又发现了一个需要工作的点」而非个人失败。",
               "en": "Key pre-send preparation: rest fully for 30-60 minutes, then perform a complete mental rehearsal of a successful ascent (visualization). Approach the attempt with a calm, confident mindset -- reframe 'didn't send' as 'discovered another point to work on' rather than personal failure.",
               "source": "Training For Climbing",
-              "sourceUrl": "https://trainingforclimbing.com/projecting-101-6-tips-to-sending-your-project/"
+              "sourceUrl": "https://trainingforclimbing.com/projecting-101-6-tips-to-sending-your-project/",
+              "ko": "발동 전 핵심 준비: 30-60분 충분히 휴식한 후 완전한 성공을 위한 심리 리허설(상상 재연)을 수행합니다. 차분하고 신념에 찬 태도로 시도를 시작하세요. \"발동에 실패\"를 \"작업이 필요한 지점을 또 발견\"으로 재구성하면, 실패로부터 빨리 회복될 수 있습니다."
             }
           ],
           "furtherReading": [
@@ -739,32 +823,39 @@
           "id": "kp-working-linking",
           "title": {
             "zh": "分段练习与连接策略",
-            "en": "Working Sections & Linking"
+            "en": "Working Sections & Linking",
+            "ko": "워킹과 링킹"
           },
           "content": {
             "zh": "分段练习（Working Sections）和连接（Linking）是项目攀登中最核心的执行策略。这两个步骤将一条看似不可能的路线分解为可管理的小目标，然后逐步拼合为完整的完攀。\n\n**分段练习的方法：**\n- **从上到下 vs 从下到上：** 有些攀岩者喜欢先练习路线最上方（最难到达但最关键）的段落，确保在疲劳状态下也能完成；另一些攀岩者习惯从底部开始逐段向上。两种方法各有优势，可以交替使用。\n- **记忆动作序列：** 每个段落都应形成固定的动作方案（beta），包括每只手的抓握方式、每只脚的踩点位置、身体的朝向等。重复练习直到动作成为「肌肉记忆」（muscle memory），减少认知负荷。\n- **休息策略优化：** 在每个休息位测试不同的休息姿势，找到恢复效率最高的方案。有时一个好的休息姿势可以让你恢复30-50%的手臂力量。\n\n**连接策略：**\n- **小段连接：** 先将相邻的2-3段连接起来攀爬，确保段落之间的过渡流畅\n- **中段连接：** 将路线分为上下两半，分别练习各半的完整连接\n- **长连接：** 逐步增加连接的长度，从核心难点向两端扩展\n- **完整连接：** 从起点到终点的完整尝试（burn）。选择在身体恢复充分、心理状态良好的日子进行\n\n**项目攀登的心理技巧：**\n- 将每次尝试视为学习机会而非考试\n- 记录每次尝试的「最高到达点」（high point），追踪逐步的进步\n- 在遇到瓶颈时，休息几天或一周再回来，新鲜的身体和心理往往能带来突破\n- 与同样在做项目的伙伴一起攀爬，互相鼓励和分享策略",
-            "en": "Working sections and linking are the core execution strategies in projecting, breaking an seemingly impossible route into manageable pieces.\n\n**Working methods:** Top-down vs bottom-up practice (each has advantages). Memorize exact beta for each section until it becomes muscle memory. Optimize rest positions at each rest point.\n\n**Linking strategy:** Short links (connect 2-3 adjacent sections). Half-route links (upper and lower halves separately). Progressive links (extend from the crux outward). Full burns (complete start-to-finish attempts on well-rested days).\n\n**Mental techniques:** Treat each attempt as learning, not testing. Track high points to see progress. Take rest breaks when plateauing -- fresh body and mind often bring breakthroughs. Share the process with project partners for mutual motivation."
+            "en": "Working sections and linking are the core execution strategies in projecting, breaking an seemingly impossible route into manageable pieces.\n\n**Working methods:** Top-down vs bottom-up practice (each has advantages). Memorize exact beta for each section until it becomes muscle memory. Optimize rest positions at each rest point.\n\n**Linking strategy:** Short links (connect 2-3 adjacent sections). Half-route links (upper and lower halves separately). Progressive links (extend from the crux outward). Full burns (complete start-to-finish attempts on well-rested days).\n\n**Mental techniques:** Treat each attempt as learning, not testing. Track high points to see progress. Take rest breaks when plateauing -- fresh body and mind often bring breakthroughs. Share the process with project partners for mutual motivation.",
+            "ko": "워킹은 루트를 구간별로 배우는 것이고, 링킹은 전체 루트를 연결하는 것입니다."
           },
           "terms": [
             {
               "zh": "分段练习",
-              "en": "working sections"
+              "en": "working sections",
+              "ko": "워킹"
             },
             {
               "zh": "连接",
-              "en": "linking"
+              "en": "linking",
+              "ko": "링킹"
             },
             {
               "zh": "肌肉记忆",
-              "en": "muscle memory"
+              "en": "muscle memory",
+              "ko": "구간 연습"
             },
             {
               "zh": "最高到达点",
-              "en": "high point"
+              "en": "high point",
+              "ko": "루트 완성"
             },
             {
               "zh": "动作方案",
-              "en": "beta"
+              "en": "beta",
+              "ko": "베타"
             }
           ],
           "crossRefs": [
@@ -784,13 +875,15 @@
               "zh": "「地理假象」（Geographic Illusion）：物理上接近岩块顶部不等于接近发送——出口段不熟会成为反复阻碍。重叠链接策略建议先熟练出口段，再向下延伸链接，与多数人的直觉顺序相反。",
               "en": "The 'Geographic Illusion': being physically close to the top of a boulder does not mean you are close to sending -- an unfamiliar exit section becomes a recurring obstacle. The overlapping links strategy recommends mastering the exit first, then extending links downward, which is the opposite of most people's intuitive approach.",
               "source": "Power Company Climbing",
-              "sourceUrl": "https://www.powercompanyclimbing.com/blog/2017/1/9/boulder-tactics-101-overlapping-links"
+              "sourceUrl": "https://www.powercompanyclimbing.com/blog/2017/1/9/boulder-tactics-101-overlapping-links",
+              "ko": "좋은 워킹은 효과적인 링킹으로 이어집니다."
             },
             {
               "zh": "借力辅助（Power Spot）的战略性使用：不是为了偷懒，而是为了在消耗最小的情况下重复练习特定动作段，保存皮肤状态和精力对抱石项目攻关的整体效率影响极大。",
               "en": "Strategic use of power spotting: it's not about being lazy, but about repeating specific movement sections with minimal energy expenditure. Preserving skin condition and energy has a massive impact on overall efficiency in bouldering project work.",
               "source": "Power Company Climbing",
-              "sourceUrl": "https://www.powercompanyclimbing.com/blog/2017/1/9/boulder-tactics-101-overlapping-links"
+              "sourceUrl": "https://www.powercompanyclimbing.com/blog/2017/1/9/boulder-tactics-101-overlapping-links",
+              "ko": "파워 스팟(보조) 사용의 전략적 활용: 게으르기 위한 것이 아니라 소진을 최소화하면서 특정 동작 구간을 반복 연습하기 위함입니다. 피부 상태와 에너지를 보존하는 것이 프로젝트 공략의 전체 효율에 극히 중요합니다."
             }
           ],
           "furtherReading": [
@@ -814,32 +907,39 @@
           "id": "kp-plateau-breaking",
           "title": {
             "zh": "突破平台期",
-            "en": "Breaking Plateaus"
+            "en": "Breaking Plateaus",
+            "ko": "정체 극복하기"
           },
           "content": {
             "zh": "平台期（Plateau）是每个攀岩者都会经历的阶段——一段时间内能力似乎停滞不前，难度等级无法提升。理解平台期的原因和突破策略对于长期进步至关重要。\n\n**平台期的常见原因：**\n- **训练单调化：** 长期做同样类型的训练，身体已经适应，不再产生足够的训练刺激。解决方法：引入新的训练方法或训练环境（换一个岩馆、去户外、尝试新的训练器材）。\n- **弱点瓶颈：** 某个特定的弱点限制了整体水平的提升。例如核心力量不足导致在仰角路线上总是失败，即使指力和拉力都很强。解决方法：通过弱点分析找出瓶颈，集中精力改善。\n- **恢复不足：** 过度训练导致身体持续处于疲劳状态，无法在训练中表现出真实水平。解决方法：安排一周的主动恢复期，减少训练量50%以上。\n- **心理限制：** 对某个难度等级形成了心理障碍——例如觉得「我就是个5.11的攀岩者」。解决方法：在不同风格、不同环境中攀爬，打破自我设限。尝试 flash 一条比你认知上限更高的路线，可以重塑自信。\n- **技术短板：** 依赖力量弥补技术不足，当力量增长放缓时就遇到瓶颈。解决方法：回到基础，重新审视脚法、身体定位等核心技术。\n\n**突破平台期的综合策略：**\n- 改变训练环境和训练刺激\n- 寻求教练或经验丰富的攀岩者的指导\n- 给自己一个完全不同的挑战（如尝试传统攀或竞技攀岩）\n- 重新审视训练日志，用数据而非感觉来判断真实的进步情况\n- 接受平台期是进步的自然组成部分，保持耐心和长期视角",
-            "en": "Plateaus are phases where progress seems to stall. Understanding causes and strategies is vital for long-term improvement.\n\n**Common causes:** Training monotony (body has adapted; introduce new methods). Weakness bottlenecks (a specific deficit limits overall progress). Insufficient recovery (overtraining keeps you fatigued; take a deload week). Mental barriers (self-limiting beliefs like \"I'm a 5.11 climber\"; climb different styles to break these). Technical deficits (relying on strength to compensate; revisit fundamentals).\n\n**Comprehensive strategies:** Change training environment and stimuli. Seek coaching or experienced feedback. Try completely different challenges (trad climbing, competition). Review training logs with data rather than feelings. Accept plateaus as natural parts of progression and maintain patience."
+            "en": "Plateaus are phases where progress seems to stall. Understanding causes and strategies is vital for long-term improvement.\n\n**Common causes:** Training monotony (body has adapted; introduce new methods). Weakness bottlenecks (a specific deficit limits overall progress). Insufficient recovery (overtraining keeps you fatigued; take a deload week). Mental barriers (self-limiting beliefs like \"I'm a 5.11 climber\"; climb different styles to break these). Technical deficits (relying on strength to compensate; revisit fundamentals).\n\n**Comprehensive strategies:** Change training environment and stimuli. Seek coaching or experienced feedback. Try completely different challenges (trad climbing, competition). Review training logs with data rather than feelings. Accept plateaus as natural parts of progression and maintain patience.",
+            "ko": "모든 클라이머는 어느 시점에서 성장이 정체되는 시기를 경험합니다. 이를 극복하는 것이 장기적인 발전의 핵심입니다."
           },
           "terms": [
             {
               "zh": "平台期",
-              "en": "plateau"
+              "en": "plateau",
+              "ko": "정체 극복"
             },
             {
               "zh": "训练单调化",
-              "en": "training monotony"
+              "en": "training monotony",
+              "ko": "성장 이정표"
             },
             {
               "zh": "过度训练",
-              "en": "overtraining"
+              "en": "overtraining",
+              "ko": "새로운 도전"
             },
             {
               "zh": "自我设限",
-              "en": "self-limiting beliefs"
+              "en": "self-limiting beliefs",
+              "ko": "변화"
             },
             {
               "zh": "主动恢复",
-              "en": "active recovery / deload"
+              "en": "active recovery / deload",
+              "ko": "활동적 회복"
             }
           ],
           "crossRefs": [
@@ -859,13 +959,15 @@
               "zh": "初学者的「弱指优势」：弱手指迫使发现更省力的移动方式，一旦过早追求指力训练可能掩盖技术短板——瓶颈期最常见原因是过于专注自己擅长的攀爬风格，导致技术单一化。",
               "en": "Beginners' 'weak finger advantage': weak fingers force the discovery of more efficient movement patterns. Pursuing finger strength training too early can mask technical deficits -- the most common cause of plateaus is over-focusing on preferred climbing styles, leading to technique homogenization.",
               "source": "Lattice Training",
-              "sourceUrl": "https://latticetraining.com/blog/how-to-overcome-a-plateau-in-climbing/"
+              "sourceUrl": "https://latticetraining.com/blog/how-to-overcome-a-plateau-in-climbing/",
+              "ko": "정체는 나약함이 아니라, 새로운 단계로 나아가기 위한 준비 기간입니다."
             },
             {
               "zh": "瓶颈期经常源于慢性疲劳积累而非能力不足，充分休息（1-2 周完全减量）有时是最有效的「提升方法」。高变化性训练（单手攀岩等）比固定重复更有效促进技能攀岩的突破。",
               "en": "Plateaus often stem from chronic fatigue accumulation rather than lack of ability. Adequate rest (1-2 weeks of full deload) is sometimes the most effective 'improvement method.' High-variability drills (one-arm climbing, etc.) promote breakthroughs in skill-based climbing more effectively than repetitive practice.",
               "source": "Lattice Training",
-              "sourceUrl": "https://latticetraining.com/blog/how-to-overcome-a-plateau-in-climbing/"
+              "sourceUrl": "https://latticetraining.com/blog/how-to-overcome-a-plateau-in-climbing/",
+              "ko": "정체기는 능력 부족이 아니라 만성 피로 축적에서 비롯되는 경우가 많습니다. 충분한 휴식(1-2주 완전 감량)이 때로 가장 효과적인 \"향상 방법\"입니다. 높은 변동성 훈련(한 손 등반 등)이 고정 반복보다 기술 암벽의 돌파를 더 효과적으로 촉진합니다."
             }
           ],
           "furtherReading": [

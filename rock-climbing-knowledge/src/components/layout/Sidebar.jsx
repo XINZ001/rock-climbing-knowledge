@@ -62,7 +62,7 @@ export default function Sidebar({ onNavigate }) {
         className="flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium hover:bg-stone-bg transition-colors mb-1"
       >
         <Icon name="home" size={16} />
-        <span>{lang === 'zh' ? '首页' : 'Home'}</span>
+        <span>{lang === 'zh' ? '首页' : lang === 'en' ? 'Home' : '홈'}</span>
       </Link>
 
       <Link
@@ -73,7 +73,7 @@ export default function Sidebar({ onNavigate }) {
         }`}
       >
         <Icon name="book" size={16} />
-        <span>{lang === 'zh' ? '攀岩知识库' : 'Knowledge Base'}</span>
+        <span>{lang === 'zh' ? '攀岩知识库' : lang === 'en' ? 'Knowledge Base' : '지식 라이브러리'}</span>
       </Link>
 
       <Link
@@ -84,7 +84,7 @@ export default function Sidebar({ onNavigate }) {
         }`}
       >
         <Icon name="trophy" size={16} />
-        <span>{lang === 'zh' ? '攀岩名人堂' : 'Hall of Fame'}</span>
+        <span>{lang === 'zh' ? '攀岩名人堂' : lang === 'en' ? 'Hall of Fame' : '명예의 전당'}</span>
       </Link>
 
       <Link
@@ -95,7 +95,7 @@ export default function Sidebar({ onNavigate }) {
         }`}
       >
         <Icon name="medkit" size={16} />
-        <span>{lang === 'zh' ? '伤痛档案' : 'Injury Archive'}</span>
+        <span>{lang === 'zh' ? '伤痛档案' : lang === 'en' ? 'Injury Archive' : '부상 기록'}</span>
       </Link>
 
       <div className="mt-2 space-y-0.5">
@@ -138,7 +138,7 @@ export default function Sidebar({ onNavigate }) {
                         : 'text-text-secondary hover:text-text-primary hover:bg-stone-bg'
                     }`}
                   >
-                    {lang === 'zh' ? '概览' : 'Overview'}
+                    {lang === 'zh' ? '概览' : lang === 'en' ? 'Overview' : '개요'}
                   </Link>
                   {section.subSections.map((sub) => {
                     const isSubActive = isActive && subSlug === sub.slug

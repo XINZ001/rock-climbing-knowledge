@@ -56,7 +56,7 @@ export default function HallOfFameCategoryPage() {
           to="/hall-of-fame"
           className="text-sm font-medium text-forest hover:underline"
         >
-          ← {lang === 'zh' ? '返回名人堂' : 'Back to Hall of Fame'}
+          ← {lang === 'zh' ? '返回名人堂' : lang === 'en' ? 'Back to Hall of Fame' : '명예의 전당으로 돌아가기'}
         </Link>
       </nav>
 
@@ -66,7 +66,7 @@ export default function HallOfFameCategoryPage() {
         </h1>
         {value?.intro && (
           <p className="mt-3 text-base leading-relaxed text-text-secondary">
-            {lang === 'zh' ? value.intro.zh : value.intro.en}
+            {lang === 'zh' ? value.intro.zh : lang === 'en' ? value.intro.en : (value.intro.ko || value.intro.en)}
           </p>
         )}
 
@@ -89,7 +89,7 @@ export default function HallOfFameCategoryPage() {
                       : 'border-stone-border bg-stone-card hover:border-forest/40 hover:text-forest'
                   }`}
                 >
-                  {lang === 'zh' ? sub.zh : sub.en}
+                  {lang === 'zh' ? sub.zh : lang === 'en' ? sub.en : (sub.ko || sub.en)}
                   <span className="ml-1 opacity-80">({subCount})</span>
                 </button>
               )
@@ -100,8 +100,8 @@ export default function HallOfFameCategoryPage() {
 
       <section className="mt-6 text-sm text-text-secondary">
         {filteredAthletes.length > 0
-          ? (lang === 'zh' ? `共 ${filteredAthletes.length} 位人物` : `${filteredAthletes.length} athlete${filteredAthletes.length !== 1 ? 's' : ''}`)
-          : (lang === 'zh' ? '该类别暂无人物' : 'No athletes in this category')}
+          ? (lang === 'zh' ? `共 ${filteredAthletes.length} 位人物` : lang === 'en' ? `${filteredAthletes.length} athlete${filteredAthletes.length !== 1 ? 's' : ''}` : `총 ${filteredAthletes.length}명`)
+          : (lang === 'zh' ? '该类别暂无人物' : lang === 'en' ? 'No athletes in this category' : '이 카테고리에 인물이 없습니다')}
       </section>
 
       <section className="mt-6 grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-3">
@@ -190,7 +190,7 @@ export default function HallOfFameCategoryPage() {
                 </div>
                 <div className="mt-4 flex items-center justify-end text-sm font-medium text-forest">
                   <span className="transition-transform group-hover:translate-x-0.5">
-                    {lang === 'zh' ? '查看详情' : 'View profile'} →
+                    {lang === 'zh' ? '查看详情' : lang === 'en' ? 'View profile' : '프로필 보기'} →
                   </span>
                 </div>
               </div>

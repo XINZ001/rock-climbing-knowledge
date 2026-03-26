@@ -7,7 +7,7 @@ export default function Breadcrumb({ section, subSection }) {
   return (
     <nav className="flex items-center gap-1.5 text-xs text-text-secondary flex-wrap">
       <Link to="/" className="hover:text-forest transition-colors">
-        {lang === 'zh' ? '首页' : 'Home'}
+        {lang === 'zh' ? '首页' : lang === 'en' ? 'Home' : '홈'}
       </Link>
       {section && (
         <>

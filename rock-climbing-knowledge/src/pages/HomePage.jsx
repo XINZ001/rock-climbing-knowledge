@@ -96,7 +96,7 @@ export default function HomePage() {
           <Icon name="mountain" size={32} />
         </div>
         <h1 className="text-3xl font-bold mb-3">
-          {lang === 'zh' ? '攀岩知识库' : 'Climbing Knowledge Base'}
+          {lang === 'zh' ? '攀岩知识库' : lang === 'en' ? 'Climbing Knowledge Base' : '클라이밍 지식 라이브러리'}
         </h1>
 
         {/* 搜索框 */}
@@ -110,8 +110,8 @@ export default function HomePage() {
               onChange={(e) => setQuery(e.target.value)}
               onFocus={() => results.length > 0 && setShowDropdown(true)}
               placeholder={searchReady
-                ? (lang === 'zh' ? '搜索知识点...' : 'Search...')
-                : (lang === 'zh' ? '索引加载中...' : 'Loading...')}
+                ? (lang === 'zh' ? '搜索知识点...' : lang === 'en' ? 'Search...' : '검색...')
+                : (lang === 'zh' ? '索引加载中...' : lang === 'en' ? 'Loading...' : '로딩 중...')}
               className="w-full pl-10 pr-4 py-2.5 rounded-xl bg-white border border-stone-border text-sm focus:outline-none focus:border-forest focus:ring-1 focus:ring-forest transition-colors shadow-sm"
             />
           </div>
@@ -124,11 +124,11 @@ export default function HomePage() {
                   onClick={() => handleResultClick(r.item)}
                   className="w-full text-left px-4 py-2.5 hover:bg-stone-bg transition-colors border-b border-stone-border last:border-b-0"
                 >
-                  <div className="text-sm font-medium">{lang === 'zh' ? r.item.title_zh : r.item.title_en}</div>
+                  <div className="text-sm font-medium">{lang === 'zh' ? r.item.title_zh : lang === 'en' ? r.item.title_en : (r.item.title_ko || r.item.title_en)}</div>
                   <div className="text-xs text-text-secondary mt-0.5">
-                    {lang === 'zh' ? r.item.sectionTitle_zh : r.item.sectionTitle_en}
+                    {lang === 'zh' ? r.item.sectionTitle_zh : lang === 'en' ? r.item.sectionTitle_en : (r.item.sectionTitle_ko || r.item.sectionTitle_en)}
                     {' · '}
-                    {lang === 'zh' ? r.item.subTitle_zh : r.item.subTitle_en}
+                    {lang === 'zh' ? r.item.subTitle_zh : lang === 'en' ? r.item.subTitle_en : (r.item.subTitle_ko || r.item.subTitle_en)}
                   </div>
                 </button>
               ))}
@@ -136,14 +136,14 @@ export default function HomePage() {
                 onClick={handleSearchSubmit}
                 className="w-full text-center px-4 py-2 text-sm text-forest hover:bg-forest-light transition-colors font-medium"
               >
-                {lang === 'zh' ? '查看全部结果 →' : 'View all results →'}
+                {lang === 'zh' ? '查看全部结果 →' : lang === 'en' ? 'View all results →' : '전체 결과 보기 →'}
               </button>
             </div>
           )}
         </form>
 
         <p className="text-sm text-text-secondary mt-4 flex flex-wrap items-center justify-center gap-3">
-          <span>{lang === 'zh' ? '制作人：行之' : 'By 行之'}</span>
+          <span>{lang === 'zh' ? '制作人：行之' : lang === 'en' ? 'By 行之' : '제작자: 행지'}</span>
           <a
             href="https://xhslink.com/m/7LQ0G4Nh0oU"
             target="_blank"
@@ -151,7 +151,7 @@ export default function HomePage() {
             className="inline-flex items-center gap-2 px-2 py-2 text-sm font-medium rounded-lg border border-stone-border bg-stone-card text-text-secondary hover:bg-stone-hover hover:border-forest/40 transition-colors"
           >
             <img src="/images/xiaohongshu-logo.png" alt="小红书" className="w-[18px] h-[18px] rounded object-contain" />
-            {lang === 'zh' ? '查看小红书' : 'View Xiaohongshu'}
+            {lang === 'zh' ? '查看小红书' : lang === 'en' ? 'View Xiaohongshu' : '샤오홍슈 보기'}
           </a>
         </p>
       </div>
@@ -166,19 +166,21 @@ export default function HomePage() {
             <div>
               <h2 className="text-2xl font-bold flex items-center gap-2">
                 <Icon name="book" size={22} style={{ color: '#4A7C59' }} />
-                {lang === 'zh' ? '攀岩知识库' : 'Climbing Knowledge Base'}
+                {lang === 'zh' ? '攀岩知识库' : lang === 'en' ? 'Climbing Knowledge Base' : '클라이밍 지식 라이브러리'}
               </h2>
               <p className="mt-1.5 text-sm text-text-secondary leading-relaxed max-w-2xl">
                 {lang === 'zh'
                   ? '系统化的攀岩知识体系，涵盖技术、训练、装备、安全等 10 大领域'
-                  : 'A systematic knowledge base covering technique, training, gear, safety and more across 10 domains'}
+                  : lang === 'en'
+                  ? 'A systematic knowledge base covering technique, training, gear, safety and more across 10 domains'
+                  : '기술, 훈련, 장비, 안전 등 10개 분야를 아우르는 체계적인 클라이밍 지식 베이스'}
               </p>
             </div>
             <Link
               to="/knowledge"
               className="flex items-center gap-1.5 text-sm font-medium text-forest hover:underline shrink-0"
             >
-              {lang === 'zh' ? `查看全部 ${sections.length} 个领域` : `View all ${sections.length} domains`}
+              {lang === 'zh' ? `查看全部 ${sections.length} 个领域` : lang === 'en' ? `View all ${sections.length} domains` : `전체 ${sections.length}개 분야 보기`}
               <span>→</span>
             </Link>
           </div>
@@ -213,7 +215,7 @@ export default function HomePage() {
               >
                 <span className="text-2xl text-text-secondary group-hover:text-forest transition-colors mb-1.5">+</span>
                 <span className="text-sm font-medium text-text-secondary group-hover:text-forest transition-colors">
-                  {lang === 'zh' ? '查看更多' : 'View more'}
+                  {lang === 'zh' ? '查看更多' : lang === 'en' ? 'View more' : '더 보기'}
                 </span>
               </Link>
             )}
@@ -232,19 +234,21 @@ export default function HomePage() {
             <div>
               <h2 className="text-2xl font-bold flex items-center gap-2">
                 <Icon name="trophy" size={22} style={{ color: '#9A7B2A' }} />
-                {lang === 'zh' ? '攀岩名人堂' : 'Climbing Hall of Fame'}
+                {lang === 'zh' ? '攀岩名人堂' : lang === 'en' ? 'Climbing Hall of Fame' : '클라이밍 명예의 전당'}
               </h2>
               <p className="mt-1.5 text-sm text-text-secondary leading-relaxed max-w-2xl">
                 {lang === 'zh'
                   ? '收录攀岩历史与当代最具代表性的人物，集中展示他们的成就、风格与影像'
-                  : 'Defining figures from climbing history and the modern era — achievements, style, and media'}
+                  : lang === 'en'
+                  ? 'Defining figures from climbing history and the modern era — achievements, style, and media'
+                  : '클라이밍 역사와 현대를 대표하는 인물들 — 업적, 스타일, 미디어'}
               </p>
             </div>
             <Link
               to="/hall-of-fame"
               className="flex items-center gap-1.5 text-sm font-medium text-forest hover:underline shrink-0"
             >
-              {lang === 'zh' ? `查看全部 ${allAthletes.length} 位` : `View all ${allAthletes.length}`}
+              {lang === 'zh' ? `查看全部 ${allAthletes.length} 位` : lang === 'en' ? `View all ${allAthletes.length}` : `전체 ${allAthletes.length}명 보기`}
               <span>→</span>
             </Link>
           </div>
@@ -316,7 +320,7 @@ export default function HomePage() {
               >
                 <span className="text-3xl text-text-secondary group-hover:text-forest transition-colors mb-2">+</span>
                 <span className="text-sm font-medium text-text-secondary group-hover:text-forest transition-colors">
-                  {lang === 'zh' ? `查看全部 ${allAthletes.length} 位` : `View all ${allAthletes.length}`}
+                  {lang === 'zh' ? `查看全部 ${allAthletes.length} 位` : lang === 'en' ? `View all ${allAthletes.length}` : `전체 ${allAthletes.length}명 보기`}
                 </span>
               </Link>
             )}
@@ -335,19 +339,21 @@ export default function HomePage() {
             <div>
               <h2 className="text-2xl font-bold flex items-center gap-2">
                 <Icon name="medkit" size={22} className="text-amber" />
-                {lang === 'zh' ? '伤痛档案' : 'Injury Archive'}
+                {lang === 'zh' ? '伤痛档案' : lang === 'en' ? 'Injury Archive' : '부상 기록'}
               </h2>
               <p className="mt-1.5 text-sm text-text-secondary leading-relaxed max-w-2xl">
                 {lang === 'zh'
                   ? '来自真实攀岩者的受伤经历——了解风险，做好预防。分享你的故事，帮助更多人安全攀岩。'
-                  : 'Real injury stories from climbers — understand risks, learn prevention. Share your story to help others climb safely.'}
+                  : lang === 'en'
+                  ? 'Real injury stories from climbers — understand risks, learn prevention. Share your story to help others climb safely.'
+                  : '실제 클라이머들의 부상 경험 — 위험을 이해하고 예방하세요. 여러분의 이야기를 공유해 다른 클라이머의 안전을 도와주세요.'}
               </p>
             </div>
             <Link
               to="/injuries"
               className="flex items-center gap-1.5 text-sm font-medium text-amber hover:underline shrink-0"
             >
-              {lang === 'zh' ? '查看档案' : 'View Archive'}
+              {lang === 'zh' ? '查看档案' : lang === 'en' ? 'View Archive' : '기록 보기'}
               <span>→</span>
             </Link>
           </div>
@@ -364,12 +370,14 @@ export default function HomePage() {
             </div>
             <div className="flex-1 min-w-0">
               <p className="font-medium text-sm">
-                {lang === 'zh' ? '分享你的攀岩受伤经历' : 'Share your climbing injury experience'}
+                {lang === 'zh' ? '分享你的攀岩受伤经历' : lang === 'en' ? 'Share your climbing injury experience' : '클라이밍 부상 경험 공유하기'}
               </p>
               <p className="text-xs text-text-secondary mt-0.5">
                 {lang === 'zh'
                   ? '记录受伤部位、攀岩类型、恢复过程，帮助其他攀岩者做好预防'
-                  : 'Document the body part, climbing type, and recovery to help others prevent injuries'}
+                  : lang === 'en'
+                  ? 'Document the body part, climbing type, and recovery to help others prevent injuries'
+                  : '부상 부위, 클라이밍 유형, 회복 과정을 기록해 다른 클라이머의 부상 예방을 도와주세요'}
               </p>
             </div>
             <Icon name="chevronRight" size={16} className="text-text-secondary shrink-0" />

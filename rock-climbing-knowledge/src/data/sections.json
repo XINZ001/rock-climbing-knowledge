@@ -4,189 +4,199 @@
       "id": "section-01",
       "number": 1,
       "slug": "overview",
-      "title": { "zh": "攀岩概览", "en": "Overview" },
+      "title": { "zh": "攀岩概览", "en": "Overview", "ko": "클라이밍 개요" },
       "icon": "mountain",
       "color": "#4A7C59",
       "description": {
         "zh": "攀岩运动的历史、分类、等级系统与文化",
-        "en": "History, categories, grading systems and culture of climbing"
+        "en": "History, categories, grading systems and culture of climbing",
+        "ko": "클라이밍의 역사, 분류, 등급 체계와 문화"
       },
       "subSections": [
-        { "id": "s01-history", "slug": "history", "title": { "zh": "攀岩的历史与发展", "en": "History & Development" } },
-        { "id": "s01-categories", "slug": "categories", "title": { "zh": "攀岩的分类", "en": "Climbing Categories" } },
-        { "id": "s01-grading", "slug": "grading", "title": { "zh": "攀岩的等级系统", "en": "Grading Systems" } },
-        { "id": "s01-culture", "slug": "culture", "title": { "zh": "攀岩文化与社区", "en": "Culture & Community" } },
-        { "id": "s01-olympics", "slug": "olympics", "title": { "zh": "攀岩与奥运会", "en": "Climbing & Olympics" } }
+        { "id": "s01-history", "slug": "history", "title": { "zh": "攀岩的历史与发展", "en": "History & Development", "ko": "역사와 발전" } },
+        { "id": "s01-categories", "slug": "categories", "title": { "zh": "攀岩的分类", "en": "Climbing Categories", "ko": "클라이밍의 분류" } },
+        { "id": "s01-grading", "slug": "grading", "title": { "zh": "攀岩的等级系统", "en": "Grading Systems", "ko": "등급 체계" } },
+        { "id": "s01-culture", "slug": "culture", "title": { "zh": "攀岩文化与社区", "en": "Culture & Community", "ko": "문화와 커뮤니티" } },
+        { "id": "s01-olympics", "slug": "olympics", "title": { "zh": "攀岩与奥运会", "en": "Climbing & Olympics", "ko": "클라이밍과 올림픽" } }
       ]
     },
     {
       "id": "section-02",
       "number": 2,
       "slug": "physical",
-      "title": { "zh": "身体素质", "en": "Physical Fitness" },
+      "title": { "zh": "身体素质", "en": "Physical Fitness", "ko": "신체 능력" },
       "icon": "dumbbell",
       "color": "#C75C2A",
       "description": {
         "zh": "指力、上肢力量、核心、柔韧性、耐力与爆发力训练",
-        "en": "Finger strength, upper body, core, flexibility, endurance and power training"
+        "en": "Finger strength, upper body, core, flexibility, endurance and power training",
+        "ko": "손가락 힘, 상체, 코어, 유연성, 지구력과 파워 훈련"
       },
       "subSections": [
-        { "id": "s02-finger", "slug": "finger-strength", "title": { "zh": "指力", "en": "Finger Strength" } },
-        { "id": "s02-upper", "slug": "upper-body", "title": { "zh": "上肢力量", "en": "Upper Body Strength" } },
-        { "id": "s02-core", "slug": "core", "title": { "zh": "核心力量", "en": "Core Strength" } },
-        { "id": "s02-flexibility", "slug": "flexibility", "title": { "zh": "柔韧性与灵活性", "en": "Flexibility & Mobility" } },
-        { "id": "s02-endurance", "slug": "endurance", "title": { "zh": "耐力", "en": "Endurance" } },
-        { "id": "s02-power", "slug": "power", "title": { "zh": "爆发力", "en": "Power" } }
+        { "id": "s02-finger", "slug": "finger-strength", "title": { "zh": "指力", "en": "Finger Strength", "ko": "손가락 힘" } },
+        { "id": "s02-upper", "slug": "upper-body", "title": { "zh": "上肢力量", "en": "Upper Body Strength", "ko": "상체 근력" } },
+        { "id": "s02-core", "slug": "core", "title": { "zh": "核心力量", "en": "Core Strength", "ko": "코어 근력" } },
+        { "id": "s02-flexibility", "slug": "flexibility", "title": { "zh": "柔韧性与灵活性", "en": "Flexibility & Mobility", "ko": "유연성과 가동성" } },
+        { "id": "s02-endurance", "slug": "endurance", "title": { "zh": "耐力", "en": "Endurance", "ko": "지구력" } },
+        { "id": "s02-power", "slug": "power", "title": { "zh": "爆发力", "en": "Power", "ko": "파워" } }
       ]
     },
     {
       "id": "section-03",
       "number": 3,
       "slug": "technique",
-      "title": { "zh": "攀爬技术", "en": "Climbing Technique" },
+      "title": { "zh": "攀爬技术", "en": "Climbing Technique", "ko": "클라이밍 테크닉" },
       "icon": "hand",
       "color": "#2A7CC7",
       "description": {
         "zh": "脚法、手法、身体定位、动态技术与特殊地形",
-        "en": "Footwork, handholds, body positioning, dynamic movement and terrain techniques"
+        "en": "Footwork, handholds, body positioning, dynamic movement and terrain techniques",
+        "ko": "풋워크, 홀드 잡기, 자세, 다이나믹 무브와 지형별 테크닉"
       },
       "subSections": [
-        { "id": "s03-footwork", "slug": "footwork", "title": { "zh": "脚法", "en": "Footwork" } },
-        { "id": "s03-handholds", "slug": "handholds", "title": { "zh": "手法与抓握", "en": "Handholds & Gripping" } },
-        { "id": "s03-positioning", "slug": "body-positioning", "title": { "zh": "身体定位与重心", "en": "Body Positioning" } },
-        { "id": "s03-dynamic", "slug": "dynamic", "title": { "zh": "动态技术", "en": "Dynamic Movement" } },
-        { "id": "s03-terrain", "slug": "terrain", "title": { "zh": "特殊地形技术", "en": "Terrain-Specific Techniques" } },
-        { "id": "s03-reading", "slug": "route-reading", "title": { "zh": "路线阅读", "en": "Route Reading" } }
+        { "id": "s03-footwork", "slug": "footwork", "title": { "zh": "脚法", "en": "Footwork", "ko": "풋워크" } },
+        { "id": "s03-handholds", "slug": "handholds", "title": { "zh": "手法与抓握", "en": "Handholds & Gripping", "ko": "홀드와 그립" } },
+        { "id": "s03-positioning", "slug": "body-positioning", "title": { "zh": "身体定位与重心", "en": "Body Positioning", "ko": "자세와 무게중심" } },
+        { "id": "s03-dynamic", "slug": "dynamic", "title": { "zh": "动态技术", "en": "Dynamic Movement", "ko": "다이나믹 무브먼트" } },
+        { "id": "s03-terrain", "slug": "terrain", "title": { "zh": "特殊地形技术", "en": "Terrain-Specific Techniques", "ko": "지형별 테크닉" } },
+        { "id": "s03-reading", "slug": "route-reading", "title": { "zh": "路线阅读", "en": "Route Reading", "ko": "루트 리딩" } }
       ]
     },
     {
       "id": "section-04",
       "number": 4,
       "slug": "mental",
-      "title": { "zh": "心理与策略", "en": "Mental Game & Strategy" },
+      "title": { "zh": "心理与策略", "en": "Mental Game & Strategy", "ko": "멘탈과 전략" },
       "icon": "brain",
       "color": "#7C4A8C",
       "description": {
         "zh": "恐惧管理、专注力、目标设定与项目攀登策略",
-        "en": "Fear management, focus, goal setting and projecting strategies"
+        "en": "Fear management, focus, goal setting and projecting strategies",
+        "ko": "공포 관리, 집중력, 목표 설정과 프로젝팅 전략"
       },
       "subSections": [
-        { "id": "s04-fear", "slug": "fear", "title": { "zh": "恐惧管理", "en": "Fear Management" } },
-        { "id": "s04-focus", "slug": "focus", "title": { "zh": "专注与心流", "en": "Focus & Flow State" } },
-        { "id": "s04-goals", "slug": "goals", "title": { "zh": "目标设定与训练规划", "en": "Goal Setting & Training Planning" } },
-        { "id": "s04-projecting", "slug": "projecting", "title": { "zh": "项目攀登策略", "en": "Projecting" } }
+        { "id": "s04-fear", "slug": "fear", "title": { "zh": "恐惧管理", "en": "Fear Management", "ko": "공포 관리" } },
+        { "id": "s04-focus", "slug": "focus", "title": { "zh": "专注与心流", "en": "Focus & Flow State", "ko": "집중과 몰입" } },
+        { "id": "s04-goals", "slug": "goals", "title": { "zh": "目标设定与训练规划", "en": "Goal Setting & Training Planning", "ko": "목표 설정과 훈련 계획" } },
+        { "id": "s04-projecting", "slug": "projecting", "title": { "zh": "项目攀登策略", "en": "Projecting", "ko": "프로젝팅" } }
       ]
     },
     {
       "id": "section-05",
       "number": 5,
       "slug": "gear",
-      "title": { "zh": "装备知识", "en": "Gear & Equipment" },
+      "title": { "zh": "装备知识", "en": "Gear & Equipment", "ko": "장비 지식" },
       "icon": "backpack",
       "color": "#8C6A4A",
       "description": {
         "zh": "攀岩鞋、保护装备、传统攀装备与训练器械",
-        "en": "Climbing shoes, protection gear, trad equipment and training tools"
+        "en": "Climbing shoes, protection gear, trad equipment and training tools",
+        "ko": "클라이밍화, 확보 장비, 트래드 장비와 훈련 도구"
       },
       "subSections": [
-        { "id": "s05-basic", "slug": "basic-gear", "title": { "zh": "基础装备", "en": "Basic Gear" } },
-        { "id": "s05-protection", "slug": "protection", "title": { "zh": "保护装备", "en": "Protection Gear" } },
-        { "id": "s05-trad", "slug": "trad-gear", "title": { "zh": "传统攀保护装备", "en": "Trad Climbing Gear" } },
-        { "id": "s05-bigwall", "slug": "bigwall-gear", "title": { "zh": "大岩壁装备", "en": "Big Wall Gear" } },
-        { "id": "s05-training", "slug": "training-gear", "title": { "zh": "训练装备", "en": "Training Equipment" } }
+        { "id": "s05-basic", "slug": "basic-gear", "title": { "zh": "基础装备", "en": "Basic Gear", "ko": "기본 장비" } },
+        { "id": "s05-protection", "slug": "protection", "title": { "zh": "保护装备", "en": "Protection Gear", "ko": "확보 장비" } },
+        { "id": "s05-trad", "slug": "trad-gear", "title": { "zh": "传统攀保护装备", "en": "Trad Climbing Gear", "ko": "트래드 클라이밍 장비" } },
+        { "id": "s05-bigwall", "slug": "bigwall-gear", "title": { "zh": "大岩壁装备", "en": "Big Wall Gear", "ko": "빅월 장비" } },
+        { "id": "s05-training", "slug": "training-gear", "title": { "zh": "训练装备", "en": "Training Equipment", "ko": "훈련 장비" } }
       ]
     },
     {
       "id": "section-06",
       "number": 6,
       "slug": "safety",
-      "title": { "zh": "安全与风险管理", "en": "Safety & Risk Management" },
+      "title": { "zh": "安全与风险管理", "en": "Safety & Risk Management", "ko": "안전과 위험 관리" },
       "icon": "shield",
       "color": "#C7412A",
       "description": {
         "zh": "室内外安全规范、绳索技术与抱石安全",
-        "en": "Indoor/outdoor safety, rope skills and bouldering safety"
+        "en": "Indoor/outdoor safety, rope skills and bouldering safety",
+        "ko": "실내외 안전, 로프 기술과 볼더링 안전"
       },
       "subSections": [
-        { "id": "s06-indoor", "slug": "indoor", "title": { "zh": "室内安全", "en": "Indoor Safety" } },
-        { "id": "s06-outdoor", "slug": "outdoor", "title": { "zh": "户外安全", "en": "Outdoor Safety" } },
-        { "id": "s06-rope", "slug": "rope-skills", "title": { "zh": "绳索技术", "en": "Rope Skills" } },
-        { "id": "s06-boulder", "slug": "bouldering-safety", "title": { "zh": "抱石安全", "en": "Bouldering Safety" } }
+        { "id": "s06-indoor", "slug": "indoor", "title": { "zh": "室内安全", "en": "Indoor Safety", "ko": "실내 안전" } },
+        { "id": "s06-outdoor", "slug": "outdoor", "title": { "zh": "户外安全", "en": "Outdoor Safety", "ko": "야외 안전" } },
+        { "id": "s06-rope", "slug": "rope-skills", "title": { "zh": "绳索技术", "en": "Rope Skills", "ko": "로프 기술" } },
+        { "id": "s06-boulder", "slug": "bouldering-safety", "title": { "zh": "抱石安全", "en": "Bouldering Safety", "ko": "볼더링 안전" } }
       ]
     },
     {
       "id": "section-07",
       "number": 7,
       "slug": "injury",
-      "title": { "zh": "伤病预防与恢复", "en": "Injury Prevention & Recovery" },
+      "title": { "zh": "伤病预防与恢复", "en": "Injury Prevention & Recovery", "ko": "부상 예방과 회복" },
       "icon": "heart",
       "color": "#C72A6A",
       "description": {
         "zh": "常见伤病、预防策略、康复方案与营养",
-        "en": "Common injuries, prevention, recovery and nutrition"
+        "en": "Common injuries, prevention, recovery and nutrition",
+        "ko": "흔한 부상, 예방, 회복과 영양"
       },
       "subSections": [
-        { "id": "s07-common", "slug": "common-injuries", "title": { "zh": "常见伤病", "en": "Common Injuries" } },
-        { "id": "s07-prevention", "slug": "prevention", "title": { "zh": "预防策略", "en": "Prevention Strategies" } },
-        { "id": "s07-recovery", "slug": "recovery", "title": { "zh": "康复", "en": "Recovery" } },
-        { "id": "s07-nutrition", "slug": "nutrition", "title": { "zh": "营养与恢复", "en": "Nutrition & Recovery" } }
+        { "id": "s07-common", "slug": "common-injuries", "title": { "zh": "常见伤病", "en": "Common Injuries", "ko": "흔한 부상" } },
+        { "id": "s07-prevention", "slug": "prevention", "title": { "zh": "预防策略", "en": "Prevention Strategies", "ko": "예방 전략" } },
+        { "id": "s07-recovery", "slug": "recovery", "title": { "zh": "康复", "en": "Recovery", "ko": "재활" } },
+        { "id": "s07-nutrition", "slug": "nutrition", "title": { "zh": "营养与恢复", "en": "Nutrition & Recovery", "ko": "영양과 회복" } }
       ]
     },
     {
       "id": "section-08",
       "number": 8,
       "slug": "outdoor",
-      "title": { "zh": "户外攀岩实践", "en": "Outdoor Climbing" },
+      "title": { "zh": "户外攀岩实践", "en": "Outdoor Climbing", "ko": "야외 클라이밍" },
       "icon": "tree",
       "color": "#2A8C5C",
       "description": {
         "zh": "从室内到户外、运动攀、传统攀、抱石与大岩壁",
-        "en": "Gym to outdoors transition, sport, trad, bouldering and big wall"
+        "en": "Gym to outdoors transition, sport, trad, bouldering and big wall",
+        "ko": "실내에서 야외로의 전환, 스포츠, 트래드, 볼더링과 빅월"
       },
       "subSections": [
-        { "id": "s08-transition", "slug": "transition", "title": { "zh": "从室内到户外的过渡", "en": "Indoor to Outdoor Transition" } },
-        { "id": "s08-sport", "slug": "sport-climbing", "title": { "zh": "运动攀", "en": "Sport Climbing" } },
-        { "id": "s08-trad", "slug": "trad-climbing", "title": { "zh": "传统攀", "en": "Trad Climbing" } },
-        { "id": "s08-bouldering", "slug": "bouldering", "title": { "zh": "抱石", "en": "Bouldering" } },
-        { "id": "s08-bigwall", "slug": "big-wall", "title": { "zh": "大岩壁", "en": "Big Wall" } },
-        { "id": "s08-travel", "slug": "travel", "title": { "zh": "攀岩旅行", "en": "Climbing Travel" } }
+        { "id": "s08-transition", "slug": "transition", "title": { "zh": "从室内到户外的过渡", "en": "Indoor to Outdoor Transition", "ko": "실내에서 야외로" } },
+        { "id": "s08-sport", "slug": "sport-climbing", "title": { "zh": "运动攀", "en": "Sport Climbing", "ko": "스포츠 클라이밍" } },
+        { "id": "s08-trad", "slug": "trad-climbing", "title": { "zh": "传统攀", "en": "Trad Climbing", "ko": "트래드 클라이밍" } },
+        { "id": "s08-bouldering", "slug": "bouldering", "title": { "zh": "抱石", "en": "Bouldering", "ko": "볼더링" } },
+        { "id": "s08-bigwall", "slug": "big-wall", "title": { "zh": "大岩壁", "en": "Big Wall", "ko": "빅월" } },
+        { "id": "s08-travel", "slug": "travel", "title": { "zh": "攀岩旅行", "en": "Climbing Travel", "ko": "클라이밍 여행" } }
       ]
     },
     {
       "id": "section-09",
       "number": 9,
       "slug": "special",
-      "title": { "zh": "特殊人群", "en": "Special Populations" },
+      "title": { "zh": "特殊人群", "en": "Special Populations", "ko": "특수 대상" },
       "icon": "users",
       "color": "#4A8C8C",
       "description": {
         "zh": "儿童、青少年、中老年与残障攀岩",
-        "en": "Kids, youth, elderly and adaptive climbing"
+        "en": "Kids, youth, elderly and adaptive climbing",
+        "ko": "어린이, 청소년, 시니어와 적응형 클라이밍"
       },
       "subSections": [
-        { "id": "s09-kids", "slug": "kids", "title": { "zh": "儿童攀岩", "en": "Kids Climbing" } },
-        { "id": "s09-youth", "slug": "youth", "title": { "zh": "青少年运动员", "en": "Youth Athletes" } },
-        { "id": "s09-elderly", "slug": "elderly", "title": { "zh": "中老年攀岩者", "en": "Elderly Climbers" } },
-        { "id": "s09-adaptive", "slug": "adaptive", "title": { "zh": "残障攀岩", "en": "Adaptive Climbing" } }
+        { "id": "s09-kids", "slug": "kids", "title": { "zh": "儿童攀岩", "en": "Kids Climbing", "ko": "어린이 클라이밍" } },
+        { "id": "s09-youth", "slug": "youth", "title": { "zh": "青少年运动员", "en": "Youth Athletes", "ko": "유소년 선수" } },
+        { "id": "s09-elderly", "slug": "elderly", "title": { "zh": "中老年攀岩者", "en": "Elderly Climbers", "ko": "시니어 클라이머" } },
+        { "id": "s09-adaptive", "slug": "adaptive", "title": { "zh": "残障攀岩", "en": "Adaptive Climbing", "ko": "적응형 클라이밍" } }
       ]
     },
     {
       "id": "section-10",
       "number": 10,
       "slug": "competition",
-      "title": { "zh": "竞技攀岩", "en": "Competition Climbing" },
+      "title": { "zh": "竞技攀岩", "en": "Competition Climbing", "ko": "대회 클라이밍" },
       "icon": "trophy",
       "color": "#C7A12A",
       "description": {
         "zh": "竞技形式、比赛规则、备赛训练与竞技心理",
-        "en": "Competition formats, rules, training and competitive psychology"
+        "en": "Competition formats, rules, training and competitive psychology",
+        "ko": "대회 형식, 규칙, 대회 훈련과 경쟁 심리"
       },
       "subSections": [
-        { "id": "s10-formats", "slug": "formats", "title": { "zh": "竞技攀岩的形式", "en": "Competition Formats" } },
-        { "id": "s10-rules", "slug": "rules", "title": { "zh": "比赛规则与评分", "en": "Rules & Scoring" } },
-        { "id": "s10-training", "slug": "training", "title": { "zh": "备赛训练", "en": "Competition Training" } },
-        { "id": "s10-psychology", "slug": "psychology", "title": { "zh": "竞技心理", "en": "Competitive Psychology" } },
-        { "id": "s10-ifsc", "slug": "organizations", "title": { "zh": "IFSC 与各国协会", "en": "IFSC & National Federations" } }
+        { "id": "s10-formats", "slug": "formats", "title": { "zh": "竞技攀岩的形式", "en": "Competition Formats", "ko": "대회 형식" } },
+        { "id": "s10-rules", "slug": "rules", "title": { "zh": "比赛规则与评分", "en": "Rules & Scoring", "ko": "규칙과 채점" } },
+        { "id": "s10-training", "slug": "training", "title": { "zh": "备赛训练", "en": "Competition Training", "ko": "대회 훈련" } },
+        { "id": "s10-psychology", "slug": "psychology", "title": { "zh": "竞技心理", "en": "Competitive Psychology", "ko": "경쟁 심리" } },
+        { "id": "s10-ifsc", "slug": "organizations", "title": { "zh": "IFSC 与各国协会", "en": "IFSC & National Federations", "ko": "IFSC와 각국 협회" } }
       ]
     }
   ]

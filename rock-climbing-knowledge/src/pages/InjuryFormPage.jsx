@@ -24,7 +24,7 @@ function SelectField({ label, value, onChange, options, lang, required, placehol
         <option value="">{placeholder || '请选择'}</option>
         {options.map((opt) => (
           <option key={opt.value} value={opt.value}>
-            {lang === 'zh' ? opt.label.zh : opt.label.en}
+            {lang === 'zh' ? opt.label.zh : lang === 'en' ? opt.label.en : (opt.label.ko || opt.label.en)}
           </option>
         ))}
       </select>
@@ -57,7 +57,7 @@ function MultiSelectChips({ label, selected, onChange, options, lang }) {
                   : 'bg-stone-bg border-stone-border hover:border-forest text-text-secondary'
               }`}
             >
-              {lang === 'zh' ? opt.label.zh : opt.label.en}
+              {lang === 'zh' ? opt.label.zh : lang === 'en' ? opt.label.en : (opt.label.ko || opt.label.en)}
             </button>
           )
         })}
@@ -66,11 +66,11 @@ function MultiSelectChips({ label, selected, onChange, options, lang }) {
   )
 }
 
-function TriStateField({ label, value, onChange }) {
+function TriStateField({ label, value, onChange, lang }) {
   const opts = [
-    { val: 'yes', text: '是' },
-    { val: 'no', text: '否' },
-    { val: 'unsure', text: '不确定' },
+    { val: 'yes', text: { zh: '是', en: 'Yes', ko: '예' } },
+    { val: 'no', text: { zh: '否', en: 'No', ko: '아니오' } },
+    { val: 'unsure', text: { zh: '不确定', en: 'Unsure', ko: '잘 모르겠음' } },
   ]
   return (
     <div>
@@ -87,7 +87,7 @@ function TriStateField({ label, value, onChange }) {
                 : 'bg-stone-bg border-stone-border hover:border-forest text-text-secondary'
             }`}
           >
-            {o.text}
+            {lang === 'zh' ? o.text.zh : lang === 'en' ? o.text.en : o.text.ko}
           </button>
         ))}
       </div>
@@ -206,13 +206,13 @@ export default function InjuryFormPage() {
     return (
       <div className="max-w-2xl mx-auto px-4 py-16 text-center">
         <Icon name="alertTriangle" size={48} className="text-amber mx-auto mb-4" />
-        <h2 className="text-xl font-bold mb-2">需要登录</h2>
-        <p className="text-text-secondary mb-6">请先登录后再提交你的伤痛经历。</p>
+        <h2 className="text-xl font-bold mb-2">{lang === 'zh' ? '需要登录' : lang === 'en' ? 'Login Required' : '로그인 필요'}</h2>
+        <p className="text-text-secondary mb-6">{lang === 'zh' ? '请先登录后再提交你的伤痛经历。' : lang === 'en' ? 'Please sign in before submitting your injury story.' : '부상 경험을 제출하기 전에 로그인해 주세요.'}</p>
         <button
           onClick={onOpenAuth}
           className="px-6 py-2.5 rounded-lg bg-forest text-white text-sm font-medium hover:bg-forest-dark transition-colors"
         >
-          登录 / 注册
+          {lang === 'zh' ? '登录 / 注册' : lang === 'en' ? 'Sign in / Register' : '로그인 / 회원가입'}
         </button>
       </div>
     )
@@ -338,24 +338,24 @@ export default function InjuryFormPage() {
     <div className="max-w-2xl mx-auto px-4 py-8">
       <h1 className="text-2xl font-bold mb-2">
         {isEdit
-          ? (lang === 'zh' ? '编辑伤痛记录' : 'Edit Injury Report')
-          : (lang === 'zh' ? '分享你的伤痛经历' : 'Share Your Injury Story')
+          ? (lang === 'zh' ? '编辑伤痛记录' : lang === 'en' ? 'Edit Injury Report' : '부상 기록 편집')
+          : (lang === 'zh' ? '分享你的伤痛经历' : lang === 'en' ? 'Share Your Injury Story' : '부상 경험 공유하기')
         }
       </h1>
       <p className="text-text-secondary text-sm mb-8">
         {isEdit
-          ? '修改你之前提交的伤痛记录。'
-          : '你的经历可以帮助其他攀岩者了解风险、做好预防。所有提交内容将公开展示。'
+          ? (lang === 'zh' ? '修改你之前提交的伤痛记录。' : lang === 'en' ? 'Edit your previously submitted injury report.' : '이전에 제출한 부상 기록을 수정하세요.')
+          : (lang === 'zh' ? '你的经历可以帮助其他攀岩者了解风险、做好预防。所有提交内容将公开展示。' : lang === 'en' ? 'Your story can help other climbers understand risks and prevent injuries. All submissions are publicly displayed.' : '여러분의 경험은 다른 클라이머들이 위험을 이해하고 부상을 예방하는 데 도움이 됩니다. 모든 제출 내용은 공개됩니다.')
         }
       </p>
 
       <form onSubmit={handleSubmit} className="space-y-8">
         {/* ── 受伤信息 ── */}
         <section className="bg-stone-card rounded-xl border border-stone-border p-6 space-y-5">
-          <h2 className="font-semibold text-lg">受伤信息</h2>
+          <h2 className="font-semibold text-lg">{lang === 'zh' ? '受伤信息' : lang === 'en' ? 'Injury Info' : '부상 정보'}</h2>
 
           <MultiSelectChips
-            label="受伤部位（可多选）*"
+            label={lang === 'zh' ? '受伤部位（可多选）*' : lang === 'en' ? 'Body Part (multi-select) *' : '부상 부위 (복수 선택) *'}
             selected={bodyParts}
             onChange={setBodyParts}
             options={BODY_PARTS}
@@ -374,7 +374,7 @@ export default function InjuryFormPage() {
           )}
 
           <SelectField
-            label="受伤类型 *"
+            label={lang === 'zh' ? '受伤类型 *' : lang === 'en' ? 'Injury Type *' : '부상 유형 *'}
             value={injuryType}
             onChange={setInjuryType}
             options={INJURY_TYPES}
@@ -394,7 +394,7 @@ export default function InjuryFormPage() {
           )}
 
           <div>
-            <label className="block text-sm font-medium mb-1.5">受伤经过 *</label>
+            <label className="block text-sm font-medium mb-1.5">{lang === 'zh' ? '受伤经过 *' : lang === 'en' ? 'What Happened *' : '부상 경위 *'}</label>
             <textarea
               value={description}
               onChange={(e) => setDescription(e.target.value)}
@@ -406,7 +406,7 @@ export default function InjuryFormPage() {
           </div>
 
           <div>
-            <label className="block text-sm font-medium mb-1.5">自己认为的原因 *</label>
+            <label className="block text-sm font-medium mb-1.5">{lang === 'zh' ? '自己认为的原因 *' : lang === 'en' ? 'Perceived Cause *' : '본인이 생각하는 원인 *'}</label>
             <textarea
               value={injuryCause}
               onChange={(e) => setInjuryCause(e.target.value)}
@@ -418,7 +418,7 @@ export default function InjuryFormPage() {
           </div>
 
           <SelectField
-            label="攀岩类型 *"
+            label={lang === 'zh' ? '攀岩类型 *' : lang === 'en' ? 'Climbing Type *' : '클라이밍 유형 *'}
             value={climbingType}
             onChange={setClimbingType}
             options={CLIMBING_TYPES}
@@ -429,13 +429,13 @@ export default function InjuryFormPage() {
 
         {/* ── 攀岩背景（关于你） ── */}
         <section className="bg-stone-card rounded-xl border border-stone-border p-6 space-y-5">
-          <h2 className="font-semibold text-lg">攀岩背景</h2>
+          <h2 className="font-semibold text-lg">{lang === 'zh' ? '攀岩背景' : lang === 'en' ? 'Climbing Background' : '클라이밍 배경'}</h2>
           {climbingProfile && (experience || usualGrade || frequency) && (
-            <p className="text-xs text-text-secondary -mt-2">以下信息已从你的攀岩档案中自动填入</p>
+            <p className="text-xs text-text-secondary -mt-2">{lang === 'zh' ? '以下信息已从你的攀岩档案中自动填入' : lang === 'en' ? 'Auto-filled from your climbing profile' : '클라이밍 프로필에서 자동으로 입력되었습니다'}</p>
           )}
 
           <div>
-            <label className="block text-sm font-medium mb-1.5">日常水平 *</label>
+            <label className="block text-sm font-medium mb-1.5">{lang === 'zh' ? '日常水平 *' : lang === 'en' ? 'Usual Grade *' : '평소 등급 *'}</label>
             <input
               type="text"
               value={usualGrade}
@@ -448,7 +448,7 @@ export default function InjuryFormPage() {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
             <SelectField
-              label="攀岩年限 *"
+              label={lang === 'zh' ? '攀岩年限 *' : lang === 'en' ? 'Experience *' : '경력 *'}
               value={experience}
               onChange={setExperience}
               options={EXPERIENCE_LEVELS}
@@ -456,7 +456,7 @@ export default function InjuryFormPage() {
               required
             />
             <SelectField
-              label="攀岩频率 *"
+              label={lang === 'zh' ? '攀岩频率 *' : lang === 'en' ? 'Frequency *' : '빈도 *'}
               value={frequency}
               onChange={setFrequency}
               options={FREQUENCY_OPTIONS}
@@ -468,10 +468,10 @@ export default function InjuryFormPage() {
 
         {/* ── 受伤场景（受伤那一刻） ── */}
         <section className="bg-stone-card rounded-xl border border-stone-border p-6 space-y-5">
-          <h2 className="font-semibold text-lg">受伤场景</h2>
+          <h2 className="font-semibold text-lg">{lang === 'zh' ? '受伤场景' : lang === 'en' ? 'Injury Context' : '부상 상황'}</h2>
 
           <div>
-            <label className="block text-sm font-medium mb-1.5">受伤时攀爬的难度 *</label>
+            <label className="block text-sm font-medium mb-1.5">{lang === 'zh' ? '受伤时攀爬的难度 *' : lang === 'en' ? 'Grade at Injury *' : '부상 시 등급 *'}</label>
             <input
               type="text"
               value={injuryGrade}
@@ -482,19 +482,19 @@ export default function InjuryFormPage() {
             />
           </div>
 
-          <TriStateField label="受伤前是否热身？" value={didWarmUp} onChange={setDidWarmUp} />
-          <TriStateField label="当时是否处于疲劳状态？" value={wasFatigued} onChange={setWasFatigued} />
+          <TriStateField label={lang === 'zh' ? '受伤前是否热身？' : lang === 'en' ? 'Did you warm up?' : '부상 전에 워밍업을 했나요?'} value={didWarmUp} onChange={setDidWarmUp} lang={lang} />
+          <TriStateField label={lang === 'zh' ? '当时是否处于疲劳状态？' : lang === 'en' ? 'Were you fatigued?' : '피로한 상태였나요?'} value={wasFatigued} onChange={setWasFatigued} lang={lang} />
         </section>
 
         {/* ── 就医与恢复 ── */}
         <section className="bg-stone-card rounded-xl border border-stone-border p-6 space-y-5">
           <h2 className="font-semibold text-lg">
-            就医与恢复
-            <span className="text-sm font-normal text-text-secondary ml-2">（选填）</span>
+            {lang === 'zh' ? '就医与恢复' : lang === 'en' ? 'Medical & Recovery' : '의료 및 회복'}
+            <span className="text-sm font-normal text-text-secondary ml-2">{lang === 'zh' ? '（选填）' : lang === 'en' ? '(optional)' : '(선택)'}</span>
           </h2>
 
           <div>
-            <label className="block text-sm font-medium mb-2">是否就医？</label>
+            <label className="block text-sm font-medium mb-2">{lang === 'zh' ? '是否就医？' : lang === 'en' ? 'Sought medical attention?' : '의료 진료를 받았나요?'}</label>
             <div className="flex gap-2">
               {[true, false].map((val) => (
                 <button
@@ -507,7 +507,7 @@ export default function InjuryFormPage() {
                       : 'bg-stone-bg border-stone-border hover:border-forest text-text-secondary'
                   }`}
                 >
-                  {val ? '是' : '否'}
+                  {val ? (lang === 'zh' ? '是' : lang === 'en' ? 'Yes' : '예') : (lang === 'zh' ? '否' : lang === 'en' ? 'No' : '아니오')}
                 </button>
               ))}
             </div>
@@ -515,7 +515,7 @@ export default function InjuryFormPage() {
 
           {soughtMedical && (
             <div>
-              <label className="block text-sm font-medium mb-1.5">诊断结果</label>
+              <label className="block text-sm font-medium mb-1.5">{lang === 'zh' ? '诊断结果' : lang === 'en' ? 'Diagnosis' : '진단 결과'}</label>
               <input
                 type="text"
                 value={diagnosis}
@@ -527,7 +527,7 @@ export default function InjuryFormPage() {
           )}
 
           <SelectField
-            label="恢复时长"
+            label={lang === 'zh' ? '恢复时长' : lang === 'en' ? 'Recovery Duration' : '회복 기간'}
             value={recoveryDuration}
             onChange={setRecoveryDuration}
             options={RECOVERY_DURATIONS}
@@ -538,12 +538,12 @@ export default function InjuryFormPage() {
         {/* ── 经验分享 ── */}
         <section className="bg-stone-card rounded-xl border border-stone-border p-6 space-y-5">
           <h2 className="font-semibold text-lg">
-            经验分享
-            <span className="text-sm font-normal text-text-secondary ml-2">（选填，鼓励填写）</span>
+            {lang === 'zh' ? '经验分享' : lang === 'en' ? 'Advice' : '경험 공유'}
+            <span className="text-sm font-normal text-text-secondary ml-2">{lang === 'zh' ? '（选填，鼓励填写）' : lang === 'en' ? '(optional, encouraged)' : '(선택, 권장)'}</span>
           </h2>
 
           <div>
-            <label className="block text-sm font-medium mb-1.5">给其他攀岩者的建议</label>
+            <label className="block text-sm font-medium mb-1.5">{lang === 'zh' ? '给其他攀岩者的建议' : lang === 'en' ? 'Advice for other climbers' : '다른 클라이머에게 전하는 조언'}</label>
             <textarea
               value={advice}
               onChange={(e) => setAdvice(e.target.value)}
@@ -557,8 +557,8 @@ export default function InjuryFormPage() {
         {/* ── 媒体上传（仅新建时） ── */}
         {!isEdit && <section className="bg-stone-card rounded-xl border border-stone-border p-6 space-y-4">
           <h2 className="font-semibold text-lg">
-            照片 / 视频
-            <span className="text-sm font-normal text-text-secondary ml-2">（选填，最多 5 个）</span>
+            {lang === 'zh' ? '照片 / 视频' : lang === 'en' ? 'Photos / Videos' : '사진 / 동영상'}
+            <span className="text-sm font-normal text-text-secondary ml-2">{lang === 'zh' ? '（选填，最多 5 个）' : lang === 'en' ? '(optional, max 5)' : '(선택, 최대 5개)'}</span>
           </h2>
 
           {files.length > 0 && (
@@ -598,14 +598,18 @@ export default function InjuryFormPage() {
         {/* 提交 */}
         <div className="flex items-center justify-between gap-4">
           <p className="text-xs text-text-secondary">
-            {isEdit ? '修改后将即时更新' : '提交即表示同意公开展示此内容'}
+            {isEdit
+              ? (lang === 'zh' ? '修改后将即时更新' : lang === 'en' ? 'Changes will be updated immediately' : '수정 사항이 즉시 반영됩니다')
+              : (lang === 'zh' ? '提交即表示同意公开展示此内容' : lang === 'en' ? 'By submitting, you agree to display this content publicly' : '제출 시 이 내용이 공개됨에 동의하는 것입니다')}
           </p>
           <button
             type="submit"
             disabled={submitting}
             className="px-8 py-3 rounded-xl bg-forest text-white font-medium hover:bg-forest-dark transition-colors disabled:opacity-50"
           >
-            {submitting ? (isEdit ? '保存中...' : '提交中...') : (isEdit ? '保存' : '提交')}
+            {submitting
+              ? (isEdit ? (lang === 'zh' ? '保存中...' : lang === 'en' ? 'Saving...' : '저장 중...') : (lang === 'zh' ? '提交中...' : lang === 'en' ? 'Submitting...' : '제출 중...'))
+              : (isEdit ? (lang === 'zh' ? '保存' : lang === 'en' ? 'Save' : '저장') : (lang === 'zh' ? '提交' : lang === 'en' ? 'Submit' : '제출'))}
           </button>
         </div>
       </form>

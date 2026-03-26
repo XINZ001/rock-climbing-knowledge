@@ -7,43 +7,52 @@
       "slug": "transition",
       "title": {
         "zh": "从室内到户外的过渡",
-        "en": "Indoor to Outdoor Transition"
+        "en": "Indoor to Outdoor Transition",
+        "ko": "실내에서 실외로의 전환"
       },
       "overview": {
         "zh": "从室内攀岩过渡到户外攀岩是每位攀岩者成长过程中的重要里程碑。户外岩壁与人工岩壁在岩点形态、保护方式、环境因素等方面存在显著差异，需要攀岩者做好充分准备。了解不同岩石类型的特点和户外攀登的基本注意事项，是安全享受户外攀岩的第一步。",
-        "en": "Transitioning from indoor to outdoor climbing is a major milestone for every climber. Outdoor rock presents significant differences in hold types, protection systems, and environmental factors. Understanding rock types and outdoor considerations is essential for a safe and enjoyable first outdoor experience."
+        "en": "Transitioning from indoor to outdoor climbing is a major milestone for every climber. Outdoor rock presents significant differences in hold types, protection systems, and environmental factors. Understanding rock types and outdoor considerations is essential for a safe and enjoyable first outdoor experience.",
+        "ko": "실내 클라이밍에서 실외 클라이밍으로의 전환은 모든 클라이머의 성장 과정에서 중요한 이정표입니다. 실외 암벽은 홀드 형태, 보호 방식, 환경 요소 등에서 인공 암벽과 상당한 차이가 있으며, 클라이머는 충분히 준비해야 합니다. 다양한 암석 유형의 특징과 실외 클라이밍의 기본 주의사항을 이해하는 것이 안전하고 즐거운 실외 클라이밍의 첫 단계입니다."
       },
       "knowledgePoints": [
         {
           "id": "kp-indoor-outdoor-diff",
           "title": {
             "zh": "室内与户外攀岩的差异",
-            "en": "Indoor vs Outdoor Differences"
+            "en": "Indoor vs Outdoor Differences",
+            "ko": "실내와 실외 클라이밍의 차이"
           },
           "content": {
             "zh": "室内攀岩和户外攀岩虽然都属于攀岩运动，但在实际体验上差异巨大。理解这些差异有助于攀岩者在户外更加安全和自信。\n\n**岩点与路线方面：** 室内岩馆的岩点颜色鲜明、形状标准，路线定线清晰。户外则完全不同——岩点没有颜色标记，需要攀岩者自己识别可用的手点和脚点。户外岩点形态多样，包括裂缝（crack）、小边缘（edge）、口袋（pocket）、圆润面（sloper）等，往往比室内岩点更加细微和难以辨认。路线的难度评估也更具主观性。\n\n**保护系统方面：** 室内抱石有厚实的防坠垫，绳索攀登有预设的顶绳或先锋挂片。户外运动攀登需要自行挂快挂（quickdraw），传统攀登则需要放置活动保护装置。锚点系统的搭建和检查成为攀岩者必须掌握的技能。坠落的后果也更为严重——户外地面不平整，没有标准化的缓冲系统。\n\n**环境因素：** 天气变化、岩石温度和湿度、日照方向都会影响攀登体验。风、雨、高温、寒冷都可能让攀登变得困难甚至危险。此外，户外还需考虑野生动物、有毒植物、落石风险等因素。攀岩者需要学会判断环境条件是否适合攀登。",
-            "en": "Indoor and outdoor climbing differ significantly in multiple aspects. Outdoors, there are no color-coded holds; climbers must identify natural features like cracks, edges, pockets, and slopers. Route finding becomes a skill in itself.\n\nProtection systems also change dramatically. Indoor gyms provide standardized top-rope setups and thick crash pads, whereas outdoor climbing requires clipping quickdraws on sport routes or placing removable protection on trad routes. Falls carry greater consequences due to uneven terrain and natural hazards.\n\nEnvironmental factors such as weather, rock temperature, humidity, wind, and wildlife add layers of complexity that simply do not exist indoors."
+            "en": "Indoor and outdoor climbing differ significantly in multiple aspects. Outdoors, there are no color-coded holds; climbers must identify natural features like cracks, edges, pockets, and slopers. Route finding becomes a skill in itself.\n\nProtection systems also change dramatically. Indoor gyms provide standardized top-rope setups and thick crash pads, whereas outdoor climbing requires clipping quickdraws on sport routes or placing removable protection on trad routes. Falls carry greater consequences due to uneven terrain and natural hazards.\n\nEnvironmental factors such as weather, rock temperature, humidity, wind, and wildlife add layers of complexity that simply do not exist indoors.",
+            "ko": "실내 클라이밍과 실외 클라이밍은 모두 클라이밍 스포츠에 속하지만 실제 경험에서는 엄청난 차이가 있습니다. 이러한 차이를 이해하면 클라이머가 실외에서 더욱 안전하고 자신감 있게 활동할 수 있습니다.\n\n**홀드와 루트 측면:** 실내 암벽관의 홀드는 색상이 선명하고 형태가 표준화되어 있으며 루트 설정이 명확합니다. 실외는 완전히 다릅니다 — 홀드에 색상 표시가 없으며 클라이머가 직접 사용 가능한 손 홀드와 발 홀드를 식별해야 합니다. 실외 홀드 형태는 균열(crack), 작은 모서리(edge), 주머니(pocket), 매끄러운 면(sloper) 등 다양하며, 종종 실내 홀드보다 더 미세하고 식별하기 어렵습니다. 루트의 난이도 평가도 더욱 주관적입니다.\n\n**보호 시스템 측면:** 실내 볼더링은 두꺼운 추락 방지 패드가 있으며 로프 클라이밍은 미리 설정된 상단 로프 또는 선도 클립이 있습니다. 실외 스포츠 클라이밍은 클라이머가 직접 빠른 드로우(quickdraw)를 걸어야 하고, 전통 클라이밍은 이동식 보호 장비를 배치해야 합니다. 앵커 시스템의 구성과 확인은 클라이머가 반드시 숙달해야 할 기술이 됩니다. 추락의 결과도 더 심각합니다 — 실외 지표면이 불규칙하고 표준화된 완충 시스템이 없습니다.\n\n**환경 요소:** 날씨 변화, 암석 온도와 습도, 햇빛 방향 모두 클라이밍 경험에 영향을 미칩니다. 바람, 비, 고온, 추위 모두 클라이밍을 어렵게 하거나 위험하게 만들 수 있습니다. 또한 실외에서는 야생동물, 독성 식물, 낙석 위험 등을 고려해야 합니다. 클라이머는 환경 조건이 클라이밍에 적합한지 판단하는 법을 배워야 합니다."
           },
           "terms": [
             {
               "zh": "快挂",
-              "en": "quickdraw"
+              "en": "quickdraw",
+              "ko": "빠른 드로우"
             },
             {
               "zh": "裂缝",
-              "en": "crack"
+              "en": "crack",
+              "ko": "균열"
             },
             {
               "zh": "口袋点",
-              "en": "pocket"
+              "en": "pocket",
+              "ko": "주머니"
             },
             {
               "zh": "岩点识别",
-              "en": "route finding"
+              "en": "route finding",
+              "ko": "루트 찾기"
             },
             {
               "zh": "落石",
-              "en": "rockfall"
+              "en": "rockfall",
+              "ko": "낙석"
             }
           ],
           "crossRefs": [
@@ -61,7 +70,8 @@
               "zh": "户外攀岩不仅是体力挑战，更是认知转变：室内的标准化系统（颜色标记、预设保护、平整地面）给了你确定性，而户外的不确定性（天气变化、岩石质量判断、路线寻找）恰恰是户外攀岩的核心学习价值。最大的心理门槛往往不是难度本身，而是「没有人告诉你下一步该怎么做」的自主决策压力。",
               "en": "Outdoor climbing is a cognitive shift, not just a physical challenge. Indoor standardization (color-coded holds, pre-set protection, flat floors) provides certainty, while outdoor uncertainty (weather, rock quality assessment, route finding) is the core learning value. The biggest mental barrier is often not difficulty itself but the pressure of autonomous decision-making with no one telling you what to do next.",
               "source": "Alpine to the Max",
-              "sourceUrl": "https://www.alpinetothemax.com/blog/rock-climbing-outside"
+              "sourceUrl": "https://www.alpinetothemax.com/blog/rock-climbing-outside",
+              "ko": "실외 클라이밍은 단순한 신체적 도전이 아니라 인지적 전환입니다. 실내의 표준화된 시스템(색상 표시된 홀드, 미리 설정된 보호, 평평한 바닥)은 확실성을 제공하고, 실외의 불확실성(날씨, 암석 품질 평가, 루트 찾기)은 바로 실외 클라이밍의 핵심 학습 가치입니다. 가장 큰 심리적 장애물은 종종 난이도 자체가 아니라 \"누가 다음에 무엇을 해야 할지 말해주지 않는\" 자율적 의사결정의 압박감입니다."
             }
           ],
           "furtherReading": [
@@ -85,32 +95,39 @@
           "id": "kp-first-outdoor-trip",
           "title": {
             "zh": "第一次户外攀岩准备",
-            "en": "First Outdoor Trip Preparation"
+            "en": "First Outdoor Trip Preparation",
+            "ko": "첫 번째 실외 클라이밍 준비"
           },
           "content": {
             "zh": "第一次户外攀岩之旅需要周密的准备，从装备、技能到心态都不能忽视。做好充分准备不仅能保障安全，还能让你充分享受户外攀登的乐趣。\n\n**装备准备：** 除了攀岩鞋、安全带和头盔（户外必备）之外，还需要准备适合户外环境的装备。运动攀登需要绳索（通常60-70米）、快挂组（12-16把）、扁带和锁扣用于搭建锚点。同时还应携带足够的水和食物、防晒霜、急救包、头灯（以防天黑）、手机（有地图和紧急联系方式）。建议使用攀岩背包将装备有序整理。\n\n**技能准备：** 在前往户外之前，建议在室内熟练掌握以下技能：先锋攀登和先锋保护、降低操作（lowering）和下降（rappelling）、基本绳结（八字结、双套结等）、以及锚点检查。最好跟随有经验的户外攀岩者或参加专业的户外攀岩课程。不要独自进行第一次户外攀登。\n\n**心态调整：** 户外攀岩的难度体感通常比室内高1-2个等级。不要期望在户外完成与室内相同难度的路线。第一次户外攀登应选择远低于自己室内能力的路线，重点体验户外攀登的节奏和感觉。保持谦虚和开放的心态，享受大自然中攀登的独特魅力。",
-            "en": "Preparing for your first outdoor climbing trip requires careful planning in equipment, skills, and mindset.\n\nBeyond climbing shoes and a harness, outdoor climbing demands a helmet, a rope (typically 60-70m), quickdraws (12-16), slings, locking carabiners, water, food, sunscreen, a first-aid kit, and a headlamp. Skill-wise, you should be proficient in lead belaying, lowering, rappelling, and essential knots before heading outdoors.\n\nExpect outdoor grades to feel 1-2 grades harder than their indoor equivalents. Choose routes well within your ability for your first outing, and always go with an experienced mentor or guide. The goal is to build confidence and enjoy the experience, not to push your limits."
+            "en": "Preparing for your first outdoor climbing trip requires careful planning in equipment, skills, and mindset.\n\nBeyond climbing shoes and a harness, outdoor climbing demands a helmet, a rope (typically 60-70m), quickdraws (12-16), slings, locking carabiners, water, food, sunscreen, a first-aid kit, and a headlamp. Skill-wise, you should be proficient in lead belaying, lowering, rappelling, and essential knots before heading outdoors.\n\nExpect outdoor grades to feel 1-2 grades harder than their indoor equivalents. Choose routes well within your ability for your first outing, and always go with an experienced mentor or guide. The goal is to build confidence and enjoy the experience, not to push your limits.",
+            "ko": "첫 번째 실외 클라이밍 여행은 장비, 기술, 마인드셋에 이르기까지 면밀한 준비가 필요합니다. 충분히 준비하면 안전이 보장될 뿐만 아니라 실외 클라이밍의 즐거움을 완전히 누릴 수 있습니다.\n\n**장비 준비:** 클라이밍화, 안전대, 헬멧(실외 필수)을 제외하고도 실외 환경에 맞는 장비를 준비해야 합니다. 스포츠 클라이밍에는 로프(보통 60-70미터), 빠른 드로우 세트(12-16개), 앵커를 구성하기 위한 슬링과 잠금 카라비너가 필요합니다. 동시에 충분한 물과 음식, 자외선 차단제, 응급 처치 키트, 헤드램프(어두워질 경우 대비), 휴대폰(지도와 긴급 연락처 포함)을 가져가세요. 클라이밍 배낭을 사용하여 장비를 체계적으로 정리할 것을 권장합니다.\n\n**기술 준비:** 실외로 가기 전에 실내에서 다음 기술을 충분히 숙달할 것을 권장합니다: 선도 클라이밍과 선도 빌레이, 낮추기(lowering)와 하강(rappelling), 기본 매듭(8자 매듭, 더블 8자 매듭 등), 그리고 앵커 확인. 경험이 풍부한 실외 클라이머를 따르거나 전문 실외 클라이밍 과정에 참석하는 것이 좋습니다. 첫 번째 실외 클라이밍을 혼자 하지 마세요.\n\n**마인드셋 조정:** 실외 클라이밍의 난이도는 보통 실내보다 1-2등급 높게 느껴집니다. 실외에서 실내와 같은 난이도의 루트를 완성할 것으로 기대하지 마세요. 첫 번째 실외 클라이밍은 자신의 실내 능력보다 훨씬 낮은 루트를 선택하고, 실외 클라이밍의 속도와 느낌을 경험하는 데 중점을 둡니다. 겸손하고 개방적인 마인드를 유지하고 자연 속에서의 클라이밍의 독특한 매력을 즐기세요."
           },
           "terms": [
             {
               "zh": "头盔",
-              "en": "helmet"
+              "en": "helmet",
+              "ko": "헬멧"
             },
             {
               "zh": "锚点",
-              "en": "anchor"
+              "en": "anchor",
+              "ko": "앵커"
             },
             {
               "zh": "扁带",
-              "en": "sling"
+              "en": "sling",
+              "ko": "슬링"
             },
             {
               "zh": "锁扣",
-              "en": "locking carabiner"
+              "en": "locking carabiner",
+              "ko": "잠금 카라비너"
             },
             {
               "zh": "降低",
-              "en": "lowering"
+              "en": "lowering",
+              "ko": "낮추기"
             }
           ],
           "crossRefs": [
@@ -129,7 +146,8 @@
               "zh": "第一次户外攀岩务必在地面练习收绳（cleaning routes）和挂绳技术——这些在室内几乎不需要的技能，在户外是基本生存能力。同时带上 stick clip（伸缩挂杆）处理第一个锚点螺栓，避免在无保护的起步段冒险。户外难度评级普遍比室内「感觉难两级」，初次出行选择比你室内能力低2-3级的路线。",
               "en": "Before your first outdoor trip, practice cleaning routes and clipping technique on the ground -- skills rarely needed indoors but essential survival skills outdoors. Bring a stick clip for the first bolt to avoid unprotected starts. Outdoor grades typically 'feel' 2 grades harder than indoor equivalents, so choose routes 2-3 grades below your gym ability.",
               "source": "Philly Rock Gym",
-              "sourceUrl": "https://philarockgym.com/top-8-tips-for-your-first-outdoor-climbing-trip/"
+              "sourceUrl": "https://philarockgym.com/top-8-tips-for-your-first-outdoor-climbing-trip/",
+              "ko": "첫 번째 실외 경험은 3-4명의 팀으로 최적입니다: 선도자(lead climber), 확보자(belayer), 1-2명의 추가 인원. 통신이 핵심이며, 팀의 모든 구성원이 \"확보\", \"온사이트\", \"톱로프\"와 같은 기본 용어를 이해해야 합니다. \"나는 아직 준비가 안 되었다\"고 말할 수 있는 안전한 환경을 만드세요."
             }
           ],
           "furtherReading": [
@@ -153,36 +171,44 @@
           "id": "kp-rock-types",
           "title": {
             "zh": "岩石类型",
-            "en": "Rock Types"
+            "en": "Rock Types",
+            "ko": "실외 암석 유형"
           },
           "content": {
             "zh": "不同类型的岩石为攀岩者提供截然不同的攀爬体验。了解岩石特性有助于选择正确的技术、装备，甚至攀岩鞋的类型。\n\n**花岗岩（Granite）：** 花岗岩是世界上最常见的攀岩岩石类型之一，以优胜美地（Yosemite）最为著名。花岗岩表面粗糙，摩擦力好，适合摩擦攀登（friction climbing）和裂缝攀登。典型特征包括宽阔的裂缝系统、平整的岩面（slab）和圆润的大岩点。花岗岩对攀岩鞋和皮肤的磨损较大，需要注意皮肤护理。\n\n**石灰岩（Limestone）：** 石灰岩是运动攀登最流行的岩石类型，以欧洲的攀岩区域（如西班牙、法国、希腊）最为典型。石灰岩经过溶蚀作用形成丰富的口袋（pocket）、凹槽（tufa）和悬岩（overhang）。攀爬特点是力量消耗大，需要较强的手指力量和锁定能力。石灰岩对湿度敏感，潮湿时摩擦力大幅下降。\n\n**砂岩（Sandstone）：** 砂岩质地较软，表面纹理独特。红河谷（Red River Gorge）、枫丹白露（Fontainebleau）等著名攀岩地点以砂岩为主。砂岩在潮湿时非常脆弱，可能导致岩点断裂。重要原则：湿砂岩不要攀爬，这不仅危险，还会对岩壁造成不可逆的损害。\n\n**玄武岩（Basalt）：** 玄武岩是火山岩的一种，常见于冰岛、夏威夷和太平洋西北地区。特征是柱状节理形成的裂缝和边缘。玄武岩通常非常坚硬，表面有细小的气孔，提供独特的抓握手感。",
-            "en": "Different rock types create fundamentally different climbing experiences, affecting technique, gear selection, and even shoe choice.\n\n**Granite** is renowned for friction climbing and crack systems, exemplified by Yosemite. Its rough surface provides excellent friction but wears skin quickly. **Limestone** dominates sport climbing areas worldwide, featuring pockets, tufas, and overhangs formed by erosion. It demands strong finger strength but becomes slippery when wet. **Sandstone** offers unique textures but is fragile when wet; climbing on wet sandstone causes irreversible damage. **Basalt**, a volcanic rock, features columnar joints and small vesicles that create distinctive climbing."
+            "en": "Different rock types create fundamentally different climbing experiences, affecting technique, gear selection, and even shoe choice.\n\n**Granite** is renowned for friction climbing and crack systems, exemplified by Yosemite. Its rough surface provides excellent friction but wears skin quickly. **Limestone** dominates sport climbing areas worldwide, featuring pockets, tufas, and overhangs formed by erosion. It demands strong finger strength but becomes slippery when wet. **Sandstone** offers unique textures but is fragile when wet; climbing on wet sandstone causes irreversible damage. **Basalt**, a volcanic rock, features columnar joints and small vesicles that create distinctive climbing.",
+            "ko": "실외 클라이밍에서 만나는 암석은 형성, 질감, 클라이밍 특성이 다릅니다.\n\n**화강암(Granite):**\n화강암은 클라이밍에서 가장 인기 있는 암석입니다. 특징:\n- 단단하고 내구력 있는 암석\n- 평매(sloper), 주머니(pocket), 균열(crack) 등 다양한 홀드\n- 일반적으로 마찰이 좋으며 신뢰할 수 있음\n- 예: 요세미티(Yosemite), 몬트블랑, 스위스 알프스\n\n**석회암(Limestone):**\n석회암은 가파른 각도와 기술적 움직임으로 유명합니다. 특징:\n- 일반적으로 가파르고(overhang) 홀드가 작음\n- 질감이 거칠어 마찰이 좋으나 피부 손상 위험\n- 동굴 같은 지형(cave climbing)\n- 예: 스페인 산토냐, 오스트리아\n\n**사암(Sandstone):**\n사암은 부서지기 쉽고 예측 불가능합니다. 특징:\n- 느슨하고 부서질 수 있는 홀드\n- 낮은 마찰력으로 인한 슬립 위험\n- 보호 설치 어려움\n- 균열과 슬랩이 많은 영역\n- 예: 공존(미국 유타)\n\n**접근 방식:**\n- 암석 유형에 맞는 신발과 장비를 선택하세요\n- 현지 가이드북으로 암석 특성을 학습하세요\n- 숙련된 현지 클라이머의 조언을 듣으세요\n- 각 암석 유형의 고유한 기술을 연습하세요"
           },
           "terms": [
             {
               "zh": "花岗岩",
-              "en": "granite"
+              "en": "granite",
+              "ko": "화강암"
             },
             {
               "zh": "石灰岩",
-              "en": "limestone"
+              "en": "limestone",
+              "ko": "석회암"
             },
             {
               "zh": "砂岩",
-              "en": "sandstone"
+              "en": "sandstone",
+              "ko": "사암"
             },
             {
               "zh": "玄武岩",
-              "en": "basalt"
+              "en": "basalt",
+              "ko": "현무암"
             },
             {
               "zh": "摩擦攀登",
-              "en": "friction climbing"
+              "en": "friction climbing",
+              "ko": "마찰 클라이밍"
             },
             {
               "zh": "凹槽",
-              "en": "tufa"
+              "en": "tufa",
+              "ko": "응회암"
             }
           ],
           "crossRefs": [
@@ -199,7 +225,8 @@
               "zh": "不同岩石类型决定完全不同的攀爬策略：花岗岩粗糙颗粒提供极好的摩擦力，适合涂抹脚法和裂缝攀登（Yosemite 典型）；石灰岩多溶蚀孔洞和口袋点，偏好指力和锁定技术；砂岩质地较软且潮湿时极脆弱——雨后需等待至少 24-48 小时才能攀爬，以保护岩壁不被永久损坏。",
               "en": "Different rock types demand fundamentally different strategies: granite's rough texture provides excellent friction for smearing and crack climbing (classic Yosemite); limestone features solution pockets and tufas favoring finger strength and lock-offs; sandstone is soft and extremely fragile when wet -- wait at least 24-48 hours after rain to avoid permanently damaging the rock.",
               "source": "Advnture",
-              "sourceUrl": "https://www.advnture.com/features/5-types-of-rock"
+              "sourceUrl": "https://www.advnture.com/features/5-types-of-rock",
+              "ko": "암석 유형 이해는 안전성과 성공률을 높입니다. 화강암에서 배운 기술이 석회암에서는 다를 수 있습니다. \"암석 감각\"을 개발하려면 다양한 유형에서 시간을 보내세요."
             }
           ],
           "furtherReading": [
@@ -234,43 +261,52 @@
       "slug": "sport-climbing",
       "title": {
         "zh": "户外运动攀登",
-        "en": "Outdoor Sport Climbing"
+        "en": "Outdoor Sport Climbing",
+        "ko": "실외 스포츠 클라이밍"
       },
       "overview": {
         "zh": "户外运动攀登（Sport Climbing）使用预先打好的膨胀钉（bolt）作为保护点，攀岩者在先锋攀登时将快挂挂入螺栓并扣入绳索。运动攀登让攀岩者可以专注于攀爬动作本身，而无需花费精力在放置保护装置上。掌握正确的挂片技术和户外安全规范是享受户外运动攀登的前提。",
-        "en": "Outdoor sport climbing uses pre-placed bolts for protection, allowing climbers to focus on movement rather than gear placement. Mastering clipping technique, lead strategy, and safety protocols is essential for a rewarding outdoor sport climbing experience."
+        "en": "Outdoor sport climbing uses pre-placed bolts for protection, allowing climbers to focus on movement rather than gear placement. Mastering clipping technique, lead strategy, and safety protocols is essential for a rewarding outdoor sport climbing experience.",
+        "ko": "스포츠 클라이밍(sport climbing)은 미리 설치된 클립 지점(앵커)을 사용하는 현대식 아웃도어 클라이밍입니다. 설정과 안전성이 간단하여 실외 입문자에게 이상적입니다."
       },
       "knowledgePoints": [
         {
           "id": "kp-clipping-technique",
           "title": {
             "zh": "挂片技术",
-            "en": "Clipping Technique"
+            "en": "Clipping Technique",
+            "ko": "클리핑 기술"
           },
           "content": {
             "zh": "正确高效的挂片技术是户外先锋攀登的核心技能。糟糕的挂片不仅浪费体力，还可能造成危险情况。\n\n**基本挂片动作：** 快挂挂入膨胀钉后，需要将绳索从正确的方向扣入下方的门锁端。绳索应从岩壁侧进入快挂，从攀岩者侧穿出。如果方向错误（back-clipping），坠落时绳索可能从快挂中弹出，导致保护失效。另一个常见错误是Z-clipping，即跳过最近的一个挂片，把绳索挂到更高的位置，这会造成绳索摩擦增大，拖拽感严重。\n\n**挂片时机与位置：** 理想的挂片位置是快挂挂片点大约在胸部到腰部高度。过高挂片（头部以上）会增加体力消耗且增大坠落距离。过低挂片可能导致绳索松弛和更大的冲坠。在难点段落前应提前找到好的休息位置挂片，而不是在最难的动作中间尝试挂片。\n\n**单手挂片练习：** 攀岩者需要熟练掌握左手和右手的挂片动作。可以在地面上用快挂练习不同角度和方向的挂片。常用技巧包括食指弹入法和中指推入法。在实际攀登中，应根据岩点位置选择用哪只手挂片——通常用离快挂较近的手挂片，另一只手保持抓握。",
-            "en": "Efficient clipping technique is a critical lead climbing skill. The rope must enter the quickdraw from the wall side and exit toward the climber; incorrect orientation (back-clipping) can cause the rope to unclip during a fall. Z-clipping, where you clip a higher bolt before the nearest one, creates excessive rope drag.\n\nThe ideal clipping position is when the bolt is between chest and waist height. Clipping above your head wastes energy and increases fall distance. Practice single-hand clipping with both hands on the ground before attempting it on the wall. Choose which hand to clip with based on which is closer to the quickdraw."
+            "en": "Efficient clipping technique is a critical lead climbing skill. The rope must enter the quickdraw from the wall side and exit toward the climber; incorrect orientation (back-clipping) can cause the rope to unclip during a fall. Z-clipping, where you clip a higher bolt before the nearest one, creates excessive rope drag.\n\nThe ideal clipping position is when the bolt is between chest and waist height. Clipping above your head wastes energy and increases fall distance. Practice single-hand clipping with both hands on the ground before attempting it on the wall. Choose which hand to clip with based on which is closer to the quickdraw.",
+            "ko": "효율적인 클리핑 기술은 중요한 선도 클라이밍 기술입니다. 로프가 벽 쪽에서 빠른 드로우로 들어와 클라이머 쪽으로 나가야 하며, 잘못된 방향(백 클립)은 로프 손상 및 추락 위험을 초래할 수 있습니다.\n\n**올바른 클리핑:**\n- 로프가 항상 벽 쪽(bottom)에서 들어옵니다\n- 클리핑 손이 안전합니다 (클립 위에서 로프를 클립합니다)\n- 두 팔이 고정될 때까지 기다립니다\n\n**백 클립 방지:**\n- 벽에서 떨어진 쪽(climber side)에서 들어오는 로프는 가능한 한 피하세요\n- 빠른 드로우가 회전하여 로프를 손상시킬 수 있습니다\n\n**고급 클리핑:**\n- Z-클립: 처음 몇 개의 클립에 유용 (안전 고려)\n- 발로 클립: 팔 힘 절약 (높은 곳에서의 클립)\n- 안전하지 않은 순간 기다리기: 안전한 위치에서만 클립합니다"
           },
           "terms": [
             {
               "zh": "挂片",
-              "en": "clipping"
+              "en": "clipping",
+              "ko": "클리핑"
             },
             {
               "zh": "反扣",
-              "en": "back-clipping"
+              "en": "back-clipping",
+              "ko": "백 클립"
             },
             {
               "zh": "Z字挂片",
-              "en": "Z-clipping"
+              "en": "Z-clipping",
+              "ko": "Z-클립"
             },
             {
               "zh": "膨胀钉",
-              "en": "bolt"
+              "en": "bolt",
+              "ko": "볼트"
             },
             {
               "zh": "绳索拖拽",
-              "en": "rope drag"
+              "en": "rope drag",
+              "ko": "로프 드래그"
             }
           ],
           "crossRefs": [
@@ -289,7 +325,8 @@
               "zh": "正确挂绳方向：绳子应从快挂下方卡扣的 gate 后侧穿出、面向攀爬方向开口。反挂（back-clipping）是最危险的常见错误——坠落时绳子可能沿开口方向自行弹出，导致完全失去保护。在体力充沛时挂绳（而非极度泵胀时），并在每次挂完后花一秒钟检查绳路走向是否干净。",
               "en": "Correct clipping direction: the rope should pass from behind the lower carabiner's gate, exiting toward the climbing direction. Back-clipping is the most dangerous common mistake -- during a fall, the rope can unclip itself along the gate opening, resulting in complete protection loss. Clip when you still have energy (not when pumped), and spend one second checking the rope path after each clip.",
               "source": "Mojagear",
-              "sourceUrl": "https://mojagear.com/sport-climbing-tips-clipping/"
+              "sourceUrl": "https://mojagear.com/sport-climbing-tips-clipping/",
+              "ko": "클리핑은 선도자가 가장 많이 하는 작업입니다. 정확한 클리핑은 추락 거리를 최소화하며 부상 위험을 낮춥니다. \"나쁜 클립\" 상황도 주의하세요 - 빠른 드로우가 회전하여 로프를 손상시킬 수 있습니다."
             }
           ],
           "furtherReading": [
@@ -313,32 +350,39 @@
           "id": "kp-lead-strategy-outdoor",
           "title": {
             "zh": "户外先锋攀登策略",
-            "en": "Outdoor Lead Climbing Strategy"
+            "en": "Outdoor Lead Climbing Strategy",
+            "ko": "실외 선도 클라이밍 전략"
           },
           "content": {
             "zh": "户外先锋攀登与室内先锋有许多不同之处，需要更周全的策略规划。合理的攀登策略不仅能提高成功率，还能提升安全性。\n\n**路线预读：** 在攀登前，应站在岩壁下方仔细观察路线。识别关键岩点的位置、可能的休息点、难点段落以及挂片位置。在户外，挂片之间的距离可能比室内大很多（有时超过3米），因此需要评估每个挂片间距是否在自己的能力范围内。注意观察路线是否有可能偏离直线的横移段落，以及顶部的收绳方式（是下降还是顶绳回收）。\n\n**体力管理：** 户外路线通常比室内路线长，体力管理至关重要。识别路线上的休息位置，在难点段落前充分恢复。学会「shake out」技术——在好的脚点上交替甩手放松前臂。在简单的段落保存体力，不要过度抓握。如果路线超出能力，果断决定退让也是明智的选择。\n\n**坠落评估：** 户外坠落比室内风险更大。每到一个挂片时，评估如果在到达下一个挂片之前坠落，是否安全——是否有凸出的岩壁可能撞到，脚下是否有平台（ledge）。在低处的几个挂片位置（ground fall zone），坠落后果最为严重，应特别谨慎。如果某段路线的坠落风险太高，可以选择挂绳前进（dogging）或退让。",
-            "en": "Outdoor lead strategy requires more planning than indoor leading. Before climbing, study the route from the ground: identify key holds, rest stances, crux sections, and bolt positions. Bolt spacing outdoors can be much wider than indoors, sometimes exceeding 3 meters.\n\nEnergy management is critical on longer outdoor routes. Identify rest positions and use shake-outs to recover forearms. In the ground-fall zone near the first few bolts, exercise extreme caution. Always assess fall consequences at each clip: consider ledges, features, and the distance to the last bolt. If a section feels too risky, it is wise to retreat or hang-dog rather than push into a dangerous fall."
+            "en": "Outdoor lead strategy requires more planning than indoor leading. Before climbing, study the route from the ground: identify key holds, rest stances, crux sections, and bolt positions. Bolt spacing outdoors can be much wider than indoors, sometimes exceeding 3 meters.\n\nEnergy management is critical on longer outdoor routes. Identify rest positions and use shake-outs to recover forearms. In the ground-fall zone near the first few bolts, exercise extreme caution. Always assess fall consequences at each clip: consider ledges, features, and the distance to the last bolt. If a section feels too risky, it is wise to retreat or hang-dog rather than push into a dangerous fall.",
+            "ko": "실외 선도 전략은 실내 선도보다 더 많은 계획이 필요합니다. 등반 전에 지상에서 루트를 연구하세요: 주요 홀드, 쉬는 자세, 크럭스 구간, 볼트 위치를 파악하세요. 볼트 간격이 실내보다 클 수 있으므로, 보호 지점 간 거리를 가늠하세요.\n\n**선도 전략:**\n1. **루트 읽기:** 어디가 어려운지, 어디서 쉴 수 있는지 파악\n2. **리드온사이트:** 처음 등반하면서 루트를 배웁니다 (성공 가능성 낮음)\n3. **프로젝트:** 여러 번 시도하여 완주 목표\n4. **우만(woman/onsight):** 미리 본 루트를 한 번의 시도로 완주\n\n**실외 고려사항:**\n- 볼트 상태 확인 (녹, 손상)\n- 바위 상태 (습함, 느슨함)\n- 환경 요소 (바람, 햇빛)\n\n**쉬기 기술:**\n- 특정 홀드에서 한 팔씩 쉬기\n- 발을 조정하여 다리의 힘을 활용\n- 깊은 숨을 쉬며 진정하기"
           },
           "terms": [
             {
               "zh": "路线预读",
-              "en": "route preview"
+              "en": "route preview",
+              "ko": "루트 미리보기"
             },
             {
               "zh": "甩手恢复",
-              "en": "shake out"
+              "en": "shake out",
+              "ko": "셰이크 아웃"
             },
             {
               "zh": "坠落区域",
-              "en": "ground fall zone"
+              "en": "ground fall zone",
+              "ko": "추락 지역"
             },
             {
               "zh": "挂绳前进",
-              "en": "hang-dogging"
+              "en": "hang-dogging",
+              "ko": "행 도깅"
             },
             {
               "zh": "平台",
-              "en": "ledge"
+              "en": "ledge",
+              "ko": "능선"
             }
           ],
           "crossRefs": [
@@ -357,7 +401,8 @@
               "zh": "Eric Hörst 的分段训练法（Chunking）：将路线按休息点分成 2-4 个小段，每段独立练习至熟练后再串联全程。许多攀岩者在核心难段耗尽体力后在看似简单的终段失败——为最后 3-4 个快挂预留 20% 体力是成功红点的关键策略。同时，不要执着于单一 beta，为关键动作准备至少两套方案。",
               "en": "Eric Hörst's Chunking method: divide the route into 2-4 segments by rest points, master each independently before linking. Many climbers exhaust themselves on the crux only to fail on seemingly easy final moves -- reserving 20% energy for the last 3-4 clips is a critical redpoint strategy. Also, don't fixate on a single beta; prepare at least two solutions for key moves.",
               "source": "Training For Climbing (Eric Hörst)",
-              "sourceUrl": "https://trainingforclimbing.com/10-dos-donts-for-effective-redpointing/"
+              "sourceUrl": "https://trainingforclimbing.com/10-dos-donts-for-effective-redpointing/",
+              "ko": "실외 선도의 핵심은 계획입니다. 크럭스(어려운 부분)를 미리 파악하고, 그곳까지 에너지를 절약하세요. 실패 후 즉시 재시도하지 마세요 - 다시 읽고 계획하세요."
             }
           ],
           "furtherReading": [
@@ -374,32 +419,39 @@
           "id": "kp-outdoor-sport-safety",
           "title": {
             "zh": "户外运动攀登安全",
-            "en": "Outdoor Sport Climbing Safety"
+            "en": "Outdoor Sport Climbing Safety",
+            "ko": "실외 스포츠 클라이밍 안전"
           },
           "content": {
             "zh": "户外运动攀登的安全管理涉及装备检查、环境评估和应急准备等多个层面。每一次户外攀登都应建立在严格的安全习惯之上。\n\n**装备安全：** 每次攀登前检查所有装备——绳索是否有磨损或切割痕迹、快挂的门锁是否正常开合、安全带的扣环是否正确穿过并反扣（double back）。注意检查膨胀钉的状态：老旧的、松动的或生锈的膨胀钉应避免使用。如果发现路线上的挂片设备老化严重，应报告给当地的路线开发者或攀岩社区。\n\n**环境安全：** 攀登前检查天气预报，避免在雷暴天气攀登（岩壁是极好的导体）。注意落石风险，尤其是在有其他队伍在上方攀登时。携带足够的水分防止脱水。了解最近的医疗设施位置和紧急联系方式。在偏远地区攀登时，确保有人知道你的计划和预计返回时间。\n\n**沟通规范：** 户外攀登中，攀岩者和保护者之间的口令沟通至关重要。风声和距离可能使沟通困难，因此需要使用清晰、标准化的口令。常用口令包括「On belay」（保护准备好了）、「Climbing」（开始攀登）、「Take」（收紧绳子）、「Slack」（放松绳子）、「Falling」（坠落）、「Off belay」（解除保护）。在无法语音沟通时，提前约定好绳索信号。",
-            "en": "Outdoor sport climbing safety encompasses equipment checks, environmental awareness, and emergency preparedness. Before every climb, inspect all gear: check the rope for wear, verify quickdraw gates function properly, and confirm your harness buckle is doubled back. Assess bolt conditions and avoid rusty or loose bolts.\n\nAlways check weather forecasts and avoid climbing during thunderstorms. Be aware of rockfall hazards, carry sufficient water, and know the location of the nearest medical facility. Use standardized verbal commands between climber and belayer, and establish rope signals in advance for situations where verbal communication is impossible."
+            "en": "Outdoor sport climbing safety encompasses equipment checks, environmental awareness, and emergency preparedness. Before every climb, inspect all gear: check the rope for wear, verify quickdraw gates function properly, and confirm your harness buckle is doubled back. Assess bolt conditions and avoid rusty or loose bolts.\n\nAlways check weather forecasts and avoid climbing during thunderstorms. Be aware of rockfall hazards, carry sufficient water, and know the location of the nearest medical facility. Use standardized verbal commands between climber and belayer, and establish rope signals in advance for situations where verbal communication is impossible.",
+            "ko": "실외 스포츠 클라이밍 안전은 장비 점검, 환경 인식, 응급 준비를 포함합니다. 모든 등반 전에 모든 장비를 점검하세요: 로프의 마모 확인, 빠른 드로우 카라비너 게이트 확인, 안전띠 연결 확인.\n\n**안전 점검:**\n1. **로프:** 눈물, 너덜거림, 끝 마모 확인\n2. **빠른 드로우:** 카라비너 돌림 확인, 스플리터(분할) 확인\n3. **안전띠:** 모든 연결이 안전하게 잠금\n4. **확보 장치:** 작동 여부 확인\n5. **투구:** 균열이나 손상 없음\n\n**환경 인식:**\n- 다른 클라이머의 위치\n- 낙석 위험 구간\n- 날씨 변화\n- 루트 이탈 시 위험 (떠다니는 바위)\n\n**응급 대비:**\n- 휴대폰 신호 확인\n- 응급 키트 준비\n- 다른 클라이머들과 등반 계획 공유"
           },
           "terms": [
             {
               "zh": "反扣",
-              "en": "double back"
+              "en": "double back",
+              "ko": "더블 백"
             },
             {
               "zh": "攀登口令",
-              "en": "climbing commands"
+              "en": "climbing commands",
+              "ko": "클라이밍 명령"
             },
             {
               "zh": "保护准备",
-              "en": "on belay"
+              "en": "on belay",
+              "ko": "확보 준비"
             },
             {
               "zh": "装备检查",
-              "en": "gear inspection"
+              "en": "gear inspection",
+              "ko": "장비 점검"
             },
             {
               "zh": "雷暴",
-              "en": "thunderstorm"
+              "en": "thunderstorm",
+              "ko": "천둥폭풍"
             }
           ],
           "crossRefs": [
@@ -418,7 +470,8 @@
               "zh": "户外先锋攀岩三大致命错误：①反挂（back-clipping）——绳子错误穿过快挂，坠落时可能自行脱出；②Z-挂（Z-clipping）——跨过一个快挂从下方挂绳，增加坠落距离和绳阻；③绳子绕腿——坠落时绳子钩住腿导致倒翻头朝下坠落。每次挂完绳花一秒检查绳路，保护者同步监控绳路走向。",
               "en": "Three deadly outdoor lead climbing errors: (1) Back-clipping -- rope passes through the quickdraw incorrectly, may unclip during a fall; (2) Z-clipping -- clipping from below a lower quickdraw, increasing fall distance and rope drag; (3) Leg behind rope -- catching a leg during a fall causes an inverted head-down fall. Check rope path after each clip; the belayer should simultaneously monitor rope routing.",
               "source": "Gripped Magazine",
-              "sourceUrl": "https://gripped.com/profiles/three-common-lead-climbing-mistakes-to-avoid/"
+              "sourceUrl": "https://gripped.com/profiles/three-common-lead-climbing-mistakes-to-avoid/",
+              "ko": "안전 점검은 2인 체계가 가장 좋습니다. 한 사람이 점검하고 다른 사람이 확인합니다. 실외에서는 한 번의 실수가 생명을 앗아갈 수 있습니다."
             }
           ],
           "furtherReading": [
@@ -453,43 +506,52 @@
       "slug": "trad-climbing",
       "title": {
         "zh": "传统攀登",
-        "en": "Traditional Climbing"
+        "en": "Traditional Climbing",
+        "ko": "트래드 클라이밍"
       },
       "overview": {
         "zh": "传统攀登（Trad Climbing）是户外攀岩中最具挑战性和自主性的形式。攀岩者在攀登过程中自行放置可拆卸的保护装置（protection），攀登结束后取出装置，不在岩壁上留下任何人工痕迹。传统攀登要求攀岩者同时具备攀爬技术、装备操作和风险评估能力。",
-        "en": "Traditional (trad) climbing is one of the most self-reliant forms of climbing. Climbers place removable protection as they ascend and remove it afterward, leaving no trace on the rock. Trad climbing demands proficiency in movement, gear placement, anchor building, and risk management."
+        "en": "Traditional (trad) climbing is one of the most self-reliant forms of climbing. Climbers place removable protection as they ascend and remove it afterward, leaving no trace on the rock. Trad climbing demands proficiency in movement, gear placement, anchor building, and risk management.",
+        "ko": "전통 클라이밍(trad climbing, 또는 전통 보호)은 클라이머가 직접 보호 장비를 배치하는 방식입니다. 더 복잡하지만 자유도가 높으며 자연 환경에서의 영향을 최소화합니다."
       },
       "knowledgePoints": [
         {
           "id": "kp-placing-protection",
           "title": {
             "zh": "放置保护装置",
-            "en": "Placing Protection"
+            "en": "Placing Protection",
+            "ko": "보호 배치"
           },
           "content": {
             "zh": "正确放置保护装置是传统攀登安全的核心。保护装置的质量直接决定了坠落时能否被有效制动。\n\n**主要保护装置类型：** 传统攀登中最常用的保护装置包括机械塞（cam / spring-loaded camming device）和岩塞（nut / stopper）。机械塞通过弹簧驱动的凸轮嵌入裂缝中，适用于平行裂缝和不规则裂缝。岩塞是被动装置，利用楔形结构卡在收缩的裂缝中。此外还有六角塞（hexentric）和三角塞（tricam）等特殊装置。每种装置都有其适用的裂缝类型和尺寸范围。\n\n**放置原则：** 好的保护装置放置遵循几个关键原则。首先，装置应放在裂缝收窄的位置，确保在受力方向上不会滑出。其次，装置与岩石的接触面积要尽可能大，分散受力面积。第三，考虑坠落方向——保护装置应朝预期的受力方向放置，必要时使用延长扁带调整方向。第四，定期放置保护点，尤其在难点段落之前，避免两个保护点之间距离过大。\n\n**测试与评估：** 放置完保护装置后，应进行手动测试——沿坠落方向用力拉拽，确认装置不会移动或弹出。在攀登中，每放置一个装置都要快速评估其可靠性。好的传统攀登者会发展出一种直觉，能够迅速判断裂缝质量和装置放置的可靠程度。如果对某个放置不确信，应考虑在附近再放置一个备用保护点。",
-            "en": "Placing protection is the foundation of trad climbing safety. The primary devices are cams (spring-loaded camming devices) that expand into cracks using spring-loaded lobes, and nuts (stoppers) that wedge passively into constrictions.\n\nKey placement principles include: place in constrictions where the device cannot slide out under load, maximize rock-surface contact, orient the device to resist the expected fall direction, and use extendable slings to reduce rope drag. Always test each placement with a firm tug in the anticipated fall direction. If you doubt a placement, add a backup piece nearby."
+            "en": "Placing protection is the foundation of trad climbing safety. The primary devices are cams (spring-loaded camming devices) that expand into cracks using spring-loaded lobes, and nuts (stoppers) that wedge passively into constrictions.\n\nKey placement principles include: place in constrictions where the device cannot slide out under load, maximize rock-surface contact, orient the device to resist the expected fall direction, and use extendable slings to reduce rope drag. Always test each placement with a firm tug in the anticipated fall direction. If you doubt a placement, add a backup piece nearby.",
+            "ko": "보호 배치는 트래드 클라이밍 안전의 기초입니다. 주요 장비는 스프링이 달린 캠(캠밍 장치)과 쐐기 모양의 너트입니다.\n\n**캠 배치:**\n- 균열 크기와 일치하는 캠 선택\n- 균열 깊숙이 삽입 (손잡이를 회전하여 활성화)\n- 로프가 자연스럽게 흘러갈 수 있는 위치\n\n**너트 배치:**\n- 고리를 통해 로프를 연결\n- 축선이 예상되는 당김 방향과 일치\n- 여러 크기를 시도하여 꼭 맞는 것 선택\n\n**보호 배치의 원칙:**\n1. 견고한 배치 (손으로 단단히 잡고 확인)\n2. 자연 특징 최소 손상\n3. 급격한 당김에 견딤\n4. 신뢰할 수 있는 착용(너트는 제거 가능해야 함)\n\n**보호 간격:**\n- 이상적: 1-1.5m\n- 가능한 범위: 0.5-3m\n- 위험한: 3m 이상 간격은 추락 거리 증가"
           },
           "terms": [
             {
               "zh": "机械塞",
-              "en": "cam / SLCD"
+              "en": "cam / SLCD",
+              "ko": "캠"
             },
             {
               "zh": "岩塞",
-              "en": "nut / stopper"
+              "en": "nut / stopper",
+              "ko": "너트"
             },
             {
               "zh": "六角塞",
-              "en": "hexentric"
+              "en": "hexentric",
+              "ko": "육각형 보호구"
             },
             {
               "zh": "保护装置",
-              "en": "protection / pro"
+              "en": "protection / pro",
+              "ko": "보호"
             },
             {
               "zh": "受力方向",
-              "en": "loading direction"
+              "en": "loading direction",
+              "ko": "하중 방향"
             }
           ],
           "crossRefs": [
@@ -507,7 +569,8 @@
               "zh": "凸轮（cam）的最优放置范围是行程的中间 25-75% 区段——此时凸轮瓣与岩壁接触角度最理想，强度最大。全展开状态接触面积过小易滑出，全收缩状态弹簧力不足无法适应裂缝微小变化。在垂直裂缝中朝下方放置比朝上更稳定，因坠落力方向与凸轮轴一致。放完后轻拉测试确认稳固。",
               "en": "A cam's optimal placement range is the middle 25-75% of its expansion -- this is where lobe-to-rock contact angle is ideal and strength is maximum. Fully expanded means too little contact area (can slip out); fully retracted means insufficient spring force to adapt to slight crack variations. In vertical cracks, place stems downward for stability since fall forces align with the cam axis. Always test with a gentle tug after placement.",
               "source": "VDiff Climbing",
-              "sourceUrl": "https://www.vdiffclimbing.com/cam/"
+              "sourceUrl": "https://www.vdiffclimbing.com/cam/",
+              "ko": "보호 배치는 미술이자 과학입니다. 경험은 시간과 시행착오로만 얻어집니다. 초기 시도에서 mentor의 지도 아래 시작하세요."
             }
           ],
           "furtherReading": [
@@ -538,36 +601,44 @@
           "id": "kp-anchor-building",
           "title": {
             "zh": "锚点搭建",
-            "en": "Anchor Building"
+            "en": "Anchor Building",
+            "ko": "앵커 구성"
           },
           "content": {
             "zh": "锚点（Anchor）是攀岩安全系统中最关键的环节之一。在多段攀登的每个绳距顶端、顶绳攀登的顶部以及下降起点，都需要搭建可靠的锚点系统。\n\n**SERENE-A原则：** 好的锚点应满足以下标准——Solid（坚固）：每个保护点都能独立承受坠落力；Equalized（均衡）：力量均匀分布在各个保护点上；Redundant（冗余）：至少使用两个独立的保护点，任何一个失效时系统仍然安全；Efficient（高效）：搭建速度快，不浪费过多装备和时间；No Extension（无延伸）：某个保护点失效时，系统不会产生冲击荷载；Angle（角度）：连接各保护点的扁带之间角度不超过60度，理想状态下不超过45度。\n\n**常见锚点配置：** 最基本的锚点使用两到三个保护点通过扁带和锁扣连接。常用方法包括滑动X（sliding X）、均衡锚点（equalized anchor）和预均衡锚点（pre-equalized anchor）。滑动X能自动调节各保护点的受力，但有一定的延伸风险，通常需要在交叉处打一个限制结。预均衡锚点（如quad anchor，使用一根长绳套打两个结形成四股）是目前最流行的方法，兼具均衡性和低延伸性。\n\n**锚点检查：** 搭建完锚点后，必须进行系统性检查。确认每个保护点的放置质量、扁带连接是否正确、锁扣是否锁紧、整体系统是否满足SERENE-A标准。养成每次搭建后都逐项检查的习惯，是防止事故的最佳方式。",
-            "en": "Anchor building is a critical skill for multi-pitch climbing, top-rope setups, and rappel stations. A solid anchor follows the SERENE-A principles: Solid individual placements, Equalized loading, Redundancy with at least two independent points, Efficient construction, No Extension if a piece fails, and proper Angle (below 60 degrees between components).\n\nCommon configurations include the sliding X, equalized anchor, and the quad anchor (a cordelette with two knots forming four strands). The quad is currently the most popular method, offering both equalization and minimal extension. After building any anchor, systematically verify every component before loading it."
+            "en": "Anchor building is a critical skill for multi-pitch climbing, top-rope setups, and rappel stations. A solid anchor follows the SERENE-A principles: Solid individual placements, Equalized loading, Redundancy with at least two independent points, Efficient construction, No Extension if a piece fails, and proper Angle (below 60 degrees between components).\n\nCommon configurations include the sliding X, equalized anchor, and the quad anchor (a cordelette with two knots forming four strands). The quad is currently the most popular method, offering both equalization and minimal extension. After building any anchor, systematically verify every component before loading it.",
+            "ko": "앵커 구성은 멀티피치 클라이밍, 톱로프 설정, 래펠 스테이션의 중요한 기술입니다. 견고한 앵커는 SERENE-A 원칙을 따릅니다:\n\n**SERENE-A 원칙:**\n1. **Solid (견고함):** 각 개별 배치가 신뢰할 수 있는 하중 지지\n2. **Equalized (균등화):** 하중이 각 지점에 균등하게 분배\n3. **Redundant (이중화):** 한 지점 실패 시 다른 지점이 유지\n4. **No Extension (무연장):** 한 지점 실패 시 시스템이 확장되지 않음\n5. **Angles (각도):** 각 지점 간 각도 60도 이하\n\n**앵커 구성 방법:**\n1. 2-3개의 견고한 개별 배치 선택\n2. 슬링과 카라비너로 연결\n3. 모든 지점에 동등한 하중\n4. 확인 (한 점이 빠져도 시스템 유지)\n\n**앵커 유형:**\n- **자연 앵커:** 나무, 바위 위의 홈 (가장 신뢰할 수 있음)\n- **인공 보호:** 캠, 너트 (신뢰할 수 있지만 설치 필요)\n- **볼트 앵커:** 미리 설치된 점 (빠르지만 신뢰도 변함)"
           },
           "terms": [
             {
               "zh": "锚点",
-              "en": "anchor"
+              "en": "anchor",
+              "ko": "앵커"
             },
             {
               "zh": "均衡",
-              "en": "equalization"
+              "en": "equalization",
+              "ko": "균등화"
             },
             {
               "zh": "冗余",
-              "en": "redundancy"
+              "en": "redundancy",
+              "ko": "이중화"
             },
             {
               "zh": "滑动X",
-              "en": "sliding X"
+              "en": "sliding X",
+              "ko": "슬라이딩 X"
             },
             {
               "zh": "四股锚点",
-              "en": "quad anchor"
+              "en": "quad anchor",
+              "ko": "쿼드 앵커"
             },
             {
               "zh": "绳套",
-              "en": "cordelette"
+              "en": "cordelette",
+              "ko": "코드레트"
             }
           ],
           "crossRefs": [
@@ -585,7 +656,8 @@
               "zh": "SERENE 框架是户外锚点搭建的黄金标准：Solid（每个保护点独立牢固）、Equalized（均衡分载，理想夹角 <60°，超过 120° 时各保护点分力急剧增加至体重级别）、Redundant（冗余——任一点失效系统仍承载）、Efficient（快速搭建）、No Extension（无延伸——任一点失效时不产生冲击落差）。实际操作中最容易忽视的是 No Extension 原则。",
               "en": "SERENE is the gold standard for anchor building: Solid (each piece independently bomber), Equalized (load sharing with ideal angle <60°; above 120° each piece bears near-bodyweight forces), Redundant (any single failure doesn't collapse the system), Efficient (fast to build), No Extension (no shock-loading drop if one piece fails). In practice, the No Extension principle is most commonly overlooked.",
               "source": "Rock Climbing Realms",
-              "sourceUrl": "https://rockclimbingrealms.com/trad-anchors-build-bombproof-with-serene-ernest/"
+              "sourceUrl": "https://rockclimbingrealms.com/trad-anchors-build-bombproof-with-serene-ernest/",
+              "ko": "앵커는 시스템의 약한 고리입니다. 가장 약한 지점이 전체를 결정합니다. \"3개의 견고함이 1개의 완벽함보다 낫다\"는 원칙을 따르세요."
             }
           ],
           "furtherReading": [
@@ -616,36 +688,44 @@
           "id": "kp-crack-climbing-systems",
           "title": {
             "zh": "裂缝攀登系统",
-            "en": "Crack Climbing Systems"
+            "en": "Crack Climbing Systems",
+            "ko": "균열 클라이밍 시스템"
           },
           "content": {
             "zh": "裂缝攀登是传统攀登的核心技术之一，也是从运动攀登过渡到传统攀登时最需要学习的新技能。不同宽度的裂缝需要不同的身体技术。\n\n**裂缝类型与对应技术：** 指缝（finger crack）宽度约1-2厘米，使用手指插入并旋转锁定（finger lock）。手缝（hand crack）宽度约5-8厘米，是最舒适的裂缝尺寸，将手掌插入裂缝、拇指收入掌心形成「手塞」（hand jam）。拳缝（fist crack）宽度约8-12厘米，将拳头插入裂缝扩张锁定。宽缝（offwidth）宽度超过拳头但不足以进入身体，是最困难的裂缝类型，需要使用手臂锁定（arm bar）和膝盖卡入（knee bar）等技术。烟囱（chimney）是可以进入身体的宽裂缝，使用背部和脚掌对撑前进。\n\n**裂缝攀登的特殊装备：** 裂缝攀登时，手背和手指关节会与岩石产生强烈摩擦，因此许多攀岩者使用胶布缠绕手背（taping）来保护皮肤。手指胶布和护手手套（crack gloves）是常用的保护装备。在裂缝攀登中，攀岩鞋的选择也很重要——较硬的鞋底和较低的不对称性更适合裂缝中的脚塞动作。\n\n**训练方法：** 裂缝攀登技术需要大量实际练习，仅靠室内训练很难掌握。不过，一些攀岩馆设有裂缝模拟墙面。在户外练习时，建议从手缝开始，因为它是最直观和最舒适的尺寸。掌握手塞后，再向更窄或更宽的裂缝扩展。裂缝攀登初期会感到手背疼痛，这是正常现象，皮肤会逐渐适应。",
-            "en": "Crack climbing is the cornerstone of trad climbing, requiring specialized jamming techniques for different crack widths. Finger cracks (1-2cm) use finger locks; hand cracks (5-8cm) use hand jams with the thumb tucked into the palm; fist cracks (8-12cm) use an expanded fist; offwidths require arm bars and knee bars; and chimneys use back-and-foot stemming.\n\nProtective tape for the backs of hands and crack gloves are essential gear. Stiffer, less asymmetric shoes work best for foot jams. Start learning on hand cracks, the most intuitive size, and gradually expand to wider and narrower cracks. Initial skin soreness is normal and improves with practice."
+            "en": "Crack climbing is the cornerstone of trad climbing, requiring specialized jamming techniques for different crack widths. Finger cracks (1-2cm) use finger locks; hand cracks (5-8cm) use hand jams with the thumb tucked into the palm; fist cracks (8-12cm) use an expanded fist; offwidths require arm bars and knee bars; and chimneys use back-and-foot stemming.\n\nProtective tape for the backs of hands and crack gloves are essential gear. Stiffer, less asymmetric shoes work best for foot jams. Start learning on hand cracks, the most intuitive size, and gradually expand to wider and narrower cracks. Initial skin soreness is normal and improves with practice.",
+            "ko": "균열 클라이밍은 트래드 클라이밍의 초석이며 다양한 균열 폭에 맞는 전문적인 쩸 기술이 필요합니다.\n\n**균열 폭과 기술:**\n\n**핑거 크랙 (1-2cm):**\n- 기술: 손가락 잠금 (손가락 끝 관절 구부리기)\n- 준비: 매우 고통스러울 수 있음\n- 팁: 테이프로 손가락 보호\n\n**핸드 크랙 (5-8cm):**\n- 기술: 손 쩸 (손가락과 손가락 사이 압박)\n- 준비: 손목 회전근 강화 필요\n- 팁: 항상 엄지손가락을 안쪽에\n\n**와이드 크랙 (8-15cm):**\n- 기술: 오프 위드 (팔 크로스, 팔꿈치 잠금)\n- 준비: 매우 요구적\n- 팁: 한 번에 작은 거리만\n\n**거대 크랙 (15cm+):**\n- 기술: 칠링 (몸 전체 삽입)\n- 준비: 극도의 신체 조절\n- 팁: 완전히 새로운 기술 학습 필요\n\n**균열 등반 팁:**\n1. 천천히 배우세요 (부상 위험 높음)\n2. 점진적으로 진행\n3. 충분한 보호 배치\n4. 정기적인 휴식"
           },
           "terms": [
             {
               "zh": "手塞",
-              "en": "hand jam"
+              "en": "hand jam",
+              "ko": "손 쩸"
             },
             {
               "zh": "指锁",
-              "en": "finger lock"
+              "en": "finger lock",
+              "ko": "손가락 잠금"
             },
             {
               "zh": "拳塞",
-              "en": "fist jam"
+              "en": "fist jam",
+              "ko": "주먹 쩸"
             },
             {
               "zh": "宽缝",
-              "en": "offwidth"
+              "en": "offwidth",
+              "ko": "오프 위드"
             },
             {
               "zh": "烟囱",
-              "en": "chimney"
+              "en": "chimney",
+              "ko": "굴뚝"
             },
             {
               "zh": "胶布保护",
-              "en": "taping"
+              "en": "taping",
+              "ko": "테이핑"
             }
           ],
           "crossRefs": [
@@ -663,7 +743,8 @@
               "zh": "运动攀与传统攀的保护系统有根本性差异：运动攀全程依赖固定螺栓（需检查锈蚀、弯曲、松动——尤其海边岩区螺栓寿命短），传统攀使用可移除的凸轮和机械塞（放置者技能直接决定安全性）。通用原则：在困难段落前增加冗余保护点，不要「省着用」——宁可保护装备不够用被迫下撤，也不要在关键段落缺少保护。",
               "en": "Sport and trad protection systems differ fundamentally: sport relies on fixed bolts (check for corrosion, bending, looseness -- especially in coastal areas where bolt lifespan is shorter), while trad uses removable cams and nuts where the placer's skill directly determines safety. Universal principle: add redundant protection before crux sections -- better to run out of gear and retreat than to be under-protected at critical moments.",
               "source": "American Alpine Club",
-              "sourceUrl": "https://americanalpineclub.org/news/2023/6/22/protection-the-ins-and-outs-of-sport-and-trad-climbing-protection"
+              "sourceUrl": "https://americanalpineclub.org/news/2023/6/22/protection-the-ins-and-outs-of-sport-and-trad-climbing-protection",
+              "ko": "균열 클라이밍은 고통스럽고 어렵습니다. 많은 사람들이 도중에 포기합니다. 하지만 유일한 방법은 계속하는 것입니다. 점진적으로 배우세요."
             }
           ],
           "furtherReading": [
@@ -687,36 +768,44 @@
           "id": "kp-multi-pitch",
           "title": {
             "zh": "多段攀登",
-            "en": "Multi-Pitch Climbing"
+            "en": "Multi-Pitch Climbing",
+            "ko": "멀티피치 클라이밍"
           },
           "content": {
             "zh": "多段攀登（Multi-Pitch）是指路线长度超过一条绳子的长度，需要分多个绳距（pitch）完成的攀登。多段攀登将攀岩从单条路线提升为一次完整的冒险体验。\n\n**基本流程：** 多段攀登由先锋者（leader）和跟攀者（follower/second）组成的搭档团队完成。先锋者攀登第一个绳距，在顶部搭建锚点并自我保护，然后收绳保护跟攀者上来。跟攀者在攀登过程中回收先锋者放置的保护装置。到达保护站后，两人可以互换角色（swing leads）或由同一人继续先锋，进入下一个绳距。这个过程重复直到完成整条路线。\n\n**效率管理：** 在多段攀登中，保护站的转换效率直接影响总攀登时间。在长路线上，一个团队可能需要在保护站停留多次，每次保护站转换如果多花10分钟，累积起来就是数小时的额外时间。高效的保护站管理包括：快速搭建锚点、有序的装备交接、简洁的沟通，以及提前规划下一个绳距的装备需求。使用「铅交替」（swing leads）策略可以减少每个保护站的装备重整时间。\n\n**路线选择与撤退：** 多段攀登的路线选择需要更多考量。要评估整条路线的难度曲线、预计用时、天气窗口和日照时间。携带路线指南（topo）并在攀登前熟悉每个绳距的特点。同时必须了解撤退方案——如果天气突变或超出能力，如何安全下撤。掌握绳降技术和设置绳降锚点的能力在多段攀登中至关重要。",
-            "en": "Multi-pitch climbing involves routes longer than a single rope length, divided into pitches. A leader-follower team ascends one pitch at a time: the leader places gear or clips bolts, builds an anchor at the top, and belays the follower up. The follower cleans protection during their ascent. They then swap leads or continue with the same leader.\n\nEfficiency at belay stations is crucial on longer routes. Quick anchor building, organized gear handoffs, and concise communication save significant time across multiple transitions. Always study the route topo beforehand, assess weather windows and daylight, and have a clear retreat plan in case conditions deteriorate."
+            "en": "Multi-pitch climbing involves routes longer than a single rope length, divided into pitches. A leader-follower team ascends one pitch at a time: the leader places gear or clips bolts, builds an anchor at the top, and belays the follower up. The follower cleans protection during their ascent. They then swap leads or continue with the same leader.\n\nEfficiency at belay stations is crucial on longer routes. Quick anchor building, organized gear handoffs, and concise communication save significant time across multiple transitions. Always study the route topo beforehand, assess weather windows and daylight, and have a clear retreat plan in case conditions deteriorate.",
+            "ko": "멀티피치 클라이밍은 한 번의 로프 길이(피치)로 완주하지 못하는 긴 루트입니다. 리더-팔로워 팀이 한 피치씩 상승합니다: 리더가 보호를 배치하거나 볼트를 클립하고, 정상에서 앵커를 구성하며, 팔로워가 따라갑니다.\n\n**멀티피치 의사소통:**\n- \"로프 준비?\" (리더 → 팔로워)\n- \"로프 준비!\" (팔로워 → 리더)\n- \"올라갑니다!\" (리더가 등반 시작)\n- \"올라가세요!\" (팔로워 응답)\n- \"확보합니다!\" (리더가 정상 도달, 보호 설정)\n- \"확보됨!\" (팔로워 응답, 이제 따라갈 수 있음)\n\n**각 피치:**\n1. 리더가 보호를 배치하거나 클립하며 등반\n2. 정상에서 견고한 앵커 구성\n3. 팔로워가 로프를 정리하며 따라갑니다\n4. 팔로워가 도착하면 다음 피치 준비\n\n**안전 고려:**\n- 앵커의 견고함 확인\n- 로프 길이 충분성 확인 (항상 여유 있게)\n- 팀 의사소통\n- 날씨 및 시간 모니터링"
           },
           "terms": [
             {
               "zh": "多段攀登",
-              "en": "multi-pitch"
+              "en": "multi-pitch",
+              "ko": "멀티피치"
             },
             {
               "zh": "绳距",
-              "en": "pitch"
+              "en": "pitch",
+              "ko": "피치"
             },
             {
               "zh": "跟攀",
-              "en": "seconding / following"
+              "en": "seconding / following",
+              "ko": "추종"
             },
             {
               "zh": "铅交替",
-              "en": "swing leads"
+              "en": "swing leads",
+              "ko": "스윙 리드"
             },
             {
               "zh": "保护站",
-              "en": "belay station"
+              "en": "belay station",
+              "ko": "확보 스테이션"
             },
             {
               "zh": "路线图",
-              "en": "topo"
+              "en": "topo",
+              "ko": "토포"
             }
           ],
           "crossRefs": [
@@ -734,7 +823,8 @@
               "zh": "多绳距攀岩中沟通是最重要也最容易出问题的环节——风噪、距离和回声都会干扰口头信号。搭档必须在起步前约定完整信号系统（「收绳」「保护好了」「攀爬」等每个节点），并约定信号失灵时的默认行为（如：绳子收紧不动超过 30 秒即代表可以攀爬）。理解坠落系数（Fall Factor）概念也至关重要：先锋在锚点上方仅放出少量绳子时坠落，冲击力可能比高处坠落更大。",
               "en": "Communication is the most critical and error-prone element in multi-pitch climbing -- wind, distance, and echoes all interfere with verbal signals. Partners must agree on a complete signal system before starting, and establish default behaviors when signals fail (e.g., rope tight and stationary for 30+ seconds means 'climb on'). Understanding Fall Factor is also crucial: a leader fall with little rope out above the anchor can generate greater impact forces than a longer fall higher up.",
               "source": "99Boulders",
-              "sourceUrl": "https://www.99boulders.com/multi-pitch-climbing"
+              "sourceUrl": "https://www.99boulders.com/multi-pitch-climbing",
+              "ko": "멀티피치 경험은 스포츠 클라이밍과 크게 다릅니다. 확보, 의사소통, 로프 관리 등 새로운 기술이 필요합니다. 처음에는 경험 많은 리더와 함께 팔로워로 시작하세요."
             }
           ],
           "furtherReading": [
@@ -762,43 +852,52 @@
       "slug": "bouldering",
       "title": {
         "zh": "户外抱石",
-        "en": "Outdoor Bouldering"
+        "en": "Outdoor Bouldering",
+        "ko": "실외 볼더링"
       },
       "overview": {
         "zh": "户外抱石是在较低的天然巨石（boulder）上进行无绳攀登的运动形式。虽然不使用绳索保护系统，但户外抱石有其独特的挑战和乐趣——需要精准的路线解读、合理的落地策略以及对岩区的深入探索。户外抱石往往代表了攀岩运动中最纯粹的动作挑战。",
-        "en": "Outdoor bouldering involves unroped climbing on natural boulders, typically below 5-6 meters. It combines pure movement challenges with route-reading skill, landing strategy, and area exploration. Outdoor bouldering represents some of the purest movement puzzles in climbing."
+        "en": "Outdoor bouldering involves unroped climbing on natural boulders, typically below 5-6 meters. It combines pure movement challenges with route-reading skill, landing strategy, and area exploration. Outdoor bouldering represents some of the purest movement puzzles in climbing.",
+        "ko": "볼더링(bouldering)은 로프 없이 낮은 높이의 바위를 등반합니다. 실외에서의 볼더링은 체육관과 크게 다르며, 자연 환경, 암석 다양성, 더 높은 위험이 특징입니다."
       },
       "knowledgePoints": [
         {
           "id": "kp-outdoor-bouldering-chars",
           "title": {
             "zh": "户外抱石特点",
-            "en": "Outdoor Bouldering Characteristics"
+            "en": "Outdoor Bouldering Characteristics",
+            "ko": "실외 볼더링의 특징"
           },
           "content": {
             "zh": "户外抱石与室内抱石在体验上有本质区别。天然岩石的质感、形态和攀爬逻辑与人工岩壁截然不同。\n\n**岩石特性：** 户外抱石的岩点完全由自然形成，形状千变万化。没有颜色标记，攀岩者需要自己发现和选择手点、脚点。岩石的摩擦力受天气影响很大——温度越低、湿度越小，摩擦力越好。因此许多户外抱石者偏好秋冬季节攀登。岩石表面的「皮肤感」（skin friction）比室内更重要，保持手指皮肤干燥和合适的粗糙度（通过使用镁粉和适度休息）是提升表现的关键。\n\n**难度分级：** 户外抱石使用V级（Hueco Scale，V0-V17）或枫丹白露级（Font Scale，如6A、7C+等）进行难度评定。由于户外岩点的主观性更强，同一等级的线路体感难度可能差异很大。某些线路可能因为攀岩者的身高、臂展或攀爬风格不同而感觉截然不同。接受这种不确定性是户外抱石的一部分。\n\n**社交与文化：** 户外抱石有着独特的社交文化。攀岩者常常聚集在同一块大石头下，互相鼓励、分享beta（路线解法），轮流尝试同一条线路。这种分享精神和社区感是户外抱石文化的重要组成部分。同时，户外抱石也强调对自然环境的尊重——不在岩石上凿洞、不破坏植被、带走所有垃圾。",
-            "en": "Outdoor bouldering differs fundamentally from gym bouldering. Natural holds have no color markings, requiring climbers to discover and choose their own sequences. Rock friction is heavily weather-dependent; cooler, drier conditions provide the best friction, making autumn and winter prime bouldering seasons.\n\nOutdoor bouldering uses the V-scale (V0-V17) or Font scale (6A-9A). Grades feel more subjective outdoors, varying with body type and style. The social culture of outdoor bouldering, with groups sharing beta and encouragement, is a cherished aspect of the sport. Environmental stewardship, including leaving no trace, is essential."
+            "en": "Outdoor bouldering differs fundamentally from gym bouldering. Natural holds have no color markings, requiring climbers to discover and choose their own sequences. Rock friction is heavily weather-dependent; cooler, drier conditions provide the best friction, making autumn and winter prime bouldering seasons.\n\nOutdoor bouldering uses the V-scale (V0-V17) or Font scale (6A-9A). Grades feel more subjective outdoors, varying with body type and style. The social culture of outdoor bouldering, with groups sharing beta and encouragement, is a cherished aspect of the sport. Environmental stewardship, including leaving no trace, is essential.",
+            "ko": "실외 볼더링은 체육관 볼더링과 근본적으로 다릅니다. 자연 홀드는 색상 표시가 없으며, 클라이머가 자신의 시퀀스를 발견하고 선택해야 합니다. 암석 마찰은 날씨에 크게 영향을 받습니다.\n\n**차이점:**\n1. **홀드 찾기:** 색상 표시 없음 (자신의 판단)\n2. **마찰력:** 습도, 온도, 바위 종류에 따라 변함\n3. **높이:** 더 높은 경우가 많음 (더 큰 추락 위험)\n4. **다양성:** 다양한 형태의 홀드 (불규칙한 자연 특징)\n5. **환경:** 낙석, 날씨, 야생동물 위험\n\n**실외 볼더링 팁:**\n- 배 위치 낮게 (무게 분산)\n- 발 배치에 집중 (손보다 발이 중요)\n- 여러 번의 시도로 부위 파악\n- 각 시도 후 회복 시간\n- 스팟터(spotter) 항상 준비"
           },
           "terms": [
             {
               "zh": "V级",
-              "en": "V-grade / Hueco Scale"
+              "en": "V-grade / Hueco Scale",
+              "ko": "등급"
             },
             {
               "zh": "枫丹白露级",
-              "en": "Font Scale"
+              "en": "Font Scale",
+              "ko": "폰트 스케일"
             },
             {
               "zh": "线路解法",
-              "en": "beta"
+              "en": "beta",
+              "ko": "베타"
             },
             {
               "zh": "摩擦条件",
-              "en": "friction conditions"
+              "en": "friction conditions",
+              "ko": "마찰 조건"
             },
             {
               "zh": "皮肤状态",
-              "en": "skin condition"
+              "en": "skin condition",
+              "ko": "피부 상태"
             }
           ],
           "crossRefs": [
@@ -815,7 +914,8 @@
               "zh": "户外抱石与健身房最大的安全差距不是难度，而是坠落环境：健身房的规整厚垫覆盖远超实际坠落区域，户外保护垫覆盖范围有限、地形不规则，岩块下方可能隐藏石头或树根。因此保护者（spotter）在户外比室内重要十倍——其职责不是接住你，而是引导你的坠落方向避开危险区域。户外路线的粉笔痕迹不一定可靠，因为不同身高体型的攀岩者 beta 可能完全不同。",
               "en": "The biggest safety gap between outdoor and gym bouldering is not difficulty but the fall environment: gym pads are oversized and uniform, while outdoor pads have limited coverage over irregular terrain with hidden rocks or roots. Spotters are thus 10x more important outdoors -- their job is not to catch you but to guide your fall direction away from hazards. Outdoor chalk marks may be unreliable since beta varies significantly with body type and height.",
               "source": "Gripped Magazine",
-              "sourceUrl": "https://gripped.com/profiles/a-beginners-guide-to-outdoor-bouldering/"
+              "sourceUrl": "https://gripped.com/profiles/a-beginners-guide-to-outdoor-bouldering/",
+              "ko": "실외 볼더링의 매력은 자유로움입니다. 색상 표시가 없으므로 자신의 선을 찾을 수 있습니다. 하지만 위험도 높으므로 항상 주의하세요."
             }
           ],
           "furtherReading": [
@@ -839,32 +939,39 @@
           "id": "kp-landing-strategy",
           "title": {
             "zh": "读线与落地策略",
-            "en": "Reading and Landing Strategy"
+            "en": "Reading and Landing Strategy",
+            "ko": "루트 읽기와 착지 전략"
           },
           "content": {
             "zh": "户外抱石不使用绳索保护，因此科学的落地策略是安全的第一道防线。每次尝试前都应认真评估落地区域并做好准备。\n\n**读线技巧：** 在尝试一条新线路前，从不同角度观察巨石，识别所有可能的手点和脚点。用手触摸岩点感受其质感和大小。观察其他攀岩者的动作（如果有的话），但也要考虑自己的身体条件可能需要不同的解法。在地面上模拟关键动作的身体姿态，规划每一步的动作序列。对于高球（highball，指较高的抱石问题），尤其需要仔细读线，确保在最高处有把握完成。\n\n**落地垫布局：** 户外抱石使用便携式防坠垫（crash pad）来保护落地区域。落地垫应覆盖最可能的坠落区域，特别注意高处动作对应的坠落范围。多块落地垫之间不要留有缝隙。注意地面的倾斜度和凹凸——不平整的地面会增加扭伤脚踝的风险。在地面有石块或树根的地方，用落地垫和衣物覆盖这些障碍物。\n\n**保护者（Spotter）：** 保护者的角色是引导坠落者安全着地，而不是接住坠落者。保护者应站在攀岩者正下方偏后的位置，双手举起准备引导。当攀岩者坠落时，保护者引导其肩部和上背部使其朝落地垫方向倒下，避免头部撞击地面。作为保护者，注意自己的安全——不要试图用力接住坠落者，那样可能导致双方受伤。",
-            "en": "Without rope protection, landing strategy is the primary safety measure in outdoor bouldering. Before each attempt, study the boulder from multiple angles, feel holds with your hands, and plan your sequence. For highballs (tall boulders), thorough reading is especially critical.\n\nCrash pads should cover the entire likely fall zone with no gaps between pads. Pay attention to ground irregularities, rocks, and roots beneath the pads. A spotter's role is to guide the falling climber's upper body toward the pad, not to catch them. The spotter should stand behind and below the climber with hands up, directing shoulders toward the landing zone."
+            "en": "Without rope protection, landing strategy is the primary safety measure in outdoor bouldering. Before each attempt, study the boulder from multiple angles, feel holds with your hands, and plan your sequence. For highballs (tall boulders), thorough reading is especially critical.\n\nCrash pads should cover the entire likely fall zone with no gaps between pads. Pay attention to ground irregularities, rocks, and roots beneath the pads. A spotter's role is to guide the falling climber's upper body toward the pad, not to catch them. The spotter should stand behind and below the climber with hands up, directing shoulders toward the landing zone.",
+            "ko": "로프 보호가 없으므로, 착지 전략이 실외 볼더링의 주요 안전 조치입니다. 각 시도 전에 바위를 여러 각도에서 연구하고, 손으로 홀드를 느껴보고, 추락 시나리오를 계획하세요.\n\n**착지 계획:**\n1. **바위 유형 파악:** 패드 위치, 착지 안전도\n2. **추락 시나리오 검토:** 어디로 넘어질 수 있는가\n3. **안전한 착지 최대화:** 패드 배치 조정\n4. **발 위치 계획:** 홀드 실패 시 어디로 떨어질 것인가\n\n**스팟팅(Spotting) 기술:**\n- 클라이머 바로 아래 위치\n- 클라이머의 움직임에 따라 움직이기\n- 등 또는 엉덩이를 패드로 유도\n- 목이나 머리 보호 (가장 위험)\n- 낙석이 당신에게 맞지 않도록 주의\n\n**패드 설정:**\n- 착지 지점을 완전히 덮기\n- 겹침으로 두께 증가\n- 모든 가능한 착지 지점 포함\n- 패드 원활하게 연결"
           },
           "terms": [
             {
               "zh": "防坠垫",
-              "en": "crash pad"
+              "en": "crash pad",
+              "ko": "패드"
             },
             {
               "zh": "保护者",
-              "en": "spotter"
+              "en": "spotter",
+              "ko": "스팟터"
             },
             {
               "zh": "高球",
-              "en": "highball"
+              "en": "highball",
+              "ko": "하이볼"
             },
             {
               "zh": "读线",
-              "en": "reading / route reading"
+              "en": "reading / route reading",
+              "ko": "루트 읽기"
             },
             {
               "zh": "坠落区域",
-              "en": "fall zone"
+              "en": "fall zone",
+              "ko": "추락 지역"
             }
           ],
           "crossRefs": [
@@ -882,7 +989,8 @@
               "zh": "坠落区域（fall zone）概念：攀爬者的实际坠落轨迹往往不是岩块正下方——仰角路线坠落区域偏外侧，斜面路线偏下坡方向。铺设保护垫前必须先判断最可能的坠落轨迹，而非简单铺在岩块正下方。多块垫子之间绝对不能有缝隙（脚踝最容易卡入垫间缝隙导致严重扭伤），地面的石头和树桩必须清除或用额外衣物覆盖。",
               "en": "Fall zone concept: the actual fall trajectory is often not directly below the boulder -- overhanging routes push the fall zone outward, slabs push it downhill. Position pads based on the most likely fall trajectory, not simply under the boulder. Never leave gaps between pads (ankles can get trapped between pads causing severe sprains), and clear or cover rocks and stumps in the landing zone with extra clothing.",
               "source": "Gripped Magazine",
-              "sourceUrl": "https://gripped.com/indoor-climbing/bouldering-outside-5-tips-for-a-safer-landing/"
+              "sourceUrl": "https://gripped.com/indoor-climbing/bouldering-outside-5-tips-for-a-safer-landing/",
+              "ko": "가장 안전한 착지는 추락하지 않는 것입니다. 모든 시도 전에 조심스럽게 계획하세요. \"나는 아직 준비가 안 되었다\"고 말할 수 있어야 합니다."
             }
           ],
           "furtherReading": [
@@ -906,32 +1014,39 @@
           "id": "kp-area-exploration",
           "title": {
             "zh": "岩区探索",
-            "en": "Area Exploration"
+            "en": "Area Exploration",
+            "ko": "지역 탐사"
           },
           "content": {
             "zh": "探索新的户外抱石岩区是户外攀岩中最令人兴奋的体验之一。每个岩区都有独特的岩石特征和攀爬风格，深入了解岩区信息能让你的攀登体验更加丰富。\n\n**信息搜集：** 在前往一个岩区之前，应通过攀岩指南书（guidebook）、网站（如Mountain Project、27Crags、thecrag.com）和本地攀岩社区了解岩区信息。重点关注以下内容：岩区的接近路线（approach）和步行时间、经典线路推荐、各难度等级的线路数量分布、最佳攀登季节和时间段、以及任何攀登限制（如鸟类繁殖期的季节性关闭）。\n\n**岩区礼仪：** 户外攀岩需要遵守一定的礼仪规范。不要在已有人攀爬的巨石上方扔落石或搅动碎石。轮流尝试热门线路，不要长时间占据。控制音量，尊重自然环境的宁静。使用镁粉时注意不要在岩面上留下过多白色痕迹——有些岩区要求使用与岩石颜色接近的有色镁粉。带走所有垃圾，包括胶布碎片。如果岩区有停车限制或准入规定，严格遵守。\n\n**环境保护：** 作为户外攀岩者，我们有责任保护攀岩环境。遵循「无痕原则」（Leave No Trace）：在指定路径行走，不破坏植被；不移动岩石或改变自然地貌；避免在岩石上凿刻新的手点或脚点；尊重野生动物栖息地。一些岩区面临访问权问题（access issues），当地的攀岩组织通常会协调与土地所有者的关系。支持这些组织的工作，有助于保持岩区的长期开放。",
-            "en": "Exploring new bouldering areas is one of outdoor climbing's greatest pleasures. Research areas using guidebooks, online databases like Mountain Project or thecrag.com, and local climbing communities. Key information includes approach trails, classic problems, grade distribution, optimal seasons, and any access restrictions.\n\nFollow area etiquette: take turns on popular problems, minimize chalk marks, carry out all trash, and stay on established trails. Embrace Leave No Trace principles by protecting vegetation, respecting wildlife, and never altering rock features. Support local climbing organizations that maintain access agreements with landowners."
+            "en": "Exploring new bouldering areas is one of outdoor climbing's greatest pleasures. Research areas using guidebooks, online databases like Mountain Project or thecrag.com, and local climbing communities. Key information includes approach trails, classic problems, grade distribution, optimal seasons, and any access restrictions.\n\nFollow area etiquette: take turns on popular problems, minimize chalk marks, carry out all trash, and stay on established trails. Embrace Leave No Trace principles by protecting vegetation, respecting wildlife, and never altering rock features. Support local climbing organizations that maintain access agreements with landowners.",
+            "ko": "새로운 클라이밍 지역을 탐사하는 것은 신나는 일이지만, 안전과 존중이 핵심입니다. 현지 가이드북, 온라인 정보, 현지 클라이머의 조언을 활용하세요. 환경을 존중하고, 규정을 따르며, 다른 사용자들과 공존하세요."
           },
           "terms": [
             {
               "zh": "攀岩指南",
-              "en": "guidebook"
+              "en": "guidebook",
+              "ko": "가이드북"
             },
             {
               "zh": "接近路线",
-              "en": "approach"
+              "en": "approach",
+              "ko": "접근로"
             },
             {
               "zh": "无痕原则",
-              "en": "Leave No Trace"
+              "en": "Leave No Trace",
+              "ko": "흔적 남기지 않기"
             },
             {
               "zh": "准入权",
-              "en": "access"
+              "en": "access",
+              "ko": "접근"
             },
             {
               "zh": "镁粉",
-              "en": "chalk"
+              "en": "chalk",
+              "ko": "분말"
             }
           ],
           "crossRefs": [
@@ -947,7 +1062,8 @@
               "zh": "Mountain Project 拥有 155,000+ 条路线数据库并由社区持续更新，是出行规划的首选工具（离线使用需提前按区域下载）。但纸质指南书在信息密度和离线可靠性上仍有优势。最佳策略是三者结合：用 Mountain Project 做初步筛选和导航，用指南书理解岩区全貌和历史背景，再通过当地攀岩社群或岩馆获取最新条件信息（如哪些路线最近被清理过、哪些区域有临时封闭）。",
               "en": "Mountain Project has 155,000+ routes with continuous community updates, making it the primary planning tool (download areas in advance for offline use). But printed guidebooks still excel in information density and offline reliability. The best strategy combines three sources: Mountain Project for initial filtering and navigation, guidebooks for understanding the area's full picture and historical context, and local climbing communities or gyms for current conditions (recently cleaned routes, temporary closures, etc.).",
               "source": "Gym to Crag",
-              "sourceUrl": "https://gymtocrag.org/2023/12/19/climbing-guidebooks-versus-mountain-project/"
+              "sourceUrl": "https://gymtocrag.org/2023/12/19/climbing-guidebooks-versus-mountain-project/",
+              "ko": "새로운 지역을 탐사할 때 현지 클라이머의 조언을 구하세요. 지역 사회는 일반적으로 친절하고 도움이 됩니다."
             }
           ],
           "furtherReading": [
@@ -975,43 +1091,52 @@
       "slug": "big-wall",
       "title": {
         "zh": "大岩壁攀登",
-        "en": "Big Wall Climbing"
+        "en": "Big Wall Climbing",
+        "ko": "빅월 클라이밍"
       },
       "overview": {
         "zh": "大岩壁攀登（Big Wall Climbing）是攀岩运动中最具探险精神的形式，通常指需要一天以上时间才能完成的长路线攀登。大岩壁攀登融合了技术攀登、后勤规划和在岩壁上生活的能力，是对攀岩者综合素质的终极考验。",
-        "en": "Big wall climbing involves routes that typically take more than a day to complete, combining technical climbing with logistics planning and the ability to live on a vertical rock face. It represents the ultimate test of a climber's comprehensive abilities."
+        "en": "Big wall climbing involves routes that typically take more than a day to complete, combining technical climbing with logistics planning and the ability to live on a vertical rock face. It represents the ultimate test of a climber's comprehensive abilities.",
+        "ko": "빅월(big wall) 클라이밍은 1,000m 이상의 바위 벽을 여러 날에 걸쳐 등반합니다. 엄청난 신체적, 정신적 도전이지만, 준비된 클라이머에게는 가장 보람 있는 경험입니다."
       },
       "knowledgePoints": [
         {
           "id": "kp-bigwall-planning",
           "title": {
             "zh": "大岩壁规划与后勤",
-            "en": "Big Wall Planning and Logistics"
+            "en": "Big Wall Planning and Logistics",
+            "ko": "빅월 계획 및 로지스틱"
           },
           "content": {
             "zh": "大岩壁攀登需要极为详细的规划，从路线选择到物资准备，每个环节都关系到攀登的成败和安全。\n\n**路线研究：** 选择大岩壁路线需要考虑多个因素。首先是路线的攀爬难度和长度——对于第一次大岩壁攀登，建议选择技术难度适中（自由攀登段落远低于个人极限）的路线。其次要了解路线上是否有水源、是否有自然形成的可睡觉平台（ledge）、以及撤退选项。研究历史攀登报告，了解通常的攀登时间、常见的困难点和风险。\n\n**物资准备：** 大岩壁攀登需要携带大量物资。食物需要高热量、轻便且不易变质，每人每天约需3000-5000卡路里。水是最重要也是最重的物资——每人每天至少需要3-4升，如果路线上没有水源，多天攀登的水量将非常可观。其他必需品包括：睡眠系统（吊帐 portaledge、睡袋）、额外的保暖衣物、头灯及备用电池、急救包、通讯设备、以及处理排泄物的容器（waste kit）。所有物资装在专用的拖包（haul bag）中，通过拖拽系统运送上岩壁。\n\n**团队配合：** 大岩壁攀登通常需要两到三人的团队。团队成员需要在攀登前充分沟通各自的能力水平、风险承受度和期望目标。明确分工——谁负责先锋哪些绳距、谁负责拖包操作、物资如何分配等。在攀登过程中保持高效沟通，定期评估进度和天气变化，及时调整计划。一个协调默契的团队是大岩壁成功的关键。",
-            "en": "Big wall planning requires meticulous preparation. Research the route thoroughly: understand its technical difficulty, length, water sources, natural ledges, and retreat options. Study trip reports to learn typical completion times and common challenges.\n\nProvisions include high-calorie lightweight food (3000-5000 calories per person per day), water (3-4 liters per person per day minimum), a portaledge and sleeping bag, extra warm layers, headlamps, first-aid supplies, communication devices, and a waste kit. All supplies travel in haul bags managed with hauling systems. Team coordination is essential: establish clear roles, communicate abilities honestly, and maintain flexibility to adjust plans as conditions change."
+            "en": "Big wall planning requires meticulous preparation. Research the route thoroughly: understand its technical difficulty, length, water sources, natural ledges, and retreat options. Study trip reports to learn typical completion times and common challenges.\n\nProvisions include high-calorie lightweight food (3000-5000 calories per person per day), water (3-4 liters per person per day minimum), a portaledge and sleeping bag, extra warm layers, headlamps, first-aid supplies, communication devices, and a waste kit. All supplies travel in haul bags managed with hauling systems. Team coordination is essential: establish clear roles, communicate abilities honestly, and maintain flexibility to adjust plans as conditions change.",
+            "ko": "빅월 계획은 세밀한 준비가 필요합니다. 루트를 철저히 조사하세요: 기술적 난이도, 길이, 물 공급원, 자연 능선, 하강 옵션을 이해합니다. 트립 리포트를 읽고 최근 상태를 확인하세요.\n\n**빅월 준비:**\n1. **루트 연구:** 모든 정보 수집\n2. **팀 구성:** 신뢰할 수 있는 파트너\n3. **장비:** 포탈레지, 하강 장비, 물 시스템\n4. **체력:** 6-12개월의 특정 훈련\n5. **스킬:** 에이드 클라이밍, 멀티피치 경험\n\n**시간 관리:**\n- 매일 1-2 피치 (속도보다 안전)\n- 낮 동안의 충분한 빛\n- 비상 상황 대비 추가 시간"
           },
           "terms": [
             {
               "zh": "拖包",
-              "en": "haul bag"
+              "en": "haul bag",
+              "ko": "하물 가방"
             },
             {
               "zh": "吊帐",
-              "en": "portaledge"
+              "en": "portaledge",
+              "ko": "포탈레지"
             },
             {
               "zh": "拖拽系统",
-              "en": "hauling system"
+              "en": "hauling system",
+              "ko": "끌어올리기 시스템"
             },
             {
               "zh": "排泄物处理",
-              "en": "waste kit"
+              "en": "waste kit",
+              "ko": "배설물 킷"
             },
             {
               "zh": "天然平台",
-              "en": "ledge"
+              "en": "ledge",
+              "ko": "능선"
             }
           ],
           "crossRefs": [
@@ -1029,7 +1154,8 @@
               "zh": "大岩壁的定义不是高度而是时间：单日无法完成、需要在岩壁上过夜。相比多绳距，大岩壁的核心挑战从攀爬技术转向三大后勤系统——拖包系统（hauling）、固定绳系统（fixing lines）和营地系统（portaledge）。首次大岩壁建议选择信息充分的经典入门路线（如 Yosemite 的 The Nose 或 Zodiac），因为这些路线的每一段绳距都有详细的后勤攻略和营地位置记录。",
               "en": "Big wall climbing is defined by time, not height: too long to complete in a day, requiring overnight stays on the wall. Compared to multi-pitch, the core challenge shifts from climbing technique to three logistical systems -- hauling, fixing lines, and portaledge camping. For your first big wall, choose well-documented classic entry routes (like Yosemite's The Nose or Zodiac) because every pitch has detailed logistics guides and documented bivy positions.",
               "source": "VDiff Climbing",
-              "sourceUrl": "https://www.vdiffclimbing.com/bigwall-intro/"
+              "sourceUrl": "https://www.vdiffclimbing.com/bigwall-intro/",
+              "ko": "빅월은 마라톤입니다. 속도는 중요하지 않습니다. 안전하게 완주하는 것이 목표입니다."
             }
           ],
           "furtherReading": [
@@ -1060,36 +1186,44 @@
           "id": "kp-aid-climbing",
           "title": {
             "zh": "器械攀登",
-            "en": "Aid Climbing"
+            "en": "Aid Climbing",
+            "ko": "에이드 클라이밍"
           },
           "content": {
             "zh": "器械攀登（Aid Climbing）是大岩壁攀登中常用的技术，指攀岩者直接站在保护装置上向上移动，而非仅依靠岩面上的自然手脚点。当路线的自由攀登难度超出能力或岩面缺乏可用岩点时，器械攀登提供了一种继续上升的方式。\n\n**基本器械攀登技术：** 器械攀登使用梯绳（aider / etrier）作为人工脚蹬。攀岩者在裂缝中放置保护装置（cam、nut或特殊的器械攀登工具），将梯绳挂在装置上，踩着梯绳站起来，然后在更高处放置下一个装置，重复这个过程。关键步骤包括：放置装置、测试装置（bounce test）、挂梯绳、转移重心、升高、回收下方装备。\n\n**器械攀登装备：** 除了常规的传统攀登装备外，器械攀登还需要专用工具。铜头（copperhead）和钩子（skyhook）用于没有裂缝的光滑岩面。岩钉（piton）用锤子打入裂缝中。摆荡钩（bat hook）用于钻孔。不同类型的装备对应不同的可靠性等级（从A0到A5），等级越高意味着装备越不可靠，坠落后果越严重。\n\n**器械攀登的伦理：** 器械攀登在攀岩伦理中是一个复杂的话题。虽然它使得攀登原本无法攀爬的路线成为可能，但岩钉会对岩壁造成永久损伤。现代攀岩理念倾向于「干净攀登」（clean climbing），尽量使用不损伤岩壁的可拆卸装备。许多历史上的器械攀登路线后来被以自由攀登方式完成，这被视为攀岩水平进步的标志。",
-            "en": "Aid climbing involves standing directly on placed gear to ascend, using aiders (etriers) as foot ladders. The climber places protection, hangs an aider, stands up, and repeats the process. This technique is essential when free climbing difficulty exceeds ability or the rock lacks natural features.\n\nSpecialized aid gear includes copperheads for blank faces, skyhooks for edges, and pitons hammered into cracks. Aid ratings from A0 to A5 indicate placement reliability, with higher ratings meaning greater fall consequences. Modern climbing ethics favor clean aid (using only removable gear) over pitons that damage rock. Many historically aided routes have since been freed, marking advances in climbing ability."
+            "en": "Aid climbing involves standing directly on placed gear to ascend, using aiders (etriers) as foot ladders. The climber places protection, hangs an aider, stands up, and repeats the process. This technique is essential when free climbing difficulty exceeds ability or the rock lacks natural features.\n\nSpecialized aid gear includes copperheads for blank faces, skyhooks for edges, and pitons hammered into cracks. Aid ratings from A0 to A5 indicate placement reliability, with higher ratings meaning greater fall consequences. Modern climbing ethics favor clean aid (using only removable gear) over pitons that damage rock. Many historically aided routes have since been freed, marking advances in climbing ability.",
+            "ko": "에이드 클라이밍은 배치된 보호 장비를 밟아서 상승합니다. 클라이머가 아이더(에티어)를 배치하고, 발판을 거는 아이더로 서고, 과정을 반복합니다. 이 기술은 매우 가파른 또는 불가능한 구간을 통과합니다.\n\n**에이드 등급:**\n- A0: 미리 배치된 보호에만 발을 디딤\n- A1: 견고한 배치에 발을 디딤 (매우 낮은 추락 위험)\n- A2: 신뢰할 수 있지만 약한 배치\n- A3: 약한 배치, 실패 위험\n- A4: 매우 약한 배치, 큰 추락 가능성\n- A5: 극도로 위험, 거대 추락 가능\n\n**에이드 클라이밍 기술:**\n1. 보호 배치\n2. 아이더 거는 고리 연결\n3. 발을 아이더의 발판에 올리기\n4. 일어서기 (몸 전체 무게를 발로 이동)\n5. 높은 단계에서 다음 보호 배치\n6. 반복\n\n**안전:**\n- 매우 낮은 속도 (오류 없음)\n- 이중 보호 체계\n- 다른 클라이머의 감시\n- 철저한 장비 검사"
           },
           "terms": [
             {
               "zh": "器械攀登",
-              "en": "aid climbing"
+              "en": "aid climbing",
+              "ko": "에이드 클라이밍"
             },
             {
               "zh": "梯绳",
-              "en": "aider / etrier"
+              "en": "aider / etrier",
+              "ko": "에이더"
             },
             {
               "zh": "铜头",
-              "en": "copperhead"
+              "en": "copperhead",
+              "ko": "구리 머리"
             },
             {
               "zh": "岩钉",
-              "en": "piton"
+              "en": "piton",
+              "ko": "피톤"
             },
             {
               "zh": "干净攀登",
-              "en": "clean climbing"
+              "en": "clean climbing",
+              "ko": "클린 클라이밍"
             },
             {
               "zh": "钩子",
-              "en": "skyhook"
+              "en": "skyhook",
+              "ko": "스카이훅"
             }
           ],
           "crossRefs": [
@@ -1107,7 +1241,8 @@
               "zh": "器械攀登效率的关键改装：在上升器（ascender）握柄上端小孔加装不锈钢快扣，为绳梯（aider）提供独立挂点，使上升和站立动作可以独立调节互不干扰。另一个实用技巧：选择 50 米绳而非标准 60 米可减轻拖曳重量。器械攀登的两侧装备应尽量对称设置（左右各一套上升器+绳梯），这样在交替上升时效率最高。",
               "en": "Key aid climbing efficiency hack: install a stainless steel mini-carabiner in the upper hole of the ascender handle, providing an independent aider attachment point so ascending and standing motions can be adjusted independently. Another practical tip: using 50m ropes instead of standard 60m reduces hauling weight. Keep the two-side setup symmetrical (one ascender + aider per side) for maximum alternating efficiency.",
               "source": "Alpinesavvy",
-              "sourceUrl": "https://www.alpinesavvy.com/blog/aid-climbing-rig-for-seconding"
+              "sourceUrl": "https://www.alpinesavvy.com/blog/aid-climbing-rig-for-seconding",
+              "ko": "에이드 클라이밍은 얻을 수 있는 가장 강력한 기술입니다. 배우는 데 6-12개월이 걸리지만, 엄청난 보람이 있습니다."
             }
           ],
           "furtherReading": [
@@ -1131,32 +1266,39 @@
           "id": "kp-wall-living",
           "title": {
             "zh": "岩壁生活",
-            "en": "Living on the Wall"
+            "en": "Living on the Wall",
+            "ko": "벽 위에서의 생활"
           },
           "content": {
             "zh": "在大岩壁上生活是一种独特的体验，需要在极度有限的空间内完成吃饭、睡觉和个人卫生等日常活动。适应岩壁生活是大岩壁攀登成功的重要因素。\n\n**吊帐系统：** 吊帐（Portaledge）是一种悬挂在岩壁上的可折叠平台，提供睡觉和休息的空间。搭建吊帐需要找到合适的锚点位置，确保吊帐水平且稳固。双人吊帐允许两人并排睡觉，但空间非常紧凑。在吊帐上时，所有人必须始终与锚点系统相连。大风天气中，吊帐可能剧烈摆动，需要做好心理准备。带上防水雨罩以应对突发降雨。\n\n**饮食管理：** 在岩壁上的饮食以高效补充能量为原则。早餐和晚餐可以使用便携式炉具加热简单的食物，午餐通常食用能量棒、坚果和干果等不需要烹饪的食品。水的管理极为重要——精确计算每天的用水量，优先保证饮用水。一些大岩壁路线（如优胜美地的部分路线）沿途有季节性水流可以补充水源。\n\n**排泄物管理：** 在大岩壁上，所有排泄物必须收集并带下山。使用专用的排泄物收集管（waste tube / poop tube）或可降解袋。这不仅是环保要求，也是攀岩社区的基本伦理。保持岩壁清洁是每位大岩壁攀岩者的责任。个人卫生方面，湿巾是最实用的清洁工具。在多天攀登中，保持手脚皮肤的护理尤为重要，使用润肤霜防止皮肤过度干裂。",
-            "en": "Living on a big wall demands adapting daily activities to a vertical environment. A portaledge provides a suspended platform for sleeping; it must be anchored securely and kept level. All occupants stay tied in at all times, and a rain fly is essential for weather protection.\n\nMeals emphasize calorie efficiency: hot meals at dawn and dusk with a portable stove, and energy bars, nuts, and dried fruit during climbing hours. Water management is paramount; calculate precise daily needs and ration carefully. All human waste must be collected in waste tubes and carried off the wall, a fundamental ethical obligation. Wet wipes serve as the primary hygiene tool, and hand and foot skin care is critical during multi-day ascents."
+            "en": "Living on a big wall demands adapting daily activities to a vertical environment. A portaledge provides a suspended platform for sleeping; it must be anchored securely and kept level. All occupants stay tied in at all times, and a rain fly is essential for weather protection.\n\nMeals emphasize calorie efficiency: hot meals at dawn and dusk with a portable stove, and energy bars, nuts, and dried fruit during climbing hours. Water management is paramount; calculate precise daily needs and ration carefully. All human waste must be collected in waste tubes and carried off the wall, a fundamental ethical obligation. Wet wipes serve as the primary hygiene tool, and hand and foot skin care is critical during multi-day ascents.",
+            "ko": "빅월에서의 생활은 수직 환경에 일상 활동을 적응시킵니다. 포탈레지는 자는 플랫폼 역할을 하며, 반드시 안전하게 고정되고 수평을 유지해야 합니다. 모든 점유자는 안전띠를 착용해야 합니다.\n\n**포탈레지 설정:**\n1. 견고한 앵커에 매달기\n2. 수평 확인 (물이 흘러나가지 않아야 함)\n3. 모든 클립이 안전하게 잠기는지 확인\n4. 무게 분배 균등\n\n**위생 관리:**\n- 모든 배설물은 용기에 담기\n- 물 절약 (무거움)\n- 음식 쓰레기는 백에 담기\n- 벽에 액체 버리지 않기\n\n**먹기 및 마시기:**\n- 식사 중 안전띠 착용\n- 음식을 떨어뜨리지 않도록 주의\n- 규칙적인 음식 섭취 (에너지 유지)\n- 충분한 수분 섭취 (고도에서 탈수 위험)\n\n**수면:**\n- 포탈레지에서 안전하게 묶인 상태\n- 잘 맞는 침낭\n- 에어 매트리스로 쿠션\n- 완전한 이완 (다음 날 에너지 필요)"
           },
           "terms": [
             {
               "zh": "吊帐",
-              "en": "portaledge"
+              "en": "portaledge",
+              "ko": "포탈레지"
             },
             {
               "zh": "岩壁生活",
-              "en": "wall living / bivy"
+              "en": "wall living / bivy",
+              "ko": "벽 위 생활"
             },
             {
               "zh": "排泄物收集管",
-              "en": "waste tube"
+              "en": "waste tube",
+              "ko": "배설물 튜브"
             },
             {
               "zh": "便携炉具",
-              "en": "portable stove"
+              "en": "portable stove",
+              "ko": "휴대용 스토브"
             },
             {
               "zh": "雨罩",
-              "en": "rain fly"
+              "en": "rain fly",
+              "ko": "레인 플라이"
             }
           ],
           "crossRefs": [
@@ -1173,7 +1315,8 @@
               "zh": "岩壁生活三大实用技巧：①雨棚（fly）应在设营时即以折叠状态连接在吊帐上，夜间突降暴雨时 30 秒内可展开；②吊帐（portaledge）最稳固搭设方向是窄端朝主风向，减少受风面积；③所有排泄物必须使用 poop tube 收集带下岩壁（Leave No Trace 原则）。此外，将次日早餐食材在睡前就准备好放在触手可及处，避免在狭小空间翻找装备浪费时间和精力。",
               "en": "Three essential wall living tips: (1) Pre-connect the fly to the portaledge in folded position during setup for 30-second deployment during surprise storms; (2) Orient the portaledge with the narrow end facing prevailing wind to minimize wind resistance; (3) All human waste must be collected in a poop tube and carried down (Leave No Trace). Also, pre-stage next morning's breakfast within arm's reach before sleeping to avoid fumbling through gear in cramped quarters.",
               "source": "VDiff Climbing",
-              "sourceUrl": "https://www.vdiffclimbing.com/big-wall-camping/"
+              "sourceUrl": "https://www.vdiffclimbing.com/big-wall-camping/",
+              "ko": "벽에서의 생활은 정신적으로도 도전입니다. 공간이 제한되고, 신체적 피로가 크며, 위험이 항상 있습니다. 강한 정신력이 필수입니다."
             }
           ],
           "furtherReading": [
@@ -1208,43 +1351,52 @@
       "slug": "travel",
       "title": {
         "zh": "攀岩旅行",
-        "en": "Climbing Travel"
+        "en": "Climbing Travel",
+        "ko": "클라이밍 여행"
       },
       "overview": {
         "zh": "攀岩旅行是许多攀岩者最向往的体验——在世界各地的经典岩场攀爬，感受不同岩石和文化的魅力。从计划行程到到达目的地，攀岩旅行需要比普通旅行更多的准备工作，但回报也更加丰厚。",
-        "en": "Climbing travel is a dream for many climbers, offering the chance to experience world-class rock and diverse cultures. From trip planning to destination logistics, climbing travel requires additional preparation beyond ordinary tourism, but the rewards are unparalleled."
+        "en": "Climbing travel is a dream for many climbers, offering the chance to experience world-class rock and diverse cultures. From trip planning to destination logistics, climbing travel requires additional preparation beyond ordinary tourism, but the rewards are unparalleled.",
+        "ko": "실외 클라이밍 여행은 계획, 로지스틱, 안전 지식이 필요합니다. 완벽한 클라이밍 여행을 계획하는 방법을 배우세요."
       },
       "knowledgePoints": [
         {
           "id": "kp-classic-destinations",
           "title": {
             "zh": "世界经典攀岩目的地",
-            "en": "Classic Worldwide Climbing Destinations"
+            "en": "Classic Worldwide Climbing Destinations",
+            "ko": "고전적인 클라이밍 목적지"
           },
           "content": {
             "zh": "世界各地分布着众多令攀岩者心驰神往的经典目的地，每个地点都有独特的岩石类型、攀爬风格和文化氛围。\n\n**北美洲：** 优胜美地（Yosemite，美国加州）是世界攀岩的圣地，以花岗岩大岩壁和裂缝攀登闻名。红河谷（Red River Gorge，美国肯塔基州）提供世界级的砂岩运动攀登。史密斯岩（Smith Rock，美国俄勒冈州）被认为是美国运动攀登的发源地。斯阔米什（Squamish，加拿大BC省）拥有顶级的花岗岩抱石和多段攀登。\n\n**欧洲：** 枫丹白露（Fontainebleau，法国）是世界抱石的圣地，拥有数千条砂岩抱石线路。加泰罗尼亚（Catalonia，西班牙）和卡林诺斯岛（Kalymnos，希腊）是地中海地区最受欢迎的运动攀登目的地，以石灰岩凹槽和陡峭路线著称。多洛米蒂（Dolomites，意大利）提供壮观的阿尔卑斯多段攀登。\n\n**亚洲与其他地区：** 阳朔（中国广西）以喀斯特地貌的石灰岩运动攀登吸引了越来越多的国际攀岩者。甲米（Krabi，泰国）提供热带海滨石灰岩攀登体验。洛克兰兹（Rocklands，南非）以砂岩抱石闻名。每个目的地都有最佳攀登季节，需要根据当地气候合理安排行程。",
-            "en": "The world offers countless world-class climbing destinations. In North America, Yosemite is the birthplace of big wall climbing on granite; Red River Gorge offers premier sandstone sport climbing; and Squamish provides elite granite bouldering and multi-pitch routes.\n\nIn Europe, Fontainebleau is the global bouldering mecca with thousands of sandstone problems; Kalymnos and Catalonia feature Mediterranean limestone sport climbing; and the Dolomites offer spectacular alpine multi-pitch. In Asia, Yangshuo (China) draws international climbers to its karst limestone, while Krabi (Thailand) combines tropical beaches with sport climbing. Rocklands in South Africa is renowned for sandstone bouldering."
+            "en": "The world offers countless world-class climbing destinations. In North America, Yosemite is the birthplace of big wall climbing on granite; Red River Gorge offers premier sandstone sport climbing; and Squamish provides elite granite bouldering and multi-pitch routes.\n\nIn Europe, Fontainebleau is the global bouldering mecca with thousands of sandstone problems; Kalymnos and Catalonia feature Mediterranean limestone sport climbing; and the Dolomites offer spectacular alpine multi-pitch. In Asia, Yangshuo (China) draws international climbers to its karst limestone, while Krabi (Thailand) combines tropical beaches with sport climbing. Rocklands in South Africa is renowned for sandstone bouldering.",
+            "ko": "전 세계의 고전적인 클라이밍 목적지는 수백 년 동안 클라이머들을 매료했습니다. 유명한 지역들:\n\n**요세미티(미국):** 화강암의 메카\n**공존(미국 유타):** 사암 클라이밍의 중심\n**몬블랑(유럽):** 알프스 클라이밍\n**스페인:** 석회암 및 스포츠 클라이밍"
           },
           "terms": [
             {
               "zh": "优胜美地",
-              "en": "Yosemite"
+              "en": "Yosemite",
+              "ko": "요세미티"
             },
             {
               "zh": "枫丹白露",
-              "en": "Fontainebleau"
+              "en": "Fontainebleau",
+              "ko": "퐁텐블로"
             },
             {
               "zh": "阳朔",
-              "en": "Yangshuo"
+              "en": "Yangshuo",
+              "ko": "양삭"
             },
             {
               "zh": "喀斯特地貌",
-              "en": "karst"
+              "en": "karst",
+              "ko": "카르스트"
             },
             {
               "zh": "攀岩圣地",
-              "en": "climbing mecca"
+              "en": "climbing mecca",
+              "ko": "클라이밍 성지"
             }
           ],
           "crossRefs": [
@@ -1261,7 +1413,8 @@
               "zh": "全球五大经典攀岩圣地各有特色：Yosemite（花岗岩裂缝与大岩壁的殿堂）、Kalymnos 希腊（石灰岩运动攀，绝壁海景，路线密集且社区友好）、Fontainebleau 法国（砂岩抱石，世界最大的露天抱石场，超过 25,000 条问题）、Squamish 加拿大（花岗岩多类型攀登）、Red Rock 美国内华达（砂岩沙漠攀岩，冬季最佳）。初次攀岩旅行首选 Kalymnos 或 Red Rock——路线密集、气候稳定、基础设施完善。",
               "en": "Five iconic climbing destinations with distinct characters: Yosemite (granite crack and big wall mecca), Kalymnos Greece (limestone sport with sea-cliff views, dense routes, friendly community), Fontainebleau France (sandstone bouldering, world's largest outdoor bouldering area with 25,000+ problems), Squamish Canada (granite multi-discipline), Red Rock Nevada (sandstone desert climbing, best in winter). For first climbing trips, Kalymnos or Red Rock are ideal -- dense routes, stable weather, well-developed infrastructure.",
               "source": "57hours",
-              "sourceUrl": "https://57hours.com/best-of/rock-climbing-worldwide/"
+              "sourceUrl": "https://57hours.com/best-of/rock-climbing-worldwide/",
+              "ko": "전 세계의 고전적인 목적지는 수백 년 동안 클라이머들을 매료했습니다. 이들 장소에서 클라이밍하는 것은 클라이밍 여행의 궁극적인 목표입니다."
             }
           ],
           "furtherReading": [
@@ -1285,32 +1438,39 @@
           "id": "kp-trip-planning",
           "title": {
             "zh": "旅行规划与准备",
-            "en": "Trip Planning and Preparation"
+            "en": "Trip Planning and Preparation",
+            "ko": "클라이밍 여행 계획"
           },
           "content": {
             "zh": "成功的攀岩旅行建立在充分的前期规划之上。从装备运输到当地信息搜集，每个细节都值得认真对待。\n\n**装备运输：** 攀岩装备的航空运输有诸多注意事项。绳索、安全带、攀岩鞋等可以托运。快挂和锁扣等金属装备需要放入托运行李，不能随身携带。锐利的装备（如岩钉）可能需要特别包装。镁粉在部分航空公司被限制。建议提前查询航空公司的具体规定，并在行李中附上装备清单以方便安检。考虑是否可以在目的地租借部分装备以减轻行李重量。\n\n**当地信息：** 到达目的地前，应了解当地的攀岩社区和资源。购买或下载当地的攀岩指南书。加入目的地的攀岩论坛或社交媒体群组，了解最新的岩区状态和天气情况。研究交通方式——许多攀岩区域需要租车才能到达。了解当地的医疗资源和紧急救援服务。如果是国际旅行，还需要考虑签证、旅行保险（确保包含攀岩活动）、语言沟通等因素。\n\n**体能准备：** 攀岩旅行前应针对目的地的攀爬特点进行体能准备。如果目的地以耐力路线为主（如长运动攀登路线），加强耐力训练。如果以抱石为主，侧重力量和爆发力训练。提前2-3个月开始针对性训练，旅行前一周减量休息。此外，如果目的地海拔较高（如优胜美地或多洛米蒂），还需要考虑高海拔适应问题。",
-            "en": "Successful climbing trips require thorough advance planning. For air travel, ropes and harnesses go in checked luggage; metallic gear like quickdraws and carabiners must be checked, not carried on. Check airline policies for chalk and sharp tools. Consider renting gear at the destination to reduce luggage weight.\n\nResearch local climbing communities, purchase or download guidebooks, join destination-specific online groups, and arrange transportation (many areas require a rental car). Verify medical facilities and emergency services. For international trips, address visas, travel insurance covering climbing activities, and language considerations. Train specifically for the destination's climbing style 2-3 months before departure, and taper the week before travel."
+            "en": "Successful climbing trips require thorough advance planning. For air travel, ropes and harnesses go in checked luggage; metallic gear like quickdraws and carabiners must be checked, not carried on. Check airline policies for chalk and sharp tools. Consider renting gear at the destination to reduce luggage weight.\n\nResearch local climbing communities, purchase or download guidebooks, join destination-specific online groups, and arrange transportation (many areas require a rental car). Verify medical facilities and emergency services. For international trips, address visas, travel insurance covering climbing activities, and language considerations. Train specifically for the destination's climbing style 2-3 months before departure, and taper the week before travel.",
+            "ko": "클라이밍 여행을 계획할 때 고려할 사항:\n\n1. **목적지 선택:** 기술 수준, 암석 유형, 접근성\n2. **시간 계획:** 언제가 최적인가?\n3. **예산:** 여행 비용 추정\n4. **팀:** 누구와 갈 것인가?\n5. **장비:** 무엇을 가져갈 것인가?\n6. **안전:** 보험, 응급 연락처, 통신\n7. **환경:** 지역 규정 준수"
           },
           "terms": [
             {
               "zh": "行李托运",
-              "en": "checked luggage"
+              "en": "checked luggage",
+              "ko": "수하물"
             },
             {
               "zh": "攀岩指南书",
-              "en": "guidebook"
+              "en": "guidebook",
+              "ko": "가이드북"
             },
             {
               "zh": "旅行保险",
-              "en": "travel insurance"
+              "en": "travel insurance",
+              "ko": "여행 보험"
             },
             {
               "zh": "高海拔适应",
-              "en": "altitude acclimatization"
+              "en": "altitude acclimatization",
+              "ko": "적응"
             },
             {
               "zh": "装备租借",
-              "en": "gear rental"
+              "en": "gear rental",
+              "ko": "장비 대여"
             }
           ],
           "crossRefs": [
@@ -1327,7 +1487,8 @@
               "zh": "攀岩旅行季节规划的核心物理原则：岩石摩擦力随温度升高而降低，最佳攀岩温度通常在 5-15°C。实用季节日历：冬季（1-2月）→ 西班牙 Siurana/Margalef、希腊南部、泰国甲米；春秋（4-5月/9-10月）→ 欧洲大部分岩区最佳季、美国 Red Rock；夏季 → 仅适合高海拔（Chamonix、科罗拉多）或高纬度（北欧、英国）地区。规划时同步考虑航班淡旺季和当地节假日。",
               "en": "Core physics principle for climbing trip planning: rock friction decreases with rising temperature; optimal climbing conditions are typically 5-15°C. Practical seasonal calendar: Winter (Jan-Feb) → Spain Siurana/Margalef, southern Greece, Thailand Krabi; Spring/Autumn (Apr-May/Sep-Oct) → most European crags at their best, US Red Rock; Summer → only viable at high altitude (Chamonix, Colorado) or high latitude (Scandinavia, UK). Also factor in flight pricing seasons and local holidays.",
               "source": "27 Crags Stories",
-              "sourceUrl": "https://stories.27crags.com/index/climbing-season-calendar-when-to-go"
+              "sourceUrl": "https://stories.27crags.com/index/climbing-season-calendar-when-to-go",
+              "ko": "좋은 계획은 좋은 여행을 의미합니다. 시간을 들여 세부사항을 계획하세요. 그것이 경험의 질을 높입니다."
             }
           ],
           "furtherReading": [

@@ -73,15 +73,20 @@ export function AppProvider({ children }) {
               sectionSlug: section.slug,
               sectionTitle_zh: section.title.zh,
               sectionTitle_en: section.title.en,
+              sectionTitle_ko: section.title.ko || '',
               subSectionSlug: sub.slug,
               subTitle_zh: sub.title.zh,
               subTitle_en: sub.title.en,
+              subTitle_ko: sub.title.ko || '',
               title_zh: kp.title.zh,
               title_en: kp.title.en,
+              title_ko: kp.title.ko || '',
               content_zh: kp.content?.zh || '',
               content_en: kp.content?.en || '',
+              content_ko: kp.content?.ko || '',
               terms_zh: (kp.terms || []).map(t => t.zh).join(' '),
               terms_en: (kp.terms || []).map(t => t.en).join(' '),
+              terms_ko: (kp.terms || []).map(t => t.ko || '').join(' '),
               tags: (kp.tags || []).join(' '),
               keywords,
               synonyms: searchSynonyms[kp.id] || ''
@@ -98,13 +103,16 @@ export function AppProvider({ children }) {
           keys: [
             { name: 'title_zh', weight: 3.0 },
             { name: 'title_en', weight: 3.0 },
+            { name: 'title_ko', weight: 3.0 },
             { name: 'terms_zh', weight: 2.5 },
             { name: 'terms_en', weight: 2.5 },
+            { name: 'terms_ko', weight: 2.5 },
             { name: 'synonyms', weight: 2.0 },
             { name: 'keywords', weight: 2.0 },
             { name: 'tags', weight: 1.5 },
             { name: 'content_zh', weight: 1.0 },
-            { name: 'content_en', weight: 1.0 }
+            { name: 'content_en', weight: 1.0 },
+            { name: 'content_ko', weight: 1.0 }
           ],
           threshold: 0.4,
           includeMatches: true,
@@ -118,13 +126,16 @@ export function AppProvider({ children }) {
           keys: [
             { name: 'title_zh', weight: 3.0 },
             { name: 'title_en', weight: 3.0 },
+            { name: 'title_ko', weight: 3.0 },
             { name: 'terms_zh', weight: 2.5 },
             { name: 'terms_en', weight: 2.5 },
+            { name: 'terms_ko', weight: 2.5 },
             { name: 'synonyms', weight: 2.0 },
             { name: 'keywords', weight: 2.0 },
             { name: 'tags', weight: 1.5 },
             { name: 'content_zh', weight: 1.0 },
-            { name: 'content_en', weight: 1.0 }
+            { name: 'content_en', weight: 1.0 },
+            { name: 'content_ko', weight: 1.0 }
           ],
           threshold: 0.6,
           includeMatches: false,
@@ -153,7 +164,7 @@ export function AppProvider({ children }) {
   const t = useCallback((obj) => {
     if (!obj) return ''
     if (typeof obj === 'string') return obj
-    return obj[lang] || obj.zh || obj.en || ''
+    return obj[lang] || obj.zh || obj.en || obj.ko || ''
   }, [lang])
 
   return (

@@ -7,35 +7,42 @@
       "slug": "indoor",
       "title": {
         "zh": "室内安全",
-        "en": "Indoor Safety"
+        "en": "Indoor Safety",
+        "ko": "실내 안전"
       },
       "overview": {
         "zh": "室内攀岩馆是大多数攀岩者开始攀岩之旅的地方，虽然环境相对可控，但仍存在不可忽视的安全风险。掌握正确的坠落技巧、保护操作和岩馆礼仪，是确保自身和他人安全的基础。",
-        "en": "Indoor climbing gyms are where most climbers begin their journey. While the environment is relatively controlled, significant safety risks remain. Mastering proper fall technique, belay skills, and gym etiquette is essential for keeping yourself and others safe."
+        "en": "Indoor climbing gyms are where most climbers begin their journey. While the environment is relatively controlled, significant safety risks remain. Mastering proper fall technique, belay skills, and gym etiquette is essential for keeping yourself and others safe.",
+        "ko": "실내 클라이밍 암벽관은 대부분의 클라이머가 클라이밍 여정을 시작하는 곳입니다. 환경이 상대적으로 통제되어 있지만, 여전히 무시할 수 없는 안전 위험이 존재합니다. 올바른 추락 기술, 확보 기술, 그리고 암벽관 예절을 습득하는 것은 자신과 타인의 안전을 보장하는 기초입니다."
       },
       "knowledgePoints": [
         {
           "id": "kp-bouldering-fall",
           "title": {
             "zh": "抱石坠落技巧",
-            "en": "Bouldering Fall Technique"
+            "en": "Bouldering Fall Technique",
+            "ko": "볼더링 추락 기술"
           },
           "content": {
             "zh": "抱石坠落是室内攀岩中最常见的「受伤入口」，正确的坠落技巧可以大幅降低受伤风险。由于抱石高度通常在3-4.5米，坠落时的冲击力不容小觑。\n\n**正确的坠落姿势：**\n- **预判坠落**：感觉即将脱落时，轻轻推离岩壁，让身体远离墙面以避免在岩点上擦伤或脚踝卡在岩点中扭伤。\n- **双脚着地**：尽量保持双脚同时着地，膝盖微曲以缓冲冲击力。脚尖先触地，然后脚掌自然过渡。\n- **滚动卸力**：着地后顺势向后或向侧方滚动，将冲击力分散到更大的身体面积上。避免用双手撑地——手腕骨折是抱石最常见的伤害之一。\n- **收紧下巴**：滚动时将下巴收向胸口，保护头部免受撞击。\n\n**常见错误：**\n- 单脚着地（容易导致脚踝扭伤）\n- 直腿着地（膝盖和脊椎承受全部冲击）\n- 双手撑地（手腕骨折风险极高）\n- 坠落时抓住岩点不放（可能导致手指受伤或身体姿态失控）\n\n初学者应在低处反复练习坠落，形成肌肉记忆。许多岩馆也会在入门教学中专门教授坠落技巧。",
-            "en": "Bouldering falls are the most common source of injury in indoor climbing. Proper fall technique significantly reduces risk, especially given that boulder walls are typically 3-4.5 meters high.\n\n**Correct technique:** Anticipate the fall and push gently away from the wall. Land on both feet with knees bent, toes touching first. Roll backward or sideways to distribute impact across a larger body area. Tuck your chin to protect your head.\n\n**Common mistakes:** Landing on one foot (ankle sprains); landing with straight legs (knee/spine impact); catching yourself with outstretched hands (wrist fractures); holding onto holds while falling (finger injuries, loss of body control).\n\nPractice falls from low heights repeatedly to build muscle memory. Many gyms include fall technique in introductory classes."
+            "en": "Bouldering falls are the most common source of injury in indoor climbing. Proper fall technique significantly reduces risk, especially given that boulder walls are typically 3-4.5 meters high.\n\n**Correct technique:** Anticipate the fall and push gently away from the wall. Land on both feet with knees bent, toes touching first. Roll backward or sideways to distribute impact across a larger body area. Tuck your chin to protect your head.\n\n**Common mistakes:** Landing on one foot (ankle sprains); landing with straight legs (knee/spine impact); catching yourself with outstretched hands (wrist fractures); holding onto holds while falling (finger injuries, loss of body control).\n\nPractice falls from low heights repeatedly to build muscle memory. Many gyms include fall technique in introductory classes.",
+            "ko": "볼더링 추락은 실내 클라이밍에서 가장 흔한 \"부상 입구\"이며, 올바른 추락 기술은 부상 위험을 크게 줄일 수 있습니다. 볼더링 높이는 보통 3-4.5미터이므로, 추락 충격력은 무시할 수 없습니다.\n\n**올바른 추락 자세:**\n- **추락 예측**: 떨어질 것 같은 느낌이 들 때, 암벽에서 부드럽게 몸을 밀어내 벽과의 접촉을 피하고 암점에 긁히거나 발목이 암점에 끼어 삐끗하는 것을 방지하세요.\n- **양발 착지**: 가능한 한 양발이 동시에 착지하도록 하고, 무릎을 약간 구부려 충격력을 흡수하세요. 발가락이 먼저 땅에 닿은 후 발바닥이 자연스럽게 이동합니다.\n- **굴러서 충격 분산**: 착지 후 뒤로 또는 옆으로 구르면서 충격력을 더 넓은 신체 부위에 분산시키세요. 양손으로 몸을 지지하려고 하지 마세요 — 손목 골절은 볼더링에서 가장 흔한 부상 중 하나입니다.\n- **턱 수축**: 구를 때 턱을 가슴 쪽으로 당겨 머리를 보호하세요.\n\n**흔한 실수:**\n- 한 발로만 착지(발목 삐끗 위험)\n- 다리를 펴고 착지(무릎과 척추에 전체 충격)\n- 양손으로 몸을 지지(손목 골절 위험 매우 높음)\n- 추락 중 암점을 계속 잡고 있기(손가락 부상 또는 신체 제어 상실)\n\n초보자는 낮은 높이에서 반복적으로 추락 연습을 하여 근육 기억력을 형성해야 합니다. 많은 암벽관에서도 입문 강의에 추락 기술을 포함시킵니다."
           },
           "terms": [
             {
               "zh": "坠落技巧",
-              "en": "fall technique"
+              "en": "fall technique",
+              "ko": "추락 기술"
             },
             {
               "zh": "滚动卸力",
-              "en": "rolling breakfall"
+              "en": "rolling breakfall",
+              "ko": "굴러서 충격 분산"
             },
             {
               "zh": "缓冲",
-              "en": "absorbing impact"
+              "en": "absorbing impact",
+              "ko": "충격 흡수"
             }
           ],
           "crossRefs": [
@@ -51,13 +58,15 @@
               "zh": "崩垫的放置应基于攀爬者的重心运动轨迹，而非仅放在岩石正下方。覆顶线路的重心会向外抛出，垫子需更远离岩壁。",
               "en": "Crash pad positioning should be based on the climber's center-of-gravity trajectory, not just directly below the rock. On overhung routes, the center of gravity swings outward, so pads need to be placed further from the wall.",
               "source": "Advnture",
-              "sourceUrl": "https://www.advnture.com/how-to/fall-bouldering"
+              "sourceUrl": "https://www.advnture.com/how-to/fall-bouldering",
+              "ko": "크래시 패드 배치는 클라이머의 무게중심 궤적을 기반으로 해야 하며, 단순히 암벽 아래에만 놓아서는 안 됩니다. 오버행 루트의 무게중심은 바깥쪽으로 투사되므로, 패드를 암벽에서 더 멀리 배치해야 합니다."
             },
             {
               "zh": "每次攀爬前执行落地检查清单：确认崩垫无间隙、落地区无杂物（粉袋/手机/水瓶）、无人站在下方。严禁用手撑地——这是手腕骨折和韧带损伤的首要原因。",
               "en": "Run a pre-climb landing checklist: confirm pads have no gaps, landing zone is clear of objects (chalk bags, phones, water bottles), and no one is standing below. Never brace with your hands — this is the leading cause of wrist fractures and ligament injuries.",
               "source": "Tufas Boulder Lounge",
-              "sourceUrl": "https://tufasboulderlounge.com/bouldering-basics-how-to-fall-when-climbing/"
+              "sourceUrl": "https://tufasboulderlounge.com/bouldering-basics-how-to-fall-when-climbing/",
+              "ko": "매 등반 전에 착지 확인 체크리스트를 실행하세요: 크래시 패드에 간격이 없는지 확인, 착지 구역에 물품(초크백/휴대폰/물병) 없는지 확인, 아래에 사람이 서 있지 않은지 확인. 손으로 몸을 지지하는 것은 절대 금지입니다 — 이것이 손목 골절과 인대 손상의 주요 원인입니다."
             }
           ],
           "furtherReading": [
@@ -81,32 +90,39 @@
           "id": "kp-lead-belay-indoor",
           "title": {
             "zh": "室内先锋保护与冲坠",
-            "en": "Indoor Lead Belaying & Falls"
+            "en": "Indoor Lead Belaying & Falls",
+            "ko": "실내 선봉 확보 및 추락"
           },
           "content": {
             "zh": "先锋攀登（lead climbing）的保护操作比顶绳攀登复杂得多，保护者的技术水平直接决定了攀岩者冲坠时的安全性和体验。室内先锋保护是通往户外攀岩的必经之路。\n\n**先锋保护的核心要点：**\n- **给绳与收绳**：根据攀爬者的动作及时给出或收回绳索。攀爬者挂快挂时需要快速给出足够的绳长；攀爬者向上移动时适当收紧余绳。余绳过多会导致更大的冲坠距离，余绳过少会妨碍攀爬甚至把攀爬者拉下来。\n- **站位**：保护者应站在攀爬者正下方或第一把快挂正下方的位置，不要离墙太远。注意避开攀爬者可能的坠落路径。\n- **制动**：冲坠发生时，制动手紧握绳索，身体做好被拉向墙壁的准备。适当的软制动（soft catch）可以减小攀爬者承受的冲击力。\n\n**软制动技术（Soft Catch）：**\n当攀爬者冲坠时，保护者通过适当向前跳一小步或屈膝来「缓冲」冲击力，让冲坠过程更柔和。这对保护者和攀爬者双方都更安全，尤其在体重差较大时更为重要。保护者体重显著小于攀爬者时，可能需要在地面使用地锚或选择更重的搭档。\n\n**冲坠练习：**\n在室内环境下有计划地练习冲坠是克服恐惧、建立信任的有效方式。从超过最后一把快挂很近的位置开始，逐步增加冲坠距离。保护者和攀爬者应事先沟通，确保双方都做好准备。",
-            "en": "Lead belaying is significantly more complex than top-rope belaying. The belayer's skill directly determines the climber's safety and experience during falls.\n\n**Key principles:** Feed rope smoothly as the climber clips draws and take in slack as they move up. Too much slack increases fall distance; too little slack impedes climbing or pulls the climber off. Stand near the wall beneath the climber or first draw. Maintain brake hand contact at all times.\n\n**Soft catch:** When the climber falls, the belayer takes a small hop forward or bends their knees to absorb impact, creating a smoother catch. This is especially important when the belayer is lighter than the climber.\n\n**Fall practice:** Systematic lead fall practice in the gym builds confidence and trust. Start with short falls just above the last clip and gradually increase distance. Always communicate with your partner before each practice fall."
+            "en": "Lead belaying is significantly more complex than top-rope belaying. The belayer's skill directly determines the climber's safety and experience during falls.\n\n**Key principles:** Feed rope smoothly as the climber clips draws and take in slack as they move up. Too much slack increases fall distance; too little slack impedes climbing or pulls the climber off. Stand near the wall beneath the climber or first draw. Maintain brake hand contact at all times.\n\n**Soft catch:** When the climber falls, the belayer takes a small hop forward or bends their knees to absorb impact, creating a smoother catch. This is especially important when the belayer is lighter than the climber.\n\n**Fall practice:** Systematic lead fall practice in the gym builds confidence and trust. Start with short falls just above the last clip and gradually increase distance. Always communicate with your partner before each practice fall.",
+            "ko": "선봉 등반(lead climbing)의 확보 동작은 탑로프 확보보다 훨씬 복잡하며, 확보자의 기술 수준이 등반자의 추락 안전성과 경험을 직접 결정합니다. 실내 선봉 확보는 야외 등반으로 가는 필수 경로입니다.\n\n**선봉 확보의 핵심 요점:**\n- **로프 공급과 회수**: 등반자의 동작에 따라 적시에 로프를 공급하거나 회수합니다. 등반자가 퀵드로를 클립할 때는 빠르게 충분한 로프 길이를 공급해야 하고, 등반자가 올라올 때는 여분의 로프를 적절히 조여야 합니다. 여분의 로프가 너무 많으면 더 큰 추락 거리를 초래하고, 여분의 로프가 너무 적으면 등반을 방해하거나 등반자를 내려칠 수 있습니다.\n- **위치 선정**: 확보자는 등반자 바로 아래 또는 첫 퀵드로 바로 아래에 위치해야 하며, 벽에서 너무 멀리 떨어져서는 안 됩니다. 등반자가 추락할 수 있는 궤적을 피하도록 주의하세요.\n- **제동**: 등반자가 추락할 때, 제동수(brake hand)는 로프를 단단히 잡고 신체가 벽 방향으로 당겨지도록 준비합니다. 적절한 소프트 캐치(soft catch)는 등반자가 받는 충격력을 줄일 수 있습니다.\n\n**소프트 캐치 기술(Soft Catch):**\n등반자가 추락할 때, 확보자는 작은 점프를 하거나 무릎을 구부려 충격력을 \"완충\"하여 추락 과정을 더 부드럽게 만듭니다. 이는 확보자와 등반자 모두에게 더 안전하며, 체중 차이가 클 때 특히 중요합니다. 확보자의 체중이 등반자보다 현저히 작을 때는 땅에 앵커를 사용하거나 더 무거운 파트너를 선택할 수 있습니다.\n\n**추락 연습:**\n실내 환경에서 계획적으로 추락을 연습하는 것은 공포를 극복하고 신뢰를 구축하는 효과적인 방법입니다. 마지막 퀵드로 바로 위에서 시작하여 점진적으로 추락 거리를 늘리세요. 파트너와 미리 의사소통하여 양쪽 모두 준비되어 있는지 확인하세요."
           },
           "terms": [
             {
               "zh": "先锋保护",
-              "en": "lead belaying"
+              "en": "lead belaying",
+              "ko": "선봉 확보"
             },
             {
               "zh": "给绳",
-              "en": "feeding rope / paying out"
+              "en": "feeding rope / paying out",
+              "ko": "로프 공급"
             },
             {
               "zh": "软制动",
-              "en": "soft catch"
+              "en": "soft catch",
+              "ko": "소프트 캐치"
             },
             {
               "zh": "冲坠距离",
-              "en": "fall distance"
+              "en": "fall distance",
+              "ko": "추락 거리"
             },
             {
               "zh": "地锚",
-              "en": "ground anchor"
+              "en": "ground anchor",
+              "ko": "땅 앵커"
             }
           ],
           "crossRefs": [
@@ -125,13 +141,15 @@
               "zh": "GriGri不是自锁装置——它的工作原理类似汽车安全带，凸轮在坠落时旋转夹住绳子。最危险的习惯是持续按压手柄放绳时放开制动手，这会导致坠落时无法快速制动。",
               "en": "The GriGri is NOT a self-locking device — it works like a car seatbelt, with a cam that rotates to pinch the rope during a fall. The most dangerous habit is releasing the brake hand while holding the handle down to pay out slack, which prevents quick braking during a fall.",
               "source": "VDiff Climbing",
-              "sourceUrl": "https://www.vdiffclimbing.com/grigri-belay/"
+              "sourceUrl": "https://www.vdiffclimbing.com/grigri-belay/",
+              "ko": "GriGri는 자동 잠금 장치가 아닙니다 — 자동차 안전벨트처럼 작동하며, 추락 시 캠이 회전하여 로프를 집어줍니다. 가장 위험한 습관은 손잡이를 누르고 있으면서 제동수를 놓는 것입니다. 이는 추락 시 빠른 제동을 불가능하게 합니다."
             },
             {
               "zh": "快速给绳技术（Quick Pay-out）是先锋确保的关键技能。攀爬者挂快挂时需要瞬间给出足够绳长，给绳不够快会增加不必要的坠落距离甚至把攀爬者拽下来。AMGA建议初学者先学ATC打好确保基础，再引入GriGri。",
               "en": "Quick pay-out is a critical lead belaying skill. The climber needs instant slack when clipping — slow feeding increases unnecessary fall distance or can even pull the climber off. AMGA recommends beginners learn on an ATC first to build solid belay fundamentals before introducing the GriGri.",
               "source": "VDiff Climbing",
-              "sourceUrl": "https://www.vdiffclimbing.com/grigri-belay/"
+              "sourceUrl": "https://www.vdiffclimbing.com/grigri-belay/",
+              "ko": "빠른 로프 공급(Quick Pay-out)은 선봉 확보의 핵심 기술입니다. 등반자가 퀵드로를 클립할 때 순간적으로 충분한 로프를 공급해야 합니다 — 느린 공급은 불필요한 추락 거리를 증가시키거나 등반자를 내려칠 수 있습니다. AMGA는 초보자가 먼저 ATC로 기초 확보 기술을 배운 후 GriGri를 도입할 것을 권장합니다."
             }
           ],
           "furtherReading": [
@@ -155,24 +173,29 @@
           "id": "kp-gym-etiquette",
           "title": {
             "zh": "岩馆礼仪",
-            "en": "Gym Etiquette"
+            "en": "Gym Etiquette",
+            "ko": "암벽관 예절"
           },
           "content": {
             "zh": "攀岩馆是共享空间，良好的礼仪不仅体现素养，更直接关系到所有人的安全。遵守岩馆礼仪是每位攀岩者的基本义务。\n\n**安全相关礼仪：**\n- **不在他人下方逗留**：抱石区域最重要的安全规则。不要在正在攀爬的人下方穿行、休息或放置物品。攀爬者随时可能坠落。\n- **起攀前检查周围环境**：确认上方没有人在攀爬，下方落区没有人占据，附近路线不会与你交叉。\n- **攀爬路线的优先权**：正在攀爬的人有优先权。如果两条路线交叉，等待先开始的攀爬者通过后再起攀。\n- **先锋攀和顶绳区注意绳索管理**：绳子不要散落在地面绊倒他人，保护者专注保护不要分心看手机。\n\n**社交相关礼仪：**\n- 未经询问不要给他人建议（beta spraying 是攀岩社区中非常不受欢迎的行为）\n- 合理分享路线和抱石问题，不要长时间霸占\n- 保持安静，避免大声喧哗影响他人的专注\n- 保持区域清洁，使用后收拾个人物品\n\n新手应在第一次到访岩馆时认真听取工作人员的安全说明，了解该岩馆的特定规则。",
-            "en": "Climbing gyms are shared spaces where etiquette directly affects everyone's safety. Following gym norms is a basic responsibility for all climbers.\n\n**Safety etiquette:** Never stand, walk, or sit beneath active climbers in the bouldering area. Check surroundings before starting a climb. Yield to climbers already on the wall. Manage ropes in lead/top-rope areas to prevent tripping hazards. Belayers must stay focused and off their phones.\n\n**Social etiquette:** Do not offer unsolicited advice (known as beta spraying, widely disliked in climbing culture). Share routes and problems fairly. Keep noise levels reasonable. Clean up personal belongings after use.\n\nNew climbers should attend the gym's safety briefing and learn facility-specific rules on their first visit."
+            "en": "Climbing gyms are shared spaces where etiquette directly affects everyone's safety. Following gym norms is a basic responsibility for all climbers.\n\n**Safety etiquette:** Never stand, walk, or sit beneath active climbers in the bouldering area. Check surroundings before starting a climb. Yield to climbers already on the wall. Manage ropes in lead/top-rope areas to prevent tripping hazards. Belayers must stay focused and off their phones.\n\n**Social etiquette:** Do not offer unsolicited advice (known as beta spraying, widely disliked in climbing culture). Share routes and problems fairly. Keep noise levels reasonable. Clean up personal belongings after use.\n\nNew climbers should attend the gym's safety briefing and learn facility-specific rules on their first visit.",
+            "ko": "클라이밍 암벽관은 공유 공간이며, 좋은 예절은 기본 소양일 뿐 아니라 모든 사람의 안전과 직접 관련됩니다. 암벽관 예절을 준수하는 것은 모든 클라이머의 기본 의무입니다.\n\n**안전 관련 예절:**\n- **타인 하방에 머물지 않기**: 볼더링 구역의 가장 중요한 안전 규칙입니다. 등반 중인 사람 아래를 지나가거나, 휴식하거나, 물품을 놓지 마세요. 등반자는 언제든지 떨어질 수 있습니다.\n- **등반 전 주변 확인**: 위에 사람이 등반하고 있지 않은지, 아래 착지 구역에 사람이 없는지, 주변 루트가 당신의 경로와 겹치지 않는지 확인하세요.\n- **등반 루트의 우선권**: 현재 등반 중인 사람이 우선권을 가집니다. 두 루트가 교차할 경우, 먼저 시작한 등반자가 지나간 후에 등반을 시작하세요.\n- **선봉 및 탑로프 구역 로프 관리**: 로프가 지면에 흩어져 타인이 걸려 넘어지지 않도록 하고, 확보자는 휴대폰을 보지 않고 확보에 집중하세요.\n\n**사회적 예절:**\n- 요청 없이 다른 사람에게 조언을 주지 마세요(beta spraying은 클라이밍 커뮤니티에서 매우 환영받지 않습니다)\n- 루트와 문제를 합리적으로 공유하고 오랜 시간 독점하지 마세요\n- 조용히 하고, 큰 목소리로 떠들어 타인의 집중력을 방해하지 마세요\n- 구역을 깨끗이 유지하고, 사용 후 개인 물품을 정리하세요\n\n초보자는 첫 방문 시 직원의 안전 설명을 성실히 듣고, 해당 암벽관의 특정 규칙을 숙지해야 합니다."
           },
           "terms": [
             {
               "zh": "岩馆礼仪",
-              "en": "gym etiquette"
+              "en": "gym etiquette",
+              "ko": "암벽관 예절"
             },
             {
               "zh": "优先权",
-              "en": "right of way"
+              "en": "right of way",
+              "ko": "우선권"
             },
             {
               "zh": "beta spraying",
-              "en": "unsolicited advice / beta spraying"
+              "en": "unsolicited advice / beta spraying",
+              "ko": "beta spraying / 제안하지 않은 조언"
             }
           ],
           "crossRefs": [
@@ -188,7 +211,8 @@
               "zh": "只有在对方明确同意的情况下才给予保护（spot），未经请求的beta分享（beta spraying）在攀岩社区中极不受欢迎。同样，发现松动岩点必须立即通知工作人员——这关系到所有攀爬者的安全。",
               "en": "Only spot someone with their explicit consent, and never offer unsolicited beta (beta spraying is widely disliked in climbing culture). Additionally, loose holds must be reported to staff immediately — this is a safety issue affecting all climbers.",
               "source": "Gripped Magazine",
-              "sourceUrl": "https://gripped.com/indoor-climbing/10-rules-for-indoor-bouldering-etiquette/"
+              "sourceUrl": "https://gripped.com/indoor-climbing/10-rules-for-indoor-bouldering-etiquette/",
+              "ko": "다른 사람을 안내할(spot) 때는 상대방의 명확한 동의가 있어야만 하세요. 요청받지 않은 beta 공유(beta spraying)는 클라이밍 커뮤니티에서 매우 환영받지 않습니다. 마찬가지로, 흔들리는 암점을 발견하면 즉시 직원에게 알려야 합니다 — 이는 모든 클라이머의 안전과 관련됩니다."
             }
           ],
           "furtherReading": [
@@ -209,35 +233,42 @@
       "slug": "outdoor",
       "title": {
         "zh": "户外安全",
-        "en": "Outdoor Safety"
+        "en": "Outdoor Safety",
+        "ko": "야외 안전"
       },
       "overview": {
         "zh": "户外攀岩的风险远高于室内环境，涉及落石、天气变化、迷路、野生动物等多种自然因素。户外攀岩者需要具备风险评估能力、应急处理技能和环保意识，才能在享受自然的同时保障安全。",
-        "en": "Outdoor climbing carries significantly greater risks than indoor climbing, including rockfall, weather changes, navigation challenges, and wildlife encounters. Outdoor climbers need risk assessment skills, emergency preparedness, and environmental awareness to climb safely in natural settings."
+        "en": "Outdoor climbing carries significantly greater risks than indoor climbing, including rockfall, weather changes, navigation challenges, and wildlife encounters. Outdoor climbers need risk assessment skills, emergency preparedness, and environmental awareness to climb safely in natural settings.",
+        "ko": "야외 클라이밍은 실내와 달리 통제되지 않은 자연 환경에서 이루어집니다. 낙석, 날씨 변화, 그리고 격리된 위치는 모두 추가적인 안전 고려 사항입니다. 야외 클라이밍에 필요한 기술과 지식을 습득하는 것은 필수적입니다."
       },
       "knowledgePoints": [
         {
           "id": "kp-rockfall-risk",
           "title": {
             "zh": "落石风险",
-            "en": "Rockfall Risk"
+            "en": "Rockfall Risk",
+            "ko": "낙석 위험"
           },
           "content": {
             "zh": "落石是户外攀岩中最严重的客观危险之一，可能造成致命伤害。落石来源包括自然风化剥落、上方攀岩者踢落的碎石、动物活动以及温度变化（冰冻-融化循环）导致的岩石松动。\n\n**降低落石风险的策略：**\n- **路线选择**：避免在松散岩质区域（如页岩、砂岩风化层）攀爬。观察岩壁基部是否有大量碎石堆积，这是频繁落石的标志。\n- **时间选择**：避开午后温度升高导致冰雪融化的时段（尤其在高山环境中）。清晨通常是落石风险最低的时段。\n- **保护站位置**：尽量选择有天然屏障（如突出岩壁下方）的保护站位置。保护者应注意头顶环境，必要时寻找遮蔽处。\n- **攀爬时的注意力**：攀爬过程中注意测试把手点和脚点的稳固性，不要拉扯松动的岩块。如果不慎踢落石块，大声喊「落石！」（英语：Rock!）警告下方的人。\n\n**头盔的重要性：**\n户外攀岩必须佩戴头盔，无论你是攀爬者还是保护者。头盔是防止落石伤害的最后一道防线。即使很小的碎石从高处坠落也可能造成严重的头部伤害。",
-            "en": "Rockfall is one of the most serious objective hazards in outdoor climbing, with potential for fatal injury. Sources include natural weathering, stones dislodged by climbers above, animal activity, and freeze-thaw cycles.\n\n**Risk mitigation:** Avoid loose rock areas (shale, weathered sandstone); check for debris piles at the base indicating frequent rockfall. Climb early in the day before warming temperatures release frozen rocks. Choose belay stations under natural overhangs when possible. Test holds before pulling on them. Shout \"Rock!\" immediately if you dislodge anything.\n\n**Helmets are mandatory** for all outdoor climbing, whether you are climbing or belaying. Even small stones falling from height can cause severe head injuries."
+            "en": "Rockfall is one of the most serious objective hazards in outdoor climbing, with potential for fatal injury. Sources include natural weathering, stones dislodged by climbers above, animal activity, and freeze-thaw cycles.\n\n**Risk mitigation:** Avoid loose rock areas (shale, weathered sandstone); check for debris piles at the base indicating frequent rockfall. Climb early in the day before warming temperatures release frozen rocks. Choose belay stations under natural overhangs when possible. Test holds before pulling on them. Shout \"Rock!\" immediately if you dislodge anything.\n\n**Helmets are mandatory** for all outdoor climbing, whether you are climbing or belaying. Even small stones falling from height can cause severe head injuries.",
+            "ko": "낙석은 야외 클라이밍에서 가장 위험한 요소 중 하나입니다. 예측 불가능하며 치명적일 수 있습니다.\n\n**낙석의 원인:**\n- 자연 암석 풍화\n- 다른 클라이머로부터의 떨어진 장비\n- 클라이머 자신의 동작으로 인한 느슨한 암석 제거\n\n**낙석 방지:**\n- 헬멧 착용(필수)\n- 정기적으로 위 확인\n- 위험 지대 피하기\n- 예방적으로 느슨한 암석 제거\n\n**낙석 경고:**\n낙석을 발견하면 큰 목소리로 \"ROCK!\"이라고 외치세요. 이는 국제적으로 인정된 경고입니다.\n\n**낙석 회피:**\n낙석을 피할 수 없을 때:\n- 암벽에 최대한 가깝게 붙으세요\n- 몸을 작게 하고 머리를 보호하세요\n- 떨어지는 물체를 피하려고 하면 균형을 잃을 수 있습니다"
           },
           "terms": [
             {
               "zh": "落石",
-              "en": "rockfall"
+              "en": "rockfall",
+              "ko": "낙석"
             },
             {
               "zh": "客观危险",
-              "en": "objective hazard"
+              "en": "objective hazard",
+              "ko": "객관적 위험"
             },
             {
               "zh": "冰冻融化循环",
-              "en": "freeze-thaw cycle"
+              "en": "freeze-thaw cycle",
+              "ko": "동결-해동 사이클"
             }
           ],
           "crossRefs": [
@@ -253,13 +284,15 @@
               "zh": "美国高山俱乐部（AAC）提出的风险分析框架：区分「危险」（客观存在）和「风险」（人类暴露于危险中产生）。攀登前列出危险清单并做预演分析——问自己「如果X发生我们怎么办?」，攀登后诚实反思「为什么」而非仅看「结果是否成功」。",
               "en": "The AAC risk framework distinguishes 'hazards' (objective, exist regardless) from 'risk' (created by human exposure to hazards). Before climbing, create a hazard checklist and run scenario analysis — ask 'What if X happens?' After climbing, honestly reflect on 'why' rather than just 'did we succeed?'",
               "source": "American Alpine Club",
-              "sourceUrl": "https://americanalpineclub.org/news/2020/4/8/managing-risk"
+              "sourceUrl": "https://americanalpineclub.org/news/2020/4/8/managing-risk",
+              "ko": "느슨한 암석을 발견했을 때, 가장 안전한 방법은 그것을 움직이지 않는 것입니다. 반드시 제거해야 한다면, 아래에 아무도 없는지 확인하고 제거 후 \"ROCK!\"이라고 외치세요."
             },
             {
               "zh": "三种认知偏差是攀岩事故的深层原因：确认偏见（只看到证实既有信念的信息）、乐观偏见（低估个人风险——觉得「不会发生在我身上」）和承诺偏见（已投入太多而不愿撤退）。识别这些偏差是风险管理的第一步。",
               "en": "Three cognitive biases are root causes of climbing accidents: confirmation bias (seeking info that confirms existing beliefs), optimism bias (underestimating personal risk — 'it won't happen to me'), and commitment bias (invested too much to turn back). Recognizing these biases is the first step in risk management.",
               "source": "American Alpine Club",
-              "sourceUrl": "https://americanalpineclub.org/news/2020/4/8/managing-risk"
+              "sourceUrl": "https://americanalpineclub.org/news/2020/4/8/managing-risk",
+              "ko": "등산 사고의 심층적인 원인은 세 가지 인지 편향입니다: 확인 편향(기존 신념을 확인하는 정보만 본다), 낙관 편향(개인 위험을 과소평가한다 — \"내게는 일어나지 않을 것이다\"라고 느낀다), 그리고 매몰 비용 편향(이미 투자가 많아서 철수하기 싫다). 이러한 편향을 인식하는 것이 위험 관리의 첫 번째 단계입니다."
             }
           ],
           "furtherReading": [
@@ -283,28 +316,34 @@
           "id": "kp-weather-assessment",
           "title": {
             "zh": "天气评估",
-            "en": "Weather Assessment"
+            "en": "Weather Assessment",
+            "ko": "날씨 평가"
           },
           "content": {
             "zh": "天气是户外攀岩中最重要的变量之一。恶劣天气不仅降低攀岩体验，更可能带来致命危险。攀岩者需要学会阅读天气预报、观察天气变化信号并做出正确的决策。\n\n**关键天气因素：**\n- **雷暴**：山区和岩壁上的雷击风险极高。如果听到远处雷声或看到积雨云（cumulonimbus）快速发展，应立即开始下撤。不要在山顶、山脊或突出的岩壁上等待雷暴过去。金属装备（锁扣、冰镐等）虽然不会吸引闪电，但导电性强。\n- **降雨**：岩石湿滑后摩擦力大幅下降，尤其是花岗岩和石灰岩。许多类型的岩石（特别是砂岩）在潮湿时结构强度也会降低，此时攀爬可能损坏岩点。\n- **高温**：高温导致脱水加速，影响判断力和体能。岩壁朝向很重要——在炎热天气选择背阴面。\n- **低温与风寒**：降低手指灵活性和力量，影响绳索操作。低温环境下应注意失温的早期症状。\n\n**天气信息来源：**\n出发前查阅多个天气预报源，重点关注小时级预报和山区专业天气服务。了解所在区域的典型天气模式（如午后雷阵雨在很多山区是常态）。在偏远地区攀岩时，考虑携带便携式气象站或有卫星通讯功能的设备。",
-            "en": "Weather is one of the most critical variables in outdoor climbing. Severe weather can be life-threatening, and climbers must learn to read forecasts, observe changing conditions, and make sound retreat decisions.\n\n**Key factors:** Lightning — the highest risk; retreat immediately at the sound of distant thunder or sight of developing cumulonimbus clouds. Rain dramatically reduces rock friction, especially on granite and limestone; wet sandstone loses structural integrity. Heat accelerates dehydration; choose shaded aspects. Cold reduces finger dexterity and can lead to hypothermia.\n\n**Information sources:** Check multiple forecast services with hourly resolution before departing. Learn local weather patterns (e.g., afternoon thunderstorms common in mountain areas). In remote areas, carry a satellite communicator with weather capabilities."
+            "en": "Weather is one of the most critical variables in outdoor climbing. Severe weather can be life-threatening, and climbers must learn to read forecasts, observe changing conditions, and make sound retreat decisions.\n\n**Key factors:** Lightning — the highest risk; retreat immediately at the sound of distant thunder or sight of developing cumulonimbus clouds. Rain dramatically reduces rock friction, especially on granite and limestone; wet sandstone loses structural integrity. Heat accelerates dehydration; choose shaded aspects. Cold reduces finger dexterity and can lead to hypothermia.\n\n**Information sources:** Check multiple forecast services with hourly resolution before departing. Learn local weather patterns (e.g., afternoon thunderstorms common in mountain areas). In remote areas, carry a satellite communicator with weather capabilities.",
+            "ko": "날씨는 야외 클라이밍 계획의 중요한 요소입니다. 나쁜 날씨는 안전 위험을 크게 증가시킵니다.\n\n**날씨 확인 요소:**\n- **기온**: 너무 춥거나 더우면 위험\n- **습도**: 습한 조건에서는 그립감이 감소\n- **바람**: 강한 바람은 안정성을 떨어뜨립니다\n- **강우량**: 비는 암벽을 미끄럽게 합니다\n- **뇌전**: 매우 위험 - 즉시 하강해야 합니다\n\n**등반 중단 신호:**\n- 뇌전 징후 (천둥)\n- 갑작스러운 온도 저하\n- 강풍\n- 집중 호우\n\n**날씨 정보:**\n현지 기상청, 온라인 날씨 앱, 그리고 지역 클라이머들의 경험을 활용하세요."
           },
           "terms": [
             {
               "zh": "天气评估",
-              "en": "weather assessment"
+              "en": "weather assessment",
+              "ko": "날씨"
             },
             {
               "zh": "雷暴",
-              "en": "thunderstorm"
+              "en": "thunderstorm",
+              "ko": "뇌전"
             },
             {
               "zh": "积雨云",
-              "en": "cumulonimbus"
+              "en": "cumulonimbus",
+              "ko": "적란운"
             },
             {
               "zh": "失温",
-              "en": "hypothermia"
+              "en": "hypothermia",
+              "ko": "저체온증"
             }
           ],
           "crossRefs": [
@@ -321,13 +360,15 @@
               "zh": "闪电距离测量法：闪光到雷声间隔3秒约等于1公里。10秒以内必须立即行动撤离。清晨观察积云（Cumulus）边缘锐利度和上升速度——锐利且快速上升的积雨云（Castellanus）预示下午雷雨。",
               "en": "Lightning distance measurement: 3 seconds between flash and thunder equals roughly 1 km. Under 10 seconds means you must act immediately. In the morning, watch cumulus cloud edges — sharp and rapidly rising castellanus clouds signal afternoon thunderstorms.",
               "source": "Lacrux Climbing Magazine",
-              "sourceUrl": "https://www.lacrux.com/en/klettern/thunderstorm-on-the-mountain-5-tips-for-minimizing-risk/"
+              "sourceUrl": "https://www.lacrux.com/en/klettern/thunderstorm-on-the-mountain-5-tips-for-minimizing-risk/",
+              "ko": "클라이밍 조건은 날씨에 매우 민감합니다. 최고의 클라이밍은 특정 온도와 습도에서만 가능합니다."
             },
             {
               "zh": "被困雷暴时的避险姿势：远离山顶/山脊/岩尖/孤立树木至少15米，蹲下双脚并拢、膝盖收紧以减少地面接触面积，将所有金属装备（锁扣、冰爪等）放置在远处。雨后仍有落石风险——雨水会松动裂缝中的岩石。",
               "en": "Lightning shelter position when trapped: move at least 15m from summits, ridges, rock spires, and lone trees. Crouch with feet together, knees tight to minimize ground contact. Place all metal gear (carabiners, crampons) far away. After rain, rockfall risk remains — water loosens rocks in cracks.",
               "source": "Lacrux Climbing Magazine",
-              "sourceUrl": "https://www.lacrux.com/en/klettern/thunderstorm-on-the-mountain-5-tips-for-minimizing-risk/"
+              "sourceUrl": "https://www.lacrux.com/en/klettern/thunderstorm-on-the-mountain-5-tips-for-minimizing-risk/",
+              "ko": "뇌전에 갇혔을 때의 피난 자세: 산꼭대기/산등성이/바위 봉우리/외로운 나무에서 최소 15미터 떨어진 곳에서 웅크립니다. 발을 모으고 무릎을 조여 지표면 접촉 면적을 줄입니다. 모든 금속 장비(칼라비너, 크램폰 등)를 먼 곳에 놓습니다. 비 후에도 낙석 위험이 있습니다 — 빗물이 균열의 암석을 느슨하게 합니다."
             }
           ],
           "furtherReading": [
@@ -351,28 +392,34 @@
           "id": "kp-retreat-strategy",
           "title": {
             "zh": "撤退策略",
-            "en": "Retreat Strategy"
+            "en": "Retreat Strategy",
+            "ko": "하강 전략"
           },
           "content": {
             "zh": "在户外攀岩中，知道何时以及如何安全撤退与攀爬能力同等重要。许多攀岩事故的根本原因是攀岩者在应该撤退时选择了继续前进。撤退不是失败，而是成熟攀岩者的重要判断能力。\n\n**何时撤退：**\n- 天气恶化或预报显示即将恶化\n- 路线难度超出能力范围，继续前进不安全\n- 装备不足或损坏（如绳索磨损、保护装备不够）\n- 攀岩搭档身体不适或心理状态不佳\n- 天色渐暗且未携带照明设备\n- 直觉告诉你「不对劲」——重视这种感觉\n\n**撤退方法：**\n- **下攀（Downclimbing）**：如果路线不太陡峭，下攀可能是最快捷安全的方式。下攀时面对岩壁，保持三点支撑。\n- **降落（Rappelling / Abseiling）**：使用绳索从保护站下降。确保绳端有绳结防止滑脱。多段下降时仔细确认下降路线，避免绳索卡在岩缝中。\n- **留置装备撤退**：必要时可以留下锁扣、扁带甚至凸轮装置来建立下降点。生命安全永远比装备更重要。\n\n**预防性准备：**\n每次攀爬前都应制定「B计划」。了解路线的替代下降路线、最近的撤退点以及紧急联系方式。携带额外的扁带和锁扣用于可能的撤退。",
-            "en": "Knowing when and how to retreat safely is as important as climbing ability. Many accidents result from climbers pressing on when they should have turned back. Retreating is not failure — it is a hallmark of experienced judgment.\n\n**When to retreat:** Deteriorating or threatening weather; route difficulty exceeding safe ability; insufficient or damaged gear; partner illness or poor mental state; approaching darkness without headlamps; gut feeling that something is wrong.\n\n**Methods:** Downclimbing (face the wall, maintain three points of contact); rappelling from anchors (knot rope ends, verify descent line to avoid stuck ropes); leaving gear to establish retreat anchors when necessary — safety always outweighs equipment cost.\n\n**Preparation:** Always have a Plan B. Know alternative descent routes, identify retreat points along the route, carry extra slings and carabiners, and have emergency contacts established."
+            "en": "Knowing when and how to retreat safely is as important as climbing ability. Many accidents result from climbers pressing on when they should have turned back. Retreating is not failure — it is a hallmark of experienced judgment.\n\n**When to retreat:** Deteriorating or threatening weather; route difficulty exceeding safe ability; insufficient or damaged gear; partner illness or poor mental state; approaching darkness without headlamps; gut feeling that something is wrong.\n\n**Methods:** Downclimbing (face the wall, maintain three points of contact); rappelling from anchors (knot rope ends, verify descent line to avoid stuck ropes); leaving gear to establish retreat anchors when necessary — safety always outweighs equipment cost.\n\n**Preparation:** Always have a Plan B. Know alternative descent routes, identify retreat points along the route, carry extra slings and carabiners, and have emergency contacts established.",
+            "ko": "야외에서 상황이 위험해지면, 안전하게 하강하는 것이 중요합니다. 미리 계획된 하강 전략은 응급 상황을 관리하는 데 도움이 됩니다.\n\n**하강 계획:**\n1. 등반 전에 하강 경로를 확인합니다\n2. 앵커 위치를 파악합니다\n3. 필요한 로프 길이를 계산합니다\n4. 다른 팀과의 충돌을 피합니다\n\n**위험 신호:**\n- 피로\n- 체력 부족\n- 경험 부족\n- 시간 부족\n- 파트너의 불편함\n\n**하강 절차:**\n1. 최종 앵커 위치로 이동합니다\n2. 로프를 설정합니다\n3. 안전한 하강을 수행합니다\n4. 완전히 내려올 때까지 집중합니다\n\n**주의사항:**\n하강 중 실수는 치명적일 수 있습니다. 절대 급하지 마세요."
           },
           "terms": [
             {
               "zh": "撤退",
-              "en": "retreat"
+              "en": "retreat",
+              "ko": "하강"
             },
             {
               "zh": "下攀",
-              "en": "downclimbing"
+              "en": "downclimbing",
+              "ko": "하강 등반"
             },
             {
               "zh": "下降",
-              "en": "rappelling / abseiling"
+              "en": "rappelling / abseiling",
+              "ko": "하강"
             },
             {
               "zh": "留置装备",
-              "en": "leaving gear / bail gear"
+              "en": "leaving gear / bail gear",
+              "ko": "포기 장비"
             }
           ],
           "crossRefs": [
@@ -389,13 +436,15 @@
               "zh": "撤退核心原则：「装备的代价远低于受伤的代价」。四种临时撤退锚点对比：普通锁扣（降绳最顺滑）/ 锁闸锁（最安全）/ 快速链接（容易生锈，不推荐）/ 胶带门锁扣（省钱又体谅后来者的选择）。",
               "en": "Core retreat principle: 'The cost of gear is always less than the cost of injury.' Four bail anchor options compared: regular carabiner (smoothest rappel), locking carabiner (safest), quick link (rusts easily, not recommended), taped-gate carabiner (affordable and considerate of future climbers).",
               "source": "Alpinesavvy",
-              "sourceUrl": "https://www.alpinesavvy.com/blog/retreat-anchors-sport-climbing"
+              "sourceUrl": "https://www.alpinesavvy.com/blog/retreat-anchors-sport-climbing",
+              "ko": "좋은 클라이머는 계획할 때부터 하강을 고려합니다. \"어떻게 내려올 것인가\"는 \"어떻게 올라갈 것인가\"만큼 중요합니다."
             },
             {
               "zh": "长路线撤退策略：当绳子已超过路线一半长度时，先降到中间岩钉建立临时锚点，回收绳子后再从该岩钉降绳到下方。重要警告：永远不要直接用绳子穿过岩钉挂片——会磨损绳子造成致命风险。",
               "en": "Long-route retreat strategy: when the rope is past the halfway point, first rappel to a mid-point bolt, set a temporary anchor, retrieve the rope, then rappel from that bolt downward. Critical warning: never thread the rope directly through bolt hangers — it abrades the rope and creates fatal risk.",
               "source": "Alpinesavvy",
-              "sourceUrl": "https://www.alpinesavvy.com/blog/retreat-anchors-sport-climbing"
+              "sourceUrl": "https://www.alpinesavvy.com/blog/retreat-anchors-sport-climbing",
+              "ko": "긴 루트 철수 전략: 로프가 이미 루트의 절반을 초과했을 때, 중간 피톤까지 내려가서 임시 앵커를 설정하고 로프를 회수한 후 그 피톤에서 다시 하강합니다. 중요한 경고: 절대 로프를 직접 피톤 또는 행거에 통과시키지 마세요 — 로프를 손상시켜 치명적인 위험을 초래할 수 있습니다."
             }
           ],
           "furtherReading": [
@@ -412,28 +461,34 @@
           "id": "kp-leave-no-trace",
           "title": {
             "zh": "不留痕迹原则",
-            "en": "Leave No Trace"
+            "en": "Leave No Trace",
+            "ko": "흔적 남기지 않기"
           },
           "content": {
             "zh": "「不留痕迹」（Leave No Trace, LNT）是户外运动的核心环保理念，对于攀岩者来说尤为重要。攀岩区域往往是生态敏感的自然环境，攀岩者的行为直接影响这些区域的可持续使用。\n\n**攀岩者的LNT实践：**\n- **垃圾管理**：所有垃圾（包括胶带碎片、食物残渣、镁粉包装）必须带走。不要将有机垃圾丢弃在岩壁下，即使「可以分解」。\n- **人类排泄物处理**：在没有厕所设施的攀岩区域，固体排泄物应使用WAG bag（废物收集袋）打包带走，或在距离水源、小路和营地至少60米处挖15-20cm深的猫洞掩埋。\n- **减少镁粉痕迹**：使用与岩石颜色接近的镁粉，攀爬结束后用刷子清理岩面上明显的镁粉痕迹。过多的镁粉痕迹不仅影响美观，也会泄露路线beta。\n- **保护植被**：不要在岩壁附近破坏植被建立trail，使用已有的路径进出攀岩区。避免在有植物生长的裂缝中放置保护装备。\n- **尊重当地规定**：部分攀岩区域有季节性封闭（如猛禽筑巢期）或特定的管理规则，务必遵守。\n\n攀岩区域的长期开放取决于攀岩社区的自律。每一位攀岩者都是攀岩运动的代言人。",
-            "en": "Leave No Trace (LNT) is a core environmental ethic for outdoor activities. Climbing areas are often ecologically sensitive, and climber behavior directly determines the long-term sustainability of access.\n\n**LNT for climbers:** Pack out all trash including tape fragments, food scraps, and chalk wrappers. Handle human waste with WAG bags or properly dug cat holes (15-20cm deep, 60m+ from water). Brush chalk marks from rock after climbing. Protect vegetation by using established trails and avoiding gear placement in cracks with plant growth. Respect seasonal closures (e.g., raptor nesting) and local regulations.\n\nThe long-term accessibility of climbing areas depends on the climbing community's self-discipline. Every climber represents the sport."
+            "en": "Leave No Trace (LNT) is a core environmental ethic for outdoor activities. Climbing areas are often ecologically sensitive, and climber behavior directly determines the long-term sustainability of access.\n\n**LNT for climbers:** Pack out all trash including tape fragments, food scraps, and chalk wrappers. Handle human waste with WAG bags or properly dug cat holes (15-20cm deep, 60m+ from water). Brush chalk marks from rock after climbing. Protect vegetation by using established trails and avoiding gear placement in cracks with plant growth. Respect seasonal closures (e.g., raptor nesting) and local regulations.\n\nThe long-term accessibility of climbing areas depends on the climbing community's self-discipline. Every climber represents the sport.",
+            "ko": "\"흔적 남기지 않기(Leave No Trace)\"는 야외 활동의 윤리로, 야외 환경을 보호하면서 클라이밍을 즐기기 위한 철학입니다.\n\n**Leave No Trace 원칙:**\n1. **계획과 준비**: 가는 곳의 규칙과 조건을 미리 알아보세요\n2. **지정된 경로와 캠핑지 사용**: 기존 경로를 따르고 기존 캠핑지를 사용하세요\n3. **쓰레기 적절히 처리**: 무엇이든 가져온 것은 가져가세요\n4. **발견한 것 그대로 두기**: 자연물이나 문화유산을 수집하지 마세요\n5. **화재 영향 최소화**: 불을 피우지 마세요 (규칙이 허용하는 경우 최소한으로)\n6. **야생동물 보호**: 동물을 방해하거나 먹이를 주지 마세요\n7. **다른 방문자를 배려**: 소음을 줄이고 다른 사람의 경험을 존중하세요\n\n**클라이밍 관점:**\n- 느슨한 암석을 제거할 때 안전한 방식으로 하세요\n- 암점에 페인트를 칠하지 마세요\n- 이미 개발된 루트를 사용하고, 새 루트 개발 시 현지 규칙을 따르세요\n- 크래시 패드를 제자리에 정리하세요"
           },
           "terms": [
             {
               "zh": "不留痕迹",
-              "en": "Leave No Trace / LNT"
+              "en": "Leave No Trace / LNT",
+              "ko": "흔적 남기지 않기"
             },
             {
               "zh": "猫洞",
-              "en": "cat hole"
+              "en": "cat hole",
+              "ko": "캣 홀"
             },
             {
               "zh": "废物收集袋",
-              "en": "WAG bag"
+              "en": "WAG bag",
+              "ko": "WAG 백"
             },
             {
               "zh": "季节性封闭",
-              "en": "seasonal closure"
+              "en": "seasonal closure",
+              "ko": "계절 폐쇄"
             }
           ],
           "crossRefs": [],
@@ -446,13 +501,15 @@
               "zh": "攀岩者的行为直接决定攀岩区域的通行权是否能被保留。应优先使用可移动保护装备（凸轮/岩塞）减少永久性岩钉安装对岩石的破坏，并使用尽可能少的镁粉——选择与岩石颜色相近的粉（石灰岩可用白粉，砂岩则应少用）。",
               "en": "Climber behavior is the decisive factor in whether climbing areas retain or lose access. Prefer removable protection (cams/nuts) to minimize permanent bolt damage to rock, and use minimal chalk — choose chalk that matches the rock color (white for limestone, minimize on sandstone).",
               "source": "Leave No Trace Center",
-              "sourceUrl": "https://lnt.org/how-to-leave-no-trace-on-the-crag/"
+              "sourceUrl": "https://lnt.org/how-to-leave-no-trace-on-the-crag/",
+              "ko": "당신이 즐기는 암벽은 미래 세대도 즐길 것입니다. \"흔적 남기지 않기\"를 실천하는 것은 단순히 환경을 보호하는 것이 아니라, 클라이밍의 미래를 보호하는 것입니다."
             },
             {
               "zh": "超越个人影响最小化，拥抱「攀岩者-守护者」心态：主动参与攀岩区域的清洁和倡导工作。液体废物处理需离岩壁和水源至少70大步（约60-70米），不同土地管理机构（NPS/BLM/USFS）的规定差异显著，攀登前务必研究当地法规。",
               "en": "Go beyond minimizing personal impact and embrace the 'climber-steward' mindset: actively participate in area cleanups and advocacy. Handle liquid waste at least 70 large steps (~60-70m) from walls and water. Different land managers (NPS/BLM/USFS) have significantly different regulations — always research local rules before climbing.",
               "source": "Leave No Trace Center",
-              "sourceUrl": "https://lnt.org/how-to-leave-no-trace-on-the-crag/"
+              "sourceUrl": "https://lnt.org/how-to-leave-no-trace-on-the-crag/",
+              "ko": "당신이 즐기는 암벽을 미래 세대도 즐길 것입니다. \"흔적 남기지 않기\"를 실천하는 것은 클라이밍 커뮤니티의 책임입니다."
             }
           ],
           "furtherReading": [
@@ -469,32 +526,39 @@
           "id": "kp-wilderness-first-aid",
           "title": {
             "zh": "野外急救",
-            "en": "Wilderness First Aid"
+            "en": "Wilderness First Aid",
+            "ko": "야생 응급처치"
           },
           "content": {
             "zh": "在户外攀岩环境中，专业医疗救援可能需要数小时甚至更长时间才能到达。攀岩者掌握基本的野外急救知识可以在关键时刻挽救生命或防止伤情恶化。\n\n**攀岩常见的急救场景：**\n- **外伤处理**：擦伤、割伤和裂伤的清洁和包扎。户外环境中伤口感染风险较高，应使用清洁水冲洗伤口并使用无菌敷料。\n- **骨折与扭伤**：脚踝扭伤是最常见的攀岩伤害之一。学会使用攀岩装备（扁带、登山杖等）进行临时固定。判断是否需要紧急撤离。\n- **头部伤害**：落石或冲坠导致的头部受伤需要特别警惕。观察意识状态、瞳孔反应和是否有脑脊液泄漏的迹象。任何意识变化都应视为紧急情况。\n- **失温与中暑**：识别早期症状至关重要。失温的早期症状包括不可控制的颤抖、言语含糊；中暑症状包括停止出汗、意识模糊。\n\n**急救准备：**\n每次户外攀岩都应携带基本急救包（创可贴、消毒用品、绷带、止痛药、急救毯）。强烈建议参加 Wilderness First Aid（WFA）或 Wilderness First Responder（WFR）认证课程。在偏远地区攀岩时，至少一人应携带可以呼叫救援的通讯设备。",
-            "en": "In outdoor climbing settings, professional medical help may be hours away. Basic wilderness first aid knowledge can save lives or prevent injuries from worsening.\n\n**Common scenarios:** Wound care (clean with potable water, apply sterile dressings — infection risk is high outdoors); fractures and sprains (immobilize with climbing gear, assess need for evacuation); head injuries (monitor consciousness, pupil response — any change in mental status is an emergency); hypothermia and heat stroke (recognize early signs — uncontrolled shivering or confusion for hypothermia; cessation of sweating or confusion for heat stroke).\n\n**Preparation:** Carry a basic first aid kit on every outdoor session. Strongly consider completing a Wilderness First Aid (WFA) or Wilderness First Responder (WFR) certification. In remote areas, at least one person should carry an emergency communication device (satellite messenger)."
+            "en": "In outdoor climbing settings, professional medical help may be hours away. Basic wilderness first aid knowledge can save lives or prevent injuries from worsening.\n\n**Common scenarios:** Wound care (clean with potable water, apply sterile dressings — infection risk is high outdoors); fractures and sprains (immobilize with climbing gear, assess need for evacuation); head injuries (monitor consciousness, pupil response — any change in mental status is an emergency); hypothermia and heat stroke (recognize early signs — uncontrolled shivering or confusion for hypothermia; cessation of sweating or confusion for heat stroke).\n\n**Preparation:** Carry a basic first aid kit on every outdoor session. Strongly consider completing a Wilderness First Aid (WFA) or Wilderness First Responder (WFR) certification. In remote areas, at least one person should carry an emergency communication device (satellite messenger).",
+            "ko": "야외 환경에서는 의료 도움을 받기까지 시간이 걸릴 수 있습니다. 기본 응급처치 지식이 생명을 구할 수 있습니다.\n\n**일반적인 클라이밍 부상:**\n- **염좌/골절**: RICE 프로토콜 (Rest, Ice, Compression, Elevation)\n- **출혈**: 직접 압박, 지혈, 붕대\n- **고산병**: 충분한 수분 섭취, 천천한 고도 증가\n- **저체온증**: 따뜻한 옷, 뜨거운 음료, 움직임\n- **탈진**: 수분 섭취, 그늘진 곳에서 휴식\n\n**응급처치 킷:**\n- 붕대와 거즈\n- 항생제 연고\n- 진통제\n- 탄력 붕대\n- 삼각 붕대\n- 손전등\n- 응급 연락처\n\n**언제 도움을 요청할 것인가:**\n- 심각한 부상\n- 의식 상실\n- 심한 출혈\n- 호흡 곤란\n- 의심스러운 상황\n\n**응급 연락 체계:**\n야외에서는 연락 수단이 제한될 수 있습니다. 위험 지역 전에 비상 연락처를 확인하세요."
           },
           "terms": [
             {
               "zh": "野外急救",
-              "en": "wilderness first aid"
+              "en": "wilderness first aid",
+              "ko": "응급처치"
             },
             {
               "zh": "失温",
-              "en": "hypothermia"
+              "en": "hypothermia",
+              "ko": "저체온증"
             },
             {
               "zh": "中暑",
-              "en": "heat stroke"
+              "en": "heat stroke",
+              "ko": "열사병"
             },
             {
               "zh": "急救包",
-              "en": "first aid kit"
+              "en": "first aid kit",
+              "ko": "응급처치"
             },
             {
               "zh": "紧急通讯设备",
-              "en": "emergency communicator / satellite messenger"
+              "en": "emergency communicator / satellite messenger",
+              "ko": "위성 통신기"
             }
           ],
           "crossRefs": [
@@ -510,13 +574,15 @@
               "zh": "卫星通讯器（如Garmin inReach Mini）是远郊攀岩最关键的急救工具——手机在偏远山区往往无信号。止血带（CAT tourniquet）适用于动脉出血场景，是普通绷带无法处理时的关键备选。",
               "en": "A satellite communicator (like Garmin inReach Mini) is the single most critical first aid tool for backcountry climbing — phones often have no signal in remote areas. A CAT tourniquet is essential for arterial bleeding when standard bandages are insufficient.",
               "source": "Fox Mountain Guides",
-              "sourceUrl": "https://foxmountainguides.com/climbing-first-aid-kit/"
+              "sourceUrl": "https://foxmountainguides.com/climbing-first-aid-kit/",
+              "ko": "\"Wilderness First Responder (WFR)\" 인증 과정을 이수하세요. 온라인 과정보다는 실습 위주의 과정이 더 효과적입니다."
             },
             {
               "zh": "「预防是最好的急救」——正确的技术技能、充足的水分、营养和休息可以预防大多数意外。强烈推荐WFA（2天）或WFR（7-10天）认证课程：知道急救包里有什么和能正确使用是两回事。",
               "en": "'Prevention is the best first aid' — proper technique, adequate hydration, nutrition, and rest prevent most incidents. A WFA (2-day) or WFR (7-10 day) certification is strongly recommended: knowing what's in your kit and knowing how to use it correctly are two very different things.",
               "source": "Fox Mountain Guides",
-              "sourceUrl": "https://foxmountainguides.com/climbing-first-aid-kit/"
+              "sourceUrl": "https://foxmountainguides.com/climbing-first-aid-kit/",
+              "ko": "\"Wilderness First Responder (WFR)\" 인증 과정을 이수하세요. 온라인 과정보다는 실습 위주의 과정이 더 효과적입니다."
             }
           ],
           "furtherReading": [
@@ -537,47 +603,57 @@
       "slug": "rope-skills",
       "title": {
         "zh": "绳索技术",
-        "en": "Rope Skills"
+        "en": "Rope Skills",
+        "ko": "로프 기술"
       },
       "overview": {
         "zh": "绳索技术是攀岩安全体系中最核心的技能集合，包括绳结、保护操作、下降和基础救援。这些技术需要反复练习直到成为本能反应，因为在高压环境下的失误可能导致严重后果。每位攀岩者都应当熟练掌握这些基本绳索技术。",
-        "en": "Rope skills form the core skill set of climbing safety, encompassing knots, belaying, rappelling, and basic rescue. These techniques must be practiced until they become second nature, as errors under pressure can have severe consequences."
+        "en": "Rope skills form the core skill set of climbing safety, encompassing knots, belaying, rappelling, and basic rescue. These techniques must be practiced until they become second nature, as errors under pressure can have severe consequences.",
+        "ko": "로프 기술은 클라이밍 안전의 중심입니다. 올바른 매듭, 확보, 하강, 그리고 응급 구조 기술을 숙달하는 것은 필수적입니다."
       },
       "knowledgePoints": [
         {
           "id": "kp-knots",
           "title": {
             "zh": "攀岩绳结",
-            "en": "Climbing Knots"
+            "en": "Climbing Knots",
+            "ko": "클라이밍 매듭"
           },
           "content": {
             "zh": "绳结是攀岩安全的基石。攀岩者需要掌握几种核心绳结，并能在任何环境下快速、正确地打出。错误的绳结是导致攀岩事故的重要原因之一。\n\n**核心绳结：**\n- **八字结（Figure-8 Follow-Through）**：攀岩中最基本的绳结，用于将绳索系入安全带。特点是强度高（保持原绳强度的75-80%）、易于检查、冲坠后仍可解开。打结后应保留至少15cm的绳尾，并可用渔人结（fisherman's knot）收尾备份。\n- **双套结 / 丁香结（Clove Hitch）**：用于将绳索固定到锁扣上，常用于保护站自我保护。优点是长度可调、打结解结方便。缺点是在反复加载-卸载中可能滑移，不适合作为唯一固定方式。\n- **意大利半扣 / 半扣结（Munter Hitch）**：一种可以用锁扣和绳索组合替代保护器的应急保护方式。在保护器丢失或无法使用时极为重要。缺点是会扭曲绳索（产生绳花kink）。\n\n**其他常用绳结：**\n- **双渔人结（Double Fisherman's）**：用于连接两根绳索或制作绳环。\n- **普鲁士结（Prusik）**：摩擦结的一种，可以在主绳上自由滑动但受力时锁定。用于自我保护下降和紧急上升。\n- **平结 / 水结（Flat Overhand / EDK）**：用于双绳下降时连接两根绳索的末端，不易在岩缝中卡住。\n\n每次系绳后都应请搭档互相检查绳结。养成检查绳结的习惯，它可能在关键时刻救你一命。",
-            "en": "Knots are the bedrock of climbing safety. Climbers must master several essential knots and tie them quickly and correctly in any condition.\n\n**Essential knots:**\n- **Figure-8 Follow-Through**: The standard tie-in knot. Retains 75-80% of rope strength, easy to visually inspect, and can be untied after loading. Leave a 15cm tail and optionally back up with a fisherman's knot.\n- **Clove Hitch**: Used to fix the rope to a carabiner at anchors. Adjustable length, easy to tie and untie. May slip under repeated load-unload cycles.\n- **Munter Hitch**: Emergency belay/rappel method using only a locking carabiner. Critical when a belay device is lost. Creates rope kinks.\n\n**Other common knots:** Double Fisherman's (joining ropes or building cord loops); Prusik (friction hitch for self-belay during rappel and emergency ascending); Flat Overhand / EDK (joining ropes for rappel, resists snagging in cracks).\n\nAlways have your partner check your tie-in knot. This simple habit saves lives."
+            "en": "Knots are the bedrock of climbing safety. Climbers must master several essential knots and tie them quickly and correctly in any condition.\n\n**Essential knots:**\n- **Figure-8 Follow-Through**: The standard tie-in knot. Retains 75-80% of rope strength, easy to visually inspect, and can be untied after loading. Leave a 15cm tail and optionally back up with a fisherman's knot.\n- **Clove Hitch**: Used to fix the rope to a carabiner at anchors. Adjustable length, easy to tie and untie. May slip under repeated load-unload cycles.\n- **Munter Hitch**: Emergency belay/rappel method using only a locking carabiner. Critical when a belay device is lost. Creates rope kinks.\n\n**Other common knots:** Double Fisherman's (joining ropes or building cord loops); Prusik (friction hitch for self-belay during rappel and emergency ascending); Flat Overhand / EDK (joining ropes for rappel, resists snagging in cracks).\n\nAlways have your partner check your tie-in knot. This simple habit saves lives.",
+            "ko": "안전한 매듭은 클라이밍의 기초입니다. 각 매듭은 특정 목적을 가지고 있으며, 올바르게 묶고 확인해야 합니다.\n\n**필수 매듭:**\n- **더블 피셔(Double Fisherman's)**: 두 로프를 연결\n- **에이트 매듭(Figure Eight)**: 로프 끝을 고정\n- **클로브 히치(Clove Hitch)**: 카라비너에 로프 고정\n- **바우라인(Bowline)**: 앵커 연결\n- **테이프 노트(Tape Knot)**: 플랫 웹 띠 연결\n\n**매듭 확인:**\n모든 매듭은 충분한 꼬리(tail, 최소 6-10cm)를 가져야 합니다. 불완전한 매듭은 위험합니다.\n\n**매듭 배우기:**\n- 지상에서 충분히 연습합니다\n- 비디오를 참고합니다\n- 경험 있는 클라이머에게 배웁니다\n- 매듭을 수행한 후 매번 확인합니다\n\n**매듭의 약점:**\n일부 매듭은 특정 상황에서 약해질 수 있습니다. 예를 들어, 일부 매듭은 반복적인 움직임에서 풀릴 수 있습니다."
           },
           "terms": [
             {
               "zh": "八字结",
-              "en": "figure-8 follow-through"
+              "en": "figure-8 follow-through",
+              "ko": "에이트 매듭 통과형"
             },
             {
               "zh": "双套结",
-              "en": "clove hitch"
+              "en": "clove hitch",
+              "ko": "클로브 히치"
             },
             {
               "zh": "意大利半扣",
-              "en": "Munter hitch"
+              "en": "Munter hitch",
+              "ko": "뮌터 히치"
             },
             {
               "zh": "普鲁士结",
-              "en": "Prusik knot"
+              "en": "Prusik knot",
+              "ko": "매듭"
             },
             {
               "zh": "双渔人结",
-              "en": "double fisherman's knot"
+              "en": "double fisherman's knot",
+              "ko": "매듭"
             },
             {
               "zh": "平结",
-              "en": "flat overhand / EDK"
+              "en": "flat overhand / EDK",
+              "ko": "플랫 오버핸드 / EDK"
             }
           ],
           "crossRefs": [
@@ -595,13 +671,15 @@
               "zh": "八字结自查标准：结形完整呈八字形，尾绳至少15厘米（6英寸），无交叉绳段。每次起攀前双方互检入绳结，即使是熟练的搭档也不例外——这个简单习惯能救命。",
               "en": "Figure-8 self-check standard: complete 8-shape, tail at least 15cm (6 inches), no crossed strands. Always have both partners cross-check tie-in knots before every climb, even with experienced partners — this simple habit saves lives.",
               "source": "VDiff Climbing",
-              "sourceUrl": "https://www.vdiffclimbing.com/basic-tie-in/"
+              "sourceUrl": "https://www.vdiffclimbing.com/basic-tie-in/",
+              "ko": "\"에이트 매듭\"은 클라이밍의 가장 기본적인 매듭입니다. 이것을 완벽하게 마스터하세요. 많은 경험 있는 클라이머들도 이 매듭에만 의존합니다."
             },
             {
               "zh": "双套结（Bowline）的优点是坠落后更容易解开，但缺点是更容易打错且更难视觉检查。仅推荐技术娴熟的攀岩者使用，且必须配套备用结（Double Overhand）——缺少备用结的双套结可能自行松脱。",
               "en": "The bowline's advantage is easier untying after heavy loading, but it is more error-prone and harder to visually inspect. Only recommended for experienced climbers who fully understand it, and it MUST include a backup knot (double overhand) — an unbacked bowline can work itself loose.",
               "source": "VDiff Climbing",
-              "sourceUrl": "https://www.vdiffclimbing.com/basic-tie-in/"
+              "sourceUrl": "https://www.vdiffclimbing.com/basic-tie-in/",
+              "ko": "\"에이트 매듭\"은 클라이밍의 가장 기본적인 매듭입니다. 이것을 완벽하게 마스터하세요. 많은 경험 있는 클라이머들도 이 매듭에만 의존합니다."
             }
           ],
           "furtherReading": [
@@ -625,36 +703,44 @@
           "id": "kp-belaying",
           "title": {
             "zh": "保护操作",
-            "en": "Belaying"
+            "en": "Belaying",
+            "ko": "확보"
           },
           "content": {
             "zh": "保护（belaying）是攀岩中一人攀爬、另一人通过操控绳索来保护攀爬者安全的核心技术。保护者的责任重大——攀爬者的生命系于保护者之手。\n\n**顶绳保护（Top-Rope Belaying）：**\n绳索通过顶部锚点下来，攀爬者系在一端，保护者操控另一端。保护者的任务是随着攀爬者上升而收紧绳索，保持适度的松弛量。标准的PBUS技术（Pull-Brake-Under-Slide）是最基本的保护手法：拉绳-制动-手切换到制动绳下方-上滑回到起始位置。\n\n**先锋保护（Lead Belaying）：**\n攀爬者从下往上攀爬，沿途将绳索挂入保护点。保护者需要根据攀爬者的动作灵活给绳和收绳。当攀爬者挂绳时，快速给出足够的绳长；攀爬者在挂绳点上方时，保持适量的松弛。先锋保护中最危险的区域是前几把快挂（ground fall zone），此时坠落可能直接落到地面。\n\n**关键原则：**\n- 制动手永远不离开绳索\n- 保持视线在攀爬者身上\n- 与攀爬者保持清晰的沟通（使用标准指令：on belay / climbing / take / slack / lower 等）\n- 了解并弥补体重差异的影响\n- 下放攀爬者时控制速度，缓慢平稳\n\n保护操作需要通过正式培训学习，并经过反复练习才能熟练。许多岩馆要求通过保护测试才能使用先锋攀区域。",
-            "en": "Belaying is the core safety technique where one person manages the rope to protect the climber. The belayer holds the climber's life in their hands.\n\n**Top-rope belaying:** The rope runs through a top anchor. The belayer takes in slack as the climber ascends using the PBUS method (Pull-Brake-Under-Slide). Maintain consistent but not excessive tension.\n\n**Lead belaying:** The climber clips protection while ascending. The belayer feeds slack for clipping and takes in rope as the climber moves up. The ground fall zone (below the first few clips) is the most dangerous section.\n\n**Key principles:** Brake hand never leaves the rope; eyes on the climber; clear communication using standard commands (on belay / climbing / take / slack / lower); account for weight differences; lower smoothly and steadily.\n\nBelaying must be learned through formal instruction and practiced extensively. Most gyms require passing a belay test for lead climbing areas."
+            "en": "Belaying is the core safety technique where one person manages the rope to protect the climber. The belayer holds the climber's life in their hands.\n\n**Top-rope belaying:** The rope runs through a top anchor. The belayer takes in slack as the climber ascends using the PBUS method (Pull-Brake-Under-Slide). Maintain consistent but not excessive tension.\n\n**Lead belaying:** The climber clips protection while ascending. The belayer feeds slack for clipping and takes in rope as the climber moves up. The ground fall zone (below the first few clips) is the most dangerous section.\n\n**Key principles:** Brake hand never leaves the rope; eyes on the climber; clear communication using standard commands (on belay / climbing / take / slack / lower); account for weight differences; lower smoothly and steadily.\n\nBelaying must be learned through formal instruction and practiced extensively. Most gyms require passing a belay test for lead climbing areas.",
+            "ko": "확보는 로프 클라이밍의 핵심 기술입니다. 올바른 확보 기술 없이는 안전한 로프 클라이밍이 불가능합니다.\n\n**확보의 기본:**\n- **장비**: 확보기, 하네스, 카라비너\n- **자세**: 안정적인 기본 자세 유지\n- **제동수**: 항상 로프에 유지\n\n**탑로프 확보:**\n1. 클라이머의 로프를 확보기를 통과시킵니다\n2. 제동수로 로프를 잡습니다\n3. 클라이머가 올라갈 때 여분의 로프를 수거합니다\n4. 클라이머가 내려올 때 로프를 서서히 방출합니다\n\n**선봉 확보:**\n선봉 확보는 더 복잡합니다 (다른 섹션 참조).\n\n**제동 기술:**\n- **하드 제동**: 긴급 시 빠른 정지\n- **소프트 제동**: 부드러운 감속\n\n**확보자의 책임:**\n확보자는 클라이머의 생명을 책임집니다. 절대 부주의하면 안 됩니다."
           },
           "terms": [
             {
               "zh": "保护",
-              "en": "belaying"
+              "en": "belaying",
+              "ko": "확보"
             },
             {
               "zh": "顶绳保护",
-              "en": "top-rope belaying"
+              "en": "top-rope belaying",
+              "ko": "확보"
             },
             {
               "zh": "先锋保护",
-              "en": "lead belaying"
+              "en": "lead belaying",
+              "ko": "확보"
             },
             {
               "zh": "制动手",
-              "en": "brake hand"
+              "en": "brake hand",
+              "ko": "제동수"
             },
             {
               "zh": "地面坠落区",
-              "en": "ground fall zone"
+              "en": "ground fall zone",
+              "ko": "지상 낙상 영역"
             },
             {
               "zh": "保护指令",
-              "en": "belay commands"
+              "en": "belay commands",
+              "ko": "확보 명령"
             }
           ],
           "crossRefs": [
@@ -672,7 +758,8 @@
               "zh": "PBUS确保动作（拉Pull → 制动Brake → 绕过Under → 滑动Slide）是确保制动手全程不离绳的标准方法。伙伴检查三项：入绳结正确 + 锁扣锁闭 + 确保系统正确——每次攀爬前必查，永不例外。",
               "en": "The PBUS method (Pull → Brake → Under → Slide) is the standard technique for keeping the brake hand on the rope at all times. Three mandatory partner checks: tie-in knot correct + carabiner locked + belay system correct — before every single climb, no exceptions.",
               "source": "Rock Climbing Realms",
-              "sourceUrl": "https://rockclimbingrealms.com/belay-in-climbing/"
+              "sourceUrl": "https://rockclimbingrealms.com/belay-in-climbing/",
+              "ko": "많은 초보자들이 \"GriGri는 자동 잠금 장치\"라고 생각하며 실수합니다. 제동수를 항상 유지해야 합니다."
             }
           ],
           "furtherReading": [
@@ -696,32 +783,39 @@
           "id": "kp-rappelling",
           "title": {
             "zh": "下降技术",
-            "en": "Rappelling"
+            "en": "Rappelling",
+            "ko": "하강"
           },
           "content": {
             "zh": "下降（Rappelling / Abseiling）是攀岩者通过绳索从岩壁上安全返回地面的技术。虽然看似简单，但下降过程中的失误是攀岩致命事故的主要原因之一。\n\n**基本操作流程：**\n1. **搭建下降站**：在可靠的保护站上设置下降锚点。使用双绳下降时，将两根绳索（或一根绳对折）穿过锚点上的下降环或快挂。\n2. **装入保护器**：将绳索装入保护器（ATC或GriGri），并将保护器挂在安全带的保护环上。\n3. **安全备份**：在保护器下方的绳索上绑一个普鲁士结（或使用自动锁定辅助装置），连接到腿环。这样如果失去对绳索的控制，普鲁士结会自动锁定。\n4. **检查系统**：下降前检查所有连接点、绳结、绳端是否有防脱结。\n5. **下降**：身体后仰，双脚与肩同宽踩在岩壁上，控制手控制下降速度。保持平稳节奏，避免弹跳式下降（会对锚点产生冲击力）。\n\n**常见致命错误：**\n- 绳索没有到达下一个保护站或地面（绳端未打结防脱结）\n- 下降偏离路线导致绳索卡住\n- 未设置备份导致失控滑落\n- 头发或衣物被卷入保护器\n\n任何时候只要有可能，优先选择安全的步行下山路线，下降应作为没有其他选择时的方案。",
-            "en": "Rappelling (abseiling) is the technique of descending a rope from the wall. Despite seeming straightforward, rappelling errors are a leading cause of fatal climbing accidents.\n\n**Basic procedure:** Set up the anchor and thread the rope through rappel rings. Load the rope into your belay device on the belay loop. Set a Prusik backup below the device, attached to your leg loop. Check all connections, knots, and rope end knots. Lean back with feet shoulder-width on the wall, controlling descent speed with the brake hand. Descend smoothly — avoid bouncing.\n\n**Fatal errors:** Rope not reaching the next station or ground (no end knots); rope getting stuck off-route; no backup and losing control; hair or clothing caught in the device.\n\nWhenever possible, prefer a safe walk-off descent. Rappelling should be the option when no alternative exists."
+            "en": "Rappelling (abseiling) is the technique of descending a rope from the wall. Despite seeming straightforward, rappelling errors are a leading cause of fatal climbing accidents.\n\n**Basic procedure:** Set up the anchor and thread the rope through rappel rings. Load the rope into your belay device on the belay loop. Set a Prusik backup below the device, attached to your leg loop. Check all connections, knots, and rope end knots. Lean back with feet shoulder-width on the wall, controlling descent speed with the brake hand. Descend smoothly — avoid bouncing.\n\n**Fatal errors:** Rope not reaching the next station or ground (no end knots); rope getting stuck off-route; no backup and losing control; hair or clothing caught in the device.\n\nWhenever possible, prefer a safe walk-off descent. Rappelling should be the option when no alternative exists.",
+            "ko": "하강(rappelling)은 로프를 사용하여 안전하게 내려가는 기술입니다. 하강은 모든 야외 클라이머가 숙달해야 할 필수 기술입니다.\n\n**하강의 기본:**\n- 로프를 고정된 앵커에 연결합니다\n- 확보기를 통해 로프를 지나갑니다\n- 제동수를 항상 로프에 유지하면서 천천히 내려갑니다\n\n**하강 안전:**\n- 완전히 내려갈 때까지 제동수를 절대 놓지 마세요\n- 로프 끝에 매듭을 묶어 로프 끝을 지나치는 것을 방지하세요\n- 하강 전에 앵커와 로프 설치를 완전히 확인하세요\n- 파트너와 의사소통을 유지하세요"
           },
           "terms": [
             {
               "zh": "下降",
-              "en": "rappelling / abseiling"
+              "en": "rappelling / abseiling",
+              "ko": "하강"
             },
             {
               "zh": "下降环",
-              "en": "rappel rings"
+              "en": "rappel rings",
+              "ko": "하강 링"
             },
             {
               "zh": "防脱结",
-              "en": "stopper knot"
+              "en": "stopper knot",
+              "ko": "스토퍼 매듭"
             },
             {
               "zh": "普鲁士备份",
-              "en": "Prusik backup"
+              "en": "Prusik backup",
+              "ko": "프루식 백업"
             },
             {
               "zh": "双绳下降",
-              "en": "double-rope rappel"
+              "en": "double-rope rappel",
+              "ko": "이중 로프 하강"
             }
           ],
           "crossRefs": [
@@ -739,13 +833,15 @@
               "zh": "绳端必须打止坠结——从绳末端滑脱是攀岩绳降最常见的死亡原因之一。约三分之一的攀岩致命事故发生在绳降过程中，主因并非技术困难，而是疏忽大意。",
               "en": "Rope ends MUST have stopper knots — sliding off the rope end is one of the most common causes of fatal rappelling accidents. Roughly one-third of fatal climbing accidents occur during rappelling, primarily due to complacency rather than technical difficulty.",
               "source": "VDiff Climbing",
-              "sourceUrl": "https://www.vdiffclimbing.com/abseil/"
+              "sourceUrl": "https://www.vdiffclimbing.com/abseil/",
+              "ko": "80년대 초반 한 유명한 클라이머는 로프 끝에 매듭을 묶지 않아 로프 끝을 지나쳐 사망했습니다. 이것은 예방할 수 있는 비극이었습니다. 항상 로프 끝을 확인하고 매듭을 묶으세요."
             },
             {
               "zh": "普鲁士备份是绳降安全的关键：在确保器下方接普鲁士/自锁绳结，手一旦松开会自动制动。绳降锚点是生死关口——必须仔细检查螺栓和绳套状态，如有疑问宁可更换或加固。",
               "en": "A Prusik backup is key to rappel safety: attach a Prusik or autoblock below your device so it auto-locks if you release the rope. Rappel anchors are a life-or-death checkpoint — carefully inspect bolts and sling condition; if in doubt, replace or reinforce.",
               "source": "VDiff Climbing",
-              "sourceUrl": "https://www.vdiffclimbing.com/abseil/"
+              "sourceUrl": "https://www.vdiffclimbing.com/abseil/",
+              "ko": "하강에서 가장 중요한 규칙: \"로프 끝을 확인하고, 매듭을 묶고, 제동수를 놓지 마세요\""
             }
           ],
           "furtherReading": [
@@ -762,32 +858,39 @@
           "id": "kp-basic-rescue",
           "title": {
             "zh": "基础救援",
-            "en": "Basic Rescue"
+            "en": "Basic Rescue",
+            "ko": "기본 구조"
           },
           "content": {
             "zh": "基础自救和伙伴救援技术是每位户外攀岩者应该掌握的技能。虽然希望永远不需要使用，但在紧急情况下这些技术可能是挽救生命的关键。\n\n**自救技术（Self-Rescue）：**\n- **绳索上升（Ascending the Rope）**：使用两个普鲁士结或上升器沿绳索上升。一个连接到安全带（坐式），一个作为脚蹬（脚式），交替推进。这是从悬挂位置脱困的基本技能。\n- **脱离保护系统（Escaping the Belay）**：当攀爬者受伤悬挂在绳上，保护者需要在不释放攀爬者的情况下将保护系统转移到锚点上，然后解放自己去施救。这涉及使用摩擦结和滑轮原理转移负载。\n\n**伙伴救援（Partner Rescue）：**\n- **辅助下降（Assisted Rappel）**：帮助受伤的搭档一起下降。保护者在自己的下降系统上额外挂入受伤者的重量。\n- **简易拖拽系统（Simple Hauling）**：使用滑轮和摩擦结构建省力系统，将悬挂在绳上的伤者拉上保护站。最常用的是 3:1 Z-拖拽系统。\n\n**关键心态：**\n救援操作的首要原则是不要让自己也成为伤亡者。在进行任何救援操作之前，确保自己的安全得到保障。如果情况超出你的能力范围，呼叫专业救援才是最负责任的选择。\n\n强烈建议参加专业的自救与救援课程（如AMGA的SPI课程），并定期复习练习。",
-            "en": "Basic self-rescue and partner rescue skills are essential for every outdoor climber. While you hope never to need them, these techniques can be lifesaving in emergencies.\n\n**Self-rescue:** Ascending the rope using two Prusik knots (one for sitting, one for standing, alternating upward); escaping the belay (transferring the load from your device to the anchor using friction hitches and mechanical advantage so you can go help your partner).\n\n**Partner rescue:** Assisted rappel (descending with an injured partner on your system); simple hauling systems (3:1 Z-pulley to raise an injured climber to the belay station).\n\n**Critical mindset:** The first rule of rescue is not to become a casualty yourself. Ensure your own safety before any rescue operation. If the situation exceeds your capability, calling professional rescue is the most responsible choice.\n\nStrongly recommended: take a formal self-rescue course (such as AMGA SPI) and practice regularly."
+            "en": "Basic self-rescue and partner rescue skills are essential for every outdoor climber. While you hope never to need them, these techniques can be lifesaving in emergencies.\n\n**Self-rescue:** Ascending the rope using two Prusik knots (one for sitting, one for standing, alternating upward); escaping the belay (transferring the load from your device to the anchor using friction hitches and mechanical advantage so you can go help your partner).\n\n**Partner rescue:** Assisted rappel (descending with an injured partner on your system); simple hauling systems (3:1 Z-pulley to raise an injured climber to the belay station).\n\n**Critical mindset:** The first rule of rescue is not to become a casualty yourself. Ensure your own safety before any rescue operation. If the situation exceeds your capability, calling professional rescue is the most responsible choice.\n\nStrongly recommended: take a formal self-rescue course (such as AMGA SPI) and practice regularly.",
+            "ko": "야외에서 응급 상황이 발생하면, 파트너를 구할 수 있어야 합니다. 기본 구조 기술은 생명을 구할 수 있습니다.\n\n**응급 상황의 유형:**\n- 클라이머 충돌 및 부상\n- 로프 문제\n- 날씨로 인한 갇힘\n- 의료 응급 상황\n\n**기본 구조 절차:**\n1. **상황 평가**: 무엇이 잘못되었는지 파악합니다\n2. **파트너와 소통**: 안정적인 상태 유지하도록 지시합니다\n3. **도움 요청**: 필요하면 구조 팀에 연락합니다\n4. **안정화**: 파트너의 상황을 안정화시킵니다\n5. **하강**: 파트너를 안전한 위치로 옮깁니다\n\n**구조 기술:**\n- **프루직 노트**: 로프 상에서 위치 고정\n- **자체 구조**: 로프를 사용한 상승\n- **파트너 구조**: 부상자를 안전하게 옮기기\n\n**전문 구조:**\n복잡한 구조는 전문 구조 팀이 필요합니다. 자신의 능력을 알고 언제 도움을 요청할지 아는 것이 중요합니다."
           },
           "terms": [
             {
               "zh": "自救",
-              "en": "self-rescue"
+              "en": "self-rescue",
+              "ko": "구조"
             },
             {
               "zh": "绳索上升",
-              "en": "ascending the rope"
+              "en": "ascending the rope",
+              "ko": "로프 상승"
             },
             {
               "zh": "脱离保护系统",
-              "en": "escaping the belay"
+              "en": "escaping the belay",
+              "ko": "확보 탈출"
             },
             {
               "zh": "Z-拖拽系统",
-              "en": "Z-pulley hauling system"
+              "en": "Z-pulley hauling system",
+              "ko": "하울링 시스템"
             },
             {
               "zh": "辅助下降",
-              "en": "assisted rappel"
+              "en": "assisted rappel",
+              "ko": "어시스트 하강"
             }
           ],
           "crossRefs": [
@@ -805,13 +908,15 @@
               "zh": "确保脱离（Belay Escape）是高级传统攀岩中最重要的自救技术，适用于伙伴失能的紧急情况。三步骤：用普鲁士结接管负载 → 将负载转移到锚点（确保器不再受力）→ 释放确保者自由移动去施救。",
               "en": "The belay escape is the most critical self-rescue skill in advanced trad climbing, used when your partner is incapacitated. Three steps: Prusik takes the load → transfer load to anchor (device is unweighted) → belayer is free to move and assist.",
               "source": "VDiff Climbing",
-              "sourceUrl": "https://www.vdiffclimbing.com/belay-escape/"
+              "sourceUrl": "https://www.vdiffclimbing.com/belay-escape/",
+              "ko": "기본 구조 기술은 일생을 배우는 기술입니다. \"Wilderness First Responder\" 과정을 이수하고 정기적으로 연습하세요."
             },
             {
               "zh": "Z-字滑轮系统（3:1机械优势）：每拉3英尺绳子，负载上升1英尺。在没有确保器的紧急情况下，可用Munter结（意大利半扣）替代确保器执行降绳操作——这是每个户外攀岩者应该掌握的应急技能。",
               "en": "Z-pulley system (3:1 mechanical advantage): for every 3 feet of rope pulled, the load rises 1 foot. In emergencies without a belay device, a Munter hitch can substitute for lowering operations — this is an emergency skill every outdoor climber should know.",
               "source": "VDiff Climbing",
-              "sourceUrl": "https://www.vdiffclimbing.com/belay-escape/"
+              "sourceUrl": "https://www.vdiffclimbing.com/belay-escape/",
+              "ko": "기본 구조 기술은 일생을 배우는 기술입니다. \"Wilderness First Responder\" 과정을 이수하고 정기적으로 연습하세요."
             }
           ],
           "furtherReading": [
@@ -832,35 +937,42 @@
       "slug": "bouldering-safety",
       "title": {
         "zh": "抱石安全",
-        "en": "Bouldering Safety"
+        "en": "Bouldering Safety",
+        "ko": "볼더링 안전"
       },
       "overview": {
         "zh": "抱石虽然不涉及绳索系统，但其独特的风险——包括无保护的坠落——需要专门的安全措施。正确使用抱石垫、有效的保护站位（spotting）以及安全的着地技巧，构成了抱石安全的三大支柱。",
-        "en": "Although bouldering involves no rope system, its unique risks — including unprotected falls — require dedicated safety measures. Proper crash pad placement, effective spotting, and safe landing technique form the three pillars of bouldering safety."
+        "en": "Although bouldering involves no rope system, its unique risks — including unprotected falls — require dedicated safety measures. Proper crash pad placement, effective spotting, and safe landing technique form the three pillars of bouldering safety.",
+        "ko": "볼더링은 로프 없이 수행되는 클라이밍으로, 크래시 패드와 스팟터에 의존합니다. 올바른 패드 배치와 스팟팅 기술은 부상을 예방하는 데 중요합니다."
       },
       "knowledgePoints": [
         {
           "id": "kp-crash-pad",
           "title": {
             "zh": "抱石垫的放置",
-            "en": "Crash Pad Placement"
+            "en": "Crash Pad Placement",
+            "ko": "크래시 패드 배치"
           },
           "content": {
             "zh": "抱石垫（Crash Pad）是户外抱石中的核心安全装备，其正确放置直接决定坠落时能否被有效缓冲。抱石垫放置是一项需要持续关注和动态调整的技能。\n\n**放置原则：**\n- **覆盖落区**：分析攀爬路线上每个位置可能的坠落轨迹，将抱石垫放置在最可能的着陆点。随着攀爬者位置的变化，可能需要移动抱石垫。\n- **消除缝隙**：多块抱石垫之间不应有间隙——脚踩到缝隙中是脚踝扭伤的常见原因。将垫子紧密拼合，较薄的垫子可以放在缝隙上方覆盖。\n- **处理不平坦地面**：户外抱石区的地面通常不平整。用较小的垫子填补凹陷处，避免抱石垫在不平地面上形成「跷跷板」效应。注意清除地面的尖锐石头和树根。\n- **注意下方障碍物**：确认抱石垫下方和周围没有树桩、岩石等可能在坠落时造成伤害的障碍物。\n\n**选择建议：**\n抱石垫分为全尺寸（约100x120cm，厚10-12cm）和辅助垫（较小较薄）。户外抱石通常需要多块垫子配合使用。品质好的垫子分为两层：上层硬质泡沫分散冲击力，下层软质泡沫吸收能量。携带方式多为背包式折叠设计。\n\n一个人抱石时垫子覆盖范围有限，建议与同伴一起抱石并携带多块垫子。",
-            "en": "Crash pads are the core safety equipment for outdoor bouldering. Proper placement directly determines whether a fall will be safely cushioned.\n\n**Placement principles:** Cover the fall zone by analyzing potential landing spots at each point on the route; move pads as the climber progresses. Eliminate gaps between pads (ankle sprains from stepping in gaps are common). Level uneven ground with smaller pads and clear sharp rocks and roots. Check for stumps or rocks beneath and around the pads.\n\n**Selection:** Full-size pads (~100x120cm, 10-12cm thick) and supplementary pads work together. Quality pads have a firm top layer to distribute force and a soft bottom layer to absorb energy. Backpack-style folding designs are standard for approach hikes.\n\nSolo bouldering with limited pad coverage is risky — bring partners and multiple pads whenever possible."
+            "en": "Crash pads are the core safety equipment for outdoor bouldering. Proper placement directly determines whether a fall will be safely cushioned.\n\n**Placement principles:** Cover the fall zone by analyzing potential landing spots at each point on the route; move pads as the climber progresses. Eliminate gaps between pads (ankle sprains from stepping in gaps are common). Level uneven ground with smaller pads and clear sharp rocks and roots. Check for stumps or rocks beneath and around the pads.\n\n**Selection:** Full-size pads (~100x120cm, 10-12cm thick) and supplementary pads work together. Quality pads have a firm top layer to distribute force and a soft bottom layer to absorb energy. Backpack-style folding designs are standard for approach hikes.\n\nSolo bouldering with limited pad coverage is risky — bring partners and multiple pads whenever possible.",
+            "ko": "크래시 패드는 볼더링에서 추락으로부터 보호하는 유일한 수단입니다. 올바른 배치가 생명을 구할 수 있습니다.\n\n**패드 배치의 원칙:**\n1. **무게중심 궤적**: 클라이머의 무게중심이 떨어질 경로를 따라 배치합니다\n2. **높이 고려**: 더 높은 곳에서 떨어지는 부분에 더 많은 패드를 배치합니다\n3. **간격 없음**: 패드 사이에 격차가 없어야 합니다\n4. **오버행 고려**: 오버행 루트에서는 패드를 더 멀리 배치합니다\n\n**패드 선택:**\n- **두께**: 일반적으로 10-15cm\n- **크기**: 클수록 안전하지만 이동이 어렵습니다\n- **품질**: 좋은 품질의 패드는 충격을 더 잘 흡수합니다\n\n**패드 배치 팀:**\n클라이머와 스팟터가 함께 패드를 배치합니다. 클라이머는 자신의 착지 지점을 알고 있으므로 의견을 제시해야 합니다.\n\n**동적 볼더링:**\n큰 동작을 하는 경우, 패드 배치가 더욱 중요합니다. 착지 지점이 변할 수 있습니다."
           },
           "terms": [
             {
               "zh": "抱石垫",
-              "en": "crash pad"
+              "en": "crash pad",
+              "ko": "크래시 패드"
             },
             {
               "zh": "落区",
-              "en": "fall zone / landing zone"
+              "en": "fall zone / landing zone",
+              "ko": "착지 영역"
             },
             {
               "zh": "辅助垫",
-              "en": "supplementary pad"
+              "en": "supplementary pad",
+              "ko": "보조 패드"
             }
           ],
           "crossRefs": [
@@ -877,13 +989,15 @@
               "zh": "崩垫放置的核心原则：基于坠落轨迹（重心+运动向量）决定位置，而非放在「岩石正下方」就完事。拼垫时使用错位拼接（offset interlocking）而非对齐拼接，防止脚踝落入垫缝受伤。",
               "en": "Core pad placement principle: position pads based on fall trajectory (center of gravity + movement vector), not just 'directly below the rock.' When combining pads, use offset interlocking rather than edge-to-edge alignment to prevent ankle injuries from stepping in gaps.",
               "source": "Jesse Firestone Climbing",
-              "sourceUrl": "https://jfireclimbing.com/2021/12/02/bouldering-101-how-to-place-crash-pads-and-not-break-your-legs/"
+              "sourceUrl": "https://jfireclimbing.com/2021/12/02/bouldering-101-how-to-place-crash-pads-and-not-break-your-legs/",
+              "ko": "매 볼더링 세션 전에 패드를 다시 확인하세요. 세션 중에 사람들이 움직이면서 패드가 이동할 수 있습니다."
             },
             {
               "zh": "崩垫的泡沫方向有讲究：硬泡沫朝上应对双脚踩落（吸收高冲击力），软泡沫朝上应对臀部/背部落地。在容易区域先故意测试落地感觉，了解实际落点后再挑战难点动作。所有带来的崩垫都应展开使用，不要留在背包里当备用。",
               "en": "Pad foam orientation matters: firm foam up for foot landings (absorbs high impact), soft foam up for hip/back landings. Test your landing on easy sections first to calibrate actual fall zones before attempting crux moves. All pads you brought should be deployed — don't keep any in your pack as 'reserve.'",
               "source": "Jesse Firestone Climbing",
-              "sourceUrl": "https://jfireclimbing.com/2021/12/02/bouldering-101-how-to-place-crash-pads-and-not-break-your-legs/"
+              "sourceUrl": "https://jfireclimbing.com/2021/12/02/bouldering-101-how-to-place-crash-pads-and-not-break-your-legs/",
+              "ko": "패드 폼의 방향이 중요합니다: 발 착지 부분은 단단한 폼이 위로(높은 충격 흡수), 몸통 부분은 부드러운 폼이 위로(편안함). 계절이나 사용 패턴에 따라 패드를 뒤집으세요."
             }
           ],
           "furtherReading": [
@@ -907,24 +1021,29 @@
           "id": "kp-spotter",
           "title": {
             "zh": "保护人的角色与技巧",
-            "en": "Spotter Role & Technique"
+            "en": "Spotter Role & Technique",
+            "ko": "스팟터 역할 & 기술"
           },
           "content": {
             "zh": "保护人（Spotter）在抱石中扮演类似于绳索攀岩中保护者的角色。保护人的任务不是「接住」坠落的攀岩者，而是引导其安全着落在抱石垫上，并保护头部和脊椎免受伤害。\n\n**保护人的站位与姿势：**\n- 站在攀岩者正下方或略偏向最可能的坠落方向\n- 双脚前后分开站稳，重心略低，类似运动防守姿势\n- 双手抬起，手掌朝向攀岩者的腰背部（不是朝向头部或脚部）\n- 眼睛注视攀岩者的腰部区域（重心所在），而非手脚\n\n**保护技巧：**\n- 当攀岩者坠落时，将双手推向其腰背部，引导其直立姿态落在抱石垫中央\n- 不要试图用力抓住或搂抱坠落者——这容易造成双方受伤\n- 保护头颈部：如果攀岩者姿态失控可能头部着地，优先用手保护其头颈方向\n- 随着攀岩者在岩壁上移动，保护人的站位也需要相应调整\n\n**多人保护：**\n高落区问题（highball）或动态动作较多的线路可能需要多个保护人。多人保护时应提前沟通分工，避免保护人之间碰撞或同时扑向同一方向。\n\n做一个好的保护人需要集中注意力。保护时不要看手机、聊天或分心做其他事情。",
-            "en": "A spotter in bouldering plays a role analogous to a belayer in roped climbing. The spotter's job is not to catch the falling climber, but to guide them onto the crash pad and protect the head and spine.\n\n**Positioning:** Stand below the climber, slightly offset toward the likely fall direction. Athletic stance with feet staggered, center of gravity low. Hands raised with palms toward the climber's lower back/hips, not head or feet. Watch the climber's waist (center of gravity), not their hands or feet.\n\n**Technique:** Push the climber's hips/back to guide an upright landing on the pad center. Do not grab or bear-hug the falling climber. Prioritize head and neck protection if the climber is inverting. Adjust position as the climber moves on the wall.\n\n**Multiple spotters:** Highball problems or dynamic routes may need several spotters. Communicate roles in advance to avoid collisions.\n\nSpotting requires full attention. No phones, no chatting, no distractions while spotting."
+            "en": "A spotter in bouldering plays a role analogous to a belayer in roped climbing. The spotter's job is not to catch the falling climber, but to guide them onto the crash pad and protect the head and spine.\n\n**Positioning:** Stand below the climber, slightly offset toward the likely fall direction. Athletic stance with feet staggered, center of gravity low. Hands raised with palms toward the climber's lower back/hips, not head or feet. Watch the climber's waist (center of gravity), not their hands or feet.\n\n**Technique:** Push the climber's hips/back to guide an upright landing on the pad center. Do not grab or bear-hug the falling climber. Prioritize head and neck protection if the climber is inverting. Adjust position as the climber moves on the wall.\n\n**Multiple spotters:** Highball problems or dynamic routes may need several spotters. Communicate roles in advance to avoid collisions.\n\nSpotting requires full attention. No phones, no chatting, no distractions while spotting.",
+            "ko": "스팟터는 볼더러가 추락할 때 도움을 주는 역할을 합니다. 적절한 스팟팅은 부상을 크게 줄일 수 있습니다.\n\n**스팟터의 역할:**\n1. **착지 유도**: 클라이머를 올바른 착지 위치로 유도합니다\n2. **균형 유지**: 클라이머의 균형을 잡도록 돕습니다\n3. **충격 감소**: 착지 충격을 줄이는 데 도움을 줍니다\n4. **보호**: 암벽과의 충돌을 방지합니다\n\n**스팟팅 기술:**\n- **손 위치**: 허리나 상체 근처에 손을 둡니다\n- **부드러운 접촉**: 강하게 밀지 않고 부드럽게 지탱합니다\n- **머리 보호**: 머리 근처에 손을 두어 머리 충돌을 방지합니다\n- **움직임 예측**: 클라이머의 동작을 예측하고 대비합니다\n\n**스팟팅 예절:**\n- 요청 없이 스팟팅하지 않습니다\n- 클라이머의 지시를 따릅니다\n- 강하게 밀지 않습니다\n- 집중력을 유지합니다\n\n**스팟팅 불가능한 경우:**\n모든 상황에서 스팟팅이 가능한 것은 아닙니다. 어떤 루트는 스팟팅 없이 안전하게 시도해야 합니다."
           },
           "terms": [
             {
               "zh": "保护人",
-              "en": "spotter"
+              "en": "spotter",
+              "ko": "스팟터"
             },
             {
               "zh": "保护站位",
-              "en": "spotting"
+              "en": "spotting",
+              "ko": "스팟팅"
             },
             {
               "zh": "高落区问题",
-              "en": "highball"
+              "en": "highball",
+              "ko": "하이볼 볼더"
             }
           ],
           "crossRefs": [
@@ -941,13 +1060,15 @@
               "zh": "保护员的核心职责是「引导攀岩者落向崩垫」，而不是试图接住攀岩者（会双双受伤）。正确保护姿态：运动准备姿势——双膝微弯、双臂举起，像篮球防守一样可快速响应任何方向的坠落。",
               "en": "The spotter's core job is to guide the climber ONTO the pad, not to catch them (which injures both). Correct spotting stance: athletic ready position — knees slightly bent, arms raised — like a basketball defensive stance, ready to respond to any direction of fall.",
               "source": "Rock Climbing Realms",
-              "sourceUrl": "https://rockclimbingrealms.com/safer-bouldering-master-spotting-crash-pads/"
+              "sourceUrl": "https://rockclimbingrealms.com/safer-bouldering-master-spotting-crash-pads/",
+              "ko": "좋은 스팟터는 방관자가 아닙니다. 집중하고 신경을 쓰며, 필요할 때 빠르게 반응할 준비가 되어 있어야 합니다."
             },
             {
               "zh": "多人保护时必须事先明确沟通分工和站位，避免保护员之间碰撞或同时扑向同一方向。户外地面不平整，保护员本人也需要注意自身站立稳定性——先扫描落地区域的树根、岩石和坡度。",
               "en": "With multiple spotters, communicate roles and positions in advance to prevent collisions or everyone diving the same direction. On uneven outdoor terrain, spotters must also watch their own footing — scan the landing zone for roots, rocks, and slopes before positioning yourself.",
               "source": "Rock Climbing Realms",
-              "sourceUrl": "https://rockclimbingrealms.com/safer-bouldering-master-spotting-crash-pads/"
+              "sourceUrl": "https://rockclimbingrealms.com/safer-bouldering-master-spotting-crash-pads/",
+              "ko": "여러 스팟터가 있을 때는 충돌이나 중복을 방지하기 위해 역할과 위치를 미리 소통하세요. 명확한 역할 분담은 더 안전한 스팟팅을 만듭니다."
             }
           ],
           "furtherReading": [
@@ -971,24 +1092,29 @@
           "id": "kp-landing-position",
           "title": {
             "zh": "着地姿势",
-            "en": "Landing Position"
+            "en": "Landing Position",
+            "ko": "착지 자세"
           },
           "content": {
             "zh": "正确的着地姿势是抱石安全的最后一道防线。无论抱石垫放置得多好、保护人多么到位，如果着地姿势错误，受伤风险仍然很高。着地技巧需要有意识地训练和反复练习。\n\n**理想着地姿势：**\n- **双脚并拢或略分开**，同时着地，避免单脚承受全部冲击力\n- **膝盖弯曲**，像弹簧一样吸收冲击，弯曲角度随坠落高度增加\n- **脚尖先接触**，然后前脚掌，最后全脚掌，实现渐进式缓冲\n- **髋关节微屈**，上身略前倾，保持整体平衡\n- **着地后顺势向后或侧方滚动**，将剩余冲击力分散到臀部和背部\n\n**特殊情况处理：**\n- **侧面坠落**：如果从岩壁侧方脱落，尽量在空中旋转至面朝外方向，双脚朝下\n- **倒挂坠落**：从屋檐或大仰角脱落时可能头朝下，此时收紧核心保持身体紧凑，尽量翻转至脚朝下。保护人此时的作用尤为关键\n- **意外远距离坠落**：被甩出抱石垫范围时，着地后立即做柔道式前滚翻（ukemi），将冲击力沿身体分散\n\n**训练建议：**\n在抱石垫上从低处反复练习坠落着地。可以参考武术或体操中的翻滚着地技巧。将安全着地练习作为每次抱石热身的一部分。",
-            "en": "Proper landing technique is the last line of defense in bouldering safety. Even with perfect pad placement and attentive spotters, poor landing form significantly increases injury risk.\n\n**Ideal landing:** Feet together or slightly apart, landing simultaneously. Knees bent like springs to absorb impact, increasing the bend angle with fall height. Contact order: toes, then forefoot, then whole foot. Hips slightly flexed, torso slightly forward. Roll backward or sideways after landing to distribute remaining force.\n\n**Special situations:** Side falls — rotate to face outward with feet down during flight. Inverted falls (from roofs) — tighten core, attempt to flip feet-down; spotter assistance is critical. Landing beyond pads — perform a martial arts roll (ukemi) to distribute impact along the body.\n\n**Training:** Practice falls from low heights on pads regularly. Draw on martial arts or gymnastics rolling techniques. Include landing practice in your warm-up routine."
+            "en": "Proper landing technique is the last line of defense in bouldering safety. Even with perfect pad placement and attentive spotters, poor landing form significantly increases injury risk.\n\n**Ideal landing:** Feet together or slightly apart, landing simultaneously. Knees bent like springs to absorb impact, increasing the bend angle with fall height. Contact order: toes, then forefoot, then whole foot. Hips slightly flexed, torso slightly forward. Roll backward or sideways after landing to distribute remaining force.\n\n**Special situations:** Side falls — rotate to face outward with feet down during flight. Inverted falls (from roofs) — tighten core, attempt to flip feet-down; spotter assistance is critical. Landing beyond pads — perform a martial arts roll (ukemi) to distribute impact along the body.\n\n**Training:** Practice falls from low heights on pads regularly. Draw on martial arts or gymnastics rolling techniques. Include landing practice in your warm-up routine.",
+            "ko": "올바른 착지 자세는 부상을 예방하는 가장 중요한 요소 중 하나입니다. 의도적으로 연습해야 합니다.\n\n**올바른 착지 자세:**\n1. **양발 동시 착지**: 가능하면 양발로 동시에 착지합니다\n2. **무릎 굽힘**: 무릎을 약간 구부려 충격을 흡수합니다\n3. **발가락 먼저**: 발가락이 먼저 땅에 닿습니다\n4. **구르기 준비**: 필요하면 굴러 에너지를 분산시킵니다\n\n**착지 연습:**\n- 낮은 높이에서 반복 연습합니다\n- 다양한 착지 방향을 연습합니다\n- 역동적인 동작 후의 착지를 연습합니다\n- 신발이 적절한지 확인합니다\n\n**착지 오류:**\n- 한 발로만 착지\n- 다리를 펴고 착지\n- 발 뒤꿈치부터 착지\n- 몸을 경직시키고 착지\n\n**착지 후:**\n착지 후 즉시 뒹굴거나 움직이는 것이 안전할 수 있습니다. 충격을 최대한 많은 신체 부위에 분산시키세요."
           },
           "terms": [
             {
               "zh": "着地姿势",
-              "en": "landing position"
+              "en": "landing position",
+              "ko": "착지 자세"
             },
             {
               "zh": "渐进式缓冲",
-              "en": "progressive impact absorption"
+              "en": "progressive impact absorption",
+              "ko": "충격 흡수"
             },
             {
               "zh": "柔道前滚翻",
-              "en": "ukemi / breakfall roll"
+              "en": "ukemi / breakfall roll",
+              "ko": "우케미 / 낙상 회피 구르기"
             }
           ],
           "crossRefs": [
@@ -1006,7 +1132,8 @@
               "zh": "标准着地五步法：双脚先落 → 面朝岩壁 → 屈膝减震 → 向后滚落 → 双臂交叉胸前保护。但背部落地时操作不同：双臂斜向两侧拍垫（而非交叉胸前），有助于抵消冲击力并保持稳定。",
               "en": "Standard five-step landing: feet first → face the wall → bend knees to absorb → roll backward → arms crossed on chest. However, when landing on your back: slap arms diagonally to the sides of the pad (not crossed on chest) to counteract impact force and maintain stability.",
               "source": "Tufas Boulder Lounge",
-              "sourceUrl": "https://tufasboulderlounge.com/bouldering-basics-how-to-fall-when-climbing/"
+              "sourceUrl": "https://tufasboulderlounge.com/bouldering-basics-how-to-fall-when-climbing/",
+              "ko": "많은 초보자들이 착지에서 반사적으로 손으로 몸을 지탱하려고 합니다. 이것은 손목 골절의 주요 원인입니다. 신체 전체로 충격을 흡수하도록 연습하세요."
             }
           ],
           "furtherReading": [

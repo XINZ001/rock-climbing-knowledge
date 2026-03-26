@@ -7,6 +7,7 @@ import UserAvatar from '../ui/UserAvatar'
 
 function UserMenu() {
   const { profile, signOut } = useAuth()
+  const { lang } = useApp()
   const [open, setOpen] = useState(false)
   const ref = useRef(null)
   const navigate = useNavigate()
@@ -24,7 +25,8 @@ function UserMenu() {
     setOpen(false)
   }
 
-  const displayName = profile?.username || '攀岩者'
+  const defaultNames = { zh: '攀岩者', en: 'Climber', ko: '클라이머' }
+  const displayName = profile?.username || (defaultNames[lang] || defaultNames.zh)
 
   return (
     <div ref={ref} className="relative">
@@ -46,7 +48,7 @@ function UserMenu() {
             className="w-full flex items-center gap-2 px-4 py-2.5 text-sm hover:bg-stone-bg transition-colors text-left"
           >
             <Icon name="mountain" size={14} className="text-text-secondary" />
-            攀岩档案
+            {lang === 'zh' ? '攀岩档案' : lang === 'en' ? 'Climbing Profile' : '클라이밍 프로필'}
           </button>
           <div className="border-t border-stone-border" />
           <button
@@ -54,7 +56,7 @@ function UserMenu() {
             className="w-full flex items-center gap-2 px-4 py-2.5 text-sm hover:bg-stone-bg transition-colors text-left"
           >
             <Icon name="user" size={14} className="text-text-secondary" />
-            个人设置
+            {lang === 'zh' ? '个人设置' : lang === 'en' ? 'Settings' : '설정'}
           </button>
           <div className="border-t border-stone-border" />
           <button
@@ -62,7 +64,7 @@ function UserMenu() {
             className="w-full flex items-center gap-2 px-4 py-2.5 text-sm hover:bg-stone-bg transition-colors text-left text-red-500"
           >
             <Icon name="logOut" size={14} />
-            退出登录
+            {lang === 'zh' ? '退出登录' : lang === 'en' ? 'Sign out' : '로그아웃'}
           </button>
         </div>
       )}
@@ -80,10 +82,16 @@ export default function Header({ onToggleSidebar, onOpenAuth }) {
   const isHallOfFame = location.pathname.startsWith('/hall-of-fame')
   const isInjuries = location.pathname.startsWith('/injuries')
 
+  const navLabels = {
+    knowledge: { zh: '知识库', en: 'Knowledge', ko: '지식 라이브러리' },
+    hallOfFame: { zh: '名人堂', en: 'Hall of Fame', ko: '명예의 전당' },
+    injuries: { zh: '伤痛档案', en: 'Injury Archive', ko: '부상 기록' },
+  }
+
   const navItems = [
-    { label: lang === 'zh' ? '知识库' : 'Knowledge', to: '/knowledge', active: isKnowledge, icon: 'book' },
-    { label: lang === 'zh' ? '名人堂' : 'Hall of Fame', to: '/hall-of-fame', active: isHallOfFame, icon: 'trophy' },
-    { label: lang === 'zh' ? '伤痛档案' : 'Injury Archive', to: '/injuries', active: isInjuries, icon: 'medkit' },
+    { label: navLabels.knowledge[lang] || navLabels.knowledge.zh, to: '/knowledge', active: isKnowledge, icon: 'book' },
+    { label: navLabels.hallOfFame[lang] || navLabels.hallOfFame.zh, to: '/hall-of-fame', active: isHallOfFame, icon: 'trophy' },
+    { label: navLabels.injuries[lang] || navLabels.injuries.zh, to: '/injuries', active: isInjuries, icon: 'medkit' },
   ]
 
   return (
@@ -93,7 +101,7 @@ export default function Header({ onToggleSidebar, onOpenAuth }) {
         <div className="flex items-center gap-1 shrink-0">
           <Link to="/" className="flex items-center gap-2">
             <Icon name="mountain" size={24} className="text-forest" />
-            <span className="font-semibold text-lg">攀岩知识库</span>
+            <span className="font-semibold text-lg">{lang === 'zh' ? '攀岩知识库' : lang === 'en' ? 'Xin Library' : '클라이밍 라이브러리'}</span>
           </Link>
           <button
             onClick={onToggleSidebar}
@@ -125,10 +133,10 @@ export default function Header({ onToggleSidebar, onOpenAuth }) {
         <div className="flex items-center gap-2 shrink-0 ml-auto sm:ml-0">
           {/* 语言切换 — 桌面端 */}
           <button
-            onClick={() => setLang(lang === 'zh' ? 'en' : 'zh')}
+            onClick={() => setLang(lang === 'zh' ? 'en' : lang === 'en' ? 'ko' : 'zh')}
             className="hidden sm:inline-flex px-2.5 py-1 rounded-md border border-stone-border text-xs font-medium hover:bg-stone-sidebar transition-colors"
           >
-            {lang === 'zh' ? 'EN' : '中文'}
+            {lang === 'zh' ? 'EN' : lang === 'en' ? '한국어' : '中文'}
           </button>
 
           {/* 登录状态 */}
@@ -144,7 +152,7 @@ export default function Header({ onToggleSidebar, onOpenAuth }) {
                   onClick={() => {}}
                   className="sm:hidden flex items-center justify-center w-9 h-9 rounded-md hover:bg-stone-sidebar transition-colors"
                 >
-                  <UserAvatar name={profile?.username || '攀岩者'} size={24} />
+                  <UserAvatar name={profile?.username || (lang === 'zh' ? '攀岩者' : lang === 'en' ? 'Climber' : '클라이머')} size={24} />
                 </button>
               </>
             ) : (
@@ -155,7 +163,7 @@ export default function Header({ onToggleSidebar, onOpenAuth }) {
                   className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-forest text-white text-sm font-medium hover:bg-forest-dark transition-colors"
                 >
                   <Icon name="user" size={14} />
-                  {lang === 'zh' ? '登录' : 'Sign in'}
+                  {lang === 'zh' ? '登录' : lang === 'en' ? 'Sign in' : '로그인'}
                 </button>
                 {/* 移动端：仅用户图标 */}
                 <button

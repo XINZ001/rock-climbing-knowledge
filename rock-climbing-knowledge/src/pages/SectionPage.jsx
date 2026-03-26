@@ -14,17 +14,17 @@ export default function SectionPage() {
     return (
       <div className="max-w-4xl mx-auto px-4 py-12 text-center">
         <h1 className="text-xl font-semibold mb-2">
-          {lang === 'zh' ? '未找到该分类' : 'Category not found'}
+          {lang === 'zh' ? '未找到该分类' : lang === 'en' ? 'Category not found' : '카테고리를 찾을 수 없습니다'}
         </h1>
         <Link to="/" className="text-forest hover:underline text-sm">
-          {lang === 'zh' ? '返回首页' : 'Back to Home'}
+          {lang === 'zh' ? '返回首页' : lang === 'en' ? 'Back to Home' : '홈으로 돌아가기'}
         </Link>
       </div>
     )
   }
 
-  const sectionTitle = lang === 'zh' ? section.title.zh : section.title.en
-  const sectionDesc = lang === 'zh' ? section.description.zh : section.description.en
+  const sectionTitle = lang === 'zh' ? section.title.zh : lang === 'en' ? section.title.en : (section.title.ko || section.title.en)
+  const sectionDesc = lang === 'zh' ? section.description.zh : lang === 'en' ? section.description.en : (section.description.ko || section.description.en)
 
   return (
     <div className="max-w-4xl mx-auto px-4 py-6">

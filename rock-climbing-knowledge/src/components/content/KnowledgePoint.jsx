@@ -87,7 +87,7 @@ export default function KnowledgePoint({ point, videos, illustrations }) {
 
   if (!point) return null
 
-  const content = lang === 'zh' ? point.content?.zh : point.content?.en
+  const content = lang === 'zh' ? point.content?.zh : lang === 'en' ? point.content?.en : (point.content?.ko || point.content?.en)
   const crossRefs = resolveCrossRefs(point.crossRefs)
 
   const videoList = Array.isArray(videos) ? videos : []
@@ -137,10 +137,10 @@ export default function KnowledgePoint({ point, videos, illustrations }) {
               className="bg-forest-light border-l-4 border-forest rounded-r-lg p-4"
             >
               <div className="text-xs font-semibold text-forest mb-1.5">
-                {lang === 'zh' ? '💡 专家补充' : '💡 Expert Insight'}
+                {lang === 'zh' ? '💡 专家补充' : lang === 'en' ? '💡 Expert Insight' : '💡 전문가 보충'}
               </div>
               <p className="text-sm leading-relaxed text-text-primary/90">
-                {lang === 'zh' ? insight.zh : insight.en}
+                {lang === 'zh' ? insight.zh : lang === 'en' ? insight.en : (insight.ko || insight.en)}
               </p>
               {insight.source && (
                 <div className="mt-2">
@@ -227,7 +227,7 @@ export default function KnowledgePoint({ point, videos, illustrations }) {
       {crossRefs.length > 0 && (
         <div className="mt-3 flex flex-wrap items-center gap-1.5">
           <Icon name="link" size={12} className="text-text-secondary" />
-          <span className="text-xs text-text-secondary">{lang === 'zh' ? '相关：' : 'Related: '}</span>
+          <span className="text-xs text-text-secondary">{lang === 'zh' ? '相关：' : lang === 'en' ? 'Related: ' : '관련: '}</span>
           {crossRefs.map(ref => (
             <Link
               key={ref.id}
@@ -244,7 +244,7 @@ export default function KnowledgePoint({ point, videos, illustrations }) {
       {point.furtherReading && point.furtherReading.length > 0 && (
         <div className="mt-3">
           <div className="text-xs text-text-secondary mb-1.5">
-            {lang === 'zh' ? '📚 延伸阅读' : '📚 Further Reading'}
+            {lang === 'zh' ? '📚 延伸阅读' : lang === 'en' ? '📚 Further Reading' : '📚 추가 읽기'}
           </div>
           <div className="space-y-1">
             {point.furtherReading.map((item, i) => (
@@ -272,7 +272,7 @@ export default function KnowledgePoint({ point, videos, illustrations }) {
       {primaryVideo && (
         <div className="mt-4 rounded-lg border border-stone-border bg-stone-card p-3">
           <div className="text-xs font-semibold text-text-secondary mb-2">
-            {lang === 'zh' ? '相关视频' : 'Related Video'}
+            {lang === 'zh' ? '相关视频' : lang === 'en' ? 'Related Video' : '관련 영상'}
           </div>
 
           <VideoEmbed video={primaryVideo} t={t} />
@@ -286,10 +286,12 @@ export default function KnowledgePoint({ point, videos, illustrations }) {
                 <span>{videosExpanded ? '▼' : '▶'}</span>
                 <span>
                   {videosExpanded
-                    ? lang === 'zh' ? '收起' : 'Collapse'
+                    ? (lang === 'zh' ? '收起' : lang === 'en' ? 'Collapse' : '접기')
                     : lang === 'zh'
                       ? `更多相关视频 (${extraVideos.length})`
-                      : `More videos (${extraVideos.length})`}
+                      : lang === 'en'
+                        ? `More videos (${extraVideos.length})`
+                        : `영상 더 보기 (${extraVideos.length})`}
                 </span>
               </button>
 

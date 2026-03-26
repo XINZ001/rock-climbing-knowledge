@@ -70,10 +70,10 @@ export default function AthletePage() {
     return (
       <div className="max-w-4xl mx-auto px-4 py-12 text-center">
         <h1 className="text-xl font-semibold mb-2">
-          {lang === 'zh' ? '未找到该人物' : 'Athlete not found'}
+          {lang === 'zh' ? '未找到该人物' : lang === 'en' ? 'Athlete not found' : '인물을 찾을 수 없습니다'}
         </h1>
         <Link to="/hall-of-fame" className="text-forest hover:underline text-sm">
-          {lang === 'zh' ? '返回名人堂' : 'Back to Hall of Fame'}
+          {lang === 'zh' ? '返回名人堂' : lang === 'en' ? 'Back to Hall of Fame' : '명예의 전당으로 돌아가기'}
         </Link>
       </div>
     )
@@ -84,17 +84,21 @@ export default function AthletePage() {
   return (
     <div className="max-w-6xl mx-auto px-4 py-6">
       <PageSEO
-        title={`${athleteName} — 攀岩名人堂`}
-        description={`${athleteName}的攀岩生涯与成就，了解这位传奇攀岩者的故事。`}
+        title={lang === 'zh' ? `${athleteName} — 攀岩名人堂` : lang === 'en' ? `${athleteName} — Climbing Hall of Fame` : `${athleteName} — 클라이밍 명예의 전당`}
+        description={lang === 'zh'
+          ? `${athleteName}的攀岩生涯与成就，了解这位传奇攀岩者的故事。`
+          : lang === 'en'
+          ? `${athleteName}'s climbing career and achievements — discover this legendary climber's story.`
+          : `${athleteName}의 클라이밍 경력과 업적 — 이 전설적인 클라이머의 이야기를 알아보세요.`}
         path={`/hall-of-fame/${athleteSlug}`}
       />
       <nav className="text-sm text-text-secondary">
         <Link to="/" className="hover:text-forest transition-colors">
-          {lang === 'zh' ? '首页' : 'Home'}
+          {lang === 'zh' ? '首页' : lang === 'en' ? 'Home' : '홈'}
         </Link>
         <span className="mx-2">/</span>
         <Link to="/hall-of-fame" className="hover:text-forest transition-colors">
-          {lang === 'zh' ? '攀岩名人堂' : 'Hall of Fame'}
+          {lang === 'zh' ? '攀岩名人堂' : lang === 'en' ? 'Hall of Fame' : '명예의 전당'}
         </Link>
         <span className="mx-2">/</span>
         <Link
@@ -191,18 +195,18 @@ export default function AthletePage() {
         <aside className="space-y-4 lg:sticky lg:top-20 lg:self-start">
           <div className="rounded-[1.5rem] border border-stone-border bg-stone-card p-5 shadow-sm">
             <h2 className="text-sm font-semibold uppercase tracking-[0.18em] text-text-secondary">
-              {lang === 'zh' ? '人物概览' : 'Profile'}
+              {lang === 'zh' ? '人物概览' : lang === 'en' ? 'Profile' : '프로필'}
             </h2>
             <dl className="mt-4 space-y-4">
               <div>
                 <dt className="text-xs uppercase tracking-wide text-text-secondary">
-                  {lang === 'zh' ? '国家/地区' : 'Nation'}
+                  {lang === 'zh' ? '国家/地区' : lang === 'en' ? 'Nation' : '국가/지역'}
                 </dt>
                 <dd className="mt-1 text-sm font-medium">{t(athlete.nationality)}</dd>
               </div>
               <div>
                 <dt className="text-xs uppercase tracking-wide text-text-secondary">
-                  {lang === 'zh' ? '活跃阶段' : 'Active era'}
+                  {lang === 'zh' ? '活跃阶段' : lang === 'en' ? 'Active era' : '활동 시기'}
                 </dt>
                 <dd className="mt-1 text-sm font-medium">{t(athlete.activeEra)}</dd>
               </div>
@@ -217,14 +221,14 @@ export default function AthletePage() {
               <div className="flex items-center justify-between gap-3">
                 <div>
                   <div className="text-xs font-semibold uppercase tracking-[0.18em] text-text-secondary">
-                    {lang === 'zh' ? '人物图集' : 'Gallery'}
+                    {lang === 'zh' ? '人物图集' : lang === 'en' ? 'Gallery' : '갤러리'}
                   </div>
                   <h2 className="mt-2 text-2xl font-semibold">
-                    {lang === 'zh' ? '图片与视觉记录' : 'Images and Visual Record'}
+                    {lang === 'zh' ? '图片与视觉记录' : lang === 'en' ? 'Images and Visual Record' : '사진 및 시각 기록'}
                   </h2>
                 </div>
                 <div className="text-xs text-text-secondary">
-                  {galleryImages.length} {lang === 'zh' ? '张图片' : 'images'}
+                  {galleryImages.length} {lang === 'zh' ? '张图片' : lang === 'en' ? 'images' : '장'}
                 </div>
               </div>
 
@@ -266,10 +270,10 @@ export default function AthletePage() {
           {media.timeline.length > 0 && (
             <section className="rounded-[1.5rem] border border-stone-border bg-stone-card p-6 shadow-sm">
               <div className="text-xs font-semibold uppercase tracking-[0.18em] text-text-secondary">
-                {lang === 'zh' ? '生涯节点' : 'Career Timeline'}
+                {lang === 'zh' ? '生涯节点' : lang === 'en' ? 'Career Timeline' : '경력 타임라인'}
               </div>
               <h2 className="mt-2 text-2xl font-semibold">
-                {lang === 'zh' ? '关键时间线' : 'Key Milestones'}
+                {lang === 'zh' ? '关键时间线' : lang === 'en' ? 'Key Milestones' : '주요 이정표'}
               </h2>
               <div className="mt-5 space-y-4">
                 {media.timeline.map((item) => (
@@ -285,10 +289,10 @@ export default function AthletePage() {
           {media.interviewNotes.length > 0 && (
             <section className="rounded-[1.5rem] border border-stone-border bg-stone-card p-6 shadow-sm">
               <div className="text-xs font-semibold uppercase tracking-[0.18em] text-text-secondary">
-                {lang === 'zh' ? '采访观察' : 'Interview Notes'}
+                {lang === 'zh' ? '采访观察' : lang === 'en' ? 'Interview Notes' : '인터뷰 노트'}
               </div>
               <h2 className="mt-2 text-2xl font-semibold">
-                {lang === 'zh' ? '信息与访谈补充' : 'Additional Context and Voice'}
+                {lang === 'zh' ? '信息与访谈补充' : lang === 'en' ? 'Additional Context and Voice' : '추가 정보와 인터뷰'}
               </h2>
               <div className="mt-5 space-y-3">
                 {media.interviewNotes.map((item, index) => (
@@ -381,15 +385,17 @@ export default function AthletePage() {
           {media.videos.length > 0 && (
             <section className="rounded-[1.5rem] border border-stone-border bg-stone-card p-6 shadow-sm">
               <div className="text-xs font-semibold uppercase tracking-[0.18em] text-text-secondary">
-                {lang === 'zh' ? '精选视频' : 'Selected Videos'}
+                {lang === 'zh' ? '精选视频' : lang === 'en' ? 'Selected Videos' : '엄선 영상'}
               </div>
               <h2 className="mt-2 text-2xl font-semibold">
-                {lang === 'zh' ? '相关影像与采访' : 'Video and Interview Picks'}
+                {lang === 'zh' ? '相关影像与采访' : lang === 'en' ? 'Video and Interview Picks' : '영상 및 인터뷰 모음'}
               </h2>
               <p className="mt-3 text-sm leading-7 text-text-secondary">
                 {lang === 'zh'
                   ? '优先收录能直接看到比赛气质、动作风格和人物表达的影像与采访。'
-                  : "This section highlights videos and interviews that show competitive presence, movement style, and the athlete's own voice most directly."}
+                  : lang === 'en'
+                  ? "This section highlights videos and interviews that show competitive presence, movement style, and the athlete's own voice most directly."
+                  : '경기 모습, 무브먼트 스타일, 선수 본인의 목소리를 가장 직접적으로 볼 수 있는 영상과 인터뷰를 우선 수록했습니다.'}
               </p>
               <VideoSection videos={media.videos} />
             </section>
@@ -398,10 +404,10 @@ export default function AthletePage() {
           {media.bilibiliVideos?.length > 0 && (
             <section className="rounded-[1.5rem] border border-stone-border bg-stone-card p-6 shadow-sm">
               <div className="text-xs font-semibold uppercase tracking-[0.18em] text-text-secondary">
-                {lang === 'zh' ? 'Bilibili 视频' : 'Bilibili Videos'}
+                {lang === 'zh' ? 'Bilibili 视频' : lang === 'en' ? 'Bilibili Videos' : 'Bilibili 영상'}
               </div>
               <h2 className="mt-2 text-2xl font-semibold">
-                {lang === 'zh' ? '中文视频资源' : 'Chinese Video Resources'}
+                {lang === 'zh' ? '中文视频资源' : lang === 'en' ? 'Chinese Video Resources' : '중국어 영상 자료'}
               </h2>
               <div className="mt-5 space-y-3">
                 {media.bilibiliVideos.map((video) => (
@@ -432,10 +438,10 @@ export default function AthletePage() {
           {media.podcasts?.length > 0 && (
             <section className="rounded-[1.5rem] border border-stone-border bg-stone-card p-6 shadow-sm">
               <div className="text-xs font-semibold uppercase tracking-[0.18em] text-text-secondary">
-                {lang === 'zh' ? '播客' : 'Podcasts'}
+                {lang === 'zh' ? '播客' : lang === 'en' ? 'Podcasts' : '팟캐스트'}
               </div>
               <h2 className="mt-2 text-2xl font-semibold">
-                {lang === 'zh' ? '播客与音频访谈' : 'Podcast & Audio Interviews'}
+                {lang === 'zh' ? '播客与音频访谈' : lang === 'en' ? 'Podcast & Audio Interviews' : '팟캐스트 및 오디오 인터뷰'}
               </h2>
               <div className="mt-5 space-y-3">
                 {media.podcasts.map((podcast) => (
@@ -469,7 +475,7 @@ export default function AthletePage() {
         {relatedReferences.length > 0 && (
           <div className="rounded-[1.5rem] border border-stone-border bg-stone-card p-5 shadow-sm">
             <h2 className="text-sm font-semibold uppercase tracking-[0.18em] text-text-secondary">
-              {lang === 'zh' ? '关联知识点' : 'Related Knowledge'}
+              {lang === 'zh' ? '关联知识点' : lang === 'en' ? 'Related Knowledge' : '관련 지식'}
             </h2>
             <div className="mt-4 flex flex-wrap gap-2">
               {relatedReferences.map((reference) => (
@@ -487,7 +493,7 @@ export default function AthletePage() {
 
         <div className="rounded-[1.5rem] border border-stone-border bg-stone-card p-5 shadow-sm">
           <h2 className="text-sm font-semibold uppercase tracking-[0.18em] text-text-secondary">
-            {lang === 'zh' ? '来源概览' : 'Sources'}
+            {lang === 'zh' ? '来源概览' : lang === 'en' ? 'Sources' : '출처'}
           </h2>
           <ul className="mt-4 space-y-3">
             {allSources.map((source) => (
@@ -508,7 +514,7 @@ export default function AthletePage() {
         {media.furtherReading.length > 0 && (
           <div className="rounded-[1.5rem] border border-stone-border bg-stone-card p-5 shadow-sm">
             <h2 className="text-sm font-semibold uppercase tracking-[0.18em] text-text-secondary">
-              {lang === 'zh' ? '延伸阅读' : 'Further Reading'}
+              {lang === 'zh' ? '延伸阅读' : lang === 'en' ? 'Further Reading' : '추가 읽기'}
             </h2>
             <ul className="mt-4 space-y-3 text-sm">
               {media.furtherReading.map((item) => (

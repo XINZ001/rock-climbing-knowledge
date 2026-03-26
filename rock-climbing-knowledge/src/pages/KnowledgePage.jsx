@@ -8,7 +8,15 @@ export default function KnowledgePage() {
 
   return (
     <div className="relative">
-      <PageSEO title="知识库" description="系统化的攀岩知识体系，从基础概览到高级技术，涵盖身体训练、攀岩技巧、心理建设、装备安全等十大模块。" path="/knowledge" />
+      <PageSEO
+        title={lang === 'zh' ? '知识库' : lang === 'en' ? 'Knowledge Base' : '지식 라이브러리'}
+        description={lang === 'zh'
+          ? '系统化的攀岩知识体系，从基础概览到高级技术，涵盖身体训练、攀岩技巧、心理建设、装备安全等十大模块。'
+          : lang === 'en'
+          ? 'A systematic climbing knowledge base covering physical training, techniques, mental skills, gear safety and more across ten modules.'
+          : '체계적인 클라이밍 지식 베이스 — 신체 훈련, 기술, 멘탈, 장비 안전 등 10개 모듈을 다룹니다.'}
+        path="/knowledge"
+      />
       {/* 全景渐变背景 */}
       <div className="absolute inset-x-0 top-0 h-[320px] bg-[radial-gradient(circle_at_top_left,_rgba(74,124,89,0.18),_transparent_50%),radial-gradient(circle_at_top_right,_rgba(93,64,55,0.14),_transparent_45%)] pointer-events-none" />
       <div className="absolute inset-x-0 top-[240px] h-[80px] bg-gradient-to-b from-transparent to-stone-bg pointer-events-none" />
@@ -16,12 +24,14 @@ export default function KnowledgePage() {
       <div className="relative max-w-6xl mx-auto px-4 pt-10 pb-8">
         <div className="max-w-3xl mb-10">
           <h1 className="text-3xl sm:text-4xl font-bold tracking-tight">
-            {lang === 'zh' ? '攀岩知识库' : 'Climbing Knowledge Base'}
+            {lang === 'zh' ? '攀岩知识库' : lang === 'en' ? 'Climbing Knowledge Base' : '클라이밍 지식 라이브러리'}
           </h1>
           <p className="mt-3 text-base sm:text-lg text-text-secondary leading-relaxed">
             {lang === 'zh'
               ? '系统化的攀岩知识体系，涵盖技术、训练、装备、安全等 10 大领域，助你全面提升攀岩水平。'
-              : 'A systematic knowledge base covering technique, training, gear, safety and more across 10 domains to help you improve.'}
+              : lang === 'en'
+              ? 'A systematic knowledge base covering technique, training, gear, safety and more across 10 domains to help you improve.'
+              : '기술, 훈련, 장비, 안전 등 10개 분야를 아우르는 체계적인 클라이밍 지식 베이스로 실력을 향상시키세요.'}
           </p>
         </div>
 
@@ -54,7 +64,7 @@ export default function KnowledgePage() {
             <div className="mt-3 flex items-center gap-1 text-xs text-text-secondary">
               <span>
                 {section.subSections.length}
-                {lang === 'zh' ? ' 个子分类' : ' subcategories'}
+                {lang === 'zh' ? ' 个子分类' : lang === 'en' ? ' subcategories' : '개 하위 카테고리'}
               </span>
             </div>
           </Link>

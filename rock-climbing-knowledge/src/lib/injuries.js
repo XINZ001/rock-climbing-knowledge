@@ -284,80 +284,80 @@ export async function fetchInjuryStats() {
 // 表单选项常量
 export const BODY_PARTS = [
   // 上肢
-  { value: 'finger', label: { zh: '手指', en: 'Finger' } },
-  { value: 'palm', label: { zh: '手掌', en: 'Palm' } },
-  { value: 'back-of-hand', label: { zh: '手背', en: 'Back of Hand' } },
-  { value: 'wrist', label: { zh: '手腕', en: 'Wrist' } },
-  { value: 'forearm', label: { zh: '前臂', en: 'Forearm' } },
-  { value: 'elbow', label: { zh: '肘部', en: 'Elbow' } },
-  { value: 'shoulder', label: { zh: '肩膀', en: 'Shoulder' } },
+  { value: 'finger', label: { zh: '手指', en: 'Finger', ko: '손가락' } },
+  { value: 'palm', label: { zh: '手掌', en: 'Palm', ko: '손바닥' } },
+  { value: 'back-of-hand', label: { zh: '手背', en: 'Back of Hand', ko: '손등' } },
+  { value: 'wrist', label: { zh: '手腕', en: 'Wrist', ko: '손목' } },
+  { value: 'forearm', label: { zh: '前臂', en: 'Forearm', ko: '전완' } },
+  { value: 'elbow', label: { zh: '肘部', en: 'Elbow', ko: '팔꿈치' } },
+  { value: 'shoulder', label: { zh: '肩膀', en: 'Shoulder', ko: '어깨' } },
   // 躯干
-  { value: 'neck', label: { zh: '颈部', en: 'Neck' } },
-  { value: 'back', label: { zh: '背部', en: 'Back' } },
-  { value: 'waist', label: { zh: '腰部', en: 'Lower Back' } },
-  { value: 'hip', label: { zh: '髋部', en: 'Hip' } },
+  { value: 'neck', label: { zh: '颈部', en: 'Neck', ko: '목' } },
+  { value: 'back', label: { zh: '背部', en: 'Back', ko: '등' } },
+  { value: 'waist', label: { zh: '腰部', en: 'Lower Back', ko: '허리' } },
+  { value: 'hip', label: { zh: '髋部', en: 'Hip', ko: '고관절' } },
   // 下肢
-  { value: 'knee', label: { zh: '膝盖', en: 'Knee' } },
-  { value: 'shin', label: { zh: '小腿', en: 'Shin' } },
-  { value: 'ankle', label: { zh: '脚踝', en: 'Ankle' } },
-  { value: 'foot', label: { zh: '脚部', en: 'Foot' } },
+  { value: 'knee', label: { zh: '膝盖', en: 'Knee', ko: '무릎' } },
+  { value: 'shin', label: { zh: '小腿', en: 'Shin', ko: '정강이' } },
+  { value: 'ankle', label: { zh: '脚踝', en: 'Ankle', ko: '발목' } },
+  { value: 'foot', label: { zh: '脚部', en: 'Foot', ko: '발' } },
   // 其他
-  { value: 'head', label: { zh: '头部', en: 'Head' } },
-  { value: 'other', label: { zh: '其他', en: 'Other' } },
+  { value: 'head', label: { zh: '头部', en: 'Head', ko: '머리' } },
+  { value: 'other', label: { zh: '其他', en: 'Other', ko: '기타' } },
 ]
 
 export const INJURY_TYPES = [
   // 皮肤相关
-  { value: 'abrasion', label: { zh: '皮肤擦伤', en: 'Abrasion / Flapper' } },
-  { value: 'skin_tear', label: { zh: '皮肤撕裂', en: 'Skin Tear' } },
-  { value: 'blister', label: { zh: '水泡', en: 'Blister' } },
+  { value: 'abrasion', label: { zh: '皮肤擦伤', en: 'Abrasion / Flapper', ko: '찰과상 / 플래퍼' } },
+  { value: 'skin_tear', label: { zh: '皮肤撕裂', en: 'Skin Tear', ko: '피부 찢어짐' } },
+  { value: 'blister', label: { zh: '水泡', en: 'Blister', ko: '물집' } },
   // 肌肉与软组织
-  { value: 'strain', label: { zh: '拉伤', en: 'Strain' } },
-  { value: 'sprain', label: { zh: '扭伤', en: 'Sprain' } },
-  { value: 'contusion', label: { zh: '挫伤 / 淤青', en: 'Contusion / Bruise' } },
-  { value: 'cramp', label: { zh: '肌肉痉挛', en: 'Muscle Cramp' } },
+  { value: 'strain', label: { zh: '拉伤', en: 'Strain', ko: '근육 염좌' } },
+  { value: 'sprain', label: { zh: '扭伤', en: 'Sprain', ko: '인대 염좌' } },
+  { value: 'contusion', label: { zh: '挫伤 / 淤青', en: 'Contusion / Bruise', ko: '타박상' } },
+  { value: 'cramp', label: { zh: '肌肉痉挛', en: 'Muscle Cramp', ko: '근육 경련' } },
   // 肌腱与韧带
-  { value: 'tendinitis', label: { zh: '肌腱炎', en: 'Tendinitis' } },
-  { value: 'pulley_injury', label: { zh: '滑车韧带损伤', en: 'Pulley Injury' } },
-  { value: 'ligament_tear', label: { zh: '韧带撕裂', en: 'Ligament Tear' } },
+  { value: 'tendinitis', label: { zh: '肌腱炎', en: 'Tendinitis', ko: '건염' } },
+  { value: 'pulley_injury', label: { zh: '滑车韧带损伤', en: 'Pulley Injury', ko: '풀리 인대 손상' } },
+  { value: 'ligament_tear', label: { zh: '韧带撕裂', en: 'Ligament Tear', ko: '인대 파열' } },
   // 关节与骨骼
-  { value: 'dislocation', label: { zh: '脱臼', en: 'Dislocation' } },
-  { value: 'fracture', label: { zh: '骨折', en: 'Fracture' } },
-  { value: 'bursitis', label: { zh: '滑囊炎', en: 'Bursitis' } },
+  { value: 'dislocation', label: { zh: '脱臼', en: 'Dislocation', ko: '탈구' } },
+  { value: 'fracture', label: { zh: '骨折', en: 'Fracture', ko: '골절' } },
+  { value: 'bursitis', label: { zh: '滑囊炎', en: 'Bursitis', ko: '점액낭염' } },
   // 神经
-  { value: 'nerve', label: { zh: '神经压迫 / 麻木', en: 'Nerve Compression' } },
+  { value: 'nerve', label: { zh: '神经压迫 / 麻木', en: 'Nerve Compression', ko: '신경 압박 / 저림' } },
   // 其他
-  { value: 'other', label: { zh: '其他', en: 'Other' } },
+  { value: 'other', label: { zh: '其他', en: 'Other', ko: '기타' } },
 ]
 
 export const CLIMBING_TYPES = [
-  { value: 'bouldering', label: { zh: '抱石', en: 'Bouldering' } },
-  { value: 'sport', label: { zh: '运动攀', en: 'Sport Climbing' } },
-  { value: 'trad', label: { zh: '传统攀', en: 'Trad Climbing' } },
-  { value: 'top-rope', label: { zh: '顶绳', en: 'Top Rope' } },
-  { value: 'indoor', label: { zh: '室内', en: 'Indoor' } },
+  { value: 'bouldering', label: { zh: '抱石', en: 'Bouldering', ko: '볼더링' } },
+  { value: 'sport', label: { zh: '运动攀', en: 'Sport Climbing', ko: '스포츠 클라이밍' } },
+  { value: 'trad', label: { zh: '传统攀', en: 'Trad Climbing', ko: '트래드 클라이밍' } },
+  { value: 'top-rope', label: { zh: '顶绳', en: 'Top Rope', ko: '톱로프' } },
+  { value: 'indoor', label: { zh: '室内', en: 'Indoor', ko: '실내' } },
 ]
 
 export const EXPERIENCE_LEVELS = [
-  { value: '<6m', label: { zh: '< 6 个月', en: '< 6 months' } },
-  { value: '6-12m', label: { zh: '6–12 个月', en: '6–12 months' } },
-  { value: '1-2y', label: { zh: '1–2 年', en: '1–2 years' } },
-  { value: '2-5y', label: { zh: '2–5 年', en: '2–5 years' } },
-  { value: '5y+', label: { zh: '5 年以上', en: '5+ years' } },
+  { value: '<6m', label: { zh: '< 6 个月', en: '< 6 months', ko: '6개월 미만' } },
+  { value: '6-12m', label: { zh: '6–12 个月', en: '6–12 months', ko: '6–12개월' } },
+  { value: '1-2y', label: { zh: '1–2 年', en: '1–2 years', ko: '1–2년' } },
+  { value: '2-5y', label: { zh: '2–5 年', en: '2–5 years', ko: '2–5년' } },
+  { value: '5y+', label: { zh: '5 年以上', en: '5+ years', ko: '5년 이상' } },
 ]
 
 export const FREQUENCY_OPTIONS = [
-  { value: '1', label: { zh: '每周 1 次', en: '1x / week' } },
-  { value: '2-3', label: { zh: '每周 2–3 次', en: '2–3x / week' } },
-  { value: '4-5', label: { zh: '每周 4–5 次', en: '4–5x / week' } },
-  { value: '6+', label: { zh: '每周 6 次以上', en: '6+x / week' } },
+  { value: '1', label: { zh: '每周 1 次', en: '1x / week', ko: '주 1회' } },
+  { value: '2-3', label: { zh: '每周 2–3 次', en: '2–3x / week', ko: '주 2–3회' } },
+  { value: '4-5', label: { zh: '每周 4–5 次', en: '4–5x / week', ko: '주 4–5회' } },
+  { value: '6+', label: { zh: '每周 6 次以上', en: '6+x / week', ko: '주 6회 이상' } },
 ]
 
 export const RECOVERY_DURATIONS = [
-  { value: '<1w', label: { zh: '< 1 周', en: '< 1 week' } },
-  { value: '1-4w', label: { zh: '1–4 周', en: '1–4 weeks' } },
-  { value: '1-3m', label: { zh: '1–3 个月', en: '1–3 months' } },
-  { value: '3-6m', label: { zh: '3–6 个月', en: '3–6 months' } },
-  { value: '6m+', label: { zh: '6 个月以上', en: '6+ months' } },
-  { value: 'ongoing', label: { zh: '至今未完全恢复', en: 'Still recovering' } },
+  { value: '<1w', label: { zh: '< 1 周', en: '< 1 week', ko: '1주 미만' } },
+  { value: '1-4w', label: { zh: '1–4 周', en: '1–4 weeks', ko: '1–4주' } },
+  { value: '1-3m', label: { zh: '1–3 个月', en: '1–3 months', ko: '1–3개월' } },
+  { value: '3-6m', label: { zh: '3–6 个月', en: '3–6 months', ko: '3–6개월' } },
+  { value: '6m+', label: { zh: '6 个月以上', en: '6+ months', ko: '6개월 이상' } },
+  { value: 'ongoing', label: { zh: '至今未完全恢复', en: 'Still recovering', ko: '아직 회복 중' } },
 ]

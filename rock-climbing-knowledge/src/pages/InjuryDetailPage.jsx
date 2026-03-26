@@ -21,7 +21,7 @@ function InfoCard({ label, value }) {
 
 function getLabel(list, value, lang) {
   const found = list.find((item) => item.value === value)
-  return found ? (lang === 'zh' ? found.label.zh : found.label.en) : value
+  return found ? (lang === 'zh' ? found.label.zh : lang === 'en' ? found.label.en : (found.label.ko || found.label.en)) : value
 }
 
 function MediaPanel({ mediaItems }) {
@@ -193,14 +193,14 @@ export default function InjuryDetailPage() {
   }
 
   if (loading) {
-    return <div className="max-w-6xl mx-auto px-4 py-16 text-center text-text-secondary">加载中...</div>
+    return <div className="max-w-6xl mx-auto px-4 py-16 text-center text-text-secondary">{lang === 'zh' ? '加载中...' : lang === 'en' ? 'Loading...' : '로딩 중...'}</div>
   }
 
   if (!report) {
     return (
       <div className="max-w-6xl mx-auto px-4 py-16 text-center">
-        <p className="text-text-secondary mb-4">找不到这条记录</p>
-        <Link to="/injuries" className="text-forest hover:underline">← 返回伤痛档案</Link>
+        <p className="text-text-secondary mb-4">{lang === 'zh' ? '找不到这条记录' : lang === 'en' ? 'Record not found' : '기록을 찾을 수 없습니다'}</p>
+        <Link to="/injuries" className="text-forest hover:underline">← {lang === 'zh' ? '返回伤痛档案' : lang === 'en' ? 'Back to Archive' : '기록으로 돌아가기'}</Link>
       </div>
     )
   }
@@ -217,7 +217,7 @@ export default function InjuryDetailPage() {
       {!hasMedia && (
         <div className="mb-6">
           <Link to="/injuries" className="inline-flex items-center gap-1 text-sm text-text-secondary hover:text-forest">
-            ← {lang === 'zh' ? '返回伤痛档案' : 'Back to Archive'}
+            ← {lang === 'zh' ? '返回伤痛档案' : lang === 'en' ? 'Back to Archive' : '기록으로 돌아가기'}
           </Link>
         </div>
       )}
@@ -231,7 +231,7 @@ export default function InjuryDetailPage() {
             {/* 返回链接 — 在左侧列内 */}
             <div className="mb-3">
               <Link to="/injuries" className="inline-flex items-center gap-1 text-sm text-text-secondary hover:text-forest">
-                ← {lang === 'zh' ? '返回伤痛档案' : 'Back to Archive'}
+                ← {lang === 'zh' ? '返回伤痛档案' : lang === 'en' ? 'Back to Archive' : '기록으로 돌아가기'}
               </Link>
             </div>
             <MediaPanel mediaItems={mediaItems} />
@@ -241,12 +241,12 @@ export default function InjuryDetailPage() {
                 {prevId ? (
                   <Link to={`/injuries/${prevId}`} className="inline-flex items-center gap-1 text-sm text-text-secondary hover:text-forest transition-colors">
                     <Icon name="chevronLeft" size={14} />
-                    {lang === 'zh' ? '上一个' : 'Previous'}
+                    {lang === 'zh' ? '上一个' : lang === 'en' ? 'Previous' : '이전'}
                   </Link>
                 ) : <span />}
                 {nextId ? (
                   <Link to={`/injuries/${nextId}`} className="inline-flex items-center gap-1 text-sm text-text-secondary hover:text-forest transition-colors">
-                    {lang === 'zh' ? '下一个' : 'Next'}
+                    {lang === 'zh' ? '下一个' : lang === 'en' ? 'Next' : '다음'}
                     <Icon name="chevronRight" size={14} />
                   </Link>
                 ) : <span />}
@@ -297,14 +297,14 @@ export default function InjuryDetailPage() {
                         onClick={() => setShowMenu(false)}
                       >
                         <Icon name="edit" size={14} />
-                        编辑
+                        {lang === 'zh' ? '编辑' : lang === 'en' ? 'Edit' : '편집'}
                       </Link>
                       <button
                         onClick={() => { setShowMenu(false); setShowDeleteConfirm(true) }}
                         className="flex items-center gap-2 px-3 py-2 text-sm text-red-500 hover:bg-stone-bg transition-colors w-full text-left"
                       >
                         <Icon name="trash" size={14} />
-                        删除
+                        {lang === 'zh' ? '删除' : lang === 'en' ? 'Delete' : '삭제'}
                       </button>
                     </div>
                   </>
@@ -320,22 +320,22 @@ export default function InjuryDetailPage() {
 
           {/* ── 受伤信息 ── */}
           <section className="bg-stone-card rounded-xl border border-stone-border p-5 mb-5">
-            <h2 className="font-semibold mb-3">受伤信息</h2>
+            <h2 className="font-semibold mb-3">{lang === 'zh' ? '受伤信息' : lang === 'en' ? 'Injury Info' : '부상 정보'}</h2>
             <div className="space-y-4">
               <div className="grid grid-cols-2 gap-3">
-                <InfoCard label="受伤部位" value={bodyPartLabels.join('、')} />
-                <InfoCard label="受伤类型" value={details?.injury_type ? getLabel(INJURY_TYPES, details.injury_type, lang) : null} />
-                <InfoCard label="攀岩类型" value={details?.climbing_type ? getLabel(CLIMBING_TYPES, details.climbing_type, lang) : null} />
+                <InfoCard label={lang === 'zh' ? '受伤部位' : lang === 'en' ? 'Body Part' : '부상 부위'} value={bodyPartLabels.join(lang === 'zh' ? '、' : ', ')} />
+                <InfoCard label={lang === 'zh' ? '受伤类型' : lang === 'en' ? 'Injury Type' : '부상 유형'} value={details?.injury_type ? getLabel(INJURY_TYPES, details.injury_type, lang) : null} />
+                <InfoCard label={lang === 'zh' ? '攀岩类型' : lang === 'en' ? 'Climbing Type' : '클라이밍 유형'} value={details?.climbing_type ? getLabel(CLIMBING_TYPES, details.climbing_type, lang) : null} />
               </div>
               {report.description && (
                 <div>
-                  <h3 className="font-semibold text-sm mb-1.5">受伤经过</h3>
+                  <h3 className="font-semibold text-sm mb-1.5">{lang === 'zh' ? '受伤经过' : lang === 'en' ? 'What Happened' : '부상 경위'}</h3>
                   <p className="text-sm leading-relaxed whitespace-pre-wrap">{report.description}</p>
                 </div>
               )}
               {details?.injury_cause && (
                 <div>
-                  <h3 className="font-semibold text-sm mb-1.5">自己认为的原因</h3>
+                  <h3 className="font-semibold text-sm mb-1.5">{lang === 'zh' ? '自己认为的原因' : lang === 'en' ? 'Perceived Cause' : '본인이 생각하는 원인'}</h3>
                   <p className="text-sm leading-relaxed text-text-secondary whitespace-pre-wrap">{details.injury_cause}</p>
                 </div>
               )}
@@ -345,11 +345,11 @@ export default function InjuryDetailPage() {
           {/* ── 攀岩背景 ── */}
           {details && (details.usual_grade || details.climbing_experience || details.climbing_frequency) && (
             <section className="bg-stone-card rounded-xl border border-stone-border p-5 mb-5">
-              <h2 className="font-semibold mb-4">攀岩背景</h2>
+              <h2 className="font-semibold mb-4">{lang === 'zh' ? '攀岩背景' : lang === 'en' ? 'Climbing Background' : '클라이밍 배경'}</h2>
               <div className="grid grid-cols-2 gap-3">
-                <InfoCard label="日常水平" value={details.usual_grade} />
-                <InfoCard label="攀岩年限" value={getLabel(EXPERIENCE_LEVELS, details.climbing_experience, lang)} />
-                <InfoCard label="攀岩频率" value={getLabel(FREQUENCY_OPTIONS, details.climbing_frequency, lang)} />
+                <InfoCard label={lang === 'zh' ? '日常水平' : lang === 'en' ? 'Usual Grade' : '평소 등급'} value={details.usual_grade} />
+                <InfoCard label={lang === 'zh' ? '攀岩年限' : lang === 'en' ? 'Experience' : '경력'} value={getLabel(EXPERIENCE_LEVELS, details.climbing_experience, lang)} />
+                <InfoCard label={lang === 'zh' ? '攀岩频率' : lang === 'en' ? 'Frequency' : '빈도'} value={getLabel(FREQUENCY_OPTIONS, details.climbing_frequency, lang)} />
               </div>
             </section>
           )}
@@ -357,11 +357,11 @@ export default function InjuryDetailPage() {
           {/* ── 受伤场景 ── */}
           {details && (details.injury_grade || details.did_warm_up || details.was_fatigued) && (
             <section className="bg-stone-card rounded-xl border border-stone-border p-5 mb-5">
-              <h2 className="font-semibold mb-4">受伤场景</h2>
+              <h2 className="font-semibold mb-4">{lang === 'zh' ? '受伤场景' : lang === 'en' ? 'Injury Context' : '부상 상황'}</h2>
               <div className="grid grid-cols-2 gap-3">
-                <InfoCard label="受伤时攀爬的难度" value={details.injury_grade} />
-                <InfoCard label="是否热身" value={details.did_warm_up === 'yes' ? '是' : details.did_warm_up === 'no' ? '否' : details.did_warm_up === 'unsure' ? '不确定' : null} />
-                <InfoCard label="是否疲劳" value={details.was_fatigued === 'yes' ? '是' : details.was_fatigued === 'no' ? '否' : details.was_fatigued === 'unsure' ? '不确定' : null} />
+                <InfoCard label={lang === 'zh' ? '受伤时攀爬的难度' : lang === 'en' ? 'Grade at Injury' : '부상 시 등급'} value={details.injury_grade} />
+                <InfoCard label={lang === 'zh' ? '是否热身' : lang === 'en' ? 'Warmed Up' : '워밍업 여부'} value={details.did_warm_up === 'yes' ? (lang === 'zh' ? '是' : lang === 'en' ? 'Yes' : '예') : details.did_warm_up === 'no' ? (lang === 'zh' ? '否' : lang === 'en' ? 'No' : '아니오') : details.did_warm_up === 'unsure' ? (lang === 'zh' ? '不确定' : lang === 'en' ? 'Unsure' : '잘 모르겠음') : null} />
+                <InfoCard label={lang === 'zh' ? '是否疲劳' : lang === 'en' ? 'Fatigued' : '피로 상태'} value={details.was_fatigued === 'yes' ? (lang === 'zh' ? '是' : lang === 'en' ? 'Yes' : '예') : details.was_fatigued === 'no' ? (lang === 'zh' ? '否' : lang === 'en' ? 'No' : '아니오') : details.was_fatigued === 'unsure' ? (lang === 'zh' ? '不确定' : lang === 'en' ? 'Unsure' : '잘 모르겠음') : null} />
               </div>
             </section>
           )}
@@ -369,11 +369,11 @@ export default function InjuryDetailPage() {
           {/* ── 就医与恢复 ── */}
           {details && (details.sought_medical != null || details.diagnosis || details.recovery_duration) && (
             <section className="bg-stone-card rounded-xl border border-stone-border p-5 mb-5">
-              <h2 className="font-semibold mb-4">就医与恢复</h2>
+              <h2 className="font-semibold mb-4">{lang === 'zh' ? '就医与恢复' : lang === 'en' ? 'Medical & Recovery' : '의료 및 회복'}</h2>
               <div className="grid grid-cols-2 gap-3">
-                <InfoCard label="是否就医" value={details.sought_medical === true ? '是' : details.sought_medical === false ? '否' : null} />
-                <InfoCard label="诊断结果" value={details.diagnosis} />
-                <InfoCard label="恢复时长" value={getLabel(RECOVERY_DURATIONS, details.recovery_duration, lang)} />
+                <InfoCard label={lang === 'zh' ? '是否就医' : lang === 'en' ? 'Sought Medical' : '의료 진료'} value={details.sought_medical === true ? (lang === 'zh' ? '是' : lang === 'en' ? 'Yes' : '예') : details.sought_medical === false ? (lang === 'zh' ? '否' : lang === 'en' ? 'No' : '아니오') : null} />
+                <InfoCard label={lang === 'zh' ? '诊断结果' : lang === 'en' ? 'Diagnosis' : '진단 결과'} value={details.diagnosis} />
+                <InfoCard label={lang === 'zh' ? '恢复时长' : lang === 'en' ? 'Recovery Duration' : '회복 기간'} value={getLabel(RECOVERY_DURATIONS, details.recovery_duration, lang)} />
               </div>
             </section>
           )}
@@ -383,7 +383,7 @@ export default function InjuryDetailPage() {
             <section className="bg-amber-light border border-amber/20 rounded-xl p-5 mb-5">
               <h2 className="font-semibold mb-2 flex items-center gap-2">
                 <Icon name="alertTriangle" size={16} className="text-amber" />
-                经验分享
+                {lang === 'zh' ? '经验分享' : lang === 'en' ? 'Advice' : '경험 공유'}
               </h2>
               <p className="text-sm leading-relaxed whitespace-pre-wrap">{details.advice_to_others}</p>
             </section>
@@ -408,22 +408,22 @@ export default function InjuryDetailPage() {
           {showDeleteConfirm && (
             <div className="fixed inset-0 z-50 flex items-center justify-center bg-black/40">
               <div className="bg-stone-card rounded-xl border border-stone-border p-6 max-w-sm mx-4 shadow-lg">
-                <h3 className="font-semibold text-lg mb-2">确认删除</h3>
-                <p className="text-sm text-text-secondary mb-5">删除后无法恢复，确定要删除这条伤痛记录吗？</p>
+                <h3 className="font-semibold text-lg mb-2">{lang === 'zh' ? '确认删除' : lang === 'en' ? 'Confirm Delete' : '삭제 확인'}</h3>
+                <p className="text-sm text-text-secondary mb-5">{lang === 'zh' ? '删除后无法恢复，确定要删除这条伤痛记录吗？' : lang === 'en' ? 'This cannot be undone. Are you sure you want to delete this injury report?' : '삭제 후 복구할 수 없습니다. 이 부상 기록을 삭제하시겠습니까?'}</p>
                 <div className="flex gap-3 justify-end">
                   <button
                     onClick={() => setShowDeleteConfirm(false)}
                     disabled={deleting}
                     className="px-4 py-2 rounded-lg border border-stone-border text-sm hover:bg-stone-bg transition-colors"
                   >
-                    取消
+                    {lang === 'zh' ? '取消' : lang === 'en' ? 'Cancel' : '취소'}
                   </button>
                   <button
                     onClick={handleDelete}
                     disabled={deleting}
                     className="px-4 py-2 rounded-lg bg-red-500 text-white text-sm font-medium hover:bg-red-600 transition-colors disabled:opacity-50"
                   >
-                    {deleting ? '删除中...' : '确认删除'}
+                    {deleting ? (lang === 'zh' ? '删除中...' : lang === 'en' ? 'Deleting...' : '삭제 중...') : (lang === 'zh' ? '确认删除' : lang === 'en' ? 'Confirm Delete' : '삭제 확인')}
                   </button>
                 </div>
               </div>
@@ -433,7 +433,7 @@ export default function InjuryDetailPage() {
           {/* 评论区 */}
           <section className="bg-stone-card rounded-xl border border-stone-border p-5">
             <h2 className="font-semibold mb-4">
-              评论 ({comments.length})
+              {lang === 'zh' ? '评论' : lang === 'en' ? 'Comments' : '댓글'} ({comments.length})
             </h2>
 
             {comments.length > 0 && (
@@ -460,7 +460,9 @@ export default function InjuryDetailPage() {
                 type="text"
                 value={newComment}
                 onChange={(e) => setNewComment(e.target.value)}
-                placeholder={user ? '写下你的评论...' : '登录后评论'}
+                placeholder={user
+                  ? (lang === 'zh' ? '写下你的评论...' : lang === 'en' ? 'Write a comment...' : '댓글을 작성하세요...')
+                  : (lang === 'zh' ? '登录后评论' : lang === 'en' ? 'Sign in to comment' : '로그인 후 댓글 작성')}
                 onClick={() => !user && onOpenAuth()}
                 className="flex-1 px-3 py-2.5 rounded-lg bg-stone-bg border border-stone-border text-sm focus:outline-none focus:border-forest focus:ring-1 focus:ring-forest transition-colors"
               />
@@ -480,12 +482,12 @@ export default function InjuryDetailPage() {
               {prevId ? (
                 <Link to={`/injuries/${prevId}`} className="inline-flex items-center gap-1 text-sm text-text-secondary hover:text-forest transition-colors">
                   <Icon name="chevronLeft" size={14} />
-                  {lang === 'zh' ? '上一个' : 'Previous'}
+                  {lang === 'zh' ? '上一个' : lang === 'en' ? 'Previous' : '이전'}
                 </Link>
               ) : <span />}
               {nextId ? (
                 <Link to={`/injuries/${nextId}`} className="inline-flex items-center gap-1 text-sm text-text-secondary hover:text-forest transition-colors">
-                  {lang === 'zh' ? '下一个' : 'Next'}
+                  {lang === 'zh' ? '下一个' : lang === 'en' ? 'Next' : '다음'}
                   <Icon name="chevronRight" size={14} />
                 </Link>
               ) : <span />}
