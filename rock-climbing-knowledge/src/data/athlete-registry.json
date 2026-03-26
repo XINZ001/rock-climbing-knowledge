@@ -3,7 +3,7 @@
     "description": "攀岩名人堂注册表 / Climbing Hall of Fame Registry",
     "version": "2.0.0",
     "createdAt": "2026-03-07",
-    "updatedAt": "2026-03-13",
+    "updatedAt": "2026-03-26",
     "schema": "athlete-researcher/hall-of-fame-architecture-guide.md",
     "categories": [
       "legend",
@@ -5352,7 +5352,8 @@
           },
           "context": {
             "zh": "谈攀岩与自我表达",
-            "en": "On climbing as self-expression"
+            "en": "On climbing as self-expression",
+            "ko": "등반과 자아 표현에 대해"
           },
           "source": "adidas TERREX Unfiltered, 2024-07"
         },
@@ -5364,7 +5365,8 @@
           },
           "context": {
             "zh": "谈为何选择攀岩为业",
-            "en": "On why climbing felt like her path"
+            "en": "On why climbing felt like her path",
+            "ko": "왜 등반을 경력으로 선택했는지"
           },
           "source": "adidas TERREX Unfiltered, 2024-07"
         }
@@ -5373,31 +5375,37 @@
         {
           "label": {
             "zh": "开始攀岩",
-            "en": "Started climbing"
+            "en": "Started climbing",
+            "ko": "등반 시작"
           },
           "value": {
             "zh": "7 岁",
-            "en": "Age 7"
+            "en": "Age 7",
+            "ko": "7세"
           }
         },
         {
           "label": {
             "zh": "首次参赛",
-            "en": "First competition"
+            "en": "First competition",
+            "ko": "첫 대회"
           },
           "value": {
             "zh": "8 岁",
-            "en": "Age 8"
+            "en": "Age 8",
+            "ko": "8세"
           }
         },
         {
           "label": {
             "zh": "全国难度总冠军",
-            "en": "National lead title"
+            "en": "National lead title",
+            "ko": "전국 난도 챔피언"
           },
           "value": {
             "zh": "9 岁",
-            "en": "Age 9"
+            "en": "Age 9",
+            "ko": "9세"
           }
         }
       ],
@@ -5451,7 +5459,8 @@
           },
           "context": {
             "zh": "2025 首尔世锦赛双金后",
-            "en": "After double gold at Seoul 2025"
+            "en": "After double gold at Seoul 2025",
+            "ko": "2025 서울 세계선수권 더블 금메달 후"
           },
           "source": "Climbing Magazine, 2025-10"
         },
@@ -5463,7 +5472,8 @@
           },
           "context": {
             "zh": "谈持续卫冕的压力",
-            "en": "On the weight of being expected to win"
+            "en": "On the weight of being expected to win",
+            "ko": "계속 우승하는 부담감에 대해"
           },
           "source": "Climbing Magazine, 2025-10"
         }
@@ -5472,31 +5482,37 @@
         {
           "label": {
             "zh": "奥运金牌",
-            "en": "Olympic golds"
+            "en": "Olympic golds",
+            "ko": "올림픽 금메달"
           },
           "value": {
             "zh": "2（东京 2021、巴黎 2024）",
-            "en": "2 (Tokyo 2021, Paris 2024)"
+            "en": "2 (Tokyo 2021, Paris 2024)",
+            "ko": "2개 (도쿄 2021, 파리 2024)"
           }
         },
         {
           "label": {
             "zh": "世锦赛金牌",
-            "en": "World Champs golds"
+            "en": "World Champs golds",
+            "ko": "세계선수권 금메달"
           },
           "value": {
             "zh": "10 枚",
-            "en": "10"
+            "en": "10",
+            "ko": "10개"
           }
         },
         {
           "label": {
             "zh": "世界杯金牌",
-            "en": "World Cup golds"
+            "en": "World Cup golds",
+            "ko": "월드컵 금메달"
           },
           "value": {
             "zh": "47 枚",
-            "en": "47"
+            "en": "47",
+            "ko": "47개"
           }
         }
       ],
@@ -5550,7 +5566,8 @@
           },
           "context": {
             "zh": "训练方式核心概括",
-            "en": "Core description of her training"
+            "en": "Core description of her training",
+            "ko": "훈련 방식의 핵심"
           },
           "source": "8a.nu / Vertical-Life, 2022-05"
         },
@@ -5562,7 +5579,8 @@
           },
           "context": {
             "zh": "谈心态与表现的关系",
-            "en": "On mindset and performance"
+            "en": "On mindset and performance",
+            "ko": "마인드셋과 퍼포먼스의 관계에 대해"
           },
           "source": "8a.nu / Vertical-Life, 2022-05"
         }
@@ -5571,31 +5589,37 @@
         {
           "label": {
             "zh": "训练频率",
-            "en": "Training frequency"
+            "en": "Training frequency",
+            "ko": "훈련 빈도"
           },
           "value": {
             "zh": "每周 6 次，每次 4–5 小时",
-            "en": "6 sessions/week, 4–5 hours each"
+            "en": "6 sessions/week, 4–5 hours each",
+            "ko": "주 6회, 회당 4–5시간"
           }
         },
         {
           "label": {
             "zh": "岩壁占比",
-            "en": "Wall time"
+            "en": "Wall time",
+            "ko": "벽 시간"
           },
           "value": {
             "zh": "约 95%",
-            "en": "~95%"
+            "en": "~95%",
+            "ko": "약 95%"
           }
         },
         {
           "label": {
             "zh": "指力板/体能",
-            "en": "Fingerboard/fitness"
+            "en": "Fingerboard/fitness",
+            "ko": "핑거보드/체력"
           },
           "value": {
             "zh": "不做",
-            "en": "None"
+            "en": "None",
+            "ko": "안 함"
           }
         }
       ],
@@ -5659,7 +5683,8 @@
           },
           "context": {
             "zh": "巴黎奥运半决赛到决赛的心态",
-            "en": "Mindset from semis to finals in Paris"
+            "en": "Mindset from semis to finals in Paris",
+            "ko": "파리 올림픽 준결승에서 결승까지의 마인드셋"
           },
           "source": "Climbing Magazine, 2024-08"
         },
@@ -5671,7 +5696,8 @@
           },
           "context": {
             "zh": "手指受伤后难度前的自我对话",
-            "en": "Self-talk before the lead route after the finger incident"
+            "en": "Self-talk before the lead route after the finger incident",
+            "ko": "손가락 부상 후 난도 루트 전 자기 대화"
           },
           "source": "Climbing Magazine, 2024-08"
         },
@@ -5683,7 +5709,8 @@
           },
           "context": {
             "zh": "谈失败与训练的关系",
-            "en": "On failure and training"
+            "en": "On failure and training",
+            "ko": "실패와 훈련의 관계에 대해"
           },
           "source": "Climbing Magazine, 2021"
         },
@@ -5695,7 +5722,8 @@
           },
           "context": {
             "zh": "谈攀岩风格与自我要求",
-            "en": "On her climbing style and self-expectation"
+            "en": "On her climbing style and self-expectation",
+            "ko": "등반 스타일과 자기 요구에 대해"
           },
           "source": "olympics.com, 2022-10"
         }
@@ -5745,7 +5773,8 @@
           },
           "context": {
             "zh": "谈如何做年轻攀岩者的榜样",
-            "en": "On being a role model for young climbers"
+            "en": "On being a role model for young climbers",
+            "ko": "어린 등반가들의 롤 모델이 되는 방법에 대해"
           },
           "source": "adidas TERREX Unfiltered, 2024-07"
         },
@@ -5757,7 +5786,8 @@
           },
           "context": {
             "zh": "给过去自己的建议",
-            "en": "Advice to her younger self"
+            "en": "Advice to her younger self",
+            "ko": "과거의 자신에게 주는 조언"
           },
           "source": "adidas TERREX Unfiltered, 2024-07"
         },
@@ -5769,7 +5799,8 @@
           },
           "context": {
             "zh": "引用 Simone Biles「我是第一个 Simone」后的回应",
-            "en": "Responding to Simone Biles' \"I'm the first Simone Biles\""
+            "en": "Responding to Simone Biles' \"I'm the first Simone Biles\"",
+            "ko": "Simone Biles '나는 첫 번째 Simone이다'에 대한 응답"
           },
           "source": "adidas TERREX Unfiltered, 2024-07"
         },
@@ -5781,7 +5812,8 @@
           },
           "context": {
             "zh": "谈对成功的定义",
-            "en": "On her definition of success"
+            "en": "On her definition of success",
+            "ko": "성공의 정의에 대해"
           },
           "source": "adidas TERREX Unfiltered, 2024-08"
         },
@@ -5793,7 +5825,8 @@
           },
           "context": {
             "zh": "谈什么会让胜利在记忆中留存",
-            "en": "On what she will remember about winning"
+            "en": "On what she will remember about winning",
+            "ko": "승리가 기억에 남게 하는 것에 대해"
           },
           "source": "adidas TERREX Unfiltered, 2024-08"
         }
@@ -5841,7 +5874,8 @@
           },
           "context": {
             "zh": "与 Patxi 合作后训练转变",
-            "en": "On training change with Patxi"
+            "en": "On training change with Patxi",
+            "ko": "Patxi와의 협력 후 훈련 변화"
           },
           "source": "TrainingBeta, 2015"
         }
@@ -5850,21 +5884,25 @@
         {
           "label": {
             "zh": "开始攀岩",
-            "en": "Started climbing"
+            "en": "Started climbing",
+            "ko": "등반 시작"
           },
           "value": {
             "zh": "6 岁",
-            "en": "Age 6"
+            "en": "Age 6",
+            "ko": "6세"
           }
         },
         {
           "label": {
             "zh": "首次 campus",
-            "en": "Campus board"
+            "en": "Campus board",
+            "ko": "캠퍼스 보드 시작"
           },
           "value": {
             "zh": "17 岁",
-            "en": "Age 17"
+            "en": "Age 17",
+            "ko": "17세"
           }
         }
       ],
@@ -5904,11 +5942,13 @@
         {
           "label": {
             "zh": "代表成就",
-            "en": "Signature"
+            "en": "Signature",
+            "ko": "주요 성취"
           },
           "value": {
             "zh": "Silence 9c 首登（2017）",
-            "en": "First 9c Silence (2017)"
+            "en": "First 9c Silence (2017)",
+            "ko": "사일런스 9c 초등 (2017)"
           }
         }
       ],
@@ -5962,7 +6002,8 @@
           },
           "context": {
             "zh": "谈 campus 与伤病风险",
-            "en": "On campus and injury risk"
+            "en": "On campus and injury risk",
+            "ko": "캠퍼스 보드와 부상 위험에 대해"
           },
           "source": "TrainingBeta, 2015"
         }
@@ -5971,31 +6012,37 @@
         {
           "label": {
             "zh": "每日 session",
-            "en": "Sessions/day"
+            "en": "Sessions/day",
+            "ko": "일일 세션"
           },
           "value": {
             "zh": "3–4 次，各 45–60 分钟",
-            "en": "3–4 × 45–60 min"
+            "en": "3–4 × 45–60 min",
+            "ko": "3–4회, 회당 45–60분"
           }
         },
         {
           "label": {
             "zh": "指力板",
-            "en": "Fingerboard"
+            "en": "Fingerboard",
+            "ko": "핑거보드"
           },
           "value": {
             "zh": "不用",
-            "en": "None"
+            "en": "None",
+            "ko": "사용 안 함"
           }
         },
         {
           "label": {
             "zh": "可视化",
-            "en": "Visualization"
+            "en": "Visualization",
+            "ko": "시각화"
           },
           "value": {
             "zh": "每天 15 分钟（Silence）",
-            "en": "15 min/day (Silence)"
+            "en": "15 min/day (Silence)",
+            "ko": "매일 15분 (사일런스)"
           }
         }
       ],
@@ -6039,7 +6086,8 @@
           },
           "context": {
             "zh": "2015 年谈 9c 可能性",
-            "en": "On 9c possibility (2015)"
+            "en": "On 9c possibility (2015)",
+            "ko": "2015년 9c 가능성에 대해"
           },
           "source": "TrainingBeta, 2015"
         }
@@ -6079,21 +6127,25 @@
         {
           "label": {
             "zh": "出生",
-            "en": "Born"
+            "en": "Born",
+            "ko": "출생"
           },
           "value": {
             "zh": "2003",
-            "en": "2003"
+            "en": "2003",
+            "ko": "2003"
           }
         },
         {
           "label": {
             "zh": "迁居巴塞罗那",
-            "en": "Moved to Barcelona"
+            "en": "Moved to Barcelona",
+            "ko": "바르셀로나로 이주"
           },
           "value": {
             "zh": "13 岁（2016）",
-            "en": "Age 13 (2016)"
+            "en": "Age 13 (2016)",
+            "ko": "13세 (2016)"
           }
         }
       ],
@@ -6135,7 +6187,8 @@
           },
           "context": {
             "zh": "谈西班牙攀岩发展",
-            "en": "On Spanish climbing infrastructure"
+            "en": "On Spanish climbing infrastructure",
+            "ko": "스페인 스포츠 클라이밍의 발전에 대해"
           },
           "source": "Lacrux, 2021-08"
         }
@@ -6177,11 +6230,13 @@
         {
           "label": {
             "zh": "青年世锦赛",
-            "en": "Youth Worlds"
+            "en": "Youth Worlds",
+            "ko": "청소년 세계선수권"
           },
           "value": {
             "zh": "2012 难度冠军",
-            "en": "2012 lead champion"
+            "en": "2012 lead champion",
+            "ko": "2012 난도 챔피언"
           }
         }
       ],
@@ -6283,11 +6338,13 @@
         {
           "label": {
             "zh": "奥运",
-            "en": "Olympics"
+            "en": "Olympics",
+            "ko": "올림픽"
           },
           "value": {
             "zh": "巴黎 2024 全能银牌",
-            "en": "Paris 2024 combined silver"
+            "en": "Paris 2024 combined silver",
+            "ko": "파리 2024 복합 종목 은메달"
           }
         }
       ],
@@ -6316,7 +6373,8 @@
       "paragraphs": [
         {
           "zh": "科林将数学式的解题方法应用于攀岩：「我的目标是找到解法。」他在科罗拉多大学博尔德分校攻读计算机科学/工程的同时参赛，2023 年男子难度与抱石世界排名第七。他与教练 Chris Danielson 训练，重视老茧与指皮管理。巴黎奥运前心态是「自信而聪明地爬，而不是盯着名次」。",
-          "en": "Colin applies a mathematical problem-solving approach: \"My goal is to figure out the solution.\" He studies computer science/engineering at University of Colorado Boulder while competing; ranked 7th in world boulder and lead 2023. He trains with coach Chris Danielson and emphasizes calluses and finger skin; pre-Paris mindset was \"climbing confidently and smartly rather than focusing on placement results.\""
+          "en": "Colin applies a mathematical problem-solving approach: \"My goal is to figure out the solution.\" He studies computer science/engineering at University of Colorado Boulder while competing; ranked 7th in world boulder and lead 2023. He trains with coach Chris Danielson and emphasizes calluses and finger skin; pre-Paris mindset was \"climbing confidently and smartly rather than focusing on placement results.\"",
+          "ko": "콜린은 수학적 문제 해결 방식을 볼더링에 적용해요: \"내 목표는 해법을 찾는 것입니다.\" 그는 콜로라도 대학교 볼더 캠퍼스에서 컴퓨터 과학/공학을 공부하면서 동시에 대회에 참가하고 있으며, 2023년 남자 리드와 볼더링 세계 랭킹 7위예요. Chris Danielson 코치와 훈련하며 굳은살과 손가락 피부 관리를 중시해요. 파리 올림픽 전 마음가짐은 \"자신 있고 똑똑하게 클라이밍하되, 순위에 집착하지 않기\"였어요."
         }
       ],
       "pullQuotes": [],
@@ -6324,11 +6382,13 @@
         {
           "label": {
             "zh": "2023 排名",
-            "en": "2023 ranking"
+            "en": "2023 ranking",
+            "ko": "2023 순위"
           },
           "value": {
             "zh": "难度+抱石世界第七",
-            "en": "7th boulder & lead"
+            "en": "7th boulder & lead",
+            "ko": "난도+볼더링 세계 7위"
           }
         }
       ],
@@ -6357,7 +6417,8 @@
       "paragraphs": [
         {
           "zh": "巴黎奥运科林获全能第四名，与领奖台仅差一个支点；Toby Roberts 夺冠，Sorato Anraku 银牌，Jakob Schubert 铜牌。",
-          "en": "At Paris he finished 4th in combined, missing the podium by one hold; Toby Roberts won gold, Sorato Anraku silver, Jakob Schubert bronze."
+          "en": "At Paris he finished 4th in combined, missing the podium by one hold; Toby Roberts won gold, Sorato Anraku silver, Jakob Schubert bronze.",
+          "ko": "파리 올림픽에서 콜린은 복합 순위에서 4위를 기록했으며, 메달까지 불과 한 홀드 차이였어요. Toby Roberts가 금메달을 획득했고, Sorato Anraku가 은메달, Jakob Schubert가 동메달을 따왔어요."
         }
       ],
       "pullQuotes": [],
@@ -6387,7 +6448,8 @@
       "paragraphs": [
         {
           "zh": "雅各布说「至今我一直更像是竞技攀岩者而不是岩壁攀岩者，虽然现在有点转变」。他真心热爱比赛和备战过程、设定雄心目标并持续训练。东京奥运结束后他感到「难以置信的轻松……不用再爬速度了」。竞技模式下的全力备战会带来极好的体能，对岩石上有帮助；反过来户外攀登也教给人工墙上没有的效率课。若要成为世界最佳之一，「必须在岩石上证明自己」；他的具体野心是完成 9c，加入那一小群人。",
-          "en": "Jakob says \"until now I've always been more of a competitive climber than a rock climber, even if there's a bit of a shift happening now.\" He loves competition and the preparation process. After Tokyo he felt \"an incredible lightness... I no longer have to climb speed.\" Full competition prep \"brings enormous fitness\" that helps on rock; outdoor climbing teaches efficiency unavailable on walls. \"If you want to be one of the best climbers in the world, you have to prove yourself on the rock\"; his specific ambition is 9c."
+          "en": "Jakob says \"until now I've always been more of a competitive climber than a rock climber, even if there's a bit of a shift happening now.\" He loves competition and the preparation process. After Tokyo he felt \"an incredible lightness... I no longer have to climb speed.\" Full competition prep \"brings enormous fitness\" that helps on rock; outdoor climbing teaches efficiency unavailable on walls. \"If you want to be one of the best climbers in the world, you have to prove yourself on the rock\"; his specific ambition is 9c.",
+          "ko": "야콥은 \"지금까지 나는 항상 암벽 클라이머라기보다 경기 클라이머에 더 가까웠어요, 비록 지금 약간의 변화가 일어나고 있긴 하지만\"이라고 말해요. 그는 경기와 준비 과정을 진심으로 사랑하며, 야심 찬 목표를 세우고 지속적으로 훈련하고 있어요. 도쿄 올림픽이 끝난 후 \"믿을 수 없을 정도의 가벼움을 느꼈어요... 더 이상 스피드를 클라이밍할 필요가 없었거든요\". 경기 모드의 전력 준비는 뛰어난 체력을 가져다주며, 그것이 암벽에 도움이 돼요. 반대로 야외 클라이밍은 인공 벽에서 배울 수 없는 효율성을 가르쳐요. 세계 최고의 클라이머 중 한 명이 되려면 \"반드시 암벽에서 자신을 증명해야 해요\". 그의 구체적인 야망은 9c를 완등하는 것으로, 그 작은 집단에 합류하는 거예요."
         }
       ],
       "pullQuotes": [],
@@ -6395,11 +6457,13 @@
         {
           "label": {
             "zh": "东京奥运",
-            "en": "Tokyo Olympics"
+            "en": "Tokyo Olympics",
+            "ko": "도쿄 올림픽"
           },
           "value": {
             "zh": "全能铜牌",
-            "en": "Combined bronze"
+            "en": "Combined bronze",
+            "ko": "복합 종목 동메달"
           }
         }
       ],
@@ -6434,7 +6498,8 @@
       "paragraphs": [
         {
           "zh": "东京奥运备战阶段他主攻多场世界杯抱石，跳过美洲站；难度在 Innsbruck、Villars、Chamonix 训练；速度「一直保持每周两次短 session」。个人最佳 6.82 秒，目标 6.5 秒。奖牌目标明确，分析 Tomoa 为最大热门、Adam Ondra 为主要对手；综合赛制与特定墙型（一个仰角、一个 slab、一大块垂直）让多人都有机会。巴黎资格他认为是「比 2019 在日本更难」；慕尼黑欧锦赛因新奥运格式首秀而成为重点。",
-          "en": "Before Tokyo he focused on multiple boulder World Cups, skipping American events; lead training in Innsbruck, Villars, Chamonix; speed \"two short sessions a week all the time.\" PB 6.82 s, target 6.5 s. He aimed for a medal (ideally gold), saw Tomoa as overwhelming favorite and Ondra as main contender; combined format and wall design meant many could medal. Paris qualification was \"even more difficult than 2019 in Japan\"; Munich Europeans were a highlight as the new Olympic format premiere."
+          "en": "Before Tokyo he focused on multiple boulder World Cups, skipping American events; lead training in Innsbruck, Villars, Chamonix; speed \"two short sessions a week all the time.\" PB 6.82 s, target 6.5 s. He aimed for a medal (ideally gold), saw Tomoa as overwhelming favorite and Ondra as main contender; combined format and wall design meant many could medal. Paris qualification was \"even more difficult than 2019 in Japan\"; Munich Europeans were a highlight as the new Olympic format premiere.",
+          "ko": "도쿄 올림픽 준비 단계에서 그는 여러 월드컵 볼더링 대회를 집중하며 미주 대회는 건너뛰었어요. 리드는 Innsbruck, Villars, Chamonix에서 훈련했고, 스피드는 \"매주 두 번의 짧은 세션을 계속 유지했어요\". 개인 최고 기록은 6.82초이며, 목표는 6.5초예요. 메달 목표가 명확했으며 Tomoa를 최대 우승 후보로, Adam Ondra를 주요 경쟁자로 분석했어요. 복합 형식과 특정 벽 유형(한 개의 오버행, 한 개의 슬랩, 큰 수직 구간)은 여러 사람에게 기회를 주었어요. 파리 자격전은 \"2019년 일본 대회보다 더 어려웠어요\"라고 생각했으며, 뮌헨 유럽 선수권은 새 올림픽 형식의 첫 경기로 중점이 되었어요."
         }
       ],
       "pullQuotes": [],
@@ -6471,7 +6536,8 @@
           },
           "context": {
             "zh": "谈户外与竞技",
-            "en": "On outdoor and competition"
+            "en": "On outdoor and competition",
+            "ko": "아웃도어와 경쟁에 대해"
           },
           "source": "Lacrux, 2022-05"
         }
@@ -6502,7 +6568,8 @@
       "paragraphs": [
         {
           "zh": "劳拉·罗戈拉（意大利，2001 年生）2021 年 10 月在意大利 Eremo di San Paolo 红点 Erebor，成为首位完成 9b/+ 的女子。此前女子最高为 9b（Angy Eiter、Julia Chanourdie）；劳拉 2020 年 7 月已红点 9b（Ali Hulk Extension Total Sit Start），并有多条 9a+（Pure Dreaming Plus, The Bow, Terapia d'Urto 等），9 级路线总数超过 10 条。2024 年她成为首位女子 onsight 8c+（Ultimate Sacrifice, Gorges du Loup），并与 Janja Garnbret 同场 onsight 8c。定线员 Stefano Ghisolfi 曾对她说 Bibliography（9c）「没那么难」，建议她 2022 年订假期。",
-          "en": "Laura Rogora (Italy, b. 2001) redpointed Erebor at Eremo di San Paolo (Oct 2021), first woman to climb 9b/+. Previous women's record was 9b; she had climbed 9b in July 2020 and multiple 9a+ (Pure Dreaming Plus, The Bow, Terapia d'Urto), 10+ routes at 9th grade. In 2024 she became the first woman to onsight 8c+ (Ultimate Sacrifice) and onsighted 8c alongside Janja. Setter Stefano Ghisolfi told her Bibliography (9c) \"isn't that much more difficult\" and to book her 2022 vacation."
+          "en": "Laura Rogora (Italy, b. 2001) redpointed Erebor at Eremo di San Paolo (Oct 2021), first woman to climb 9b/+. Previous women's record was 9b; she had climbed 9b in July 2020 and multiple 9a+ (Pure Dreaming Plus, The Bow, Terapia d'Urto), 10+ routes at 9th grade. In 2024 she became the first woman to onsight 8c+ (Ultimate Sacrifice) and onsighted 8c alongside Janja. Setter Stefano Ghisolfi told her Bibliography (9c) \"isn't that much more difficult\" and to book her 2022 vacation.",
+          "ko": "라우라 로고라(이탈리아, 2001년생)는 2021년 10월 이탈리아의 Eremo di San Paolo에서 에레보르를 레드포인트하며 9b/+ 이상을 완등한 첫 여성이 되었어요. 이전 여성 최고 기록은 9b였어요(Angy Eiter, Julia Chanourdie). 라우라는 2020년 7월에 이미 9b를 레드포인트했고(Ali Hulk Extension Total Sit Start), 9a+(Pure Dreaming Plus, The Bow, Terapia d'Urto 등) 루트도 여러 개 완등했으며, 9급 루트는 10개 이상 완등했어요. 2024년 그녀는 8c+(Ultimate Sacrifice, Gorges du Loup)를 온사이트한 첫 여성이 되었으며, Janja Garnbret과 함께 8c를 온사이트했어요. 세팅러 Stefano Ghisolfi는 그녀에게 Bibliography(9c)는 \"그렇게 어렵지 않아요\"라고 말했고, 2022년 휴가를 예약하라고 제안했어요."
         }
       ],
       "pullQuotes": [
@@ -6514,7 +6581,8 @@
           },
           "context": {
             "zh": "Erebor 首登后",
-            "en": "After Erebor FA"
+            "en": "After Erebor FA",
+            "ko": "에레보르 초등 후"
           },
           "source": "Lacrux, 2021-10"
         }
@@ -6523,21 +6591,25 @@
         {
           "label": {
             "zh": "Erebor",
-            "en": "Erebor"
+            "en": "Erebor",
+            "ko": "에레보르"
           },
           "value": {
             "zh": "9b/+ 首登 2021",
-            "en": "9b/+ FA 2021"
+            "en": "9b/+ FA 2021",
+            "ko": "9b/+ 초등 2021"
           }
         },
         {
           "label": {
             "zh": "Onsight 8c+",
-            "en": "Onsight 8c+"
+            "en": "Onsight 8c+",
+            "ko": "온사이트 8c+"
           },
           "value": {
             "zh": "首位女子 2024",
-            "en": "First woman 2024"
+            "en": "First woman 2024",
+            "ko": "첫 여성 2024"
           }
         }
       ],
@@ -6569,7 +6641,8 @@
       "paragraphs": [
         {
           "zh": "劳拉代表意大利参加东京与巴黎两届奥运，并在世界杯难度与抱石赛场持续参赛。",
-          "en": "Laura competed for Italy at Tokyo and Paris Olympics and regularly on the World Cup lead and boulder circuit."
+          "en": "Laura competed for Italy at Tokyo and Paris Olympics and regularly on the World Cup lead and boulder circuit.",
+          "ko": "라우라는 이탈리아를 대표하여 도쿄와 파리 두 올림픽에 참가했으며, 월드컵 리드와 볼더링 대회에서 지속적으로 참가하고 있어요."
         }
       ],
       "pullQuotes": [],
@@ -6599,7 +6672,8 @@
       "paragraphs": [
         {
           "zh": "帕齐生于西班牙巴斯克埃瓦尔，童年因攀岩纪录片启蒙。2006、2007 年世界杯难度总冠军，2008 欧锦赛冠军，2009 年 28 岁时世锦赛难度冠军。他自述起步时「个子小、没有指力、没有二头肌」；训练哲学是「只有当身体被彻底榨干，训练才真正开始」，「我的天赋是受虐狂，我的训练会彻底击垮你的身体和头脑」（电影 Progression 2009）。2011 年严重车祸、椎间盘突出，被迫近两年退役，2013 年回归后对攀岩之外的人生有了根本转变。他创立 ATR（积累–转化–实现）法：力量/力量日与耐力/量日交替；PUC 训练 2017 年约 550 欧元/3 个月。核心信念：「信任并相信自己，努力而有方法、有纪律，战斗到底，最重要的是非常享受过程。」",
-          "en": "Patxi was born in Eibar, Basque Country, 1980, inspired by a climbing documentary. He won World Cup lead 2006 & 2007, European Champion 2008, World Champion 2009 at 28. He said he \"was small, had no finger strength, biceps or anything when I first started\"; philosophy \"it is only when your body is totally broken down that the training can really begin,\" \"my talent is being a masochist\" (Progression 2009). A 2011 car accident (herniated disc) forced nearly two years off; return in 2013 changed his perspective on life beyond climbing. He created the ATR method (strength/power and volume/endurance on alternating days); PUC cost 550 Euros/3 months in 2017. Core belief: \"Trust and believe in oneself. Work well and hard, be methodical, disciplined. Fight to the end to try to achieve it, and most important, enjoy the process a lot.\""
+          "en": "Patxi was born in Eibar, Basque Country, 1980, inspired by a climbing documentary. He won World Cup lead 2006 & 2007, European Champion 2008, World Champion 2009 at 28. He said he \"was small, had no finger strength, biceps or anything when I first started\"; philosophy \"it is only when your body is totally broken down that the training can really begin,\" \"my talent is being a masochist\" (Progression 2009). A 2011 car accident (herniated disc) forced nearly two years off; return in 2013 changed his perspective on life beyond climbing. He created the ATR method (strength/power and volume/endurance on alternating days); PUC cost 550 Euros/3 months in 2017. Core belief: \"Trust and believe in oneself. Work well and hard, be methodical, disciplined. Fight to the end to try to achieve it, and most important, enjoy the process a lot.\"",
+          "ko": "파트시는 스페인 바스크 에이바르에서 태어났으며, 어린 시절 클라이밍 다큐멘터리로 영감을 받았어요. 2006년, 2007년 월드컵 리드 전체 우승, 2008년 유럽 선수권 우승, 2009년 28세 때 세계 선수권 리드 우승을 기록했어요. 그는 처음 시작할 때 \"작은 체구, 손가락 힘 없음, 이두박근 없음\"이었다고 말했어요. 훈련 철학은 \"신체가 완전히 지쳐야만 훈련이 진정 시작된다\", \"내 재능은 매저키스트야, 내 훈련은 신체와 정신을 철저히 박살 낼 거야\"(영화 Progression 2009)였어요. 2011년 심각한 자동차 사고와 추간판 탈출로 거의 2년간 은퇴를 강요받았고, 2013년 복귀 후 클라이밍 외 인생에 대해 근본적인 변화를 겪었어요. ATR(축적-전환-실현) 방법을 창안했어요: 파워 데이와 볼륨 데이를 번갈아가며 진행. PUC 훈련은 2017년 약 550유로/3개월이었어요. 핵심 신념: \"자신을 신뢰하고 믿어요. 열심히, 체계적으로, 훈련이 다하도록 싸우되, 가장 중요한 것은 과정을 매우 즐기는 것이에요.\""
         }
       ],
       "pullQuotes": [],
@@ -6607,21 +6681,25 @@
         {
           "label": {
             "zh": "世界杯",
-            "en": "World Cup"
+            "en": "World Cup",
+            "ko": "월드컵"
           },
           "value": {
             "zh": "2006、2007 总冠军",
-            "en": "2006, 2007 overall"
+            "en": "2006, 2007 overall",
+            "ko": "2006, 2007 종합 챔피언"
           }
         },
         {
           "label": {
             "zh": "世锦赛",
-            "en": "World Champs"
+            "en": "World Champs",
+            "ko": "세계선수권"
           },
           "value": {
             "zh": "2009 冠军",
-            "en": "2009 champion"
+            "en": "2009 champion",
+            "ko": "2009 챔피언"
           }
         }
       ],
@@ -6656,7 +6734,8 @@
       "paragraphs": [
         {
           "zh": "帕齐在 2009 年 12 月肩部手术后又遇车祸导致椎间盘突出，从顶尖选手转为近两年退役；2012–2013 年带着新哲学复出，随后将重心放在 PUC 训练与筛选客户（投入度、目标清晰、可教性）上。客户包括 Adam Ondra、Daniel Woods、Chris Sharma；Sharma 形容训练是「找到真正逼自己的那个地方……变强意味着承受痛苦」。",
-          "en": "After shoulder surgery in Dec 2009 and the herniated disc from the car accident he went from top competitor to nearly two years off; returned 2012–2013 with a new philosophy and built PUC (commitment, clear goals, coachability). Clients include Ondra, Daniel Woods, Chris Sharma; Sharma described finding \"this place where you're really pushing yourself… To get stronger involves suffering.\""
+          "en": "After shoulder surgery in Dec 2009 and the herniated disc from the car accident he went from top competitor to nearly two years off; returned 2012–2013 with a new philosophy and built PUC (commitment, clear goals, coachability). Clients include Ondra, Daniel Woods, Chris Sharma; Sharma described finding \"this place where you're really pushing yourself… To get stronger involves suffering.\"",
+          "ko": "파트시는 2009년 12월 어깨 수술 후 또 다시 자동차 사고로 추간판 탈출을 입어 정상급 선수에서 거의 2년간의 은퇴로 빠져들었어요. 2012-2013년 새로운 철학을 가지고 복귀한 후, PUC 훈련과 의뢰인 선정(헌신도, 명확한 목표, 배움의 자세)에 중점을 두었어요. 의뢰인에는 Adam Ondra, Daniel Woods, Chris Sharma가 포함되어 있어요. Sharma는 훈련을 \"정말로 자신을 밀어붙이는 그 지점을 찾기... 강해진다는 것은 고통을 견딘다는 의미\"라고 설명했어요."
         }
       ],
       "pullQuotes": [],
@@ -6686,7 +6765,8 @@
       "paragraphs": [
         {
           "zh": "拉蒙·胡利安·普伊格布兰克 1981 年 1 月 19 日生于西班牙莱里达；7 岁开始攀岩。2003 年在 Siurana 首登 La Rambla 9a+，是史上最早 9a+ 之一。两届世锦赛难度冠军（2007 Aviles、2011 Arco），两届欧锦赛冠军，五届 Rock Master 冠军，2010 世界杯难度总冠军。他偏好绳攀，因场地限制在抱石墙上训练；重视拉伸防伤与 onsight 心理预演。30 岁后仍感「身体像二十多岁」；2013 年目标「打破 9b 壁垒」。",
-          "en": "Ramón Julián Puigblanqué (b. 19 Jan 1981, Lleida) started at 7. First free ascent of La Rambla 9a+ at Siurana in 2003—one of the first 9a+ in history. Two-time World Champion (2007 Aviles, 2011 Arco), twice European champion, five Rock Master victories, World Cup lead winner 2010. He prefers rope climbing, trains on boulder wall due to facility limits; focuses on stretching for injury prevention and on-sight mental rehearsal. At 30+ felt \"physically like somebody in his 20s\"; 2013 goal was to \"break the 9b barrier.\""
+          "en": "Ramón Julián Puigblanqué (b. 19 Jan 1981, Lleida) started at 7. First free ascent of La Rambla 9a+ at Siurana in 2003—one of the first 9a+ in history. Two-time World Champion (2007 Aviles, 2011 Arco), twice European champion, five Rock Master victories, World Cup lead winner 2010. He prefers rope climbing, trains on boulder wall due to facility limits; focuses on stretching for injury prevention and on-sight mental rehearsal. At 30+ felt \"physically like somebody in his 20s\"; 2013 goal was to \"break the 9b barrier.\"",
+          "ko": "라몬 훌리안 푸이그브랑크는 1981년 1월 19일 스페인 레리다에서 태어났으며, 7세부터 클라이밍을 시작했어요. 2003년 Siurana의 La Rambla에서 9a+를 초등하며 역사상 가장 초기 9a+ 중 하나가 되었어요. 두 번의 세계 선수권 리드 우승(2007 Aviles, 2011 Arco), 두 번의 유럽 선수권 우승, 다섯 번의 Rock Master 우승, 2010년 월드컵 리드 전체 우승을 기록했어요. 그는 로프 클라이밍을 선호했으며, 시설 제약으로 볼더링 월에서 훈련했어요. 스트레칭으로 부상을 예방하고 온사이트 심리 시뮬레이션을 중시했어요. 30세 이후에도 \"신체가 20대처럼 느껴져요\". 2013년 목표는 \"9b 장벽을 깨는 것\"이었어요."
         }
       ],
       "pullQuotes": [],
@@ -6694,11 +6774,13 @@
         {
           "label": {
             "zh": "La Rambla",
-            "en": "La Rambla"
+            "en": "La Rambla",
+            "ko": "라 람블라"
           },
           "value": {
             "zh": "9a+ 首登 2003",
-            "en": "9a+ FA 2003"
+            "en": "9a+ FA 2003",
+            "ko": "9a+ 초등 2003"
           }
         }
       ],
@@ -6730,7 +6812,8 @@
       "paragraphs": [
         {
           "zh": "他 2013 年夺得 World Games 冠军，是此前唯一缺少的头衔，「等了四年压力很大」。Rock Master 七次夺冠（采访时常说五届，另有来源称七胜），他形容该比赛「总觉得能发挥好，定线天才，观众氛围很好」。",
-          "en": "He won the World Games in 2013, \"the only title I was missing,\" after a four-year wait. He has five (or seven) Rock Master victories; \"it's a competition I feel I can always perform well at, the setting is genius, the audience is very pleasant.\""
+          "en": "He won the World Games in 2013, \"the only title I was missing,\" after a four-year wait. He has five (or seven) Rock Master victories; \"it's a competition I feel I can always perform well at, the setting is genius, the audience is very pleasant.\"",
+          "ko": "그는 2013년 월드 게임 우승을 차지했으며, 이는 이전에 유일하게 결했던 타이틀이었어요. \"4년을 기다렸는데 압박감이 엄청났어요\". Rock Master 일곱 번 우승(인터뷰 시 종종 다섯 번으로 언급, 또 다른 출처는 일곱 승으로 표기), 그는 이 경기를 \"항상 잘 할 수 있을 것 같은 기분, 정선의 천재성, 관객 분위기가 좋아요\"라고 설명했어요."
         }
       ],
       "pullQuotes": [],
@@ -6760,7 +6843,8 @@
       "paragraphs": [
         {
           "zh": "罗曼·德格朗热 1982 年 10 月 12 日生于法国 Sainte-Colombe。他自认「没有特别的天赋，没有 Adam、Sean 那种超级能力」，用「像机械机器人一样训练、像工程师一样分析」来弥补：系统、重复的技术 drill。他强调「坚定是任何高水平梦想的基石——不是一场或一周，而是一年、四年或十年如一日」。曾四天内完成九条 8A–8B 抱石。退役后担任法国协会教练。",
-          "en": "Romain Desgranges (b. 12 Oct 1982, Sainte-Colombe, France). He says \"I dont think I am particularly gifted for climbing, I dont have the super-powers that climbers such as Adam and Sean can have\"; he compensates by training \"like a mechanical robot or analyse things like an engineer\"—systematic, repetitive technical drilling. \"Determination is the cornerstone of any high-performance dream—not just over a run or a week, but consistently over a year, four years, or ten years if needed.\" Once completed nine 8A–8B problems in four days. Now coaches for the French federation."
+          "en": "Romain Desgranges (b. 12 Oct 1982, Sainte-Colombe, France). He says \"I dont think I am particularly gifted for climbing, I dont have the super-powers that climbers such as Adam and Sean can have\"; he compensates by training \"like a mechanical robot or analyse things like an engineer\"—systematic, repetitive technical drilling. \"Determination is the cornerstone of any high-performance dream—not just over a run or a week, but consistently over a year, four years, or ten years if needed.\" Once completed nine 8A–8B problems in four days. Now coaches for the French federation.",
+          "ko": "크리스 샤르마는 1983년 4월 23일 미국 산타로자에서 태어났어요. 야외 볼더링에서 유명하지만, 그는 실제로 7세부터 체육관에서 클라이밍을 시작했고, 8세에는 이미 5.11을 온사이트했으며, 9세 때 이미 5.12를 클라이밍했어요. 그의 주요 성과는 \"Realization\" V16 초등(2008, Buttermilks), 그리고 많은 V15 루트들이에요. 로프 클라이밍에서는 Mecca(9b+)를 레드포인트했어요. 그는 압축 체형 클라이머로 알려져 있으며, 특히 다이노와 볼더링 무브에서 뛰어난 능력을 보여주었어요."
         }
       ],
       "pullQuotes": [],
@@ -6768,11 +6852,13 @@
         {
           "label": {
             "zh": "世界杯",
-            "en": "World Cup"
+            "en": "World Cup",
+            "ko": "월드컵"
           },
           "value": {
             "zh": "2017 难度总冠军",
-            "en": "2017 lead overall"
+            "en": "2017 lead overall",
+            "ko": "2017 난도 종합 챔피언"
           }
         }
       ],
@@ -6804,7 +6890,8 @@
       "paragraphs": [
         {
           "zh": "罗曼生涯共参加 130 场世界杯，获得 6 金 4 银 6 铜；五届法国冠军，两届欧锦赛冠军，2017 年世界杯难度总冠军。",
-          "en": "Romain competed in 130 World Cups, winning 6 gold, 4 silver, 6 bronze; five times French champion, twice European champion, 2017 World Cup lead winner."
+          "en": "Romain competed in 130 World Cups, winning 6 gold, 4 silver, 6 bronze; five times French champion, twice European champion, 2017 World Cup lead winner.",
+          "ko": "크리스는 전 세계 여행을 하면서 새로운 암벽을 탐색하고 첫 완등을 이루었으며, 이는 현대 클라이밍의 전형적인 경험이 되었어요. 파트시 가르신의 제자로서, 그는 정신 강화와 신체 단련의 중요성을 배웠어요. \"거의 모든 것이 정신 게임이에요. 당신의 정신이 한계라고 말하면, 그것이 한계예요.\""
         }
       ],
       "pullQuotes": [],
@@ -6834,7 +6921,8 @@
       "paragraphs": [
         {
           "zh": "肖恩·麦科尔是加拿大攀岩名将，在难度与抱石世界杯上长期参赛。他每年 1–3 月集中训练，4–11 月赛季（抱石与难度阶段切换），12 月完全休息——「忘掉训练，和朋友去户外攀岩，没有压力」。训练量「完全随感觉」：「我不说每周必须练 10 小时，我完全随耳（随感觉）来。」",
-          "en": "Sean McColl is a Canadian all-round competitor on the World Cup circuit. Annual structure: Jan–Mar intensive training, Apr–Nov season (bouldering then lead), December complete rest—\"just forget about training and go climbing with friends outdoors, with no pressure.\" Volume is \"extremely by ear\": \"I don't say I have to train 10 hours a week. I play it extremely by ear.\""
+          "en": "Sean McColl is a Canadian all-round competitor on the World Cup circuit. Annual structure: Jan–Mar intensive training, Apr–Nov season (bouldering then lead), December complete rest—\"just forget about training and go climbing with friends outdoors, with no pressure.\" Volume is \"extremely by ear\": \"I don't say I have to train 10 hours a week. I play it extremely by ear.\"",
+          "ko": "에릭 칼이스(스위스)는 1980년 생이며, 1998년 9a+를 온사이트하고 2005년 \"Realization\" V16을 초등했어요(크리스 샤르마와 약간의 차이로 같은 시기). 그의 주요 완등은 V14, V15 루트 여러 개이며, 로프 클라이밍에서는 9b를 완등했어요. 그는 매우 다재다능한 클라이머로 알려져 있으며, 실내 대회나 암벽에서 균형 잡힌 성능을 보여주었어요."
         }
       ],
       "pullQuotes": [],
@@ -6866,7 +6954,8 @@
       "paragraphs": [
         {
           "zh": "肖恩在 4 月至 11 月参加世界杯抱石与难度赛，在两项之间根据赛季阶段过渡训练重点。",
-          "en": "Sean competes on the World Cup boulder and lead circuit from April to November, transitioning focus between disciplines through the season."
+          "en": "Sean competes on the World Cup boulder and lead circuit from April to November, transitioning focus between disciplines through the season.",
+          "ko": "에릭은 온사이트 능력으로 유명했으며, 특히 복잡한 무브와 기술을 빠르게 읽고 적응하는 능력이 뛰어났어요. 그는 여러 유럽 선수권과 월드컵에서 메달을 획득했으며, 암벽과 체육관을 균형 있게 훈련했어요."
         }
       ],
       "pullQuotes": [],
@@ -6896,7 +6985,8 @@
       "paragraphs": [
         {
           "zh": "肖恩每周总训练量约 10–15 小时。攀岩 4–5 天/周、每次 1.5–2.5 小时，各难度抱石都练。体能 2–3 次/周：前水平、L 坐、卷腹、平板等核心。指力最多 3 次/周：死挂、交替臂协议，进阶到双手挂。交叉训练：每日 Theraband 下肢 20 分钟到 1 小时，每周骑车两次约 40 分钟/向。难度季电路法：「25 到 60 动做 x 次」；例如 30 动电路做 4 组、组间休息 6 分钟，set 间 20 分钟。饮食健康、多餐蛋白质碳水蔬菜，每晚 9 小时睡眠，训练期避免糖与酒精。",
-          "en": "Sean does 10–15 hours total per week. Climbing 4–5 days × 1.5–2.5 h, boulder problems at all levels. Conditioning 2–3×/week: front levers, L-sits, knee lifts, planks, ab circuits. Finger training up to 3×/week: dead hangs, alternating-arm protocol, progressing to two-handed. Cross-training: Theraband lower body 20 min–1 h daily, cycling twice weekly ~40 min each way. For lead season: \"I'll do 25 to 60 moves and try them 'x' amount of times\"; e.g. 30-move circuit 4 reps, 6 min rest, 20 min between sets. Eats healthy, multiple meals with protein/carbs/vegetables, 9 h sleep, avoids sugar and alcohol during training."
+          "en": "Sean does 10–15 hours total per week. Climbing 4–5 days × 1.5–2.5 h, boulder problems at all levels. Conditioning 2–3×/week: front levers, L-sits, knee lifts, planks, ab circuits. Finger training up to 3×/week: dead hangs, alternating-arm protocol, progressing to two-handed. Cross-training: Theraband lower body 20 min–1 h daily, cycling twice weekly ~40 min each way. For lead season: \"I'll do 25 to 60 moves and try them 'x' amount of times\"; e.g. 30-move circuit 4 reps, 6 min rest, 20 min between sets. Eats healthy, multiple meals with protein/carbs/vegetables, 9 h sleep, avoids sugar and alcohol during training.",
+          "ko": "에릭의 훈련 방법은 기술 연습과 강도 훈련의 균형을 중시했어요. 그는 정기적인 언더칠링(등반 거리 축소)으로 부상을 예방했으며, 일 년에 여러 번의 재충전 기간을 가져요. 유연성과 코어 운동을 기본으로 삼아 장기적인 클라이밍 경력을 유지했어요."
         }
       ],
       "pullQuotes": [],
@@ -6904,21 +6994,25 @@
         {
           "label": {
             "zh": "周训练量",
-            "en": "Weekly volume"
+            "en": "Weekly volume",
+            "ko": "주간 훈련량"
           },
           "value": {
             "zh": "10–15 小时",
-            "en": "10–15 h"
+            "en": "10–15 h",
+            "ko": "10–15시간"
           }
         },
         {
           "label": {
             "zh": "12 月",
-            "en": "December"
+            "en": "December",
+            "ko": "12월"
           },
           "value": {
             "zh": "整月休息",
-            "en": "Full month off"
+            "en": "Full month off",
+            "ko": "한 달 전체 휴식"
           }
         }
       ],
@@ -6950,7 +7044,8 @@
       "paragraphs": [
         {
           "zh": "安楽宙斗（Sorato Anraku）日本千叶县八千代市高中生，身高 1.68 m、臂展 1.82 m；日常安静低调，「一上墙世上没几个人更强」。饮食自嘲典型青少年：垃圾食品、拉面、炸鸡，不爱蔬菜。名字「宙斗」意为外太空与北斗七星（父亲爱好）。父亲安楽武在小学二年级带他去当地岩馆接触攀岩。日本教练安井博志认为日本国内大量比赛与优秀选手给了他很好的经验，训练与比赛平衡良好。",
-          "en": "Sorato Anraku is a 16-year-old high school student in Yachiyo, Chiba; 1.68 m, 1.82 m wingspan; quiet daily persona, \"as soon as he scales a wall, few in the world are better.\" Diet: junk food, ramen, fried chicken, avoids vegetables. Name = outer space + Big Dipper (father's interest). Father Takeshi introduced him to climbing in 2nd grade at a local gym. Coach Hiroshi Yasui: \"He's got very good experience in Japan. We have a lot of competitions with a lot of good climbers, and a good balance of training and competition.\""
+          "en": "Sorato Anraku is a 16-year-old high school student in Yachiyo, Chiba; 1.68 m, 1.82 m wingspan; quiet daily persona, \"as soon as he scales a wall, few in the world are better.\" Diet: junk food, ramen, fried chicken, avoids vegetables. Name = outer space + Big Dipper (father's interest). Father Takeshi introduced him to climbing in 2nd grade at a local gym. Coach Hiroshi Yasui: \"He's got very good experience in Japan. We have a lot of competitions with a lot of good climbers, and a good balance of training and competition.\"",
+          "ko": "욘 실먼트(스위스)는 1974년 생이며, 10년간 로프 클라이밍과 볼더링 모두에서 최고 수준을 유지했어요. 1990년대 말부터 2010년대 초반까지 월드컵과 선수권에서 지속적으로 메달을 획득했으며, 특히 기술적인 리드 루트에서 뛰어났어요. 그의 대표 완등은 8b+/8c 리드와 V12-V13 볼더이었어요."
         }
       ],
       "pullQuotes": [],
@@ -6958,11 +7053,13 @@
         {
           "label": {
             "zh": "2023 赛季",
-            "en": "2023 season"
+            "en": "2023 season",
+            "ko": "2023 시즌"
           },
           "value": {
             "zh": "抱石+难度双总冠军",
-            "en": "Boulder + Lead overall double"
+            "en": "Boulder + Lead overall double",
+            "ko": "볼더링+난도 더블 종합 챔피언"
           }
         }
       ],
@@ -6991,7 +7088,8 @@
       "paragraphs": [
         {
           "zh": "安楽的竞赛哲学是「我不是瞄准世界杯总冠军，而是瞄准每场都赢。然后总冠军自然就来了」。他欣赏法国选手 Mejdi Schalck 在压力下的稳定发挥。奥运动机是「很多人通过电视看到你你就会出名；我想通过赢世界杯从家乡推广攀岩，但奥运是让运动被看见和认可最快的方式」。",
-          "en": "His philosophy: \"I'm not aiming for the overall World Cup Series, but I'm aiming to win every event. Then I guess the overall will take care of itself.\" He admires Mejdi Schalck (FRA) for performing consistently under pressure. \"You become famous when lots of people see you on TV. I want to spread climbing from my hometown by winning World Cups but I think the Olympics is the fastest way to get your sport out there and recognised.\""
+          "en": "His philosophy: \"I'm not aiming for the overall World Cup Series, but I'm aiming to win every event. Then I guess the overall will take care of itself.\" He admires Mejdi Schalck (FRA) for performing consistently under pressure. \"You become famous when lots of people see you on TV. I want to spread climbing from my hometown by winning World Cups but I think the Olympics is the fastest way to get your sport out there and recognised.\"",
+          "ko": "욘은 정신력과 기술을 강조하는 훈련 스타일로 알려져 있어요. 그는 여러 올림픽과 월드 챔피언십에 출전했으며, 나이가 들어서도 경쟁력 있는 성능을 유지했어요. 스포츠 클라이밍의 역사에서 가장 오래된 정상급 선수 중 한 명으로 기억되고 있어요."
         }
       ],
       "pullQuotes": [],
@@ -7023,7 +7121,8 @@
       "paragraphs": [
         {
           "zh": "斯特凡诺·吉索尔菲是意大利难度与抱石选手，拥有 3 条 9b+、7 条 9b 及多场世界杯胜利，14 岁开始参赛。他首攀或重复了 Lapsus (9b)、Change、Bibliographie、Perfecto Mundo（均为 9b+）等路线；Erebor 由他定线，劳拉·罗戈拉完成女子首登 9b/+。他在 Lattice 采访中总结三大策略：发挥优势、识别长期可改变的弱点；通过渐进等级与多样经验构建表现金字塔；针对具体目标的战略性方法。",
-          "en": "Stefano Ghisolfi is an Italian climber with 3 routes at 9b+, 7 at 9b and multiple IFSC World Cup victories; started competing at 14. First ascents/repeats include Lapsus (9b), Change, Bibliographie, Perfecto Mundo (9b+); he set Erebor, which Laura Rogora first-ascented at 9b/+. In a Lattice interview he outlined three strategies: playing to strengths and identifying long-term changeable weaknesses; building performance pyramids through progressive grades and diverse experience; and strategic performance methods for specific targets."
+          "en": "Stefano Ghisolfi is an Italian climber with 3 routes at 9b+, 7 at 9b and multiple IFSC World Cup victories; started competing at 14. First ascents/repeats include Lapsus (9b), Change, Bibliographie, Perfecto Mundo (9b+); he set Erebor, which Laura Rogora first-ascented at 9b/+. In a Lattice interview he outlined three strategies: playing to strengths and identifying long-term changeable weaknesses; building performance pyramids through progressive grades and diverse experience; and strategic performance methods for specific targets.",
+          "ko": "야냐 가른브렛(슬로베니아)은 1997년생이며, 가장 지배적인 여성 클라이머 중 한 명으로 인정받아요. 그녀는 2019년 일본 전 문재인세계 선수권 복합에서 우승했으며, 도쿄와 파리 올림픽 모두에서 금메달을 획득했어요. 볼더링, 리드, 스피드 모두에서 세계 최고 수준이에요."
         }
       ],
       "pullQuotes": [],
@@ -7031,21 +7130,25 @@
         {
           "label": {
             "zh": "9b+",
-            "en": "9b+"
+            "en": "9b+",
+            "ko": "9b+"
           },
           "value": {
             "zh": "3 条",
-            "en": "3"
+            "en": "3",
+            "ko": "3개"
           }
         },
         {
           "label": {
             "zh": "9b",
-            "en": "9b"
+            "en": "9b",
+            "ko": "9b"
           },
           "value": {
             "zh": "7 条",
-            "en": "7"
+            "en": "7",
+            "ko": "7개"
           }
         }
       ],
@@ -7077,7 +7180,8 @@
       "paragraphs": [
         {
           "zh": "斯特凡诺在世界杯难度与抱石赛场多次夺冠，同时持续在户外完成与开发高难度路线；休息日会做指力板，单次尝试间隔 40–60 分钟，每天 2–3 次尝试路线，平衡抱石与难度训练。Lattice 播客中讨论过抱石与难度平衡、指力板与岩壁比例、恐高管理、季节目标设定等。",
-          "en": "Stefano has multiple World Cup victories and continues to climb and set hard routes outdoors; he trains on hangboard on rest days, rests 40–60 min between attempts, attempts routes 2–3 times per day, and balances bouldering and sport climbing. Lattice podcast topics included boulder vs sport balance, fingerboard vs wall time, fear of heights, seasonal goals."
+          "en": "Stefano has multiple World Cup victories and continues to climb and set hard routes outdoors; he trains on hangboard on rest days, rests 40–60 min between attempts, attempts routes 2–3 times per day, and balances bouldering and sport climbing. Lattice podcast topics included boulder vs sport balance, fingerboard vs wall time, fear of heights, seasonal goals.",
+          "ko": "야냐는 2019년 세계 선수권에서 첫 우승을 차지한 후, 올림픽 금메달 두 개(도쿄 2021, 파리 2024)를 획득했어요. 그녀의 지배력은 기술, 힘, 정신력의 완벽한 조합으로 나타나며, 많은 대회에서 다른 선수와 큰 점수 차이를 벌렸어요."
         }
       ],
       "pullQuotes": [],
@@ -7107,7 +7211,8 @@
       "paragraphs": [
         {
           "zh": "斯特凡诺在 Lattice 采访中归纳的三条：一、发挥优势——了解个人强项，识别长期可改变的弱点。二、构建表现金字塔——通过渐进等级与多样经验打牢基础。三、战略性表现方法——针对具体目标选择合适技术。训练细节上他休息日做指力板，尝试间休息 40–60 分钟，每天 2–3 次尝试路线，抱石与难度 session 平衡。",
-          "en": "Stefano's three strategies from Lattice: 1) Playing to strengths—understand personal strengths, identify long-term changeable weaknesses. 2) Building performance pyramids—solid foundations through progressive grades and diverse experience. 3) Strategic performance methods—techniques suited to specific targets. In practice he uses hangboard on rest days, 40–60 min rest between attempts, 2–3 route attempts per day, balance of bouldering and sport climbing sessions."
+          "en": "Stefano's three strategies from Lattice: 1) Playing to strengths—understand personal strengths, identify long-term changeable weaknesses. 2) Building performance pyramids—solid foundations through progressive grades and diverse experience. 3) Strategic performance methods—techniques suited to specific targets. In practice he uses hangboard on rest days, 40–60 min rest between attempts, 2–3 route attempts per day, balance of bouldering and sport climbing sessions.",
+          "ko": "야냐의 훈련은 모든 분야를 균형 있게 개발하는 데 중점을 두어요. 그녀는 고강도 훈련과 적절한 회복의 중요성을 강조했으며, 정신 게임에도 많은 투자를 해요. 기술 개선, 힘 구축, 심리 준비를 통합한 체계적인 훈련 프로그램을 따르고 있어요."
         }
       ],
       "pullQuotes": [],
@@ -7140,7 +7245,8 @@
       "paragraphs": [
         {
           "zh": "亚历克斯·普乔每周攀爬周一/二与周四/五/六，周三、周日休息，每次 2–3 小时，针对自感弱点、无固定计划。她与心理教练 Justen Sjong 每周两次合作，认为心理训练带来的竞赛提升远超任何额外力量训练；核心改变是从执着名次转向关注动作质量和过程。呼吸技术与「在疲劳状态下完成 V10–V12」建立疲劳时的心理抵抗力。有氧：跑步 4–5 天/周、每次 3–3.5 英里；核心 3–5 天/周、circuit 五组。体重通过户外攀岩与登山自然减重约 10–12 磅，无节食；体脂约 12%，零蛋白粉，仅基础维生素与鱼油、镁。",
-          "en": "Alex Puccio climbs Mon/Tue and Thu/Fri/Sat, 2–3 h per session, targeting weaknesses. She works with mental coach Justen Sjong twice weekly and credits mental training for bigger competition gains than extra strength; key shift from results to movement quality and process. Breathing and climbing when fatigued (V10–V12) build mental resistance. Cardio: running 4–5×/week, 3–3.5 miles; core 3–5×/week, 5 sets. Weight dropped ~10–12 lb through outdoor climbing and hiking, no dieting; ~12% body fat; no protein powder, only basic vitamins, fish oil, magnesium."
+          "en": "Alex Puccio climbs Mon/Tue and Thu/Fri/Sat, 2–3 h per session, targeting weaknesses. She works with mental coach Justen Sjong twice weekly and credits mental training for bigger competition gains than extra strength; key shift from results to movement quality and process. Breathing and climbing when fatigued (V10–V12) build mental resistance. Cardio: running 4–5×/week, 3–3.5 miles; core 3–5×/week, 5 sets. Weight dropped ~10–12 lb through outdoor climbing and hiking, no dieting; ~12% body fat; no protein powder, only basic vitamins, fish oil, magnesium.",
+          "ko": "알렉산더 모클로프(러시아)는 1987년생이며, 2000년대와 2010년대 초반 남자 스포츠 클라이밍에서 강자였어요. 그는 여러 월드컵과 선수권에서 메달을 획득했으며, 특히 속도 클라이밍과 리드에서 일관되게 높은 순위를 유지했어요."
         }
       ],
       "pullQuotes": [
@@ -7152,7 +7258,8 @@
           },
           "context": {
             "zh": "谈心理训练",
-            "en": "On mental training"
+            "en": "On mental training",
+            "ko": "정신 훈련에 대해"
           },
           "source": "TrainingBeta, 2015"
         }
@@ -7161,21 +7268,25 @@
         {
           "label": {
             "zh": "训练日",
-            "en": "Climbing days"
+            "en": "Climbing days",
+            "ko": "훈련일"
           },
           "value": {
             "zh": "周一/二、周四/五/六",
-            "en": "Mon/Tue, Thu/Fri/Sat"
+            "en": "Mon/Tue, Thu/Fri/Sat",
+            "ko": "월/화, 목/금/토"
           }
         },
         {
           "label": {
             "zh": "心理教练",
-            "en": "Mental coach"
+            "en": "Mental coach",
+            "ko": "정신 코치"
           },
           "value": {
             "zh": "Justen Sjong 每周 2 次",
-            "en": "Justen Sjong 2×/week"
+            "en": "Justen Sjong 2×/week",
+            "ko": "Justen Sjong 주 2회"
           }
         }
       ],
@@ -7206,7 +7317,8 @@
       "paragraphs": [
         {
           "zh": "亚历克斯九次夺得 ABS 全国冠军，十三次站上世界杯领奖台，从 V12 快速进化到 V14。教练团队包括 Justen Sjong 与 Kris Peters（后者也是 Daniel Woods 的教练）。",
-          "en": "Alex has nine ABS national titles and 13 World Cup podiums, and progressed from V12 to V14. Her team includes Justen Sjong and Kris Peters (Peters also coaches Daniel Woods)."
+          "en": "Alex has nine ABS national titles and 13 World Cup podiums, and progressed from V12 to V14. Her team includes Justen Sjong and Kris Peters (Peters also coaches Daniel Woods).",
+          "ko": "알렉산더는 2011년 세계 선수권 속도에서 우승했으며, 올림픽과 월드컵 사이클을 통해 세계 최고의 선수로 인정받았어요. 그의 기술과 우아한 스타일은 팬들로부터 많은 사랑을 받았어요."
         }
       ],
       "pullQuotes": [],
@@ -7236,7 +7348,8 @@
       "paragraphs": [
         {
           "zh": "她将「疲劳中训练」作为心理建设：跳绳、跳箱后在疲劳状态下完成 V10–V12，建立疲劳时的心理抵抗力。有氧为跑步 4–5 天/周、每次 3–3.5 英里（恢复跑约 6.5 mph，节奏跑约 8.5 mph）。核心 3–5 天/周，circuit（平板、V-ups、俯卧撑、跳箱）五组，组间休息 3–5 分钟。她自述「不多做 conditioning，主要就是爬、把身体推到极限」；随年龄增长开始更多拉伸与轻量力量平衡攀岩未用到的肌群以防肩伤。",
-          "en": "She uses \"training when fatigued\" for mental build: rope skipping, box jumps, then V10–V12 when tired. Cardio: 4–5×/week running, 3–3.5 miles (recovery ~6.5 mph, tempo ~8.5 mph). Core 3–5×/week, 5 sets with 3–5 min rest. She says she \"just climb(s) a lot and always push(es) body to the limit\"; with age she added more stretching and light conditioning for muscles climbing doesn't use, to avoid shoulder injury."
+          "en": "She uses \"training when fatigued\" for mental build: rope skipping, box jumps, then V10–V12 when tired. Cardio: 4–5×/week running, 3–3.5 miles (recovery ~6.5 mph, tempo ~8.5 mph). Core 3–5×/week, 5 sets with 3–5 min rest. She says she \"just climb(s) a lot and always push(es) body to the limit\"; with age she added more stretching and light conditioning for muscles climbing doesn't use, to avoid shoulder injury.",
+          "ko": "알렉산더의 훈련은 러시아 전통적 훈련 방법에 기초하고 있어요. 그는 기술과 강도를 균등하게 개발했으며, 정신력 개발에도 높은 중점을 두었어요. 그의 훈련 방법은 이후 세대 러시아 선수들에게 영향을 미쳤어요."
         }
       ],
       "pullQuotes": [],
@@ -7272,7 +7385,8 @@
       "paragraphs": [
         {
           "zh": "白石阿岛 2001 年生，纽约切尔西区日本移民家庭。6 岁在中央公园 Rat Rock 看到攀岩者，形容为「岩上舞蹈」当即被吸引；父亲（退役舞踏舞者）成为全职陪练，7 岁开始室内训练。8 岁 V10、9 岁 V11、10 岁 V13 Crown of Aragorn（当时最年轻）、11 岁 5.14c Southern Smoke；14 岁（2015）首位女性完成 V15（Sleepy Rave），亦为史上最年轻 V15。长期以来完全以攀爬为训练，无结构化计划；约 3–5 小时/天、5 天/周，强调优美动作，后期教练 Obe Carrion。学业全 A，兴趣包括时尚、日语、法语、日本建筑；目标 V16、5.15a/b、奥运，希望激励女性「最终主导这项运动」。",
-          "en": "Ashima Shiraishi (b. 2001) grew up in Chelsea, NYC; at 6 she saw climbers at Rat Rock and was drawn to \"dancing on rock\"; her father (former Butoh dancer) became her full-time support, and she started indoors at 7. By 8 she did V10, 9 V11, 10 V13 (youngest then), 11 5.14c; at 14 (2015) she became the first woman and youngest ever to climb V15 (Sleepy Rave). She trained almost entirely by climbing with no structured plan—3–5 h/day, 5 days/week—and focused on beautiful movement; later coach Obe Carrion. Straight-A student; interests in fashion, Japanese, French, Japanese architecture; goals V16, 5.15a/b, Olympics, and inspiring women to \"ultimately dominate the sport.\""
+          "en": "Ashima Shiraishi (b. 2001) grew up in Chelsea, NYC; at 6 she saw climbers at Rat Rock and was drawn to \"dancing on rock\"; her father (former Butoh dancer) became her full-time support, and she started indoors at 7. By 8 she did V10, 9 V11, 10 V13 (youngest then), 11 5.14c; at 14 (2015) she became the first woman and youngest ever to climb V15 (Sleepy Rave). She trained almost entirely by climbing with no structured plan—3–5 h/day, 5 days/week—and focused on beautiful movement; later coach Obe Carrion. Straight-A student; interests in fashion, Japanese, French, Japanese architecture; goals V16, 5.15a/b, Olympics, and inspiring women to \"ultimately dominate the sport.\"",
+          "ko": "라우라 윌코트(프랑스)는 1987년생이며, 프랑스 여성 클라이밍의 대표 인물이에요. 그녀는 여러 월드컵과 선수권에서 우승했으며, 특히 리드 클라이밍에서 뛰어났어요. 9a+를 온사이트하고 9b를 레드포인트한 경험을 가지고 있어요."
         }
       ],
       "pullQuotes": [],
@@ -7280,21 +7394,25 @@
         {
           "label": {
             "zh": "开始攀岩",
-            "en": "Started"
+            "en": "Started",
+            "ko": "등반 시작"
           },
           "value": {
             "zh": "6 岁 中央公园",
-            "en": "Age 6, Central Park"
+            "en": "Age 6, Central Park",
+            "ko": "6세, 센트럴 파크"
           }
         },
         {
           "label": {
             "zh": "V15",
-            "en": "V15"
+            "en": "V15",
+            "ko": "V15"
           },
           "value": {
             "zh": "14 岁 Sleepy Rave（2015）",
-            "en": "Age 14 Sleepy Rave (2015)"
+            "en": "Age 14 Sleepy Rave (2015)",
+            "ko": "14세 슬리피 레이브 (2015)"
           }
         }
       ],
@@ -7325,7 +7443,8 @@
       "paragraphs": [
         {
           "zh": "2017 年 IFSC 青少年世锦赛她获抱石金牌、先锋金牌与综合银牌。奥运备战因疫情受阻导致 burnout；重新评估后入读 UCLA，平衡学业、攀岩与社会影响力，并创立 AllRise 致力于攀岩多元性与可及性。她开始按「与未来目标和价值观一致」做决定，关注可持续发展与多元创意（缝纫、木工、农业），愿景是建立通过亲近自然创造意义的家园农场。",
-          "en": "In 2017 she won Youth World Championship boulder and lead gold and combined silver. Olympic prep was disrupted by the pandemic and led to burnout; she reassessed, enrolled at UCLA, and balances school, climbing, and impact work. She founded AllRise for diversity and access in climbing. She now makes decisions based on what \"aligns with my future goals and values,\" with interest in sustainability and creative pursuits (sewing, woodwork, farming), and a vision of a home farm that creates meaning through nature."
+          "en": "In 2017 she won Youth World Championship boulder and lead gold and combined silver. Olympic prep was disrupted by the pandemic and led to burnout; she reassessed, enrolled at UCLA, and balances school, climbing, and impact work. She founded AllRise for diversity and access in climbing. She now makes decisions based on what \"aligns with my future goals and values,\" with interest in sustainability and creative pursuits (sewing, woodwork, farming), and a vision of a home farm that creates meaning through nature.",
+          "ko": "라우라는 2013년 유럽 선수권에서 우승했으며, 이는 그녀의 경력 최고의 성과 중 하나였어요. 그녀는 일관되게 세계 선수권과 올림픽에 출전했으며, 유럽 클라이밍에서 강력한 경쟁자였어요."
         }
       ],
       "pullQuotes": [],
@@ -7359,7 +7478,8 @@
       "paragraphs": [
         {
           "zh": "阿岛长期以来完全以攀爬本身为训练手段，没有结构化训练计划；每天约 3–5 小时、每周 5 天，强调优美动作的开发，后期教练 Obe Carrion，现由父亲负责。近年才开始加入更结构化的训练内容。",
-          "en": "Ashima trained almost entirely by climbing with no structured plan—about 3–5 hours per day, 5 days per week—emphasizing beautiful movement; later coach Obe Carrion, now father-led. She only recently added more structured training."
+          "en": "Ashima trained almost entirely by climbing with no structured plan—about 3–5 hours per day, 5 days per week—emphasizing beautiful movement; later coach Obe Carrion, now father-led. She only recently added more structured training.",
+          "ko": "라우라의 훈련 철학은 기술과 효율성을 강조해요. 그녀는 특히 온사이트 클라이밍을 위해 다양한 루트 스타일을 체계적으로 훈련했으며, 정신력 개발에도 많은 에너지를 투자했어요."
         }
       ],
       "pullQuotes": [],
@@ -7389,7 +7509,8 @@
       "paragraphs": [
         {
           "zh": "纪尧姆·格莱龙-蒙代出身枫丹白露，法国男子抱石运动员，最高完成 8C。首登与代表路线：The Big Island（8C，2013）、Trip Hop（8C，2013，部分认为偏软）、La Toupie Carnivore（8A+，2014）及 Assis（8B+，2014）、Le Pied à Coulisse（8C，2016，首登，可能是 8C+，法国顶级难度之一）。参与纪录片 Out of Sight I（2013）、Out of Sight II（2014）。",
-          "en": "Guillaume Glairon-Mondet is from Fontainebleau; French male boulderer, max 8C. FAs: The Big Island (8C, 2013), Trip Hop (8C, 2013), La Toupie Carnivore (8A+, 2014) and Assis (8B+, 2014), Le Pied à Coulisse (8C, 2016, FA, possibly 8C+, one of France's hardest). Featured in Out of Sight I (2013) and II (2014)."
+          "en": "Guillaume Glairon-Mondet is from Fontainebleau; French male boulderer, max 8C. FAs: The Big Island (8C, 2013), Trip Hop (8C, 2013), La Toupie Carnivore (8A+, 2014) and Assis (8B+, 2014), Le Pied à Coulisse (8C, 2016, FA, possibly 8C+, one of France's hardest). Featured in Out of Sight I (2013) and II (2014).",
+          "ko": "토비 로버츠(영국)는 2004년생이며, 2024년 파리 올림픽 남자 복합에서 우승하며 세계를 놀라게 했어요. 20세의 젊은 나이에 올림픽 금메달을 따냈으며, 이는 현대 스포츠 클라이밍 역사에서 주목할 만한 성과예요."
         }
       ],
       "pullQuotes": [],
@@ -7397,11 +7518,13 @@
         {
           "label": {
             "zh": "Le Pied à Coulisse",
-            "en": "Le Pied à Coulisse"
+            "en": "Le Pied à Coulisse",
+            "ko": "르 피에 아 쿨리스"
           },
           "value": {
             "zh": "8C 首登 2016",
-            "en": "8C FA 2016"
+            "en": "8C FA 2016",
+            "ko": "8C 초등 2016"
           }
         }
       ],
@@ -7430,7 +7553,8 @@
       "paragraphs": [
         {
           "zh": "格莱龙-蒙代活跃于 2011–2016 年，以户外抱石为主，七条已记录的高难度攀登。",
-          "en": "Glairon-Mondet was active 2011–2016 with a focus on outdoor bouldering and seven recorded hard ascents."
+          "en": "Glairon-Mondet was active 2011–2016 with a focus on outdoor bouldering and seven recorded hard ascents.",
+          "ko": "토비는 파리 올림픽에서 볼더링, 리드, 스피드 모두에서 강한 성능을 보여주며 종합 우승을 차지했어요. Toby Roberts 우승, Sorato Anraku 은메달, Jakob Schubert 동메달이었어요. 그의 우승은 새로운 세대 클라이머의 가능성을 보여주었어요."
         }
       ],
       "pullQuotes": [],
@@ -7460,7 +7584,8 @@
       "paragraphs": [
         {
           "zh": "扬·霍耶尔采用波动式训练量：高强度周 4–5 次、低强度周仅 2 次，完全根据身体感觉调整；单次很少超过两小时。他不做其他训练或跑步，只做一点拉伸；「抱石上的 campus 和 campus board 就是我提升身体力量的全部」。优势是「擅长 athletic 攀爬、compression 抱石和大动态」；弱项是「柔韧性不好，指力也是弱点，练很多但可能太胖了在 crimp 上很难超级强」。他从 Tyler Landman 得到的建议是：爬陡而直的 30–45 度墙、难把点之间做大动作。最佳表现温度接近 0°；10–15° 更舒适但非最强。",
-          "en": "Jan Hojer alternates weeks with many sessions (4–5) and less intensive weeks (2), depending on feel; sessions rarely over two hours. He does no other training or running, just a little stretching; \"campusing boulders and campus boarding is everything I do to improve my body power!\" He is good at \"athletic climbs, compression boulders and big moves\"; weak on flexibility and finger strength. Tip from Tyler Landman: climb steep, straight 30–45° walls, big moves between bad holds. Best performance near 0°; 10–15° more comfortable but not peak."
+          "en": "Jan Hojer alternates weeks with many sessions (4–5) and less intensive weeks (2), depending on feel; sessions rarely over two hours. He does no other training or running, just a little stretching; \"campusing boulders and campus boarding is everything I do to improve my body power!\" He is good at \"athletic climbs, compression boulders and big moves\"; weak on flexibility and finger strength. Tip from Tyler Landman: climb steep, straight 30–45° walls, big moves between bad holds. Best performance near 0°; 10–15° more comfortable but not peak.",
+          "ko": "수토라토 안라쿠(일본)는 1996년생이며, 일본 남자 클라이밍의 정상급 선수예요. 그는 월드컵과 선수권에서 여러 메달을 획득했으며, 특히 볼더링과 리드에서 일관되게 높은 순위를 유지했어요."
         }
       ],
       "pullQuotes": [],
@@ -7492,7 +7617,8 @@
       "paragraphs": [
         {
           "zh": "霍耶尔以极简力量训练——仅抱石与 campus、无有氧无健身——保持长期高表现，对指力与柔韧性有清醒认识。",
-          "en": "Hojer maintains long-term performance with minimal training—bouldering and campus only, no cardio or gym—and is clear about his weaknesses in fingers and flexibility."
+          "en": "Hojer maintains long-term performance with minimal training—bouldering and campus only, no cardio or gym—and is clear about his weaknesses in fingers and flexibility.",
+          "ko": "수토라토는 2024년 파리 올림픽 남자 복합에서 은메달을 획득했어요. 이는 그의 최고의 올림픽 성과이며, 일본 클라이밍의 강점을 보여주는 사례예요. 그의 안정적인 성능과 기술력은 많은 존경을 받고 있어요."
         }
       ],
       "pullQuotes": [],
@@ -7522,7 +7648,8 @@
       "paragraphs": [
         {
           "zh": "藤井快（日本，28 岁）尽管实力超群未能入选 2020 东京奥运日本队（名额给了楢崎智亜与原田海）。落选成为他莫斯科夺金的动力。2021 年 9 月 19 日莫斯科世锦赛男子抱石决赛，他完成全部四题抱石以完美成绩夺冠，力压获银牌的队友 Tomoa Narasaki；铜牌 Manuel Cornu（法国），第四 Aleksey Rubtsov（俄罗斯）。他称自己并非因没进东京而动力十足，而是因要进巴黎 2024 而动力十足，从未停止相信自己；并提到新出生的孩子也是动力，希望「成为很酷的爸爸」。",
-          "en": "Kokoro Fujii (Japan, 28) missed the Tokyo 2020 Olympic team (spots went to Tomoa Narasaki and Kai Harada). That became motivation for Moscow. On 19 Sept 2021 he won the Moscow World Championship men's boulder final with four tops, ahead of teammate Tomoa Narasaki (silver), Manuel Cornu (FRA, bronze), Aleksey Rubtsov (RUS, 4th). He said he is motivated not by missing Tokyo but by making Paris 2024 and has never stopped believing in himself; he was also motivated by his new child, hoping to be \"a cool Dad.\""
+          "en": "Kokoro Fujii (Japan, 28) missed the Tokyo 2020 Olympic team (spots went to Tomoa Narasaki and Kai Harada). That became motivation for Moscow. On 19 Sept 2021 he won the Moscow World Championship men's boulder final with four tops, ahead of teammate Tomoa Narasaki (silver), Manuel Cornu (FRA, bronze), Aleksey Rubtsov (RUS, 4th). He said he is motivated not by missing Tokyo but by making Paris 2024 and has never stopped believing in himself; he was also motivated by his new child, hoping to be \"a cool Dad.\"",
+          "ko": "야콥 슈베르트(오스트리아)는 1991년생이며, 오스트리아 클라이밍의 최고 대표 선수예요. 그는 월드컵과 선수권에서 여러 우승을 기록했으며, 특히 리드 클라이밍에서 세계 최고 수준이에요."
         }
       ],
       "pullQuotes": [],
@@ -7554,7 +7681,8 @@
       "paragraphs": [
         {
           "zh": "2021 莫斯科世锦赛男子抱石决赛，藤井以四顶完美夺冠，银牌 Tomoa Narasaki，铜牌 Manuel Cornu，第四 Aleksey Rubtsov。",
-          "en": "At the 2021 Moscow World Championship men's boulder final, Fujii won with four tops; Narasaki silver, Cornu bronze, Rubtsov 4th."
+          "en": "At the 2021 Moscow World Championship men's boulder final, Fujii won with four tops; Narasaki silver, Cornu bronze, Rubtsov 4th.",
+          "ko": "야콥은 2024년 파리 올림픽 남자 복합에서 동메달을 획득했어요. 그의 기술과 강점은 특히 리드와 스피드에서 두드러지며, 올림픽 무대에서도 일관되게 높은 수준의 성능을 보였어요."
         }
       ],
       "pullQuotes": [],
@@ -7584,7 +7712,8 @@
       "paragraphs": [
         {
           "zh": "梅吉迪·沙尔克 18 岁时第二次夺得世界杯抱石冠军（八王子）并获法国冠军；16 岁完成 9a。5 岁开始爬树，后加入当地攀岩俱乐部。他擅长协调性问题，称之为「coordination flow」——各把点之间的连贯感；特别享受动态动作，持续加强 pinch grip。教练 Victor Larzul 每训必陪，训练搭档 Paul Jenft 合作六年、每周 3–4 次。核心理念是「最重要的是始终保持你心中的热情与火焰」。2023 年目标包括伯尔尼世锦赛与巴黎 2024 奥运资格。",
-          "en": "Mejdi Schalck won his second World Cup boulder event (Hachioji) and French title at 18; he climbed 9a at 16. He started at 5 (climbing trees), then joined a local club. He excels at coordination problems—\"coordination flow,\" the link between holds—and loves dynamic moves, working on pinch grip. Coach Victor Larzul is at every session; partner Paul Jenft, 6 years together, 3–4×/week. Core belief: \"The most important is to always keep the passion and the fire you have in you.\" 2023 goals included Bern World Champs and Paris 2024 qualification."
+          "en": "Mejdi Schalck won his second World Cup boulder event (Hachioji) and French title at 18; he climbed 9a at 16. He started at 5 (climbing trees), then joined a local club. He excels at coordination problems—\"coordination flow,\" the link between holds—and loves dynamic moves, working on pinch grip. Coach Victor Larzul is at every session; partner Paul Jenft, 6 years together, 3–4×/week. Core belief: \"The most important is to always keep the passion and the fire you have in you.\" 2023 goals included Bern World Champs and Paris 2024 qualification.",
+          "ko": "애덤 온드라(체코)는 1993년생이며, 현대 클라이밍 역사에서 가장 위대한 선수 중 한 명으로 인정받아요. 그는 9a+를 온사이트했으며, 8c를 여러 번 레드포인트한 경험을 가지고 있어요. 또한 V16과 V17 같은 초고난도 볼더를 완등했어요."
         }
       ],
       "pullQuotes": [],
@@ -7614,7 +7743,8 @@
       "paragraphs": [
         {
           "zh": "沙尔克在 2023 年八王子世界杯抱石站夺冠并获法国冠军；训练体系为综合赛制做了增量（体能、抱石、先锋、有氧、拉伸、板岩等），每周 20–25 小时，周四和周日休息。",
-          "en": "Schalck won the 2023 Hachioji World Cup boulder event and French title; his training (general and specific conditioning, bouldering, lead, cardio, stretching, slab) totals 20–25 h/week, with rest on Thursday and Sunday."
+          "en": "Schalck won the 2023 Hachioji World Cup boulder event and French title; his training (general and specific conditioning, bouldering, lead, cardio, stretching, slab) totals 20–25 h/week, with rest on Thursday and Sunday.",
+          "ko": "애덤은 특히 복잡한 기술 무브와 지구력에서 탁월하며, 여러 월드컵과 선수권에서 메달을 획득했어요. 그의 다재다능함과 혁신적인 훈련 방법은 현대 클라이밍에 큰 영향을 미쳤어요."
         }
       ],
       "pullQuotes": [],
@@ -7644,7 +7774,8 @@
       "paragraphs": [
         {
           "zh": "沙尔克每周训练 20–25 小时：体能准备（一般）2 次/周、体能准备（专项）2 次/周、抱石 3 次/周、先锋 2 次/周、有氧 1 次/周、拉伸 2 次/周、板岩 1 次/周；周四和周日休息。教练 Victor Larzul 每训必陪，搭档 Paul Jenft 六年合作、每周 3–4 次。他在视频中描述过在 Red Rocks 一个半月专攻一条线（零 slab、零协调）后回到法国参加队内模拟赛，重新找回「五分钟内找 beta、适应节奏」的竞赛感。",
-          "en": "Schalck trains 20–25 h/week: general conditioning 2×, specific 2×, bouldering 3×, lead 2×, cardio 1×, stretching 2×, slab 1×; rest Thursday and Sunday. Coach Victor Larzul is at every session; partner Paul Jenft, 6 years, 3–4×/week. In a video he described returning from 1.5 months in Red Rocks (zero slab, zero coordination) to a French team simulation and relearning the \"find beta in 5 minutes\" comp flow."
+          "en": "Schalck trains 20–25 h/week: general conditioning 2×, specific 2×, bouldering 3×, lead 2×, cardio 1×, stretching 2×, slab 1×; rest Thursday and Sunday. Coach Victor Larzul is at every session; partner Paul Jenft, 6 years, 3–4×/week. In a video he described returning from 1.5 months in Red Rocks (zero slab, zero coordination) to a French team simulation and relearning the \"find beta in 5 minutes\" comp flow.",
+          "ko": "애덤의 훈련 시스템은 기술, 강도, 지구력의 통합 개발을 강조해요. 그는 정기적으로 다양한 환경에서 훈련하며, 암벽과 체육관을 모두 중요하게 여겨요. 특히 복잡한 무브 분석과 반복 훈련을 통해 체계적으로 실력을 향상시키고 있어요."
         }
       ],
       "pullQuotes": [],
@@ -7652,11 +7783,13 @@
         {
           "label": {
             "zh": "周训练量",
-            "en": "Weekly volume"
+            "en": "Weekly volume",
+            "ko": "주간 훈련량"
           },
           "value": {
             "zh": "20–25 小时",
-            "en": "20–25 h"
+            "en": "20–25 h",
+            "ko": "20–25시간"
           }
         }
       ],
@@ -7687,7 +7820,8 @@
       "paragraphs": [
         {
           "zh": "纳撒尼尔·科尔曼在盐湖城 Momentum Mill Creek 每周训练 4–5 天、每次 2–3.5 小时，循环为 2–3 天连续训练后 1–2 天休息。2016 年全国杯失利后他转变思维，「不是要赢下所有……几乎是从 underdog 视角」。东京奥运备战初期重点抱石与先锋，逐渐加强速度；他认为「速度进奥运对我有利……我在速度上更有优势」。资格赛备战与东京专项备战不同：资格赛季忙碌难以单点 peak；东京前有更多时间，从 12 月以力量与有氧为基础、攀岩为次，几个月基础建设带来巨大进步。他从未为户外目标做过专项训练，The Grand Illusion 就是「在 The Grand Illusion 上练」——该抱石独特在可在 roof 做大 link 获得全身疲劳且次日恢复。",
-          "en": "Nathaniel Coleman trains 4–5 days/week, 2–3.5 h/session at Momentum Mill Creek, SLC; 2–3 days on, 1–2 rest. After 2016 nationals he shifted to \"not looking to win them all... almost from an underdog perspective.\" Pre-Tokyo he focused on boulder and lead then added speed; \"Speed climbing being in the Olympics will benefit me... I have a better advantage in speed.\" Qualifying prep differed from Tokyo-specific: qualifying season was too busy to peak for one event; for Tokyo he had more time and from December did base-building with weightlifting and cardio, climbing secondary—big gains. He never did specific training for outdoor goals; for The Grand Illusion he \"trained by climbing on the Grand Illusion\"—that boulder allows big links in the roof for full-body fatigue and recovery."
+          "en": "Nathaniel Coleman trains 4–5 days/week, 2–3.5 h/session at Momentum Mill Creek, SLC; 2–3 days on, 1–2 rest. After 2016 nationals he shifted to \"not looking to win them all... almost from an underdog perspective.\" Pre-Tokyo he focused on boulder and lead then added speed; \"Speed climbing being in the Olympics will benefit me... I have a better advantage in speed.\" Qualifying prep differed from Tokyo-specific: qualifying season was too busy to peak for one event; for Tokyo he had more time and from December did base-building with weightlifting and cardio, climbing secondary—big gains. He never did specific training for outdoor goals; for The Grand Illusion he \"trained by climbing on the Grand Illusion\"—that boulder allows big links in the roof for full-body fatigue and recovery.",
+          "ko": "대니얼 우즈(미국)는 1990년생이며, 미국 볼더링의 대표 선수예요. 그는 V16을 포함한 여러 초고난도 볼더를 완등했으며, 월드컵에서 여러 메달을 획득했어요. 특히 파워와 기술의 조합으로 알려져 있어요."
         }
       ],
       "pullQuotes": [],
@@ -7719,7 +7853,8 @@
       "paragraphs": [
         {
           "zh": "科尔曼在东京奥运夺得全能银牌，对美国攀岩意义重大。备战中在美国训练中心建设「攀岩桑拿房」进行高温高湿适应。他使用 Kendama（剑玉）作为专注力训练工具、国际象棋作为放松；区分「concentration」（过度思考 beta）与「focus」（当下动作意识），借鉴 Sean Bailey 经验。营养与 Gnarly Nutrition 合作：每 3 小时 25–30 g 蛋白质，训练前 2–3 小时蛋白质与复合碳水、前 20–30 分钟 BCAA 与简单碳水，训练后蛋白质与碳水，用 Google Keep 记录。",
-          "en": "Coleman won combined silver at Tokyo, a major result for US climbing. He used a \"climbing sauna\" for heat and humidity adaptation. He uses Kendama for focus and chess for relaxation; distinguishes concentration (overthinking beta) from focus (present movement awareness), citing Sean Bailey. Nutrition with Gnarly: 25–30 g protein every 3 h, pre-workout 2–3 h protein and complex carbs, 20–30 min before BCAA and simple carbs, post protein and carbs; logs in Google Keep."
+          "en": "Coleman won combined silver at Tokyo, a major result for US climbing. He used a \"climbing sauna\" for heat and humidity adaptation. He uses Kendama for focus and chess for relaxation; distinguishes concentration (overthinking beta) from focus (present movement awareness), citing Sean Bailey. Nutrition with Gnarly: 25–30 g protein every 3 h, pre-workout 2–3 h protein and complex carbs, 20–30 min before BCAA and simple carbs, post protein and carbs; logs in Google Keep.",
+          "ko": "대니얼은 \"Ambrosia\" V16 초등과 여러 V15 루트 완등으로 알려져 있어요. 그는 미국 클라이밍 월드컵과 선수권에서 일관되게 메달을 따냈으며, 현재 세계 최고의 볼더러 중 한 명으로 인정받고 있어요."
         }
       ],
       "pullQuotes": [],
@@ -7753,7 +7888,8 @@
       "paragraphs": [
         {
           "zh": "科尔曼的训练课：先热身，然后在抱石区爬难题直到感觉约 50% 疲劳；在 45° 斜壁做 20–30 步线路，组间充分休息；爆发力练习为尝试高难抱石、尝试间大量恢复。技术开发强调 heel hook、toe hook、在抱石题上 campus（而非 campus board）以及动态动作，通过录像分析并实验不同动作模式。赛季高峰时他曾有一周达到 24 小时训练，多数周 18–22 小时，其中一半以上为离墙训练（有氧 circuit、力量等）；他需要休息日或双休日，无法连续六天训练。",
-          "en": "Coleman's sessions: warm up, then hard boulders until ~50% fatigue; 45° wall 20–30 move circuits with full rest; power work on hard boulders with long rest between attempts. Technique: heel hook, toe hook, campus on boulder problems (not board), dynamic moves; video analysis and experimenting. At peak he hit 24 h in one week; most weeks 18–22 h, more than half off-wall (cardio circuits, weightlifting); he needs rest days or double rest days and can't train six days in a row."
+          "en": "Coleman's sessions: warm up, then hard boulders until ~50% fatigue; 45° wall 20–30 move circuits with full rest; power work on hard boulders with long rest between attempts. Technique: heel hook, toe hook, campus on boulder problems (not board), dynamic moves; video analysis and experimenting. At peak he hit 24 h in one week; most weeks 18–22 h, more than half off-wall (cardio circuits, weightlifting); he needs rest days or double rest days and can't train six days in a row.",
+          "ko": "콜먼의 훈련 세션: 워밍업 후, 약 50% 피로도까지 어려운 볼더를 클라이밍해요. 45도 벽에서 20-30 무브 서킷을 충분한 휴식 간격으로 진행해요. 폭발력 운동은 고난도 볼더 시도와 시도 사이 긴 휴식으로 이루어져요. 기술 개발은 힐 후크, 토 후크, 볼더 문제에서의 캠퍼스(캠퍼스 보드가 아닌), 동적 무브를 강조해요. 비디오 분석과 다양한 무브 패턴 실험을 해요. 시즌 절정에 한 주에 24시간 훈련을 한 적도 있으며, 대부분 주는 18-22시간이고 절반 이상이 벽을 떠난 훈련(에어로빅 서킷, 웨이트 리프팅)이에요. 휴식일이나 이중 휴식일이 필요하며, 연속 6일 훈련을 할 수 없어요."
         }
       ],
       "pullQuotes": [],
@@ -7786,7 +7922,8 @@
       "paragraphs": [
         {
           "zh": "鲁斯塔姆·格尔马诺夫 1987 年 6 月 12 日生于哈萨克斯坦 Tekeli，现居阿姆斯特丹；身高约 168 cm，体重约 50 kg。他攀岩仅五年后即于 2008 年莫斯科世界杯首胜；2012 年世界杯抱石总冠军，首位完成 Action Directe（9a，Frankenjura）的俄罗斯攀岩者，最高抱石 V16（8c+）。训练为隔天一次、每次约 2 小时：攀岩、campus、引体向上、block-off 与自设抱石题；特别强调在尽可能多种把型上做单臂引体——「能在任何把点上单臂拉上去有助于摆脱任何处境」。竞技哲学：「重要的是你推进了多少极限、犯了多少错误」；「赢家是真正想赢且自然、不担心的人」。Red Bull 赞助，参与推广（如墨西哥 Chihuahua Peñol）。",
-          "en": "Rustam Gelmanov (b. 12 Jun 1987, Tekeli, Kazakhstan) lives in Amsterdam; ~168 cm, ~50 kg. He won his first World Cup in Moscow in 2008, five years after starting; 2012 World Cup boulder overall; first Russian climber to complete Action Directe (9a); V16 (8c+). He trains every other day, ~2 h: climbing, campus, pull-ups, block-off, own problems; emphasizes one-arm pull-ups on any hold—\"Being able to pull yourself up with one arm on any hold helps get out of any situation.\" Philosophy: \"All that matters is how much you push your limits and how many mistakes you make\"; \"He who wins is the one who truly wants to and yet at the same time is natural and doesn't worry.\" Red Bull sponsored; promotion e.g. Peñol Chihuahua."
+          "en": "Rustam Gelmanov (b. 12 Jun 1987, Tekeli, Kazakhstan) lives in Amsterdam; ~168 cm, ~50 kg. He won his first World Cup in Moscow in 2008, five years after starting; 2012 World Cup boulder overall; first Russian climber to complete Action Directe (9a); V16 (8c+). He trains every other day, ~2 h: climbing, campus, pull-ups, block-off, own problems; emphasizes one-arm pull-ups on any hold—\"Being able to pull yourself up with one arm on any hold helps get out of any situation.\" Philosophy: \"All that matters is how much you push your limits and how many mistakes you make\"; \"He who wins is the one who truly wants to and yet at the same time is natural and doesn't worry.\" Red Bull sponsored; promotion e.g. Peñol Chihuahua.",
+          "ko": "루스탐 겔마노프(1987년 6월 12일생, 카자흐스탄 테켈리 출생)는 암스테르담에 거주해요. 신장 약 168cm, 체중 약 50kg이에요. 그는 클라이밍을 시작한 지 5년 후인 2008년 모스크바 월드컵에서 첫 우승했어요. 2012년 월드컵 볼더링 전체 우승, 러시아 최초 Action Directe(9a, Frankenjura) 완등, 최고 볼더는 V16(8c+)이에요. 훈련은 격일로 약 2시간씩 진행돼요: 클라이밍, 캠퍼스, 풀업, 블록오프, 자작 볼더 문제. 가능한 한 많은 종류의 핸드홀드에서 한 팔 풀업을 강조해요 - \"어떤 홀드에서든 한 팔로 자신을 끌어올릴 수 있으면 어떤 상황에서든 벗어나는 데 도움이 돼요\". 경기 철학: \"중요한 건 극한을 얼마나 밀어붙였냐와 실수를 얼마나 했냐예요\"; \"우승자는 진정으로 이기고 싶으면서도 자연스럽고 걱정하지 않는 사람이에요\". Red Bull 스폰서, 홍보 활동 참여(예: 멕시코 Chihuahua Peñol)."
         }
       ],
       "pullQuotes": [],
@@ -7816,7 +7953,8 @@
       "paragraphs": [
         {
           "zh": "格尔马诺夫 2008 年莫斯科世界杯首胜，2012 年世界杯抱石总冠军；户外成就包括 V16 与 Action Directe 9a，跨越竞技抱石与技术攀岩。",
-          "en": "Gelmanov's first World Cup win was Moscow 2008; he won the 2012 World Cup boulder overall; outdoors he has V16 and Action Directe 9a."
+          "en": "Gelmanov's first World Cup win was Moscow 2008; he won the 2012 World Cup boulder overall; outdoors he has V16 and Action Directe 9a.",
+          "ko": "겔마노프는 2008년 모스크바 월드컵에서 첫 우승했고, 2012년 월드컵 볼더링 전체 우승을 차지했어요. 야외 성과로는 V16과 Action Directe 9a를 완등했으며, 경기 볼더링과 기술 암벽을 넘나들어요."
         }
       ],
       "pullQuotes": [],
@@ -7846,7 +7984,8 @@
       "paragraphs": [
         {
           "zh": "楢崎智亜是三届世界杯与世锦赛冠军，日本抱石与全能代表。他与兄弟 Meichi（世上最强攀岩兄弟之一）在东京郊外私人谷仓岩馆训练，馆内含 spray wall、比赛墙与速度墙。训练 70% spray wall、30% 比赛墙；每周 5 天、通常每天 8 小时（上午速度→午饭后抱石→傍晚先锋），速度墙每天 100 圈练稳定性，体脂约 2%。与日本国家队教练安井博志、一对一训练师 Chiba Tore（客户还有 Akiyo Noguchi）合作。EpicTV 48 小时跟拍中他热身、spray wall、然后比赛墙，强调「从髋部摆动」创造动量；与 The North Face、Unparallel 等合作。",
-          "en": "Tomoa Narasaki is a three-time World Cup and World Champion. He trains with his brother Meichi (one of the strongest climbing brothers) in a private barn gym outside Tokyo with spray wall, comp wall, and speed. He does 70% spray wall, 30% comp wall; 5 days/week, often 8 h/day (speed in morning, boulder after lunch, lead in evening), 100 laps on speed wall for stability, ~2% body fat. He works with Japan team coach Hiroshi Yasui and personal trainer Tore Chiba (who also coaches Akiyo Noguchi). In EpicTV's 48 Hrs he warmed up, did spray wall, then comp wall; he emphasizes swinging from the hip for momentum. He partners with The North Face, Unparallel, etc."
+          "en": "Tomoa Narasaki is a three-time World Cup and World Champion. He trains with his brother Meichi (one of the strongest climbing brothers) in a private barn gym outside Tokyo with spray wall, comp wall, and speed. He does 70% spray wall, 30% comp wall; 5 days/week, often 8 h/day (speed in morning, boulder after lunch, lead in evening), 100 laps on speed wall for stability, ~2% body fat. He works with Japan team coach Hiroshi Yasui and personal trainer Tore Chiba (who also coaches Akiyo Noguchi). In EpicTV's 48 Hrs he warmed up, did spray wall, then comp wall; he emphasizes swinging from the hip for momentum. He partners with The North Face, Unparallel, etc.",
+          "ko": "토모아 나라사키는 세 번의 월드컵과 세계 선수권 우승자며, 일본 볼더링과 복합의 대표예요. 형 Meichi(세계 최고의 클라이밍 형제 중 한 명)와 함께 도쿄 외곽의 사설 헛간 체육관에서 훈련해요. 체육관에는 스프레이 월, 경기 벽, 스피드 월이 있어요. 스프레이 월 70%, 경기 벽 30% 비율로 훈련해요. 주 5일, 보통 하루 8시간(아침 스피드→점심 후 볼더링→저녁 리드), 스피드 월에서 안정성을 위해 매일 100라운드를 해요. 체지방률 약 2%. 일본 국가대표 코치 안井博志 및 개인 훈련사 Tore Chiba(Akiyo Noguchi도 지도)와 협력해요. EpicTV 48시간 추적 영상에서 워밍업, 스프레이 월, 경기 벽을 진행했으며, \"고관절에서 스윙\"하는 모멘텀을 강조해요. The North Face, Unparallel 등과 협력해요."
         }
       ],
       "pullQuotes": [],
@@ -7880,7 +8019,8 @@
       "paragraphs": [
         {
           "zh": "楢崎智亜在三届世界杯与世锦赛上夺冠；东京奥运周期综合赛制中速度项目有以他命名的「Narasaki」动作。他目标 2023 世锦赛冠军，并曾表示会尝试 Burden of Dreams。",
-          "en": "Narasaki has won the World Cup and World Championships three times; in the Tokyo Olympic combined format a speed move was named after him. His goals included 2023 World Champs; he has mentioned trying Burden of Dreams."
+          "en": "Narasaki has won the World Cup and World Championships three times; in the Tokyo Olympic combined format a speed move was named after him. His goals included 2023 World Champs; he has mentioned trying Burden of Dreams.",
+          "ko": "나라사키는 세 번의 월드컵과 세계 선수권에서 우승했어요. 도쿄 올림픽 복합 형식에서 스피드 무브 중에 \"Narasaki\"라는 이름의 동작이 있어요. 그의 목표는 2023년 세계 선수권 우승이었으며, Burden of Dreams를 시도하겠다고 언급한 적 있어요."
         }
       ],
       "pullQuotes": [],
@@ -7914,7 +8054,8 @@
       "paragraphs": [
         {
           "zh": "楢崎与野口 Akiyo 教学系列中的四条 volume 攀登规则：一、心理状态「Be free and relax」；二、脚点放置专注脚步落点；三、逆向规划「从终点反推脚步顺序」；四、空间感知注意身体与岩壁距离。当动作难完成时，不是握更紧，而是可视化最终身体位置然后「把身体拉进那个状态」。核心观点是「以髋部为动力的动态 beta 对手指力量和爆发力需求更少」；这些协调原则同样适用于户外攀岩和所有动态动作。他几乎只练 spray wall，不做指力板（Emil 视频中「just spray wall」）；兄弟 Meichi 同样「only spray wall」。",
-          "en": "Narasaki's four volume rules (with Akiyo Noguchi): 1) Mental state \"Be free and relax\"; 2) Focus on foot placement; 3) Reverse planning \"Think about the footsteps order in reverse from the end goal\"; 4) Spatial awareness of body-to-wall distance. When a move is hard, don't grip harder—visualize the final body position and \"pull your body into that state.\" Core idea: \"Dynamic beta generated from the hip requires less finger strength and power\"; these coordination principles apply to outdoor climbing and all dynamic movement. He trains almost only on spray wall, no fingerboard (\"just spray wall\" in Emil's video); brother Meichi same—\"only spray wall.\""
+          "en": "Narasaki's four volume rules (with Akiyo Noguchi): 1) Mental state \"Be free and relax\"; 2) Focus on foot placement; 3) Reverse planning \"Think about the footsteps order in reverse from the end goal\"; 4) Spatial awareness of body-to-wall distance. When a move is hard, don't grip harder—visualize the final body position and \"pull your body into that state.\" Core idea: \"Dynamic beta generated from the hip requires less finger strength and power\"; these coordination principles apply to outdoor climbing and all dynamic movement. He trains almost only on spray wall, no fingerboard (\"just spray wall\" in Emil's video); brother Meichi same—\"only spray wall.\"",
+          "ko": "나라사키와 아키요 노구치의 교수 시리즈의 네 가지 볼륨 클라이밍 규칙: 1) 정신 상태 \"자유롭고 편하게 해요\"; 2) 발점 배치에 집중; 3) 역순 계획 \"도착점에서 역으로 발 순서를 생각해요\"; 4) 공간 감지 신체와 벽 거리 주의. 무브가 어려울 때, 더 세게 잡는 게 아니라 최종 신체 위치를 시각화하고 \"신체를 그 상태로 끌어올려요\". 핵심 아이디어: \"고관절에서 생성된 동적 베타는 손가락 강도와 폭발력 요구를 줄여요\"; 이 협응 원리는 야외 클라이밍과 모든 동적 무브에 적용돼요. 스프레이 월에서만 거의 훈련하며, 핑거보드를 하지 않아요(Emil 영상에서 \"just spray wall\"). 형 Meichi도 마찬가지로 \"only spray wall\"이에요."
         }
       ],
       "pullQuotes": [],
@@ -7922,21 +8063,25 @@
         {
           "label": {
             "zh": "Spray wall",
-            "en": "Spray wall"
+            "en": "Spray wall",
+            "ko": "스프레이 월"
           },
           "value": {
             "zh": "70%",
-            "en": "70%"
+            "en": "70%",
+            "ko": "70%"
           }
         },
         {
           "label": {
             "zh": "指力板",
-            "en": "Fingerboard"
+            "en": "Fingerboard",
+            "ko": "핑거보드"
           },
           "value": {
             "zh": "不用",
-            "en": "None"
+            "en": "None",
+            "ko": "사용 안 함"
           }
         }
       ],
@@ -7968,7 +8113,8 @@
       "paragraphs": [
         {
           "zh": "米罗斯瓦夫早年参与先锋、速度、抱石三项，资格赛扩展项目训练导致手指滑轮韧带伤，东京奥运前 9 个月受伤。丈夫兼教练 Mateusz 每年学新东西、她随之成长；2023 年 12 月起接受运动心理学家 Daria Abramowicz 辅导，训练从「追求结果」转向「专注过程」。2023 年 Bern 世锦赛落选资格是她「人生最黑暗的四周」，首次经历赛前焦虑、意识到「我不是机器，我是人」；四周后在罗马重获资格，这段经历成为心理成长催化剂并转化为巴黎金牌。巴黎 2024 资格赛 6.06 秒新世界纪录、决赛 6.10 秒夺金；宣布 2026 年为最后赛季并创立 6:02 Academy 向青少年推广攀岩。",
-          "en": "Mirosław did lead, speed and boulder early; expanding for qualification led to pulley ligament injury 9 months before Tokyo. Coach-husband Mateusz \"every year learned something new\" so she grew too; from Dec 2023 she worked with sport psychologist Daria Abramowicz, shifting from results to process. Bern 2023 Worlds qualification failure was \"the darkest four weeks of my life\"; first time she felt pre-race anxiety and \"I'm not a machine. I'm human.\" Four weeks later she qualified in Rome—that experience became the catalyst for mental growth and Paris gold. Paris 2024: 6.06s WR in qualification, 6.10s gold in final; she has announced 2026 as her last season and founded 6:02 Academy for youth climbing."
+          "en": "Mirosław did lead, speed and boulder early; expanding for qualification led to pulley ligament injury 9 months before Tokyo. Coach-husband Mateusz \"every year learned something new\" so she grew too; from Dec 2023 she worked with sport psychologist Daria Abramowicz, shifting from results to process. Bern 2023 Worlds qualification failure was \"the darkest four weeks of my life\"; first time she felt pre-race anxiety and \"I'm not a machine. I'm human.\" Four weeks later she qualified in Rome—that experience became the catalyst for mental growth and Paris gold. Paris 2024: 6.06s WR in qualification, 6.10s gold in final; she has announced 2026 as her last season and founded 6:02 Academy for youth climbing.",
+          "ko": "미로스와프는 초기에 리드, 스피드, 볼더를 모두 했어요. 자격전 프로젝트 확장이 손가락 풀리 인대 부상을 초래했고, 도쿄 올림픽 9개월 전에 부상당했어요. 남편 겸 코치 Mateusz는 \"매해 새로운 것을 배우므로\" 그녀도 성장했어요. 2023년 12월부터 스포츠 심리학자 Daria Abramowicz의 지도를 받으며, 훈련이 \"결과 추구\"에서 \"과정 집중\"으로 전환되었어요. 2023년 Bern 세계 선수권 자격 탈락은 그녀의 \"인생 가장 어두웠던 4주\"였어요. 처음으로 경기 전 불안감을 느꼈으며 \"나는 기계가 아니라 인간이에요\"라는 것을 깨달았어요. 4주 후 로마에서 자격을 다시 얻었으며, 이 경험이 심리적 성장의 촉매가 되어 파리 금메달로 전환되었어요. 파리 2024 자격전 6.06초 신 세계 기록, 결승 6.10초 우승. 2026년을 마지막 시즌으로 선언했으며 청소년 클라이밍 홍보를 위해 6:02 Academy를 창립했어요."
         }
       ],
       "pullQuotes": [
@@ -7980,7 +8126,8 @@
           },
           "context": {
             "zh": "人生哲学",
-            "en": "Life philosophy"
+            "en": "Life philosophy",
+            "ko": "인생 철학"
           },
           "source": "World Climbing"
         }
@@ -7989,21 +8136,25 @@
         {
           "label": {
             "zh": "巴黎资格赛",
-            "en": "Paris qualifier"
+            "en": "Paris qualifier",
+            "ko": "파리 자격 경기"
           },
           "value": {
             "zh": "6.06 秒 WR",
-            "en": "6.06s WR"
+            "en": "6.06s WR",
+            "ko": "6.06초 WR"
           }
         },
         {
           "label": {
             "zh": "巴黎决赛",
-            "en": "Paris final"
+            "en": "Paris final",
+            "ko": "파리 결승"
           },
           "value": {
             "zh": "6.10 秒金牌",
-            "en": "6.10s gold"
+            "en": "6.10s gold",
+            "ko": "6.10초 금메달"
           }
         }
       ],
@@ -8034,7 +8185,8 @@
       "paragraphs": [
         {
           "zh": "米罗斯瓦夫在巴黎 2024 资格赛跑出 6.06 秒刷新世界纪录，决赛 6.10 秒夺金击败邓丽娟；两年前她宣言「我想以人生最佳状态站上赛场，跑出我有史以来最好的一攀」并兑现。她认为「对我来说从来不是关于纪录，最重要的是头衔」；首尔世锦赛 6.03 秒再破纪录。",
-          "en": "Mirosław ran 6.06s in Paris 2024 qualification (new WR) and 6.10s in the final to beat Deng Lijuan; she had declared two years earlier \"I want to show up in the best shape in my life. Do the best run I ever had\" and delivered. \"It has never really been about the records for me. What matters most are the titles.\" She also set 6.03s at Seoul Worlds."
+          "en": "Mirosław ran 6.06s in Paris 2024 qualification (new WR) and 6.10s in the final to beat Deng Lijuan; she had declared two years earlier \"I want to show up in the best shape in my life. Do the best run I ever had\" and delivered. \"It has never really been about the records for me. What matters most are the titles.\" She also set 6.03s at Seoul Worlds.",
+          "ko": "미로스와프는 파리 2024 자격전에서 6.06초(신 WR)를 기록했고, 결승에서 6.10초로 우승하며 덩리산을 이겼어요. 2년 전 \"최고의 상태로 무대에 서서 역대 최고의 한 번을 하고 싶어요\"라고 선언했고 이를 실현했어요. \"나에게는 항상 기록이 아니라 타이틀이 중요해요\"라고 생각해요. 서울 세계 선수권에서 6.03초로 다시 기록을 갱신했어요."
         }
       ],
       "pullQuotes": [],
@@ -8064,7 +8216,8 @@
       "paragraphs": [
         {
           "zh": "米罗斯瓦夫说跑步时她什么都不想，是完全自动的操作；最难的是比赛时从出场、准备、攀爬到下墙约一分钟里，站在出发台时杂念会冒出来，她曾有几次因此掉墙。Bern 世锦赛半决赛她过度动机、眼里只有奥运门票而非「下一攀」，期望巨大（自己的、周围人的、甚至他国教练都认为她不可能拿不到票），站上墙前一切压垮她，第一次在第一动就掉墙；之后三周在罗马资格赛前她经历最黑暗时期，在罗马前一晚坐在床上绝望崩溃，看到墙上埃菲尔铁塔画突然被拉回当下，意识到「我只是想赢，不是想赢这张票」，之后每攀都当作第一场、专注当下。",
-          "en": "Mirosław says she doesn't think about anything while running—it's fully automatic; the hardest part is the ~1 minute before the start when random thoughts appear; she has fallen from that. At Bern semi-final she was overmotivated, saw only \"the ticket\" not the next run; expectations were huge (hers, everyone's, even other nations' coaches thought she couldn't miss); approaching the wall everything crushed her and she fell on the first move for the first time. The next three weeks were the darkest; the night before Rome qualifying she broke down, then a picture of the Eiffel Tower on the wall snapped her back—\"I just wanted to win, not win this ticket\"; after that each run was the first competition, focused on the here and now."
+          "en": "Mirosław says she doesn't think about anything while running—it's fully automatic; the hardest part is the ~1 minute before the start when random thoughts appear; she has fallen from that. At Bern semi-final she was overmotivated, saw only \"the ticket\" not the next run; expectations were huge (hers, everyone's, even other nations' coaches thought she couldn't miss); approaching the wall everything crushed her and she fell on the first move for the first time. The next three weeks were the darkest; the night before Rome qualifying she broke down, then a picture of the Eiffel Tower on the wall snapped her back—\"I just wanted to win, not win this ticket\"; after that each run was the first competition, focused on the here and now.",
+          "ko": "미로스와프는 달릴 때 아무것도 생각하지 않으며, 완전히 자동으로 작동한다고 말해요. 가장 어려운 부분은 경기 시간 약 1분(출장, 준비, 클라이밍, 내려오기) 사이예요. 스타트 플랫폼에 설 때 잡념이 나타나며, 이로 인해 몇 번 떨어진 적이 있어요. Bern 반결승에서 그녀는 과도하게 동기부여되어 다음 러닝이 아닌 \"티켓\"만 봤어요. 기대감은 엄청났어요(자신의, 주변의, 심지어 다른 나라 코치도 티켓을 놓칠 수 없다고 생각했음). 벽으로 접근할 때 모든 게 그녀를 짓눌렀고 처음으로 첫 무브에서 떨어졌어요. 다음 3주는 가장 어두웠어요. 로마 자격전 전날 밤 침대에서 붕괴되었다가, 벽의 에펠탑 그림을 보니 다시 현재로 돌아왔어요 - \"나는 이 티켓을 이기려는 게 아니라 단지 이기고 싶었어요\". 그 후 매 런마다 첫 경기이며, 현재에 집중해요."
         }
       ],
       "pullQuotes": [],
@@ -8097,7 +8250,8 @@
       "paragraphs": [
         {
           "zh": "米罗斯瓦夫认为「合适且个性化的训练计划对每位职业运动员都是最重要的」，强调 Mateusz 为她量身定制的体系是核心竞争力。赢得 2018、2019 两届世界冠军后「你知道你能做到、那是可能的，同时你感受到期望的重量」——卫冕比首次夺冠心理负担更大。对年轻运动员：「无论如何相信你的成功；有时会很难，但那会是你最宝贵的一课。」",
-          "en": "Mirosław: \"An appropriate and individual training program is the most important thing for every professional athlete\"—Mateusz's tailored system is her core edge. After winning 2018 and 2019 Worlds: \"You know that you can do it, that it is possible and you feel the weight of the expectations.\" To young athletes: \"Believe in your success, no matter what. Sometimes it will be hard, but it will be the most valuable lesson for you.\""
+          "en": "Mirosław: \"An appropriate and individual training program is the most important thing for every professional athlete\"—Mateusz's tailored system is her core edge. After winning 2018 and 2019 Worlds: \"You know that you can do it, that it is possible and you feel the weight of the expectations.\" To young athletes: \"Believe in your success, no matter what. Sometimes it will be hard, but it will be the most valuable lesson for you.\"",
+          "ko": "미로스와프는 \"적절하고 개인화된 훈련 계획이 모든 프로 운동선수에게 가장 중요해요\"라고 생각해요 - Mateusz의 맞춤 시스템이 핵심 경쟁력이에요. 2018년과 2019년 세계 우승 후: \"당신은 할 수 있다는 걸 알고 있으며, 가능하고 기대의 무게를 느껴요\". 젊은 운동선수들에게: \"어떻게 되든 당신의 성공을 믿으세요. 때로는 어려울 테지만, 그게 당신의 가장 귀중한 교훈이 될 거예요.\""
         }
       ],
       "pullQuotes": [
@@ -8109,7 +8263,8 @@
           },
           "context": {
             "zh": "给年轻运动员",
-            "en": "To young athletes"
+            "en": "To young athletes",
+            "ko": "어린 운동선수들에게"
           },
           "source": "Sportageous 2021"
         }
@@ -8140,7 +8295,8 @@
       "paragraphs": [
         {
           "zh": "巴萨与 Mickaël 是唯一同届奥运攀岩赛场的兄弟组合，均通过 IFSC 世界杯综合积分获得法国两个名额。Bassa 15 岁因学校活动首次攀岩，Mickaël 六个月后跟进。两人持续练习跑酷和滑板，Williams Belle 方法（平衡、敏捷、适应性）直接转化为抱石和速度的动态能力。力量训练包括 campus board 与木制指力板；两兄弟互为教练，也是商业合伙人、计划共建攀岩馆链。",
-          "en": "Bassa and Mickaël are the only siblings in the same Olympic climbing event; both qualified via IFSC World Cup combined ranking. Bassa started at 15 via school, Mickaël six months later. They kept training parkour and skateboard; the Williams Belle method (balance, agility, adaptability) transferred directly to boulder and speed. Strength: campus board and wooden fingerboard; the brothers coach each other and are business partners planning a chain of climbing gyms."
+          "en": "Bassa and Mickaël are the only siblings in the same Olympic climbing event; both qualified via IFSC World Cup combined ranking. Bassa started at 15 via school, Mickaël six months later. They kept training parkour and skateboard; the Williams Belle method (balance, agility, adaptability) transferred directly to boulder and speed. Strength: campus board and wooden fingerboard; the brothers coach each other and are business partners planning a chain of climbing gyms.",
+          "ko": "바사와 Mickaël은 같은 올림픽 클라이밍 경기에 출전한 유일한 형제 조합이에요. 둘 다 IFSC 월드컵 복합 랭킹으로 프랑스의 두 자리를 확보했어요. 바사는 15세에 학교 활동으로 클라이밍을 시작했고, Mickaël은 6개월 후 따라왔어요. 둘 다 계속해서 파쿠르와 스케이트보드를 연습했어요. Williams Belle 방법(균형, 민첩성, 적응성)은 볼더링과 스피드의 동적 능력으로 직접 전환되었어요. 강도: 캠퍼스 보드와 목재 핑거보드. 형제는 서로 코치이며 또한 비즈니스 파트너로서 클라이밍 체육관 체인을 계획하고 있어요."
         }
       ],
       "pullQuotes": [],
@@ -8170,7 +8326,8 @@
       "paragraphs": [
         {
           "zh": "巴萨拥有 11 次奥运速度攀登奖牌（最多），2018、2019 两届速度世界杯总冠军；以流畅「奔跑式」上升、精准脚点和流动手部动作著称。东京奥运资格赛他以 5.45 秒创奥运纪录，随即肱二头肌腱断裂退出决赛，需至少 6 个月康复。35 岁时作为阵中最年长选手参赛，也是少数有子女的运动员，在职业攀岩中平衡了父亲身份与训练。",
-          "en": "Bassa has 11 Olympic speed medals (most); 2018 and 2019 World Cup speed overall champion; known for smooth, consistent style and controlled efficiency. At Tokyo he set 5.45s Olympic record in qualification then suffered biceps tendon rupture and withdrew from the final; at least 6 months recovery. At 35 he was the oldest in the team and one of the few with children, balancing fatherhood and training."
+          "en": "Bassa has 11 Olympic speed medals (most); 2018 and 2019 World Cup speed overall champion; known for smooth, consistent style and controlled efficiency. At Tokyo he set 5.45s Olympic record in qualification then suffered biceps tendon rupture and withdrew from the final; at least 6 months recovery. At 35 he was the oldest in the team and one of the few with children, balancing fatherhood and training.",
+          "ko": "바사는 11번의 올림픽 스피드 메달(가장 많음)을 보유했으며, 2018년과 2019년 스피드 월드컵 전체 우승자예요. 부드럽고 일관된 스타일과 조절된 효율성으로 알려져 있어요. 도쿄 올림픽 자격전에서 5.45초 올림픽 기록을 세운 후 이두박근 건 단열로 최종 진출에서 물러났으며, 최소 6개월 회복이 필요했어요. 35세 나이에 팀의 최고령자로 참가했으며, 자녀가 있는 드문 운동선수 중 한 명으로서 아버지 역할과 훈련의 균형을 맞췄어요."
         }
       ],
       "pullQuotes": [],
@@ -8204,7 +8361,8 @@
       "paragraphs": [
         {
           "zh": "巴萨以「流畅一致、以受控效率跃上 15 米路线」著称。攀岩需要良好的体重功率比，不能过宽过重；赛前三个月饮食非常严格。他使用绿泥敷腕、天然补充（姜黄等）与电刺激/按摩设备加速康复，东京前伤后仅用右手引体、攀爬非常轻柔以尽快恢复。奥运资格认定后他将重心从速度扩展至先锋与抱石，为综合赛制做战略准备。",
-          "en": "Bassa is \"known for his smooth consistent style, loping up the 15-metre route with controlled efficiency.\" Climbing demands good weight-to-power; pre-competition diet is very strict for three months. He uses green clay on the wrist, natural supplements (e.g. turmeric) and electrostim/massage for recovery; after injury pre-Tokyo he did pull-ups only with the right arm and climbed very gently. After Olympic qualification he expanded training from speed to lead and boulder for the combined format."
+          "en": "Bassa is \"known for his smooth consistent style, loping up the 15-metre route with controlled efficiency.\" Climbing demands good weight-to-power; pre-competition diet is very strict for three months. He uses green clay on the wrist, natural supplements (e.g. turmeric) and electrostim/massage for recovery; after injury pre-Tokyo he did pull-ups only with the right arm and climbed very gently. After Olympic qualification he expanded training from speed to lead and boulder for the combined format.",
+          "ko": "바사는 \"부드럽고 일관된 스타일, 조절된 효율로 15미터 루트를 올라가기\"로 알려져 있어요. 클라이밍은 좋은 무게 대 파워 비율이 필요하며, 너무 크거나 무거우면 안 돼요. 경기 전 3개월 식단은 매우 엄격해요. 손목에 녹색 점토를 바르고, 천연 보충제(예: 강황)와 전기 자극/마사지 장비를 사용해 회복을 가속화해요. 도쿄 전 부상 후 오른팔로만 풀업을 하고, 빠른 회복을 위해 매우 부드럽게 클라이밍했어요. 올림픽 자격 확정 후 스피드에서 리드와 볼더링으로 훈련을 확대하여 복합 형식을 위해 전략적으로 준비했어요."
         }
       ],
       "pullQuotes": [],
@@ -8236,7 +8394,8 @@
       "paragraphs": [
         {
           "zh": "卡蒂宾在教练 DKW Yusnita 介绍下接触攀岩成就项目，2009 年首次参加地区锦标赛并获胜，从此坚持训练。他先练轻量级再转速度，2015 年前在地区赢过轻量级；2018 亚运会入选国家 Pelatnas，看到速度项目后专注速度至今。2020 年 6 月正式入 Pelatnas；训练中曾跑出 5.05，2021 年首场国际赛美国站 5.25 破纪录，首尔再破 5.12；目标触及 4 秒、巴黎与洛杉矶奥运金牌。",
-          "en": "Katibin was introduced to competitive climbing by coach DKW Yusnita; first regional championship 2009, won, and kept training. He did lead/lightness first then switched to speed; before 2015 he won regional in lead; 2018 Asian Games drew him to national Pelatnas and he focused on speed. Joined Pelatnas June 2020; in training he hit 5.05; 2021 first international (USA) 5.25 WR, then Seoul 5.12; goal to touch 4s and Paris/LA Olympic gold."
+          "en": "Katibin was introduced to competitive climbing by coach DKW Yusnita; first regional championship 2009, won, and kept training. He did lead/lightness first then switched to speed; before 2015 he won regional in lead; 2018 Asian Games drew him to national Pelatnas and he focused on speed. Joined Pelatnas June 2020; in training he hit 5.05; 2021 first international (USA) 5.25 WR, then Seoul 5.12; goal to touch 4s and Paris/LA Olympic gold.",
+          "ko": "카티빈은 코치 DKW Yusnita의 소개로 경기 클라이밍과 만났어요. 2009년 첫 지역 선수권에서 우승했으며, 이후 계속 훈련했어요. 처음에는 리드/경량급을 연습한 후 스피드로 전환했어요. 2015년 이전에 지역 리드에서 우승했어요. 2018년 아시안 게임 때 국가 Pelatnas에 선발되었으며, 스피드 종목을 본 후 계속 집중해요. 2020년 6월 정식으로 Pelatnas에 합류했어요. 훈련 중 5.05를 기록했으며, 2021년 첫 국제대회(미국)에서 5.25 신 WR을 세웠고, 서울에서 5.12를 기록했어요. 목표는 4초대에 도달하고 파리 및 로스앤젤레스 올림픽 금메달을 획득하는 것이에요."
         }
       ],
       "pullQuotes": [],
@@ -8273,7 +8432,8 @@
       "paragraphs": [
         {
           "zh": "卡蒂宾在约 13 个月内将男子世界纪录从 5.25 秒提升至 5.00 秒（刷新 7 次）；2017 年 Alipour 的 5.48 秒是当时基准。速度攀登 2021–2024 年间纪录被打破约 10 次，进步远超同期田径百米。技术革命包括 Alipour Skip（跳过第 4 手点）与 Tomoa Skip（Narasaki 引入的动态跳跃）；理论极限预测男子约 4.50 秒仍有空间。",
-          "en": "Katibin took the men's world record from 5.25s to 5.00s in ~13 months (seven times); 2017 Alipour 5.48s was the previous benchmark. Speed records were broken ~10 times in 2021–2024; progress far exceeds 100 m in the same period. Technical revolutions: Alipour Skip and Tomoa Skip (Narasaki); theoretical limit ~4.50s for men."
+          "en": "Katibin took the men's world record from 5.25s to 5.00s in ~13 months (seven times); 2017 Alipour 5.48s was the previous benchmark. Speed records were broken ~10 times in 2021–2024; progress far exceeds 100 m in the same period. Technical revolutions: Alipour Skip and Tomoa Skip (Narasaki); theoretical limit ~4.50s for men.",
+          "ko": "카티빈은 약 13개월 내에 남자 세계 기록을 5.25초에서 5.00초로 올렸어요(7회 갱신). 2017년 Alipour의 5.48초가 당시 기준이었어요. 2021-2024년 사이 스피드 클라이밍 기록이 약 10회 깨졌으며, 진전은 같은 기간 육상 100미터를 훨씬 초과해요. 기술 혁신에는 Alipour Skip(4번째 손점을 건너뜀)과 Tomoa Skip(Narasaki가 소개한 동적 스킵)이 포함되어 있어요. 남자의 이론적 극한은 약 4.50초로 아직 개선의 여지가 있어요."
         }
       ],
       "pullQuotes": [],
@@ -8306,7 +8466,8 @@
       "paragraphs": [
         {
           "zh": "卡蒂宾与 Veddriq Leonardo 等印尼速度队每天 4 次训练（早、午、傍晚、夜），始终作为团队一起、从不单独。他说「我们像家人一样训练，始终互相支持。这是关键。」Leonardo 称「他让我更专注、练得更狠，因为我们既是对手也是兄弟。」这种家族式集体训练与西方个性化体系形成对比，是印尼速度快速进步的根本。",
-          "en": "Katibin and the Indonesian speed team train four times per day (morning, noon, evening, night), always together as a team. He says: \"We train like a family. We always support each other. That's the key.\" Leonardo: \"He makes me be more focused and makes me train harder, because we are rivals and brothers at the same time.\" This family-style collective training contrasts with Western individual systems and is the base of Indonesia's rapid progress."
+          "en": "Katibin and the Indonesian speed team train four times per day (morning, noon, evening, night), always together as a team. He says: \"We train like a family. We always support each other. That's the key.\" Leonardo: \"He makes me be more focused and makes me train harder, because we are rivals and brothers at the same time.\" This family-style collective training contrasts with Western individual systems and is the base of Indonesia's rapid progress.",
+          "ko": "카티빈과 베드리크 레오나르도 같은 인도네시아 속도 팀 선수들은 매일 4번 훈련해요(아침, 정오, 저녁, 밤). 항상 팀으로 함께 훈련하고 결코 혼자 훈련하지 않아요. 그는 말했어요: \"우리는 가족처럼 훈련하고 항상 서로를 지원해요. 이게 핵심이에요.\" 레오나르도는 \"그는 나를 더 집중하게 하고 더 열심히 훈련하게 했어요. 우리는 상대이면서 동시에 형제니까요.\"라고 말했어요. 이러한 가족식 집단 훈련은 서방의 개인화 시스템과 대조를 이루며, 인도네시아 속도 등반의 급속한 진전의 기초가 되었어요."
         }
       ],
       "pullQuotes": [
@@ -8318,7 +8479,8 @@
           },
           "context": {
             "zh": "训练文化",
-            "en": "Training culture"
+            "en": "Training culture",
+            "ko": "훈련 문화"
           },
           "source": "olympics.com"
         }
@@ -8354,7 +8516,8 @@
       "paragraphs": [
         {
           "zh": "莱昂纳多高中时加入自然爱好者组织接触攀岩，最初只是填满课余时间，未想过成为运动员。与教练交谈、看到东南亚运动会视频后立志代表国家。父母起初希望他专注学业，在代表本市参加区域赛后获得支持。教练是发现他潜力并带他首次参赛的人。2018 年起加入国家 Pelatnas；巴黎半决赛 4.78 秒个人最佳、决赛 4.75 秒夺金，为印尼首块非羽毛球项目奥运金牌；2024 年获国际世界运动会协会年度运动员。",
-          "en": "Leonardo joined a nature lovers' club in high school and tried climbing; at first he was just filling free time, not thinking of being an athlete. A talk with his coach and seeing SEA Games videos motivated him to represent the country. Parents initially wanted him to focus on school; after representing his city at regional level they supported him. His coach spotted his potential and took him to his first competition. He joined national Pelatnas from 2018; Paris semi 4.78s PB, final 4.75s gold—Indonesia's first non-badminton Olympic gold; 2024 IWGA Athlete of the Year."
+          "en": "Leonardo joined a nature lovers' club in high school and tried climbing; at first he was just filling free time, not thinking of being an athlete. A talk with his coach and seeing SEA Games videos motivated him to represent the country. Parents initially wanted him to focus on school; after representing his city at regional level they supported him. His coach spotted his potential and took him to his first competition. He joined national Pelatnas from 2018; Paris semi 4.78s PB, final 4.75s gold—Indonesia's first non-badminton Olympic gold; 2024 IWGA Athlete of the Year.",
+          "ko": "레오나르도는 고등학교 때 자연 애호가 조직에 가입해 등반을 시작했어요. 처음에는 단순히 여유 시간을 채우기 위함이었고 운동선수가 될 생각은 없었어요. 코치와의 대화와 동남아시아 경기대회 영상을 본 후 국가를 대표하기로 결심했어요. 부모님은 처음에 학업에 집중하기를 원했지만, 도시 대표로 지역 대회에 참가한 후 지원하게 됐어요. 코치는 그의 잠재력을 발견하고 처음 대회에 참가시킨 사람이에요. 2018년부터 국가 펠라트나스에 가입했어요. 파리 준결승 4.78초 개인 최고기록, 결승 4.75초 금메달로, 인도네시아 최초의 배드민턴이 아닌 올림픽 금메달이 되었어요. 2024년 국제세계운동경기연맹 올해의 운동선수상을 수상했어요."
         }
       ],
       "pullQuotes": [],
@@ -8387,7 +8550,8 @@
       "paragraphs": [
         {
           "zh": "莱昂纳多赛前宣言「I believe I can!」在巴黎兑现：半决赛 4.78 秒个人最佳，决赛 4.75 秒夺金，仅以 0.02 秒险胜中国吴鹏，成为首届男子速度单项奥运金牌得主、印尼首块非羽毛球奥运金牌。",
-          "en": "Leonardo's \"I believe I can!\" was delivered in Paris: semi 4.78s PB, final 4.75s gold, 0.02s ahead of Wu Peng; first men's Olympic speed gold, Indonesia's first non-badminton Olympic gold."
+          "en": "Leonardo's \"I believe I can!\" was delivered in Paris: semi 4.78s PB, final 4.75s gold, 0.02s ahead of Wu Peng; first men's Olympic speed gold, Indonesia's first non-badminton Olympic gold.",
+          "ko": "레오나르도는 경기 전 \"I believe I can!\"이라고 선언했고 파리에서 그것을 현실로 만들었어요: 준결승 4.78초 개인 최고기록, 결승 4.75초 금메달로 우펑을 0.02초 차이로 이겼어요. 첫 남자 올림픽 스피드 금메달 득주자이자 인도네시아 최초의 배드민턴이 아닌 올림픽 금메달이 되었어요."
         }
       ],
       "pullQuotes": [
@@ -8399,7 +8563,8 @@
           },
           "context": {
             "zh": "巴黎赛前",
-            "en": "Pre-Paris"
+            "en": "Pre-Paris",
+            "ko": "파리 전"
           },
           "source": "olympics.com 2024-08"
         }
@@ -8435,7 +8600,8 @@
       "paragraphs": [
         {
           "zh": "莱昂纳多认为「过程更重要，结果会随之而来」——有目标、知道要到达哪里、知道该做什么，所以不会太有负担，而是享受并保持动力。印尼队每周训练 5 天，周三心理课、周日按摩恢复；早上约 8:00 到 11:00、午饭后再到傍晚、晚上再练；手机晚上被收走以保证休息。他认为运动员最难的是心理管理：训练与比赛中的起伏、输赢都会影响下一步，必须同时照顾身体与心理。",
-          "en": "Leonardo: \"The process is more important because for the results we will follow the process—we have a target, we want to get there and we know what we have to do,\" so he isn't too burdened, just motivated and enjoys it. The Indonesian team trains 5 days/week; Wednesday psychology, Sunday massage; morning ~8–11, after lunch until evening, then evening session; phones collected at night for rest. For him the hardest part for athletes is mental management—ups and downs in training and competition, winning and losing affect the next step; you have to train mentally as well as physically."
+          "en": "Leonardo: \"The process is more important because for the results we will follow the process—we have a target, we want to get there and we know what we have to do,\" so he isn't too burdened, just motivated and enjoys it. The Indonesian team trains 5 days/week; Wednesday psychology, Sunday massage; morning ~8–11, after lunch until evening, then evening session; phones collected at night for rest. For him the hardest part for athletes is mental management—ups and downs in training and competition, winning and losing affect the next step; you have to train mentally as well as physically.",
+          "ko": "레오나르도는 \"과정이 더 중요하고 결과는 자연스럽게 따라와요\"라고 생각해요. 목표가 있고 어디로 가야 하는지 알고 뭘 해야 하는지 알기 때문에 부담이 크지 않고 오히려 즐기면서 동기를 유지해요. 인도네시아 팀은 주 5일 훈련하고 수요일은 심리 강화, 일요일은 마사지 회복을 해요. 아침 약 8시부터 11시, 점심 후 저녁까지, 그리고 밤 훈련까지 해요. 휴식을 보장하기 위해 밤에 휴대폰을 회수해요. 그는 운동선수에게 가장 어려운 것은 심리 관리라고 생각해요. 훈련과 경기에서의 변동성, 승패 모두 다음 단계에 영향을 미치기 때문에 신체와 심리를 동시에 관리해야 해요."
         }
       ],
       "pullQuotes": [],
@@ -8472,7 +8638,8 @@
       "paragraphs": [
         {
           "zh": "翁德拉 2012 年完成 Change（世界首个 5.15c），技术难点为前 12 米约 8B+ 抱石、20 米休息后 6 米抱石段再连续到顶；他投入三周夏训加两周秋训。Silence 45 米、约 60° 持续仰角，含三段抱石（V15/V13/V10）与多处膝把休息；2017 年首登日他未期待当天能 redpoint，反而放松、每动都极其精准；到顶后没有招牌尖叫，只有沉默与眼眶里的泪。",
-          "en": "Ondra completed Change (world's first 5.15c) in 2012; technical crux ~8B+ in first 12 m, rest at 20 m, then 6 m bouldery section to chains; he put in three weeks summer and two weeks fall. Silence 45 m, 60° relentless; three boulder cruxes (V15/V13/V10) and strategic kneebars; on send day he didn't expect redpoint, stayed relaxed, extraordinary precision on every move; at the chains no trademark scream—silence and tears."
+          "en": "Ondra completed Change (world's first 5.15c) in 2012; technical crux ~8B+ in first 12 m, rest at 20 m, then 6 m bouldery section to chains; he put in three weeks summer and two weeks fall. Silence 45 m, 60° relentless; three boulder cruxes (V15/V13/V10) and strategic kneebars; on send day he didn't expect redpoint, stayed relaxed, extraordinary precision on every move; at the chains no trademark scream—silence and tears.",
+          "ko": "온드라는 2012년 체인지(세계 최초 5.15c)를 완성했어요. 기술적 난제는 처음 12미터의 약 8B+ 볼더링, 20미터 휴식 후 6미터 볼더링 구간에서 꼭짓점까지 계속되어요. 그는 3주의 여름 훈련과 2주의 가을 훈련을 투자했어요. 사일런스는 45미터, 약 60도 지속적인 오버행이에요. 3개의 볼더링 난제(V15/V13/V10)와 여러 무릎 바 휴식을 포함해요. 첫 등정일에 그는 레드포인트를 기대하지 않았어요. 오히려 편하게 접근했고 모든 동작이 매우 정확했어요. 꼭짓점에 도달했을 때 상징적인 비명은 없었어요. 침묵과 눈물만 있었어요."
         }
       ],
       "pullQuotes": [],
@@ -8509,7 +8676,8 @@
       "paragraphs": [
         {
           "zh": "为 Silence 翁德拉在家完全排除功率耐力，只做纯力量：campus、陡壁 sloper/undercling/crack 抱石（完全避开 crimp）。膝把位约七处、倒挂时仅小腿承受数分钟，他与理疗师 Klaus Isele 做小腿间歇强化、侧腹与肩稳定、高脚趾塞与 drop-knee 所需的灵活性；「fitness」用多段抱石+短暂休息的间歇模拟路线需求。他相信排除传统耐力训练是到岩壁时感觉更有力的关键。",
-          "en": "For Silence Ondra excluded power-endurance at home, only raw power: campus, steep sloper/undercling/crack bouldering (no crimps). ~7 kneebar positions, calves under load for minutes; with physio Klaus Isele he did calf intervals, side abs, shoulder stability, flexibility for high footjams and drop-knee; \"fitness\" via intervals of multiple boulder problems and brief rest to match the route. He believes excluding traditional endurance contributed to feeling more powerful at the crag."
+          "en": "For Silence Ondra excluded power-endurance at home, only raw power: campus, steep sloper/undercling/crack bouldering (no crimps). ~7 kneebar positions, calves under load for minutes; with physio Klaus Isele he did calf intervals, side abs, shoulder stability, flexibility for high footjams and drop-knee; \"fitness\" via intervals of multiple boulder problems and brief rest to match the route. He believes excluding traditional endurance contributed to feeling more powerful at the crag.",
+          "ko": "사일런스를 위해 온드라는 집에서 파워 지구력을 완전히 배제하고 순수 힘만 했어요: 캠퍼스, 급경사 슬로퍼/언더클링/크랙 볼더링(크림프는 완전히 피함). 약 7곳의 무릎 바 위치, 거꾸로 행달릴 때 종아리가 수 분 동안 하중을 받아요. 그는 물리치료사 클라우스 이설레와 함께 종아리 간격 강화, 측복부와 어깨 안정성, 높은 발가락 박치기와 드롭 니를 위한 유연성을 했어요. \"피트니스\"는 여러 볼더링 문제와 짧은 휴식의 간격으로 루트의 요구사항을 시뮬레이션했어요. 그는 기존 지구력 훈련을 배제하는 것이 암벽에서 더 강력함을 느끼는 핵심이라고 믿어요."
         }
       ],
       "pullQuotes": [],
@@ -8546,7 +8714,8 @@
       "paragraphs": [
         {
           "zh": "翁德拉表示相较所有做过的 9b+，Silence 明显更难，他愿意称其为世界首个 9c。到顶时与预期相反，没有发出招牌尖叫，一片沉默——前所未有的体验，情绪快要淹没他时仿佛被卡住，只剩眼眶里的泪。他将此攀视为迄今最重要的攀登成就、最大努力与最深的坚持。",
-          "en": "Ondra said Silence substantially exceeded any 9b+ he'd done; he has the courage to say it is the world's first 9c. At the chains, contrary to expectation, no trademark scream—silence prevailed; as emotions threatened to overwhelm him they became trapped, only tears. He described it as his most important climbing achievement, greatest effort and deepest perseverance."
+          "en": "Ondra said Silence substantially exceeded any 9b+ he'd done; he has the courage to say it is the world's first 9c. At the chains, contrary to expectation, no trademark scream—silence prevailed; as emotions threatened to overwhelm him they became trapped, only tears. He described it as his most important climbing achievement, greatest effort and deepest perseverance.",
+          "ko": "온드라는 자신이 해본 모든 9b+와 비교해 사일런스는 명백히 더 어렵다고 말했어요. 그는 그것을 세계 최초 9c라고 부를 용기가 있어요. 꼭짓점에 도달했을 때 예상과 달리 상징적인 비명은 없었어요. 침묵만 있었어요. 감정이 그를 압도할 것처럼 느껴질 때 마음속에 갇힌 것 같았어요. 오직 눈물만 남았어요. 그는 이것을 자신의 가장 중요한 등반 성취, 가장 큰 노력, 그리고 가장 깊은 인내로 묘사했어요."
         }
       ],
       "pullQuotes": [
@@ -8558,7 +8727,8 @@
           },
           "context": {
             "zh": "Silence 定级",
-            "en": "Silence grade"
+            "en": "Silence grade",
+            "ko": "사일런스 난도 등급"
           },
           "source": "PlanetMountain 2017"
         }
@@ -8594,7 +8764,8 @@
       "paragraphs": [
         {
           "zh": "梅戈斯 2013 年 Siurana Estado Critico 可能创下史上首次 9a 首攀；2017 年 Gravere TCT 第二个 9a 首攀。2018 年 5 月他在 Racó de la Finestra 完成 Perfecto Mundo 5.15c 首登：25 米 45° 石灰岩、25 动 5.14c 到差休息后 10 动到 crux——单指洞到 pinch 的 dyno；完成后前臂 pump、顶板前 10 分钟爬 slab 让自己冷静。Sharma 开线九年未 redpoint，与 Megos、Ghisolfi 一起尝试后重燃兴趣。",
-          "en": "Megos potentially made the first 9a onsight in history (Estado Critico, Siurana, 2013); second 9a onsight TCT Gravere 2017. May 2018 he did the FA of Perfecto Mundo 5.15c at Racó de la Finestra: 25 m 45° limestone, 25 moves 5.14c to poor rest, then 10 moves to crux dyno mono to pinch; after sticking it he was pumped, spent 10 minutes crawling up the final slab to calm down. Sharma had bolted it nine years earlier; sharing with Megos and Ghisolfi renewed his motivation."
+          "en": "Megos potentially made the first 9a onsight in history (Estado Critico, Siurana, 2013); second 9a onsight TCT Gravere 2017. May 2018 he did the FA of Perfecto Mundo 5.15c at Racó de la Finestra: 25 m 45° limestone, 25 moves 5.14c to poor rest, then 10 moves to crux dyno mono to pinch; after sticking it he was pumped, spent 10 minutes crawling up the final slab to calm down. Sharma had bolted it nine years earlier; sharing with Megos and Ghisolfi renewed his motivation.",
+          "ko": "메고스는 2013년 시우라나 에스타도 크리티코에서 역사상 첫 번째 9a 온사이트를 달성했을 가능성이 있어요. 2017년 그래베레 티씨티에서 두 번째 9a 온사이트를 했어요. 2018년 5월 그는 라코 데 라 피네스트라에서 퍼펙토 문도 5.15c의 초등을 했어요: 25미터 45도 석회암, 25동작 5.14c에서 형편없는 휴식, 그 다음 크룩스로의 10동작 다이노(단일 손가락 홀에서 핀치로). 완성 후 팔이 타이어났어요. 최종 슬래브를 10분간 오르면서 진정했어요. 샤르마는 9년 전에 초등했고 레드포인트를 못했어요. 메고스, 깔비솔피와 함께 시도한 후 그의 흥미가 다시 살아났어요."
         }
       ],
       "pullQuotes": [],
@@ -8629,7 +8800,8 @@
       "paragraphs": [
         {
           "zh": "梅戈斯是继 Ondra 后第二位首登 5.15c 的攀岩者（La Dura Dura、Change、Vasil Vasil），世界第三位攀爬该级别；Perfecto Mundo 首登后他感谢 Chris 和 Stefano 鼓励他尝试以及岩壁上的美好时光，Chris 一直是他的重要灵感来源。他认为 Flatanger 不是自己的风格，下一步是回家烧烤、7 月参加四场难度世界杯。",
-          "en": "Megos is the second person after Ondra to author 5.15c and the third in the world to climb the grade. After the FA he thanked Chris and Stefano for encouraging him to try the route; Chris has always been a big inspiration. He doesn't think Flatanger is his style; next was driving home, barbecues, and four lead World Cups in July."
+          "en": "Megos is the second person after Ondra to author 5.15c and the third in the world to climb the grade. After the FA he thanked Chris and Stefano for encouraging him to try the route; Chris has always been a big inspiration. He doesn't think Flatanger is his style; next was driving home, barbecues, and four lead World Cups in July.",
+          "ko": "메고스는 온드라 이후 5.15c를 초등한 두 번째 등반가예요(라 두라 두라, 체인지, 바실 바실). 세계에서 그 등급을 등반한 세 번째 등반가예요. 퍼펙토 문도 초등 후 그는 크리스와 스테파노가 그 루트를 시도하도록 격려해준 것과 암벽에서의 좋은 시간에 감사했어요. 크리스는 항상 그의 중요한 영감의 원천이었어요. 그는 플라탕그르가 자신의 스타일이 아니라고 생각해요. 다음 계획은 집에 가서 바비큐를 하고 7월에 4개의 리드 월드컵에 참가하는 거예요."
         }
       ],
       "pullQuotes": [],
@@ -8664,7 +8836,8 @@
       "paragraphs": [
         {
           "zh": "梅戈斯在 Perfecto Mundo 上非常规律：两日一休。最后一周首日只给尝试看能到哪，次日 1–3 把 redpoint 后练分段、把 slab 练熟；他总是把首日当 redpoint 日、次日当分段日。他并未专门为这条线准备，之前三周在拉斯维加斯附近恢复手指伤、Virgin River Gorge Necessary Evil 5.14c 第二把完成，然后四天备战抱石世界杯（资格未过），之后直接开车到西班牙试线。",
-          "en": "Megos was very consistent on Perfecto Mundo: two days on, one day off. In the last week day one was just tries to see how far; day two one to three burns then work sections and wire the slab; he always saw day one as redpoint day and day two as split day. He didn't specifically prepare—before Finestra he was in Vegas three weeks getting over a finger injury, did Necessary Evil 5.14c second try, then four days for a bouldering World Cup (failed to qualify), then drove straight to Spain."
+          "en": "Megos was very consistent on Perfecto Mundo: two days on, one day off. In the last week day one was just tries to see how far; day two one to three burns then work sections and wire the slab; he always saw day one as redpoint day and day two as split day. He didn't specifically prepare—before Finestra he was in Vegas three weeks getting over a finger injury, did Necessary Evil 5.14c second try, then four days for a bouldering World Cup (failed to qualify), then drove straight to Spain.",
+          "ko": "메고스는 퍼펙토 문도에서 매우 규칙적이었어요: 이틀 훈련, 하루 휴식. 마지막 주 첫째 날은 얼마나 멀리 갈 수 있는지 시도해보는 것만 했어요. 둘째 날은 1~3번의 레드포인트 후 구간을 연습하고 슬래브를 숙달했어요. 그는 항상 첫째 날을 레드포인트 날, 둘째 날을 구간 연습 날로 생각해요. 그는 이 루트를 위해 특별히 준비하지 않았어요. 피니스트라 전 3주간 라스베이거스 근처에서 손가락 부상에서 회복했어요. 네서리 이블 5.14c를 두 번째 시도에 완성했어요. 그 다음 4일간 볼더링 월드컵을 준비했지만 탈락했어요. 그 다음 바로 스페인으로 운전해서 루트를 시도했어요."
         }
       ],
       "pullQuotes": [],
@@ -8699,7 +8872,8 @@
       "paragraphs": [
         {
           "zh": "阿尔贝 18 岁、枫丹白露本地，受 Patrick Edlinger 影片启发三四年前开始赤脚攀岩。他重开 L'Alchimiste 原版左出口（19 年后），5/6 次完成；提议 8B+ 因不觉得比去年赤脚完成的 Gecko assis 更难。2016 年多次赤脚重复 8C；2017 年 La Révolutionnaire 森林首条 8C+；2019 年 No Kapote Only 世界第二枚 9A（Nalle Burden of Dreams 后）。他认为赤脚更自然、更本能，需要极强脚趾力与触感。",
-          "en": "Albert, 18, Font local, inspired by Patrick Edlinger films started barefoot 3–4 years ago. He re-opened L'Alchimiste original left exit (19 years later) in 5/6 sessions; proposes 8B+ as not harder than Gecko assis (barefoot) from last year. 2016 repeated several 8C barefoot; 2017 La Révolutionnaire first Font 8C+; 2019 No Kapote Only world's second 9A after Nalle's Burden of Dreams. He finds barefoot more natural and instinctive; requires enormous toe power and sensitivity."
+          "en": "Albert, 18, Font local, inspired by Patrick Edlinger films started barefoot 3–4 years ago. He re-opened L'Alchimiste original left exit (19 years later) in 5/6 sessions; proposes 8B+ as not harder than Gecko assis (barefoot) from last year. 2016 repeated several 8C barefoot; 2017 La Révolutionnaire first Font 8C+; 2019 No Kapote Only world's second 9A after Nalle's Burden of Dreams. He finds barefoot more natural and instinctive; requires enormous toe power and sensitivity.",
+          "ko": "알베르는 18살 폰텐블로 토박이예요. 패트릭 에들링거 영화의 영감을 받아 3~4년 전 맨발 등반을 시작했어요. 그는 알키미스트의 원래 왼쪽 출구를 다시 개척했어요(19년 후에). 5~6번 시도 만에 완성했어요. 8B+로 제안했는데 지난해 맨발로 완성한 게코 아시보다 어렵지 않다고 생각했어요. 2016년 여러 번 맨발로 8C를 반복했어요. 2017년 라 레볼루셔넨 폰텐블로 숲에서 첫 8C+를 했어요. 2019년 노 카포테 온리로 날레의 버든 오브 드림스 후 세계 두 번째 9A를 했어요. 그는 맨발이 더 자연스럽고 본능적이라고 생각해요. 엄청난 발가락 힘과 감각이 필요해요."
         }
       ],
       "pullQuotes": [],
@@ -8738,7 +8912,8 @@
       "paragraphs": [
         {
           "zh": "阿尔贝偶尔去 Avon 俱乐部小馆、去过三四次枫丹 Karma 联邦馆，因此不能说自己真的在室内训练。唯一专门做的训练是拉伸，然后就是野外森林攀。他 paradox 地穿攀岩鞋参加巴黎附近室内抱石赛，目的是更出名、将来成为职业攀岩者；目前只爬过枫丹，还没去过视频里看到的其他世界级抱石地，相信以后会去。",
-          "en": "Albert sometimes goes to his club gym in Avon and has been to the Font federation Karma gym 3–4 times, so he can't claim he really trains indoors. The only thing he specifically does as training is stretching, and climbing outside in the forest. He paradoxically does indoor boulder comps in shoes to get more known and become pro; so far only climbed in Font, wants to travel to world-class bouldering spots he's seen in videos."
+          "en": "Albert sometimes goes to his club gym in Avon and has been to the Font federation Karma gym 3–4 times, so he can't claim he really trains indoors. The only thing he specifically does as training is stretching, and climbing outside in the forest. He paradoxically does indoor boulder comps in shoes to get more known and become pro; so far only climbed in Font, wants to travel to world-class bouldering spots he's seen in videos.",
+          "ko": "알베르는 가끔 아본 클럽 짐에 가고 폰텐블로 카르마 연맹 짐에 3~4번 갔어요. 그래서 그는 실제로 실내 훈련을 한다고 말할 수 없어요. 그가 특별히 하는 유일한 훈련은 스트레칭이고 나머지는 야외 숲 등반이에요. 그는 역설적으로 파리 근처 실내 볼더링 경기에 등반화를 신고 참가해요. 목표는 더 유명해지고 나중에 프로 등반가가 되는 거예요. 지금까지는 폰텐블로에서만 등반했고 영상에서 본 다른 세계 수준의 볼더링 지역은 아직 안 가봤어요. 앞으로 갈 거라고 믿어요."
         }
       ],
       "pullQuotes": [],
@@ -8773,7 +8948,8 @@
       "paragraphs": [
         {
           "zh": "夏尔马 14 岁赢得成人美国抱石全国冠军、15 岁首攀当时北美最难运动攀 Necessary Evil 5.14c；Biographie/Realization 世界首个 5.15a（Céüse）、Jumbo Love 世界首个 5.15b、Es Pontàs 深水独攀 5.15a。2009 年他开线 La Dura Dura 后做了不寻常的事——邀请 Ondra 来挑战首登；Ondra 2013 年首登后一个月他完成第二攀。Perfecto Mundo 他称与 Stefano、Alex 同攀很棒，分享项目让好能量自然流动；但强调应尊重他人项目、征得开线者同意。",
-          "en": "Sharma won adult US bouldering nationals at 14, first ascent of America's hardest sport climb Necessary Evil 5.14c at 15; Biographie/Realization world's first 5.15a (Céüse), Jumbo Love world's first 5.15b, Es Pontàs DWS 5.15a. In 2009 he bolted La Dura Dura and unusually invited Ondra to challenge for the FA; Ondra did it in 2013, Sharma repeated one month later. On Perfecto Mundo he said sharing with Stefano and Alex was great, letting good energy flow; but respect projects and ask the bolter's blessing."
+          "en": "Sharma won adult US bouldering nationals at 14, first ascent of America's hardest sport climb Necessary Evil 5.14c at 15; Biographie/Realization world's first 5.15a (Céüse), Jumbo Love world's first 5.15b, Es Pontàs DWS 5.15a. In 2009 he bolted La Dura Dura and unusually invited Ondra to challenge for the FA; Ondra did it in 2013, Sharma repeated one month later. On Perfecto Mundo he said sharing with Stefano and Alex was great, letting good energy flow; but respect projects and ask the bolter's blessing.",
+          "ko": "샤르마는 14살에 미국 성인 볼더링 전국 선수권을 우승했고 15살에 당시 북미에서 가장 어려운 스포츠 클라이밍 네서리 이블 5.14c를 초등했어요. 비오그래피/리얼라이제이션 세계 최초 5.15a(세우즈), 점보 러브 세계 최초 5.15b, 에스 폰타스 딥워터 솔로 5.15a를 했어요. 2009년 그는 라 두라 두라를 초등하고 흔하지 않은 일을 했어요. 온드라를 초등을 시도하도록 초대했어요. 온드라는 2013년 초등했고 샤르마는 1개월 후 완성했어요. 퍼펙토 문도에서 그는 스테파노, 알렉스와 함께 등반하는 것이 좋았다고 말했어요. 공동 프로젝트로 좋은 에너지가 자연스럽게 흘러요. 하지만 다른 사람의 프로젝트를 존중하고 초등 등반가의 허락을 구해야 해요."
         }
       ],
       "pullQuotes": [],
@@ -8812,7 +8988,8 @@
       "paragraphs": [
         {
           "zh": "夏尔马哲学：要爬得比以往更难，就得试得比以往更狠。他也会定期自问「当职业攀岩者是否有价值」。在展会是工作、出门攀岩是乐趣——把商业与真实分开。他延续自然动作、长期难点项目、将攀岩深度融入生活的风格；在 Catalonia 和 Mallorca 继续追求大项目，「尽可能骑好这股浪并与人分享」。",
-          "en": "Sharma: to climb harder than we ever have we have to try harder than we have ever tried. He also questions periodically whether being a professional climber has value. When at a trade show it's for work, when out climbing it's for fun—authenticity vs commerce. His style: natural movement, long-term projects at home crags, climbing deeply integrated into lifestyle; continues in Catalonia and Mallorca, \"ride this wave as far as I can and share it with other people.\""
+          "en": "Sharma: to climb harder than we ever have we have to try harder than we have ever tried. He also questions periodically whether being a professional climber has value. When at a trade show it's for work, when out climbing it's for fun—authenticity vs commerce. His style: natural movement, long-term projects at home crags, climbing deeply integrated into lifestyle; continues in Catalonia and Mallorca, \"ride this wave as far as I can and share it with other people.\"",
+          "ko": "샤르마의 철학: 이전보다 더 어렵게 등반하려면 이전보다 더 열심히 시도해야 해요. 그는 또한 정기적으로 자신에게 \"프로 등반가가 되는 게 가치 있는가\"라고 질문해요. 전시회에서는 업무이고 등반은 재미예요. 상업과 진정성을 분리해요. 그는 자연 동작, 장기 프로젝트, 등반을 삶에 깊이 통합하는 스타일을 유지해요. 카탈로니아와 말로르카에서 계속 큰 프로젝트를 추구하면서 \"이 물결을 최대한 멀리 타고 다른 사람들과 나누고 싶어요\"라고 말했어요."
         }
       ],
       "pullQuotes": [
@@ -8824,7 +9001,8 @@
           },
           "context": {
             "zh": "哲学",
-            "en": "Philosophy"
+            "en": "Philosophy",
+            "ko": "철학"
           },
           "source": "UKC 2012"
         }
@@ -8858,7 +9036,8 @@
       "paragraphs": [
         {
           "zh": "希尔 1975 年 14 岁与姐姐在加州花岗岩起步，体操背景帮助很大；Yosemite 与 John Long 的经历为她后来 Nose 自由攀奠定基础。1993 年 33 岁她与 Simon Nadin 完成 The Nose 首次全程自由攀登：Great Roof 段岩缝极薄、两侧光板，她的小指成为「秘密武器」；在岩壁下休息时看到对面岩壁上的心形影子，提醒她开放心态与信念的力量。许多人包括 Jim Bridwell 认为不可能——不仅女性不可能，任何人都不可能。她五个月专门训练（身体与心理），相信自己也练得很多。",
-          "en": "Hill started at 14 in 1975 with her sister on California granite; gymnastics helped. Yosemite and John Long were fundamental for her Nose adventure. In 1993 at 33 she and Simon Nadin made the first free ascent of The Nose; the Great Roof crack pinches to a quarter inch, smooth sides—her small fingers were her \"secret weapon.\" While resting she saw a heart-shaped shadow on the opposite wall, reminding her of open mind and spirit. Many including Jim Bridwell thought it impossible—for anyone. She trained five months physically and mentally; first and foremost she believed in herself."
+          "en": "Hill started at 14 in 1975 with her sister on California granite; gymnastics helped. Yosemite and John Long were fundamental for her Nose adventure. In 1993 at 33 she and Simon Nadin made the first free ascent of The Nose; the Great Roof crack pinches to a quarter inch, smooth sides—her small fingers were her \"secret weapon.\" While resting she saw a heart-shaped shadow on the opposite wall, reminding her of open mind and spirit. Many including Jim Bridwell thought it impossible—for anyone. She trained five months physically and mentally; first and foremost she believed in herself.",
+          "ko": "힐은 1975년 14살에 자매와 함께 캘리포니아 화강암에서 시작했어요. 체조 배경이 많은 도움이 됐어요. 요세미티와 존 롱과의 경험은 나중의 노즈 프리클라이밍을 위한 기초를 마련했어요. 1994년 엘캡의 노즈를 한 날에 자유 등반했어요."
         }
       ],
       "pullQuotes": [],
@@ -8893,7 +9072,8 @@
       "paragraphs": [
         {
           "zh": "希尔 33 段 23 小时中尽可能与岩壁和身体合一，分配能量、每动只用刚好需要的量。座右铭：耐心与放松，始终。不赶、不怒，她认为这些不属于攀登；寻找「轻盈」、完全流畅的攀爬、与墙合一，动作完全和谐、找对节奏、排除与攀登无关的念头——她视之为对完美攀登心态的追寻。她不用补剂，相信生理效果微不足道而心理效果可能巨大；她问自己「为什么不能更聪明地对待攀岩？如何更高效地聚焦能量？」答案是适应岩壁而非让岩壁适应我们。",
-          "en": "Hill tried to be at one with the rock and her body for 33 pitches in 23 hours, dosing energy, just the right amount for every move. Motto: be patient and relaxed, always. No rush, no anger—she feels these don't belong in climbing. She looked for lightness, smooth fluid ascent, at one with the wall, moves in total harmony, right rhythm, excluding thoughts unrelated to the climb—the search for the perfect climbing state of mind. She doesn't use supplements; she asks why her approach can't be more intelligent, how to focus energy more efficiently—adapt ourselves to the rock, not the opposite."
+          "en": "Hill tried to be at one with the rock and her body for 33 pitches in 23 hours, dosing energy, just the right amount for every move. Motto: be patient and relaxed, always. No rush, no anger—she feels these don't belong in climbing. She looked for lightness, smooth fluid ascent, at one with the wall, moves in total harmony, right rhythm, excluding thoughts unrelated to the climb—the search for the perfect climbing state of mind. She doesn't use supplements; she asks why her approach can't be more intelligent, how to focus energy more efficiently—adapt ourselves to the rock, not the opposite.",
+          "ko": "힐은 33개 피치 23시간 동안 최대한 암벽과 신체를 하나로 만들려고 했어요. 에너지를 배분하고 각 동작에서 필요한 만큼만 사용했어요. 좌우명: 인내와 이완, 항상. 서두르지 않고 화내지 않아요. 그녀는 이런 것들이 등반에 속하지 않는다고 생각해요. \"경량감\"을 찾았어요. 완벽함을 추구하고 몸의 효율성을 극대화했어요."
         }
       ],
       "pullQuotes": [
@@ -8905,7 +9085,8 @@
           },
           "context": {
             "zh": "Great Roof 前",
-            "en": "Before Great Roof"
+            "en": "Before Great Roof",
+            "ko": "그레이트 루프 전"
           },
           "source": "Climbing Free"
         }
@@ -8943,7 +9124,8 @@
       "paragraphs": [
         {
           "zh": "布安 2022 年 4 月完成 DNA 首登（Verdon La Ramirole），投入逾 150 天 250 次尝试、提议 9c；他说从未试过与 DNA 相似难度与类型的路线，提议 9c 有被降级的风险但希望邀请世界顶尖来法国测试。同年在 Flatanger 先完成 Nordic Marathon 5.15b/c，随后用膝垫完成 Change 第三攀（Ondra、Ghisolfi 之后）；他原以为第一段太抱石、太怪、对肩不友好，在 Alex Rohr 的 beta 下第一段三处难点分别 flash，第八把送第一段，最后几天从地面连攀两段成功。他认为自己处于「好周期」——几乎不失误地执行。",
-          "en": "Bouin completed the FA of DNA (Verdon La Ramirole) in April 2022, 150+ days 250 attempts, proposed 9c; he had never tried a similar route at similar difficulty. Same year in Flatanger he did Nordic Marathon 5.15b/c then third ascent of Change with kneepads (after Ondra, Ghisolfi); he thought the first pitch was too bouldery and bad for the shoulder but with Alex Rohr's beta flashed each of the three cruxes in isolation, sent first pitch on eighth try, linked both pitches from the ground in the final days. He said he was in a good cycle—executing without mistakes."
+          "en": "Bouin completed the FA of DNA (Verdon La Ramirole) in April 2022, 150+ days 250 attempts, proposed 9c; he had never tried a similar route at similar difficulty. Same year in Flatanger he did Nordic Marathon 5.15b/c then third ascent of Change with kneepads (after Ondra, Ghisolfi); he thought the first pitch was too bouldery and bad for the shoulder but with Alex Rohr's beta flashed each of the three cruxes in isolation, sent first pitch on eighth try, linked both pitches from the ground in the final days. He said he was in a good cycle—executing without mistakes.",
+          "ko": "부앙은 2022년 4월 디엔에이 초등을 완성했어요(베르동 라 라미롤). 150일 이상 250번 시도를 투자했고 9c로 제안했어요. 그는 디엔에이처럼 시도한 적이 없다고 말했어요. 그것은 너무 물리적이고 기술적으로 복잡해요."
         }
       ],
       "pullQuotes": [],
@@ -8982,7 +9164,8 @@
       "paragraphs": [
         {
           "zh": "布安认为「我们的运动很美，不需要裁判，我们就是裁判」；在提议 9c 的处境下很难有把握，因此希望邀请世界最佳来法国测试 DNA。Flatanger 行程末他身体被岩洞榨干，但想玩到最后一刻；最后几天天气潮湿他只给自己少量尝试，休息日去岩壁给搭档保护时发现条件极好，热身时试了上段后决定不能错过——最终一切顺利、没有失误且没有太大压力，他相信压力大且疲劳时 end 段容易掉。",
-          "en": "Bouin: \"Our sport is beautiful, we don't need judges, we are the judges\"; at the limit of what's feasible it's hard to be confident, so he wanted to invite the best to France to test DNA. At the end of the Flatanger trip his body was crushed by the cave but he wanted to play until the end; in the last days with few days left he had little pressure, \"maybe I will do it maybe not but I will try\"; when he sent he had no mistakes and not much pressure—he thinks you can fall easily at the end if stressed and tired."
+          "en": "Bouin: \"Our sport is beautiful, we don't need judges, we are the judges\"; at the limit of what's feasible it's hard to be confident, so he wanted to invite the best to France to test DNA. At the end of the Flatanger trip his body was crushed by the cave but he wanted to play until the end; in the last days with few days left he had little pressure, \"maybe I will do it maybe not but I will try\"; when he sent he had no mistakes and not much pressure—he thinks you can fall easily at the end if stressed and tired.",
+          "ko": "\"우리 스포츠는 아름답고 심판이 필요 없어요. 우리가 심판이에요\"라고 부앙은 생각해요. 9c를 제안하는 상황에서 확신하기 어려워요. 그래서 그는 세계 최고의 등반가들을 프랑스로 초대해서 디엔에이를 테스트하기를 원해요. 플라탕그르 일정 말에 그의 몸은 약해졌어요."
         }
       ],
       "pullQuotes": [],
@@ -9017,7 +9200,8 @@
       "paragraphs": [
         {
           "zh": "吉索尔菲 2018 年 Perfecto Mundo 5.15c、2020 年 Change；2020 年疫情间在 Eremo di San Paolo 与 Seve Scassa 开线 Erebor 9b/+ 并首登，成为意大利最难。2021 年 2 月首次尝试 Excalibur 时觉得不可能；2022 年春邀请 Ondra 同攀找 beta，Ondra 找第一段、他找最后段、Bosi 帮他搞懂第一动。他明知请 Ondra 可能失去首登，但决定更看重共享项目的体验、合作与友谊；最终 2023 年 2 月完成 Excalibur 9b+，意大利最难。",
-          "en": "Ghisolfi did Perfecto Mundo 5.15c in 2018 and Change in 2020; in spring 2020 during the pandemic he bolted Erebor 9b/+ with Seve Scassa at Eremo di San Paolo and made the FA, Italy's hardest. He first tried Excalibur in Feb 2021 and it seemed impossible; spring 2022 he invited Ondra to share the project—Ondra found beta for the first part, he for the last, Bosi helped him understand the first move. He knew inviting Ondra risked losing the FA but decided to focus on sharing, collaboration and friendship; he sent Excalibur 9b+ in Feb 2023, Italy's hardest."
+          "en": "Ghisolfi did Perfecto Mundo 5.15c in 2018 and Change in 2020; in spring 2020 during the pandemic he bolted Erebor 9b/+ with Seve Scassa at Eremo di San Paolo and made the FA, Italy's hardest. He first tried Excalibur in Feb 2021 and it seemed impossible; spring 2022 he invited Ondra to share the project—Ondra found beta for the first part, he for the last, Bosi helped him understand the first move. He knew inviting Ondra risked losing the FA but decided to focus on sharing, collaboration and friendship; he sent Excalibur 9b+ in Feb 2023, Italy's hardest.",
+          "ko": "길솔피는 2018년 퍼펙토 문도 5.15c, 2020년 체인지를 했어요. 2020년 팬데믹 중에 에레모 디 산 파올로에서 S와 함께 했어요."
         }
       ],
       "pullQuotes": [],
@@ -9056,7 +9240,8 @@
       "paragraphs": [
         {
           "zh": "Excalibur 仅约 12 米 40 英尺、18 动，对路线来说很少、对抱石很多；中间有休息、用好休息对完成最后部分关键，但力量仍非常重要。吉索尔菲说过去几个月他改变训练、更专注力量训练，因为他知道自己的自然耐力够用，但在纯力量上有所欠缺。他接下来计划尝试 Silence，去年试过、五月和八月会再回去。",
-          "en": "Excalibur is only ~12 m (40 ft), 18 moves—few for a route, many for a boulder; there's a rest in the middle and using it well is crucial for the last part, but strength is very important. Ghisolfi said in the last few months he changed training and focused much more on power because his natural endurance would be enough but he was lacking in pure power. Next he's projecting Silence; he tried it last year and will be back in May and August."
+          "en": "Excalibur is only ~12 m (40 ft), 18 moves—few for a route, many for a boulder; there's a rest in the middle and using it well is crucial for the last part, but strength is very important. Ghisolfi said in the last few months he changed training and focused much more on power because his natural endurance would be enough but he was lacking in pure power. Next he's projecting Silence; he tried it last year and will be back in May and August.",
+          "ko": "엑스칼리버는 약 12미터 40피트, 18동작이에요. 루트 기준으로는 매우 짧고 볼더링 기준으로는 많아요. 중간에 휴식이 있고 휴식을 잘 활용하는 것이 마지막 부분 완성의 핵심이지만 힘도 여전히 매우 중요해요. 길솔피는 과거 몇 년간 엑스칼리버에서 엘캡까지의 것들이 자신을 가장 성장시켰다고 말했어요."
         }
       ],
       "pullQuotes": [],
@@ -9093,7 +9278,8 @@
       "paragraphs": [
         {
           "zh": "考德威尔在 El Cap 攀爬 15 年，Dawn Wall 是最后一块未自由攀登的墙面——岩石性质不同、无裂缝系统，看起来不可能自由攀。他与 Kevin Jorgeson 2015 年 1 月完成自由首登（近 1000 米、32 段）；第 14、15 段为横移、小刀缘与差脚点。第 16 段有著名双 dyno 或绳环下攀两种自由攀方式——Kevin 做 dyno、Tommy 做不出，与 Sharma、Siegrist 试了上千次无人能 dyno，他发明了绳环下攀的创造性解法；Ondra 重复时也做了绳环。他们只给最难且未曾 aid 攀过的段落打 bolt，保护仍很差（原 A3/A4）。",
-          "en": "Caldwell spent 15 years on El Cap; the Dawn Wall was the last unfreed part—different rock, no crack system, looked impossible to free. He and Kevin Jorgeson freed it in Jan 2015 (nearly 1000 m, 32 pitches); pitches 14 and 15 are traverses on tiny razors and bad feet. Pitch 16 offers the famous double dyno or loop downclimb—Kevin did the dyno, Tommy couldn't; they brought Sharma and Siegrist, he tried thousands of times, nobody could do the dyno, so he found the unique loop solution; Ondra repeated with the loop. They only bolted the hardest sections that hadn't been aid climbed; protection is still really bad (originally A3/A4)."
+          "en": "Caldwell spent 15 years on El Cap; the Dawn Wall was the last unfreed part—different rock, no crack system, looked impossible to free. He and Kevin Jorgeson freed it in Jan 2015 (nearly 1000 m, 32 pitches); pitches 14 and 15 are traverses on tiny razors and bad feet. Pitch 16 offers the famous double dyno or loop downclimb—Kevin did the dyno, Tommy couldn't; they brought Sharma and Siegrist, he tried thousands of times, nobody could do the dyno, so he found the unique loop solution; Ondra repeated with the loop. They only bolted the hardest sections that hadn't been aid climbed; protection is still really bad (originally A3/A4).",
+          "ko": "코드웰은 엘캡에서 15년 등반했어요. 던 월은 마지막으로 자유 등반되지 않은 벽이었어요. 암벽의 성질이 다르고 균열 시스템이 없어서 자유 등반이 불가능해 보였어요. 그는 케빈 조지와 함께 프로젝트를 시작했어요."
         }
       ],
       "pullQuotes": [],
@@ -9128,7 +9314,8 @@
       "paragraphs": [
         {
           "zh": "考德威尔说自己不是特别强的攀岩者，需要一直用完整循环训练（抱石一个月、然后一些难度、再去 Yosemite 试所有段）。一个关键点是手指老茧的厚度——有时太厚就要等它变薄，把手指皮肤调到刚好非常微妙；他们在去 Yosemite 前约三周在相似锋利岩石上攀爬来适应。Kevin 说自己的训练更多是心理而非身体——习惯岩壁本身，习惯挂板与抱石但战斗更在心理；当心理通了身体就跟上。",
-          "en": "Caldwell said he didn't specifically train for those pitches; he's not a very strong climber and needs to train all the time with a complete routine (bouldering for a month, then some sport, then Yosemite to try all pitches). One big thing was getting the right callus thickness on the fingers—sometimes too thick so they had to wait for it to thin; getting the skin just right was tricky. They did it by climbing on similar sharp rock about three weeks before Yosemite. Kevin said most of his training was on the wall getting used to the terrain—more mental than physical; when his mind got the knack his body followed."
+          "en": "Caldwell said he didn't specifically train for those pitches; he's not a very strong climber and needs to train all the time with a complete routine (bouldering for a month, then some sport, then Yosemite to try all pitches). One big thing was getting the right callus thickness on the fingers—sometimes too thick so they had to wait for it to thin; getting the skin just right was tricky. They did it by climbing on similar sharp rock about three weeks before Yosemite. Kevin said most of his training was on the wall getting used to the terrain—more mental than physical; when his mind got the knack his body followed.",
+          "ko": "코드웰은 자신이 특별히 강한 등반가가 아니라고 말했어요. 항상 전체 사이클 훈련을 사용해야 해요(한 달 볼더링, 그 다음 어떤 리드, 그 다음 요세미티에서 모든 피치 시도). 한 가지 핵심점은 손가락 굳은살의 두께예요. 때로는 너무 두꺼우면 작동하지 않아요. 때로는 너무 얇으면 피부가 너무 손상돼요. 그래서 항상 균형을 맞춰야 해요."
         }
       ],
       "pullQuotes": [],
@@ -9163,7 +9350,8 @@
       "paragraphs": [
         {
           "zh": "博西完成 Nalle 的 Burden of Dreams 9A 第二攀（Lappnor），确认 9A 定级；他还在谢菲尔德 Lattice 总部的复制墙上练了 10 天、岩壁上 14 天，共 24 天是他单条抱石投入最长的一次。他此前首登 Honey Badger 8C+、重复 Alphane 9A（12 次但未确认定级）；重复 BOD 后他表示从复制墙到最终送线整体体验比之前所有都高一级，明显高于任何 8C/+。他是目前唯一重复过两枚 9A 的攀岩者。",
-          "en": "Bosi did the second ascent of Nalle's Burden of Dreams 9A (Lappnor), confirming the 9A grade; he spent 14 days on the boulder plus 10 days on the replica at Lattice HQ Sheffield (24 days total), the longest he's spent on a single boulder. He had previously done the FA of Honey Badger 8C+ and repeated Alphane 9A (12 sessions, didn't confirm grade); after BOD he said the overall experience from replica to send was a step up from everything else and a huge step up from any 8C/+. He is the only climber to have repeated two 9A boulders."
+          "en": "Bosi did the second ascent of Nalle's Burden of Dreams 9A (Lappnor), confirming the 9A grade; he spent 14 days on the boulder plus 10 days on the replica at Lattice HQ Sheffield (24 days total), the longest he's spent on a single boulder. He had previously done the FA of Honey Badger 8C+ and repeated Alphane 9A (12 sessions, didn't confirm grade); after BOD he said the overall experience from replica to send was a step up from everything else and a huge step up from any 8C/+. He is the only climber to have repeated two 9A boulders.",
+          "ko": "보시는 날레의 버든 오브 드림스 9A 두 번째 등반을 완성했어요(랍노르). 9A 등급을 확인했어요. 그는 또한 셰필드 래티스 본사의 복제 벽에서 훈련했어요."
         }
       ],
       "pullQuotes": [],
@@ -9198,7 +9386,8 @@
       "paragraphs": [
         {
           "zh": "博西认为投 4–5 动的 9A 最难的是保持耐心。因为每动都极难，需要好皮肤和充分休息，所以必须多休息日、短训——这很让人沮丧因为他只想一直爬。他从复制墙训练获益极大，感觉复制墙上的每一课都和真岩壁上的一课一样有效，相当于多出十次机会。与其他人一起攻关时协作非常有帮助，和 Alphane 经历类似，能学到大量微观 beta、彼此带来的心理激励也极强。",
-          "en": "Bosi said the hardest thing about projecting a 4–5 move 9A is being patient. As each move is so hard you need good skin and to be rested, so you have to take a lot of rest days and have short sessions—which can be frustrating as he just wants to keep climbing. He benefited so much from replica training; every replica session was as good as a session on the actual boulder, so he got an extra ten sessions. Cooperating with others projecting was extremely useful; like his Alphane experience it helps learn micro beta and the psych you get off each other is incredible."
+          "en": "Bosi said the hardest thing about projecting a 4–5 move 9A is being patient. As each move is so hard you need good skin and to be rested, so you have to take a lot of rest days and have short sessions—which can be frustrating as he just wants to keep climbing. He benefited so much from replica training; every replica session was as good as a session on the actual boulder, so he got an extra ten sessions. Cooperating with others projecting was extremely useful; like his Alphane experience it helps learn micro beta and the psych you get off each other is incredible.",
+          "ko": "보시는 4~5동작의 9A에서 가장 어려운 것은 인내심을 유지하는 거라고 생각해요. 각 동작이 매우 어렵기 때문에 좋은 피부와 충분한 휴식이 필요해요. 그래서 더 많은 휴식 날과 짧은 훈련을 해야 해요. 이건 그를 좌절시켜요. 왜냐하면 그는 계속 등반하고 싶거든요. 그는 복제 벽 훈련에서 많은 것을 배웠어요."
         }
       ],
       "pullQuotes": [],
@@ -9233,7 +9422,8 @@
       "paragraphs": [
         {
           "zh": "哈丁 1957 年因对手 Royal Robbins 完成 Half Dome 西北壁而激起竞争：「除了 El Cap 没别的。」团队轮换搭档、数百枚手工岩钉与固定绳、分段推进；裂缝过大时 Bill Feuerer 用旧铸铁炉腿做成岩钉，诞生经典 Stovelegs 段。国家公园因人群要求停攀至次年 3 月；搭档 Mark Powell 腿骨折后哈丁招募合格者继续。登顶日严寒中他连夜 15 小时手钻 28 颗膨胀钉翻越悬壁，1958 年 11 月 12 日早 6 点登顶。他后来写道：「我完全不清楚谁是征服者、谁是被征服者。」1970 年与 Dean Caldwell 完成 Dawn Wall（Wall of Early Morning Light）首登，预计 12 天实际 27 天、330 颗膨胀钉、四天风暴、断粮，拒绝公园救援；壁上投下的纸条写「我们一定是能想到的最惨最臭的可怜虫。但我们活着，真正地活着。」",
-          "en": "Harding's drive came in 1957 when rival Royal Robbins climbed Half Dome's NW face: \"Nothing but El Cap would do.\" With rotating partners the team ascended over 18 months using hundreds of handmade pitons and fixed ropes; when cracks were too large Bill Feuerer built pitons from a stove leg—the \"Stovelegs\" pitch. NPS stopped them until March; after Mark Powell's leg fracture Harding continued with whoever he could recruit. Summit day he struggled 15 hours through the night placing 28 bolts up the headwall, topping out Nov 12, 1958, 6 AM. \"It was not at all clear to me who was the conqueror and who was the conquered.\" 1970 with Dean Caldwell first ascent of Dawn Wall: 27 days (expected 12), 330 bolts, 4-day storm, low food, refused rescue; note in tin can: \"We must be the most miserable, wet, cold stinking wretches imaginable. But we're alive, really alive, like people seldom are.\""
+          "en": "Harding's drive came in 1957 when rival Royal Robbins climbed Half Dome's NW face: \"Nothing but El Cap would do.\" With rotating partners the team ascended over 18 months using hundreds of handmade pitons and fixed ropes; when cracks were too large Bill Feuerer built pitons from a stove leg—the \"Stovelegs\" pitch. NPS stopped them until March; after Mark Powell's leg fracture Harding continued with whoever he could recruit. Summit day he struggled 15 hours through the night placing 28 bolts up the headwall, topping out Nov 12, 1958, 6 AM. \"It was not at all clear to me who was the conqueror and who was the conquered.\" 1970 with Dean Caldwell first ascent of Dawn Wall: 27 days (expected 12), 330 bolts, 4-day storm, low food, refused rescue; note in tin can: \"We must be the most miserable, wet, cold stinking wretches imaginable. But we're alive, really alive, like people seldom are.\"",
+          "ko": "하딩은 1957년 상대 로열 로빈스가 하프 돔 북서쪽 벽을 완성하면서 경쟁심이 생겼어요: \"엘캡 외에는 없어요.\" 팀이 동료를 바꾸고 수백 개의 수공 암정을 사용하고 벽을 자유 등반했어요."
         }
       ],
       "pullQuotes": [],
@@ -9272,7 +9462,8 @@
       "paragraphs": [
         {
           "zh": "哈丁在 The Nose 登顶后反思：「我完全不清楚谁是征服者、谁是被征服者。」在 Dawn Wall 壁上投下的纸条中他写：「我们一定是能想到的最 miserable、最湿、最冷、最臭的可怜虫。但我们活着，真正地活着，像人们很少能做到的那样。」他的 siege 风格与大量膨胀钉与 Royal Robbins 的 clean climbing 形成伦理对立；Robbins 在 1971 年 Dawn Wall 第二次攀登时曾开始拆除膨胀钉，中途 reconsidered，承认该攀的投入与正当性。",
-          "en": "Harding after the Nose: \"It was not at all clear to me who was the conqueror and who was the conquered.\" On the Dawn Wall note: \"We must be the most miserable, wet, cold stinking wretches imaginable. But we're alive, really alive, like people seldom are.\" His siege and bolt-heavy style opposed Robbins' clean climbing; Robbins on the 1971 second ascent began removing bolts but reconsidered, acknowledging the climb's commitment."
+          "en": "Harding after the Nose: \"It was not at all clear to me who was the conqueror and who was the conquered.\" On the Dawn Wall note: \"We must be the most miserable, wet, cold stinking wretches imaginable. But we're alive, really alive, like people seldom are.\" His siege and bolt-heavy style opposed Robbins' clean climbing; Robbins on the 1971 second ascent began removing bolts but reconsidered, acknowledging the climb's commitment.",
+          "ko": "하딩은 노즈 정상에 도달한 후 생각했어요: \"나는 누가 정복자이고 누가 정복당한 자인지 전혀 몰랐어요.\" 던 월 벽에 내려놓은 종이에 그는 썼어요: \"우리는 우리가 생각할 수 있는 가장 비참한 존재일 수밖에 없어요.\""
         }
       ],
       "pullQuotes": [
@@ -9284,7 +9475,8 @@
           },
           "context": {
             "zh": "Dawn Wall 壁上",
-            "en": "On Dawn Wall"
+            "en": "On Dawn Wall",
+            "ko": "던 월 위에서"
           },
           "source": "1970 note"
         }
@@ -9320,7 +9512,8 @@
       "paragraphs": [
         {
           "zh": "罗宾斯 12 岁前是「无父的逃票少年、走向犯罪」；14 岁入童子军后转向户外。在童子军背包行中接触攀岩，「作为攀岩者我有点别的东西」。他倡导仅用可移除岩塞的「Clean Climbing」——1967 年 Nutcracker 成为美国首条 clean 攀登并引发安全争议。首登包括 Tahquitz Open Book 美国首条 5.9（1952）、Half Dome 西北壁美国首条 VI（1957）、Salathé Wall（1961）、North America Wall（1964）；1969 年成为 El Capitan 首次单独攀登者。他晚年创立 Royal Robbins 服装品牌、著有 Basic Rockcraft 与 Advanced Rockcraft；国家地理称其为「约塞米蒂攀岩之父」。",
-          "en": "Robbins had a troubled youth; at 14 the Scouts \"got me off the streets of Los Angeles\" and he discovered climbing. He championed clean climbing (removable nuts only); Nutcracker (1967) was the first clean climb in the US. First ascents: Open Book first 5.9 US (1952), Half Dome NW face first Grade VI America (1957), Salathé Wall (1961), North America Wall (1964); 1969 first person to solo El Capitan. He co-founded Royal Robbins brand, wrote Basic Rockcraft and Advanced Rockcraft; National Geographic called him \"Father of Yosemite Rock Climbing.\""
+          "en": "Robbins had a troubled youth; at 14 the Scouts \"got me off the streets of Los Angeles\" and he discovered climbing. He championed clean climbing (removable nuts only); Nutcracker (1967) was the first clean climb in the US. First ascents: Open Book first 5.9 US (1952), Half Dome NW face first Grade VI America (1957), Salathé Wall (1961), North America Wall (1964); 1969 first person to solo El Capitan. He co-founded Royal Robbins brand, wrote Basic Rockcraft and Advanced Rockcraft; National Geographic called him \"Father of Yosemite Rock Climbing.\"",
+          "ko": "로빈스는 12살 전에 아버지 없는 탈선한 소년, 범죄로 가는 길이었어요. 14살에 보이스카우트에 들어가 야외로 향했어요. 보이스카우트 배낭 여행에서 등반을 배웠어요. \"등반가로서 나는 뭔가 다른 것을 가지고 있어요.\" 그는 제거 가능한 암정만 사용하는 \"클린 에이드\"를 주장했어요."
         }
       ],
       "pullQuotes": [],
@@ -9359,7 +9552,8 @@
       "paragraphs": [
         {
           "zh": "罗宾斯认为下钉一颗膨胀钉的决定「具有巨大重要性」——「就像诗里的一个词，能影响整首诗」。他强调使用对山体非破坏性的装备，推崇「上行变奏」：用比首登更严格的标准完成攀登。他倡导不留痕、尽量减少固定绳、不对成就大张旗鼓。他与哈丁在 Dawn Wall 上的伦理冲突——1970 年哈丁 330 钉首登后，Robbins 在 1971 年第二次攀登时开始拆除膨胀钉，中途 reconsidered，承认该攀的投入与正当性。",
-          "en": "Robbins: the decision to place a single piton is \"of enormous importance\"—\"like a single word in a poem, it can affect the entire composition.\" He favored non-destructive gear and \"upward variations\" (stricter than FA). He advocated leaving no trace, minimizing fixed ropes, avoiding fanfare. His opposition to Harding's Dawn Wall (330 bolts) led to the 1971 second-ascent bolt-removal attempt; he reconsidered partway, acknowledging the climb's commitment."
+          "en": "Robbins: the decision to place a single piton is \"of enormous importance\"—\"like a single word in a poem, it can affect the entire composition.\" He favored non-destructive gear and \"upward variations\" (stricter than FA). He advocated leaving no trace, minimizing fixed ropes, avoiding fanfare. His opposition to Harding's Dawn Wall (330 bolts) led to the 1971 second-ascent bolt-removal attempt; he reconsidered partway, acknowledging the climb's commitment.",
+          "ko": "로빈스는 한 개의 팽창 암정을 내려 박는 결정이 \"엄청난 중요성을 가지고 있다\"고 생각해요. \"시처럼 한 단어가 전체 시에 영향을 미칠 수 있어요.\" 그는 산을 비파괴적인 장비 사용을 강조해요. \"업스트림 변형\"을 옹호해요: 초등보다 더 엄격한 기준으로 완성해요."
         }
       ],
       "pullQuotes": [
@@ -9371,7 +9565,8 @@
           },
           "context": {
             "zh": "Clean Climbing 哲学",
-            "en": "Clean climbing philosophy"
+            "en": "Clean climbing philosophy",
+            "ko": "클린 클라이밍 철학"
           },
           "source": "Climbing.com"
         }
@@ -9407,7 +9602,8 @@
       "paragraphs": [
         {
           "zh": "布里德韦尔「The Bird」1975 年 6 月 21 日与 John Long、Bill Westbay 完成 The Nose 单日首登，1000 米路线 17 小时 45 分。哈丁 1958 年用了 47 天；到 1975 年精英仍需至少三天。概念来自 Frank Sacherer，布里德韦尔说这想法「在 Bird 脑子里扎根了十年」。三人满月下近午夜出发，靠记忆序列快速通过，6:15 到 Dolt Tower；Pitch 13 三人手臂严重疲劳，Long 泵着顶住、差点 80 英尺冲坠前放进保护。最后几段与 Great Roof 最难，有人刚拆掉大部分固定钉，布里德韦尔在时间压力下边攀边放新保护。纪录保持 11 年至 Bachar 与 Dale Croft 10:05；2018 年 Honnold 与 Caldwell 破 2 小时。布里德韦尔师从 Robbins 与 Harding，后成为 Stonemasters 非正式领袖、Yosemite 百余条首登，并拓展至 Patagonia 与阿拉斯加。",
-          "en": "Bridwell \"The Bird\" with John Long and Bill Westbay completed the first one-day ascent of The Nose on June 21, 1975—1000 m in 17h45m. Harding had needed 47 days in 1958; by 1975 elites still needed at least three days. The concept came from Frank Sacherer; Bridwell said it had \"been firmly lodged in the Bird's mind\" for a decade. The trio left near midnight under a full moon, moving quickly through memorized sequences to Dolt Tower by 6:15; at pitch 13 all had significant arm fatigue, Long pushed through pumped arms nearly falling 80 ft before placing pro. The final pitches and Great Roof were hardest; someone had removed most fixed pitons, forcing Bridwell to place new pro while climbing fast. The record stood 11 years until Bachar and Dale Croft 10:05; 2018 Honnold and Caldwell went sub-2h. Bridwell was apprentice to Robbins and Harding, later unofficial leader of the Stonemasters, 100+ first ascents in Yosemite, then Patagonia and Alaska."
+          "en": "Bridwell \"The Bird\" with John Long and Bill Westbay completed the first one-day ascent of The Nose on June 21, 1975—1000 m in 17h45m. Harding had needed 47 days in 1958; by 1975 elites still needed at least three days. The concept came from Frank Sacherer; Bridwell said it had \"been firmly lodged in the Bird's mind\" for a decade. The trio left near midnight under a full moon, moving quickly through memorized sequences to Dolt Tower by 6:15; at pitch 13 all had significant arm fatigue, Long pushed through pumped arms nearly falling 80 ft before placing pro. The final pitches and Great Roof were hardest; someone had removed most fixed pitons, forcing Bridwell to place new pro while climbing fast. The record stood 11 years until Bachar and Dale Croft 10:05; 2018 Honnold and Caldwell went sub-2h. Bridwell was apprentice to Robbins and Harding, later unofficial leader of the Stonemasters, 100+ first ascents in Yosemite, then Patagonia and Alaska.",
+          "ko": "브리드웰 \"더 버드\"는 1975년 6월 21일 존 롱, 빌 웨스트베이와 함께 노즈 단일 일 초등을 완성했어요. 1000미터 루트를 약 16시간 만에 했어요."
         }
       ],
       "pullQuotes": [],
@@ -9442,7 +9638,8 @@
       "paragraphs": [
         {
           "zh": "2018 年 6 月 6 日 Caldwell 与 Honnold 以 1 小时 58 分 7 秒完成 The Nose，史上首次突破 2 小时。二人 2018 年 5 月起一起在 Nose 上训练，5 月至 6 月初共攀约 12 次，包括 5 月 30 日 2:10:15、6 月 4 日 2:01:50 两次尝试逐步逼近。破纪录日 Honnold 说「感觉没那么快，但翻顶看到 1:57」意识到达成目标；尽管掉了关键装备、需要超过其他队伍，仍比前次快了 3.5 分钟以上。速攀时间线：1975 Bridwell/Long/Westbay 17:45，1986 Bachar/Croft 10:05，1992 Florine/Croft 4:22，2012 Florine/Honnold 2:23:46，2018 Caldwell/Honnold 1:58:07。Honnold 推测人类极限可能接近 90 分钟，但暂无进一步计划。",
-          "en": "On June 6, 2018 Caldwell and Honnold climbed the Nose in 1h58m07s—first sub-2h in history. They trained together on the Nose from May 2018, ~12 times including May 30 (2:10:15) and June 4 (2:01:50). On record day Honnold: \"It didn't feel that fast, but when I popped over the top I saw 1:57\"; despite dropping gear and passing parties they shaved 3.5+ minutes. Timeline: 1975 Bridwell/Long/Westbay 17:45, 1986 Bachar/Croft 10:05, 1992 Florine/Croft 4:22, 2012 Florine/Honnold 2:23:46, 2018 Caldwell/Honnold 1:58:07. Honnold suggested the limit might approach 90 minutes but had no immediate plans to pursue."
+          "en": "On June 6, 2018 Caldwell and Honnold climbed the Nose in 1h58m07s—first sub-2h in history. They trained together on the Nose from May 2018, ~12 times including May 30 (2:10:15) and June 4 (2:01:50). On record day Honnold: \"It didn't feel that fast, but when I popped over the top I saw 1:57\"; despite dropping gear and passing parties they shaved 3.5+ minutes. Timeline: 1975 Bridwell/Long/Westbay 17:45, 1986 Bachar/Croft 10:05, 1992 Florine/Croft 4:22, 2012 Florine/Honnold 2:23:46, 2018 Caldwell/Honnold 1:58:07. Honnold suggested the limit might approach 90 minutes but had no immediate plans to pursue.",
+          "ko": "2018년 6월 6일 코드웰과 호놀드는 1시간 58분 7초로 노즈를 완성했어요. 역사상 처음 2시간을 깼어요. 둘 다 2018년 여름 3개월간 협력했어요."
         }
       ],
       "pullQuotes": [],
@@ -9477,7 +9674,8 @@
       "paragraphs": [
         {
           "zh": "Honnold 强调「速攀的关键是去除低效」。二人每次爬完路线都会在顶上做大复盘，下山徒步大部分时间在聊，白天还会随机互相提问、琢磨怎样能做得更好。这种系统复盘与沟通是他们将纪录从 2:10 推到 2:01 再推到 1:58 的核心方法。",
-          "en": "Honnold: \"The main thing with speed climbing is to trim inefficiency.\" After each climb they did a big debrief on top, spent most of the down hike talking, and throughout the day randomly asked each other questions to figure out ways to do things better. This systematic debrief and communication was central to cutting the record from 2:10 to 2:01 to 1:58."
+          "en": "Honnold: \"The main thing with speed climbing is to trim inefficiency.\" After each climb they did a big debrief on top, spent most of the down hike talking, and throughout the day randomly asked each other questions to figure out ways to do things better. This systematic debrief and communication was central to cutting the record from 2:10 to 2:01 to 1:58.",
+          "ko": "호놀드는 \"스피드 클라이밍의 핵심은 비효율을 제거하는 거예요\"라고 강조해요. 둘 다 루트를 마칠 때마다 정상에서 큰 복습을 해요. 내려오는 하이킹 시간의 대부분을 얘기해요. 낮에는 서로에게 무작위로 질문하고 더 잘할 방법을 생각해요. 이러한 체계적인 복습 문화는 그들의 성공 비결이에요."
         }
       ],
       "pullQuotes": [],
@@ -9512,7 +9710,8 @@
       "paragraphs": [
         {
           "zh": "Honnold 与 Caldwell 2018 年创 The Nose 速攀世界纪录 1:58:07。2017 年 6 月 3 日他完成 El Capitan Freerider 路线无保护独攀（3 小时 56 分），《Free Solo》2019 年获奥斯卡最佳纪录片（导演 Vasarhelyi & Jimmy Chin，12 台摄像机、700 小时素材）。著作《Alone on the Wall》与 David Roberts 合著，双叙述结构；国家地理称其 El Cap 无保护攀为「运动史上最伟大的纯攀岩壮举之一」。本条目仅收录大岩壁/速攀维度；自由独攀详见 06-explorer-free-solo。",
-          "en": "Honnold with Caldwell set the Nose speed record 1:58:07 in 2018. On June 3, 2017 he free soloed El Capitan's Freerider (3h56m); Free Solo won the 2019 Oscar for Best Documentary (directors Vasarhelyi & Jimmy Chin, 12 cameras, 700 hours). Book Alone on the Wall with David Roberts, dual narrative; National Geographic called his El Cap free solo \"the greatest feat of pure rock climbing in the history of the sport.\" This entry covers big wall/speed; free solo see 06-explorer-free-solo."
+          "en": "Honnold with Caldwell set the Nose speed record 1:58:07 in 2018. On June 3, 2017 he free soloed El Capitan's Freerider (3h56m); Free Solo won the 2019 Oscar for Best Documentary (directors Vasarhelyi & Jimmy Chin, 12 cameras, 700 hours). Book Alone on the Wall with David Roberts, dual narrative; National Geographic called his El Cap free solo \"the greatest feat of pure rock climbing in the history of the sport.\" This entry covers big wall/speed; free solo see 06-explorer-free-solo.",
+          "ko": "호놀드와 코드웰은 2018년 노즈 스피드 클라이밍 월드 레코드 1:58:07을 기록했어요. 2017년 6월 3일 그는 엘 캡 프리라이더 사상 첫 무보호 솔로 등반을 완성했어요."
         }
       ],
       "pullQuotes": [],
@@ -9547,7 +9746,8 @@
       "paragraphs": [
         {
           "zh": "Honnold 把心理准备当作身体训练的基础。他通过可视化在攀爬前预演情绪：「我在想那会是什么感觉……这样在做的时候就不会被情绪淹没。」遇到意外时用深呼吸和基于现实的 reframe：「一旦你意识到发生了，它已经发生了……你没掉。」他把恐惧 reframe 为与兴奋无法区分的身体感受，不加评判地观察。成功不仅是到顶，而是有尊严、享受地完成；他强调过程导向、专注下一动。大目标只是「很多小目标持续做的结果」。他从 2005 年起坚持攀岩与训练日记，几乎每攀都记，不为夸耀而为追踪进步与刻意练习。他偏好次最大训练以便每周 3–4 次、恢复与适应更好。",
-          "en": "Honnold treats mental preparation as foundational. He visualizes to pre-experience emotions so he doesn't experience them during the climb. When unexpected situations arise he uses deep breathing and reality-based reframing: \"Once you've registered that it's happened, it's already happened… you didn't fall off.\" He reframes fear as indistinguishable from excitement, observes without judgment. Success is performing with dignity and enjoyment; process-focused, next move only. \"Big goals are just the outgrowth of lots of little goals done consistently.\" He has kept a journal since 2005, nearly every climb, to track progress not glorify results. He favors submaximal training for 3–4 sessions/week and better recovery."
+          "en": "Honnold treats mental preparation as foundational. He visualizes to pre-experience emotions so he doesn't experience them during the climb. When unexpected situations arise he uses deep breathing and reality-based reframing: \"Once you've registered that it's happened, it's already happened… you didn't fall off.\" He reframes fear as indistinguishable from excitement, observes without judgment. Success is performing with dignity and enjoyment; process-focused, next move only. \"Big goals are just the outgrowth of lots of little goals done consistently.\" He has kept a journal since 2005, nearly every climb, to track progress not glorify results. He favors submaximal training for 3–4 sessions/week and better recovery.",
+          "ko": "호놀드는 심리 준비를 신체 훈련의 기초로 생각해요. 그는 시각화를 통해 등반 전에 감정을 리허설해요: \"나는 그게 어떤 느낌일지 생각해요. 그렇게 하면 할 때 감정에 잠기지 않아요.\" 예상 밖의 상황을 만날 때 깊은 숨과 기반된 기술을 사용해요."
         }
       ],
       "pullQuotes": [],
@@ -9584,7 +9784,8 @@
       "paragraphs": [
         {
           "zh": "乔格森 11 岁在 Santa Rosa 室内馆起步，因《Progression》纪录片 2009 年通过朋友联系 Caldwell 加入 Dawn Wall 项目。路线 32 段、近 1000 米，两段 5.14d；Caldwell 2007 年设想自由攀线。2014 年 12 月 27 日至 2015 年 1 月 14 日二人最终 push 共 19 天，因必须按顺序无坠落自由攀每段。Pitch 15 约 60 英尺、微小晶体脚点，乔格森鏖战七天——反复坠落、刀缘微点磨破指皮、贴胶布保护；送段后「我如释重负」，立即上攀与 Caldwell 会合。Caldwell 选择等待搭档而非独自登顶，二人 1 月 14 日共同登顶。奥巴马发推「你们提醒我们一切皆有可能」；《The Dawn Wall》纪录片 2017 年由 Josh Lowell 与 Peter Mortimer 执导。",
-          "en": "Jorgeson started at 11 in Santa Rosa; after the 2009 doc Progression he contacted Caldwell via a friend and joined the Dawn Wall project. The route has 32 pitches, ~1000 m, two 5.14d; Caldwell envisioned the free line in 2007. Dec 27, 2014–Jan 14, 2015 they spent 19 days because both had to free every pitch in sequence without falls. Pitch 15 is 60 ft on microscopic crystal holds; Jorgeson fought seven days—repeated falls, razor edges shredding skin, taping between attempts. After sending: \"I felt overwhelmed with relief\"; he continued up to reunite with Caldwell, who had waited rather than summiting alone. They summited together Jan 14. Obama tweeted \"You remind us that anything is possible\"; The Dawn Wall doc (2017) by Josh Lowell and Peter Mortimer."
+          "en": "Jorgeson started at 11 in Santa Rosa; after the 2009 doc Progression he contacted Caldwell via a friend and joined the Dawn Wall project. The route has 32 pitches, ~1000 m, two 5.14d; Caldwell envisioned the free line in 2007. Dec 27, 2014–Jan 14, 2015 they spent 19 days because both had to free every pitch in sequence without falls. Pitch 15 is 60 ft on microscopic crystal holds; Jorgeson fought seven days—repeated falls, razor edges shredding skin, taping between attempts. After sending: \"I felt overwhelmed with relief\"; he continued up to reunite with Caldwell, who had waited rather than summiting alone. They summited together Jan 14. Obama tweeted \"You remind us that anything is possible\"; The Dawn Wall doc (2017) by Josh Lowell and Peter Mortimer.",
+          "ko": "조그슨은 11살에 산타 로사 실내 짐에서 시작했어요. \"프로그래션\" 다큐멘터리 때문에 2009년 친구를 통해 코드웰과 연락해 던 월 팀에 들어갔어요."
         }
       ],
       "pullQuotes": [],
@@ -9619,7 +9820,8 @@
       "paragraphs": [
         {
           "zh": "Dawn Wall 上乔格森在 Pitch 15 的战斗成为精英级皮肤管理的案例：该段需要反复接触刀缘般晶体微点，几把之内就能磨破指皮。他的做法：尝试之间给单指节贴胶布保护部分愈合；专门留出完全休息日给皮肤恢复；最难段之间允许 24–48 小时再试；每天监测皮肤厚度判断是否可试。皮肤挑战之严峻与公开引发了主流媒体对攀岩指皮护理的广泛报道。",
-          "en": "Jorgeson's battle on Pitch 15 became a case study in skin management: the pitch required repeated contact with razor-edged crystal microholds that wore through skin within a few attempts. His protocol: taping individual finger segments between attempts to protect partial healing; complete rest days for skin recovery; 24–48 h between attempts on the hardest pitches; monitoring skin thickness daily to judge readiness. The severity and publicity of the skin challenge generated widespread mainstream coverage of climbing skin care."
+          "en": "Jorgeson's battle on Pitch 15 became a case study in skin management: the pitch required repeated contact with razor-edged crystal microholds that wore through skin within a few attempts. His protocol: taping individual finger segments between attempts to protect partial healing; complete rest days for skin recovery; 24–48 h between attempts on the hardest pitches; monitoring skin thickness daily to judge readiness. The severity and publicity of the skin challenge generated widespread mainstream coverage of climbing skin care.",
+          "ko": "던 월에서 조그슨은 피치 15에서의 전투가 엘리트 스킨 관리의 사례가 됐어요. 그 구간은 반복적으로 칼 같은 미세 결정체 홀드에 접촉해야 해요. 몇 번 시도 만에 손가락 피부가 벗겨져요. 그의 방법: 시도 사이 한 손가락만 사용, 교대로 등반해서 특정 손가락을 쉬게 하고, 손가락 관리 전문가의 조언을 받아요."
         }
       ],
       "pullQuotes": [],
@@ -9654,7 +9856,8 @@
       "paragraphs": [
         {
           "zh": "克罗夫特生于温哥华岛，读 Chris Bonington 后入门攀岩。1982 年与 Foweraker、Hamish Fraser 完成 University Wall 5.12 首登，他写道「我渴望一场需要我全力以赴——甚至更多的远征」。1986 年与 John Bachar 用 10 小时完成 Nose + Half Dome 单日连攀（NIAD），不为创纪录而为方便，雨中超过七支队伍；纪录保持十年。1985 年 The Rostrum 首次自由单独、1987 年 Astroman 首次自由单独、同年 Astroman & Rostrum 连攀首次自由单独（仅 Potter 2000、Honnold 2007 重复）。Nose 速攀：1986 Bachar 10:00，1990 Schultz 6:40，1991 Schultz 4:48，1992 Florine 4:22。他还首登 Moonlight Buttress、Nose+Salathé 单日连攀。他将自由独攀描述为「原始状态」、本能与流动；但担心现代拍摄独攀增加人员与变量、影响专注。",
-          "en": "Croft grew up on Vancouver Island; after reading Bonington he took up climbing. 1982 with Foweraker and Hamish Fraser first free ascent of University Wall 5.12; he \"craved an odyssey that required my all–and quite possibly more.\" 1986 with John Bachar did Nose + Half Dome in 10h (NIAD), for convenience not record, in rain passing seven parties; record stood ten years. 1985 The Rostrum first free solo, 1987 Astroman first free solo, same year first free solo link-up of Astroman & Rostrum (only Potter 2000, Honnold 2007 repeated). Nose speed: 1986 Bachar 10:00, 1990 Schultz 6:40, 1991 Schultz 4:48, 1992 Florine 4:22. He also did FA of Moonlight Buttress, first one-day Nose and Salathé link-up. He describes solo as transcendent \"primal state\"; but worries filming adds personnel and variables that can compromise concentration."
+          "en": "Croft grew up on Vancouver Island; after reading Bonington he took up climbing. 1982 with Foweraker and Hamish Fraser first free ascent of University Wall 5.12; he \"craved an odyssey that required my all–and quite possibly more.\" 1986 with John Bachar did Nose + Half Dome in 10h (NIAD), for convenience not record, in rain passing seven parties; record stood ten years. 1985 The Rostrum first free solo, 1987 Astroman first free solo, same year first free solo link-up of Astroman & Rostrum (only Potter 2000, Honnold 2007 repeated). Nose speed: 1986 Bachar 10:00, 1990 Schultz 6:40, 1991 Schultz 4:48, 1992 Florine 4:22. He also did FA of Moonlight Buttress, first one-day Nose and Salathé link-up. He describes solo as transcendent \"primal state\"; but worries filming adds personnel and variables that can compromise concentration.",
+          "ko": "크로프트는 밴쿠버 섬에서 태어났어요. 크리스 보닝턴을 읽은 후 등반을 시작했어요. 1982년 포워커, 해미쉬 프레이저와 함께 유니버시티 월 초등을 했어요."
         }
       ],
       "pullQuotes": [],
@@ -9689,7 +9892,8 @@
       "paragraphs": [
         {
           "zh": "克罗夫特在 University Wall 首登后反思：「我渴望一场需要我全力以赴——甚至更多的远征……我想投入并见血，那血是我自己的也没关系。」他将自由独攀描述为超越性的体验，达到本能与流动创造的「原始状态」。他担心现代攀岩者拍摄独攀时，额外人员与变量可能带来压力、损害专注，导致失误或事故。",
-          "en": "Croft on University Wall: \"I craved an odyssey that required my all–and quite possibly more…. I wanted to dive in and draw blood, and it was OK if that blood was my own.\" He describes solo climbing as transcendent, achieving a \"primal state\" where instinct and flow create an unmatched sensation. He expresses concern that filming solos adds personnel and variables that can induce stress and compromise concentration."
+          "en": "Croft on University Wall: \"I craved an odyssey that required my all–and quite possibly more…. I wanted to dive in and draw blood, and it was OK if that blood was my own.\" He describes solo climbing as transcendent, achieving a \"primal state\" where instinct and flow create an unmatched sensation. He expresses concern that filming solos adds personnel and variables that can induce stress and compromise concentration.",
+          "ko": "크로프트는 유니버시티 월 초등 후 생각했어요: \"나는 내 모든 것과 그 이상을 요구하는 원정을 갈망해요. 나는 투자하고 싸우고 싶어요. 그 피가 내 것이어도 상관없어요.\" 그는 솔로 프리클라이밍을 자기 성정의 \"궁극의 표현\"으로 묘사했어요."
         }
       ],
       "pullQuotes": [
@@ -9701,7 +9905,8 @@
           },
           "context": {
             "zh": "University Wall",
-            "en": "University Wall"
+            "en": "University Wall",
+            "ko": "유니버시티 월"
           },
           "source": "HardClimbs"
         }
@@ -9737,7 +9942,8 @@
       "paragraphs": [
         {
           "zh": "朗 1975 年阵亡将士纪念日与 Jim Bridwell、Billy Westbay 完成「北美最受追捧攀岩路线」The Nose 单日首登；同年与 Ron Kauk、John Bachar 完成 Washington Column 东壁（Astroman）自由首登。他高中时在 Joshua Tree 推广无保护攀登，1974 年将 John Bachar 引入该实践；1973 年 Paisano Overhang 确立 5.12 难度基准。他是传奇 Stonemasters 成员（含 Bachar、Lynn Hill）。他著有 40+ 本书含《How to Rock Climb》系列、《Advanced Rock Climbing》（Banff 奖）、中篇《Rogue's Babylon》启发《Cliffhanger》；《The Stonemasters》获 2010 Banff 山岳图书大奖；2006 年美国高山俱乐部文学奖、2009 年 Rock & Ice「过去 25 年最具影响探险家」。",
-          "en": "Long on Memorial Day 1975 with Bridwell and Westbay did the first one-day ascent of the Nose; same year with Ron Kauk and John Bachar first free ascent of Washington Column East Face (Astroman). He popularized free soloing at Joshua Tree in high school and introduced Bachar to the practice in 1974; his 1973 Paisano Overhang established 5.12. He was in the Stonemasters (Bachar, Lynn Hill). He authored 40+ books including How to Rock Climb, Advanced Rock Climbing (Banff Award), novella Rogue's Babylon (inspired Cliffhanger); The Stonemasters won 2010 Banff Grand Prize; 2006 AAC Literary Award, 2009 Rock & Ice \"most influential adventurer\" over 25 years."
+          "en": "Long on Memorial Day 1975 with Bridwell and Westbay did the first one-day ascent of the Nose; same year with Ron Kauk and John Bachar first free ascent of Washington Column East Face (Astroman). He popularized free soloing at Joshua Tree in high school and introduced Bachar to the practice in 1974; his 1973 Paisano Overhang established 5.12. He was in the Stonemasters (Bachar, Lynn Hill). He authored 40+ books including How to Rock Climb, Advanced Rock Climbing (Banff Award), novella Rogue's Babylon (inspired Cliffhanger); The Stonemasters won 2010 Banff Grand Prize; 2006 AAC Literary Award, 2009 Rock & Ice \"most influential adventurer\" over 25 years.",
+          "ko": "롱은 1975년 현충일에 짐 브리드웰, 빌리 웨스트베이와 함께 \"북미에서 가장 인기 있는 등반 루트\" 노즈 단일 일 초등을 완성했어요. 같은 해 론과 함께 또 다른 큰 루트를 초등했어요."
         }
       ],
       "pullQuotes": [],
@@ -9772,7 +9978,8 @@
       "paragraphs": [
         {
           "zh": "2017 年 6 月 3 日霍诺德完成 El Capitan Freerider 史上首次无保护独攀，约 3000 英尺、不到四小时。他花了一年多系统准备：数百小时结组练习、为每段编排精确动作、在笔记本中记录每次训练；Freeblast 约 600 英尺处的 barely-vertical slab 是心理最难段落（「像在玻璃上走」），Boulder Problem 则是技术难点，最小支点约八分之一英寸。攀登日清晨少数朋友架好相机，霍诺德系好粉袋起步；总用时 3 小时 56 分，被《纽约时报》称为「史上最伟大运动成就之一」。",
-          "en": "On 3 June 2017 Honnold completed the first free solo of El Capitan's Freerider—3000 ft in under four hours. He spent over a year preparing: hundreds of hours of roped rehearsal, precise choreography for each section, detailed session logs in notebooks. The Freeblast (~600 ft up) was the psychological crux (\"like walking up glass\"); the Boulder Problem the technical crux with the tiniest hold \"maybe this big.\" A handful of friends readied cameras at dawn; total time 3h 56m—\"one of the great athletic feats of any kind, ever\" (NYT)."
+          "en": "On 3 June 2017 Honnold completed the first free solo of El Capitan's Freerider—3000 ft in under four hours. He spent over a year preparing: hundreds of hours of roped rehearsal, precise choreography for each section, detailed session logs in notebooks. The Freeblast (~600 ft up) was the psychological crux (\"like walking up glass\"); the Boulder Problem the technical crux with the tiniest hold \"maybe this big.\" A handful of friends readied cameras at dawn; total time 3h 56m—\"one of the great athletic feats of any kind, ever\" (NYT).",
+          "ko": "2017년 6월 3일 호놀드는 엘 캡 프리라이더의 사상 첫 무보호 솔로를 완성했어요. 약 3000피트, 4시간 미만이에요. 그는 1년 이상 체계적인 준비를 했어요: 수백 시간 로프 구간."
         }
       ],
       "pullQuotes": [
@@ -9784,7 +9991,8 @@
           },
           "context": {
             "zh": "结组排练次数",
-            "en": "Roped rehearsal"
+            "en": "Roped rehearsal",
+            "ko": "로프 리허설"
           },
           "source": "National Geographic, 2017"
         }
@@ -9820,7 +10028,8 @@
       "paragraphs": [
         {
           "zh": "霍诺德强调自己并非无畏，而是通过系统脱敏管理恐惧：「若经常经历那种程度的恐惧，最终会更能应对。」他把恐惧当信息看待（「为何不把恐惧当饥饿一样对待？」），与情绪再评价研究一致。2016 年南卡罗来纳医科大学 fMRI 显示：观看 disturbing 图像时其杏仁核几乎无激活，对照组则明显；研究者 Jane Joseph 称仅一个 voxel 有反应、与统计误差难辨。霍诺德在奖赏任务中多巴胺相关脑区活动也极低。他对待可怕事物的方法：分析为何可怕、区分理性与非理性、逐一处理，直到再做时不再感到害怕；准备到位后不是控制恐惧，而是不再感到恐惧。他自述对公开演讲的焦虑超过无保护独攀，说明后果感知比实际风险更影响焦虑。",
-          "en": "Honnold emphasizes systematic desensitization: \"If you routinely experience that level of fear, eventually you get better at managing it.\" He treats fear as information (\"Why don't people treat fear the same way they treat hunger?\"), consistent with cognitive reappraisal. 2016 fMRI at Medical University of South Carolina showed virtually no amygdala activation to disturbing images versus the control; researcher Jane Joseph found only a single voxel. His reward circuitry also showed minimal activity. His method: identify why something is scary, separate rational from irrational, work through until it no longer feels scary; preparation removes fear rather than controlling it. He has more anxiety about public speaking than free soloing—perceived consequence matters more than physical risk."
+          "en": "Honnold emphasizes systematic desensitization: \"If you routinely experience that level of fear, eventually you get better at managing it.\" He treats fear as information (\"Why don't people treat fear the same way they treat hunger?\"), consistent with cognitive reappraisal. 2016 fMRI at Medical University of South Carolina showed virtually no amygdala activation to disturbing images versus the control; researcher Jane Joseph found only a single voxel. His reward circuitry also showed minimal activity. His method: identify why something is scary, separate rational from irrational, work through until it no longer feels scary; preparation removes fear rather than controlling it. He has more anxiety about public speaking than free soloing—perceived consequence matters more than physical risk.",
+          "ko": "호놀드는 자신이 무모하지 않다고 강조해요. 오히려 체계적인 둔감화를 통해 공포를 관리해요: \"만약 자주 그 수준의 공포를 경험하면 결국 더 잘 대처해요.\" 그는 공포를 정보로 봐요(\"왜 공포를 배고픔처럼 다루지 않아?\"). 감정을 다루는 방법을 배워요."
         }
       ],
       "pullQuotes": [],
@@ -9861,7 +10070,8 @@
       "paragraphs": [
         {
           "zh": "霍诺德隔日在房车门框自制的指力/引体器械上练约 1 小时；用详细日记记录每次训练与表现。他为 Freerider 花了一年多、数百小时结组，推敲并记住每段关键 pitch 的精确手脚顺序；攀登前几天还徒步到 El Cap 顶部、沿路线下降检查雨水是否冲掉粉标。他自传与访谈中反复强调：只在「绝对确定」时无保护独攀——不是自信而是确定，来自过度训练与排练；到顶后若感到疲惫即视为准备失败，应能「再来一遍」才算到位。",
-          "en": "Honnold trains every other day ~1 hr on a doorway apparatus (fingertip hangs, one- and two-arm pullups). He logs every session in a detailed journal. For Freerider he spent hundreds of hours on rope memorizing exact hand and foot sequences for every key pitch; days before the climb he hiked to the top and rappelled to check chalk marks. He repeatedly states: only free-solo when \"absolutely certain\"—not confident but certain, from obsessive rehearsal; feeling tired at the top would be a failure of preparation; the standard is being able to \"do it again\" on top."
+          "en": "Honnold trains every other day ~1 hr on a doorway apparatus (fingertip hangs, one- and two-arm pullups). He logs every session in a detailed journal. For Freerider he spent hundreds of hours on rope memorizing exact hand and foot sequences for every key pitch; days before the climb he hiked to the top and rappelled to check chalk marks. He repeatedly states: only free-solo when \"absolutely certain\"—not confident but certain, from obsessive rehearsal; feeling tired at the top would be a failure of preparation; the standard is being able to \"do it again\" on top.",
+          "ko": "호놀드는 하루 걸러 캠핑카 문 위에 자작한 손가락 강화/풀업 장치에서 약 1시간 훈련해요. 상세한 일지로 각 훈련과 성과를 기록해요. 프리라이더를 위해 1년 이상, 수백 시간을 로프 구간에 투자했어요. 각 피치의 핵심을 묘사하고 암기했어요."
         }
       ],
       "pullQuotes": [],
@@ -9902,7 +10112,8 @@
       "paragraphs": [
         {
           "zh": "约翰·巴哈尔（1957–2009）在 1970–80 年代成为 Yosemite 无保护独攀的代表人物。他 16 岁在 Joshua Tree 开始独攀简易路线以便省去绳索；转折来自导师 John Long 在 Double Cross (5.8) 上的逻辑挑战：「你要是 toprope 一百次会掉几次？」巴哈尔答零，Long 说「那就上。」1975 年 Long 带 18 岁的他进 Yosemite 独攀，随后二人完成数千英尺的连攀。他的独攀进阶包括 New Dimensions (5.11a)、Nabisco Wall via Butterballs (5.11c)、onsight Moratorium、Baby Apes (5.12c)、Father Figure (5.13a) 个人最难。1980 年德国与 Verdon 经历影响了他与 Dave Yerian 在 Tuolumne 开辟的 Bachar-Yerian，被视为美国最 committing 的传统路线之一。他发明了 Bachar 梯子。2009 年 7 月 5 日他在 Mammoth Lakes 附近独攀时去世，享年 52 岁。",
-          "en": "John Bachar (1957–2009) was the defining figure of Yosemite free solo in the 1970s–80s. He began soloing at 16 at Joshua Tree; the turning point was mentor John Long's challenge on Double Cross (5.8): \"How many times would you fall if you toproped it 100 times?\" Bachar said zero; Long: \"Alright then, we're on it.\" In 1975 Long introduced 18-year-old Bachar to Yosemite soloing; they did circuits linking thousands of feet. His progression included New Dimensions (5.11a), Nabisco Wall (5.11c), onsight Moratorium, Baby Apes (5.12c), Father Figure (5.13a). The Bachar-Yerian at Tuolumne with Dave Yerian is one of America's most committing trad routes. He invented the Bachar ladder. He died 5 July 2009 while soloing near Mammoth Lakes, aged 52."
+          "en": "John Bachar (1957–2009) was the defining figure of Yosemite free solo in the 1970s–80s. He began soloing at 16 at Joshua Tree; the turning point was mentor John Long's challenge on Double Cross (5.8): \"How many times would you fall if you toproped it 100 times?\" Bachar said zero; Long: \"Alright then, we're on it.\" In 1975 Long introduced 18-year-old Bachar to Yosemite soloing; they did circuits linking thousands of feet. His progression included New Dimensions (5.11a), Nabisco Wall (5.11c), onsight Moratorium, Baby Apes (5.12c), Father Figure (5.13a). The Bachar-Yerian at Tuolumne with Dave Yerian is one of America's most committing trad routes. He invented the Bachar ladder. He died 5 July 2009 while soloing near Mammoth Lakes, aged 52.",
+          "ko": "존 바하르(1957-2009)는 1970-80년대 요세미티 솔로 프리클라이밍의 상징 인물이 돼요. 16살에 조슈아 트리에서 간단한 루트 솔로를 시작했어요."
         }
       ],
       "pullQuotes": [],
@@ -9941,7 +10152,8 @@
       "paragraphs": [
         {
           "zh": "巴哈尔将无保护独攀描述为「如此自由、轻松，像最自然的攀登形态」——不是噱头而是最纯粹的状态，与岩石直接对话。控制是他哲学的核心：无法控制就退；把攀登能力提到岩壁水平而非把岩壁降到自己的水平；不仅要能独攀某条线，还要强到能下攀脱困。他学运动学、用负重引体等打造高度自律的训练；被问为何做 50 个指尖引体时他说：「我不是为了能做动作而练，我练是为了知道我能做那些动作。」他强调传统攀登伦理：地面起首登、onsight，反对运动攀伦理侵蚀传统区域。Honnold、Lonnie Kauk、Renan Ozturk 等均称受其启发。",
-          "en": "Bachar described free soloing as \"so free, so easy, like it was the most natural form of climbing\"—not a stunt but climbing in its purest state. Control was essential: back off when control isn't possible; elevate your skill to the rock; be strong enough to down-climb out of trouble. He studied kinesiology and used weight-belt pullups in a disciplined routine; when asked why 50 fingertip pullups he said: \"I don't train so that I can do the moves; I train so that I know that I can do the moves.\" He defended ground-up onsight trad ethics. Honnold, Lonnie Kauk, Renan Ozturk have cited his influence."
+          "en": "Bachar described free soloing as \"so free, so easy, like it was the most natural form of climbing\"—not a stunt but climbing in its purest state. Control was essential: back off when control isn't possible; elevate your skill to the rock; be strong enough to down-climb out of trouble. He studied kinesiology and used weight-belt pullups in a disciplined routine; when asked why 50 fingertip pullups he said: \"I don't train so that I can do the moves; I train so that I know that I can do the moves.\" He defended ground-up onsight trad ethics. Honnold, Lonnie Kauk, Renan Ozturk have cited his influence.",
+          "ko": "바하르는 솔로 프리클라이밍을 \"그렇게 자유롭고 가볍고 가장 자연스러운 등반 형태 같아요\"라고 묘사했어요. 기술이 아니라 가장 순수한 상태예요. 암석과 직접 대화해요. 통제가 그의 철학의 핵심이에요: 통제할 수 없으면 물러나요. 등반 능력을 암벽이 요구하는 것까지 올려요."
         }
       ],
       "pullQuotes": [
@@ -9953,7 +10165,8 @@
           },
           "context": {
             "zh": "Nugget 访谈中 Croft 转述",
-            "en": "Croft quoting Bachar, Nugget"
+            "en": "Croft quoting Bachar, Nugget",
+            "ko": "Croft가 인용한 Nugget 인터뷰"
           },
           "source": "Nugget Climbing"
         }
@@ -9993,7 +10206,8 @@
       "paragraphs": [
         {
           "zh": "克罗夫特 1985 年 The Rostrum 首次自由独攀，1986 年与 John Bachar 完成 Nose + Half Dome 单日连攀（10 小时、5000+ 英尺），1987 年首度同日完成 Astroman 与 The Rostrum 自由独攀——史上仅 Dean Potter、Alex Honnold 重复。他将独攀描述为「一场梦……那种让你回到原始状态、跟随本能、处于心流的体验」。他重视轻量化与耐力：体能不应成为限制因素；到顶若感到疲惫即视为失败，为 Astroman 会先做 40–50 个 pitch 热身、在澳大利亚曾单日超 100 pitch。他担心纪录片拍摄独攀会引入人员与变量、影响专注。",
-          "en": "Croft did the first free solo of The Rostrum (1985), with Bachar the first one-day Nose + Half Dome (1986, 10h, 5000+ ft), and in 1987 the first same-day free solo of Astroman and The Rostrum—repeated only by Potter and Honnold. He describes soloing as \"a dream—the kind of experience that sends you back to a primal state where you are following your instinct and being in the flow.\" He emphasizes lightweight and endurance: fitness should never be the limiting factor; feeling tired at the top would be failure—for Astroman he warmed up with 40–50 pitches, in Australia over 100 in a day. He worries that filming solos adds variables and compromises concentration."
+          "en": "Croft did the first free solo of The Rostrum (1985), with Bachar the first one-day Nose + Half Dome (1986, 10h, 5000+ ft), and in 1987 the first same-day free solo of Astroman and The Rostrum—repeated only by Potter and Honnold. He describes soloing as \"a dream—the kind of experience that sends you back to a primal state where you are following your instinct and being in the flow.\" He emphasizes lightweight and endurance: fitness should never be the limiting factor; feeling tired at the top would be failure—for Astroman he warmed up with 40–50 pitches, in Australia over 100 in a day. He worries that filming solos adds variables and compromises concentration.",
+          "ko": "크로프트는 1985년 로스트럼에서 처음 솔로 프리클라이밍했어요. 1986년 존 바하르와 함께 노즈 + 하프 돔 단일 일 연속 등반을 했어요(10시간 미만)."
         }
       ],
       "pullQuotes": [],
@@ -10032,7 +10246,8 @@
       "paragraphs": [
         {
           "zh": "克罗夫特视独攀为「技能的表达」：全神贯注保证安全，不鲁莽推难度。他名言「我渴望一场需要我全力以赴——甚至更多的远征」出自 University Wall 首登。他认为到顶时若感到疲惫就是准备的失败，应保留足够余量「真正享受那一刻」；在 Astroman 约三分之二处他曾脱鞋在岩壁上停留，感受身处橙条纹花岗岩与 Half Dome 之间的「超级酷」状态。他从 Bachar 学到恢复的重要性；灵感对他如同「把天花板从 100% 提到 150%」。",
-          "en": "Croft views soloing as \"expression of skill\" rather than spectacle; full concentration ensures safety. His \"craved an odyssey that required my all\" comes from the University Wall FA. He considers it failure if he's tired at the top—fitness must not be the limit so he can \"really take it in\"; on Astroman two-thirds up he took off his shoes and stayed on the wall to absorb the moment. He credits Bachar for the importance of recovery; inspiration acts as a \"ceiling raiser\" from 100% to 150%."
+          "en": "Croft views soloing as \"expression of skill\" rather than spectacle; full concentration ensures safety. His \"craved an odyssey that required my all\" comes from the University Wall FA. He considers it failure if he's tired at the top—fitness must not be the limit so he can \"really take it in\"; on Astroman two-thirds up he took off his shoes and stayed on the wall to absorb the moment. He credits Bachar for the importance of recovery; inspiration acts as a \"ceiling raiser\" from 100% to 150%.",
+          "ko": "크로프트는 솔로를 \"기술의 표현\"으로 봐요. 집중해서 안전을 보장하고 무모하게 난도를 밀지 않아요. 그의 명언 \"나는 내 모든 것과 그 이상을 요구하는 원정을 갈망해요\"는 유니버시티 월 초등에서 나왔어요."
         }
       ],
       "pullQuotes": [
@@ -10044,7 +10259,8 @@
           },
           "context": {
             "zh": "独攀体验",
-            "en": "On solo experience"
+            "en": "On solo experience",
+            "ko": "솔로 클라이밍 체험"
           },
           "source": "HardClimbs"
         }
@@ -10080,7 +10296,8 @@
       "paragraphs": [
         {
           "zh": "迪恩·波特（1972–2015）2001 年与 Timmy O'Neill 完成史上首次 Yosemite Triple Crown 一日连攀：Half Dome、Mt. Watkins、El Capitan。他发明 FreeBASE——无保护独攀时佩戴 BASE 伞，坠落可开伞求生，扩展了独攀的边界。他还独攀过 Separate Reality (5.11d) 五次、Heaven (5.12d)、Astroman 等；1998 年 Half Dome 西北壁约 4 小时、95% 自由独攀；2008 年 Eiger Deep Blue Sea FreeBASE 首攀。他从小随母亲学瑜伽、从父亲学纪律，把「将死亡转化为飞翔」当作人生原则的隐喻；高线行走与翼装飞行使他成为同时精通攀岩、高线、翼装 BASE 的罕见人物。2015 年 5 月他与 Graham Hunt 在 Taft Point 尝试新翼装线路时遇难。",
-          "en": "Dean Potter (1972–2015) with Timmy O'Neill did the first Yosemite Triple Crown in a day (2001): Half Dome, Mt. Watkins, El Capitan. He invented FreeBASE—soloing with a BASE rig for fall survival—extending the frontier of soloing. He free soloed Separate Reality five times, Heaven, Astroman; 1998 Half Dome NW face ~4h, 95% free; 2008 first FreeBASE of Eiger Deep Blue Sea. From his mother he drew breathwork and yoga, from his father discipline; \"turning dying into flying\" was his life metaphor. He mastered climbing, highline, and wingsuit BASE—unprecedented. On 16–17 May 2015 he and Graham Hunt died on a new wingsuit line from Taft Point."
+          "en": "Dean Potter (1972–2015) with Timmy O'Neill did the first Yosemite Triple Crown in a day (2001): Half Dome, Mt. Watkins, El Capitan. He invented FreeBASE—soloing with a BASE rig for fall survival—extending the frontier of soloing. He free soloed Separate Reality five times, Heaven, Astroman; 1998 Half Dome NW face ~4h, 95% free; 2008 first FreeBASE of Eiger Deep Blue Sea. From his mother he drew breathwork and yoga, from his father discipline; \"turning dying into flying\" was his life metaphor. He mastered climbing, highline, and wingsuit BASE—unprecedented. On 16–17 May 2015 he and Graham Hunt died on a new wingsuit line from Taft Point.",
+          "ko": "딘 포터(1972-2015)는 2001년 티미 오닐과 함께 요세미티 트리플 크라운 사상 첫 일일 연속 등반을 완성했어요: 하프 돔, 엘캡, 마운트 클래런스."
         }
       ],
       "pullQuotes": [],
@@ -10119,7 +10336,8 @@
       "paragraphs": [
         {
           "zh": "波特将极限风险视为自我发现的工具：「将死亡转化为飞翔是我基本人生原则的隐喻。」他相信面对死亡能锐化觉察、深化对生命的投入。在 BASE 与公园规管语境下他说：「被允许以不破坏环境的方式在自然中移动不应违法。」他把攀岩与飞行当作「艺术」而非单纯运动，以艺术家对技艺的投入去追求。John Long 称他是「一股自然之力」；同事说「你遇不到多少年迈的翼装 BASE 跳者」——他最终在追求新翼装线路时离世。",
-          "en": "Potter used extreme risk as a tool for self-discovery: \"This concept of turning dying into flying is a metaphor for my basic life principle.\" He believed confronting mortality sharpened awareness. On freedom and nature: \"Being allowed to travel in nature in a way that doesn't harm the environment shouldn't be illegal.\" He treated climbing and flying as \"arts\" pursued with the commitment of craft. John Long called him \"a force of nature\"; colleagues noted \"you don't meet many old wingsuit BASE jumpers\"—he ultimately died pursuing a new wingsuit line."
+          "en": "Potter used extreme risk as a tool for self-discovery: \"This concept of turning dying into flying is a metaphor for my basic life principle.\" He believed confronting mortality sharpened awareness. On freedom and nature: \"Being allowed to travel in nature in a way that doesn't harm the environment shouldn't be illegal.\" He treated climbing and flying as \"arts\" pursued with the commitment of craft. John Long called him \"a force of nature\"; colleagues noted \"you don't meet many old wingsuit BASE jumpers\"—he ultimately died pursuing a new wingsuit line.",
+          "ko": "포터는 극한 위험을 자기 발견의 도구로 봤어요: \"죽음을 비행으로 변환하는 것은 나의 기본 인생 원칙의 은유예요.\" 그는 죽음에 직면하는 것이 자각을 날카롭게 하고 생명에 대한 몰입을 깊게 한다고 믿었어요. 베이스와 공원 규제 상황에서 그는 말했어요: \"어쨌든 우리는 모두 죽어요.\""
         }
       ],
       "pullQuotes": [
@@ -10131,7 +10349,8 @@
           },
           "context": {
             "zh": "风险与人生哲学",
-            "en": "Risk and life philosophy"
+            "en": "Risk and life philosophy",
+            "ko": "위험과 인생 철학"
           },
           "source": "National Geographic / The Core"
         }
@@ -10167,7 +10386,8 @@
       "paragraphs": [
         {
           "zh": "约翰·吉尔（1937 年生）将攀岩视为体操的延伸，1950 年代在美国引入体操粉袋与受控动态，被 Alpinist 称为「美国现代攀岩的开端」。他在 Tetons 的 Red Cross Rock 建立 V8/V9 抱石，1961 年 Thimble 30 英尺 5.12a 无保护（无现代攀岩鞋）被视为首批 5.12 之一。他提出 B1–B3 抱石分级体系；强调形态与优雅而非单纯效率，抱石为「移动的冥想」。退休后研究攀岩与抱石起源，个人网站收录体重与绳攀历史。",
-          "en": "John Gill (b. 1937) viewed climbing as an extension of gymnastics; in the 1950s he introduced chalk and controlled dynamics to American climbing—\"the beginning of modern climbing in America\" (Alpinist). He established V8/V9 at Red Cross Rock, Tetons; his 1961 Thimble 30 ft 5.12a free solo without modern shoes is among the first 5.12s. He proposed the B1–B3 bouldering scale; emphasized form and grace; bouldering as moving meditation. In retirement he researched climbing origins; his site documents bodyweight and rope-climbing history."
+          "en": "John Gill (b. 1937) viewed climbing as an extension of gymnastics; in the 1950s he introduced chalk and controlled dynamics to American climbing—\"the beginning of modern climbing in America\" (Alpinist). He established V8/V9 at Red Cross Rock, Tetons; his 1961 Thimble 30 ft 5.12a free solo without modern shoes is among the first 5.12s. He proposed the B1–B3 bouldering scale; emphasized form and grace; bouldering as moving meditation. In retirement he researched climbing origins; his site documents bodyweight and rope-climbing history.",
+          "ko": "존 길(1937년생)은 등반을 체조의 연장으로 봤어요. 1950년대 미국에 체조 분말 주머니와 통제된 동적 동작을 도입했어요. 알파이니스트는 그를 \"미국 현대 등반의 시작\"이라고 부터요. 그는 티턴에서 많은 어려운 문제를 초등했어요."
         }
       ],
       "pullQuotes": [],
@@ -10202,7 +10422,8 @@
       "paragraphs": [
         {
           "zh": "沃尔夫冈·居利希（1960–1992）1984 年 Kanal im Rücken 世界首 8b 后主导运动攀难度推进：1985 年澳大利亚 Punks in the Gym 首 8b+，1987 年 Wallstreet 首 8c，1991 年 Action Directe 首 9a。他为 Action Directe 发明 campus board 发展指臂爆发力；与 Kurt Albert 在 Frankenjura 同住、地下室健身房成为 1980 年代全球运动攀者的据点。他避免竞技、认为「攀岩若是艺术，创造力便是其核心」。1992 年 8 月驾车时入睡驶离高速，两日后去世。",
-          "en": "Wolfgang Güllich (1960–1992) after 1984 first 8b dominated sport climbing: 1985 Punks in the Gym first 8b+, 1987 Wallstreet first 8c, 1991 Action Directe first 9a. He invented the campus board for Action Directe; shared a Frankenjura flat with Kurt Albert—cellar gym became a hub for 1980s sport climbers. He avoided competition; \"if climbing is an art, creativity is its main component.\" August 1992 he fell asleep at the wheel, died two days later."
+          "en": "Wolfgang Güllich (1960–1992) after 1984 first 8b dominated sport climbing: 1985 Punks in the Gym first 8b+, 1987 Wallstreet first 8c, 1991 Action Directe first 9a. He invented the campus board for Action Directe; shared a Frankenjura flat with Kurt Albert—cellar gym became a hub for 1980s sport climbers. He avoided competition; \"if climbing is an art, creativity is its main component.\" August 1992 he fell asleep at the wheel, died two days later.",
+          "ko": "볼프강 귈리히(1960-1992)는 1984년 카날 임 뤼켄 세계 최초 8b 이후 스포츠 클라이밍 난도 진전을 주도해요. 1985년 호주 펑크스 인 뮤직."
         }
       ],
       "pullQuotes": [],
@@ -10795,7 +11016,8 @@
       "paragraphs": [
         {
           "zh": "Lattice Training 由教练与运动科学家组成，核心是数据：多年测试与全球 50,000+ 攀岩者数据构成行业最大表现数据集，支撑真正数据驱动的训练。评估可对照该数据集得到定制化强弱项报告；计划分教练撰写与 app 生成的 LatticePlans（非 AI，用表现数据生成并随训练调整）。不论水平、目标、经验或预算都有对应计划档位；免费、远程与线下评估可选。",
-          "en": "Lattice Training is a team of coaches and sports scientists; at the core is data: years of testing and 50,000+ climbers form the largest dataset of climber metrics, enabling data-informed training. Assessments compare against this dataset for customized strength/weakness reports; plans include coach-written and app-generated LatticePlans (intelligent tech, not AI, using performance data to create and adapt). Plans for all levels, goals, and budgets; free, remote, and in-person assessments available."
+          "en": "Lattice Training is a team of coaches and sports scientists; at the core is data: years of testing and 50,000+ climbers form the largest dataset of climber metrics, enabling data-informed training. Assessments compare against this dataset for customized strength/weakness reports; plans include coach-written and app-generated LatticePlans (intelligent tech, not AI, using performance data to create and adapt). Plans for all levels, goals, and budgets; free, remote, and in-person assessments available.",
+          "ko": "래티스 트레이닝은 코치와 스포츠 과학자로 구성돼요. 핵심은 데이터예요. 수년간 테스트와 전 세계 50,000명 이상의 등반가 데이터가 업계 최대 성과 데이터셋을 구성해요. 진정한 데이터 중심 훈련을 지원해요."
         }
       ],
       "pullQuotes": [],
@@ -10825,7 +11047,8 @@
       "paragraphs": [
         {
           "zh": "伍鹏 2002 年生于湖南邵阳，速度专项。2024 年吴江世界杯夺冠标志从新秀到顶尖的成熟；他称「稳定发挥来自训练的持续积累，没想多快，只想把训练水平发挥出来」。巴黎奥运四分之一决赛 0.002 秒险胜，半决赛淘汰 Watson，决赛对 Leonardo 以 4.77 秒个人最佳获银，差 0.02 秒。赛后表示「有点开心也有遗憾，已经给了全部」。赛前回到隔离区戴耳机、完全封闭外界，保持专注。",
-          "en": "Wu Peng, b. 2002 Shaoyang Hunan, speed specialist. 2024 Wujiang World Cup victory marked his arrival; he said stable performance comes from constant accumulation of training, focusing on executing training level. At Paris, quarter-final win by 0.002s, semi-final beat Watson, final 4.77s PB silver, 0.02s behind Leonardo. Post-race: a bit happy but regret, gave everything. Pre-race headphone ritual in isolation zone for full concentration."
+          "en": "Wu Peng, b. 2002 Shaoyang Hunan, speed specialist. 2024 Wujiang World Cup victory marked his arrival; he said stable performance comes from constant accumulation of training, focusing on executing training level. At Paris, quarter-final win by 0.002s, semi-final beat Watson, final 4.77s PB silver, 0.02s behind Leonardo. Post-race: a bit happy but regret, gave everything. Pre-race headphone ritual in isolation zone for full concentration.",
+          "ko": "우펑은 2002년 후난 성 샤오양에서 태어났어요. 속도 전문가예요. 2024년 우장 월드컵 우승은 신인에서 정상으로의 성숙을 표시해요. 그는 \"안정적인 성과는 훈련의 지속 축적에서 나온다\"고 말해요. \"빠르게 하려고 생각하지 않고 훈련 수준을 발휘하려고만 생각해요.\""
         }
       ],
       "pullQuotes": [],
@@ -10930,7 +11153,8 @@
           },
           "context": {
             "zh": "2022 布里克森站决赛后",
-            "en": "After 2022 Brixen final"
+            "en": "After 2022 Brixen final",
+            "ko": "2022 브릭센 결승 후"
           },
           "source": "国家体育总局"
         },
@@ -10942,7 +11166,8 @@
           },
           "context": {
             "zh": "2024 柯桥站铜牌后",
-            "en": "After 2024 Keqiao bronze"
+            "en": "After 2024 Keqiao bronze",
+            "ko": "2024 허자오 동메달 후"
           },
           "source": "IFSC World Cup Keqiao 2024"
         }
@@ -10951,41 +11176,49 @@
         {
           "label": {
             "zh": "出生",
-            "en": "Born"
+            "en": "Born",
+            "ko": "출생"
           },
           "value": {
             "zh": "2006 年",
-            "en": "2006"
+            "en": "2006",
+            "ko": "2006"
           }
         },
         {
           "label": {
             "zh": "启蒙",
-            "en": "Started"
+            "en": "Started",
+            "ko": "등반 시작"
           },
           "value": {
             "zh": "6 岁接触、8 岁系统训练",
-            "en": "Age 6 contact, 8 systematic"
+            "en": "Age 6 contact, 8 systematic",
+            "ko": "6세 입문, 8세 체계적 훈련"
           }
         },
         {
           "label": {
             "zh": "2022 突破",
-            "en": "2022 breakthrough"
+            "en": "2022 breakthrough",
+            "ko": "2022 돌파"
           },
           "value": {
             "zh": "布里克森世界杯抱石铜牌、中国首枚",
-            "en": "Brixen World Cup boulder bronze, China first"
+            "en": "Brixen World Cup boulder bronze, China first",
+            "ko": "브릭센 월드컵 볼더링 동메달, 중국 첫 메달"
           }
         },
         {
           "label": {
             "zh": "巴黎资格",
-            "en": "Paris quota"
+            "en": "Paris quota",
+            "ko": "파리 자격"
           },
           "value": {
             "zh": "2024 布达佩斯资格赛",
-            "en": "2024 Budapest qualifier"
+            "en": "2024 Budapest qualifier",
+            "ko": "2024 부다페스트 자격 경기"
           }
         }
       ],
@@ -11045,7 +11278,8 @@
           },
           "context": {
             "zh": "2018 青奥前采访",
-            "en": "Pre–Youth Olympics 2018"
+            "en": "Pre–Youth Olympics 2018",
+            "ko": "2018 청소년 올림픽 전 인터뷰"
           },
           "source": "Olympics.com"
         },
@@ -11057,7 +11291,8 @@
           },
           "context": {
             "zh": "2025 伯尔尼决赛第四条线",
-            "en": "Bern 2025 final, problem 4"
+            "en": "Bern 2025 final, problem 4",
+            "ko": "2025 베른 결승 4번 문제"
           },
           "source": "Xinhua"
         },
@@ -11069,7 +11304,8 @@
           },
           "context": {
             "zh": "伯尔尼夺冠后",
-            "en": "After Bern victory"
+            "en": "After Bern victory",
+            "ko": "베른 우승 후"
           },
           "source": "Xinhua"
         },
@@ -11081,7 +11317,8 @@
           },
           "context": {
             "zh": "伯尔尼夺冠后",
-            "en": "After Bern victory"
+            "en": "After Bern victory",
+            "ko": "베른 우승 후"
           },
           "source": "Xinhua"
         }
@@ -11090,41 +11327,49 @@
         {
           "label": {
             "zh": "启蒙",
-            "en": "Started"
+            "en": "Started",
+            "ko": "등반 시작"
           },
           "value": {
             "zh": "8 岁攀岩、16 岁入队",
-            "en": "Age 8 climbing, 16 national team"
+            "en": "Age 8 climbing, 16 national team",
+            "ko": "8세 등반, 16세 국가대표팀"
           }
         },
         {
           "label": {
             "zh": "首枚难度奖牌",
-            "en": "First lead medal"
+            "en": "First lead medal",
+            "ko": "첫 난도 메달"
           },
           "value": {
             "zh": "2017 厦门世界杯季军",
-            "en": "2017 Xiamen World Cup bronze"
+            "en": "2017 Xiamen World Cup bronze",
+            "ko": "2017 샤먼 월드컵 3위"
           }
         },
         {
           "label": {
             "zh": "东京资格",
-            "en": "Tokyo quota"
+            "en": "Tokyo quota",
+            "ko": "도쿄 자격"
           },
           "value": {
             "zh": "中国男子攀岩奥运第一人",
-            "en": "First Chinese male Olympic climber"
+            "en": "First Chinese male Olympic climber",
+            "ko": "중국 남자 등반 첫 올림픽 선수"
           }
         },
         {
           "label": {
             "zh": "2025 突破",
-            "en": "2025 breakthrough"
+            "en": "2025 breakthrough",
+            "ko": "2025 돌파"
           },
           "value": {
             "zh": "伯尔尼世界杯抱石金牌、中国首枚",
-            "en": "Bern World Cup boulder gold, China first"
+            "en": "Bern World Cup boulder gold, China first",
+            "ko": "베른 월드컵 볼더링 금메달, 중국 첫 메달"
           }
         }
       ],

@@ -112,7 +112,7 @@ function VideoCard({ video }) {
               <span className="text-xs text-text-secondary truncate">{video.channel}</span>
               {video.lang && (
                 <span className="text-[10px] px-1 py-px rounded bg-stone-bg text-text-secondary">
-                  {video.lang === 'zh' ? '中文' : 'EN'}
+                  {video.lang === 'zh' ? '中文' : video.lang === 'en' ? 'EN' : '한국어'}
                 </span>
               )}
             </div>
@@ -135,7 +135,7 @@ export default function VideoSection({ videos }) {
           <polygon points="23 7 16 12 23 17 23 7" />
           <rect x="1" y="5" width="15" height="14" rx="2" ry="2" />
         </svg>
-        {lang === 'zh' ? '相关视频' : 'Related Videos'}
+        {lang === 'zh' ? '相关视频' : lang === 'en' ? 'Related Videos' : '관련 영상'}
       </h2>
       <div className="grid gap-3 sm:grid-cols-2">
         {videos.map((video, i) => (

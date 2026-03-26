@@ -777,7 +777,8 @@
       "subSectionSlug": "upper-body",
       "subSectionTitle": {
         "zh": "上肢力量",
-        "en": "Upper Body Strength"
+        "en": "Upper Body Strength",
+        "ko": "상지 근력"
       },
       "title": {
         "zh": "拉力训练",
@@ -826,7 +827,8 @@
       "subSectionSlug": "upper-body",
       "subSectionTitle": {
         "zh": "上肢力量",
-        "en": "Upper Body Strength"
+        "en": "Upper Body Strength",
+        "ko": "상지 근력"
       },
       "title": {
         "zh": "推力与翻越",
@@ -872,7 +874,8 @@
       "subSectionSlug": "upper-body",
       "subSectionTitle": {
         "zh": "上肢力量",
-        "en": "Upper Body Strength"
+        "en": "Upper Body Strength",
+        "ko": "상지 근력"
       },
       "title": {
         "zh": "肩部稳定性",
@@ -6810,7 +6813,8 @@
       "subSectionSlug": "bouldering",
       "subSectionTitle": {
         "zh": "户外抱石",
-        "en": "Outdoor Bouldering"
+        "en": "Outdoor Bouldering",
+        "ko": "아웃도어 볼더링"
       },
       "title": {
         "zh": "户外抱石特点",
@@ -6858,7 +6862,8 @@
       "subSectionSlug": "bouldering",
       "subSectionTitle": {
         "zh": "户外抱石",
-        "en": "Outdoor Bouldering"
+        "en": "Outdoor Bouldering",
+        "ko": "아웃도어 볼더링"
       },
       "title": {
         "zh": "读线与落地策略",
@@ -6907,7 +6912,8 @@
       "subSectionSlug": "bouldering",
       "subSectionTitle": {
         "zh": "户外抱石",
-        "en": "Outdoor Bouldering"
+        "en": "Outdoor Bouldering",
+        "ko": "아웃도어 볼더링"
       },
       "title": {
         "zh": "岩区探索",
@@ -8493,7 +8499,8 @@
       "subSectionSlug": "organizations",
       "subSectionTitle": {
         "zh": "竞赛组织与体系",
-        "en": "Competition Organizations"
+        "en": "Competition Organizations",
+        "ko": "대회 조직과 체계"
       },
       "title": {
         "zh": "国际攀联（IFSC）",
@@ -8541,7 +8548,8 @@
       "subSectionSlug": "organizations",
       "subSectionTitle": {
         "zh": "竞赛组织与体系",
-        "en": "Competition Organizations"
+        "en": "Competition Organizations",
+        "ko": "대회 조직과 체계"
       },
       "title": {
         "zh": "国家联合会",
@@ -8588,7 +8596,8 @@
       "subSectionSlug": "organizations",
       "subSectionTitle": {
         "zh": "竞赛组织与体系",
-        "en": "Competition Organizations"
+        "en": "Competition Organizations",
+        "ko": "대회 조직과 체계"
       },
       "title": {
         "zh": "赛事巡回与排名系统",

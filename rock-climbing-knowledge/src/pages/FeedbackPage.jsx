@@ -5,12 +5,12 @@ import kpRegistry from '../data/kp-registry.json'
 import illustrationRegistry from '../data/illustration-registry.json'
 
 const ISSUE_LABELS = {
-  action: { zh: '动作错误', en: 'Wrong action/pose' },
-  structure: { zh: '结构错误', en: 'Structural error' },
-  anatomy: { zh: '解剖错误', en: 'Anatomy error' },
-  equipment: { zh: '装备外形错误', en: 'Equipment appearance' },
-  proportion: { zh: '比例错误', en: 'Wrong proportions' },
-  other: { zh: '其他', en: 'Other' },
+  action: { zh: '动作错误', en: 'Wrong action/pose', ko: '잘못된 액션/포즈' },
+  structure: { zh: '结构错误', en: 'Structural error', ko: '구조 오류' },
+  anatomy: { zh: '解剖错误', en: 'Anatomy error', ko: '해부학적 오류' },
+  equipment: { zh: '装备外形错误', en: 'Equipment appearance', ko: '장비 외형 오류' },
+  proportion: { zh: '比例错误', en: 'Wrong proportions', ko: '잘못된 비율' },
+  other: { zh: '其他', en: 'Other', ko: '기타' },
 }
 
 // Find the KP entry whose id is the longest prefix match for the imageId
@@ -72,12 +72,14 @@ export default function FeedbackPage() {
       <div className="flex items-center justify-between mb-6">
         <div>
           <h1 className="text-xl font-bold text-text-primary">
-            {lang === 'zh' ? '图片反馈管理' : 'Image Feedback Admin'}
+            {lang === 'zh' ? '图片反馈管理' : lang === 'en' ? 'Image Feedback Admin' : '이미지 피드백 관리'}
           </h1>
           <p className="text-sm text-text-secondary mt-1">
             {lang === 'zh'
               ? `共 ${feedbacks.length} 条反馈`
-              : `${feedbacks.length} feedback item${feedbacks.length !== 1 ? 's' : ''}`}
+              : lang === 'en'
+              ? `${feedbacks.length} feedback item${feedbacks.length !== 1 ? 's' : ''}`
+              : `${feedbacks.length}개의 피드백`}
           </p>
         </div>
         {feedbacks.length > 0 && (
@@ -86,13 +88,13 @@ export default function FeedbackPage() {
               onClick={handleExport}
               className="px-3 py-1.5 text-xs rounded-lg border border-stone-border hover:bg-stone-sidebar transition-colors"
             >
-              {lang === 'zh' ? '导出 JSON' : 'Export JSON'}
+              {lang === 'zh' ? '导出 JSON' : lang === 'en' ? 'Export JSON' : 'JSON 내보내기'}
             </button>
             <button
               onClick={handleClearAll}
               className="px-3 py-1.5 text-xs rounded-lg border border-red-300 text-red-600 hover:bg-red-50 transition-colors"
             >
-              {lang === 'zh' ? '清空全部' : 'Clear All'}
+              {lang === 'zh' ? '清空全部' : lang === 'en' ? 'Clear All' : '전체 삭제'}
             </button>
           </div>
         )}
@@ -104,7 +106,7 @@ export default function FeedbackPage() {
           <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.5" className="w-12 h-12 mx-auto mb-3 opacity-40">
             <path d="M9 12l2 2 4-4m6 2a9 9 0 11-18 0 9 9 0 0118 0z" />
           </svg>
-          <p className="text-sm">{lang === 'zh' ? '暂无反馈' : 'No feedback yet'}</p>
+          <p className="text-sm">{lang === 'zh' ? '暂无反馈' : lang === 'en' ? 'No feedback yet' : '피드백 없음'}</p>
         </div>
       )}
 
@@ -123,7 +125,7 @@ export default function FeedbackPage() {
       {/* Copied toast */}
       {copiedToast && (
         <div className="fixed bottom-8 left-1/2 -translate-x-1/2 z-50 px-4 py-2 bg-forest text-white text-sm rounded-lg shadow-lg animate-fadeInUp">
-          {lang === 'zh' ? '已复制到剪贴板' : 'Copied to clipboard'}
+          {lang === 'zh' ? '已复制到剪贴板' : lang === 'en' ? 'Copied to clipboard' : '클립보드에 복사됨'}
         </div>
       )}
     </div>
@@ -131,7 +133,7 @@ export default function FeedbackPage() {
 }
 
 function FeedbackCard({ fb, lang, onDismiss }) {
-  const t = (zh, en) => lang === 'zh' ? zh : en
+  const t = (zh, en, ko) => lang === 'zh' ? zh : lang === 'en' ? en : (ko || en)
 
   return (
     <div className="bg-stone-card border border-stone-border rounded-xl p-4 flex gap-4">
@@ -145,7 +147,7 @@ function FeedbackCard({ fb, lang, onDismiss }) {
           />
         ) : (
           <div className="w-28 h-28 rounded-lg bg-stone-sidebar flex items-center justify-center text-text-secondary text-xs">
-            {t('图片未找到', 'Not found')}
+            {t('图片未找到', 'Not found', '사진을 찾을 수 없음')}
           </div>
         )}
       </div>
@@ -179,7 +181,7 @@ function FeedbackCard({ fb, lang, onDismiss }) {
                   key={key}
                   className="px-2 py-0.5 rounded-full text-xs bg-amber-light text-amber"
                 >
-                  {label ? (lang === 'zh' ? label.zh : label.en) : key}
+                  {label ? (lang === 'zh' ? label.zh : lang === 'en' ? label.en : label.ko) : key}
                 </span>
               )
             })}
@@ -196,13 +198,13 @@ function FeedbackCard({ fb, lang, onDismiss }) {
         {/* Footer: timestamp + dismiss */}
         <div className="flex items-center justify-between mt-3">
           <span className="text-xs text-text-secondary">
-            {new Date(fb.timestamp).toLocaleString(lang === 'zh' ? 'zh-CN' : 'en-US')}
+            {new Date(fb.timestamp).toLocaleString(lang === 'zh' ? 'zh-CN' : lang === 'en' ? 'en-US' : 'ko-KR')}
           </span>
           <button
             onClick={onDismiss}
             className="text-xs text-text-secondary hover:text-red-500 transition-colors"
           >
-            {t('移除', 'Dismiss')}
+            {t('移除', 'Dismiss', '제거')}
           </button>
         </div>
       </div>

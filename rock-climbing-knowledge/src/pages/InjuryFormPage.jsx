@@ -367,7 +367,7 @@ export default function InjuryFormPage() {
                 type="text"
                 value={otherBodyPart}
                 onChange={(e) => setOtherBodyPart(e.target.value)}
-                placeholder={lang === 'zh' ? '请输入具体部位' : 'Please specify'}
+                placeholder={lang === 'zh' ? '请输入具体部位' : lang === 'en' ? 'Please specify' : '구체적인 부위를 입력하세요'}
                 className="w-full px-3 py-2.5 rounded-lg bg-stone-bg border border-stone-border text-sm focus:outline-none focus:border-forest focus:ring-1 focus:ring-forest transition-colors"
               />
             </div>
@@ -387,7 +387,7 @@ export default function InjuryFormPage() {
                 type="text"
                 value={otherInjuryType}
                 onChange={(e) => setOtherInjuryType(e.target.value)}
-                placeholder={lang === 'zh' ? '请输入具体伤害类型' : 'Please specify'}
+                placeholder={lang === 'zh' ? '请输入具体伤害类型' : lang === 'en' ? 'Please specify' : '구체적인 부상 유형을 입력하세요'}
                 className="w-full px-3 py-2.5 rounded-lg bg-stone-bg border border-stone-border text-sm focus:outline-none focus:border-forest focus:ring-1 focus:ring-forest transition-colors"
               />
             </div>
@@ -398,7 +398,7 @@ export default function InjuryFormPage() {
             <textarea
               value={description}
               onChange={(e) => setDescription(e.target.value)}
-              placeholder="当时发生了什么？怎么受伤的？"
+              placeholder={lang === 'zh' ? '当时发生了什么？怎么受伤的？' : lang === 'en' ? 'What happened? How did you get injured?' : '무슨 일이 있었나요? 어떻게 다쳤나요?'}
               rows={4}
               className="w-full px-3 py-2.5 rounded-lg bg-stone-bg border border-stone-border text-sm focus:outline-none focus:border-forest focus:ring-1 focus:ring-forest transition-colors resize-y"
               required
@@ -410,7 +410,7 @@ export default function InjuryFormPage() {
             <textarea
               value={injuryCause}
               onChange={(e) => setInjuryCause(e.target.value)}
-              placeholder="你觉得是什么导致了这次受伤？"
+              placeholder={lang === 'zh' ? '你觉得是什么导致了这次受伤？' : lang === 'en' ? 'What do you think caused the injury?' : '부상의 원인이 무엇이라고 생각하나요?'}
               rows={2}
               className="w-full px-3 py-2.5 rounded-lg bg-stone-bg border border-stone-border text-sm focus:outline-none focus:border-forest focus:ring-1 focus:ring-forest transition-colors resize-y"
               required
@@ -520,7 +520,7 @@ export default function InjuryFormPage() {
                 type="text"
                 value={diagnosis}
                 onChange={(e) => setDiagnosis(e.target.value)}
-                placeholder="医生怎么说的？"
+                placeholder={lang === 'zh' ? '医生怎么说的？' : lang === 'en' ? 'What did the doctor say?' : '의사가 뭐라고 했나요?'}
                 className="w-full px-3 py-2.5 rounded-lg bg-stone-bg border border-stone-border text-sm focus:outline-none focus:border-forest focus:ring-1 focus:ring-forest transition-colors"
               />
             </div>
@@ -547,7 +547,7 @@ export default function InjuryFormPage() {
             <textarea
               value={advice}
               onChange={(e) => setAdvice(e.target.value)}
-              placeholder="经历这次受伤后，你想提醒其他人什么？"
+              placeholder={lang === 'zh' ? '经历这次受伤后，你想提醒其他人什么？' : lang === 'en' ? 'What would you like to remind others after this injury?' : '이 부상을 겪은 후, 다른 사람들에게 어떤 조언을 하고 싶나요?'}
               rows={3}
               className="w-full px-3 py-2.5 rounded-lg bg-stone-bg border border-stone-border text-sm focus:outline-none focus:border-forest focus:ring-1 focus:ring-forest transition-colors resize-y"
             />

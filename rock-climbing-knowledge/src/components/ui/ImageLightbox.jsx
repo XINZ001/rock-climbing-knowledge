@@ -4,12 +4,12 @@ import { useApp } from '../../context/AppContext'
 import { saveFeedback, extractImageId } from '../../utils/feedbackStore'
 
 const ISSUE_OPTIONS = [
-  { key: 'action', zh: '动作错误', en: 'Wrong action/pose' },
-  { key: 'structure', zh: '结构错误', en: 'Structural error' },
-  { key: 'anatomy', zh: '解剖错误', en: 'Anatomy error' },
-  { key: 'equipment', zh: '装备外形错误', en: 'Equipment appearance' },
-  { key: 'proportion', zh: '比例错误', en: 'Wrong proportions' },
-  { key: 'other', zh: '其他', en: 'Other' },
+  { key: 'action', zh: '动作错误', en: 'Wrong action/pose', ko: '잘못된 액션/포즈' },
+  { key: 'structure', zh: '结构错误', en: 'Structural error', ko: '구조 오류' },
+  { key: 'anatomy', zh: '解剖错误', en: 'Anatomy error', ko: '해부학적 오류' },
+  { key: 'equipment', zh: '装备外形错误', en: 'Equipment appearance', ko: '장비 외형 오류' },
+  { key: 'proportion', zh: '比例错误', en: 'Wrong proportions', ko: '잘못된 비율' },
+  { key: 'other', zh: '其他', en: 'Other', ko: '기타' },
 ]
 
 function FeedbackForm({ imageSrc, onClose, onSubmitted }) {
@@ -44,7 +44,7 @@ function FeedbackForm({ imageSrc, onClose, onSubmitted }) {
         onClick={e => e.stopPropagation()}
       >
         <div className="text-sm font-semibold mb-1">
-          {lang === 'zh' ? '反馈图片问题' : 'Report Image Issue'}
+          {lang === 'zh' ? '反馈图片问题' : lang === 'en' ? 'Report Image Issue' : '이미지 문제 신고'}
         </div>
         <div className="text-xs text-text-secondary mb-3">
           {extractImageId(imageSrc)}
@@ -60,14 +60,14 @@ function FeedbackForm({ imageSrc, onClose, onSubmitted }) {
                   : 'bg-stone-sidebar text-text-primary hover:bg-stone-border'
               }`}
             >
-              {lang === 'zh' ? opt.zh : opt.en}
+              {lang === 'zh' ? opt.zh : lang === 'en' ? opt.en : opt.ko}
             </button>
           ))}
         </div>
         <textarea
           value={note}
           onChange={e => setNote(e.target.value)}
-          placeholder={lang === 'zh' ? '补充说明（可选）' : 'Additional notes (optional)'}
+          placeholder={lang === 'zh' ? '补充说明（可选）' : lang === 'en' ? 'Additional notes (optional)' : '추가 설명 (선택사항)'}
           className="w-full h-20 px-3 py-2 text-xs rounded-lg border border-stone-border bg-stone-sidebar resize-none focus:outline-none focus:border-forest"
         />
         <div className="flex gap-2 mt-3">
@@ -75,14 +75,14 @@ function FeedbackForm({ imageSrc, onClose, onSubmitted }) {
             onClick={onClose}
             className="flex-1 px-3 py-1.5 text-xs rounded-lg border border-stone-border hover:bg-stone-sidebar transition-colors"
           >
-            {lang === 'zh' ? '取消' : 'Cancel'}
+            {lang === 'zh' ? '取消' : lang === 'en' ? 'Cancel' : '취소'}
           </button>
           <button
             onClick={handleSubmit}
             disabled={selected.length === 0 && !note.trim()}
             className="flex-1 px-3 py-1.5 text-xs rounded-lg bg-forest text-white hover:bg-forest-dark transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
           >
-            {lang === 'zh' ? '提交' : 'Submit'}
+            {lang === 'zh' ? '提交' : lang === 'en' ? 'Submit' : '제출'}
           </button>
         </div>
       </div>
@@ -139,7 +139,7 @@ export default function ImageLightbox({ images, initialIndex = 0, onClose }) {
 
   const handleFeedbackSubmitted = () => {
     setShowFeedback(false)
-    setToast(lang === 'zh' ? '反馈已记录，感谢！' : 'Feedback recorded, thanks!')
+    setToast(lang === 'zh' ? '反馈已记录，感谢！' : lang === 'en' ? 'Feedback recorded, thanks!' : '피드백이 기록되었어요, 감사합니다!')
     setTimeout(() => setToast(null), 2000)
   }
 
@@ -202,7 +202,7 @@ export default function ImageLightbox({ images, initialIndex = 0, onClose }) {
               <path d="M4 15s1-1 4-1 5 2 8 2 4-1 4-1V3s-1 1-4 1-5-2-8-2-4 1-4 1z" />
               <line x1="4" y1="22" x2="4" y2="15" />
             </svg>
-            {lang === 'zh' ? '反馈问题' : 'Report'}
+            {lang === 'zh' ? '反馈问题' : lang === 'en' ? 'Report' : '문제 신고'}
           </button>
 
           {/* Close button */}
