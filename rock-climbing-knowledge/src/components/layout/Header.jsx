@@ -72,6 +72,56 @@ function UserMenu() {
   )
 }
 
+const langOptions = [
+  { code: 'zh', label: '中文' },
+  { code: 'en', label: 'EN' },
+  { code: 'ko', label: '한국어' },
+]
+
+function LanguageDropdown({ lang, setLang }) {
+  const [open, setOpen] = useState(false)
+  const ref = useRef(null)
+
+  useEffect(() => {
+    const handleClick = (e) => {
+      if (ref.current && !ref.current.contains(e.target)) setOpen(false)
+    }
+    document.addEventListener('mousedown', handleClick)
+    return () => document.removeEventListener('mousedown', handleClick)
+  }, [])
+
+  const current = langOptions.find((o) => o.code === lang) || langOptions[0]
+
+  return (
+    <div ref={ref} className="relative hidden sm:block">
+      <button
+        onClick={() => setOpen(!open)}
+        className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md border border-stone-border text-xs font-medium hover:bg-stone-sidebar transition-colors"
+      >
+        {current.label}
+        <Icon name="chevronDown" size={10} className="text-text-secondary" />
+      </button>
+      {open && (
+        <div className="absolute right-0 top-full mt-1 w-28 bg-stone-card rounded-lg border border-stone-border shadow-lg overflow-hidden z-50">
+          {langOptions.map((opt) => (
+            <button
+              key={opt.code}
+              onClick={() => { setLang(opt.code); setOpen(false) }}
+              className={`w-full px-3 py-2 text-xs text-left transition-colors ${
+                opt.code === lang
+                  ? 'bg-forest-light text-forest font-semibold'
+                  : 'hover:bg-stone-bg text-text-primary'
+              }`}
+            >
+              {opt.label}
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  )
+}
+
 export default function Header({ onToggleSidebar, onOpenAuth }) {
   const { lang, setLang } = useApp()
   const { user, profile, loading } = useAuth()
@@ -132,12 +182,7 @@ export default function Header({ onToggleSidebar, onOpenAuth }) {
         {/* 右侧 */}
         <div className="flex items-center gap-2 shrink-0 ml-auto sm:ml-0">
           {/* 语言切换 — 桌面端 */}
-          <button
-            onClick={() => setLang(lang === 'zh' ? 'en' : lang === 'en' ? 'ko' : 'zh')}
-            className="hidden sm:inline-flex px-2.5 py-1 rounded-md border border-stone-border text-xs font-medium hover:bg-stone-sidebar transition-colors"
-          >
-            {lang === 'zh' ? 'EN' : lang === 'en' ? '한국어' : '中文'}
-          </button>
+          <LanguageDropdown lang={lang} setLang={setLang} />
 
           {/* 登录状态 */}
           {!loading && (
