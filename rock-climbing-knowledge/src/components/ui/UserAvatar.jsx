@@ -17,7 +17,7 @@ const PALETTE = [
  * @param {boolean} square 是否方形，默认 false（圆形）
  * @param {string}  className 额外样式
  */
-export default function UserAvatar({ name = '攀岩者', size = 32, square = false, className = '' }) {
+export default function UserAvatar({ name = 'Climber', size = 32, square = false, className = '' }) {
   return (
     <span className={`inline-flex shrink-0 ${className}`} style={{ width: size, height: size }}>
       <Avatar

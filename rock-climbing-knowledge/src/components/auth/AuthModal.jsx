@@ -1,9 +1,11 @@
 import { useState } from 'react'
 import { useAuth } from '../../context/AuthContext'
+import { useApp } from '../../context/AppContext'
 import { Icon } from '../../utils/icons'
 
 export default function AuthModal({ onClose }) {
   const { signIn, signUp } = useAuth()
+  const { lang } = useApp()
   const [tab, setTab] = useState('login') // 'login' | 'register' | 'forgot'
   const [email, setEmail] = useState('')
   const [password, setPassword] = useState('')
@@ -11,6 +13,8 @@ export default function AuthModal({ onClose }) {
   const [error, setError] = useState('')
   const [loading, setLoading] = useState(false)
   const [message, setMessage] = useState('')
+
+  const t = (zh, en, ko) => lang === 'zh' ? zh : lang === 'en' ? en : ko
 
   const handleSubmit = async (e) => {
     e.preventDefault()
@@ -25,21 +29,28 @@ export default function AuthModal({ onClose }) {
         onClose()
       } else if (tab === 'register') {
         if (!username.trim()) {
-          throw { message: '请输入昵称' }
+          throw { message: t('请输入昵称', 'Please enter a nickname', '닉네임을 입력해 주세요') }
         }
         const { error } = await signUp(email, password, username.trim())
         if (error) throw error
-        setMessage('注册成功！请查看邮箱确认链接（如果已关闭邮件确认则自动登录）。')
-        // 如果 Supabase 关闭了邮件确认，会自动登录，这里延迟关闭
+        setMessage(t(
+          '注册成功！请查看邮箱确认链接（如果已关闭邮件确认则自动登录）。',
+          'Registration successful! Please check your email for a confirmation link.',
+          '가입 성공! 이메일에서 확인 링크를 확인해 주세요.'
+        ))
         setTimeout(() => onClose(), 1500)
       } else if (tab === 'forgot') {
         const { supabase } = await import('../../lib/supabase')
         const { error } = await supabase.auth.resetPasswordForEmail(email)
         if (error) throw error
-        setMessage('密码重置邮件已发送，请查看邮箱。')
+        setMessage(t(
+          '密码重置邮件已发送，请查看邮箱。',
+          'Password reset email sent. Please check your inbox.',
+          '비밀번호 재설정 이메일을 보냈어요. 받은 편지함을 확인해 주세요.'
+        ))
       }
     } catch (err) {
-      setError(err.message || '操作失败，请重试')
+      setError(err.message || t('操作失败，请重试', 'Operation failed. Please try again.', '작업에 실패했어요. 다시 시도해 주세요.'))
     } finally {
       setLoading(false)
     }
@@ -65,9 +76,9 @@ export default function AuthModal({ onClose }) {
           <div className="text-center mb-6">
             <Icon name="mountain" size={32} className="text-forest mx-auto mb-2" />
             <h2 className="text-xl font-bold">
-              {tab === 'login' && '登录'}
-              {tab === 'register' && '注册'}
-              {tab === 'forgot' && '重置密码'}
+              {tab === 'login' && t('登录', 'Log In', '로그인')}
+              {tab === 'register' && t('注册', 'Sign Up', '회원가입')}
+              {tab === 'forgot' && t('重置密码', 'Reset Password', '비밀번호 재설정')}
             </h2>
           </div>
 
@@ -80,7 +91,7 @@ export default function AuthModal({ onClose }) {
                   tab === 'login' ? 'bg-stone-card shadow-sm text-text-primary' : 'text-text-secondary'
                 }`}
               >
-                登录
+                {t('登录', 'Log In', '로그인')}
               </button>
               <button
                 onClick={() => { setTab('register'); setError(''); setMessage('') }}
@@ -88,7 +99,7 @@ export default function AuthModal({ onClose }) {
                   tab === 'register' ? 'bg-stone-card shadow-sm text-text-primary' : 'text-text-secondary'
                 }`}
               >
-                注册
+                {t('注册', 'Sign Up', '회원가입')}
               </button>
             </div>
           )}
@@ -97,12 +108,12 @@ export default function AuthModal({ onClose }) {
             {/* 昵称（仅注册） */}
             {tab === 'register' && (
               <div>
-                <label className="block text-sm font-medium mb-1.5">昵称</label>
+                <label className="block text-sm font-medium mb-1.5">{t('昵称', 'Nickname', '닉네임')}</label>
                 <input
                   type="text"
                   value={username}
                   onChange={(e) => setUsername(e.target.value)}
-                  placeholder="其他用户将看到这个名字"
+                  placeholder={t('其他用户将看到这个名字', 'Other users will see this name', '다른 사용자에게 보이는 이름이에요')}
                   className="w-full px-3 py-2.5 rounded-lg bg-stone-bg border border-stone-border text-sm focus:outline-none focus:border-forest focus:ring-1 focus:ring-forest transition-colors"
                   required
                 />
@@ -111,7 +122,7 @@ export default function AuthModal({ onClose }) {
 
             {/* 邮箱 */}
             <div>
-              <label className="block text-sm font-medium mb-1.5">邮箱</label>
+              <label className="block text-sm font-medium mb-1.5">{t('邮箱', 'Email', '이메일')}</label>
               <input
                 type="email"
                 value={email}
@@ -125,12 +136,14 @@ export default function AuthModal({ onClose }) {
             {/* 密码（非 forgot 时显示） */}
             {tab !== 'forgot' && (
               <div>
-                <label className="block text-sm font-medium mb-1.5">密码</label>
+                <label className="block text-sm font-medium mb-1.5">{t('密码', 'Password', '비밀번호')}</label>
                 <input
                   type="password"
                   value={password}
                   onChange={(e) => setPassword(e.target.value)}
-                  placeholder={tab === 'register' ? '至少 6 位' : '输入密码'}
+                  placeholder={tab === 'register'
+                    ? t('至少 6 位', 'At least 6 characters', '6자 이상')
+                    : t('输入密码', 'Enter password', '비밀번호 입력')}
                   minLength={tab === 'register' ? 6 : undefined}
                   className="w-full px-3 py-2.5 rounded-lg bg-stone-bg border border-stone-border text-sm focus:outline-none focus:border-forest focus:ring-1 focus:ring-forest transition-colors"
                   required
@@ -152,10 +165,10 @@ export default function AuthModal({ onClose }) {
               disabled={loading}
               className="w-full py-2.5 rounded-lg bg-forest text-white text-sm font-medium hover:bg-forest-dark transition-colors disabled:opacity-50"
             >
-              {loading ? '处理中...' : (
-                tab === 'login' ? '登录' :
-                tab === 'register' ? '注册' :
-                '发送重置邮件'
+              {loading ? t('处理中...', 'Processing...', '처리 중...') : (
+                tab === 'login' ? t('登录', 'Log In', '로그인') :
+                tab === 'register' ? t('注册', 'Sign Up', '회원가입') :
+                t('发送重置邮件', 'Send Reset Email', '재설정 이메일 보내기')
               )}
             </button>
           </form>
@@ -167,7 +180,7 @@ export default function AuthModal({ onClose }) {
                 onClick={() => { setTab('forgot'); setError(''); setMessage('') }}
                 className="text-forest hover:underline"
               >
-                忘记密码？
+                {t('忘记密码？', 'Forgot password?', '비밀번호를 잊으셨나요?')}
               </button>
             )}
             {tab === 'forgot' && (
@@ -175,7 +188,7 @@ export default function AuthModal({ onClose }) {
                 onClick={() => { setTab('login'); setError(''); setMessage('') }}
                 className="text-forest hover:underline"
               >
-                ← 返回登录
+                {t('← 返回登录', '← Back to login', '← 로그인으로 돌아가기')}
               </button>
             )}
           </div>

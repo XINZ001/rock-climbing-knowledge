@@ -161,12 +161,12 @@ function FeedbackCard({ fb, lang, onDismiss }) {
         {fb.kp && (
           <div className="mt-1">
             <p className="text-sm font-semibold text-text-primary truncate">
-              {lang === 'zh' ? fb.kp.title.zh : fb.kp.title.en}
+              {lang === 'zh' ? fb.kp.title.zh : lang === 'en' ? fb.kp.title.en : (fb.kp.title.ko || fb.kp.title.en)}
             </p>
             <p className="text-xs text-text-secondary truncate">
-              {lang === 'zh' ? fb.kp.sectionTitle.zh : fb.kp.sectionTitle.en}
+              {lang === 'zh' ? fb.kp.sectionTitle.zh : lang === 'en' ? fb.kp.sectionTitle.en : (fb.kp.sectionTitle.ko || fb.kp.sectionTitle.en)}
               {' / '}
-              {lang === 'zh' ? fb.kp.subSectionTitle.zh : fb.kp.subSectionTitle.en}
+              {lang === 'zh' ? fb.kp.subSectionTitle.zh : lang === 'en' ? fb.kp.subSectionTitle.en : (fb.kp.subSectionTitle.ko || fb.kp.subSectionTitle.en)}
             </p>
           </div>
         )}

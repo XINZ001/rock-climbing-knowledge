@@ -74,7 +74,7 @@ export function AuthProvider({ children }) {
 
   // 更新用户资料
   async function updateProfile(updates) {
-    if (!user) return { error: { message: '未登录' } }
+    if (!user) return { error: { message: 'Not logged in' } }
     const { data, error } = await supabase
       .from('profiles')
       .update({ ...updates, updated_at: new Date().toISOString() })
@@ -105,7 +105,7 @@ export function AuthProvider({ children }) {
 export function useAuth() {
   const context = useContext(AuthContext)
   if (!context) {
-    throw new Error('useAuth 必须在 AuthProvider 内部使用')
+    throw new Error('useAuth must be used within AuthProvider')
   }
   return context
 }
