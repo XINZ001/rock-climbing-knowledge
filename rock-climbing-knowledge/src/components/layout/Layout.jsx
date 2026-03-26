@@ -29,7 +29,7 @@ export default function Layout() {
       <div className="flex flex-1">
         {/* 桌面端：固定侧边栏，推挤内容 */}
         <aside
-          className={`hidden md:block shrink-0 bg-stone-sidebar border-r border-stone-border sticky top-14 h-[calc(100vh-3.5rem)] overflow-hidden transition-[width] duration-300 ease-out ${
+          className={`hidden lg:block shrink-0 bg-stone-sidebar border-r border-stone-border sticky top-14 h-[calc(100vh-3.5rem)] overflow-hidden transition-[width] duration-300 ease-out ${
             sidebarOpen ? 'w-60' : 'w-0'
           }`}
         >
@@ -39,7 +39,7 @@ export default function Layout() {
         </aside>
 
         {/* 手机端：覆盖层侧边栏 */}
-        <div className="md:hidden">
+        <div className="lg:hidden">
           <div
             className={`fixed inset-0 bg-black/40 z-40 transition-opacity duration-300 ${
               sidebarOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'

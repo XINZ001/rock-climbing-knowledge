@@ -35,7 +35,7 @@ function UserMenu() {
         className="flex items-center gap-1.5 px-2 py-1 rounded-lg hover:bg-stone-sidebar transition-colors"
       >
         <UserAvatar name={displayName} size={28} />
-        <span className="text-sm font-medium hidden sm:inline max-w-[80px] truncate">
+        <span className="text-sm font-medium hidden lg:inline max-w-[80px] truncate">
           {displayName}
         </span>
         <Icon name="chevronDown" size={12} className="text-text-secondary" />
@@ -93,7 +93,7 @@ function LanguageDropdown({ lang, setLang }) {
   const current = langOptions.find((o) => o.code === lang) || langOptions[0]
 
   return (
-    <div ref={ref} className="relative hidden sm:block">
+    <div ref={ref} className="relative hidden lg:block">
       <button
         onClick={() => setOpen(!open)}
         className="inline-flex items-center gap-1 px-2.5 py-1 rounded-md border border-stone-border text-xs font-medium hover:bg-stone-sidebar transition-colors"
@@ -133,7 +133,7 @@ export default function Header({ onToggleSidebar, onOpenAuth }) {
   const isInjuries = location.pathname.startsWith('/injuries')
 
   const navLabels = {
-    knowledge: { zh: '知识库', en: 'Knowledge', ko: '지식 라이브러리' },
+    knowledge: { zh: '知识库', en: 'Knowledge', ko: '지식' },
     hallOfFame: { zh: '名人堂', en: 'Hall of Fame', ko: '명예의 전당' },
     injuries: { zh: '伤痛档案', en: 'Injury Archive', ko: '부상 기록' },
   }
@@ -151,23 +151,23 @@ export default function Header({ onToggleSidebar, onOpenAuth }) {
         <div className="flex items-center gap-1 shrink-0">
           <Link to="/" className="flex items-center gap-2">
             <Icon name="mountain" size={24} className="text-forest" />
-            <span className="font-semibold text-lg">{lang === 'zh' ? '攀岩知识库' : lang === 'en' ? 'Xin Library' : '클라이밍 라이브러리'}</span>
+            <span className="font-semibold text-lg">{lang === 'zh' ? '攀岩知识库' : lang === 'en' ? 'Xin Library' : '클라이밍 지식'}</span>
           </Link>
           <button
             onClick={onToggleSidebar}
-            className="hidden md:flex items-center justify-center w-8 h-8 rounded-md hover:bg-stone-sidebar transition-colors ml-1"
+            className="hidden lg:flex items-center justify-center w-8 h-8 rounded-md hover:bg-stone-sidebar transition-colors ml-1"
           >
             <Icon name="menu" size={18} className="text-text-secondary" />
           </button>
         </div>
 
         {/* 中间：三个顶级导航按钮居中 — 桌面端 */}
-        <nav className="hidden sm:flex items-center justify-center gap-1 flex-1">
+        <nav className="hidden lg:flex items-center justify-center gap-1 flex-1">
           {navItems.map((item) => (
             <Link
               key={item.to}
               to={item.to}
-              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium transition-colors ${
+              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium whitespace-nowrap transition-colors ${
                 item.active
                   ? 'bg-forest-light text-forest'
                   : 'text-text-secondary hover:bg-stone-bg hover:text-text-primary'
@@ -180,7 +180,7 @@ export default function Header({ onToggleSidebar, onOpenAuth }) {
         </nav>
 
         {/* 右侧 */}
-        <div className="flex items-center gap-2 shrink-0 ml-auto sm:ml-0">
+        <div className="flex items-center gap-2 shrink-0 ml-auto lg:ml-0">
           {/* 语言切换 — 桌面端 */}
           <LanguageDropdown lang={lang} setLang={setLang} />
 
@@ -189,13 +189,13 @@ export default function Header({ onToggleSidebar, onOpenAuth }) {
             user ? (
               <>
                 {/* 桌面端：完整用户菜单 */}
-                <div className="hidden sm:block">
+                <div className="hidden lg:block">
                   <UserMenu />
                 </div>
                 {/* 移动端：头像图标 */}
                 <button
                   onClick={() => {}}
-                  className="sm:hidden flex items-center justify-center w-9 h-9 rounded-md hover:bg-stone-sidebar transition-colors"
+                  className="lg:hidden flex items-center justify-center w-9 h-9 rounded-md hover:bg-stone-sidebar transition-colors"
                 >
                   <UserAvatar name={profile?.username || (lang === 'zh' ? '攀岩者' : lang === 'en' ? 'Climber' : '클라이머')} size={24} />
                 </button>
@@ -205,7 +205,7 @@ export default function Header({ onToggleSidebar, onOpenAuth }) {
                 {/* 桌面端：完整登录按钮 */}
                 <button
                   onClick={onOpenAuth}
-                  className="hidden sm:flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-forest text-white text-sm font-medium hover:bg-forest-dark transition-colors"
+                  className="hidden lg:flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-forest text-white text-sm font-medium hover:bg-forest-dark transition-colors"
                 >
                   <Icon name="user" size={14} />
                   {lang === 'zh' ? '登录' : lang === 'en' ? 'Sign in' : '로그인'}
@@ -213,7 +213,7 @@ export default function Header({ onToggleSidebar, onOpenAuth }) {
                 {/* 移动端：仅用户图标 */}
                 <button
                   onClick={onOpenAuth}
-                  className="sm:hidden flex items-center justify-center w-9 h-9 rounded-md hover:bg-stone-sidebar transition-colors"
+                  className="lg:hidden flex items-center justify-center w-9 h-9 rounded-md hover:bg-stone-sidebar transition-colors"
                 >
                   <Icon name="user" size={22} className="text-text-secondary" />
                 </button>
@@ -224,7 +224,7 @@ export default function Header({ onToggleSidebar, onOpenAuth }) {
           {/* 汉堡菜单 — 手机端右侧 */}
           <button
             onClick={onToggleSidebar}
-            className="md:hidden flex items-center justify-center w-9 h-9 rounded-md hover:bg-stone-sidebar transition-colors"
+            className="lg:hidden flex items-center justify-center w-9 h-9 rounded-md hover:bg-stone-sidebar transition-colors"
           >
             <Icon name="menu" size={22} className="text-text-secondary" />
           </button>
