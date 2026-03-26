@@ -3,47 +3,47 @@ const hallOfFameMedia = {
     images: [],
     videos: [
       {
-        title: { zh: 'Janja Garnbret Unfiltered：攀岩史上最强竞争者', en: 'Janja Garnbret Unfiltered: Climbing\'s Greatest Competitor' },
+        title: { zh: 'Janja Garnbret Unfiltered：攀岩史上最强竞争者', en: 'Janja Garnbret Unfiltered: Climbing\'s Greatest Competitor', ko: 'Janja Garnbret Unfiltered: 클라이밍 역사상 최강의 경쟁자' },
         url: 'https://www.youtube.com/watch?v=JmlSSD7jDSI',
         channel: 'adidas TERREX',
         platform: 'youtube',
         lang: 'en',
-        summary: { zh: '扬娅谈 7 岁起步、舞蹈与攀岩、自我表达与命运感。', en: 'Janja on starting at 7, dance vs climbing, self-expression and destiny.' },
+        summary: { zh: '扬娅谈 7 岁起步、舞蹈与攀岩、自我表达与命运感。', en: 'Janja on starting at 7, dance vs climbing, self-expression and destiny.', ko: '얀야가 7세에 시작한 이야기, 춤과 클라이밍, 자기표현과 운명에 대해 이야기해요.' },
         relevance: 'primary'
       },
       {
-        title: { zh: 'Janja Garnbret Unfiltered：巴黎奥运前心态', en: 'Janja Garnbret Unfiltered: Mindset Ahead of Paris 2024 Olympics' },
+        title: { zh: 'Janja Garnbret Unfiltered：巴黎奥运前心态', en: 'Janja Garnbret Unfiltered: Mindset Ahead of Paris 2024 Olympics', ko: 'Janja Garnbret Unfiltered: 파리 2024 올림픽을 앞둔 마인드셋' },
         url: 'https://www.youtube.com/watch?v=nN80Ct82TIc',
         channel: 'adidas TERREX',
         platform: 'youtube',
         lang: 'en',
-        summary: { zh: '东京与巴黎压力对比、成功定义、自信与享受攀岩。', en: 'Tokyo vs Paris pressure, definition of success, confidence and fun.' },
+        summary: { zh: '东京与巴黎压力对比、成功定义、自信与享受攀岩。', en: 'Tokyo vs Paris pressure, definition of success, confidence and fun.', ko: '도쿄 vs 파리 압박감 비교, 성공의 정의, 자신감과 즐거움.' },
         relevance: 'primary'
       },
       {
-        title: { zh: 'Janja Garnbret Unfiltered：心理健康与身体形象', en: 'Janja Garnbret Unfiltered: Mental health, body image and insecurities' },
+        title: { zh: 'Janja Garnbret Unfiltered：心理健康与身体形象', en: 'Janja Garnbret Unfiltered: Mental health, body image and insecurities', ko: 'Janja Garnbret Unfiltered: 정신 건강, 바디 이미지와 불안' },
         url: 'https://www.youtube.com/watch?v=pZCmsYxHRB8',
         channel: 'adidas TERREX',
         platform: 'youtube',
         lang: 'en',
-        summary: { zh: '心理师选择、生理周期与表现、身体形象与攀岩界的健康讨论。', en: 'On psychologists, periods and performance, body image and health in climbing.' },
+        summary: { zh: '心理师选择、生理周期与表现、身体形象与攀岩界的健康讨论。', en: 'On psychologists, periods and performance, body image and health in climbing.', ko: '심리 상담사 선택, 생리 주기와 퍼포먼스, 바디 이미지와 클라이밍계의 건강 논의.' },
         relevance: 'primary'
       }
     ],
     bilibiliVideos: [],
     podcasts: [],
     timeline: [
-      { year: '2007', detail: { zh: '7 岁开始攀岩', en: 'Started climbing at 7' } },
-      { year: '2008', detail: { zh: '8 岁首次参赛', en: 'First competition at 8' } },
-      { year: '2009', detail: { zh: '9 岁全国难度总冠军', en: 'National lead overall title at 9' } },
-      { year: '2015', detail: { zh: '进入成人国际赛', en: 'Senior international debut' } },
-      { year: '2021', detail: { zh: '东京奥运全能金牌', en: 'Olympic combined gold, Tokyo' } },
-      { year: '2024', detail: { zh: '巴黎奥运全能金牌', en: 'Olympic combined gold, Paris' } },
-      { year: '2025', detail: { zh: '首尔世锦赛难度+抱石双金，世锦赛金牌达 10 枚', en: 'Double gold Lead + Boulder at Seoul World Champs; 10 World Championship golds' } }
+      { year: '2007', detail: { zh: '7 岁开始攀岩', en: 'Started climbing at 7', ko: '7세에 클라이밍 시작' } },
+      { year: '2008', detail: { zh: '8 岁首次参赛', en: 'First competition at 8', ko: '8세에 첫 대회 출전' } },
+      { year: '2009', detail: { zh: '9 岁全国难度总冠军', en: 'National lead overall title at 9', ko: '9세에 전국 리드 종합 챔피언' } },
+      { year: '2015', detail: { zh: '进入成人国际赛', en: 'Senior international debut', ko: '시니어 국제 대회 데뷔' } },
+      { year: '2021', detail: { zh: '东京奥运全能金牌', en: 'Olympic combined gold, Tokyo', ko: '도쿄 올림픽 복합 종목 금메달' } },
+      { year: '2024', detail: { zh: '巴黎奥运全能金牌', en: 'Olympic combined gold, Paris', ko: '파리 올림픽 복합 종목 금메달' } },
+      { year: '2025', detail: { zh: '首尔世锦赛难度+抱石双金，世锦赛金牌达 10 枚', en: 'Double gold Lead + Boulder at Seoul World Champs; 10 World Championship golds', ko: '서울 세계선수권 리드+볼더링 더블 골드, 세계선수권 금메달 10개 달성' } }
     ],
     interviewNotes: [
-      { zh: '巴黎决赛手指卡住后仍完成难度路线，靠「这是你的日子」的自我对话与对攀岩之爱的提醒完成临场调节。', en: 'After catching her finger in the Paris final she still climbed the lead route, using self-talk and remembering why she loves climbing to reset.' },
-      { zh: '95% 岩壁、零指力板与零额外体能的训练方式，与「享受即胜利」的信念，构成她区别于多数精英的鲜明体系。', en: '95% wall time, no fingerboard, no extra fitness—and \"if I\'m not having fun I won\'t win\"—define her distinct approach.' }
+      { zh: '巴黎决赛手指卡住后仍完成难度路线，靠「这是你的日子」的自我对话与对攀岩之爱的提醒完成临场调节。', en: 'After catching her finger in the Paris final she still climbed the lead route, using self-talk and remembering why she loves climbing to reset.', ko: '파리 결승에서 손가락이 끼인 후에도 리드 루트를 완등했어요. "오늘은 네 날이야"라는 셀프 토크와 클라이밍을 사랑하는 이유를 떠올리며 현장에서 마인드를 리셋했어요.' },
+      { zh: '95% 岩壁、零指力板与零额外体能的训练方式，与「享受即胜利」的信念，构成她区别于多数精英的鲜明体系。', en: '95% wall time, no fingerboard, no extra fitness—and \"if I\'m not having fun I won\'t win\"—define her distinct approach.', ko: '95% 벽 훈련, 핑거보드 제로, 추가 체력 훈련 제로 — 그리고 "즐기지 못하면 이길 수 없다"는 신념이 대부분의 엘리트 선수와 차별화되는 그녀만의 뚜렷한 체계를 이루고 있어요.' }
     ],
     furtherReading: [
       { title: 'Where the Heck Does Janja Garnbret Go From Here?', source: 'Climbing Magazine', url: 'https://www.climbing.com/people/janja-garnbret-post-olympic-2024-interview/' },
