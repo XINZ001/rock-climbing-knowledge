@@ -8,30 +8,25 @@ import { Icon } from '../utils/icons'
 import UserAvatar from '../components/ui/UserAvatar'
 import PageSEO from '../components/PageSEO'
 
-// 根据受伤部位生成渐变色
-const BODY_PART_GRADIENTS = {
-  finger:   ['#E8927C', '#D4654E'],
-  wrist:    ['#D4915E', '#B8724A'],
-  elbow:    ['#C4A265', '#A6844D'],
-  shoulder: ['#7EA88E', '#5E8A6E'],
-  back:     ['#7C9DB8', '#5B7E9A'],
-  knee:     ['#9B8EC4', '#7D6EA8'],
-  ankle:    ['#C48E9B', '#A86E7D'],
-  foot:     ['#8EB8B0', '#6E9A92'],
-  other:    ['#A0A0A0', '#808080'],
-}
-
-// 受伤部位的简单图标（SVG path）
-const BODY_PART_ICONS = {
-  finger:   'M12 2C9.24 2 7 4.24 7 7v8c0 .55.45 1 1 1h1v-4.5c0-.28.22-.5.5-.5s.5.22.5.5V16h2v-6.5c0-.28.22-.5.5-.5s.5.22.5.5V16h2v-6.5c0-.28.22-.5.5-.5s.5.22.5.5V16h1c.55 0 1-.45 1-1V7c0-2.76-2.24-5-5-5z',
-  wrist:    'M12 2a4 4 0 00-4 4v5a2 2 0 002 2h4a2 2 0 002-2V6a4 4 0 00-4-4zm0 16v4m-3-4v3m6-3v3',
-  elbow:    'M16 4l-2 6-3 2v8M8 4l2 6 3 2',
-  shoulder: 'M12 4a3 3 0 100 6 3 3 0 000-6zm-6 8c0-2 2-3 6-3s6 1 6 3v2H6v-2z',
-  back:     'M12 2v20M8 6c2 0 3 1 4 3 1-2 2-3 4-3M8 12h8M8 18c2 0 3-1 4-3 1 2 2 3 4 3',
-  knee:     'M12 2v6m0 0a3 3 0 110 6 3 3 0 010-6zm0 6v8',
-  ankle:    'M12 2v8a4 4 0 100 8h4',
-  foot:     'M4 18c0-4 3-6 8-6s8 2 8 6M8 12V6m8 6V8',
-  other:    'M12 2a10 10 0 100 20 10 10 0 000-20zm1 15h-2v-2h2v2zm0-4h-2V7h2v6z',
+// 受伤部位对应的 emoji
+const BODY_PART_EMOJI = {
+  finger:        '🤞',
+  palm:          '🖐️',
+  'back-of-hand':'🤚',
+  wrist:         '✊',
+  forearm:       '💪',
+  elbow:         '💪',
+  shoulder:      '🏋️',
+  neck:          '😣',
+  back:          '🧘',
+  waist:         '🧘',
+  hip:           '🦴',
+  knee:          '🦵',
+  shin:          '🦵',
+  ankle:         '🦶',
+  foot:          '🦶',
+  head:          '🤕',
+  other:         '🩹',
 }
 
 function InjuryCard({ report, lang, userId }) {
@@ -40,7 +35,7 @@ function InjuryCard({ report, lang, userId }) {
 
   const bodyPartLabels = (details.body_parts || []).map((bp) => {
     const found = BODY_PARTS.find((b) => b.value === bp)
-    return found ? (lang === 'zh' ? found.label.zh : lang === 'en' ? found.label.en : (found.label.ko || found.label.en)) : bp
+    return { value: bp, label: found ? (lang === 'zh' ? found.label.zh : lang === 'en' ? found.label.en : (found.label.ko || found.label.en)) : bp }
   })
 
   const climbingLabel = CLIMBING_TYPES.find((c) => c.value === details.climbing_type)
@@ -54,18 +49,16 @@ function InjuryCard({ report, lang, userId }) {
     ? supabase.storage.from('community-media').getPublicUrl(firstImage.storage_path).data.publicUrl
     : null
 
-  // 无图时的渐变色
+  // 无图时的信息
   const primaryBodyPart = details.body_parts?.[0] || 'other'
-  const [gradFrom, gradTo] = BODY_PART_GRADIENTS[primaryBodyPart] || BODY_PART_GRADIENTS.other
-  const iconPath = BODY_PART_ICONS[primaryBodyPart] || BODY_PART_ICONS.other
 
-  return (
-    <Link
-      to={`/injuries/${report.id}`}
-      className="group block rounded-xl overflow-hidden bg-stone-card border border-stone-border hover:shadow-lg hover:border-stone-border/80 transition-all break-inside-avoid mb-3"
-    >
-      {/* 图片区域 */}
-      {imageUrl ? (
+  // 有图片 → 大图卡片
+  if (imageUrl) {
+    return (
+      <Link
+        to={`/injuries/${report.id}`}
+        className="group block rounded-xl overflow-hidden bg-stone-card border border-stone-border hover:shadow-lg hover:border-stone-border/80 transition-all break-inside-avoid mb-3"
+      >
         <div className="relative w-full overflow-hidden">
           <img
             src={imageUrl}
@@ -75,39 +68,56 @@ function InjuryCard({ report, lang, userId }) {
             style={{ aspectRatio: '4 / 5' }}
           />
         </div>
-      ) : (
-        <div
-          className="relative w-full flex items-center justify-center"
-          style={{
-            aspectRatio: '4 / 4',
-            background: `linear-gradient(135deg, ${gradFrom} 0%, ${gradTo} 100%)`,
-          }}
-        >
-          {/* 受伤部位图标 */}
-          <svg
-            viewBox="0 0 24 24"
-            fill="none"
-            stroke="rgba(255,255,255,0.25)"
-            strokeWidth="1.5"
-            strokeLinecap="round"
-            strokeLinejoin="round"
-            className="w-16 h-16"
-          >
-            <path d={iconPath} />
-          </svg>
-          {/* 装饰性纹理 */}
-          <div
-            className="absolute inset-0 pointer-events-none opacity-[0.06]"
-            style={{
-              backgroundImage: 'radial-gradient(circle, white 1px, transparent 1px)',
-              backgroundSize: '16px 16px',
-            }}
-          />
+        <div className="p-3.5">
+          <h3 className="font-semibold text-sm leading-snug mb-1 line-clamp-2">{report.title}</h3>
+          <p className="text-xs text-text-secondary line-clamp-2 mb-2.5">{report.description}</p>
+          <div className="flex items-center justify-between text-xs text-text-secondary">
+            <span className="flex items-center gap-1.5">
+              <UserAvatar name={report.profiles?.username || '匿名'} size={16} />
+              {report.profiles?.username || '匿名'}
+            </span>
+            <span className={`flex items-center gap-0.5 ${liked ? 'text-red-500' : ''}`}>
+              <Icon name={liked ? 'heartFilled' : 'heart'} size={13} /> {likeCount}
+            </span>
+          </div>
         </div>
-      )}
+      </Link>
+    )
+  }
 
-      {/* 文字区域 */}
+  // 无图片 → emoji 封面 + 文字卡片
+  const emojis = (details.body_parts || [primaryBodyPart]).map(bp => BODY_PART_EMOJI[bp] || '🩹')
+
+  return (
+    <Link
+      to={`/injuries/${report.id}`}
+      className="group block rounded-xl overflow-hidden bg-stone-card border border-stone-border hover:shadow-lg hover:border-stone-border/80 transition-all break-inside-avoid mb-3"
+    >
+      {/* Emoji 封面区域 — 类似文章卡片 */}
+      <div className="relative h-[100px] flex items-center justify-center bg-amber-light">
+        <span className="select-none" style={{ fontSize: emojis.length > 2 ? '2rem' : '2.75rem', letterSpacing: emojis.length > 1 ? '0.25em' : '0' }}>
+          {emojis.join('')}
+        </span>
+      </div>
+
       <div className="p-3.5">
+        {/* 标签行：受伤部位 + 攀岩类型 */}
+        <div className="flex flex-wrap items-center gap-1.5 mb-1.5">
+          {bodyPartLabels.map(({ value, label }) => (
+            <span
+              key={value}
+              className="inline-flex items-center gap-1 px-1.5 py-0.5 rounded text-[11px] font-medium text-amber-dark bg-amber-light/60"
+            >
+              {label}
+            </span>
+          ))}
+          {climbingLabel && (
+            <span className="inline-flex items-center px-1.5 py-0.5 rounded text-[11px] font-medium bg-stone-sidebar text-text-secondary">
+              {lang === 'zh' ? climbingLabel.label.zh : lang === 'en' ? climbingLabel.label.en : (climbingLabel.label.ko || climbingLabel.label.en)}
+            </span>
+          )}
+        </div>
+
         {/* 标题 */}
         <h3 className="font-semibold text-sm leading-snug mb-1 line-clamp-2">{report.title}</h3>
 
