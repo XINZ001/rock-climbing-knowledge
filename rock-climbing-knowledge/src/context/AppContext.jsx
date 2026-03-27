@@ -1,4 +1,4 @@
-import { createContext, useContext, useState, useEffect, useCallback } from 'react'
+import { createContext, useContext, useState, useEffect, useCallback, useMemo } from 'react'
 import Fuse from 'fuse.js'
 import sectionsIndex from '../data/sections.json'
 import searchSynonyms from '../data/search-synonyms.json'
@@ -167,6 +167,22 @@ export function AppProvider({ children }) {
     return obj[lang] || obj.zh || obj.en || obj.ko || ''
   }, [lang])
 
+  // KP ID → route mapping for article KP links
+  // Built from static kp-registry.json so it works even before sections are lazy-loaded
+  const kpRouteMap = useMemo(() => {
+    const map = {}
+    kpRegistry.registry.forEach(kp => {
+      if (kp.sectionSlug && kp.subSectionSlug) {
+        map[kp.id] = `/section/${kp.sectionSlug}/${kp.subSectionSlug}`
+      }
+    })
+    return map
+  }, [])
+
+  const getKpRoute = useCallback((kpId) => {
+    return kpRouteMap[kpId] || null
+  }, [kpRouteMap])
+
   return (
     <AppContext.Provider value={{
       sections,
@@ -177,7 +193,8 @@ export function AppProvider({ children }) {
       searchReady,
       lang,
       setLang,
-      t
+      t,
+      getKpRoute
     }}>
       {children}
     </AppContext.Provider>

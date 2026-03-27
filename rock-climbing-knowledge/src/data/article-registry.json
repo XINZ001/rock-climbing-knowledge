@@ -1,0 +1,1590 @@
+{
+  "categories": [
+    {
+      "id": "beginner",
+      "title": {
+        "zh": "入门指南",
+        "en": "Getting Started",
+        "ko": "입문 가이드"
+      },
+      "icon": "rocket",
+      "color": "#4CAF50",
+      "description": {
+        "zh": "零基础也能看懂的攀岩入门文章",
+        "en": "Beginner-friendly articles for your first climb",
+        "ko": "첫 클라이밍을 위한 입문 가이드"
+      }
+    },
+    {
+      "id": "progression",
+      "title": {
+        "zh": "进阶突破",
+        "en": "Level Up",
+        "ko": "실력 향상"
+      },
+      "icon": "trendingUp",
+      "color": "#FF9800",
+      "description": {
+        "zh": "从 V3 到 V5，突破瓶颈的实用方法",
+        "en": "Practical methods to break through your plateau",
+        "ko": "정체기를 극복하는 실전 방법"
+      }
+    },
+    {
+      "id": "training",
+      "title": {
+        "zh": "训练科学",
+        "en": "Training Science",
+        "ko": "훈련 과학"
+      },
+      "icon": "dumbbell",
+      "color": "#F44336",
+      "description": {
+        "zh": "基于研究的系统训练知识",
+        "en": "Evidence-based systematic training knowledge",
+        "ko": "연구 기반의 체계적 훈련 지식"
+      }
+    },
+    {
+      "id": "outdoor",
+      "title": {
+        "zh": "户外与生活",
+        "en": "Outdoor & Lifestyle",
+        "ko": "아웃도어 & 라이프"
+      },
+      "icon": "sun",
+      "color": "#2196F3",
+      "description": {
+        "zh": "从岩馆走向户外，融入攀岩生活",
+        "en": "Transition outdoors and live the climbing lifestyle",
+        "ko": "아웃도어로의 전환과 클라이밍 라이프"
+      }
+    }
+  ],
+  "articles": [
+    {
+      "id": "art-001",
+      "slug": "do-i-need-to-be-strong",
+      "category": "beginner",
+      "priority": 1,
+      "title": {
+        "zh": "攀岩需要很强壮才能开始吗？",
+        "en": "Do I Need to Be Strong to Start Climbing?",
+        "ko": "클라이밍을 시작하려면 힘이 세야 하나요?"
+      },
+      "subtitle": {
+        "zh": "脚法、身体定位和直臂原则——比力量重要十倍的攀岩核心技术",
+        "en": "Footwork, body positioning, and the straight-arm principle — core techniques that matter ten times more than strength",
+        "ko": "풋워크, 바디 포지셔닝, 직완 원칙 — 힘보다 열 배 중요한 클라이밍 핵심 기술"
+      },
+      "coverImage": null,
+      "readingTime": 10,
+      "relatedKpIds": [
+        "kp-edging",
+        "kp-smearing",
+        "kp-center-of-gravity",
+        "kp-grip-types",
+        "kp-endurance-types",
+        "kp-core-role",
+        "kp-route-reading-basics",
+        "kp-climbing-shoes",
+        "kp-flagging",
+        "kp-drop-knee"
+      ],
+      "tags": [
+        "beginner",
+        "myth-busting",
+        "technique",
+        "footwork"
+      ],
+      "seo": {
+        "metaTitle": {
+          "zh": "攀岩需要很强壮才能开始吗？| 攀岩知识库",
+          "en": "Do I Need to Be Strong to Start Climbing? | Climbing Knowledge Base",
+          "ko": "클라이밍을 시작하려면 힘이 세야 하나요? | 클라이밍 지식 라이브러리"
+        },
+        "metaDescription": {
+          "zh": "攀岩不需要很强壮。本文用真实案例和专家观点，解析为什么脚法和身体定位比力量更重要，新手如何从零开始，以及力量何时才真正成为瓶颈。",
+          "en": "You don't need to be strong to start climbing. Learn why footwork and body positioning matter far more than strength, how your body adapts naturally, and when strength actually becomes a factor.",
+          "ko": "클라이밍을 시작하는 데 힘은 필요 없습니다. 풋워크와 바디 포지셔닝이 왜 힘보다 중요한지, 몸이 어떻게 자연스럽게 적응하는지, 힘이 실제로 중요해지는 시점을 알아보세요."
+        },
+        "keywords": [
+          "攀岩入门",
+          "攀岩需要力量吗",
+          "新手攀岩",
+          "攀岩脚法",
+          "climbing beginner",
+          "climbing strength vs technique",
+          "do I need to be strong to climb"
+        ]
+      },
+      "emoji": "💪"
+    },
+    {
+      "id": "art-002",
+      "slug": "first-time-gym",
+      "category": "beginner",
+      "priority": 2,
+      "title": {
+        "zh": "第一次去岩馆需要带什么？穿什么？",
+        "en": "What to Bring and Wear for Your First Gym Visit?",
+        "ko": "처음 클라이밍 짐에 갈 때 무엇을 가져가야 하나요?"
+      },
+      "subtitle": {
+        "zh": "穿着、装备和心理准备的完整清单",
+        "en": "A complete checklist for clothing, gear, and mental prep",
+        "ko": "의류, 장비, 마음 준비를 위한 완벽한 체크리스트"
+      },
+      "coverImage": null,
+      "readingTime": 8,
+      "relatedKpIds": [
+        "kp-climbing-shoes",
+        "kp-chalk",
+        "kp-crash-pad",
+        "kp-gym-etiquette",
+        "kp-bouldering-fall",
+        "kp-edging",
+        "kp-smearing",
+        "kp-warmup-stretching",
+        "kp-rest-management"
+      ],
+      "tags": [
+        "beginner",
+        "gym",
+        "preparation"
+      ],
+      "seo": {
+        "metaTitle": {
+          "zh": "第一次去岩馆穿什么？带什么？新手完全指南",
+          "en": "What to Wear and Bring to Your First Climbing Gym Visit | Beginner's Guide",
+          "ko": "첫 암벽 체육관 방문에 무엇을 입고 가져가야 할까요? | 초보자 가이드"
+        },
+        "metaDescription": {
+          "zh": "攀岩新手的完整准备指南。了解穿什么、带什么、如何安全地开始，以及为什么你不需要买昂贵的装备就能开始爬岩。",
+          "en": "Complete beginner's guide for your first climbing gym visit. Learn what to wear, what to bring, gym etiquette, safety tips, and why you don't need expensive gear to start.",
+          "ko": "첫 암벽 체육관 방문을 위한 완벽한 초보자 가이드. 무엇을 입고, 무엇을 가져가며, 체육관 에티켓, 안전 팁, 그리고 비싼 장비 없이 시작할 수 있는 이유를 배우세요."
+        },
+        "keywords": [
+          "first gym visit",
+          "what to wear climbing",
+          "climbing gym beginner",
+          "gym etiquette",
+          "climbing shoes rental",
+          "첫 암벽 체육관",
+          "암벽복장",
+          "초보자 가이드",
+          "첫 방문 준비"
+        ]
+      },
+      "emoji": "🧗"
+    },
+    {
+      "id": "art-003",
+      "slug": "how-to-choose-shoes",
+      "category": "beginner",
+      "priority": 3,
+      "title": {
+        "zh": "攀岩鞋怎么选？要买很紧的吗？",
+        "en": "How to Choose Climbing Shoes? Do They Need to Be Tight?",
+        "ko": "클라이밍 신발은 어떻게 고르나요? 꽉 끼어야 하나요?"
+      },
+      "subtitle": {
+        "zh": "新手选鞋的终极指南",
+        "en": "The ultimate shoe guide for beginners",
+        "ko": "초보자를 위한 궁극의 신발 가이드"
+      },
+      "coverImage": null,
+      "readingTime": 10,
+      "relatedKpIds": [
+        "kp-climbing-shoes",
+        "kp-edging",
+        "kp-first-outdoor-trip",
+        "kp-overhang-technique"
+      ],
+      "tags": [
+        "beginner",
+        "gear",
+        "shoes"
+      ],
+      "seo": {
+        "metaTitle": {
+          "zh": "攀岩鞋怎么选？新手常见误区和正确选择指南",
+          "en": "How to Choose Climbing Shoes: Beginner's Guide & Myth Debunking",
+          "ko": "암벽 등반 신발 선택 방법: 초보자 가이드 및 신화 폭로"
+        },
+        "metaDescription": {
+          "zh": "详解攀岩鞋选择的三个关键标准：鞋型、鞋底硬度、尺码。为什么初学者应该优先舒适度而非紧度，何时该租赁，何时值得购买。",
+          "en": "Learn how to choose the right climbing shoes for beginners. Discover why tightness matters less than comfort, when to rent vs buy, and the three key standards (profile, midsole, sizing).",
+          "ko": "초보자를 위한 올바른 암벽 등반 신발 선택 방법을 배우세요. 왜 빡빡함보다 편안함이 중요한지, 언제 렌탈할지 구매할지, 그리고 3가지 주요 기준을 발견하세요."
+        },
+        "keywords": [
+          "climbing shoe selection",
+          "beginner climbing shoes",
+          "shoe sizing guide",
+          "climbing shoe profile",
+          "neutral vs aggressive downturned",
+          "암벽 신발 선택",
+          "초보자 신발",
+          "신발 사이즈",
+          "렌탈 vs 구매"
+        ]
+      },
+      "emoji": "👟"
+    },
+    {
+      "id": "art-004",
+      "slug": "bouldering-vs-climbing",
+      "category": "beginner",
+      "priority": 4,
+      "title": {
+        "zh": "抱石和攀岩有什么区别？",
+        "en": "What's the Difference Between Bouldering and Climbing?",
+        "ko": "볼더링과 클라이밍의 차이점은?"
+      },
+      "subtitle": {
+        "zh": "了解不同的攀岩类型，找到适合你的",
+        "en": "Understand different climbing types and find your fit",
+        "ko": "다양한 클라이밍 유형을 이해하고 나에게 맞는 것을 찾아보세요"
+      },
+      "coverImage": null,
+      "readingTime": 7,
+      "relatedKpIds": [
+        "kp-climbing-categories",
+        "kp-bouldering-fall",
+        "kp-crash-pad",
+        "kp-belaying",
+        "kp-rope",
+        "kp-harness",
+        "kp-belay-device",
+        "kp-lead-belay-indoor",
+        "kp-outdoor-sport-safety",
+        "kp-center-of-gravity"
+      ],
+      "tags": [
+        "beginner",
+        "types",
+        "bouldering",
+        "sport-climbing"
+      ],
+      "seo": {
+        "metaTitle": {
+          "zh": "抱石 vs 攀岩：初学者完全指南 | 岩馆新手必读",
+          "en": "Bouldering vs Climbing: Complete Beginner's Guide | Gym Tips",
+          "ko": "볼더링 vs 클라이밍: 완전 초보자 가이드 | 체육관 팁"
+        },
+        "metaDescription": {
+          "zh": "详解攀岩的3种主要类型：抱石、运动攀岩、传统攀岩。了解装备需求、风险等级和适合人群，找到最适合你的攀岩方式。",
+          "en": "Explore 3 main climbing types: bouldering, sport climbing, and traditional climbing. Learn equipment needs, risk levels, and which is best for you.",
+          "ko": "3가지 주요 등반 유형 탐색: 볼더링, 스포츠 클라이밍, 전통 클라이밍. 장비 요구, 위험 수준, 당신에게 가장 좋은 것을 알아보세요."
+        },
+        "keywords": [
+          "bouldering",
+          "sport climbing",
+          "traditional climbing",
+          "climbing disciplines",
+          "beginner guide",
+          "climbing equipment",
+          "climbing safety"
+        ]
+      },
+      "emoji": "🪨"
+    },
+    {
+      "id": "art-005",
+      "slug": "is-climbing-dangerous",
+      "category": "beginner",
+      "priority": 5,
+      "title": {
+        "zh": "攀岩危险吗？会受伤吗？",
+        "en": "Is Climbing Dangerous? Will I Get Hurt?",
+        "ko": "클라이밍은 위험한가요? 다칠 수 있나요?"
+      },
+      "subtitle": {
+        "zh": "客观分析攀岩的风险与安全措施",
+        "en": "An honest look at climbing risks and safety measures",
+        "ko": "클라이밍의 위험과 안전 대책에 대한 솔직한 분석"
+      },
+      "coverImage": null,
+      "readingTime": 8,
+      "relatedKpIds": [
+        "kp-bouldering-fall",
+        "kp-crash-pad",
+        "kp-pulley-injury",
+        "kp-injury-assessment",
+        "kp-warmup",
+        "kp-warmup-stretching",
+        "kp-shoulder-injury",
+        "kp-belaying",
+        "kp-helmet",
+        "kp-outdoor-sport-safety"
+      ],
+      "tags": [
+        "beginner",
+        "safety",
+        "injury-prevention"
+      ],
+      "seo": {
+        "metaTitle": {
+          "zh": "攀岩危险吗？受伤率对比、风险因素与预防方案",
+          "en": "Is Climbing Dangerous? Injury Rate Comparison, Risk Factors & Prevention",
+          "ko": "암벽등반이 위험한가? 부상율 비교, 위험 요소 및 예방 방안"
+        },
+        "metaDescription": {
+          "zh": "科学数据揭示：室内攀岩伤害率低于篮球足球。了解最常见的伤害类型、高危人群和有效的预防策略。",
+          "en": "Scientific data reveals indoor climbing has lower injury rates than basketball and soccer. Learn the most common injuries, high-risk groups, and effective prevention strategies.",
+          "ko": "과학적 데이터: 실내 암벽등반의 부상율은 농구와 축구보다 낮습니다. 가장 흔한 부상, 고위험군, 효과적인 예방 전략을 알아보세요."
+        },
+        "keywords": [
+          "攀岩安全",
+          "攀岩伤害率",
+          "受伤预防",
+          "攀岩风险",
+          "热身训练",
+          "攀岩保护"
+        ]
+      },
+      "emoji": "⚡"
+    },
+    {
+      "id": "art-006",
+      "slug": "forearm-pump-normal",
+      "category": "beginner",
+      "priority": 6,
+      "title": {
+        "zh": "前臂/手指好酸是正常的吗？",
+        "en": "Is Forearm Pump Normal? Why Do My Fingers Hurt?",
+        "ko": "전완근/손가락이 뻣뻣한 건 정상인가요?"
+      },
+      "subtitle": {
+        "zh": "新手酸痛的原因和缓解方法",
+        "en": "Why beginners get pumped and how to deal with it",
+        "ko": "초보자가 펌핑되는 이유와 대처법"
+      },
+      "coverImage": null,
+      "readingTime": 7,
+      "relatedKpIds": [
+        "kp-grip-types",
+        "kp-endurance-types",
+        "kp-center-of-gravity",
+        "kp-edging",
+        "kp-pulley-injury",
+        "kp-injury-assessment",
+        "kp-rest-management"
+      ],
+      "tags": [
+        "beginner",
+        "recovery",
+        "pump",
+        "forearm"
+      ],
+      "seo": {
+        "metaTitle": {
+          "zh": "前臂/手指好酸是正常的吗？- 攀岩知识库",
+          "en": "Is Forearm/Finger Soreness Normal in Climbing? - Climbing Knowledge Base",
+          "ko": "팔뚝/손가락 피로가 정상인가? - 클라이밍 지식 기반"
+        },
+        "metaDescription": {
+          "zh": "深入理解前臂pump的生理机制、识别正常反应与潜在伤害、学习G-Tox方法快速恢复、避免过度抓握、提升耐力。",
+          "en": "Complete guide to forearm pump: lactate accumulation mechanism, common over-gripping mistakes, G-Tox recovery method, when to watch for injury, long-term endurance adaptation.",
+          "ko": "팔뚝 펌프 완전 가이드: 락트산 축적 메커니즘, 과도한 잡기 실수, G-Tox 회복 방법, 부상 주의 시기, 장기 지구력 적응."
+        },
+        "keywords": [
+          "前臂pump",
+          "乳酸堆积",
+          "握力管理",
+          "G-Tox方法",
+          "攀岩耐力",
+          "伤害识别",
+          "forearm pump",
+          "lactate accumulation",
+          "grip management",
+          "G-Tox method",
+          "climbing endurance",
+          "injury prevention",
+          "팔뚝펌프",
+          "락트산",
+          "악력관리",
+          "지구력",
+          "부상예방"
+        ]
+      },
+      "emoji": "🔥"
+    },
+    {
+      "id": "art-007",
+      "slug": "coach-or-self-learn",
+      "category": "beginner",
+      "priority": 7,
+      "title": {
+        "zh": "我需要找教练/上课吗？还是自学？",
+        "en": "Do I Need a Coach or Can I Self-Learn?",
+        "ko": "코치가 필요한가요, 아니면 독학해도 되나요?"
+      },
+      "subtitle": {
+        "zh": "教练 vs 自学的优缺点分析",
+        "en": "Pros and cons of coaching vs self-teaching",
+        "ko": "코칭과 독학의 장단점 분석"
+      },
+      "coverImage": null,
+      "readingTime": 10,
+      "relatedKpIds": [
+        "kp-route-reading-basics",
+        "kp-hangboard-training",
+        "kp-arc-training",
+        "kp-training-log",
+        "kp-heel-hook",
+        "kp-center-of-gravity",
+        "kp-plateau-breaking"
+      ],
+      "tags": [
+        "beginner",
+        "learning",
+        "coaching",
+        "self-learning"
+      ],
+      "seo": {
+        "metaTitle": {
+          "zh": "教练 vs 自学：攀岩完整学习路径指南",
+          "en": "Coach vs Self-Learning: Complete Climbing Learning Path Guide",
+          "ko": "코치 vs 독학: 클라이밍 완전 학습 경로 가이드"
+        },
+        "metaDescription": {
+          "zh": "深度分析攀岩教练与自学的优劣：新手敏感期、好教练诊断能力、三类人必须找教练、有效自学条件、爬虫伙伴价值、成本时间对比、混合学习路线建议。",
+          "en": "In-depth analysis of climbing coaching vs self-learning: beginner sensitivity period, good coach diagnostic ability, three types needing coaches, effective self-learning conditions, climbing partner value, cost-time comparison, hybrid learning path recommendations.",
+          "ko": "클라이밍 코칭과 독학의 장단점 심층 분석: 초보자 민감기, 좋은 코치의 진단 능력, 코치가 필요한 세 가지 경우, 효과적인 독학 조건, 클라이밍 파트너의 가치, 비용-시간 비교, 혼합 학습 경로 제안."
+        },
+        "keywords": [
+          "climbing-coach",
+          "self-learning-climbing",
+          "climbing-training",
+          "deliberate-practice",
+          "climbing-progression",
+          "skill-development"
+        ]
+      },
+      "emoji": "🎓"
+    },
+    {
+      "id": "art-008",
+      "slug": "cost-of-climbing",
+      "category": "beginner",
+      "priority": 8,
+      "title": {
+        "zh": "攀岩贵吗？大概花多少钱？",
+        "en": "How Much Does Climbing Cost?",
+        "ko": "클라이밍은 비싼가요? 대략 얼마나 드나요?"
+      },
+      "subtitle": {
+        "zh": "从岩馆月卡到装备投入的费用全解",
+        "en": "A full breakdown from gym memberships to gear costs",
+        "ko": "짐 멤버십부터 장비 비용까지 완벽 정리"
+      },
+      "coverImage": null,
+      "readingTime": 5,
+      "relatedKpIds": [
+        "kp-climbing-shoes",
+        "kp-chalk",
+        "kp-belay-device",
+        "kp-gym-etiquette"
+      ],
+      "tags": [
+        "beginner",
+        "cost",
+        "gear",
+        "budget"
+      ],
+      "seo": {
+        "metaTitle": {
+          "zh": "攀岩运动要花多少钱？入门装备费用完全指南",
+          "en": "How Much Does Climbing Cost? Complete Beginner Equipment & Budget Guide",
+          "ko": "암벽 등반 비용은 얼마? 초보자 장비 및 예산 완전 가이드"
+        },
+        "metaDescription": {
+          "zh": "详细分析攀岩的各项成本：岩馆门票、装备购置、课程费用。对比其他运动，攀岩其实很经济。",
+          "en": "Complete breakdown of climbing costs: gym fees, equipment purchase, training courses. Compare climbing to other sports—climbing offers excellent value.",
+          "ko": "암벽 등반 비용 완전 분석: 체육관 요금, 장비 구매, 훈련 비용. 다른 스포츠와 비교할 때 암벽 등반은 탁월한 가치를 제공합니다."
+        },
+        "keywords": [
+          "climbing costs",
+          "equipment budget",
+          "gym fees",
+          "beginner climbing",
+          "affordable sports",
+          "climbing investment"
+        ]
+      },
+      "emoji": "💰"
+    },
+    {
+      "id": "art-009",
+      "slug": "fear-of-heights",
+      "category": "beginner",
+      "priority": 9,
+      "title": {
+        "zh": "恐高能攀岩吗？",
+        "en": "Can I Climb If I'm Afraid of Heights?",
+        "ko": "고소공포증이 있어도 클라이밍을 할 수 있나요?"
+      },
+      "subtitle": {
+        "zh": "恐高攀岩者的真实经验和克服方法",
+        "en": "Real experiences and tips from climbers who fear heights",
+        "ko": "고소공포증 클라이머들의 실제 경험과 극복 방법"
+      },
+      "coverImage": null,
+      "readingTime": 7,
+      "relatedKpIds": [
+        "kp-fear-management",
+        "kp-bouldering-fall",
+        "kp-belaying",
+        "kp-rope",
+        "kp-harness",
+        "kp-belay-device"
+      ],
+      "tags": [
+        "beginner",
+        "mental",
+        "fear",
+        "psychology"
+      ],
+      "seo": {
+        "metaTitle": {
+          "zh": "恐高能攀岩吗？科学方法克服高度焦虑",
+          "en": "Can You Rock Climb with Fear of Heights? Overcome Acrophobia",
+          "ko": "공포증이 있어도 암벽 등반을 할 수 있을까요? 높이 불안 극복하기"
+        },
+        "metaDescription": {
+          "zh": "恐高不是绝对禁忌。通过暴露疗法、理性认知和循序渐进的训练，你可以成为自信的攀岩者，甚至许多职业运动员也曾有恐高困扰。",
+          "en": "Fear of heights is not a climbing barrier. Through exposure therapy, rational cognition, and graduated training, you can become a confident climber. Many professionals overcame height anxiety too.",
+          "ko": "높이에 대한 두려움은 등반의 장애물이 아닙니다. 노출 요법, 합리적 인식 및 단계적 훈련을 통해 자신감 있는 등반자가 될 수 있습니다."
+        },
+        "keywords": [
+          "恐高",
+          "心理恐惧",
+          "高度焦虑",
+          "恐惧管理",
+          "暴露疗法",
+          "攀岩心理",
+          "fear of heights",
+          "acrophobia",
+          "height anxiety",
+          "climbing psychology",
+          "exposure therapy"
+        ]
+      },
+      "emoji": "😰"
+    },
+    {
+      "id": "art-010",
+      "slug": "how-often-to-climb",
+      "category": "beginner",
+      "priority": 10,
+      "title": {
+        "zh": "多久去一次岩馆比较合适？",
+        "en": "How Often Should I Climb?",
+        "ko": "클라이밍 짐에 얼마나 자주 가야 하나요?"
+      },
+      "subtitle": {
+        "zh": "新手最佳训练频率和恢复建议",
+        "en": "Optimal training frequency and recovery tips for beginners",
+        "ko": "초보자를 위한 최적 훈련 빈도와 회복 팁"
+      },
+      "coverImage": null,
+      "readingTime": 6,
+      "relatedKpIds": [
+        "kp-rest-management",
+        "kp-when-to-rest",
+        "kp-sleep-recovery",
+        "kp-training-log",
+        "kp-warmup"
+      ],
+      "tags": [
+        "beginner",
+        "training",
+        "frequency",
+        "recovery"
+      ],
+      "seo": {
+        "metaTitle": {
+          "zh": "攀岩训练频率指南 | 初学者多久去一次岩馆合适",
+          "en": "How Often Should You Climb? Optimal Training Frequency for Beginners",
+          "ko": "얼마나 자주 암벽을 해야 할까? 초보자를 위한 최적 훈련 빈도"
+        },
+        "metaDescription": {
+          "zh": "详解攀岩新手最佳训练频率、恢复时间、过度训练警示。2-3次/周是科学推荐，了解为什么休息同样重要。",
+          "en": "Learn the optimal climbing frequency for beginners: 2-3 times per week. Discover recovery science, prevent overtraining, and balance intensity for sustainable progress.",
+          "ko": "초보 클라이머를 위한 최적 등반 빈도 배우기: 주당 2-3회. 회복 과학을 발견하고, 과도한 훈련을 예방하며, 지속 가능한 진전을 위해 강도의 균형을 맞추세요."
+        },
+        "keywords": [
+          "climbing frequency",
+          "training frequency",
+          "recovery time",
+          "overtraining",
+          "beginner climbing",
+          "training schedule",
+          "rest days",
+          "tendon recovery"
+        ]
+      },
+      "emoji": "📅"
+    },
+    {
+      "id": "art-011",
+      "slug": "climbing-for-fitness",
+      "category": "beginner",
+      "priority": 11,
+      "title": {
+        "zh": "攀岩能减肥/健身吗？",
+        "en": "Can Climbing Help Me Lose Weight and Get Fit?",
+        "ko": "클라이밍으로 다이어트/운동 효과를 볼 수 있나요?"
+      },
+      "subtitle": {
+        "zh": "攀岩作为健身方式的科学分析",
+        "en": "A scientific look at climbing as a fitness activity",
+        "ko": "피트니스 활동으로서의 클라이밍에 대한 과학적 분석"
+      },
+      "coverImage": null,
+      "readingTime": 8,
+      "relatedKpIds": [
+        "kp-core-training",
+        "kp-core-role",
+        "kp-endurance-types"
+      ],
+      "tags": [
+        "beginner",
+        "fitness",
+        "weight-loss",
+        "health"
+      ],
+      "seo": {
+        "metaTitle": {
+          "zh": "攀岩减肥健身效果分析 | 卡路里燃烧与肌肉群发展",
+          "en": "Can Climbing Help You Lose Weight? Complete Guide to Calories & Fitness Benefits",
+          "ko": "암벽 등반으로 체중 감량이 가능할까? 칼로리 소모와 전신 피트니스 완전 가이드"
+        },
+        "metaDescription": {
+          "zh": "攀岩燃烧500-900卡路里/小时，动员全身肌肉。了解攀岩健身的优势与局限，以及如何将其与其他训练结合。",
+          "en": "Climbing burns 500-900 calories/hour and engages your entire body. Learn why climbing is a complete fitness solution, its advantages, limitations, and how to optimize results with hybrid training.",
+          "ko": "암벽 등반은 시간당 500-900칼로리를 소모하고 전신 근육을 활성화합니다. 등반이 완벽한 피트니스 솔루션인 이유, 장점, 한계, 그리고 하이브리드 훈련으로 결과를 최적화하는 방법을 배우세요."
+        },
+        "keywords": [
+          "攀岩健身",
+          "减肥",
+          "卡路里",
+          "全身训练",
+          "肌肉",
+          "有氧运动"
+        ]
+      },
+      "emoji": "🏃"
+    },
+    {
+      "id": "art-012",
+      "slug": "what-is-belaying",
+      "category": "beginner",
+      "priority": 12,
+      "title": {
+        "zh": "什么是保护 (belaying)？我需要学吗？",
+        "en": "What is Belaying? Do I Need to Learn It?",
+        "ko": "빌레이란 무엇인가요? 배워야 하나요?"
+      },
+      "subtitle": {
+        "zh": "保护技术入门与安全须知",
+        "en": "An introduction to belaying technique and safety essentials",
+        "ko": "빌레이 기술 입문과 안전 필수 사항"
+      },
+      "coverImage": null,
+      "readingTime": 11,
+      "relatedKpIds": [
+        "kp-belaying",
+        "kp-belay-device",
+        "kp-rope",
+        "kp-harness",
+        "kp-lead-belay-indoor",
+        "kp-gym-etiquette"
+      ],
+      "tags": [
+        "beginner",
+        "safety",
+        "belay",
+        "rope-climbing"
+      ],
+      "seo": {
+        "metaTitle": {
+          "zh": "攀岩保护教程 | 初学者必学的安全技能",
+          "en": "Belaying Guide for Climbers | PBUS Method & Safety Protocols",
+          "ko": "확보 가이드 | 초보자를 위한 PBUS 방법과 안전 프로토콜"
+        },
+        "metaDescription": {
+          "zh": "详解攀岩保护(belay)的定义、PBUS方法、通讯协议。掌握这项生命安全技能，了解为什么专业教学至关重要。",
+          "en": "Master belay techniques with PBUS method and communication protocols. Learn why professional instruction is essential for this life-critical climbing safety skill.",
+          "ko": "확보(belay) 기술의 PBUS 방법과 통신 프로토콜을 마스터하세요. 생명 안전 기술에서 전문 교육이 왜 필수인지 배우세요."
+        },
+        "keywords": [
+          "belay",
+          "belaying",
+          "확보",
+          "PBUS method",
+          "climbing safety",
+          "rope control",
+          "belay device",
+          "climbing communication",
+          "trust in climbing"
+        ]
+      },
+      "emoji": "🪢"
+    },
+    {
+      "id": "art-013",
+      "slug": "improve-footwork",
+      "category": "progression",
+      "priority": 1,
+      "title": {
+        "zh": "怎么提高脚法？脚总是滑",
+        "en": "How to Improve Your Footwork — Why Do My Feet Keep Slipping?",
+        "ko": "발 기술 향상법 — 발이 자꾸 미끄러지는 이유"
+      },
+      "subtitle": {
+        "zh": "从意识到训练的脚法进阶指南",
+        "en": "A complete guide to footwork from awareness to drills",
+        "ko": "인식부터 훈련까지 발 기술 완전 가이드"
+      },
+      "coverImage": null,
+      "readingTime": 11,
+      "relatedKpIds": [
+        "kp-center-of-gravity",
+        "kp-climbing-shoes",
+        "kp-edging",
+        "kp-heel-hook",
+        "kp-overhang-technique",
+        "kp-slab-technique",
+        "kp-smearing",
+        "kp-toe-hook"
+      ],
+      "tags": [
+        "progression",
+        "footwork"
+      ],
+      "seo": {
+        "metaTitle": {
+          "zh": "怎么提高攀岩脚法？脚总是滑的原因和解决方案",
+          "en": "How to Improve Rock Climbing Footwork: Why Your Feet Keep Slipping & Solutions",
+          "ko": "암벽 등반 발 기술을 개선하는 방법: 발이 계속 미끄러지는 이유와 해결책"
+        },
+        "metaDescription": {
+          "zh": "攀岩脚法不好？脚容易滑？本文详细讲解脚法的两种核心技术（边踩和摩擦踩）、为什么脚会滑、以及5种实用的脚法训练方法，从静默攀爬到超级慢速，帮你系统提升脚法。",
+          "en": "Master your climbing footwork with proven techniques. Learn why your feet slip, the difference between edging and smearing, and 5 effective footwork drills including silent feet, slow motion climbing, and downclimbing.",
+          "ko": "클라이밍 발 기술을 마스터하세요. 발이 미끄러지는 이유, 에징과 스미어링의 차이, 무음 발, 슬로우 모션, 다운클라이밍 등 5가지 효과적인 훈련 방법을 배웁니다."
+        },
+        "keywords": [
+          "climbing footwork",
+          "rock climbing technique",
+          "edging",
+          "smearing",
+          "silent feet",
+          "footwork drills",
+          "climbing shoes",
+          "technique improvement",
+          "攀岩脚法",
+          "边踩",
+          "摩擦踩",
+          "静默攀爬",
+          "클라이밍 발 기술",
+          "에징",
+          "스미어링"
+        ]
+      },
+      "emoji": "🦶"
+    },
+    {
+      "id": "art-014",
+      "slug": "arms-tire-first",
+      "category": "progression",
+      "priority": 2,
+      "title": {
+        "zh": "手臂先累了怎么办？怎么用腿多一点？",
+        "en": "Arms Getting Tired First? How to Use Your Legs More",
+        "ko": "팔이 먼저 지치나요? 다리를 더 활용하는 법"
+      },
+      "subtitle": {
+        "zh": "直臂原则与重心转移技术",
+        "en": "Straight-arm principle and weight transfer techniques",
+        "ko": "스트레이트 암 원칙과 체중 이동 기술"
+      },
+      "coverImage": null,
+      "readingTime": 11,
+      "relatedKpIds": [
+        "kp-back-step",
+        "kp-center-of-gravity",
+        "kp-climbing-shoes",
+        "kp-core-role",
+        "kp-crimp-hold",
+        "kp-drop-knee",
+        "kp-edging",
+        "kp-endurance-types",
+        "kp-flagging",
+        "kp-grip-types",
+        "kp-long-route-endurance",
+        "kp-pulling-power",
+        "kp-rest-management",
+        "kp-smearing"
+      ],
+      "tags": [
+        "progression",
+        "technique"
+      ],
+      "seo": {
+        "metaTitle": {
+          "zh": "手臂先累怎么办？用腿多一点的攀岩技术指南",
+          "en": "Why Your Arms Tire First in Climbing: Complete Guide to Using Your Legs",
+          "ko": "팔이 먼저 피로한 이유: 다리를 더 효과적으로 사용하는 완벽한 가이드"
+        },
+        "metaDescription": {
+          "zh": "深入理解手臂先累是技术问题而非力量问题。掌握直臂原则、重心管理、推推拉拉思维转换，从进阶角度优化你的攀岩效率。",
+          "en": "Discover why arm pump is a technique issue, not strength. Master straight-arm climbing, center of gravity management, and the push vs. pull paradigm to climb efficiently.",
+          "ko": "팔 피로가 근력 문제가 아닌 기술 문제임을 깨닫고, 펴진 팔, 무게중심 관리, 밀기 기술로 효율적인 등반을 배우세요."
+        },
+        "keywords": [
+          "hand pump",
+          "forearm pump",
+          "straight arm climbing",
+          "center of gravity",
+          "climbing technique",
+          "leg power",
+          "rest management",
+          "shake out",
+          "arm endurance",
+          "에징",
+          "스미어링",
+          "무게중심",
+          "펴진 팔",
+          "펌프감",
+          "손 피로",
+          "다리 력",
+          "쉐이크 아웃",
+          "팔 내구력",
+          "休息位置",
+          "直臂技术",
+          "重心管理",
+          "甩臂",
+          "前臂充血",
+          "推推拉拉"
+        ]
+      },
+      "emoji": "🦾"
+    },
+    {
+      "id": "art-015",
+      "slug": "how-to-read-routes",
+      "category": "progression",
+      "priority": 3,
+      "title": {
+        "zh": "怎么读线？看不懂路线怎么办",
+        "en": "How to Read Climbing Routes — A Guide to Route Reading",
+        "ko": "루트 리딩 방법 — 루트를 어떻게 읽을까?"
+      },
+      "subtitle": {
+        "zh": "读线是攀岩最被低估的软实力",
+        "en": "Route reading is climbing's most underrated soft skill",
+        "ko": "루트 리딩은 클라이밍에서 가장 과소평가된 소프트 스킬"
+      },
+      "coverImage": null,
+      "readingTime": 11,
+      "relatedKpIds": [
+        "kp-attention-management",
+        "kp-center-of-gravity",
+        "kp-crimp-hold",
+        "kp-drop-knee",
+        "kp-edging",
+        "kp-flagging",
+        "kp-flow-state",
+        "kp-onsight-flash-redpoint",
+        "kp-overhang-technique",
+        "kp-projecting-strategy",
+        "kp-slab-technique",
+        "kp-smearing",
+        "kp-working-linking"
+      ],
+      "tags": [
+        "progression",
+        "strategy"
+      ],
+      "seo": {
+        "metaTitle": {
+          "zh": "怎么读线？進階攀岩者的必修課",
+          "en": "How to Read Routes: The Advanced Climber's Essential Guide",
+          "ko": "루트 리딩 배우기: 중급 클라이머 필수 가이드"
+        },
+        "metaDescription": {
+          "zh": "读线是攀岩的软实力。学习地面观察、手脚配对预判、动态读线和视频回看，大幅提升完成率。看别人爬也是读线的重要形式。",
+          "en": "Master route reading to dramatically improve your send rate. Learn ground observation, hand-foot prediction, dynamic adjustments, and video analysis techniques used by advanced climbers.",
+          "ko": "지면 관찰, 손발 예측, 동적 조정, 영상 분석으로 루트 리딩을 마스터하고 완성률을 높이세요."
+        },
+        "keywords": [
+          "루트 리딩",
+          "route reading",
+          "읽선",
+          "beta",
+          "crux",
+          "온사이트",
+          "onsight",
+          "프로젝트",
+          "project",
+          "클라이밍 기술",
+          "climbing technique"
+        ]
+      },
+      "emoji": "🗺️"
+    },
+    {
+      "id": "art-016",
+      "slug": "break-through-plateau",
+      "category": "progression",
+      "priority": 4,
+      "title": {
+        "zh": "V3/5.10 瓶颈期怎么突破？",
+        "en": "How to Break Through a V3/5.10 Plateau",
+        "ko": "V3/5.10 정체기를 어떻게 돌파할까?"
+      },
+      "subtitle": {
+        "zh": "瓶颈期是正常的，突破需要系统方法",
+        "en": "Plateaus are normal — breaking through requires a systematic approach",
+        "ko": "정체기는 정상입니다 — 체계적인 접근이 필요합니다"
+      },
+      "coverImage": null,
+      "readingTime": 9,
+      "relatedKpIds": [
+        "kp-center-of-gravity",
+        "kp-core-role",
+        "kp-edging",
+        "kp-endurance-types",
+        "kp-fear-management",
+        "kp-goal-setting",
+        "kp-grip-types",
+        "kp-hangboard-training",
+        "kp-onsight-flash-redpoint",
+        "kp-periodization",
+        "kp-plateau-breaking",
+        "kp-projecting-strategy",
+        "kp-pulling-power",
+        "kp-route-reading-basics",
+        "kp-training-log",
+        "kp-working-linking"
+      ],
+      "tags": [
+        "progression",
+        "plateau"
+      ],
+      "seo": {
+        "metaTitle": {
+          "zh": "V3/5.10瓶颈期怎么突破？系统性训练战胜停滞",
+          "en": "How to Break Through V3/5.10 Climbing Plateaus: A Systematic Training Guide",
+          "ko": "V3/5.10 정체기 극복: 시스템적 훈련으로 성장의 정체를 이겨내다"
+        },
+        "metaDescription": {
+          "zh": "攀岩V3/5.10瓶颈期分析与突破方案。从技术短板、体能限制、心理障碍到训练单一性的诊断，再到项目化攀爬、周期化训练等系统性解决方案。了解为什么会有瓶颈期，如何用科学方法突破。",
+          "en": "Breaking climbing plateaus between V3-V4 and 5.10 requires systematic diagnosis and strategic training. Learn to identify technical weaknesses, energy management issues, and psychological barriers, then apply projecting strategies, periodization, and smart goal-setting to overcome stagnation.",
+          "ko": "V3/5.10 정체기는 올바른 진단과 체계적 훈련으로 극복할 수 있습니다. 기술 약점 식별, 에너지 관리, 심리 극복, 프로젝팅 전략 및 주기화 훈련을 통해 성장의 정체를 이겨냅니다."
+        },
+        "keywords": [
+          "climbing plateau",
+          "V3 to V4",
+          "5.10 plateau",
+          "projecting strategy",
+          "climbing training",
+          "technical improvement",
+          "mental training climbing",
+          "periodization",
+          "crux training",
+          "climbing progression",
+          "攀岩瓶颈期",
+          "V3到V4",
+          "项目化攀爬",
+          "攀岩训练",
+          "技术进阶",
+          "정체기 극복",
+          "V3에서 V4로",
+          "암벽 훈련",
+          "프로젝팅"
+        ]
+      },
+      "emoji": "📈"
+    },
+    {
+      "id": "art-017",
+      "slug": "when-to-train-fingers",
+      "category": "progression",
+      "priority": 5,
+      "title": {
+        "zh": "需要开始训练指力吗？什么时候开始？",
+        "en": "Should I Start Training My Fingers? When Is the Right Time?",
+        "ko": "손가락 훈련을 시작해야 할까? 적절한 시기는?"
+      },
+      "subtitle": {
+        "zh": "指力训练的时机判断与入门协议",
+        "en": "Timing your finger training and beginner protocols",
+        "ko": "손가락 훈련 시작 시기와 입문 프로토콜"
+      },
+      "coverImage": null,
+      "readingTime": 9,
+      "relatedKpIds": [
+        "kp-advanced-finger",
+        "kp-finger-assessment",
+        "kp-grading-systems",
+        "kp-grip-types",
+        "kp-hangboard-gear",
+        "kp-periodization",
+        "kp-pulley-injury",
+        "kp-rest-management",
+        "kp-tendonitis",
+        "kp-warmup"
+      ],
+      "tags": [
+        "progression",
+        "training",
+        "fingers"
+      ],
+      "seo": {
+        "metaTitle": {
+          "zh": "手指力训练：什么时候开始练挂板？初学者指南 | 攀岩知识库",
+          "en": "When to Start Hangboard Training: A Beginner's Guide to Finger Strength | Climbing Knowledge",
+          "ko": "행보드 훈련을 언제 시작할까요? 초보자를 위한 손가락 힘 완벽 가이드"
+        },
+        "metaDescription": {
+          "zh": "攀岩者什么时候应该开始练习指力板？本文详解经验年限、年龄门槛、入门协议、伤病预防和替代方案。了解如何安全且有效地训练手指力量。",
+          "en": "When should climbers start hangboard training? Learn experience requirements, age thresholds, beginner protocols, injury prevention, and safer alternatives to finger strength training.",
+          "ko": "등반자는 언제 행보드 훈련을 시작해야 할까요? 경력 요구사항, 연령 제한, 초보자 프로토콜, 부상 예방 및 안전한 대안을 알아보세요."
+        },
+        "keywords": [
+          "hangboard training",
+          "fingerboard training",
+          "finger strength",
+          "when to start hangboard",
+          "hangboard protocol",
+          "pulley injury",
+          "tendonitis prevention",
+          "climbing training",
+          "advanced climbing",
+          "행보드 훈련",
+          "손가락 힘",
+          "지력 운동",
+          "挂板训练",
+          "指力训练",
+          "手指力量"
+        ]
+      },
+      "emoji": "🤏"
+    },
+    {
+      "id": "art-018",
+      "slug": "stop-overgripping",
+      "category": "progression",
+      "priority": 6,
+      "title": {
+        "zh": "overgrip（抓太紧）怎么改？",
+        "en": "How to Stop Overgripping — The Key to Climbing Efficiently",
+        "ko": "오버그립 고치는 법 — 효율적인 클라이밍의 핵심"
+      },
+      "subtitle": {
+        "zh": "放松抓握是省力的关键技能",
+        "en": "Relaxed grip is the key skill for energy conservation",
+        "ko": "릴랙스 그립이 에너지 절약의 핵심 기술"
+      },
+      "coverImage": null,
+      "readingTime": 8,
+      "relatedKpIds": [
+        "kp-crimp-hold",
+        "kp-endurance-types",
+        "kp-grip-types",
+        "kp-jug-hold",
+        "kp-long-route-endurance"
+      ],
+      "tags": [
+        "progression",
+        "technique"
+      ],
+      "seo": {
+        "metaTitle": {
+          "zh": "过度抓握怎么改？高效放松技巧让你爬得更轻松",
+          "en": "How to Stop Overgripping: Master Relaxation Techniques for Efficient Climbing",
+          "ko": "오버그립 해결법: 효율적인 등반을 위한 완벽 가이드"
+        },
+        "metaDescription": {
+          "zh": "过度抓握是进阶攀岩者的常见问题。本文教你如何自我诊断、区分张手握和抠点、通过最小握力法和呼吸训练逐步改善，延缓前臂充血，提升路线完成率。",
+          "en": "Overgripping drains your energy and increases injury risk. Learn self-diagnosis techniques, understand when to use open hand vs. crimp, master the minimum grip strength method, and improve your climbing endurance through breathing rhythm and footwork development.",
+          "ko": "오버그립은 전완 펌프를 가속화하고 부상 위험을 높인다. 자가진단, 오픈 핸드와 크림프 구분, 최소 그립 강도 방법, 호흡과 발디딤 훈련으로 효율적인 등반을 마스터하자."
+        },
+        "keywords": [
+          "overgripping",
+          "过度抓握",
+          "오버그립",
+          "grip technique",
+          "open hand",
+          "张手握",
+          "오픈 핸드",
+          "crimp grip",
+          "抠点",
+          "크림프",
+          "forearm pump",
+          "前臂充血",
+          "펌프",
+          "climbing efficiency",
+          "climbing endurance",
+          "relaxation technique",
+          "climbing form",
+          "technical climbing",
+          "rock climbing training"
+        ]
+      },
+      "emoji": "✊"
+    },
+    {
+      "id": "art-019",
+      "slug": "pullups-and-core",
+      "category": "progression",
+      "priority": 7,
+      "title": {
+        "zh": "要不要开始练引体向上/核心？",
+        "en": "Should I Start Doing Pull-ups and Core Training?",
+        "ko": "턱걸이와 코어 훈련을 시작해야 할까?"
+      },
+      "subtitle": {
+        "zh": "辅助体能训练的时机和方法",
+        "en": "When and how to add supplemental strength training",
+        "ko": "보조 근력 훈련의 시기와 방법"
+      },
+      "coverImage": null,
+      "readingTime": 9,
+      "relatedKpIds": [
+        "kp-antagonist-training",
+        "kp-anti-rotation",
+        "kp-core-role",
+        "kp-gymnastic-rings",
+        "kp-periodization",
+        "kp-pulling-power",
+        "kp-rest-management",
+        "kp-training-log"
+      ],
+      "tags": [
+        "progression",
+        "training"
+      ],
+      "seo": {
+        "metaTitle": {
+          "zh": "攀岩中的引体向上和核心训练：什么时候开始、如何训练",
+          "en": "Pull-Ups and Core Training for Climbers: When to Start and How to Train",
+          "ko": "클라이머를 위한 풀업과 코어 훈련: 언제 시작하고 어떻게 훈련할까"
+        },
+        "metaDescription": {
+          "zh": "完整指南：了解攀岩者何时需要引体向上和核心训练、如何循序渐进地添加力量工作，以及如何平衡额外训练与实际攀岩。包括专家建议和常见错误。",
+          "en": "Complete guide to pull-ups and core training for climbers: when you actually need strength work, progressive training methods, and how to balance auxiliary exercises with actual climbing. Expert tips and common mistakes included.",
+          "ko": "클라이머를 위한 풀업과 코어 훈련 완전 가이드: 체력 작업이 정말 필요한 시점, 점진적 훈련 방법, 그리고 보조 운동과 실제 등반 사이의 균형을 맞추는 방법. 전문가 팁과 흔한 실수 포함."
+        },
+        "keywords": [
+          "pull-ups",
+          "core training",
+          "climbing strength",
+          "antagonist training",
+          "periodization",
+          "climbing training",
+          "hanging leg raise",
+          "lock-off",
+          "pulling power",
+          "climbing progression",
+          "풀업",
+          "코어 훈련",
+          "암벽 등반 강도",
+          "길항근 훈련",
+          "주기화",
+          "引体向上",
+          "核心训练",
+          "攀岩体力",
+          "拮抗肌训练",
+          "周期化训练"
+        ]
+      },
+      "emoji": "🏋️"
+    },
+    {
+      "id": "art-020",
+      "slug": "how-to-warm-up",
+      "category": "progression",
+      "priority": 8,
+      "title": {
+        "zh": "攀岩的热身应该怎么做？",
+        "en": "How Should You Warm Up for Climbing?",
+        "ko": "클라이밍 워밍업은 어떻게 해야 할까?"
+      },
+      "subtitle": {
+        "zh": "正确热身能预防伤病、提升表现",
+        "en": "Proper warm-up prevents injury and boosts performance",
+        "ko": "올바른 워밍업이 부상을 예방하고 퍼포먼스를 높인다"
+      },
+      "coverImage": null,
+      "readingTime": 9,
+      "relatedKpIds": [
+        "kp-edging",
+        "kp-hip-flexibility",
+        "kp-pulley-injury",
+        "kp-rest-management",
+        "kp-shoulder-injury",
+        "kp-shoulder-mobility",
+        "kp-skin-management",
+        "kp-smearing",
+        "kp-tendonitis"
+      ],
+      "tags": [
+        "progression",
+        "warmup"
+      ],
+      "seo": {
+        "metaTitle": {
+          "zh": "攀岩热身完全指南 | 预防伤病、提升表现",
+          "en": "The Complete Guide to Warming Up for Advanced Climbers | Injury Prevention",
+          "ko": "고급 클라이머를 위한 완벽한 워밍업 가이드 | 부상 예방"
+        },
+        "metaDescription": {
+          "zh": "学习正确的攀岩热身流程。包括有氧激活、动态拉伸、简单路线热身和渐进加难度。了解为什么热身不足会导致滑车韧带损伤、肌腱炎和肩部伤害。适用于寒冷天气的特殊建议。",
+          "en": "Master the science-backed climbing warm-up protocol. Learn cardiovascular activation, dynamic stretching, easy on-wall warm-up, and progressive intensity building. Prevent pulley injuries, tendonitis, and shoulder damage. Includes cold weather modifications for outdoor climbers.",
+          "ko": "과학 기반 클라이밍 워밍업 프로토콜을 마스터하세요. 심혈관 활성화, 다이나믹 스트레칭, 쉬운 클라이밍 워밍업, 점진적 강도 증가를 배우세요. 풀리 손상, 건염, 어깨 손상을 예방합니다."
+        },
+        "keywords": [
+          "climbing warm-up",
+          "워밍업",
+          "热身",
+          "injury prevention",
+          "부상 예방",
+          "动态拉伸",
+          "dynamic stretching",
+          "다이나믹 스트레칭",
+          "pulley injury",
+          "풀리 손상",
+          "滑车韧带",
+          "climbing performance",
+          "클라이밍 성능",
+          "攀岩表现",
+          "tendonitis prevention",
+          "shoulder mobility",
+          "肩部灵活性",
+          "cold weather climbing"
+        ]
+      },
+      "emoji": "☀️"
+    },
+    {
+      "id": "art-021",
+      "slug": "training-plan-basics",
+      "category": "training",
+      "priority": 1,
+      "title": {
+        "zh": "怎么制定训练计划？周期化是什么？",
+        "en": "How to Build a Training Plan? What is Periodization?",
+        "ko": "훈련 계획은 어떻게 세우나요? 주기화란?"
+      },
+      "subtitle": {
+        "zh": "系统训练的基础框架",
+        "en": "The foundational framework for systematic training",
+        "ko": "체계적 훈련의 기초 프레임워크"
+      },
+      "coverImage": null,
+      "readingTime": 11,
+      "relatedKpIds": [],
+      "tags": [
+        "training",
+        "periodization"
+      ],
+      "seo": null,
+      "emoji": "📋"
+    },
+    {
+      "id": "art-022",
+      "slug": "hangboard-guide",
+      "category": "training",
+      "priority": 2,
+      "title": {
+        "zh": "指力板怎么用？怎么做悬挂训练？",
+        "en": "How to Use a Hangboard? A Guide to Hang Training",
+        "ko": "행보드는 어떻게 사용하나요? 매달리기 훈련 가이드"
+      },
+      "subtitle": {
+        "zh": "从入门到进阶的指力板完全指南",
+        "en": "The complete hangboard guide from beginner to advanced",
+        "ko": "초급부터 고급까지 행보드 완벽 가이드"
+      },
+      "coverImage": null,
+      "readingTime": 12,
+      "relatedKpIds": [
+        "kp-hangboard-training"
+      ],
+      "tags": [
+        "training",
+        "hangboard"
+      ],
+      "seo": null,
+      "emoji": "🔧"
+    },
+    {
+      "id": "art-023",
+      "slug": "finger-injury-a2",
+      "category": "training",
+      "priority": 3,
+      "title": {
+        "zh": "手指受伤了怎么办？A2 滑轮是什么？",
+        "en": "Finger Injury? What is the A2 Pulley?",
+        "ko": "손가락 부상? A2 풀리란 무엇인가요?"
+      },
+      "subtitle": {
+        "zh": "手指滑轮伤的预防、诊断与康复",
+        "en": "Prevention, diagnosis, and recovery for pulley injuries",
+        "ko": "풀리 부상의 예방, 진단, 회복"
+      },
+      "coverImage": null,
+      "readingTime": 10,
+      "relatedKpIds": [
+        "kp-pulley-injuries"
+      ],
+      "tags": [
+        "training",
+        "injury",
+        "fingers"
+      ],
+      "seo": null,
+      "emoji": "🩹"
+    },
+    {
+      "id": "art-024",
+      "slug": "overcome-lead-fear",
+      "category": "training",
+      "priority": 4,
+      "title": {
+        "zh": "先锋攀冲坠好怕，怎么克服？",
+        "en": "Afraid of Lead Falls? How to Overcome the Fear",
+        "ko": "리드 추락이 무서워요, 어떻게 극복하나요?"
+      },
+      "subtitle": {
+        "zh": "系统化的冲坠练习方法",
+        "en": "A systematic approach to fall practice",
+        "ko": "체계적인 추락 연습 방법"
+      },
+      "coverImage": null,
+      "readingTime": 9,
+      "relatedKpIds": [
+        "kp-lead-falling"
+      ],
+      "tags": [
+        "training",
+        "mental",
+        "lead"
+      ],
+      "seo": null,
+      "emoji": "🧠"
+    },
+    {
+      "id": "art-025",
+      "slug": "gym-to-outdoor",
+      "category": "training",
+      "priority": 5,
+      "title": {
+        "zh": "怎么从室内过渡到户外？",
+        "en": "How to Transition from Indoor to Outdoor Climbing?",
+        "ko": "실내에서 아웃도어 클라이밍으로의 전환 방법"
+      },
+      "subtitle": {
+        "zh": "从岩馆到岩壁的关键差异与准备",
+        "en": "Key differences and preparation from gym to crag",
+        "ko": "짐에서 암벽까지의 핵심 차이와 준비"
+      },
+      "coverImage": null,
+      "readingTime": 10,
+      "relatedKpIds": [],
+      "tags": [
+        "training",
+        "outdoor"
+      ],
+      "seo": null,
+      "emoji": "⛰️"
+    },
+    {
+      "id": "art-026",
+      "slug": "campus-board-when",
+      "category": "training",
+      "priority": 6,
+      "title": {
+        "zh": "campus board 什么时候可以开始练？",
+        "en": "When Can I Start Using the Campus Board?",
+        "ko": "캠퍼스 보드는 언제부터 시작할 수 있나요?"
+      },
+      "subtitle": {
+        "zh": "campus board 的适用时机和训练方法",
+        "en": "When it's appropriate and how to train on a campus board",
+        "ko": "캠퍼스 보드의 적절한 시기와 훈련 방법"
+      },
+      "coverImage": null,
+      "readingTime": 8,
+      "relatedKpIds": [
+        "kp-campus-board"
+      ],
+      "tags": [
+        "training",
+        "power"
+      ],
+      "seo": null,
+      "emoji": "🪜"
+    },
+    {
+      "id": "art-027",
+      "slug": "shoulder-elbow-pain",
+      "category": "training",
+      "priority": 7,
+      "title": {
+        "zh": "肩膀/手肘疼是怎么回事？",
+        "en": "Why Do My Shoulders/Elbows Hurt?",
+        "ko": "어깨/팔꿈치가 아픈 이유는?"
+      },
+      "subtitle": {
+        "zh": "上肢常见伤病的预防与处理",
+        "en": "Prevention and treatment of common upper body injuries",
+        "ko": "상체 흔한 부상의 예방과 처리"
+      },
+      "coverImage": null,
+      "readingTime": 9,
+      "relatedKpIds": [
+        "kp-shoulder-injuries"
+      ],
+      "tags": [
+        "training",
+        "injury"
+      ],
+      "seo": null,
+      "emoji": "🩺"
+    },
+    {
+      "id": "art-028",
+      "slug": "find-your-weakness",
+      "category": "training",
+      "priority": 8,
+      "title": {
+        "zh": "怎么分析自己的弱点在哪里？",
+        "en": "How to Identify Your Weaknesses?",
+        "ko": "자신의 약점을 어떻게 분석하나요?"
+      },
+      "subtitle": {
+        "zh": "自我评估方法与针对性训练",
+        "en": "Self-assessment methods and targeted training",
+        "ko": "자기 평가 방법과 맞춤형 훈련"
+      },
+      "coverImage": null,
+      "readingTime": 8,
+      "relatedKpIds": [],
+      "tags": [
+        "training",
+        "assessment"
+      ],
+      "seo": null,
+      "emoji": "🔍"
+    },
+    {
+      "id": "art-029",
+      "slug": "climbing-nutrition",
+      "category": "outdoor",
+      "priority": 1,
+      "title": {
+        "zh": "攀岩的人吃什么？需要特殊饮食吗？",
+        "en": "What Do Climbers Eat? Do I Need a Special Diet?",
+        "ko": "클라이머는 무엇을 먹나요? 특별한 식단이 필요한가요?"
+      },
+      "subtitle": {
+        "zh": "攀岩者的营养指南",
+        "en": "A nutrition guide for climbers",
+        "ko": "클라이머를 위한 영양 가이드"
+      },
+      "coverImage": null,
+      "readingTime": 8,
+      "relatedKpIds": [],
+      "tags": [
+        "outdoor",
+        "nutrition"
+      ],
+      "seo": null,
+      "emoji": "🍎"
+    },
+    {
+      "id": "art-030",
+      "slug": "skin-care-tips",
+      "category": "outdoor",
+      "priority": 2,
+      "title": {
+        "zh": "手皮管理：怎么处理茧/裂口？",
+        "en": "Skin Care: How to Manage Calluses and Flappers?",
+        "ko": "피부 관리: 굳은살과 갈라짐은 어떻게 관리하나요?"
+      },
+      "subtitle": {
+        "zh": "攀岩者的手部皮肤护理全攻略",
+        "en": "The complete hand skin care guide for climbers",
+        "ko": "클라이머를 위한 완벽한 손 피부 관리 가이드"
+      },
+      "coverImage": null,
+      "readingTime": 6,
+      "relatedKpIds": [
+        "kp-skin-care"
+      ],
+      "tags": [
+        "outdoor",
+        "recovery"
+      ],
+      "seo": null,
+      "emoji": "🧴"
+    },
+    {
+      "id": "art-031",
+      "slug": "best-climbing-destinations",
+      "category": "outdoor",
+      "priority": 3,
+      "title": {
+        "zh": "世界上有哪些值得去的攀岩胜地？",
+        "en": "Best Climbing Destinations Around the World",
+        "ko": "세계 최고의 클라이밍 여행지는?"
+      },
+      "subtitle": {
+        "zh": "全球攀岩圣地推荐与旅行指南",
+        "en": "A guide to the world's best climbing destinations",
+        "ko": "세계 최고의 클라이밍 여행지 가이드"
+      },
+      "coverImage": null,
+      "readingTime": 12,
+      "relatedKpIds": [],
+      "tags": [
+        "outdoor",
+        "travel"
+      ],
+      "seo": null,
+      "emoji": "🌍"
+    },
+    {
+      "id": "art-032",
+      "slug": "understanding-grades",
+      "category": "outdoor",
+      "priority": 4,
+      "title": {
+        "zh": "攀岩等级怎么看？V 几是什么意思？",
+        "en": "Understanding Climbing Grades: What Does V-Scale Mean?",
+        "ko": "클라이밍 등급은 어떻게 보나요? V 등급이란?"
+      },
+      "subtitle": {
+        "zh": "各国等级系统全解析",
+        "en": "A complete guide to grading systems worldwide",
+        "ko": "전 세계 등급 시스템 완전 분석"
+      },
+      "coverImage": null,
+      "readingTime": 7,
+      "relatedKpIds": [
+        "kp-grading-systems"
+      ],
+      "tags": [
+        "outdoor",
+        "grading"
+      ],
+      "seo": null,
+      "emoji": "📊"
+    }
+  ]
+}

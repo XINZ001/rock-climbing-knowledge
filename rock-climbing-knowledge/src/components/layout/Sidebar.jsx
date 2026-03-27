@@ -3,6 +3,57 @@ import { Link, useLocation, useParams, useNavigate } from 'react-router-dom'
 import { useApp } from '../../context/AppContext'
 import { Icon } from '../../utils/icons'
 
+const langOptions = [
+  { code: 'zh', label: '中文' },
+  { code: 'en', label: 'EN' },
+  { code: 'ko', label: '한국어' },
+]
+
+function MobileLangDropdown({ lang, setLang }) {
+  const [open, setOpen] = useState(false)
+  const ref = useRef(null)
+
+  useEffect(() => {
+    const handleClick = (e) => {
+      if (ref.current && !ref.current.contains(e.target)) setOpen(false)
+    }
+    document.addEventListener('mousedown', handleClick)
+    return () => document.removeEventListener('mousedown', handleClick)
+  }, [])
+
+  const current = langOptions.find((o) => o.code === lang) || langOptions[0]
+
+  return (
+    <div ref={ref} className="relative lg:hidden px-3 py-2 mt-auto border-t border-stone-border flex justify-end">
+      <button
+        onClick={() => setOpen(!open)}
+        className="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-md border border-stone-border text-xs font-medium hover:bg-stone-bg transition-colors"
+      >
+        <Icon name="globe" size={14} className="text-text-secondary" />
+        {current.label}
+        <Icon name={open ? 'chevronUp' : 'chevronDown'} size={10} className="text-text-secondary" />
+      </button>
+      {open && (
+        <div className="absolute right-0 bottom-full mb-1 w-28 bg-stone-card rounded-lg border border-stone-border shadow-lg overflow-hidden z-50">
+          {langOptions.map((opt) => (
+            <button
+              key={opt.code}
+              onClick={() => { setLang(opt.code); setOpen(false) }}
+              className={`w-full px-3 py-2 text-xs text-left transition-colors ${
+                opt.code === lang
+                  ? 'bg-forest-light text-forest font-semibold'
+                  : 'hover:bg-stone-bg text-text-primary'
+              }`}
+            >
+              {opt.label}
+            </button>
+          ))}
+        </div>
+      )}
+    </div>
+  )
+}
+
 function AccordionPanel({ isOpen, children }) {
   const ref = useRef(null)
   const [height, setHeight] = useState(isOpen ? 'auto' : '0px')
@@ -31,12 +82,6 @@ function AccordionPanel({ isOpen, children }) {
   )
 }
 
-const langOptions = [
-  { code: 'zh', label: '中文' },
-  { code: 'en', label: 'EN' },
-  { code: 'ko', label: '한국어' },
-]
-
 export default function Sidebar({ onNavigate }) {
   const { sections, t, lang, setLang } = useApp()
   const { sectionSlug, subSlug } = useParams()
@@ -44,6 +89,7 @@ export default function Sidebar({ onNavigate }) {
   const navigate = useNavigate()
   const [manualExpanded, setManualExpanded] = useState(null)
   const knowledgeActive = location.pathname === '/knowledge' || location.pathname.startsWith('/section')
+  const articlesActive = location.pathname.startsWith('/articles')
   const hallOfFameActive = location.pathname.startsWith('/hall-of-fame')
   const injuriesActive = location.pathname.startsWith('/injuries')
   const expanded = sectionSlug || manualExpanded
@@ -61,7 +107,7 @@ export default function Sidebar({ onNavigate }) {
   }
 
   return (
-    <nav className="h-full overflow-y-auto py-3 px-2">
+    <nav className="h-full overflow-y-auto py-3 px-2 flex flex-col">
       <Link
         to="/"
         onClick={onNavigate}
@@ -80,6 +126,17 @@ export default function Sidebar({ onNavigate }) {
       >
         <Icon name="book" size={16} />
         <span>{lang === 'zh' ? '攀岩知识库' : lang === 'en' ? 'Knowledge Base' : '지식 라이브러리'}</span>
+      </Link>
+
+      <Link
+        to="/articles"
+        onClick={onNavigate}
+        className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
+          articlesActive ? 'bg-forest-light text-forest' : 'hover:bg-stone-bg'
+        }`}
+      >
+        <Icon name="fileText" size={16} />
+        <span>{lang === 'zh' ? '攀岩专栏' : lang === 'en' ? 'Climbing Column' : '클라이밍 칼럼'}</span>
       </Link>
 
       <Link
@@ -103,23 +160,6 @@ export default function Sidebar({ onNavigate }) {
         <Icon name="medkit" size={16} />
         <span>{lang === 'zh' ? '伤痛档案' : lang === 'en' ? 'Injury Archive' : '부상 기록'}</span>
       </Link>
-
-      {/* 语言切换 — 仅移动端可见（桌面端在 Header 中） */}
-      <div className="lg:hidden flex gap-1 mt-2 px-3 py-1.5">
-        {langOptions.map((opt) => (
-          <button
-            key={opt.code}
-            onClick={() => setLang(opt.code)}
-            className={`flex-1 py-1.5 rounded-md text-xs font-medium transition-colors ${
-              opt.code === lang
-                ? 'bg-forest-light text-forest'
-                : 'bg-stone-bg text-text-secondary hover:text-text-primary'
-            }`}
-          >
-            {opt.label}
-          </button>
-        ))}
-      </div>
 
       <div className="mt-2 space-y-0.5">
         {sections.map((section) => {
@@ -186,6 +226,9 @@ export default function Sidebar({ onNavigate }) {
           )
         })}
       </div>
+
+      {/* 语言切换 — 仅移动端可见（桌面端在 Header 中） */}
+      <MobileLangDropdown lang={lang} setLang={setLang} />
     </nav>
   )
 }

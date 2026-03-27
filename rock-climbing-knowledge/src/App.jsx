@@ -17,6 +17,9 @@ import SettingsPage from './pages/SettingsPage'
 import ClimbingProfilePage from './pages/ClimbingProfilePage'
 import AuthCallbackPage from './pages/AuthCallbackPage'
 import KnowledgePage from './pages/KnowledgePage'
+import ArticleListPage from './pages/ArticleListPage'
+import ArticleCategoryPage from './pages/ArticleCategoryPage'
+import ArticleDetailPage from './pages/ArticleDetailPage'
 
 function ScrollToTopOnNav() {
   const { pathname } = useLocation()
@@ -35,6 +38,9 @@ export default function App() {
           <Route index element={<HomePage />} />
           <Route path="hall-of-fame" element={<HallOfFamePage />} />
 <Route path="hall-of-fame/:athleteSlug" element={<AthletePage />} />
+          <Route path="articles" element={<ArticleListPage />} />
+          <Route path="articles/category/:categoryId" element={<ArticleCategoryPage />} />
+          <Route path="articles/:articleSlug" element={<ArticleDetailPage />} />
           <Route path="knowledge" element={<KnowledgePage />} />
           <Route path="section/:sectionSlug" element={<SectionPage />} />
           <Route path="section/:sectionSlug/:subSlug" element={<TopicPage />} />

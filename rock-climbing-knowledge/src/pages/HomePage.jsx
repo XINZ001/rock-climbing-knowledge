@@ -4,6 +4,8 @@ import { useApp } from '../context/AppContext'
 import { Icon } from '../utils/icons'
 import { getHallOfFameAthletes, getHallOfFameMedia } from '../utils/hallOfFame'
 import PageSEO from '../components/PageSEO'
+import ArticleCard from '../components/article/ArticleCard'
+import articleRegistry from '../data/article-registry.json'
 
 function hexToRgba(hex, alpha) {
   const normalized = hex.replace('#', '')
@@ -158,7 +160,7 @@ export default function HomePage() {
 
       {/* ==================== 1. 攀岩知识库 ==================== */}
       <div className="relative mb-10 overflow-hidden rounded-[1.75rem] border border-stone-border bg-stone-card shadow-sm">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(74,124,89,0.20),_transparent_38%),radial-gradient(circle_at_bottom_right,_rgba(93,64,55,0.14),_transparent_40%)]" />
+        <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_top_left,_rgba(74,124,89,0.20),_transparent_38%),radial-gradient(circle_at_bottom_right,_rgba(93,64,55,0.14),_transparent_40%)]" />
 
         {/* Banner header */}
         <div className="relative px-6 py-6 sm:px-8">
@@ -187,9 +189,8 @@ export default function HomePage() {
         </div>
 
         {/* Preview: 横向滚动所有知识领域 */}
-        <div className="pb-6">
-          <div className="flex gap-3 overflow-x-auto py-2 -my-2 scrollbar-hide">
-            <div className="shrink-0 w-4 sm:w-6" aria-hidden="true" />
+        <div className="pb-8">
+          <div className="flex gap-3 overflow-x-auto py-2 -my-2 pl-6 pr-6 sm:pl-8 sm:pr-8 scrollbar-hide">
             {sections.slice(0, 10).map((section) => (
               <Link
                 key={section.id}
@@ -219,14 +220,84 @@ export default function HomePage() {
                 </span>
               </Link>
             )}
-            <div className="shrink-0 w-4 sm:w-6" aria-hidden="true" />
           </div>
         </div>
       </div>
 
-      {/* ==================== 2. 攀岩名人堂 ==================== */}
+      {/* ==================== 2. 攀岩专栏 ==================== */}
       <div className="relative mb-10 overflow-hidden rounded-[1.75rem] border border-stone-border bg-stone-card shadow-sm">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(199,161,42,0.22),_transparent_38%),radial-gradient(circle_at_bottom_right,_rgba(74,124,89,0.18),_transparent_40%)]" />
+        <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_top_left,_rgba(74,124,89,0.16),_transparent_38%),radial-gradient(circle_at_bottom_right,_rgba(0,150,136,0.12),_transparent_40%)]" />
+
+        {/* Banner header */}
+        <div className="relative px-6 py-6 sm:px-8">
+          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
+            <div>
+              <h2 className="text-2xl font-bold flex items-center gap-2">
+                <Icon name="fileText" size={22} style={{ color: '#00897B' }} />
+                {lang === 'zh' ? '攀岩专栏' : lang === 'en' ? 'Climbing Column' : '클라이밍 칼럼'}
+              </h2>
+              <p className="mt-1.5 text-sm text-text-secondary leading-relaxed max-w-2xl">
+                {lang === 'zh'
+                  ? '深度解答攀岩者最关心的问题——从入门到进阶的必读指南'
+                  : lang === 'en'
+                  ? 'In-depth answers to the most common climbing questions — essential guides from beginner to advanced'
+                  : '클라이머들이 가장 궁금해하는 질문에 대한 심층 답변'}
+              </p>
+            </div>
+            <Link
+              to="/articles"
+              className="flex items-center gap-1.5 text-sm font-medium text-forest hover:underline shrink-0"
+            >
+              {lang === 'zh' ? `查看全部 ${articleRegistry.articles.length} 篇 →` : lang === 'en' ? `View all ${articleRegistry.articles.length} articles →` : `전체 ${articleRegistry.articles.length}편 보기 →`}
+            </Link>
+          </div>
+        </div>
+
+        {/* Horizontal scroll: [分类标签+2篇文章] × 4 categories in one row */}
+        <div className="pb-8">
+          <div className="flex gap-6 overflow-x-auto py-2 -my-2 pl-6 pr-6 sm:pl-8 sm:pr-8 scrollbar-hide">
+            {articleRegistry.categories.map((cat) => {
+              const catArticles = articleRegistry.articles.filter(a => a.category === cat.id)
+              return (
+                <div key={cat.id} className="shrink-0 flex flex-col gap-2.5" style={{ width: '460px' }}>
+                  {/* Category label row */}
+                  <div className="flex items-center justify-between">
+                    <Link
+                      to={`/articles/category/${cat.id}`}
+                      className="flex items-center gap-1.5 hover:opacity-80 transition-opacity"
+                    >
+                      <span
+                        className="w-5 h-5 rounded flex items-center justify-center text-white shrink-0"
+                        style={{ backgroundColor: cat.color }}
+                      >
+                        <Icon name={cat.icon} size={11} />
+                      </span>
+                      <span className="text-sm font-bold">{t(cat.title)}</span>
+                    </Link>
+                    <Link
+                      to={`/articles/category/${cat.id}`}
+                      className="text-xs font-medium hover:underline"
+                      style={{ color: cat.color }}
+                    >
+                      {catArticles.length}{lang === 'zh' ? ' 篇 →' : ' →'}
+                    </Link>
+                  </div>
+                  {/* 2 article cards side by side */}
+                  <div className="grid grid-cols-2 gap-3">
+                    {catArticles.slice(0, 2).map(article => (
+                      <ArticleCard key={article.id} article={article} variant="small" />
+                    ))}
+                  </div>
+                </div>
+              )
+            })}
+          </div>
+        </div>
+      </div>
+
+      {/* ==================== 3. 攀岩名人堂 ==================== */}
+      <div className="relative mb-10 overflow-hidden rounded-[1.75rem] border border-stone-border bg-stone-card shadow-sm">
+        <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_top_left,_rgba(199,161,42,0.22),_transparent_38%),radial-gradient(circle_at_bottom_right,_rgba(74,124,89,0.18),_transparent_40%)]" />
 
         {/* Banner header */}
         <div className="relative px-6 py-6 sm:px-8">
@@ -255,9 +326,8 @@ export default function HomePage() {
         </div>
 
         {/* Preview: 全部运动员横向滚动 — 复用名人堂富卡片 */}
-        <div className="pb-6">
-          <div className="flex gap-4 overflow-x-auto py-2 -my-2 scrollbar-hide">
-            <div className="shrink-0 w-4 sm:w-6" aria-hidden="true" />
+        <div className="pb-8">
+          <div className="flex gap-4 overflow-x-auto py-2 -my-2 pl-6 pr-6 sm:pl-8 sm:pr-8 scrollbar-hide">
             {allAthletes.slice(0, 10).map((athlete) => {
               const media = getHallOfFameMedia(athlete.athleteId)
               const cardImage = media.cardImage
@@ -324,14 +394,13 @@ export default function HomePage() {
                 </span>
               </Link>
             )}
-            <div className="shrink-0 w-4 sm:w-6" aria-hidden="true" />
           </div>
         </div>
       </div>
 
-      {/* ==================== 3. 伤痛档案 ==================== */}
+      {/* ==================== 4. 伤痛档案 ==================== */}
       <div className="relative mb-6 overflow-hidden rounded-[1.75rem] border border-stone-border bg-stone-card shadow-sm">
-        <div className="absolute inset-0 bg-[radial-gradient(circle_at_top_left,_rgba(212,145,61,0.18),_transparent_38%),radial-gradient(circle_at_bottom_right,_rgba(180,60,60,0.14),_transparent_40%)]" />
+        <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_top_left,_rgba(212,145,61,0.18),_transparent_38%),radial-gradient(circle_at_bottom_right,_rgba(180,60,60,0.14),_transparent_40%)]" />
 
         {/* Banner header */}
         <div className="relative px-6 py-6 sm:px-8">
