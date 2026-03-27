@@ -1277,22 +1277,54 @@
       "priority": 1,
       "title": {
         "zh": "怎么制定训练计划？周期化是什么？",
-        "en": "How to Build a Training Plan? What is Periodization?",
-        "ko": "훈련 계획은 어떻게 세우나요? 주기화란?"
+        "en": "How to Build a Training Plan: What Is Periodization?",
+        "ko": "훈련 계획은 어떻게 세울까? 주기화란?"
       },
       "subtitle": {
-        "zh": "系统训练的基础框架",
-        "en": "The foundational framework for systematic training",
-        "ko": "체계적 훈련의 기초 프레임워크"
+        "zh": "从随便爬到有计划训练，周期化原理和简易周计划模板",
+        "en": "From random climbing to structured training — periodization basics and weekly plan templates",
+        "ko": "자유로운 클라이밍에서 체계적 훈련으로 — 주기화 원리와 주간 계획 템플릿"
       },
       "coverImage": null,
-      "readingTime": 11,
-      "relatedKpIds": [],
-      "tags": [
-        "training",
-        "periodization"
+      "readingTime": 6,
+      "relatedKpIds": [
+        "kp-advanced-finger",
+        "kp-core-training",
+        "kp-peaking",
+        "kp-periodization",
+        "kp-pulling-power",
+        "kp-when-to-rest"
       ],
-      "seo": null,
+      "tags": [
+        "training"
+      ],
+      "seo": {
+        "metaTitle": {
+          "zh": "攀岩训练计划入门：什么是周期化训练",
+          "en": "Climbing Training Plan Basics: What is Periodization?",
+          "ko": "등반 훈련 계획 기초: 주기화 훈련이란?"
+        },
+        "metaDescription": {
+          "zh": "学习如何为中级攀岩者制定有效的训练计划。了解周期化训练的概念，掌握简单的周计划模板，包括力量日、耐力日和休息日的安排。",
+          "en": "Learn how to create an effective training plan for intermediate climbers. Understand periodization, use a simple weekly template with strength and endurance days, and avoid overtraining.",
+          "ko": "중급 등반가를 위한 효과적인 훈련 계획을 세우는 방법을 배우세요. 주기화 훈련의 개념을 이해하고 강도일과 지구력일을 포함한 간단한 주간 템플릿을 사용하세요."
+        },
+        "keywords": [
+          "climbing training plan",
+          "periodization",
+          "weekly schedule",
+          "strength training",
+          "endurance training",
+          "intermediate climber",
+          "训练计划",
+          "周期化",
+          "周计划",
+          "力量训练",
+          "등반 훈련",
+          "주기화",
+          "주간 계획"
+        ]
+      },
       "emoji": "📋"
     },
     {
@@ -1302,24 +1334,54 @@
       "priority": 2,
       "title": {
         "zh": "指力板怎么用？怎么做悬挂训练？",
-        "en": "How to Use a Hangboard? A Guide to Hang Training",
-        "ko": "행보드는 어떻게 사용하나요? 매달리기 훈련 가이드"
+        "en": "Hangboard Guide: How to Train Finger Strength",
+        "ko": "행보드 사용법: 손가락 근력 훈련 가이드"
       },
       "subtitle": {
-        "zh": "从入门到进阶的指力板完全指南",
-        "en": "The complete hangboard guide from beginner to advanced",
-        "ko": "초급부터 고급까지 행보드 완벽 가이드"
+        "zh": "Max Hangs、Repeaters 协议详解，附安全须知和进阶方案",
+        "en": "Complete guide to Max Hangs, Repeaters, safety protocols, and progression plans",
+        "ko": "Max Hangs, Repeaters 프로토콜 상세 가이드와 안전 수칙"
       },
       "coverImage": null,
-      "readingTime": 12,
+      "readingTime": 13,
       "relatedKpIds": [
-        "kp-hangboard-training"
+        "kp-antagonist-training",
+        "kp-hangboard-training",
+        "kp-periodization",
+        "kp-pulley-injury",
+        "kp-warmup"
       ],
       "tags": [
-        "training",
-        "hangboard"
+        "training"
       ],
-      "seo": null,
+      "seo": {
+        "metaTitle": {
+          "zh": "指力板训练完全指南 | 悬挂握力训练的完整协议",
+          "en": "Hangboard Training Guide: Max Hangs & Repeaters Protocols",
+          "ko": "행보드 훈련 가이드: 최대 행과 반복 행 프로토콜"
+        },
+        "metaDescription": {
+          "zh": "学习如何安全高效地进行指力板训练。包括Max Hangs和Repeaters两大协议、训练量和频率、安全注意事项，以及Eva López和Lattice Training等权威来源的详细指导。",
+          "en": "Complete hangboard training guide covering Max Hangs and Repeaters protocols, training volume and frequency, safety guidelines, and evidence-based recommendations from Eva López and Lattice Training for finger strength development.",
+          "ko": "행보드 훈련의 완전한 가이드: Max Hangs와 Repeaters 프로토콜, 훈련 볼륨 및 빈도, 안전 지침, 그리고 Eva López와 Lattice Training의 과학 기반 권장사항 포함."
+        },
+        "keywords": [
+          "hangboard",
+          "finger strength",
+          "max hangs",
+          "repeaters",
+          "pulley injury",
+          "climbing training",
+          "指力板",
+          "Max Hangs",
+          "Repeaters",
+          "悬挂训练",
+          "滑车韧带",
+          "행보드",
+          "크림프",
+          "손가락 힘"
+        ]
+      },
       "emoji": "🔧"
     },
     {
@@ -1329,25 +1391,53 @@
       "priority": 3,
       "title": {
         "zh": "手指受伤了怎么办？A2 滑轮是什么？",
-        "en": "Finger Injury? What is the A2 Pulley?",
-        "ko": "손가락 부상? A2 풀리란 무엇인가요?"
+        "en": "Finger Injuries in Climbing: Understanding the A2 Pulley",
+        "ko": "손가락 부상 대처법: A2 풀리란?"
       },
       "subtitle": {
-        "zh": "手指滑轮伤的预防、诊断与康复",
-        "en": "Prevention, diagnosis, and recovery for pulley injuries",
-        "ko": "풀리 부상의 예방, 진단, 회복"
+        "zh": "A2 滑轮损伤的分级、自测、康复和预防完整指南",
+        "en": "Complete guide to A2 pulley injury grading, self-assessment, rehab, and prevention",
+        "ko": "A2 풀리 손상의 등급, 자가 진단, 재활 및 예방 가이드"
       },
       "coverImage": null,
-      "readingTime": 10,
+      "readingTime": 19,
       "relatedKpIds": [
-        "kp-pulley-injuries"
+        "kp-antagonist-training",
+        "kp-crimp-hold",
+        "kp-finger-assessment",
+        "kp-grip-types",
+        "kp-hangboard-training",
+        "kp-pulley-injury",
+        "kp-tendonitis",
+        "kp-warmup"
       ],
       "tags": [
-        "training",
-        "injury",
-        "fingers"
+        "training"
       ],
-      "seo": null,
+      "seo": {
+        "metaTitle": {
+          "zh": "A2滑轮损伤完全指南 - 症状、康复与预防",
+          "en": "A2 Pulley Injury Complete Guide - Symptoms, Rehabilitation & Prevention",
+          "ko": "A2 풀리 손상 완벽 가이드 - 증상, 재활 및 예방"
+        },
+        "metaDescription": {
+          "zh": "攀岩最常见的伤病指南。了解A2滑轮在哪、如何自我评估、四阶段康复流程、何时就医、以及科学的预防策略。包含权威医学文献和临床康复协议。",
+          "en": "The most common climbing injury explained. Learn A2 pulley anatomy, self-assessment methods, 4-phase rehabilitation, when to see a doctor, and evidence-based prevention strategies with clinical protocols.",
+          "ko": "등반자를 위한 완벽한 풀리 손상 가이드. A2 풀리 해부학, 자가 평가, 4단계 재활, 의료 기관 방문 시기, 증거 기반 예방 전략을 포함합니다."
+        },
+        "keywords": [
+          "A2 pulley injury",
+          "finger pulley injury",
+          "climbing injury",
+          "pulley rehabilitation",
+          "bowstringing",
+          "crimp injury",
+          "climbing finger pain",
+          "A2 pulley rehabilitation protocol",
+          "flexor tendon injury",
+          "rock climbing hand injury"
+        ]
+      },
       "emoji": "🩹"
     },
     {
@@ -1357,25 +1447,54 @@
       "priority": 4,
       "title": {
         "zh": "先锋攀冲坠好怕，怎么克服？",
-        "en": "Afraid of Lead Falls? How to Overcome the Fear",
-        "ko": "리드 추락이 무서워요, 어떻게 극복하나요?"
+        "en": "How to Overcome the Fear of Lead Falling",
+        "ko": "리드 추락 공포, 어떻게 극복할까?"
       },
       "subtitle": {
-        "zh": "系统化的冲坠练习方法",
-        "en": "A systematic approach to fall practice",
-        "ko": "체계적인 추락 연습 방법"
+        "zh": "冲坠物理学、渐进式练习和心理技巧帮你建立信心",
+        "en": "Fall physics, progressive practice, and mental techniques to build confidence",
+        "ko": "추락 물리학, 점진적 연습, 심리 기법으로 자신감 키우기"
       },
       "coverImage": null,
-      "readingTime": 9,
+      "readingTime": 12,
       "relatedKpIds": [
-        "kp-lead-falling"
+        "kp-attention-management",
+        "kp-belay-device",
+        "kp-belaying",
+        "kp-clipping-technique",
+        "kp-competition-anxiety",
+        "kp-desensitization",
+        "kp-fear-management",
+        "kp-flow-state",
+        "kp-harness",
+        "kp-lead-belay-indoor",
+        "kp-performance-mindset",
+        "kp-quickdraw",
+        "kp-rope",
+        "kp-warmup"
       ],
       "tags": [
-        "training",
-        "mental",
-        "lead"
+        "training"
       ],
-      "seo": null,
+      "seo": {
+        "metaTitle": {
+          "zh": "先锋冲坠恐惧克服指南 | 心理学 + 系统训练方法",
+          "en": "Overcome Lead Climbing Fear: Psychology & Systematic Training",
+          "ko": "리드 클라이밍 추락 공포 극복: 심리학과 체계적 훈련"
+        },
+        "metaDescription": {
+          "zh": "先锋攀登中的冲坠恐惧很正常。本文从物理学、心理学、渐进训练三个角度讲解如何系统性克服恐惧，包括呼吸技巧、动态保护、逐步暴露疗法。",
+          "en": "Lead climbing fear is common. Learn the psychology and physics behind fall anxiety, plus progressive exposure techniques, breathing exercises, and mental strategies.",
+          "ko": "리드 클라이밍 추락 공포 극복 가이드. 물리학, 심리학, 점진적 노출 기법을 통해 공포를 체계적으로 극복하는 방법을 배웁니다."
+        },
+        "keywords": [
+          "lead climbing",
+          "fear of falling",
+          "climbing psychology",
+          "sports psychology",
+          "progressive exposure"
+        ]
+      },
       "emoji": "🧠"
     },
     {
@@ -1385,22 +1504,64 @@
       "priority": 5,
       "title": {
         "zh": "怎么从室内过渡到户外？",
-        "en": "How to Transition from Indoor to Outdoor Climbing?",
-        "ko": "실내에서 아웃도어 클라이밍으로의 전환 방법"
+        "en": "How to Transition from Gym to Outdoor Climbing",
+        "ko": "실내에서 야외 클라이밍으로 전환하기"
       },
       "subtitle": {
-        "zh": "从岩馆到岩壁的关键差异与准备",
-        "en": "Key differences and preparation from gym to crag",
-        "ko": "짐에서 암벽까지의 핵심 차이와 준비"
+        "zh": "室内外差异、装备清单、找搭档和户外礼仪全攻略",
+        "en": "Indoor-outdoor differences, gear checklist, finding partners, and outdoor ethics",
+        "ko": "실내외 차이, 장비 체크리스트, 파트너 찾기, 아웃도어 에티켓"
       },
       "coverImage": null,
       "readingTime": 10,
-      "relatedKpIds": [],
-      "tags": [
-        "training",
-        "outdoor"
+      "relatedKpIds": [
+        "kp-anchor-building",
+        "kp-cams",
+        "kp-climbing-shoes",
+        "kp-crash-pad",
+        "kp-first-outdoor-trip",
+        "kp-harness",
+        "kp-helmet",
+        "kp-indoor-outdoor-diff",
+        "kp-leave-no-trace",
+        "kp-nuts-stoppers",
+        "kp-outdoor-bouldering-chars",
+        "kp-outdoor-sport-safety",
+        "kp-placing-protection",
+        "kp-quickdraw",
+        "kp-rappelling",
+        "kp-rock-types",
+        "kp-rope",
+        "kp-spotter",
+        "kp-weather-assessment"
       ],
-      "seo": null,
+      "tags": [
+        "training"
+      ],
+      "seo": {
+        "metaTitle": {
+          "zh": "从室内到户外攀岩：完整过渡指南",
+          "en": "Transitioning from Indoor to Outdoor Rock Climbing: Complete Guide",
+          "ko": "실내에서 실외 클라이밍으로의 전환: 완전 가이드"
+        },
+        "metaDescription": {
+          "zh": "学习从攀岩馆安全过渡到户外的必需技能。包括装备清单、锚点构建、选择指南和无痕原则。循序渐进地成为一名户外攀岩者。",
+          "en": "Learn essential skills for safely transitioning from indoor gym climbing to outdoor rock. Includes gear checklist, anchor building, route selection, and Leave No Trace ethics. Progress systematically to outdoor climbing.",
+          "ko": "실내 짐 클라이밍에서 실외 암벽으로 안전하게 전환하기 위한 필수 기술을 배우세요. 장비 체크리스트, 앵커 구축, 루트 선택 및 무흔 윤리를 포함합니다."
+        },
+        "keywords": [
+          "gym to outdoor",
+          "climbing transition",
+          "outdoor skills",
+          "anchor building",
+          "sport climbing",
+          "trad climbing",
+          "bouldering",
+          "protection placement",
+          "climbing gear",
+          "climbing ethics"
+        ]
+      },
       "emoji": "⛰️"
     },
     {
@@ -1410,24 +1571,64 @@
       "priority": 6,
       "title": {
         "zh": "campus board 什么时候可以开始练？",
-        "en": "When Can I Start Using the Campus Board?",
-        "ko": "캠퍼스 보드는 언제부터 시작할 수 있나요?"
+        "en": "When Should You Start Using a Campus Board?",
+        "ko": "캠퍼스 보드, 언제 시작해야 할까?"
       },
       "subtitle": {
-        "zh": "campus board 的适用时机和训练方法",
-        "en": "When it's appropriate and how to train on a campus board",
-        "ko": "캠퍼스 보드의 적절한 시기와 훈련 방법"
+        "zh": "准入标准、基础动作、训练协议和受伤风险全解析",
+        "en": "Readiness criteria, basic movements, training protocols, and injury risks explained",
+        "ko": "시작 기준, 기본 동작, 훈련 프로토콜, 부상 위험 분석"
       },
       "coverImage": null,
-      "readingTime": 8,
+      "readingTime": 11,
       "relatedKpIds": [
-        "kp-campus-board"
+        "kp-antagonist-training",
+        "kp-campus-moves",
+        "kp-campus-training",
+        "kp-coordination-timing",
+        "kp-dynamic-movement",
+        "kp-finger-assessment",
+        "kp-growth-plate-concerns",
+        "kp-hangboard-training",
+        "kp-periodization",
+        "kp-pulley-injury",
+        "kp-pulling-power",
+        "kp-system-wall",
+        "kp-warmup",
+        "kp-when-to-rest"
       ],
       "tags": [
-        "training",
-        "power"
+        "training"
       ],
-      "seo": null,
+      "seo": {
+        "metaTitle": {
+          "zh": "校园板什么时候开始练？完整指南 | 攀岩知识库",
+          "en": "When Should You Start Campus Board Training? Complete Guide",
+          "ko": "캠퍼스 보드 언제부터 시작할까? 완벽 가이드"
+        },
+        "metaDescription": {
+          "zh": "校园板是高效但高风险的训练工具。本文讲解年龄限制、经验要求、基础动作、受伤风险和替代训练方式，帮助你确定何时可以开始。",
+          "en": "Campus board training is highly effective but risky. Learn about age requirements, experience standards, foundational movements, injury prevention, and alternative methods to determine when you're ready to start.",
+          "ko": "캠퍼스 보드는 효율적이지만 위험한 훈련 도구입니다. 나이 요건, 경험 기준, 기초 동작, 손상 예방, 대체 방법을 배우고 언제 시작할 준비가 되었는지 판단하세요."
+        },
+        "keywords": [
+          "campus board",
+          "explosive power",
+          "climbing training",
+          "finger injury prevention",
+          "pulley injury",
+          "contact strength",
+          "youth climbing",
+          "growth plate",
+          "校园板",
+          "指力跳",
+          "爆发力训练",
+          "滑车韧带",
+          "캠퍼스 보드",
+          "풀리 손상",
+          "폭발력"
+        ]
+      },
       "emoji": "🪜"
     },
     {
@@ -1437,24 +1638,68 @@
       "priority": 7,
       "title": {
         "zh": "肩膀/手肘疼是怎么回事？",
-        "en": "Why Do My Shoulders/Elbows Hurt?",
-        "ko": "어깨/팔꿈치가 아픈 이유는?"
+        "en": "Shoulder and Elbow Pain in Climbing: Causes and Solutions",
+        "ko": "어깨/팔꿈치 통증의 원인과 해결법"
       },
       "subtitle": {
-        "zh": "上肢常见伤病的预防与处理",
-        "en": "Prevention and treatment of common upper body injuries",
-        "ko": "상체 흔한 부상의 예방과 처리"
+        "zh": "肩峰撞击、肘部肌腱炎的识别、康复和预防策略",
+        "en": "Identifying, rehabilitating, and preventing shoulder impingement and elbow tendonitis",
+        "ko": "충돌 증후군, 팔꿈치 건염의 진단, 재활 및 예방 전략"
       },
       "coverImage": null,
-      "readingTime": 9,
+      "readingTime": 13,
       "relatedKpIds": [
-        "kp-shoulder-injuries"
+        "kp-antagonist-training",
+        "kp-core-training",
+        "kp-gymnastic-rings",
+        "kp-hip-flexibility",
+        "kp-injury-assessment",
+        "kp-rehab-mistakes",
+        "kp-rehab-programs",
+        "kp-return-criteria",
+        "kp-shoulder-injury",
+        "kp-shoulder-mobility",
+        "kp-shoulder-stability",
+        "kp-tendonitis",
+        "kp-warmup",
+        "kp-warmup-stretching"
       ],
       "tags": [
-        "training",
-        "injury"
+        "training"
       ],
-      "seo": null,
+      "seo": {
+        "metaTitle": {
+          "zh": "攀岩者肩肘疼痛：原因、康复和预防指南",
+          "en": "Climber's Shoulder and Elbow Pain: Causes, Recovery, and Prevention Guide",
+          "ko": "클라이머의 어깨 팔꿈치 통증: 원인, 회복, 예방 가이드"
+        },
+        "metaDescription": {
+          "zh": "全面了解攀岩中常见的肩肘疼痛问题。学习如何识别急性和慢性伤病、基础康复策略、拮抗肌训练预防伤病，以及何时就医。包含针对中国、美国和韩国患者的就医建议。",
+          "en": "Comprehensive guide to shoulder and elbow pain in climbers. Learn to identify acute vs. chronic injuries, rehabilitation protocols, antagonist training for prevention, and when to seek medical help. Includes medical referral guidance for US, European, and other regions.",
+          "ko": "클라이머의 어깨 팔꿈치 통증에 대한 종합 가이드. 급성 vs. 만성 부상 식별, 재활 프로토콜, 길항근 훈련을 통한 예방, 의료 도움이 필요한 시기를 학습합니다. 한국을 포함한 여러 지역의 의료 진료 지침 포함."
+        },
+        "keywords": [
+          "shoulder pain climbing",
+          "elbow pain climber",
+          "rotator cuff injury",
+          "impingement",
+          "tendonitis",
+          "climbing rehabilitation",
+          "injury prevention",
+          "antagonist training",
+          "sports medicine",
+          "physical therapy",
+          "攀岩肩痛",
+          "攀岩肘痛",
+          "肩袖损伤",
+          "肌腱炎",
+          "康复训练",
+          "어깨 통증",
+          "팔꿈치 통증",
+          "클라이밍 부상",
+          "재활"
+        ]
+      },
       "emoji": "🩺"
     },
     {
@@ -1464,22 +1709,66 @@
       "priority": 8,
       "title": {
         "zh": "怎么分析自己的弱点在哪里？",
-        "en": "How to Identify Your Weaknesses?",
-        "ko": "자신의 약점을 어떻게 분석하나요?"
+        "en": "How to Identify Your Climbing Weaknesses",
+        "ko": "자신의 약점을 분석하는 방법"
       },
       "subtitle": {
-        "zh": "自我评估方法与针对性训练",
-        "en": "Self-assessment methods and targeted training",
-        "ko": "자기 평가 방법과 맞춤형 훈련"
+        "zh": "五维度弱点框架、具体测试方法和针对性训练方案",
+        "en": "Five-dimension weakness framework, specific tests, and targeted training plans",
+        "ko": "5차원 약점 프레임워크, 구체적 테스트, 맞춤형 훈련 계획"
       },
       "coverImage": null,
-      "readingTime": 8,
-      "relatedKpIds": [],
-      "tags": [
-        "training",
-        "assessment"
+      "readingTime": 9,
+      "relatedKpIds": [
+        "kp-core-training",
+        "kp-endurance-types",
+        "kp-fear-management",
+        "kp-finger-assessment",
+        "kp-goal-setting",
+        "kp-grip-types",
+        "kp-hangboard-training",
+        "kp-hip-flexibility",
+        "kp-performance-mindset",
+        "kp-periodization",
+        "kp-plateau-breaking",
+        "kp-projecting-strategy",
+        "kp-pulling-power",
+        "kp-pushing-power",
+        "kp-route-reading-basics",
+        "kp-shoulder-stability",
+        "kp-training-log"
       ],
-      "seo": null,
+      "tags": [
+        "training"
+      ],
+      "seo": {
+        "metaTitle": {
+          "zh": "攀岩弱点分析：5维度框架找到真正的限制因素",
+          "en": "Climbing Weakness Analysis: 5-Dimension Framework to Find Your Real Limitations",
+          "ko": "암벽 약점 분석: 당신의 실제 제한 요소를 찾는 5가지 차원 프레임워크"
+        },
+        "metaDescription": {
+          "zh": "学习如何系统分析攀岩弱点：技术、力量、体能、心理和战术五个维度。掌握视频分析、外部反馈、体能测试等诊断方法，制定针对性训练计划。",
+          "en": "Learn how to systematically analyze your climbing weaknesses across five dimensions: technique, strength, capacity, psychology, and tactics. Master video analysis, peer feedback, and standardized testing methods to create targeted training.",
+          "ko": "기술, 힘, 체력, 심리, 전술의 5가지 차원에서 암벽 약점을 체계적으로 분석하는 방법을 배우십시오. 영상 분석, 동료 피드백 및 표준 테스트 방법으로 맞춤형 훈련을 개발하세요."
+        },
+        "keywords": [
+          "climbing weakness",
+          "self-assessment",
+          "training analysis",
+          "performance evaluation",
+          "technique improvement",
+          "strength training",
+          "endurance testing",
+          "video analysis",
+          "攀岩弱点",
+          "自我评估",
+          "训练分析",
+          "성능 평가",
+          "기술 개선",
+          "암벽 약점 분석"
+        ]
+      },
       "emoji": "🔍"
     },
     {
@@ -1489,22 +1778,63 @@
       "priority": 1,
       "title": {
         "zh": "攀岩的人吃什么？需要特殊饮食吗？",
-        "en": "What Do Climbers Eat? Do I Need a Special Diet?",
-        "ko": "클라이머는 무엇을 먹나요? 특별한 식단이 필요한가요?"
+        "en": "Climbing Nutrition: What Should Climbers Eat?",
+        "ko": "클라이머는 뭘 먹어야 할까? 특별한 식단이 필요할까?"
       },
       "subtitle": {
-        "zh": "攀岩者的营养指南",
-        "en": "A nutrition guide for climbers",
-        "ko": "클라이머를 위한 영양 가이드"
+        "zh": "攀爬前中后的饮食建议、宏量营养素比例和水分补充指南",
+        "en": "Pre-, mid-, and post-climb nutrition tips, macronutrient ratios, and hydration guidelines",
+        "ko": "등반 전·중·후 식단 조언, 영양소 비율, 수분 보충 가이드"
       },
       "coverImage": null,
       "readingTime": 8,
-      "relatedKpIds": [],
-      "tags": [
-        "outdoor",
-        "nutrition"
+      "relatedKpIds": [
+        "kp-climber-nutrition",
+        "kp-endurance-types",
+        "kp-hydration",
+        "kp-long-route-endurance",
+        "kp-sleep-recovery",
+        "kp-weight-management"
       ],
-      "seo": null,
+      "tags": [
+        "outdoor"
+      ],
+      "seo": {
+        "metaTitle": {
+          "zh": "攀岩营养指南：均衡饮食 VS 极端食谱",
+          "en": "Climbing Nutrition Guide: Balanced Diet vs. Extreme Diets",
+          "ko": "클라이밍 영양 가이드: 균형 잡힌 식단 vs 극단적 식단"
+        },
+        "metaDescription": {
+          "zh": "攀岩者需要特殊饮食吗？本文揭示攀岩营养的真相：不需要极端食谱，只需均衡补给。了解攀爬前后的饮食建议、宏量营养素比例、水分补充和比赛日特殊补给。",
+          "en": "Do climbers need a special diet? Learn the truth about climbing nutrition: no extreme diets required, just smart balanced fueling. Discover pre/post-climb meal timing, macronutrient ratios, hydration strategies, and competition-day nutrition tips.",
+          "ko": "클라이머는 특별한 식단이 필요할까? 클라이밍 영양의 진실을 배우세요: 극단적 식단은 필요 없고, 똑똑한 균형 잡힌 보충만 필요합니다. 클라이밍 전후 식사 타이밍, 대량 영양분 비율, 수분 보충 전략, 대회 날 영양 팁을 알아봅시다."
+        },
+        "keywords": [
+          "climbing nutrition",
+          "climber diet",
+          "rock climbing calories",
+          "pre-climb meal",
+          "post-climb recovery",
+          "climbing hydration",
+          "carbohydrates for climbing",
+          "protein for climbers",
+          "climbing nutrition science",
+          "energy expenditure climbing",
+          "클라이밍 영양",
+          "클라이머 식단",
+          "클라이밍 칼로리",
+          "클라이밍 전 식사",
+          "클라이밍 회복",
+          "공용 영양",
+          "攀岩营养",
+          "攀登者饮食",
+          "攀岩热量消耗",
+          "攀爬前饮食",
+          "攀爬后恢复",
+          "攀岩补水"
+        ]
+      },
       "emoji": "🍎"
     },
     {
@@ -1513,25 +1843,51 @@
       "category": "outdoor",
       "priority": 2,
       "title": {
-        "zh": "手皮管理：怎么处理茧/裂口？",
-        "en": "Skin Care: How to Manage Calluses and Flappers?",
-        "ko": "피부 관리: 굳은살과 갈라짐은 어떻게 관리하나요?"
+        "zh": "手皮管理：怎么处理茧和裂口？",
+        "en": "Skin Care for Climbers: Managing Calluses and Flappers",
+        "ko": "클라이머 손 관리: 굳은살과 플래퍼 대처법"
       },
       "subtitle": {
-        "zh": "攀岩者的手部皮肤护理全攻略",
-        "en": "The complete hand skin care guide for climbers",
-        "ko": "클라이머를 위한 완벽한 손 피부 관리 가이드"
+        "zh": "日常打磨保湿、攀爬中的胶布技巧和季节性护理方案",
+        "en": "Daily sanding and moisturizing, taping techniques, and seasonal skin care routines",
+        "ko": "일상 관리, 테이핑 기법, 계절별 피부 관리 루틴"
       },
       "coverImage": null,
-      "readingTime": 6,
+      "readingTime": 9,
       "relatedKpIds": [
-        "kp-skin-care"
+        "kp-climber-nutrition",
+        "kp-hydration",
+        "kp-skin-management",
+        "kp-sleep-recovery",
+        "kp-when-to-rest"
       ],
       "tags": [
-        "outdoor",
-        "recovery"
+        "outdoor"
       ],
-      "seo": null,
+      "seo": {
+        "metaTitle": {
+          "zh": "手皮管理：攀岩者的护理完全指南",
+          "en": "Climber's Hand Skin Care: Complete Guide to Calluses and Flappers",
+          "ko": "클라이머의 손 피부 관리: 굳은살과 플래퍼 완전 가이드"
+        },
+        "metaDescription": {
+          "zh": "学会护理你的攀岩手皮：如何打磨老茧、防止皮瓣撕裂、保持手皮健康。涵盖日常保养、应急处理和季节护理差异。",
+          "en": "Complete guide to climbing hand skin care including callus management, preventing flappers, moisturizing routines, and recovery strategies for climbers.",
+          "ko": "굳은살 관리부터 플래퍼 예방, 보습 루틴, 회복 전략까지 클라이머의 손 피부 관리 완전 가이드입니다."
+        },
+        "keywords": [
+          "callus management",
+          "flapper prevention",
+          "climbing hand care",
+          "skin moisturizing",
+          "climber injury prevention",
+          "老茧护理",
+          "皮瓣撕裂",
+          "攀岩手皮",
+          "손 피부 관리",
+          "플래퍼 예방"
+        ]
+      },
       "emoji": "🧴"
     },
     {
@@ -1541,22 +1897,60 @@
       "priority": 3,
       "title": {
         "zh": "世界上有哪些值得去的攀岩胜地？",
-        "en": "Best Climbing Destinations Around the World",
-        "ko": "세계 최고의 클라이밍 여행지는?"
+        "en": "The Best Climbing Destinations Around the World",
+        "ko": "세계 최고의 클라이밍 여행지는 어디?"
       },
       "subtitle": {
-        "zh": "全球攀岩圣地推荐与旅行指南",
-        "en": "A guide to the world's best climbing destinations",
-        "ko": "세계 최고의 클라이밍 여행지 가이드"
+        "zh": "从阳朔到枫丹白露，全球经典攀岩目的地巡礼",
+        "en": "From Yosemite to Kalymnos — a tour of the world's iconic climbing spots",
+        "ko": "북한산에서 퐁텐블로까지 — 전 세계 클라이밍 명소 투어"
       },
       "coverImage": null,
-      "readingTime": 12,
-      "relatedKpIds": [],
-      "tags": [
-        "outdoor",
-        "travel"
+      "readingTime": 7,
+      "relatedKpIds": [
+        "kp-area-exploration",
+        "kp-classic-destinations",
+        "kp-climbing-ethics",
+        "kp-first-outdoor-trip",
+        "kp-grading-systems",
+        "kp-leave-no-trace",
+        "kp-outdoor-bouldering-chars",
+        "kp-outdoor-sport-safety",
+        "kp-rock-types",
+        "kp-slab-technique",
+        "kp-weather-assessment"
       ],
-      "seo": null,
+      "tags": [
+        "outdoor"
+      ],
+      "seo": {
+        "metaTitle": {
+          "zh": "世界攀岩胜地大盘点：值得去的8大经典目的地",
+          "en": "Best Rock Climbing Destinations: Yosemite, Red River Gorge & More",
+          "ko": "세계 최고의 암벽 등반지: 요세미티, 폰테인블로와 더 많은 목적지"
+        },
+        "metaDescription": {
+          "zh": "探索全球顶级攀岩目的地，从中国阳朔到法国枫丹白露、美国约塞美蒂谷，每个地方都有独特的风景、岩壁风格和最佳攀岩季节。获取旅行准备建议和必知的攀岩伦理准则。",
+          "en": "Discover the world's best rock climbing destinations including Yosemite Valley, Red River Gorge, Fontainebleau, Kalymnos, and more. Find guides on climbing seasons, difficulty ranges, and preparation tips for your next climbing adventure.",
+          "ko": "요세미티, 폰테인블로, 칼리므노스, 북한산 등 세계 최고의 암벽 등반지를 발견하세요. 각 목적지의 최적 시즌, 난이도, 여행 준비 팁을 알아보세요."
+        },
+        "keywords": [
+          "rock climbing destinations",
+          "climbing trips",
+          "Yosemite climbing",
+          "Fontainebleau bouldering",
+          "Red River Gorge",
+          "Kalymnos Greece",
+          "climbing travel",
+          "best climbing spots",
+          "攀岩目的地",
+          "阳朔攀岩",
+          "枫丹白露",
+          "암벽 등반지",
+          "요세미티",
+          "폰테인블로"
+        ]
+      },
       "emoji": "🌍"
     },
     {
@@ -1566,24 +1960,57 @@
       "priority": 4,
       "title": {
         "zh": "攀岩等级怎么看？V 几是什么意思？",
-        "en": "Understanding Climbing Grades: What Does V-Scale Mean?",
-        "ko": "클라이밍 등급은 어떻게 보나요? V 등급이란?"
+        "en": "Climbing Grades Explained: What Does V4 or 5.10 Mean?",
+        "ko": "클라이밍 등급 완전 해설: V등급과 5.10의 의미"
       },
       "subtitle": {
-        "zh": "各国等级系统全解析",
-        "en": "A complete guide to grading systems worldwide",
-        "ko": "전 세계 등급 시스템 완전 분석"
+        "zh": "V 等级、YDS、法国等级的完整对照和实用解读",
+        "en": "A complete guide to V Scale, YDS, and French grades with conversion charts",
+        "ko": "V등급, YDS, 프렌치 등급의 완전 비교와 실전 해설"
       },
       "coverImage": null,
-      "readingTime": 7,
+      "readingTime": 14,
       "relatedKpIds": [
-        "kp-grading-systems"
+        "kp-bouldering-fall",
+        "kp-climbing-categories",
+        "kp-grade-comparison",
+        "kp-onsight-flash-redpoint",
+        "kp-performance-mindset",
+        "kp-projecting-strategy",
+        "kp-route-reading-basics"
       ],
       "tags": [
-        "outdoor",
-        "grading"
+        "outdoor"
       ],
-      "seo": null,
+      "seo": {
+        "metaTitle": {
+          "zh": "攀岩等级系统完全指南：V级、YDS、法国等级怎么看",
+          "en": "Complete Guide to Rock Climbing Grades: Understanding V-Scale, YDS, and French Grades",
+          "ko": "암벽 등급 시스템 완벽 가이드: V 그레이드, YDS, 프랑스 등급 이해하기"
+        },
+        "metaDescription": {
+          "zh": "新手攀岩者的等级系统入门指南。解析V级、YDS、法国等级系统，了解等级之间的对应关系，以及为什么等级具有主观性。",
+          "en": "Complete guide to climbing grades for beginners. Learn about V-Scale for bouldering, YDS for sport climbing, and how grades compare. Understand why grades are subjective and how to use them effectively.",
+          "ko": "초보 클라이머를 위한 등급 시스템 완벽 가이드. V 그레이드, YDS, 프랑스 등급을 이해하고 등급 간 대응 관계를 배우세요."
+        },
+        "keywords": [
+          "rock climbing grades",
+          "V scale",
+          "YDS",
+          "bouldering grades",
+          "sport climbing grades",
+          "climbing grade conversion",
+          "French climbing grades",
+          "indoor climbing grades",
+          "outdoor climbing grades",
+          "攀岩等级",
+          "V级",
+          "抱石",
+          "암벽등급",
+          "V그레이드",
+          "클라이밍"
+        ]
+      },
       "emoji": "📊"
     }
   ]

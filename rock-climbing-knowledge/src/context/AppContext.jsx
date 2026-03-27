@@ -15,10 +15,25 @@ export function AppProvider({ children }) {
   const [searchIndexLoose, setSearchIndexLoose] = useState(null)
   const [searchReady, setSearchReady] = useState(false)
   const [lang, setLang] = useState(() => localStorage.getItem('lang') || 'zh')
+  const [theme, setTheme] = useState(() => {
+    const saved = localStorage.getItem('theme')
+    if (saved) return saved
+    return window.matchMedia?.('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
+  })
 
   useEffect(() => {
     localStorage.setItem('lang', lang)
   }, [lang])
+
+  useEffect(() => {
+    localStorage.setItem('theme', theme)
+    const root = document.documentElement
+    if (theme === 'dark') {
+      root.classList.add('dark')
+    } else {
+      root.classList.remove('dark')
+    }
+  }, [theme])
 
   const loadSectionData = useCallback(async (sectionId) => {
     if (loadedSections[sectionId]) return loadedSections[sectionId]
@@ -193,6 +208,8 @@ export function AppProvider({ children }) {
       searchReady,
       lang,
       setLang,
+      theme,
+      setTheme,
       t,
       getKpRoute
     }}>

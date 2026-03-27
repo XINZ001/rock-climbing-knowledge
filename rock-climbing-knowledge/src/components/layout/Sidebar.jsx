@@ -2,6 +2,7 @@ import { useState, useEffect, useRef } from 'react'
 import { Link, useLocation, useParams, useNavigate } from 'react-router-dom'
 import { useApp } from '../../context/AppContext'
 import { Icon } from '../../utils/icons'
+import ThemeToggle from '../ui/ThemeToggle'
 
 const langOptions = [
   { code: 'zh', label: '中文' },
@@ -24,7 +25,7 @@ function MobileLangDropdown({ lang, setLang }) {
   const current = langOptions.find((o) => o.code === lang) || langOptions[0]
 
   return (
-    <div ref={ref} className="relative lg:hidden px-3 py-2 mt-auto border-t border-stone-border flex justify-end">
+    <div ref={ref} className="relative flex justify-end">
       <button
         onClick={() => setOpen(!open)}
         className="inline-flex items-center gap-1.5 px-2.5 py-1.5 rounded-md border border-stone-border text-xs font-medium hover:bg-stone-bg transition-colors"
@@ -132,7 +133,7 @@ export default function Sidebar({ onNavigate }) {
         to="/articles"
         onClick={onNavigate}
         className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
-          articlesActive ? 'bg-forest-light text-forest' : 'hover:bg-stone-bg'
+          articlesActive ? 'bg-teal-light text-teal' : 'hover:bg-stone-bg'
         }`}
       >
         <Icon name="fileText" size={16} />
@@ -143,7 +144,7 @@ export default function Sidebar({ onNavigate }) {
         to="/hall-of-fame"
         onClick={onNavigate}
         className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
-          hallOfFameActive ? 'bg-forest-light text-forest' : 'hover:bg-stone-bg'
+          hallOfFameActive ? 'bg-gold-light text-gold' : 'hover:bg-stone-bg'
         }`}
       >
         <Icon name="trophy" size={16} />
@@ -227,8 +228,11 @@ export default function Sidebar({ onNavigate }) {
         })}
       </div>
 
-      {/* 语言切换 — 仅移动端可见（桌面端在 Header 中） */}
-      <MobileLangDropdown lang={lang} setLang={setLang} />
+      {/* 语言切换 + 暗色模式 — 仅移动端可见（桌面端在 Header 中） */}
+      <div className="lg:hidden px-3 py-2 mt-auto border-t border-stone-border flex items-center justify-between">
+        <ThemeToggle size={18} className="w-8 h-8" />
+        <MobileLangDropdown lang={lang} setLang={setLang} />
+      </div>
     </nav>
   )
 }

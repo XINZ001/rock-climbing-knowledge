@@ -226,14 +226,14 @@ export default function HomePage() {
 
       {/* ==================== 2. 攀岩专栏 ==================== */}
       <div className="relative mb-10 overflow-hidden rounded-[1.75rem] border border-stone-border bg-stone-card shadow-sm">
-        <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_top_left,_rgba(74,124,89,0.16),_transparent_38%),radial-gradient(circle_at_bottom_right,_rgba(0,150,136,0.12),_transparent_40%)]" />
+        <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_top_left,_rgba(91,127,191,0.20),_transparent_38%),radial-gradient(circle_at_bottom_right,_rgba(74,107,166,0.16),_transparent_40%)]" />
 
         {/* Banner header */}
         <div className="relative px-6 py-6 sm:px-8">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
             <div>
               <h2 className="text-2xl font-bold flex items-center gap-2">
-                <Icon name="fileText" size={22} style={{ color: '#00897B' }} />
+                <Icon name="fileText" size={22} className="text-teal" />
                 {lang === 'zh' ? '攀岩专栏' : lang === 'en' ? 'Climbing Column' : '클라이밍 칼럼'}
               </h2>
               <p className="mt-1.5 text-sm text-text-secondary leading-relaxed max-w-2xl">
@@ -246,7 +246,7 @@ export default function HomePage() {
             </div>
             <Link
               to="/articles"
-              className="flex items-center gap-1.5 text-sm font-medium text-forest hover:underline shrink-0"
+              className="flex items-center gap-1.5 text-sm font-medium text-teal hover:underline shrink-0"
             >
               {lang === 'zh' ? `查看全部 ${articleRegistry.articles.length} 篇 →` : lang === 'en' ? `View all ${articleRegistry.articles.length} articles →` : `전체 ${articleRegistry.articles.length}편 보기 →`}
             </Link>
@@ -283,7 +283,7 @@ export default function HomePage() {
                     </Link>
                   </div>
                   {/* 2 article cards side by side */}
-                  <div className="grid grid-cols-2 gap-3">
+                  <div className="grid grid-cols-2 gap-3 flex-1">
                     {catArticles.slice(0, 2).map(article => (
                       <ArticleCard key={article.id} article={article} variant="small" />
                     ))}
@@ -297,14 +297,14 @@ export default function HomePage() {
 
       {/* ==================== 3. 攀岩名人堂 ==================== */}
       <div className="relative mb-10 overflow-hidden rounded-[1.75rem] border border-stone-border bg-stone-card shadow-sm">
-        <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_top_left,_rgba(199,161,42,0.22),_transparent_38%),radial-gradient(circle_at_bottom_right,_rgba(74,124,89,0.18),_transparent_40%)]" />
+        <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_top_left,_rgba(166,138,42,0.22),_transparent_38%),radial-gradient(circle_at_bottom_right,_rgba(140,116,34,0.16),_transparent_40%)]" />
 
         {/* Banner header */}
         <div className="relative px-6 py-6 sm:px-8">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
             <div>
               <h2 className="text-2xl font-bold flex items-center gap-2">
-                <Icon name="trophy" size={22} style={{ color: '#9A7B2A' }} />
+                <Icon name="trophy" size={22} className="text-gold" />
                 {lang === 'zh' ? '攀岩名人堂' : lang === 'en' ? 'Climbing Hall of Fame' : '클라이밍 명예의 전당'}
               </h2>
               <p className="mt-1.5 text-sm text-text-secondary leading-relaxed max-w-2xl">
@@ -317,7 +317,7 @@ export default function HomePage() {
             </div>
             <Link
               to="/hall-of-fame"
-              className="flex items-center gap-1.5 text-sm font-medium text-forest hover:underline shrink-0"
+              className="flex items-center gap-1.5 text-sm font-medium text-gold hover:underline shrink-0"
             >
               {lang === 'zh' ? `查看全部 ${allAthletes.length} 位` : lang === 'en' ? `View all ${allAthletes.length}` : `전체 ${allAthletes.length}명 보기`}
               <span>→</span>
@@ -400,7 +400,7 @@ export default function HomePage() {
 
       {/* ==================== 4. 伤痛档案 ==================== */}
       <div className="relative mb-6 overflow-hidden rounded-[1.75rem] border border-stone-border bg-stone-card shadow-sm">
-        <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_top_left,_rgba(212,145,61,0.18),_transparent_38%),radial-gradient(circle_at_bottom_right,_rgba(180,60,60,0.14),_transparent_40%)]" />
+        <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_top_left,_rgba(196,91,82,0.18),_transparent_38%),radial-gradient(circle_at_bottom_right,_rgba(168,75,67,0.14),_transparent_40%)]" />
 
         {/* Banner header */}
         <div className="relative px-6 py-6 sm:px-8">

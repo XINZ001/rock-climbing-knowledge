@@ -114,7 +114,7 @@ export default function AthletePage() {
       <section
         className="mt-5 overflow-hidden rounded-[2rem] border border-stone-border bg-stone-card shadow-sm"
         style={{
-          background: `linear-gradient(135deg, ${hexToRgba(athlete.accentColor, 0.18)} 0%, rgba(255,255,255,1) 74%)`
+          background: `linear-gradient(135deg, ${hexToRgba(athlete.accentColor, 0.18)} 0%, var(--color-stone-card) 74%)`
         }}
       >
         <div className="relative px-6 py-8 sm:px-8 sm:py-10">
@@ -146,7 +146,7 @@ export default function AthletePage() {
           )}
 
           <div className="relative z-10 max-w-4xl">
-            <div className="inline-flex rounded-full border border-white/70 bg-white/70 px-3 py-1 text-xs font-semibold text-text-secondary">
+            <div className="inline-flex rounded-full border border-stone-border bg-stone-card/70 px-3 py-1 text-xs font-semibold text-text-secondary">
               {t(hallOfFameCategories[getTabKeyForAthlete(athlete)] ?? hallOfFameMainCategories[athlete.category])}
             </div>
 
@@ -178,7 +178,7 @@ export default function AthletePage() {
 
           <div className="relative z-10 mt-8 grid grid-cols-1 gap-3 md:grid-cols-3">
             {athlete.heroStats.map((stat) => (
-              <div key={t(stat.label)} className="rounded-2xl bg-white/85 px-4 py-4">
+              <div key={t(stat.label)} className="rounded-2xl bg-stone-card/85 px-4 py-4">
                 <div className="text-xs uppercase tracking-[0.18em] text-text-secondary">
                   {t(stat.label)}
                 </div>

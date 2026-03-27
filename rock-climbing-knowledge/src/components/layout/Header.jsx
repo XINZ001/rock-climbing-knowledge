@@ -4,6 +4,7 @@ import { useApp } from '../../context/AppContext'
 import { useAuth } from '../../context/AuthContext'
 import { Icon } from '../../utils/icons'
 import UserAvatar from '../ui/UserAvatar'
+import ThemeToggle from '../ui/ThemeToggle'
 
 function UserMenu() {
   const { profile, signOut } = useAuth()
@@ -129,19 +130,22 @@ export default function Header({ onToggleSidebar, onOpenAuth }) {
 
   // 判断当前板块用于高亮
   const isKnowledge = location.pathname === '/knowledge' || location.pathname.startsWith('/section') || location.pathname.startsWith('/search')
+  const isArticles = location.pathname.startsWith('/articles')
   const isHallOfFame = location.pathname.startsWith('/hall-of-fame')
   const isInjuries = location.pathname.startsWith('/injuries')
 
   const navLabels = {
     knowledge: { zh: '知识库', en: 'Knowledge', ko: '지식' },
+    articles: { zh: '专栏', en: 'Column', ko: '칼럼' },
     hallOfFame: { zh: '名人堂', en: 'Hall of Fame', ko: '명예의 전당' },
     injuries: { zh: '伤痛档案', en: 'Injury Archive', ko: '부상 기록' },
   }
 
   const navItems = [
-    { label: navLabels.knowledge[lang] || navLabels.knowledge.zh, to: '/knowledge', active: isKnowledge, icon: 'book' },
-    { label: navLabels.hallOfFame[lang] || navLabels.hallOfFame.zh, to: '/hall-of-fame', active: isHallOfFame, icon: 'trophy' },
-    { label: navLabels.injuries[lang] || navLabels.injuries.zh, to: '/injuries', active: isInjuries, icon: 'medkit' },
+    { label: navLabels.knowledge[lang] || navLabels.knowledge.zh, to: '/knowledge', active: isKnowledge, icon: 'book', color: 'forest' },
+    { label: navLabels.articles[lang] || navLabels.articles.zh, to: '/articles', active: isArticles, icon: 'fileText', color: 'teal' },
+    { label: navLabels.hallOfFame[lang] || navLabels.hallOfFame.zh, to: '/hall-of-fame', active: isHallOfFame, icon: 'trophy', color: 'gold' },
+    { label: navLabels.injuries[lang] || navLabels.injuries.zh, to: '/injuries', active: isInjuries, icon: 'medkit', color: 'amber' },
   ]
 
   return (
@@ -163,26 +167,38 @@ export default function Header({ onToggleSidebar, onOpenAuth }) {
 
         {/* 中间：三个顶级导航按钮居中 — 桌面端 */}
         <nav className="hidden lg:flex items-center justify-center gap-1 flex-1">
-          {navItems.map((item) => (
-            <Link
-              key={item.to}
-              to={item.to}
-              className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium whitespace-nowrap transition-colors ${
-                item.active
-                  ? 'bg-forest-light text-forest'
-                  : 'text-text-secondary hover:bg-stone-bg hover:text-text-primary'
-              }`}
-            >
-              <Icon name={item.icon} size={14} />
-              {item.label}
-            </Link>
-          ))}
+          {navItems.map((item) => {
+            const colorMap = {
+              forest: 'bg-forest-light text-forest',
+              teal: 'bg-teal-light text-teal',
+              gold: 'bg-gold-light text-gold',
+              amber: 'bg-amber-light text-amber',
+            }
+            const activeClass = colorMap[item.color] || colorMap.forest
+            return (
+              <Link
+                key={item.to}
+                to={item.to}
+                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium whitespace-nowrap transition-colors ${
+                  item.active
+                    ? activeClass
+                    : 'text-text-secondary hover:bg-stone-bg hover:text-text-primary'
+                }`}
+              >
+                <Icon name={item.icon} size={14} />
+                {item.label}
+              </Link>
+            )
+          })}
         </nav>
 
         {/* 右侧 */}
         <div className="flex items-center gap-2 shrink-0 ml-auto lg:ml-0">
           {/* 语言切换 — 桌面端 */}
           <LanguageDropdown lang={lang} setLang={setLang} />
+
+          {/* 暗色模式切换 — 桌面端 */}
+          <ThemeToggle size={18} className="hidden lg:flex w-8 h-8" />
 
           {/* 登录状态 */}
           {!loading && (

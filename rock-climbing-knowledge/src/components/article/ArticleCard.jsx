@@ -92,13 +92,11 @@ export default function ArticleCard({ article, variant = 'small' }) {
         </h3>
 
         {/* Subtitle */}
-        {article.subtitle && (
-          <p className={`text-text-secondary line-clamp-${isLarge ? '2' : '1'} ${
-            isLarge ? 'text-sm mb-2' : 'text-xs mb-1.5'
-          }`}>
-            {t(article.subtitle)}
-          </p>
-        )}
+        <p className={`text-text-secondary flex-1 ${
+          isLarge ? 'text-sm mb-2 line-clamp-2' : 'text-xs mb-1.5 line-clamp-1'
+        }`}>
+          {article.subtitle ? t(article.subtitle) : '\u00A0'}
+        </p>
 
         {/* Meta */}
         <div className="mt-auto flex items-center gap-2 text-xs text-text-secondary">

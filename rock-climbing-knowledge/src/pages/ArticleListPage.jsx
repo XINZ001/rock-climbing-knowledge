@@ -33,16 +33,22 @@ export default function ArticleListPage() {
   }, [articles, categories])
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-8">
+    <div className="relative">
       <PageSEO
         path="/articles"
         title={lang === 'zh' ? '攀岩专栏 | 攀岩知识库' : lang === 'en' ? 'Climbing Column | Climbing Knowledge Base' : '클라이밍 칼럼 | 클라이밍 지식 라이브러리'}
       />
 
+      {/* 全景渐变背景 — teal 色系 */}
+      <div className="absolute inset-x-0 top-0 h-[320px] bg-[radial-gradient(circle_at_top_left,_rgba(91,127,191,0.18),_transparent_50%),radial-gradient(circle_at_top_right,_rgba(74,107,166,0.14),_transparent_45%)] pointer-events-none" />
+      <div className="absolute inset-x-0 top-[240px] h-[80px] bg-gradient-to-b from-transparent to-stone-bg pointer-events-none" />
+
+      <div className="relative max-w-4xl mx-auto px-4 pt-10 pb-8">
+
       {/* Back link */}
       <Link
         to="/"
-        className="inline-flex items-center gap-1.5 text-sm text-text-secondary hover:text-forest transition-colors mb-6"
+        className="inline-flex items-center gap-1.5 text-sm text-text-secondary hover:text-teal transition-colors mb-6"
       >
         <Icon name="chevronLeft" size={16} />
         {lang === 'zh' ? '首页' : lang === 'en' ? 'Home' : '홈'}
@@ -50,14 +56,14 @@ export default function ArticleListPage() {
 
       {/* Page header */}
       <div className="mb-10">
-        <h1 className="text-3xl font-bold flex items-center gap-3 mb-2">
-          <Icon name="fileText" size={28} style={{ color: '#00897B' }} />
+        <h1 className="text-3xl sm:text-4xl font-bold flex items-center gap-3 tracking-tight">
+          <Icon name="fileText" size={28} className="text-teal" />
           {lang === 'zh' ? '攀岩专栏' : lang === 'en' ? 'Climbing Column' : '클라이밍 칼럼'}
         </h1>
         {lang === 'zh' && (
-          <p className="text-sm text-text-secondary mt-0.5">Climbing Column</p>
+          <p className="text-sm text-text-secondary mt-1">Climbing Column</p>
         )}
-        <p className="text-sm text-text-secondary mt-2 leading-relaxed max-w-2xl">
+        <p className="mt-3 text-base sm:text-lg text-text-secondary leading-relaxed max-w-2xl">
           {lang === 'zh'
             ? '深度解答攀岩者最关心的问题——从入门到进阶的必读指南'
             : lang === 'en'
@@ -148,6 +154,7 @@ export default function ArticleListPage() {
             </section>
           )
         })}
+      </div>
       </div>
     </div>
   )

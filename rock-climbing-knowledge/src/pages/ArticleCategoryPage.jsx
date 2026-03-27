@@ -44,16 +44,22 @@ export default function ArticleCategoryPage() {
   const color = category.color
 
   return (
-    <div className="max-w-4xl mx-auto px-4 py-8">
+    <div className="relative">
       <PageSEO
         path={`/articles/category/${categoryId}`}
         title={`${t(category.title)} | ${lang === 'zh' ? '攀岩专栏' : 'Climbing Column'}`}
       />
 
+      {/* 全景渐变背景 — teal 色系 */}
+      <div className="absolute inset-x-0 top-0 h-[280px] bg-[radial-gradient(circle_at_top_left,_rgba(91,127,191,0.16),_transparent_50%),radial-gradient(circle_at_top_right,_rgba(74,107,166,0.12),_transparent_45%)] pointer-events-none" />
+      <div className="absolute inset-x-0 top-[200px] h-[80px] bg-gradient-to-b from-transparent to-stone-bg pointer-events-none" />
+
+      <div className="relative max-w-4xl mx-auto px-4 pt-10 pb-8">
+
       {/* Back link */}
       <Link
         to="/articles"
-        className="inline-flex items-center gap-1.5 text-sm text-text-secondary hover:text-forest transition-colors mb-6"
+        className="inline-flex items-center gap-1.5 text-sm text-text-secondary hover:text-teal transition-colors mb-6"
       >
         <Icon name="chevronLeft" size={16} />
         {lang === 'zh' ? '返回专栏' : lang === 'en' ? 'Back to Column' : '칼럼으로 돌아가기'}
@@ -113,7 +119,7 @@ export default function ArticleCategoryPage() {
                 <Link
                   key={cat.id}
                   to={`/articles/category/${cat.id}`}
-                  className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl border border-stone-border bg-white/80 hover:shadow-md hover:border-forest/30 transition-all"
+                  className="inline-flex items-center gap-2 px-4 py-2.5 rounded-xl border border-stone-border bg-stone-card/80 hover:shadow-md hover:border-teal/30 transition-all"
                 >
                   <span
                     className="w-6 h-6 rounded-md flex items-center justify-center text-white shrink-0"
@@ -129,6 +135,7 @@ export default function ArticleCategoryPage() {
           </div>
         </div>
       )}
+      </div>
     </div>
   )
 }

@@ -10,10 +10,40 @@
   --color-forest: #4A7C59;
   --color-forest-dark: #3A6347;
   --color-forest-light: #E8F0EB;
-  --color-amber: #D4913D;
-  --color-amber-light: #FDF3E7;
+  --color-amber: #C45B52;
+  --color-amber-dark: #A84B43;
+  --color-amber-light: #FCEEED;
+  --color-teal: #5B7FBF;
+  --color-teal-dark: #4A6BA6;
+  --color-teal-light: #EDF2FA;
+  --color-gold: #A68A2A;
+  --color-gold-dark: #8C7422;
+  --color-gold-light: #F9F3E2;
 
   --font-sans: "Helvetica Neue", "Helvetica", "PingFang SC", "Microsoft YaHei", "Arial", sans-serif;
+}
+
+/* Dark mode: override CSS variables when html.dark is active */
+html.dark {
+  --color-stone-bg: #1A1D21;
+  --color-stone-card: #23272E;
+  --color-stone-sidebar: #1F2228;
+  --color-stone-border: #3A3F47;
+  --color-text-primary: #E0E0E0;
+  --color-text-secondary: #9CA3AF;
+  --color-forest: #6AAF7D;
+  --color-forest-dark: #5A9A6B;
+  --color-forest-light: #1E2E24;
+  --color-amber: #E07B73;
+  --color-amber-dark: #D06B63;
+  --color-amber-light: #2E1F1E;
+  --color-teal: #7FA3D6;
+  --color-teal-dark: #6B90C4;
+  --color-teal-light: #1C2536;
+  --color-gold: #D4B44A;
+  --color-gold-dark: #BFA040;
+  --color-gold-light: #2C2818;
+  color-scheme: dark;
 }
 
 body {
@@ -23,6 +53,71 @@ body {
   font-family: var(--font-sans);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+/* Dark mode overrides for Tailwind's built-in color classes (bg-white, shadow, etc.) */
+html.dark .bg-white {
+  background-color: var(--color-stone-card) !important;
+}
+html.dark .bg-white\/80 {
+  background-color: rgba(35, 39, 46, 0.8) !important;
+}
+html.dark .bg-white\/60 {
+  background-color: rgba(35, 39, 46, 0.6) !important;
+}
+html.dark .bg-gray-50 {
+  background-color: var(--color-stone-sidebar) !important;
+}
+html.dark .shadow-sm {
+  --tw-shadow-color: rgba(0, 0, 0, 0.3);
+}
+html.dark .shadow-md {
+  --tw-shadow-color: rgba(0, 0, 0, 0.4);
+}
+html.dark .shadow-lg {
+  --tw-shadow-color: rgba(0, 0, 0, 0.5);
+}
+html.dark .text-red-500 {
+  color: #f87171 !important;
+}
+html.dark .bg-red-50 {
+  background-color: #2A1F1F !important;
+}
+html.dark .border-red-200 {
+  border-color: #5C2D2D !important;
+}
+
+/* Tip block (blue) */
+.tip-block {
+  background-color: #EFF6FF;
+  border-color: #60A5FA;
+}
+.tip-block-title {
+  color: #2563EB;
+}
+html.dark .tip-block {
+  background-color: #1A2332;
+  border-color: #3B82F6;
+}
+html.dark .tip-block-title {
+  color: #60A5FA;
+}
+
+/* Warning block (red) */
+.warning-block {
+  background-color: #FEF2F2;
+  border-color: #F87171;
+}
+.warning-block-title {
+  color: #DC2626;
+}
+html.dark .warning-block {
+  background-color: #2A1F1F;
+  border-color: #EF4444;
+}
+html.dark .warning-block-title {
+  color: #F87171;
 }
 
 /* Fix SVG icons not rendering on iOS Safari */
