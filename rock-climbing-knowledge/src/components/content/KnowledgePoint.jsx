@@ -122,7 +122,7 @@ export default function KnowledgePoint({ point, videos, illustrations }) {
           ════════════════════════════════════════════ */}
 
       {/* 标题 */}
-      <h3 className="text-3xl font-bold mb-2 tracking-tight">
+      <h3 className="text-[24px] font-bold mb-4 tracking-tight">
         {t(point.title)}
       </h3>
       {/* 英文副标题 —— 保留数据供搜索，UI 隐藏 */}

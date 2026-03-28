@@ -193,7 +193,7 @@ export default function HomePage() {
         </div>
 
         {/* Preview: 横向滚动所有知识领域 */}
-        <div className="pb-8">
+        <div className="pb-6 sm:pb-8">
           <div className="flex gap-3 overflow-x-auto py-2 -my-2 pl-6 pr-6 sm:pl-8 sm:pr-8 scrollbar-hide">
             {sections.slice(0, 10).map((section) => (
               <Link
