@@ -27,6 +27,10 @@ export default function HomePage() {
   const navigate = useNavigate()
   const inputRef = useRef(null)
   const dropdownRef = useRef(null)
+  const heroRef = useRef(null)
+  const sectionKbRef = useRef(null)
+  const sectionArticleRef = useRef(null)
+  const sectionHofRef = useRef(null)
 
   useEffect(() => {
     if (!query.trim()) {
@@ -93,7 +97,7 @@ export default function HomePage() {
         }}
       />
       {/* Hero */}
-      <div className="text-center mt-16 mb-26">
+      <div ref={heroRef} className="text-center mt-16 mb-26">
         <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-forest text-white mb-4">
           <Icon name="mountain" size={32} />
         </div>
@@ -159,7 +163,7 @@ export default function HomePage() {
       </div>
 
       {/* ==================== 1. 攀岩知识库 ==================== */}
-      <div className="relative mb-10 overflow-hidden rounded-[1.75rem] border border-stone-border bg-stone-card shadow-sm">
+      <div ref={sectionKbRef} className="relative mb-10 overflow-hidden rounded-[1.75rem] border border-stone-border bg-stone-card shadow-sm">
         <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_top_left,_rgba(74,124,89,0.20),_transparent_38%),radial-gradient(circle_at_bottom_right,_rgba(93,64,55,0.14),_transparent_40%)]" />
 
         {/* Banner header */}
@@ -195,7 +199,7 @@ export default function HomePage() {
               <Link
                 key={section.id}
                 to={`/section/${section.slug}`}
-                className="group flex flex-col bg-white/80 backdrop-blur-sm rounded-xl border border-stone-border/60 p-4 hover:shadow-md hover:border-forest/30 transition-all shrink-0 w-[160px]"
+                className="group card-hover flex flex-col bg-stone-card backdrop-blur-sm rounded-xl border border-stone-border/60 p-4 hover:border-forest/30 transition-colors shrink-0 w-[160px]"
               >
                 <span
                   className="w-9 h-9 rounded-lg flex items-center justify-center text-white shrink-0 mb-2.5 group-hover:scale-105 transition-transform"
@@ -225,7 +229,7 @@ export default function HomePage() {
       </div>
 
       {/* ==================== 2. 攀岩专栏 ==================== */}
-      <div className="relative mb-10 overflow-hidden rounded-[1.75rem] border border-stone-border bg-stone-card shadow-sm">
+      <div ref={sectionArticleRef} className="relative mb-10 overflow-hidden rounded-[1.75rem] border border-stone-border bg-stone-card shadow-sm">
         <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_top_left,_rgba(91,127,191,0.20),_transparent_38%),radial-gradient(circle_at_bottom_right,_rgba(74,107,166,0.16),_transparent_40%)]" />
 
         {/* Banner header */}
@@ -296,7 +300,7 @@ export default function HomePage() {
       </div>
 
       {/* ==================== 3. 攀岩名人堂 ==================== */}
-      <div className="relative mb-10 overflow-hidden rounded-[1.75rem] border border-stone-border bg-stone-card shadow-sm">
+      <div ref={sectionHofRef} className="relative mb-10 overflow-hidden rounded-[1.75rem] border border-stone-border bg-stone-card shadow-sm">
         <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_top_left,_rgba(166,138,42,0.22),_transparent_38%),radial-gradient(circle_at_bottom_right,_rgba(140,116,34,0.16),_transparent_40%)]" />
 
         {/* Banner header */}
@@ -341,7 +345,7 @@ export default function HomePage() {
                 <Link
                   key={athlete.athleteId}
                   to={`/hall-of-fame/${athlete.slug}`}
-                  className="group flex flex-col overflow-hidden rounded-[1.25rem] border border-stone-border bg-stone-card shadow-sm transition-all hover:shadow-md hover:border-forest/30 shrink-0 w-[260px] sm:w-[300px]"
+                  className="group card-hover flex flex-col overflow-hidden rounded-[1.25rem] border border-stone-border bg-stone-card shadow-sm transition-colors hover:border-forest/30 shrink-0 w-[260px] sm:w-[300px]"
                 >
                   <div
                     className="relative flex flex-col overflow-hidden p-4 h-[160px]"
@@ -432,7 +436,7 @@ export default function HomePage() {
         <div className="relative px-6 pb-6 sm:px-8">
           <Link
             to="/injuries"
-            className="flex items-center gap-4 bg-white/80 backdrop-blur-sm rounded-xl border border-stone-border/60 p-5 hover:shadow-md hover:border-amber/30 transition-all"
+            className="card-hover flex items-center gap-4 bg-stone-card backdrop-blur-sm rounded-xl border border-stone-border/60 p-5 hover:border-amber/30 transition-colors"
           >
             <div className="w-12 h-12 rounded-xl bg-amber-light flex items-center justify-center shrink-0">
               <Icon name="messageCircle" size={22} className="text-amber" />

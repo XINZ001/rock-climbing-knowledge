@@ -21,7 +21,7 @@ export default function KnowledgePage() {
       <div className="absolute inset-x-0 top-0 h-[320px] bg-[radial-gradient(circle_at_top_left,_rgba(74,124,89,0.18),_transparent_50%),radial-gradient(circle_at_top_right,_rgba(93,64,55,0.14),_transparent_45%)] pointer-events-none" />
       <div className="absolute inset-x-0 top-[240px] h-[80px] bg-gradient-to-b from-transparent to-stone-bg pointer-events-none" />
 
-      <div className="relative max-w-6xl mx-auto px-4 pt-10 pb-8">
+      <div className="relative max-w-5xl mx-auto px-4 pt-10 pb-8">
         <div className="max-w-3xl mb-10">
           <h1 className="text-3xl sm:text-4xl font-bold tracking-tight">
             {lang === 'zh' ? '攀岩知识库' : lang === 'en' ? 'Climbing Knowledge Base' : '클라이밍 지식 라이브러리'}
@@ -40,7 +40,7 @@ export default function KnowledgePage() {
           <Link
             key={section.id}
             to={`/section/${section.slug}`}
-            className="group block bg-stone-card rounded-xl border border-stone-border p-5 hover:shadow-md hover:border-stone-border/80 transition-all"
+            className="group card-hover block bg-stone-card rounded-xl border border-stone-border p-5 hover:border-stone-border/80 transition-colors"
           >
             <div className="flex items-start gap-3">
               <span

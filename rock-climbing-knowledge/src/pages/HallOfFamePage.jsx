@@ -49,7 +49,7 @@ export default function HallOfFamePage() {
       <div className="absolute inset-x-0 top-0 h-[320px] bg-[radial-gradient(circle_at_top_left,_rgba(74,124,89,0.18),_transparent_50%),radial-gradient(circle_at_top_right,_rgba(199,161,42,0.18),_transparent_45%)] pointer-events-none" />
       <div className="absolute inset-x-0 top-[240px] h-[80px] bg-gradient-to-b from-transparent to-stone-bg pointer-events-none" />
 
-      <div className="relative max-w-6xl mx-auto px-4 pt-10 pb-8">
+      <div className="relative max-w-5xl mx-auto px-4 pt-10 pb-8">
         <div className="max-w-3xl mb-10">
           <h1 className="text-3xl sm:text-4xl font-bold tracking-tight">
             {lang === 'zh' ? '攀岩名人堂' : lang === 'en' ? 'Climbing Hall of Fame' : '클라이밍 명예의 전당'}
@@ -100,7 +100,7 @@ export default function HallOfFamePage() {
       </div>
 
       {/* 运动员卡片网格 — 使用原版富卡片样式 */}
-      <div className="grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-3">
+      <div className="grid grid-cols-1 gap-5 md:grid-cols-2 xl:grid-cols-3" key={activeFilter}>
         {filtered.map((athlete) => {
           const media = getHallOfFameMedia(athlete.athleteId)
           const cardImage = media.cardImage
@@ -108,7 +108,7 @@ export default function HallOfFamePage() {
             <Link
               key={athlete.athleteId}
               to={`/hall-of-fame/${athlete.slug}`}
-              className="group flex flex-col overflow-hidden rounded-[1.5rem] border border-stone-border bg-stone-card shadow-sm transition-all md:hover:-translate-y-0.5 hover:shadow-lg"
+              className="group card-hover flex flex-col overflow-hidden rounded-[1.5rem] border border-stone-border bg-stone-card shadow-sm transition-colors"
             >
               <div
                 className="relative flex flex-col overflow-hidden p-5 h-[200px] md:h-[240px]"
@@ -168,13 +168,6 @@ export default function HallOfFamePage() {
                   <p className="text-sm font-medium leading-relaxed text-white/92 line-clamp-2">
                     {t(athlete.tagline)}
                   </p>
-                </div>
-              </div>
-              <div className="px-5 py-4">
-                <div className="flex items-center text-sm font-medium text-forest">
-                  <span className="transition-transform group-hover:translate-x-0.5">
-                    {lang === 'zh' ? '查看详情' : lang === 'en' ? 'View profile' : '프로필 보기'} →
-                  </span>
                 </div>
               </div>
             </Link>

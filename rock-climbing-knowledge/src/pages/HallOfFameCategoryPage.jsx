@@ -50,7 +50,7 @@ export default function HallOfFameCategoryPage() {
   const value = hallOfFameMainCategories[categoryKey]
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-8">
+    <div className="max-w-5xl mx-auto px-4 py-8">
       <nav className="mb-6">
         <Link
           to="/hall-of-fame"
@@ -112,7 +112,7 @@ export default function HallOfFameCategoryPage() {
             <Link
               key={athlete.athleteId}
               to={`/hall-of-fame/${athlete.slug}`}
-              className="group overflow-hidden rounded-[1.5rem] border border-stone-border bg-stone-card shadow-sm transition-all hover:-translate-y-0.5 hover:shadow-lg"
+              className="group card-hover overflow-hidden rounded-[1.5rem] border border-stone-border bg-stone-card shadow-sm transition-colors"
             >
               <div
                 className="relative flex min-h-0 flex-col overflow-hidden p-5 md:min-h-[240px] md:h-[240px]"
@@ -187,11 +187,6 @@ export default function HallOfFameCategoryPage() {
                       <div className="mt-1 text-sm font-medium">{t(stat.value)}</div>
                     </div>
                   ))}
-                </div>
-                <div className="mt-4 flex items-center justify-end text-sm font-medium text-forest">
-                  <span className="transition-transform group-hover:translate-x-0.5">
-                    {lang === 'zh' ? '查看详情' : lang === 'en' ? 'View profile' : '프로필 보기'} →
-                  </span>
                 </div>
               </div>
             </Link>

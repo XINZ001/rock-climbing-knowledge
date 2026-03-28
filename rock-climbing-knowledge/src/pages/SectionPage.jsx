@@ -54,7 +54,7 @@ export default function SectionPage() {
             <Link
               key={sub.id}
               to={`/section/${section.slug}/${sub.slug}`}
-              className="flex items-center gap-3 bg-stone-card rounded-lg border border-stone-border p-4 hover:shadow-sm hover:border-forest/30 transition-all group"
+              className="card-hover flex items-center gap-3 bg-stone-card rounded-lg border border-stone-border p-4 hover:border-forest/30 transition-colors group"
             >
               <span
                 className="w-8 h-8 rounded-lg flex items-center justify-center text-white text-xs font-bold shrink-0"

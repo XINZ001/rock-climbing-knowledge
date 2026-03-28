@@ -193,12 +193,12 @@ export default function InjuryDetailPage() {
   }
 
   if (loading) {
-    return <div className="max-w-6xl mx-auto px-4 py-16 text-center text-text-secondary">{lang === 'zh' ? '加载中...' : lang === 'en' ? 'Loading...' : '로딩 중...'}</div>
+    return <div className="max-w-5xl mx-auto px-4 py-16 text-center text-text-secondary">{lang === 'zh' ? '加载中...' : lang === 'en' ? 'Loading...' : '로딩 중...'}</div>
   }
 
   if (!report) {
     return (
-      <div className="max-w-6xl mx-auto px-4 py-16 text-center">
+      <div className="max-w-5xl mx-auto px-4 py-16 text-center">
         <p className="text-text-secondary mb-4">{lang === 'zh' ? '找不到这条记录' : lang === 'en' ? 'Record not found' : '기록을 찾을 수 없습니다'}</p>
         <Link to="/injuries" className="text-forest hover:underline">← {lang === 'zh' ? '返回伤痛档案' : lang === 'en' ? 'Back to Archive' : '기록으로 돌아가기'}</Link>
       </div>
@@ -212,7 +212,7 @@ export default function InjuryDetailPage() {
   const bodyPartLabels = (details?.body_parts || []).map((bp) => getLabel(BODY_PARTS, bp, lang))
 
   return (
-    <div className={`max-w-6xl mx-auto px-4 py-8 transition-opacity duration-200 ${transitioning ? 'opacity-40 pointer-events-none' : 'opacity-100'}`}>
+    <div className={`max-w-5xl mx-auto px-4 py-8 transition-opacity duration-200 ${transitioning ? 'opacity-40 pointer-events-none' : 'opacity-100'}`}>
       {/* 无媒体时的返回链接 */}
       {!hasMedia && (
         <div className="mb-6">

@@ -16,6 +16,21 @@
       }
     },
     {
+      "id": "women",
+      "title": {
+        "zh": "女性攀岩",
+        "en": "Women in Climbing",
+        "ko": "여성 클라이밍"
+      },
+      "icon": "heart",
+      "color": "#E91E63",
+      "description": {
+        "zh": "女性攀岩者的专属指南：身体优势、训练、健康与社群",
+        "en": "For women climbers: body advantages, training, health & community",
+        "ko": "여성 클라이머를 위한 가이드: 신체 장점, 훈련, 건강 & 커뮤니티"
+      }
+    },
+    {
       "id": "progression",
       "title": {
         "zh": "进阶突破",
@@ -2012,6 +2027,469 @@
         ]
       },
       "emoji": "📊"
+    },
+    {
+      "id": "art-033",
+      "slug": "women-climbing-advantages",
+      "category": "women",
+      "priority": 1,
+      "title": {
+        "zh": "女性攀岩的身体优势：柔韧、平衡与技术流攀爬指南",
+        "en": "Women's Climbing Advantages: Flexibility, Balance & Technical Style Guide",
+        "ko": "여성 클라이밍의 신체적 장점: 유연성, 균형감, 테크니컬 스타일 가이드"
+      },
+      "subtitle": {
+        "zh": "柔韧性、体重力量比和精准脚法——女性被低估的攀岩优势",
+        "en": "Flexibility, power-to-weight ratio & precise footwork — women's underrated advantages",
+        "ko": "유연성, 파워 대 체중 비율, 정교한 풋워크 — 여성의 과소평가된 장점"
+      },
+      "coverImage": null,
+      "readingTime": 9,
+      "relatedKpIds": [
+        "kp-hip-flexibility",
+        "kp-high-step-mantle",
+        "kp-drop-knee",
+        "kp-endurance-types",
+        "kp-crimp-hold",
+        "kp-pulling-power",
+        "kp-core-training",
+        "kp-edging",
+        "kp-smearing",
+        "kp-slab-technique"
+      ],
+      "tags": [
+        "women",
+        "technique",
+        "flexibility",
+        "beginner"
+      ],
+      "seo": {
+        "metaTitle": {
+          "zh": "女性攀岩的身体优势：柔韧、平衡与技术流攀爬指南",
+          "en": "Women's Climbing Advantages: Flexibility, Balance & Technical Style Guide",
+          "ko": "여성 클라이밍의 신체적 장점: 유연성, 균형감, 테크니컬 스타일 가이드"
+        },
+        "metaDescription": {
+          "zh": "女性在攀岩中拥有被低估的身体优势：柔韧性、体重力量比和精准脚法。了解如何发挥技术流攀爬风格，找到属于自己的攀爬方式。",
+          "en": "Women bring underrated physical advantages to climbing: flexibility, power-to-weight ratio, and precise footwork. Learn to leverage technical climbing style and find your own way on the wall.",
+          "ko": "여성은 클라이밍에서 과소평가된 신체적 장점을 가지고 있습니다: 유연성, 파워 대 체중 비율, 정교한 풋워크. 테크니컬 클라이밍 스타일을 활용하는 방법을 알아보세요."
+        },
+        "keywords": [
+          "女性攀岩",
+          "柔韧性优势",
+          "技术流",
+          "攀岩脚法",
+          "落膝",
+          "高踩脚",
+          "体重力量比",
+          "women climbing",
+          "flexibility advantage",
+          "technical climbing",
+          "footwork",
+          "drop knee",
+          "power to weight ratio",
+          "여성 클라이밍",
+          "유연성",
+          "테크니컬 클라이밍",
+          "풋워크",
+          "드롭 니"
+        ]
+      },
+      "emoji": "💪"
+    },
+    {
+      "id": "art-034",
+      "slug": "women-strength-training",
+      "category": "women",
+      "priority": 2,
+      "title": {
+        "zh": "女性攀岩者力量训练指南：引体向上、指力、核心与恢复",
+        "en": "Strength Training Guide for Female Climbers: Pull-Ups, Fingers, Core & Recovery",
+        "ko": "여성 클라이머를 위한 체력 훈련 가이드: 풀업, 손가락, 코어 & 회복"
+      },
+      "subtitle": {
+        "zh": "引体向上进阶、指力板入门和核心训练的女性专属方案",
+        "en": "Pull-up progression, hangboard intro & core training plans for female climbers",
+        "ko": "풀업 진행, 행보드 입문, 코어 훈련 — 여성 클라이머 전용 플랜"
+      },
+      "coverImage": null,
+      "readingTime": 12,
+      "relatedKpIds": [
+        "kp-pulling-power",
+        "kp-hangboard-training",
+        "kp-hangboard-gear",
+        "kp-pulley-injury",
+        "kp-finger-assessment",
+        "kp-core-role",
+        "kp-hip-flexibility",
+        "kp-core-training",
+        "kp-anti-rotation",
+        "kp-shoulder-injury"
+      ],
+      "tags": [
+        "women",
+        "training",
+        "strength",
+        "pull-ups"
+      ],
+      "seo": {
+        "metaTitle": {
+          "zh": "女性攀岩者力量训练指南：引体向上、指力、核心与恢复",
+          "en": "Strength Training Guide for Female Climbers: Pull-Ups, Fingers, Core & Recovery",
+          "ko": "여성 클라이머를 위한 체력 훈련 가이드: 풀업, 손가락, 코어 & 회복"
+        },
+        "metaDescription": {
+          "zh": "专为女性攀岩者设计的力量训练指南。涵盖引体向上进阶、指力板训练注意事项、核心训练、拮抗肌预防肩伤，以及训练量与恢复的性别差异。科学依据，实用方案。",
+          "en": "A strength training guide designed specifically for female climbers. Covers pull-up progression, hangboard considerations, core training, antagonist exercises for shoulder health, and sex-based differences in volume and recovery. Science-backed, practical plans.",
+          "ko": "여성 클라이머를 위해 설계된 체력 훈련 가이드. 풀업 진행, 행보드 주의사항, 코어 훈련, 어깨 건강을 위한 길항근 운동, 훈련량과 회복의 성별 차이를 다룬다. 과학 기반의 실용적 계획."
+        },
+        "keywords": [
+          "women climbing training",
+          "female climber strength",
+          "pull-up progression women",
+          "hangboard training women",
+          "climbing core training",
+          "antagonist training climbing",
+          "shoulder injury prevention climbing",
+          "menstrual cycle training",
+          "finger strength female climber",
+          "climbing periodization",
+          "여성 클라이밍 훈련",
+          "女性攀岩训练",
+          "女性引体向上"
+        ]
+      },
+      "emoji": "🏋️"
+    },
+    {
+      "id": "art-035",
+      "slug": "period-and-climbing",
+      "category": "women",
+      "priority": 3,
+      "title": {
+        "zh": "生理期还能攀岩吗？月经周期与训练表现完全指南",
+        "en": "Can You Climb on Your Period? Menstrual Cycle and Training Performance Guide",
+        "ko": "생리 중 클라이밍 가능할까? 생리주기와 훈련 퍼포먼스 가이드"
+      },
+      "subtitle": {
+        "zh": "四个周期阶段的训练调整策略和实用建议",
+        "en": "Training adjustments and practical tips for each cycle phase",
+        "ko": "네 가지 주기 단계별 훈련 조정 전략과 실용적 조언"
+      },
+      "coverImage": null,
+      "readingTime": 10,
+      "relatedKpIds": [
+        "kp-periodization",
+        "kp-slab-technique",
+        "kp-hangboard-training",
+        "kp-pulling-power",
+        "kp-projecting-strategy",
+        "kp-dyno-technique",
+        "kp-campus-training",
+        "kp-warmup",
+        "kp-arc-training",
+        "kp-endurance-types"
+      ],
+      "tags": [
+        "women",
+        "health",
+        "training",
+        "periodization"
+      ],
+      "seo": {
+        "metaTitle": {
+          "zh": "生理期还能攀岩吗？月经周期与训练表现完全指南",
+          "en": "Can You Climb on Your Period? Menstrual Cycle and Training Performance Guide",
+          "ko": "생리 중 클라이밍 가능할까? 생리주기와 훈련 퍼포먼스 가이드"
+        },
+        "metaDescription": {
+          "zh": "月经周期不是训练的阻碍，而是可以优化训练的变量。了解四个周期阶段对攀岩表现的影响，学会根据生理周期调整训练计划，认识运动性闭经的危险信号。",
+          "en": "Your menstrual cycle isn't a barrier to climbing — it's a training variable you can optimize. Learn how the four cycle phases affect performance, how to adjust your plan, and when to watch for REDs warning signs.",
+          "ko": "생리주기는 클라이밍의 장애물이 아니라 최적화할 수 있는 훈련 변수입니다. 네 가지 주기 단계가 퍼포먼스에 미치는 영향, 계획 조정법, REDs 경고 신호를 알아보세요."
+        },
+        "keywords": [
+          "menstrual cycle climbing",
+          "period climbing training",
+          "female climber training",
+          "REDs climbing",
+          "Stacy Sims ROAR",
+          "follicular phase strength",
+          "luteal phase endurance",
+          "exercise amenorrhea",
+          "생리주기 클라이밍",
+          "여성 클라이머 훈련",
+          "생리통 운동",
+          "운동성 무월경",
+          "REDs 스포츠",
+          "난포기 근력",
+          "황체기 지구력",
+          "生理期攀岩",
+          "月经周期训练",
+          "女性攀登者",
+          "运动性闭经",
+          "卵泡期力量",
+          "黄体期耐力",
+          "周期化训练"
+        ]
+      },
+      "emoji": "🔄"
+    },
+    {
+      "id": "art-036",
+      "slug": "women-climbing-icons",
+      "category": "women",
+      "priority": 4,
+      "title": {
+        "zh": "改变攀岩历史的女性：Lynn Hill 到 Janja Garnbret",
+        "en": "Women Who Changed Climbing: Lynn Hill to Janja Garnbret",
+        "ko": "클라이밍 역사를 바꾼 여성들: Lynn Hill부터 Janja Garnbret까지"
+      },
+      "subtitle": {
+        "zh": "从 Lynn Hill 到 Janja，那些定义攀岩时代的女性先驱",
+        "en": "From Lynn Hill to Janja — the women who defined climbing eras",
+        "ko": "Lynn Hill부터 Janja까지, 클라이밍 시대를 정의한 여성 선구자들"
+      },
+      "coverImage": null,
+      "readingTime": 10,
+      "relatedKpIds": [
+        "kp-free-climbing-revolution",
+        "kp-sport-climbing-emergence",
+        "kp-outdoor-bouldering-chars",
+        "kp-hip-flexibility",
+        "kp-edging",
+        "kp-olympics-athletes",
+        "kp-olympics-history",
+        "kp-boulder-competition",
+        "kp-lead-competition",
+        "kp-route-reading-basics"
+      ],
+      "tags": [
+        "women",
+        "history",
+        "inspiration",
+        "competition"
+      ],
+      "seo": {
+        "metaTitle": {
+          "zh": "改变攀岩历史的女性：Lynn Hill 到 Janja Garnbret | 攀岩知识库",
+          "en": "Women Who Changed Climbing: Lynn Hill to Janja Garnbret | Climbing Knowledge Base",
+          "ko": "클라이밍 역사를 바꾼 여성들: Lynn Hill부터 Janja Garnbret까지 | 클라이밍 지식 라이브러리"
+        },
+        "metaDescription": {
+          "zh": "从 Lynn Hill 自由攀登 The Nose，到 2025 年 Brooke Raboutou 首攀 5.15c。回顾改变攀岩历史的女性先驱，她们打破的偏见与创造的纪录。",
+          "en": "From Lynn Hill's free ascent of The Nose to Brooke Raboutou's 5.15c in 2025. Meet the women who shattered climbing's glass ceiling and redefined what's possible.",
+          "ko": "Lynn Hill의 The Nose 프리 클라이밍부터 2025년 Brooke Raboutou의 5.15c까지. 클라이밍 역사를 바꾼 여성 선구자들의 이야기와 그녀들이 깨뜨린 편견."
+        },
+        "keywords": [
+          "women climbing history",
+          "female climbing legends",
+          "Lynn Hill The Nose",
+          "Janja Garnbret Olympic",
+          "Brooke Raboutou 5.15c",
+          "Katie Lamb V16",
+          "女性攀岩家",
+          "여성 클라이머"
+        ]
+      },
+      "emoji": "⭐"
+    },
+    {
+      "id": "art-037",
+      "slug": "pregnancy-postpartum-climbing",
+      "category": "women",
+      "priority": 5,
+      "title": {
+        "zh": "孕期与产后攀岩：安全指南与恢复路径",
+        "en": "Climbing During Pregnancy & Postpartum: Safety Guide and Recovery",
+        "ko": "임신 및 산후 클라이밍: 안전 가이드와 회복 경로"
+      },
+      "subtitle": {
+        "zh": "孕期各阶段的安全建议和产后回归攀岩的恢复计划",
+        "en": "Safety tips for each trimester and a postpartum return-to-climbing plan",
+        "ko": "임신 각 단계의 안전 조언과 산후 클라이밍 복귀 계획"
+      },
+      "coverImage": null,
+      "readingTime": 10,
+      "relatedKpIds": [
+        "kp-bouldering-fall",
+        "kp-warmup",
+        "kp-hydration",
+        "kp-lead-belay-indoor",
+        "kp-pulley-injury",
+        "kp-shoulder-stability",
+        "kp-harness",
+        "kp-core-role",
+        "kp-antagonist-training",
+        "kp-warmup-stretching"
+      ],
+      "tags": [
+        "women",
+        "health",
+        "safety",
+        "recovery"
+      ],
+      "seo": {
+        "metaTitle": {
+          "zh": "孕期与产后攀岩：安全指南与恢复路径",
+          "en": "Climbing During Pregnancy & Postpartum: Safety Guide and Recovery",
+          "ko": "임신 및 산후 클라이밍: 안전 가이드와 회복 경로"
+        },
+        "metaDescription": {
+          "zh": "孕期可以继续攀岩吗？产后多久能回到岩壁？了解各孕期阶段的运动指南、关节松弛素的影响、盆底肌恢复时间线，以及Beth Rodden和Alex Puccio等职业攀岩妈妈的经验。",
+          "en": "Can you climb while pregnant? How soon can you return postpartum? Learn trimester-by-trimester guidelines, relaxin's impact on injury risk, pelvic floor recovery timelines, and insights from pro climbing moms Beth Rodden and Alex Puccio.",
+          "ko": "임신 중 클라이밍을 계속할 수 있을까? 산후 얼마나 빨리 복귀할 수 있을까? 임신 단계별 운동 가이드, 릴랙신의 부상 위험 영향, 골반바닥근 회복 타임라인, Beth Rodden과 Alex Puccio 등 프로 클라이머 엄마들의 경험을 알아보세요."
+        },
+        "keywords": [
+          "pregnancy climbing",
+          "postpartum climbing",
+          "climbing while pregnant",
+          "relaxin climbing injury",
+          "pelvic floor climbing",
+          "diastasis recti climbing",
+          "Beth Rodden pregnancy",
+          "Alex Puccio postpartum",
+          "prenatal exercise climbing",
+          "return to climbing after baby",
+          "孕期攀岩",
+          "产后攀岩",
+          "임신 클라이밍",
+          "산후 클라이밍"
+        ]
+      },
+      "emoji": "🤰"
+    },
+    {
+      "id": "art-038",
+      "slug": "body-image-climbing",
+      "category": "women",
+      "priority": 6,
+      "title": {
+        "zh": "攀岩者的身体焦虑：「越瘦越强」是真的吗？| 破解体重迷思",
+        "en": "Body Image in Climbing: Is 'Lighter = Stronger' Actually True?",
+        "ko": "클라이머의 신체 불안: '가벼울수록 강하다'는 사실일까?"
+      },
+      "subtitle": {
+        "zh": "力量体重比的科学真相和健康攀岩心态的建立",
+        "en": "The science behind power-to-weight ratio and building a healthy climbing mindset",
+        "ko": "파워 대 체중 비율의 과학적 진실과 건강한 클라이밍 마인드셋"
+      },
+      "coverImage": null,
+      "readingTime": 10,
+      "relatedKpIds": [
+        "kp-grip-types",
+        "kp-core-role",
+        "kp-endurance-types",
+        "kp-performance-mindset",
+        "kp-climber-nutrition",
+        "kp-community-media",
+        "kp-pulling-power",
+        "kp-core-training",
+        "kp-projecting-strategy",
+        "kp-training-log"
+      ],
+      "tags": [
+        "women",
+        "mental-health",
+        "nutrition",
+        "community"
+      ],
+      "seo": {
+        "metaTitle": {
+          "zh": "攀岩者的身体焦虑：「越瘦越强」是真的吗？| 破解体重迷思",
+          "en": "Body Image in Climbing: Is 'Lighter = Stronger' Actually True?",
+          "ko": "클라이머의 신체 불안: '가벼울수록 강하다'는 사실일까?"
+        },
+        "metaDescription": {
+          "zh": "攀岩圈「越瘦越强」的迷思正在伤害攀登者。深入分析 Lattice Training 数据、REDs 相对能量不足、Sasha DiGiulian 的亲身经历，帮助你建立健康的攀岩身体观。",
+          "en": "The 'lighter is stronger' myth in climbing is harming athletes, especially women. Explore Lattice Training data, REDs risks, and Sasha DiGiulian's story to build a healthier climbing body image.",
+          "ko": "클라이밍계의 '가벼울수록 강하다'는 미신이 선수들에게 해를 끼치고 있습니다. Lattice Training 데이터, REDs 위험, 사샤 디줄리안의 이야기를 통해 건강한 클라이밍 바디 이미지를 만들어 보세요."
+        },
+        "keywords": [
+          "climbing body image",
+          "climbing eating disorder",
+          "REDs climbing",
+          "relative energy deficiency climbing",
+          "climbing weight myth",
+          "Sasha DiGiulian body image",
+          "Lattice Training BMI",
+          "climbing body anxiety",
+          "lighter is stronger climbing",
+          "climbing nutrition health",
+          "클라이밍 바디이미지",
+          "클라이밍 섭식장애",
+          "클라이밍 체중 미신",
+          "攀岩身体焦虑",
+          "攀岩体重迷思",
+          "攀岩饮食失调",
+          "攀岩REDs",
+          "越瘦越强"
+        ]
+      },
+      "emoji": "🪞"
+    },
+    {
+      "id": "art-039",
+      "slug": "women-gym-experience",
+      "category": "women",
+      "priority": 7,
+      "title": {
+        "zh": "女性在岩馆的真实体验：如何应对不请自来的建议",
+        "en": "Women's Real Gym Experiences: Dealing with Unsolicited Beta | Climbing Knowledge",
+        "ko": "여성의 클라이밍짐 실제 경험: 원치 않는 베타에 대처하는 법 | 클라이밍 지식"
+      },
+      "subtitle": {
+        "zh": "识别和应对 Spraying Beta 等岩馆社交困境的实用指南",
+        "en": "A practical guide to navigating spraying beta and other gym social challenges",
+        "ko": "베타 스프레이 등 클라이밍짐 사회적 상황에 대처하는 실용 가이드"
+      },
+      "coverImage": null,
+      "readingTime": 8,
+      "relatedKpIds": [
+        "kp-route-reading-basics",
+        "kp-gym-etiquette",
+        "kp-climbing-categories",
+        "kp-onsight-flash-redpoint",
+        "kp-bouldering-fall",
+        "kp-spotter",
+        "kp-fear-management",
+        "kp-performance-mindset",
+        "kp-climbing-ethics",
+        "kp-community-media"
+      ],
+      "tags": [
+        "women",
+        "gym-culture",
+        "community",
+        "etiquette"
+      ],
+      "seo": {
+        "metaTitle": {
+          "zh": "女性在岩馆的真实体验：如何应对不请自来的建议 | 攀岩知识库",
+          "en": "Women's Real Gym Experiences: Dealing with Unsolicited Beta | Climbing Knowledge",
+          "ko": "여성의 클라이밍짐 실제 경험: 원치 않는 베타에 대처하는 법 | 클라이밍 지식"
+        },
+        "metaDescription": {
+          "zh": "64%的女性在岩馆中曾感到不适。从不请自来的beta到微攻击，了解女性攀岩者面临的真实挑战，以及岩友和岩馆如何共建包容文化。",
+          "en": "64% of women have felt uncomfortable at the climbing gym. From unsolicited beta to microaggressions, explore the real challenges women climbers face and how gyms and climbers can build inclusive culture.",
+          "ko": "여성의 64%가 클라이밍짐에서 불편함을 경험했습니다. 원치 않는 베타부터 미세공격까지, 여성 클라이머가 직면하는 현실과 포용적 문화를 만드는 방법을 알아보세요."
+        },
+        "keywords": [
+          "women climbing gym experience",
+          "unsolicited beta",
+          "climbing gym etiquette",
+          "microaggressions climbing",
+          "women climbing night",
+          "climbing sexism",
+          "beta spraying",
+          "inclusive climbing culture",
+          "女性岩馆体验",
+          "攀岩性别歧视",
+          "不请自来的建议",
+          "여성 클라이밍 경험",
+          "클라이밍짐 에티켓"
+        ]
+      },
+      "emoji": "🏠"
     }
   ]
 }

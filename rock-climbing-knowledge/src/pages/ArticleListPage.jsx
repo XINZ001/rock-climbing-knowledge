@@ -6,7 +6,7 @@ import ArticleCard from '../components/article/ArticleCard'
 import PageSEO from '../components/PageSEO'
 import articleRegistry from '../data/article-registry.json'
 
-const categoryIcons = { beginner: 'rocket', progression: 'trendingUp', training: 'dumbbell', outdoor: 'sun' }
+const categoryIcons = { beginner: 'rocket', women: 'heart', progression: 'trendingUp', training: 'dumbbell', outdoor: 'sun' }
 
 function hexToRgba(hex, alpha) {
   const normalized = hex.replace('#', '')
@@ -43,16 +43,7 @@ export default function ArticleListPage() {
       <div className="absolute inset-x-0 top-0 h-[320px] bg-[radial-gradient(circle_at_top_left,_rgba(91,127,191,0.18),_transparent_50%),radial-gradient(circle_at_top_right,_rgba(74,107,166,0.14),_transparent_45%)] pointer-events-none" />
       <div className="absolute inset-x-0 top-[240px] h-[80px] bg-gradient-to-b from-transparent to-stone-bg pointer-events-none" />
 
-      <div className="relative max-w-4xl mx-auto px-4 pt-10 pb-8">
-
-      {/* Back link */}
-      <Link
-        to="/"
-        className="inline-flex items-center gap-1.5 text-sm text-text-secondary hover:text-teal transition-colors mb-6"
-      >
-        <Icon name="chevronLeft" size={16} />
-        {lang === 'zh' ? '首页' : lang === 'en' ? 'Home' : '홈'}
-      </Link>
+      <div className="relative max-w-5xl mx-auto px-4 pt-10 pb-8">
 
       {/* Page header */}
       <div className="mb-10">
@@ -60,9 +51,6 @@ export default function ArticleListPage() {
           <Icon name="fileText" size={28} className="text-teal" />
           {lang === 'zh' ? '攀岩专栏' : lang === 'en' ? 'Climbing Column' : '클라이밍 칼럼'}
         </h1>
-        {lang === 'zh' && (
-          <p className="text-sm text-text-secondary mt-1">Climbing Column</p>
-        )}
         <p className="mt-3 text-base sm:text-lg text-text-secondary leading-relaxed max-w-2xl">
           {lang === 'zh'
             ? '深度解答攀岩者最关心的问题——从入门到进阶的必读指南'
@@ -76,8 +64,8 @@ export default function ArticleListPage() {
       <div className="space-y-10">
         {categories.map(cat => {
           const catArticles = articlesByCategory[cat.id] || []
-          const previewArticles = catArticles.slice(0, 4)
-          const hasMore = catArticles.length > 4
+          const previewArticles = catArticles.slice(0, 3)
+          const hasMore = catArticles.length > 3
 
           return (
             <section key={cat.id}>
@@ -110,41 +98,50 @@ export default function ArticleListPage() {
                 </Link>
               </div>
 
-              {/* Article grid — show up to 4 */}
-              <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
-                {previewArticles.map(article => (
-                  <ArticleCard key={article.id} article={article} variant="large" />
+              {/* Desktop: horizontal scroll showing ALL articles */}
+              <div className="hidden md:flex gap-4 overflow-x-auto py-4 -my-4 px-1 -mx-1 scrollbar-hide">
+                {catArticles.map(article => (
+                  <div key={article.id} className="shrink-0 w-[280px]">
+                    <ArticleCard article={article} variant="large" />
+                  </div>
                 ))}
               </div>
 
-              {/* "View all" button if more than 4 */}
-              {hasMore && (
-                <div className="mt-4 text-center">
-                  <Link
-                    to={`/articles/category/${cat.id}`}
-                    className="inline-flex items-center gap-1.5 px-5 py-2 rounded-full text-sm font-medium border transition-colors hover:text-white"
-                    style={{
-                      color: cat.color,
-                      borderColor: hexToRgba(cat.color, 0.3),
-                    }}
-                    onMouseEnter={e => {
-                      e.currentTarget.style.backgroundColor = cat.color
-                      e.currentTarget.style.color = '#fff'
-                    }}
-                    onMouseLeave={e => {
-                      e.currentTarget.style.backgroundColor = 'transparent'
-                      e.currentTarget.style.color = cat.color
-                    }}
-                  >
-                    {lang === 'zh'
-                      ? `查看全部${t(cat.title)}文章`
-                      : lang === 'en'
-                      ? `View all ${t(cat.title)} articles`
-                      : `${t(cat.title)} 전체 보기`}
-                    <Icon name="chevronRight" size={14} />
-                  </Link>
+              {/* Mobile: grid preview (3 cards) + "view all" button */}
+              <div className="md:hidden">
+                <div className="grid grid-cols-1 sm:grid-cols-2 gap-4">
+                  {previewArticles.map(article => (
+                    <ArticleCard key={article.id} article={article} variant="large" />
+                  ))}
                 </div>
-              )}
+                {hasMore && (
+                  <div className="mt-4">
+                    <Link
+                      to={`/articles/category/${cat.id}`}
+                      className="flex items-center justify-center gap-1.5 py-2.5 rounded-xl text-sm font-medium border transition-colors hover:text-white"
+                      style={{
+                        color: cat.color,
+                        borderColor: hexToRgba(cat.color, 0.3),
+                      }}
+                      onMouseEnter={e => {
+                        e.currentTarget.style.backgroundColor = cat.color
+                        e.currentTarget.style.color = '#fff'
+                      }}
+                      onMouseLeave={e => {
+                        e.currentTarget.style.backgroundColor = 'transparent'
+                        e.currentTarget.style.color = cat.color
+                      }}
+                    >
+                      {lang === 'zh'
+                        ? `查看全部${t(cat.title)}文章`
+                        : lang === 'en'
+                        ? `View all ${t(cat.title)} articles`
+                        : `${t(cat.title)} 전체 보기`}
+                      <Icon name="chevronRight" size={14} />
+                    </Link>
+                  </div>
+                )}
+              </div>
 
               {catArticles.length === 0 && (
                 <div className="text-center py-8 text-text-secondary text-sm rounded-xl bg-stone-bg/50 border border-dashed border-stone-border">

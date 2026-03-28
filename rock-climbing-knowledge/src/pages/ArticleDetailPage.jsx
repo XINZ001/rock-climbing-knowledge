@@ -96,6 +96,9 @@ export default function ArticleDetailPage() {
         {lang === 'zh' ? '返回专栏' : lang === 'en' ? 'Back to Column' : '칼럼으로 돌아가기'}
       </Link>
 
+      {/* 文章头部 */}
+      <div>
+
       {/* Category tag */}
       <div className="flex items-center gap-2 mb-3">
         <span className="w-2.5 h-2.5 rounded-full" style={{ backgroundColor: color }} />
@@ -109,9 +112,9 @@ export default function ArticleDetailPage() {
         {t(articleMeta.title)}
       </h1>
 
-      {/* English title (when viewing in Chinese) */}
-      {lang === 'zh' && articleMeta.title.en && (
-        <p className="text-lg text-text-secondary mb-1">{articleMeta.title.en}</p>
+      {/* 英文副标题 —— 保留数据供搜索，UI 隐藏 */}
+      {articleMeta.title.en && (
+        <p className="hidden">{articleMeta.title.en}</p>
       )}
 
       {/* Subtitle */}
@@ -156,6 +159,8 @@ export default function ArticleDetailPage() {
           </span>
         </div>
       )}
+
+      </div>{/* /文章头部 */}
 
       {/* Article content */}
       {loading ? (

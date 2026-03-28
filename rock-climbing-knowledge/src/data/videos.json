@@ -1808,24 +1808,6 @@
   "kp-route-reading-basics": [
     {
       "title": {
-        "zh": "攀岩基本功，线路分析，动作顺序",
-        "en": "攀岩基本功，线路分析，动作顺序",
-        "ko": "클라이밍基本功，线路분석석합니다，动作顺序습니다"
-      },
-      "url": "https://www.bilibili.com/video/BV1q1VAzxEoo/",
-      "channel": "（待确认UP主名称）",
-      "platform": "bilibili",
-      "lang": "zh",
-      "quality": 3,
-      "summary": {
-        "zh": "讲解攀岩前如何进行线路阅读（route reading），包括分析手点顺序、预判移动方式和制定动作策略，适合想要提升 onsight 能力的中级攀岩者。",
-        "en": "",
-        "ko": "설명클라이밍前如何진행합니다线路阅读（route reading），包括분석석합니다手点顺序、预判移动方式그리고制定动作策略，适合想要향상상시리즈킵니다 onsight 能力的중급클라이밍者。습니다"
-      },
-      "relevance": "primary"
-    },
-    {
-      "title": {
         "zh": "【攀岩教学】如何分步骤解读线路",
         "en": "【攀岩教学】如何分步骤解读线路",
         "ko": "【클라이밍교학】如何分步骤解读线路습니다"
@@ -1859,24 +1841,6 @@
         "zh": "5分钟内清晰讲解攀岩难度分级体系（法国分级、Yosemite 十进制体系及中国常用分级），结合阳朔户外线路实例，帮助攀岩者理解不同难度等级的含义和参考依据。",
         "en": "",
         "ko": "5分钟内명확합니다설명클라이밍난이도分级체계적系（法国分级、Yosemite 十进制체계적系그리고中国常用分级），결합합니다阳朔户外线路实例，帮助클라이밍者理解不同난이도레벨的含义그리고参考依据。습니다"
-      },
-      "relevance": "secondary"
-    },
-    {
-      "title": {
-        "zh": "攀岩基本功，线路分析，动作顺序",
-        "en": "攀岩基本功，线路分析，动作顺序",
-        "ko": "클라이밍基本功，线路분석석합니다，动作顺序습니다"
-      },
-      "url": "https://www.bilibili.com/video/BV1q1VAzxEoo/",
-      "channel": "（待确认UP主名称）",
-      "platform": "bilibili",
-      "lang": "zh",
-      "quality": 3,
-      "summary": {
-        "zh": "讲解攀岩前如何进行线路阅读（route reading），包括分析手点顺序、预判移动方式和制定动作策略，适合想要提升 onsight 能力的中级攀岩者。",
-        "en": "",
-        "ko": "설명클라이밍前如何진행합니다线路阅读（route reading），包括분석석합니다手点顺序、预判移动方式그리고制定动作策略，适合想要향상상시리즈킵니다 onsight 能力的중급클라이밍者。습니다"
       },
       "relevance": "secondary"
     }
@@ -6261,7 +6225,6 @@
       "relevance": "secondary"
     }
   ],
-  "kp-scoring-systems": [],
   "kp-competition-anxiety": [
     {
       "title": {

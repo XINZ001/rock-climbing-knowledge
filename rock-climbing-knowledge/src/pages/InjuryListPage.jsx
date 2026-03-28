@@ -57,7 +57,7 @@ function InjuryCard({ report, lang, userId }) {
     return (
       <Link
         to={`/injuries/${report.id}`}
-        className="group block rounded-xl overflow-hidden bg-stone-card border border-stone-border hover:shadow-lg hover:border-stone-border/80 transition-all break-inside-avoid mb-3"
+        className="group card-hover block rounded-xl overflow-hidden bg-stone-card border border-stone-border hover:border-stone-border/80 transition-colors break-inside-avoid mb-3"
       >
         <div className="relative w-full overflow-hidden">
           <img
@@ -91,7 +91,7 @@ function InjuryCard({ report, lang, userId }) {
   return (
     <Link
       to={`/injuries/${report.id}`}
-      className="group block rounded-xl overflow-hidden bg-stone-card border border-stone-border hover:shadow-lg hover:border-stone-border/80 transition-all break-inside-avoid mb-3"
+      className="group card-hover block rounded-xl overflow-hidden bg-stone-card border border-stone-border hover:border-stone-border/80 transition-colors break-inside-avoid mb-3"
     >
       {/* Emoji 封面区域 — 类似文章卡片 */}
       <div className="relative h-[100px] flex items-center justify-center bg-amber-light">
@@ -177,7 +177,7 @@ export default function InjuryListPage() {
       <div className="absolute inset-x-0 top-0 h-[320px] bg-[radial-gradient(circle_at_top_left,_rgba(212,145,61,0.18),_transparent_50%),radial-gradient(circle_at_top_right,_rgba(180,60,60,0.14),_transparent_45%)] pointer-events-none" />
       <div className="absolute inset-x-0 top-[240px] h-[80px] bg-gradient-to-b from-transparent to-stone-bg pointer-events-none" />
 
-      <div className="relative max-w-6xl mx-auto px-4 pt-10 pb-8">
+      <div className="relative max-w-5xl mx-auto px-4 pt-10 pb-8">
         <div className="flex flex-col sm:flex-row sm:items-start sm:justify-between gap-4 mb-10">
           <div className="max-w-3xl">
             <h1 className="text-3xl sm:text-4xl font-bold tracking-tight">
@@ -277,7 +277,7 @@ export default function InjuryListPage() {
           </Link>
         </div>
       ) : (
-        <div className="columns-2 md:columns-3 lg:columns-4 gap-3">
+        <div className="columns-1 sm:columns-2 lg:columns-3 gap-3">
           {reports.map((report) => (
             <InjuryCard key={report.id} report={report} lang={lang} userId={user?.id} />
           ))}

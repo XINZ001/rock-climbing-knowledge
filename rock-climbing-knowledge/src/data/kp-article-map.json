@@ -1,0 +1,400 @@
+{
+  "kp-edging": [
+    "do-i-need-to-be-strong",
+    "women-climbing-advantages"
+  ],
+  "kp-smearing": [
+    "do-i-need-to-be-strong",
+    "women-climbing-advantages"
+  ],
+  "kp-center-of-gravity": [
+    "do-i-need-to-be-strong",
+    "arms-tire-first"
+  ],
+  "kp-grip-types": [
+    "do-i-need-to-be-strong",
+    "forearm-pump-normal"
+  ],
+  "kp-endurance-types": [
+    "forearm-pump-normal",
+    "climbing-for-fitness"
+  ],
+  "kp-core-role": [
+    "do-i-need-to-be-strong",
+    "climbing-for-fitness"
+  ],
+  "kp-route-reading-basics": [
+    "do-i-need-to-be-strong",
+    "coach-or-self-learn"
+  ],
+  "kp-climbing-shoes": [
+    "how-to-choose-shoes",
+    "improve-footwork"
+  ],
+  "kp-flagging": [
+    "do-i-need-to-be-strong",
+    "arms-tire-first"
+  ],
+  "kp-drop-knee": [
+    "do-i-need-to-be-strong",
+    "women-climbing-advantages"
+  ],
+  "kp-chalk": [
+    "cost-of-climbing",
+    "first-time-gym"
+  ],
+  "kp-crash-pad": [
+    "is-climbing-dangerous",
+    "first-time-gym"
+  ],
+  "kp-gym-etiquette": [
+    "what-is-belaying",
+    "cost-of-climbing"
+  ],
+  "kp-bouldering-fall": [
+    "is-climbing-dangerous",
+    "fear-of-heights"
+  ],
+  "kp-warmup-stretching": [
+    "is-climbing-dangerous",
+    "first-time-gym"
+  ],
+  "kp-rest-management": [
+    "when-to-train-fingers",
+    "how-often-to-climb"
+  ],
+  "kp-first-outdoor-trip": [
+    "gym-to-outdoor",
+    "how-to-choose-shoes"
+  ],
+  "kp-overhang-technique": [
+    "improve-footwork",
+    "how-to-read-routes"
+  ],
+  "kp-climbing-categories": [
+    "bouldering-vs-climbing",
+    "understanding-grades"
+  ],
+  "kp-belaying": [
+    "what-is-belaying",
+    "fear-of-heights"
+  ],
+  "kp-rope": [
+    "what-is-belaying",
+    "fear-of-heights"
+  ],
+  "kp-harness": [
+    "what-is-belaying",
+    "fear-of-heights"
+  ],
+  "kp-belay-device": [
+    "what-is-belaying",
+    "fear-of-heights"
+  ],
+  "kp-lead-belay-indoor": [
+    "what-is-belaying",
+    "bouldering-vs-climbing"
+  ],
+  "kp-outdoor-sport-safety": [
+    "bouldering-vs-climbing",
+    "is-climbing-dangerous"
+  ],
+  "kp-pulley-injury": [
+    "finger-injury-a2",
+    "is-climbing-dangerous"
+  ],
+  "kp-injury-assessment": [
+    "is-climbing-dangerous",
+    "forearm-pump-normal"
+  ],
+  "kp-warmup": [
+    "finger-injury-a2",
+    "hangboard-guide"
+  ],
+  "kp-shoulder-injury": [
+    "shoulder-elbow-pain",
+    "is-climbing-dangerous"
+  ],
+  "kp-helmet": [
+    "is-climbing-dangerous",
+    "gym-to-outdoor"
+  ],
+  "kp-hangboard-training": [
+    "women-strength-training",
+    "hangboard-guide"
+  ],
+  "kp-arc-training": [
+    "period-and-climbing",
+    "coach-or-self-learn"
+  ],
+  "kp-training-log": [
+    "find-your-weakness",
+    "how-often-to-climb"
+  ],
+  "kp-heel-hook": [
+    "improve-footwork",
+    "coach-or-self-learn"
+  ],
+  "kp-plateau-breaking": [
+    "find-your-weakness",
+    "break-through-plateau"
+  ],
+  "kp-fear-management": [
+    "fear-of-heights",
+    "overcome-lead-fear"
+  ],
+  "kp-when-to-rest": [
+    "how-often-to-climb",
+    "campus-board-when"
+  ],
+  "kp-sleep-recovery": [
+    "how-often-to-climb",
+    "skin-care-tips"
+  ],
+  "kp-core-training": [
+    "women-strength-training",
+    "shoulder-elbow-pain"
+  ],
+  "kp-slab-technique": [
+    "women-climbing-advantages",
+    "improve-footwork"
+  ],
+  "kp-toe-hook": [
+    "improve-footwork"
+  ],
+  "kp-back-step": [
+    "arms-tire-first"
+  ],
+  "kp-crimp-hold": [
+    "finger-injury-a2",
+    "stop-overgripping"
+  ],
+  "kp-long-route-endurance": [
+    "arms-tire-first",
+    "stop-overgripping"
+  ],
+  "kp-pulling-power": [
+    "women-strength-training",
+    "training-plan-basics"
+  ],
+  "kp-attention-management": [
+    "overcome-lead-fear",
+    "how-to-read-routes"
+  ],
+  "kp-flow-state": [
+    "how-to-read-routes",
+    "overcome-lead-fear"
+  ],
+  "kp-onsight-flash-redpoint": [
+    "understanding-grades",
+    "women-gym-experience"
+  ],
+  "kp-projecting-strategy": [
+    "break-through-plateau",
+    "understanding-grades"
+  ],
+  "kp-working-linking": [
+    "break-through-plateau",
+    "how-to-read-routes"
+  ],
+  "kp-goal-setting": [
+    "find-your-weakness",
+    "break-through-plateau"
+  ],
+  "kp-periodization": [
+    "period-and-climbing",
+    "campus-board-when"
+  ],
+  "kp-advanced-finger": [
+    "when-to-train-fingers",
+    "training-plan-basics"
+  ],
+  "kp-finger-assessment": [
+    "women-strength-training",
+    "when-to-train-fingers"
+  ],
+  "kp-grading-systems": [
+    "when-to-train-fingers",
+    "best-climbing-destinations"
+  ],
+  "kp-hangboard-gear": [
+    "when-to-train-fingers",
+    "women-strength-training"
+  ],
+  "kp-tendonitis": [
+    "finger-injury-a2",
+    "when-to-train-fingers"
+  ],
+  "kp-jug-hold": [
+    "stop-overgripping"
+  ],
+  "kp-antagonist-training": [
+    "shoulder-elbow-pain",
+    "pullups-and-core"
+  ],
+  "kp-anti-rotation": [
+    "women-strength-training",
+    "pullups-and-core"
+  ],
+  "kp-gymnastic-rings": [
+    "pullups-and-core",
+    "shoulder-elbow-pain"
+  ],
+  "kp-hip-flexibility": [
+    "women-climbing-advantages",
+    "shoulder-elbow-pain"
+  ],
+  "kp-shoulder-mobility": [
+    "shoulder-elbow-pain",
+    "how-to-warm-up"
+  ],
+  "kp-skin-management": [
+    "skin-care-tips",
+    "how-to-warm-up"
+  ],
+  "kp-peaking": [
+    "training-plan-basics"
+  ],
+  "kp-clipping-technique": [
+    "overcome-lead-fear"
+  ],
+  "kp-competition-anxiety": [
+    "overcome-lead-fear"
+  ],
+  "kp-desensitization": [
+    "overcome-lead-fear"
+  ],
+  "kp-performance-mindset": [
+    "overcome-lead-fear",
+    "find-your-weakness"
+  ],
+  "kp-quickdraw": [
+    "overcome-lead-fear",
+    "gym-to-outdoor"
+  ],
+  "kp-anchor-building": [
+    "gym-to-outdoor"
+  ],
+  "kp-cams": [
+    "gym-to-outdoor"
+  ],
+  "kp-indoor-outdoor-diff": [
+    "gym-to-outdoor"
+  ],
+  "kp-leave-no-trace": [
+    "best-climbing-destinations",
+    "gym-to-outdoor"
+  ],
+  "kp-nuts-stoppers": [
+    "gym-to-outdoor"
+  ],
+  "kp-outdoor-bouldering-chars": [
+    "best-climbing-destinations",
+    "women-climbing-icons"
+  ],
+  "kp-placing-protection": [
+    "gym-to-outdoor"
+  ],
+  "kp-rappelling": [
+    "gym-to-outdoor"
+  ],
+  "kp-rock-types": [
+    "best-climbing-destinations",
+    "gym-to-outdoor"
+  ],
+  "kp-spotter": [
+    "women-gym-experience",
+    "gym-to-outdoor"
+  ],
+  "kp-weather-assessment": [
+    "gym-to-outdoor",
+    "best-climbing-destinations"
+  ],
+  "kp-campus-moves": [
+    "campus-board-when"
+  ],
+  "kp-campus-training": [
+    "campus-board-when",
+    "period-and-climbing"
+  ],
+  "kp-coordination-timing": [
+    "campus-board-when"
+  ],
+  "kp-dynamic-movement": [
+    "campus-board-when"
+  ],
+  "kp-growth-plate-concerns": [
+    "campus-board-when"
+  ],
+  "kp-system-wall": [
+    "campus-board-when"
+  ],
+  "kp-rehab-mistakes": [
+    "shoulder-elbow-pain"
+  ],
+  "kp-rehab-programs": [
+    "shoulder-elbow-pain"
+  ],
+  "kp-return-criteria": [
+    "shoulder-elbow-pain"
+  ],
+  "kp-shoulder-stability": [
+    "shoulder-elbow-pain",
+    "find-your-weakness"
+  ],
+  "kp-pushing-power": [
+    "find-your-weakness"
+  ],
+  "kp-climber-nutrition": [
+    "skin-care-tips",
+    "climbing-nutrition"
+  ],
+  "kp-hydration": [
+    "skin-care-tips",
+    "pregnancy-postpartum-climbing"
+  ],
+  "kp-weight-management": [
+    "climbing-nutrition"
+  ],
+  "kp-area-exploration": [
+    "best-climbing-destinations"
+  ],
+  "kp-classic-destinations": [
+    "best-climbing-destinations"
+  ],
+  "kp-climbing-ethics": [
+    "women-gym-experience",
+    "best-climbing-destinations"
+  ],
+  "kp-grade-comparison": [
+    "understanding-grades"
+  ],
+  "kp-high-step-mantle": [
+    "women-climbing-advantages"
+  ],
+  "kp-dyno-technique": [
+    "period-and-climbing"
+  ],
+  "kp-free-climbing-revolution": [
+    "women-climbing-icons"
+  ],
+  "kp-sport-climbing-emergence": [
+    "women-climbing-icons"
+  ],
+  "kp-olympics-athletes": [
+    "women-climbing-icons"
+  ],
+  "kp-olympics-history": [
+    "women-climbing-icons"
+  ],
+  "kp-boulder-competition": [
+    "women-climbing-icons"
+  ],
+  "kp-lead-competition": [
+    "women-climbing-icons"
+  ],
+  "kp-community-media": [
+    "women-gym-experience",
+    "body-image-climbing"
+  ]
+}

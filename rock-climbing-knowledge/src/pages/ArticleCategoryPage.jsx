@@ -6,7 +6,7 @@ import ArticleCard from '../components/article/ArticleCard'
 import PageSEO from '../components/PageSEO'
 import articleRegistry from '../data/article-registry.json'
 
-const categoryIcons = { beginner: 'rocket', progression: 'trendingUp', training: 'dumbbell', outdoor: 'sun' }
+const categoryIcons = { beginner: 'rocket', women: 'heart', progression: 'trendingUp', training: 'dumbbell', outdoor: 'sun' }
 
 export default function ArticleCategoryPage() {
   const { categoryId } = useParams()
@@ -54,7 +54,7 @@ export default function ArticleCategoryPage() {
       <div className="absolute inset-x-0 top-0 h-[280px] bg-[radial-gradient(circle_at_top_left,_rgba(91,127,191,0.16),_transparent_50%),radial-gradient(circle_at_top_right,_rgba(74,107,166,0.12),_transparent_45%)] pointer-events-none" />
       <div className="absolute inset-x-0 top-[200px] h-[80px] bg-gradient-to-b from-transparent to-stone-bg pointer-events-none" />
 
-      <div className="relative max-w-4xl mx-auto px-4 pt-10 pb-8">
+      <div className="relative max-w-5xl mx-auto px-4 pt-10 pb-8">
 
       {/* Back link */}
       <Link
@@ -94,7 +94,7 @@ export default function ArticleCategoryPage() {
       </div>
 
       {/* All articles in this category */}
-      <div className="grid grid-cols-1 sm:grid-cols-2 gap-5">
+      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-5">
         {catArticles.map(article => (
           <ArticleCard key={article.id} article={article} variant="large" />
         ))}

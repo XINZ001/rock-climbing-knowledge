@@ -3,6 +3,8 @@ import { Link } from 'react-router-dom'
 import Markdown from 'react-markdown'
 import { useApp } from '../../context/AppContext'
 import { resolveCrossRefs } from '../../utils/crossRefResolver'
+import { getArticlesForKp } from '../../utils/articleKpMap'
+import articleRegistry from '../../data/article-registry.json'
 import { Icon } from '../../utils/icons'
 import ImageLightbox from '../ui/ImageLightbox'
 
@@ -77,6 +79,16 @@ function VideoCard({ video, t, onClick }) {
   )
 }
 
+/* ─── 小节标题 ─── */
+function SectionLabel({ icon, children, className = '' }) {
+  return (
+    <div className={`flex items-center gap-1.5 text-[11px] font-semibold uppercase tracking-wider text-text-secondary ${className}`}>
+      <Icon name={icon} size={12} className="opacity-60" />
+      {children}
+    </div>
+  )
+}
+
 export default function KnowledgePoint({ point, videos, illustrations }) {
   const { t, lang } = useApp()
   const [lightboxIndex, setLightboxIndex] = useState(-1)
@@ -89,48 +101,54 @@ export default function KnowledgePoint({ point, videos, illustrations }) {
 
   const content = lang === 'zh' ? point.content?.zh : lang === 'en' ? point.content?.en : (point.content?.ko || point.content?.en)
   const crossRefs = resolveCrossRefs(point.crossRefs)
+  const relatedArticles = getArticlesForKp(point.id)
+  const getCat = (id) => articleRegistry.categories.find(c => c.id === id)
 
   const videoList = Array.isArray(videos) ? videos : []
   const clampedIndex = Math.min(selectedVideoIndex, videoList.length - 1)
   const primaryVideo = videoList[clampedIndex] || null
   const extraVideos = videoList.filter((_, i) => i !== clampedIndex)
 
+  const hasCrossRefs = crossRefs.length > 0
+  const hasArticles = relatedArticles.length > 0
+  const hasFurtherReading = point.furtherReading && point.furtherReading.length > 0
+  const hasFooter = hasCrossRefs || hasArticles || hasFurtherReading || primaryVideo
+
   return (
     <div id={point.id} className="scroll-mt-20">
-      <h3 className="text-lg font-semibold mb-1">
-        {t(point.title)}
-        {lang === 'zh' && point.title.en && (
-          <span className="text-sm font-normal text-text-secondary ml-2">
-            {point.title.en}
-          </span>
-        )}
-      </h3>
 
-      {/* Terms */}
+      {/* ════════════════════════════════════════════
+          第一层：主体内容
+          ════════════════════════════════════════════ */}
+
+      {/* 标题 */}
+      <h3 className="text-3xl font-bold mb-2 tracking-tight">
+        {t(point.title)}
+      </h3>
+      {/* 英文副标题 —— 保留数据供搜索，UI 隐藏 */}
+      {point.title.en && (
+        <p className="hidden">{point.title.en}</p>
+      )}
+
+      {/* 术语标签 —— 保留数据供搜索使用，UI 隐藏 */}
       {point.terms && point.terms.length > 0 && (
-        <div className="flex flex-wrap gap-1.5 mb-3">
+        <div className="hidden">
           {point.terms.map((term, i) => (
-            <span
-              key={i}
-              className="inline-flex items-center gap-1 px-2 py-0.5 rounded-md bg-stone-sidebar text-xs"
-            >
-              <span>{term.zh}</span>
-              <span className="text-text-secondary">{term.en}</span>
-            </span>
+            <span key={i}>{term.zh} {term.en}</span>
           ))}
         </div>
       )}
 
-      {/* Content */}
+      {/* 正文 */}
       {content && (
         <div className="markdown-content text-sm leading-relaxed text-text-primary/90">
           <Markdown>{content}</Markdown>
         </div>
       )}
 
-      {/* Expert Insights */}
+      {/* 专家观点 */}
       {point.expertInsights && point.expertInsights.length > 0 && (
-        <div className="mt-4 space-y-3">
+        <div className="mt-5 space-y-3">
           {point.expertInsights.map((insight, i) => (
             <div
               key={i}
@@ -165,38 +183,39 @@ export default function KnowledgePoint({ point, videos, illustrations }) {
         </div>
       )}
 
-      {/* Illustrations */}
+      {/* 插图：第一张大图 + 其余小缩略图 */}
       {illustrations && illustrations.length > 0 && (
-        <div className={`mt-4 flex flex-wrap gap-3 ${illustrations.length === 1 ? '' : 'justify-start'}`}>
-          {illustrations.map((src, i) => (
-            <div
-              key={i}
-              className="group relative rounded-lg overflow-hidden border border-stone-border bg-stone-card cursor-pointer hover:border-forest/40 transition-colors"
-              style={{
-                maxWidth: illustrations.length === 1
-                  ? 320
-                  : illustrations.length === 2
-                    ? 'calc(50% - 6px)'
-                    : 'calc(33.333% - 8px)',
-                minWidth: 160,
-                flex: illustrations.length === 1 ? '0 0 auto' : '1 1 0',
-              }}
-              onClick={() => setLightboxIndex(i)}
-            >
-              <img
-                src={src}
-                alt=""
-                className="w-full h-auto block"
-                loading="lazy"
-              />
-              <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors pointer-events-none" />
-              <div className="absolute top-2 right-2 w-6 h-6 flex items-center justify-center rounded-full bg-black/0 group-hover:bg-black/40 transition-all opacity-0 group-hover:opacity-100">
-                <svg viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" className="w-3.5 h-3.5">
-                  <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
-                </svg>
-              </div>
+        <div className="mt-5 space-y-2.5">
+          {/* 主图 */}
+          <div
+            className="group relative rounded-lg overflow-hidden border border-stone-border bg-stone-card cursor-pointer hover:border-forest/40 transition-colors"
+            style={{ maxWidth: 480 }}
+            onClick={() => setLightboxIndex(0)}
+          >
+            <img src={illustrations[0]} alt="" className="w-full h-auto block" loading="lazy" />
+            <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors pointer-events-none" />
+            <div className="absolute top-2 right-2 w-6 h-6 flex items-center justify-center rounded-full bg-black/0 group-hover:bg-black/40 transition-all opacity-0 group-hover:opacity-100">
+              <svg viewBox="0 0 24 24" fill="none" stroke="white" strokeWidth="2" className="w-3.5 h-3.5">
+                <path d="M15 3h6v6M9 21H3v-6M21 3l-7 7M3 21l7-7" />
+              </svg>
             </div>
-          ))}
+          </div>
+          {/* 缩略图行 */}
+          {illustrations.length > 1 && (
+            <div className="flex gap-2 overflow-x-auto scrollbar-hide">
+              {illustrations.slice(1).map((src, i) => (
+                <div
+                  key={i + 1}
+                  className="group relative rounded-md overflow-hidden border border-stone-border bg-stone-card cursor-pointer hover:border-forest/40 transition-colors shrink-0"
+                  style={{ width: 100, height: 100 }}
+                  onClick={() => setLightboxIndex(i + 1)}
+                >
+                  <img src={src} alt="" className="w-full h-full object-cover" loading="lazy" />
+                  <div className="absolute inset-0 bg-black/0 group-hover:bg-black/5 transition-colors pointer-events-none" />
+                </div>
+              ))}
+            </div>
+          )}
         </div>
       )}
 
@@ -209,109 +228,148 @@ export default function KnowledgePoint({ point, videos, illustrations }) {
         />
       )}
 
-      {/* Tags */}
-      {point.tags && point.tags.length > 0 && (
-        <div className="flex flex-wrap gap-1 mt-3">
-          {point.tags.map(tag => (
-            <span
-              key={tag}
-              className="px-2 py-0.5 rounded-full text-xs bg-amber-light text-amber border border-amber/20"
-            >
-              {tag}
-            </span>
-          ))}
-        </div>
-      )}
+      {/* ════════════════════════════════════════════
+          第二层：附属信息卡片
+          ════════════════════════════════════════════ */}
+      {hasFooter && (
+        <div className="mt-6 rounded-xl bg-stone-sidebar/50 border border-stone-border/60 p-4 space-y-4">
 
-      {/* Cross references */}
-      {crossRefs.length > 0 && (
-        <div className="mt-3 flex flex-wrap items-center gap-1.5">
-          <Icon name="link" size={12} className="text-text-secondary" />
-          <span className="text-xs text-text-secondary">{lang === 'zh' ? '相关：' : lang === 'en' ? 'Related: ' : '관련: '}</span>
-          {crossRefs.map(ref => (
-            <Link
-              key={ref.id}
-              to={ref.path}
-              className="inline-flex items-center px-2 py-0.5 rounded-md text-xs bg-forest-light text-forest hover:bg-forest hover:text-white transition-colors"
-            >
-              {t(ref.title)}
-            </Link>
-          ))}
-        </div>
-      )}
-
-      {/* Further Reading */}
-      {point.furtherReading && point.furtherReading.length > 0 && (
-        <div className="mt-3">
-          <div className="text-xs text-text-secondary mb-1.5">
-            {lang === 'zh' ? '📚 延伸阅读' : lang === 'en' ? '📚 Further Reading' : '📚 추가 읽기'}
-          </div>
-          <div className="space-y-1">
-            {point.furtherReading.map((item, i) => (
-              <div key={i} className="flex items-baseline gap-1.5 text-xs">
-                <span className="text-text-secondary shrink-0">•</span>
-                <a
-                  href={item.url}
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  className="text-forest hover:text-forest-dark transition-colors truncate"
-                >
-                  {item.title}
-                </a>
-                <span className="text-text-secondary shrink-0">{item.source}</span>
-                <span className="px-1 py-0 rounded text-[10px] bg-stone-sidebar text-text-secondary uppercase shrink-0">
-                  {item.language}
-                </span>
+          {/* 相关专栏（最高优先级） */}
+          {hasArticles && (
+            <div>
+              <SectionLabel icon="fileText">
+                {lang === 'zh' ? '相关专栏' : lang === 'en' ? 'Related Articles' : '관련 칼럼'}
+              </SectionLabel>
+              <div className="mt-2 space-y-1.5">
+                {relatedArticles.map(article => {
+                  const cat = getCat(article.category)
+                  return (
+                    <Link
+                      key={article.id}
+                      to={`/articles/${article.slug}`}
+                      className="flex items-center gap-2.5 px-3 py-2 rounded-lg bg-stone-card hover:bg-teal-light border border-stone-border/60 hover:border-teal/25 transition-colors group"
+                    >
+                      {article.emoji && (
+                        <span className="text-base shrink-0">{article.emoji}</span>
+                      )}
+                      <div className="min-w-0 flex-1">
+                        <div className="text-sm font-medium text-text-primary group-hover:text-teal transition-colors truncate">
+                          {t(article.title)}
+                        </div>
+                        <div className="flex items-center gap-2 text-[11px] text-text-secondary mt-0.5">
+                          {cat && <span style={{ color: cat.color }}>{t(cat.title)}</span>}
+                          <span>·</span>
+                          <span>{article.readingTime} min</span>
+                        </div>
+                      </div>
+                      <Icon name="chevronRight" size={14} className="text-text-secondary/40 group-hover:text-teal transition-colors shrink-0" />
+                    </Link>
+                  )
+                })}
               </div>
-            ))}
-          </div>
-        </div>
-      )}
+            </div>
+          )}
 
-      {/* Videos: primary embed + collapsible extras */}
-      {primaryVideo && (
-        <div className="mt-4 rounded-lg border border-stone-border bg-stone-card p-3">
-          <div className="text-xs font-semibold text-text-secondary mb-2">
-            {lang === 'zh' ? '相关视频' : lang === 'en' ? 'Related Video' : '관련 영상'}
-          </div>
+          {/* 相关知识点 */}
+          {hasCrossRefs && (
+            <div>
+              <SectionLabel icon="link">
+                {lang === 'zh' ? '相关知识点' : lang === 'en' ? 'Related' : '관련'}
+              </SectionLabel>
+              <div className="mt-2 flex flex-wrap gap-1.5">
+                {crossRefs.map(ref => (
+                  <Link
+                    key={ref.id}
+                    to={ref.path}
+                    className="inline-flex items-center px-2.5 py-1 rounded-md text-xs bg-stone-card border border-stone-border/60 text-forest hover:bg-forest hover:text-white hover:border-forest transition-colors"
+                  >
+                    {t(ref.title)}
+                  </Link>
+                ))}
+              </div>
+            </div>
+          )}
 
-          <VideoEmbed video={primaryVideo} t={t} />
+          {/* 分割线 —— 上面是导航类，下面是资源类 */}
+          {(hasArticles || hasCrossRefs) && (hasFurtherReading || primaryVideo) && (
+            <div className="border-t border-stone-border/40" />
+          )}
 
-          {extraVideos.length > 0 && (
-            <div className="mt-3">
-              <button
-                onClick={() => setVideosExpanded(v => !v)}
-                className="flex items-center gap-1.5 text-xs text-text-secondary hover:text-forest transition-colors"
-              >
-                <span>{videosExpanded ? '▼' : '▶'}</span>
-                <span>
-                  {videosExpanded
-                    ? (lang === 'zh' ? '收起' : lang === 'en' ? 'Collapse' : '접기')
-                    : lang === 'zh'
-                      ? `更多相关视频 (${extraVideos.length})`
-                      : lang === 'en'
-                        ? `More videos (${extraVideos.length})`
-                        : `영상 더 보기 (${extraVideos.length})`}
-                </span>
-              </button>
+          {/* 延伸阅读 */}
+          {hasFurtherReading && (
+            <div>
+              <SectionLabel icon="book">
+                {lang === 'zh' ? '延伸阅读' : lang === 'en' ? 'Further Reading' : '추가 읽기'}
+              </SectionLabel>
+              <div className="mt-2 space-y-1">
+                {point.furtherReading.map((item, i) => (
+                  <div key={i} className="flex items-baseline gap-1.5 text-xs">
+                    <span className="text-text-secondary/50 shrink-0">•</span>
+                    <a
+                      href={item.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="text-forest hover:text-forest-dark transition-colors truncate"
+                    >
+                      {item.title}
+                    </a>
+                    <span className="text-text-secondary shrink-0">{item.source}</span>
+                    <span className="px-1 py-0 rounded text-[10px] bg-stone-card text-text-secondary uppercase shrink-0 border border-stone-border/40">
+                      {item.language}
+                    </span>
+                  </div>
+                ))}
+              </div>
+            </div>
+          )}
 
-              {videosExpanded && (
-                <div className="mt-2 grid grid-cols-1 gap-2 sm:grid-cols-2">
-                  {extraVideos.map((v, i) => (
-                    <VideoCard
-                      key={v.url}
-                      video={v}
-                      t={t}
-                      onClick={() => {
-                        const realIndex = videoList.indexOf(v)
-                        setSelectedVideoIndex(realIndex)
-                      }}
-                    />
-                  ))}
+          {/* 视频 */}
+          {primaryVideo && (
+            <div>
+              <SectionLabel icon="play" className="mb-2">
+                {lang === 'zh' ? '相关视频' : lang === 'en' ? 'Video' : '관련 영상'}
+              </SectionLabel>
+
+              <VideoEmbed video={primaryVideo} t={t} />
+
+              {extraVideos.length > 0 && (
+                <div className="mt-3">
+                  <button
+                    onClick={() => setVideosExpanded(v => !v)}
+                    className="flex items-center gap-1.5 text-xs text-text-secondary hover:text-forest transition-colors"
+                  >
+                    <span>{videosExpanded ? '▼' : '▶'}</span>
+                    <span>
+                      {videosExpanded
+                        ? (lang === 'zh' ? '收起' : lang === 'en' ? 'Collapse' : '접기')
+                        : lang === 'zh'
+                          ? `更多相关视频 (${extraVideos.length})`
+                          : lang === 'en'
+                            ? `More videos (${extraVideos.length})`
+                            : `영상 더 보기 (${extraVideos.length})`}
+                    </span>
+                  </button>
+
+                  {videosExpanded && (
+                    <div className="mt-2 grid grid-cols-1 gap-2 sm:grid-cols-2">
+                      {extraVideos.map((v, i) => (
+                        <VideoCard
+                          key={v.url}
+                          video={v}
+                          t={t}
+                          onClick={() => {
+                            const realIndex = videoList.indexOf(v)
+                            setSelectedVideoIndex(realIndex)
+                          }}
+                        />
+                      ))}
+                    </div>
+                  )}
                 </div>
               )}
             </div>
           )}
+
         </div>
       )}
     </div>

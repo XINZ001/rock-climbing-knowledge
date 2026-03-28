@@ -242,6 +242,109 @@ svg {
   animation: fadeInUp 0.3s ease-out;
 }
 
+/* ═══════════════════════════════════════════
+   微动效系统
+   ═══════════════════════════════════════════ */
+
+/* --- 入场动画 keyframes --- */
+@keyframes enterUp {
+  from { opacity: 0; transform: translateY(16px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes enterFade {
+  from { opacity: 0; }
+  to   { opacity: 1; }
+}
+
+@keyframes lineExpand {
+  from { transform: scaleX(0); }
+  to   { transform: scaleX(1); }
+}
+
+/* --- 入场动画 utility classes --- */
+/* 初始状态：不可见 */
+.anim-ready {
+  opacity: 0;
+  transform: translateY(16px);
+  will-change: opacity, transform;
+}
+
+/* 触发态：播放动画 */
+.anim-ready.anim-visible {
+  animation: enterUp 0.45s cubic-bezier(0.22, 1, 0.36, 1) forwards;
+}
+
+/* 动画结束后：移除 animation，用普通属性保持终态，让 hover 等交互正常工作 */
+.anim-ready.anim-done {
+  animation: none;
+  opacity: 1;
+  transform: translateY(0);
+}
+
+/* stagger 延迟（子元素用） */
+.anim-delay-1 { animation-delay: 60ms; }
+.anim-delay-2 { animation-delay: 120ms; }
+.anim-delay-3 { animation-delay: 180ms; }
+.anim-delay-4 { animation-delay: 240ms; }
+.anim-delay-5 { animation-delay: 300ms; }
+.anim-delay-6 { animation-delay: 360ms; }
+
+/* --- 卡片 hover 提升 --- */
+.card-hover {
+  transition: transform 0.2s cubic-bezier(0.22, 1, 0.36, 1),
+              box-shadow 0.2s cubic-bezier(0.22, 1, 0.36, 1);
+}
+.card-hover:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 24px -8px rgba(0, 0, 0, 0.1);
+}
+html.dark .card-hover:hover {
+  box-shadow: 0 8px 24px -8px rgba(0, 0, 0, 0.3);
+}
+
+/* --- 按钮点击反馈 --- */
+.btn-press {
+  transition: transform 0.1s ease;
+}
+.btn-press:active {
+  transform: scale(0.97);
+}
+
+/* --- Header 毛玻璃 --- */
+.header-glass {
+  transition: background-color 0.3s ease, backdrop-filter 0.3s ease, box-shadow 0.3s ease;
+}
+.header-glass.header-scrolled {
+  backdrop-filter: blur(12px);
+  -webkit-backdrop-filter: blur(12px);
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.06);
+}
+html.dark .header-glass.header-scrolled {
+  box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
+}
+
+/* --- 尊重用户系统设置 --- */
+@media (prefers-reduced-motion: reduce) {
+  .anim-ready {
+    opacity: 1;
+    transform: none;
+  }
+  .anim-ready.anim-visible {
+    animation: none;
+  }
+  .card-hover:hover {
+    transform: none;
+  }
+  .btn-press:active {
+    transform: none;
+  }
+  .header-glass.header-scrolled {
+    backdrop-filter: none;
+    -webkit-backdrop-filter: none;
+  }
+}
+
 /* Hide scrollbar for horizontal scroll containers */
 .scrollbar-hide {
   -ms-overflow-style: none;

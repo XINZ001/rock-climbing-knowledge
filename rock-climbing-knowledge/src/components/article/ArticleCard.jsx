@@ -37,77 +37,94 @@ export default function ArticleCard({ article, variant = 'small' }) {
   const titleText = t(article.title)
   const fallbackChar = article.emoji || titleText?.[0] || '?'
 
-  const sizeClass = isSmall
-    ? 'min-w-0'
-    : 'hover:-translate-y-0.5'
+  const sizeClass = isSmall ? 'min-w-0' : ''
 
+  // Cover image / emoji block (shared between layouts)
+  const coverBg = article.coverImage
+    ? undefined
+    : `linear-gradient(135deg, ${hexToRgba(color, 0.85)}, ${hexToRgba(color, 0.55)})`
+
+  const coverContent = article.coverImage ? (
+    <img
+      src={`/images/articles/${article.coverImage}`}
+      alt={titleText}
+      className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
+      loading="lazy"
+    />
+  ) : (
+    <div className="flex items-center justify-center h-full">
+      <span className={`${article.emoji ? 'text-5xl' : 'text-4xl font-bold text-white/40'} select-none`}>
+        {fallbackChar}
+      </span>
+    </div>
+  )
+
+  // Large variant: horizontal on mobile, vertical on sm+
+  if (isLarge) {
+    return (
+      <Link
+        to={`/articles/${article.slug}`}
+        className="group card-hover flex flex-row sm:flex-col h-full overflow-hidden rounded-xl border border-stone-border/60 bg-stone-card backdrop-blur-sm hover:border-forest/30 transition-colors"
+      >
+        {/* Cover — left on mobile, top on sm+ */}
+        <div
+          className="relative overflow-hidden w-[110px] shrink-0 sm:w-auto sm:h-[180px]"
+          style={{ background: coverBg }}
+        >
+          {coverContent}
+        </div>
+
+        {/* Body — right on mobile, bottom on sm+ */}
+        <div className="flex flex-col flex-1 min-w-0 p-3 sm:p-4">
+          <div className="flex items-center gap-1.5 mb-1">
+            <span className="w-2 h-2 rounded-full shrink-0" style={{ backgroundColor: color }} />
+            <span className="text-xs font-medium" style={{ color }}>{t(category?.title)}</span>
+          </div>
+          <h3 className="font-semibold leading-tight line-clamp-2 text-sm sm:text-base mb-1 sm:mb-1.5">
+            {titleText}
+          </h3>
+          <p className="text-text-secondary flex-1 text-xs sm:text-sm mb-1.5 sm:mb-2 line-clamp-2">
+            {article.subtitle ? t(article.subtitle) : '\u00A0'}
+          </p>
+          <div className="mt-auto flex items-center gap-2 text-xs text-text-secondary">
+            <Icon name="clock" size={12} />
+            <span>{article.readingTime} min{lang !== 'zh' ? ' read' : ''}</span>
+            {article.relatedKpIds?.length > 0 && (
+              <>
+                <span>·</span>
+                <span>{article.relatedKpIds.length} KP</span>
+              </>
+            )}
+          </div>
+        </div>
+      </Link>
+    )
+  }
+
+  // Small variant (unchanged)
   return (
     <Link
       to={`/articles/${article.slug}`}
-      className={`group flex flex-col h-full overflow-hidden rounded-xl border border-stone-border/60 bg-white/80 backdrop-blur-sm hover:shadow-md hover:border-forest/30 transition-all ${sizeClass}`}
+      className={`group card-hover flex flex-col h-full overflow-hidden rounded-xl border border-stone-border/60 bg-stone-card backdrop-blur-sm hover:border-forest/30 transition-colors ${sizeClass}`}
     >
-      {/* Cover image area */}
       <div
-        className={`relative overflow-hidden ${isLarge ? 'h-[180px]' : 'h-[120px]'}`}
-        style={{
-          background: article.coverImage
-            ? undefined
-            : `linear-gradient(135deg, ${hexToRgba(color, 0.85)}, ${hexToRgba(color, 0.55)})`
-        }}
+        className="relative overflow-hidden h-[120px]"
+        style={{ background: coverBg }}
       >
-        {article.coverImage ? (
-          <img
-            src={`/images/articles/${article.coverImage}`}
-            alt={titleText}
-            className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
-            loading="lazy"
-          />
-        ) : (
-          <div className="flex items-center justify-center h-full">
-            <span className={`${article.emoji ? 'text-5xl' : 'text-4xl font-bold text-white/40'} select-none`}>
-              {fallbackChar}
-            </span>
-          </div>
-        )}
+        {coverContent}
       </div>
-
-      {/* Card body */}
-      <div className={`flex flex-col flex-1 ${isLarge ? 'p-4' : 'p-3'}`}>
-        {/* Category tag */}
+      <div className="flex flex-col flex-1 p-3">
         <div className="flex items-center gap-1.5 mb-1.5">
-          <span
-            className="w-2 h-2 rounded-full shrink-0"
-            style={{ backgroundColor: color }}
-          />
-          <span className="text-xs font-medium" style={{ color }}>
-            {t(category?.title)}
-          </span>
+          <span className="w-2 h-2 rounded-full shrink-0" style={{ backgroundColor: color }} />
+          <span className="text-xs font-medium" style={{ color }}>{t(category?.title)}</span>
         </div>
-
-        {/* Title */}
-        <h3 className={`font-semibold leading-tight line-clamp-2 ${
-          isLarge ? 'text-base mb-1.5' : 'text-sm mb-1'
-        }`}>
-          {titleText}
-        </h3>
-
-        {/* Subtitle */}
-        <p className={`text-text-secondary flex-1 ${
-          isLarge ? 'text-sm mb-2 line-clamp-2' : 'text-xs mb-1.5 line-clamp-1'
-        }`}>
+        <h3 className="font-semibold leading-tight line-clamp-2 text-sm mb-1">{titleText}</h3>
+        <p className="text-text-secondary flex-1 text-xs mb-1.5 line-clamp-1">
           {article.subtitle ? t(article.subtitle) : '\u00A0'}
         </p>
-
-        {/* Meta */}
         <div className="mt-auto flex items-center gap-2 text-xs text-text-secondary">
           <Icon name="clock" size={12} />
           <span>{article.readingTime} min{lang !== 'zh' ? ' read' : ''}</span>
-          {isLarge && article.relatedKpIds?.length > 0 && (
-            <>
-              <span>·</span>
-              <span>{article.relatedKpIds.length} KP</span>
-            </>
-          )}
         </div>
       </div>
     </Link>
@@ -123,7 +140,7 @@ export function CategoryCard({ category, articleCount }) {
   return (
     <Link
       to={`/articles#${category.id}`}
-      className="group flex flex-col overflow-hidden rounded-[1.25rem] shrink-0 w-[260px] sm:w-[300px] h-[160px] hover:shadow-md transition-all"
+      className="group card-hover flex flex-col overflow-hidden rounded-[1.25rem] shrink-0 w-[260px] sm:w-[300px] h-[160px] transition-colors"
       style={{
         background: `linear-gradient(135deg, ${hexToRgba(category.color, 0.95)}, ${hexToRgba(category.color, 0.75)})`
       }}

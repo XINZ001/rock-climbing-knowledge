@@ -127,6 +127,13 @@ export default function Header({ onToggleSidebar, onOpenAuth }) {
   const { lang, setLang } = useApp()
   const { user, profile, loading } = useAuth()
   const location = useLocation()
+  const [scrolled, setScrolled] = useState(false)
+
+  useEffect(() => {
+    const onScroll = () => setScrolled(window.scrollY > 10)
+    window.addEventListener('scroll', onScroll, { passive: true })
+    return () => window.removeEventListener('scroll', onScroll)
+  }, [])
 
   // 判断当前板块用于高亮
   const isKnowledge = location.pathname === '/knowledge' || location.pathname.startsWith('/section') || location.pathname.startsWith('/search')
@@ -149,7 +156,7 @@ export default function Header({ onToggleSidebar, onOpenAuth }) {
   ]
 
   return (
-    <header className="sticky top-0 z-40 bg-stone-card border-b border-stone-border shadow-sm">
+    <header className={`sticky top-0 z-40 border-b border-stone-border header-glass ${scrolled ? 'header-scrolled bg-stone-card/80' : 'bg-stone-card'}`}>
       <div className="flex items-center px-4 h-14">
         {/* 左侧：Logo + 菜单按钮（桌面端） */}
         <div className="flex items-center gap-1 shrink-0">
@@ -159,7 +166,7 @@ export default function Header({ onToggleSidebar, onOpenAuth }) {
           </Link>
           <button
             onClick={onToggleSidebar}
-            className="hidden lg:flex items-center justify-center w-8 h-8 rounded-md hover:bg-stone-sidebar transition-colors ml-1"
+            className="btn-press hidden lg:flex items-center justify-center w-8 h-8 rounded-md hover:bg-stone-sidebar transition-colors ml-1"
           >
             <Icon name="menu" size={18} className="text-text-secondary" />
           </button>

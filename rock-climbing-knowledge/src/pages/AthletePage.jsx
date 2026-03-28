@@ -82,7 +82,7 @@ export default function AthletePage() {
   const athleteName = athlete ? t(athlete.name) : ''
 
   return (
-    <div className="max-w-6xl mx-auto px-4 py-6">
+    <div className="max-w-5xl mx-auto px-4 py-6">
       <PageSEO
         title={lang === 'zh' ? `${athleteName} — 攀岩名人堂` : lang === 'en' ? `${athleteName} — Climbing Hall of Fame` : `${athleteName} — 클라이밍 명예의 전당`}
         description={lang === 'zh'

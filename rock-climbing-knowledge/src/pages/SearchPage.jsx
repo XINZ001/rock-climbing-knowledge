@@ -108,7 +108,7 @@ export default function SearchPage() {
                 <Link
                   key={r.item.id}
                   to={`/section/${r.item.sectionSlug}/${r.item.subSectionSlug}#${r.item.id}`}
-                  className="block bg-stone-card rounded-lg border border-stone-border p-4 hover:shadow-sm hover:border-forest/30 transition-all"
+                  className="card-hover block bg-stone-card rounded-lg border border-stone-border p-4 hover:border-forest/30 transition-colors"
                 >
                   <div className="font-medium text-sm">
                     {lang === 'zh' ? r.item.title_zh : lang === 'en' ? r.item.title_en : (r.item.title_ko || r.item.title_en)}
