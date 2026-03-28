@@ -59,11 +59,12 @@ export default function TopicPage() {
     return result
   }, [knowledgePoints, isMainlandChina, lang, regionLoading])
 
-  // Scroll to hash on load
+  // Scroll to hash on load — 直接跳转，避免 smooth 滚动过程中被懒加载图片偏移
   useEffect(() => {
     if (!loading && window.location.hash) {
-      const el = document.getElementById(window.location.hash.slice(1))
-      if (el) el.scrollIntoView({ behavior: 'smooth', block: 'start' })
+      const id = window.location.hash.slice(1)
+      const el = document.getElementById(id)
+      if (el) el.scrollIntoView({ behavior: 'instant', block: 'start' })
     }
   }, [loading])
 

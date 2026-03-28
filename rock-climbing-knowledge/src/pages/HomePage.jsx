@@ -5,6 +5,7 @@ import { Icon } from '../utils/icons'
 import { getHallOfFameAthletes, getHallOfFameMedia } from '../utils/hallOfFame'
 import PageSEO from '../components/PageSEO'
 import ArticleCard from '../components/article/ArticleCard'
+import TrendingKPs from '../components/ui/TrendingKPs'
 import articleRegistry from '../data/article-registry.json'
 
 function hexToRgba(hex, alpha) {
@@ -19,11 +20,34 @@ function hexToRgba(hex, alpha) {
   return `rgba(${r}, ${g}, ${b}, ${alpha})`
 }
 
+// 为搜索结果生成跳转路径
+function getResultRoute(item) {
+  if (item._type === 'article') return `/articles/${item.slug}`
+  if (item._type === 'athlete') return `/hall-of-fame/${item.slug}`
+  // KP: 跳转到子页面并定位到具体知识点
+  return `/section/${item.sectionSlug}/${item.subSectionSlug}#${item.id}`
+}
+
+// 获取最近搜索记录
+function getRecentSearches() {
+  try {
+    return JSON.parse(localStorage.getItem('recentSearches') || '[]')
+  } catch { return [] }
+}
+function saveRecentSearch(query) {
+  try {
+    const recent = getRecentSearches().filter(q => q !== query)
+    recent.unshift(query)
+    localStorage.setItem('recentSearches', JSON.stringify(recent.slice(0, 8)))
+  } catch { /* ignore */ }
+}
+
 export default function HomePage() {
   const { sections, t, lang, search, searchReady } = useApp()
   const [query, setQuery] = useState('')
   const [results, setResults] = useState([])
   const [showDropdown, setShowDropdown] = useState(false)
+  const [activeIdx, setActiveIdx] = useState(-1)
   const navigate = useNavigate()
   const inputRef = useRef(null)
   const dropdownRef = useRef(null)
@@ -32,20 +56,22 @@ export default function HomePage() {
   const sectionArticleRef = useRef(null)
   const sectionHofRef = useRef(null)
 
+  // 搜索 + 200ms 防抖
   useEffect(() => {
     if (!query.trim()) {
       setResults([])
-      setShowDropdown(false)
       return
     }
     const timer = setTimeout(() => {
       const res = search(query)
-      setResults(res.slice(0, 8))
+      setResults(res.slice(0, 20))
       setShowDropdown(res.length > 0)
+      setActiveIdx(-1)
     }, 200)
     return () => clearTimeout(timer)
   }, [query, search])
 
+  // 点击外部关闭
   useEffect(() => {
     const handleClick = (e) => {
       if (dropdownRef.current && !dropdownRef.current.contains(e.target) &&
@@ -57,19 +83,79 @@ export default function HomePage() {
     return () => document.removeEventListener('mousedown', handleClick)
   }, [])
 
+  // 按类型分组结果：每组最多显示的条数
+  const GROUP_LIMITS = { kp: 5, article: 3, athlete: 3 }
+  const dropdownGroups = [
+    { type: 'kp', label: { zh: '知识点', en: 'Knowledge Points', ko: '지식 포인트' }, icon: 'book' },
+    { type: 'article', label: { zh: '专栏文章', en: 'Articles', ko: '칼럼' }, icon: 'fileText' },
+    { type: 'athlete', label: { zh: '名人堂', en: 'Hall of Fame', ko: '명예의 전당' }, icon: 'trophy' },
+  ]
+
+  const groupedResults = useMemo(() => {
+    const groups = { kp: [], article: [], athlete: [] }
+    for (const r of results) {
+      const type = r.item._type
+      if (groups[type] && groups[type].length < GROUP_LIMITS[type]) groups[type].push(r)
+    }
+    return groups
+  }, [results])
+
+  // 按每组最佳结果的相关性动态排序
+  const sortedGroups = useMemo(() => {
+    return [...dropdownGroups].sort((a, b) => {
+      const aItems = groupedResults[a.type]
+      const bItems = groupedResults[b.type]
+      if (!aItems?.length && !bItems?.length) return 0
+      if (!aItems?.length) return 1
+      if (!bItems?.length) return -1
+      const aTop = aItems[0]
+      const bTop = bItems[0]
+      const aScore = (aTop.score || 0) + (aTop._precision || 0) * 0.0001
+      const bScore = (bTop.score || 0) + (bTop._precision || 0) * 0.0001
+      return aScore - bScore
+    })
+  }, [groupedResults])
+
+  // 扁平列表用于键盘导航（跟随动态排序）
+  const flatItems = useMemo(() => {
+    return sortedGroups.flatMap(g => groupedResults[g.type] || [])
+  }, [sortedGroups, groupedResults])
+
+  const hasResults = flatItems.length > 0
+
   const handleSearchSubmit = (e) => {
     e.preventDefault()
     if (query.trim()) {
+      saveRecentSearch(query.trim())
       navigate(`/search?q=${encodeURIComponent(query.trim())}`)
       setShowDropdown(false)
     }
   }
 
   const handleResultClick = (item) => {
-    navigate(`/section/${item.sectionSlug}/${item.subSectionSlug}`)
+    saveRecentSearch(query.trim())
+    navigate(getResultRoute(item))
     setQuery('')
     setShowDropdown(false)
   }
+
+  // 键盘导航
+  const handleKeyDown = (e) => {
+    if (!showDropdown || flatItems.length === 0) return
+    if (e.key === 'ArrowDown') {
+      e.preventDefault()
+      setActiveIdx(prev => (prev + 1) % flatItems.length)
+    } else if (e.key === 'ArrowUp') {
+      e.preventDefault()
+      setActiveIdx(prev => (prev - 1 + flatItems.length) % flatItems.length)
+    } else if (e.key === 'Escape') {
+      setShowDropdown(false)
+      setActiveIdx(-1)
+    }
+  }
+
+  // 最近搜索
+  const recentSearches = useMemo(() => getRecentSearches(), [])
 
   // 名人堂：主页排序 — 竞技优先，Janja 置顶
   const allAthletes = useMemo(() => {
@@ -114,52 +200,113 @@ export default function HomePage() {
               type="text"
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              onFocus={() => results.length > 0 && setShowDropdown(true)}
+              onFocus={() => {
+                if (hasResults) setShowDropdown(true)
+                else if (!query.trim() && recentSearches.length > 0) setShowDropdown(true)
+              }}
+              onKeyDown={handleKeyDown}
               placeholder={searchReady
-                ? (lang === 'zh' ? '搜索知识点...' : lang === 'en' ? 'Search...' : '검색...')
+                ? (lang === 'zh' ? '搜索知识点、专栏、运动员...' : lang === 'en' ? 'Search knowledge, articles, athletes...' : '지식, 칼럼, 선수 검색...')
                 : (lang === 'zh' ? '索引加载中...' : lang === 'en' ? 'Loading...' : '로딩 중...')}
               className="w-full pl-10 pr-4 py-2.5 rounded-xl bg-white border border-stone-border text-sm focus:outline-none focus:border-forest focus:ring-1 focus:ring-forest transition-colors shadow-sm"
             />
           </div>
 
+          {/* 下拉面板 */}
           {showDropdown && (
-            <div ref={dropdownRef} className="absolute top-full left-0 right-0 mt-1 bg-stone-card rounded-lg border border-stone-border shadow-lg overflow-hidden z-50 text-left">
-              {results.map((r) => (
-                <button
-                  key={r.item.id}
-                  onClick={() => handleResultClick(r.item)}
-                  className="w-full text-left px-4 py-2.5 hover:bg-stone-bg transition-colors border-b border-stone-border last:border-b-0"
-                >
-                  <div className="text-sm font-medium">{lang === 'zh' ? r.item.title_zh : lang === 'en' ? r.item.title_en : (r.item.title_ko || r.item.title_en)}</div>
-                  <div className="text-xs text-text-secondary mt-0.5">
-                    {lang === 'zh' ? r.item.sectionTitle_zh : lang === 'en' ? r.item.sectionTitle_en : (r.item.sectionTitle_ko || r.item.sectionTitle_en)}
-                    {' · '}
-                    {lang === 'zh' ? r.item.subTitle_zh : lang === 'en' ? r.item.subTitle_en : (r.item.subTitle_ko || r.item.subTitle_en)}
+            <div ref={dropdownRef} className="absolute top-full left-0 right-0 mt-1 bg-stone-card rounded-xl border border-stone-border shadow-lg overflow-hidden z-50 text-left max-h-[420px] overflow-y-auto">
+
+              {/* 空查询：最近搜索 */}
+              {!query.trim() && recentSearches.length > 0 && (
+                <div className="p-3">
+                  <div className="text-[11px] font-semibold text-text-secondary uppercase tracking-wider mb-2 px-1">
+                    {lang === 'zh' ? '最近搜索' : lang === 'en' ? 'Recent Searches' : '최근 검색'}
                   </div>
-                </button>
-              ))}
-              <button
-                onClick={handleSearchSubmit}
-                className="w-full text-center px-4 py-2 text-sm text-forest hover:bg-forest-light transition-colors font-medium"
-              >
-                {lang === 'zh' ? '查看全部结果 →' : lang === 'en' ? 'View all results →' : '전체 결과 보기 →'}
-              </button>
+                  <div className="flex flex-wrap gap-1.5">
+                    {recentSearches.map((q) => (
+                      <button
+                        key={q}
+                        type="button"
+                        onClick={() => { setQuery(q); setShowDropdown(true) }}
+                        className="px-2.5 py-1 rounded-full text-xs bg-stone-bg border border-stone-border hover:border-forest/40 hover:bg-forest-light transition-colors"
+                      >
+                        {q}
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {/* 有查询结果：分组展示 */}
+              {query.trim() && hasResults && (
+                <>
+                  {/* 动态排序的分组 */}
+                  {sortedGroups.map(({ type, label, icon }, groupIdx) => {
+                    const items = groupedResults[type]
+                    if (!items || items.length === 0) return null
+                    return (
+                      <div key={type} className={sortedGroups.slice(0, groupIdx).some(g => groupedResults[g.type]?.length > 0) ? 'border-t border-stone-border' : ''}>
+                        <div className="px-4 pt-3 pb-1.5 text-[11px] font-semibold text-text-secondary uppercase tracking-wider flex items-center gap-1.5">
+                          <Icon name={icon} size={12} />
+                          {label[lang] || label.zh}
+                        </div>
+                        {items.map((r) => {
+                          const idx = flatItems.indexOf(r)
+                          return (
+                            <button
+                              key={r.item.id}
+                              type="button"
+                              onClick={() => handleResultClick(r.item)}
+                              className={`w-full text-left px-4 py-2 hover:bg-stone-bg transition-colors flex items-center gap-3 ${idx === activeIdx ? 'bg-stone-bg' : ''}`}
+                            >
+                              {type === 'article' && r.item.emoji && <span className="text-base shrink-0">{r.item.emoji}</span>}
+                              <div className="flex-1 min-w-0">
+                                <div className="text-sm font-medium truncate">{lang === 'zh' ? r.item.title_zh : lang === 'en' ? r.item.title_en : (r.item.title_ko || r.item.title_en)}</div>
+                                <div className="text-xs text-text-secondary mt-0.5 truncate">
+                                  {type === 'kp' && (
+                                    <>
+                                      {lang === 'zh' ? r.item.sectionTitle_zh : lang === 'en' ? r.item.sectionTitle_en : (r.item.sectionTitle_ko || r.item.sectionTitle_en)}
+                                      {' · '}
+                                      {lang === 'zh' ? r.item.subTitle_zh : lang === 'en' ? r.item.subTitle_en : (r.item.subTitle_ko || r.item.subTitle_en)}
+                                    </>
+                                  )}
+                                  {type === 'article' && (
+                                    <>
+                                      {lang === 'zh' ? r.item.categoryTitle_zh : lang === 'en' ? r.item.categoryTitle_en : (r.item.categoryTitle_ko || r.item.categoryTitle_en)}
+                                      {r.item.readingTime ? ` · ${r.item.readingTime} min` : ''}
+                                    </>
+                                  )}
+                                  {type === 'athlete' && (
+                                    lang === 'zh' ? r.item.terms_zh : lang === 'en' ? r.item.terms_en : (r.item.terms_ko || r.item.terms_en)
+                                  )}
+                                </div>
+                              </div>
+                              <Icon name="chevronRight" size={14} className="text-text-secondary shrink-0" />
+                            </button>
+                          )
+                        })}
+                      </div>
+                    )
+                  })}
+
+                  {/* 查看全部 */}
+                  <div className="border-t border-stone-border">
+                    <button
+                      type="button"
+                      onClick={handleSearchSubmit}
+                      className="w-full text-center px-4 py-2.5 text-sm text-forest hover:bg-forest-light transition-colors font-medium"
+                    >
+                      {lang === 'zh' ? '查看全部结果 →' : lang === 'en' ? 'View all results →' : '전체 결과 보기 →'}
+                    </button>
+                  </div>
+                </>
+              )}
             </div>
           )}
         </form>
 
-        <p className="text-sm text-text-secondary mt-4 flex flex-wrap items-center justify-center gap-3">
-          <span>{lang === 'zh' ? '制作人：行之' : lang === 'en' ? 'By 行之' : '제작자: 행지'}</span>
-          <a
-            href="https://xhslink.com/m/7LQ0G4Nh0oU"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="inline-flex items-center gap-2 px-2 py-2 text-sm font-medium rounded-lg border border-stone-border bg-stone-card text-text-secondary hover:bg-stone-hover hover:border-forest/40 transition-colors"
-          >
-            <img src="/images/xiaohongshu-logo.png" alt="小红书" className="w-[18px] h-[18px] rounded object-contain" />
-            {lang === 'zh' ? '查看小红书' : lang === 'en' ? 'View Xiaohongshu' : '샤오홍슈 보기'}
-          </a>
-        </p>
+        {/* 热门知识点滚动标签 */}
+        <TrendingKPs />
       </div>
 
       {/* ==================== 1. 攀岩知识库 ==================== */}

@@ -3,10 +3,13 @@ import Fuse from 'fuse.js'
 import sectionsIndex from '../data/sections.json'
 import searchSynonyms from '../data/search-synonyms.json'
 import kpRegistry from '../data/kp-registry.json'
+import articleRegistry from '../data/article-registry.json'
+import athleteRegistry from '../data/athlete-registry.json'
 
 const AppContext = createContext(null)
 
 const sectionDataModules = import.meta.glob('../data/section-*.json')
+const articleContentModules = import.meta.glob('../data/articles/*.json')
 
 export function AppProvider({ children }) {
   const [sections] = useState(sectionsIndex.sections)
@@ -84,6 +87,7 @@ export function AppProvider({ children }) {
             const keywords = registryEntry?.keywords?.join(' ') || ''
             allDocs.push({
               id: kp.id,
+              _type: 'kp',
               sectionId: data.sectionId,
               sectionSlug: section.slug,
               sectionTitle_zh: section.title.zh,
@@ -111,6 +115,68 @@ export function AppProvider({ children }) {
 
         // Also cache loaded data
         setLoadedSections(prev => ({ ...prev, [data.sectionId]: data }))
+      })
+
+      // ── 文章索引（加载正文内容用于全文搜索） ──
+      const articleContentMap = {}
+      const articleLoadPromises = Object.entries(articleContentModules).map(async ([key, loader]) => {
+        try {
+          const mod = await loader()
+          const data = mod.default || mod
+          if (data?.slug) articleContentMap[data.slug] = data
+        } catch { /* ignore */ }
+      })
+      await Promise.all(articleLoadPromises)
+
+      articleRegistry.articles.forEach(article => {
+        const cat = articleRegistry.categories.find(c => c.id === article.category)
+        const fullContent = articleContentMap[article.slug]
+        allDocs.push({
+          id: article.id,
+          _type: 'article',
+          slug: article.slug,
+          categoryId: article.category,
+          categoryTitle_zh: cat?.title?.zh || '',
+          categoryTitle_en: cat?.title?.en || '',
+          categoryTitle_ko: cat?.title?.ko || '',
+          title_zh: article.title?.zh || '',
+          title_en: article.title?.en || '',
+          title_ko: article.title?.ko || '',
+          content_zh: fullContent?.content?.zh || article.subtitle?.zh || '',
+          content_en: fullContent?.content?.en || article.subtitle?.en || '',
+          content_ko: fullContent?.content?.ko || article.subtitle?.ko || '',
+          terms_zh: article.subtitle?.zh || '',
+          terms_en: article.subtitle?.en || '',
+          terms_ko: article.subtitle?.ko || '',
+          tags: (article.tags || []).join(' '),
+          keywords: (article.seo?.keywords || []).join(' '),
+          synonyms: '',
+          emoji: article.emoji || '',
+          readingTime: article.readingTime || 0,
+        })
+      })
+
+      // ── 运动员索引 ──
+      athleteRegistry.athletes.forEach(athlete => {
+        allDocs.push({
+          id: athlete.athleteId,
+          _type: 'athlete',
+          slug: athlete.slug,
+          category: athlete.category,
+          title_zh: athlete.athleteName?.zh || '',
+          title_en: athlete.athleteName?.en || '',
+          title_ko: athlete.athleteName?.ko || '',
+          content_zh: (athlete.tagline?.zh || '') + ' ' + (athlete.overview?.zh || ''),
+          content_en: (athlete.tagline?.en || '') + ' ' + (athlete.overview?.en || ''),
+          content_ko: (athlete.tagline?.ko || '') + ' ' + (athlete.overview?.ko || ''),
+          terms_zh: athlete.nationality?.zh || '',
+          terms_en: athlete.nationality?.en || '',
+          terms_ko: athlete.nationality?.ko || '',
+          tags: [athlete.category, athlete.subcategory].filter(Boolean).join(' '),
+          keywords: '',
+          synonyms: '',
+          accentColor: athlete.accentColor || '',
+        })
       })
 
       if (allDocs.length > 0) {
@@ -167,7 +233,36 @@ export function AppProvider({ children }) {
 
   const search = useCallback((query) => {
     if (!searchIndex || !query.trim()) return []
-    return searchIndex.search(query.trim()).slice(0, 20)
+    const raw = searchIndex.search(query.trim())
+    const q = query.trim().toLowerCase()
+
+    // 二次排序：Fuse.js 分数相同时，标题精确匹配且更短的排前面
+    // 解决 "janja" 搜索时文章标题含 Janja 但运动员名字就是 Janja 却排后面的问题
+    const scored = raw.map(r => {
+      const titles = [r.item.title_zh, r.item.title_en, r.item.title_ko].map(t => (t || '').toLowerCase())
+      const titleExact = titles.some(t => t === q)           // 标题完全等于搜索词
+      const titleStartsWith = titles.some(t => t.startsWith(q)) // 标题以搜索词开头
+      const titleContains = titles.some(t => t.includes(q))  // 标题包含搜索词
+      const minTitleLen = Math.min(...titles.filter(t => t.includes(q)).map(t => t.length), 9999)
+
+      // 精确度分（越小越好，用于同分时排序）
+      let precision = 0
+      if (titleExact) precision = -3
+      else if (titleStartsWith) precision = -2
+      else if (titleContains) precision = -1 + (minTitleLen / 10000)  // 标题越短越精确
+
+      return { ...r, _precision: precision }
+    })
+
+    scored.sort((a, b) => {
+      // 先按 Fuse score 排（越小越好）
+      const scoreDiff = (a.score || 0) - (b.score || 0)
+      if (Math.abs(scoreDiff) > 0.001) return scoreDiff
+      // 分数接近时，按精确度排
+      return a._precision - b._precision
+    })
+
+    return scored.slice(0, 50)
   }, [searchIndex])
 
   // Loose search for "did you mean" suggestions (threshold 0.6)

@@ -1,0 +1,223 @@
+import { useMemo, useState, useRef, useEffect, useCallback } from 'react'
+import { useNavigate } from 'react-router-dom'
+import { useApp } from '../../context/AppContext'
+import kpRegistry from '../../data/kp-registry.json'
+
+// 复用 KpLink 的跳转逻辑：navigate to /section/{slug}/{subSlug}#{kp-id}
+
+/**
+ * 热门知识点双行 marquee 滚动标签
+ * - 上排向左滚动，下排向右滚动
+ * - hover 整个区域时两排立即停住（无跳动）
+ * - 使用 requestAnimationFrame 手动驱动，避免 CSS animation 暂停跳帧
+ */
+
+// KP 标签：点击直接跳转到知识点
+const ROW1_KPS = [
+  'kp-drop-knee', 'kp-heel-hook', 'kp-flagging',
+  'kp-hangboard-training', 'kp-dyno-technique',
+  'kp-climbing-shoes',
+]
+const ROW2_KPS = [
+  'kp-twist-lock', 'kp-crack-technique',
+  'kp-campus-training', 'kp-fear-management',
+  'kp-anchor-building',
+]
+
+// 搜索词标签：点击跳转到搜索结果页，口语化、接地气
+// sectionId 用于染色，与对应知识领域一致
+const ROW1_QUERIES = [
+  { q: '怕高怎么办', emoji: '😰', sectionId: 'section-04' },
+  { q: '泵了', emoji: '💪', sectionId: 'section-02' },
+  { q: '怎么选鞋', emoji: '👟', sectionId: 'section-05' },
+  { q: '零基础入门', emoji: '🌱', sectionId: 'section-01' },
+  { q: '练指力', emoji: '🤏', sectionId: 'section-02' },
+  { q: '手皮破了', emoji: '🩹', sectionId: 'section-07' },
+]
+const ROW2_QUERIES = [
+  { q: '腿软不敢爬', emoji: '🦵', sectionId: 'section-04' },
+  { q: '卡级了', emoji: '📊', sectionId: 'section-04' },
+  { q: '脚法怎么练', emoji: '🦶', sectionId: 'section-03' },
+  { q: '开胯拉伸', emoji: '🧘', sectionId: 'section-02' },
+  { q: '第一次户外', emoji: '⛰️', sectionId: 'section-08' },
+  { q: '手指疼', emoji: '🤕', sectionId: 'section-07' },
+]
+
+function hexToRgba(hex, alpha) {
+  const n = hex.replace('#', '')
+  const v = n.length === 3 ? n.split('').map(c => c + c).join('') : n
+  const int = Number.parseInt(v, 16)
+  return `rgba(${(int >> 16) & 255}, ${(int >> 8) & 255}, ${int & 255}, ${alpha})`
+}
+
+/**
+ * 用 rAF 驱动的 marquee 行
+ * direction: 'left' | 'right'
+ * speed: px per second
+ */
+function MarqueeRow({ items, direction, paused, onClickItem }) {
+  const trackRef = useRef(null)
+  const offsetRef = useRef(0)       // 当前偏移（px）
+  const prevTimeRef = useRef(null)
+  const rafRef = useRef(null)
+  const halfWidthRef = useRef(0)
+  const speed = 25 // px/s
+
+  // 测量半宽（一份内容的宽度）用于无缝循环
+  useEffect(() => {
+    const track = trackRef.current
+    if (!track) return
+    // 总宽度 = 两份内容，取一半
+    halfWidthRef.current = track.scrollWidth / 2
+  })
+
+  const tick = useCallback((timestamp) => {
+    if (prevTimeRef.current === null) {
+      prevTimeRef.current = timestamp
+    }
+    const delta = (timestamp - prevTimeRef.current) / 1000 // seconds
+    prevTimeRef.current = timestamp
+
+    if (!paused) {
+      const move = speed * delta
+      if (direction === 'left') {
+        offsetRef.current -= move
+        // 当滚过一整份内容时重置，实现无缝
+        if (halfWidthRef.current > 0 && offsetRef.current <= -halfWidthRef.current) {
+          offsetRef.current += halfWidthRef.current
+        }
+      } else {
+        offsetRef.current += move
+        if (halfWidthRef.current > 0 && offsetRef.current >= 0) {
+          offsetRef.current -= halfWidthRef.current
+        }
+      }
+    }
+
+    if (trackRef.current) {
+      trackRef.current.style.transform = `translateX(${offsetRef.current}px)`
+    }
+
+    rafRef.current = requestAnimationFrame(tick)
+  }, [paused, direction])
+
+  useEffect(() => {
+    // 右行初始偏移：从 -halfWidth 开始
+    if (direction === 'right' && offsetRef.current === 0 && halfWidthRef.current > 0) {
+      offsetRef.current = -halfWidthRef.current
+    }
+    prevTimeRef.current = null
+    rafRef.current = requestAnimationFrame(tick)
+    return () => {
+      if (rafRef.current) cancelAnimationFrame(rafRef.current)
+    }
+  }, [tick, direction])
+
+  return (
+    <div className="overflow-hidden relative py-1">
+      {/* 左右渐隐遮罩 — inset-y 用负值覆盖 py-1 的 padding，确保遮罩全高 */}
+      <div className="pointer-events-none absolute -inset-y-1 left-0 w-12 z-10 bg-gradient-to-r from-stone-bg to-transparent" />
+      <div className="pointer-events-none absolute -inset-y-1 right-0 w-12 z-10 bg-gradient-to-l from-stone-bg to-transparent" />
+
+      <div
+        ref={trackRef}
+        className="flex gap-3 w-max will-change-transform"
+      >
+        {[...items, ...items].map((item, i) => (
+          <button
+            key={`${item.id}-${i}`}
+            onClick={() => onClickItem(item.route)}
+            className="shrink-0 px-3 py-1.5 rounded-full text-xs font-medium whitespace-nowrap border transition-all duration-150 cursor-pointer hover:scale-105 hover:shadow-sm"
+            style={{
+              backgroundColor: hexToRgba(item.color, 0.10),
+              borderColor: hexToRgba(item.color, 0.25),
+              color: item.color,
+            }}
+            onMouseEnter={(e) => {
+              e.currentTarget.style.backgroundColor = hexToRgba(item.color, 0.20)
+              e.currentTarget.style.borderColor = hexToRgba(item.color, 0.45)
+            }}
+            onMouseLeave={(e) => {
+              e.currentTarget.style.backgroundColor = hexToRgba(item.color, 0.10)
+              e.currentTarget.style.borderColor = hexToRgba(item.color, 0.25)
+            }}
+          >
+            {item.emoji ? `${item.emoji} ` : ''}{item.label}
+          </button>
+        ))}
+      </div>
+    </div>
+  )
+}
+
+export default function TrendingKPs() {
+  const { sections, lang } = useApp()
+  const navigate = useNavigate()
+  const [hovered, setHovered] = useState(false)
+
+  const colorMap = useMemo(() => {
+    const map = {}
+    for (const s of sections) {
+      map[s.id] = s.color
+    }
+    return map
+  }, [sections])
+
+  // 将 KP ID 列表解析为标签对象
+  const resolveKps = (ids) =>
+    ids
+      .map((id) => {
+        const kp = kpRegistry.registry.find((k) => k.id === id)
+        if (!kp) return null
+        return {
+          id: kp.id,
+          label: lang === 'zh' ? kp.title.zh : lang === 'en' ? kp.title.en : (kp.title.ko || kp.title.en),
+          color: colorMap[kp.sectionId] || '#4A7C59',
+          route: `/section/${kp.sectionSlug}/${kp.subSectionSlug}#${kp.id}`,
+        }
+      })
+      .filter(Boolean)
+
+  // 将搜索词列表解析为标签对象
+  const resolveQueries = (queries) =>
+    queries.map((item) => ({
+      id: `q-${item.q}`,
+      label: item.q,
+      emoji: item.emoji || '',
+      color: colorMap[item.sectionId] || '#4A7C59',
+      route: `/search?q=${encodeURIComponent(item.q)}`,
+    }))
+
+  // 交错合并 KP 标签和搜索词标签：KP, Query, KP, Query, ...
+  const interleave = (kps, queries) => {
+    const result = []
+    const maxLen = Math.max(kps.length, queries.length)
+    for (let i = 0; i < maxLen; i++) {
+      if (i < kps.length) result.push(kps[i])
+      if (i < queries.length) result.push(queries[i])
+    }
+    return result
+  }
+
+  const row1 = useMemo(() => interleave(resolveKps(ROW1_KPS), resolveQueries(ROW1_QUERIES)), [lang, colorMap])
+  const row2 = useMemo(() => interleave(resolveKps(ROW2_KPS), resolveQueries(ROW2_QUERIES)), [lang, colorMap])
+
+  const handleClick = useCallback((route) => navigate(route), [navigate])
+
+  if (row1.length === 0 && row2.length === 0) return null
+
+  return (
+    <div
+      className="mt-5 max-w-lg mx-auto flex flex-col gap-2"
+      onMouseEnter={() => setHovered(true)}
+      onMouseLeave={() => setHovered(false)}
+    >
+      {row1.length > 0 && (
+        <MarqueeRow items={row1} direction="left" paused={hovered} onClickItem={handleClick} />
+      )}
+      {row2.length > 0 && (
+        <MarqueeRow items={row2} direction="right" paused={hovered} onClickItem={handleClick} />
+      )}
+    </div>
+  )
+}
