@@ -45,6 +45,14 @@ function UserMenu() {
       {open && (
         <div className="absolute right-0 top-full mt-1 w-48 bg-stone-card rounded-lg border border-stone-border shadow-lg overflow-hidden z-50">
           <button
+            onClick={() => handleNav('/profile')}
+            className="w-full flex items-center gap-2 px-4 py-2.5 text-sm hover:bg-stone-bg transition-colors text-left"
+          >
+            <Icon name="user" size={14} className="text-text-secondary" />
+            {lang === 'zh' ? '个人主页' : lang === 'en' ? 'My Profile' : '마이페이지'}
+          </button>
+          <div className="border-t border-stone-border" />
+          <button
             onClick={() => handleNav('/climbing-profile')}
             className="w-full flex items-center gap-2 px-4 py-2.5 text-sm hover:bg-stone-bg transition-colors text-left"
           >
@@ -56,7 +64,7 @@ function UserMenu() {
             onClick={() => handleNav('/settings')}
             className="w-full flex items-center gap-2 px-4 py-2.5 text-sm hover:bg-stone-bg transition-colors text-left"
           >
-            <Icon name="user" size={14} className="text-text-secondary" />
+            <Icon name="edit" size={14} className="text-text-secondary" />
             {lang === 'zh' ? '个人设置' : lang === 'en' ? 'Settings' : '설정'}
           </button>
           <div className="border-t border-stone-border" />

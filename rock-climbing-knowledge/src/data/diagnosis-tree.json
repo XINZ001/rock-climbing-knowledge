@@ -1,0 +1,870 @@
+{
+  "steps": [
+    {
+      "id": "gym",
+      "title": { "zh": "你的岩馆定级偏软还是偏硬？", "en": "How does your gym grade routes?", "ko": "당신의 암장 등급은 후한 편인가요, 짠 편인가요?" },
+      "subtitle": { "zh": "不同岩馆的 V3 难度可能差很多，选一个最接近你岩馆的情况", "en": "A V3 at one gym can feel very different from another — pick what matches your gym", "ko": "같은 V3도 암장마다 체감 난이도가 달라요 — 가장 비슷한 것을 선택하세요" },
+      "type": "single",
+      "options": [
+        {
+          "id": "soft",
+          "emoji": "😊",
+          "label": { "zh": "偏软（等级给得大方）", "en": "Soft (generous grading)", "ko": "후한 편 (등급이 너그러워요)" },
+          "desc": { "zh": "馆里最高有 V8-V10+，新手练几周就能爬 V2-V3，大部分人聚在 V4-V6", "en": "Gym goes up to V8-V10+, beginners hit V2-V3 in weeks, most people cluster at V4-V6", "ko": "암장 최고 등급 V8-V10+, 초보도 몇 주면 V2-V3, 대부분 V4-V6 구간" }
+        },
+        {
+          "id": "medium",
+          "emoji": "⚖️",
+          "label": { "zh": "中等", "en": "Medium (standard grading)", "ko": "보통" },
+          "desc": { "zh": "馆里最高 V7-V8 左右，V3 大概要练几个月，多数人稳定在 V3-V5", "en": "Gym tops out around V7-V8, V3 takes a few months, most people settle at V3-V5", "ko": "암장 최고 V7-V8 정도, V3에 몇 달 걸리고, 대부분 V3-V5 구간" }
+        },
+        {
+          "id": "hard",
+          "emoji": "💀",
+          "label": { "zh": "偏硬（等级给得严格）", "en": "Hard (strict grading)", "ko": "짠 편 (등급이 엄격해요)" },
+          "desc": { "zh": "馆里最高只到 V5-V7，V3 对多数人已经很难，大部分人在 V1-V3 区间", "en": "Gym tops out at V5-V7, V3 is already hard for most, majority climb V1-V3", "ko": "암장 최고 V5-V7, V3이면 이미 어려운 편, 대부분 V1-V3 구간" }
+        },
+        {
+          "id": "outdoor",
+          "emoji": "🏔️",
+          "label": { "zh": "我主要在户外爬", "en": "I mostly climb outdoors", "ko": "주로 야외에서 타요" },
+          "desc": { "zh": "按户外标准来评估，不需要岩馆定级校准", "en": "Grade me by outdoor standards — no gym calibration needed", "ko": "야외 기준으로 평가해 주세요 — 암장 보정 불필요" }
+        }
+      ]
+    },
+    {
+      "id": "level",
+      "title": { "zh": "你现在的攀爬水平？", "en": "Where are you in your climbing journey?", "ko": "현재 클라이밍 수준은?" },
+      "subtitle": { "zh": "根据你在岩馆的体感来选，下方的等级参考已根据你的岩馆类型校准", "en": "Pick based on how you feel — grade references below are calibrated to your gym", "ko": "체감에 맞게 선택하세요 — 등급 참고가 암장 유형에 맞게 보정되었어요" },
+      "type": "single",
+      "options": [
+        { "id": "beginner", "emoji": "🌱", "label": { "zh": "刚开始爬", "en": "Just getting started", "ko": "이제 막 시작했어요" }, "desc": { "zh": "还在熟悉基本动作，岩馆最简单的线路也要努力才能完成", "en": "Still learning the basics — even the easiest gym routes take real effort", "ko": "기본기를 익히는 중, 가장 쉬운 루트도 힘들어요" } },
+        { "id": "elementary", "emoji": "🧗", "label": { "zh": "能爬岩馆里偏简单的线", "en": "I can do easier gym routes", "ko": "쉬운 루트는 할 수 있어요" }, "desc": { "zh": "简单线路比较轻松，中等难度开始卡住", "en": "Easy routes feel comfortable, starting to get stuck on medium ones", "ko": "쉬운 루트는 편하지만, 중간 난이도에서 막히기 시작" } },
+        { "id": "intermediate", "emoji": "💪", "label": { "zh": "岩馆中等线路能完成", "en": "I can handle mid-level gym routes", "ko": "중간 난이도 루트 가능" }, "desc": { "zh": "中等难度大部分能完成，难线偶尔能磕下来，感觉进步变慢", "en": "Can finish most mid-level routes, occasionally send harder ones, progress feels slow", "ko": "중간 난이도 대부분 완등, 가끔 어려운 것도, 성장이 느려진 느낌" } },
+        { "id": "upper-intermediate", "emoji": "🔥", "label": { "zh": "岩馆大部分线路都能爬", "en": "I can do most routes in my gym", "ko": "대부분의 루트를 할 수 있어요" }, "desc": { "zh": "馆里的难线基本都能试，想再往上需要系统训练", "en": "Can attempt most hard routes — need structured training to keep improving", "ko": "어려운 루트 대부분 시도 가능, 더 오르려면 체계적 훈련 필요" } },
+        { "id": "advanced", "emoji": "⚡", "label": { "zh": "岩馆最难的线也能完成", "en": "I can send the hardest gym routes", "ko": "가장 어려운 루트도 완등 가능" }, "desc": { "zh": "馆里基本没有爬不了的线，追求户外高难或比赛成绩", "en": "Few gym routes I can't do — chasing outdoor projects or competition results", "ko": "못 타는 루트가 거의 없고, 야외 프로젝트나 대회 성적 추구" } }
+      ]
+    },
+    {
+      "id": "style",
+      "title": { "zh": "你主要爬什么类型？", "en": "What type of climbing do you mainly do?", "ko": "주로 어떤 유형의 클라이밍을 하나요?" },
+      "subtitle": { "zh": "可以多选", "en": "You can select multiple", "ko": "복수 선택 가능" },
+      "type": "multi",
+      "options": [
+        { "id": "indoor-boulder", "emoji": "🧱", "label": { "zh": "室内抱石", "en": "Indoor bouldering", "ko": "실내 볼더링" } },
+        { "id": "indoor-rope", "emoji": "🏛️", "label": { "zh": "室内先锋/顶绳", "en": "Indoor lead/top-rope", "ko": "실내 리드/탑로프" } },
+        { "id": "outdoor-boulder", "emoji": "🪨", "label": { "zh": "户外抱石", "en": "Outdoor bouldering", "ko": "야외 볼더링" } },
+        { "id": "outdoor-sport", "emoji": "⛰️", "label": { "zh": "户外运动攀", "en": "Outdoor sport climbing", "ko": "야외 스포츠 클라이밍" } },
+        { "id": "outdoor-trad", "emoji": "🧗", "label": { "zh": "户外传统攀", "en": "Outdoor trad climbing", "ko": "야외 전통 클라이밍" } }
+      ]
+    },
+    {
+      "id": "bottleneck",
+      "title": { "zh": "你现在最困扰的是什么？", "en": "What's your biggest frustration right now?", "ko": "지금 가장 고민되는 점은?" },
+      "subtitle": { "zh": "选 1-2 个最困扰你的问题", "en": "Pick 1-2 issues that bother you most", "ko": "가장 고민되는 1-2개를 선택하세요" },
+      "type": "multi",
+      "maxSelect": 2,
+      "options": [
+        { "id": "strength", "emoji": "💪", "label": { "zh": "力量不够", "en": "Not strong enough", "ko": "힘이 부족해요" }, "desc": { "zh": "抓不住、拉不上去、很快就没力了", "en": "Can't hold on, can't pull up, arms burn out fast", "ko": "잡히지 않고, 당길 수 없고, 금방 힘이 빠져요" } },
+        { "id": "technique", "emoji": "🦶", "label": { "zh": "动作做不出来", "en": "Can't execute moves", "ko": "동작이 안 돼요" }, "desc": { "zh": "知道该怎么爬但身体做不到", "en": "Know what to do but body won't cooperate", "ko": "어떻게 해야 하는지 알지만 몸이 안 따라줘요" } },
+        { "id": "mental", "emoji": "😰", "label": { "zh": "心理障碍", "en": "Mental barriers", "ko": "심리적 장벽" }, "desc": { "zh": "害怕、紧张、不敢尝试", "en": "Fear, anxiety, afraid to try", "ko": "두려움, 긴장, 시도하기 무서워요" } },
+        { "id": "plateau", "emoji": "📊", "label": { "zh": "卡级了", "en": "Hit a plateau", "ko": "정체기예요" }, "desc": { "zh": "一直没进步，不知道问题在哪", "en": "No progress, can't figure out why", "ko": "발전이 없고, 원인을 모르겠어요" } },
+        { "id": "injury", "emoji": "🩹", "label": { "zh": "身体不舒服", "en": "Pain or discomfort", "ko": "몸이 불편해요" }, "desc": { "zh": "疼痛、受伤、恢复慢", "en": "Pain, injuries, slow recovery", "ko": "통증, 부상, 회복이 느려요" } },
+        { "id": "training", "emoji": "🤷", "label": { "zh": "不知道怎么练", "en": "Don't know how to train", "ko": "어떻게 훈련해야 할지 모르겠어요" }, "desc": { "zh": "没有计划、没有方向", "en": "No plan, no direction", "ko": "계획도 방향도 없어요" } }
+      ]
+    },
+    {
+      "id": "rating",
+      "title": { "zh": "给自己打个分", "en": "Rate yourself", "ko": "자기 평가" },
+      "subtitle": { "zh": "6 个维度，1=很弱，5=很强", "en": "6 dimensions, 1=very weak, 5=very strong", "ko": "6가지 영역, 1=매우 약함, 5=매우 강함" },
+      "type": "rating",
+      "dimensions": [
+        {
+          "id": "finger",
+          "emoji": "💪",
+          "label": { "zh": "手指/上肢力量", "en": "Finger & upper body strength", "ko": "손가락/상체 힘" },
+          "desc": { "zh": "抓握、拉动、锁定的能力", "en": "Grip, pull, and lock-off ability", "ko": "그립, 당기기, 락오프 능력" },
+          "low": { "zh": "小点完全抓不住", "en": "Can't hold small holds at all", "ko": "작은 홀드를 전혀 못 잡아요" },
+          "high": { "zh": "小点随便抓，单臂引体没问题", "en": "Small holds are easy, can do one-arm pull-ups", "ko": "작은 홀드 쉽게 잡고, 원암 풀업 가능" }
+        },
+        {
+          "id": "endurance",
+          "emoji": "🫁",
+          "label": { "zh": "耐力", "en": "Endurance", "ko": "지구력" },
+          "desc": { "zh": "持续攀爬不泵的能力", "en": "Ability to climb continuously without pumping", "ko": "펌핑 없이 지속적으로 등반하는 능력" },
+          "low": { "zh": "2-3条就前臂涨爆", "en": "Forearms pump out after 2-3 routes", "ko": "2-3개 루트 후 전완이 펌핑" },
+          "high": { "zh": "连续爬10条以上还很轻松", "en": "Can climb 10+ routes and still feel fresh", "ko": "10개 이상 루트를 타도 여유로워요" }
+        },
+        {
+          "id": "technique",
+          "emoji": "🦶",
+          "label": { "zh": "技术/动作效率", "en": "Technique & movement efficiency", "ko": "기술/동작 효율" },
+          "desc": { "zh": "脚法、重心、动作协调", "en": "Footwork, balance, coordination", "ko": "풋워크, 밸런스, 협응" },
+          "low": { "zh": "经常踩滑、动作笨拙", "en": "Feet slip often, movements feel clumsy", "ko": "자주 미끄러지고, 동작이 어색해요" },
+          "high": { "zh": "动作流畅、旁人说我爬得很好看", "en": "Smooth movement, people say I climb beautifully", "ko": "동작이 유려하고, 사람들이 잘 탄다고 해요" }
+        },
+        {
+          "id": "flexibility",
+          "emoji": "🧘",
+          "label": { "zh": "柔韧性", "en": "Flexibility", "ko": "유연성" },
+          "desc": { "zh": "劈叉、高抬腿、开胯", "en": "Splits, high steps, hip mobility", "ko": "스플릿, 하이스텝, 고관절 가동성" },
+          "low": { "zh": "完全劈不开，高脚踩不上去", "en": "Can't do splits, can't reach high footholds", "ko": "스플릿 불가, 높은 풋홀드에 발이 안 닿아요" },
+          "high": { "zh": "轻松劈叉、高跨步没问题", "en": "Easy splits, high steps no problem", "ko": "스플릿 쉽게, 하이스텝 문제없어요" }
+        },
+        {
+          "id": "mental",
+          "emoji": "🧠",
+          "label": { "zh": "心理素质", "en": "Mental game", "ko": "멘탈" },
+          "desc": { "zh": "恐惧管理、抗压、专注", "en": "Fear management, resilience, focus", "ko": "공포 관리, 회복력, 집중력" },
+          "low": { "zh": "一高就腿软、经常紧张", "en": "Legs shake when high, often anxious", "ko": "높으면 다리가 떨리고, 자주 긴장해요" },
+          "high": { "zh": "高处很自在、冲坠也不怕", "en": "Comfortable high up, not afraid to fall", "ko": "높은 곳에서도 편안하고, 추락도 두렵지 않아요" }
+        },
+        {
+          "id": "tactics",
+          "emoji": "📖",
+          "label": { "zh": "路线阅读/战术", "en": "Route reading & tactics", "ko": "루트 리딩/전술" },
+          "desc": { "zh": "读线、选 beta、项目策略", "en": "Reading routes, finding beta, project strategies", "ko": "루트 리딩, 베타 찾기, 프로젝트 전략" },
+          "low": { "zh": "上墙前从不看线、全靠瞎试", "en": "Never read routes, just try randomly", "ko": "루트를 안 보고, 그냥 대충 시도해요" },
+          "high": { "zh": "地面就能规划好大部分动作", "en": "Can plan most moves from the ground", "ko": "지면에서 대부분의 동작을 계획할 수 있어요" }
+        }
+      ]
+    },
+    {
+      "id": "symptom",
+      "title": { "zh": "更具体一点？", "en": "Let's get more specific", "ko": "좀 더 구체적으로" },
+      "subtitle": { "zh": "选择最符合你情况的选项", "en": "Pick the option that fits you best", "ko": "가장 잘 맞는 옵션을 선택하세요" },
+      "type": "conditional",
+      "branches": {
+        "strength": {
+          "question": { "zh": "你觉得最明显的表现是？", "en": "What's the most obvious symptom?", "ko": "가장 두드러지는 증상은?" },
+          "options": [
+            { "id": "finger-weak", "emoji": "🤏", "label": { "zh": "手指抓不住小点、圆点", "en": "Can't grip small or round holds", "ko": "작은 홀드를 못 잡겠어요" } },
+            { "id": "pull-weak", "emoji": "💪", "label": { "zh": "拉不上去、锁不住", "en": "Can't pull up or lock off", "ko": "당기기/락오프가 안 돼요" } },
+            { "id": "pump-fast", "emoji": "🫁", "label": { "zh": "爬几条就前臂涨到不行", "en": "Forearms pump out after a few routes", "ko": "몇 개만 타면 전완이 펌핑돼요" } },
+            { "id": "core-weak", "emoji": "🦵", "label": { "zh": "脚老是脱落、身体撑不住", "en": "Feet cut loose, can't hold body tension", "ko": "발이 자꾸 빠지고, 체간이 안 잡혀요" } },
+            { "id": "power-weak", "emoji": "⚡", "label": { "zh": "大动态动作发不出力", "en": "Can't generate power for dynamic moves", "ko": "다이나믹 동작에서 힘이 안 나와요" } }
+          ]
+        },
+        "technique": {
+          "question": { "zh": "什么类型的动作最让你困难？", "en": "What kind of moves give you the most trouble?", "ko": "어떤 동작이 가장 어려운가요?" },
+          "options": [
+            { "id": "footwork-bad", "emoji": "👟", "label": { "zh": "脚法——踩不准、踩滑", "en": "Footwork — imprecise, slipping", "ko": "풋워크 — 부정확하고, 미끄러져요" } },
+            { "id": "cant-reach", "emoji": "🙆", "label": { "zh": "远距离的点够不着", "en": "Can't reach distant holds", "ko": "먼 홀드에 손이 안 닿아요" } },
+            { "id": "overhang-fail", "emoji": "↗️", "label": { "zh": "仰角/屋檐线完全不行", "en": "Can't do overhangs/roofs", "ko": "오버행/루프에서 못 타겠어요" } },
+            { "id": "flexibility-limit", "emoji": "🧘", "label": { "zh": "身体太硬，高抬腿/劈叉做不到", "en": "Not flexible enough for high steps/splits", "ko": "유연성 부족, 하이스텝/스플릿 불가" } },
+            { "id": "terrain-specific", "emoji": "🪨", "label": { "zh": "裂缝攀登/特殊地形", "en": "Crack climbing / special terrain", "ko": "크랙/특수 지형" } }
+          ]
+        },
+        "mental": {
+          "question": { "zh": "你最怕的是什么情况？", "en": "What scares you the most?", "ko": "가장 무서운 상황은?" },
+          "options": [
+            { "id": "fear-height", "emoji": "🏔️", "label": { "zh": "一到高处就腿软、不敢往上看", "en": "Legs shake when high, afraid to look up", "ko": "높은 곳에서 다리가 떨리고, 위를 못 봐요" } },
+            { "id": "fear-fall", "emoji": "😱", "label": { "zh": "怕冲坠，不敢在快挂上方出手", "en": "Afraid to fall, won't go above the clip", "ko": "추락이 무서워서, 클립 위에서 손을 못 뻗어요" } },
+            { "id": "fear-fail", "emoji": "😓", "label": { "zh": "怕失败/丢人，不敢尝试难线", "en": "Fear of failure, won't try hard routes", "ko": "실패가 두려워서 어려운 루트를 안 해요" } },
+            { "id": "comp-anxiety", "emoji": "🏆", "label": { "zh": "比赛或人多时紧张，发挥失常", "en": "Nervous in comps or crowds, underperform", "ko": "대회나 사람 많을 때 긴장해서 실력 발휘 못 해요" } },
+            { "id": "fear-dynamic", "emoji": "🦘", "label": { "zh": "动态动作心理上不敢做", "en": "Mentally can't commit to dynamic moves", "ko": "다이나믹 동작을 심리적으로 못 하겠어요" } }
+          ]
+        },
+        "plateau": {
+          "question": { "zh": "你觉得卡住的主要原因是？", "en": "What do you think is the main reason you're stuck?", "ko": "정체된 주요 원인이 뭐라고 생각하나요?" },
+          "options": [
+            { "id": "plateau-strength", "emoji": "💪", "label": { "zh": "力量到头了，难线的手点抓不住", "en": "Maxed out strength, can't hold harder moves", "ko": "힘이 한계, 어려운 홀드를 못 잡아요" } },
+            { "id": "plateau-technique", "emoji": "🦶", "label": { "zh": "技术不够，别人能做的动作我做不了", "en": "Technique gap — others can do moves I can't", "ko": "기술 부족, 남들은 되는 동작이 나는 안 돼요" } },
+            { "id": "plateau-reading", "emoji": "📖", "label": { "zh": "读不懂线，不知道怎么爬", "en": "Can't read routes, don't know what to do", "ko": "루트를 못 읽겠어요" } },
+            { "id": "plateau-training", "emoji": "📝", "label": { "zh": "不知道怎么练、缺乏训练计划", "en": "No idea how to train, no plan", "ko": "어떻게 훈련해야 할지 모르겠어요" } },
+            { "id": "plateau-general", "emoji": "🤔", "label": { "zh": "不确定——感觉什么都差一点", "en": "Not sure — feel like everything is a bit off", "ko": "모르겠어요 — 다 조금씩 부족한 느낌" } }
+          ]
+        },
+        "injury": {
+          "question": { "zh": "哪里不舒服？", "en": "Where does it hurt?", "ko": "어디가 불편한가요?" },
+          "options": [
+            { "id": "finger-pain", "emoji": "🤏", "label": { "zh": "手指疼（用力或特定角度会疼）", "en": "Finger pain (when gripping or at certain angles)", "ko": "손가락 통증 (잡을 때/특정 각도)" } },
+            { "id": "shoulder-elbow", "emoji": "💪", "label": { "zh": "肩膀或手肘疼", "en": "Shoulder or elbow pain", "ko": "어깨 또는 팔꿈치 통증" } },
+            { "id": "skin-damage", "emoji": "🩹", "label": { "zh": "手皮破了、起泡、老茧撕裂", "en": "Skin tears, blisters, callus rips", "ko": "피부 찢어짐, 물집, 굳은살 벗겨짐" } },
+            { "id": "general-fatigue", "emoji": "😮‍💨", "label": { "zh": "整体恢复慢、持续疲劳", "en": "Slow recovery, persistent fatigue", "ko": "회복이 느리고, 지속적인 피로" } },
+            { "id": "lower-body-pain", "emoji": "🦵", "label": { "zh": "腰/膝盖/脚踝不舒服", "en": "Back / knee / ankle discomfort", "ko": "허리/무릎/발목 불편" } }
+          ]
+        },
+        "training": {
+          "question": { "zh": "你现在的训练状态是？", "en": "What's your current training situation?", "ko": "현재 훈련 상태는?" },
+          "options": [
+            { "id": "no-plan", "emoji": "🎲", "label": { "zh": "每次去岩馆就是随便爬，没有计划", "en": "Just go to the gym and climb randomly, no plan", "ko": "그냥 클라이밍장 가서 아무거나 타요" } },
+            { "id": "uncertain-plan", "emoji": "🤔", "label": { "zh": "有在练但不确定方向对不对", "en": "Training but not sure if it's the right approach", "ko": "훈련은 하는데 방향이 맞는지 모르겠어요" } },
+            { "id": "gear-training-start", "emoji": "🏋️", "label": { "zh": "想开始用器械训练但不知道从哪开始", "en": "Want to start using training equipment but don't know where to begin", "ko": "훈련 장비를 쓰고 싶은데 어디서 시작해야 할지 모르겠어요" } }
+          ]
+        }
+      }
+    },
+    {
+      "id": "goal",
+      "title": { "zh": "你的攀岩目标是？", "en": "What's your climbing goal?", "ko": "클라이밍 목표는?" },
+      "subtitle": { "zh": "选 1 个最重要的目标", "en": "Pick your most important goal", "ko": "가장 중요한 목표 1개를 선택하세요" },
+      "type": "single",
+      "options": [
+        { "id": "grade-goal", "emoji": "🎯", "label": { "zh": "突破一个具体等级", "en": "Break through a specific grade", "ko": "특정 등급 돌파" }, "desc": { "zh": "如 V5 → V6", "en": "e.g. V5 → V6", "ko": "예: V5 → V6" } },
+        { "id": "competition", "emoji": "🏆", "label": { "zh": "参加比赛/提升竞技表现", "en": "Compete / improve competition performance", "ko": "대회 참가 / 경기력 향상" } },
+        { "id": "project", "emoji": "🧗", "label": { "zh": "完成一条具体的目标线路", "en": "Send a specific project route", "ko": "특정 프로젝트 루트 완등" } },
+        { "id": "outdoor-transition", "emoji": "🏔️", "label": { "zh": "从室内转向户外攀岩", "en": "Transition from indoor to outdoor climbing", "ko": "실내에서 야외 클라이밍으로 전환" } },
+        { "id": "enjoy", "emoji": "😄", "label": { "zh": "享受攀岩、保持健康、不受伤", "en": "Enjoy climbing, stay healthy, avoid injuries", "ko": "클라이밍을 즐기고, 건강하고, 부상 없이" } },
+        { "id": "rehab", "emoji": "🔄", "label": { "zh": "从伤病中恢复、安全回归", "en": "Recover from injury, return safely", "ko": "부상에서 회복, 안전하게 복귀" } }
+      ]
+    }
+  ],
+  "prescriptions": {
+    "finger-weak": {
+      "category": "strength",
+      "diagnosis": {
+        "zh": "你的指力还不够支撑当前难度的手点类型。指力是攀岩中最关键的力量指标之一——它直接决定了你能抓住什么类型的点，以及在难点上能坚持多久。好消息是，指力的训练效果非常明确，只要方法对，几周内就能感受到变化。",
+        "en": "Your finger strength isn't yet enough for the holds at your current level. Finger strength is one of the most critical metrics in climbing — it directly determines what types of holds you can grip and how long you can hold on during crux moves. The good news is that finger training is highly responsive — with the right approach, you'll feel improvements within weeks.",
+        "ko": "현재 등급의 홀드를 잡기에 손가락 힘이 부족해요. 손가락 힘은 클라이밍에서 가장 중요한 근력 지표 중 하나로, 어떤 유형의 홀드를 잡을 수 있는지, 핵심 동작에서 얼마나 버틸 수 있는지를 직접 결정해요. 좋은 소식은 손가락 훈련은 효과가 매우 빨라서, 올바른 방법으로 몇 주 안에 변화를 느낄 수 있다는 거예요."
+      },
+      "kps": ["kp-grip-types", "kp-hangboard-training", "kp-finger-assessment", "kp-advanced-finger"],
+      "articles": ["stop-overgripping", "when-to-train-fingers", "hangboard-guide"],
+      "styleNotes": {
+        "boulder": { "zh": "抱石的手点类型变化多（捏、侧拉、open hand、crimp），建议多练不同抓法而非只练最大指力。抱石一般短而强，对爆发力抓握要求更高。", "en": "Bouldering has diverse hold types (pinch, sidepull, open hand, crimp). Practice varied grip types rather than just max finger strength. Bouldering demands more explosive gripping.", "ko": "볼더링은 홀드 유형이 다양해요(핀치, 사이드풀, 오픈핸드, 크림프). 최대 손가락 힘만 훈련하지 말고 다양한 그립을 연습하세요." },
+        "rope": { "zh": "先锋和顶绳攀中，指力更多体现在持续抓握能力上。你需要的不只是「抓得住」，而是「抓得住且不泵」。建议同时关注耐力性指力训练。", "en": "In lead/top-rope, finger strength manifests as sustained grip ability. You need not just 'hold on' but 'hold on without pumping'. Consider endurance-oriented finger training alongside max strength.", "ko": "리드/탑로프에서는 지속적인 그립 능력이 중요해요. '잡을 수 있다'가 아니라 '펌핑 없이 잡을 수 있다'가 핵심이에요." },
+        "outdoor": { "zh": "户外岩壁的岩质和手点形状变化很大——花岗岩的小边、石灰岩的坑洞、砂岩的摩擦力各不相同。建议在室内多样化手点类型训练，为户外做准备。", "en": "Outdoor rock varies hugely in texture and hold shape — granite crimps, limestone pockets, sandstone friction. Diversify your indoor training to prepare for outdoor rock.", "ko": "야외 암벽은 질감과 홀드 형태가 매우 다양해요. 실내 훈련에서 홀드 유형을 다양화해 야외에 대비하세요." }
+      },
+      "by_level": {
+        "beginner": {
+          "append": { "zh": "在你这个阶段，指力不够是完全正常的——你的手指肌腱和韧带还没有适应攀岩的负荷。人体的腱鞘和滑车韧带需要 6-12 个月才能开始适应，所以现在最重要的不是练指力，而是学对抓握方式。很多新手下意识用 full crimp（完全屈曲抓握），这不仅效率低，还容易受伤。", "en": "At your stage, weak fingers are totally normal — your finger tendons and pulleys haven't adapted to climbing loads yet. Tendons need 6-12 months to adapt, so the priority isn't finger training but learning proper grip technique. Many beginners instinctively use full crimp, which is both inefficient and injury-prone.", "ko": "이 단계에서 손가락 힘이 부족한 건 완전히 정상이에요. 손가락 힘줄과 도르래 인대는 6-12개월이 걸려야 적응하기 시작하므로, 지금은 손가락 훈련보다 올바른 그립 기술을 배우는 게 우선이에요." },
+          "action": { "zh": "每次爬的时候注意：open hand 能抓住的就不要用 crimp。刻意练习「松手再抓」——在简单线路上，有意识地每次抓点先轻抓再发力，感受最小力量原则。攀爬后注意手指不舒服要休息，不要硬撑。", "en": "When climbing: if you can hold it open-handed, don't crimp. Practice 'release and re-grip' — on easy routes, consciously grip lightly first then apply force. Feel the principle of minimum effort. If fingers feel sore after climbing, rest — don't push through.", "ko": "클라이밍 시 오픈핸드로 잡을 수 있으면 크림프 하지 마세요. '놓았다 다시 잡기' 연습 — 쉬운 루트에서 의식적으로 가볍게 잡고 힘을 가하세요. 클라이밍 후 손가락이 아프면 쉬세요." }
+        },
+        "intermediate": {
+          "append": { "zh": "V4-V5 开始出现大量 crimp 点和 pinch 点，是指力训练的最佳启动时机。研究表明，这个阶段开始系统化挂板训练的攀岩者，6-8 周后指力平均提升 10-15%。但前提是：你已经爬了至少 1 年，手指没有任何疼痛或受伤。", "en": "V4-V5 introduces lots of crimps and pinches — this is the best time to start finger training. Research shows climbers who start systematic hangboard training at this stage see 10-15% finger strength gains in 6-8 weeks. But only if you've been climbing for at least 1 year with no finger pain.", "ko": "V4-V5부터 크림프와 핀치가 많아져요 — 손가락 훈련을 시작하기 가장 좋은 시기예요. 최소 1년 이상 클라이밍 경험이 있고 손가락 통증이 없다면 체계적 행보드 훈련을 시작하세요." },
+          "action": { "zh": "先做基线测试：在挂板上用 20mm 边抓，测试你的最大悬挂时间。然后开始 7:3 协议——悬挂 7 秒、休息 3 秒为一组，做 6 组 × 3 轮，每周 2 次。6 周后重新测试，你会看到明显进步。", "en": "Start with a baseline test: hang on a 20mm edge and measure your max hang time. Then follow the 7:3 protocol — 7s hang, 3s rest, 6 reps × 3 sets, 2x/week. Re-test after 6 weeks — you'll see clear improvements.", "ko": "기준선 테스트: 20mm 에지에서 최대 행 시간 측정. 그런 다음 7:3 프로토콜 — 7초 행, 3초 휴식, 6회 × 3세트, 주 2회. 6주 후 재테스트." }
+        },
+        "advanced": {
+          "append": { "zh": "V6+ 阶段的指力训练需要更精细的周期化和多样化刺激。单纯的最大力量训练已经不够，你需要在不同握法类型（half crimp、open hand、3指、2指）之间轮换训练，并且配合校园板来训练爆发力抓握。重要的是把指力训练和攀爬训练在周期内合理安排，避免过度疲劳。", "en": "At V6+, finger training needs sophisticated periodization and varied stimuli. Pure max strength training isn't enough — you need to rotate between grip types (half crimp, open hand, 3-finger, 2-finger) and add campus board for contact strength. Crucially, schedule finger training and climbing sessions across the week to avoid overload.", "ko": "V6+ 단계에서는 손가락 훈련에 정교한 주기화와 다양한 자극이 필요해요. 최대 근력 훈련만으로는 부족하고, 그립 유형(하프 크림프, 오픈핸드, 3손가락, 2손가락)을 번갈아 훈련하고 캠퍼스 보드로 접촉 근력을 추가해야 해요." },
+          "action": { "zh": "采用 7 周周期化方案：第 1-4 周做最大力量（负重悬挂，每次增加 2.5kg）→ 第 5-6 周做力量耐力（repeaters：7 秒 on / 3 秒 off × 6 组，使用体重的 70-80%）→ 第 7 周减量恢复。同时每周 1 次校园板，专注 1-3-5 跳跃模式来训练爆发力抓握。", "en": "Use a 7-week periodized plan: Weeks 1-4 max strength (weighted hangs, add 2.5kg each week) → Weeks 5-6 strength endurance (repeaters: 7s on/3s off × 6 sets at 70-80% bodyweight) → Week 7 deload. Add 1x/week campus board focusing on 1-3-5 ladder patterns for contact strength.", "ko": "7주 주기화 프로그램: 1-4주 최대 근력(가중 행, 매주 2.5kg 추가) → 5-6주 근지구력(리피터: 7초 on/3초 off × 6세트) → 7주 디로드. 주 1회 캠퍼스 보드 1-3-5 래더 패턴 추가." }
+        }
+      },
+      "cross_checks": [
+        { "if_low": "mental", "note": { "zh": "注意：你的心理分偏低。指力不够的感觉可能部分来自紧张导致的过度抓握（overgrip）——当你害怕时，手会下意识用全力抓，比实际需要多消耗 30-50% 的力量。这意味着即使你指力提升了，如果心理问题不解决，你依然会觉得「抓不住」。建议先看恐惧管理相关内容，学会在墙上放松抓握。", "en": "Note: Your mental score is low. Feeling weak on holds might partly come from overgripping due to anxiety — when scared, your hands unconsciously use full force, wasting 30-50% more energy than needed. Even if you build finger strength, you'll still feel 'weak' unless you address the mental side. Work on fear management and learn to relax your grip on the wall.", "ko": "참고: 멘탈 점수가 낮아요. 홀드를 못 잡는 느낌은 불안으로 인한 오버그립 때문일 수 있어요. 무서울 때 손이 무의식적으로 전력을 써서 필요 이상 30-50% 더 에너지를 소모해요. 공포 관리를 먼저 다루세요." }, "extra_kps": ["kp-fear-management"] },
+        { "if_low": "technique", "note": { "zh": "你的技术分也偏低——抓不住有时候不是力量问题，而是抓法不对。比如：用 crimp 抓应该用 open hand 抓的点、没有用到拇指辅助（thumb wrap）、或者拉的方向不对导致力量分散。建议先学习不同的抓握类型。", "en": "Your technique score is also low — not holding on might be a grip technique issue, not strength. For example: crimping holds that should be open-handed, not using thumb wrap, or pulling in the wrong direction. Learn different grip types first.", "ko": "기술 점수도 낮아요 — 잡히지 않는 건 힘이 아니라 그립 기술 문제일 수 있어요. 다른 그립 유형을 먼저 배우세요." }, "extra_kps": ["kp-grip-types"] }
+      ]
+    },
+    "pull-weak": {
+      "category": "strength",
+      "diagnosis": {
+        "zh": "上肢拉力和锁定力不够，导致你在需要发力拉起身体或锁定某个位置时感到困难。在攀岩中，拉力不只是「做引体向上」——它包括不同角度的拉动、单臂锁定（lock-off）、以及从各种身体姿态中发力的能力。不过，在攀岩中 80% 的情况下，良好的脚法和身体定位可以大幅减少对拉力的依赖。",
+        "en": "Your pulling and lock-off strength needs work, making it hard to pull your body up or hold positions. In climbing, pulling isn't just about pull-ups — it includes pulling at different angles, one-arm lock-offs, and generating force from various body positions. However, in 80% of climbing situations, good footwork and body positioning dramatically reduce the need for pulling strength.",
+        "ko": "당기기와 락오프 힘이 부족해서 몸을 끌어올리거나 자세를 유지하기 어려워요. 하지만 80%의 경우 좋은 풋워크와 바디 포지셔닝으로 당기기 의존도를 크게 줄일 수 있어요."
+      },
+      "kps": ["kp-pulling-power", "kp-antagonist-training", "kp-core-role"],
+      "articles": ["pullups-and-core", "stop-overgripping", "women-strength-training"],
+      "styleNotes": {
+        "boulder": { "zh": "抱石中的拉力需求更多是爆发性的——你需要快速拉起、快速锁定、然后出手抓下一个点。训练时更侧重单次最大力量和锁定保持。", "en": "Bouldering pulling demands are more explosive — you need to pull up fast, lock off quickly, and reach for the next hold. Focus on one-rep max strength and lock-off holds.", "ko": "볼더링에서의 당기기는 더 폭발적이에요 — 빠르게 당기고, 빠르게 락오프하고, 다음 홀드를 잡아야 해요." },
+        "rope": { "zh": "先锋攀中你需要的不是单次爆发拉力，而是在长路线中反复拉起的持续力。建议训练高次数低强度的引体，比如 10-15 次为一组的 endurance 引体。", "en": "Lead climbing needs sustained pulling over long routes, not single explosive pulls. Train high-rep low-intensity pull-ups, e.g. sets of 10-15 for endurance.", "ko": "리드 클라이밍에서는 긴 루트에서 반복적으로 당길 수 있는 지구력이 필요해요." }
+      },
+      "by_level": {
+        "beginner": {
+          "append": { "zh": "刚开始爬的阶段，拉力弱是正常的。但更重要的是：大多数新手过度依赖手臂，没有用好脚。如果你把体重更多交给脚，手臂的负担会减少一半以上。先学会「推蹬」——通过脚的蹬力来推动身体上移，而不是用手臂把自己拉上去。", "en": "Weak pulling strength is normal for beginners. But the bigger issue is: most beginners rely too much on arms and don't use their feet. Putting more weight on your feet reduces arm load by over half. Learn to 'push-step' — drive your body up by pushing through your feet, not pulling with arms.", "ko": "초보자에게 당기는 힘이 약한 건 정상이에요. 하지만 대부분의 초보자는 팔에 너무 의존하고 발을 잘 활용하지 못해요. 발에 체중을 더 실으면 팔 부하가 절반 이상 줄어요." },
+          "action": { "zh": "做「无弯曲手臂」练习：在 V0-V1 的线上尝试尽可能伸直手臂攀爬，只用手勾住点，靠脚蹬和重心转移上升。每次攀爬后做 3 组辅助引体（用弹力带或器械辅助）来逐渐积累拉力基础。", "en": "Do the 'straight arms' drill: on V0-V1 routes, try to climb with arms as straight as possible, just hooking holds, driving up with feet and weight shifts. After each session, do 3 sets of assisted pull-ups (with resistance bands or a machine) to gradually build a pulling base.", "ko": "'팔 펴기' 연습: V0-V1 루트에서 팔을 최대한 편 채로 등반하고, 발 밀기와 무게 이동으로 올라가세요. 매 세션 후 보조 풀업 3세트." }
+        },
+        "intermediate": {
+          "append": { "zh": "中级阶段你需要系统化的拉力训练。目标：能做 8-10 个标准引体向上，能在 90° 角锁定 5 秒以上。同时不要忽略拮抗肌——推力和外旋训练同样重要，否则肩关节容易受伤。", "en": "Intermediate stage needs systematic pulling training. Targets: 8-10 standard pull-ups, 5+ second lock-off at 90°. Don't neglect antagonist muscles — pushing and external rotation are equally important to prevent shoulder injuries.", "ko": "중급에서는 체계적인 당기기 훈련이 필요해요. 목표: 표준 풀업 8-10개, 90° 락오프 5초 이상. 길항근도 소홀히 하지 마세요." },
+          "action": { "zh": "每周 2 次拉力训练日：5 组引体向上（接近力竭）+ 3 组锁定练习（在引体顶部锁定 5 秒）+ 3 组拮抗训练（俯卧撑或面拉）。逐渐从辅助引体过渡到自重，再到负重引体。", "en": "2x/week pulling day: 5 sets pull-ups (near failure) + 3 sets lock-off holds (hold top of pull-up for 5s) + 3 sets antagonist work (push-ups or face pulls). Progress from assisted → bodyweight → weighted pull-ups.", "ko": "주 2회 당기기 훈련일: 풀업 5세트(거의 실패) + 락오프 3세트(풀업 정점 5초 유지) + 길항근 3세트(푸시업 또는 페이스 풀)." }
+        },
+        "advanced": {
+          "append": { "zh": "高级阶段需要攀岩专项拉力：不同角度的锁定（高锁定、低锁定、侧身锁定）、单臂力量、以及快速交替拉动。纯健身房引体已经不够了——你需要在岩壁上做拉力练习来提高力量的「迁移率」。", "en": "Advanced needs climbing-specific pulling: lock-offs at different angles (high, low, sideways), one-arm strength, and rapid alternating pulls. Gym pull-ups alone aren't enough — do pulling drills on the wall to improve strength transfer.", "ko": "상급에서는 클라이밍 특화 당기기가 필요해요: 다양한 각도의 락오프, 한 팔 힘, 빠른 교대 당기기. 벽에서 당기기 연습을 해야 해요." },
+          "action": { "zh": "加入负重引体（+15-25% 体重）、校园板 1-2-3 跳跃（训练快速交替拉动）、以及单臂锁定训练（用滑轮辅助逐渐减少辅助重量）。在岩壁上：选仰角线做「减手攀爬」——每个动作多锁定 2 秒再出手。", "en": "Add weighted pull-ups (+15-25% bodyweight), campus board 1-2-3 ladders (rapid alternating pulls), and one-arm lock-off progressions (pulley-assisted, gradually reducing assistance). On the wall: do 'slow climbing' on overhangs — lock off 2 extra seconds before each move.", "ko": "가중 풀업(체중의 +15-25%), 캠퍼스 보드 1-2-3 래더, 원암 락오프 진행(도르래 보조). 벽에서: 오버행에서 '슬로우 클라이밍' — 매 동작 전 2초 추가 락오프." }
+        }
+      },
+      "cross_checks": [
+        { "if_low": "technique", "note": { "zh": "你的技术分偏低——很多时候拉不上去是因为没有用好脚和身体角度。如果脚没有踩到正确的位置、身体离墙太远、或者重心没有移到正确的方向，你就需要用更多的手臂力量来补偿。先改善身体定位，你会发现「拉不上去」的问题减轻了很多。", "en": "Your technique is low — often you can't pull up because feet aren't placed right, body is too far from the wall, or center of gravity isn't shifted correctly. You end up compensating with more arm strength. Improve body positioning first and you'll find the 'can't pull up' problem reduces significantly.", "ko": "기술 점수가 낮아요 — 발이 올바른 위치에 없거나, 몸이 벽에서 너무 멀거나, 무게 중심이 맞지 않아 팔 힘으로 보상하게 돼요. 바디 포지셔닝을 먼저 개선하세요." }, "extra_kps": ["kp-flagging", "kp-drop-knee"] }
+      ]
+    },
+    "pump-fast": {
+      "category": "strength",
+      "diagnosis": {
+        "zh": "你的前臂很快就泵了——这是攀岩者最常见的抱怨之一。泵感（pump）的本质是前臂肌肉中乳酸堆积超过了清除速度。但「泵得快」不一定是纯粹的耐力问题，它可能有多个原因：攀爬效率低（动作浪费力量）、不会休息（错过了甩手的机会）、呼吸不对（缺氧加速乳酸堆积）、或者心理紧张导致的过度抓握。下面的交叉检测会帮你判断真正的原因。",
+        "en": "Your forearms pump out quickly — one of the most common climbing complaints. Pump happens when lactic acid builds up in forearm muscles faster than it can be cleared. But 'pumping fast' isn't always a pure endurance problem — it can have multiple causes: inefficient movement (wasting energy), not resting properly (missing shake-out opportunities), poor breathing (oxygen deficit accelerates lactic acid), or mental tension causing overgripping. The cross-checks below will help identify your real cause.",
+        "ko": "전완이 빠르게 펌핑돼요 — 가장 흔한 클라이밍 고민 중 하나예요. 펌핑은 전완 근육의 젖산 축적이 제거 속도를 초과할 때 발생해요. 하지만 원인은 다양할 수 있어요: 비효율적 동작, 부적절한 휴식, 잘못된 호흡, 또는 긴장으로 인한 오버그립. 아래 교차 검사가 진짜 원인을 찾는 데 도움을 줄 거예요."
+      },
+      "kps": ["kp-endurance-types", "kp-arc-training", "kp-long-route-endurance", "kp-warmup-stretching"],
+      "articles": ["forearm-pump-normal", "stop-overgripping", "how-to-warm-up"],
+      "styleNotes": {
+        "boulder": { "zh": "抱石的每条线通常只有 4-8 个动作，泵感不应该是主要问题。如果你在抱石中就泵了，更可能的原因是：(1) 热身不够充分；(2) 每次尝试之间休息不够；(3) 过度抓握——紧张导致你用全力抓每个点。建议关注休息间隔和放松技巧，而非做大量耐力训练。", "en": "Bouldering routes are typically 4-8 moves, so pump shouldn't be the main issue. If you're pumping during bouldering, likely causes are: (1) insufficient warm-up; (2) not enough rest between attempts; (3) overgripping from tension. Focus on rest intervals and relaxation technique rather than endurance training.", "ko": "볼더링은 보통 4-8동작이라 펌핑이 주요 문제는 아니에요. 볼더링에서 펌핑이 온다면 워밍업 부족, 시도 사이 휴식 부족, 또는 긴장으로 인한 오버그립이 원인일 가능성이 높아요." },
+        "rope": { "zh": "先锋攀和顶绳攀中耐力至关重要。一条 25-30 米的路线可能需要你连续攀爬 5-10 分钟，中间只有有限的休息机会。你需要系统性的耐力训练——ARC 训练提升有氧基础，4x4 训练提升无氧耐力。同时学会在路线中「找休息」——识别 no-hand rest 和甩手位置。", "en": "Endurance is crucial for lead and top-rope. A 25-30m route may require 5-10 minutes of continuous climbing with limited rest. You need systematic endurance training — ARC for aerobic base, 4x4 for anaerobic power-endurance. Also learn to 'find rest' on routes — identify no-hand rests and shake-out positions.", "ko": "리드와 탑로프에서 지구력은 매우 중요해요. 25-30m 루트는 5-10분 연속 등반이 필요할 수 있어요. ARC로 유산소 기초를, 4x4로 무산소 지구력을 체계적으로 훈련하세요." }
+      },
+      "by_level": {
+        "beginner": {
+          "append": { "zh": "刚开始爬的时候泵是完全正常的——你的前臂毛细血管网络还没有发展起来，肌肉的血液循环效率很低。好消息是这是最容易改善的：只需要持续攀爬 2-3 个月，你的身体就会自然适应。目前最有效的做法是学会甩手和呼吸——这两个技巧可以立即减少 30% 的泵感。", "en": "Getting pumped early on is totally normal — your forearm capillary network hasn't developed yet, so blood circulation is inefficient. Good news: this improves naturally with 2-3 months of regular climbing. The most effective immediate actions are learning to shake out and breathe properly — these two skills can reduce pump by 30% instantly.", "ko": "초보 때 펌핑은 완전히 정상이에요 — 전완 모세혈관 네트워크가 아직 발달하지 않았어요. 2-3개월 꾸준히 타면 자연스럽게 개선돼요. 즉각적으로 효과적인 건 쉐이크아웃과 호흡법이에요." },
+          "action": { "zh": "三步走：(1) 每条线路中只要有机会就甩手 10-15 秒（一只手放下来，手臂伸直，手指张开，让血液回流）；(2) 练习腹式呼吸——攀爬时有意识地呼气发力、吸气移动，不要憋气；(3) 先不需要专项耐力训练，多爬低于你最高级别 2-3 级的线来积累「里程」。", "en": "Three steps: (1) Shake out for 10-15s whenever possible on routes — drop one arm straight, open fingers, let blood flow back; (2) Practice belly breathing — exhale on effort, inhale during movement, never hold your breath; (3) No specific endurance training needed yet — climb routes 2-3 grades below your max to build 'mileage'.", "ko": "3단계: (1) 기회가 있을 때마다 10-15초 쉐이크아웃; (2) 복식 호흡 연습 — 힘줄 때 내쉬고, 이동할 때 들이쉬고, 숨 참지 마세요; (3) 최고 등급보다 2-3단계 낮은 루트를 많이 타서 '마일리지'를 쌓으세요." }
+        },
+        "intermediate": {
+          "append": { "zh": "V4-V5 阶段可以开始系统化耐力训练了。两种训练协同使用效果最好：ARC 训练（低强度长时间连续攀爬）建立有氧基础——让你的前臂更高效地使用氧气；4x4 训练（连续爬 4 条中等难度线 × 4 轮）提升无氧耐力——让你在高强度时也能坚持更久。", "en": "V4-V5 is the right time for systematic endurance training. Two approaches work best together: ARC training (low-intensity continuous climbing) builds aerobic base — making your forearms use oxygen more efficiently; 4x4 training (4 moderate routes back-to-back × 4 rounds) builds anaerobic endurance — helping you last longer at high intensity.", "ko": "V4-V5에서 체계적 지구력 훈련을 시작하세요. ARC 훈련(저강도 연속 등반)으로 유산소 기초를, 4x4 훈련(중급 4루트 연속 × 4라운드)으로 무산소 지구력을 키우세요." },
+          "action": { "zh": "每次攀爬前做 15-20 分钟 ARC 热身：选低于你最高级别 3-4 级的线，连续不间断地横移或爬上爬下，保持前臂有轻微的泵感但不完全泵出来。每周额外加 1 次 4x4 训练：选 4 条你最高级别减 2 级的线，连续爬完不休息，休息 4 分钟后再重复，共 4 轮。", "en": "Start each session with 15-20 min ARC warm-up: choose routes 3-4 grades below max, traverse or up-down continuously, maintain mild forearm pump without maxing out. Add 1x/week 4x4 session: pick 4 routes at max-2 grade, climb all 4 without rest, rest 4 min, repeat 4 rounds.", "ko": "매 세션 시작 시 15-20분 ARC 워밍업. 주 1회 4x4 세션 추가: 최고 등급-2의 루트 4개를 쉬지 않고 연속 등반, 4분 휴식, 4라운드 반복." }
+        },
+        "advanced": {
+          "append": { "zh": "高级阶段的耐力训练需要和力量/技术训练形成周期化组合。不能全年做耐力训练——需要根据目标赛季或项目来安排：基础期做 ARC → 发展期做 4x4 和间歇训练 → 比赛/项目前减量恢复。", "en": "Advanced endurance needs periodized integration with strength/technique training. You can't train endurance year-round — schedule it around target seasons: base phase ARC → development phase 4x4 and intervals → pre-comp/project taper.", "ko": "상급 지구력 훈련은 근력/기술 훈련과 주기화 조합이 필요해요. 목표 시즌에 맞춰: 기초기 ARC → 발전기 4x4/인터벌 → 대회/프로젝트 전 테이퍼." },
+          "action": { "zh": "典型 12 周周期：第 1-4 周 ARC + 基础量（每周 4 次攀爬 + 2 次 ARC）→ 第 5-8 周 4x4 + 间歇（减少量、增加强度）→ 第 9-10 周比赛强度模拟 → 第 11-12 周减量冲刺。每周监测「恢复心率」——如果前臂恢复时间超过 48 小时，说明训练量过大。", "en": "Typical 12-week cycle: Weeks 1-4 ARC + volume (4x climbing + 2x ARC) → Weeks 5-8 4x4 + intervals (less volume, more intensity) → Weeks 9-10 competition simulation → Weeks 11-12 taper and peak. Monitor 'recovery rate' weekly — if forearm recovery exceeds 48 hours, reduce volume.", "ko": "12주 주기: 1-4주 ARC + 볼륨 → 5-8주 4x4 + 인터벌 → 9-10주 대회 시뮬레이션 → 11-12주 테이퍼. 매주 회복률 모니터링." }
+        }
+      },
+      "cross_checks": [
+        { "if_low": "mental", "note": { "zh": "你的心理分偏低——这可能是泵得快的真正原因！当你紧张或害怕时，手会过度抓握（overgrip），比放松时多消耗 30-50% 的前臂力量。结果就是你比别人泵得快得多，但以为是自己耐力差。建议先做放松训练：在简单线路上有意识地用最小力量抓点，感受「只要不掉下来就够了」的抓握力度。", "en": "Your mental score is low — this might be the real cause of pumping fast! When anxious or scared, you overgrip, using 30-50% more forearm energy than relaxed. You pump faster than others but think it's endurance. Try relaxation training first: on easy routes, consciously grip with minimum force — just enough not to fall off.", "ko": "멘탈 점수가 낮아요 — 빠른 펌핑의 진짜 원인일 수 있어요! 긴장하면 오버그립으로 30-50% 더 많은 에너지를 소모해요. 쉬운 루트에서 최소한의 힘으로 잡는 이완 훈련을 먼저 하세요." }, "extra_kps": ["kp-fear-management"] },
+        { "if_low": "tactics", "note": { "zh": "你的读线/战术分很低——你可能在路线中没有合理分配体力。不知道哪里是难点、哪里可以休息，导致你全程都在高强度攀爬，当然泵得快。学会读线能直接改善你的「有效耐力」。", "en": "Your route reading score is very low — you might not be managing energy well on routes. Not knowing where the crux is or where to rest means you're climbing at high intensity the whole time. Learning to read routes directly improves your 'effective endurance'.", "ko": "루트 리딩 점수가 매우 낮아요 — 루트에서 체력 분배를 잘 못하고 있을 수 있어요. 핵심 구간과 휴식 지점을 모르면 전체 구간을 고강도로 타게 돼요." }, "extra_kps": [] }
+      ]
+    },
+    "core-weak": {
+      "category": "strength",
+      "diagnosis": {
+        "zh": "核心力量和身体张力不足，导致脚容易脱落、仰角线困难、以及在需要保持身体姿态的动作中感到吃力。核心在攀岩中的作用是「连接上下半身」——让你的脚和手形成一个整体。当核心弱的时候，你的脚会在仰角中荡出去，你不得不全靠手臂支撑，非常浪费力量。",
+        "en": "Core strength and body tension are lacking, causing feet to cut loose, difficulty on overhangs, and struggle with moves requiring body position maintenance. Core's role in climbing is 'connecting upper and lower body' — making your feet and hands work as one unit. When core is weak, your feet swing out on overhangs and you rely entirely on arms, wasting enormous energy.",
+        "ko": "코어와 바디 텐션 부족으로 발이 빠지고, 오버행에서 어렵고, 자세 유지 동작에서 힘들어요. 코어는 상하체를 연결하는 역할이에요."
+      },
+      "kps": ["kp-core-role", "kp-core-training"],
+      "articles": ["pullups-and-core", "women-strength-training"],
+      "styleNotes": {
+        "boulder": { "zh": "抱石中核心需求尤其高——很多高级抱石线路的关键动作就是在仰角中保持脚不脱。学会 toe hook 和 heel hook 可以极大弥补核心的不足，因为它们用脚钩住岩壁来分担核心的工作。", "en": "Core demand is especially high in bouldering — many key moves on hard boulders require keeping feet on in overhangs. Learning toe hooks and heel hooks significantly compensates for core weakness by sharing the load.", "ko": "볼더링에서 코어 수요가 특히 높아요. 토 훅과 힐 훅을 배우면 코어 부족을 크게 보완할 수 있어요." },
+        "rope": { "zh": "在长路线中，核心的作用更多是维持效率——让你的身体贴紧墙壁，减少手臂负担。路线攀中不需要极限核心爆发力，但需要持久的「背景张力」——长时间保持轻度核心收紧。", "en": "On long routes, core's role is more about efficiency — keeping your body close to the wall, reducing arm load. Route climbing doesn't need extreme core power but sustained 'background tension' — maintaining mild core engagement over long periods.", "ko": "긴 루트에서 코어의 역할은 효율 유지예요 — 몸을 벽에 가깝게 유지하고 팔 부하를 줄여요." }
+      },
+      "by_level": {
+        "beginner": {
+          "append": { "zh": "初学者脚脱落大多是技术问题而非核心弱——踩点不精确、出手前没有把重心转移好。在你能确认自己的脚法没问题之前，不需要急着练核心。一个测试：在简单直壁上，你的脚还会脱吗？如果直壁没问题只是仰角有问题，那确实是核心；如果直壁也脱，那更可能是脚法。", "en": "For beginners, feet cutting is mostly a technique issue, not weak core — imprecise footwork, not shifting weight before reaching. Before confirming it's a core issue, check: do your feet cut on easy vertical walls? If vertical is fine but overhangs aren't, it's core. If feet cut on verticals too, it's footwork.", "ko": "초보자의 발 빠짐은 대부분 기술 문제예요. 간단한 수직벽에서도 발이 빠지면 풋워크 문제, 수직벽은 괜찮고 오버행에서만 빠지면 코어 문제예요." },
+          "action": { "zh": "先做「안정된 발」练习：在简单线路上，每次踩点前 look → place → weight 三步走。每次攀爬后做 3 组平板支撑（每组 30-45 秒）来开始建立核心基础。", "en": "Start with 'quiet feet' practice: look → place → weight before each foothold. After climbing, do 3 sets of planks (30-45s each) to start building core foundation.", "ko": "'조용한 발' 연습: 매 풋홀드 전 보기 → 놓기 → 체중 싣기. 클라이밍 후 플랭크 3세트(각 30-45초)로 코어 기초 쌓기." }
+        },
+        "intermediate": {
+          "append": { "zh": "中级阶段可以开始针对性核心训练了。攀岩核心训练和健身房核心训练有区别——你需要的不是「六块腹肌」，而是在悬挂状态下保持身体张力的能力。最有效的攀岩核心训练是悬垂类训练（hanging exercises），因为它模拟了真实的攀爬姿态。", "en": "Time for targeted core training. Climbing core training differs from gym core — you don't need a six-pack, you need the ability to maintain body tension while hanging. The most effective climbing core exercises are hanging exercises, as they simulate real climbing positions.", "ko": "타겟 코어 훈련을 시작할 때예요. 클라이밍 코어는 '식스팩'이 아니라 매달린 상태에서 바디 텐션을 유지하는 능력이에요." },
+          "action": { "zh": "每周 2-3 次核心训练：(1) 悬垂抬腿 3×10（从屈膝开始，逐渐到直腿）；(2) 前杠杆进阶 3×5 秒保持（从团身开始）；(3) 在仰角墙上做 toe hook traverse——保持双脚都在墙上移动 10 步。", "en": "Core training 2-3x/week: (1) Hanging leg raises 3×10 (start bent-knee, progress to straight); (2) Front lever progressions 3×5s holds (start tucked); (3) Toe hook traverse on overhang wall — keep both feet on wall for 10 moves.", "ko": "주 2-3회 코어 훈련: (1) 행잉 레그 레이즈 3×10; (2) 프론트 레버 진행 3×5초; (3) 오버행 벽에서 토 훅 트래버스 10동작." }
+        },
+        "advanced": {
+          "append": { "zh": "高级阶段需要在岩壁上做实战化核心训练——脱离了攀爬环境的核心训练迁移率很低。你需要在仰角线上刻意练习：脚不脱、慢速移动、控制每一个转移。", "en": "Advanced needs on-wall core application — gym core exercises have low transfer rate. Practice deliberately on overhangs: no foot cuts, slow movement, controlling every transition.", "ko": "상급에서는 벽에서의 실전 코어 훈련이 필요해요 — 헬스장 코어 운동은 전이율이 낮아요." },
+          "action": { "zh": "在仰角线上做特定核心练习：(1) 「零脱脚挑战」——在你能爬的仰角线上，全程不允许脚脱落，做不到就降级；(2) 单手 traverse——仰角上一只手勾住岩壁、用核心控制身体移动脚；(3) 用 moonboard/kilter board 的仰角设定训练 body tension 问题。", "en": "Specific on-wall core drills: (1) 'Zero foot-cut challenge' — on overhang routes you can do, no feet allowed to cut, downgrade if needed; (2) One-hand traverse — hook one hand, use core to control body while moving feet; (3) Train body tension on Moonboard/Kilter Board overhang settings.", "ko": "벽에서의 특정 코어 연습: (1) '발 빠짐 제로 챌린지'; (2) 원핸드 트래버스; (3) 문보드/킬터보드 오버행 세팅에서 바디 텐션 훈련." }
+        }
+      },
+      "cross_checks": [
+        { "if_low": "flexibility", "note": { "zh": "你的柔韧分也偏低——核心感觉弱有时候和柔韧性有关。身体太硬会限制你能用的姿势范围：比如做不了 drop knee 就不得不用更多核心力量来保持平衡，做不了高脚踩就需要更多拉力。提升柔韧性可以间接减轻核心的负担。", "en": "Your flexibility is also low — feeling weak in the core is sometimes related to flexibility. Stiffness limits your position options: can't drop knee means more core needed for balance, can't high-step means more pulling needed. Improving flexibility indirectly reduces core demands.", "ko": "유연성 점수도 낮아요 — 코어가 약하게 느껴지는 건 유연성과 관련 있을 수 있어요. 드롭니를 못 하면 더 많은 코어가 필요하고, 하이스텝을 못 하면 더 많은 당기기가 필요해요." }, "extra_kps": ["kp-hip-flexibility"] }
+      ]
+    },
+    "power-weak": {
+      "category": "strength",
+      "diagnosis": {
+        "zh": "爆发力不足，导致动态动作、大幅跳跃（dyno）、以及快速出手的动作做不出来。爆发力和最大力量不同——它是关于「多快能产生力量」，而不是「能产生多大力量」。很多攀岩者最大力量足够，但因为发力速度不够快，在需要快速移动的时候跟不上。",
+        "en": "Lacking explosive power, making dynamic moves, big jumps (dynos), and fast reaches difficult. Power differs from max strength — it's about 'how fast you can generate force', not 'how much force'. Many climbers have enough max strength but can't move fast enough when speed matters.",
+        "ko": "폭발력 부족으로 다이나믹 동작, 큰 점프(다이노), 빠른 리치가 어려워요. 파워는 최대 근력과 다르게 '얼마나 빠르게 힘을 낼 수 있는지'가 핵심이에요."
+      },
+      "kps": ["kp-dyno-technique", "kp-campus-training", "kp-dynamic-movement", "kp-campus-moves"],
+      "articles": ["campus-board-when"],
+      "styleNotes": {
+        "boulder": { "zh": "抱石中爆发力是核心能力——很多 V4 以上的线都有至少一个动态动作。从 coordinated dyno（协调性跳跃）到 campus move（无脚跳跃），爆发力直接决定了你能不能送出关键一步。", "en": "Power is a core bouldering skill — most V4+ problems have at least one dynamic move. From coordinated dynos to campus moves, power directly determines whether you can execute the key move.", "ko": "볼더링에서 파워는 핵심 능력이에요 — V4+ 대부분의 문제에 동적 동작이 있어요." },
+        "rope": { "zh": "虽然先锋攀更看重耐力，但在难点处经常需要一个爆发性的出手来通过关键段。如果你只爬先锋，可以把爆发力训练放在较低优先级，专注在耐力和技术上。", "en": "While lead climbing values endurance more, crux sections often need one explosive reach. If you only do lead climbing, power training can be lower priority — focus on endurance and technique.", "ko": "리드 클라이밍은 지구력이 중요하지만, 핵심 구간에서 폭발적인 리치가 필요할 때가 있어요." }
+      },
+      "by_level": {
+        "beginner": {
+          "append": { "zh": "初学者暂时不需要练爆发力。大多数你觉得需要「跳」的动作，其实可以通过更好的脚法和身体定位来静态完成。如果你觉得够不着一个点需要跳起来抓，先问自己：能不能踩更高一点、能不能换个身体角度、能不能用另一只手先中间过渡一下？", "en": "Beginners don't need power training yet. Most moves that feel like they need a 'jump' can actually be done statically with better footwork and positioning. Before jumping for a hold, ask: can I step higher, change body angle, or use an intermediate hold?", "ko": "초보자는 아직 파워 훈련이 필요 없어요. '점프'가 필요하다고 느끼는 대부분의 동작은 더 좋은 풋워크와 포지셔닝으로 정적으로 할 수 있어요." },
+          "action": { "zh": "先学好静态动作和重心转移。在简单线路上做「慢动作挑战」——每个动作至少 3 秒完成，不允许跳。等你能做到 V2-V3 的线全部慢速完成，再开始训练爆发力。", "en": "Master static movement and weight shifts first. Do a 'slow-motion challenge' on easy routes — every move must take at least 3 seconds, no jumping. Once you can slow-climb all V2-V3 routes, then start power training.", "ko": "정적 동작과 무게 중심 이동을 먼저 완벽히 익히세요. 쉬운 루트에서 '슬로우모션 챌린지' — 모든 동작 최소 3초." }
+        },
+        "intermediate": {
+          "append": { "zh": "中级可以开始训练协调性爆发力了。关键是：先在安全的环境（抱石垫上方、低处）练习，从保证能抓住目标点的距离开始，逐渐增大。动态动作的核心技巧是「发力时机」——要用脚蹬力 + 核心传导 + 手臂导向的连锁反应，而不是纯靠手臂跳。", "en": "Intermediate can start training coordination power. Key: practice in a safe environment (above pads, low height), starting from guaranteed-catch distances and gradually increasing. The core dynamic technique is 'force timing' — leg drive + core transfer + arm direction as a chain reaction, not just arm jumping.", "ko": "중급에서 코디네이션 파워를 훈련하기 시작하세요. 핵심은 안전한 환경에서 확실히 잡을 수 있는 거리부터 시작해 점차 늘리는 것이에요." },
+          "action": { "zh": "每周 1 次动态专题训练（不要在疲劳时做）：(1) 从小 dyno 开始——正常够得着但故意用弹跳方式去抓，练习「发力-飞行-抓住」的节奏感；(2) 在 spray wall 上设置渐增距离的目标点；(3) 每组之间充分休息 3-5 分钟——爆发力训练 ≠ 累到不行。", "en": "1x/week dynamic session (never when tired): (1) Start with mini-dynos — reach that's normally static but done with a bounce, practicing the 'generate-flight-catch' rhythm; (2) Set up increasing-distance targets on a spray wall; (3) Full rest 3-5 min between sets — power training ≠ exhaustion.", "ko": "주 1회 다이나믹 전문 세션(피곤할 때 절대 금지): (1) 미니 다이노부터; (2) 스프레이 월에서 점점 늘어나는 거리; (3) 세트 간 3-5분 완전 휴식." }
+        },
+        "advanced": {
+          "append": { "zh": "高级阶段需要校园板和负重训练来突破爆发力瓶颈。校园板训练的关键是「接触力」——手指接触岩点的瞬间能产生的最大力量。这和最大挂板力量不同，需要专门训练。", "en": "Advanced needs campus board and weighted training for power breakthroughs. The key campus board metric is 'contact strength' — the maximum force your fingers can generate at the instant of contact. This differs from max hangboard strength and needs specific training.", "ko": "상급에서는 캠퍼스 보드와 가중 훈련으로 파워 한계를 돌파해야 해요. 핵심은 '접촉 근력' — 홀드를 잡는 순간 발생시킬 수 있는 최대 힘이에요." },
+          "action": { "zh": "校园板训练 2 次/周（在攀爬前、身体最新鲜时做）：(1) 1-3-5 梯形模式 × 6 组——训练快速交替；(2) 最大距离跳跃 × 4 组——从最低横木跳到能跳到的最高横木；(3) 锁定跳跃（跳到后锁定 2 秒再继续）× 4 组。每组之间休息 3-5 分钟。搭配负重 dyno 练习提升整体爆发力。", "en": "Campus board 2x/week (before climbing, when freshest): (1) 1-3-5 ladder × 6 sets — rapid alternation; (2) Max distance jumps × 4 sets — lowest rung to highest reachable; (3) Lock-off jumps (catch and lock 2s before continuing) × 4 sets. Rest 3-5 min between sets. Combine with weighted dyno drills.", "ko": "캠퍼스 보드 주 2회(클라이밍 전, 가장 컨디션 좋을 때): (1) 1-3-5 래더 × 6세트; (2) 최대 거리 점프 × 4세트; (3) 락오프 점프 × 4세트. 세트 간 3-5분 휴식." }
+        }
+      },
+      "cross_checks": [
+        { "if_low": "mental", "note": { "zh": "你的心理分偏低——不敢全力跳出去可能是心理问题而非力量问题。很多人在动态动作中不是「跳不到」，而是「不敢全力跳」，因为害怕失败或害怕脱手。如果你在简单线路上的动态动作也犹豫，这就是心理在影响你的爆发力表达。", "en": "Your mental score is low — not committing to jumps might be mental, not physical. Many people don't 'miss' dynos — they don't fully commit because they're afraid of failing or missing. If you hesitate on easy dynos too, it's your mental game limiting your power expression.", "ko": "멘탈 점수가 낮아요 — 점프에 전력을 다하지 못하는 건 힘이 아니라 심리적 문제일 수 있어요. 쉬운 다이노에서도 주저한다면 멘탈이 파워 발현을 제한하는 거예요." }, "extra_kps": ["kp-fear-management"] }
+      ]
+    },
+    "footwork-bad": {
+      "category": "technique",
+      "diagnosis": {
+        "zh": "脚法是攀岩中最基础、也是投入回报比最高的技术。好的脚法意味着你的每一步都精确、安静、有效，让脚承担更多的体重，手臂就不用那么累。差的脚法意味着你在用上肢力量补偿下肢的不准确，不仅更累，进步也更慢。研究表明，从新手到中级的进步中，脚法改善贡献了 60% 以上的等级提升。",
+        "en": "Footwork is the most fundamental climbing skill with the highest return on investment. Good footwork means every step is precise, quiet, and effective, letting your feet carry more weight so your arms rest. Poor footwork means you're compensating with upper body strength, which is both more tiring and slower to progress. Research shows footwork improvement contributes over 60% of grade gains from beginner to intermediate.",
+        "ko": "풋워크는 가장 기본적이면서 투자 대비 효과가 가장 큰 클라이밍 기술이에요. 좋은 풋워크는 모든 스텝이 정확하고 조용하고 효과적이어서 발이 더 많은 체중을 지탱해요."
+      },
+      "kps": ["kp-edging", "kp-smearing", "kp-smedging"],
+      "articles": ["improve-footwork", "stop-overgripping"],
+      "styleNotes": {
+        "boulder": { "zh": "抱石中脚法要求精确且多样——你需要在各种大小和角度的脚点上精确踩踏，还要会 toe hook、heel hook 等高级脚法。", "en": "Bouldering demands precise and diverse footwork — you need to place feet accurately on various sizes and angles, plus learn toe hooks, heel hooks, and other advanced techniques.", "ko": "볼더링에서는 정확하고 다양한 풋워크가 요구돼요 — 다양한 크기와 각도의 풋홀드, 토 훅, 힐 훅 등." },
+        "rope": { "zh": "先锋攀中脚法的一致性更重要——长路线中你需要每一步都精确，因为一个踩滑可能导致前臂瞬间过度紧张，加速泵感。", "en": "In lead climbing, footwork consistency matters more — on long routes every step must be precise because one slip causes forearm over-tension and accelerates pumping.", "ko": "리드 클라이밍에서는 풋워크의 일관성이 더 중요해요 — 한 번의 슬립이 전완 과긴장과 펌핑 가속을 유발해요." },
+        "outdoor": { "zh": "户外岩壁的脚点和室内完全不同——没有彩色手点帮你标识，需要自己找脚点、判断摩擦力。户外脚法更依赖 smearing 和微地形利用。", "en": "Outdoor footholds are completely different from indoor — no colored holds to guide you. You need to find footholds yourself and judge friction. Outdoor footwork relies more on smearing and micro-terrain.", "ko": "야외 풋홀드는 실내와 완전히 달라요 — 스미어링과 미세 지형 활용에 더 의존해요." }
+      },
+      "by_level": {
+        "beginner": {
+          "append": { "zh": "新手最大的提升点就是脚法！一个简单的事实：世界上最好的攀岩者脚踩点时几乎没有声音，而新手每一步都「啪」地踩上去。声音 = 冲击力 = 浪费的能量 + 容易踩滑。从今天开始，把「安静脚」作为每次攀爬的第一原则。", "en": "Footwork is the biggest improvement area for beginners! A simple fact: the world's best climbers make almost no noise when placing feet, while beginners 'slap' every step. Noise = impact = wasted energy + higher chance of slipping. Starting today, make 'quiet feet' your number one climbing rule.", "ko": "초보자에게 가장 큰 성장 포인트는 풋워크예요! 세계 최고 클라이머들은 발을 놓을 때 거의 소리가 나지 않아요. 오늘부터 '조용한 발'을 제1원칙으로 삼으세요." },
+          "action": { "zh": "每条线路用「안정된 발」规则：脚踩上去的时候不允许发出声音，如果听到任何声音就退回重新踩。目标：用脚趾的前端（大拇指球区域）精确踩在脚点的最佳位置上。初学者最常犯的错误是用整个脚掌踩——这既不精确也不稳定。每周至少花 1 次 30 分钟专门练脚法：选低 3 级的线，只关注脚、完全不管手。", "en": "Use 'quiet feet' rule on every route: no sound when placing feet — if you hear anything, step back and redo it. Aim to place the front of your toe (big-toe ball area) precisely on the best spot of the foothold. The most common beginner mistake is stepping with the whole foot — imprecise and unstable. Spend at least one 30-min session per week on footwork drills: pick routes 3 grades below max, focus only on feet, ignore hands completely.", "ko": "모든 루트에서 '조용한 발' 규칙: 발 놓을 때 소리 금지. 발가락 앞부분(엄지발가락 볼 영역)으로 정확히 밟으세요. 매주 최소 30분은 풋워크 전용 연습." }
+        },
+        "intermediate": {
+          "append": { "zh": "中级开始需要多样化脚法——edging（边踩）、smearing（摩擦踩）、heel hook、toe hook、drop knee 下的脚法配合等。不同的岩壁角度和脚点类型需要不同的踩法策略。", "en": "Intermediate needs diverse footwork — edging, smearing, heel hooks, toe hooks, footwork for drop knees, etc. Different wall angles and foothold types require different stepping strategies.", "ko": "중급에서는 다양한 풋워크가 필요해요 — 에징, 스미어링, 힐 훅, 토 훅, 드롭니 풋워크 등." },
+          "action": { "zh": "每周选 2-3 条低于你最高级别的线，做以下练习：(1) 「no-look 脚法」——眼睛找到脚点位置后不再看，直接踩上去不调整；(2) 「sticky feet」——每次脚踩上去后不允许再调整位置，一步到位；(3) 在仰角墙上练习 heel hook 和 toe hook 的精确放置。", "en": "Weekly pick 2-3 routes below your max for drills: (1) 'No-look feet' — spot the foothold, then place without looking again, no adjusting; (2) 'Sticky feet' — once placed, no adjusting allowed, one and done; (3) Practice precise heel hook and toe hook placement on overhang walls.", "ko": "매주 최고 등급 아래 2-3개 루트에서 연습: (1) '노룩 발' — 풋홀드를 보고 다시 안 보고 놓기; (2) '스티키 발' — 한 번 놓으면 조정 금지; (3) 오버행에서 힐 훅, 토 훅 정밀 배치." }
+        },
+        "advanced": {
+          "append": { "zh": "高级阶段的脚法精细度决定了你在难线上能不能省下那关键的 5-10% 体力。录像分析是最好的工具——拍下自己的攀爬视频，对比同级别或更高级别的攀岩者在同一条线上的脚法差异。", "en": "Advanced footwork precision determines whether you save that critical 5-10% energy on hard routes. Video analysis is the best tool — film yourself and compare footwork differences with same-level or better climbers on the same route.", "ko": "상급 풋워크 정밀도가 어려운 루트에서 결정적인 5-10% 에너지를 절약하는지 결정해요. 영상 분석이 최고의 도구예요." },
+          "action": { "zh": "录像分析 + 对比学习：(1) 录下自己 onsight 一条线的过程；(2) 看高手爬同一条线的视频或让人录；(3) 逐个动作对比脚的位置、角度、踩法差异。你会发现高手在每个动作上脚的位置都比你精确 2-3 厘米，整条线下来节省的力量非常可观。", "en": "Video analysis + comparative study: (1) Film your onsight attempt; (2) Watch a stronger climber on the same route; (3) Compare foot placement, angle, and technique move by move. You'll find elite climbers place feet 2-3cm more precisely on every move — over a whole route, the energy savings are massive.", "ko": "영상 분석 + 비교 학습: (1) 온사이트 시도 촬영; (2) 같은 루트에서 고수 영상 시청; (3) 동작별 발 위치, 각도, 기법 비교." }
+        }
+      },
+      "cross_checks": []
+    },
+    "cant-reach": {
+      "category": "technique",
+      "diagnosis": {
+        "zh": "够不着远处的点是很常见的问题。好消息是：这通常不是身高问题。攀岩中几乎所有的「够不着」都可以通过技术来解决——更好的脚位、身体角度调整、中间过渡点的利用、或者正确的发力方式。",
+        "en": "Not reaching distant holds is very common. Good news: it's almost never about height. Nearly all 'can't reach' situations in climbing can be solved with technique — better foot placement, body angle adjustment, intermediate hold usage, or correct force generation.",
+        "ko": "먼 홀드에 손이 안 닿는 건 매우 흔한 문제예요. 좋은 소식: 거의 키 문제가 아니에요. 기술로 해결할 수 있어요."
+      },
+      "kps": ["kp-flagging", "kp-drop-knee", "kp-dyno-technique", "kp-hip-flexibility"],
+      "articles": ["improve-footwork", "how-to-read-routes"],
+      "styleNotes": {
+        "boulder": { "zh": "抱石中够不着通常意味着你的 beta（攀爬方式）需要调整。看看别人怎么做的——可能有一个你没看到的中间脚点，或者需要用 flag / drop knee 来扩展你的距离。", "en": "In bouldering, 'can't reach' usually means your beta needs adjusting. Watch how others do it — there might be an intermediate foothold you missed, or a flag/drop knee that extends your reach.", "ko": "볼더링에서 '닿지 않음'은 보통 베타를 조정해야 한다는 뜻이에요." },
+        "rope": { "zh": "先锋攀中够不着可能意味着你在读线时没有规划好clip之间的休息和位置。有时候够不着下一个点是因为你挂绳的时机不对，导致体力已经消耗过多。", "en": "In lead climbing, 'can't reach' may mean poor route planning between clips. Sometimes you can't reach because you clipped at the wrong time, burning too much energy.", "ko": "리드에서 '닿지 않음'은 클립 사이의 루트 계획이 부실할 수 있어요." }
+      },
+      "by_level": {
+        "beginner": {
+          "append": { "zh": "够不着往往不是身高问题——170cm 的人完全可以爬需要 180cm 臂展的线。关键在于：你的脚够高吗？你的臀部靠近墙壁了吗？你的身体转向正确的方向了吗？很多时候，只要把脚往上踩一步、把身体侧向目标方向，就能多够出 10-15 厘米。", "en": "Not reaching is rarely about height — a 170cm person can absolutely climb routes designed for 180cm reach. The key is: are your feet high enough? Are your hips close to the wall? Is your body turned the right way? Often, stepping one foot higher and turning your body toward the target gives you 10-15cm extra reach.", "ko": "닿지 않는 건 거의 키 문제가 아니에요. 발이 충분히 높은가요? 엉덩이가 벽에 가까운가요? 몸이 올바른 방향으로 돌아가 있나요?" },
+          "action": { "zh": "试试这个「三步检查」：出手前问自己：(1) 脚能不能踩更高一步？(2) 臀部能不能更靠近墙壁？(3) 身体能不能转向目标方向？（比如要伸右手，就把左腿交叉到右边做 flag）。在简单线路上反复练习，你会发现 80% 的「够不着」都能靠这三步解决。", "en": "Try this 'three-step check' before reaching: (1) Can I step my foot higher? (2) Can I get my hips closer to the wall? (3) Can I turn my body toward the target? (e.g., to reach right, flag left leg across). Practice on easy routes and you'll find 80% of 'can't reach' problems are solved by these three checks.", "ko": "리치 전 '3단계 체크': (1) 발을 더 높이 올릴 수 있나? (2) 엉덩이를 벽에 더 가까이 할 수 있나? (3) 몸을 목표 방향으로 돌릴 수 있나?" }
+        },
+        "intermediate": {
+          "append": { "zh": "中级需要系统学习扩展距离的技巧。Flagging（旗帜步）和 Drop Knee（落膝）是最重要的两个——它们可以把你的有效臂展增加 15-20 厘米，而且大幅减少手臂负担。", "en": "Intermediate needs to systematically learn reach-extending techniques. Flagging and Drop Knee are the two most important — they can add 15-20cm to your effective reach while significantly reducing arm load.", "ko": "중급에서는 리치를 확장하는 기술을 체계적으로 배워야 해요. 플래깅과 드롭니가 가장 중요해요 — 유효 리치를 15-20cm 늘려줘요." },
+          "action": { "zh": "专题练习 flagging 和 drop knee：(1) 选 10 条低于你最高级别的线，强制每条线至少用 3 次 flag 或 drop knee；(2) 刻意在「够不着」的时候先不跳，而是花 10 秒想有没有 flag/drop knee 的解法；(3) 看更矮的攀岩者怎么爬同一条线——他们的 beta 对你更有参考价值。", "en": "Dedicated flagging and drop knee practice: (1) Pick 10 routes below your max, force at least 3 flags or drop knees per route; (2) When you 'can't reach', don't jump — spend 10 seconds thinking about flag/drop knee solutions; (3) Watch shorter climbers on the same routes — their beta is more relevant to you.", "ko": "플래깅과 드롭니 전문 연습: (1) 최고 등급 아래 10개 루트에서 각 최소 3회 사용; (2) '닿지 않을 때' 점프 대신 10초간 플래깅/드롭니 해법 생각; (3) 키 작은 클라이머가 같은 루트를 어떻게 타는지 관찰." }
+        },
+        "advanced": {
+          "append": { "zh": "高级线路经常需要创造性的身体姿势来解决距离问题。这包括：rose move（玫瑰步）、bicycle（双脚夹持）、figure-four 等非常规技巧。", "en": "Hard routes often need creative body positions for reach — including rose moves, bicycles, figure-fours and other unconventional techniques.", "ko": "어려운 루트에서는 리치를 위한 창의적인 바디 포지션이 필요해요." },
+          "action": { "zh": "录像分析 + 对比矮个子高手的 beta：(1) 观看身高 160-170cm 的世界级攀岩者（如 Ai Mori、Jain Kim）的比赛视频，学习他们怎么解决距离问题；(2) 在 spray wall 上设置「够不着」的问题，强制自己找到非动态的解法。", "en": "Video analysis + study shorter elite climbers: (1) Watch world-class climbers who are 160-170cm (e.g. Ai Mori, Jain Kim) in competitions — learn their reach solutions; (2) Set 'can't reach' problems on a spray wall and force yourself to find static solutions.", "ko": "영상 분석 + 키 작은 엘리트 클라이머 연구: (1) 160-170cm 세계적 클라이머(모리 아이, 김자인 등) 대회 영상 학습; (2) 스프레이 월에서 '닿지 않는' 문제를 세팅하고 정적 해법 찾기." }
+        }
+      },
+      "cross_checks": [
+        { "if_low": "flexibility", "note": { "zh": "你的柔韧分偏低——够不着可能和柔韧性有关。开胯不够导致脚踩不高、drop knee 幅度不够、high step 做不了。这些都会直接限制你的有效距离。每天 10 分钟的髋关节开合练习就能带来明显改善。", "en": "Your flexibility is low — reaching issues might be flexibility-related. Limited hip mobility means you can't step high, drop knee range is small, and high steps are impossible. All directly limit your effective reach. Just 10 minutes of daily hip mobility work will bring noticeable improvement.", "ko": "유연성 점수가 낮아요 — 닿지 않는 건 유연성 문제일 수 있어요. 고관절 가동성 부족으로 높이 발을 올리지 못하고 드롭니 범위도 작아요." }, "extra_kps": ["kp-hip-flexibility"] },
+        { "if_low": "mental", "note": { "zh": "你的心理分也偏低——够不着有时候和不敢「放手跳」有关。如果你在够不着时的第一反应不是「调整身体」而是「太远了，算了」，可能是恐惧在阻止你全力伸展。", "en": "Your mental score is also low — 'can't reach' is sometimes about not daring to commit. If your first reaction to a distant hold is 'too far, forget it' rather than 'let me adjust my body', fear might be preventing full extension.", "ko": "멘탈 점수도 낮아요 — '닿지 않음'이 때로는 전력으로 뻗지 못하는 것일 수 있어요." }, "extra_kps": ["kp-fear-management"] }
+      ]
+    },
+    "overhang-fail": {
+      "category": "technique",
+      "kps": ["kp-core-role", "kp-core-training"],
+      "articles": ["pullups-and-core"],
+      "diagnosis": { "zh": "仰角线需要核心力量、身体张力和 heel/toe hook 等技巧的组合。这是综合能力的考验。", "en": "Overhangs require core strength, body tension, and techniques like heel/toe hooks. It's a test of combined ability.", "ko": "오버행은 코어, 바디 텐션, 힐/토 훅 기술의 조합이 필요해요." },
+      "styleNotes": {},
+      "by_level": {
+        "beginner": { "append": { "zh": "仰角对新手很难是正常的。先在直壁上打好基础再来。", "en": "Overhangs being hard for beginners is normal. Build foundation on vertical walls first.", "ko": "초보자에게 오버행이 어려운 건 정상이에요." }, "action": { "zh": "先不要刻意练仰角。在直壁上把脚法和重心转移练好，自然过渡。", "en": "Don't force overhangs yet. Master footwork and weight transfer on vertical walls.", "ko": "아직 오버행을 억지로 하지 마세요." } },
+        "intermediate": { "append": { "zh": "中级开始系统学习仰角技巧：heel hook、toe hook、body tension。", "en": "Time to systematically learn overhang techniques.", "ko": "오버행 기술을 체계적으로 배울 때예요." }, "action": { "zh": "每周在仰角墙上花 30 分钟做 traverse 练习，专注保持脚不脱。", "en": "Spend 30 min/week on overhang traverses, focus on keeping feet on.", "ko": "매주 30분씩 오버행 트래버스 연습." } },
+        "advanced": { "append": { "zh": "高级仰角需要在 moonboard/kilter board 上专项训练。", "en": "Advanced overhangs need specialized training on Moonboard/Kilter Board.", "ko": "상급 오버행은 문보드/킬터보드에서 전문 훈련이 필요해요." }, "action": { "zh": "moonboard/kilter board 每周 2 次仰角设定训练。", "en": "Moonboard/Kilter Board overhang settings 2x/week.", "ko": "문보드/킬터보드 오버행 세팅 주 2회." } }
+      },
+      "cross_checks": [
+        { "if_low": "flexibility", "note": { "zh": "仰角困难可能和髋关节灵活性有关——影响 heel hook 和 drop knee 的幅度。", "en": "Overhang difficulty might relate to hip mobility — affects heel hook and drop knee range.", "ko": "오버행 어려움은 고관절 가동성과 관련 있을 수 있어요." }, "extra_kps": ["kp-hip-flexibility"] }
+      ]
+    },
+    "flexibility-limit": {
+      "category": "technique",
+      "kps": ["kp-hip-flexibility", "kp-warmup-stretching"],
+      "articles": ["how-to-warm-up", "women-climbing-advantages"],
+      "diagnosis": { "zh": "柔韧性限制了你的动作选择和效率。好消息是柔韧性是所有维度中最容易提升的——每天坚持 10-15 分钟拉伸，4-6 周就能看到明显改善。", "en": "Flexibility is limiting your movement options. Good news: it's the easiest dimension to improve — 10-15 min of daily stretching and you'll see clear improvement in 4-6 weeks.", "ko": "유연성이 동작 선택을 제한하고 있어요. 매일 10-15분 스트레칭으로 4-6주 안에 개선을 볼 수 있어요." },
+      "styleNotes": {},
+      "by_level": {
+        "beginner": { "append": { "zh": "柔韧性是最容易提升的维度之一。", "en": "Flexibility is one of the easiest areas to improve.", "ko": "유연성은 가장 개선하기 쉬운 영역 중 하나예요." }, "action": { "zh": "每次攀爬后拉伸 10 分钟，重点是髋关节开合和腿后侧。", "en": "Stretch 10 min after each session — focus on hips and hamstrings.", "ko": "매 세션 후 10분 스트레칭 — 고관절과 햄스트링 중심." } },
+        "intermediate": { "append": { "zh": "中级需要日常化柔韧性训练。", "en": "Intermediate needs regular flexibility work.", "ko": "중급에서는 유연성 훈련을 일상에 통합해야 해요." }, "action": { "zh": "每天 15 分钟开胯训练 + 每周 2 次瑜伽或拉伸课。", "en": "15 min daily hip openers + 2x/week yoga or stretching class.", "ko": "매일 15분 고관절 열기 + 주 2회 요가/스트레칭." } },
+        "advanced": { "append": { "zh": "高级阶段柔韧性可能就是你和更高等级之间的那堵墙。", "en": "At advanced level, flexibility might be the wall between you and the next grade.", "ko": "상급에서 유연성 차이가 다음 등급의 벽일 수 있어요." }, "action": { "zh": "针对项目线路中具体需要的柔韧性做专项训练。", "en": "Train specific flexibility for your project route demands.", "ko": "프로젝트 루트가 요구하는 특정 유연성을 전문 훈련하세요." } }
+      },
+      "cross_checks": []
+    },
+    "terrain-specific": {
+      "category": "technique",
+      "kps": ["kp-slab-technique"],
+      "articles": [],
+      "diagnosis": { "zh": "裂缝和特殊地形需要专门学习，和常规攀岩技术差异很大。", "en": "Cracks and special terrain require dedicated learning, quite different from regular climbing.", "ko": "크랙과 특수 지형은 전용 학습이 필요해요." },
+      "styleNotes": { "outdoor": { "zh": "户外裂缝攀登是一门独立的艺术。建议找有经验的裂缝攀者带你入门。", "en": "Outdoor crack climbing is an art of its own. Find an experienced crack climber to mentor you.", "ko": "야외 크랙 클라이밍은 독자적인 영역이에요." } },
+      "by_level": {
+        "beginner": { "append": { "zh": "新手先不急。打好基础后再来。", "en": "No rush for beginners. Build fundamentals first.", "ko": "초보자는 서두르지 마세요." }, "action": { "zh": "找有裂缝的岩馆先感受一下。", "en": "Find a gym with cracks to get a feel for it.", "ko": "크랙이 있는 클라이밍장을 찾아 감을 잡으세요." } },
+        "intermediate": { "append": { "zh": "可以开始系统学习 jamming 了。", "en": "Time to start learning jamming.", "ko": "재밍을 배울 때예요." }, "action": { "zh": "参加裂缝攀岩工作坊或找经验者带你。", "en": "Join a crack climbing workshop or find a mentor.", "ko": "크랙 클라이밍 워크숍 참가 또는 멘토 찾기." } },
+        "advanced": { "append": { "zh": "需要大量户外实践。", "en": "Needs lots of outdoor practice.", "ko": "많은 야외 실전이 필요해요." }, "action": { "zh": "规划户外裂缝线路旅行。", "en": "Plan outdoor crack climbing trips.", "ko": "야외 크랙 루트 여행을 계획하세요." } }
+      },
+      "cross_checks": []
+    },
+    "fear-height": {
+      "category": "mental",
+      "kps": ["kp-fear-management"],
+      "articles": ["fear-of-heights"],
+      "diagnosis": { "zh": "恐高是最常见的攀岩心理障碍，也是最可以克服的。几乎所有攀岩者（包括专业选手）在某个阶段都经历过恐高。关键是渐进式脱敏——让身体逐渐适应高度带来的不适。", "en": "Fear of heights is the most common climbing mental barrier — and the most conquerable. Nearly all climbers (including pros) experience it at some stage. The key is progressive desensitization — gradually getting your body used to the discomfort of height.", "ko": "고소공포증은 가장 흔하면서 가장 극복 가능한 클라이밍 심리 장벽이에요. 점진적 둔감화가 핵심이에요." },
+      "styleNotes": {
+        "boulder": { "zh": "抱石的高度通常在 3-4.5 米，恐高在这个高度也会发生。从最低的线开始，逐渐增加——不要一开始就冲顶部。", "en": "Bouldering heights are usually 3-4.5m, and fear can still kick in. Start with the lowest routes and gradually increase — don't rush to the top.", "ko": "볼더링 높이는 보통 3-4.5m이지만 공포가 여전히 발생할 수 있어요. 가장 낮은 루트부터 시작하세요." },
+        "rope": { "zh": "先锋攀的恐高通常更严重，因为你在高处且在快挂上方时心理压力最大。先在顶绳上建立信心，然后再转向先锋。", "en": "Lead climbing height fear is usually more intense because you're high up and above the clip. Build confidence on top-rope first, then transition to lead.", "ko": "리드 클라이밍의 고소공포증은 보통 더 심해요. 탑로프에서 먼저 자신감을 쌓은 후 리드로 전환하세요." }
+      },
+      "by_level": {
+        "beginner": { "append": { "zh": "恐高在新手中极其常见。渐进式脱敏是最有效的方法——你的大脑需要时间学习「这个高度是安全的」。", "en": "Fear of heights is extremely common for beginners. Progressive desensitization is the most effective approach.", "ko": "초보자에게 고소공포증은 매우 흔해요." }, "action": { "zh": "从抱石开始。每次到了害怕的高度就停下来，保持 30 秒深呼吸，然后安全下来。下次再高一点。不要强迫自己。", "en": "Start with bouldering. When you reach your fear zone, stop, breathe deeply for 30 seconds, then safely descend. Go a bit higher next time. Never force it.", "ko": "볼더링부터 시작. 무서운 높이에 도달하면 30초 심호흼 후 안전하게 내려오세요." } },
+        "intermediate": { "append": { "zh": "中级的恐高通常是关于冲坠恐惧的延伸。", "en": "Intermediate height fear is often an extension of fall fear.", "ko": "중급 고소공포증은 추락 공포의 연장선이에요." }, "action": { "zh": "渐进脱敏 + 注意力管理：在高处时把注意力放在下一个动作而非高度上。", "en": "Progressive desensitization + attention management: focus on the next move when high, not on the height.", "ko": "점진적 둔감화 + 주의력 관리: 높은 곳에서 높이가 아닌 다음 동작에 집중." } },
+        "advanced": { "append": { "zh": "高级阶段用意象化训练和心流状态。", "en": "Advanced: visualization and flow state techniques.", "ko": "상급: 시각화와 플로우 상태 기법." }, "action": { "zh": "攀爬前用呼吸法进入专注状态。在安全环境中模拟高度场景进行脱敏。", "en": "Use breathing to enter focus mode before climbing. Simulate height scenarios in safe environments.", "ko": "클라이밍 전 호흡법으로 집중 모드 진입." } }
+      },
+      "cross_checks": []
+    },
+    "fear-fall": {
+      "category": "mental",
+      "kps": ["kp-fear-management"],
+      "articles": ["overcome-lead-fear", "fear-of-heights"],
+      "diagnosis": { "zh": "冲坠恐惧会严重限制你在先锋攀中的表现——让你不敢在快挂上方出手，甚至不敢尝试难点。", "en": "Fear of falling seriously limits lead climbing — making you afraid to reach above the clip or attempt crux moves.", "ko": "추락 공포는 리드 클라이밍 퍼포먼스를 심각하게 제한해요." },
+      "styleNotes": {
+        "boulder": { "zh": "在抱石中，冲坠恐惧通常表现为不敢做顶部的最后一步——怕从最高点掉下来。确保岩馆的抱石垫足够厚、落地区域清晰，然后练习从越来越高的位置主动跳下来。", "en": "In bouldering, fall fear shows as not committing to the last move at the top. Make sure pads are thick and clear, then practice jumping down from increasing heights.", "ko": "볼더링에서 추락 공포는 꼭대기에서 마지막 동작을 못 하는 것으로 나타나요." },
+        "rope": { "zh": "先锋攀中冲坠恐惧是最普遍的心理障碍。系统性的冲坠练习是唯一有效的解决方案——你需要让身体真实体验「冲坠是安全的」。", "en": "Fall fear in lead climbing is the most universal mental barrier. Systematic fall practice is the only effective solution — your body needs to physically experience that falls are safe.", "ko": "리드 클라이밍에서 추락 공포는 가장 보편적인 심리 장벽이에요. 체계적인 추락 연습이 유일한 해결책이에요." }
+      },
+      "by_level": {
+        "beginner": { "append": { "zh": "先在顶绳上建立信心。", "en": "Build confidence on top-rope first.", "ko": "탑로프에서 먼저 자신감을 쌓으세요." }, "action": { "zh": "从快挂正上方冲坠开始，逐渐增加距离。每次冲坠后告诉自己：「看，没事」。", "en": "Start falling from right above the clip, gradually increase distance. After each fall, tell yourself: 'See? I'm fine.'", "ko": "클립 바로 위에서 추락부터 시작, 점차 거리 늘리기." } },
+        "intermediate": { "append": { "zh": "把冲坠练习变成常规训练。", "en": "Make fall practice a regular part of training.", "ko": "추락 연습을 정기 훈련의 일부로." }, "action": { "zh": "每次先锋攀时至少做 2 次有意识的冲坠。", "en": "At least 2 intentional falls every lead session.", "ko": "매 리드 세션마다 최소 2회 의도적 추락." } },
+        "advanced": { "append": { "zh": "高级的冲坠恐惧通常出现在特定场景。", "en": "Advanced fall fear appears in specific scenarios.", "ko": "상급 추락 공포는 특정 상황에서 나타나요." }, "action": { "zh": "在安全环境下模拟特定场景进行脱敏。", "en": "Simulate specific scenarios in safe environments for desensitization.", "ko": "안전한 환경에서 특정 상황을 시뮬레이션하며 둔감화." } }
+      },
+      "cross_checks": []
+    },
+    "fear-fail": {
+      "category": "mental", "kps": ["kp-fear-management"], "articles": [],
+      "diagnosis": { "zh": "害怕失败会让你回避挑战，限制成长。攀岩的本质就是一次又一次地摔下来，直到成功。", "en": "Fear of failure makes you avoid challenges. Climbing is fundamentally about falling repeatedly until you succeed.", "ko": "실패에 대한 두려움이 도전을 피하게 만들어요." },
+      "styleNotes": {},
+      "by_level": {
+        "beginner": { "append": { "zh": "每个人都是从摔下来开始学的。", "en": "Everyone learns by falling.", "ko": "모든 사람은 떨어지면서 배워요." }, "action": { "zh": "每次去岩馆至少尝试 1 条你觉得可能失败的线。", "en": "Each session, try at least 1 route you think you might fail on.", "ko": "매 세션마다 실패할 수 있을 것 같은 루트 최소 1개 시도." } },
+        "intermediate": { "append": { "zh": "把失败当作数据而非评价。", "en": "See failure as data, not judgment.", "ko": "실패를 평가가 아닌 데이터로 보세요." }, "action": { "zh": "每次失败后写下「我学到了什么」。", "en": "After each failure, write down 'what I learned'.", "ko": "매 실패 후 '무엇을 배웠는지' 적으세요." } },
+        "advanced": { "append": { "zh": "用项目化思维——长期攻克一条线。", "en": "Use project mindset — work a route over time.", "ko": "프로젝트 마인드셋 — 하나의 루트를 장기간 작업." }, "action": { "zh": "选一条 project 线，分解步骤，记录每次进步。", "en": "Pick a project route, break it down, log every attempt.", "ko": "프로젝트 루트 선택, 단계 분해, 매 시도 기록." } }
+      },
+      "cross_checks": []
+    },
+    "comp-anxiety": {
+      "category": "mental", "kps": ["kp-competition-anxiety"], "articles": [],
+      "diagnosis": { "zh": "竞技焦虑是正常的，职业选手也会有。关键是学会管理它，而不是消除它。", "en": "Competition anxiety is normal — even pros have it. The key is managing it, not eliminating it.", "ko": "대회 불안은 정상이에요 — 프로도 겪어요. 핵심은 관리하는 법을 배우는 거예요." },
+      "styleNotes": {},
+      "by_level": {
+        "beginner": { "append": { "zh": "把比赛当社交活动，不设成绩目标。", "en": "Treat comps as social events, not exams.", "ko": "대회를 소셜 이벤트로, 시험이 아닌 것으로 생각하세요." }, "action": { "zh": "报名 1 次入门比赛，只设参与目标。", "en": "Enter 1 beginner comp with a participation goal only.", "ko": "입문 대회 1개 등록, 참여 목표만." } },
+        "intermediate": { "append": { "zh": "学习赛前热身和呼吸套路。", "en": "Learn pre-comp warm-up and breathing routines.", "ko": "대회 전 워밍업과 호흼 루틴을 배우세요." }, "action": { "zh": "赛前 5 分钟腹式呼吸 + 10 分钟渐进式热身。", "en": "5 min belly breathing + 10 min progressive warm-up before comp.", "ko": "대회 전 복식 호흡 5분 + 워밍업 10분." } },
+        "advanced": { "append": { "zh": "学习意象化训练和自我对话调整。", "en": "Learn visualization and self-talk techniques.", "ko": "시각화와 자기 대화 기법을 배우세요." }, "action": { "zh": "赛前意象化 + 区域化注意力 + 自我对话调整。", "en": "Pre-comp visualization + zone focus + self-talk adjustment.", "ko": "대회 전 시각화 + 집중 영역 + 자기 대화 조정." } }
+      },
+      "cross_checks": []
+    },
+    "fear-dynamic": {
+      "category": "mental", "kps": ["kp-dyno-technique", "kp-fear-management"], "articles": [],
+      "diagnosis": { "zh": "对动态动作的恐惧通常来自失控感。从非常小的动态开始，逐渐建立信心。", "en": "Fear of dynamic moves comes from discomfort with losing control. Start very small and build confidence gradually.", "ko": "다이나믹 동작에 대한 두려움은 통제력 상실 불안에서 와요." },
+      "styleNotes": { "boulder": { "zh": "抱石中动态动作很常见。在厚垫子上从低处练习是最安全的学习方式。", "en": "Dynamic moves are common in bouldering. Practicing low on thick pads is the safest way to learn.", "ko": "볼더링에서 다이나믹 동작은 흔해요. 두꺼운 매트 위 낮은 곳에서 연습이 가장 안전해요." } },
+      "by_level": {
+        "beginner": { "append": { "zh": "从正常够得着的距离用弹跳方式做起。", "en": "Start from reachable distance but with a bounce.", "ko": "닿는 거리에서 바운스로 시작하세요." }, "action": { "zh": "在抱石垫上从低处开始。", "en": "Practice on pads, start low.", "ko": "매트 위 낮은 곳에서 연습." } },
+        "intermediate": { "append": { "zh": "每次训练花 10 分钟专门练动态。", "en": "Dedicate 10 min each session to dynamics.", "ko": "매 세션 10분 다이나믹 전용." }, "action": { "zh": "从保证能抓住的距离开始逐渐增大。", "en": "Start from guaranteed catch distance and gradually increase.", "ko": "확실히 잡을 수 있는 거리부터 시작해 점차 늘리세요." } },
+        "advanced": { "append": { "zh": "moonboard/kilter board 上做 dyno 专项。", "en": "Dyno-specific training on Moonboard/Kilter.", "ko": "문보드/킬터에서 다이노 전문 훈련." }, "action": { "zh": "设置有明确落脚点的 dyno 线路来练习。", "en": "Set dyno problems with clear landing zones.", "ko": "명확한 착지 지점이 있는 다이노 문제를 세팅해 연습." } }
+      },
+      "cross_checks": []
+    },
+    "plateau-strength": {
+      "category": "plateau", "kps": ["kp-hangboard-training", "kp-periodization", "kp-finger-assessment"], "articles": ["when-to-train-fingers", "hangboard-guide", "training-plan-basics"],
+      "diagnosis": { "zh": "你觉得力量到头了。让我们看看是不是真的——很多「力量瓶颈」其实是技术或心理问题。", "en": "You feel maxed on strength. Let's check — many 'strength plateaus' are actually technique or mental issues.", "ko": "힘이 한계라고 느끼시네요. 정말 그런지 확인해 봅시다." },
+      "styleNotes": {},
+      "by_level": {
+        "beginner": { "append": { "zh": "V0-V1 不太可能真的力量到头了。更可能是技术问题。", "en": "V0-V1 is very unlikely a real strength limit. More likely technique.", "ko": "V0-V1에서 진짜 힘 한계일 가능성은 매우 낮아요." }, "action": { "zh": "录下自己攀爬的视频，对比会爬的人。", "en": "Film yourself and compare with skilled climbers.", "ko": "본인 클라이밍을 촬영해서 잘 타는 사람과 비교." } },
+        "intermediate": { "append": { "zh": "V4-V5 可能需要系统化力量训练。", "en": "V4-V5 might need systematic strength training.", "ko": "V4-V5에서는 체계적 근력 훈련이 필요할 수 있어요." }, "action": { "zh": "做力量基线测试（引体次数、挂板时间），然后制定计划。", "en": "Do baseline tests (pull-up count, hang time), then make a plan.", "ko": "기준선 테스트(풀업 횟수, 행 시간) 후 계획 세우기." } },
+        "advanced": { "append": { "zh": "高级卡级需要精细的训练周期化。", "en": "Advanced plateau needs sophisticated periodization.", "ko": "상급 정체기에는 정교한 주기화가 필요해요." }, "action": { "zh": "建立完整训练日志，包含指力、拉力、耐力数据，找具体短板。", "en": "Keep a complete training log to find the specific weak link.", "ko": "완전한 훈련 일지를 작성해 구체적 약점을 찾으세요." } }
+      },
+      "cross_checks": [
+        { "if_low": "mental", "note": { "zh": "可能不是真的力量不够，而是紧张时动作变形浪费了力量。", "en": "Might not be a real strength limit — anxiety causing form breakdown wastes energy.", "ko": "진짜 힘이 부족한 게 아니라 긴장으로 자세가 무너져 에너지가 낭비되는 것일 수 있어요." }, "extra_kps": ["kp-fear-management"] }
+      ]
+    },
+    "plateau-technique": {
+      "category": "plateau", "kps": ["kp-edging", "kp-smearing", "kp-flagging", "kp-drop-knee"], "articles": ["improve-footwork", "how-to-read-routes"],
+      "diagnosis": { "zh": "技术差距导致的卡级是最值得投资的改进方向。", "en": "A technique plateau is the most worthwhile area to invest in.", "ko": "기술 정체기는 가장 투자할 가치가 있는 영역이에요." },
+      "styleNotes": {},
+      "by_level": {
+        "beginner": { "append": { "zh": "技术进步在初学阶段回报最大。", "en": "Technique gains are biggest in early stages.", "ko": "기술 향상은 초기 단계에서 효과가 가장 커요." }, "action": { "zh": "找教练或朋友观察你爬并给反馈。", "en": "Get a coach or friend to watch and give feedback.", "ko": "코치나 친구에게 관찰 및 피드백 요청." } },
+        "intermediate": { "append": { "zh": "录像分析是最有效的技术提升方法。", "en": "Video analysis is the most effective technique improvement method.", "ko": "영상 분석이 가장 효과적인 기술 향상 방법이에요." }, "action": { "zh": "录像分析，找出最弱的 2-3 种动作，集中训练。", "en": "Video analyze, find 2-3 weakest moves, train specifically.", "ko": "영상 분석으로 가장 약한 2-3가지 동작을 찾아 집중 훈련." } },
+        "advanced": { "append": { "zh": "在不同角度和岩质上广泛攀爬，增加动作库。", "en": "Climb diverse angles and rock types to expand your movement library.", "ko": "다양한 각도와 암질에서 폭넓게 등반해 동작 라이브러리 확장." }, "action": { "zh": "旅行去不同岩场、不同角度的岩壁攀爬。", "en": "Travel to different crags and wall angles.", "ko": "다양한 암장과 벽 각도에서 클라이밍 여행." } }
+      },
+      "cross_checks": []
+    },
+    "plateau-reading": {
+      "category": "plateau", "kps": [], "articles": ["how-to-read-routes"],
+      "diagnosis": { "zh": "读线能力不足限制了你的表现。学会读线能直接提升你的「有效等级」。", "en": "Weak route reading limits your performance. Better reading directly raises your effective grade.", "ko": "루트 리딩 부족이 퍼포먼스를 제한해요." },
+      "styleNotes": {},
+      "by_level": {
+        "beginner": { "append": { "zh": "养成上墙前看线的习惯。", "en": "Build the habit of reading before climbing.", "ko": "등반 전 루트를 보는 습관을 기르세요." }, "action": { "zh": "每条线上墙前花 30 秒看一遍、想象动作。", "en": "Spend 30s reading each route, visualize moves.", "ko": "매 루트 전 30초 동안 보고 동작 상상." } },
+        "intermediate": { "append": { "zh": "和不同的人一起爬，观察他们的 beta。", "en": "Climb with different people and observe their beta.", "ko": "다양한 사람들과 타면서 베타를 관찰하세요." }, "action": { "zh": "在 onsight 尝试前画出整条线的 beta 图，爬完后对比。", "en": "Draw the full beta before onsight, compare after climbing.", "ko": "온사이트 전 전체 베타를 그리고, 등반 후 비교." } },
+        "advanced": { "append": { "zh": "高级读线关注效率——找最省力的 beta。", "en": "Advanced reading focuses on efficiency — the most energy-saving beta.", "ko": "상급 루트 리딩은 효율 — 가장 에너지를 절약하는 베타." }, "action": { "zh": "练习 onsight 读线，目标是每条线一次读对。", "en": "Practice onsight reading, aim to nail the beta first try.", "ko": "온사이트 리딩 연습, 첫 시도에 베타 맞추기." } }
+      },
+      "cross_checks": []
+    },
+    "plateau-training": {
+      "category": "plateau", "kps": ["kp-periodization"], "articles": ["training-plan-basics", "how-to-warm-up"],
+      "diagnosis": { "zh": "缺乏训练计划是卡级的常见原因。有结构的训练比随便爬进步快 2-3 倍。", "en": "Lack of a training plan is a common plateau cause. Structured training progresses 2-3x faster than random climbing.", "ko": "훈련 계획 부족은 정체기의 흔한 원인이에요." },
+      "styleNotes": {},
+      "by_level": {
+        "beginner": { "append": { "zh": "最好的训练就是多爬多样化的线。", "en": "Best training: climb lots of varied routes.", "ko": "최고의 훈련: 다양한 루트를 많이 타세요." }, "action": { "zh": "每周爬 3 次，每次试不同风格。", "en": "Climb 3x/week, different styles each time.", "ko": "주 3회, 매번 다른 스타일." } },
+        "intermediate": { "append": { "zh": "需要结构化训练了。", "en": "Time for structured training.", "ko": "구조화된 훈련이 필요해요." }, "action": { "zh": "简单周计划：1 天力量、1 天技术、1 天耐力。", "en": "Simple weekly: 1 strength day, 1 technique day, 1 endurance day.", "ko": "간단한 주간: 근력 1일, 기술 1일, 지구력 1일." } },
+        "advanced": { "append": { "zh": "需要周期化和阶段性目标。", "en": "Needs periodization and phased goals.", "ko": "주기화와 단계적 목표가 필요해요." }, "action": { "zh": "4 周周期：2 周增量 → 1 周峰值 → 1 周减量。", "en": "4-week cycle: 2 weeks volume → 1 week peak → 1 week deload.", "ko": "4주 주기: 볼륨 2주 → 피크 1주 → 디로드 1주." } }
+      },
+      "cross_checks": []
+    },
+    "plateau-general": {
+      "category": "plateau", "kps": ["kp-periodization"], "articles": ["training-plan-basics"],
+      "diagnosis": { "zh": "什么都差一点说明需要全面评估。看你的雷达图找到最弱项，从那里突破。", "en": "Feeling everything is a bit off means you need a comprehensive assessment. Your radar chart reveals the priority.", "ko": "다 조금씩 부족하면 종합 평가가 필요해요. 레이더 차트가 우선순위를 보여줘요." },
+      "styleNotes": {},
+      "by_level": {
+        "beginner": { "append": { "zh": "初级什么都差一点是正常的。多爬就好。", "en": "Everything being a bit off at beginner is normal. Just climb more.", "ko": "초보 단계에서 모든 게 조금씩 부족한 건 정상이에요." }, "action": { "zh": "每周多爬一次比什么都有效。", "en": "One more session per week beats any training.", "ko": "주 1회 더 타는 게 가장 효과적이에요." } },
+        "intermediate": { "append": { "zh": "看雷达图，专注最低分维度 4 周。", "en": "Focus on your lowest radar dimension for 4 weeks.", "ko": "레이더 최저 영역에 4주 집중." }, "action": { "zh": "选最低分维度，连续 4 周专注训练。", "en": "Pick lowest dimension, focus-train for 4 straight weeks.", "ko": "최저 점수 영역을 골라 4주간 집중 훈련." } },
+        "advanced": { "append": { "zh": "考虑找攀岩教练做全面评估。", "en": "Consider a climbing coach for full assessment.", "ko": "클라이밍 코치에게 종합 평가를 받는 것을 고려하세요." }, "action": { "zh": "找一位教练做全面评估，获得外部视角。", "en": "Get a coach for comprehensive assessment and outside perspective.", "ko": "코치에게 종합 평가를 받아 외부 시각을 얻으세요." } }
+      },
+      "cross_checks": []
+    },
+    "finger-pain": {
+      "category": "injury", "kps": ["kp-pulley-injury", "kp-warmup", "kp-rest-management"], "articles": ["finger-injury-a2", "how-to-warm-up"],
+      "diagnosis": { "zh": "手指疼痛是攀岩者最常见的伤痛。及早正确处理非常重要——忽视手指疼痛可能导致严重的滑车韧带损伤，恢复需要数月。", "en": "Finger pain is the most common climbing injury. Early proper management is crucial — ignoring it can lead to serious pulley injuries requiring months of recovery.", "ko": "손가락 통증은 가장 흔한 클라이밍 부상이에요. 초기 적절한 관리가 매우 중요해요." },
+      "styleNotes": {},
+      "by_level": {
+        "beginner": { "append": { "zh": "新手手指疼通常是组织还没适应。", "en": "Beginner finger pain is usually tissue not yet adapted.", "ko": "초보자 손가락 통증은 보통 조직 미적응." }, "action": { "zh": "先休息 1-2 周，然后低强度恢复。避免 full crimp！持续疼痛请就医。", "en": "Rest 1-2 weeks, resume at low intensity. Avoid full crimp! See a doctor if pain persists.", "ko": "1-2주 휴식 후 낮은 강도로 복귀. 풀 크림프 금지! 지속 시 의사 상담." } },
+        "intermediate": { "append": { "zh": "训练量增长太快是常见原因。", "en": "Volume increasing too fast is a common cause.", "ko": "훈련량이 너무 빠르게 증가한 게 흔한 원인이에요." }, "action": { "zh": "10% 规则：每周训练量增加不超过 10%。有疼痛退回上一周的量。", "en": "10% rule: increase volume max 10%/week. If pain, go back to previous week.", "ko": "10% 규칙: 주당 증가 최대 10%. 통증 시 이전 주로 복귀." } },
+        "advanced": { "append": { "zh": "考虑找运动物理治疗师做评估。", "en": "Consider a sports physiotherapist assessment.", "ko": "스포츠 물리치료사 평가를 고려하세요." }, "action": { "zh": "建立热身套路，定期做手指活动度测试。", "en": "Establish warm-up routine, regularly test finger mobility.", "ko": "워밍업 루틴 정립, 정기적 손가락 가동범위 테스트." } }
+      },
+      "cross_checks": []
+    },
+    "shoulder-elbow": {
+      "category": "injury", "kps": ["kp-shoulder-injury", "kp-antagonist-training", "kp-warmup"], "articles": ["shoulder-elbow-pain", "how-to-warm-up"],
+      "diagnosis": { "zh": "肩膀和手肘不适需要认真对待。攀岩中「拉多推少」的训练模式很容易导致肩肘问题。", "en": "Shoulder and elbow issues need attention. Climbing's 'pull-heavy push-light' pattern easily causes shoulder/elbow problems.", "ko": "어깨와 팔꿈치 문제는 심각하게 다뤄야 해요." },
+      "styleNotes": {},
+      "by_level": {
+        "beginner": { "append": { "zh": "新手肩肘疼往往是动作不正确。", "en": "Beginner pain is often from incorrect movement.", "ko": "초보자 통증은 보통 잘못된 동작 때문이에요." }, "action": { "zh": "学会微屈肘和肩胛骨下沉。持续疼痛请就医。", "en": "Learn slight elbow bend and scapula depression. See a doctor if pain persists.", "ko": "팔꿈치 살짝 구부리기와 견갑골 내리기를 배우세요." } },
+        "intermediate": { "append": { "zh": "加强拮抗肌训练来预防。", "en": "Strengthen antagonist muscles for prevention.", "ko": "예방을 위한 길항근 강화." }, "action": { "zh": "每周 2 次拮抗训练：外旋、俯卧撑、面拉。", "en": "Antagonist training 2x/week: external rotation, push-ups, face pulls.", "ko": "주 2회 길항근: 외회전, 푸시업, 페이스 풀." } },
+        "advanced": { "append": { "zh": "推拉比 1:1 训练，定期评估。", "en": "Train push-pull at 1:1 ratio.", "ko": "밀기:당기기 1:1 비율 훈련." }, "action": { "zh": "做推拉比 1:1 训练，定期做肩关节活动度测试。", "en": "Push-pull 1:1, regular shoulder ROM testing.", "ko": "밀기:당기기 1:1, 정기적 어깨 가동범위 테스트." } }
+      },
+      "cross_checks": []
+    },
+    "skin-damage": {
+      "category": "injury", "kps": ["kp-skin-management"], "articles": ["skin-care-tips"],
+      "diagnosis": { "zh": "皮肤管理是攀岩的重要组成部分——好的皮肤状态直接影响你能不能完成关键线路。", "en": "Skin management is crucial in climbing — good skin condition directly affects whether you can send key routes.", "ko": "피부 관리는 클라이밍의 중요한 부분이에요." },
+      "styleNotes": { "outdoor": { "zh": "户外攀岩对皮肤的消耗更大。项目前 2-3 天减少攀爬量让皮肤恢复。", "en": "Outdoor climbing is harder on skin. Reduce climbing 2-3 days before projects to let skin recover.", "ko": "야외 클라이밍은 피부 소모가 더 커요." } },
+      "by_level": {
+        "beginner": { "append": { "zh": "新手皮肤还没适应。给它时间。", "en": "Your skin hasn't adapted yet.", "ko": "피부가 아직 적응하지 못했어요." }, "action": { "zh": "攀爬后用护手霜。一开始每次只爬 1-1.5 小时。", "en": "Hand cream after climbing. Limit to 1-1.5 hours initially.", "ko": "클라이밍 후 핸드크림. 처음에는 1-1.5시간 제한." } },
+        "intermediate": { "append": { "zh": "学会日常皮肤管理。", "en": "Learn daily skin management.", "ko": "일상적 피부 관리를 배우세요." }, "action": { "zh": "晚上用挫皮板磨老茧，保持厚度均匀。", "en": "Sand calluses at night, keep skin thickness even.", "ko": "밤에 줄로 굳은살을 갈아 균일하게 유지." } },
+        "advanced": { "append": { "zh": "为特定项目保养皮肤。", "en": "Manage skin for specific projects.", "ko": "특정 프로젝트를 위한 피부 관리." }, "action": { "zh": "项目前 2-3 天减少攀爬量让皮肤恢复。", "en": "Reduce climbing 2-3 days before projects.", "ko": "프로젝트 2-3일 전 클라이밍 양 줄이기." } }
+      },
+      "cross_checks": []
+    },
+    "general-fatigue": {
+      "category": "injury", "kps": ["kp-sleep-recovery", "kp-climber-nutrition", "kp-rest-management"], "articles": ["climbing-nutrition", "how-to-warm-up"],
+      "diagnosis": { "zh": "持续疲劳说明恢复跟不上训练负荷。训练效果的 70% 取决于恢复——睡眠、营养、休息日。", "en": "Persistent fatigue means recovery can't keep up with training. 70% of training effectiveness depends on recovery — sleep, nutrition, rest days.", "ko": "지속 피로는 회복이 훈련 부하를 못 따라간다는 뜻이에요." },
+      "styleNotes": {},
+      "by_level": {
+        "beginner": { "append": { "zh": "新手容易过度训练。身体需要适应时间。", "en": "Beginners often overtrain.", "ko": "초보자는 과훈련하기 쉬워요." }, "action": { "zh": "攀爬间至少休息 1 天。每周最多 3-4 次。", "en": "Rest at least 1 day between sessions. Max 3-4/week.", "ko": "세션 간 최소 1일 휴식. 주 최대 3-4회." } },
+        "intermediate": { "append": { "zh": "关注睡眠、营养和恢复手段。", "en": "Focus on sleep, nutrition, recovery.", "ko": "수면, 영양, 회복에 집중." }, "action": { "zh": "每天 7-8 小时睡眠、充足蛋白质、训练日间穿插休息日。", "en": "7-8h sleep, adequate protein, rest days between training.", "ko": "7-8시간 수면, 충분한 단백질, 훈련일 사이 휴식일." } },
+        "advanced": { "append": { "zh": "需要计划性减量周。", "en": "Needs planned deload weeks.", "ko": "계획된 디로드 주간이 필요해요." }, "action": { "zh": "每 3-4 周安排 1 周减量周。", "en": "Schedule deload week every 3-4 weeks.", "ko": "3-4주마다 디로드 주간 배치." } }
+      },
+      "cross_checks": []
+    },
+    "lower-body-pain": {
+      "category": "injury", "kps": ["kp-warmup", "kp-hip-flexibility"], "articles": ["how-to-warm-up"],
+      "diagnosis": { "zh": "下肢不适在攀岩者中比想象的更常见，通常和落地姿势、缺乏热身有关。", "en": "Lower body issues are more common than expected, usually related to landing technique and warm-up.", "ko": "하체 불편함은 생각보다 흔하고, 보통 착지 자세와 워밍업 부족과 관련 있어요." },
+      "styleNotes": { "boulder": { "zh": "抱石中落地方式不当是下肢受伤的主要原因。学习正确的落地姿势：微屈膝、顺势滚动、不要直直地落地。", "en": "Improper landing in bouldering is the main cause. Learn proper landing: slightly bent knees, roll with the fall, never land stiff.", "ko": "볼더링에서 부적절한 착지가 주요 원인이에요. 올바른 착지: 무릎 살짝 구부리기, 구르기." } },
+      "by_level": {
+        "beginner": { "append": { "zh": "每次攀爬前充分热身。", "en": "Warm up properly.", "ko": "매번 충분히 워밍업하세요." }, "action": { "zh": "持续疼痛请就医。攀爬前 10 分钟全身热身。", "en": "See a doctor if persists. 10 min full warm-up.", "ko": "지속 시 의사 상담. 10분 전신 워밍업." } },
+        "intermediate": { "append": { "zh": "学习正确的落地姿势。", "en": "Learn proper falling technique.", "ko": "올바른 추락 자세를 배우세요." }, "action": { "zh": "学习正确落地。膝盖疼检查落地技巧。", "en": "Learn proper landing. Check landing technique if knees hurt.", "ko": "올바른 착지 학습. 무릎 아프면 착지 기술 확인." } },
+        "advanced": { "append": { "zh": "强化脚踝和膝盖周围肌群。", "en": "Strengthen ankle and knee muscles.", "ko": "발목과 무릎 주변 근육 강화." }, "action": { "zh": "强化下肢肌群 + 考虑物理治疗评估。", "en": "Strengthen lower body + consider physio assessment.", "ko": "하체 근육 강화 + 물리치료 평가 고려." } }
+      },
+      "cross_checks": []
+    },
+    "no-plan": {
+      "category": "training", "kps": ["kp-warmup", "kp-periodization"], "articles": ["training-plan-basics", "how-to-warm-up"],
+      "diagnosis": { "zh": "随便爬也能进步，但有计划的训练进步会快 2-3 倍。好消息是：训练计划不需要很复杂。", "en": "Random climbing does work, but structured training is 2-3x faster. Good news: a plan doesn't need to be complicated.", "ko": "그냥 타도 발전하지만 구조화된 훈련이 2-3배 빨라요." },
+      "styleNotes": {},
+      "by_level": {
+        "beginner": { "append": { "zh": "新手最好的计划：多爬、爬不同的线、有意识地学习。", "en": "Best beginner plan: climb more, varied, mindfully.", "ko": "최고의 초보자 계획: 더 많이, 다양하게, 의식적으로." }, "action": { "zh": "每次结构：10 分钟热身 → 30 分钟低级别 → 30 分钟挑战 → 10 分钟拉伸。", "en": "Session structure: 10 min warm-up → 30 min below max → 30 min challenge → 10 min stretch.", "ko": "세션 구조: 워밍업 10분 → 최고 아래 30분 → 도전 30분 → 스트레칭 10분." } },
+        "intermediate": { "append": { "zh": "需要区分训练类型了。", "en": "Time to differentiate training types.", "ko": "훈련 유형을 구분해야 해요." }, "action": { "zh": "简单周计划：周一力量、周三技术、周五项目。", "en": "Simple weekly: Mon strength, Wed technique, Fri project.", "ko": "간단한 주간: 월 근력, 수 기술, 금 프로젝트." } },
+        "advanced": { "append": { "zh": "建议找专业教练。", "en": "Consider a professional coach.", "ko": "전문 코치를 고려하세요." }, "action": { "zh": "研究周期化理论或找教练制定计划。", "en": "Study periodization or consult a coach.", "ko": "주기화 이론 공부 또는 코치 상담." } }
+      },
+      "cross_checks": []
+    },
+    "uncertain-plan": {
+      "category": "training", "kps": ["kp-periodization", "kp-finger-assessment"], "articles": ["training-plan-basics"],
+      "diagnosis": { "zh": "有在练已经很好了。用测试来验证方向对不对。", "en": "Training is already great. Use tests to verify direction.", "ko": "훈련하고 있다는 것 자체가 좋아요. 테스트로 방향을 확인하세요." },
+      "styleNotes": {},
+      "by_level": {
+        "beginner": { "append": { "zh": "保持多样化就不会偏。", "en": "Stay varied and you'll be fine.", "ko": "다양성을 유지하면 괜찮아요." }, "action": { "zh": "记录每次训练内容和感受，2 周后回顾。", "en": "Log sessions, review after 2 weeks.", "ko": "매 세션 기록, 2주 후 검토." } },
+        "intermediate": { "append": { "zh": "用简单测试验证训练效果。", "en": "Use simple tests to verify effectiveness.", "ko": "간단한 테스트로 효과 검증." }, "action": { "zh": "每 4 周做基线测试（挂板、引体、耐力）看趋势。", "en": "Baseline test every 4 weeks (hang, pull-up, endurance), track trends.", "ko": "4주마다 기준선 테스트, 추세 추적." } },
+        "advanced": { "append": { "zh": "和有经验者讨论计划。", "en": "Discuss plan with experienced climbers.", "ko": "경험자와 계획 상의." }, "action": { "zh": "找训练伙伴或教练定期讨论和调整。", "en": "Find a partner or coach for regular review.", "ko": "정기적 검토를 위한 파트너나 코치 찾기." } }
+      },
+      "cross_checks": []
+    },
+    "gear-training-start": {
+      "category": "training", "kps": ["kp-hangboard-training", "kp-hangboard-gear", "kp-campus-board-gear", "kp-antagonist-training"], "articles": ["hangboard-guide", "campus-board-when"],
+      "diagnosis": { "zh": "器械训练是很好的补充，但需要循序渐进。太早开始或方法不对容易受伤。", "en": "Equipment training is great but needs progression. Starting too early or wrong technique risks injury.", "ko": "장비 훈련은 좋지만 점진적으로 해야 해요." },
+      "styleNotes": {},
+      "by_level": {
+        "beginner": { "append": { "zh": "V0-V1 不建议用器械训练——受伤风险太高。先爬 6 个月以上。", "en": "Not recommended at V0-V1 — too risky. Climb 6+ months first.", "ko": "V0-V1에서는 권장하지 않아요 — 최소 6개월 먼저 타세요." }, "action": { "zh": "把器械时间用来多爬线。纯粹的攀爬就是最好的训练。", "en": "Use that time to climb routes. Climbing IS the best training.", "ko": "장비 시간을 루트 타는 데 쓰세요." } },
+        "intermediate": { "append": { "zh": "V4-V5 可以开始挂板训练。", "en": "V4-V5 is good to start hangboard.", "ko": "V4-V5에서 행보드 시작 적기." }, "action": { "zh": "从挂板开始：测最大悬挂时间，用 7:3 协议训练。", "en": "Start with hangboard: find max hang, train 7:3 protocol.", "ko": "행보드부터: 최대 행 시간 측정, 7:3 프로토콜 훈련." } },
+        "advanced": { "append": { "zh": "可以考虑校园板等进阶工具。", "en": "Consider campus board and system boards.", "ko": "캠퍼스 보드 등 고급 도구 고려." }, "action": { "zh": "挂板 + 校园板 + 系统板组合，按周期安排。", "en": "Hangboard + campus + system board on periodized schedule.", "ko": "행보드 + 캠퍼스 + 시스템 보드 주기적 배치." } }
+      },
+      "cross_checks": []
+    }
+  },
+  "levelMapping": {
+    "beginner": ["beginner"],
+    "elementary": ["beginner", "intermediate"],
+    "intermediate": ["intermediate"],
+    "upper-intermediate": ["intermediate", "advanced"],
+    "advanced": ["advanced"]
+  },
+
+  "personas": [
+    {
+      "id": "power-gorilla",
+      "priority": 100,
+      "emoji": "🦍",
+      "name": { "zh": "蛮力大猩猩", "en": "Power Gorilla", "ko": "파워 고릴라" },
+      "tagline": { "zh": "「能拉上去的，为什么要用脚？」", "en": "'If I can pull it, why use feet?'", "ko": "'당길 수 있는데 왜 발을 써?'" },
+      "compliment": { "zh": "你的上肢力量是真的猛。别人还在研究怎么省力，你已经直接拉上去了。岩馆里那些大动态、暴力线路就是你的主场，旁边的人看你爬都觉得赏心悦目（虽然方式可能不太一样）。", "en": "Your upper body strength is genuinely impressive. While others study how to conserve energy, you just pull through. Big moves and powerful lines are your playground — people love watching you climb (even if it's a different kind of elegance).", "ko": "상체 힘이 정말 대단해요. 다른 사람들이 에너지 절약법을 연구할 때, 당신은 그냥 당겨버리죠." },
+      "issue": { "zh": "但你的脚基本是装饰品。你在用 200% 的力量做一个只需要 80% 的动作，这让你比同级别的人更容易受伤、更快泵涨。等级越往上，纯靠拉的路越少——技术债迟早要还的。", "en": "But your feet are basically decorative. You're using 200% effort for an 80% move, leading to faster pump and higher injury risk. The higher you go, the fewer routes you can muscle through — technical debt comes due eventually.", "ko": "하지만 발은 거의 장식이에요. 200%의 힘으로 80%짜리 동작을 하고 있어서, 같은 등급 대비 부상 위험이 높고 펌핑도 빨라요." },
+      "conditions": { "rating_gte": { "finger": 4 }, "rating_lte": { "technique": 2 } }
+    },
+    {
+      "id": "graceful-spider-monkey",
+      "priority": 98,
+      "emoji": "🐒",
+      "name": { "zh": "优雅蜘蛛猴", "en": "Graceful Spider Monkey", "ko": "우아한 거미원숭이" },
+      "tagline": { "zh": "「我不是没力，我是在等一个更优雅的 beta」", "en": "'I'm not weak — I'm waiting for a more elegant beta'", "ko": "'힘이 없는 게 아니라, 더 우아한 베타를 기다리는 중'" },
+      "compliment": { "zh": "你爬起来真的好看。动作流畅、脚法精准，旁人看你攀爬会觉得很轻松——「这个人好像在跳舞」。你对身体的控制力是很多人羡慕的天赋，在技术性线路上你可以越级发挥。", "en": "You genuinely look beautiful on the wall. Fluid movement, precise footwork — people watching think it looks effortless. Your body control is a gift many envy, and on technical routes you punch above your grade.", "ko": "정말 멋지게 타요. 유려한 동작, 정확한 풋워크 — 보는 사람들은 쉬워 보인다고 생각해요." },
+      "issue": { "zh": "但遇到真需要发力的线路你就知道了——小点挂不住、大动态够不着、锁定撑不了两秒。你已经把技术红利吃得差不多了，现在是时候老老实实练点力量了。好消息是：你的技术底子在，力量一上来等级会飞。", "en": "But on routes that demand real power, you know the truth — can't hold crimps, can't reach dynos, lock-offs last two seconds. Your technique dividend is maxed out. Time to honestly train strength. Good news: with your technical base, strength gains will rocket your grades.", "ko": "하지만 진짜 힘이 필요한 루트에서 한계가 드러나요. 기술 배당금은 다 써버렸고, 이제 근력을 키울 때입니다." },
+      "conditions": { "rating_gte": { "technique": 4 }, "rating_lte": { "finger": 2 } }
+    },
+    {
+      "id": "lightning-hamster",
+      "priority": 95,
+      "emoji": "🐹",
+      "name": { "zh": "闪电仓鼠", "en": "Lightning Hamster", "ko": "번개 햄스터" },
+      "tagline": { "zh": "「前三把我是神，第四把我是人」", "en": "'First 3 burns I'm a god, 4th burn I'm mortal'", "ko": "'처음 3번은 신, 4번째는 인간'" },
+      "compliment": { "zh": "你的爆发力很不错！刚开始爬的时候状态拉满，冲线路又快又猛，可能是岩馆里 flash 率最高的人之一。你不缺力量，也不缺勇气，你的「开局」一直很强。", "en": "Your explosive power is legit! When you're fresh, you climb fast and fierce — probably one of the highest flash rates in the gym. You don't lack strength or courage. Your 'opening game' is always strong.", "ko": "폭발력이 좋아요! 컨디션이 좋을 때는 빠르고 강하게 타죠. 아마 암장에서 플래시율이 가장 높은 사람 중 하나일 거예요." },
+      "issue": { "zh": "但你的续航时间约等于一首歌的长度。三条线下来前臂就像灌了铅，只能坐在垫子上看别人爬。你的训练方式大概是「冲→泵→休→冲」，从来没有认真练过耐力。泵涨不是命运，是可以训练的。", "en": "But your battery life is about one song long. Three routes in and your forearms are lead-filled, leaving you watching from the mat. Your training pattern is probably 'send → pump → rest → send' with zero endurance work. Pump isn't fate — it's trainable.", "ko": "하지만 배터리 수명이 노래 한 곡 정도예요. 3개 루트 후에는 전완에 납이 찬 것 같죠. 펌핑은 운명이 아니라 훈련할 수 있는 거예요." },
+      "conditions": { "rating_lte": { "endurance": 2 } }
+    },
+    {
+      "id": "cautious-hedgehog",
+      "priority": 93,
+      "emoji": "🦔",
+      "name": { "zh": "谨慎刺猬", "en": "Cautious Hedgehog", "ko": "조심성 고슴도치" },
+      "tagline": { "zh": "「这个点看起来不太稳……我还是下来吧」", "en": "'That hold looks sketchy… I'll come down'", "ko": "'저 홀드 좀 불안해 보여… 내려갈게'" },
+      "compliment": { "zh": "你的安全意识比 90% 的攀岩者都强。你不会做没把握的事情，每一步都想清楚再动。这种谨慎其实是一种很重要的能力——你不容易受伤，也不会冲动犯错。在户外攀岩中，像你这样的人反而活得最久。", "en": "Your safety awareness is stronger than 90% of climbers. You don't commit to anything uncertain, thinking through every move. This caution is actually a valuable trait — you rarely get injured and don't make impulsive mistakes. In outdoor climbing, people like you actually last the longest.", "ko": "안전 의식이 90%의 클라이머보다 뛰어나요. 불확실한 건 안 하고, 매 동작을 생각한 뒤 움직이죠. 이런 신중함은 사실 매우 중요한 능력이에요." },
+      "issue": { "zh": "但恐惧也在严重压制你的真实水平。你的身体其实比你以为的能干得多，只是大脑提前按了「紧急刹车」。你大概经常在明明能爬上去的线路上提前放弃，或者因为紧张而全身僵硬。你不是能力不够，是信任不够——不信任自己的身体、不信任垫子、不信任装备。", "en": "But fear is seriously suppressing your real ability. Your body can do far more than your brain believes — it's just hitting the emergency brake early. You probably give up on routes you could send, or go rigid with tension. It's not a capacity problem — it's a trust problem: you don't trust your body, the mats, or the gear.", "ko": "하지만 공포가 실제 실력을 심각하게 억누르고 있어요. 몸은 생각보다 훨씬 더 잘할 수 있는데, 뇌가 미리 '비상 브레이크'를 거는 거예요." },
+      "conditions": { "rating_lte": { "mental": 2 } }
+    },
+    {
+      "id": "iron-crab",
+      "priority": 90,
+      "emoji": "🦀",
+      "name": { "zh": "铁板螃蟹", "en": "Iron Crab", "ko": "철판 게" },
+      "tagline": { "zh": "「需要劈叉的线路？不存在的」", "en": "'Routes that need splits? They don't exist'", "ko": "'스플릿이 필요한 루트? 그런 건 없어'" },
+      "compliment": { "zh": "你的上肢和抓握能力不错，正面硬刚的线路你很有竞争力。面对需要纯力量和锁定的问题，你总能找到属于自己的暴力解法。你是那种「这个线路的标准 beta 我做不了，但我有自己的 beta」的人。", "en": "Your upper body and grip are solid — you're competitive on routes that demand straight-up power. For problems needing raw strength and lock-offs, you always find your own 'brute force beta.' You're the type who says 'I can't do the standard beta, but I have my own.'", "ko": "상체와 그립이 탄탄해서 정면 승부 루트에서 경쟁력이 있어요. '표준 베타는 못 하지만 내 베타가 있어'라는 타입이죠." },
+      "issue": { "zh": "但你的髋关节和腿后侧可能硬得像块铁板。高脚踩不上去、侧身够不着、drop-knee 做不出来——这些本来能让你省 50% 力气的动作，你全都用力量代替了。你丢失的不是一两个动作，是一整类高效的攀爬方式。好消息：柔韧性是最容易练的维度。", "en": "But your hips and hamstrings might be stiff as a board. Can't high-step, can't twist to reach, can't drop-knee — moves that save 50% energy are all replaced by brute force. You're not missing one move, you're missing an entire category of efficient climbing. Good news: flexibility is the easiest dimension to train.", "ko": "하지만 고관절과 햄스트링이 철판처럼 딱딱할 수 있어요. 하이스텝, 드롭니 같은 에너지 절약 동작을 전부 근력으로 대체하고 있죠." },
+      "conditions": { "rating_lte": { "flexibility": 2 }, "rating_gte": { "finger": 3 } }
+    },
+    {
+      "id": "lost-koala",
+      "priority": 88,
+      "emoji": "🐨",
+      "name": { "zh": "迷路考拉", "en": "Lost Koala", "ko": "길 잃은 코알라" },
+      "tagline": { "zh": "「等一下……下一步往哪走来着？」", "en": "'Wait… which way do I go next?'", "ko": "'잠깐… 다음에 어디로 가지?'" },
+      "compliment": { "zh": "你的身体素质其实不差——力量、技术、柔韧性可能都还行。你在墙上的时候，单个动作完成得还不错，不是一个「做不出来」的人，而是一个「不知道该做什么」的人。这说明你的硬件够用，升级空间在软件上。", "en": "Your physical ability is actually decent — strength, technique, flexibility might all be fine. On the wall, individual moves are okay. You're not someone who 'can't do it' — you're someone who 'doesn't know what to do.' Your hardware is sufficient; the upgrade is in the software.", "ko": "신체 능력은 사실 괜찮아요. 벽에서 개별 동작은 잘 해내는데, '못 하는' 게 아니라 '뭘 해야 할지 모르는' 타입이에요." },
+      "issue": { "zh": "但你上墙之前大概从来不看线。到了岩壁上才开始找下一个手点，每次犹豫都在白白消耗前臂。你可能经常有一种「明明有力气但就是送不了」的感觉——因为你的体力都花在了试错上。学会读线，你的实际等级可能直接跳一级。", "en": "But you probably never read routes before climbing. You find holds on the fly, and every hesitation drains your forearms. You likely feel 'I have the strength but can't send' — because your energy goes to trial-and-error. Learn to read routes and your effective grade may jump one full level.", "ko": "하지만 아마 등반 전에 루트를 안 읽죠. 매번 망설일 때마다 전완이 소모돼요. 루트 리딩을 배우면 실질 등급이 한 단계 뛸 수 있어요." },
+      "conditions": { "rating_lte": { "tactics": 2 } }
+    },
+    {
+      "id": "glass-cannon-mouse",
+      "priority": 92,
+      "emoji": "🐭",
+      "name": { "zh": "玻璃大炮鼠", "en": "Glass Cannon Mouse", "ko": "유리대포 쥐" },
+      "tagline": { "zh": "「还能再冲一把……啊，手指又疼了」", "en": "'One more try… ow, my finger again'", "ko": "'한 번만 더… 아, 또 손가락이'" },
+      "compliment": { "zh": "你是岩馆里最刻苦的人之一。训练量大、尝试意愿强、不怕失败，每次都想挑战自己的极限。你的进步速度可能比大多数人都快，因为你真的在「练」而不是在「玩」。这种心态是很多人缺少的。", "en": "You're one of the hardest workers in the gym. High volume, strong try-hard mentality, not afraid to fail — always pushing limits. Your progress is probably faster than most because you actually 'train' rather than 'play.' This mindset is something many lack.", "ko": "암장에서 가장 열심히 하는 사람 중 하나예요. 훈련량도 많고, 항상 한계에 도전하죠. 대부분보다 빠르게 성장하고 있을 거예요." },
+      "issue": { "zh": "但你的身体已经开始抗议了。手指疼、肩膀不舒服、某个关节总是有点怪——这些都是你训练强度超过身体恢复能力的信号。你的问题不是不够努力，恰恰相反，是太努力了但不够聪明。你需要学会的是：什么时候该停、怎么恢复、怎么在不受伤的前提下持续进步。", "en": "But your body is protesting. Finger pain, shoulder issues, that one joint that always feels off — these signal training intensity exceeding recovery capacity. Your problem isn't lack of effort — it's the opposite: too hard but not smart enough. You need to learn when to stop, how to recover, and how to progress without breaking.", "ko": "하지만 몸이 항의하고 있어요. 손가락 통증, 어깨 불편함 — 훈련 강도가 회복 능력을 초과하고 있다는 신호예요." },
+      "conditions": { "bottleneck_any": ["injury"], "rating_gte": { "finger": 3 } }
+    },
+    {
+      "id": "eager-shiba",
+      "priority": 75,
+      "emoji": "🐕",
+      "name": { "zh": "热血柴犬", "en": "Eager Shiba", "ko": "열혈 시바" },
+      "tagline": { "zh": "「今天练什么？随便吧，先爬了再说！」", "en": "'What's the plan today? Whatever, let's just climb!'", "ko": "'오늘 뭐 해? 아무거나, 일단 타자!'" },
+      "compliment": { "zh": "你对攀岩的热情是真实的。每次到岩馆都很兴奋，看到线路就想试，这种原始的「想爬」的冲动是最宝贵的东西——很多老手反而失去了这种感觉。你的热情是你最大的资产，也是你坚持下去的动力。", "en": "Your passion for climbing is genuine. You get excited every gym session, see a route and want to try it — this raw 'want to climb' impulse is the most precious thing. Many veterans have lost this feeling. Your enthusiasm is your greatest asset and what keeps you going.", "ko": "클라이밍에 대한 열정이 진짜예요. 암장에 갈 때마다 설레고, 루트를 보면 시도하고 싶어하죠. 이 순수한 '타고 싶다'는 충동이 가장 소중한 거예요." },
+      "issue": { "zh": "但你现在的训练方式基本等于「随机爬」：到了岩馆看心情选线，爬到没力为止，回家。没有热身计划、没有针对性训练、没有恢复策略。你的热情很足，但方向是散的。想象一下，如果你把同样的时间和精力用在有结构的训练上，进步速度会快 2-3 倍。", "en": "But your training is basically 'random climbing': arrive, pick routes by mood, climb until exhausted, go home. No warm-up plan, no targeted training, no recovery strategy. Your passion is strong but unfocused. Imagine channeling the same time and energy into structured training — you'd progress 2-3x faster.", "ko": "하지만 지금 훈련 방식은 '랜덤 클라이밍'이에요. 같은 시간과 에너지를 체계적 훈련에 쏟으면 2-3배 빠르게 성장할 수 있어요." },
+      "conditions": { "bottleneck_any": ["training"] }
+    },
+    {
+      "id": "stubborn-goat",
+      "priority": 78,
+      "emoji": "🐐",
+      "name": { "zh": "执着山羊", "en": "Stubborn Mountain Goat", "ko": "고집 산양" },
+      "tagline": { "zh": "「这条线我已经试了 37 次了，第 38 次一定行」", "en": "'I've tried this route 37 times. #38 is the one'", "ko": "'이 루트 37번 시도했어. 38번째는 될 거야'" },
+      "compliment": { "zh": "你的毅力是真的强。卡级了但一直没放弃，还在坚持攀爬、坚持尝试，这本身就很了不起。很多人在你这个阶段早就转去玩别的了，但你还在。这种坚持是突破平台期最重要的前提——没有坚持就没有突破。", "en": "Your perseverance is genuinely impressive. Plateaued but never quit — still climbing, still trying. Many people would've moved on, but you're still here. This persistence is the most important prerequisite for breaking through — no persistence, no breakthrough.", "ko": "인내력이 정말 대단해요. 정체기인데도 포기하지 않고 계속 타고, 계속 도전하고 있죠. 이 끈기가 정체기 돌파의 가장 중요한 전제조건이에요." },
+      "issue": { "zh": "但「用同样的方式重复做同样的事情，期待不同的结果」——你可能正在这么做。卡级不是因为你不够努力，而是因为你的身体已经完全适应了现有的训练刺激。你需要的不是更多的量，而是不同的刺激：换岩馆、换攀爬类型、加入系统训练、专门练弱项。变化本身就是突破。", "en": "But 'doing the same thing the same way expecting different results' — that might be you right now. The plateau isn't from lack of effort; your body is fully adapted to current stimuli. You need different stimuli, not more volume: new gyms, new climbing types, structured training, deliberate weakness work. Change itself is the breakthrough.", "ko": "'같은 방법으로 같은 일을 반복하면서 다른 결과를 기대하는 것' — 지금 그렇고 있을 수 있어요. 다른 자극이 필요합니다: 다른 암장, 다른 유형, 체계적 훈련." },
+      "conditions": { "bottleneck_any": ["plateau"] }
+    },
+    {
+      "id": "zen-capybara",
+      "priority": 50,
+      "emoji": "🫎",
+      "name": { "zh": "佛系水豚", "en": "Zen Capybara", "ko": "불교 카피바라" },
+      "tagline": { "zh": "「爬不上去？没事，今天天气真好」", "en": "'Can't send it? That's fine, nice weather today'", "ko": "'못 타겠어? 괜찮아, 오늘 날씨 좋다'" },
+      "compliment": { "zh": "你的各项能力很均衡，没有特别明显的短板。在岩馆里你可能不是最强的，但你是最「稳」的——哪种类型的线路都能试一试，不会在某个维度上被完全卡死。这种均衡型选手的上限其实很高。", "en": "Your abilities are well-balanced with no glaring weakness. You might not be the strongest in the gym, but you're the most 'stable' — able to attempt any type of route without being completely shut down. Balanced climbers actually have very high ceilings.", "ko": "능력이 균형 잡혀 있고 뚜렷한 약점이 없어요. 암장에서 가장 강하진 않지만 가장 '안정적'인 타입이에요." },
+      "issue": { "zh": "但均衡也意味着你可能缺少突破口——什么都行但什么都不突出。你需要选一个方向作为重点突破：是专攻力量成为力量型？还是深耕技术成为技术型？「全面发展」在高等级会变成「全面平庸」，找到你的一技之长，从那里打开缺口。", "en": "But balanced also means you may lack a breakthrough point — decent at everything, exceptional at nothing. You need to pick a direction: specialize in strength? Deep-dive technique? 'Well-rounded' at higher grades becomes 'well-mediocre.' Find your specialty and break through from there.", "ko": "하지만 균형은 돌파구가 없다는 뜻이기도 해요. 하나의 방향을 정해서 집중 돌파하세요." },
+      "conditions": {}
+    },
+    {
+      "id": "solo-snow-leopard",
+      "priority": 85,
+      "emoji": "🐆",
+      "name": { "zh": "独行雪豹", "en": "Solo Snow Leopard", "ko": "고독한 눈표범" },
+      "tagline": { "zh": "「岩馆？太简单了。我要去真正的岩壁」", "en": "'Gym? Too easy. I want real rock'", "ko": "'암장? 너무 쉬워. 진짜 바위를 원해'" },
+      "compliment": { "zh": "你是真正的户外攀岩者。当别人还在岩馆刷线的时候，你已经在真实岩壁上感受岩石的纹理了。你对攀岩的理解是立体的——天气、岩质、装备、线路规划、风险评估，这些在室内永远学不到的东西你都在积累。", "en": "You're a true outdoor climber. While others gym it up, you're feeling real rock texture on real walls. Your climbing understanding is multidimensional — weather, rock quality, gear, route planning, risk assessment — things that can never be learned indoors.", "ko": "진정한 야외 클라이머예요. 다른 사람들이 암장에서 라인을 밀 때, 당신은 진짜 바위의 질감을 느끼고 있죠." },
+      "issue": { "zh": "但户外攀岩的心理压力比室内大太多了——你面对的是真实的高度、不确定的岩点质量、和更严重的坠落后果。这些压力可能在无形中限制了你的发挥，让你在户外的等级比室内低 1-2 个等级。提高户外心理素质需要大量的「安全区攀爬」：在远低于你极限的线路上大量练习，建立深层的信任感。", "en": "But outdoor climbing's psychological pressure is far greater — real height, uncertain hold quality, more serious fall consequences. This may invisibly limit your performance, making your outdoor grade 1-2 levels below your gym grade. Building outdoor mental strength requires extensive 'comfort zone climbing': high volume well below your limit to build deep trust.", "ko": "하지만 야외의 심리적 압박은 실내보다 훨씬 커요. 한계보다 훨씬 낮은 루트에서 대량 연습하여 깊은 신뢰감을 쌓으세요." },
+      "conditions": { "gym_in": ["outdoor"], "level_in": ["intermediate", "upper-intermediate", "advanced"] }
+    },
+    {
+      "id": "all-round-octopus",
+      "priority": 55,
+      "emoji": "🐙",
+      "name": { "zh": "全能章鱼", "en": "All-Round Octopus", "ko": "만능 문어" },
+      "tagline": { "zh": "「这条线？能爬。那条也行。都还行吧」", "en": "'That route? Can do. That one too. All decent'", "ko": "'저 루트? 가능. 저것도. 다 괜찮아'" },
+      "compliment": { "zh": "你是少见的全能型选手！力量、技术、心理、战术都在中等偏上，什么类型的线路都不太怂。你在岩馆里属于「什么都能爬一爬」的人，朋友找你搭伴你永远不会拖后腿。这种全面性说明你的攀岩经验积累得很扎实。", "en": "You're a rare all-rounder! Strength, technique, mental game, tactics — all above average. No route type scares you much. You're the 'can climb anything decently' person at the gym, never holding partners back. This versatility shows solid climbing experience.", "ko": "드문 올라운더예요! 힘, 기술, 멘탈, 전술 모두 평균 이상이고, 어떤 유형의 루트도 두렵지 않죠." },
+      "issue": { "zh": "但你可能也发现了——好像到了某个等级之后就很难再往上了。全面发展的代价是没有一个维度特别突出，而高等级的线路往往需要某个维度的极致发挥。下一步的关键是：找到你最有天赋或最感兴趣的方向，然后把 60% 的训练时间投入进去，把它练成你的「王牌」。", "en": "But you've probably noticed — past a certain grade, progress stalls. The cost of being well-rounded is no standout dimension, and hard routes demand extreme ability in at least one area. Next step: find the dimension you're most talented in or passionate about, and invest 60% of training time there. Make it your 'ace.'", "ko": "하지만 어느 등급 이후로 성장이 멈춘 느낌이 있을 거예요. 가장 재능 있거나 관심 있는 방향을 찾아 훈련 시간의 60%를 투자하세요." },
+      "conditions": { "rating_gte": { "finger": 3, "technique": 3, "mental": 3 } }
+    }
+  ],
+
+  "fusionRules": [
+    {"id":"fear-causing-overgrip","priority":100,"emoji":"🔍","label":{"zh":"深层发现","en":"Deeper Finding","ko":"심층 발견"},"conditions":{"bottleneck_any":["strength"],"rating_lte":{"mental":2}},"insight":{"zh":"你觉得自己力量不够，但你的心理评分很低——这两件事很可能是因果关系。当你紧张或恐惧时，身体会本能地过度抓握（overgrip），前臂承受的负担会增加 30-50%。你感受到的「没力」，很大一部分其实是恐惧在消耗你的力量。先解决心理问题，你会发现自己「突然变强了」。","en":"You feel weak, but your mental score is low — these are likely cause and effect. When anxious or scared, your body instinctively overgrips, increasing forearm load by 30-50%. Much of the 'weakness' you feel is actually fear burning through your strength. Address the mental game first, and you'll find yourself 'suddenly stronger.'","ko":"힘이 부족하다고 느끼지만, 멘탈 점수가 낮아요 — 이 둘은 인과관계일 가능성이 높습니다. 긴장하거나 두려울 때 몸은 본능적으로 과도하게 잡게 되어 전완 부담이 30-50% 증가해요."},"extra_kps":["kp-fear-management","kp-grip-types"],"extra_articles":["stop-overgripping","fear-of-heights"]},
+
+    {"id":"technique-masking-as-weakness","priority":95,"emoji":"🔍","label":{"zh":"深层发现","en":"Deeper Finding","ko":"심층 발견"},"conditions":{"bottleneck_any":["strength"],"rating_lte":{"technique":2}},"insight":{"zh":"你觉得力量不够，但技术评分只有 1-2 分——这说明你的动作效率很低，每个动作可能多消耗了 30-60% 的力量。好的攀岩者看起来「很强」，其实是因为他们每一步都省力。在你提升技术之前，练再多力量也会被低效动作吃掉。建议：接下来一个月，把训练时间的 80% 花在比你极限低 2-3 级的线路上，专注脚法和重心。","en":"You feel weak, but your technique score is only 1-2 — this means your movement efficiency is very low, and each move may cost 30-60% more energy than necessary. Until you improve technique, any strength gains will be eaten by inefficient movement. Spend 80% of your next month on routes 2-3 grades below your limit, focusing on footwork and weight transfer.","ko":"힘이 부족하다고 느끼지만, 기술 점수가 1-2점이에요 — 동작 효율이 매우 낮아 각 동작마다 30-60% 더 많은 에너지를 쓰고 있을 수 있습니다."},"extra_kps":["kp-edging","kp-smearing","kp-center-of-gravity"],"extra_articles":["improve-footwork"]},
+
+    {"id":"pump-from-bad-technique","priority":90,"emoji":"🔍","label":{"zh":"深层发现","en":"Deeper Finding","ko":"심층 발견"},"conditions":{"symptom_any":["pump-fast"],"rating_lte":{"technique":2}},"insight":{"zh":"你泵得快，但技术评分很低——你的前臂泵涨大概率不是耐力问题，而是动作效率问题。踩不稳、重心不对、手臂一直弯曲锁死，每一个都在让你的前臂做额外的功。一个技术好的攀岩者爬同一条线，前臂负荷可能只有你的一半。先别急着练 ARC 耐力，把精力放在「怎么少用手」上。","en":"You pump out fast and your technique score is low — your forearm pump is most likely a movement efficiency problem, not endurance. A technically skilled climber uses roughly half the forearm effort on the same route. Don't rush to train ARC endurance — focus on 'how to use your hands less.'","ko":"빨리 펌핑되면서 기술 점수가 낮아요 — 전완 펌핑은 지구력 문제가 아니라 동작 효율 문제일 가능성이 높습니다."},"extra_kps":["kp-edging","kp-smearing","kp-center-of-gravity"],"extra_articles":["improve-footwork","forearm-pump-normal"]},
+
+    {"id":"pump-from-overgrip-anxiety","priority":88,"emoji":"🔍","label":{"zh":"深层发现","en":"Deeper Finding","ko":"심층 발견"},"conditions":{"symptom_any":["pump-fast"],"rating_lte":{"mental":2}},"insight":{"zh":"你泵得快，同时心理评分很低——恐惧和紧张会让你无意识地死死抓住每一个手点，即使那个点其实只需要轻轻搭上去。这种「恐惧性过度抓握」是前臂泵涨最隐蔽的原因之一。下次攀爬时试试：在简单线路上，有意识地用最小力量抓握。你会惊讶于差别有多大。","en":"You pump fast and your mental score is low — fear and anxiety cause you to unconsciously death-grip every hold, even ones that only need a light touch. This 'fear-based overgripping' is one of the most hidden causes of forearm pump. Try this: on easy routes, consciously grip with minimum force.","ko":"빨리 펌핑되면서 멘탈 점수가 낮아요 — 공포와 긴장은 무의식적으로 모든 홀드를 꽉 잡게 만듭니다."},"extra_kps":["kp-fear-management","kp-grip-types"],"extra_articles":["stop-overgripping"]},
+
+    {"id":"beginner-strength-myth","priority":92,"emoji":"⚠️","label":{"zh":"阶段提醒","en":"Stage Alert","ko":"단계 알림"},"conditions":{"level_in":["beginner","elementary"],"bottleneck_any":["strength"]},"insight":{"zh":"在你目前的阶段，90% 以上你觉得是「力量问题」的东西，其实是技术问题。你还没学会高效地使用身体——用脚推、用骨骼支撑、用重心转移代替肌肉发力。现在练指力不但效果差（新手神经肌肉募集能力还没建立），还容易受伤。最有效的做法是：多爬、爬简单的、专注脚法。力量会在你学会技术之后自然跟上来。","en":"At your stage, over 90% of what feels like 'weakness' is actually a technique gap. You haven't yet learned to use your body efficiently. Training finger strength now is both ineffective and risky for injury. The best approach: climb more, climb easy, focus on footwork. Strength follows technique naturally.","ko":"현재 단계에서 '힘이 부족하다'고 느끼는 것의 90% 이상은 사실 기술 문제입니다. 지금 손가락 훈련은 효과도 적고 부상 위험도 높습니다."},"extra_kps":["kp-edging","kp-smearing","kp-center-of-gravity"],"extra_articles":["improve-footwork","do-i-need-to-be-strong"]},
+
+    {"id":"beginner-finger-injury-risk","priority":98,"emoji":"🚨","label":{"zh":"受伤风险","en":"Injury Risk","ko":"부상 위험"},"conditions":{"level_in":["beginner","elementary"],"symptom_any":["finger-weak"]},"insight":{"zh":"你是新手，觉得手指抓不住小点——这是完全正常的。但请特别注意：你的手指肌腱和滑轮还没有适应攀岩的负荷，这个适应过程需要 1-2 年。在这个阶段做指力板训练或者硬冲抠小点的线路，A2 滑轮损伤的风险非常高。目前最安全高效的做法是：多爬各种类型的手点（大点、侧拉、捏点），让手指自然适应。","en":"You're a beginner who can't hold small holds — that's completely normal. But your finger tendons and pulleys haven't adapted yet (takes 1-2 years). Hangboard training or forcing small crimps now carries very high A2 pulley injury risk. Climb many different hold types to let fingers adapt naturally.","ko":"초보자로서 작은 홀드를 잡지 못하는 건 완전히 정상이에요. 하지만 손가락 힘줄과 도르래가 적응하려면 1-2년이 걸리고, 이 단계에서 행보드 훈련은 부상 위험이 매우 높습니다."},"extra_kps":["kp-pulley-injury","kp-grip-types"],"extra_articles":["finger-injury-a2","when-to-train-fingers"]},
+
+    {"id":"fear-strength-vicious-cycle","priority":85,"emoji":"🔄","label":{"zh":"恶性循环","en":"Vicious Cycle","ko":"악순환"},"conditions":{"bottleneck_all":["strength","mental"]},"insight":{"zh":"你同时选了「力量不够」和「心理障碍」——这两个问题很可能在互相加剧：恐惧→过度抓握→前臂更快泵涨→更没力→更害怕掉下来→抓得更紧。这是攀岩中最常见的恶性循环之一。打破它的方法不是分别练力量和练心理，而是专门在简单线路上练习「放松攀爬」：有意识地放松抓握、多抖手、专注呼吸。当你打破这个循环，两个问题会同时改善。","en":"You selected both 'not strong enough' and 'mental barriers' — these likely amplify each other: fear → overgrip → faster pump → less strength → more fear → grip harder. The fix isn't training them separately — practice 'relaxed climbing' on easy routes: relax grip, shake out more, focus on breathing. Break the cycle and both improve.","ko":"'힘 부족'과 '심리적 장벽'을 동시에 선택했어요 — 서로를 악화시킬 가능성이 높습니다. 쉬운 루트에서 '릴랙스 클라이밍'을 연습하세요."},"extra_kps":["kp-fear-management","kp-grip-types"],"extra_articles":["stop-overgripping","fear-of-heights"]},
+
+    {"id":"gym-pattern-plateau","priority":80,"emoji":"🔄","label":{"zh":"模式固化","en":"Pattern Lock","ko":"패턴 고착"},"conditions":{"bottleneck_any":["plateau"],"style_only":["indoor-boulder"]},"insight":{"zh":"你卡级了，而且只在室内抱石——你的身体很可能已经完全适应了你常去岩馆的定线风格。每个定线员都有自己的偏好，如果你只在一个馆爬，你实际上是在反复练习同一类动作模式。突破方法：1) 去不同的岩馆爬；2) 尝试先锋攀，培养耐力和读线能力；3) 去户外体验真实岩壁。你不是能力到头了，而是训练刺激到头了。","en":"You've plateaued and only boulder indoors — your body has likely fully adapted to your gym's setting style. To break through: visit different gyms, try lead climbing, and if possible go outdoors. You haven't hit your ability ceiling — you've hit your training stimulus ceiling.","ko":"정체기인데 실내 볼더링만 해요 — 자주 가는 암장의 세팅 스타일에 완전히 적응했을 가능성이 높습니다."},"extra_kps":["kp-periodization"],"extra_articles":["training-plan-basics"]},
+
+    {"id":"injury-training-cycle","priority":82,"emoji":"🚨","label":{"zh":"危险模式","en":"Risky Pattern","ko":"위험 패턴"},"conditions":{"bottleneck_all":["injury","training"]},"insight":{"zh":"你同时有「身体不舒服」和「不知道怎么练」——这个组合很危险。没有计划地训练很容易导致过度使用伤，而受伤后又不知道怎么调整，形成「练→伤→休→急着恢复→再练→再伤」的循环。最重要的第一步不是找训练计划，而是先处理好伤。确认伤的类型和严重程度，在完全恢复之前只做不加重伤情的训练。","en":"You have both 'pain' and 'don't know how to train' — this is dangerous. Training without a plan causes overuse injuries, and not knowing how to adjust creates a cycle. First priority: address the injury. Only do training that doesn't aggravate it until fully recovered.","ko":"'몸이 불편'하면서 '훈련법 모름'을 동시에 선택했어요 — 위험한 조합입니다. 먼저 부상을 처리하세요."},"extra_kps":["kp-pulley-injury","kp-shoulder-injury","kp-rest-management"],"extra_articles":["finger-injury-a2","shoulder-elbow-pain"]},
+
+    {"id":"lead-fear-specific","priority":78,"emoji":"🧩","label":{"zh":"风格关联","en":"Style-Specific","ko":"스타일 연관"},"conditions":{"bottleneck_any":["mental"],"style_any":["indoor-rope","outdoor-sport","outdoor-trad"]},"insight":{"zh":"你有心理障碍，而且你爬绳子路线——先锋攀的恐惧和抱石的恐惧本质上不同。绳子攀的恐惧更多是「持续性的」：你在高处待的时间更长，每一步都可能想到坠落。处理方法：1) 练习坠落——从安全高度开始，逐步增加；2) 学会信任装备和保护者；3) 在安全高度反复攀爬，扩大舒适区。不要强迫自己一下子克服，循序渐进最有效。","en":"You have mental barriers and climb rope routes — lead/top-rope fear is fundamentally different from bouldering fear. It's 'sustained' fear: you're high for longer, every move carries the thought of falling. Practice falling from safe heights, learn to trust gear and belayer, gradually expand your comfort zone.","ko":"심리적 장벽이 있으면서 로프 클라이밍을 해요 — 리드/탑로프의 공포는 볼더링과 본질적으로 다릅니다."},"extra_kps":["kp-fear-management"],"extra_articles":["overcome-lead-fear","fear-of-heights"]},
+
+    {"id":"boulder-dynamic-fear","priority":76,"emoji":"🧩","label":{"zh":"风格关联","en":"Style-Specific","ko":"스타일 연관"},"conditions":{"bottleneck_any":["mental"],"style_only":["indoor-boulder","outdoor-boulder"]},"insight":{"zh":"你有心理障碍，而且只爬抱石——抱石的恐惧通常是「瞬间爆发的」：害怕动态动作时脱手、害怕在高处的 topout、害怕落在垫子上的姿势不对。处理方法：1) 在低矮的墙面练习坠落和着地技巧；2) 动态动作从小幅度开始，建立「飞出去也没事」的信心；3) topout 恐惧可以让朋友在下面 spot。抱石心理训练的核心是「学会接受坠落是过程的一部分」。","en":"You have mental barriers and only boulder — bouldering fear is 'burst' fear: afraid of dynos, topouts, landing wrong. Practice falling on low walls, start dynamic moves small, use spotters. The core is accepting that falling is part of the process.","ko":"심리적 장벽이 있으면서 볼더링만 해요 — 볼더링의 공포는 다이노, 탑아웃, 착지 두려움이 주요 문제입니다."},"extra_kps":["kp-fear-management","kp-dyno-technique"],"extra_articles":["fear-of-heights"]},
+
+    {"id":"muscling-through-routes","priority":75,"emoji":"🔍","label":{"zh":"深层发现","en":"Deeper Finding","ko":"심층 발견"},"conditions":{"rating_gte":{"finger":4},"rating_lte":{"technique":2}},"insight":{"zh":"你手指力量评分很高但技术评分很低——你在用蛮力爬。短期内可能让你送一些线，但长期来看这是一个陷阱：更容易受伤，进步天花板也更低。你需要「降力」训练：选比极限低 3 级的线路，规定自己不能用力拉，只能用脚推和重心移动。这会很不舒服，但这是你突破的关键。","en":"Your finger strength is high but technique is low — you're muscling through routes. This is a long-term trap: higher injury risk and lower ceiling. You need 'de-power' training: pick routes 3 grades below limit, forbid pulling hard — only push with feet and shift weight.","ko":"손가락 힘은 높은데 기술 점수가 낮아요 — 근력으로 타고 있습니다. 한계보다 3등급 낮은 루트에서 '힘 빼기' 훈련을 하세요."},"extra_kps":["kp-edging","kp-smearing","kp-center-of-gravity"],"extra_articles":["improve-footwork"]},
+
+    {"id":"efficient-but-limited","priority":73,"emoji":"🔍","label":{"zh":"深层发现","en":"Deeper Finding","ko":"심층 발견"},"conditions":{"rating_gte":{"technique":4},"rating_lte":{"finger":2}},"insight":{"zh":"你技术评分很高但手指力量很低——你是一个高效的攀岩者，但确实到了「物理极限」。好消息是：技术基础扎实的人练力量进步会非常快。你现在可以安全地引入指力板训练了（前提是已经爬了至少一年）。从保守的半屈挂板开始，一周 2 次，配合你的技术优势，等级会有明显突破。","en":"Your technique is high but finger strength is low — you're efficient but genuinely limited physically. Good news: technically solid climbers improve fast with strength training. You can safely introduce hangboard training (with 1+ years experience). Start conservatively, twice a week.","ko":"기술은 높은데 손가락 힘이 낮아요 — 효율적인 클라이머이지만 물리적 한계에 도달한 거예요. 행보드 훈련을 도입할 시기예요."},"extra_kps":["kp-hangboard-training","kp-finger-assessment"],"extra_articles":["hangboard-guide","when-to-train-fingers"]},
+
+    {"id":"mental-tactics-compound","priority":70,"emoji":"🔄","label":{"zh":"叠加效应","en":"Compound Effect","ko":"복합 효과"},"conditions":{"rating_lte":{"mental":2,"tactics":2}},"insight":{"zh":"你的心理和战术评分都很低——不会读线意味着你每到一个手点都不知道下一步怎么走，这种不确定性会加剧焦虑和恐惧。解决顺序很重要：先练读线和路线规划（在地面看好再上墙），当你知道接下来每一步该做什么，你的心理压力会自动减轻一半。读线能力是成本最低、见效最快的心理减压工具。","en":"Both mental and tactics scores are low — these amplify each other. Not reading routes means uncertainty at every hold, feeding anxiety. Fix order matters: train route reading first. When you know what comes next, mental pressure drops by half. Route reading is the cheapest, fastest mental relief tool.","ko":"멘탈과 전술 점수가 모두 낮아요 — 루트를 못 읽으면 불확실성이 커져 불안이 심해져요. 먼저 루트 리딩을 연습하세요."},"extra_kps":["kp-fear-management"],"extra_articles":["how-to-read-routes","fear-of-heights"]},
+
+    {"id":"endurance-tactics-waste","priority":68,"emoji":"🔍","label":{"zh":"深层发现","en":"Deeper Finding","ko":"심층 발견"},"conditions":{"rating_lte":{"endurance":2,"tactics":2}},"insight":{"zh":"你耐力和战术评分都很低——你可能在用错误的动作序列浪费大量体力。不会读线的人经常在墙上「试错」，每次犹豫和回退都在消耗前臂。如果你先在地面把线看清楚，规划好动作和休息点，同一条线路你的耐力可能够用。先练读线，你会发现你的「耐力」突然变好了。","en":"Both endurance and tactics scores are low — you're likely wasting massive energy on wrong beta. If you plan the sequence from the ground, your endurance on the same route might be sufficient. Train route reading first — your 'endurance' may suddenly improve.","ko":"지구력과 전술 점수가 모두 낮아요 — 잘못된 베타로 체력을 낭비하고 있을 가능성이 높습니다."},"extra_kps":["kp-endurance-types"],"extra_articles":["how-to-read-routes","forearm-pump-normal"]},
+
+    {"id":"advanced-plateau-periodization","priority":72,"emoji":"📊","label":{"zh":"训练建议","en":"Training Insight","ko":"훈련 인사이트"},"conditions":{"level_in":["upper-intermediate","advanced"],"bottleneck_any":["plateau"]},"insight":{"zh":"你已经是高水平攀岩者但卡级了——在你这个阶段，「多爬」已经不能带来进步了，你需要的是周期化训练。把训练分成不同的周期（力量期、力量耐力期、技术期、休息期），每个周期有明确的目标。同时引入交叉训练：拮抗肌防止肌肉不平衡，柔韧性扩大动作可能性。建议找有经验的攀岩教练制定 8-12 周计划。","en":"You're a strong climber who's plateaued — at your level, 'just climbing more' no longer works. You need periodization with clear goals for each cycle. Consider cross-training and working with an experienced coach for an 8-12 week plan.","ko":"실력 있는 클라이머인데 정체기예요 — 이 수준에서는 주기화 훈련이 필요합니다."},"extra_kps":["kp-periodization","kp-antagonist-training"],"extra_articles":["training-plan-basics"]},
+
+    {"id":"beginner-injury-stop","priority":99,"emoji":"🚨","label":{"zh":"重要警告","en":"Important Warning","ko":"중요 경고"},"conditions":{"level_in":["beginner","elementary"],"symptom_any":["finger-pain"]},"insight":{"zh":"你是新手而且手指疼——请认真对待！新手的肌腱和滑轮还非常脆弱。请立即：1) 停止抠小点和使用全屈握法；2) 如果疼痛在手指中段内侧，建议看运动医学医生排除滑轮损伤；3) 疼痛消失前只爬大点线路；4) 热身要充分——至少 15 分钟渐进式热身。滑轮一旦断裂，恢复需要 3-6 个月。","en":"You're a beginner with finger pain — take this seriously! Immediately: stop crimping small holds, see a doctor if pain is on inner finger, only climb large holds until pain resolves, warm up 15+ minutes. A pulley rupture means 3-6 months recovery.","ko":"초보자인데 손가락이 아파요 — 심각하게 받아들이세요! 즉시 작은 홀드 크림핑을 중단하세요."},"extra_kps":["kp-pulley-injury","kp-warmup"],"extra_articles":["finger-injury-a2","how-to-warm-up"]},
+
+    {"id":"classic-beginner-trap-triple","priority":96,"emoji":"💡","label":{"zh":"核心洞察","en":"Core Insight","ko":"핵심 인사이트"},"conditions":{"level_in":["beginner","elementary"],"bottleneck_any":["strength"],"rating_lte":{"technique":2}},"insight":{"zh":"经典新手误区三连：等级低+觉得没力+技术差。你现在最容易犯的错误就是去练力量——但这就像一个不会换挡的人抱怨车不够快。你的「引擎」可能完全够用，问题在「变速箱」。具体行动：1) 接下来 4-6 周只爬比极限低 2 级的线路；2) 每条线爬两遍——第一遍随便爬，第二遍要求每脚踩得更精确；3) 找一个爬得好看的人，模仿动作节奏。4 周后你的等级大概率能提升 1-2 级。","en":"Classic beginner triple trap: low level + 'feel weak' + poor technique. The mistake is training strength — that's like a bad driver blaming the car. Action: for 4-6 weeks, only climb 2 grades below limit, climb each route twice (freestyle then precision), copy a graceful climber. You'll likely gain 1-2 grades in 4 weeks.","ko":"전형적인 초보자 함정 3중 콤보: 낮은 등급 + 힘 부족 + 기술 부족. 다음 4-6주간 한계보다 2등급 낮은 루트만 타면서 풋워크에 집중하세요."},"extra_kps":["kp-edging","kp-smearing","kp-center-of-gravity"],"extra_articles":["improve-footwork","do-i-need-to-be-strong"]},
+
+    {"id":"gym-ceiling-triple","priority":79,"emoji":"💡","label":{"zh":"核心洞察","en":"Core Insight","ko":"핵심 인사이트"},"conditions":{"level_in":["intermediate"],"bottleneck_any":["plateau"],"style_only":["indoor-boulder"]},"insight":{"zh":"中级+卡级+只爬室内抱石——最典型的「岩馆天花板」。你的身体已经完全适应了这种训练方式。突破需要多维度刺激：1) 尝试先锋攀；2) 每月至少去一次不同岩馆；3) 去户外爬；4) 每周安排一天弱项训练日。你不是能力到头了，而是训练刺激到头了。","en":"Intermediate + plateaued + indoor bouldering only — the classic 'gym ceiling.' Your body is fully adapted. Break through with: lead climbing, visiting different gyms monthly, outdoor climbing, and a weekly weakness day. You haven't hit your ability ceiling — you've hit your stimulus ceiling.","ko":"중급 + 정체기 + 실내 볼더링만 — 전형적인 '암장 천장' 현상입니다."},"extra_kps":["kp-periodization","kp-endurance-types"],"extra_articles":["training-plan-basics"]},
+
+    {"id":"triple-inefficiency-pump","priority":87,"emoji":"💡","label":{"zh":"核心洞察","en":"Core Insight","ko":"핵심 인사이트"},"conditions":{"symptom_any":["pump-fast"],"rating_lte":{"technique":2,"mental":2}},"insight":{"zh":"你的前臂泵涨有三重原因叠加：1) 技术差导致每个动作多用力；2) 心理紧张导致过度抓握；3) 两者互相加剧。你的前臂承受的负荷可能是正常攀岩者的 2-3 倍。好消息是改善空间巨大。练耐力反而最没用——你需要从根源解决。在最舒服的等级上，一边爬一边告诉自己「松手、踩脚、呼吸」。两周后耐力表现可能直接翻倍。","en":"Your pump has a triple cause: poor technique (extra force), mental tension (overgrip), and their amplification loop. Your forearms may bear 2-3x normal load. Endurance training is the least useful fix. On comfortable grades, climb while telling yourself 'relax grip, push feet, breathe.' Performance may double in two weeks.","ko":"펌핑에 세 가지 원인이 겹쳐 있어요. 편안한 등급에서 '그립 이완, 발로 밀기, 호흡'을 의식하며 타보세요."},"extra_kps":["kp-fear-management","kp-edging","kp-grip-types"],"extra_articles":["stop-overgripping","improve-footwork","forearm-pump-normal"]},
+
+    {"id":"strength-compensating-technique-debt","priority":77,"emoji":"💡","label":{"zh":"核心洞察","en":"Core Insight","ko":"핵심 인사이트"},"conditions":{"level_in":["intermediate","upper-intermediate","advanced"],"rating_gte":{"finger":4},"rating_lte":{"technique":2}},"insight":{"zh":"你是有经验的攀岩者，力量很强但技术弱——你长期在用力量补偿技术不足。你可能比同级别的技术型选手更容易受伤，而且在技术性线路上会「突然掉级」。现在是补技术债的最佳时机：你的力量储备意味着技术一提升，等级会爆发式增长。每周安排一天「技术日」：只爬 slab 和精确脚法线路，完全不用力拉。","en":"You're experienced, strong but technically weak — you've been compensating long-term. You face higher injury risk and 'sudden drops' on technical routes. Schedule a weekly 'technique day': only slab and precise footwork routes, no pulling. Your strength reserves mean technique gains will produce explosive grade improvements.","ko":"경험 있는 클라이머인데 힘은 강하지만 기술이 약해요. 매주 '기술의 날'을 정해서 슬랩과 정밀한 풋워크 루트만 타세요."},"extra_kps":["kp-slab-technique","kp-edging","kp-smearing"],"extra_articles":["improve-footwork"]},
+
+    {"id":"ready-for-structured-training","priority":65,"emoji":"📊","label":{"zh":"训练建议","en":"Training Insight","ko":"훈련 인사이트"},"conditions":{"level_in":["intermediate"],"bottleneck_all":["strength","training"]},"insight":{"zh":"中级水平+觉得力量不够+不知道怎么练——好消息是，你的基础已经到了可以开始系统训练的阶段。建议起步方案：1) 每周 3 次攀爬+1 次力量训练；2) 攀爬日分为「项目日」和「训练日」；3) 开始指力板训练——从最保守方案开始（每周 2 次，每次 20 分钟）。有计划地练，比盲目多爬有效 3 倍。","en":"Intermediate + feel weak + no plan — good news: your base is solid enough for structured training. Starting plan: 3 climbing + 1 strength session per week, split climbing into project and volume days, begin conservative hangboard (2x/week, 20 min). Planned training is 3x more effective than just climbing more.","ko":"중급 + 힘 부족 + 훈련법 모름 — 체계적 훈련을 시작할 수 있는 기반이 있어요."},"extra_kps":["kp-hangboard-training","kp-periodization"],"extra_articles":["training-plan-basics","hangboard-guide"]},
+
+    {"id":"fatigue-injury-combo","priority":83,"emoji":"🚨","label":{"zh":"危险模式","en":"Risky Pattern","ko":"위험 패턴"},"conditions":{"symptom_any":["finger-pain","shoulder-elbow"],"rating_lte":{"endurance":2}},"insight":{"zh":"你有伤痛，同时耐力很低——你很可能在疲劳状态下还在硬冲，这是受伤的最高风险模式。当前臂泵涨严重时，身体会不自觉地改变动作来代偿（手指更用力抠、肩膀代偿），直接导致过载损伤。规则：当你感觉前臂明显泵涨时，不要再尝试接近极限的线路。泵涨状态下冲难线，受伤风险增加 3-5 倍。","en":"You have pain and low endurance — you're likely pushing while fatigued, the highest-risk pattern. When pumped, your body compensates with harder crimping and shoulder overloading. Rule: when forearms are pumped, stop attempting limit routes. Injury risk increases 3-5x when pushing through pump.","ko":"통증이 있으면서 지구력이 낮아요 — 피로 상태에서 무리하고 있을 가능성이 높습니다."},"extra_kps":["kp-rest-management","kp-warmup"],"extra_articles":["finger-injury-a2","how-to-warm-up"]},
+
+    {"id":"flexibility-technique-unlock","priority":60,"emoji":"🔑","label":{"zh":"解锁方向","en":"Unlock Direction","ko":"해결 방향"},"conditions":{"rating_lte":{"flexibility":2,"technique":2}},"insight":{"zh":"你的柔韧性和技术评分都低——柔韧性差会严重限制你能做的动作种类。如果你劈不开、抬不了高脚，很多高效的动作方案对你根本不存在。好消息是柔韧性最容易提升：每天 15 分钟拉伸（重点髋关节外旋和腿后侧），4-6 周就能明显改善。当你的高抬脚从到腰变成到胸，整个攀爬方式都会改变。","en":"Both flexibility and technique are low — poor flexibility severely limits available moves. Good news: flexibility is the easiest to improve. 15 minutes of daily stretching (hip external rotation, hamstrings) shows visible improvement in 4-6 weeks. When your high-step goes from waist to chest height, everything changes.","ko":"유연성과 기술 점수가 모두 낮아요 — 매일 15분 스트레칭으로 4-6주면 눈에 띄게 개선됩니다."},"extra_kps":["kp-hip-flexibility","kp-warmup-stretching"],"extra_articles":[]},
+
+    {"id":"women-strength-perception","priority":74,"emoji":"🔍","label":{"zh":"深层发现","en":"Deeper Finding","ko":"심층 발견"},"conditions":{"bottleneck_any":["strength"],"rating_gte":{"technique":3,"flexibility":3}},"insight":{"zh":"你觉得力量不够，但技术和柔韧性都不错——你可能已经是一个动作效率很高的攀岩者了，只是到了确实需要更多绝对力量的阶段。和「用蛮力补技术」的人不同，你的力量训练会非常高效。建议：引入拮抗肌训练和核心训练作为基础，然后逐步加入指力板和引体向上。你的身体协调性好，力量提升后进步会非常明显。","en":"You feel weak but have good technique and flexibility — you're likely already efficient, genuinely needing more absolute strength now. Unlike those compensating with muscle, your strength training will be highly efficient. Start with antagonist and core training, then add hangboard and pull-ups.","ko":"힘이 부족하다고 느끼지만 기술과 유연성은 괜찮아요 — 이미 효율적인 클라이머로, 절대적인 힘이 더 필요한 단계예요."},"extra_kps":["kp-antagonist-training","kp-core-training","kp-hangboard-training"],"extra_articles":["women-strength-training","hangboard-guide"]},
+
+    {"id":"outdoor-mental-preparation","priority":62,"emoji":"🧩","label":{"zh":"风格关联","en":"Style-Specific","ko":"스타일 연관"},"conditions":{"bottleneck_any":["mental"],"gym_in":["outdoor"]},"insight":{"zh":"你主要在户外爬而且有心理障碍——户外的心理挑战比室内大得多。核心是「逐步暴露」：从自己完全有信心的难度和高度开始，在舒适区里大量攀爬建立信任感，然后一点点扩大边界。不要试图「勇敢地」一步到位。另外，找一个你信任的搭档非常重要——好的保护者能让你的恐惧减少一半。","en":"You mainly climb outdoors with mental barriers — outdoor psychological challenges are far greater. The core is 'progressive exposure': start where you're fully confident, build trust, then gradually expand. Don't try to be 'brave' all at once. A trusted partner cuts your fear in half.","ko":"주로 야외에서 타면서 심리적 장벽이 있어요 — '점진적 노출'이 핵심입니다."},"extra_kps":["kp-fear-management"],"extra_articles":["fear-of-heights","overcome-lead-fear"]}
+  ]
+}

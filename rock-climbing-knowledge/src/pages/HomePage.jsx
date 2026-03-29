@@ -307,6 +307,29 @@ export default function HomePage() {
 
         {/* 热门知识点滚动标签 */}
         <TrendingKPs />
+
+        {/* 攀岩动物人格入口 — 带动效 */}
+        <Link
+          to="/diagnosis"
+          className="diagnosis-card group mt-5 max-w-md mx-auto flex items-center gap-3.5 rounded-2xl px-5 py-4 shadow-lg hover:shadow-xl hover:scale-[1.02] transition-all duration-300"
+        >
+          <span className="diagnosis-emoji text-3xl shrink-0">
+            🐒
+          </span>
+          <div className="flex-1 min-w-0 text-left">
+            <div className="text-sm font-bold text-white">
+              {lang === 'zh' ? '测测你的攀岩动物人格' : lang === 'en' ? 'Find Your Climbing Animal' : '나의 클라이밍 동물 찾기'}
+            </div>
+            <div className="text-xs text-white/70 mt-0.5">
+              {lang === 'zh'
+                ? '回答几个问题，看看你是哪只岩壁小动物'
+                : lang === 'en'
+                ? 'Answer a few questions to discover your climbing animal persona'
+                : '몇 가지 질문에 답하고 나만의 클라이밍 동물을 찾아보세요'}
+            </div>
+          </div>
+          <Icon name="chevronRight" size={18} className="text-white/60 shrink-0 group-hover:text-white group-hover:translate-x-0.5 transition-all" />
+        </Link>
       </div>
 
       {/* ==================== 1. 攀岩知识库 ==================== */}

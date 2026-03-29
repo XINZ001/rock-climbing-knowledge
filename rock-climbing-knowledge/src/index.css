@@ -353,3 +353,41 @@ html.dark .header-glass.header-scrolled {
 .scrollbar-hide::-webkit-scrollbar {
   display: none;
 }
+
+/* --- 攀岩动物人格入口动效 --- */
+@keyframes diagnosis-glow {
+  0%, 100% { opacity: 0.25; transform: scale(1); }
+  50%      { opacity: 0.45; transform: scale(1.02); }
+}
+@keyframes diagnosis-gradient {
+  0%   { background-position: 0% 50%; }
+  50%  { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+@keyframes diagnosis-wiggle {
+  0%, 100% { transform: rotate(0deg) scale(1); }
+  25%      { transform: rotate(-8deg) scale(1.1); }
+  75%      { transform: rotate(6deg) scale(1.05); }
+}
+.diagnosis-card {
+  position: relative;
+  background: linear-gradient(135deg, #FF6B35, #E8891C, #FF8C42, #E8565C, #FF6B35);
+  background-size: 300% 300%;
+  animation: diagnosis-gradient 6s ease infinite;
+  overflow: visible;
+  will-change: background-position;
+}
+.diagnosis-card::before {
+  content: '';
+  position: absolute;
+  inset: -3px;
+  border-radius: inherit;
+  background: linear-gradient(135deg, rgba(255,107,53,0.4), rgba(232,137,28,0.25), rgba(255,140,66,0.2), rgba(232,86,92,0.4));
+  z-index: -1;
+  filter: blur(6px);
+  will-change: opacity, transform;
+  animation: diagnosis-glow 3s ease-in-out infinite;
+}
+.diagnosis-emoji {
+  animation: diagnosis-wiggle 3s ease-in-out infinite;
+}

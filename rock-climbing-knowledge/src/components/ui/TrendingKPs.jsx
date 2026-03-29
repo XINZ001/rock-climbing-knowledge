@@ -26,21 +26,22 @@ const ROW2_KPS = [
 
 // 搜索词标签：点击跳转到搜索结果页，口语化、接地气
 // sectionId 用于染色，与对应知识领域一致
+// q: { zh, en, ko } — 显示文案 & 搜索关键词均按当前语言
 const ROW1_QUERIES = [
-  { q: '怕高怎么办', emoji: '😰', sectionId: 'section-04' },
-  { q: '泵了', emoji: '💪', sectionId: 'section-02' },
-  { q: '怎么选鞋', emoji: '👟', sectionId: 'section-05' },
-  { q: '零基础入门', emoji: '🌱', sectionId: 'section-01' },
-  { q: '练指力', emoji: '🤏', sectionId: 'section-02' },
-  { q: '手皮破了', emoji: '🩹', sectionId: 'section-07' },
+  { q: { zh: '怕高怎么办', en: 'fear of heights', ko: '높은 곳이 무서워요' }, emoji: '😰', sectionId: 'section-04' },
+  { q: { zh: '泵了', en: 'forearm pump', ko: '펌핑' }, emoji: '💪', sectionId: 'section-02' },
+  { q: { zh: '怎么选鞋', en: 'climbing shoes', ko: '암벽화 추천' }, emoji: '👟', sectionId: 'section-05' },
+  { q: { zh: '零基础入门', en: 'beginner guide', ko: '초보자 가이드' }, emoji: '🌱', sectionId: 'section-01' },
+  { q: { zh: '练指力', en: 'finger strength', ko: '손가락 훈련' }, emoji: '🤏', sectionId: 'section-02' },
+  { q: { zh: '手皮破了', en: 'skin care', ko: '손 피부 관리' }, emoji: '🩹', sectionId: 'section-07' },
 ]
 const ROW2_QUERIES = [
-  { q: '腿软不敢爬', emoji: '🦵', sectionId: 'section-04' },
-  { q: '卡级了', emoji: '📊', sectionId: 'section-04' },
-  { q: '脚法怎么练', emoji: '🦶', sectionId: 'section-03' },
-  { q: '开胯拉伸', emoji: '🧘', sectionId: 'section-02' },
-  { q: '第一次户外', emoji: '⛰️', sectionId: 'section-08' },
-  { q: '手指疼', emoji: '🤕', sectionId: 'section-07' },
+  { q: { zh: '腿软不敢爬', en: 'scared to climb', ko: '무서워서 못 올라가요' }, emoji: '🦵', sectionId: 'section-04' },
+  { q: { zh: '卡级了', en: 'hit a plateau', ko: '정체기 극복' }, emoji: '📊', sectionId: 'section-04' },
+  { q: { zh: '脚法怎么练', en: 'footwork drills', ko: '풋워크 연습' }, emoji: '🦶', sectionId: 'section-03' },
+  { q: { zh: '开胯拉伸', en: 'hip flexibility', ko: '고관절 스트레칭' }, emoji: '🧘', sectionId: 'section-02' },
+  { q: { zh: '第一次户外', en: 'first outdoor climb', ko: '첫 야외 등반' }, emoji: '⛰️', sectionId: 'section-08' },
+  { q: { zh: '手指疼', en: 'finger pain', ko: '손가락 통증' }, emoji: '🤕', sectionId: 'section-07' },
 ]
 
 function hexToRgba(hex, alpha) {
@@ -178,15 +179,18 @@ export default function TrendingKPs() {
       })
       .filter(Boolean)
 
-  // 将搜索词列表解析为标签对象
+  // 将搜索词列表解析为标签对象（按当前语言）
   const resolveQueries = (queries) =>
-    queries.map((item) => ({
-      id: `q-${item.q}`,
-      label: item.q,
-      emoji: item.emoji || '',
-      color: colorMap[item.sectionId] || '#4A7C59',
-      route: `/search?q=${encodeURIComponent(item.q)}`,
-    }))
+    queries.map((item) => {
+      const text = item.q[lang] || item.q.zh
+      return {
+        id: `q-${item.q.zh}`,
+        label: text,
+        emoji: item.emoji || '',
+        color: colorMap[item.sectionId] || '#4A7C59',
+        route: `/search?q=${encodeURIComponent(text)}`,
+      }
+    })
 
   // 交错合并 KP 标签和搜索词标签：KP, Query, KP, Query, ...
   const interleave = (kps, queries) => {

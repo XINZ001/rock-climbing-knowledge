@@ -20,6 +20,8 @@ import KnowledgePage from './pages/KnowledgePage'
 import ArticleListPage from './pages/ArticleListPage'
 import ArticleCategoryPage from './pages/ArticleCategoryPage'
 import ArticleDetailPage from './pages/ArticleDetailPage'
+import DiagnosisPage from './pages/DiagnosisPage'
+import ProfilePage from './pages/ProfilePage'
 
 function ScrollToTopOnNav() {
   const { pathname } = useLocation()
@@ -45,10 +47,12 @@ export default function App() {
           <Route path="section/:sectionSlug" element={<SectionPage />} />
           <Route path="section/:sectionSlug/:subSlug" element={<TopicPage />} />
           <Route path="search" element={<SearchPage />} />
+          <Route path="diagnosis" element={<DiagnosisPage />} />
           <Route path="injuries" element={<InjuryListPage />} />
           <Route path="injuries/new" element={<InjuryFormPage />} />
           <Route path="injuries/:id" element={<InjuryDetailPage />} />
           <Route path="injuries/:id/edit" element={<InjuryFormPage />} />
+          <Route path="profile" element={<ProfilePage />} />
           <Route path="climbing-profile" element={<ClimbingProfilePage />} />
           <Route path="settings" element={<SettingsPage />} />
           <Route path="auth/callback" element={<AuthCallbackPage />} />
