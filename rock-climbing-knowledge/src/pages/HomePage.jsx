@@ -193,8 +193,8 @@ export default function HomePage() {
 
         {/* 搜索框 */}
         <form onSubmit={handleSearchSubmit} className="relative max-w-md mx-auto mt-4">
-          <div className="relative">
-            <Icon name="search" size={16} className="absolute left-3.5 top-1/2 -translate-y-1/2 text-text-secondary" />
+          <div className="flex items-center rounded-xl bg-white border border-stone-border shadow-sm focus-within:border-forest focus-within:ring-1 focus-within:ring-forest transition-colors">
+            <Icon name="search" size={16} className="ml-3.5 shrink-0 text-text-secondary" />
             <input
               ref={inputRef}
               type="text"
@@ -208,7 +208,7 @@ export default function HomePage() {
               placeholder={searchReady
                 ? (lang === 'zh' ? '搜索知识点、专栏、运动员...' : lang === 'en' ? 'Search knowledge, articles, athletes...' : '지식, 칼럼, 선수 검색...')
                 : (lang === 'zh' ? '索引加载中...' : lang === 'en' ? 'Loading...' : '로딩 중...')}
-              className="w-full pl-10 pr-4 py-2.5 rounded-xl bg-white border border-stone-border text-sm focus:outline-none focus:border-forest focus:ring-1 focus:ring-forest transition-colors shadow-sm"
+              className="w-full pl-2.5 pr-4 py-2.5 bg-transparent text-sm focus:outline-none"
             />
           </div>
 

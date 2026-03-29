@@ -131,7 +131,7 @@ function LanguageDropdown({ lang, setLang }) {
   )
 }
 
-export default function Header({ onToggleSidebar, onOpenAuth }) {
+export default function Header({ onToggleSidebar, onOpenAuth, sidebarOpen, onCloseSidebar }) {
   const { lang, setLang } = useApp()
   const { user, profile, loading } = useAuth()
   const location = useLocation()
@@ -164,11 +164,11 @@ export default function Header({ onToggleSidebar, onOpenAuth }) {
   ]
 
   return (
-    <header className={`sticky top-0 z-40 border-b border-stone-border header-glass header-scrolled ${scrolled ? 'bg-stone-card/80' : 'bg-stone-card/90'}`}>
+    <header className="sticky top-0 z-[55] border-b border-stone-border header-glass header-scrolled">
       <div className="flex items-center px-4 h-14">
         {/* 左侧：Logo + 菜单按钮（桌面端） */}
         <div className="flex items-center gap-1 shrink-0">
-          <Link to="/" className="flex items-center gap-2">
+          <Link to="/" className="flex items-center gap-2" onClick={sidebarOpen ? onCloseSidebar : undefined}>
             <Icon name="mountain" size={24} className="text-forest" />
             <span className="font-semibold text-lg">{lang === 'zh' ? '攀岩知识库' : lang === 'en' ? 'Xin Library' : '클라이밍 지식'}</span>
           </Link>
@@ -252,12 +252,17 @@ export default function Header({ onToggleSidebar, onOpenAuth }) {
             )
           )}
 
-          {/* 汉堡菜单 — 手机端右侧 */}
+          {/* 汉堡菜单 / 关闭 — 手机端右侧，三条线 ↔ X 动效 */}
           <button
             onClick={onToggleSidebar}
-            className="lg:hidden flex items-center justify-center w-9 h-9 rounded-md hover:bg-stone-sidebar transition-colors"
+            className="lg:hidden relative flex items-center justify-center w-9 h-9 rounded-md hover:bg-stone-sidebar transition-colors"
+            aria-label={sidebarOpen ? '关闭菜单' : '打开菜单'}
           >
-            <Icon name="menu" size={22} className="text-text-secondary" />
+            <span className="flex flex-col items-center justify-center w-[20px] h-[20px]">
+              <span className={`block h-[2px] w-full bg-current rounded-full transition-all duration-300 ease-out text-text-secondary ${sidebarOpen ? 'rotate-45 translate-y-[5px]' : ''}`} />
+              <span className={`block h-[2px] w-full bg-current rounded-full transition-all duration-300 ease-out text-text-secondary mt-[3px] ${sidebarOpen ? 'opacity-0 scale-x-0' : 'opacity-100'}`} />
+              <span className={`block h-[2px] w-full bg-current rounded-full transition-all duration-300 ease-out text-text-secondary mt-[3px] ${sidebarOpen ? '-rotate-45 -translate-y-[5px]' : ''}`} />
+            </span>
           </button>
         </div>
       </div>

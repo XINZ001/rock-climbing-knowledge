@@ -313,14 +313,16 @@ html.dark .card-hover:hover {
 
 /* --- Header 毛玻璃 --- */
 .header-glass {
-  transition: background-color 0.3s ease, backdrop-filter 0.3s ease, box-shadow 0.3s ease;
+  transition: background-color 0.3s ease, backdrop-filter 0.3s ease, -webkit-backdrop-filter 0.3s ease, box-shadow 0.3s ease;
 }
 .header-glass.header-scrolled {
-  backdrop-filter: blur(12px);
-  -webkit-backdrop-filter: blur(12px);
+  background-color: rgba(255, 255, 255, 0.72) !important;
+  backdrop-filter: saturate(180%) blur(12px);
+  -webkit-backdrop-filter: saturate(180%) blur(12px);
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.06);
 }
 html.dark .header-glass.header-scrolled {
+  background-color: rgba(35, 39, 46, 0.75) !important;
   box-shadow: 0 1px 8px rgba(0, 0, 0, 0.2);
 }
 

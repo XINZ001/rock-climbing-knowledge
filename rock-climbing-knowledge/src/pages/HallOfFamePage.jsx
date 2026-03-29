@@ -1,5 +1,5 @@
-import { useMemo, useState } from 'react'
-import { Link } from 'react-router-dom'
+import { useMemo, useState, useEffect } from 'react'
+import { Link, useSearchParams } from 'react-router-dom'
 import { useApp } from '../context/AppContext'
 import PageSEO from '../components/PageSEO'
 import {
@@ -26,8 +26,21 @@ const FILTER_KEYS = ['all', 'elite', 'explorer', 'legend', 'innovator', 'chinese
 
 export default function HallOfFamePage() {
   const { t, lang } = useApp()
+  const [searchParams, setSearchParams] = useSearchParams()
   const athletes = useMemo(() => getHallOfFameAthletes(), [])
-  const [activeFilter, setActiveFilter] = useState('all')
+
+  // 从 URL ?category= 读取初始筛选，无效值回退到 'all'
+  const categoryParam = searchParams.get('category')
+  const initialFilter = FILTER_KEYS.includes(categoryParam) ? categoryParam : 'all'
+  const [activeFilter, setActiveFilter] = useState(initialFilter)
+
+  // URL 变化时同步筛选状态（侧边栏点击不同分类）
+  useEffect(() => {
+    const param = searchParams.get('category')
+    if (param && FILTER_KEYS.includes(param) && param !== activeFilter) {
+      setActiveFilter(param)
+    }
+  }, [searchParams])
 
   const filtered = useMemo(() => {
     if (activeFilter === 'all') return athletes
@@ -76,7 +89,7 @@ export default function HallOfFamePage() {
           return (
             <button
               key={key}
-              onClick={() => setActiveFilter(key)}
+              onClick={() => { setActiveFilter(key); setSearchParams(key === 'all' ? {} : { category: key }, { replace: true }) }}
               className={`px-4 py-1.5 rounded-full text-sm font-medium transition-colors ${
                 isActive
                   ? 'bg-forest text-white'

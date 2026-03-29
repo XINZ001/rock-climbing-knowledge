@@ -5,4 +5,7 @@ import tailwindcss from '@tailwindcss/vite'
 export default defineConfig({
   plugins: [react(), tailwindcss()],
   cacheDir: '/tmp/vite-cache',
+  build: {
+    cssTarget: ['chrome80', 'safari14', 'firefox80'],
+  },
 })

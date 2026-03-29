@@ -1,29 +1,32 @@
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useCallback } from 'react'
 import { Outlet, useLocation } from 'react-router-dom'
 import Header from './Header'
 import Sidebar from './Sidebar'
 import Footer from './Footer'
 import ScrollToTop from '../ui/ScrollToTop'
 import AuthModal from '../auth/AuthModal'
-
 export default function Layout() {
   const [sidebarOpen, setSidebarOpen] = useState(false)
   const [authOpen, setAuthOpen] = useState(false)
   const location = useLocation()
 
-  // 手机端路由切换时关闭侧边栏
+  const closeSidebar = useCallback(() => setSidebarOpen(false), [])
+
+  // 侧边栏打开时锁定 body 滚动，防止触摸被误判为滚动
   useEffect(() => {
-    // 仅在小屏时自动关闭
-    if (window.innerWidth < 768) {
-      setSidebarOpen(false)
+    if (sidebarOpen && window.innerWidth < 1024) {
+      document.body.style.overflow = 'hidden'
+      return () => { document.body.style.overflow = '' }
     }
-  }, [location.pathname])
+  }, [sidebarOpen])
 
   return (
     <div className="min-h-screen flex flex-col">
       <Header
         onToggleSidebar={() => setSidebarOpen(!sidebarOpen)}
+        onCloseSidebar={closeSidebar}
         onOpenAuth={() => setAuthOpen(true)}
+        sidebarOpen={sidebarOpen}
       />
 
       <div className="flex flex-1">
@@ -38,20 +41,27 @@ export default function Layout() {
           </div>
         </aside>
 
-        {/* 手机端：覆盖层侧边栏 */}
+        {/* 手机端：覆盖层侧边栏（全屏，从顶部覆盖 header） */}
         <div className="lg:hidden">
-          <div
-            className={`fixed inset-0 bg-black/40 z-40 transition-opacity duration-300 ${
+          <button
+            type="button"
+            aria-label="关闭菜单"
+            className={`fixed inset-0 w-full h-full bg-black/40 z-40 transition-opacity duration-300 border-none outline-none cursor-default ${
               sidebarOpen ? 'opacity-100' : 'opacity-0 pointer-events-none'
             }`}
-            onClick={() => setSidebarOpen(false)}
+            onClick={closeSidebar}
+            onTouchEnd={closeSidebar}
           />
           <aside
-            className={`fixed right-0 top-14 bottom-0 w-72 bg-stone-card border-l border-stone-border z-50 shadow-xl overflow-hidden transition-transform duration-300 ease-out ${
+            className={`fixed right-0 top-0 bottom-0 w-72 bg-stone-card border-l border-stone-border z-50 shadow-xl overflow-hidden transition-transform duration-300 ease-out flex flex-col ${
               sidebarOpen ? 'translate-x-0' : 'translate-x-full'
             }`}
           >
-            <Sidebar onNavigate={() => setSidebarOpen(false)} />
+            {/* 顶部占位：与 header 等高，让 header 中的 X 按钮在视觉上对齐 */}
+            <div className="h-14 shrink-0" />
+            <div className="flex-1 min-h-0">
+              <Sidebar />
+            </div>
           </aside>
         </div>
 

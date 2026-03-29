@@ -1,8 +1,19 @@
 import { useState, useEffect, useRef } from 'react'
-import { Link, useLocation, useParams, useNavigate } from 'react-router-dom'
+import { Link, useLocation, useParams, useNavigate, useSearchParams } from 'react-router-dom'
 import { useApp } from '../../context/AppContext'
 import { Icon } from '../../utils/icons'
 import ThemeToggle from '../ui/ThemeToggle'
+import articleRegistry from '../../data/article-registry.json'
+
+// 名人堂分类（轻量副本，避免 import hallOfFame.js 拉入全量数据）
+const hallOfFameMainOrder = ['elite', 'explorer', 'legend', 'innovator', 'chinese-rep']
+const hallOfFameMainLabels = {
+  elite:         { zh: '竞技运动员', en: 'Competition Athletes', ko: '대회 선수' },
+  explorer:      { zh: '攀岩探险家', en: 'Adventure Climbers', ko: '모험 클라이머' },
+  legend:        { zh: '历史先驱', en: 'Pioneering Legends', ko: '역사적 선구자' },
+  innovator:     { zh: '训练革新', en: 'Training Innovators', ko: '훈련 혁신가' },
+  'chinese-rep': { zh: '中国运动员', en: 'Chinese Athletes', ko: '중국 선수' },
+}
 
 const langOptions = [
   { code: 'zh', label: '中文' },
@@ -88,148 +99,206 @@ export default function Sidebar({ onNavigate }) {
   const { sectionSlug, subSlug } = useParams()
   const location = useLocation()
   const navigate = useNavigate()
-  const [manualExpanded, setManualExpanded] = useState(null)
+  const [searchParams] = useSearchParams()
+
+  // 各模块展开状态
+  const [knowledgeOpen, setKnowledgeOpen] = useState(false)
+  const [articlesOpen, setArticlesOpen] = useState(false)
+  const [hallOfFameOpen, setHallOfFameOpen] = useState(false)
+  // expandedSection: slug = 展开, null = 用户未手动操作, '__none__' = 用户主动全部折叠
+  const [expandedSection, setExpandedSection] = useState(null)
+
   const knowledgeActive = location.pathname === '/knowledge' || location.pathname.startsWith('/section')
   const articlesActive = location.pathname.startsWith('/articles')
   const hallOfFameActive = location.pathname.startsWith('/hall-of-fame')
   const injuriesActive = location.pathname.startsWith('/injuries')
-  const expanded = sectionSlug || manualExpanded
+  const activeHallOfFameCategory = hallOfFameActive ? searchParams.get('category') : null
 
-  const toggleSection = (slug) => {
-    setManualExpanded(expanded === slug ? null : slug)
-  }
+  // 根据当前页面自动展开对应模块
+  useEffect(() => {
+    if (knowledgeActive) {
+      setKnowledgeOpen(true)
+      if (sectionSlug) setExpandedSection(sectionSlug)
+    }
+    if (articlesActive) setArticlesOpen(true)
+    if (hallOfFameActive) setHallOfFameOpen(true)
+  }, [])
 
   const handleSectionClick = (section) => {
-    onNavigate?.()
-    if (sectionSlug !== section.slug) {
-      navigate(`/section/${section.slug}`)
+    const currentExpanded = expandedSection === '__none__' ? null : (expandedSection || sectionSlug)
+    if (currentExpanded === section.slug) {
+      // 已展开 → 折叠
+      setExpandedSection('__none__')
+    } else {
+      // 未展开 → 展开 + 跳转
+      setExpandedSection(section.slug)
+      if (sectionSlug !== section.slug) {
+        navigate(`/section/${section.slug}`)
+      }
     }
-    setManualExpanded(expanded === section.slug ? null : section.slug)
   }
 
+  // expandedSection 优先：用户手动操作 > URL 自动推断
+  const actualExpanded = expandedSection === '__none__' ? null : (expandedSection || sectionSlug)
+
+  // 专栏分类
+  const articleCategories = articleRegistry.categories || []
+
+  // 名人堂分类
+  const hallOfFameItems = hallOfFameMainOrder.map((key) => ({
+    key,
+    label: hallOfFameMainLabels[key]?.[lang] || hallOfFameMainLabels[key]?.zh || key,
+  }))
+
   return (
-    <nav className="h-full overflow-y-auto py-3 px-2 flex flex-col">
-      <Link
-        to="/"
-        onClick={onNavigate}
-        className="flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium hover:bg-stone-bg transition-colors mb-1"
-      >
-        <Icon name="home" size={16} />
-        <span>{lang === 'zh' ? '首页' : lang === 'en' ? 'Home' : '홈'}</span>
-      </Link>
+    <nav className="h-full flex flex-col">
+      {/* 可滚动区域 */}
+      <div className="flex-1 min-h-0 overflow-y-auto py-3 px-2">
+        <Link
+          to="/"
+          className="flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium hover:bg-stone-bg transition-colors mb-1"
+        >
+          <Icon name="home" size={16} />
+          <span>{lang === 'zh' ? '首页' : lang === 'en' ? 'Home' : '홈'}</span>
+        </Link>
 
-      <Link
-        to="/knowledge"
-        onClick={onNavigate}
-        className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
-          knowledgeActive ? 'bg-forest-light text-forest' : 'hover:bg-stone-bg'
-        }`}
-      >
-        <Icon name="book" size={16} />
-        <span>{lang === 'zh' ? '攀岩知识库' : lang === 'en' ? 'Knowledge Base' : '지식 라이브러리'}</span>
-      </Link>
-
-      <Link
-        to="/articles"
-        onClick={onNavigate}
-        className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
-          articlesActive ? 'bg-teal-light text-teal' : 'hover:bg-stone-bg'
-        }`}
-      >
-        <Icon name="fileText" size={16} />
-        <span>{lang === 'zh' ? '攀岩专栏' : lang === 'en' ? 'Climbing Column' : '클라이밍 칼럼'}</span>
-      </Link>
-
-      <Link
-        to="/hall-of-fame"
-        onClick={onNavigate}
-        className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
-          hallOfFameActive ? 'bg-gold-light text-gold' : 'hover:bg-stone-bg'
-        }`}
-      >
-        <Icon name="trophy" size={16} />
-        <span>{lang === 'zh' ? '攀岩名人堂' : lang === 'en' ? 'Hall of Fame' : '명예의 전당'}</span>
-      </Link>
-
-      <Link
-        to="/injuries"
-        onClick={onNavigate}
-        className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
-          injuriesActive ? 'bg-amber-light text-amber' : 'hover:bg-stone-bg'
-        }`}
-      >
-        <Icon name="medkit" size={16} />
-        <span>{lang === 'zh' ? '伤痛档案' : lang === 'en' ? 'Injury Archive' : '부상 기록'}</span>
-      </Link>
-
-      <div className="mt-2 space-y-0.5">
-        {sections.map((section) => {
-          const isActive = sectionSlug === section.slug
-          const isExpanded = expanded === section.slug
-
-          return (
-            <div key={section.id}>
-              <button
-                onClick={() => handleSectionClick(section)}
-                className={`w-full flex items-center gap-2 px-3 py-2 rounded-lg text-sm transition-colors ${
-                  isActive ? 'bg-forest-light text-forest font-medium' : 'hover:bg-stone-bg'
-                }`}
-              >
-                <span
-                  className="w-5 h-5 rounded flex items-center justify-center text-white text-xs shrink-0"
-                  style={{ backgroundColor: section.color }}
-                >
-                  {section.number}
-                </span>
-                <span className="flex-1 text-left truncate">{t(section.title)}</span>
-                <Icon
-                  name={isExpanded ? 'chevronDown' : 'chevronRight'}
-                  size={14}
-                  className={`text-text-secondary shrink-0 transition-transform duration-200 ${
-                    isExpanded ? 'rotate-0' : ''
-                  }`}
-                />
-              </button>
-
-              <AccordionPanel isOpen={isExpanded}>
-                <div className="ml-7 mt-0.5 space-y-0.5 pb-1">
-                  <Link
-                    to={`/section/${section.slug}`}
-                    onClick={onNavigate}
-                    className={`block px-3 py-1.5 rounded text-xs transition-colors ${
-                      isActive && !subSlug
-                        ? 'text-forest font-medium bg-forest-light'
-                        : 'text-text-secondary hover:text-text-primary hover:bg-stone-bg'
+        {/* ── 攀岩知识库 ── */}
+        <button
+          onClick={() => setKnowledgeOpen(!knowledgeOpen)}
+          className={`w-full flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
+            knowledgeActive ? 'bg-forest-light text-forest' : 'hover:bg-stone-bg'
+          }`}
+        >
+          <Icon name="book" size={16} />
+          <span className="flex-1 text-left">{lang === 'zh' ? '攀岩知识库' : lang === 'en' ? 'Knowledge Base' : '지식 라이브러리'}</span>
+          <Icon name={knowledgeOpen ? 'chevronDown' : 'chevronRight'} size={14} className="text-text-secondary shrink-0" />
+        </button>
+        <AccordionPanel isOpen={knowledgeOpen}>
+          <div className="ml-2 mt-0.5 space-y-0.5">
+            {sections.map((section) => {
+              const isActive = sectionSlug === section.slug
+              const isExpanded = actualExpanded === section.slug
+              return (
+                <div key={section.id}>
+                  <button
+                    onClick={() => handleSectionClick(section)}
+                    className={`w-full flex items-center gap-2 px-3 py-2 rounded-lg text-sm transition-colors ${
+                      isActive ? 'bg-forest-light text-forest font-medium' : 'hover:bg-stone-bg'
                     }`}
                   >
-                    {lang === 'zh' ? '概览' : lang === 'en' ? 'Overview' : '개요'}
-                  </Link>
-                  {section.subSections.map((sub) => {
-                    const isSubActive = isActive && subSlug === sub.slug
-                    return (
+                    <span className="w-5 h-5 rounded flex items-center justify-center text-white text-xs shrink-0" style={{ backgroundColor: section.color }}>
+                      {section.number}
+                    </span>
+                    <span className="flex-1 text-left truncate">{t(section.title)}</span>
+                    <Icon name={isExpanded ? 'chevronDown' : 'chevronRight'} size={14} className="text-text-secondary shrink-0" />
+                  </button>
+                  <AccordionPanel isOpen={isExpanded}>
+                    <div className="ml-7 mt-0.5 space-y-0.5 pb-1">
                       <Link
-                        key={sub.id}
-                        to={`/section/${section.slug}/${sub.slug}`}
-                        onClick={onNavigate}
+                        to={`/section/${section.slug}`}
                         className={`block px-3 py-1.5 rounded text-xs transition-colors ${
-                          isSubActive
-                            ? 'text-forest font-medium bg-forest-light'
-                            : 'text-text-secondary hover:text-text-primary hover:bg-stone-bg'
+                          isActive && !subSlug ? 'text-forest font-medium bg-forest-light' : 'text-text-secondary hover:text-text-primary hover:bg-stone-bg'
                         }`}
                       >
-                        {t(sub.title)}
+                        {lang === 'zh' ? '概览' : lang === 'en' ? 'Overview' : '개요'}
                       </Link>
-                    )
-                  })}
+                      {section.subSections.map((sub) => {
+                        const isSubActive = isActive && subSlug === sub.slug
+                        return (
+                          <Link
+                            key={sub.id}
+                            to={`/section/${section.slug}/${sub.slug}`}
+                            className={`block px-3 py-1.5 rounded text-xs transition-colors ${
+                              isSubActive ? 'text-forest font-medium bg-forest-light' : 'text-text-secondary hover:text-text-primary hover:bg-stone-bg'
+                            }`}
+                          >
+                            {t(sub.title)}
+                          </Link>
+                        )
+                      })}
+                    </div>
+                  </AccordionPanel>
                 </div>
-              </AccordionPanel>
-            </div>
-          )
-        })}
+              )
+            })}
+          </div>
+        </AccordionPanel>
+
+        {/* ── 攀岩专栏 ── */}
+        <button
+          onClick={() => setArticlesOpen(!articlesOpen)}
+          className={`w-full flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
+            articlesActive ? 'bg-teal-light text-teal' : 'hover:bg-stone-bg'
+          }`}
+        >
+          <Icon name="fileText" size={16} />
+          <span className="flex-1 text-left">{lang === 'zh' ? '攀岩专栏' : lang === 'en' ? 'Climbing Column' : '클라이밍 칼럼'}</span>
+          <Icon name={articlesOpen ? 'chevronDown' : 'chevronRight'} size={14} className="text-text-secondary shrink-0" />
+        </button>
+        <AccordionPanel isOpen={articlesOpen}>
+          <div className="ml-6 mt-0.5 space-y-0.5 pb-1">
+            {articleCategories.map((cat) => {
+              const catActive = location.pathname === `/articles/category/${cat.id}`
+              return (
+                <Link
+                  key={cat.id}
+                  to={`/articles/category/${cat.id}`}
+                  className={`block px-3 py-1.5 rounded text-xs transition-colors ${
+                    catActive ? 'font-medium bg-teal-light' : 'text-text-secondary hover:text-text-primary hover:bg-stone-bg'
+                  }`}
+                  style={catActive ? { color: cat.color } : undefined}
+                >
+                  {t(cat.title)}
+                </Link>
+              )
+            })}
+          </div>
+        </AccordionPanel>
+
+        {/* ── 攀岩名人堂 ── */}
+        <button
+          onClick={() => setHallOfFameOpen(!hallOfFameOpen)}
+          className={`w-full flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
+            hallOfFameActive ? 'bg-gold-light text-gold' : 'hover:bg-stone-bg'
+          }`}
+        >
+          <Icon name="trophy" size={16} />
+          <span className="flex-1 text-left">{lang === 'zh' ? '攀岩名人堂' : lang === 'en' ? 'Hall of Fame' : '명예의 전당'}</span>
+          <Icon name={hallOfFameOpen ? 'chevronDown' : 'chevronRight'} size={14} className="text-text-secondary shrink-0" />
+        </button>
+        <AccordionPanel isOpen={hallOfFameOpen}>
+          <div className="ml-6 mt-0.5 space-y-0.5 pb-1">
+            {hallOfFameItems.map((item) => {
+              const isItemActive = activeHallOfFameCategory === item.key
+              return (
+                <Link
+                  key={item.key}
+                  to={`/hall-of-fame?category=${item.key}`}
+                  className={`block px-3 py-1.5 rounded text-xs transition-colors ${
+                    isItemActive ? 'text-gold font-medium bg-gold-light' : 'text-text-secondary hover:text-text-primary hover:bg-stone-bg'
+                  }`}
+                >
+                  {item.label}
+                </Link>
+              )
+            })}
+          </div>
+        </AccordionPanel>
+
+        {/* ── 伤痛档案（无子目录） ── */}
+        <Link
+          to="/injuries"
+          className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
+            injuriesActive ? 'bg-amber-light text-amber' : 'hover:bg-stone-bg'
+          }`}
+        >
+          <Icon name="medkit" size={16} />
+          <span>{lang === 'zh' ? '伤痛档案' : lang === 'en' ? 'Injury Archive' : '부상 기록'}</span>
+        </Link>
       </div>
 
-      {/* 语言切换 + 暗色模式 — 仅移动端可见（桌面端在 Header 中） */}
-      <div className="lg:hidden px-3 py-2 mt-auto border-t border-stone-border flex items-center justify-between">
+      {/* 底部固定区：语言切换 + 暗色模式 — 仅移动端 */}
+      <div className="lg:hidden shrink-0 px-4 py-3 border-t border-stone-border flex items-center justify-between">
         <ThemeToggle size={18} className="w-8 h-8" />
         <MobileLangDropdown lang={lang} setLang={setLang} />
       </div>
