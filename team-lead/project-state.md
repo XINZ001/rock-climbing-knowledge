@@ -55,7 +55,9 @@ rock-climbing/
 │   ├── climbing-knowledge-framework.md
 │   ├── training-framework.md
 │   ├── athlete-framework.md
-│   └── content-integration-plan.md
+│   ├── content-integration-plan.md
+│   ├── content-search-alignment-guide.md
+│   └── search-architecture-research.md
 ├── video-researcher/
 ├── article-researcher/
 ├── prompt-engineer/
@@ -86,6 +88,8 @@ rock-climbing/
 | `rock-climbing-knowledge/src/data/illustration-registry.json` | KP 对应插图 | 当前前端消费的插图真源 |
 | `rock-climbing-knowledge/src/data/training-registry.json` | 训练卡注册表 | 当前为空壳 |
 | `rock-climbing-knowledge/src/data/athlete-registry.json` | 运动员注册表 | 当前为空壳 |
+| `rock-climbing-knowledge/src/data/search-synonyms.json` | 搜索同义词映射 | 搜索扩展 |
+| `rock-climbing-knowledge/src/data/search-stopwords.json` | 停用词表（中/英/韩 2645 词） | Snippet 过滤 |
 
 ### 4.2 研究与中间产物
 

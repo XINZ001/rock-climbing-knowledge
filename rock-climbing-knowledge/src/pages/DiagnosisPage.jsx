@@ -526,7 +526,7 @@ function PrescriptionPage({ answers, lang, t, onRetake }) {
                       <Link
                         key={kp.id}
                         to={`/section/${kp.sectionSlug}/${kp.subSectionSlug}#${kp.id}`}
-                        className="group flex items-center gap-2.5 rounded-lg border border-stone-border/60 bg-white/50 px-2.5 py-2 hover:border-forest/30 hover:bg-white/80 transition-colors text-xs"
+                        className="group flex items-center gap-2.5 rounded-lg border border-stone-border/60 dark:border-white/10 bg-white/50 dark:bg-white/5 px-2.5 py-2 hover:border-forest/30 hover:bg-white/80 dark:hover:bg-white/10 transition-colors text-xs"
                       >
                         <Icon name="book" size={12} className="text-forest shrink-0" />
                         <span className="font-medium truncate">{t(kp.title)}</span>
@@ -613,7 +613,7 @@ function PrescriptionPage({ answers, lang, t, onRetake }) {
                   <Link
                     key={kp.id}
                     to={`/section/${kp.sectionSlug}/${kp.subSectionSlug}#${kp.id}`}
-                    className="group flex items-center gap-3 rounded-xl border border-stone-border bg-stone-bg/50 px-3 py-2.5 hover:border-forest/30 hover:bg-forest-light/20 transition-colors"
+                    className="group flex items-center gap-3 rounded-xl border border-stone-border dark:border-white/10 bg-stone-bg/50 dark:bg-white/5 px-3 py-2.5 hover:border-forest/30 hover:bg-forest-light/20 dark:hover:bg-white/10 transition-colors"
                   >
                     <span className="w-8 h-8 rounded-lg bg-forest/10 flex items-center justify-center shrink-0 group-hover:bg-forest/20 transition-colors">
                       <Icon name="book" size={14} className="text-forest" />

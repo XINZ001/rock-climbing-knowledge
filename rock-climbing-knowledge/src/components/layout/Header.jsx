@@ -164,7 +164,7 @@ export default function Header({ onToggleSidebar, onOpenAuth }) {
   ]
 
   return (
-    <header className={`sticky top-0 z-40 border-b border-stone-border header-glass ${scrolled ? 'header-scrolled bg-stone-card/80' : 'bg-stone-card'}`}>
+    <header className={`sticky top-0 z-40 border-b border-stone-border header-glass header-scrolled ${scrolled ? 'bg-stone-card/80' : 'bg-stone-card/90'}`}>
       <div className="flex items-center px-4 h-14">
         {/* 左侧：Logo + 菜单按钮（桌面端） */}
         <div className="flex items-center gap-1 shrink-0">
