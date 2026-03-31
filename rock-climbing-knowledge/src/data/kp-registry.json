@@ -1,8 +1,8 @@
 {
   "_meta": {
     "description": "Knowledge Point Registry - Master index of all knowledge points in the climbing knowledge base",
-    "generatedAt": "2026-03-01T21:32:19.263Z",
-    "totalCount": 177,
+    "generatedAt": "2026-03-31T00:00:00.000Z",
+    "totalCount": 202,
     "usage": "This file is the single source of truth for all knowledge point IDs, keywords, and status tracking. Update this file whenever knowledge points are added, removed, or enriched with new content (illustrations, videos, etc.)"
   },
   "registry": [
@@ -1926,54 +1926,6 @@
       }
     },
     {
-      "id": "kp-crimp-hold",
-      "path": "technique/handholds",
-      "sectionId": "section-03",
-      "sectionSlug": "technique",
-      "sectionTitle": {
-        "zh": "攀爬技术",
-        "en": "Climbing Technique",
-        "ko": "클라이밍 테크닉"
-      },
-      "subSectionId": "s03-handholds",
-      "subSectionSlug": "handholds",
-      "subSectionTitle": {
-        "zh": "手法与抓握",
-        "en": "Handholds & Gripping",
-        "ko": "홀드와 그립"
-      },
-      "title": {
-        "zh": "抠点与捏握（Crimp）",
-        "en": "Crimp Holds",
-        "ko": "크림프 홀드"
-      },
-      "keywords": [
-        "抠点",
-        "crimp",
-        "全捏握",
-        "full crimp",
-        "半捏握",
-        "half crimp",
-        "A2 滑车韧带",
-        "A2 pulley"
-      ],
-      "tags": [
-        "beginner",
-        "technique",
-        "safety"
-      ],
-      "crossRefs": [
-        "kp-grip-types",
-        "kp-pulley-injury",
-        "kp-hangboard-training"
-      ],
-      "status": {
-        "content": "done",
-        "illustration": "pending",
-        "video": "pending"
-      }
-    },
-    {
       "id": "kp-sloper-hold",
       "path": "technique/handholds",
       "sectionId": "section-03",
@@ -2258,54 +2210,6 @@
       }
     },
     {
-      "id": "kp-center-of-gravity",
-      "path": "technique/body-positioning",
-      "sectionId": "section-03",
-      "sectionSlug": "technique",
-      "sectionTitle": {
-        "zh": "攀爬技术",
-        "en": "Climbing Technique",
-        "ko": "클라이밍 테크닉"
-      },
-      "subSectionId": "s03-positioning",
-      "subSectionSlug": "body-positioning",
-      "subSectionTitle": {
-        "zh": "身体定位与重心",
-        "en": "Body Positioning",
-        "ko": "자세와 무게중심"
-      },
-      "title": {
-        "zh": "重心管理",
-        "en": "Center of Gravity Management",
-        "ko": "무게중심"
-      },
-      "keywords": [
-        "重心",
-        "center of gravity (COG)",
-        "伸直手臂",
-        "straight arms",
-        "骨骼承重",
-        "skeletal loading",
-        "侧身入墙",
-        "turning in"
-      ],
-      "tags": [
-        "beginner",
-        "technique"
-      ],
-      "crossRefs": [
-        "kp-flagging",
-        "kp-drop-knee",
-        "kp-slab-technique",
-        "kp-aerobic-endurance"
-      ],
-      "status": {
-        "content": "done",
-        "illustration": "pending",
-        "video": "pending"
-      }
-    },
-    {
       "id": "kp-flagging",
       "path": "technique/body-positioning",
       "sectionId": "section-03",
@@ -2343,7 +2247,7 @@
         "technique"
       ],
       "crossRefs": [
-        "kp-center-of-gravity",
+        "kp-cog-principles",
         "kp-twist-lock",
         "kp-drop-knee"
       ],
@@ -2530,7 +2434,7 @@
         "technique"
       ],
       "crossRefs": [
-        "kp-center-of-gravity",
+        "kp-cog-principles",
         "kp-flagging"
       ],
       "status": {
@@ -2576,9 +2480,9 @@
         "technique"
       ],
       "crossRefs": [
-        "kp-center-of-gravity",
+        "kp-cog-principles",
         "kp-slab-technique",
-        "kp-crack-technique"
+        "kp-crack-hand-jam"
       ],
       "status": {
         "content": "done",
@@ -2621,7 +2525,7 @@
         "technique"
       ],
       "crossRefs": [
-        "kp-crack-technique",
+        "kp-crack-hand-jam",
         "kp-arete-mantle",
         "kp-undercling-sidepull-gaston"
       ],
@@ -2669,7 +2573,7 @@
       ],
       "crossRefs": [
         "kp-hip-flexibility",
-        "kp-center-of-gravity"
+        "kp-cog-principles"
       ],
       "status": {
         "content": "done",
@@ -3094,72 +2998,6 @@
         "kp-heel-hook",
         "kp-bicycle",
         "kp-core-role"
-      ],
-      "status": {
-        "content": "done",
-        "illustration": "pending",
-        "video": "pending"
-      }
-    },
-    {
-      "id": "kp-crack-technique",
-      "path": "technique/terrain",
-      "sectionId": "section-03",
-      "sectionSlug": "technique",
-      "sectionTitle": {
-        "zh": "攀爬技术",
-        "en": "Climbing Technique",
-        "ko": "클라이밍 테크닉"
-      },
-      "subSectionId": "s03-terrain",
-      "subSectionSlug": "terrain",
-      "subSectionTitle": {
-        "zh": "特殊地形技术",
-        "en": "Terrain-Specific Techniques",
-        "ko": "지형별 테크닉"
-      },
-      "title": {
-        "zh": "裂缝技术（Crack）",
-        "en": "Crack Climbing Technique",
-        "ko": "크랙 테크닉"
-      },
-      "keywords": [
-        "裂缝攀岩",
-        "crack climbing",
-        "手塞",
-        "hand jam",
-        "拳塞",
-        "fist jam",
-        "指锁",
-        "finger lock",
-        "薄手塞",
-        "thin hand jam",
-        "环锁",
-        "ring lock",
-        "臂锁",
-        "arm lock",
-        "脚塞",
-        "foot jam",
-        "指叠",
-        "finger stacking",
-        "宽缝",
-        "off-width",
-        "烟囱",
-        "chimney",
-        "胶带手套",
-        "tape glove"
-      ],
-      "tags": [
-        "intermediate",
-        "advanced",
-        "technique"
-      ],
-      "crossRefs": [
-        "kp-climbing-categories",
-        "kp-fall-technique",
-        "kp-harness",
-        "kp-layback",
-        "kp-stemming"
       ],
       "status": {
         "content": "done",
@@ -3952,7 +3790,7 @@
         "gear"
       ],
       "crossRefs": [
-        "kp-crimp-hold",
+        "kp-full-crimp",
         "kp-sloper-hold"
       ],
       "status": {
@@ -4296,7 +4134,7 @@
         "safety"
       ],
       "crossRefs": [
-        "kp-crack-technique",
+        "kp-crack-hand-jam",
         "kp-rope"
       ],
       "status": {
@@ -4346,7 +4184,7 @@
         "safety"
       ],
       "crossRefs": [
-        "kp-crack-technique",
+        "kp-crack-hand-jam",
         "kp-rope",
         "kp-nuts-stoppers"
       ],
@@ -4395,7 +4233,7 @@
         "gear"
       ],
       "crossRefs": [
-        "kp-crack-technique",
+        "kp-crack-hand-jam",
         "kp-cams",
         "kp-nuts-stoppers"
       ],
@@ -4789,7 +4627,7 @@
         "kp-hangboard-training",
         "kp-overhang-technique",
         "kp-dyno-technique",
-        "kp-crimp-hold"
+        "kp-full-crimp"
       ],
       "status": {
         "content": "done",
@@ -5546,7 +5384,7 @@
       ],
       "crossRefs": [
         "kp-grip-types",
-        "kp-crimp-hold",
+        "kp-full-crimp",
         "kp-warmup",
         "kp-hangboard-training"
       ],
@@ -5696,7 +5534,7 @@
         "health"
       ],
       "crossRefs": [
-        "kp-crimp-hold",
+        "kp-full-crimp",
         "kp-sloper-hold"
       ],
       "status": {
@@ -6431,7 +6269,7 @@
       ],
       "crossRefs": [
         "kp-slab-technique",
-        "kp-crack-technique",
+        "kp-crack-hand-jam",
         "kp-climbing-shoes"
       ],
       "status": {
@@ -6633,7 +6471,7 @@
         "safety"
       ],
       "crossRefs": [
-        "kp-crack-technique",
+        "kp-crack-hand-jam",
         "kp-fall-technique",
         "kp-rope"
       ],
@@ -6737,7 +6575,7 @@
         "technique"
       ],
       "crossRefs": [
-        "kp-crack-technique",
+        "kp-crack-hand-jam",
         "kp-climbing-shoes",
         "kp-edging"
       ],
@@ -6839,7 +6677,7 @@
       ],
       "crossRefs": [
         "kp-route-reading-basics",
-        "kp-crimp-hold",
+        "kp-full-crimp",
         "kp-slab-technique"
       ],
       "status": {
@@ -7038,7 +6876,7 @@
         "technique"
       ],
       "crossRefs": [
-        "kp-crack-technique",
+        "kp-crack-hand-jam",
         "kp-placing-protection",
         "kp-rope"
       ],
@@ -7138,7 +6976,7 @@
       "crossRefs": [
         "kp-rock-types",
         "kp-climbing-shoes",
-        "kp-crack-technique"
+        "kp-crack-hand-jam"
       ],
       "status": {
         "content": "done",
@@ -7983,7 +7821,7 @@
       ],
       "crossRefs": [
         "kp-dyno-technique",
-        "kp-crimp-hold",
+        "kp-full-crimp",
         "kp-toe-hook",
         "kp-route-reading-basics"
       ],
@@ -8629,6 +8467,1359 @@
         "content": "done",
         "illustration": "pending",
         "video": "pending"
+      }
+    },
+    {
+      "id": "kp-climbing-physics-basics",
+      "path": "technique/movement-principles",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique",
+        "ko": "클라이밍 테크닉"
+      },
+      "subSectionId": "s03-principles",
+      "subSectionSlug": "movement-principles",
+      "subSectionTitle": {
+        "zh": "攀岩运动原理",
+        "en": "Movement Principles",
+        "ko": "클라이밍 운동 원리"
+      },
+      "title": {
+        "zh": "攀岩中的力学基础",
+        "en": "Fundamental Physics in Climbing",
+        "ko": "클라이밍의 기본 물리학"
+      },
+      "keywords": [],
+      "tags": [
+        "beginner",
+        "technique",
+        "physics",
+        "foundation"
+      ],
+      "crossRefs": [
+        "kp-smearing",
+        "kp-edging",
+        "kp-cog-principles"
+      ],
+      "status": {
+        "hasIllustration": false,
+        "hasVideo": false,
+        "hasExpertInsight": true,
+        "hasFurtherReading": true
+      }
+    },
+    {
+      "id": "kp-inertia-momentum",
+      "path": "technique/movement-principles",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique",
+        "ko": "클라이밍 테크닉"
+      },
+      "subSectionId": "s03-principles",
+      "subSectionSlug": "movement-principles",
+      "subSectionTitle": {
+        "zh": "攀岩运动原理",
+        "en": "Movement Principles",
+        "ko": "클라이밍 운동 원리"
+      },
+      "title": {
+        "zh": "惯性与动量：流畅动作的物理基础",
+        "en": "Inertia and Momentum: The Physics of Flowing Movement",
+        "ko": "관성과 운동량: 부드러운 동작의 물리학"
+      },
+      "keywords": [],
+      "tags": [
+        "intermediate",
+        "technique",
+        "physics",
+        "dynamics"
+      ],
+      "crossRefs": [
+        "kp-deadpoint",
+        "kp-dyno-technique",
+        "kp-swing-momentum"
+      ],
+      "status": {
+        "hasIllustration": false,
+        "hasVideo": false,
+        "hasExpertInsight": true,
+        "hasFurtherReading": true
+      }
+    },
+    {
+      "id": "kp-action-reaction",
+      "path": "technique/movement-principles",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique",
+        "ko": "클라이밍 테크닉"
+      },
+      "subSectionId": "s03-principles",
+      "subSectionSlug": "movement-principles",
+      "subSectionTitle": {
+        "zh": "攀岩运动原理",
+        "en": "Movement Principles",
+        "ko": "클라이밍 운동 원리"
+      },
+      "title": {
+        "zh": "作用力与反作用力：理解50%攀岩动作的核心",
+        "en": "Action and Reaction: The Foundation of Opposition Climbing",
+        "ko": "작용력과 반작용력: 대항 클라이밍의 기초"
+      },
+      "keywords": [],
+      "tags": [
+        "intermediate",
+        "technique",
+        "physics",
+        "opposition"
+      ],
+      "crossRefs": [
+        "kp-stemming",
+        "kp-layback",
+        "kp-undercling-sidepull-gaston",
+        "kp-opposition-compression"
+      ],
+      "status": {
+        "hasIllustration": false,
+        "hasVideo": false,
+        "hasExpertInsight": true,
+        "hasFurtherReading": true
+      }
+    },
+    {
+      "id": "kp-lever-biomechanics",
+      "path": "technique/movement-principles",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique",
+        "ko": "클라이밍 테크닉"
+      },
+      "subSectionId": "s03-principles",
+      "subSectionSlug": "movement-principles",
+      "subSectionTitle": {
+        "zh": "攀岩运动原理",
+        "en": "Movement Principles",
+        "ko": "클라이밍 운동 원리"
+      },
+      "title": {
+        "zh": "杠杆原理与人体力学",
+        "en": "Lever Principles and Human Biomechanics",
+        "ko": "지렛대 원리와 인체 생역학"
+      },
+      "keywords": [],
+      "tags": [
+        "intermediate",
+        "technique",
+        "biomechanics",
+        "physics"
+      ],
+      "crossRefs": [
+        "kp-twist-lock",
+        "kp-drop-knee",
+        "kp-climbing-posture"
+      ],
+      "status": {
+        "hasIllustration": false,
+        "hasVideo": false,
+        "hasExpertInsight": true,
+        "hasFurtherReading": true
+      }
+    },
+    {
+      "id": "kp-kinetic-chain",
+      "path": "technique/movement-principles",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique",
+        "ko": "클라이밍 테크닉"
+      },
+      "subSectionId": "s03-principles",
+      "subSectionSlug": "movement-principles",
+      "subSectionTitle": {
+        "zh": "攀岩运动原理",
+        "en": "Movement Principles",
+        "ko": "클라이밍 운동 원리"
+      },
+      "title": {
+        "zh": "动力链：从脚到指尖的发力传导",
+        "en": "The Kinetic Chain: Force Transmission from Ground to Fingers",
+        "ko": "운동 연쇄: 땅에서 손가락까지의 힘 전달"
+      },
+      "keywords": [],
+      "tags": [
+        "intermediate",
+        "technique",
+        "biomechanics",
+        "foundation"
+      ],
+      "crossRefs": [
+        "kp-hip-control",
+        "kp-climbing-posture",
+        "kp-cog-movement"
+      ],
+      "status": {
+        "hasIllustration": false,
+        "hasVideo": false,
+        "hasExpertInsight": true,
+        "hasFurtherReading": true
+      }
+    },
+    {
+      "id": "kp-foot-precision",
+      "path": "technique/footwork",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique",
+        "ko": "클라이밍 테크닉"
+      },
+      "subSectionId": "s03-footwork",
+      "subSectionSlug": "footwork",
+      "subSectionTitle": {
+        "zh": "脚法",
+        "en": "Footwork",
+        "ko": "발 기술"
+      },
+      "title": {
+        "zh": "踩点精度训练",
+        "en": "Foot Placement Precision",
+        "ko": "발 디딤점 정확도 훈련"
+      },
+      "keywords": [
+        "静音脚法",
+        "silent feet",
+        "精确踩点",
+        "precision placement",
+        "一步到位",
+        "one-touch placement",
+        "视觉锁定",
+        "visual tracking"
+      ],
+      "tags": [
+        "beginner",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-edging",
+        "kp-smearing",
+        "kp-climbing-posture",
+        "kp-foot-switching"
+      ],
+      "status": {
+        "hasIllustration": false,
+        "hasVideo": false,
+        "hasExpertInsight": true,
+        "hasFurtherReading": true
+      }
+    },
+    {
+      "id": "kp-claw-hook-grip",
+      "path": "technique/handholds",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique",
+        "ko": "클라이밍 테크닉"
+      },
+      "subSectionId": "s03-handholds",
+      "subSectionSlug": "handholds",
+      "subSectionTitle": {
+        "zh": "手法与抓握",
+        "en": "Handholds & Gripping",
+        "ko": "손잡이와 그립 기술"
+      },
+      "title": {
+        "zh": "勾爪扣",
+        "en": "Claw / Hook Grip",
+        "ko": "발톱 갈고리 그립"
+      },
+      "keywords": [
+        "勾爪扣",
+        "claw grip",
+        "指尖勾挂",
+        "fingertip hook",
+        "曲指",
+        "curved fingers",
+        "石灰岩特征",
+        "limestone features"
+      ],
+      "tags": [
+        "intermediate",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-full-crimp",
+        "kp-open-hand-grip",
+        "kp-pocket-hold"
+      ],
+      "status": {
+        "hasIllustration": false,
+        "hasVideo": false,
+        "hasExpertInsight": true,
+        "hasFurtherReading": true
+      }
+    },
+    {
+      "id": "kp-full-crimp",
+      "path": "technique/handholds",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique",
+        "ko": "클라이밍 테크닉"
+      },
+      "subSectionId": "s03-handholds",
+      "subSectionSlug": "handholds",
+      "subSectionTitle": {
+        "zh": "手法与抓握",
+        "en": "Handholds & Gripping",
+        "ko": "손잡이와 그립 기술"
+      },
+      "title": {
+        "zh": "完全封闭抠法（Full Crimp）",
+        "en": "Full Crimp Grip",
+        "ko": "풀 크림프 그립"
+      },
+      "keywords": [
+        "完全封闭抠法",
+        "full crimp",
+        "拇指锁定",
+        "thumb lock",
+        "A2滑车韧带",
+        "A2 pulley ligament",
+        "握力",
+        "grip strength"
+      ],
+      "tags": [
+        "intermediate",
+        "technique",
+        "safety"
+      ],
+      "crossRefs": [
+        "kp-half-crimp",
+        "kp-open-hand-grip",
+        "kp-pulley-injury",
+        "kp-hangboard-training"
+      ],
+      "status": {
+        "hasIllustration": false,
+        "hasVideo": false,
+        "hasExpertInsight": true,
+        "hasFurtherReading": true
+      }
+    },
+    {
+      "id": "kp-half-crimp",
+      "path": "technique/handholds",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique",
+        "ko": "클라이밍 테크닉"
+      },
+      "subSectionId": "s03-handholds",
+      "subSectionSlug": "handholds",
+      "subSectionTitle": {
+        "zh": "手法与抓握",
+        "en": "Handholds & Gripping",
+        "ko": "손잡이와 그립 기술"
+      },
+      "title": {
+        "zh": "半封闭搭法（Half Crimp）",
+        "en": "Half Crimp Grip",
+        "ko": "하프 크림프 그립"
+      },
+      "keywords": [
+        "半封闭搭法",
+        "half crimp",
+        "指关节角度",
+        "DIP angle",
+        "悬挂训练",
+        "hang training",
+        "递进负荷",
+        "progressive overload"
+      ],
+      "tags": [
+        "beginner",
+        "intermediate",
+        "technique",
+        "training"
+      ],
+      "crossRefs": [
+        "kp-full-crimp",
+        "kp-open-hand-grip",
+        "kp-hangboard-training",
+        "kp-grip-strength-progression"
+      ],
+      "status": {
+        "hasIllustration": false,
+        "hasVideo": false,
+        "hasExpertInsight": true,
+        "hasFurtherReading": true
+      }
+    },
+    {
+      "id": "kp-open-hand-grip",
+      "path": "technique/handholds",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique",
+        "ko": "클라이밍 테크닉"
+      },
+      "subSectionId": "s03-handholds",
+      "subSectionSlug": "handholds",
+      "subSectionTitle": {
+        "zh": "手法与抓握",
+        "en": "Handholds & Gripping",
+        "ko": "손잡이와 그립 기술"
+      },
+      "title": {
+        "zh": "开放抓法（Open Hand Grip）",
+        "en": "Open Hand Grip",
+        "ko": "오픈 핸드 그립"
+      },
+      "keywords": [
+        "开放抓法",
+        "open hand grip",
+        "远指关节",
+        "DIP joint",
+        "接触面积",
+        "contact area",
+        "肌腱保护",
+        "tendon protection"
+      ],
+      "tags": [
+        "beginner",
+        "technique",
+        "foundational"
+      ],
+      "crossRefs": [
+        "kp-half-crimp",
+        "kp-full-crimp",
+        "kp-sloper-hold",
+        "kp-slab-technique",
+        "kp-friction-climbing"
+      ],
+      "status": {
+        "hasIllustration": false,
+        "hasVideo": false,
+        "hasExpertInsight": true,
+        "hasFurtherReading": true
+      }
+    },
+    {
+      "id": "kp-knee-bar",
+      "path": "technique/body-positioning",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique",
+        "ko": "클라이밍 테크닉"
+      },
+      "subSectionId": "s03-positioning",
+      "subSectionSlug": "body-positioning",
+      "subSectionTitle": {
+        "zh": "身体定位与重心",
+        "en": "Body Positioning",
+        "ko": "신체 포지셔닝과 무게중심"
+      },
+      "title": {
+        "zh": "挂膝技术",
+        "en": "Knee Bar",
+        "ko": "니 바"
+      },
+      "keywords": [
+        "挂膝",
+        "knee bar",
+        "膝垫",
+        "knee pad",
+        "锁膝",
+        "knee lock",
+        "趾楔",
+        "toe cam"
+      ],
+      "tags": [
+        "intermediate",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-resting-techniques",
+        "kp-roof-technique",
+        "kp-overhang-technique",
+        "kp-action-reaction"
+      ],
+      "status": {
+        "hasIllustration": false,
+        "hasVideo": false,
+        "hasExpertInsight": true,
+        "hasFurtherReading": true
+      }
+    },
+    {
+      "id": "kp-opposition-compression",
+      "path": "technique/body-positioning",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique",
+        "ko": "클라이밍 테크닉"
+      },
+      "subSectionId": "s03-positioning",
+      "subSectionSlug": "body-positioning",
+      "subSectionTitle": {
+        "zh": "身体定位与重心",
+        "en": "Body Positioning",
+        "ko": "신체 포지셔닝과 무게중심"
+      },
+      "title": {
+        "zh": "对抗力与压缩力原理",
+        "en": "Opposition & Compression",
+        "ko": "대향력과 압축력 원리"
+      },
+      "keywords": [
+        "对抗力",
+        "opposition",
+        "压缩力",
+        "compression",
+        "外撑",
+        "stemming",
+        "挤压",
+        "squeeze"
+      ],
+      "tags": [
+        "intermediate",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-stemming",
+        "kp-action-reaction",
+        "kp-diagonal-support",
+        "kp-layback"
+      ],
+      "status": {
+        "hasIllustration": false,
+        "hasVideo": false,
+        "hasExpertInsight": true,
+        "hasFurtherReading": true
+      }
+    },
+    {
+      "id": "kp-push-pull",
+      "path": "technique/body-positioning",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique",
+        "ko": "클라이밍 테크닉"
+      },
+      "subSectionId": "s03-positioning",
+      "subSectionSlug": "body-positioning",
+      "subSectionTitle": {
+        "zh": "身体定位与重心",
+        "en": "Body Positioning",
+        "ko": "신체 포지셔닝과 무게중심"
+      },
+      "title": {
+        "zh": "推拉类动作",
+        "en": "Push-Pull Movements",
+        "ko": "밀기-당기기 동작"
+      },
+      "keywords": [
+        "推",
+        "push",
+        "拉",
+        "pull",
+        "推拉组合",
+        "push-pull combination",
+        "撑",
+        "press"
+      ],
+      "tags": [
+        "intermediate",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-high-step-mantle",
+        "kp-palming",
+        "kp-action-reaction",
+        "kp-climbing-posture"
+      ],
+      "status": {
+        "hasIllustration": false,
+        "hasVideo": false,
+        "hasExpertInsight": true,
+        "hasFurtherReading": true
+      }
+    },
+    {
+      "id": "kp-resting-techniques",
+      "path": "technique/body-positioning",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique",
+        "ko": "클라이밍 테크닉"
+      },
+      "subSectionId": "s03-positioning",
+      "subSectionSlug": "body-positioning",
+      "subSectionTitle": {
+        "zh": "身体定位与重心",
+        "en": "Body Positioning",
+        "ko": "신체 포지셔닝과 무게중심"
+      },
+      "title": {
+        "zh": "休息与恢复技术",
+        "en": "Resting Techniques",
+        "ko": "휴식 기법"
+      },
+      "keywords": [
+        "甩手",
+        "shake out",
+        "无手休息",
+        "no-hands rest",
+        "微休息",
+        "micro-rest",
+        "深呼吸",
+        "deep breathing"
+      ],
+      "tags": [
+        "beginner",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-knee-bar",
+        "kp-stemming",
+        "kp-climbing-posture",
+        "kp-rest-spot-identification"
+      ],
+      "status": {
+        "hasIllustration": false,
+        "hasVideo": false,
+        "hasExpertInsight": true,
+        "hasFurtherReading": true
+      }
+    },
+    {
+      "id": "kp-climbing-posture",
+      "path": "technique/body-positioning",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique",
+        "ko": "클라이밍 테크닉"
+      },
+      "subSectionId": "s03-positioning",
+      "subSectionSlug": "body-positioning",
+      "subSectionTitle": {
+        "zh": "身体定位与重心",
+        "en": "Body Positioning",
+        "ko": "신체 포지셔닝과 무게중심"
+      },
+      "title": {
+        "zh": "攀爬姿态与效率",
+        "en": "Climbing Posture & Efficiency",
+        "ko": "클라이밍 자세와 효율성"
+      },
+      "keywords": [
+        "直臂悬挂",
+        "straight-arm hang",
+        "攀爬经济性",
+        "climbing economy",
+        "安静攀爬",
+        "quiet climbing",
+        "姿态效率",
+        "postural efficiency"
+      ],
+      "tags": [
+        "beginner",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-kinetic-chain",
+        "kp-lever-biomechanics",
+        "kp-resting-techniques",
+        "kp-cog-principles"
+      ],
+      "status": {
+        "hasIllustration": false,
+        "hasVideo": false,
+        "hasExpertInsight": true,
+        "hasFurtherReading": true
+      }
+    },
+    {
+      "id": "kp-cog-principles",
+      "path": "technique/body-positioning",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique",
+        "ko": "클라이밍 테크닉"
+      },
+      "subSectionId": "s03-positioning",
+      "subSectionSlug": "body-positioning",
+      "subSectionTitle": {
+        "zh": "身体定位与重心",
+        "en": "Body Positioning",
+        "ko": "신체 포지셔닝과 무게중심"
+      },
+      "title": {
+        "zh": "重心原理（Center of Gravity Principles）",
+        "en": "Center of Gravity Principles",
+        "ko": "무게중심 원리"
+      },
+      "keywords": [
+        "重心",
+        "center of gravity",
+        "稳定三角",
+        "stability triangle",
+        "骨骼承重",
+        "skeletal loading",
+        "力矩",
+        "torque"
+      ],
+      "tags": [
+        "beginner",
+        "technique",
+        "foundational"
+      ],
+      "crossRefs": [
+        "kp-climbing-physics-basics",
+        "kp-body-tension",
+        "kp-climbing-posture",
+        "kp-slab-technique",
+        "kp-overhang-technique"
+      ],
+      "status": {
+        "hasIllustration": false,
+        "hasVideo": false,
+        "hasExpertInsight": true,
+        "hasFurtherReading": true
+      }
+    },
+    {
+      "id": "kp-cog-movement",
+      "path": "technique/body-positioning",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique",
+        "ko": "클라이밍 테크닉"
+      },
+      "subSectionId": "s03-positioning",
+      "subSectionSlug": "body-positioning",
+      "subSectionTitle": {
+        "zh": "身体定位与重心",
+        "en": "Body Positioning",
+        "ko": "신체 포지셔닝과 무게중심"
+      },
+      "title": {
+        "zh": "重心移动技术（Weight Shifting Techniques）",
+        "en": "Weight Shifting Techniques",
+        "ko": "무게중심 이동 기술"
+      },
+      "keywords": [
+        "重心转移",
+        "weight shift",
+        "推移",
+        "push shift",
+        "旋移",
+        "rotation shift",
+        "抛移",
+        "throw shift"
+      ],
+      "tags": [
+        "intermediate",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-cog-principles",
+        "kp-flagging",
+        "kp-drop-knee",
+        "kp-back-step",
+        "kp-hip-flexibility"
+      ],
+      "status": {
+        "hasIllustration": false,
+        "hasVideo": false,
+        "hasExpertInsight": true,
+        "hasFurtherReading": true
+      }
+    },
+    {
+      "id": "kp-hip-control",
+      "path": "technique/body-positioning",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique",
+        "ko": "클라이밍 테크닉"
+      },
+      "subSectionId": "s03-positioning",
+      "subSectionSlug": "body-positioning",
+      "subSectionTitle": {
+        "zh": "身体定位与重心",
+        "en": "Body Positioning",
+        "ko": "신체 포지셔닝과 무게중심"
+      },
+      "title": {
+        "zh": "髋部控制（Hip Control）",
+        "en": "Hip Control",
+        "ko": "엉덩이 제어"
+      },
+      "keywords": [
+        "开放髋位",
+        "open hip",
+        "封闭髋位",
+        "closed hip",
+        "髋部旋转",
+        "hip rotation",
+        "髋部驱动",
+        "hip drive"
+      ],
+      "tags": [
+        "intermediate",
+        "advanced",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-cog-movement",
+        "kp-twist-lock",
+        "kp-drop-knee",
+        "kp-hip-flexibility",
+        "kp-kinetic-chain"
+      ],
+      "status": {
+        "hasIllustration": false,
+        "hasVideo": false,
+        "hasExpertInsight": true,
+        "hasFurtherReading": true
+      }
+    },
+    {
+      "id": "kp-figure-four",
+      "path": "technique/dynamic",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique",
+        "ko": "클라이밍 테크닉"
+      },
+      "subSectionId": "s03-dynamic",
+      "subSectionSlug": "dynamic",
+      "subSectionTitle": {
+        "zh": "动态技术",
+        "en": "Dynamic Movement",
+        "ko": "동적 무브먼트"
+      },
+      "title": {
+        "zh": "Figure Four 与 Figure Nine 技术",
+        "en": "Figure Four and Figure Nine Techniques",
+        "ko": "피겨 포 와 피겨 나인 기술"
+      },
+      "keywords": [
+        "Figure Four",
+        "Figure Four",
+        "Figure Nine",
+        "Figure Nine",
+        "腿挂臂",
+        "leg hook",
+        "冰攀技术",
+        "ice climbing technique"
+      ],
+      "tags": [
+        "advanced",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-dyno-technique",
+        "kp-campus-moves",
+        "kp-roof-technique"
+      ],
+      "status": {
+        "hasIllustration": false,
+        "hasVideo": false,
+        "hasExpertInsight": true,
+        "hasFurtherReading": true
+      }
+    },
+    {
+      "id": "kp-matching-bumping-crossthrough",
+      "path": "technique/dynamic",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique",
+        "ko": "클라이밍 테크닉"
+      },
+      "subSectionId": "s03-dynamic",
+      "subSectionSlug": "dynamic",
+      "subSectionTitle": {
+        "zh": "动态技术",
+        "en": "Dynamic Movement",
+        "ko": "동적 무브먼트"
+      },
+      "title": {
+        "zh": "过渡动作：并手、跳手与穿手",
+        "en": "Transition Moves: Matching, Bumping, and Cross-Through",
+        "ko": "과도 동작: 매칭, 범핑 및 크로스스루"
+      },
+      "keywords": [
+        "并手",
+        "matching",
+        "跳手",
+        "bumping",
+        "穿手",
+        "cross-through",
+        "换手策略",
+        "hand transition strategy"
+      ],
+      "tags": [
+        "beginner",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-hand-sequence",
+        "kp-route-reading-basics",
+        "kp-sequence-planning"
+      ],
+      "status": {
+        "hasIllustration": false,
+        "hasVideo": false,
+        "hasExpertInsight": true,
+        "hasFurtherReading": true
+      }
+    },
+    {
+      "id": "kp-vertical-wall-technique",
+      "path": "technique/terrain",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique",
+        "ko": "클라이밍 테크닉"
+      },
+      "subSectionId": "s03-terrain",
+      "subSectionSlug": "terrain",
+      "subSectionTitle": {
+        "zh": "特殊地形技术",
+        "en": "Terrain-Specific Techniques",
+        "ko": "지형 특화 기술"
+      },
+      "title": {
+        "zh": "垂直壁技术",
+        "en": "Vertical Face Climbing",
+        "ko": "수직 벽 등반 기술"
+      },
+      "keywords": [
+        "垂直壁",
+        "vertical wall",
+        "面壁",
+        "face climbing",
+        "侧身技术",
+        "sideways technique",
+        "直臂原则",
+        "straight-arm principle"
+      ],
+      "tags": [
+        "beginner",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-edging",
+        "kp-climbing-posture",
+        "kp-twist-lock",
+        "kp-slab-technique",
+        "kp-overhang-technique"
+      ],
+      "status": {
+        "hasIllustration": false,
+        "hasVideo": false,
+        "hasExpertInsight": true,
+        "hasFurtherReading": true
+      }
+    },
+    {
+      "id": "kp-crack-hand-jam",
+      "path": "technique/terrain",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique",
+        "ko": "클라이밍 테크닉"
+      },
+      "subSectionId": "s03-terrain",
+      "subSectionSlug": "terrain",
+      "subSectionTitle": {
+        "zh": "特殊地形技术",
+        "en": "Terrain-Specific Techniques",
+        "ko": "지형 특화 기술"
+      },
+      "title": {
+        "zh": "手塞技术（Hand & Finger Jamming）",
+        "en": "Hand & Finger Jamming Techniques",
+        "ko": "손 및 손가락 잼 기술"
+      },
+      "keywords": [
+        "指塞",
+        "finger jam",
+        "手塞",
+        "hand jam",
+        "拳塞",
+        "fist jam",
+        "胶带手套",
+        "tape gloves"
+      ],
+      "tags": [
+        "intermediate",
+        "advanced",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-crack-foot-body-jam",
+        "kp-layback",
+        "kp-action-reaction",
+        "kp-crack-technique-basics"
+      ],
+      "status": {
+        "hasIllustration": false,
+        "hasVideo": false,
+        "hasExpertInsight": true,
+        "hasFurtherReading": true
+      }
+    },
+    {
+      "id": "kp-crack-foot-body-jam",
+      "path": "technique/terrain",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique",
+        "ko": "클라이밍 테크닉"
+      },
+      "subSectionId": "s03-terrain",
+      "subSectionSlug": "terrain",
+      "subSectionTitle": {
+        "zh": "特殊地形技术",
+        "en": "Terrain-Specific Techniques",
+        "ko": "지형 특화 기술"
+      },
+      "title": {
+        "zh": "脚塞与身体塞技术（Foot & Body Jamming）",
+        "en": "Foot & Body Jamming Techniques",
+        "ko": "발 및 신체 잼 기술"
+      },
+      "keywords": [
+        "脚塞",
+        "foot jam",
+        "膝塞",
+        "knee jam",
+        "鸡翅膀",
+        "chicken wing",
+        "臂撑",
+        "arm bar"
+      ],
+      "tags": [
+        "intermediate",
+        "advanced",
+        "technique"
+      ],
+      "crossRefs": [
+        "kp-crack-hand-jam",
+        "kp-stemming",
+        "kp-opposition-compression",
+        "kp-action-reaction",
+        "kp-off-width-climbing"
+      ],
+      "status": {
+        "hasIllustration": false,
+        "hasVideo": false,
+        "hasExpertInsight": true,
+        "hasFurtherReading": true
+      }
+    },
+    {
+      "id": "kp-ground-reading",
+      "path": "technique/route-reading",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique",
+        "ko": "클라이밍 테크닉"
+      },
+      "subSectionId": "s03-reading",
+      "subSectionSlug": "route-reading",
+      "subSectionTitle": {
+        "zh": "路线阅读",
+        "en": "Route Reading",
+        "ko": "루트 읽기"
+      },
+      "title": {
+        "zh": "地面读线：站在地面观察路线的系统方法",
+        "en": "Ground Reading: Systematic Route Observation from the Ground",
+        "ko": "지면 읽기: 지면에서 루트를 관찰하는 체계적 방법"
+      },
+      "keywords": [
+        "地面读线",
+        "Ground reading",
+        "目视分析",
+        "Visual analysis",
+        "心理预演",
+        "Mental rehearsal",
+        "粉迹",
+        "Chalk marks"
+      ],
+      "tags": [
+        "beginner",
+        "technique",
+        "reading"
+      ],
+      "crossRefs": [
+        "kp-route-reading-basics",
+        "kp-onsight-flash-redpoint",
+        "kp-crux-analysis",
+        "kp-sequence-planning"
+      ],
+      "status": {
+        "hasIllustration": false,
+        "hasVideo": false,
+        "hasExpertInsight": true,
+        "hasFurtherReading": true
+      }
+    },
+    {
+      "id": "kp-sequence-planning",
+      "path": "technique/route-reading",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique",
+        "ko": "클라이밍 테크닉"
+      },
+      "subSectionId": "s03-reading",
+      "subSectionSlug": "route-reading",
+      "subSectionTitle": {
+        "zh": "路线阅读",
+        "en": "Route Reading",
+        "ko": "루트 읽기"
+      },
+      "title": {
+        "zh": "动作序列规划（Beta规划）",
+        "en": "Sequence Planning (Beta Planning)",
+        "ko": "동작 순서 계획 (베타 계획)"
+      },
+      "keywords": [
+        "Beta",
+        "Beta",
+        "动作序列",
+        "Action sequence",
+        "分段",
+        "Sectioning",
+        "身体差异",
+        "Body morphology"
+      ],
+      "tags": [
+        "intermediate",
+        "technique",
+        "planning"
+      ],
+      "crossRefs": [
+        "kp-route-reading-basics",
+        "kp-ground-reading",
+        "kp-crux-analysis",
+        "kp-sequence-planning",
+        "kp-rest-spot-identification"
+      ],
+      "status": {
+        "hasIllustration": false,
+        "hasVideo": false,
+        "hasExpertInsight": true,
+        "hasFurtherReading": true
+      }
+    },
+    {
+      "id": "kp-rest-spot-identification",
+      "path": "technique/route-reading",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique",
+        "ko": "클라이밍 테크닉"
+      },
+      "subSectionId": "s03-reading",
+      "subSectionSlug": "route-reading",
+      "subSectionTitle": {
+        "zh": "路线阅读",
+        "en": "Route Reading",
+        "ko": "루트 읽기"
+      },
+      "title": {
+        "zh": "休息点识别与利用",
+        "en": "Rest Spot Identification and Utilization",
+        "ko": "휴식지점 식별 및 활용"
+      },
+      "keywords": [
+        "休息点",
+        "Rest spot",
+        "甩手",
+        "Shake out",
+        "无手休息",
+        "No-hands rest",
+        "微休息",
+        "Micro-rest"
+      ],
+      "tags": [
+        "intermediate",
+        "technique",
+        "reading"
+      ],
+      "crossRefs": [
+        "kp-resting-techniques",
+        "kp-knee-bar",
+        "kp-stemming",
+        "kp-route-reading-basics",
+        "kp-sequence-planning"
+      ],
+      "status": {
+        "hasIllustration": false,
+        "hasVideo": false,
+        "hasExpertInsight": true,
+        "hasFurtherReading": true
+      }
+    },
+    {
+      "id": "kp-crux-analysis",
+      "path": "technique/route-reading",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique",
+        "ko": "클라이밍 테크닉"
+      },
+      "subSectionId": "s03-reading",
+      "subSectionSlug": "route-reading",
+      "subSectionTitle": {
+        "zh": "路线阅读",
+        "en": "Route Reading",
+        "ko": "루트 읽기"
+      },
+      "title": {
+        "zh": "难点预判与应对策略",
+        "en": "Crux Analysis and Response Strategy",
+        "ko": "크럭스 분석 및 대응 전략"
+      },
+      "keywords": [
+        "难点",
+        "Crux",
+        "难点密度",
+        "Crux density",
+        "预判",
+        "Anticipation",
+        "备选方案",
+        "Backup beta"
+      ],
+      "tags": [
+        "intermediate",
+        "technique",
+        "reading"
+      ],
+      "crossRefs": [
+        "kp-sequence-planning",
+        "kp-route-reading-basics",
+        "kp-onsight-flash-redpoint",
+        "kp-ground-reading",
+        "kp-beta-memory"
+      ],
+      "status": {
+        "hasIllustration": false,
+        "hasVideo": false,
+        "hasExpertInsight": true,
+        "hasFurtherReading": true
+      }
+    },
+    {
+      "id": "kp-beta-memory",
+      "path": "technique/route-reading",
+      "sectionId": "section-03",
+      "sectionSlug": "technique",
+      "sectionTitle": {
+        "zh": "攀爬技术",
+        "en": "Climbing Technique",
+        "ko": "클라이밍 테크닉"
+      },
+      "subSectionId": "s03-reading",
+      "subSectionSlug": "route-reading",
+      "subSectionTitle": {
+        "zh": "路线阅读",
+        "en": "Route Reading",
+        "ko": "루트 읽기"
+      },
+      "title": {
+        "zh": "Beta记忆与身体记忆训练",
+        "en": "Beta Memory and Muscle Memory Training",
+        "ko": "베타 메모리 및 근육 메모리 훈련"
+      },
+      "keywords": [
+        "Beta记忆",
+        "Beta memory",
+        "身体记忆",
+        "Muscle memory",
+        "分段记忆法",
+        "Chunking",
+        "动觉编码",
+        "Kinesthetic encoding"
+      ],
+      "tags": [
+        "advanced",
+        "technique",
+        "reading"
+      ],
+      "crossRefs": [
+        "kp-sequence-planning",
+        "kp-onsight-flash-redpoint",
+        "kp-crux-analysis",
+        "kp-ground-reading",
+        "kp-rest-spot-identification"
+      ],
+      "status": {
+        "hasIllustration": false,
+        "hasVideo": false,
+        "hasExpertInsight": true,
+        "hasFurtherReading": true
       }
     }
   ]

@@ -19,7 +19,7 @@ const ROW1_KPS = [
   'kp-climbing-shoes',
 ]
 const ROW2_KPS = [
-  'kp-twist-lock', 'kp-crack-technique',
+  'kp-twist-lock', 'kp-crack-hand-jam',
   'kp-campus-training', 'kp-fear-management',
   'kp-anchor-building',
 ]

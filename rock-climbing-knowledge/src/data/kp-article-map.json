@@ -7,10 +7,6 @@
     "do-i-need-to-be-strong",
     "women-climbing-advantages"
   ],
-  "kp-center-of-gravity": [
-    "do-i-need-to-be-strong",
-    "arms-tire-first"
-  ],
   "kp-grip-types": [
     "do-i-need-to-be-strong",
     "forearm-pump-normal"
@@ -164,10 +160,6 @@
   ],
   "kp-back-step": [
     "arms-tire-first"
-  ],
-  "kp-crimp-hold": [
-    "finger-injury-a2",
-    "stop-overgripping"
   ],
   "kp-long-route-endurance": [
     "arms-tire-first",
@@ -396,5 +388,48 @@
   "kp-community-media": [
     "women-gym-experience",
     "body-image-climbing"
-  ]
+  ],
+  "kp-full-crimp": [
+    "finger-injury-a2",
+    "stop-overgripping"
+  ],
+  "kp-half-crimp": [
+    "finger-injury-a2",
+    "stop-overgripping"
+  ],
+  "kp-open-hand-grip": [
+    "finger-injury-a2",
+    "stop-overgripping"
+  ],
+  "kp-cog-principles": [
+    "do-i-need-to-be-strong",
+    "arms-tire-first"
+  ],
+  "kp-cog-movement": [
+    "do-i-need-to-be-strong",
+    "arms-tire-first"
+  ],
+  "kp-climbing-physics-basics": [],
+  "kp-action-reaction": [],
+  "kp-inertia-momentum": [],
+  "kp-kinetic-chain": [],
+  "kp-lever-biomechanics": [],
+  "kp-ground-reading": [],
+  "kp-crux-analysis": [],
+  "kp-sequence-planning": [],
+  "kp-beta-memory": [],
+  "kp-rest-spot-identification": [],
+  "kp-hip-control": [],
+  "kp-foot-precision": [],
+  "kp-claw-hook-grip": [],
+  "kp-knee-bar": [],
+  "kp-opposition-compression": [],
+  "kp-push-pull": [],
+  "kp-resting-techniques": [],
+  "kp-climbing-posture": [],
+  "kp-figure-four": [],
+  "kp-matching-bumping-crossthrough": [],
+  "kp-vertical-wall-technique": [],
+  "kp-crack-hand-jam": [],
+  "kp-crack-foot-body-jam": []
 }

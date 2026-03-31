@@ -1,9 +1,9 @@
 {
   "_meta": {
     "description": "Videos mapped to knowledge points, with quality ranking",
-    "updatedAt": "2026-03-04",
-    "totalVideos": 340,
-    "kpsCovered": 137
+    "updatedAt": "2026-03-31",
+    "totalVideos": 357,
+    "kpsCovered": 153
   },
   "kp-edging": [
     {
@@ -185,188 +185,6 @@
         "zh": "系列首集，英文授课，讲解攀岩基础脚法：精准用脚趾内侧站点（edging）、使用鞋底大面积贴岩（smearing），配合实际攀爬示范，内容简洁清晰，适合初学者。",
         "en": "",
         "ko": "시리즈리즈 첫 번째 에피소드，영어 수업，설명클라이밍基础발법：精准用脚趾内侧站点（edging）、사용용합니다鞋底大面积贴岩（smearing），실내제와 함께攀오르다시리즈연습，内容간결결합니다명확합니다，适合초보자연보자연。습니다"
-      },
-      "relevance": "secondary"
-    }
-  ],
-  "kp-center-of-gravity": [
-    {
-      "title": {
-        "zh": "Climbing Technique For Beginners - Episode 5 - Hips",
-        "en": "Climbing Technique For Beginners - Episode 5 - Hips",
-        "ko": "Climbing Technique For Beginners - Episode 5 - Hips"
-      },
-      "url": "https://www.youtube.com/watch?v=jbj7XMLOWgE",
-      "channel": "（系列教程）",
-      "platform": "youtube",
-      "lang": "en",
-      "quality": 4,
-      "summary": {
-        "zh": "专门讲解髋部和重心在攀岩中的作用，涵盖扭锁（twist lock）基础、如何用髋部控制重心贴近岩壁，以及旗帜步和背步的基本原理。",
-        "en": "",
-        "ko": "专门설명髋部그리고重心在클라이밍中的作用，涵盖扭锁（twist lock）基础、如何用髋部控制重心贴近岩壁，以그리고旗帜步그리고背步的基本原理。습니다"
-      },
-      "relevance": "primary"
-    },
-    {
-      "title": {
-        "zh": "「Movement for Climbers」给小个子的攀岩TIPS 2.0: 臂展不够？来看看这三点建议！",
-        "en": "「Movement for Climbers」给小个子的攀岩TIPS 2.0: 臂展不够？来看看这三点建议！",
-        "ko": "「Movement for Climbers」给小个子的攀岩TIPS 2.0: 臂展不够？来看看这三点建议！"
-      },
-      "url": "https://www.bilibili.com/video/BV1s84y1t784/",
-      "channel": "（搬运 Movement for Climbers）",
-      "platform": "bilibili",
-      "lang": "zh",
-      "quality": 4,
-      "summary": {
-        "zh": "Movement for Climbers 搬运版（含中文字幕），专门讲解身材较矮或臂展较短攀岩者如何通过更好的重心管理和对角支撑来克服身高劣势。",
-        "en": "",
-        "ko": "Movement for Climbers 搬运版（含中文字幕），专门설명身材较矮또는臂展较短클라이밍者如何通过更好的重心管理그리고对角支撑来克服身高劣势。습니다"
-      },
-      "relevance": "primary"
-    },
-    {
-      "title": {
-        "zh": "Climbing Expert Advice: Balance Training",
-        "en": "Climbing Expert Advice: Balance Training",
-        "ko": "Climbing Expert Advice: Balance Training"
-      },
-      "url": "https://www.youtube.com/watch?v=4lyMr6LT9wM",
-      "channel": "（攀岩专家建议系列）",
-      "platform": "youtube",
-      "lang": "en",
-      "quality": 3,
-      "summary": {
-        "zh": "攀岩重心与平衡训练专项讲解，提供改善身体平衡感的具体练习方法，帮助攀岩者在动作中保持稳定的重心控制。",
-        "en": "",
-        "ko": "클라이밍重心그리고平衡훈련专项설명，提供개선수합니다신뢰할 수 있는체平衡感的구체적용합니다练习方法，帮助클라이밍者在动作中保持稳定的重心控制。습니다"
-      },
-      "relevance": "primary"
-    },
-    {
-      "title": {
-        "zh": "8 Neil Greshams Masterclass - Flag",
-        "en": "8 Neil Greshams Masterclass - Flag",
-        "ko": "8 Neil Greshams Masterclass - Flag"
-      },
-      "url": "https://www.youtube.com/watch?v=ts2jrYSsisA",
-      "channel": "Neil Gresham",
-      "platform": "youtube",
-      "lang": "en",
-      "quality": 5,
-      "summary": {
-        "zh": "Neil Gresham 大师课系列之旗帜步（Flag），详细讲解旗帜步的力学原理、何时使用、常见错误及纠正方法，是业界公认的最权威旗帜步教程之一。",
-        "en": "",
-        "ko": "Neil Gresham 大师课系列之旗帜步（Flag），상세합니다설명旗帜步的力学原理、何~할 때사용용합니다、常见错误그리고纠正方法，是业界公认的가장권위 있습니다旗帜步教程之一。습니다"
-      },
-      "relevance": "secondary"
-    },
-    {
-      "title": {
-        "zh": "Rock Climbing Technique for Beginners: The Back Step / Drop Knee",
-        "en": "Rock Climbing Technique for Beginners: The Back Step / Drop Knee",
-        "ko": "Rock Climbing Technique for Beginners: The Back Step / Drop Knee"
-      },
-      "url": "https://www.youtube.com/watch?v=5MEKUQ9vYZI",
-      "channel": "Mani the Monkey",
-      "platform": "youtube",
-      "lang": "en",
-      "quality": 5,
-      "summary": {
-        "zh": "Mani the Monkey 讲解背步（back step）与落膝（drop knee）的原理、何时使用、动作要领及常见错误，配有清晰的室内演示，适合初中级攀岩者系统学习这两个相关技术。",
-        "en": "",
-        "ko": "Mani the Monkey 설명背步（back step）그리고落膝（drop knee）的原理、何~할 때사용용합니다、动作要领그리고常见错误，配有명확합니다的실내내演示，适合初중급클라이밍者체계적용합니다학습합니다这两个相关기술。습니다"
-      },
-      "relevance": "secondary"
-    },
-    {
-      "title": {
-        "zh": "Climbing Technique For Beginners - Episode 1 - Foot Placement",
-        "en": "Climbing Technique For Beginners - Episode 1 - Foot Placement",
-        "ko": "Climbing Technique For Beginners - Episode 1 - Foot Placement"
-      },
-      "url": "https://www.youtube.com/watch?v=oqd39cc0HL0",
-      "channel": "Eric Karlsson Bouldering",
-      "platform": "youtube",
-      "lang": "en",
-      "quality": 4,
-      "summary": {
-        "zh": "初学者脚法系列第1集，讲解室内攀岩中边踩（edging）和摩擦踩（smearing）的基础原理与练习方法，强调精准落脚的重要性。",
-        "en": "",
-        "ko": "초보자연보자연발법系列第1集，설명실내내클라이밍中에징（edging）그리고스미어링（smearing）的基础原理그리고练习方法，강사화调精准落脚的重要性。습니다"
-      },
-      "relevance": "secondary"
-    },
-    {
-      "title": {
-        "zh": "攀岩动作与技巧—正身动作",
-        "en": "攀岩动作与技巧—正身动作",
-        "ko": "클라이밍动作그리고기술—정면 자연세 동작습니다"
-      },
-      "url": "https://www.bilibili.com/video/BV1v64y1c78u/",
-      "channel": "岩时攀岩",
-      "platform": "bilibili",
-      "lang": "zh",
-      "quality": 4,
-      "summary": {
-        "zh": "讲解正面朝墙（正身）时的脚法技术和重心控制，包括边踩要领和身体姿态的协调配合。",
-        "en": "",
-        "ko": "설명正面벽 쪽（정면 자연세）~할 때的발법기술그리고重心控制，包括에징要领그리고신뢰할 수 있는체姿态的조화합니다함께합니다。"
-      },
-      "relevance": "secondary"
-    },
-    {
-      "title": {
-        "zh": "Rock Climbing Technique for Intermediates: Flagging",
-        "en": "Rock Climbing Technique for Intermediates: Flagging",
-        "ko": "Rock Climbing Technique for Intermediates: Flagging"
-      },
-      "url": "https://www.youtube.com/watch?v=nOkv9uFHojU",
-      "channel": "EpicTV Climbing Daily",
-      "platform": "youtube",
-      "lang": "en",
-      "quality": 4,
-      "summary": {
-        "zh": "中级攀岩者旗帜步（flagging）完整教程，包括内旗（inside flag）、外旗（outside flag）和背旗（back flag）三种变体，有清晰的演示和讲解。",
-        "en": "",
-        "ko": "中级攀岩者旗帜步（flagging）完整教程，包括内旗（inside flag）、外旗（outside flag）和背旗（back flag）三种变体，有清晰的演示和讲解。"
-      },
-      "relevance": "secondary"
-    },
-    {
-      "title": {
-        "zh": "【攀岩那些事】如何正确做旗式动作",
-        "en": "【攀岩那些事】如何正确做旗式动作",
-        "ko": "【클라이밍那些事】如何正确做旗式动作습니다"
-      },
-      "url": "https://www.bilibili.com/video/BV1dT4y1r7VD/",
-      "channel": "攀岩不需要仰望",
-      "platform": "bilibili",
-      "lang": "zh",
-      "quality": 4,
-      "summary": {
-        "zh": "中文讲解旗式（旗帜步）的正确做法和常见错误，结合室内抱石线路演示，适合中文用户学习旗帜步技术。",
-        "en": "",
-        "ko": "中文설명旗式（旗帜步）的正确做法그리고常见错误，결합합니다실내내볼더링线路演示，适合中文用户학습합니다旗帜步기술。습니다"
-      },
-      "relevance": "secondary"
-    },
-    {
-      "title": {
-        "zh": "攀岩视频分析｜仰角如何高效发力（和训练）",
-        "en": "攀岩视频分析｜仰角如何高效发力（和训练）",
-        "ko": "클라이밍视频분석석합니다｜仰角如何高效发力（그리고훈련）습니다"
-      },
-      "url": "https://www.bilibili.com/video/BV1RD4aeGE19/",
-      "channel": "（待确认UP主名称）",
-      "platform": "bilibili",
-      "lang": "zh",
-      "quality": 4,
-      "summary": {
-        "zh": "通过视频分析形式，讲解仰角线路中的高效发力方式，包括身体姿态、重心位置和省力技巧，结合了具体训练建议。",
-        "en": "",
-        "ko": "通过视频분석석합니다形式，설명仰角线路中的高效发力方式，包括신뢰할 수 있는체姿态、重心位置그리고省力기술，결합합니다了구체적용합니다훈련建议。습니다"
       },
       "relevance": "secondary"
     }
@@ -941,116 +759,6 @@
       "relevance": "secondary"
     }
   ],
-  "kp-crimp-hold": [
-    {
-      "title": {
-        "zh": "Crimp Grips Tutorial: Crimp Like a Pro",
-        "en": "Crimp Grips Tutorial: Crimp Like a Pro",
-        "ko": "Crimp Grips Tutorial: Crimp Like a Pro"
-      },
-      "url": "https://www.youtube.com/watch?v=o59qz4orcWs",
-      "channel": "Adam Ondra",
-      "platform": "youtube",
-      "lang": "en",
-      "quality": 5,
-      "summary": {
-        "zh": "Adam Ondra 深度讲解三种捏握方式（全捏握/Full Crimp、半捏握/Open Crimp、三指握），分析各类型的受力和损伤风险，以及适用场景。",
-        "en": "",
-        "ko": "Adam Ondra 深度설명三种捏그립方式（전체捏그립/Full Crimp、半捏그립/Open Crimp、三指그립），분석석합니다各类型的受力그리고损伤风险，以그리고适用场景。습니다"
-      },
-      "relevance": "primary"
-    },
-    {
-      "title": {
-        "zh": "岩點種類 -［六大岩點］｜攀岩｜日光山石",
-        "en": "岩點種類 -［六大岩點］｜攀岩｜日光山石",
-        "ko": "岩點種類 -［六大岩點］｜클라이밍｜日光山石습니다"
-      },
-      "url": "https://www.youtube.com/watch?v=jsqKmC441XY",
-      "channel": "日光山石 SULIMORO",
-      "platform": "youtube",
-      "lang": "zh",
-      "quality": 5,
-      "summary": {
-        "zh": "完整介绍攀岩六大岩点类型：大把手（jug）、捏握（crimp）、斜面岩点（sloper）、捏点（pinch）、口袋（pocket）及侧拉点，每种岩点均有实拍示范，繁体中文，一集覆盖 kp-jug-hold、kp-crimp-hold、kp-sloper-hold、kp-pinch-hold、kp-pocket-hold 全部主要手点类型。",
-        "en": "",
-        "ko": "完整介绍攀岩六大岩点类型：大把手（jug）、捏握（crimp）、斜面岩点（sloper）、捏点（pinch）、口袋（pocket）及侧拉点，每种岩点均有实拍示范，繁体中文，一集覆盖 kp-jug-hold、kp-crimp-hold、kp-sloper-hold、kp-pinch-hold、kp-pocket-hold 全部主要手点类型。"
-      },
-      "relevance": "primary"
-    },
-    {
-      "title": {
-        "zh": "Rock Climbing: Climbing Holds",
-        "en": "Rock Climbing: Climbing Holds",
-        "ko": "Rock Climbing: Climbing Holds"
-      },
-      "url": "https://www.youtube.com/watch?v=9CuByOqafxA",
-      "channel": "REI",
-      "platform": "youtube",
-      "lang": "en",
-      "quality": 4,
-      "summary": {
-        "zh": "REI 官方出品的攀岩手点入门介绍，涵盖大把手（jug）、抠点（crimp）、圆点（sloper）、捏点（pinch）、指洞（pocket）等主要手点类型，每种手点都有握法示范。",
-        "en": "",
-        "ko": "REI 官方出品的클라이밍手点入门소개，涵盖大把手（jug）、抠点（crimp）、圆点（sloper）、捏点（pinch）、指洞（pocket）等主要手点类型，每种手点모두有그립法시리즈연습。"
-      },
-      "relevance": "primary"
-    },
-    {
-      "title": {
-        "zh": "攀岩新手教程—open点的抓握技巧",
-        "en": "攀岩新手教程—open点的抓握技巧",
-        "ko": "클라이밍新手教程—open点的抓그립기술습니다"
-      },
-      "url": "https://www.bilibili.com/video/BV1Jb4y187i9/",
-      "channel": "（待确认UP主名称）",
-      "platform": "bilibili",
-      "lang": "zh",
-      "quality": 3,
-      "summary": {
-        "zh": "新手向攀岩抓握技巧教程，重点讲解 open（张手）抓握类型，分析为何初学者应优先掌握开放式握法以保护手指。",
-        "en": "",
-        "ko": "新手向클라이밍抓그립기술教程，重点설명 open（张手）抓그립类型，분석석합니다为何초보자연보자연应优先숙달합니다开放式그립法以안전문가手指。습니다"
-      },
-      "relevance": "primary"
-    },
-    {
-      "title": {
-        "zh": "Grip Basics Technique｜Rock Climbing｜SULIMORO",
-        "en": "Grip Basics Technique｜Rock Climbing｜SULIMORO",
-        "ko": "Grip Basics Technique｜Rock Climbing｜SULIMORO"
-      },
-      "url": "https://www.youtube.com/watch?v=6HztPosJGAc",
-      "channel": "日光山石 SULIMORO",
-      "platform": "youtube",
-      "lang": "en",
-      "quality": 4,
-      "summary": {
-        "zh": "英文授课，讲解三大抓握方式：全捏握（full crimp）、半捏握（half crimp）、张手握（open hand）的使用场景与发力差异，并说明各抓握方式对手指健康的影响，与 kp-grip-types 高度对应。",
-        "en": "",
-        "ko": "영어 수업，설명三大抓그립方式：전체捏그립（full crimp）、半捏그립（half crimp）、张手그립（open hand）的사용용합니다场景그리고发力差异，并说명확各抓그립方式对手指健康的影响，그리고 kp-grip-types 高度对应。습니다"
-      },
-      "relevance": "secondary"
-    },
-    {
-      "title": {
-        "zh": "Climbing Technique For Beginners - Episode 2 - Hand Placement",
-        "en": "Climbing Technique For Beginners - Episode 2 - Hand Placement",
-        "ko": "Climbing Technique For Beginners - Episode 2 - Hand Placement"
-      },
-      "url": "https://www.youtube.com/watch?v=G634356Sti0",
-      "channel": "（系列教程）",
-      "platform": "youtube",
-      "lang": "en",
-      "quality": 3,
-      "summary": {
-        "zh": "初学者系列第2集，讲解手部放置的基础原则，包括手顺、换手时机和不同手点的基本握法。",
-        "en": "",
-        "ko": "초보자연보자연系列第2集，설명手部放置的基础原则，包括手顺、换手~할 때机그리고不同手点的基本그립法。습니다"
-      },
-      "relevance": "secondary"
-    }
-  ],
   "kp-sloper-hold": [
     {
       "title": {
@@ -1255,80 +963,6 @@
         "zh": "REI 出品的手缝（hand crack）塞手技术讲解，演示手掌塞入（hand jam）的角度、用力方向和脚法配合。",
         "en": "",
         "ko": "REI 出品的手缝（hand crack）塞手기술설명，演示手掌塞入（hand jam）的角度、用力方向그리고발법함께합니다。"
-      },
-      "relevance": "secondary"
-    }
-  ],
-  "kp-crack-technique": [
-    {
-      "title": {
-        "zh": "Rock Climbing: How to Climb Finger Cracks",
-        "en": "Rock Climbing: How to Climb Finger Cracks",
-        "ko": "Rock Climbing: How to Climb Finger Cracks"
-      },
-      "url": "https://www.youtube.com/watch?v=jzdgWsbGbMc",
-      "channel": "REI（系列）",
-      "platform": "youtube",
-      "lang": "en",
-      "quality": 4,
-      "summary": {
-        "zh": "REI 出品的指缝（finger crack）攀登技术讲解，演示手指塞入技巧（finger jam）、扭锁方式和身体位置协调，适合户外传统攀入门。",
-        "en": "",
-        "ko": "REI 出品的指缝（finger crack）클라이밍기술설명，演示手指塞入기술（finger jam）、扭锁方式그리고신뢰할 수 있는체位置조화합니다，适合户外传统攀入门。습니다"
-      },
-      "relevance": "primary"
-    },
-    {
-      "title": {
-        "zh": "Rock Climbing: How to Jam Hand Cracks",
-        "en": "Rock Climbing: How to Jam Hand Cracks",
-        "ko": "Rock Climbing: How to Jam Hand Cracks"
-      },
-      "url": "https://www.youtube.com/watch?v=l4EzbCLfUkc",
-      "channel": "REI（系列）",
-      "platform": "youtube",
-      "lang": "en",
-      "quality": 4,
-      "summary": {
-        "zh": "REI 出品的手缝（hand crack）塞手技术讲解，演示手掌塞入（hand jam）的角度、用力方向和脚法配合。",
-        "en": "",
-        "ko": "REI 出品的手缝（hand crack）塞手기술설명，演示手掌塞入（hand jam）的角度、用力方向그리고발법함께합니다。"
-      },
-      "relevance": "primary"
-    },
-    {
-      "title": {
-        "zh": "攀岩动作与技巧系列视频-对抗发力1：反肩/外撑/上撑",
-        "en": "攀岩动作与技巧系列视频-对抗发力1：反肩/外撑/上撑",
-        "ko": "클라이밍动作그리고기술系列视频-对抗发力1：反肩/外撑/上撑습니다"
-      },
-      "url": "https://www.bilibili.com/video/BV16i4y1j7vc/",
-      "channel": "岩时攀岩",
-      "platform": "bilibili",
-      "lang": "zh",
-      "quality": 4,
-      "summary": {
-        "zh": "岩时攀岩出品的动作技巧系列，专讲对抗发力三种形式：外撑（stemming，两脚蹬两侧墙面形成对抗）、反肩（back step 变体）、上撑（pressing），重点讲解外撑的应用场景（角落/宽裂缝），是 kp-stemming 在 Bilibili 端的首个专项视频。",
-        "en": "",
-        "ko": "岩~할 때클라이밍出品的动作기술系列，专讲对抗发力三种形式：外撑（stemming，两脚蹬两侧墙面형성합니다对抗）、反肩（back step 变체계적）、上撑（pressing），重点설명外撑的적용용합니다场景（角落/宽裂缝），是 kp-stemming 在 Bilibili 端的首个专项视频。습니다"
-      },
-      "relevance": "secondary"
-    },
-    {
-      "title": {
-        "zh": "Laybacking / Liebacking Technique",
-        "en": "Laybacking / Liebacking Technique",
-        "ko": "Laybacking / Liebacking Technique"
-      },
-      "url": "https://www.youtube.com/watch?v=-n6iMUjaz_0",
-      "channel": "（攀岩技巧博主）",
-      "platform": "youtube",
-      "lang": "en",
-      "quality": 3,
-      "summary": {
-        "zh": "讲解 layback（liebacking）技术的专项视频：将裂缝或棱角作为一条长侧拉，上身向后倾斜借力，双脚在岩面上蹬踩形成对抗力，是传统攀和户外裂缝中的核心技术。",
-        "en": "",
-        "ko": "설명 layback（liebacking）기술的专项视频：将裂缝또는棱角作为一条长侧拉，上身向后倾斜借力，双脚在岩面上蹬발 밟기형성합니다对抗力，是传统攀그리고户外裂缝中的코치어기술。습니다"
       },
       "relevance": "secondary"
     }
@@ -6321,6 +5955,784 @@
         "zh": "介绍 IFSC（国际攀岩联合会）官方认证的训练板标准与使用方式，涉及 IFSC 组织架构在竞技训练标准化中的作用，从装备标准化角度切入理解 IFSC 这一组织的影响力。",
         "en": "",
         "ko": "소개 IFSC（国际클라이밍联合会）官方认证的훈련板标准그리고사용용합니다方式，涉그리고 IFSC 组织架构在竞技훈련标准化中的作用，从装备标准化角度切入理解 IFSC 这一组织的影响力。습니다"
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-full-crimp": [
+    {
+      "title": {
+        "zh": "Crimp Grips Tutorial: Crimp Like a Pro",
+        "en": "Crimp Grips Tutorial: Crimp Like a Pro",
+        "ko": "Crimp Grips Tutorial: Crimp Like a Pro"
+      },
+      "url": "https://www.youtube.com/watch?v=o59qz4orcWs",
+      "channel": "Adam Ondra",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "Adam Ondra 深度讲解三种捏握方式（全捏握/Full Crimp、半捏握/Open Crimp、三指握），分析各类型的受力和损伤风险，以及适用场景。",
+        "en": "",
+        "ko": "Adam Ondra 深度설명三种捏그립方式（전체捏그립/Full Crimp、半捏그립/Open Crimp、三指그립），분석석합니다各类型的受力그리고损伤风险，以그리고适用场景。습니다"
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "攀岩新手教程—open点的抓握技巧",
+        "en": "攀岩新手教程—open点的抓握技巧",
+        "ko": "클라이밍新手教程—open点的抓그립기술습니다"
+      },
+      "url": "https://www.bilibili.com/video/BV1Jb4y187i9/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "新手向攀岩抓握技巧教程，重点讲解 open（张手）抓握类型，分析为何初学者应优先掌握开放式握法以保护手指。",
+        "en": "",
+        "ko": "新手向클라이밍抓그립기술教程，重点설명 open（张手）抓그립类型，분석석합니다为何초보자연보자연应优先숙달합니다开放式그립法以안전문가手指。습니다"
+      },
+      "relevance": "primary"
+    }
+  ],
+  "kp-half-crimp": [
+    {
+      "title": {
+        "zh": "岩點種類 -［六大岩點］｜攀岩｜日光山石",
+        "en": "岩點種類 -［六大岩點］｜攀岩｜日光山石",
+        "ko": "岩點種類 -［六大岩點］｜클라이밍｜日光山石습니다"
+      },
+      "url": "https://www.youtube.com/watch?v=jsqKmC441XY",
+      "channel": "日光山石 SULIMORO",
+      "platform": "youtube",
+      "lang": "zh",
+      "quality": 5,
+      "summary": {
+        "zh": "完整介绍攀岩六大岩点类型：大把手（jug）、捏握（crimp）、斜面岩点（sloper）、捏点（pinch）、口袋（pocket）及侧拉点，每种岩点均有实拍示范，繁体中文，一集覆盖 kp-jug-hold、kp-crimp-hold、kp-sloper-hold、kp-pinch-hold、kp-pocket-hold 全部主要手点类型。",
+        "en": "",
+        "ko": "完整介绍攀岩六大岩点类型：大把手（jug）、捏握（crimp）、斜面岩点（sloper）、捏点（pinch）、口袋（pocket）及侧拉点，每种岩点均有实拍示范，繁体中文，一集覆盖 kp-jug-hold、kp-crimp-hold、kp-sloper-hold、kp-pinch-hold、kp-pocket-hold 全部主要手点类型。"
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "Grip Basics Technique｜Rock Climbing｜SULIMORO",
+        "en": "Grip Basics Technique｜Rock Climbing｜SULIMORO",
+        "ko": "Grip Basics Technique｜Rock Climbing｜SULIMORO"
+      },
+      "url": "https://www.youtube.com/watch?v=6HztPosJGAc",
+      "channel": "日光山石 SULIMORO",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "英文授课，讲解三大抓握方式：全捏握（full crimp）、半捏握（half crimp）、张手握（open hand）的使用场景与发力差异，并说明各抓握方式对手指健康的影响，与 kp-grip-types 高度对应。",
+        "en": "",
+        "ko": "영어 수업，설명三大抓그립方式：전체捏그립（full crimp）、半捏그립（half crimp）、张手그립（open hand）的사용용합니다场景그리고发力差异，并说명확各抓그립方式对手指健康的影响，그리고 kp-grip-types 高度对应。습니다"
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-open-hand-grip": [
+    {
+      "title": {
+        "zh": "Rock Climbing: Climbing Holds",
+        "en": "Rock Climbing: Climbing Holds",
+        "ko": "Rock Climbing: Climbing Holds"
+      },
+      "url": "https://www.youtube.com/watch?v=9CuByOqafxA",
+      "channel": "REI",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "REI 官方出品的攀岩手点入门介绍，涵盖大把手（jug）、抠点（crimp）、圆点（sloper）、捏点（pinch）、指洞（pocket）等主要手点类型，每种手点都有握法示范。",
+        "en": "",
+        "ko": "REI 官方出品的클라이밍手点入门소개，涵盖大把手（jug）、抠点（crimp）、圆点（sloper）、捏点（pinch）、指洞（pocket）等主要手点类型，每种手点모두有그립法시리즈연습。"
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "Climbing Technique For Beginners - Episode 2 - Hand Placement",
+        "en": "Climbing Technique For Beginners - Episode 2 - Hand Placement",
+        "ko": "Climbing Technique For Beginners - Episode 2 - Hand Placement"
+      },
+      "url": "https://www.youtube.com/watch?v=G634356Sti0",
+      "channel": "（系列教程）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 3,
+      "summary": {
+        "zh": "初学者系列第2集，讲解手部放置的基础原则，包括手顺、换手时机和不同手点的基本握法。",
+        "en": "",
+        "ko": "초보자연보자연系列第2集，설명手部放置的基础原则，包括手顺、换手~할 때机그리고不同手点的基本그립法。습니다"
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-cog-principles": [
+    {
+      "title": {
+        "zh": "Climbing Technique For Beginners - Episode 5 - Hips",
+        "en": "Climbing Technique For Beginners - Episode 5 - Hips",
+        "ko": "Climbing Technique For Beginners - Episode 5 - Hips"
+      },
+      "url": "https://www.youtube.com/watch?v=jbj7XMLOWgE",
+      "channel": "（系列教程）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "专门讲解髋部和重心在攀岩中的作用，涵盖扭锁（twist lock）基础、如何用髋部控制重心贴近岩壁，以及旗帜步和背步的基本原理。",
+        "en": "",
+        "ko": "专门설명髋部그리고重心在클라이밍中的作用，涵盖扭锁（twist lock）基础、如何用髋部控制重心贴近岩壁，以그리고旗帜步그리고背步的基本原理。습니다"
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "8 Neil Greshams Masterclass - Flag",
+        "en": "8 Neil Greshams Masterclass - Flag",
+        "ko": "8 Neil Greshams Masterclass - Flag"
+      },
+      "url": "https://www.youtube.com/watch?v=ts2jrYSsisA",
+      "channel": "Neil Gresham",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "Neil Gresham 大师课系列之旗帜步（Flag），详细讲解旗帜步的力学原理、何时使用、常见错误及纠正方法，是业界公认的最权威旗帜步教程之一。",
+        "en": "",
+        "ko": "Neil Gresham 大师课系列之旗帜步（Flag），상세합니다설명旗帜步的力学原理、何~할 때사용용합니다、常见错误그리고纠正方法，是业界公认的가장권위 있습니다旗帜步教程之一。습니다"
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "攀岩动作与技巧—正身动作",
+        "en": "攀岩动作与技巧—正身动作",
+        "ko": "클라이밍动作그리고기술—정면 자연세 동작습니다"
+      },
+      "url": "https://www.bilibili.com/video/BV1v64y1c78u/",
+      "channel": "岩时攀岩",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "讲解正面朝墙（正身）时的脚法技术和重心控制，包括边踩要领和身体姿态的协调配合。",
+        "en": "",
+        "ko": "설명正面벽 쪽（정면 자연세）~할 때的발법기술그리고重心控制，包括에징要领그리고신뢰할 수 있는체姿态的조화합니다함께합니다。"
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "攀岩视频分析｜仰角如何高效发力（和训练）",
+        "en": "攀岩视频分析｜仰角如何高效发力（和训练）",
+        "ko": "클라이밍视频분석석합니다｜仰角如何高效发力（그리고훈련）습니다"
+      },
+      "url": "https://www.bilibili.com/video/BV1RD4aeGE19/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "通过视频分析形式，讲解仰角线路中的高效发力方式，包括身体姿态、重心位置和省力技巧，结合了具体训练建议。",
+        "en": "",
+        "ko": "通过视频분석석합니다形式，설명仰角线路中的高效发力方式，包括신뢰할 수 있는체姿态、重心位置그리고省力기술，결합합니다了구체적용합니다훈련建议。습니다"
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-cog-movement": [
+    {
+      "title": {
+        "zh": "「Movement for Climbers」给小个子的攀岩TIPS 2.0: 臂展不够？来看看这三点建议！",
+        "en": "「Movement for Climbers」给小个子的攀岩TIPS 2.0: 臂展不够？来看看这三点建议！",
+        "ko": "「Movement for Climbers」给小个子的攀岩TIPS 2.0: 臂展不够？来看看这三点建议！"
+      },
+      "url": "https://www.bilibili.com/video/BV1s84y1t784/",
+      "channel": "（搬运 Movement for Climbers）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "Movement for Climbers 搬运版（含中文字幕），专门讲解身材较矮或臂展较短攀岩者如何通过更好的重心管理和对角支撑来克服身高劣势。",
+        "en": "",
+        "ko": "Movement for Climbers 搬运版（含中文字幕），专门설명身材较矮또는臂展较短클라이밍者如何通过更好的重心管理그리고对角支撑来克服身高劣势。습니다"
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "Rock Climbing Technique for Beginners: The Back Step / Drop Knee",
+        "en": "Rock Climbing Technique for Beginners: The Back Step / Drop Knee",
+        "ko": "Rock Climbing Technique for Beginners: The Back Step / Drop Knee"
+      },
+      "url": "https://www.youtube.com/watch?v=5MEKUQ9vYZI",
+      "channel": "Mani the Monkey",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "Mani the Monkey 讲解背步（back step）与落膝（drop knee）的原理、何时使用、动作要领及常见错误，配有清晰的室内演示，适合初中级攀岩者系统学习这两个相关技术。",
+        "en": "",
+        "ko": "Mani the Monkey 설명背步（back step）그리고落膝（drop knee）的原理、何~할 때사용용합니다、动作要领그리고常见错误，配有명확합니다的실내내演示，适合初중급클라이밍者체계적용합니다학습합니다这两个相关기술。습니다"
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "Rock Climbing Technique for Intermediates: Flagging",
+        "en": "Rock Climbing Technique for Intermediates: Flagging",
+        "ko": "Rock Climbing Technique for Intermediates: Flagging"
+      },
+      "url": "https://www.youtube.com/watch?v=nOkv9uFHojU",
+      "channel": "EpicTV Climbing Daily",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "中级攀岩者旗帜步（flagging）完整教程，包括内旗（inside flag）、外旗（outside flag）和背旗（back flag）三种变体，有清晰的演示和讲解。",
+        "en": "",
+        "ko": "中级攀岩者旗帜步（flagging）完整教程，包括内旗（inside flag）、外旗（outside flag）和背旗（back flag）三种变体，有清晰的演示和讲解。"
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-hip-control": [
+    {
+      "title": {
+        "zh": "Climbing Expert Advice: Balance Training",
+        "en": "Climbing Expert Advice: Balance Training",
+        "ko": "Climbing Expert Advice: Balance Training"
+      },
+      "url": "https://www.youtube.com/watch?v=4lyMr6LT9wM",
+      "channel": "（攀岩专家建议系列）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 3,
+      "summary": {
+        "zh": "攀岩重心与平衡训练专项讲解，提供改善身体平衡感的具体练习方法，帮助攀岩者在动作中保持稳定的重心控制。",
+        "en": "",
+        "ko": "클라이밍重心그리고平衡훈련专项설명，提供개선수합니다신뢰할 수 있는체平衡感的구체적용합니다练习方法，帮助클라이밍者在动作中保持稳定的重心控制。습니다"
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "Climbing Technique For Beginners - Episode 1 - Foot Placement",
+        "en": "Climbing Technique For Beginners - Episode 1 - Foot Placement",
+        "ko": "Climbing Technique For Beginners - Episode 1 - Foot Placement"
+      },
+      "url": "https://www.youtube.com/watch?v=oqd39cc0HL0",
+      "channel": "Eric Karlsson Bouldering",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "初学者脚法系列第1集，讲解室内攀岩中边踩（edging）和摩擦踩（smearing）的基础原理与练习方法，强调精准落脚的重要性。",
+        "en": "",
+        "ko": "초보자연보자연발법系列第1集，설명실내내클라이밍中에징（edging）그리고스미어링（smearing）的基础原理그리고练习方法，강사화调精准落脚的重要性。습니다"
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "【攀岩那些事】如何正确做旗式动作",
+        "en": "【攀岩那些事】如何正确做旗式动作",
+        "ko": "【클라이밍那些事】如何正确做旗式动作습니다"
+      },
+      "url": "https://www.bilibili.com/video/BV1dT4y1r7VD/",
+      "channel": "攀岩不需要仰望",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "中文讲解旗式（旗帜步）的正确做法和常见错误，结合室内抱石线路演示，适合中文用户学习旗帜步技术。",
+        "en": "",
+        "ko": "中文설명旗式（旗帜步）的正确做法그리고常见错误，결합합니다실내내볼더링线路演示，适合中文用户학습합니다旗帜步기술。습니다"
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-crack-hand-jam": [
+    {
+      "title": {
+        "zh": "Rock Climbing: How to Climb Finger Cracks",
+        "en": "Rock Climbing: How to Climb Finger Cracks",
+        "ko": "Rock Climbing: How to Climb Finger Cracks"
+      },
+      "url": "https://www.youtube.com/watch?v=jzdgWsbGbMc",
+      "channel": "REI（系列）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "REI 出品的指缝（finger crack）攀登技术讲解，演示手指塞入技巧（finger jam）、扭锁方式和身体位置协调，适合户外传统攀入门。",
+        "en": "",
+        "ko": "REI 出品的指缝（finger crack）클라이밍기술설명，演示手指塞入기술（finger jam）、扭锁方式그리고신뢰할 수 있는체位置조화합니다，适合户外传统攀入门。습니다"
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "攀岩动作与技巧系列视频-对抗发力1：反肩/外撑/上撑",
+        "en": "攀岩动作与技巧系列视频-对抗发力1：反肩/外撑/上撑",
+        "ko": "클라이밍动作그리고기술系列视频-对抗发力1：反肩/外撑/上撑습니다"
+      },
+      "url": "https://www.bilibili.com/video/BV16i4y1j7vc/",
+      "channel": "岩时攀岩",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "岩时攀岩出品的动作技巧系列，专讲对抗发力三种形式：外撑（stemming，两脚蹬两侧墙面形成对抗）、反肩（back step 变体）、上撑（pressing），重点讲解外撑的应用场景（角落/宽裂缝），是 kp-stemming 在 Bilibili 端的首个专项视频。",
+        "en": "",
+        "ko": "岩~할 때클라이밍出品的动作기술系列，专讲对抗发力三种形式：外撑（stemming，两脚蹬两侧墙面형성합니다对抗）、反肩（back step 变체계적）、上撑（pressing），重点설명外撑的적용용합니다场景（角落/宽裂缝），是 kp-stemming 在 Bilibili 端的首个专项视频。습니다"
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-crack-foot-body-jam": [
+    {
+      "title": {
+        "zh": "Rock Climbing: How to Jam Hand Cracks",
+        "en": "Rock Climbing: How to Jam Hand Cracks",
+        "ko": "Rock Climbing: How to Jam Hand Cracks"
+      },
+      "url": "https://www.youtube.com/watch?v=l4EzbCLfUkc",
+      "channel": "REI（系列）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "REI 出品的手缝（hand crack）塞手技术讲解，演示手掌塞入（hand jam）的角度、用力方向和脚法配合。",
+        "en": "",
+        "ko": "REI 出品的手缝（hand crack）塞手기술설명，演示手掌塞入（hand jam）的角度、用力方向그리고발법함께합니다。"
+      },
+      "relevance": "primary"
+    },
+    {
+      "title": {
+        "zh": "Laybacking / Liebacking Technique",
+        "en": "Laybacking / Liebacking Technique",
+        "ko": "Laybacking / Liebacking Technique"
+      },
+      "url": "https://www.youtube.com/watch?v=-n6iMUjaz_0",
+      "channel": "（攀岩技巧博主）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 3,
+      "summary": {
+        "zh": "讲解 layback（liebacking）技术的专项视频：将裂缝或棱角作为一条长侧拉，上身向后倾斜借力，双脚在岩面上蹬踩形成对抗力，是传统攀和户外裂缝中的核心技术。",
+        "en": "",
+        "ko": "설명 layback（liebacking）기술的专项视频：将裂缝또는棱角作为一条长侧拉，上身向后倾斜借力，双脚在岩面上蹬발 밟기형성합니다对抗力，是传统攀그리고户外裂缝中的코치어기술。습니다"
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-foot-precision": [
+    {
+      "title": {
+        "zh": "Climbing Technique For Beginners - Episode 1 - Foot Placement",
+        "en": "Climbing Technique For Beginners - Episode 1 - Foot Placement",
+        "ko": "Climbing Technique For Beginners - Episode 1 - Foot Placement"
+      },
+      "url": "https://www.youtube.com/watch?v=oqd39cc0HL0",
+      "channel": "Eric Karlsson Bouldering",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "初学者脚法系列第1集，讲解室内攀岩中边踩（edging）和摩擦踩（smearing）的基础原理与练习方法，强调精准落脚的重要性。",
+        "en": "",
+        "ko": "초보자연보자연발법系列第1集，설명실내내클라이밍中에징（edging）그리고스미어링（smearing）的基础原理그리고练习方法，강사화调精准落脚的重要性。습니다"
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "攀岩动作与技巧—正身动作",
+        "en": "攀岩动作与技巧—正身动作",
+        "ko": "클라이밍动作그리고기술—정면 자연세 동작습니다"
+      },
+      "url": "https://www.bilibili.com/video/BV1v64y1c78u/",
+      "channel": "岩时攀岩",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "讲解正面朝墙（正身）时的脚法技术和重心控制，包括边踩要领和身体姿态的协调配合。",
+        "en": "",
+        "ko": "설명正面벽 쪽（정면 자연세）~할 때的발법기술그리고重心控制，包括에징要领그리고신뢰할 수 있는체姿态的조화합니다함께합니다。"
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-climbing-posture": [
+    {
+      "title": {
+        "zh": "8 Neil Greshams Masterclass - Flag",
+        "en": "8 Neil Greshams Masterclass - Flag",
+        "ko": "8 Neil Greshams Masterclass - Flag"
+      },
+      "url": "https://www.youtube.com/watch?v=ts2jrYSsisA",
+      "channel": "Neil Gresham",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "Neil Gresham 大师课系列之旗帜步（Flag），详细讲解旗帜步的力学原理、何时使用、常见错误及纠正方法，是业界公认的最权威旗帜步教程之一。",
+        "en": "",
+        "ko": "Neil Gresham 大师课系列之旗帜步（Flag），상세합니다설명旗帜步的力学原理、何~할 때사용용합니다、常见错误그리고纠正方法，是业界公认的가장권위 있습니다旗帜步教程之一。습니다"
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "Rock Climbing Technique for Intermediates: Flagging",
+        "en": "Rock Climbing Technique for Intermediates: Flagging",
+        "ko": "Rock Climbing Technique for Intermediates: Flagging"
+      },
+      "url": "https://www.youtube.com/watch?v=nOkv9uFHojU",
+      "channel": "EpicTV Climbing Daily",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "中级攀岩者旗帜步（flagging）完整教程，包括内旗（inside flag）、外旗（outside flag）和背旗（back flag）三种变体，有清晰的演示和讲解。",
+        "en": "",
+        "ko": "中级攀岩者旗帜步（flagging）完整教程，包括内旗（inside flag）、外旗（outside flag）和背旗（back flag）三种变体，有清晰的演示和讲解。"
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-opposition-compression": [
+    {
+      "title": {
+        "zh": "攀岩动作与技巧系列视频-对抗发力1：反肩/外撑/上撑",
+        "en": "攀岩动作与技巧系列视频-对抗发力1：反肩/外撑/上撑",
+        "ko": "클라이밍动作그리고기술系列视频-对抗发力1：反肩/外撑/上撑습니다"
+      },
+      "url": "https://www.bilibili.com/video/BV16i4y1j7vc/",
+      "channel": "岩时攀岩",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "岩时攀岩出品的动作技巧系列，专讲对抗发力三种形式：外撑（stemming，两脚蹬两侧墙面形成对抗）、反肩（back step 变体）、上撑（pressing），重点讲解外撑的应用场景（角落/宽裂缝），是 kp-stemming 在 Bilibili 端的首个专项视频。",
+        "en": "",
+        "ko": "岩~할 때클라이밍出品的动作기술系列，专讲对抗发力三种形式：外撑（stemming，两脚蹬两侧墙面형성합니다对抗）、反肩（back step 变체계적）、上撑（pressing），重点설명外撑的적용용합니다场景（角落/宽裂缝），是 kp-stemming 在 Bilibili 端的首个专项视频。습니다"
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "攀岩动作与技巧系列视频-Knee Bar / Mantling",
+        "en": "攀岩动作与技巧系列视频-Knee Bar / Mantling",
+        "ko": "攀岩动作与技巧系列视频-Knee Bar / Mantling"
+      },
+      "url": "https://www.bilibili.com/video/BV1oa411w7Pm/",
+      "channel": "（系列视频）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "讲解 Knee Bar（锁膝）和 Mantling（翻越/撑顶）两种进阶技术，演示如何在顶部岩点和平台处完成翻越动作。",
+        "en": "",
+        "ko": "설명 Knee Bar（锁膝）그리고 Mantling（翻越/撑顶）两种进阶기술，演示如何在顶部岩点그리고平台处完成翻越动作。습니다"
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-push-pull": [
+    {
+      "title": {
+        "zh": "攀岩动作与技巧系列视频-Knee Bar / Mantling",
+        "en": "攀岩动作与技巧系列视频-Knee Bar / Mantling",
+        "ko": "攀岩动作与技巧系列视频-Knee Bar / Mantling"
+      },
+      "url": "https://www.bilibili.com/video/BV1oa411w7Pm/",
+      "channel": "（系列视频）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "讲解 Knee Bar（锁膝）和 Mantling（翻越/撑顶）两种进阶技术，演示如何在顶部岩点和平台处完成翻越动作。",
+        "en": "",
+        "ko": "설명 Knee Bar（锁膝）그리고 Mantling（翻越/撑顶）两种进阶기술，演示如何在顶部岩点그리고平台处完成翻越动作。습니다"
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-resting-techniques": [
+    {
+      "title": {
+        "zh": "攀岩动作与技巧系列视频-对抗发力1：反肩/外撑/上撑",
+        "en": "攀岩动作与技巧系列视频-对抗发力1：反肩/外撑/上撑",
+        "ko": "클라이밍动作그리고기술系列视频-对抗发力1：反肩/外撑/上撑습니다"
+      },
+      "url": "https://www.bilibili.com/video/BV16i4y1j7vc/",
+      "channel": "岩时攀岩",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "岩时攀岩出品的动作技巧系列，专讲对抗发力三种形式：外撑（stemming，两脚蹬两侧墙面形成对抗）、反肩（back step 变体）、上撑（pressing），重点讲解外撑的应用场景（角落/宽裂缝），是 kp-stemming 在 Bilibili 端的首个专项视频。",
+        "en": "",
+        "ko": "岩~할 때클라이밍出品的动作기술系列，专讲对抗发力三种形式：外撑（stemming，两脚蹬两侧墙面형성합니다对抗）、反肩（back step 变체계적）、上撑（pressing），重点설명外撑的적용용합니다场景（角落/宽裂缝），是 kp-stemming 在 Bilibili 端的首个专项视频。습니다"
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "攀岩动作与技巧系列视频-Knee Bar / Mantling",
+        "en": "攀岩动作与技巧系列视频-Knee Bar / Mantling",
+        "ko": "攀岩动作与技巧系列视频-Knee Bar / Mantling"
+      },
+      "url": "https://www.bilibili.com/video/BV1oa411w7Pm/",
+      "channel": "（系列视频）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "讲解 Knee Bar（锁膝）和 Mantling（翻越/撑顶）两种进阶技术，演示如何在顶部岩点和平台处完成翻越动作。",
+        "en": "",
+        "ko": "설명 Knee Bar（锁膝）그리고 Mantling（翻越/撑顶）两种进阶기술，演示如何在顶部岩点그리고平台处完成翻越动作。습니다"
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-knee-bar": [
+    {
+      "title": {
+        "zh": "攀岩视频分析｜仰角如何高效发力（和训练）",
+        "en": "攀岩视频分析｜仰角如何高效发力（和训练）",
+        "ko": "클라이밍视频분석석합니다｜仰角如何高效发力（그리고훈련）습니다"
+      },
+      "url": "https://www.bilibili.com/video/BV1RD4aeGE19/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "通过视频分析形式，讲解仰角线路中的高效发力方式，包括身体姿态、重心位置和省力技巧，结合了具体训练建议。",
+        "en": "",
+        "ko": "通过视频분석석합니다形式，설명仰角线路中的高效发力方式，包括신뢰할 수 있는체姿态、重心位置그리고省力기술，결합합니다了구체적용합니다훈련建议。습니다"
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "【Hook勾脚挂脚篇】- 攀岩进阶向技巧系列 为什么要勾脚 以及如何才能勾得牢？",
+        "en": "【Hook勾脚挂脚篇】- 攀岩进阶向技巧系列 为什么要勾脚 以及如何才能勾得牢？",
+        "ko": "【Hook훅挂脚篇】- 클라이밍进阶向기술系列 为什么要훅 以그리고如何才能勾得牢？습니다"
+      },
+      "url": "https://www.bilibili.com/video/BV1nW411C7mM/",
+      "channel": "小宇Ylvaaaa",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "进阶向技巧系列，讲解勾脚（toe hook）和挂脚（heel hook）的区别、原理及如何在仰角线路上正确使用，有正误对比演示。",
+        "en": "",
+        "ko": "进阶向기술系列，설명훅（toe hook）그리고挂脚（heel hook）的区别、原理그리고如何在仰角线路上正确사용용합니다，有正误비교교합니다演示。습니다"
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-matching-bumping-crossthrough": [
+    {
+      "title": {
+        "zh": "Climbing Technique For Beginners - Episode 2 - Hand Placement",
+        "en": "Climbing Technique For Beginners - Episode 2 - Hand Placement",
+        "ko": "Climbing Technique For Beginners - Episode 2 - Hand Placement"
+      },
+      "url": "https://www.youtube.com/watch?v=G634356Sti0",
+      "channel": "（系列教程）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 3,
+      "summary": {
+        "zh": "初学者系列第2集，讲解手部放置的基础原则，包括手顺、换手时机和不同手点的基本握法。",
+        "en": "",
+        "ko": "초보자연보자연系列第2集，설명手部放置的基础原则，包括手顺、换手~할 때机그리고不同手点的基本그립法。습니다"
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "Rock Climbing: How to Climb Finger Cracks",
+        "en": "Rock Climbing: How to Climb Finger Cracks",
+        "ko": "Rock Climbing: How to Climb Finger Cracks"
+      },
+      "url": "https://www.youtube.com/watch?v=jzdgWsbGbMc",
+      "channel": "REI（系列）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "REI 出品的指缝（finger crack）攀登技术讲解，演示手指塞入技巧（finger jam）、扭锁方式和身体位置协调，适合户外传统攀入门。",
+        "en": "",
+        "ko": "REI 出品的指缝（finger crack）클라이밍기술설명，演示手指塞入기술（finger jam）、扭锁方式그리고신뢰할 수 있는체位置조화합니다，适合户外传统攀入门。습니다"
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-vertical-wall-technique": [
+    {
+      "title": {
+        "zh": "尼尔·格雷沙姆的攀岩大师课214 传统攀-Slab岩壁",
+        "en": "尼尔·格雷沙姆的攀岩大师课214 传统攀-Slab岩壁",
+        "ko": "尼尔·格雷沙姆的클라이밍大师课214 传统攀-Slab岩壁습니다"
+      },
+      "url": "https://www.bilibili.com/video/BV1iocKzaEZM/",
+      "channel": "（Neil Gresham Masterclass 搬运）",
+      "platform": "bilibili",
+      "lang": "en",
+      "quality": 5,
+      "summary": {
+        "zh": "Neil Gresham 攀岩大师课第 214 集，专项讲解板岩（Slab）攀登技术：重心前移原则、涂抹脚法（smearing）与精准踩点技术、信任脚感的心理建设，结合传统攀板岩线路实例演示。",
+        "en": "",
+        "ko": "Neil Gresham 클라이밍大师课第 214 集，专项설명板岩（Slab）클라이밍기술：重心前移原则、涂抹발법（smearing）그리고精准발 밟기点기술、信任脚感的心理建설명，결합합니다传统攀板岩线路实例演示。습니다"
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-figure-four": [
+    {
+      "title": {
+        "zh": "攀岩身体倒挂勾脚 原理讲解 动作练习技巧",
+        "en": "攀岩身体倒挂勾脚 原理讲解 动作练习技巧",
+        "ko": "클라이밍신뢰할 수 있는체倒挂훅 原理설명 动作练习기술습니다"
+      },
+      "url": "https://www.bilibili.com/video/BV1UpCjY5EzK/",
+      "channel": "（待确认UP主名称）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "讲解身体倒挂姿势下（屋檐地形）的勾脚技术，原理解析加上具体的动作练习方法，对屋檐攀登有实际帮助。",
+        "en": "",
+        "ko": "설명신뢰할 수 있는체倒挂姿势下（屋檐地形）的훅기술，原理解析加上구체적용합니다的动作练习方法，对屋檐클라이밍有实际帮助。습니다"
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-climbing-physics-basics": [
+    {
+      "title": {
+        "zh": "Climbing Technique For Beginners - Episode 1 - Foot Placement",
+        "en": "Climbing Technique For Beginners - Episode 1 - Foot Placement",
+        "ko": "Climbing Technique For Beginners - Episode 1 - Foot Placement"
+      },
+      "url": "https://www.youtube.com/watch?v=oqd39cc0HL0",
+      "channel": "Eric Karlsson Bouldering",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "初学者脚法系列第1集，讲解室内攀岩中边踩（edging）和摩擦踩（smearing）的基础原理与练习方法，强调精准落脚的重要性。",
+        "en": "",
+        "ko": "초보자연보자연발법系列第1集，설명실내내클라이밍中에징（edging）그리고스미어링（smearing）的基础原理그리고练习方法，강사화调精准落脚的重要性。습니다"
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "[攀岩\\",
+        "en": "[攀岩\\",
+        "ko": "[클라이밍\\습니다"
+      },
+      "url": "https://www.bilibili.com/video/BV1Bt4y1q7jQ",
+      "channel": "ClimbingWorld（搬运）",
+      "platform": "bilibili",
+      "lang": "en",
+      "quality": 3,
+      "summary": {
+        "zh": "英文原版脚法教学搬运，涵盖边踩、摩擦踩、勾脚尖、勾脚跟四种基础脚法技术，配有清晰的动作演示。",
+        "en": "",
+        "ko": "英文원본발법교학搬运，涵盖에징、스미어링、토훅、힐훅四种基础발법기술，配有명확합니다的动作演示。습니다"
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-action-reaction": [
+    {
+      "title": {
+        "zh": "攀岩动作与技巧系列视频-对抗发力1：反肩/外撑/上撑",
+        "en": "攀岩动作与技巧系列视频-对抗发力1：反肩/外撑/上撑",
+        "ko": "클라이밍动作그리고기술系列视频-对抗发力1：反肩/外撑/上撑습니다"
+      },
+      "url": "https://www.bilibili.com/video/BV16i4y1j7vc/",
+      "channel": "岩时攀岩",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 4,
+      "summary": {
+        "zh": "岩时攀岩出品的动作技巧系列，专讲对抗发力三种形式：外撑（stemming，两脚蹬两侧墙面形成对抗）、反肩（back step 变体）、上撑（pressing），重点讲解外撑的应用场景（角落/宽裂缝），是 kp-stemming 在 Bilibili 端的首个专项视频。",
+        "en": "",
+        "ko": "岩~할 때클라이밍出品的动作기술系列，专讲对抗发力三种形式：外撑（stemming，两脚蹬两侧墙面형성합니다对抗）、反肩（back step 变체계적）、上撑（pressing），重点설명外撑的적용용합니다场景（角落/宽裂缝），是 kp-stemming 在 Bilibili 端的首个专项视频。습니다"
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "攀岩动作与技巧系列视频-Knee Bar / Mantling",
+        "en": "攀岩动作与技巧系列视频-Knee Bar / Mantling",
+        "ko": "攀岩动作与技巧系列视频-Knee Bar / Mantling"
+      },
+      "url": "https://www.bilibili.com/video/BV1oa411w7Pm/",
+      "channel": "（系列视频）",
+      "platform": "bilibili",
+      "lang": "zh",
+      "quality": 3,
+      "summary": {
+        "zh": "讲解 Knee Bar（锁膝）和 Mantling（翻越/撑顶）两种进阶技术，演示如何在顶部岩点和平台处完成翻越动作。",
+        "en": "",
+        "ko": "설명 Knee Bar（锁膝）그리고 Mantling（翻越/撑顶）两种进阶기술，演示如何在顶部岩点그리고平台处完成翻越动作。습니다"
+      },
+      "relevance": "secondary"
+    }
+  ],
+  "kp-kinetic-chain": [
+    {
+      "title": {
+        "zh": "Climbing Technique For Intermediate - Episode 1 - Dynos",
+        "en": "Climbing Technique For Intermediate - Episode 1 - Dynos",
+        "ko": "Climbing Technique For Intermediate - Episode 1 - Dynos"
+      },
+      "url": "https://www.youtube.com/watch?v=XjUsX8X9XGw",
+      "channel": "Eric Karlsson Bouldering",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 4,
+      "summary": {
+        "zh": "中级系列之 Dyno（飞跃）教程，讲解全飞跃（full dyno）与死点（deadpoint）的区别，以及起跳时机、落点预判和失败处理，配有室内抱石演示。",
+        "en": "",
+        "ko": "중급系列之 Dyno（飞跃）教程，설명전체飞跃（full dyno）그리고死点（deadpoint）的区别，以그리고起점프로~할 때机、落点预判그리고失败处理，配有실내내볼더링演示。습니다"
+      },
+      "relevance": "secondary"
+    },
+    {
+      "title": {
+        "zh": "Rock Climbing: How to Dyno in Rock Climbing",
+        "en": "Rock Climbing: How to Dyno in Rock Climbing",
+        "ko": "Rock Climbing: How to Dyno in Rock Climbing"
+      },
+      "url": "https://www.youtube.com/watch?v=at8e-jBBU5E",
+      "channel": "（攀岩基础系列）",
+      "platform": "youtube",
+      "lang": "en",
+      "quality": 3,
+      "summary": {
+        "zh": "飞跃技术基础教程，讲解 dyno 的基本动作模式、准备姿势和常见错误纠正。",
+        "en": "",
+        "ko": "飞跃기술基础教程，설명 dyno 的基本动作模式、准备姿势그리고常见错误纠正。습니다"
       },
       "relevance": "secondary"
     }

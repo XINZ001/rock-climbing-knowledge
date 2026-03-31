@@ -213,7 +213,7 @@
           ],
           "crossRefs": [
             "kp-slab-technique",
-            "kp-crack-technique",
+            "kp-crack-hand-jam",
             "kp-climbing-shoes"
           ],
           "tags": [
@@ -555,7 +555,7 @@
             }
           ],
           "crossRefs": [
-            "kp-crack-technique",
+            "kp-crack-hand-jam",
             "kp-fall-technique",
             "kp-rope"
           ],
@@ -729,7 +729,7 @@
             }
           ],
           "crossRefs": [
-            "kp-crack-technique",
+            "kp-crack-hand-jam",
             "kp-climbing-shoes",
             "kp-edging"
           ],
@@ -902,7 +902,7 @@
           ],
           "crossRefs": [
             "kp-route-reading-basics",
-            "kp-crimp-hold",
+            "kp-full-crimp",
             "kp-slab-technique"
           ],
           "tags": [
@@ -1227,7 +1227,7 @@
             }
           ],
           "crossRefs": [
-            "kp-crack-technique",
+            "kp-crack-hand-jam",
             "kp-placing-protection",
             "kp-rope"
           ],
@@ -1402,7 +1402,7 @@
           "crossRefs": [
             "kp-rock-types",
             "kp-climbing-shoes",
-            "kp-crack-technique"
+            "kp-crack-hand-jam"
           ],
           "tags": [
             "beginner",

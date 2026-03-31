@@ -98,7 +98,7 @@
     "/images/illustrations/kp-cams-mechanism.png",
     "/images/illustrations/kp-cams-placement.png"
   ],
-  "kp-center-of-gravity": [
+  "kp-cog-principles": [
     "/images/illustrations/kp-center-of-gravity.png"
   ],
   "kp-chalk": [
@@ -184,7 +184,7 @@
     "/images/illustrations/kp-crack-climbing-hand.png",
     "/images/illustrations/kp-crack-climbing-offwidth.png"
   ],
-  "kp-crack-technique": [
+  "kp-crack-hand-jam": [
     "/images/illustrations/kp-crack-technique-finger.png",
     "/images/illustrations/kp-crack-technique-fist.png",
     "/images/illustrations/kp-crack-technique-hand.png"
@@ -192,7 +192,7 @@
   "kp-crash-pad": [
     "/images/illustrations/kp-crash-pad.png"
   ],
-  "kp-crimp-hold": [
+  "kp-full-crimp": [
     "/images/illustrations/kp-crimp-hold.png"
   ],
   "kp-deadpoint": [

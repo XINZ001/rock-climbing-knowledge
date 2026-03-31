@@ -224,15 +224,6 @@
         "ko": "큰 홀드를 잡는 클라이머"
       }
     },
-    "kp-crimp-hold": {
-      "cdnBase": "https://images.unsplash.com/photo-1683009427041-d810728a7cb6",
-      "unsplashId": "xhMz5xIbhRg",
-      "alt": {
-        "zh": "攀岩者在岩壁上抓握",
-        "en": "Climber gripping holds on cliff",
-        "ko": "암벽 위에서 잡고 있는 클라이머"
-      }
-    },
     "kp-sloper-hold": {
       "cdnBase": "https://images.unsplash.com/photo-1744842091515-f1c88ee17b53",
       "unsplashId": "cvikmsgyiKQ",
@@ -285,15 +276,6 @@
         "zh": "攀岩者手部动作",
         "en": "Climber hand movements",
         "ko": "클라이머의 손 움직임"
-      }
-    },
-    "kp-center-of-gravity": {
-      "cdnBase": "https://images.unsplash.com/photo-1520156557489-31c63271fcd4",
-      "unsplashId": "VmYZe_yqxL0",
-      "alt": {
-        "zh": "攀岩者身体姿态",
-        "en": "Climber body positioning",
-        "ko": "클라이머의 신체 자세"
       }
     },
     "kp-flagging": {
@@ -402,15 +384,6 @@
         "zh": "攀岩者在悬挂岩壁上",
         "en": "Climber on overhanging rock face",
         "ko": "오버행 암벽의 클라이머"
-      }
-    },
-    "kp-crack-technique": {
-      "cdnBase": "https://images.unsplash.com/photo-1573526178135-253e85ff24ae",
-      "unsplashId": "iXc9NJwwX3E",
-      "alt": {
-        "zh": "裂缝攀岩手部技术",
-        "en": "Crack climbing hand technique",
-        "ko": "크랙 클라이밍 손 기법"
       }
     },
     "kp-arete-mantle": {

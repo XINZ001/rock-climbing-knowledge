@@ -39,7 +39,7 @@
       "duration": null,
       "segments": [
         {
-          "kpId": "kp-crimp-hold",
+          "kpId": "kp-full-crimp",
           "start": null,
           "end": null,
           "relevance": "primary",
@@ -185,7 +185,7 @@
           }
         },
         {
-          "kpId": "kp-center-of-gravity",
+          "kpId": "kp-cog-principles",
           "start": null,
           "end": null,
           "relevance": "secondary",

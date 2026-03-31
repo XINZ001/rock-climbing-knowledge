@@ -57,7 +57,7 @@
           ],
           "crossRefs": [
             "kp-grip-types",
-            "kp-crimp-hold",
+            "kp-full-crimp",
             "kp-warmup",
             "kp-hangboard-training"
           ],
@@ -290,7 +290,7 @@
             }
           ],
           "crossRefs": [
-            "kp-crimp-hold",
+            "kp-full-crimp",
             "kp-sloper-hold"
           ],
           "tags": [

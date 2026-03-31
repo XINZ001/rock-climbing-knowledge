@@ -1,13 +1,24 @@
 {
   "_meta": {
     "section": "section-03",
-    "sectionTitle": { "zh": "攀爬技术", "en": "Climbing Technique" },
+    "sectionTitle": {
+      "zh": "攀爬技术",
+      "en": "Climbing Technique"
+    },
     "searchDate": "2026-03-03",
     "totalArticles": 23,
     "coveredKps": 31,
     "totalKps": 37,
-    "uncoveredKps": ["kp-smedging", "kp-diagonal-support"],
-    "partiallyCoveredKps": ["kp-smearing", "kp-high-step-mantle", "kp-coordination-timing", "kp-campus-moves"]
+    "uncoveredKps": [
+      "kp-smedging",
+      "kp-diagonal-support"
+    ],
+    "partiallyCoveredKps": [
+      "kp-smearing",
+      "kp-high-step-mantle",
+      "kp-coordination-timing",
+      "kp-campus-moves"
+    ]
   },
   "articles": [
     {
@@ -19,7 +30,10 @@
       "publishDate": "2025-06",
       "articleType": "tutorial",
       "primaryKp": "kp-toe-hook",
-      "secondaryKps": ["kp-heel-hook", "kp-bicycle"],
+      "secondaryKps": [
+        "kp-heel-hook",
+        "kp-bicycle"
+      ],
       "quality": {
         "authority": 4,
         "depth": 5,
@@ -35,7 +49,14 @@
         "正确执行：髋部放低、腿保持相对伸直，利用脚勾和对侧手之间的压缩力",
         "进步依赖刻意练习和积累经验，而非单纯的力量训练"
       ],
-      "tags": ["toe-hook", "footwork", "technique", "body-positioning", "compression", "kris-hampton"]
+      "tags": [
+        "toe-hook",
+        "footwork",
+        "technique",
+        "body-positioning",
+        "compression",
+        "kris-hampton"
+      ]
     },
     {
       "url": "https://www.vdiffclimbing.com/sport-technique-footwork/",
@@ -46,7 +67,11 @@
       "publishDate": "2025-12",
       "articleType": "tutorial",
       "primaryKp": "kp-edging",
-      "secondaryKps": ["kp-smearing", "kp-smedging", "kp-foot-switching"],
+      "secondaryKps": [
+        "kp-smearing",
+        "kp-smedging",
+        "kp-foot-switching"
+      ],
       "quality": {
         "authority": 4,
         "depth": 4,
@@ -62,7 +87,14 @@
         "硬底鞋更擅长 edging，软底鞋更适合 smearing——根据路线特点选鞋",
         "脚踩点的核心是'看眼睛到脚上去'（keep eyes on foot until placement is secure）"
       ],
-      "tags": ["footwork", "edging", "smearing", "outside-edge", "inside-edge", "shoe-selection"]
+      "tags": [
+        "footwork",
+        "edging",
+        "smearing",
+        "outside-edge",
+        "inside-edge",
+        "shoe-selection"
+      ]
     },
     {
       "url": "https://trainingforclimbing.com/develop-fantastic-footwork-with-heel-hook-and-toe-hook-technique/",
@@ -73,7 +105,10 @@
       "publishDate": "2023",
       "articleType": "tutorial",
       "primaryKp": "kp-heel-hook",
-      "secondaryKps": ["kp-toe-hook", "kp-hip-flexibility"],
+      "secondaryKps": [
+        "kp-toe-hook",
+        "kp-hip-flexibility"
+      ],
       "quality": {
         "authority": 5,
         "depth": 4,
@@ -89,7 +124,14 @@
         "两种技术都需要良好的髋部灵活性才能充分发挥",
         "提供了专门强化 heel/toe hook 的训练动作和适用场景判断"
       ],
-      "tags": ["heel-hook", "toe-hook", "footwork", "technique", "hamstrings", "hip-mobility"]
+      "tags": [
+        "heel-hook",
+        "toe-hook",
+        "footwork",
+        "technique",
+        "hamstrings",
+        "hip-mobility"
+      ]
     },
     {
       "url": "https://gripped.com/profiles/10-terms-to-understand-climbing-footwork/",
@@ -100,7 +142,13 @@
       "publishDate": "unknown",
       "articleType": "tutorial",
       "primaryKp": "kp-foot-switching",
-      "secondaryKps": ["kp-edging", "kp-smearing", "kp-bicycle", "kp-heel-hook", "kp-toe-hook"],
+      "secondaryKps": [
+        "kp-edging",
+        "kp-smearing",
+        "kp-bicycle",
+        "kp-heel-hook",
+        "kp-toe-hook"
+      ],
       "quality": {
         "authority": 3,
         "depth": 4,
@@ -116,7 +164,13 @@
         "Bicycle（脚踏车）技术：同一岩点上脚跟向下压而脚尖向上勾，产生相反方向的力",
         "对于初学者和中级攀岩者是非常实用的脚法技术词典"
       ],
-      "tags": ["footwork", "foot-switching", "bicycle", "terminology", "technique-glossary"]
+      "tags": [
+        "footwork",
+        "foot-switching",
+        "bicycle",
+        "terminology",
+        "technique-glossary"
+      ]
     },
     {
       "url": "https://www.climbing.com/skills/the-heel-toe-cam/",
@@ -127,7 +181,11 @@
       "publishDate": "unknown",
       "articleType": "tutorial",
       "primaryKp": "kp-bicycle",
-      "secondaryKps": ["kp-heel-hook", "kp-toe-hook", "kp-overhang-technique"],
+      "secondaryKps": [
+        "kp-heel-hook",
+        "kp-toe-hook",
+        "kp-overhang-technique"
+      ],
       "quality": {
         "authority": 4,
         "depth": 4,
@@ -143,7 +201,14 @@
         "从 heel-toe cam 发力站起时，应同时用腿发力和手臂向外拉",
         "此技术特别适用于存在明显圆形或凸出特征的倒壁路线"
       ],
-      "tags": ["bicycle", "heel-toe-cam", "footwork", "steep-climbing", "roof", "technique"]
+      "tags": [
+        "bicycle",
+        "heel-toe-cam",
+        "footwork",
+        "steep-climbing",
+        "roof",
+        "technique"
+      ]
     },
     {
       "url": "https://www.trainingbeta.com/how-to-climb-slopers/",
@@ -154,7 +219,10 @@
       "publishDate": "unknown",
       "articleType": "tutorial",
       "primaryKp": "kp-sloper-hold",
-      "secondaryKps": ["kp-center-of-gravity", "kp-grip-types"],
+      "secondaryKps": [
+        "kp-center-of-gravity",
+        "kp-grip-types"
+      ],
       "quality": {
         "authority": 4,
         "depth": 3,
@@ -170,7 +238,13 @@
         "爬 sloper 需要额外的精神耐心、核心张力和安静的动作",
         "与其他点相比，sloper 对身体整体协调性和重心控制的要求更高"
       ],
-      "tags": ["sloper", "handholds", "body-position", "friction", "center-of-gravity"]
+      "tags": [
+        "sloper",
+        "handholds",
+        "body-position",
+        "friction",
+        "center-of-gravity"
+      ]
     },
     {
       "url": "https://www.trainingbeta.com/avoiding-injuries-on-pockets-the-climbing-doctor/",
@@ -181,7 +255,10 @@
       "publishDate": "unknown",
       "articleType": "tutorial",
       "primaryKp": "kp-pocket-hold",
-      "secondaryKps": ["kp-pulley-injury", "kp-warmup"],
+      "secondaryKps": [
+        "kp-pulley-injury",
+        "kp-warmup"
+      ],
       "quality": {
         "authority": 5,
         "depth": 4,
@@ -197,7 +274,13 @@
         "爬 pocket 前必须充分热身，最好先在更容易的 pocket 路线上逐步适应",
         "对拮抗肌的忽视是导致 pocket 伤病的主要因素之一"
       ],
-      "tags": ["pocket-hold", "mono", "pulley-injury", "injury-prevention", "finger-safety"]
+      "tags": [
+        "pocket-hold",
+        "mono",
+        "pulley-injury",
+        "injury-prevention",
+        "finger-safety"
+      ]
     },
     {
       "url": "https://www.vdiffclimbing.com/sport-technique-movement/",
@@ -208,7 +291,13 @@
       "publishDate": "2025-12",
       "articleType": "tutorial",
       "primaryKp": "kp-stemming",
-      "secondaryKps": ["kp-layback", "kp-flagging", "kp-back-step", "kp-center-of-gravity", "kp-undercling-sidepull-gaston"],
+      "secondaryKps": [
+        "kp-layback",
+        "kp-flagging",
+        "kp-back-step",
+        "kp-center-of-gravity",
+        "kp-undercling-sidepull-gaston"
+      ],
       "quality": {
         "authority": 4,
         "depth": 5,
@@ -224,7 +313,16 @@
         "涵盖了 undercling、sidepull、gaston 三种非常规握姿的适用场景和身体位置要求",
         "每种技术都配有插图说明正确的手脚位置关系"
       ],
-      "tags": ["stemming", "layback", "flagging", "backstep", "undercling", "sidepull", "gaston", "movement"]
+      "tags": [
+        "stemming",
+        "layback",
+        "flagging",
+        "backstep",
+        "undercling",
+        "sidepull",
+        "gaston",
+        "movement"
+      ]
     },
     {
       "url": "https://philarockgym.com/twist-locking-series-the-complete-guidelines/",
@@ -235,7 +333,11 @@
       "publishDate": "unknown",
       "articleType": "tutorial",
       "primaryKp": "kp-twist-lock",
-      "secondaryKps": ["kp-drop-knee", "kp-back-step", "kp-flagging"],
+      "secondaryKps": [
+        "kp-drop-knee",
+        "kp-back-step",
+        "kp-flagging"
+      ],
       "quality": {
         "authority": 3,
         "depth": 5,
@@ -251,7 +353,14 @@
         "Backstep 让攀岩者在不交叉手的情况下向侧面伸手，大幅扩展了可触及范围",
         "Twist-lock 的核心原理是通过扭转髋部将体重从手臂转移到腿部"
       ],
-      "tags": ["twist-lock", "drop-knee", "backstep", "reverse-flag", "body-positioning", "hip-rotation"]
+      "tags": [
+        "twist-lock",
+        "drop-knee",
+        "backstep",
+        "reverse-flag",
+        "body-positioning",
+        "hip-rotation"
+      ]
     },
     {
       "url": "https://rockclimbingrealms.com/climbing-movement-101-flagging-drop-knee-mastery-guide/",
@@ -262,7 +371,10 @@
       "publishDate": "unknown",
       "articleType": "tutorial",
       "primaryKp": "kp-flagging",
-      "secondaryKps": ["kp-drop-knee", "kp-center-of-gravity"],
+      "secondaryKps": [
+        "kp-drop-knee",
+        "kp-center-of-gravity"
+      ],
       "quality": {
         "authority": 3,
         "depth": 4,
@@ -278,7 +390,14 @@
         "Drop-knee 与 flagging 的选择标准：是否有可用的外侧踩点",
         "Flag 的本质是管理重心——让重心落在支撑脚的正上方"
       ],
-      "tags": ["flagging", "drop-knee", "balance", "center-of-gravity", "body-position", "technique"]
+      "tags": [
+        "flagging",
+        "drop-knee",
+        "balance",
+        "center-of-gravity",
+        "body-position",
+        "technique"
+      ]
     },
     {
       "url": "https://gripped.com/indoor-climbing/a-comprehensive-guide-to-climbing-technique/",
@@ -289,7 +408,13 @@
       "publishDate": "unknown",
       "articleType": "tutorial",
       "primaryKp": "kp-center-of-gravity",
-      "secondaryKps": ["kp-flagging", "kp-drop-knee", "kp-stemming", "kp-layback", "kp-high-step-mantle"],
+      "secondaryKps": [
+        "kp-flagging",
+        "kp-drop-knee",
+        "kp-stemming",
+        "kp-layback",
+        "kp-high-step-mantle"
+      ],
       "quality": {
         "authority": 3,
         "depth": 4,
@@ -304,7 +429,14 @@
         "综合演示了多种技术在真实路线中如何组合使用",
         "强调技术流畅性（fluid movement）比单个技术动作更重要"
       ],
-      "tags": ["center-of-gravity", "technique-overview", "flagging", "drop-knee", "stemming", "balance"]
+      "tags": [
+        "center-of-gravity",
+        "technique-overview",
+        "flagging",
+        "drop-knee",
+        "stemming",
+        "balance"
+      ]
     },
     {
       "url": "https://philarockgym.com/the-ultimate-guide-to-dyno-tips-and-tricks-5/",
@@ -315,7 +447,11 @@
       "publishDate": "unknown",
       "articleType": "tutorial",
       "primaryKp": "kp-dyno-technique",
-      "secondaryKps": ["kp-deadpoint", "kp-swing-momentum", "kp-lunge-types"],
+      "secondaryKps": [
+        "kp-deadpoint",
+        "kp-swing-momentum",
+        "kp-lunge-types"
+      ],
       "quality": {
         "authority": 3,
         "depth": 5,
@@ -331,7 +467,14 @@
         "Deadpoint 的关键：在上升和下降之间的'静止点'接触目标点，此时阻力最小",
         "建议从较小的 dyno 开始练习，逐步增加距离，先掌握时机感再追求高度"
       ],
-      "tags": ["dyno", "deadpoint", "dynamic-movement", "momentum", "timing", "lunge"]
+      "tags": [
+        "dyno",
+        "deadpoint",
+        "dynamic-movement",
+        "momentum",
+        "timing",
+        "lunge"
+      ]
     },
     {
       "url": "https://www.climbing.com/skills/face-climbing-techniques-slab-climbing/",
@@ -342,7 +485,12 @@
       "publishDate": "unknown",
       "articleType": "tutorial",
       "primaryKp": "kp-slab-technique",
-      "secondaryKps": ["kp-smearing", "kp-edging", "kp-center-of-gravity", "kp-palming"],
+      "secondaryKps": [
+        "kp-smearing",
+        "kp-edging",
+        "kp-center-of-gravity",
+        "kp-palming"
+      ],
       "quality": {
         "authority": 4,
         "depth": 4,
@@ -358,7 +506,14 @@
         "体重应通过双腿传递到岩壁，手仅用于辅助平衡而非承重",
         "在板岩地形上，重心的微小移动对整体平衡影响极大，需要非常精细的身体控制"
       ],
-      "tags": ["slab-climbing", "quiet-feet", "smearing", "balance", "friction", "footwork"]
+      "tags": [
+        "slab-climbing",
+        "quiet-feet",
+        "smearing",
+        "balance",
+        "friction",
+        "footwork"
+      ]
     },
     {
       "url": "https://gripped.com/indoor-climbing/10-techniques-for-climbing-overhangs/",
@@ -369,7 +524,12 @@
       "publishDate": "2020-05",
       "articleType": "tutorial",
       "primaryKp": "kp-overhang-technique",
-      "secondaryKps": ["kp-bicycle", "kp-toe-hook", "kp-heel-hook", "kp-roof-technique"],
+      "secondaryKps": [
+        "kp-bicycle",
+        "kp-toe-hook",
+        "kp-heel-hook",
+        "kp-roof-technique"
+      ],
       "quality": {
         "authority": 3,
         "depth": 4,
@@ -385,7 +545,14 @@
         "Figure 4（腿压臂）和 bat hang（倒挂）是高级倒壁和屋顶技术",
         "在倒壁地形上，脚法技术（bicycle/kneebar/toe-hook）的重要性往往超过手法"
       ],
-      "tags": ["overhang", "steep-climbing", "kneebar", "bat-hang", "figure-4", "10-techniques"]
+      "tags": [
+        "overhang",
+        "steep-climbing",
+        "kneebar",
+        "bat-hang",
+        "figure-4",
+        "10-techniques"
+      ]
     },
     {
       "url": "https://www.climbing.com/skills/climbing-techniques-how-to-climb-roofs/",
@@ -396,7 +563,12 @@
       "publishDate": "unknown",
       "articleType": "tutorial",
       "primaryKp": "kp-roof-technique",
-      "secondaryKps": ["kp-bicycle", "kp-heel-hook", "kp-toe-hook", "kp-overhang-technique"],
+      "secondaryKps": [
+        "kp-bicycle",
+        "kp-heel-hook",
+        "kp-toe-hook",
+        "kp-overhang-technique"
+      ],
       "quality": {
         "authority": 4,
         "depth": 4,
@@ -412,7 +584,14 @@
         "Bat hang（双脚倒挂）主要用于休息和展示，但也是某些路线的必要技术",
         "屋顶地形需要灵活切换不同脚法技术，而非只依赖一种"
       ],
-      "tags": ["roof-climbing", "horizontal", "bat-hang", "kneebar", "core-tension", "technique"]
+      "tags": [
+        "roof-climbing",
+        "horizontal",
+        "bat-hang",
+        "kneebar",
+        "core-tension",
+        "technique"
+      ]
     },
     {
       "url": "https://www.vdiffclimbing.com/crack-climbing/",
@@ -423,7 +602,10 @@
       "publishDate": "2025-12",
       "articleType": "tutorial",
       "primaryKp": "kp-crack-technique",
-      "secondaryKps": ["kp-crack-climbing-systems", "kp-layback"],
+      "secondaryKps": [
+        "kp-crack-climbing-systems",
+        "kp-layback"
+      ],
       "quality": {
         "authority": 4,
         "depth": 5,
@@ -439,7 +621,14 @@
         "不同宽度裂缝（指宽/手宽/拳宽/肩宽/烟囱）需要完全不同的技术，各有详细说明",
         "好的手塞比 jug 还可靠，好的脚塞可以站在上面休息"
       ],
-      "tags": ["crack-climbing", "hand-jam", "finger-jam", "foot-jam", "trad-climbing", "technique"]
+      "tags": [
+        "crack-climbing",
+        "hand-jam",
+        "finger-jam",
+        "foot-jam",
+        "trad-climbing",
+        "technique"
+      ]
     },
     {
       "url": "https://www.rei.com/learn/expert-advice/crack-climbing.html",
@@ -450,7 +639,9 @@
       "publishDate": "unknown",
       "articleType": "tutorial",
       "primaryKp": "kp-crack-technique",
-      "secondaryKps": ["kp-trad-climbing"],
+      "secondaryKps": [
+        "kp-trad-climbing"
+      ],
       "quality": {
         "authority": 4,
         "depth": 4,
@@ -465,7 +656,13 @@
         "解释了 tape glove（护手胶布）的缠绕方法和重要性",
         "给出了针对裂缝攀登的攀岩鞋类型选择建议（平底vs下弯）"
       ],
-      "tags": ["crack-climbing", "hand-jam", "beginner", "tape-gloves", "technique"]
+      "tags": [
+        "crack-climbing",
+        "hand-jam",
+        "beginner",
+        "tape-gloves",
+        "technique"
+      ]
     },
     {
       "url": "https://butorausa.com/blogs/beta-blog/everything-you-need-to-know-about-climbing-aretes",
@@ -476,7 +673,11 @@
       "publishDate": "unknown",
       "articleType": "tutorial",
       "primaryKp": "kp-arete-mantle",
-      "secondaryKps": ["kp-flagging", "kp-layback", "kp-heel-hook"],
+      "secondaryKps": [
+        "kp-flagging",
+        "kp-layback",
+        "kp-heel-hook"
+      ],
       "quality": {
         "authority": 3,
         "depth": 4,
@@ -492,7 +693,14 @@
         "脚跟绕 arête 勾住（sneaky heel around）是 arête 攀登的特色脚法，可提供稳定休息点",
         "压缩技术（compression）：用双手从两侧夹住 arête，身体悬挂其间"
       ],
-      "tags": ["arete", "compression", "barndoor", "heel-hook", "45-degree", "technique"]
+      "tags": [
+        "arete",
+        "compression",
+        "barndoor",
+        "heel-hook",
+        "45-degree",
+        "technique"
+      ]
     },
     {
       "url": "https://www.climbing.com/skills/reading-routes/",
@@ -503,7 +711,10 @@
       "publishDate": "unknown",
       "articleType": "tutorial",
       "primaryKp": "kp-route-reading-basics",
-      "secondaryKps": ["kp-onsight-flash-redpoint", "kp-hand-sequence"],
+      "secondaryKps": [
+        "kp-onsight-flash-redpoint",
+        "kp-hand-sequence"
+      ],
       "quality": {
         "authority": 4,
         "depth": 4,
@@ -519,7 +730,14 @@
         "在地面模拟动作（mime）是最有效的路线可视化方法",
         "路线阅读从地面节省的时间和精力，会在路线上以更流畅的动作换回来"
       ],
-      "tags": ["route-reading", "onsight", "visualization", "hand-sequence", "rest-points", "strategy"]
+      "tags": [
+        "route-reading",
+        "onsight",
+        "visualization",
+        "hand-sequence",
+        "rest-points",
+        "strategy"
+      ]
     },
     {
       "url": "https://www.powercompanyclimbing.com/blog/2019/7/21/redpoint-tactics-applying-the-art-of-the-second-try-send",
@@ -530,7 +748,10 @@
       "publishDate": "2019-08",
       "articleType": "tutorial",
       "primaryKp": "kp-onsight-flash-redpoint",
-      "secondaryKps": ["kp-projecting-strategy", "kp-route-reading-basics"],
+      "secondaryKps": [
+        "kp-projecting-strategy",
+        "kp-route-reading-basics"
+      ],
       "quality": {
         "authority": 4,
         "depth": 4,
@@ -546,7 +767,14 @@
         "提出了'三分之一法则'：1/3时间做项目，1/3做第二次尝试路线，1/3做 onsight",
         "在第一次尝试中用 tick mark 标记关键岩点，为第二次尝试奠定基础"
       ],
-      "tags": ["redpoint", "onsight", "flash", "second-try", "projecting", "sport-climbing-strategy"]
+      "tags": [
+        "redpoint",
+        "onsight",
+        "flash",
+        "second-try",
+        "projecting",
+        "sport-climbing-strategy"
+      ]
     },
     {
       "url": "https://rockclimbingrealms.com/the-science-of-footwork-an-edging-smearing-masterclass/",
@@ -557,7 +785,10 @@
       "publishDate": "unknown",
       "articleType": "tutorial",
       "primaryKp": "kp-smearing",
-      "secondaryKps": ["kp-edging", "kp-slab-technique"],
+      "secondaryKps": [
+        "kp-edging",
+        "kp-slab-technique"
+      ],
       "quality": {
         "authority": 3,
         "depth": 4,
@@ -573,7 +804,14 @@
         "提供了专项诊断脚法失误的练习框架（注意力/顺序/张力三个维度）",
         "Silent foot（静音踩点）练习是最有效的脚法精度训练方法之一"
       ],
-      "tags": ["smearing", "edging", "footwork", "friction-science", "quiet-feet", "practice-drills"]
+      "tags": [
+        "smearing",
+        "edging",
+        "footwork",
+        "friction-science",
+        "quiet-feet",
+        "practice-drills"
+      ]
     },
     {
       "url": "https://www.99boulders.com/climbing-moves-holds-and-technique",
@@ -584,7 +822,13 @@
       "publishDate": "2022-01",
       "articleType": "tutorial",
       "primaryKp": "kp-jug-hold",
-      "secondaryKps": ["kp-pinch-hold", "kp-pocket-hold", "kp-sloper-hold", "kp-crimp-hold", "kp-undercling-sidepull-gaston"],
+      "secondaryKps": [
+        "kp-pinch-hold",
+        "kp-pocket-hold",
+        "kp-sloper-hold",
+        "kp-crimp-hold",
+        "kp-undercling-sidepull-gaston"
+      ],
       "quality": {
         "authority": 3,
         "depth": 4,
@@ -600,7 +844,14 @@
         "提供了从基础动作（rock over/high step）到进阶动作（dyno/kneebar）的完整技术词汇表",
         "强调'最有效技术'比'最强壮'更重要——以最小化动作完成到达下一个岩点"
       ],
-      "tags": ["jug", "pinch", "all-hold-types", "beginner-guide", "technique-overview", "hold-classification"]
+      "tags": [
+        "jug",
+        "pinch",
+        "all-hold-types",
+        "beginner-guide",
+        "technique-overview",
+        "hold-classification"
+      ]
     },
     {
       "url": "https://sendedition.com/22-climbing-techniques-and-how-to-do-them/",
@@ -611,7 +862,16 @@
       "publishDate": "unknown",
       "articleType": "tutorial",
       "primaryKp": "kp-palming",
-      "secondaryKps": ["kp-toe-hook", "kp-heel-hook", "kp-layback", "kp-stemming", "kp-deadpoint", "kp-drop-knee", "kp-dyno-technique", "kp-bicycle"],
+      "secondaryKps": [
+        "kp-toe-hook",
+        "kp-heel-hook",
+        "kp-layback",
+        "kp-stemming",
+        "kp-deadpoint",
+        "kp-drop-knee",
+        "kp-dyno-technique",
+        "kp-bicycle"
+      ],
       "quality": {
         "authority": 3,
         "depth": 4,
@@ -627,7 +887,885 @@
         "22种技术的系统性分类，是覆盖范围最全面的单篇技术参考文章之一",
         "Figure 4 和 bat hang 等高级技术也有清晰说明，适合进阶参考"
       ],
-      "tags": ["palming", "22-techniques", "beginner-to-advanced", "technique-progression", "V-grade-framework"]
+      "tags": [
+        "palming",
+        "22-techniques",
+        "beginner-to-advanced",
+        "technique-progression",
+        "V-grade-framework"
+      ]
+    },
+    {
+      "title": "Physics of Climbing: Force Vectors and Friction",
+      "url": "https://www.namahropes.com/the-science-of-climbing-newtons-law-in-action/",
+      "source": "Nama HR",
+      "language": "en",
+      "articleType": "educational",
+      "primaryKP": "kp-climbing-physics-basics",
+      "secondaryKPs": [
+        "kp-action-reaction"
+      ],
+      "qualityNotes": "Covers Newton's laws in climbing context, explains force vectors and friction principles"
+    },
+    {
+      "title": "Friction - Basic Physics Concepts",
+      "url": "https://phys.libretexts.org/Bookshelves/University_Physics/University_Physics_(OpenStax)/Book:_University_Physics_I_-_Mechanics_Sound_Oscillations_and_Waves_(OpenStax)/06:_Applications_of_Newton's_Laws/6.05:_Friction_(Part_2)",
+      "source": "LibreTexts Physics",
+      "language": "en",
+      "articleType": "educational",
+      "primaryKP": "kp-climbing-physics-basics",
+      "secondaryKPs": [],
+      "qualityNotes": "Academic resource covering friction equation (f = μN) applicable to climbing physics"
+    },
+    {
+      "title": "Balance and Momentum in Rock Climbing",
+      "url": "https://sciencebehindthesport.wvu.edu/rock-climbing/balance-and-momentum",
+      "source": "West Virginia University - Science Behind the Sport",
+      "language": "en",
+      "articleType": "educational",
+      "primaryKP": "kp-inertia-momentum",
+      "secondaryKPs": [
+        "kp-cog-principles"
+      ],
+      "qualityNotes": "University research on momentum and balance principles specific to climbing"
+    },
+    {
+      "title": "Train to Send: Continuous Intensity Repetitions",
+      "url": "https://momentumclimbing.com/volume-phase-continuous-intensity-repetitions/",
+      "source": "Momentum Climbing",
+      "language": "en",
+      "articleType": "training",
+      "primaryKP": "kp-inertia-momentum",
+      "secondaryKPs": [],
+      "qualityNotes": "Practical guide on using momentum for efficiency in climbing"
+    },
+    {
+      "title": "Newton's Third Law in Action",
+      "url": "https://www1.grc.nasa.gov/beginners-guide-to-aeronautics/newtons-laws-of-motion/",
+      "source": "NASA Glenn Research Center",
+      "language": "en",
+      "articleType": "educational",
+      "primaryKP": "kp-action-reaction",
+      "secondaryKPs": [],
+      "qualityNotes": "Authoritative explanation of Newton's third law (action-reaction forces)"
+    },
+    {
+      "title": "Body Tension in Climbing: How the Kinetic Chain Transfers Force",
+      "url": "https://www.maxclimbing.com/blogs/knowledge-hub-technique-movement/body-tension-kinetic-chains",
+      "source": "Max Climbing",
+      "language": "en",
+      "articleType": "technique",
+      "primaryKP": "kp-kinetic-chain",
+      "secondaryKPs": [
+        "kp-action-reaction"
+      ],
+      "qualityNotes": "Comprehensive article on kinetic chain and force transfer in climbing, includes body tension principles"
+    },
+    {
+      "title": "Effects of Core Training on Climbing Performance",
+      "url": "https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0203766",
+      "source": "PLOS One",
+      "language": "en",
+      "articleType": "research",
+      "primaryKP": "kp-kinetic-chain",
+      "secondaryKPs": [
+        "kp-cog-principles"
+      ],
+      "qualityNotes": "Peer-reviewed research on how kinetic chain (core training) affects climbing performance"
+    },
+    {
+      "title": "Lever Systems and Mechanical Advantage in Sports",
+      "url": "https://fiveable.me/sports-biomechanics/unit-7/lever-systems-mechanical-advantage/study-guide/rXVWVHauM55Z04Te",
+      "source": "Fiveable - Sports Biomechanics",
+      "language": "en",
+      "articleType": "educational",
+      "primaryKP": "kp-lever-biomechanics",
+      "secondaryKPs": [],
+      "qualityNotes": "Covers lever systems, straight arm vs bent arm, mechanical advantage principles"
+    },
+    {
+      "title": "What Levers Does Your Body Use?",
+      "url": "https://www.sciencelearn.org.nz/resources/1924-what-levers-does-your-body-use",
+      "source": "Science Learning Hub - New Zealand",
+      "language": "en",
+      "articleType": "educational",
+      "primaryKP": "kp-lever-biomechanics",
+      "secondaryKPs": [],
+      "qualityNotes": "Educational resource on body levers, class 3 levers, and mechanical advantage in climbing"
+    },
+    {
+      "title": "Reading Routes: How to Mentally Map Out Your Climb",
+      "url": "https://butorausa.com/blogs/beta-blog/reading-routes-how-to-mentally-map-out-your-climb",
+      "source": "Butora USA",
+      "language": "en",
+      "articleType": "technique",
+      "primaryKP": "kp-ground-reading",
+      "secondaryKPs": [
+        "kp-crux-analysis"
+      ],
+      "qualityNotes": "Practical guide on reading routes from ground, identifying holds and rest points"
+    },
+    {
+      "title": "Route Reading Or How To be More Like Adam Ondra",
+      "url": "https://www.theclimbinghangar.com/blog/route-reading-or-how-to-be-more-like-adam-ondra",
+      "source": "The Climbing Hangar",
+      "language": "en",
+      "articleType": "technique",
+      "primaryKP": "kp-ground-reading",
+      "secondaryKPs": [
+        "kp-sequence-planning",
+        "kp-beta-memory"
+      ],
+      "qualityNotes": "Expert-level route reading techniques from pro climbers perspective"
+    },
+    {
+      "title": "Mastering Route Reading in Competition Climbing: Strategies That Actually Work",
+      "url": "https://www.competitionclimbing.com/blog/mastering-route-reading-competition-climbing-strategies",
+      "source": "Competitive Climbing Blog",
+      "language": "en",
+      "articleType": "technique",
+      "primaryKP": "kp-sequence-planning",
+      "secondaryKPs": [
+        "kp-ground-reading",
+        "kp-crux-analysis"
+      ],
+      "qualityNotes": "Competition-focused strategies for sequence planning and identifying critical moves"
+    },
+    {
+      "title": "Embodied Planning in Climbing: How Pre-Planning Informs Motor Execution",
+      "url": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10911288/",
+      "source": "PMC (NIH)",
+      "language": "en",
+      "articleType": "research",
+      "primaryKP": "kp-sequence-planning",
+      "secondaryKPs": [
+        "kp-beta-memory"
+      ],
+      "qualityNotes": "Research-backed analysis of how climbers plan sequences and execute movements"
+    },
+    {
+      "title": "Resting on Routes",
+      "url": "https://www.climbstrong.com/resource-posts/resting-on-routes",
+      "source": "Climb Strong",
+      "language": "en",
+      "articleType": "technique",
+      "primaryKP": "kp-rest-spot-identification",
+      "secondaryKPs": [
+        "kp-sequence-planning"
+      ],
+      "qualityNotes": "Expert guide on identifying and utilizing rest spots effectively"
+    },
+    {
+      "title": "How to Rest on Route: Finding and Using Rest Positions",
+      "url": "https://trailandcrag.com/rock-climbing/how-to-find-rests",
+      "source": "Trail & Crag",
+      "language": "en",
+      "articleType": "technique",
+      "primaryKP": "kp-rest-spot-identification",
+      "secondaryKPs": [
+        "kp-sequence-planning"
+      ],
+      "qualityNotes": "Practical guide on identifying rest spots, body position during resting, G-tox technique"
+    },
+    {
+      "title": "Resting on Route: How to Minimize Pump While Sport Climbing",
+      "url": "https://www.climbing.com/skills/effective-resting-for-rock-climbing",
+      "source": "Climbing Magazine",
+      "language": "en",
+      "articleType": "technique",
+      "primaryKP": "kp-rest-spot-identification",
+      "secondaryKPs": [
+        "kp-sequence-planning",
+        "kp-crux-analysis"
+      ],
+      "qualityNotes": "Climbing Magazine's guide to strategic resting positions and techniques"
+    },
+    {
+      "title": "What is a Crux in Climbing? Separating Rookies From Rockstars",
+      "url": "https://hardclimbs.info/what-is-a-crux-in-climbing/",
+      "source": "Hard Climbs",
+      "language": "en",
+      "articleType": "educational",
+      "primaryKP": "kp-crux-analysis",
+      "secondaryKPs": [
+        "kp-sequence-planning"
+      ],
+      "qualityNotes": "Comprehensive definition and strategy for identifying and solving crux sections"
+    },
+    {
+      "title": "What is a Crux in Climbing? Getting to Grips with Hardest Parts",
+      "url": "https://www.advnture.com/features/what-is-a-crux-in-climbing",
+      "source": "Advnture",
+      "language": "en",
+      "articleType": "educational",
+      "primaryKP": "kp-crux-analysis",
+      "secondaryKPs": [],
+      "qualityNotes": "Clear explanation of crux concept and psychological crux in climbing"
+    },
+    {
+      "title": "Muscle Memory: How the Body and Mind Work Together to Remember Climbing Moves",
+      "url": "https://www.climbing.com/skills/muscle-memory-how-the-body-and-mind-work-together-to-remember-climbing-moves/",
+      "source": "Climbing Magazine",
+      "language": "en",
+      "articleType": "technique",
+      "primaryKP": "kp-beta-memory",
+      "secondaryKPs": [
+        "kp-sequence-planning"
+      ],
+      "qualityNotes": "Comprehensive guide on muscle memory, skill learning, and beta retention in climbing"
+    },
+    {
+      "title": "The Importance of Remembering Sequences in Climbing",
+      "url": "http://upskillclimbing.blogspot.com/2011/05/importance-of-remembering-sequences-in.html",
+      "source": "Upskill Climbing Blog",
+      "language": "en",
+      "articleType": "technique",
+      "primaryKP": "kp-beta-memory",
+      "secondaryKPs": [
+        "kp-sequence-planning"
+      ],
+      "qualityNotes": "Focused guide on memorizing climbing sequences and beta retention techniques"
+    },
+    {
+      "title": "Mental Training for Climbers: Visualization and Memory Techniques",
+      "url": "https://www.climbing.com/skills/learn-this-mental-training-for-climbers-2/",
+      "source": "Climbing Magazine",
+      "language": "en",
+      "articleType": "training",
+      "primaryKP": "kp-beta-memory",
+      "secondaryKPs": [],
+      "qualityNotes": "Mental training approaches for memorizing sequences and improving performance"
+    },
+    {
+      "title": "Center Of Gravity Placement in Climbing",
+      "url": "https://www.dailyclimbing.com/center-of-gravity-placement-in-climbing/",
+      "source": "Daily Climbing",
+      "language": "en",
+      "articleType": "technique",
+      "primaryKP": "kp-cog-principles",
+      "secondaryKPs": [
+        "kp-hip-control"
+      ],
+      "qualityNotes": "Focused guide on center of gravity and its effect on climbing efficiency"
+    },
+    {
+      "title": "How to Improve Your Balance: 5 Tips for Better Climbing Balance",
+      "url": "https://www.climbing.com/skills/5-tips-for-better-climbing-balance/",
+      "source": "Climbing Magazine",
+      "language": "en",
+      "articleType": "technique",
+      "primaryKP": "kp-cog-principles",
+      "secondaryKPs": [
+        "kp-hip-control"
+      ],
+      "qualityNotes": "Practical tips for balance and center of gravity in different climbing scenarios"
+    },
+    {
+      "title": "How Centre of Gravity Affects Your Rock Climbing Performance",
+      "url": "https://www.explorationjunkie.com/centre-of-gravity-rock-climbing-performance/",
+      "source": "Exploration Junkie",
+      "language": "en",
+      "articleType": "technique",
+      "primaryKP": "kp-cog-principles",
+      "secondaryKPs": [
+        "kp-hip-control",
+        "kp-lever-biomechanics"
+      ],
+      "qualityNotes": "Analysis of how center of gravity positioning affects climbing performance and efficiency"
+    },
+    {
+      "title": "Use Your Hips Skillfully to Maximize Sending Power",
+      "url": "https://www.climbing.com/skills/the-hips-dont-lie/",
+      "source": "Climbing Magazine",
+      "language": "en",
+      "articleType": "technique",
+      "primaryKP": "kp-hip-control",
+      "secondaryKPs": [
+        "kp-cog-principles"
+      ],
+      "qualityNotes": "Expert guide on open hip vs closed hip positioning and hip movement efficiency"
+    },
+    {
+      "title": "The Most Underrated Climbing Skill: 3 Steps to Improve High Feet and Open Hip Mobility",
+      "url": "https://www.hoopersbeta.com/library/3-steps-to-improve-your-high-feet-open-hips",
+      "source": "Hooper's Beta",
+      "language": "en",
+      "articleType": "training",
+      "primaryKP": "kp-hip-control",
+      "secondaryKPs": [
+        "kp-cog-principles"
+      ],
+      "qualityNotes": "Training focused on open hip technique and high foot placement"
+    },
+    {
+      "title": "Hip Mobility for Rock Climbers to Improve High Stepping & Frogging",
+      "url": "https://www.trainingbeta.com/hip-mobility-for-rock-climbers/",
+      "source": "TrainingBeta",
+      "language": "en",
+      "articleType": "training",
+      "primaryKP": "kp-hip-control",
+      "secondaryKPs": [
+        "kp-cog-principles"
+      ],
+      "qualityNotes": "TrainingBeta's guide to hip mobility, open/closed hip positions, and high feet techniques"
+    },
+    {
+      "title": "Training for Climbing: The Definitive Guide to Improving Your Performance",
+      "url": "https://trainingforclimbing.com/",
+      "source": "Training for Climbing by Eric Hörst",
+      "language": "en",
+      "articleType": "guide",
+      "primaryKP": "kp-kinetic-chain",
+      "secondaryKPs": [
+        "kp-lever-biomechanics",
+        "kp-cog-principles",
+        "kp-hip-control"
+      ],
+      "qualityNotes": "World's best-selling climbing training book covering physics, biomechanics, and technique"
+    },
+    {
+      "title": "Movement Practice Resources and Drills",
+      "url": "https://www.powercompanyclimbing.com/movement",
+      "source": "Power Company Climbing",
+      "language": "en",
+      "articleType": "guide",
+      "primaryKP": "kp-sequence-planning",
+      "secondaryKPs": [
+        "kp-kinetic-chain",
+        "kp-cog-principles",
+        "kp-hip-control"
+      ],
+      "qualityNotes": "Comprehensive movement practice resources, drills, and framework from Power Company Climbing"
+    },
+    {
+      "title": "Smooth: Movement Principles and Techniques for Climbing",
+      "url": "https://www.ukclimbing.com/articles/skills/smooth_movement_principles_and_techniques_for_climbing-16005",
+      "source": "UKClimbing (UK Climbing)",
+      "language": "en",
+      "articleType": "technique",
+      "primaryKP": "kp-cog-principles",
+      "secondaryKPs": [
+        "kp-kinetic-chain",
+        "kp-sequence-planning"
+      ],
+      "qualityNotes": "UKC's guide to body awareness, weight distribution, and smooth movement principles"
+    },
+    {
+      "title": "Rock Climbing Techniques & Moves",
+      "url": "https://www.rei.com/learn/expert-advice/climbing-techniques.html",
+      "source": "REI Co-op",
+      "language": "en",
+      "articleType": "guide",
+      "primaryKP": "kp-hip-control",
+      "secondaryKPs": [
+        "kp-cog-principles",
+        "kp-kinetic-chain"
+      ],
+      "qualityNotes": "REI's expert guide covering footwork fundamentals, body positioning, and movement principles"
+    },
+    {
+      "title": "TBP 137: Kris Hampton - 6 Movement Drills to Improve Your Climbing",
+      "url": "https://www.trainingbeta.com/media/kris-hampton-movement/",
+      "source": "TrainingBeta Podcast",
+      "language": "en",
+      "articleType": "podcast",
+      "primaryKP": "kp-sequence-planning",
+      "secondaryKPs": [
+        "kp-kinetic-chain",
+        "kp-cog-principles"
+      ],
+      "qualityNotes": "TrainingBeta podcast with Power Company Climbing's Kris Hampton on movement drills"
+    },
+    {
+      "title": "Top 5 Climbing Technique Articles",
+      "url": "https://www.trainingbeta.com/top-5-climbing-technique-articles/",
+      "source": "TrainingBeta",
+      "language": "en",
+      "articleType": "guide",
+      "primaryKP": "kp-sequence-planning",
+      "secondaryKPs": [
+        "kp-cog-principles",
+        "kp-hip-control",
+        "kp-kinetic-chain"
+      ],
+      "qualityNotes": "Curated collection of TrainingBeta's best climbing technique articles"
+    },
+    {
+      "title": "Dave MacLeod Blog: Climbing Technique and Training",
+      "url": "https://www.davemacleod.com/blog/tag/climbing+technique",
+      "source": "Dave MacLeod",
+      "language": "en",
+      "articleType": "blog",
+      "primaryKP": "kp-kinetic-chain",
+      "secondaryKPs": [
+        "kp-sequence-planning",
+        "kp-hip-control",
+        "kp-cog-principles"
+      ],
+      "qualityNotes": "Comprehensive technique analysis from pro climber and sports scientist Dave MacLeod"
+    },
+    {
+      "title": "Climbing Tech Tips - Sport Climbing Series",
+      "url": "https://www.bilibili.com/video/BV15J411q78F/",
+      "source": "Bilibili",
+      "language": "zh",
+      "articleType": "video",
+      "primaryKP": "kp-sequence-planning",
+      "secondaryKPs": [
+        "kp-rest-spot-identification",
+        "kp-crux-analysis",
+        "kp-kinetic-chain"
+      ],
+      "qualityNotes": "Chinese language sport climbing technique series on Bilibili covering multiple topics"
+    },
+    {
+      "title": "Rock Climbing Footwork Technique: Beginner Level & Basics",
+      "url": "https://www.bilibili.com/video/BV1Bt4y1q7jQ",
+      "source": "Bilibili",
+      "language": "zh",
+      "articleType": "video",
+      "primaryKP": "kp-lever-biomechanics",
+      "secondaryKPs": [
+        "kp-kinetic-chain"
+      ],
+      "qualityNotes": "Chinese language tutorial on footwork basics and beginner climbing techniques"
+    },
+    {
+      "title": "训练｜10个动作，搞定攀岩前后的热身与放松 (10 Exercises for Climbing Warm-up and Cool-down)",
+      "url": "https://zhuanlan.zhihu.com/p/31920207",
+      "source": "Zhihu (知乎)",
+      "language": "zh",
+      "articleType": "article",
+      "primaryKP": "kp-kinetic-chain",
+      "secondaryKPs": [
+        "kp-cog-principles"
+      ],
+      "qualityNotes": "Chinese guide to warm-up and cool-down exercises for climbing"
+    },
+    {
+      "title": "训练｜练习这三招，帮助你在岩壁上保持平衡 (3 Techniques to Maintain Balance on Rock)",
+      "url": "https://zhuanlan.zhihu.com/p/54620603",
+      "source": "Zhihu (知乎)",
+      "language": "zh",
+      "articleType": "article",
+      "primaryKP": "kp-cog-principles",
+      "secondaryKPs": [
+        "kp-hip-control"
+      ],
+      "qualityNotes": "Chinese article on balance principles and center of gravity positioning"
+    },
+    {
+      "title": "初入门的攀岩者需要掌握哪些技巧为佳？ (Essential Techniques for Beginner Climbers)",
+      "url": "https://www.zhihu.com/question/20922374",
+      "source": "Zhihu (知乎)",
+      "language": "zh",
+      "articleType": "qa",
+      "primaryKP": "kp-sequence-planning",
+      "secondaryKPs": [
+        "kp-kinetic-chain",
+        "kp-lever-biomechanics"
+      ],
+      "qualityNotes": "Chinese Q&A on fundamental climbing techniques for beginners"
+    },
+    {
+      "title": "Training: 7 Simple Drills To Improve Footwork And Technique",
+      "url": "https://www.climbing.com/skills/training-7-simple-drills-to-improve-footwork-and-technique/",
+      "source": "Climbing Magazine",
+      "language": "en",
+      "articleType": "tutorial",
+      "primaryKP": "kp-foot-precision",
+      "secondaryKPs": [],
+      "qualityNotes": "Comprehensive footwork drill guide with silent feet and precision techniques"
+    },
+    {
+      "title": "10 Drills to Improve Your Bouldering Footwork",
+      "url": "https://www.99boulders.com/bouldering-footwork-drills",
+      "source": "99Boulders",
+      "language": "en",
+      "articleType": "tutorial",
+      "primaryKP": "kp-foot-precision",
+      "secondaryKPs": [],
+      "qualityNotes": "Detailed footwork drills with sticky feet and precision placement exercises"
+    },
+    {
+      "title": "Climb Harder With Better Footwork—Paige Claassen's 6 Tips",
+      "url": "https://www.climbing.com/skills/how-to-improve-your-footwork-for-climbing-2/",
+      "source": "Climbing Magazine",
+      "language": "en",
+      "articleType": "expert-tips",
+      "primaryKP": "kp-foot-precision",
+      "secondaryKPs": [],
+      "qualityNotes": "Expert advice from well-known climber on footwork technique and precision"
+    },
+    {
+      "title": "Crimp Climbing 101: The Essential Techniques and Training Tips",
+      "url": "https://5.life/blog/2024/05/01/crimp-climbing-101-the-essential-techniques-and-training-tips/",
+      "source": "5.life",
+      "language": "en",
+      "articleType": "tutorial",
+      "primaryKP": "kp-full-crimp",
+      "secondaryKPs": [
+        "kp-half-crimp"
+      ],
+      "qualityNotes": "Comprehensive crimp guide covering full and half crimp with safety considerations"
+    },
+    {
+      "title": "Use Climbing Holds With a Full Crimp Grip",
+      "url": "https://www.liveabout.com/full-crimp-grip-755417",
+      "source": "LiveAbout",
+      "language": "en",
+      "articleType": "tutorial",
+      "primaryKP": "kp-full-crimp",
+      "secondaryKPs": [],
+      "qualityNotes": "Detailed explanation of full crimp technique and thumb lock mechanics"
+    },
+    {
+      "title": "Hangboard Grip Types Explained: Open Hand, Half Crimp, Full Crimp",
+      "url": "https://thehangboard.com/blogs/news/grip-types",
+      "source": "The Hangboard",
+      "language": "en",
+      "articleType": "tutorial",
+      "primaryKP": "kp-full-crimp",
+      "secondaryKPs": [
+        "kp-half-crimp",
+        "kp-open-hand-grip"
+      ],
+      "qualityNotes": "Training-focused comparison of crimp grips for hangboarding"
+    },
+    {
+      "title": "Half Crimp Grip in Climbing: When to Use a Half Crimp Grip",
+      "url": "https://www.masterclass.com/articles/half-crimp-grip-climbing-guide",
+      "source": "MasterClass",
+      "language": "en",
+      "articleType": "tutorial",
+      "primaryKP": "kp-half-crimp",
+      "secondaryKPs": [],
+      "qualityNotes": "Comprehensive guide to half crimp technique and training progression"
+    },
+    {
+      "title": "Get a Grip! Half Crimp vs Full Crimp Climbing Holds",
+      "url": "https://www.trycrawl.com/common-questions/get-a-grip-half-crimp-vs-full-crimp-climbing-holds",
+      "source": "Try Crawl",
+      "language": "en",
+      "articleType": "comparison",
+      "primaryKP": "kp-half-crimp",
+      "secondaryKPs": [
+        "kp-full-crimp"
+      ],
+      "qualityNotes": "Direct comparison of half and full crimp grips for technique and safety"
+    },
+    {
+      "title": "SKILLS: Handholds and Grip Technique - Part 1",
+      "url": "https://www.ukclimbing.com/articles/skills/series/neil_gresham_technique_and_training/handholds_and_grip_technique_-_part_1-11848",
+      "source": "UK Climbing",
+      "language": "en",
+      "articleType": "tutorial",
+      "primaryKP": "kp-open-hand-grip",
+      "secondaryKPs": [
+        "kp-half-crimp",
+        "kp-full-crimp"
+      ],
+      "qualityNotes": "Neil Gresham technique series covering all grip types comprehensively"
+    },
+    {
+      "title": "Handholds - Improve Your Rock Climbing Technique",
+      "url": "https://www.vdiffclimbing.com/sport-technique-handholds/",
+      "source": "VDiff Climbing",
+      "language": "en",
+      "articleType": "tutorial",
+      "primaryKP": "kp-open-hand-grip",
+      "secondaryKPs": [],
+      "qualityNotes": "Detailed explanation of open hand grip and other grip techniques"
+    },
+    {
+      "title": "Understanding 14 Climbing Holds and How to Use Them",
+      "url": "https://sendedition.com/15-types-of-climbing-holds-and-how-to-use-them/",
+      "source": "Send Edition",
+      "language": "en",
+      "articleType": "reference",
+      "primaryKP": "kp-open-hand-grip",
+      "secondaryKPs": [],
+      "qualityNotes": "Comprehensive hold types guide with open hand grip usage"
+    },
+    {
+      "title": "6 Rock Climbing Grips You Need to Know",
+      "url": "https://www.sportrock.com/post/6-rock-climbing-grips-you-need-to-know",
+      "source": "Sport Rock Climbing",
+      "language": "en",
+      "articleType": "tutorial",
+      "primaryKP": "kp-claw-hook-grip",
+      "secondaryKPs": [],
+      "qualityNotes": "Guide to various climbing grips including hook and claw techniques"
+    },
+    {
+      "title": "4 Grip Techniques For Milking The Most Out Of Handholds",
+      "url": "https://www.climbing.com/skills/master-these-4-grip-techniques-for-safe-efficient-and-successful-sending/",
+      "source": "Climbing Magazine",
+      "language": "en",
+      "articleType": "tutorial",
+      "primaryKP": "kp-claw-hook-grip",
+      "secondaryKPs": [],
+      "qualityNotes": "Advanced grip techniques including hook grip for slopers and rounded holds"
+    },
+    {
+      "title": "Rock Climbing Technique: How To Kneebar",
+      "url": "https://www.climbing.com/skills/climbing-techniques-better-kneebars/",
+      "source": "Climbing Magazine",
+      "language": "en",
+      "articleType": "tutorial",
+      "primaryKP": "kp-knee-bar",
+      "secondaryKPs": [],
+      "qualityNotes": "Comprehensive kneebar guide with technique breakdown and safety tips"
+    },
+    {
+      "title": "Kneebar knowledge",
+      "url": "https://www.sendclimbing.com/pages/all-about-kneebars",
+      "source": "Send Climbing",
+      "language": "en",
+      "articleType": "tutorial",
+      "primaryKP": "kp-knee-bar",
+      "secondaryKPs": [],
+      "qualityNotes": "In-depth kneebar knowledge with multiple position variations"
+    },
+    {
+      "title": "How it Works: The Kneebar",
+      "url": "https://shop.frictionlabs.com/blogs/climb-your-impossible/how-it-works-the-kneebar",
+      "source": "Friction Labs",
+      "language": "en",
+      "articleType": "tutorial",
+      "primaryKP": "kp-knee-bar",
+      "secondaryKPs": [],
+      "qualityNotes": "Detailed kneebar mechanics and execution with equipment recommendations"
+    },
+    {
+      "title": "Compression and Opposition - The bouldering information hub",
+      "url": "https://boulderinginfo.online/introduction-to-bouldering/technics-of-bouldering-and-climbing/compression-and-opposition/",
+      "source": "The Bouldering Information Hub",
+      "language": "en",
+      "articleType": "tutorial",
+      "primaryKP": "kp-opposition-compression",
+      "secondaryKPs": [],
+      "qualityNotes": "Clear distinction between opposition and compression techniques"
+    },
+    {
+      "title": "Stop Falling Off Slopers! Expert Tips For Training Compression",
+      "url": "https://www.climbing.com/skills/dont-fall-off-slopers-training-compression-climbing/",
+      "source": "Climbing Magazine",
+      "language": "en",
+      "articleType": "tutorial",
+      "primaryKP": "kp-opposition-compression",
+      "secondaryKPs": [],
+      "qualityNotes": "Compression training techniques with practical tips and drills"
+    },
+    {
+      "title": "How to Train for Compression",
+      "url": "https://www.trainingbeta.com/how-to-train-for-compression/",
+      "source": "TrainingBeta",
+      "language": "en",
+      "articleType": "tutorial",
+      "primaryKP": "kp-opposition-compression",
+      "secondaryKPs": [],
+      "qualityNotes": "Focused compression training guide with muscle development emphasis"
+    },
+    {
+      "title": "Prevent muscle imbalances to improve rock climbing performance",
+      "url": "https://www.commonclimber.com/pushandpull.html",
+      "source": "Common Climber",
+      "language": "en",
+      "articleType": "training",
+      "primaryKP": "kp-push-pull",
+      "secondaryKPs": [],
+      "qualityNotes": "Push and pull imbalance prevention for climbing performance"
+    },
+    {
+      "title": "How to Rest While Climbing",
+      "url": "https://www.climbing.com/skills/how-to-rest-climbing/",
+      "source": "Climbing Magazine",
+      "language": "en",
+      "articleType": "tutorial",
+      "primaryKP": "kp-resting-techniques",
+      "secondaryKPs": [],
+      "qualityNotes": "Comprehensive guide to resting on wall with shake out technique"
+    },
+    {
+      "title": "Shake arms correctly at the rest point while climbing",
+      "url": "https://www.lacrux.com/en/klettern/shake-your-arms-properly-at-the-resting-point-when-climbing-7-tips/",
+      "source": "La Crux Climbing Magazine",
+      "language": "en",
+      "articleType": "tutorial",
+      "primaryKP": "kp-resting-techniques",
+      "secondaryKPs": [],
+      "qualityNotes": "Detailed shake out technique with 7 specific tips for recovery"
+    },
+    {
+      "title": "Recovery",
+      "url": "https://www.powercompanyclimbing.com/blog/2010/08/recovery.html",
+      "source": "Power Company Climbing",
+      "language": "en",
+      "articleType": "tutorial",
+      "primaryKP": "kp-resting-techniques",
+      "secondaryKPs": [],
+      "qualityNotes": "Complete recovery and resting strategy guide for climbing"
+    },
+    {
+      "title": "Climbing with Straight Arms",
+      "url": "https://www.verticalhorizonsclimbinggym.com/post/climbing-with-straight-arms",
+      "source": "Vertical Horizons Climbing Gym",
+      "language": "en",
+      "articleType": "tutorial",
+      "primaryKP": "kp-climbing-posture",
+      "secondaryKPs": [],
+      "qualityNotes": "Straight arm climbing benefits and efficiency principles"
+    },
+    {
+      "title": "UKC Articles - SKILLS: Posture in Climbing",
+      "url": "https://www.ukclimbing.com/articles/skills/posture_in_climbing-12297",
+      "source": "UK Climbing",
+      "language": "en",
+      "articleType": "tutorial",
+      "primaryKP": "kp-climbing-posture",
+      "secondaryKPs": [],
+      "qualityNotes": "Neil Gresham posture series covering body position efficiency"
+    },
+    {
+      "title": "How to improve your climbing with better body positioning",
+      "url": "https://boulderflash.com/how-to-improve-your-climbing-with-better-body-positioning/",
+      "source": "Boulderflash",
+      "language": "en",
+      "articleType": "tutorial",
+      "primaryKP": "kp-climbing-posture",
+      "secondaryKPs": [],
+      "qualityNotes": "Practical guide to body position efficiency and weight management"
+    },
+    {
+      "title": "The figure-four move",
+      "url": "https://boulderinginfo.online/introduction-to-bouldering/technics-of-bouldering-and-climbing/figure-four/",
+      "source": "The Bouldering Information Hub",
+      "language": "en",
+      "articleType": "tutorial",
+      "primaryKP": "kp-figure-four",
+      "secondaryKPs": [],
+      "qualityNotes": "Clear explanation of figure four technique and leg positioning"
+    },
+    {
+      "title": "Ice Climbing: Core and the Figure 4",
+      "url": "https://uphillathlete.com/ice-climbing/ice-climbing-figure-4/",
+      "source": "Uphill Athlete",
+      "language": "en",
+      "articleType": "tutorial",
+      "primaryKP": "kp-figure-four",
+      "secondaryKPs": [],
+      "qualityNotes": "Figure four technique with core engagement emphasis"
+    },
+    {
+      "title": "Master The Basics: How To Do A Climbing Figure Four & Nine",
+      "url": "https://hardclimbs.info/climbing-figure-four-and-nine/",
+      "source": "Hard Climbs",
+      "language": "en",
+      "articleType": "tutorial",
+      "primaryKP": "kp-figure-four",
+      "secondaryKPs": [],
+      "qualityNotes": "Step-by-step figure four instruction for intermediate climbers"
+    },
+    {
+      "title": "Guide to Types of Rock Wall Climbing Holds",
+      "url": "https://boulderingproject.com/blog/types-of-climbing-holds-a-beginners-guide-to-rock-wall-grips/",
+      "source": "Bouldering Project",
+      "language": "en",
+      "articleType": "tutorial",
+      "primaryKP": "kp-matching-bumping-crossthrough",
+      "secondaryKPs": [],
+      "qualityNotes": "Hold types guide with matching and footwork techniques"
+    },
+    {
+      "title": "Techniques of bouldering and climbing",
+      "url": "https://boulderinginfo.online/introduction-to-bouldering/technics-of-bouldering-and-climbing/",
+      "source": "The Bouldering Information Hub",
+      "language": "en",
+      "articleType": "reference",
+      "primaryKP": "kp-matching-bumping-crossthrough",
+      "secondaryKPs": [],
+      "qualityNotes": "Comprehensive techniques reference including matching and crossing"
+    },
+    {
+      "title": "Slab Climbing Guide: 5 Popular Slab Climbing Techniques",
+      "url": "https://www.masterclass.com/articles/slab-climbing-guide",
+      "source": "MasterClass",
+      "language": "en",
+      "articleType": "tutorial",
+      "primaryKP": "kp-vertical-wall-technique",
+      "secondaryKPs": [],
+      "qualityNotes": "MasterClass guide to slab and vertical wall technique"
+    },
+    {
+      "title": "Rock Climbing Technique - The Edge Rock Gym",
+      "url": "https://theedgerockgym.com/2022/01/22/rock-climbing-technique/",
+      "source": "The Edge Rock Gym",
+      "language": "en",
+      "articleType": "tutorial",
+      "primaryKP": "kp-vertical-wall-technique",
+      "secondaryKPs": [],
+      "qualityNotes": "Comprehensive technique guide for vertical wall climbing"
+    },
+    {
+      "title": "Crack Climbing Basics: Hand Jamming",
+      "url": "https://www.alpineinstitute.com/crack-climbing-basics-hand-jamming/",
+      "source": "Alpine Institute",
+      "language": "en",
+      "articleType": "tutorial",
+      "primaryKP": "kp-crack-hand-jam",
+      "secondaryKPs": [],
+      "qualityNotes": "Foundational hand jam technique with detailed hand positioning"
+    },
+    {
+      "title": "How to Hand Jam: A Crucial Rock Climbing Technique",
+      "url": "https://www.climbing.com/skills/how-to-hand-jam/?scope=anon",
+      "source": "Climbing Magazine",
+      "language": "en",
+      "articleType": "tutorial",
+      "primaryKP": "kp-crack-hand-jam",
+      "secondaryKPs": [],
+      "qualityNotes": "Comprehensive hand jam guide with thumbs-up and thumbs-down variations"
+    },
+    {
+      "title": "How to Climb Finger Cracks: Techniques & Tips",
+      "url": "https://www.rei.com/learn/expert-advice/climb-finger-cracks.html",
+      "source": "REI",
+      "language": "en",
+      "articleType": "tutorial",
+      "primaryKP": "kp-crack-hand-jam",
+      "secondaryKPs": [],
+      "qualityNotes": "REI expert guide to finger jam and finger crack techniques"
+    },
+    {
+      "title": "Crack Climbing Guide: 7 Types of Crack Climbing Jams",
+      "url": "https://www.masterclass.com/articles/crack-climbing-explained",
+      "source": "MasterClass",
+      "language": "en",
+      "articleType": "reference",
+      "primaryKP": "kp-crack-foot-body-jam",
+      "secondaryKPs": [],
+      "qualityNotes": "Comprehensive jam types guide covering foot, body, and chimney techniques"
+    },
+    {
+      "title": "Chimney Climbing Technique – Explained Thoroughly",
+      "url": "https://theclimbinggear.com/chimney-climbing/",
+      "source": "The Climbing Gear",
+      "language": "en",
+      "articleType": "tutorial",
+      "primaryKP": "kp-crack-foot-body-jam",
+      "secondaryKPs": [],
+      "qualityNotes": "Detailed chimney climbing technique with foot jam and body positioning"
+    },
+    {
+      "title": "Learn This: Invert Offwidth Techniques From Pamela Shanti Pack",
+      "url": "https://www.climbing.com/skills/learn-this-invert-offwidth-technique/",
+      "source": "Climbing Magazine",
+      "language": "en",
+      "articleType": "tutorial",
+      "primaryKP": "kp-crack-foot-body-jam",
+      "secondaryKPs": [],
+      "qualityNotes": "Advanced off-width and chimney techniques from pro climber instruction"
     }
   ]
 }

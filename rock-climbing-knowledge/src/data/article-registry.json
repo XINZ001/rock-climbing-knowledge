@@ -97,7 +97,7 @@
       "relatedKpIds": [
         "kp-edging",
         "kp-smearing",
-        "kp-center-of-gravity",
+        "kp-cog-principles",
         "kp-grip-types",
         "kp-endurance-types",
         "kp-core-role",
@@ -273,7 +273,7 @@
         "kp-belay-device",
         "kp-lead-belay-indoor",
         "kp-outdoor-sport-safety",
-        "kp-center-of-gravity"
+        "kp-cog-principles"
       ],
       "tags": [
         "beginner",
@@ -380,7 +380,7 @@
       "relatedKpIds": [
         "kp-grip-types",
         "kp-endurance-types",
-        "kp-center-of-gravity",
+        "kp-cog-principles",
         "kp-edging",
         "kp-pulley-injury",
         "kp-injury-assessment",
@@ -448,7 +448,7 @@
         "kp-arc-training",
         "kp-training-log",
         "kp-heel-hook",
-        "kp-center-of-gravity",
+        "kp-cog-principles",
         "kp-plateau-breaking"
       ],
       "tags": [
@@ -766,7 +766,7 @@
       "coverImage": null,
       "readingTime": 11,
       "relatedKpIds": [
-        "kp-center-of-gravity",
+        "kp-cog-principles",
         "kp-climbing-shoes",
         "kp-edging",
         "kp-heel-hook",
@@ -829,10 +829,10 @@
       "readingTime": 11,
       "relatedKpIds": [
         "kp-back-step",
-        "kp-center-of-gravity",
+        "kp-cog-principles",
         "kp-climbing-shoes",
         "kp-core-role",
-        "kp-crimp-hold",
+        "kp-full-crimp",
         "kp-drop-knee",
         "kp-edging",
         "kp-endurance-types",
@@ -906,8 +906,8 @@
       "readingTime": 11,
       "relatedKpIds": [
         "kp-attention-management",
-        "kp-center-of-gravity",
-        "kp-crimp-hold",
+        "kp-cog-principles",
+        "kp-full-crimp",
         "kp-drop-knee",
         "kp-edging",
         "kp-flagging",
@@ -968,7 +968,7 @@
       "coverImage": null,
       "readingTime": 9,
       "relatedKpIds": [
-        "kp-center-of-gravity",
+        "kp-cog-principles",
         "kp-core-role",
         "kp-edging",
         "kp-endurance-types",
@@ -1107,7 +1107,7 @@
       "coverImage": null,
       "readingTime": 8,
       "relatedKpIds": [
-        "kp-crimp-hold",
+        "kp-full-crimp",
         "kp-endurance-types",
         "kp-grip-types",
         "kp-jug-hold",
@@ -1418,7 +1418,7 @@
       "readingTime": 19,
       "relatedKpIds": [
         "kp-antagonist-training",
-        "kp-crimp-hold",
+        "kp-full-crimp",
         "kp-finger-assessment",
         "kp-grip-types",
         "kp-hangboard-training",
@@ -2050,7 +2050,7 @@
         "kp-high-step-mantle",
         "kp-drop-knee",
         "kp-endurance-types",
-        "kp-crimp-hold",
+        "kp-full-crimp",
         "kp-pulling-power",
         "kp-core-training",
         "kp-edging",
