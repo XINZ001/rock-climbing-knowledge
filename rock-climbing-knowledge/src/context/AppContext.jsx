@@ -62,13 +62,15 @@ export function AppProvider({ children }) {
   // Build search index after initial render
   useEffect(() => {
     const buildIndex = async () => {
+      try {
       const allDocs = []
 
       const loadPromises = Object.entries(sectionDataModules).map(async ([key, loader]) => {
         try {
           const mod = await loader()
           return mod.default || mod
-        } catch {
+        } catch (e) {
+          console.warn('[Search] Failed to load section module:', key, e)
           return null
         }
       })
@@ -103,9 +105,9 @@ export function AppProvider({ children }) {
               content_zh: kp.content?.zh || '',
               content_en: kp.content?.en || '',
               content_ko: kp.content?.ko || '',
-              terms_zh: (kp.terms || []).map(t => t.zh).join(' '),
-              terms_en: (kp.terms || []).map(t => t.en).join(' '),
-              terms_ko: (kp.terms || []).map(t => t.ko || '').join(' '),
+              terms_zh: (Array.isArray(kp.terms) ? kp.terms : []).map(t => t?.zh || '').join(' '),
+              terms_en: (Array.isArray(kp.terms) ? kp.terms : []).map(t => t?.en || '').join(' '),
+              terms_ko: (Array.isArray(kp.terms) ? kp.terms : []).map(t => t?.ko || '').join(' '),
               tags: (kp.tags || []).join(' '),
               keywords,
               synonyms: searchSynonyms[kp.id] || ''
@@ -124,7 +126,7 @@ export function AppProvider({ children }) {
           const mod = await loader()
           const data = mod.default || mod
           if (data?.slug) articleContentMap[data.slug] = data
-        } catch { /* ignore */ }
+        } catch (e) { console.warn('[Search] Failed to load article:', key, e) }
       })
       await Promise.all(articleLoadPromises)
 
@@ -226,6 +228,10 @@ export function AppProvider({ children }) {
         setSearchIndexLoose(fuseLoose)
       }
       setSearchReady(true)
+      } catch (e) {
+        console.error('[Search] buildIndex crashed:', e)
+        setSearchReady(true) // 即使出错也解除加载状态，避免永远卡住
+      }
     }
 
     buildIndex()
