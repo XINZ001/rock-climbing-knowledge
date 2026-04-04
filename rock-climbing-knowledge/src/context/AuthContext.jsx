@@ -57,6 +57,21 @@ export function AuthProvider({ children }) {
     return { data, error }
   }
 
+  // 检测邮箱是否已注册（统一入口分流用）
+  // 直接调用 Supabase RPC，无需 Edge Function
+  async function checkEmailExists(email) {
+    try {
+      const { data, error } = await supabase
+        .rpc('check_email_exists', { email_input: email.toLowerCase() })
+      if (error) {
+        return { exists: false, error: error.message }
+      }
+      return { exists: !!data, error: null }
+    } catch (err) {
+      return { exists: false, error: err.message }
+    }
+  }
+
   // 邮箱登录
   async function signIn(email, password) {
     const { data, error } = await supabase.auth.signInWithPassword({
@@ -89,6 +104,7 @@ export function AuthProvider({ children }) {
     user,
     profile,
     loading,
+    checkEmailExists,
     signUp,
     signIn,
     signOut,
