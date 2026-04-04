@@ -720,7 +720,17 @@
       "tagline": { "zh": "「前三把我是神，第四把我是人」", "en": "'First 3 burns I'm a god, 4th burn I'm mortal'", "ko": "'처음 3번은 신, 4번째는 인간'" },
       "compliment": { "zh": "你的爆发力很不错！刚开始爬的时候状态拉满，冲线路又快又猛，可能是岩馆里 flash 率最高的人之一。你不缺力量，也不缺勇气，你的「开局」一直很强。", "en": "Your explosive power is legit! When you're fresh, you climb fast and fierce — probably one of the highest flash rates in the gym. You don't lack strength or courage. Your 'opening game' is always strong.", "ko": "폭발력이 좋아요! 컨디션이 좋을 때는 빠르고 강하게 타죠. 아마 암장에서 플래시율이 가장 높은 사람 중 하나일 거예요." },
       "issue": { "zh": "但你的续航时间约等于一首歌的长度。三条线下来前臂就像灌了铅，只能坐在垫子上看别人爬。你的训练方式大概是「冲→泵→休→冲」，从来没有认真练过耐力。泵涨不是命运，是可以训练的。", "en": "But your battery life is about one song long. Three routes in and your forearms are lead-filled, leaving you watching from the mat. Your training pattern is probably 'send → pump → rest → send' with zero endurance work. Pump isn't fate — it's trainable.", "ko": "하지만 배터리 수명이 노래 한 곡 정도예요. 3개 루트 후에는 전완에 납이 찬 것 같죠. 펌핑은 운명이 아니라 훈련할 수 있는 거예요." },
-      "conditions": { "rating_lte": { "endurance": 2 } }
+      "conditions": { "rating_lte": { "endurance": 2 }, "level_in": ["intermediate", "upper-intermediate"] }
+    },
+    {
+      "id": "clumsy-fawn",
+      "priority": 96,
+      "emoji": "🦌",
+      "name": { "zh": "蹒跚小鹿", "en": "Clumsy Fawn", "ko": "아장아장 아기 사슴" },
+      "tagline": { "zh": "「我刚来……这个手点要怎么抓？」", "en": "'I just started… how do I grab this hold?'", "ko": "'방금 시작했는데… 이 홀드 어떻게 잡아?'" },
+      "compliment": { "zh": "你踏出了最难的一步——开始。大多数人只是说「以后想试试攀岩」，而你已经在墙上了。你现在觉得什么都难、什么都做不好是完全正常的，因为攀岩调动的肌肉、协调性和思维方式是日常生活完全用不到的。你不是「差」，你只是「新」——每一个大佬都经历过你现在这个阶段。", "en": "You've taken the hardest step — starting. Most people just say 'I should try climbing someday,' but you're already on the wall. Feeling like everything is hard and nothing works is completely normal — climbing uses muscles, coordination, and thinking patterns you never use in daily life. You're not 'bad,' you're just 'new.' Every strong climber was exactly where you are now.", "ko": "가장 어려운 첫 걸음을 내딛었어요 — 시작했다는 것. 지금 모든 게 어렵고 잘 안 되는 건 완전히 정상이에요. '못하는' 게 아니라 '새로운' 거예요." },
+      "issue": { "zh": "现在最重要的不是练什么，而是「多爬」。不要急着冲难线、不要买指力板、不要纠结训练计划——你的身体需要时间建立基础的攀岩神经回路。最高效的方式是：每周爬 2-3 次，选你能舒服完成的线路反复爬，专注享受过程。技术、力量、信心会在你积累量的过程中自然生长。给自己 3-6 个月，你会惊讶于自己的进步。", "en": "Right now the priority isn't what to train, but simply 'climb more.' Don't chase hard routes, don't buy a hangboard, don't stress about training plans — your body needs time to build basic climbing neural pathways. The most efficient approach: climb 2-3 times per week on routes you can complete comfortably, and focus on enjoying the process. Technique, strength, and confidence will grow naturally with volume. Give yourself 3-6 months and you'll be amazed at your progress.", "ko": "지금 가장 중요한 건 '많이 타기'예요. 어려운 루트 도전, 행보드 구매, 훈련 계획 고민은 아직 이릅니다. 일주일에 2-3번, 편하게 완등할 수 있는 루트를 반복하며 즐기세요." },
+      "conditions": { "level_in": ["beginner", "elementary"], "low_count_gte": 4 }
     },
     {
       "id": "cautious-hedgehog",

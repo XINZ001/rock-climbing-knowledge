@@ -250,6 +250,11 @@ function matchPersona(answers, lang) {
     if (c.gym_in && !c.gym_in.includes(gym)) continue
     if (c.bottleneck_any && !c.bottleneck_any.some((b) => bottlenecks.includes(b))) continue
     if (c.style_any && !c.style_any.some((s) => styles.includes(s))) continue
+    if (c.low_count_gte) {
+      const lowCount = ['finger', 'mental', 'tactics', 'endurance', 'technique', 'flexibility']
+        .filter((d) => (ratings[d] || 3) <= 2).length
+      if (lowCount < c.low_count_gte) continue
+    }
     if (c.rating_lte) {
       let fail = false
       for (const [dim, th] of Object.entries(c.rating_lte)) { if ((ratings[dim] || 3) > th) fail = true }
