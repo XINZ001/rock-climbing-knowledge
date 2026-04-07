@@ -1,0 +1,765 @@
+{
+  "categories": [
+    {
+      "id": "footwork",
+      "icon": "🦶",
+      "title": {
+        "zh": "脚法",
+        "en": "Footwork",
+        "ko": "풋워크"
+      }
+    },
+    {
+      "id": "body",
+      "icon": "💪",
+      "title": {
+        "zh": "身体姿态",
+        "en": "Body Positioning",
+        "ko": "자세"
+      }
+    },
+    {
+      "id": "mental",
+      "icon": "🧠",
+      "title": {
+        "zh": "心理与专注",
+        "en": "Mental Focus",
+        "ko": "멘탈"
+      }
+    },
+    {
+      "id": "efficiency",
+      "icon": "🔄",
+      "title": {
+        "zh": "动作效率",
+        "en": "Movement Efficiency",
+        "ko": "동작 효율"
+      }
+    },
+    {
+      "id": "reading",
+      "icon": "👀",
+      "title": {
+        "zh": "路线阅读",
+        "en": "Route Reading",
+        "ko": "루트 리딩"
+      }
+    },
+    {
+      "id": "endurance",
+      "icon": "🔥",
+      "title": {
+        "zh": "耐力与节奏",
+        "en": "Endurance & Pacing",
+        "ko": "지구력"
+      }
+    },
+    {
+      "id": "precision",
+      "icon": "🎯",
+      "title": {
+        "zh": "精准度挑战",
+        "en": "Precision",
+        "ko": "정밀도"
+      }
+    },
+    {
+      "id": "constraint",
+      "icon": "🚫",
+      "title": {
+        "zh": "限制类挑战",
+        "en": "Constraint",
+        "ko": "제한 도전"
+      }
+    },
+    {
+      "id": "social",
+      "icon": "🎮",
+      "title": {
+        "zh": "社交游戏",
+        "en": "Social Games",
+        "ko": "소셜 게임"
+      }
+    },
+    {
+      "id": "mindbody",
+      "icon": "🧘",
+      "title": {
+        "zh": "身心连接",
+        "en": "Mind-Body",
+        "ko": "심신 연결"
+      }
+    },
+    {
+      "id": "creative",
+      "icon": "🔀",
+      "title": {
+        "zh": "创意移动",
+        "en": "Creative Movement",
+        "ko": "창의적 움직임"
+      }
+    }
+  ],
+  "quests": [
+    {
+      "id": 1,
+      "category": "footwork",
+      "title": {
+        "zh": "静默脚法",
+        "en": "Silent Feet",
+        "ko": "사일런트 풋"
+      },
+      "description": {
+        "zh": "每次脚碰到岩点不能发出任何声音。如果听到'哒'的一声，这一脚不算，重新放。",
+        "en": "Every foot placement must be completely silent. If you hear a sound, redo it.",
+        "ko": "발이 홀드에 닿을 때 소리가 나면 안 됩니다."
+      },
+      "image": "01--{tier}.png"
+    },
+    {
+      "id": 2,
+      "category": "footwork",
+      "title": {
+        "zh": "胶水脚",
+        "en": "Sticky Feet",
+        "ko": "스티키 풋"
+      },
+      "description": {
+        "zh": "脚一旦放上岩点就不许调整。假装鞋底有胶水，碰到就粘住了。",
+        "en": "Once your foot touches a hold, no adjustments. Pretend your sole has glue.",
+        "ko": "발을 홀드에 올리면 조정 불가."
+      },
+      "image": "02--{tier}.png"
+    },
+    {
+      "id": 3,
+      "category": "footwork",
+      "title": {
+        "zh": "脚先行",
+        "en": "Feet First",
+        "ko": "발 먼저"
+      },
+      "description": {
+        "zh": "每一步移动，先放脚、再动手。强制打破'手先抓'的本能。",
+        "en": "Every move: place your foot first, then move your hand.",
+        "ko": "매 동작마다 발을 먼저 놓고 손을 움직이세요."
+      },
+      "image": "03--{tier}.png"
+    },
+    {
+      "id": 4,
+      "category": "footwork",
+      "title": {
+        "zh": "看脚踩实",
+        "en": "Eyes on Feet",
+        "ko": "발 보고 딛기"
+      },
+      "description": {
+        "zh": "每次踩脚时，眼睛必须看着脚尖接触岩点的瞬间，确认踩实了再移开视线。",
+        "en": "Watch your toe touch the hold every single time.",
+        "ko": "발끝이 홀드에 닿는 순간을 반드시 눈으로 확인하세요."
+      },
+      "image": "04--{tier}.png"
+    },
+    {
+      "id": 5,
+      "category": "footwork",
+      "title": {
+        "zh": "只用脚尖前端",
+        "en": "Toe Tip Only",
+        "ko": "토우 팁 온리"
+      },
+      "description": {
+        "zh": "全程只用攀岩鞋最前端的一小块区域踩点，不许用脚掌或脚弓。",
+        "en": "Use only the very tip of your climbing shoe.",
+        "ko": "클라이밍 슈즈의 맨 앞부분만 사용하세요."
+      },
+      "image": "05--{tier}.png"
+    },
+    {
+      "id": 6,
+      "category": "footwork",
+      "title": {
+        "zh": "换脚练习",
+        "en": "Foot Swap",
+        "ko": "풋 스왑"
+      },
+      "description": {
+        "zh": "每条线至少做 3 次换脚（同一个脚点上左右脚交换），不管需不需要。",
+        "en": "Do at least 3 foot swaps per route.",
+        "ko": "루트마다 최소 3번 같은 홀드에서 발을 바꾸세요."
+      },
+      "image": "06--{tier}.png"
+    },
+    {
+      "id": 7,
+      "category": "body",
+      "title": {
+        "zh": "直臂攀爬",
+        "en": "Straight Arms",
+        "ko": "스트레이트 암"
+      },
+      "description": {
+        "zh": "全程保持手臂伸直，只在抓下一个手点的瞬间才弯曲。感受体重挂在骨骼上而不是肌肉上。",
+        "en": "Keep your arms straight. Feel your weight on bones, not muscles.",
+        "ko": "팔을 쭉 편 상태를 유지하세요."
+      },
+      "image": "07--{tier}.png"
+    },
+    {
+      "id": 8,
+      "category": "body",
+      "title": {
+        "zh": "臀部贴墙",
+        "en": "Hips to Wall",
+        "ko": "힙 투 월"
+      },
+      "description": {
+        "zh": "每次移动前，有意识地把重心推向岩壁。感受重心靠近墙面后脚上的压力变化。",
+        "en": "Before every move, push your center of gravity toward the wall.",
+        "ko": "움직이기 전에 무게중심을 벽 쪽으로 밀어보세요."
+      },
+      "image": "08--{tier}.png"
+    },
+    {
+      "id": 9,
+      "category": "body",
+      "title": {
+        "zh": "侧身意识",
+        "en": "Turn & Twist",
+        "ko": "턴 앤 트위스트"
+      },
+      "description": {
+        "zh": "每到一个手点，问自己：我应该正面还是侧身？至少一半的动作尝试用 twist lock / drop knee。",
+        "en": "At every hold, ask: face the wall or twist?",
+        "ko": "매 홀드에서 정면인지 측면인지 판단하세요."
+      },
+      "image": "09--{tier}.png"
+    },
+    {
+      "id": 10,
+      "category": "body",
+      "title": {
+        "zh": "三点平衡暂停",
+        "en": "3-Point Pause",
+        "ko": "3점 정지"
+      },
+      "description": {
+        "zh": "每移动一只手或脚之前，先在三点支撑的状态下暂停 2 秒，感受身体是否稳定。",
+        "en": "Pause for 2 seconds on three points of contact before moving.",
+        "ko": "3점 지지 상태에서 2초 정지."
+      },
+      "image": "10--{tier}.png"
+    },
+    {
+      "id": 11,
+      "category": "body",
+      "title": {
+        "zh": "Flagging 练习",
+        "en": "Flag It",
+        "ko": "플래깅"
+      },
+      "description": {
+        "zh": "每条线至少做 2 次有意识的 flag（内旗或外旗），即使这条线不需要。",
+        "en": "Do at least 2 intentional flags per route.",
+        "ko": "루트마다 최소 2번 의식적으로 플래깅하세요."
+      },
+      "image": "11-flagging-{tier}.png"
+    },
+    {
+      "id": 12,
+      "category": "mental",
+      "title": {
+        "zh": "呼吸节奏",
+        "en": "Breathe & Move",
+        "ko": "호흡 리듬"
+      },
+      "description": {
+        "zh": "每次移动配合一次呼出。移动时吐气，停下时吸气。全程不憋气。",
+        "en": "Exhale with every move. Inhale when still. Never hold your breath.",
+        "ko": "움직일 때 내쉬고 멈출 때 들이쉬세요."
+      },
+      "image": "12--{tier}.png"
+    },
+    {
+      "id": 13,
+      "category": "mental",
+      "title": {
+        "zh": "移动前命名",
+        "en": "Call Your Shot",
+        "ko": "콜 유어 샷"
+      },
+      "description": {
+        "zh": "每一步动作前，心里默念要做什么：'右手上抓 crimp''左脚踩这个边缘'。用语言强制自己预判。",
+        "en": "Mentally narrate each move before executing.",
+        "ko": "매 동작 전에 할 행동을 마음속으로 말하세요."
+      },
+      "image": "13--{tier}.png"
+    },
+    {
+      "id": 14,
+      "category": "mental",
+      "title": {
+        "zh": "微休息觉察",
+        "en": "Mid-Wall Reset",
+        "ko": "중간 리셋"
+      },
+      "description": {
+        "zh": "每条线爬到一半时，找一个位置停下来，甩手 5 秒，做两次深呼吸。不管是否觉得累。",
+        "en": "Halfway up, stop and shake out for 5 seconds. Two deep breaths.",
+        "ko": "루트 중간에서 멈추고 5초간 손을 털어주세요."
+      },
+      "image": "14--{tier}.png"
+    },
+    {
+      "id": 15,
+      "category": "mental",
+      "title": {
+        "zh": "数动作",
+        "en": "Count Your Moves",
+        "ko": "동작 세기"
+      },
+      "description": {
+        "zh": "攀爬时默数自己的每一步移动。完攀后记住总数。下次试同一条线，目标是用更少的动作。",
+        "en": "Count every move. Next time, try fewer.",
+        "ko": "오를 때 동작 수를 세세요."
+      },
+      "image": "15--{tier}.png"
+    },
+    {
+      "id": 16,
+      "category": "mental",
+      "title": {
+        "zh": "只看这一步",
+        "en": "One Move at a Time",
+        "ko": "한 동작씩"
+      },
+      "description": {
+        "zh": "不去想完攀，只关注'下一个动作是什么'。如果发现自己在想顶部，立刻把注意力拉回当前。",
+        "en": "Focus only on the next move. Don't think about the top.",
+        "ko": "다음 동작에만 집중하세요."
+      },
+      "image": "16--{tier}.png"
+    },
+    {
+      "id": 17,
+      "category": "efficiency",
+      "title": {
+        "zh": "慢动作攀爬",
+        "en": "Slow Motion",
+        "ko": "슬로 모션"
+      },
+      "description": {
+        "zh": "用正常速度的一半去爬。每个动作都像太极一样慢。逼自己体会身体的每一个微调。",
+        "en": "Climb at half speed. Tai-chi slow.",
+        "ko": "절반 속도로 오르세요."
+      },
+      "image": "17--{tier}.png"
+    },
+    {
+      "id": 18,
+      "category": "efficiency",
+      "title": {
+        "zh": "下攀练习",
+        "en": "Downclimb",
+        "ko": "다운클라이밍"
+      },
+      "description": {
+        "zh": "每条完攀的线路，原路下攀回起点。下攀时让脚先行，训练反向路线阅读。",
+        "en": "After topping out, downclimb back to the start.",
+        "ko": "완등 후 같은 루트로 내려오세요."
+      },
+      "image": "18--{tier}.png"
+    },
+    {
+      "id": 19,
+      "category": "efficiency",
+      "title": {
+        "zh": "悬停练习",
+        "en": "Hover Hand",
+        "ko": "호버 핸드"
+      },
+      "description": {
+        "zh": "每次手要抓下一个点之前，手指悬停在岩点上方 2 秒，再放下去。训练精准度和控制力。",
+        "en": "Hover your fingers 2 seconds above the hold before grabbing.",
+        "ko": "다음 홀드를 잡기 전에 2초간 손가락을 위에 멈추세요."
+      },
+      "image": "19--{tier}.png"
+    },
+    {
+      "id": 20,
+      "category": "efficiency",
+      "title": {
+        "zh": "消除多余动作",
+        "en": "Clean Movement",
+        "ko": "클린 무브먼트"
+      },
+      "description": {
+        "zh": "爬一条线时，注意自己是否有多余的晃动、甩脚、反复调手。目标是每个动作都干净利落。",
+        "en": "No unnecessary swinging or readjusting. Every move clean.",
+        "ko": "불필요한 흔들림이나 손 조정을 없애세요."
+      },
+      "image": "20--{tier}.png"
+    },
+    {
+      "id": 21,
+      "category": "reading",
+      "title": {
+        "zh": "地面预判",
+        "en": "Ground Beta",
+        "ko": "그라운드 베타"
+      },
+      "description": {
+        "zh": "上墙之前，站在地面把整条线从头到尾比划一遍，包括每只手每只脚。然后上去验证。",
+        "en": "Rehearse the entire route from the ground before climbing.",
+        "ko": "오르기 전에 땅에서 전체 루트를 리허설하세요."
+      },
+      "image": "21--{tier}.png"
+    },
+    {
+      "id": 22,
+      "category": "reading",
+      "title": {
+        "zh": "倒序读线",
+        "en": "Read Backwards",
+        "ko": "역순 리딩"
+      },
+      "description": {
+        "zh": "从终点往回看：终点用什么姿势？倒数第二步呢？一直推到起步。",
+        "en": "Read the route top-down. Trace it to the start.",
+        "ko": "루트를 위에서 아래로 읽어보세요."
+      },
+      "image": "22--{tier}.png"
+    },
+    {
+      "id": 23,
+      "category": "reading",
+      "title": {
+        "zh": "一次 Onsight",
+        "en": "Pure Onsight",
+        "ko": "퓨어 온사이트"
+      },
+      "description": {
+        "zh": "选一条没爬过的线，不许尝试、不许看别人爬，直接 onsight。爬完反思哪里判断对了、哪里错了。",
+        "en": "Pure onsight. No watching others. Reflect after.",
+        "ko": "처음 보는 루트를 바로 온사이트하세요."
+      },
+      "image": "23-onsight-{tier}.png"
+    },
+    {
+      "id": 24,
+      "category": "endurance",
+      "title": {
+        "zh": "连续 4 条不休息",
+        "en": "4-in-a-Row",
+        "ko": "4연속"
+      },
+      "description": {
+        "zh": "选 4 条比自己最高水平低 2-3 级的线，连续爬完不停歇。关注自己何时开始 pump。",
+        "en": "4 routes, 2-3 grades below max, no rest between.",
+        "ko": "최고 등급보다 2-3단계 낮은 루트 4개를 연속으로."
+      },
+      "image": "24--{tier}.png"
+    },
+    {
+      "id": 25,
+      "category": "endurance",
+      "title": {
+        "zh": "有意识 Shake Out",
+        "en": "Active Rest",
+        "ko": "액티브 레스트"
+      },
+      "description": {
+        "zh": "每条线中至少做一次有意识的甩手休息（即使不累），练习在墙上恢复的技能。",
+        "en": "Shake out at least once per route, even if not pumped.",
+        "ko": "루트 중 최소 한 번은 의식적으로 손을 털어주세요."
+      },
+      "image": "25-shake-out-{tier}.png"
+    },
+    {
+      "id": 26,
+      "category": "endurance",
+      "title": {
+        "zh": "匀速攀爬",
+        "en": "Steady Tempo",
+        "ko": "스테디 템포"
+      },
+      "description": {
+        "zh": "整条线保持相同的移动节奏，不要开头快结尾慢，像节拍器一样均匀。",
+        "en": "Same rhythm throughout. Like a metronome.",
+        "ko": "루트 전체를 같은 리듬으로 오르세요."
+      },
+      "image": "26--{tier}.png"
+    },
+    {
+      "id": 27,
+      "category": "precision",
+      "title": {
+        "zh": "点击再抓",
+        "en": "Tap Before Grab",
+        "ko": "탭 비포 그랩"
+      },
+      "description": {
+        "zh": "手要抓一个岩点前，先用指尖轻轻点一下岩点表面，再收回来，然后才正式抓住。",
+        "en": "Tap the hold surface first, pull back, then grab.",
+        "ko": "홀드를 잡기 전에 가볍게 터치하고 다시 잡으세요."
+      },
+      "image": "27--{tier}.png"
+    },
+    {
+      "id": 28,
+      "category": "precision",
+      "title": {
+        "zh": "脚尖敲钉",
+        "en": "Toe Tap",
+        "ko": "토우 탭"
+      },
+      "description": {
+        "zh": "每次踩脚前，先用鞋尖轻轻 tap 一下脚点正上方的螺栓孔，再放脚踩实。",
+        "en": "Tap the bolt hole with your toe before stepping on.",
+        "ko": "발을 놓기 전에 홀드 위의 볼트 구멍을 먼저 터치하세요."
+      },
+      "image": "28--{tier}.png"
+    },
+    {
+      "id": 29,
+      "category": "precision",
+      "title": {
+        "zh": "网球手",
+        "en": "Tennis Ball Hands",
+        "ko": "테니스공 핸드"
+      },
+      "description": {
+        "zh": "两只手各握一个网球去爬简单线路，不能用手指抓点，只能把网球压在岩点上。",
+        "en": "Climb with a tennis ball in each hand. No gripping.",
+        "ko": "양손에 테니스공을 쥐고 쉬운 루트를 오르세요."
+      },
+      "image": "29--{tier}.png"
+    },
+    {
+      "id": 30,
+      "category": "constraint",
+      "title": {
+        "zh": "无拇指攀爬",
+        "en": "No Thumbs",
+        "ko": "노 썸"
+      },
+      "description": {
+        "zh": "全程大拇指不许碰岩点。逼自己用 open hand 握法，减少对 crimp 的依赖。",
+        "en": "No thumbs on holds. Forces open-hand grip.",
+        "ko": "엄지를 홀드에 대지 마세요."
+      },
+      "image": "30--{tier}.png"
+    },
+    {
+      "id": 31,
+      "category": "constraint",
+      "title": {
+        "zh": "消除法",
+        "en": "Elimination",
+        "ko": "엘리미네이션"
+      },
+      "description": {
+        "zh": "先爬一条简单线路。完攀后，去掉一个手点再爬一遍。看最少能用几个手点完攀。",
+        "en": "Climb, remove a hold, repeat. How few can you use?",
+        "ko": "루트를 오른 후 핸드홀드를 하나씩 빼고 다시 오르세요."
+      },
+      "image": "31--{tier}.png"
+    },
+    {
+      "id": 32,
+      "category": "constraint",
+      "title": {
+        "zh": "单色脚点",
+        "en": "One Color Feet",
+        "ko": "원 컬러 풋"
+      },
+      "description": {
+        "zh": "手点照常用本线路的，脚点只许踩另一种颜色的岩点。逼自己适应非标准的脚点位置。",
+        "en": "Handholds normal, but only step on holds of a different color.",
+        "ko": "핸드홀드는 원래 루트대로, 풋홀드는 다른 색만."
+      },
+      "image": "32--{tier}.png"
+    },
+    {
+      "id": 33,
+      "category": "constraint",
+      "title": {
+        "zh": "三点不动",
+        "en": "Strict 3-Point Contact",
+        "ko": "3점 접촉"
+      },
+      "description": {
+        "zh": "全程严格三点接触，每次只能移动一个肢体。听起来简单，但很多人无意识中会同时移动两个点。",
+        "en": "Strict three-point contact. Only one limb moves at a time.",
+        "ko": "항상 3점 접촉을 유지하세요."
+      },
+      "image": "33--{tier}.png"
+    },
+    {
+      "id": 34,
+      "category": "social",
+      "title": {
+        "zh": "接龙",
+        "en": "Add-On",
+        "ko": "애드온"
+      },
+      "description": {
+        "zh": "你爬两步停下，朋友接着往后加一步，你再加一步。动作越来越长，谁先记不住或者掉了就输。",
+        "en": "You climb 2 moves, friend adds 1. Sequence grows. First to forget loses.",
+        "ko": "2동작 오르고 친구가 1동작 추가. 점점 길어져요."
+      },
+      "image": "34--{tier}.png"
+    },
+    {
+      "id": 35,
+      "category": "social",
+      "title": {
+        "zh": "攀岩版 Twister",
+        "en": "Wall Twister",
+        "ko": "월 트위스터"
+      },
+      "description": {
+        "zh": "朋友喊指令：'右手红色''左脚黄色'，你照做。越喊越刁钻，身体会被扭成很搞笑的姿势。",
+        "en": "Friend calls commands. Follow them. Gets hilariously twisted.",
+        "ko": "친구가 지시하고 따라하세요. 점점 꼬여요!"
+      },
+      "image": "35-twister-{tier}.png"
+    },
+    {
+      "id": 36,
+      "category": "social",
+      "title": {
+        "zh": "淘汰赛",
+        "en": "Elimination Battle",
+        "ko": "엘리미네이션 배틀"
+      },
+      "description": {
+        "zh": "一条线，每人轮流爬。每轮结束后去掉一个手点。谁先爬不了谁出局。",
+        "en": "Take turns. Remove a hold each round. Can't finish = out.",
+        "ko": "같은 루트를 번갈아 오르고 매 라운드 홀드를 하나 제거."
+      },
+      "image": "36--{tier}.png"
+    },
+    {
+      "id": 37,
+      "category": "mindbody",
+      "title": {
+        "zh": "表情管理",
+        "en": "Relax Your Face",
+        "ko": "표정 관리"
+      },
+      "description": {
+        "zh": "爬的时候保持微笑或者至少面部放松。很多人一用力就皱眉、咬牙，这其实在浪费能量。",
+        "en": "Keep a relaxed face while climbing. Grimacing wastes energy.",
+        "ko": "오를 때 미소를 유지하세요."
+      },
+      "image": "37--{tier}.png"
+    },
+    {
+      "id": 38,
+      "category": "mindbody",
+      "title": {
+        "zh": "全程哼歌",
+        "en": "Hum a Tune",
+        "ko": "노래 흥얼거리기"
+      },
+      "description": {
+        "zh": "选一首简单的歌，爬的时候小声哼。如果哼不出来了，说明你在憋气，提醒自己放松呼吸。",
+        "en": "Hum while climbing. Can't hum = you're holding your breath.",
+        "ko": "오르면서 노래를 흥얼거리세요."
+      },
+      "image": "38--{tier}.png"
+    },
+    {
+      "id": 39,
+      "category": "mindbody",
+      "title": {
+        "zh": "落地后复盘",
+        "en": "Mental Replay",
+        "ko": "멘탈 리플레이"
+      },
+      "description": {
+        "zh": "每条线爬完落地后，闭眼 10 秒，在脑海里把刚才的动作重放一遍。哪一步最流畅？哪一步最卡？",
+        "en": "Close your eyes 10 seconds after each route. Replay mentally.",
+        "ko": "루트를 끝낸 후 눈을 감고 10초간 동작을 되짚어보세요."
+      },
+      "image": "39--{tier}.png"
+    },
+    {
+      "id": 40,
+      "category": "mindbody",
+      "title": {
+        "zh": "地面模拟",
+        "en": "Shadow Climb",
+        "ko": "섀도 클라이밍"
+      },
+      "description": {
+        "zh": "上墙之前，站在地面用手在空中比划整条线路的动作序列，像打太极一样走一遍。",
+        "en": "Rehearse the sequence with your hands in the air before climbing.",
+        "ko": "오르기 전에 땅에서 손으로 전체 동작을 리허설하세요."
+      },
+      "image": "40--{tier}.png"
+    },
+    {
+      "id": 41,
+      "category": "creative",
+      "title": {
+        "zh": "只用侧身",
+        "en": "Side Body Only",
+        "ko": "측면만"
+      },
+      "description": {
+        "zh": "全程不许正面朝墙，每一步都必须侧身。逼自己用 twist lock、drop knee、back step。",
+        "en": "Never face the wall head-on. Every move sideways.",
+        "ko": "정면을 보지 마세요. 항상 옆으로."
+      },
+      "image": "41--{tier}.png"
+    },
+    {
+      "id": 42,
+      "category": "creative",
+      "title": {
+        "zh": "非惯用手起步",
+        "en": "Off-Hand Start",
+        "ko": "비주력 손 시작"
+      },
+      "description": {
+        "zh": "如果你习惯右手先动，今天全部左手先动。打破惯性，训练对称性。",
+        "en": "Lead with your non-dominant hand today. Break the habit.",
+        "ko": "주력 손이 아닌 반대 손으로 먼저 시작하세요."
+      },
+      "image": "42--{tier}.png"
+    },
+    {
+      "id": 43,
+      "category": "creative",
+      "title": {
+        "zh": "最大化接触",
+        "en": "Maximum Contact",
+        "ko": "최대 접촉"
+      },
+      "description": {
+        "zh": "爬一条线时，尝试每次移动都让身体尽可能多的部位接触墙面。膝盖顶墙、臀部贴墙都算。",
+        "en": "Maximize body contact with the wall at all times.",
+        "ko": "벽과의 접촉 면적을 최대화하세요."
+      },
+      "image": "43--{tier}.png"
+    },
+    {
+      "id": 44,
+      "category": "creative",
+      "title": {
+        "zh": "跳过一个手点",
+        "en": "Skip a Hold",
+        "ko": "홀드 건너뛰기"
+      },
+      "description": {
+        "zh": "每条线至少跳过一个本来会用的手点，逼自己用更大的动作幅度或更好的脚法来弥补。",
+        "en": "Skip at least one handhold per route. Compensate with bigger moves.",
+        "ko": "루트마다 최소 하나의 핸드홀드를 건너뛰세요."
+      },
+      "image": "44--{tier}.png"
+    }
+  ]
+}

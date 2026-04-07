@@ -1,11 +1,13 @@
-import { useMemo, useState, useRef, useEffect } from 'react'
-import { Link, useNavigate } from 'react-router-dom'
+import { useMemo, useState, useRef, useEffect, useCallback } from 'react'
+import { Link, useNavigate, useOutletContext } from 'react-router-dom'
 import { useApp } from '../context/AppContext'
+import { useAuth } from '../context/AuthContext'
 import { Icon } from '../utils/icons'
 import { getHallOfFameAthletes, getHallOfFameMedia } from '../utils/hallOfFame'
 import PageSEO from '../components/PageSEO'
 import ArticleCard from '../components/article/ArticleCard'
 import TrendingKPs from '../components/ui/TrendingKPs'
+import QuestDrawModal from '../components/ui/QuestDrawModal'
 import articleRegistry from '../data/article-registry.json'
 
 function hexToRgba(hex, alpha) {
@@ -44,6 +46,26 @@ function saveRecentSearch(query) {
 
 export default function HomePage() {
   const { sections, t, lang, search, searchReady } = useApp()
+  const { user } = useAuth()
+  const { onOpenAuth } = useOutletContext()
+  const [questModalOpen, setQuestModalOpen] = useState(false)
+  const pendingQuestRef = useRef(null)
+
+  // 登录成功后自动完成待处理任务并重新打开弹窗
+  useEffect(() => {
+    if (user && pendingQuestRef.current) {
+      const questId = pendingQuestRef.current
+      pendingQuestRef.current = null
+      const today = new Date().toISOString().slice(0, 10)
+      try {
+        const saved = JSON.parse(localStorage.getItem('quest-progress')) || {}
+        const entry = saved[questId] || { times: 0, dates: [] }
+        saved[questId] = { times: entry.times + 1, dates: [...entry.dates, today] }
+        localStorage.setItem('quest-progress', JSON.stringify(saved))
+      } catch {}
+      setQuestModalOpen(true)
+    }
+  }, [user])
   const [query, setQuery] = useState('')
   const [results, setResults] = useState([])
   const [showDropdown, setShowDropdown] = useState(false)
@@ -308,28 +330,24 @@ export default function HomePage() {
         {/* 热门知识点滚动标签 */}
         <TrendingKPs />
 
-        {/* 攀岩动物人格入口 — 带动效 */}
-        <Link
-          to="/diagnosis"
-          className="diagnosis-card group mt-5 max-w-md mx-auto flex items-center gap-3.5 rounded-2xl px-5 py-4 shadow-lg hover:shadow-xl hover:scale-[1.02] transition-all duration-300"
-        >
-          <span className="diagnosis-emoji text-3xl shrink-0">
-            🐒
-          </span>
-          <div className="flex-1 min-w-0 text-left">
-            <div className="text-sm font-bold text-white">
-              {lang === 'zh' ? '测测你的攀岩动物人格' : lang === 'en' ? 'Find Your Climbing Animal' : '나의 클라이밍 동물 찾기'}
-            </div>
-            <div className="text-xs text-white/70 mt-0.5">
-              {lang === 'zh'
-                ? '回答几个问题，看看你是哪只岩壁小动物'
-                : lang === 'en'
-                ? 'Answer a few questions to discover your climbing animal persona'
-                : '몇 가지 질문에 답하고 나만의 클라이밍 동물을 찾아보세요'}
-            </div>
-          </div>
-          <Icon name="chevronRight" size={18} className="text-white/60 shrink-0 group-hover:text-white group-hover:translate-x-0.5 transition-all" />
-        </Link>
+        {/* 快捷入口：测试 + 微任务 */}
+        <div className="mt-4 flex items-center justify-center gap-3">
+          <Link
+            to="/diagnosis"
+            className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium bg-stone-card border border-stone-border text-text-secondary hover:text-text-primary hover:border-forest/40 hover:shadow-sm transition-all"
+          >
+            🐒 {lang === 'zh' ? '攀岩人格测试' : lang === 'en' ? 'Climbing Persona' : '성격 테스트'}
+          </Link>
+          <button
+            onClick={() => setQuestModalOpen(true)}
+            className="relative inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium bg-stone-card border border-stone-border text-text-secondary hover:text-text-primary hover:border-gold/40 hover:shadow-sm transition-all"
+          >
+            <span className="absolute -top-2 -right-2 px-1.5 py-0.5 text-[10px] font-bold leading-none text-white bg-gradient-to-r from-rose-500 to-orange-400 rounded-full shadow-sm animate-none">
+              NEW
+            </span>
+            🎯 {lang === 'zh' ? '今日微任务' : lang === 'en' ? 'Daily Quest' : '오늘의 퀘스트'}
+          </button>
+        </div>
       </div>
 
       {/* ==================== 1. 攀岩知识库 ==================== */}
@@ -627,6 +645,8 @@ export default function HomePage() {
           </Link>
         </div>
       </div>
+
+      <QuestDrawModal isOpen={questModalOpen} onClose={() => setQuestModalOpen(false)} user={user} onOpenAuth={onOpenAuth} pendingQuestRef={pendingQuestRef} />
     </div>
   )
 }

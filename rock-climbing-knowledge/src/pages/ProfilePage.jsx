@@ -6,6 +6,76 @@ import { Icon } from '../utils/icons'
 import PageSEO from '../components/PageSEO'
 import { getDiagnosisHistory } from '../lib/diagnosis'
 import diagnosisTree from '../data/diagnosis-tree.json'
+import questData from '../data/quests.json'
+import QuestDrawModal from '../components/ui/QuestDrawModal'
+
+const QUEST_STORAGE_KEY = 'quest-progress'
+
+function loadQuestProgress() {
+  try { return JSON.parse(localStorage.getItem(QUEST_STORAGE_KEY)) || {} }
+  catch { return {} }
+}
+
+function getQuestTier(times) {
+  if (times >= 8) return 'gold'
+  if (times >= 3) return 'silver'
+  return 'stone'
+}
+
+function getQuestTierIcon(tier) {
+  if (tier === 'gold') return '🥇'
+  if (tier === 'silver') return '🥈'
+  return '🪨'
+}
+
+function getTierCardStyle(tier) {
+  if (tier === 'gold') return {
+    bg: 'linear-gradient(145deg, #3D2B1A, #5C4033, #3D2B1A)',
+    border: '#C8956C',
+    text: '#F5E6D0',
+  }
+  if (tier === 'silver') return {
+    bg: 'linear-gradient(145deg, #2A2F38, #3A4250, #2A2F38)',
+    border: '#A8B8C8',
+    text: '#E8EDF2',
+  }
+  return {
+    bg: 'linear-gradient(145deg, #1E1E24, #2A2A32, #1E1E24)',
+    border: '#4A4A52',
+    text: '#B8B0A8',
+  }
+}
+
+const TIER_THRESHOLDS = [
+  [1,  'stone'],  [2,  'stone'],  [4,  'stone'],
+  [7,  'silver'], [10, 'silver'], [14, 'silver'],
+  [19, 'gold'],   [25, 'gold'],   [32, 'gold'],
+]
+
+function getRankLabel(times) {
+  if (times === 0) return { tier: 'stone', v: 0 }
+  let tier = 'stone', tierV = 1
+  for (let i = 0; i < TIER_THRESHOLDS.length; i++) {
+    if (times >= TIER_THRESHOLDS[i][0]) {
+      tier = TIER_THRESHOLDS[i][1]
+      tierV = TIER_THRESHOLDS.slice(0, i + 1).filter(t => t[1] === tier).length
+    }
+  }
+  const last = TIER_THRESHOLDS[TIER_THRESHOLDS.length - 1][0]
+  if (times > last) {
+    tier = 'gold'
+    let cum = last, gv = TIER_THRESHOLDS.filter(t => t[1] === 'gold').length, gap = 8
+    while (cum < times) { cum += gap; gap++; gv++ }
+    tierV = gv
+  }
+  const label = tier === 'gold' ? '金' : tier === 'silver' ? '银' : '石'
+  return { tier, v: tierV, label }
+}
+
+function getQuestImage(quest, tier) {
+  const t = tier || 'stone'
+  return `/images/quests/${t}/${quest.image.replace('{tier}', t)}`
+}
 
 const personaMap = Object.fromEntries(
   (diagnosisTree.personas || []).map((p) => [p.id, p])
@@ -16,6 +86,9 @@ export default function ProfilePage() {
   const { lang } = useApp()
   const [history, setHistory] = useState([])
   const [loading, setLoading] = useState(true)
+  const [questProgress] = useState(loadQuestProgress)
+  const [questModalOpen, setQuestModalOpen] = useState(false)
+  const [selectedQuest, setSelectedQuest] = useState(null)
 
   const tt = (zh, en, ko) => lang === 'zh' ? zh : lang === 'en' ? en : ko
 
@@ -168,7 +241,99 @@ export default function ProfilePage() {
             </div>
           )}
         </div>
+
+        {/* ── 任务图鉴 ── */}
+        <div className="mb-6">
+          <div className="flex items-center justify-between mb-4">
+            <h2 className="text-lg font-bold flex items-center gap-2">
+              <span className="text-xl">🎯</span>
+              {tt('任务图鉴', 'Quest Gallery', '퀘스트 갤러리')}
+            </h2>
+            <button
+              onClick={() => setQuestModalOpen(true)}
+              className="text-xs px-3 py-1.5 rounded-full bg-stone-bg border border-stone-border text-text-secondary hover:text-text-primary hover:border-gold/40 transition-all"
+            >
+              🎲 {tt('随机抽取', 'Random', '랜덤')}
+            </button>
+          </div>
+
+          {/* 统计 */}
+          {(() => {
+            const completed = questData.quests.filter(q => (questProgress[q.id]?.times || 0) >= 1).length
+            const silverCount = questData.quests.filter(q => (questProgress[q.id]?.times || 0) >= 3).length
+            const goldCount = questData.quests.filter(q => (questProgress[q.id]?.times || 0) >= 8).length
+            const totalCompletions = questData.quests.reduce((sum, q) => sum + (questProgress[q.id]?.times || 0), 0)
+            return (
+              <div className="flex items-center gap-4 text-xs text-text-secondary mb-4 px-1">
+                <span>{tt(`共完成 ${totalCompletions} 次训练`, `${totalCompletions} total completions`, `총 ${totalCompletions}회 완료`)}</span>
+                <span>🪨 {completed}</span>
+                {silverCount > 0 && <span>🥈 {silverCount}</span>}
+                {goldCount > 0 && <span>🥇 {goldCount}</span>}
+              </div>
+            )
+          })()}
+
+          {/* 按分类展示（只显示已完成的任务） */}
+          {questData.categories.map(category => {
+            const completedQuests = questData.quests.filter(q => q.category === category.id && (questProgress[q.id]?.times || 0) > 0)
+            if (completedQuests.length === 0) return null
+
+            return (
+              <div key={category.id} className="mb-4">
+                <div className="text-xs font-medium text-text-secondary mb-2 px-1">
+                  {category.icon} {category.title[lang] || category.title.zh}
+                </div>
+                <div className="grid grid-cols-3 sm:grid-cols-4 gap-2">
+                  {completedQuests.map(quest => {
+                    const times = questProgress[quest.id]?.times || 0
+                    const tier = getQuestTier(times)
+                    const cs = getTierCardStyle(tier)
+                    const rank = getRankLabel(times)
+                    const badgeBg = rank.tier === 'gold' ? 'rgba(200,149,108,0.3)' : rank.tier === 'silver' ? 'rgba(168,184,200,0.3)' : 'rgba(156,148,137,0.3)'
+                    const badgeColor = rank.tier === 'gold' ? '#E8C877' : rank.tier === 'silver' ? '#C0C0C0' : '#B8AFA5'
+
+                    return (
+                      <Link
+                        key={quest.id}
+                        to="/quests"
+                        className="group rounded-xl overflow-hidden transition-all hover:scale-[1.02]"
+                        style={{ background: cs.bg, border: `1.5px solid ${cs.border}` }}
+                        title={`${quest.title[lang] || quest.title.zh} — ${times}${tt('次', 'x', '회')}`}
+                      >
+                        <div className="aspect-square bg-black overflow-hidden">
+                          <img
+                            src={getQuestImage(quest, tier)}
+                            alt={quest.title[lang] || quest.title.zh}
+                            className="w-full h-full object-cover transition-transform group-hover:scale-105"
+                          />
+                        </div>
+                        <div className="px-2 py-1.5">
+                          <div className="text-xs font-medium flex items-center gap-1" style={{ color: cs.text }}>
+                            <span className="truncate">{quest.title[lang] || quest.title.zh}</span>
+                            <span className="text-[8px] font-semibold px-1 py-0.5 rounded shrink-0" style={{ background: badgeBg, color: badgeColor }}>
+                              {rank.label} V{rank.v}
+                            </span>
+                          </div>
+                        </div>
+                      </Link>
+                    )
+                  })}
+                </div>
+              </div>
+            )
+          })}
+
+          {/* 查看全部 */}
+          <Link
+            to="/quests"
+            className="block mt-3 text-center text-sm text-text-secondary hover:text-forest transition-colors"
+          >
+            {tt('查看全部任务详情 →', 'View all quest details →', '전체 퀘스트 보기 →')}
+          </Link>
+        </div>
       </div>
+
+      <QuestDrawModal isOpen={questModalOpen} onClose={() => setQuestModalOpen(false)} />
     </div>
   )
 }

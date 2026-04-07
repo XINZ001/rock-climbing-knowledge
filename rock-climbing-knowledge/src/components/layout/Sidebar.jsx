@@ -285,6 +285,17 @@ export default function Sidebar({ onNavigate }) {
           </div>
         </AccordionPanel>
 
+        {/* ── 微任务 ── */}
+        <Link
+          to="/quests"
+          className={`flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium transition-colors ${
+            location.pathname === '/quests' ? 'bg-gold-light text-gold' : 'hover:bg-stone-bg'
+          }`}
+        >
+          <Icon name="target" size={16} />
+          <span>{lang === 'zh' ? '微任务' : lang === 'en' ? 'Micro Quests' : '마이크로 퀘스트'}</span>
+        </Link>
+
         {/* ── 伤痛档案（无子目录） ── */}
         <Link
           to="/injuries"
