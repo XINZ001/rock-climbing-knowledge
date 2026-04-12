@@ -94,44 +94,55 @@ function getTierCardStyle(tier) {
   }
 }
 
+// --- 预加载缩略图 ---
+const thumbsPreloaded = useRef(false)
+if (!thumbsPreloaded.current) {
+  thumbsPreloaded.current = true
+  quests.forEach(q => { new Image().src = getThumbPath(q) })
+}
+
 // --- 老虎机式抽取动画 ---
 function SlotMachine({ finalQuest, onSettled }) {
   const [currentIndex, setCurrentIndex] = useState(0)
   const [phase, setPhase] = useState('fast') // fast → slow → done
-  const intervalRef = useRef(null)
-  const countRef = useRef(0)
+  const timerRef = useRef(null)
 
   useEffect(() => {
     const finalIndex = quests.findIndex(q => q.id === finalQuest.id)
+    let count = 0
+    let prevIndex = -1
 
-    // 快速闪烁阶段
-    intervalRef.current = setInterval(() => {
-      countRef.current++
-      setCurrentIndex(Math.floor(Math.random() * quests.length))
+    // 保证不连续出现同一张图
+    function nextRandom() {
+      let idx
+      do { idx = Math.floor(Math.random() * quests.length) } while (idx === prevIndex && quests.length > 1)
+      prevIndex = idx
+      return idx
+    }
 
-      // 1.2 秒后进入减速
-      if (countRef.current > 20) {
+    // 用递归 setTimeout 实现变速：快速 → 减速 → 停止
+    function tick() {
+      count++
+      if (count <= 20) {
+        // 快速阶段：60ms 间隔，随机跳
+        setCurrentIndex(nextRandom())
+        timerRef.current = setTimeout(tick, 60)
+      } else if (count <= 30) {
+        // 减速阶段：间隔逐步增大，顺序轮播
         setPhase('slow')
+        setCurrentIndex(prev => (prev + 1) % quests.length)
+        const delay = 80 + (count - 20) * 40
+        timerRef.current = setTimeout(tick, delay)
+      } else {
+        // 锁定最终结果
+        setCurrentIndex(finalIndex)
+        setPhase('done')
+        setTimeout(onSettled, 600)
       }
-      // 减速阶段：逐渐变慢
-      if (countRef.current > 20 && countRef.current <= 30) {
-        clearInterval(intervalRef.current)
-        const delay = 80 + (countRef.current - 20) * 40
-        intervalRef.current = setInterval(() => {
-          countRef.current++
-          setCurrentIndex(prev => (prev + 1) % quests.length)
-          if (countRef.current > 30) {
-            clearInterval(intervalRef.current)
-            // 最终锁定
-            setCurrentIndex(finalIndex)
-            setPhase('done')
-            setTimeout(onSettled, 600)
-          }
-        }, delay)
-      }
-    }, 60)
+    }
 
-    return () => clearInterval(intervalRef.current)
+    tick()
+    return () => clearTimeout(timerRef.current)
   }, [finalQuest, onSettled])
 
   const quest = quests[currentIndex] || quests[0]
