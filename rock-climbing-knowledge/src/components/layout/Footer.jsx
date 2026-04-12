@@ -13,7 +13,7 @@ export default function Footer() {
           rel="noopener noreferrer"
           className="inline-flex items-center gap-1.5 rounded border border-stone-border bg-stone-card px-2 py-1 text-text-secondary transition-colors hover:border-forest/40 hover:bg-stone-hover"
         >
-          <img src="/images/xiaohongshu-logo.png" alt={lang === 'zh' ? '小红书' : 'Xiaohongshu'} className="h-4 w-4 rounded object-contain" />
+          <img src="/images/xiaohongshu-logo.webp" alt={lang === 'zh' ? '小红书' : 'Xiaohongshu'} className="h-4 w-4 rounded object-contain" />
           <span>{lang === 'zh' ? '小红书' : 'Xiaohongshu'}</span>
         </a>
       </p>

@@ -114,7 +114,7 @@
         "en": "Every foot placement must be completely silent. If you hear a sound, redo it.",
         "ko": "발이 홀드에 닿을 때 소리가 나면 안 됩니다."
       },
-      "image": "01--{tier}.png"
+      "image": "01--{tier}.webp"
     },
     {
       "id": 2,
@@ -129,7 +129,7 @@
         "en": "Once your foot touches a hold, no adjustments. Pretend your sole has glue.",
         "ko": "발을 홀드에 올리면 조정 불가."
       },
-      "image": "02--{tier}.png"
+      "image": "02--{tier}.webp"
     },
     {
       "id": 3,
@@ -144,7 +144,7 @@
         "en": "Every move: place your foot first, then move your hand.",
         "ko": "매 동작마다 발을 먼저 놓고 손을 움직이세요."
       },
-      "image": "03--{tier}.png"
+      "image": "03--{tier}.webp"
     },
     {
       "id": 4,
@@ -159,7 +159,7 @@
         "en": "Watch your toe touch the hold every single time.",
         "ko": "발끝이 홀드에 닿는 순간을 반드시 눈으로 확인하세요."
       },
-      "image": "04--{tier}.png"
+      "image": "04--{tier}.webp"
     },
     {
       "id": 5,
@@ -174,7 +174,7 @@
         "en": "Use only the very tip of your climbing shoe.",
         "ko": "클라이밍 슈즈의 맨 앞부분만 사용하세요."
       },
-      "image": "05--{tier}.png"
+      "image": "05--{tier}.webp"
     },
     {
       "id": 6,
@@ -189,7 +189,7 @@
         "en": "Do at least 3 foot swaps per route.",
         "ko": "루트마다 최소 3번 같은 홀드에서 발을 바꾸세요."
       },
-      "image": "06--{tier}.png"
+      "image": "06--{tier}.webp"
     },
     {
       "id": 7,
@@ -204,7 +204,7 @@
         "en": "Keep your arms straight. Feel your weight on bones, not muscles.",
         "ko": "팔을 쭉 편 상태를 유지하세요."
       },
-      "image": "07--{tier}.png"
+      "image": "07--{tier}.webp"
     },
     {
       "id": 8,
@@ -219,7 +219,7 @@
         "en": "Before every move, push your center of gravity toward the wall.",
         "ko": "움직이기 전에 무게중심을 벽 쪽으로 밀어보세요."
       },
-      "image": "08--{tier}.png"
+      "image": "08--{tier}.webp"
     },
     {
       "id": 9,
@@ -234,7 +234,7 @@
         "en": "At every hold, ask: face the wall or twist?",
         "ko": "매 홀드에서 정면인지 측면인지 판단하세요."
       },
-      "image": "09--{tier}.png"
+      "image": "09--{tier}.webp"
     },
     {
       "id": 10,
@@ -249,7 +249,7 @@
         "en": "Pause for 2 seconds on three points of contact before moving.",
         "ko": "3점 지지 상태에서 2초 정지."
       },
-      "image": "10--{tier}.png"
+      "image": "10--{tier}.webp"
     },
     {
       "id": 11,
@@ -264,7 +264,7 @@
         "en": "Do at least 2 intentional flags per route.",
         "ko": "루트마다 최소 2번 의식적으로 플래깅하세요."
       },
-      "image": "11-flagging-{tier}.png"
+      "image": "11-flagging-{tier}.webp"
     },
     {
       "id": 12,
@@ -279,7 +279,7 @@
         "en": "Exhale with every move. Inhale when still. Never hold your breath.",
         "ko": "움직일 때 내쉬고 멈출 때 들이쉬세요."
       },
-      "image": "12--{tier}.png"
+      "image": "12--{tier}.webp"
     },
     {
       "id": 13,
@@ -294,7 +294,7 @@
         "en": "Mentally narrate each move before executing.",
         "ko": "매 동작 전에 할 행동을 마음속으로 말하세요."
       },
-      "image": "13--{tier}.png"
+      "image": "13--{tier}.webp"
     },
     {
       "id": 14,
@@ -309,7 +309,7 @@
         "en": "Halfway up, stop and shake out for 5 seconds. Two deep breaths.",
         "ko": "루트 중간에서 멈추고 5초간 손을 털어주세요."
       },
-      "image": "14--{tier}.png"
+      "image": "14--{tier}.webp"
     },
     {
       "id": 15,
@@ -324,7 +324,7 @@
         "en": "Count every move. Next time, try fewer.",
         "ko": "오를 때 동작 수를 세세요."
       },
-      "image": "15--{tier}.png"
+      "image": "15--{tier}.webp"
     },
     {
       "id": 16,
@@ -339,7 +339,7 @@
         "en": "Focus only on the next move. Don't think about the top.",
         "ko": "다음 동작에만 집중하세요."
       },
-      "image": "16--{tier}.png"
+      "image": "16--{tier}.webp"
     },
     {
       "id": 17,
@@ -354,7 +354,7 @@
         "en": "Climb at half speed. Tai-chi slow.",
         "ko": "절반 속도로 오르세요."
       },
-      "image": "17--{tier}.png"
+      "image": "17--{tier}.webp"
     },
     {
       "id": 18,
@@ -369,7 +369,7 @@
         "en": "After topping out, downclimb back to the start.",
         "ko": "완등 후 같은 루트로 내려오세요."
       },
-      "image": "18--{tier}.png"
+      "image": "18--{tier}.webp"
     },
     {
       "id": 19,
@@ -384,7 +384,7 @@
         "en": "Hover your fingers 2 seconds above the hold before grabbing.",
         "ko": "다음 홀드를 잡기 전에 2초간 손가락을 위에 멈추세요."
       },
-      "image": "19--{tier}.png"
+      "image": "19--{tier}.webp"
     },
     {
       "id": 20,
@@ -399,7 +399,7 @@
         "en": "No unnecessary swinging or readjusting. Every move clean.",
         "ko": "불필요한 흔들림이나 손 조정을 없애세요."
       },
-      "image": "20--{tier}.png"
+      "image": "20--{tier}.webp"
     },
     {
       "id": 21,
@@ -414,7 +414,7 @@
         "en": "Rehearse the entire route from the ground before climbing.",
         "ko": "오르기 전에 땅에서 전체 루트를 리허설하세요."
       },
-      "image": "21--{tier}.png"
+      "image": "21--{tier}.webp"
     },
     {
       "id": 22,
@@ -429,7 +429,7 @@
         "en": "Read the route top-down. Trace it to the start.",
         "ko": "루트를 위에서 아래로 읽어보세요."
       },
-      "image": "22--{tier}.png"
+      "image": "22--{tier}.webp"
     },
     {
       "id": 23,
@@ -444,7 +444,7 @@
         "en": "Pure onsight. No watching others. Reflect after.",
         "ko": "처음 보는 루트를 바로 온사이트하세요."
       },
-      "image": "23-onsight-{tier}.png"
+      "image": "23-onsight-{tier}.webp"
     },
     {
       "id": 24,
@@ -459,7 +459,7 @@
         "en": "4 routes, 2-3 grades below max, no rest between.",
         "ko": "최고 등급보다 2-3단계 낮은 루트 4개를 연속으로."
       },
-      "image": "24--{tier}.png"
+      "image": "24--{tier}.webp"
     },
     {
       "id": 25,
@@ -474,7 +474,7 @@
         "en": "Shake out at least once per route, even if not pumped.",
         "ko": "루트 중 최소 한 번은 의식적으로 손을 털어주세요."
       },
-      "image": "25-shake-out-{tier}.png"
+      "image": "25-shake-out-{tier}.webp"
     },
     {
       "id": 26,
@@ -489,7 +489,7 @@
         "en": "Same rhythm throughout. Like a metronome.",
         "ko": "루트 전체를 같은 리듬으로 오르세요."
       },
-      "image": "26--{tier}.png"
+      "image": "26--{tier}.webp"
     },
     {
       "id": 27,
@@ -504,7 +504,7 @@
         "en": "Tap the hold surface first, pull back, then grab.",
         "ko": "홀드를 잡기 전에 가볍게 터치하고 다시 잡으세요."
       },
-      "image": "27--{tier}.png"
+      "image": "27--{tier}.webp"
     },
     {
       "id": 28,
@@ -519,7 +519,7 @@
         "en": "Tap the bolt hole with your toe before stepping on.",
         "ko": "발을 놓기 전에 홀드 위의 볼트 구멍을 먼저 터치하세요."
       },
-      "image": "28--{tier}.png"
+      "image": "28--{tier}.webp"
     },
     {
       "id": 29,
@@ -534,7 +534,7 @@
         "en": "Climb with a tennis ball in each hand. No gripping.",
         "ko": "양손에 테니스공을 쥐고 쉬운 루트를 오르세요."
       },
-      "image": "29--{tier}.png"
+      "image": "29--{tier}.webp"
     },
     {
       "id": 30,
@@ -549,7 +549,7 @@
         "en": "No thumbs on holds. Forces open-hand grip.",
         "ko": "엄지를 홀드에 대지 마세요."
       },
-      "image": "30--{tier}.png"
+      "image": "30--{tier}.webp"
     },
     {
       "id": 31,
@@ -564,7 +564,7 @@
         "en": "Climb, remove a hold, repeat. How few can you use?",
         "ko": "루트를 오른 후 핸드홀드를 하나씩 빼고 다시 오르세요."
       },
-      "image": "31--{tier}.png"
+      "image": "31--{tier}.webp"
     },
     {
       "id": 32,
@@ -579,7 +579,7 @@
         "en": "Handholds normal, but only step on holds of a different color.",
         "ko": "핸드홀드는 원래 루트대로, 풋홀드는 다른 색만."
       },
-      "image": "32--{tier}.png"
+      "image": "32--{tier}.webp"
     },
     {
       "id": 33,
@@ -594,7 +594,7 @@
         "en": "Strict three-point contact. Only one limb moves at a time.",
         "ko": "항상 3점 접촉을 유지하세요."
       },
-      "image": "33--{tier}.png"
+      "image": "33--{tier}.webp"
     },
     {
       "id": 34,
@@ -609,7 +609,7 @@
         "en": "You climb 2 moves, friend adds 1. Sequence grows. First to forget loses.",
         "ko": "2동작 오르고 친구가 1동작 추가. 점점 길어져요."
       },
-      "image": "34--{tier}.png"
+      "image": "34--{tier}.webp"
     },
     {
       "id": 35,
@@ -624,7 +624,7 @@
         "en": "Friend calls commands. Follow them. Gets hilariously twisted.",
         "ko": "친구가 지시하고 따라하세요. 점점 꼬여요!"
       },
-      "image": "35-twister-{tier}.png"
+      "image": "35-twister-{tier}.webp"
     },
     {
       "id": 36,
@@ -639,7 +639,7 @@
         "en": "Take turns. Remove a hold each round. Can't finish = out.",
         "ko": "같은 루트를 번갈아 오르고 매 라운드 홀드를 하나 제거."
       },
-      "image": "36--{tier}.png"
+      "image": "36--{tier}.webp"
     },
     {
       "id": 37,
@@ -654,7 +654,7 @@
         "en": "Keep a relaxed face while climbing. Grimacing wastes energy.",
         "ko": "오를 때 미소를 유지하세요."
       },
-      "image": "37--{tier}.png"
+      "image": "37--{tier}.webp"
     },
     {
       "id": 38,
@@ -669,7 +669,7 @@
         "en": "Hum while climbing. Can't hum = you're holding your breath.",
         "ko": "오르면서 노래를 흥얼거리세요."
       },
-      "image": "38--{tier}.png"
+      "image": "38--{tier}.webp"
     },
     {
       "id": 39,
@@ -684,7 +684,7 @@
         "en": "Close your eyes 10 seconds after each route. Replay mentally.",
         "ko": "루트를 끝낸 후 눈을 감고 10초간 동작을 되짚어보세요."
       },
-      "image": "39--{tier}.png"
+      "image": "39--{tier}.webp"
     },
     {
       "id": 40,
@@ -699,7 +699,7 @@
         "en": "Rehearse the sequence with your hands in the air before climbing.",
         "ko": "오르기 전에 땅에서 손으로 전체 동작을 리허설하세요."
       },
-      "image": "40--{tier}.png"
+      "image": "40--{tier}.webp"
     },
     {
       "id": 41,
@@ -714,7 +714,7 @@
         "en": "Never face the wall head-on. Every move sideways.",
         "ko": "정면을 보지 마세요. 항상 옆으로."
       },
-      "image": "41--{tier}.png"
+      "image": "41--{tier}.webp"
     },
     {
       "id": 42,
@@ -729,7 +729,7 @@
         "en": "Lead with your non-dominant hand today. Break the habit.",
         "ko": "주력 손이 아닌 반대 손으로 먼저 시작하세요."
       },
-      "image": "42--{tier}.png"
+      "image": "42--{tier}.webp"
     },
     {
       "id": 43,
@@ -744,7 +744,7 @@
         "en": "Maximize body contact with the wall at all times.",
         "ko": "벽과의 접촉 면적을 최대화하세요."
       },
-      "image": "43--{tier}.png"
+      "image": "43--{tier}.webp"
     },
     {
       "id": 44,
@@ -759,7 +759,7 @@
         "en": "Skip at least one handhold per route. Compensate with bigger moves.",
         "ko": "루트마다 최소 하나의 핸드홀드를 건너뛰세요."
       },
-      "image": "44--{tier}.png"
+      "image": "44--{tier}.webp"
     }
   ]
 }

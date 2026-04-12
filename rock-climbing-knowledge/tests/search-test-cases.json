@@ -1,0 +1,1443 @@
+{
+  "_meta": {
+    "description": "搜索质量测试集 — 模拟真实用户搜索词，每条标注期望返回的 KP/文章/运动员 ID",
+    "created": "2026-03-28",
+    "usage": "配合 search-benchmark.mjs 自动化跑分，定位搜索质量短板"
+  },
+  "testCases": [
+    {
+      "query": "手点",
+      "expectedIds": [
+        "kp-jug-hold",
+        "kp-full-crimp",
+        "kp-half-crimp",
+        "kp-open-hand-grip",
+        "kp-sloper-hold",
+        "kp-pinch-hold",
+        "kp-pocket-hold",
+        "kp-grip-types"
+      ],
+      "category": "手点/抓法"
+    },
+    {
+      "query": "脚法",
+      "expectedIds": [
+        "kp-edging",
+        "kp-smearing",
+        "kp-toe-hook",
+        "kp-heel-hook",
+        "kp-foot-switching"
+      ],
+      "category": "脚法"
+    },
+    {
+      "query": "怎么抓",
+      "expectedIds": [
+        "kp-grip-types",
+        "kp-full-crimp",
+        "kp-half-crimp",
+        "kp-open-hand-grip",
+        "kp-sloper-hold",
+        "kp-pinch-hold"
+      ],
+      "category": "手点/抓法"
+    },
+    {
+      "query": "指力",
+      "expectedIds": [
+        "kp-hangboard-training",
+        "kp-finger-assessment",
+        "kp-advanced-finger",
+        "kp-grip-types"
+      ],
+      "category": "训练"
+    },
+    {
+      "query": "核心",
+      "expectedIds": [
+        "kp-core-role",
+        "kp-core-training",
+        "kp-anti-rotation"
+      ],
+      "category": "训练"
+    },
+    {
+      "query": "拉伸",
+      "expectedIds": [
+        "kp-hip-flexibility",
+        "kp-shoulder-mobility",
+        "kp-warmup-stretching"
+      ],
+      "category": "柔韧性"
+    },
+    {
+      "query": "耐力",
+      "expectedIds": [
+        "kp-endurance-types",
+        "kp-arc-training",
+        "kp-4x4-training",
+        "kp-long-route-endurance"
+      ],
+      "category": "训练"
+    },
+    {
+      "query": "怕高",
+      "expectedIds": [
+        "kp-fear-management",
+        "kp-desensitization"
+      ],
+      "category": "心理"
+    },
+    {
+      "query": "恐惧",
+      "expectedIds": [
+        "kp-fear-management",
+        "kp-desensitization"
+      ],
+      "category": "心理"
+    },
+    {
+      "query": "训练计划",
+      "expectedIds": [
+        "kp-periodization",
+        "kp-goal-setting",
+        "kp-training-log"
+      ],
+      "category": "训练规划"
+    },
+    {
+      "query": "瓶颈",
+      "expectedIds": [
+        "kp-plateau-breaking"
+      ],
+      "category": "训练规划"
+    },
+    {
+      "query": "卡级",
+      "expectedIds": [
+        "kp-plateau-breaking"
+      ],
+      "category": "训练规划"
+    },
+    {
+      "query": "岩鞋",
+      "expectedIds": [
+        "kp-climbing-shoes"
+      ],
+      "category": "装备"
+    },
+    {
+      "query": "攀岩鞋",
+      "expectedIds": [
+        "kp-climbing-shoes"
+      ],
+      "category": "装备"
+    },
+    {
+      "query": "镁粉",
+      "expectedIds": [
+        "kp-chalk"
+      ],
+      "category": "装备"
+    },
+    {
+      "query": "绳子",
+      "expectedIds": [
+        "kp-rope"
+      ],
+      "category": "装备"
+    },
+    {
+      "query": "安全带",
+      "expectedIds": [
+        "kp-harness"
+      ],
+      "category": "装备"
+    },
+    {
+      "query": "保护器",
+      "expectedIds": [
+        "kp-belay-device"
+      ],
+      "category": "装备"
+    },
+    {
+      "query": "快挂",
+      "expectedIds": [
+        "kp-quickdraw"
+      ],
+      "category": "装备"
+    },
+    {
+      "query": "热身",
+      "expectedIds": [
+        "kp-warmup",
+        "kp-warmup-stretching"
+      ],
+      "category": "安全/预防"
+    },
+    {
+      "query": "受伤",
+      "expectedIds": [
+        "kp-pulley-injury",
+        "kp-tendonitis",
+        "kp-shoulder-injury",
+        "kp-injury-assessment"
+      ],
+      "category": "伤痛"
+    },
+    {
+      "query": "手指疼",
+      "expectedIds": [
+        "kp-pulley-injury",
+        "kp-tendonitis"
+      ],
+      "category": "伤痛"
+    },
+    {
+      "query": "肩膀疼",
+      "expectedIds": [
+        "kp-shoulder-injury",
+        "kp-shoulder-stability"
+      ],
+      "category": "伤痛"
+    },
+    {
+      "query": "康复",
+      "expectedIds": [
+        "kp-rehab-programs",
+        "kp-return-criteria",
+        "kp-rehab-mistakes"
+      ],
+      "category": "伤痛"
+    },
+    {
+      "query": "皮肤",
+      "expectedIds": [
+        "kp-skin-management"
+      ],
+      "category": "伤痛"
+    },
+    {
+      "query": "破皮",
+      "expectedIds": [
+        "kp-skin-management"
+      ],
+      "category": "伤痛"
+    },
+    {
+      "query": "营养",
+      "expectedIds": [
+        "kp-climber-nutrition",
+        "kp-hydration"
+      ],
+      "category": "营养"
+    },
+    {
+      "query": "吃什么",
+      "expectedIds": [
+        "kp-climber-nutrition"
+      ],
+      "category": "营养"
+    },
+    {
+      "query": "减重",
+      "expectedIds": [
+        "kp-weight-management"
+      ],
+      "category": "营养"
+    },
+    {
+      "query": "睡眠",
+      "expectedIds": [
+        "kp-sleep-recovery"
+      ],
+      "category": "恢复"
+    },
+    {
+      "query": "dyno",
+      "expectedIds": [
+        "kp-dyno-technique",
+        "kp-dynamic-movement"
+      ],
+      "category": "技术(英)"
+    },
+    {
+      "query": "crimp",
+      "expectedIds": [
+        "kp-full-crimp",
+        "kp-half-crimp",
+        "kp-open-hand-grip",
+        "kp-grip-types"
+      ],
+      "category": "技术(英)"
+    },
+    {
+      "query": "heel hook",
+      "expectedIds": [
+        "kp-heel-hook"
+      ],
+      "category": "技术(英)"
+    },
+    {
+      "query": "flagging",
+      "expectedIds": [
+        "kp-flagging"
+      ],
+      "category": "技术(英)"
+    },
+    {
+      "query": "drop knee",
+      "expectedIds": [
+        "kp-drop-knee"
+      ],
+      "category": "技术(英)"
+    },
+    {
+      "query": "smearing",
+      "expectedIds": [
+        "kp-smearing"
+      ],
+      "category": "技术(英)"
+    },
+    {
+      "query": "deadpoint",
+      "expectedIds": [
+        "kp-deadpoint"
+      ],
+      "category": "技术(英)"
+    },
+    {
+      "query": "campus board",
+      "expectedIds": [
+        "kp-campus-training",
+        "kp-campus-board-gear",
+        "kp-campus-moves"
+      ],
+      "category": "训练(英)"
+    },
+    {
+      "query": "hangboard",
+      "expectedIds": [
+        "kp-hangboard-training",
+        "kp-hangboard-gear"
+      ],
+      "category": "训练(英)"
+    },
+    {
+      "query": "fingerboard",
+      "expectedIds": [
+        "kp-hangboard-training",
+        "kp-hangboard-gear"
+      ],
+      "category": "训练(英)"
+    },
+    {
+      "query": "重心",
+      "expectedIds": [
+        "kp-cog-principles",
+        "kp-cog-movement"
+      ],
+      "category": "身体技术"
+    },
+    {
+      "query": "落膝",
+      "expectedIds": [
+        "kp-drop-knee"
+      ],
+      "category": "身体技术"
+    },
+    {
+      "query": "侧拉",
+      "expectedIds": [
+        "kp-layback",
+        "kp-undercling-sidepull-gaston"
+      ],
+      "category": "身体技术"
+    },
+    {
+      "query": "裂缝",
+      "expectedIds": [
+        "kp-crack-hand-jam",
+        "kp-crack-foot-body-jam",
+        "kp-crack-climbing-systems"
+      ],
+      "category": "技术"
+    },
+    {
+      "query": "抱石",
+      "expectedIds": [
+        "kp-bouldering-fall",
+        "kp-crash-pad",
+        "kp-spotter",
+        "kp-landing-position",
+        "kp-boulder-competition"
+      ],
+      "category": "抱石"
+    },
+    {
+      "query": "先锋",
+      "expectedIds": [
+        "kp-lead-belay-indoor",
+        "kp-lead-strategy-outdoor",
+        "kp-lead-competition"
+      ],
+      "category": "先锋攀"
+    },
+    {
+      "query": "户外",
+      "expectedIds": [
+        "kp-indoor-outdoor-diff",
+        "kp-first-outdoor-trip",
+        "kp-outdoor-sport-safety"
+      ],
+      "category": "户外"
+    },
+    {
+      "query": "第一次去户外",
+      "expectedIds": [
+        "kp-first-outdoor-trip",
+        "kp-indoor-outdoor-diff"
+      ],
+      "category": "户外"
+    },
+    {
+      "query": "大岩壁",
+      "expectedIds": [
+        "kp-bigwall-planning",
+        "kp-aid-climbing",
+        "kp-wall-living"
+      ],
+      "category": "户外"
+    },
+    {
+      "query": "多段",
+      "expectedIds": [
+        "kp-multi-pitch"
+      ],
+      "category": "户外"
+    },
+    {
+      "query": "绳结",
+      "expectedIds": [
+        "kp-knots"
+      ],
+      "category": "技能"
+    },
+    {
+      "query": "下降",
+      "expectedIds": [
+        "kp-rappelling",
+        "kp-retreat-strategy"
+      ],
+      "category": "技能"
+    },
+    {
+      "query": "保护站",
+      "expectedIds": [
+        "kp-anchor-building"
+      ],
+      "category": "技能"
+    },
+    {
+      "query": "比赛",
+      "expectedIds": [
+        "kp-lead-competition",
+        "kp-speed-competition",
+        "kp-boulder-competition",
+        "kp-combined-olympic"
+      ],
+      "category": "竞技"
+    },
+    {
+      "query": "奥运",
+      "expectedIds": [
+        "kp-olympics-history",
+        "kp-olympics-athletes",
+        "kp-combined-olympic"
+      ],
+      "category": "竞技"
+    },
+    {
+      "query": "速度赛",
+      "expectedIds": [
+        "kp-speed-competition"
+      ],
+      "category": "竞技"
+    },
+    {
+      "query": "小孩",
+      "expectedIds": [
+        "kp-kids-development",
+        "kp-kids-safety",
+        "kp-kids-fun-approach"
+      ],
+      "category": "特殊人群"
+    },
+    {
+      "query": "儿童",
+      "expectedIds": [
+        "kp-kids-development",
+        "kp-kids-safety",
+        "kp-kids-fun-approach"
+      ],
+      "category": "特殊人群"
+    },
+    {
+      "query": "老年人",
+      "expectedIds": [
+        "kp-elderly-injury-prevention",
+        "kp-elderly-training-adjustments",
+        "kp-elderly-benefits"
+      ],
+      "category": "特殊人群"
+    },
+    {
+      "query": "残疾",
+      "expectedIds": [
+        "kp-adaptive-types",
+        "kp-adaptive-equipment",
+        "kp-adaptive-organizations"
+      ],
+      "category": "特殊人群"
+    },
+    {
+      "query": "难度等级",
+      "expectedIds": [
+        "kp-grading-systems",
+        "kp-grade-comparison"
+      ],
+      "category": "概览"
+    },
+    {
+      "query": "V几",
+      "expectedIds": [
+        "kp-grading-systems",
+        "kp-grade-comparison"
+      ],
+      "category": "概览"
+    },
+    {
+      "query": "历史",
+      "expectedIds": [
+        "kp-climbing-origins",
+        "kp-free-climbing-revolution",
+        "kp-modern-era"
+      ],
+      "category": "概览"
+    },
+    {
+      "query": "攀岩类型",
+      "expectedIds": [
+        "kp-climbing-categories",
+        "kp-special-categories"
+      ],
+      "category": "概览"
+    },
+    {
+      "query": "仰角",
+      "expectedIds": [
+        "kp-overhang-technique"
+      ],
+      "category": "地形技术"
+    },
+    {
+      "query": "板岩",
+      "expectedIds": [
+        "kp-slab-technique"
+      ],
+      "category": "地形技术"
+    },
+    {
+      "query": "屋檐",
+      "expectedIds": [
+        "kp-roof-technique"
+      ],
+      "category": "地形技术"
+    },
+    {
+      "query": "overhand",
+      "expectedIds": [
+        "kp-overhang-technique"
+      ],
+      "category": "地形(英拼写错误)"
+    },
+    {
+      "query": "pump",
+      "expectedIds": [
+        "kp-endurance-types",
+        "kp-long-route-endurance"
+      ],
+      "category": "训练(英)"
+    },
+    {
+      "query": "心流",
+      "expectedIds": [
+        "kp-flow-state"
+      ],
+      "category": "心理"
+    },
+    {
+      "query": "专注",
+      "expectedIds": [
+        "kp-attention-management",
+        "kp-flow-state"
+      ],
+      "category": "心理"
+    },
+    {
+      "query": "目标",
+      "expectedIds": [
+        "kp-goal-setting"
+      ],
+      "category": "训练规划"
+    },
+    {
+      "query": "读线",
+      "expectedIds": [
+        "kp-route-reading-basics"
+      ],
+      "category": "技术"
+    },
+    {
+      "query": "看线",
+      "expectedIds": [
+        "kp-route-reading-basics"
+      ],
+      "category": "技术"
+    },
+    {
+      "query": "onsight",
+      "expectedIds": [
+        "kp-onsight-flash-redpoint"
+      ],
+      "category": "技术(英)"
+    },
+    {
+      "query": "redpoint",
+      "expectedIds": [
+        "kp-onsight-flash-redpoint"
+      ],
+      "category": "技术(英)"
+    },
+    {
+      "query": "引体向上",
+      "expectedIds": [
+        "kp-pulling-power"
+      ],
+      "category": "训练"
+    },
+    {
+      "query": "俯卧撑",
+      "expectedIds": [
+        "kp-pushing-power",
+        "kp-antagonist-training"
+      ],
+      "category": "训练"
+    },
+    {
+      "query": "肌腱炎",
+      "expectedIds": [
+        "kp-tendonitis"
+      ],
+      "category": "伤痛"
+    },
+    {
+      "query": "A2",
+      "expectedIds": [
+        "kp-pulley-injury"
+      ],
+      "category": "伤痛"
+    },
+    {
+      "query": "过度训练",
+      "expectedIds": [
+        "kp-rest-management",
+        "kp-when-to-rest"
+      ],
+      "category": "恢复"
+    },
+    {
+      "query": "挂片",
+      "expectedIds": [
+        "kp-clipping-technique",
+        "kp-quickdraw"
+      ],
+      "category": "户外技能"
+    },
+    {
+      "query": "去哪爬",
+      "expectedIds": [
+        "kp-classic-destinations",
+        "kp-trip-planning"
+      ],
+      "category": "旅行"
+    },
+    {
+      "query": "Janja",
+      "expectedIds": [
+        "ath-101"
+      ],
+      "category": "运动员(英)"
+    },
+    {
+      "query": "Ondra",
+      "expectedIds": [],
+      "category": "运动员(英)",
+      "note": "需要确认athlete ID"
+    },
+    {
+      "query": "Alex Honnold",
+      "expectedIds": [],
+      "category": "运动员(英)",
+      "note": "需要确认athlete ID"
+    },
+    {
+      "query": "新手入门",
+      "expectedIds": [
+        "kp-climbing-categories",
+        "kp-climbing-shoes",
+        "kp-gym-etiquette"
+      ],
+      "category": "入门"
+    },
+    {
+      "query": "初学者",
+      "expectedIds": [
+        "kp-climbing-categories",
+        "kp-climbing-shoes",
+        "kp-gym-etiquette",
+        "kp-bouldering-fall"
+      ],
+      "category": "入门"
+    },
+    {
+      "query": "岩馆",
+      "expectedIds": [
+        "kp-gym-etiquette",
+        "kp-lead-belay-indoor",
+        "kp-indoor-outdoor-diff"
+      ],
+      "category": "室内"
+    },
+    {
+      "query": "怎么保护",
+      "expectedIds": [
+        "kp-belaying",
+        "kp-belay-device",
+        "kp-lead-belay-indoor"
+      ],
+      "category": "安全"
+    },
+    {
+      "query": "冲坠",
+      "expectedIds": [
+        "kp-fear-management",
+        "kp-desensitization",
+        "kp-lead-belay-indoor",
+        "kp-bouldering-fall"
+      ],
+      "category": "安全/心理"
+    },
+    {
+      "query": "换手",
+      "expectedIds": [
+        "kp-hand-sequence"
+      ],
+      "category": "手法"
+    },
+    {
+      "query": "捏",
+      "expectedIds": [
+        "kp-pinch-hold"
+      ],
+      "category": "手点"
+    },
+    {
+      "query": "圆点",
+      "expectedIds": [
+        "kp-sloper-hold"
+      ],
+      "category": "手点"
+    },
+    {
+      "query": "指洞",
+      "expectedIds": [
+        "kp-pocket-hold"
+      ],
+      "category": "手点"
+    },
+    {
+      "query": "加斯顿",
+      "expectedIds": [
+        "kp-undercling-sidepull-gaston"
+      ],
+      "category": "手法"
+    },
+    {
+      "query": "4x4",
+      "expectedIds": [
+        "kp-4x4-training"
+      ],
+      "category": "训练"
+    },
+    {
+      "query": "ARC",
+      "expectedIds": [
+        "kp-arc-training"
+      ],
+      "category": "训练"
+    },
+    {
+      "query": "flash",
+      "expectedIds": [
+        "kp-onsight-flash-redpoint"
+      ],
+      "category": "技术(英)"
+    },
+    {
+      "query": "外撑",
+      "expectedIds": [
+        "kp-stemming"
+      ],
+      "category": "身体技术"
+    },
+    {
+      "query": "背步",
+      "expectedIds": [
+        "kp-back-step"
+      ],
+      "category": "身体技术"
+    },
+    {
+      "query": "泵了",
+      "expectedIds": [
+        "kp-endurance-types",
+        "kp-long-route-endurance"
+      ],
+      "category": "CN口语-力竭"
+    },
+    {
+      "query": "前臂酸",
+      "expectedIds": [
+        "kp-endurance-types",
+        "kp-long-route-endurance",
+        "kp-4x4-training"
+      ],
+      "category": "CN口语-力竭"
+    },
+    {
+      "query": "爬不动了",
+      "expectedIds": [
+        "kp-endurance-types",
+        "kp-rest-management",
+        "kp-plateau-breaking"
+      ],
+      "category": "CN口语-力竭"
+    },
+    {
+      "query": "手指崩了",
+      "expectedIds": [
+        "kp-pulley-injury",
+        "kp-skin-management"
+      ],
+      "category": "CN口语-受伤"
+    },
+    {
+      "query": "手皮破了",
+      "expectedIds": [
+        "kp-skin-management"
+      ],
+      "category": "CN口语-受伤"
+    },
+    {
+      "query": "肘子疼",
+      "expectedIds": [
+        "kp-tendonitis"
+      ],
+      "category": "CN口语-受伤"
+    },
+    {
+      "query": "不敢冲坠",
+      "expectedIds": [
+        "kp-fear-management",
+        "kp-desensitization"
+      ],
+      "category": "CN口语-心理"
+    },
+    {
+      "query": "腿软",
+      "expectedIds": [
+        "kp-fear-management",
+        "kp-desensitization"
+      ],
+      "category": "CN口语-心理"
+    },
+    {
+      "query": "紧张",
+      "expectedIds": [
+        "kp-competition-anxiety",
+        "kp-fear-management",
+        "kp-competition-psychology"
+      ],
+      "category": "CN口语-心理"
+    },
+    {
+      "query": "不敢爬",
+      "expectedIds": [
+        "kp-fear-management",
+        "kp-desensitization"
+      ],
+      "category": "CN口语-心理"
+    },
+    {
+      "query": "贴壁",
+      "expectedIds": [
+        "kp-cog-principles",
+        "kp-cog-movement",
+        "kp-slab-technique"
+      ],
+      "category": "CN口语-身体技术"
+    },
+    {
+      "query": "开胯",
+      "expectedIds": [
+        "kp-hip-flexibility"
+      ],
+      "category": "CN口语-柔韧"
+    },
+    {
+      "query": "劈叉",
+      "expectedIds": [
+        "kp-hip-flexibility"
+      ],
+      "category": "CN口语-柔韧"
+    },
+    {
+      "query": "压腿",
+      "expectedIds": [
+        "kp-hip-flexibility"
+      ],
+      "category": "CN口语-柔韧"
+    },
+    {
+      "query": "练指力",
+      "expectedIds": [
+        "kp-hangboard-training",
+        "kp-finger-assessment",
+        "kp-advanced-finger"
+      ],
+      "category": "CN口语-训练"
+    },
+    {
+      "query": "练核心",
+      "expectedIds": [
+        "kp-core-training",
+        "kp-core-role",
+        "kp-anti-rotation"
+      ],
+      "category": "CN口语-训练"
+    },
+    {
+      "query": "做项目",
+      "expectedIds": [
+        "kp-projecting-strategy",
+        "kp-working-linking"
+      ],
+      "category": "CN口语-项目路线"
+    },
+    {
+      "query": "硬路线",
+      "expectedIds": [
+        "kp-projecting-strategy"
+      ],
+      "category": "CN口语-项目路线"
+    },
+    {
+      "query": "接段",
+      "expectedIds": [
+        "kp-working-linking"
+      ],
+      "category": "CN口语-项目路线"
+    },
+    {
+      "query": "抠点怎么抓",
+      "expectedIds": [
+        "kp-full-crimp",
+        "kp-half-crimp",
+        "kp-open-hand-grip",
+        "kp-grip-types"
+      ],
+      "category": "CN口语-手点"
+    },
+    {
+      "query": "球形点",
+      "expectedIds": [
+        "kp-sloper-hold"
+      ],
+      "category": "CN口语-手点"
+    },
+    {
+      "query": "大点",
+      "expectedIds": [
+        "kp-jug-hold"
+      ],
+      "category": "CN口语-手点"
+    },
+    {
+      "query": "小点",
+      "expectedIds": [
+        "kp-full-crimp",
+        "kp-half-crimp",
+        "kp-open-hand-grip"
+      ],
+      "category": "CN口语-手点"
+    },
+    {
+      "query": "勾脚",
+      "expectedIds": [
+        "kp-toe-hook",
+        "kp-heel-hook"
+      ],
+      "category": "CN口语-脚法"
+    },
+    {
+      "query": "挂脚",
+      "expectedIds": [
+        "kp-toe-hook",
+        "kp-heel-hook"
+      ],
+      "category": "CN口语-脚法"
+    },
+    {
+      "query": "踩点",
+      "expectedIds": [
+        "kp-edging",
+        "kp-smearing"
+      ],
+      "category": "CN口语-脚法"
+    },
+    {
+      "query": "GriGri",
+      "expectedIds": [
+        "kp-belay-device"
+      ],
+      "category": "CN口语-装备"
+    },
+    {
+      "query": "ATC",
+      "expectedIds": [
+        "kp-belay-device"
+      ],
+      "category": "CN口语-装备"
+    },
+    {
+      "query": "粉袋",
+      "expectedIds": [
+        "kp-chalk"
+      ],
+      "category": "CN口语-装备"
+    },
+    {
+      "query": "8字结",
+      "expectedIds": [
+        "kp-knots"
+      ],
+      "category": "CN口语-绳结"
+    },
+    {
+      "query": "打结",
+      "expectedIds": [
+        "kp-knots"
+      ],
+      "category": "CN口语-绳结"
+    },
+    {
+      "query": "冲顶",
+      "expectedIds": [
+        "kp-high-step-mantle",
+        "kp-arete-mantle"
+      ],
+      "category": "CN口语-动作"
+    },
+    {
+      "query": "飞",
+      "expectedIds": [
+        "kp-dyno-technique",
+        "kp-dynamic-movement"
+      ],
+      "category": "CN口语-动作"
+    },
+    {
+      "query": "跳跃",
+      "expectedIds": [
+        "kp-dyno-technique",
+        "kp-lunge-types"
+      ],
+      "category": "CN口语-动作"
+    },
+    {
+      "query": "弹跳",
+      "expectedIds": [
+        "kp-dynamic-movement",
+        "kp-dyno-technique",
+        "kp-deadpoint"
+      ],
+      "category": "CN口语-动作"
+    },
+    {
+      "query": "扭身",
+      "expectedIds": [
+        "kp-twist-lock"
+      ],
+      "category": "CN口语-身体技术"
+    },
+    {
+      "query": "侧身",
+      "expectedIds": [
+        "kp-twist-lock",
+        "kp-layback",
+        "kp-back-step"
+      ],
+      "category": "CN口语-身体技术"
+    },
+    {
+      "query": "怎么选鞋",
+      "expectedIds": [
+        "kp-climbing-shoes"
+      ],
+      "category": "CN口语-装备"
+    },
+    {
+      "query": "买什么鞋",
+      "expectedIds": [
+        "kp-climbing-shoes"
+      ],
+      "category": "CN口语-装备"
+    },
+    {
+      "query": "抱石垫",
+      "expectedIds": [
+        "kp-crash-pad"
+      ],
+      "category": "CN口语-抱石"
+    },
+    {
+      "query": "怎么落地",
+      "expectedIds": [
+        "kp-landing-position",
+        "kp-bouldering-fall"
+      ],
+      "category": "CN口语-抱石"
+    },
+    {
+      "query": "石灰岩",
+      "expectedIds": [
+        "kp-rock-types"
+      ],
+      "category": "CN口语-岩石"
+    },
+    {
+      "query": "花岗岩",
+      "expectedIds": [
+        "kp-rock-types"
+      ],
+      "category": "CN口语-岩石"
+    },
+    {
+      "query": "月亮板",
+      "expectedIds": [
+        "kp-system-wall"
+      ],
+      "category": "CN口语-训练器械"
+    },
+    {
+      "query": "kilter",
+      "expectedIds": [
+        "kp-system-wall"
+      ],
+      "category": "CN口语-训练器械"
+    },
+    {
+      "query": "MoonBoard",
+      "expectedIds": [
+        "kp-system-wall"
+      ],
+      "category": "CN口语-训练器械"
+    },
+    {
+      "query": "吊环",
+      "expectedIds": [
+        "kp-gymnastic-rings"
+      ],
+      "category": "CN口语-训练器械"
+    },
+    {
+      "query": "蹭墙",
+      "expectedIds": [
+        "kp-smearing"
+      ],
+      "category": "CN口语-脚法"
+    },
+    {
+      "query": "没脚点",
+      "expectedIds": [
+        "kp-smearing",
+        "kp-slab-technique"
+      ],
+      "category": "CN口语-脚法"
+    },
+    {
+      "query": "光板",
+      "expectedIds": [
+        "kp-slab-technique",
+        "kp-smearing"
+      ],
+      "category": "CN口语-地形"
+    },
+    {
+      "query": "倒挂",
+      "expectedIds": [
+        "kp-overhang-technique",
+        "kp-roof-technique"
+      ],
+      "category": "CN口语-地形"
+    },
+    {
+      "query": "搭站",
+      "expectedIds": [
+        "kp-anchor-building"
+      ],
+      "category": "CN口语-多段"
+    },
+    {
+      "query": "换站",
+      "expectedIds": [
+        "kp-multi-pitch",
+        "kp-anchor-building"
+      ],
+      "category": "CN口语-多段"
+    },
+    {
+      "query": "几段路线",
+      "expectedIds": [
+        "kp-multi-pitch"
+      ],
+      "category": "CN口语-多段"
+    },
+    {
+      "query": "拖包",
+      "expectedIds": [
+        "kp-haul-bag"
+      ],
+      "category": "CN口语-大岩壁"
+    },
+    {
+      "query": "上升器",
+      "expectedIds": [
+        "kp-ascender"
+      ],
+      "category": "CN口语-大岩壁"
+    },
+    {
+      "query": "岩壁帐篷",
+      "expectedIds": [
+        "kp-portaledge"
+      ],
+      "category": "CN口语-大岩壁"
+    },
+    {
+      "query": "优胜美地",
+      "expectedIds": [
+        "kp-classic-destinations",
+        "kp-climbing-origins"
+      ],
+      "category": "CN口语-目的地"
+    },
+    {
+      "query": "枫丹白露",
+      "expectedIds": [
+        "kp-classic-destinations"
+      ],
+      "category": "CN口语-目的地"
+    },
+    {
+      "query": "减脂",
+      "expectedIds": [
+        "kp-weight-management"
+      ],
+      "category": "CN口语-营养"
+    },
+    {
+      "query": "体脂",
+      "expectedIds": [
+        "kp-weight-management"
+      ],
+      "category": "CN口语-营养"
+    },
+    {
+      "query": "蛋白质",
+      "expectedIds": [
+        "kp-climber-nutrition"
+      ],
+      "category": "CN口语-营养"
+    },
+    {
+      "query": "补水",
+      "expectedIds": [
+        "kp-hydration"
+      ],
+      "category": "CN口语-营养"
+    },
+    {
+      "query": "骨骺",
+      "expectedIds": [
+        "kp-growth-plate-concerns"
+      ],
+      "category": "CN口语-青少年"
+    },
+    {
+      "query": "青少年训练",
+      "expectedIds": [
+        "kp-youth-training-load",
+        "kp-youth-competition",
+        "kp-growth-plate-concerns"
+      ],
+      "category": "CN口语-青少年"
+    },
+    {
+      "query": "带孩子攀岩",
+      "expectedIds": [
+        "kp-kids-development",
+        "kp-kids-safety",
+        "kp-kids-fun-approach"
+      ],
+      "category": "CN口语-亲子"
+    },
+    {
+      "query": "中老年",
+      "expectedIds": [
+        "kp-elderly-benefits",
+        "kp-elderly-injury-prevention",
+        "kp-elderly-training-adjustments"
+      ],
+      "category": "CN口语-中老年"
+    },
+    {
+      "query": "岩馆怎么玩",
+      "expectedIds": [
+        "kp-gym-etiquette",
+        "kp-climbing-categories"
+      ],
+      "category": "CN口语-新手"
+    },
+    {
+      "query": "第一次攀岩",
+      "expectedIds": [
+        "kp-climbing-categories",
+        "kp-gym-etiquette",
+        "kp-climbing-shoes",
+        "kp-bouldering-fall"
+      ],
+      "category": "CN口语-新手"
+    },
+    {
+      "query": "零基础",
+      "expectedIds": [
+        "kp-climbing-categories",
+        "kp-climbing-shoes",
+        "kp-gym-etiquette"
+      ],
+      "category": "CN口语-新手"
+    },
+    {
+      "query": "怎么进步",
+      "expectedIds": [
+        "kp-plateau-breaking",
+        "kp-goal-setting",
+        "kp-periodization"
+      ],
+      "category": "CN口语-进阶"
+    },
+    {
+      "query": "不进步",
+      "expectedIds": [
+        "kp-plateau-breaking"
+      ],
+      "category": "CN口语-进阶"
+    },
+    {
+      "query": "卡住了",
+      "expectedIds": [
+        "kp-plateau-breaking"
+      ],
+      "category": "CN口语-进阶"
+    },
+    {
+      "query": "IFSC",
+      "expectedIds": [
+        "kp-ifsc"
+      ],
+      "category": "CN口语-组织"
+    },
+    {
+      "query": "世界杯",
+      "expectedIds": [
+        "kp-ifsc",
+        "kp-competition-circuit-rankings"
+      ],
+      "category": "CN口语-赛事"
+    },
+    {
+      "query": "赛前紧张",
+      "expectedIds": [
+        "kp-competition-anxiety",
+        "kp-peaking"
+      ],
+      "category": "CN口语-竞技心理"
+    },
+    {
+      "query": "想象训练",
+      "expectedIds": [
+        "kp-pressure-visualization"
+      ],
+      "category": "CN口语-竞技心理"
+    },
+    {
+      "query": "模拟赛",
+      "expectedIds": [
+        "kp-comp-simulation"
+      ],
+      "category": "CN口语-竞技训练"
+    },
+    {
+      "query": "备赛",
+      "expectedIds": [
+        "kp-comp-specific-training",
+        "kp-peaking"
+      ],
+      "category": "CN口语-竞技训练"
+    },
+    {
+      "query": "隔离区",
+      "expectedIds": [
+        "kp-isolation-zone"
+      ],
+      "category": "CN口语-竞技流程"
+    },
+    {
+      "query": "红点",
+      "expectedIds": [
+        "kp-onsight-flash-redpoint"
+      ],
+      "category": "CN口语-攀登风格"
+    },
+    {
+      "query": "闪攀",
+      "expectedIds": [
+        "kp-onsight-flash-redpoint"
+      ],
+      "category": "CN口语-攀登风格"
+    }
+  ]
+}

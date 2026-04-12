@@ -36,6 +36,10 @@ function getImagePath(quest, tier) {
   return `/images/quests/${t}/${quest.image.replace('{tier}', t)}`
 }
 
+function getThumbPath(quest) {
+  return `/images/quests/thumb/${quest.image.replace('{tier}', 'stone')}`
+}
+
 function getRankLabel(times) {
   if (times === 0) return { label: '石', v: 0, tier: 'stone' }
   let tier = 'stone', tierV = 1
@@ -138,7 +142,7 @@ function SlotMachine({ finalQuest, onSettled }) {
         phase === 'done' ? 'border-gold/60 shadow-[0_0_30px_rgba(200,149,108,0.3)]' : 'border-stone-border'
       }`}>
         <img
-          src={getImagePath(quest, 'stone')}
+          src={phase === 'done' ? getImagePath(quest, 'stone') : getThumbPath(quest)}
           alt=""
           className={`w-full h-full object-cover transition-all ${
             phase === 'fast' ? 'scale-105' : phase === 'done' ? 'scale-100' : 'scale-102'

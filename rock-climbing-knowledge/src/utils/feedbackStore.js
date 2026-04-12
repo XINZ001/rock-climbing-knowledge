@@ -29,6 +29,6 @@ export function clearAllFeedback() {
 }
 
 export function extractImageId(src) {
-  const match = src.match(/\/(kp-[^/]+)\.png$/)
+  const match = src.match(/\/(kp-[^/]+)\.webp$/)
   return match ? match[1] : src
 }

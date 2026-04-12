@@ -2,7 +2,7 @@ import { useApp } from '../../context/AppContext'
 
 export default function IllustrationEmbed({ kpId, caption }) {
   const { t } = useApp()
-  const src = `/images/illustrations/${kpId}.png`
+  const src = `/images/illustrations/${kpId}.webp`
 
   return (
     <figure className="my-6">

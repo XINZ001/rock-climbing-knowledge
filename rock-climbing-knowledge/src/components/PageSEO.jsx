@@ -21,7 +21,7 @@ const DEFAULTS = {
   }
 }
 
-const DEFAULT_IMAGE = `${BASE_URL}/images/og-cover.png`
+const DEFAULT_IMAGE = `${BASE_URL}/images/og-cover.webp`
 
 export default function PageSEO({ title, description, path, image }) {
   const { lang } = useApp()

@@ -1,37 +1,47 @@
 {
   "references": {
-    "kp-grip-types": {
+    "kp-4x4-training": {
       "sectionId": "section-02",
-      "subSectionSlug": "finger-strength",
+      "subSectionSlug": "endurance",
       "sectionSlug": "physical",
       "title": {
-        "zh": "握姿类型",
-        "en": "Grip Types",
-        "ko": "그립 타입"
+        "zh": "4x4训练法",
+        "en": "4x4 Training",
+        "ko": "4x4 훈련"
       },
-      "path": "/section/physical/finger-strength"
+      "path": "/section/physical/endurance"
     },
-    "kp-hangboard-training": {
-      "sectionId": "section-02",
-      "subSectionSlug": "finger-strength",
-      "sectionSlug": "physical",
+    "kp-action-reaction": {
+      "sectionId": "section-03",
+      "subSectionSlug": "movement-principles",
+      "sectionSlug": "technique",
       "title": {
-        "zh": "指力板训练",
-        "en": "Hangboard Training",
-        "ko": "핑거보드 훈련"
+        "zh": "作用力与反作用力：理解50%攀岩动作的核心",
+        "en": "Action and Reaction: The Foundation of Opposition Climbing",
+        "ko": "작용력과 반작용력: 대항 클라이밍의 기초"
       },
-      "path": "/section/physical/finger-strength"
+      "path": "/section/technique/movement-principles#kp-action-reaction"
     },
-    "kp-finger-assessment": {
-      "sectionId": "section-02",
-      "subSectionSlug": "finger-strength",
-      "sectionSlug": "physical",
-      "title": {
-        "zh": "手指力量评估",
-        "en": "Finger Strength Assessment",
-        "ko": "손가락 근력 평가"
-      },
-      "path": "/section/physical/finger-strength"
+    "kp-adaptive-equipment": {
+      "sectionId": "section-09",
+      "subSectionSlug": "adaptive",
+      "sectionSlug": "special",
+      "title": "装备改造",
+      "path": "/special/adaptive#kp-adaptive-equipment"
+    },
+    "kp-adaptive-organizations": {
+      "sectionId": "section-09",
+      "subSectionSlug": "adaptive",
+      "sectionSlug": "special",
+      "title": "组织与包容性攀岩",
+      "path": "/special/adaptive#kp-adaptive-organizations"
+    },
+    "kp-adaptive-types": {
+      "sectionId": "section-09",
+      "subSectionSlug": "adaptive",
+      "sectionSlug": "special",
+      "title": "适应性攀岩类型",
+      "path": "/special/adaptive#kp-adaptive-types"
     },
     "kp-advanced-finger": {
       "sectionId": "section-02",
@@ -44,38 +54,393 @@
       },
       "path": "/section/physical/finger-strength"
     },
-    "kp-pulling-power": {
-      "sectionId": "section-02",
-      "subSectionSlug": "upper-body",
-      "sectionSlug": "physical",
-      "title": {
-        "zh": "拉力训练",
-        "en": "Pulling Power",
-        "ko": "당기기 근력"
-      },
-      "path": "/section/physical/upper-body"
+    "kp-aid-climbing": {
+      "sectionId": "section-08",
+      "subSectionSlug": "big-wall",
+      "sectionSlug": "outdoor",
+      "title": "器械攀登",
+      "path": "/outdoor/big-wall#kp-aid-climbing"
     },
-    "kp-pushing-power": {
-      "sectionId": "section-02",
-      "subSectionSlug": "upper-body",
-      "sectionSlug": "physical",
-      "title": {
-        "zh": "推力训练",
-        "en": "Pushing Power",
-        "ko": "밀기 근력"
-      },
-      "path": "/section/physical/upper-body"
+    "kp-anchor-building": {
+      "sectionId": "section-08",
+      "subSectionSlug": "trad-climbing",
+      "sectionSlug": "outdoor",
+      "title": "锚点搭建",
+      "path": "/outdoor/trad-climbing#kp-anchor-building"
     },
-    "kp-shoulder-stability": {
+    "kp-antagonist-training": {
+      "sectionId": "section-07",
+      "subSectionSlug": "prevention",
+      "sectionSlug": "injury",
+      "title": {
+        "zh": "拮抗肌训练",
+        "en": "Antagonist Training",
+        "ko": "길항근 훈련"
+      },
+      "path": "/section/injury/prevention"
+    },
+    "kp-anti-rotation": {
       "sectionId": "section-02",
-      "subSectionSlug": "upper-body",
+      "subSectionSlug": "core",
       "sectionSlug": "physical",
       "title": {
-        "zh": "肩部稳定性",
-        "en": "Shoulder Stability",
-        "ko": "어깨 안정성"
+        "zh": "抗旋转训练",
+        "en": "Anti-Rotation Training",
+        "ko": "항회전 훈련"
       },
-      "path": "/section/physical/upper-body"
+      "path": "/section/physical/core"
+    },
+    "kp-arc-training": {
+      "sectionId": "section-02",
+      "subSectionSlug": "endurance",
+      "sectionSlug": "physical",
+      "title": {
+        "zh": "ARC训练法",
+        "en": "ARC Training",
+        "ko": "ARC 훈련"
+      },
+      "path": "/section/physical/endurance"
+    },
+    "kp-area-exploration": {
+      "sectionId": "section-08",
+      "subSectionSlug": "bouldering",
+      "sectionSlug": "outdoor",
+      "title": "岩区探索",
+      "path": "/outdoor/bouldering#kp-area-exploration"
+    },
+    "kp-arete-mantle": {
+      "sectionId": "section-03",
+      "subSectionSlug": "terrain",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "棱角与翻越技术",
+        "en": "Arete & Mantle Techniques",
+        "ko": "아레트(Arête)"
+      },
+      "path": "/section/technique/terrain#kp-arete-mantle"
+    },
+    "kp-ascender": {
+      "sectionId": "section-05",
+      "subSectionSlug": "bigwall-gear",
+      "sectionSlug": "gear",
+      "title": "上升器",
+      "path": "/gear/bigwall-gear#kp-ascender"
+    },
+    "kp-attention-management": {
+      "sectionId": "section-04",
+      "subSectionSlug": "focus",
+      "sectionSlug": "mental",
+      "title": "注意力管理",
+      "path": "/mental/focus#kp-attention-management"
+    },
+    "kp-back-step": {
+      "sectionId": "section-03",
+      "subSectionSlug": "body-positioning",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "背步（Back Step）",
+        "en": "Back Step",
+        "ko": "백스텝(Back Step)"
+      },
+      "path": "/section/technique/body-positioning#kp-back-step"
+    },
+    "kp-basic-rescue": {
+      "sectionId": "section-06",
+      "subSectionSlug": "rope-skills",
+      "sectionSlug": "safety",
+      "title": "基础救援",
+      "path": "/safety/rope-skills#kp-basic-rescue"
+    },
+    "kp-belay-device": {
+      "sectionId": "section-05",
+      "subSectionSlug": "protection",
+      "sectionSlug": "gear",
+      "title": {
+        "zh": "保护器",
+        "en": "Belay Device",
+        "ko": "빌레이 디바이스"
+      },
+      "path": "/section/gear/protection"
+    },
+    "kp-belaying": {
+      "sectionId": "section-06",
+      "subSectionSlug": "rope-skills",
+      "sectionSlug": "safety",
+      "title": {
+        "zh": "保护技术",
+        "en": "Belaying",
+        "ko": "빌레이"
+      },
+      "path": "/section/safety/rope-skills"
+    },
+    "kp-beta-memory": {
+      "sectionId": "section-03",
+      "subSectionSlug": "route-reading",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "Beta记忆与身体记忆训练",
+        "en": "Beta Memory and Muscle Memory Training",
+        "ko": "베타 메모리 및 근육 메모리 훈련"
+      },
+      "path": "/section/technique/route-reading#kp-beta-memory"
+    },
+    "kp-bicycle": {
+      "sectionId": "section-03",
+      "subSectionSlug": "footwork",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "自行车技术（Bicycle）",
+        "en": "Bicycle Technique",
+        "ko": "자전거(Bicycle)"
+      },
+      "path": "/section/technique/footwork#kp-bicycle"
+    },
+    "kp-bigwall-planning": {
+      "sectionId": "section-08",
+      "subSectionSlug": "big-wall",
+      "sectionSlug": "outdoor",
+      "title": "大岩壁规划与后勤",
+      "path": "/outdoor/big-wall#kp-bigwall-planning"
+    },
+    "kp-boulder-competition": {
+      "sectionId": "section-10",
+      "subSectionSlug": "formats",
+      "sectionSlug": "competition",
+      "title": "抱石赛形式",
+      "path": "/competition/formats#kp-boulder-competition"
+    },
+    "kp-bouldering-fall": {
+      "sectionId": "section-06",
+      "subSectionSlug": "indoor",
+      "sectionSlug": "safety",
+      "title": "抱石坠落技巧",
+      "path": "/safety/indoor#kp-bouldering-fall"
+    },
+    "kp-campus-board-gear": {
+      "sectionId": "section-05",
+      "subSectionSlug": "training-gear",
+      "sectionSlug": "gear",
+      "title": {
+        "zh": "校园板",
+        "en": "Campus Board",
+        "ko": "캠퍼스 보드"
+      },
+      "path": "/section/gear/training-gear"
+    },
+    "kp-campus-moves": {
+      "sectionId": "section-03",
+      "subSectionSlug": "dynamic",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "指力跳与无脚动态（Campus Moves）",
+        "en": "Campus Moves",
+        "ko": "캠퍼스 무브"
+      },
+      "path": "/section/technique/dynamic#kp-campus-moves"
+    },
+    "kp-campus-training": {
+      "sectionId": "section-02",
+      "subSectionSlug": "power",
+      "sectionSlug": "physical",
+      "title": {
+        "zh": "校园板训练",
+        "en": "Campus Board Training",
+        "ko": "캠퍼스 훈련"
+      },
+      "path": "/section/physical/power"
+    },
+    "kp-cams": {
+      "sectionId": "section-05",
+      "subSectionSlug": "trad-gear",
+      "sectionSlug": "gear",
+      "title": "凸轮装置（机械塞）",
+      "path": "/gear/trad-gear#kp-cams"
+    },
+    "kp-chalk": {
+      "sectionId": "section-05",
+      "subSectionSlug": "basic-gear",
+      "sectionSlug": "gear",
+      "title": {
+        "zh": "镁粉",
+        "en": "Chalk",
+        "ko": "초크"
+      },
+      "path": "/section/gear/basic-gear"
+    },
+    "kp-classic-destinations": {
+      "sectionId": "section-08",
+      "subSectionSlug": "travel",
+      "sectionSlug": "outdoor",
+      "title": "世界经典攀岩目的地",
+      "path": "/outdoor/travel#kp-classic-destinations"
+    },
+    "kp-claw-hook-grip": {
+      "sectionId": "section-03",
+      "subSectionSlug": "handholds",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "勾爪扣",
+        "en": "Claw / Hook Grip",
+        "ko": "발톱 갈고리 그립"
+      },
+      "path": "/section/technique/handholds#kp-claw-hook-grip"
+    },
+    "kp-climber-nutrition": {
+      "sectionId": "section-07",
+      "subSectionSlug": "nutrition",
+      "sectionSlug": "injury",
+      "title": "攀岩者的营养需求",
+      "path": "/injury/nutrition#kp-climber-nutrition"
+    },
+    "kp-climbing-categories": {
+      "sectionId": "section-01",
+      "subSectionSlug": "categories",
+      "sectionSlug": "overview",
+      "title": "主要攀岩类型",
+      "path": "/overview/categories#kp-climbing-categories"
+    },
+    "kp-climbing-clothing": {
+      "sectionId": "section-05",
+      "subSectionSlug": "basic-gear",
+      "sectionSlug": "gear",
+      "title": "攀岩服装",
+      "path": "/gear/basic-gear#kp-climbing-clothing"
+    },
+    "kp-climbing-ethics": {
+      "sectionId": "section-01",
+      "subSectionSlug": "culture",
+      "sectionSlug": "overview",
+      "title": "攀岩伦理",
+      "path": "/overview/culture#kp-climbing-ethics"
+    },
+    "kp-climbing-origins": {
+      "sectionId": "section-01",
+      "subSectionSlug": "history",
+      "sectionSlug": "overview",
+      "title": "攀岩的起源",
+      "path": "/overview/history#kp-climbing-origins"
+    },
+    "kp-climbing-physics-basics": {
+      "sectionId": "section-03",
+      "subSectionSlug": "movement-principles",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "攀岩中的力学基础",
+        "en": "Fundamental Physics in Climbing",
+        "ko": "클라이밍의 기본 물리학"
+      },
+      "path": "/section/technique/movement-principles#kp-climbing-physics-basics"
+    },
+    "kp-climbing-posture": {
+      "sectionId": "section-03",
+      "subSectionSlug": "body-positioning",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "攀爬姿态与效率",
+        "en": "Climbing Posture & Efficiency",
+        "ko": "클라이밍 자세와 효율성"
+      },
+      "path": "/section/technique/body-positioning#kp-climbing-posture"
+    },
+    "kp-climbing-shoes": {
+      "sectionId": "section-05",
+      "subSectionSlug": "basic-gear",
+      "sectionSlug": "gear",
+      "title": {
+        "zh": "攀岩鞋",
+        "en": "Climbing Shoes",
+        "ko": "클라이밍 슈즈"
+      },
+      "path": "/section/gear/basic-gear"
+    },
+    "kp-clipping-technique": {
+      "sectionId": "section-08",
+      "subSectionSlug": "sport-climbing",
+      "sectionSlug": "outdoor",
+      "title": "挂片技术",
+      "path": "/outdoor/sport-climbing#kp-clipping-technique"
+    },
+    "kp-cog-movement": {
+      "sectionId": "section-03",
+      "subSectionSlug": "body-positioning",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "重心移动技术（Weight Shifting Techniques）",
+        "en": "Weight Shifting Techniques",
+        "ko": "무게중심 이동 기술"
+      },
+      "path": "/section/technique/body-positioning#kp-cog-movement"
+    },
+    "kp-cog-principles": {
+      "sectionId": "section-03",
+      "subSectionSlug": "body-positioning",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "重心原理（Center of Gravity Principles）",
+        "en": "Center of Gravity Principles",
+        "ko": "무게중심 원리"
+      },
+      "path": "/section/technique/body-positioning#kp-cog-principles"
+    },
+    "kp-combined-olympic": {
+      "sectionId": "section-10",
+      "subSectionSlug": "formats",
+      "sectionSlug": "competition",
+      "title": "全能赛与奥运形式",
+      "path": "/competition/formats#kp-combined-olympic"
+    },
+    "kp-community-media": {
+      "sectionId": "section-01",
+      "subSectionSlug": "culture",
+      "sectionSlug": "overview",
+      "title": "社区与媒体",
+      "path": "/overview/culture#kp-community-media"
+    },
+    "kp-comp-simulation": {
+      "sectionId": "section-10",
+      "subSectionSlug": "training",
+      "sectionSlug": "competition",
+      "title": "模拟比赛训练",
+      "path": "/competition/training#kp-comp-simulation"
+    },
+    "kp-comp-specific-training": {
+      "sectionId": "section-10",
+      "subSectionSlug": "training",
+      "sectionSlug": "competition",
+      "title": "比赛专项训练",
+      "path": "/competition/training#kp-comp-specific-training"
+    },
+    "kp-competition-anxiety": {
+      "sectionId": "section-10",
+      "subSectionSlug": "psychology",
+      "sectionSlug": "competition",
+      "title": "竞赛焦虑管理",
+      "path": "/competition/psychology#kp-competition-anxiety"
+    },
+    "kp-competition-circuit-rankings": {
+      "sectionId": "section-10",
+      "subSectionSlug": "organizations",
+      "sectionSlug": "competition",
+      "title": "赛事巡回与排名系统",
+      "path": "/competition/organizations#kp-competition-circuit-rankings"
+    },
+    "kp-competition-psychology": {
+      "sectionId": "section-04",
+      "subSectionSlug": "focus",
+      "sectionSlug": "mental",
+      "title": "竞技心理",
+      "path": "/mental/focus#kp-competition-psychology"
+    },
+    "kp-coordination-timing": {
+      "sectionId": "section-03",
+      "subSectionSlug": "dynamic",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "协调动作与节奏",
+        "en": "Coordination Moves & Timing",
+        "ko": "조율과 타이밍"
+      },
+      "path": "/section/technique/dynamic#kp-coordination-timing"
     },
     "kp-core-role": {
       "sectionId": "section-02",
@@ -99,984 +464,12 @@
       },
       "path": "/section/physical/core"
     },
-    "kp-anti-rotation": {
-      "sectionId": "section-02",
-      "subSectionSlug": "core",
-      "sectionSlug": "physical",
-      "title": {
-        "zh": "抗旋转训练",
-        "en": "Anti-Rotation Training",
-        "ko": "항회전 훈련"
-      },
-      "path": "/section/physical/core"
-    },
-    "kp-hip-flexibility": {
-      "sectionId": "section-02",
-      "subSectionSlug": "flexibility",
-      "sectionSlug": "physical",
-      "title": {
-        "zh": "髋部柔韧性",
-        "en": "Hip Flexibility",
-        "ko": "고관절 유연성"
-      },
-      "path": "/section/physical/flexibility"
-    },
-    "kp-shoulder-mobility": {
-      "sectionId": "section-02",
-      "subSectionSlug": "flexibility",
-      "sectionSlug": "physical",
-      "title": {
-        "zh": "肩部灵活性",
-        "en": "Shoulder Mobility",
-        "ko": "어깨 가동성"
-      },
-      "path": "/section/physical/flexibility"
-    },
-    "kp-stretching": {
-      "sectionId": "section-02",
-      "subSectionSlug": "flexibility",
-      "sectionSlug": "physical",
-      "title": {
-        "zh": "拉伸训练",
-        "en": "Stretching",
-        "ko": "스트레칭"
-      },
-      "path": "/section/physical/flexibility"
-    },
-    "kp-aerobic-endurance": {
-      "sectionId": "section-02",
-      "subSectionSlug": "endurance",
-      "sectionSlug": "physical",
-      "title": {
-        "zh": "有氧耐力",
-        "en": "Aerobic Endurance",
-        "ko": "유산소 지구력"
-      },
-      "path": "/section/physical/endurance"
-    },
-    "kp-arc-training": {
-      "sectionId": "section-02",
-      "subSectionSlug": "endurance",
-      "sectionSlug": "physical",
-      "title": {
-        "zh": "ARC训练法",
-        "en": "ARC Training",
-        "ko": "ARC 훈련"
-      },
-      "path": "/section/physical/endurance"
-    },
-    "kp-4x4-training": {
-      "sectionId": "section-02",
-      "subSectionSlug": "endurance",
-      "sectionSlug": "physical",
-      "title": {
-        "zh": "4x4训练法",
-        "en": "4x4 Training",
-        "ko": "4x4 훈련"
-      },
-      "path": "/section/physical/endurance"
-    },
-    "kp-route-endurance": {
-      "sectionId": "section-02",
-      "subSectionSlug": "endurance",
-      "sectionSlug": "physical",
-      "title": {
-        "zh": "线路耐力",
-        "en": "Route Endurance",
-        "ko": "루트 지구력"
-      },
-      "path": "/section/physical/endurance"
-    },
-    "kp-campus-training": {
-      "sectionId": "section-02",
-      "subSectionSlug": "power",
-      "sectionSlug": "physical",
-      "title": {
-        "zh": "校园板训练",
-        "en": "Campus Board Training",
-        "ko": "캠퍼스 훈련"
-      },
-      "path": "/section/physical/power"
-    },
-    "kp-dynamic-power": {
-      "sectionId": "section-02",
-      "subSectionSlug": "power",
-      "sectionSlug": "physical",
-      "title": {
-        "zh": "动态爆发力",
-        "en": "Dynamic Power",
-        "ko": "동적 폭발력"
-      },
-      "path": "/section/physical/power"
-    },
-    "kp-coordination": {
-      "sectionId": "section-02",
-      "subSectionSlug": "power",
-      "sectionSlug": "physical",
-      "title": {
-        "zh": "协调性训练",
-        "en": "Coordination Training",
-        "ko": "협응 훈련"
-      },
-      "path": "/section/physical/power"
-    },
-    "kp-edging": {
-      "sectionId": "section-03",
-      "subSectionSlug": "footwork",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "边踩（Edging）",
-        "en": "Edging",
-        "ko": "에징(Edging)"
-      },
-      "path": "/section/technique/footwork#kp-edging"
-    },
-    "kp-smearing": {
-      "sectionId": "section-03",
-      "subSectionSlug": "footwork",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "摩擦踩（Smearing）",
-        "en": "Smearing",
-        "ko": "스미어링(Smearing)"
-      },
-      "path": "/section/technique/footwork#kp-smearing"
-    },
-    "kp-toe-hook": {
-      "sectionId": "section-03",
-      "subSectionSlug": "footwork",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "勾脚尖（Toe Hook）",
-        "en": "Toe Hook",
-        "ko": "토우 훅(Toe Hook)"
-      },
-      "path": "/section/technique/footwork#kp-toe-hook"
-    },
-    "kp-heel-hook": {
-      "sectionId": "section-03",
-      "subSectionSlug": "footwork",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "勾脚跟（Heel Hook）",
-        "en": "Heel Hook",
-        "ko": "힐 훅(Heel Hook)"
-      },
-      "path": "/section/technique/footwork#kp-heel-hook"
-    },
-    "kp-sloper-hold": {
-      "sectionId": "section-03",
-      "subSectionSlug": "handholds",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "圆点（Sloper）",
-        "en": "Sloper Holds",
-        "ko": "슬로퍼 홀드(Sloper Hold)"
-      },
-      "path": "/section/technique/handholds#kp-sloper-hold"
-    },
-    "kp-pinch-hold": {
-      "sectionId": "section-03",
-      "subSectionSlug": "handholds",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "捏点（Pinch）",
-        "en": "Pinch Holds",
-        "ko": "핀치 홀드(Pinch Hold)"
-      },
-      "path": "/section/technique/handholds#kp-pinch-hold"
-    },
-    "kp-pocket-hold": {
-      "sectionId": "section-03",
-      "subSectionSlug": "handholds",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "指洞（Pocket）",
-        "en": "Pocket Holds",
-        "ko": "포켓 홀드(Pocket Hold)"
-      },
-      "path": "/section/technique/handholds#kp-pocket-hold"
-    },
-    "kp-flagging": {
-      "sectionId": "section-03",
-      "subSectionSlug": "body-positioning",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "旗帜步（Flagging）",
-        "en": "Flagging",
-        "ko": "플래깅(Flagging)"
-      },
-      "path": "/section/technique/body-positioning#kp-flagging"
-    },
-    "kp-drop-knee": {
-      "sectionId": "section-03",
-      "subSectionSlug": "body-positioning",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "落膝（Drop Knee）",
-        "en": "Drop Knee",
-        "ko": "드롭니(Drop Knee)"
-      },
-      "path": "/section/technique/body-positioning#kp-drop-knee"
-    },
-    "kp-twist-lock": {
-      "sectionId": "section-03",
-      "subSectionSlug": "body-positioning",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "扭锁（Twist Lock）",
-        "en": "Twist Lock",
-        "ko": "트위스트 락(Twist Lock)"
-      },
-      "path": "/section/technique/body-positioning#kp-twist-lock"
-    },
-    "kp-dyno-technique": {
-      "sectionId": "section-03",
-      "subSectionSlug": "dynamic",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "飞跃（Dyno）",
-        "en": "Dyno",
-        "ko": "다이노 기술"
-      },
-      "path": "/section/technique/dynamic#kp-dyno-technique"
-    },
-    "kp-deadpoint": {
-      "sectionId": "section-03",
-      "subSectionSlug": "dynamic",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "死点（Deadpoint）",
-        "en": "Deadpoint",
-        "ko": "데드포인트"
-      },
-      "path": "/section/technique/dynamic#kp-deadpoint"
-    },
-    "kp-slab-technique": {
-      "sectionId": "section-03",
-      "subSectionSlug": "terrain",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "板岩技术（Slab）",
-        "en": "Slab Technique",
-        "ko": "슬랩 등반"
-      },
-      "path": "/section/technique/terrain#kp-slab-technique"
-    },
-    "kp-overhang-technique": {
-      "sectionId": "section-03",
-      "subSectionSlug": "terrain",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "仰角技术（Overhang）",
-        "en": "Overhang Technique",
-        "ko": "오버행"
-      },
-      "path": "/section/technique/terrain#kp-overhang-technique"
-    },
-    "kp-roof-technique": {
-      "sectionId": "section-03",
-      "subSectionSlug": "terrain",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "屋檐技术（Roof）",
-        "en": "Roof Technique",
-        "ko": "루프(Roof)"
-      },
-      "path": "/section/technique/terrain#kp-roof-technique"
-    },
-    "kp-route-reading-basics": {
-      "sectionId": "section-03",
-      "subSectionSlug": "route-reading",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "路线阅读基础",
-        "en": "Route Reading Fundamentals",
-        "ko": "루트 읽기의 기초"
-      },
-      "path": "/section/technique/route-reading#kp-route-reading-basics"
-    },
-    "kp-fall-technique": {
-      "sectionId": "section-06",
-      "subSectionSlug": "indoor",
-      "sectionSlug": "safety",
-      "title": {
-        "zh": "落地技术",
-        "en": "Fall Technique",
-        "ko": "낙하 기술"
-      },
-      "path": "/section/safety/indoor"
-    },
-    "kp-belaying": {
-      "sectionId": "section-06",
-      "subSectionSlug": "rope-skills",
-      "sectionSlug": "safety",
-      "title": {
-        "zh": "保护技术",
-        "en": "Belaying",
-        "ko": "빌레이"
-      },
-      "path": "/section/safety/rope-skills"
-    },
-    "kp-knots": {
-      "sectionId": "section-06",
-      "subSectionSlug": "rope-skills",
-      "sectionSlug": "safety",
-      "title": {
-        "zh": "绳结技术",
-        "en": "Knots",
-        "ko": "매듭"
-      },
-      "path": "/section/safety/rope-skills"
-    },
-    "kp-rappelling": {
-      "sectionId": "section-06",
-      "subSectionSlug": "rope-skills",
-      "sectionSlug": "safety",
-      "title": {
-        "zh": "下降技术",
-        "en": "Rappelling",
-        "ko": "하강"
-      },
-      "path": "/section/safety/rope-skills"
-    },
-    "kp-pulley-injury": {
-      "sectionId": "section-07",
-      "subSectionSlug": "common-injuries",
-      "sectionSlug": "injury",
-      "title": {
-        "zh": "滑轮韧带损伤",
-        "en": "Pulley Injury",
-        "ko": "활차 손상"
-      },
-      "path": "/section/injury/common-injuries"
-    },
-    "kp-tendonitis": {
-      "sectionId": "section-07",
-      "subSectionSlug": "common-injuries",
-      "sectionSlug": "injury",
-      "title": {
-        "zh": "肌腱炎",
-        "en": "Tendonitis",
-        "ko": "건염"
-      },
-      "path": "/section/injury/common-injuries"
-    },
-    "kp-shoulder-injury": {
-      "sectionId": "section-07",
-      "subSectionSlug": "common-injuries",
-      "sectionSlug": "injury",
-      "title": {
-        "zh": "肩部损伤",
-        "en": "Shoulder Injury",
-        "ko": "어깨 손상"
-      },
-      "path": "/section/injury/common-injuries"
-    },
-    "kp-warmup": {
-      "sectionId": "section-07",
-      "subSectionSlug": "prevention",
-      "sectionSlug": "injury",
-      "title": {
-        "zh": "热身运动",
-        "en": "Warm-Up",
-        "ko": "워밍업"
-      },
-      "path": "/section/injury/prevention"
-    },
-    "kp-rest-management": {
-      "sectionId": "section-07",
-      "subSectionSlug": "prevention",
-      "sectionSlug": "injury",
-      "title": {
-        "zh": "休息管理",
-        "en": "Rest Management",
-        "ko": "휴식 관리"
-      },
-      "path": "/section/injury/prevention"
-    },
-    "kp-antagonist-training": {
-      "sectionId": "section-07",
-      "subSectionSlug": "prevention",
-      "sectionSlug": "injury",
-      "title": {
-        "zh": "拮抗肌训练",
-        "en": "Antagonist Training",
-        "ko": "길항근 훈련"
-      },
-      "path": "/section/injury/prevention"
-    },
-    "kp-climbing-shoes": {
-      "sectionId": "section-05",
-      "subSectionSlug": "basic-gear",
-      "sectionSlug": "gear",
-      "title": {
-        "zh": "攀岩鞋",
-        "en": "Climbing Shoes",
-        "ko": "클라이밍 슈즈"
-      },
-      "path": "/section/gear/basic-gear"
-    },
-    "kp-chalk": {
-      "sectionId": "section-05",
-      "subSectionSlug": "basic-gear",
-      "sectionSlug": "gear",
-      "title": {
-        "zh": "镁粉",
-        "en": "Chalk",
-        "ko": "초크"
-      },
-      "path": "/section/gear/basic-gear"
-    },
-    "kp-harness": {
-      "sectionId": "section-05",
-      "subSectionSlug": "protection",
-      "sectionSlug": "gear",
-      "title": {
-        "zh": "安全带",
-        "en": "Harness",
-        "ko": "하네스"
-      },
-      "path": "/section/gear/protection"
-    },
-    "kp-rope": {
-      "sectionId": "section-05",
-      "subSectionSlug": "protection",
-      "sectionSlug": "gear",
-      "title": {
-        "zh": "攀岩绳",
-        "en": "Rope",
-        "ko": "로프"
-      },
-      "path": "/section/gear/protection"
-    },
-    "kp-belay-device": {
-      "sectionId": "section-05",
-      "subSectionSlug": "protection",
-      "sectionSlug": "gear",
-      "title": {
-        "zh": "保护器",
-        "en": "Belay Device",
-        "ko": "빌레이 디바이스"
-      },
-      "path": "/section/gear/protection"
-    },
-    "kp-quickdraw": {
-      "sectionId": "section-05",
-      "subSectionSlug": "protection",
-      "sectionSlug": "gear",
-      "title": {
-        "zh": "快挂",
-        "en": "Quickdraw",
-        "ko": "퀵드로우"
-      },
-      "path": "/section/gear/protection"
-    },
-    "kp-hangboard-gear": {
-      "sectionId": "section-05",
-      "subSectionSlug": "training-gear",
-      "sectionSlug": "gear",
-      "title": {
-        "zh": "指力板",
-        "en": "Hangboard",
-        "ko": "핑거보드"
-      },
-      "path": "/section/gear/training-gear"
-    },
-    "kp-campus-board-gear": {
-      "sectionId": "section-05",
-      "subSectionSlug": "training-gear",
-      "sectionSlug": "gear",
-      "title": {
-        "zh": "校园板",
-        "en": "Campus Board",
-        "ko": "캠퍼스 보드"
-      },
-      "path": "/section/gear/training-gear"
-    },
-    "kp-system-wall": {
-      "sectionId": "section-05",
-      "subSectionSlug": "training-gear",
-      "sectionSlug": "gear",
-      "title": {
-        "zh": "系统训练墙",
-        "en": "System Wall",
-        "ko": "시스템 월"
-      },
-      "path": "/section/gear/training-gear"
-    },
-    "kp-fear-management": {
-      "sectionId": "section-04",
-      "subSectionSlug": "fear",
-      "sectionSlug": "mental",
-      "title": {
-        "zh": "恐惧管理",
-        "en": "Fear Management",
-        "ko": "두려움 관리"
-      },
-      "path": "/section/mental/fear"
-    },
-    "kp-flow-state": {
-      "sectionId": "section-04",
-      "subSectionSlug": "focus",
-      "sectionSlug": "mental",
-      "title": {
-        "zh": "心流状态",
-        "en": "Flow State",
-        "ko": "플로우 상태"
-      },
-      "path": "/section/mental/focus"
-    },
-    "kp-periodization": {
-      "sectionId": "section-04",
-      "subSectionSlug": "goals",
-      "sectionSlug": "mental",
-      "title": {
-        "zh": "周期化训练",
-        "en": "Periodization",
-        "ko": "주기화 훈련"
-      },
-      "path": "/section/mental/goals"
-    },
-    "kp-projecting-strategy": {
-      "sectionId": "section-04",
-      "subSectionSlug": "projecting",
-      "sectionSlug": "mental",
-      "title": {
-        "zh": "目标线路攻略",
-        "en": "Projecting Strategy",
-        "ko": "프로젝트 전략"
-      },
-      "path": "/section/mental/projecting"
-    },
-    "kp-climbing-physics-basics": {
-      "sectionId": "section-03",
-      "subSectionSlug": "movement-principles",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "攀岩中的力学基础",
-        "en": "Fundamental Physics in Climbing",
-        "ko": "클라이밍의 기본 물리학"
-      },
-      "path": "/section/technique/movement-principles#kp-climbing-physics-basics"
-    },
-    "kp-inertia-momentum": {
-      "sectionId": "section-03",
-      "subSectionSlug": "movement-principles",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "惯性与动量：流畅动作的物理基础",
-        "en": "Inertia and Momentum: The Physics of Flowing Movement",
-        "ko": "관성과 운동량: 부드러운 동작의 물리학"
-      },
-      "path": "/section/technique/movement-principles#kp-inertia-momentum"
-    },
-    "kp-action-reaction": {
-      "sectionId": "section-03",
-      "subSectionSlug": "movement-principles",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "作用力与反作用力：理解50%攀岩动作的核心",
-        "en": "Action and Reaction: The Foundation of Opposition Climbing",
-        "ko": "작용력과 반작용력: 대항 클라이밍의 기초"
-      },
-      "path": "/section/technique/movement-principles#kp-action-reaction"
-    },
-    "kp-lever-biomechanics": {
-      "sectionId": "section-03",
-      "subSectionSlug": "movement-principles",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "杠杆原理与人体力学",
-        "en": "Lever Principles and Human Biomechanics",
-        "ko": "지렛대 원리와 인체 생역학"
-      },
-      "path": "/section/technique/movement-principles#kp-lever-biomechanics"
-    },
-    "kp-kinetic-chain": {
-      "sectionId": "section-03",
-      "subSectionSlug": "movement-principles",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "动力链：从脚到指尖的发力传导",
-        "en": "The Kinetic Chain: Force Transmission from Ground to Fingers",
-        "ko": "운동 연쇄: 땅에서 손가락까지의 힘 전달"
-      },
-      "path": "/section/technique/movement-principles#kp-kinetic-chain"
-    },
-    "kp-bicycle": {
-      "sectionId": "section-03",
-      "subSectionSlug": "footwork",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "自行车技术（Bicycle）",
-        "en": "Bicycle Technique",
-        "ko": "자전거(Bicycle)"
-      },
-      "path": "/section/technique/footwork#kp-bicycle"
-    },
-    "kp-foot-switching": {
-      "sectionId": "section-03",
-      "subSectionSlug": "footwork",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "换脚技术",
-        "en": "Foot Switching",
-        "ko": "발 교체(Foot Switching)"
-      },
-      "path": "/section/technique/footwork#kp-foot-switching"
-    },
-    "kp-smedging": {
-      "sectionId": "section-03",
-      "subSectionSlug": "footwork",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "蹬踩（Smedging）",
-        "en": "Smedging",
-        "ko": "스메징(Smedging)"
-      },
-      "path": "/section/technique/footwork#kp-smedging"
-    },
-    "kp-foot-precision": {
-      "sectionId": "section-03",
-      "subSectionSlug": "footwork",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "踩点精度训练",
-        "en": "Foot Placement Precision",
-        "ko": "발 디딤점 정확도 훈련"
-      },
-      "path": "/section/technique/footwork#kp-foot-precision"
-    },
-    "kp-jug-hold": {
-      "sectionId": "section-03",
-      "subSectionSlug": "handholds",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "大把手点（Jug）",
-        "en": "Jug Holds",
-        "ko": "주그 홀드(Jug Hold)"
-      },
-      "path": "/section/technique/handholds#kp-jug-hold"
-    },
-    "kp-undercling-sidepull-gaston": {
-      "sectionId": "section-03",
-      "subSectionSlug": "handholds",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "反抓、侧拉与加斯顿",
-        "en": "Undercling, Side Pull & Gaston",
-        "ko": "언더클링, 사이드풀, 가스통"
-      },
-      "path": "/section/technique/handholds#kp-undercling-sidepull-gaston"
-    },
-    "kp-palming": {
-      "sectionId": "section-03",
-      "subSectionSlug": "handholds",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "掌撑/摩擦抓法（Palming）",
-        "en": "Palming",
-        "ko": "팜잉(Palming)"
-      },
-      "path": "/section/technique/handholds#kp-palming"
-    },
-    "kp-hand-sequence": {
-      "sectionId": "section-03",
-      "subSectionSlug": "handholds",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "手顺与换手技术（Hand Sequences）",
-        "en": "Hand Sequences",
-        "ko": "손 순서 관리"
-      },
-      "path": "/section/technique/handholds#kp-hand-sequence"
-    },
-    "kp-claw-hook-grip": {
-      "sectionId": "section-03",
-      "subSectionSlug": "handholds",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "勾爪扣",
-        "en": "Claw / Hook Grip",
-        "ko": "발톱 갈고리 그립"
-      },
-      "path": "/section/technique/handholds#kp-claw-hook-grip"
-    },
-    "kp-full-crimp": {
-      "sectionId": "section-03",
-      "subSectionSlug": "handholds",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "完全封闭抠法（Full Crimp）",
-        "en": "Full Crimp Grip",
-        "ko": "풀 크림프 그립"
-      },
-      "path": "/section/technique/handholds#kp-full-crimp"
-    },
-    "kp-half-crimp": {
-      "sectionId": "section-03",
-      "subSectionSlug": "handholds",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "半封闭搭法（Half Crimp）",
-        "en": "Half Crimp Grip",
-        "ko": "하프 크림프 그립"
-      },
-      "path": "/section/technique/handholds#kp-half-crimp"
-    },
-    "kp-open-hand-grip": {
-      "sectionId": "section-03",
-      "subSectionSlug": "handholds",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "开放抓法（Open Hand Grip）",
-        "en": "Open Hand Grip",
-        "ko": "오픈 핸드 그립"
-      },
-      "path": "/section/technique/handholds#kp-open-hand-grip"
-    },
-    "kp-back-step": {
-      "sectionId": "section-03",
-      "subSectionSlug": "body-positioning",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "背步（Back Step）",
-        "en": "Back Step",
-        "ko": "백스텝(Back Step)"
-      },
-      "path": "/section/technique/body-positioning#kp-back-step"
-    },
-    "kp-diagonal-support": {
-      "sectionId": "section-03",
-      "subSectionSlug": "body-positioning",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "对角支撑（Diagonal Support / Opposition）",
-        "en": "Diagonal Support",
-        "ko": "대각선 지지(Diagonal Support)"
-      },
-      "path": "/section/technique/body-positioning#kp-diagonal-support"
-    },
-    "kp-stemming": {
-      "sectionId": "section-03",
-      "subSectionSlug": "body-positioning",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "外撑/桥接（Stemming）",
-        "en": "Stemming",
-        "ko": "스테밍(Stemming)"
-      },
-      "path": "/section/technique/body-positioning#kp-stemming"
-    },
-    "kp-layback": {
-      "sectionId": "section-03",
-      "subSectionSlug": "body-positioning",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "侧拉/侧身（Layback / Lieback）",
-        "en": "Layback",
-        "ko": "레이백(Layback)"
-      },
-      "path": "/section/technique/body-positioning#kp-layback"
-    },
-    "kp-high-step-mantle": {
-      "sectionId": "section-03",
-      "subSectionSlug": "body-positioning",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "高跨步与翻越（High Step & Mantling）",
-        "en": "High Step & Mantling",
-        "ko": "높은 스텝과 맨틀"
-      },
-      "path": "/section/technique/body-positioning#kp-high-step-mantle"
-    },
-    "kp-knee-bar": {
-      "sectionId": "section-03",
-      "subSectionSlug": "body-positioning",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "挂膝技术",
-        "en": "Knee Bar",
-        "ko": "니 바"
-      },
-      "path": "/section/technique/body-positioning#kp-knee-bar"
-    },
-    "kp-opposition-compression": {
-      "sectionId": "section-03",
-      "subSectionSlug": "body-positioning",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "对抗力与压缩力原理",
-        "en": "Opposition & Compression",
-        "ko": "대향력과 압축력 원리"
-      },
-      "path": "/section/technique/body-positioning#kp-opposition-compression"
-    },
-    "kp-push-pull": {
-      "sectionId": "section-03",
-      "subSectionSlug": "body-positioning",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "推拉类动作",
-        "en": "Push-Pull Movements",
-        "ko": "밀기-당기기 동작"
-      },
-      "path": "/section/technique/body-positioning#kp-push-pull"
-    },
-    "kp-resting-techniques": {
-      "sectionId": "section-03",
-      "subSectionSlug": "body-positioning",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "休息与恢复技术",
-        "en": "Resting Techniques",
-        "ko": "휴식 기법"
-      },
-      "path": "/section/technique/body-positioning#kp-resting-techniques"
-    },
-    "kp-climbing-posture": {
-      "sectionId": "section-03",
-      "subSectionSlug": "body-positioning",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "攀爬姿态与效率",
-        "en": "Climbing Posture & Efficiency",
-        "ko": "클라이밍 자세와 효율성"
-      },
-      "path": "/section/technique/body-positioning#kp-climbing-posture"
-    },
-    "kp-cog-principles": {
-      "sectionId": "section-03",
-      "subSectionSlug": "body-positioning",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "重心原理（Center of Gravity Principles）",
-        "en": "Center of Gravity Principles",
-        "ko": "무게중심 원리"
-      },
-      "path": "/section/technique/body-positioning#kp-cog-principles"
-    },
-    "kp-cog-movement": {
-      "sectionId": "section-03",
-      "subSectionSlug": "body-positioning",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "重心移动技术（Weight Shifting Techniques）",
-        "en": "Weight Shifting Techniques",
-        "ko": "무게중심 이동 기술"
-      },
-      "path": "/section/technique/body-positioning#kp-cog-movement"
-    },
-    "kp-hip-control": {
-      "sectionId": "section-03",
-      "subSectionSlug": "body-positioning",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "髋部控制（Hip Control）",
-        "en": "Hip Control",
-        "ko": "엉덩이 제어"
-      },
-      "path": "/section/technique/body-positioning#kp-hip-control"
-    },
-    "kp-coordination-timing": {
-      "sectionId": "section-03",
-      "subSectionSlug": "dynamic",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "协调动作与节奏",
-        "en": "Coordination Moves & Timing",
-        "ko": "조율과 타이밍"
-      },
-      "path": "/section/technique/dynamic#kp-coordination-timing"
-    },
-    "kp-lunge-types": {
-      "sectionId": "section-03",
-      "subSectionSlug": "dynamic",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "蹦跳类型详解（Lunge Types）",
-        "en": "Lunge Types",
-        "ko": "런지의 종류"
-      },
-      "path": "/section/technique/dynamic#kp-lunge-types"
-    },
-    "kp-swing-momentum": {
-      "sectionId": "section-03",
-      "subSectionSlug": "dynamic",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "重力助推与摆荡技术（Swing-by & Momentum）",
-        "en": "Swing-by & Momentum",
-        "ko": "스윙과 모멘텀"
-      },
-      "path": "/section/technique/dynamic#kp-swing-momentum"
-    },
-    "kp-campus-moves": {
-      "sectionId": "section-03",
-      "subSectionSlug": "dynamic",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "指力跳与无脚动态（Campus Moves）",
-        "en": "Campus Moves",
-        "ko": "캠퍼스 무브"
-      },
-      "path": "/section/technique/dynamic#kp-campus-moves"
-    },
-    "kp-figure-four": {
-      "sectionId": "section-03",
-      "subSectionSlug": "dynamic",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "Figure Four 与 Figure Nine 技术",
-        "en": "Figure Four and Figure Nine Techniques",
-        "ko": "피겨 포 와 피겨 나인 기술"
-      },
-      "path": "/section/technique/dynamic#kp-figure-four"
-    },
-    "kp-matching-bumping-crossthrough": {
-      "sectionId": "section-03",
-      "subSectionSlug": "dynamic",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "过渡动作：并手、跳手与穿手",
-        "en": "Transition Moves: Matching, Bumping, and Cross-Through",
-        "ko": "과도 동작: 매칭, 범핑 및 크로스스루"
-      },
-      "path": "/section/technique/dynamic#kp-matching-bumping-crossthrough"
-    },
-    "kp-arete-mantle": {
-      "sectionId": "section-03",
-      "subSectionSlug": "terrain",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "棱角与翻越技术",
-        "en": "Arete & Mantle Techniques",
-        "ko": "아레트(Arête)"
-      },
-      "path": "/section/technique/terrain#kp-arete-mantle"
-    },
-    "kp-vertical-wall-technique": {
-      "sectionId": "section-03",
-      "subSectionSlug": "terrain",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "垂直壁技术",
-        "en": "Vertical Face Climbing",
-        "ko": "수직 벽 등반 기술"
-      },
-      "path": "/section/technique/terrain#kp-vertical-wall-technique"
-    },
-    "kp-crack-hand-jam": {
-      "sectionId": "section-03",
-      "subSectionSlug": "terrain",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "手塞技术（Hand & Finger Jamming）",
-        "en": "Hand & Finger Jamming Techniques",
-        "ko": "손 및 손가락 잼 기술"
-      },
-      "path": "/section/technique/terrain#kp-crack-hand-jam"
+    "kp-crack-climbing-systems": {
+      "sectionId": "section-08",
+      "subSectionSlug": "trad-climbing",
+      "sectionSlug": "outdoor",
+      "title": "裂缝攀登系统",
+      "path": "/outdoor/trad-climbing#kp-crack-climbing-systems"
     },
     "kp-crack-foot-body-jam": {
       "sectionId": "section-03",
@@ -1089,49 +482,23 @@
       },
       "path": "/section/technique/terrain#kp-crack-foot-body-jam"
     },
-    "kp-onsight-flash-redpoint": {
+    "kp-crack-hand-jam": {
       "sectionId": "section-03",
-      "subSectionSlug": "route-reading",
+      "subSectionSlug": "terrain",
       "sectionSlug": "technique",
       "title": {
-        "zh": "Onsight、Flash 与 Redpoint 策略",
-        "en": "Onsight, Flash & Redpoint Strategies",
-        "ko": "온사이트, 플래시, 레드포인트"
+        "zh": "手塞技术（Hand & Finger Jamming）",
+        "en": "Hand & Finger Jamming Techniques",
+        "ko": "손 및 손가락 잼 기술"
       },
-      "path": "/section/technique/route-reading#kp-onsight-flash-redpoint"
+      "path": "/section/technique/terrain#kp-crack-hand-jam"
     },
-    "kp-ground-reading": {
-      "sectionId": "section-03",
-      "subSectionSlug": "route-reading",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "地面读线：站在地面观察路线的系统方法",
-        "en": "Ground Reading: Systematic Route Observation from the Ground",
-        "ko": "지면 읽기: 지면에서 루트를 관찰하는 체계적 방법"
-      },
-      "path": "/section/technique/route-reading#kp-ground-reading"
-    },
-    "kp-sequence-planning": {
-      "sectionId": "section-03",
-      "subSectionSlug": "route-reading",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "动作序列规划（Beta规划）",
-        "en": "Sequence Planning (Beta Planning)",
-        "ko": "동작 순서 계획 (베타 계획)"
-      },
-      "path": "/section/technique/route-reading#kp-sequence-planning"
-    },
-    "kp-rest-spot-identification": {
-      "sectionId": "section-03",
-      "subSectionSlug": "route-reading",
-      "sectionSlug": "technique",
-      "title": {
-        "zh": "休息点识别与利用",
-        "en": "Rest Spot Identification and Utilization",
-        "ko": "휴식지점 식별 및 활용"
-      },
-      "path": "/section/technique/route-reading#kp-rest-spot-identification"
+    "kp-crash-pad": {
+      "sectionId": "section-06",
+      "subSectionSlug": "bouldering-safety",
+      "sectionSlug": "safety",
+      "title": "抱石垫的放置",
+      "path": "/safety/bouldering-safety#kp-crash-pad"
     },
     "kp-crux-analysis": {
       "sectionId": "section-03",
@@ -1144,16 +511,1296 @@
       },
       "path": "/section/technique/route-reading#kp-crux-analysis"
     },
-    "kp-beta-memory": {
+    "kp-deadpoint": {
+      "sectionId": "section-03",
+      "subSectionSlug": "dynamic",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "死点（Deadpoint）",
+        "en": "Deadpoint",
+        "ko": "데드포인트"
+      },
+      "path": "/section/technique/dynamic#kp-deadpoint"
+    },
+    "kp-desensitization": {
+      "sectionId": "section-04",
+      "subSectionSlug": "fear",
+      "sectionSlug": "mental",
+      "title": "渐进脱敏与呼吸技术",
+      "path": "/mental/fear#kp-desensitization"
+    },
+    "kp-diagonal-support": {
+      "sectionId": "section-03",
+      "subSectionSlug": "body-positioning",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "对角支撑（Diagonal Support / Opposition）",
+        "en": "Diagonal Support",
+        "ko": "대각선 지지(Diagonal Support)"
+      },
+      "path": "/section/technique/body-positioning#kp-diagonal-support"
+    },
+    "kp-drop-knee": {
+      "sectionId": "section-03",
+      "subSectionSlug": "body-positioning",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "落膝（Drop Knee）",
+        "en": "Drop Knee",
+        "ko": "드롭니(Drop Knee)"
+      },
+      "path": "/section/technique/body-positioning#kp-drop-knee"
+    },
+    "kp-dynamic-movement": {
+      "sectionId": "section-02",
+      "subSectionSlug": "power",
+      "sectionSlug": "physical",
+      "title": "动态动作",
+      "path": "/physical/power#kp-dynamic-movement"
+    },
+    "kp-dyno-technique": {
+      "sectionId": "section-03",
+      "subSectionSlug": "dynamic",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "飞跃（Dyno）",
+        "en": "Dyno",
+        "ko": "다이노 기술"
+      },
+      "path": "/section/technique/dynamic#kp-dyno-technique"
+    },
+    "kp-edging": {
+      "sectionId": "section-03",
+      "subSectionSlug": "footwork",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "边踩（Edging）",
+        "en": "Edging",
+        "ko": "에징(Edging)"
+      },
+      "path": "/section/technique/footwork#kp-edging"
+    },
+    "kp-elderly-benefits": {
+      "sectionId": "section-09",
+      "subSectionSlug": "elderly",
+      "sectionSlug": "special",
+      "title": "攀岩对中老年人的益处",
+      "path": "/special/elderly#kp-elderly-benefits"
+    },
+    "kp-elderly-flexibility": {
+      "sectionId": "section-09",
+      "subSectionSlug": "elderly",
+      "sectionSlug": "special",
+      "title": "柔韧性训练重点",
+      "path": "/special/elderly#kp-elderly-flexibility"
+    },
+    "kp-elderly-injury-prevention": {
+      "sectionId": "section-09",
+      "subSectionSlug": "elderly",
+      "sectionSlug": "special",
+      "title": "伤害预防重点",
+      "path": "/special/elderly#kp-elderly-injury-prevention"
+    },
+    "kp-elderly-training-adjustments": {
+      "sectionId": "section-09",
+      "subSectionSlug": "elderly",
+      "sectionSlug": "special",
+      "title": "训练调整策略",
+      "path": "/special/elderly#kp-elderly-training-adjustments"
+    },
+    "kp-endurance-types": {
+      "sectionId": "section-02",
+      "subSectionSlug": "endurance",
+      "sectionSlug": "physical",
+      "title": "有氧与无氧耐力",
+      "path": "/physical/endurance#kp-endurance-types"
+    },
+    "kp-fear-management": {
+      "sectionId": "section-04",
+      "subSectionSlug": "fear",
+      "sectionSlug": "mental",
+      "title": {
+        "zh": "恐惧管理",
+        "en": "Fear Management",
+        "ko": "두려움 관리"
+      },
+      "path": "/section/mental/fear"
+    },
+    "kp-figure-four": {
+      "sectionId": "section-03",
+      "subSectionSlug": "dynamic",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "Figure Four 与 Figure Nine 技术",
+        "en": "Figure Four and Figure Nine Techniques",
+        "ko": "피겨 포 와 피겨 나인 기술"
+      },
+      "path": "/section/technique/dynamic#kp-figure-four"
+    },
+    "kp-finger-assessment": {
+      "sectionId": "section-02",
+      "subSectionSlug": "finger-strength",
+      "sectionSlug": "physical",
+      "title": {
+        "zh": "手指力量评估",
+        "en": "Finger Strength Assessment",
+        "ko": "손가락 근력 평가"
+      },
+      "path": "/section/physical/finger-strength"
+    },
+    "kp-first-outdoor-trip": {
+      "sectionId": "section-08",
+      "subSectionSlug": "transition",
+      "sectionSlug": "outdoor",
+      "title": "第一次户外攀岩准备",
+      "path": "/outdoor/transition#kp-first-outdoor-trip"
+    },
+    "kp-flagging": {
+      "sectionId": "section-03",
+      "subSectionSlug": "body-positioning",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "旗帜步（Flagging）",
+        "en": "Flagging",
+        "ko": "플래깅(Flagging)"
+      },
+      "path": "/section/technique/body-positioning#kp-flagging"
+    },
+    "kp-flow-state": {
+      "sectionId": "section-04",
+      "subSectionSlug": "focus",
+      "sectionSlug": "mental",
+      "title": {
+        "zh": "心流状态",
+        "en": "Flow State",
+        "ko": "플로우 상태"
+      },
+      "path": "/section/mental/focus"
+    },
+    "kp-foot-precision": {
+      "sectionId": "section-03",
+      "subSectionSlug": "footwork",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "踩点精度训练",
+        "en": "Foot Placement Precision",
+        "ko": "발 디딤점 정확도 훈련"
+      },
+      "path": "/section/technique/footwork#kp-foot-precision"
+    },
+    "kp-foot-switching": {
+      "sectionId": "section-03",
+      "subSectionSlug": "footwork",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "换脚技术",
+        "en": "Foot Switching",
+        "ko": "발 교체(Foot Switching)"
+      },
+      "path": "/section/technique/footwork#kp-foot-switching"
+    },
+    "kp-free-climbing-revolution": {
+      "sectionId": "section-01",
+      "subSectionSlug": "history",
+      "sectionSlug": "overview",
+      "title": "自由攀登运动",
+      "path": "/overview/history#kp-free-climbing-revolution"
+    },
+    "kp-full-crimp": {
+      "sectionId": "section-03",
+      "subSectionSlug": "handholds",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "完全封闭抠法（Full Crimp）",
+        "en": "Full Crimp Grip",
+        "ko": "풀 크림프 그립"
+      },
+      "path": "/section/technique/handholds#kp-full-crimp"
+    },
+    "kp-goal-setting": {
+      "sectionId": "section-04",
+      "subSectionSlug": "goals",
+      "sectionSlug": "mental",
+      "title": "短期与长期目标设定",
+      "path": "/mental/goals#kp-goal-setting"
+    },
+    "kp-grade-comparison": {
+      "sectionId": "section-01",
+      "subSectionSlug": "grading",
+      "sectionSlug": "overview",
+      "title": "等级对照与注意事项",
+      "path": "/overview/grading#kp-grade-comparison"
+    },
+    "kp-grading-systems": {
+      "sectionId": "section-01",
+      "subSectionSlug": "grading",
+      "sectionSlug": "overview",
+      "title": "主要等级系统详解",
+      "path": "/overview/grading#kp-grading-systems"
+    },
+    "kp-grip-types": {
+      "sectionId": "section-02",
+      "subSectionSlug": "finger-strength",
+      "sectionSlug": "physical",
+      "title": {
+        "zh": "握姿类型",
+        "en": "Grip Types",
+        "ko": "그립 타입"
+      },
+      "path": "/section/physical/finger-strength"
+    },
+    "kp-ground-reading": {
       "sectionId": "section-03",
       "subSectionSlug": "route-reading",
       "sectionSlug": "technique",
       "title": {
-        "zh": "Beta记忆与身体记忆训练",
-        "en": "Beta Memory and Muscle Memory Training",
-        "ko": "베타 메모리 및 근육 메모리 훈련"
+        "zh": "地面读线：站在地面观察路线的系统方法",
+        "en": "Ground Reading: Systematic Route Observation from the Ground",
+        "ko": "지면 읽기: 지면에서 루트를 관찰하는 체계적 방법"
       },
-      "path": "/section/technique/route-reading#kp-beta-memory"
+      "path": "/section/technique/route-reading#kp-ground-reading"
+    },
+    "kp-growth-plate-concerns": {
+      "sectionId": "section-09",
+      "subSectionSlug": "youth",
+      "sectionSlug": "special",
+      "title": "生长板损伤风险",
+      "path": "/special/youth#kp-growth-plate-concerns"
+    },
+    "kp-gym-etiquette": {
+      "sectionId": "section-06",
+      "subSectionSlug": "indoor",
+      "sectionSlug": "safety",
+      "title": "岩馆礼仪",
+      "path": "/safety/indoor#kp-gym-etiquette"
+    },
+    "kp-gymnastic-rings": {
+      "sectionId": "section-05",
+      "subSectionSlug": "training-gear",
+      "sectionSlug": "gear",
+      "title": "体操吊环",
+      "path": "/gear/training-gear#kp-gymnastic-rings"
+    },
+    "kp-half-crimp": {
+      "sectionId": "section-03",
+      "subSectionSlug": "handholds",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "半封闭搭法（Half Crimp）",
+        "en": "Half Crimp Grip",
+        "ko": "하프 크림프 그립"
+      },
+      "path": "/section/technique/handholds#kp-half-crimp"
+    },
+    "kp-hand-sequence": {
+      "sectionId": "section-03",
+      "subSectionSlug": "handholds",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "手顺与换手技术（Hand Sequences）",
+        "en": "Hand Sequences",
+        "ko": "손 순서 관리"
+      },
+      "path": "/section/technique/handholds#kp-hand-sequence"
+    },
+    "kp-hangboard-gear": {
+      "sectionId": "section-05",
+      "subSectionSlug": "training-gear",
+      "sectionSlug": "gear",
+      "title": {
+        "zh": "指力板",
+        "en": "Hangboard",
+        "ko": "핑거보드"
+      },
+      "path": "/section/gear/training-gear"
+    },
+    "kp-hangboard-training": {
+      "sectionId": "section-02",
+      "subSectionSlug": "finger-strength",
+      "sectionSlug": "physical",
+      "title": {
+        "zh": "指力板训练",
+        "en": "Hangboard Training",
+        "ko": "핑거보드 훈련"
+      },
+      "path": "/section/physical/finger-strength"
+    },
+    "kp-harness": {
+      "sectionId": "section-05",
+      "subSectionSlug": "protection",
+      "sectionSlug": "gear",
+      "title": {
+        "zh": "安全带",
+        "en": "Harness",
+        "ko": "하네스"
+      },
+      "path": "/section/gear/protection"
+    },
+    "kp-haul-bag": {
+      "sectionId": "section-05",
+      "subSectionSlug": "bigwall-gear",
+      "sectionSlug": "gear",
+      "title": "拖包",
+      "path": "/gear/bigwall-gear#kp-haul-bag"
+    },
+    "kp-heel-hook": {
+      "sectionId": "section-03",
+      "subSectionSlug": "footwork",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "勾脚跟（Heel Hook）",
+        "en": "Heel Hook",
+        "ko": "힐 훅(Heel Hook)"
+      },
+      "path": "/section/technique/footwork#kp-heel-hook"
+    },
+    "kp-helmet": {
+      "sectionId": "section-05",
+      "subSectionSlug": "protection",
+      "sectionSlug": "gear",
+      "title": "头盔",
+      "path": "/gear/protection#kp-helmet"
+    },
+    "kp-high-step-mantle": {
+      "sectionId": "section-03",
+      "subSectionSlug": "body-positioning",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "高跨步与翻越（High Step & Mantling）",
+        "en": "High Step & Mantling",
+        "ko": "높은 스텝과 맨틀"
+      },
+      "path": "/section/technique/body-positioning#kp-high-step-mantle"
+    },
+    "kp-hip-control": {
+      "sectionId": "section-03",
+      "subSectionSlug": "body-positioning",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "髋部控制（Hip Control）",
+        "en": "Hip Control",
+        "ko": "엉덩이 제어"
+      },
+      "path": "/section/technique/body-positioning#kp-hip-control"
+    },
+    "kp-hip-flexibility": {
+      "sectionId": "section-02",
+      "subSectionSlug": "flexibility",
+      "sectionSlug": "physical",
+      "title": {
+        "zh": "髋部柔韧性",
+        "en": "Hip Flexibility",
+        "ko": "고관절 유연성"
+      },
+      "path": "/section/physical/flexibility"
+    },
+    "kp-hydration": {
+      "sectionId": "section-07",
+      "subSectionSlug": "nutrition",
+      "sectionSlug": "injury",
+      "title": "水分补充",
+      "path": "/injury/nutrition#kp-hydration"
+    },
+    "kp-ifsc": {
+      "sectionId": "section-10",
+      "subSectionSlug": "organizations",
+      "sectionSlug": "competition",
+      "title": "国际攀联（IFSC）",
+      "path": "/competition/organizations#kp-ifsc"
+    },
+    "kp-indoor-outdoor-diff": {
+      "sectionId": "section-08",
+      "subSectionSlug": "transition",
+      "sectionSlug": "outdoor",
+      "title": "室内与户外攀岩的差异",
+      "path": "/outdoor/transition#kp-indoor-outdoor-diff"
+    },
+    "kp-inertia-momentum": {
+      "sectionId": "section-03",
+      "subSectionSlug": "movement-principles",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "惯性与动量：流畅动作的物理基础",
+        "en": "Inertia and Momentum: The Physics of Flowing Movement",
+        "ko": "관성과 운동량: 부드러운 동작의 물리학"
+      },
+      "path": "/section/technique/movement-principles#kp-inertia-momentum"
+    },
+    "kp-injury-assessment": {
+      "sectionId": "section-07",
+      "subSectionSlug": "recovery",
+      "sectionSlug": "injury",
+      "title": {
+        "zh": "伤后评估",
+        "en": "Post-Injury Assessment"
+      },
+      "path": "/section/injury/recovery#kp-injury-assessment"
+    },
+    "kp-isolation-zone": {
+      "sectionId": "section-10",
+      "subSectionSlug": "rules",
+      "sectionSlug": "competition",
+      "title": "隔离区与比赛流程",
+      "path": "/competition/rules#kp-isolation-zone"
+    },
+    "kp-jug-hold": {
+      "sectionId": "section-03",
+      "subSectionSlug": "handholds",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "大把手点（Jug）",
+        "en": "Jug Holds",
+        "ko": "주그 홀드(Jug Hold)"
+      },
+      "path": "/section/technique/handholds#kp-jug-hold"
+    },
+    "kp-kids-development": {
+      "sectionId": "section-09",
+      "subSectionSlug": "kids",
+      "sectionSlug": "special",
+      "title": "儿童发育阶段与攀岩",
+      "path": "/special/kids#kp-kids-development"
+    },
+    "kp-kids-fun-approach": {
+      "sectionId": "section-09",
+      "subSectionSlug": "kids",
+      "sectionSlug": "special",
+      "title": "趣味导向的教学方法",
+      "path": "/special/kids#kp-kids-fun-approach"
+    },
+    "kp-kids-safety": {
+      "sectionId": "section-09",
+      "subSectionSlug": "kids",
+      "sectionSlug": "special",
+      "title": "儿童攀岩安全考量",
+      "path": "/special/kids#kp-kids-safety"
+    },
+    "kp-kinetic-chain": {
+      "sectionId": "section-03",
+      "subSectionSlug": "movement-principles",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "动力链：从脚到指尖的发力传导",
+        "en": "The Kinetic Chain: Force Transmission from Ground to Fingers",
+        "ko": "운동 연쇄: 땅에서 손가락까지의 힘 전달"
+      },
+      "path": "/section/technique/movement-principles#kp-kinetic-chain"
+    },
+    "kp-knee-bar": {
+      "sectionId": "section-03",
+      "subSectionSlug": "body-positioning",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "挂膝技术",
+        "en": "Knee Bar",
+        "ko": "니 바"
+      },
+      "path": "/section/technique/body-positioning#kp-knee-bar"
+    },
+    "kp-knots": {
+      "sectionId": "section-06",
+      "subSectionSlug": "rope-skills",
+      "sectionSlug": "safety",
+      "title": {
+        "zh": "绳结技术",
+        "en": "Knots",
+        "ko": "매듭"
+      },
+      "path": "/section/safety/rope-skills"
+    },
+    "kp-landing-position": {
+      "sectionId": "section-06",
+      "subSectionSlug": "bouldering-safety",
+      "sectionSlug": "safety",
+      "title": "着地姿势",
+      "path": "/safety/bouldering-safety#kp-landing-position"
+    },
+    "kp-landing-strategy": {
+      "sectionId": "section-08",
+      "subSectionSlug": "bouldering",
+      "sectionSlug": "outdoor",
+      "title": "读线与落地策略",
+      "path": "/outdoor/bouldering#kp-landing-strategy"
+    },
+    "kp-layback": {
+      "sectionId": "section-03",
+      "subSectionSlug": "body-positioning",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "侧拉/侧身（Layback / Lieback）",
+        "en": "Layback",
+        "ko": "레이백(Layback)"
+      },
+      "path": "/section/technique/body-positioning#kp-layback"
+    },
+    "kp-lead-belay-indoor": {
+      "sectionId": "section-06",
+      "subSectionSlug": "indoor",
+      "sectionSlug": "safety",
+      "title": "室内先锋保护与冲坠",
+      "path": "/safety/indoor#kp-lead-belay-indoor"
+    },
+    "kp-lead-competition": {
+      "sectionId": "section-10",
+      "subSectionSlug": "formats",
+      "sectionSlug": "competition",
+      "title": "先锋赛形式",
+      "path": "/competition/formats#kp-lead-competition"
+    },
+    "kp-lead-strategy-outdoor": {
+      "sectionId": "section-08",
+      "subSectionSlug": "sport-climbing",
+      "sectionSlug": "outdoor",
+      "title": "户外先锋攀登策略",
+      "path": "/outdoor/sport-climbing#kp-lead-strategy-outdoor"
+    },
+    "kp-leave-no-trace": {
+      "sectionId": "section-06",
+      "subSectionSlug": "outdoor",
+      "sectionSlug": "safety",
+      "title": "不留痕迹原则",
+      "path": "/safety/outdoor#kp-leave-no-trace"
+    },
+    "kp-lever-biomechanics": {
+      "sectionId": "section-03",
+      "subSectionSlug": "movement-principles",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "杠杆原理与人体力学",
+        "en": "Lever Principles and Human Biomechanics",
+        "ko": "지렛대 원리와 인체 생역학"
+      },
+      "path": "/section/technique/movement-principles#kp-lever-biomechanics"
+    },
+    "kp-long-route-endurance": {
+      "sectionId": "section-02",
+      "subSectionSlug": "endurance",
+      "sectionSlug": "physical",
+      "title": "长路线耐力管理",
+      "path": "/physical/endurance#kp-long-route-endurance"
+    },
+    "kp-lunge-types": {
+      "sectionId": "section-03",
+      "subSectionSlug": "dynamic",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "蹦跳类型详解（Lunge Types）",
+        "en": "Lunge Types",
+        "ko": "런지의 종류"
+      },
+      "path": "/section/technique/dynamic#kp-lunge-types"
+    },
+    "kp-matching-bumping-crossthrough": {
+      "sectionId": "section-03",
+      "subSectionSlug": "dynamic",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "过渡动作：并手、跳手与穿手",
+        "en": "Transition Moves: Matching, Bumping, and Cross-Through",
+        "ko": "과도 동작: 매칭, 범핑 및 크로스스루"
+      },
+      "path": "/section/technique/dynamic#kp-matching-bumping-crossthrough"
+    },
+    "kp-modern-era": {
+      "sectionId": "section-01",
+      "subSectionSlug": "history",
+      "sectionSlug": "overview",
+      "title": "现代攀岩时代",
+      "path": "/overview/history#kp-modern-era"
+    },
+    "kp-multi-pitch": {
+      "sectionId": "section-08",
+      "subSectionSlug": "trad-climbing",
+      "sectionSlug": "outdoor",
+      "title": "多段攀登",
+      "path": "/outdoor/trad-climbing#kp-multi-pitch"
+    },
+    "kp-national-federations": {
+      "sectionId": "section-10",
+      "subSectionSlug": "organizations",
+      "sectionSlug": "competition",
+      "title": "国家联合会",
+      "path": "/competition/organizations#kp-national-federations"
+    },
+    "kp-nuts-stoppers": {
+      "sectionId": "section-05",
+      "subSectionSlug": "trad-gear",
+      "sectionSlug": "gear",
+      "title": "机械塞与岩石塞",
+      "path": "/gear/trad-gear#kp-nuts-stoppers"
+    },
+    "kp-olympics-athletes": {
+      "sectionId": "section-01",
+      "subSectionSlug": "olympics",
+      "sectionSlug": "overview",
+      "title": "奥运攀岩著名运动员",
+      "path": "/overview/olympics#kp-olympics-athletes"
+    },
+    "kp-olympics-history": {
+      "sectionId": "section-01",
+      "subSectionSlug": "olympics",
+      "sectionSlug": "overview",
+      "title": "奥运竞技攀岩的发展历程",
+      "path": "/overview/olympics#kp-olympics-history"
+    },
+    "kp-onsight-flash-redpoint": {
+      "sectionId": "section-03",
+      "subSectionSlug": "route-reading",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "Onsight、Flash 与 Redpoint 策略",
+        "en": "Onsight, Flash & Redpoint Strategies",
+        "ko": "온사이트, 플래시, 레드포인트"
+      },
+      "path": "/section/technique/route-reading#kp-onsight-flash-redpoint"
+    },
+    "kp-open-hand-grip": {
+      "sectionId": "section-03",
+      "subSectionSlug": "handholds",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "开放抓法（Open Hand Grip）",
+        "en": "Open Hand Grip",
+        "ko": "오픈 핸드 그립"
+      },
+      "path": "/section/technique/handholds#kp-open-hand-grip"
+    },
+    "kp-opposition-compression": {
+      "sectionId": "section-03",
+      "subSectionSlug": "body-positioning",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "对抗力与压缩力原理",
+        "en": "Opposition & Compression",
+        "ko": "대향력과 압축력 원리"
+      },
+      "path": "/section/technique/body-positioning#kp-opposition-compression"
+    },
+    "kp-outdoor-bouldering-chars": {
+      "sectionId": "section-08",
+      "subSectionSlug": "bouldering",
+      "sectionSlug": "outdoor",
+      "title": "户外抱石特点",
+      "path": "/outdoor/bouldering#kp-outdoor-bouldering-chars"
+    },
+    "kp-outdoor-sport-safety": {
+      "sectionId": "section-08",
+      "subSectionSlug": "sport-climbing",
+      "sectionSlug": "outdoor",
+      "title": "户外运动攀登安全",
+      "path": "/outdoor/sport-climbing#kp-outdoor-sport-safety"
+    },
+    "kp-overhang-technique": {
+      "sectionId": "section-03",
+      "subSectionSlug": "terrain",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "仰角技术（Overhang）",
+        "en": "Overhang Technique",
+        "ko": "오버행"
+      },
+      "path": "/section/technique/terrain#kp-overhang-technique"
+    },
+    "kp-palming": {
+      "sectionId": "section-03",
+      "subSectionSlug": "handholds",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "掌撑/摩擦抓法（Palming）",
+        "en": "Palming",
+        "ko": "팜잉(Palming)"
+      },
+      "path": "/section/technique/handholds#kp-palming"
+    },
+    "kp-peaking": {
+      "sectionId": "section-10",
+      "subSectionSlug": "training",
+      "sectionSlug": "competition",
+      "title": "竞技状态调整",
+      "path": "/competition/training#kp-peaking"
+    },
+    "kp-performance-mindset": {
+      "sectionId": "section-10",
+      "subSectionSlug": "psychology",
+      "sectionSlug": "competition",
+      "title": "竞技表现心态",
+      "path": "/competition/psychology#kp-performance-mindset"
+    },
+    "kp-periodization": {
+      "sectionId": "section-04",
+      "subSectionSlug": "goals",
+      "sectionSlug": "mental",
+      "title": {
+        "zh": "周期化训练",
+        "en": "Periodization",
+        "ko": "주기화 훈련"
+      },
+      "path": "/section/mental/goals"
+    },
+    "kp-pinch-hold": {
+      "sectionId": "section-03",
+      "subSectionSlug": "handholds",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "捏点（Pinch）",
+        "en": "Pinch Holds",
+        "ko": "핀치 홀드(Pinch Hold)"
+      },
+      "path": "/section/technique/handholds#kp-pinch-hold"
+    },
+    "kp-pitons": {
+      "sectionId": "section-05",
+      "subSectionSlug": "trad-gear",
+      "sectionSlug": "gear",
+      "title": "岩钉",
+      "path": "/gear/trad-gear#kp-pitons"
+    },
+    "kp-placing-protection": {
+      "sectionId": "section-08",
+      "subSectionSlug": "trad-climbing",
+      "sectionSlug": "outdoor",
+      "title": "放置保护装置",
+      "path": "/outdoor/trad-climbing#kp-placing-protection"
+    },
+    "kp-plateau-breaking": {
+      "sectionId": "section-04",
+      "subSectionSlug": "projecting",
+      "sectionSlug": "mental",
+      "title": "突破平台期",
+      "path": "/mental/projecting#kp-plateau-breaking"
+    },
+    "kp-pocket-hold": {
+      "sectionId": "section-03",
+      "subSectionSlug": "handholds",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "指洞（Pocket）",
+        "en": "Pocket Holds",
+        "ko": "포켓 홀드(Pocket Hold)"
+      },
+      "path": "/section/technique/handholds#kp-pocket-hold"
+    },
+    "kp-portaledge": {
+      "sectionId": "section-05",
+      "subSectionSlug": "bigwall-gear",
+      "sectionSlug": "gear",
+      "title": "岩壁吊帐",
+      "path": "/gear/bigwall-gear#kp-portaledge"
+    },
+    "kp-pressure-visualization": {
+      "sectionId": "section-10",
+      "subSectionSlug": "psychology",
+      "sectionSlug": "competition",
+      "title": "压力管理与意象化训练",
+      "path": "/competition/psychology#kp-pressure-visualization"
+    },
+    "kp-projecting-strategy": {
+      "sectionId": "section-04",
+      "subSectionSlug": "projecting",
+      "sectionSlug": "mental",
+      "title": {
+        "zh": "目标线路攻略",
+        "en": "Projecting Strategy",
+        "ko": "프로젝트 전략"
+      },
+      "path": "/section/mental/projecting"
+    },
+    "kp-pulley-injury": {
+      "sectionId": "section-07",
+      "subSectionSlug": "common-injuries",
+      "sectionSlug": "injury",
+      "title": {
+        "zh": "滑轮韧带损伤",
+        "en": "Pulley Injury",
+        "ko": "활차 손상"
+      },
+      "path": "/section/injury/common-injuries"
+    },
+    "kp-pulling-power": {
+      "sectionId": "section-02",
+      "subSectionSlug": "upper-body",
+      "sectionSlug": "physical",
+      "title": {
+        "zh": "拉力训练",
+        "en": "Pulling Power",
+        "ko": "당기기 근력"
+      },
+      "path": "/section/physical/upper-body"
+    },
+    "kp-push-pull": {
+      "sectionId": "section-03",
+      "subSectionSlug": "body-positioning",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "推拉类动作",
+        "en": "Push-Pull Movements",
+        "ko": "밀기-당기기 동작"
+      },
+      "path": "/section/technique/body-positioning#kp-push-pull"
+    },
+    "kp-pushing-power": {
+      "sectionId": "section-02",
+      "subSectionSlug": "upper-body",
+      "sectionSlug": "physical",
+      "title": {
+        "zh": "推力训练",
+        "en": "Pushing Power",
+        "ko": "밀기 근력"
+      },
+      "path": "/section/physical/upper-body"
+    },
+    "kp-quickdraw": {
+      "sectionId": "section-05",
+      "subSectionSlug": "protection",
+      "sectionSlug": "gear",
+      "title": {
+        "zh": "快挂",
+        "en": "Quickdraw",
+        "ko": "퀵드로우"
+      },
+      "path": "/section/gear/protection"
+    },
+    "kp-rappelling": {
+      "sectionId": "section-06",
+      "subSectionSlug": "rope-skills",
+      "sectionSlug": "safety",
+      "title": {
+        "zh": "下降技术",
+        "en": "Rappelling",
+        "ko": "하강"
+      },
+      "path": "/section/safety/rope-skills"
+    },
+    "kp-rehab-mistakes": {
+      "sectionId": "section-07",
+      "subSectionSlug": "recovery",
+      "sectionSlug": "injury",
+      "title": "常见康复错误",
+      "path": "/injury/recovery#kp-rehab-mistakes"
+    },
+    "kp-rehab-programs": {
+      "sectionId": "section-07",
+      "subSectionSlug": "recovery",
+      "sectionSlug": "injury",
+      "title": "康复方案",
+      "path": "/injury/recovery#kp-rehab-programs"
+    },
+    "kp-rest-management": {
+      "sectionId": "section-07",
+      "subSectionSlug": "prevention",
+      "sectionSlug": "injury",
+      "title": {
+        "zh": "休息管理",
+        "en": "Rest Management",
+        "ko": "휴식 관리"
+      },
+      "path": "/section/injury/prevention"
+    },
+    "kp-rest-spot-identification": {
+      "sectionId": "section-03",
+      "subSectionSlug": "route-reading",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "休息点识别与利用",
+        "en": "Rest Spot Identification and Utilization",
+        "ko": "휴식지점 식별 및 활용"
+      },
+      "path": "/section/technique/route-reading#kp-rest-spot-identification"
+    },
+    "kp-resting-techniques": {
+      "sectionId": "section-03",
+      "subSectionSlug": "body-positioning",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "休息与恢复技术",
+        "en": "Resting Techniques",
+        "ko": "휴식 기법"
+      },
+      "path": "/section/technique/body-positioning#kp-resting-techniques"
+    },
+    "kp-retreat-strategy": {
+      "sectionId": "section-06",
+      "subSectionSlug": "outdoor",
+      "sectionSlug": "safety",
+      "title": "撤退策略",
+      "path": "/safety/outdoor#kp-retreat-strategy"
+    },
+    "kp-return-criteria": {
+      "sectionId": "section-07",
+      "subSectionSlug": "recovery",
+      "sectionSlug": "injury",
+      "title": "回归攀爬标准",
+      "path": "/injury/recovery#kp-return-criteria"
+    },
+    "kp-rock-types": {
+      "sectionId": "section-08",
+      "subSectionSlug": "transition",
+      "sectionSlug": "outdoor",
+      "title": "岩石类型",
+      "path": "/outdoor/transition#kp-rock-types"
+    },
+    "kp-rockfall-risk": {
+      "sectionId": "section-06",
+      "subSectionSlug": "outdoor",
+      "sectionSlug": "safety",
+      "title": "落石风险",
+      "path": "/safety/outdoor#kp-rockfall-risk"
+    },
+    "kp-roof-technique": {
+      "sectionId": "section-03",
+      "subSectionSlug": "terrain",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "屋檐技术（Roof）",
+        "en": "Roof Technique",
+        "ko": "루프(Roof)"
+      },
+      "path": "/section/technique/terrain#kp-roof-technique"
+    },
+    "kp-rope": {
+      "sectionId": "section-05",
+      "subSectionSlug": "protection",
+      "sectionSlug": "gear",
+      "title": {
+        "zh": "攀岩绳",
+        "en": "Rope",
+        "ko": "로프"
+      },
+      "path": "/section/gear/protection"
+    },
+    "kp-route-reading-basics": {
+      "sectionId": "section-03",
+      "subSectionSlug": "route-reading",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "路线阅读基础",
+        "en": "Route Reading Fundamentals",
+        "ko": "루트 읽기의 기초"
+      },
+      "path": "/section/technique/route-reading#kp-route-reading-basics"
+    },
+    "kp-scoring-systems": {
+      "sectionId": "section-10",
+      "subSectionSlug": "rules",
+      "sectionSlug": "competition",
+      "title": "计分系统",
+      "path": "/competition/rules#kp-scoring-systems"
+    },
+    "kp-sequence-planning": {
+      "sectionId": "section-03",
+      "subSectionSlug": "route-reading",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "动作序列规划（Beta规划）",
+        "en": "Sequence Planning (Beta Planning)",
+        "ko": "동작 순서 계획 (베타 계획)"
+      },
+      "path": "/section/technique/route-reading#kp-sequence-planning"
+    },
+    "kp-shoulder-injury": {
+      "sectionId": "section-07",
+      "subSectionSlug": "common-injuries",
+      "sectionSlug": "injury",
+      "title": {
+        "zh": "肩部损伤",
+        "en": "Shoulder Injury",
+        "ko": "어깨 손상"
+      },
+      "path": "/section/injury/common-injuries"
+    },
+    "kp-shoulder-mobility": {
+      "sectionId": "section-02",
+      "subSectionSlug": "flexibility",
+      "sectionSlug": "physical",
+      "title": {
+        "zh": "肩部灵活性",
+        "en": "Shoulder Mobility",
+        "ko": "어깨 가동성"
+      },
+      "path": "/section/physical/flexibility"
+    },
+    "kp-shoulder-stability": {
+      "sectionId": "section-02",
+      "subSectionSlug": "upper-body",
+      "sectionSlug": "physical",
+      "title": {
+        "zh": "肩部稳定性",
+        "en": "Shoulder Stability",
+        "ko": "어깨 안정성"
+      },
+      "path": "/section/physical/upper-body"
+    },
+    "kp-skin-management": {
+      "sectionId": "section-07",
+      "subSectionSlug": "common-injuries",
+      "sectionSlug": "injury",
+      "title": "皮肤管理",
+      "path": "/injury/common-injuries#kp-skin-management"
+    },
+    "kp-slab-technique": {
+      "sectionId": "section-03",
+      "subSectionSlug": "terrain",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "板岩技术（Slab）",
+        "en": "Slab Technique",
+        "ko": "슬랩 등반"
+      },
+      "path": "/section/technique/terrain#kp-slab-technique"
+    },
+    "kp-sleep-recovery": {
+      "sectionId": "section-07",
+      "subSectionSlug": "nutrition",
+      "sectionSlug": "injury",
+      "title": "睡眠与恢复",
+      "path": "/injury/nutrition#kp-sleep-recovery"
+    },
+    "kp-sloper-hold": {
+      "sectionId": "section-03",
+      "subSectionSlug": "handholds",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "圆点（Sloper）",
+        "en": "Sloper Holds",
+        "ko": "슬로퍼 홀드(Sloper Hold)"
+      },
+      "path": "/section/technique/handholds#kp-sloper-hold"
+    },
+    "kp-smearing": {
+      "sectionId": "section-03",
+      "subSectionSlug": "footwork",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "摩擦踩（Smearing）",
+        "en": "Smearing",
+        "ko": "스미어링(Smearing)"
+      },
+      "path": "/section/technique/footwork#kp-smearing"
+    },
+    "kp-smedging": {
+      "sectionId": "section-03",
+      "subSectionSlug": "footwork",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "蹬踩（Smedging）",
+        "en": "Smedging",
+        "ko": "스메징(Smedging)"
+      },
+      "path": "/section/technique/footwork#kp-smedging"
+    },
+    "kp-special-categories": {
+      "sectionId": "section-01",
+      "subSectionSlug": "categories",
+      "sectionSlug": "overview",
+      "title": "特殊攀岩类型",
+      "path": "/overview/categories#kp-special-categories"
+    },
+    "kp-speed-competition": {
+      "sectionId": "section-10",
+      "subSectionSlug": "formats",
+      "sectionSlug": "competition",
+      "title": "速度赛形式",
+      "path": "/competition/formats#kp-speed-competition"
+    },
+    "kp-sport-climbing-emergence": {
+      "sectionId": "section-01",
+      "subSectionSlug": "history",
+      "sectionSlug": "overview",
+      "title": "运动攀岩的兴起",
+      "path": "/overview/history#kp-sport-climbing-emergence"
+    },
+    "kp-spotter": {
+      "sectionId": "section-06",
+      "subSectionSlug": "bouldering-safety",
+      "sectionSlug": "safety",
+      "title": "保护人的角色与技巧",
+      "path": "/safety/bouldering-safety#kp-spotter"
+    },
+    "kp-stemming": {
+      "sectionId": "section-03",
+      "subSectionSlug": "body-positioning",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "外撑/桥接（Stemming）",
+        "en": "Stemming",
+        "ko": "스테밍(Stemming)"
+      },
+      "path": "/section/technique/body-positioning#kp-stemming"
+    },
+    "kp-swing-momentum": {
+      "sectionId": "section-03",
+      "subSectionSlug": "dynamic",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "重力助推与摆荡技术（Swing-by & Momentum）",
+        "en": "Swing-by & Momentum",
+        "ko": "스윙과 모멘텀"
+      },
+      "path": "/section/technique/dynamic#kp-swing-momentum"
+    },
+    "kp-system-wall": {
+      "sectionId": "section-05",
+      "subSectionSlug": "training-gear",
+      "sectionSlug": "gear",
+      "title": {
+        "zh": "系统训练墙",
+        "en": "System Wall",
+        "ko": "시스템 월"
+      },
+      "path": "/section/gear/training-gear"
+    },
+    "kp-tendonitis": {
+      "sectionId": "section-07",
+      "subSectionSlug": "common-injuries",
+      "sectionSlug": "injury",
+      "title": {
+        "zh": "肌腱炎",
+        "en": "Tendonitis",
+        "ko": "건염"
+      },
+      "path": "/section/injury/common-injuries"
+    },
+    "kp-time-limits-attempts": {
+      "sectionId": "section-10",
+      "subSectionSlug": "rules",
+      "sectionSlug": "competition",
+      "title": "时间限制与尝试规则",
+      "path": "/competition/rules#kp-time-limits-attempts"
+    },
+    "kp-toe-hook": {
+      "sectionId": "section-03",
+      "subSectionSlug": "footwork",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "勾脚尖（Toe Hook）",
+        "en": "Toe Hook",
+        "ko": "토우 훅(Toe Hook)"
+      },
+      "path": "/section/technique/footwork#kp-toe-hook"
+    },
+    "kp-training-log": {
+      "sectionId": "section-04",
+      "subSectionSlug": "goals",
+      "sectionSlug": "mental",
+      "title": "训练日志与弱点分析",
+      "path": "/mental/goals#kp-training-log"
+    },
+    "kp-trip-planning": {
+      "sectionId": "section-08",
+      "subSectionSlug": "travel",
+      "sectionSlug": "outdoor",
+      "title": "旅行规划与准备",
+      "path": "/outdoor/travel#kp-trip-planning"
+    },
+    "kp-twist-lock": {
+      "sectionId": "section-03",
+      "subSectionSlug": "body-positioning",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "扭锁（Twist Lock）",
+        "en": "Twist Lock",
+        "ko": "트위스트 락(Twist Lock)"
+      },
+      "path": "/section/technique/body-positioning#kp-twist-lock"
+    },
+    "kp-undercling-sidepull-gaston": {
+      "sectionId": "section-03",
+      "subSectionSlug": "handholds",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "反抓、侧拉与加斯顿",
+        "en": "Undercling, Side Pull & Gaston",
+        "ko": "언더클링, 사이드풀, 가스통"
+      },
+      "path": "/section/technique/handholds#kp-undercling-sidepull-gaston"
+    },
+    "kp-vertical-wall-technique": {
+      "sectionId": "section-03",
+      "subSectionSlug": "terrain",
+      "sectionSlug": "technique",
+      "title": {
+        "zh": "垂直壁技术",
+        "en": "Vertical Face Climbing",
+        "ko": "수직 벽 등반 기술"
+      },
+      "path": "/section/technique/terrain#kp-vertical-wall-technique"
+    },
+    "kp-wall-living": {
+      "sectionId": "section-08",
+      "subSectionSlug": "big-wall",
+      "sectionSlug": "outdoor",
+      "title": "岩壁生活",
+      "path": "/outdoor/big-wall#kp-wall-living"
+    },
+    "kp-warmup": {
+      "sectionId": "section-07",
+      "subSectionSlug": "prevention",
+      "sectionSlug": "injury",
+      "title": {
+        "zh": "热身运动",
+        "en": "Warm-Up",
+        "ko": "워밍업"
+      },
+      "path": "/section/injury/prevention"
+    },
+    "kp-warmup-stretching": {
+      "sectionId": "section-02",
+      "subSectionSlug": "flexibility",
+      "sectionSlug": "physical",
+      "title": "热身与拉伸方案",
+      "path": "/physical/flexibility#kp-warmup-stretching"
+    },
+    "kp-weather-assessment": {
+      "sectionId": "section-06",
+      "subSectionSlug": "outdoor",
+      "sectionSlug": "safety",
+      "title": "天气评估",
+      "path": "/safety/outdoor#kp-weather-assessment"
+    },
+    "kp-weight-management": {
+      "sectionId": "section-07",
+      "subSectionSlug": "nutrition",
+      "sectionSlug": "injury",
+      "title": "体重管理",
+      "path": "/injury/nutrition#kp-weight-management"
+    },
+    "kp-when-to-rest": {
+      "sectionId": "section-07",
+      "subSectionSlug": "prevention",
+      "sectionSlug": "injury",
+      "title": {
+        "zh": "何时休息",
+        "en": "When to Rest"
+      },
+      "path": "/section/injury/prevention#kp-when-to-rest"
+    },
+    "kp-wilderness-first-aid": {
+      "sectionId": "section-06",
+      "subSectionSlug": "outdoor",
+      "sectionSlug": "safety",
+      "title": "野外急救",
+      "path": "/safety/outdoor#kp-wilderness-first-aid"
+    },
+    "kp-working-linking": {
+      "sectionId": "section-04",
+      "subSectionSlug": "projecting",
+      "sectionSlug": "mental",
+      "title": "分段练习与连接策略",
+      "path": "/mental/projecting#kp-working-linking"
+    },
+    "kp-youth-competition": {
+      "sectionId": "section-09",
+      "subSectionSlug": "youth",
+      "sectionSlug": "special",
+      "title": "竞赛路径",
+      "path": "/special/youth#kp-youth-competition"
+    },
+    "kp-youth-training-load": {
+      "sectionId": "section-09",
+      "subSectionSlug": "youth",
+      "sectionSlug": "special",
+      "title": "训练负荷管理",
+      "path": "/special/youth#kp-youth-training-load"
     }
   }
 }
