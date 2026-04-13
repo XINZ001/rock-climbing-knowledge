@@ -216,9 +216,17 @@ function ResultCard({ result, answers, onRestart }) {
 
   return (
     <div className="animate-fadeIn">
+      {/* type illustration */}
+      <div className="flex justify-center mb-4">
+        <img
+          src={`/images/mbti/mbti-${typeCode.toLowerCase().replace('-', '')}.webp`}
+          alt={typeInfo.name.zh}
+          className="w-48 h-48 object-contain"
+        />
+      </div>
+
       {/* type header */}
       <div className="text-center mb-6">
-        <div className="text-6xl mb-3">{typeInfo.emoji}</div>
         <div className="text-2xl font-bold text-text-primary font-mono tracking-wider mb-1">{typeCode}</div>
         <div className="text-xl font-semibold text-text-primary mb-2">{typeInfo.name.zh}</div>
         <div className="inline-block px-3 py-1 rounded-full text-xs font-medium bg-forest-light text-forest">
