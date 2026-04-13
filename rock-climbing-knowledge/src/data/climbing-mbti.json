@@ -100,15 +100,15 @@
       { "id": "b", "text": { "zh": "「我试试看吧」", "en": "'Let me give it a shot'" }, "score": 2 },
       { "id": "c", "text": { "zh": "什么也不说直接上", "en": "Say nothing, just start" }, "score": 1 }
     ]},
-    { "id": "q20", "dim": "D10", "text": { "zh": "你发攀岩内容到朋友圈，你会配什么文案？", "en": "Posting climbing content. Your caption?" }, "options": [
-      { "id": "a", "text": { "zh": "「废物日记 Day 47」/「又是丢人的一天」", "en": "'Trash diary Day 47' / 'Another embarrassing day'" }, "score": 3 },
-      { "id": "b", "text": { "zh": "「今天状态不错」", "en": "'Good session today'" }, "score": 2 },
-      { "id": "c", "text": { "zh": "不配文或者写个日期", "en": "No caption or just the date" }, "score": 1 }
+    { "id": "q20", "dim": "D10", "text": { "zh": "你完攀了一条对你来说很难的线，旁边有人鼓掌，你？", "en": "You send a hard route and people clap. You?" }, "options": [
+      { "id": "a", "text": { "zh": "「哈哈运气好运气好，下次肯定掉」", "en": "'Haha just lucky, definitely falling next time'" }, "score": 3 },
+      { "id": "b", "text": { "zh": "开心地说谢谢", "en": "Happily say thanks" }, "score": 2 },
+      { "id": "c", "text": { "zh": "点个头，默默去试下一条", "en": "Nod and quietly move to the next route" }, "score": 1 }
     ]},
-    { "id": "q21", "dim": null, "hidden": "HUNTER", "text": { "zh": "如果岩馆关门了，你最可能出现在哪？", "en": "If your gym closes, where do you go?" }, "options": [
-      { "id": "a", "text": { "zh": "另一个岩馆", "en": "Another climbing gym" }, "score": 0 },
-      { "id": "b", "text": { "zh": "健身房", "en": "Regular gym" }, "score": 0 },
-      { "id": "c", "text": { "zh": "哪里人多去哪里，反正我是来交朋友的", "en": "Wherever the people are — I'm here to socialize" }, "score": 0, "trigger": "HUNTER" }
+    { "id": "q21", "dim": null, "hidden": "HUNTER", "text": { "zh": "你觉得一个好岩馆最重要的是什么？", "en": "What matters most in a good climbing gym?" }, "options": [
+      { "id": "a", "text": { "zh": "线路质量好，更新快", "en": "Good routes, frequent resets" }, "score": 0 },
+      { "id": "b", "text": { "zh": "离家近，去着方便", "en": "Close to home, convenient" }, "score": 0 },
+      { "id": "c", "text": { "zh": "氛围好，常客好看，容易认识新朋友", "en": "Great vibe, attractive regulars, easy to meet people" }, "score": 0, "trigger": "HUNTER" }
     ]}
   ],
   "dimensions": {
