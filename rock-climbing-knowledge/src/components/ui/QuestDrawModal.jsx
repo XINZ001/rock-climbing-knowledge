@@ -94,10 +94,10 @@ function getTierCardStyle(tier) {
   }
 }
 
-// --- 预加载缩略图 ---
-const thumbsPreloaded = useRef(false)
-if (!thumbsPreloaded.current) {
-  thumbsPreloaded.current = true
+// --- 预加载缩略图（模块级，只执行一次）---
+let _thumbsPreloaded = false
+if (!_thumbsPreloaded) {
+  _thumbsPreloaded = true
   quests.forEach(q => { new Image().src = getThumbPath(q) })
 }
 
