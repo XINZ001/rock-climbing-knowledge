@@ -1,0 +1,153 @@
+{
+  "questions": [
+    { "id": "q0", "dim": null, "hidden": "DRUNK", "text": { "zh": "攀岩完你最喜欢做什么？", "en": "What do you like to do after climbing?" }, "options": [
+      { "id": "a", "text": { "zh": "直接回家洗澡休息", "en": "Go home and rest" }, "score": 0 },
+      { "id": "b", "text": { "zh": "和搭子去吃个饭", "en": "Grab food with friends" }, "score": 0 },
+      { "id": "c", "text": { "zh": "必须喝一杯，不喝等于没爬", "en": "Must grab a drink — no drink no climb" }, "score": 0, "trigger": "DRUNK" }
+    ]},
+    { "id": "q1", "dim": "D1", "text": { "zh": "你到岩馆后的第一件事？", "en": "First thing you do at the gym?" }, "options": [
+      { "id": "a", "text": { "zh": "看训练计划，直奔目标线路", "en": "Check my plan, head to target route" }, "score": 3 },
+      { "id": "b", "text": { "zh": "先随便爬两条热身，看心情", "en": "Warm up casually, see how I feel" }, "score": 2 },
+      { "id": "c", "text": { "zh": "扫一眼今天谁在，打个招呼再说", "en": "See who's here, say hi first" }, "score": 1 }
+    ]},
+    { "id": "q2", "dim": "D1", "text": { "zh": "三个月不能去岩馆，你最难受的是什么？", "en": "3 months without climbing — what hurts most?" }, "options": [
+      { "id": "a", "text": { "zh": "体能下降，好不容易练出来的指力要废了", "en": "Losing fitness — my hard-earned finger strength" }, "score": 3 },
+      { "id": "b", "text": { "zh": "少了一个让自己开心的地方", "en": "Missing a place that makes me happy" }, "score": 2 },
+      { "id": "c", "text": { "zh": "见不到那帮人了", "en": "Not seeing my climbing crew" }, "score": 1 }
+    ]},
+    { "id": "q3", "dim": "D2", "text": { "zh": "你搭子flash了你磨了三周的线，你的真实反应？", "en": "Your partner flashes your 3-week project. Real reaction?" }, "options": [
+      { "id": "a", "text": { "zh": "脸上说牛逼，胃里泛酸，回家路上复盘他每个动作", "en": "Say 'nice' while dying inside, replay every move on the drive home" }, "score": 3 },
+      { "id": "b", "text": { "zh": "真心佩服，顺便偷偷决定今天一定要完攀", "en": "Genuinely impressed, secretly vow to send it today" }, "score": 2 },
+      { "id": "c", "text": { "zh": "替他开心啊，关我什么事", "en": "Happy for them, has nothing to do with me" }, "score": 1 }
+    ]},
+    { "id": "q4", "dim": "D2", "text": { "zh": "小红书上有人说自己「攀岩一个月稳定V4」，你的反应？", "en": "Someone posts 'V4 in my first month of climbing'. Reaction?" }, "options": [
+      { "id": "a", "text": { "zh": "立刻点进去看他在哪个馆，然后默默比较", "en": "Click in to check their gym, silently compare" }, "score": 3 },
+      { "id": "b", "text": { "zh": "随便看看就划走了", "en": "Scroll past" }, "score": 2 },
+      { "id": "c", "text": { "zh": "V4就V4呗，跟我有什么关系", "en": "V4 is V4, nothing to do with me" }, "score": 1 }
+    ]},
+    { "id": "q5", "dim": "D3", "text": { "zh": "你搭子今天临时不来了，你？", "en": "Your partner bails last minute. You?" }, "options": [
+      { "id": "a", "text": { "zh": "算了改天吧，一个人去没劲", "en": "Skip it, no fun going alone" }, "score": 3 },
+      { "id": "b", "text": { "zh": "犹豫一下还是去了，但少了点意思", "en": "Still go, but it's not the same" }, "score": 2 },
+      { "id": "c", "text": { "zh": "自己去，本来就是去练的", "en": "Go anyway, I'm there to train" }, "score": 1 }
+    ]},
+    { "id": "q6", "dim": "D3", "text": { "zh": "岩馆里你最享受的时刻？", "en": "Your favorite moment at the gym?" }, "options": [
+      { "id": "a", "text": { "zh": "和搭子一起试同一条线，互相加油", "en": "Working a route with friends, cheering each other" }, "score": 3 },
+      { "id": "b", "text": { "zh": "在墙上那种什么都不想的专注感", "en": "That pure focus on the wall, thinking of nothing else" }, "score": 2 },
+      { "id": "c", "text": { "zh": "完攀一条磨了很久的线，那种突破感", "en": "Sending a long-term project, that breakthrough feeling" }, "score": 1 }
+    ]},
+    { "id": "q7", "dim": "D4", "text": { "zh": "你爬一条已经能轻松完攀的线，你觉得？", "en": "Climbing a route you can easily send. Thoughts?" }, "options": [
+      { "id": "a", "text": { "zh": "很享受，流畅地爬完一条线的感觉本身就很爽", "en": "Love it — the flow of a smooth send is its own reward" }, "score": 3 },
+      { "id": "b", "text": { "zh": "偶尔可以，当放松", "en": "Okay sometimes, as active rest" }, "score": 2 },
+      { "id": "c", "text": { "zh": "浪费时间，应该去试更难的", "en": "Waste of time, should be trying harder stuff" }, "score": 1 }
+    ]},
+    { "id": "q8", "dim": "D4", "text": { "zh": "你更喜欢哪种session？", "en": "Your ideal session?" }, "options": [
+      { "id": "a", "text": { "zh": "一个人慢慢爬，享受在墙上的感觉", "en": "Solo, savoring the movement" }, "score": 3 },
+      { "id": "b", "text": { "zh": "和朋友一起随便爬爬聊聊天", "en": "Casual session with friends" }, "score": 2 },
+      { "id": "c", "text": { "zh": "目标明确，今天就是要拿下那条线", "en": "Laser focused — today I send that route" }, "score": 1 }
+    ]},
+    { "id": "q9", "dim": "D5", "text": { "zh": "旁边有人用特别离谱的方式爬一条简单线，你？", "en": "Someone climbs an easy route in a bizarre way. You?" }, "options": [
+      { "id": "a", "text": { "zh": "忍不住走过去说「你可以试试这样」", "en": "Can't resist: 'Hey, maybe try it like this...'" }, "score": 3 },
+      { "id": "b", "text": { "zh": "内心吐槽完一整段但脸上微笑", "en": "Full internal roast, smiling on the outside" }, "score": 2 },
+      { "id": "c", "text": { "zh": "根本没注意到", "en": "Didn't even notice" }, "score": 1 }
+    ]},
+    { "id": "q10", "dim": "D5", "text": { "zh": "搭子连续掉了五次同一个地方，你？", "en": "Your partner falls at the same spot 5 times. You?" }, "options": [
+      { "id": "a", "text": { "zh": "开始详细讲解，恨不得替他上墙", "en": "Launch into a detailed breakdown, almost climb it for them" }, "score": 3 },
+      { "id": "b", "text": { "zh": "心里想「他今天是完攀不了的」但不说", "en": "Think 'not happening today' but keep quiet" }, "score": 2 },
+      { "id": "c", "text": { "zh": "说一句「加油」然后看手机", "en": "Say 'you got this' and check my phone" }, "score": 1 }
+    ]},
+    { "id": "q11", "dim": "D6", "text": { "zh": "岩馆里很多人在看你爬，你？", "en": "Lots of people watching you climb. You?" }, "options": [
+      { "id": "a", "text": { "zh": "肾上腺素拉满，动作都变好了", "en": "Adrenaline kicks in, I climb even better" }, "score": 3 },
+      { "id": "b", "text": { "zh": "稍微紧张但还好", "en": "Bit nervous but manageable" }, "score": 2 },
+      { "id": "c", "text": { "zh": "想换一面没人的墙", "en": "Want to move to an empty wall" }, "score": 1 }
+    ]},
+    { "id": "q12", "dim": "D6", "text": { "zh": "你发攀岩相关的朋友圈/小红书吗？", "en": "Do you post climbing content on social media?" }, "options": [
+      { "id": "a", "text": { "zh": "发，而且会认真选角度、选滤镜、编文案", "en": "Yes — carefully curated angles, filters, captions" }, "score": 3 },
+      { "id": "b", "text": { "zh": "偶尔发，随手拍就行", "en": "Sometimes, just a quick snap" }, "score": 2 },
+      { "id": "c", "text": { "zh": "不发，爬完就走", "en": "Never, climb and leave" }, "score": 1 }
+    ]},
+    { "id": "q13", "dim": "D7", "text": { "zh": "你在岩馆爬得特别差的一天，你？", "en": "A really bad day at the gym. You?" }, "options": [
+      { "id": "a", "text": { "zh": "提前走了，不想让别人看到", "en": "Leave early, don't want anyone to see" }, "score": 3 },
+      { "id": "b", "text": { "zh": "待到原定时间，但换去人少的区域", "en": "Stay but move to a quiet area" }, "score": 2 },
+      { "id": "c", "text": { "zh": "没什么，明天继续", "en": "Whatever, there's always tomorrow" }, "score": 1 }
+    ]},
+    { "id": "q14", "dim": "D7", "text": { "zh": "有人主动来跟你搭话聊攀岩，你？", "en": "Someone comes up to chat about climbing. You?" }, "options": [
+      { "id": "a", "text": { "zh": "内心希望他赶紧走，我想一个人练", "en": "Wishing they'd leave so I can train in peace" }, "score": 3 },
+      { "id": "b", "text": { "zh": "礼貌回应但不太主动", "en": "Polite but not really engaging" }, "score": 2 },
+      { "id": "c", "text": { "zh": "挺开心，聊呗", "en": "Cool, let's chat" }, "score": 1 }
+    ]},
+    { "id": "q15", "dim": "D8", "text": { "zh": "连续三次掉在同一个地方，你脑子里的第一个想法？", "en": "Fall at the same spot 3 times. First thought?" }, "options": [
+      { "id": "a", "text": { "zh": "今天状态不好 / 手皮薄了 / 鞋不对", "en": "Bad day / skin is thin / wrong shoes" }, "score": 3 },
+      { "id": "b", "text": { "zh": "可能某个环节没做对", "en": "Probably doing something wrong" }, "score": 2 },
+      { "id": "c", "text": { "zh": "我就是还不够强", "en": "I'm just not strong enough yet" }, "score": 1 }
+    ]},
+    { "id": "q16", "dim": "D8", "text": { "zh": "你去了一个定级宽松的新馆，突然爬得特别好，你？", "en": "You crush at a soft-grading gym. Thoughts?" }, "options": [
+      { "id": "a", "text": { "zh": "这才是我的真实水平", "en": "THIS is my real level" }, "score": 3 },
+      { "id": "b", "text": { "zh": "偷偷开心但知道是馆的原因", "en": "Secretly happy but I know it's the grading" }, "score": 2 },
+      { "id": "c", "text": { "zh": "换个馆就变强了？别骗自己", "en": "Different gym = stronger? Don't kid yourself" }, "score": 1 }
+    ]},
+    { "id": "q17", "dim": "D9", "text": { "zh": "一个比你强的人给了你beta建议，但你自己的方法也行得通，你？", "en": "A stronger climber suggests beta, but your method works too. You?" }, "options": [
+      { "id": "a", "text": { "zh": "直接用他的，人家比我强肯定有道理", "en": "Use theirs — they're better so they must be right" }, "score": 3 },
+      { "id": "b", "text": { "zh": "两个都试试看哪个好", "en": "Try both and see" }, "score": 2 },
+      { "id": "c", "text": { "zh": "谢了，但我有自己的方法", "en": "Thanks, but I'll stick with mine" }, "score": 1 }
+    ]},
+    { "id": "q18", "dim": "D9", "text": { "zh": "选攀岩鞋的时候，你？", "en": "When choosing climbing shoes, you?" }, "options": [
+      { "id": "a", "text": { "zh": "看大佬/教练推荐什么就买什么", "en": "Buy whatever the pros recommend" }, "score": 3 },
+      { "id": "b", "text": { "zh": "看测评对比一下再决定", "en": "Read reviews and compare" }, "score": 2 },
+      { "id": "c", "text": { "zh": "自己去店里试，脚知道答案", "en": "Try them on — my feet decide" }, "score": 1 }
+    ]},
+    { "id": "q19", "dim": "D10", "text": { "zh": "你准备试一条很难的线，开爬前你会说什么？", "en": "About to try a hard route. What do you say?" }, "options": [
+      { "id": "a", "text": { "zh": "「我肯定掉，你们看好了哈哈」", "en": "'I'm definitely falling, watch this disaster haha'" }, "score": 3 },
+      { "id": "b", "text": { "zh": "「我试试看吧」", "en": "'Let me give it a shot'" }, "score": 2 },
+      { "id": "c", "text": { "zh": "什么也不说直接上", "en": "Say nothing, just start" }, "score": 1 }
+    ]},
+    { "id": "q20", "dim": "D10", "text": { "zh": "你发攀岩内容到朋友圈，你会配什么文案？", "en": "Posting climbing content. Your caption?" }, "options": [
+      { "id": "a", "text": { "zh": "「废物日记 Day 47」/「又是丢人的一天」", "en": "'Trash diary Day 47' / 'Another embarrassing day'" }, "score": 3 },
+      { "id": "b", "text": { "zh": "「今天状态不错」", "en": "'Good session today'" }, "score": 2 },
+      { "id": "c", "text": { "zh": "不配文或者写个日期", "en": "No caption or just the date" }, "score": 1 }
+    ]},
+    { "id": "q21", "dim": null, "hidden": "HUNTER", "text": { "zh": "如果岩馆关门了，你最可能出现在哪？", "en": "If your gym closes, where do you go?" }, "options": [
+      { "id": "a", "text": { "zh": "另一个岩馆", "en": "Another climbing gym" }, "score": 0 },
+      { "id": "b", "text": { "zh": "健身房", "en": "Regular gym" }, "score": 0 },
+      { "id": "c", "text": { "zh": "哪里人多去哪里，反正我是来交朋友的", "en": "Wherever the people are — I'm here to socialize" }, "score": 0, "trigger": "HUNTER" }
+    ]}
+  ],
+  "dimensions": {
+    "D1": { "name": { "zh": "能力驱动", "en": "Mastery Drive" }, "motivation": "求强" },
+    "D2": { "name": { "zh": "比较驱动", "en": "Comparison Drive" }, "motivation": "求赢" },
+    "D3": { "name": { "zh": "社交驱动", "en": "Social Drive" }, "motivation": "求人" },
+    "D4": { "name": { "zh": "体验驱动", "en": "Experience Drive" }, "motivation": "求爽" },
+    "D5": { "name": { "zh": "外化倾向", "en": "Externalize" }, "defense": "攻击" },
+    "D6": { "name": { "zh": "表演倾向", "en": "Perform" }, "defense": "表演" },
+    "D7": { "name": { "zh": "退缩倾向", "en": "Withdraw" }, "defense": "退缩" },
+    "D8": { "name": { "zh": "否认倾向", "en": "Deny" }, "defense": "否认" },
+    "D9": { "name": { "zh": "服从倾向", "en": "Submit" }, "defense": "服从" },
+    "D10": { "name": { "zh": "自嘲倾向", "en": "Self-mock" }, "defense": "自嘲" }
+  },
+  "types": {
+    "DO-S":    { "name": { "zh": "抖S", "en": "DO-S" }, "mot": "求强", "def": "攻击", "vec": [5,4,3,3,6,2,2,2,2,2], "emoji": "🔥" },
+    "EXCEL":   { "name": { "zh": "卷王", "en": "EXCEL" }, "mot": "求强", "def": "表演", "vec": [6,4,2,3,2,5,2,2,2,2], "emoji": "📊" },
+    "GHOST":   { "name": { "zh": "幽灵", "en": "GHOST" }, "mot": "求强", "def": "退缩", "vec": [5,3,2,5,2,2,6,2,2,2], "emoji": "👻" },
+    "NERD":    { "name": { "zh": "一根筋", "en": "NERD" }, "mot": "求强", "def": "否认", "vec": [5,3,2,4,2,2,2,5,2,2], "emoji": "🔧" },
+    "SIMP":    { "name": { "zh": "慕强", "en": "SIMP" }, "mot": "求强", "def": "服从", "vec": [5,4,3,3,2,2,2,2,6,2], "emoji": "🐑" },
+    "DO-M":    { "name": { "zh": "抖M", "en": "DO-M" }, "mot": "求强", "def": "自嘲", "vec": [6,3,2,4,3,2,2,2,2,5], "emoji": "🩸" },
+    "DIE":     { "name": { "zh": "爹", "en": "DIE" }, "mot": "求赢", "def": "攻击", "vec": [4,5,3,2,5,4,2,3,2,2], "emoji": "👨‍🏫" },
+    "GREEN-T": { "name": { "zh": "绿茶", "en": "GREEN-T" }, "mot": "求赢", "def": "表演", "vec": [3,5,4,3,3,5,2,2,2,2], "emoji": "🍵" },
+    "TILT":    { "name": { "zh": "玻璃心", "en": "TILT" }, "mot": "求赢", "def": "退缩", "vec": [3,6,3,3,2,2,5,3,2,2], "emoji": "💔" },
+    "BABY":    { "name": { "zh": "宝宝", "en": "BABY" }, "mot": "求赢", "def": "否认", "vec": [3,5,3,2,2,2,2,6,2,2], "emoji": "👶" },
+    "TRASH":   { "name": { "zh": "自废武功", "en": "TRASH" }, "mot": "求赢", "def": "自嘲", "vec": [3,5,3,3,2,2,2,2,2,6], "emoji": "🗑️" },
+    "MOM":     { "name": { "zh": "老母亲", "en": "MOM" }, "mot": "求人", "def": "攻击", "vec": [3,2,5,3,5,2,2,2,3,2], "emoji": "🤱" },
+    "HUNT-ER": { "name": { "zh": "猎手", "en": "HUNT-ER" }, "mot": "求人", "def": "表演", "vec": [2,3,5,3,2,5,2,2,2,2], "emoji": "🎯" },
+    "TALK-ER": { "name": { "zh": "话痨", "en": "TALK-ER" }, "mot": "求人", "def": "退缩", "vec": [2,2,6,3,2,3,4,2,2,2], "emoji": "💬" },
+    "FILTER":  { "name": { "zh": "滤镜人", "en": "FILTER" }, "mot": "求人", "def": "否认", "vec": [2,3,5,3,2,5,2,4,2,2], "emoji": "📸" },
+    "PUPPY":   { "name": { "zh": "小跟班", "en": "PUPPY" }, "mot": "求人", "def": "服从", "vec": [2,2,6,3,2,2,3,2,5,2], "emoji": "🐶" },
+    "CLOWN":   { "name": { "zh": "小丑", "en": "CLOWN" }, "mot": "求人", "def": "自嘲", "vec": [2,2,5,4,2,3,2,2,2,5], "emoji": "🤡" },
+    "YOLO":    { "name": { "zh": "莽夫", "en": "YOLO" }, "mot": "求爽", "def": "攻击", "vec": [3,2,3,6,4,2,2,2,2,2], "emoji": "🚀" },
+    "DRAMA":   { "name": { "zh": "戏精", "en": "DRAMA" }, "mot": "求爽", "def": "表演", "vec": [2,3,4,5,2,6,2,2,2,2], "emoji": "🎭" },
+    "DEAF":    { "name": { "zh": "聋子", "en": "DEAF" }, "mot": "求爽", "def": "退缩", "vec": [3,2,2,6,2,2,5,2,2,2], "emoji": "🎧" },
+    "HANG":    { "name": { "zh": "挂件", "en": "HANG" }, "mot": "求爽", "def": "否认", "vec": [2,2,3,5,2,2,3,5,2,2], "emoji": "🧗" },
+    "NPC":     { "name": { "zh": "路人甲", "en": "NPC" }, "mot": "求爽", "def": "服从", "vec": [2,2,4,4,2,2,2,2,5,3], "emoji": "🤖" },
+    "LOL":     { "name": { "zh": "摆烂侠", "en": "LOL" }, "mot": "求爽", "def": "自嘲", "vec": [2,2,3,5,2,2,2,2,2,6], "emoji": "😂" },
+    "SHORT":   { "name": { "zh": "都怪腿短", "en": "SHORT" }, "hidden": true, "emoji": "📏" },
+    "DRUNK":   { "name": { "zh": "岩馆酒鬼", "en": "DRUNK" }, "hidden": true, "emoji": "🍺" }
+  }
+}

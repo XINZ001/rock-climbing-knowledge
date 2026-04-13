@@ -347,6 +347,15 @@ export default function HomePage() {
             </span>
             🎯 {lang === 'zh' ? '今日微任务' : lang === 'en' ? 'Daily Quest' : '오늘의 퀘스트'}
           </button>
+          <Link
+            to="/climbing-mbti"
+            className="relative inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium bg-stone-card border border-stone-border text-text-secondary hover:text-text-primary hover:border-teal/40 hover:shadow-sm transition-all"
+          >
+            <span className="absolute -top-2 -right-2 px-1.5 py-0.5 text-[10px] font-bold leading-none text-white bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded-full shadow-sm">
+              BETA
+            </span>
+            🧩 {lang === 'zh' ? '攀岩MBTI' : lang === 'en' ? 'Climbing MBTI' : '클라이밍 MBTI'}
+          </Link>
         </div>
       </div>
 

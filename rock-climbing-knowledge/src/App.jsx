@@ -21,6 +21,7 @@ import ArticleListPage from './pages/ArticleListPage'
 import ArticleCategoryPage from './pages/ArticleCategoryPage'
 import ArticleDetailPage from './pages/ArticleDetailPage'
 import DiagnosisPage from './pages/DiagnosisPage'
+import ClimbingMbtiPage from './pages/ClimbingMbtiPage'
 import ProfilePage from './pages/ProfilePage'
 import QuestPage from './pages/QuestPage'
 
@@ -50,6 +51,7 @@ export default function App() {
           <Route path="search" element={<SearchPage />} />
           <Route path="quests" element={<QuestPage />} />
           <Route path="diagnosis" element={<DiagnosisPage />} />
+          <Route path="climbing-mbti" element={<ClimbingMbtiPage />} />
           <Route path="injuries" element={<InjuryListPage />} />
           <Route path="injuries/new" element={<InjuryFormPage />} />
           <Route path="injuries/:id" element={<InjuryDetailPage />} />
