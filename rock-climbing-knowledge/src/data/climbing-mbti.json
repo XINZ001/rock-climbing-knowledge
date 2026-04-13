@@ -105,10 +105,10 @@
       { "id": "b", "text": { "zh": "开心地说谢谢", "en": "Happily say thanks" }, "score": 2 },
       { "id": "c", "text": { "zh": "点个头，默默去试下一条", "en": "Nod and quietly move to the next route" }, "score": 1 }
     ]},
-    { "id": "q21", "dim": null, "hidden": "HUNTER", "text": { "zh": "你觉得一个好岩馆最重要的是什么？", "en": "What matters most in a good climbing gym?" }, "options": [
+    { "id": "q21", "dim": null, "text": { "zh": "你觉得一个好岩馆最重要的是什么？", "en": "What matters most in a good climbing gym?" }, "options": [
       { "id": "a", "text": { "zh": "线路质量好，更新快", "en": "Good routes, frequent resets" }, "score": 0 },
       { "id": "b", "text": { "zh": "离家近，去着方便", "en": "Close to home, convenient" }, "score": 0 },
-      { "id": "c", "text": { "zh": "氛围好，常客好看，容易认识新朋友", "en": "Great vibe, attractive regulars, easy to meet people" }, "score": 0, "trigger": "HUNTER" }
+      { "id": "c", "text": { "zh": "氛围好，常客好看，容易认识新朋友", "en": "Great vibe, attractive regulars, easy to meet people" }, "score": 0 }
     ]}
   ],
   "dimensions": {
@@ -136,7 +136,6 @@
     "BABY":    { "name": { "zh": "宝宝", "en": "BABY" }, "mot": "求赢", "def": "否认", "vec": [3,5,3,2,2,2,2,6,2,2], "emoji": "👶" },
     "TRASH":   { "name": { "zh": "自废武功", "en": "TRASH" }, "mot": "求赢", "def": "自嘲", "vec": [3,5,3,3,2,2,2,2,2,6], "emoji": "🗑️" },
     "MOM":     { "name": { "zh": "老母亲", "en": "MOM" }, "mot": "求人", "def": "攻击", "vec": [3,2,5,3,5,2,2,2,3,2], "emoji": "🤱" },
-    "HUNT-ER": { "name": { "zh": "猎手", "en": "HUNT-ER" }, "mot": "求人", "def": "表演", "vec": [2,3,5,3,2,5,2,2,2,2], "emoji": "🎯" },
     "TALK-ER": { "name": { "zh": "话痨", "en": "TALK-ER" }, "mot": "求人", "def": "退缩", "vec": [2,2,6,3,2,3,4,2,2,2], "emoji": "💬" },
     "FILTER":  { "name": { "zh": "滤镜人", "en": "FILTER" }, "mot": "求人", "def": "否认", "vec": [2,3,5,3,2,5,2,4,2,2], "emoji": "📸" },
     "PUPPY":   { "name": { "zh": "小跟班", "en": "PUPPY" }, "mot": "求人", "def": "服从", "vec": [2,2,6,3,2,2,3,2,5,2], "emoji": "🐶" },
