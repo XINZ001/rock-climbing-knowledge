@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
+import { Link, useOutletContext } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
 import { useApp } from '../context/AppContext'
 import { Icon } from '../utils/icons'
@@ -84,6 +84,8 @@ const personaMap = Object.fromEntries(
 export default function ProfilePage() {
   const { user, profile } = useAuth()
   const { lang } = useApp()
+  const outletCtx = useOutletContext() || {}
+  const onOpenAuth = outletCtx.onOpenAuth
   const [history, setHistory] = useState([])
   const [loading, setLoading] = useState(true)
   const [questProgress] = useState(loadQuestProgress)
@@ -101,11 +103,55 @@ export default function ProfilePage() {
   }, [user])
 
   if (!user) {
+    const features = [
+      { icon: '🐒', title: tt('攀岩动物人格', 'Climbing Animal', '클라이밍 동물'), desc: tt('测试并保存你的专属人格画像', 'Take the quiz and save your persona', '퍼소나 진단 저장') },
+      { icon: '🎯', title: tt('每日微任务', 'Daily Quests', '데일리 퀘스트'), desc: tt('解锁成就卡、累积升级到金卡', 'Unlock cards, climb from stone to gold', '성취 카드 잠금해제') },
+      { icon: '🩹', title: tt('伤痛档案', 'Injury Log', '부상 기록'), desc: tt('记录受伤与恢复，构建自己的安全手册', 'Log injuries and recovery over time', '부상·회복 기록') },
+    ]
     return (
-      <div className="max-w-xl mx-auto px-4 py-16 text-center">
-        <p className="text-text-secondary">
-          {tt('请先登录', 'Please log in first', '먼저 로그인해 주세요')}
-        </p>
+      <div className="min-h-screen flex flex-col items-center justify-center px-6 py-12 animate-fadeIn">
+        <div className="w-full max-w-sm text-center">
+          {/* Hero */}
+          <div className="relative mx-auto w-24 h-24 mb-6 rounded-3xl bg-gradient-to-br from-forest to-forest-dark flex items-center justify-center shadow-lg shadow-forest/20">
+            <span className="text-5xl">🧗</span>
+            <span className="absolute -top-1 -right-1 w-7 h-7 rounded-full bg-amber flex items-center justify-center text-white text-sm font-bold">✨</span>
+          </div>
+          <h1 className="text-xl font-bold text-text-primary mb-2">
+            {tt('登录后解锁你的攀岩主页', 'Unlock your climbing profile', '나의 클라이밍 홈 잠금해제')}
+          </h1>
+          <p className="text-sm text-text-secondary mb-8 leading-relaxed">
+            {tt('同步进度、记录伤病、保存成就卡——一切只属于你。', 'Sync progress, log injuries, save your quest cards.', '진행 상황과 성취 카드를 함께 보관하세요.')}
+          </p>
+
+          {/* Feature list */}
+          <div className="space-y-2.5 mb-8 text-left">
+            {features.map(f => (
+              <div key={f.title} className="flex items-start gap-3 p-3 rounded-xl bg-stone-card border border-stone-border">
+                <span className="text-2xl leading-none pt-0.5">{f.icon}</span>
+                <div className="flex-1 min-w-0">
+                  <div className="text-sm font-semibold text-text-primary">{f.title}</div>
+                  <div className="text-xs text-text-secondary leading-snug mt-0.5">{f.desc}</div>
+                </div>
+              </div>
+            ))}
+          </div>
+
+          {/* Primary CTA */}
+          <button
+            onClick={onOpenAuth}
+            className="w-full h-12 rounded-full bg-forest hover:bg-forest-dark text-white text-sm font-semibold shadow-md shadow-forest/20 btn-press transition-colors"
+          >
+            {tt('登录 / 注册', 'Sign in / Sign up', '로그인 / 회원가입')}
+          </button>
+
+          {/* Secondary */}
+          <Link
+            to="/"
+            className="inline-block mt-4 text-xs text-text-secondary hover:text-forest transition-colors"
+          >
+            {tt('先随便逛逛 →', 'Just browse for now →', '먼저 둘러보기 →')}
+          </Link>
+        </div>
       </div>
     )
   }

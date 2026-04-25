@@ -1,0 +1,1381 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>攀岩知识库 — 信息架构图 v2</title>
+<style>
+  :root {
+    --bg: #0a0a0f;
+    --surface: #141420;
+    --surface2: #1c1c2e;
+    --border: #2a2a40;
+    --text: #e8e8f0;
+    --text2: #9090a8;
+    --accent-discover: #f97316;
+    --accent-learn: #22c55e;
+    --accent-train: #8b5cf6;
+    --accent-profile: #64748b;
+    --accent-blue: #3b82f6;
+    --accent-pink: #ec4899;
+    --accent-yellow: #eab308;
+    --accent-red: #ef4444;
+    --accent-cyan: #06b6d4;
+  }
+
+  * { margin: 0; padding: 0; box-sizing: border-box; }
+
+  body {
+    font-family: -apple-system, 'SF Pro Display', 'Helvetica Neue', sans-serif;
+    background: var(--bg);
+    color: var(--text);
+    line-height: 1.6;
+    padding: 40px 20px 120px;
+    min-height: 100vh;
+  }
+
+  .container {
+    max-width: 1400px;
+    margin: 0 auto;
+  }
+
+  /* Header */
+  .doc-header {
+    text-align: center;
+    margin-bottom: 60px;
+  }
+  .doc-header h1 {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    background: linear-gradient(135deg, var(--accent-discover), var(--accent-learn), var(--accent-train));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+  .doc-header p {
+    color: var(--text2);
+    font-size: 16px;
+    max-width: 600px;
+    margin: 0 auto;
+  }
+  .doc-header .version {
+    display: inline-block;
+    margin-top: 12px;
+    padding: 4px 12px;
+    border-radius: 20px;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    font-size: 13px;
+    color: var(--text2);
+  }
+
+  /* Section titles */
+  .section-title {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 60px 0 8px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .section-title .num {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 32px;
+    height: 32px;
+    border-radius: 8px;
+    font-size: 14px;
+    font-weight: 700;
+  }
+  .section-desc {
+    color: var(--text2);
+    font-size: 14px;
+    margin-bottom: 28px;
+    padding-left: 42px;
+  }
+
+  /* === PRINCIPLE BANNER === */
+  .principle-banner {
+    background: linear-gradient(135deg, rgba(59,130,246,0.08), rgba(139,92,246,0.08));
+    border: 1px solid rgba(59,130,246,0.2);
+    border-radius: 16px;
+    padding: 32px;
+    margin-bottom: 48px;
+  }
+  .principle-banner h2 {
+    font-size: 18px;
+    margin-bottom: 16px;
+    color: var(--accent-blue);
+  }
+  .principle-cols {
+    display: grid;
+    grid-template-columns: 1fr 60px 1fr;
+    align-items: center;
+    gap: 0;
+  }
+  .principle-box {
+    padding: 20px;
+    border-radius: 12px;
+    text-align: center;
+  }
+  .principle-box.before {
+    background: rgba(239,68,68,0.08);
+    border: 1px solid rgba(239,68,68,0.2);
+  }
+  .principle-box.after {
+    background: rgba(34,197,94,0.08);
+    border: 1px solid rgba(34,197,94,0.2);
+  }
+  .principle-box .label {
+    font-size: 12px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+  }
+  .principle-box.before .label { color: var(--accent-red); }
+  .principle-box.after .label { color: var(--accent-learn); }
+  .principle-box h3 { font-size: 16px; margin-bottom: 6px; }
+  .principle-box p { font-size: 13px; color: var(--text2); }
+  .principle-arrow {
+    text-align: center;
+    font-size: 28px;
+    color: var(--text2);
+  }
+
+  /* === BOTTOM NAV === */
+  .bottom-nav-demo {
+    display: flex;
+    justify-content: center;
+    margin: 40px 0 20px;
+  }
+  .bottom-nav-bar {
+    display: flex;
+    gap: 0;
+    background: var(--surface);
+    border-radius: 20px;
+    border: 1px solid var(--border);
+    overflow: hidden;
+    width: fit-content;
+  }
+  .nav-tab {
+    padding: 16px 48px;
+    text-align: center;
+    cursor: pointer;
+    transition: all 0.2s;
+    border-right: 1px solid var(--border);
+  }
+  .nav-tab:last-child { border-right: none; }
+  .nav-tab .icon { font-size: 24px; display: block; margin-bottom: 4px; }
+  .nav-tab .name { font-size: 13px; font-weight: 600; }
+  .nav-tab .en { font-size: 11px; color: var(--text2); }
+  .nav-tab.discover { background: rgba(249,115,22,0.1); }
+  .nav-tab.discover .name { color: var(--accent-discover); }
+  .nav-tab.learn { background: rgba(34,197,94,0.1); }
+  .nav-tab.learn .name { color: var(--accent-learn); }
+  .nav-tab.train { background: rgba(139,92,246,0.1); }
+  .nav-tab.train .name { color: var(--accent-train); }
+
+  /* === TAB DETAIL SECTIONS === */
+  .tab-section {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 36px;
+    margin-bottom: 32px;
+  }
+  .tab-section h3 {
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 6px;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  .tab-section .tab-desc {
+    color: var(--text2);
+    font-size: 14px;
+    margin-bottom: 24px;
+  }
+  .tab-section.discover-section { border-color: rgba(249,115,22,0.3); }
+  .tab-section.discover-section h3 { color: var(--accent-discover); }
+  .tab-section.learn-section { border-color: rgba(34,197,94,0.3); }
+  .tab-section.learn-section h3 { color: var(--accent-learn); }
+  .tab-section.train-section { border-color: rgba(139,92,246,0.3); }
+  .tab-section.train-section h3 { color: var(--accent-train); }
+
+  /* Content blocks within tab sections */
+  .content-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 16px;
+  }
+  .content-card {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 12px;
+    padding: 20px;
+  }
+  .content-card h4 {
+    font-size: 15px;
+    font-weight: 600;
+    margin-bottom: 8px;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+  .content-card p {
+    font-size: 13px;
+    color: var(--text2);
+    line-height: 1.5;
+  }
+  .content-card .tag {
+    display: inline-block;
+    padding: 2px 8px;
+    border-radius: 6px;
+    font-size: 11px;
+    font-weight: 600;
+    margin-top: 8px;
+  }
+  .tag-feed { background: rgba(249,115,22,0.15); color: var(--accent-discover); }
+  .tag-kp { background: rgba(34,197,94,0.15); color: var(--accent-learn); }
+  .tag-tool { background: rgba(139,92,246,0.15); color: var(--accent-train); }
+  .tag-data { background: rgba(59,130,246,0.15); color: var(--accent-blue); }
+
+  /* === LEARN TAB INTERNAL STRUCTURE === */
+  .learn-paths {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 16px;
+    margin-bottom: 24px;
+  }
+  .learn-path {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 14px;
+    padding: 24px;
+    position: relative;
+    overflow: hidden;
+  }
+  .learn-path::before {
+    content: '';
+    position: absolute;
+    top: 0; left: 0; right: 0;
+    height: 3px;
+  }
+  .learn-path.path-problem::before { background: var(--accent-red); }
+  .learn-path.path-level::before { background: var(--accent-yellow); }
+  .learn-path.path-tag::before { background: var(--accent-cyan); }
+  .learn-path.path-tree::before { background: var(--accent-blue); }
+
+  .learn-path .path-icon { font-size: 28px; margin-bottom: 10px; }
+  .learn-path h4 { font-size: 16px; margin-bottom: 4px; }
+  .learn-path .path-subtitle { font-size: 12px; color: var(--text2); margin-bottom: 12px; }
+  .learn-path .path-examples {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+  }
+  .learn-path .path-examples .pill {
+    padding: 4px 10px;
+    border-radius: 8px;
+    font-size: 12px;
+    background: rgba(255,255,255,0.05);
+    border: 1px solid var(--border);
+    color: var(--text2);
+  }
+  .learn-path .path-meta {
+    margin-top: 12px;
+    font-size: 12px;
+    color: var(--text2);
+    font-style: italic;
+  }
+
+  /* === KP DETAIL PAGE STRUCTURE === */
+  .kp-detail-demo {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    overflow: hidden;
+    margin-top: 24px;
+  }
+  .kp-detail-header {
+    padding: 24px 28px 16px;
+    border-bottom: 1px solid var(--border);
+  }
+  .kp-detail-header .breadcrumb {
+    font-size: 12px;
+    color: var(--text2);
+    margin-bottom: 8px;
+  }
+  .kp-detail-header .breadcrumb span { color: var(--accent-learn); }
+  .kp-detail-header h4 { font-size: 20px; }
+  .kp-detail-header .kp-tags {
+    display: flex;
+    gap: 6px;
+    margin-top: 8px;
+  }
+  .kp-detail-header .kp-tags .pill {
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-size: 11px;
+    background: rgba(34,197,94,0.1);
+    color: var(--accent-learn);
+    border: 1px solid rgba(34,197,94,0.2);
+  }
+
+  .kp-detail-body {
+    padding: 0;
+  }
+  .kp-section-row {
+    padding: 16px 28px;
+    border-bottom: 1px solid var(--border);
+    display: flex;
+    align-items: flex-start;
+    gap: 16px;
+  }
+  .kp-section-row:last-child { border-bottom: none; }
+  .kp-section-row .row-icon {
+    width: 36px;
+    height: 36px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    flex-shrink: 0;
+    background: rgba(255,255,255,0.05);
+  }
+  .kp-section-row .row-content h5 {
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 4px;
+  }
+  .kp-section-row .row-content p {
+    font-size: 13px;
+    color: var(--text2);
+  }
+
+  /* === RELATION NETWORK === */
+  .relation-network {
+    background: var(--surface2);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 28px;
+    margin-top: 24px;
+  }
+  .relation-network h4 {
+    font-size: 16px;
+    margin-bottom: 16px;
+    color: var(--accent-blue);
+  }
+  .relation-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 12px;
+  }
+  .relation-item {
+    padding: 14px;
+    border-radius: 10px;
+    background: rgba(255,255,255,0.03);
+    border: 1px solid var(--border);
+  }
+  .relation-item .rel-type {
+    font-size: 11px;
+    font-weight: 700;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+    margin-bottom: 6px;
+  }
+  .relation-item .rel-links {
+    font-size: 13px;
+  }
+  .relation-item .rel-links a {
+    color: var(--accent-blue);
+    text-decoration: none;
+    display: block;
+    padding: 2px 0;
+  }
+  .rel-pre .rel-type { color: var(--accent-yellow); }
+  .rel-next .rel-type { color: var(--accent-learn); }
+  .rel-compare .rel-type { color: var(--accent-pink); }
+  .rel-combine .rel-type { color: var(--accent-cyan); }
+  .rel-solve .rel-type { color: var(--accent-discover); }
+
+  /* === DATA LAYER === */
+  .data-layer {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 36px;
+    margin-top: 32px;
+  }
+  .data-layer h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: var(--accent-blue);
+  }
+  .data-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 13px;
+  }
+  .data-table th {
+    text-align: left;
+    padding: 10px 14px;
+    background: var(--surface2);
+    color: var(--text2);
+    font-weight: 600;
+    font-size: 11px;
+    text-transform: uppercase;
+    letter-spacing: 0.5px;
+  }
+  .data-table th:first-child { border-radius: 8px 0 0 8px; }
+  .data-table th:last-child { border-radius: 0 8px 8px 0; }
+  .data-table td {
+    padding: 10px 14px;
+    border-bottom: 1px solid var(--border);
+    vertical-align: top;
+  }
+  .data-table .field-name { color: var(--accent-cyan); font-family: 'SF Mono', monospace; font-size: 12px; }
+  .status-has { color: var(--accent-learn); }
+  .status-need { color: var(--accent-red); }
+  .status-partial { color: var(--accent-yellow); }
+
+  /* === ROUTE MAP === */
+  .route-map {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 36px;
+    margin-top: 32px;
+  }
+  .route-map h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .route-group {
+    margin-bottom: 20px;
+  }
+  .route-group-title {
+    font-size: 13px;
+    font-weight: 700;
+    color: var(--text2);
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin-bottom: 8px;
+    padding-left: 4px;
+  }
+  .route-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    padding: 8px 12px;
+    border-radius: 8px;
+    margin-bottom: 4px;
+    font-size: 13px;
+  }
+  .route-item:hover { background: var(--surface2); }
+  .route-path {
+    font-family: 'SF Mono', monospace;
+    font-size: 12px;
+    color: var(--accent-cyan);
+    min-width: 260px;
+  }
+  .route-desc { color: var(--text2); }
+  .route-badge {
+    padding: 2px 8px;
+    border-radius: 6px;
+    font-size: 10px;
+    font-weight: 700;
+    flex-shrink: 0;
+  }
+  .route-badge.new { background: rgba(34,197,94,0.15); color: var(--accent-learn); }
+  .route-badge.changed { background: rgba(249,115,22,0.15); color: var(--accent-discover); }
+  .route-badge.keep { background: rgba(255,255,255,0.05); color: var(--text2); }
+  .route-badge.remove { background: rgba(239,68,68,0.15); color: var(--accent-red); }
+
+  /* === MIGRATION MAP === */
+  .migration-section {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 20px;
+    padding: 36px;
+    margin-top: 32px;
+  }
+  .migration-section h3 {
+    font-size: 20px;
+    margin-bottom: 20px;
+  }
+  .migration-grid {
+    display: grid;
+    grid-template-columns: 1fr 60px 1fr;
+    gap: 0;
+    align-items: start;
+  }
+  .migration-col h4 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 12px;
+    padding: 8px 12px;
+    border-radius: 8px;
+  }
+  .migration-col.old h4 {
+    background: rgba(239,68,68,0.1);
+    color: var(--accent-red);
+  }
+  .migration-col.new h4 {
+    background: rgba(34,197,94,0.1);
+    color: var(--accent-learn);
+  }
+  .migration-col .m-item {
+    padding: 6px 12px;
+    font-size: 13px;
+    border-left: 2px solid var(--border);
+    margin-bottom: 6px;
+    margin-left: 12px;
+  }
+  .migration-col.old .m-item.removed {
+    border-left-color: var(--accent-red);
+    color: var(--text2);
+    text-decoration: line-through;
+  }
+  .migration-col.old .m-item.moved {
+    border-left-color: var(--accent-yellow);
+    color: var(--accent-yellow);
+  }
+  .migration-col.new .m-item.added {
+    border-left-color: var(--accent-learn);
+    color: var(--accent-learn);
+  }
+  .migration-col.new .m-item.kept {
+    border-left-color: var(--border);
+    color: var(--text2);
+  }
+  .migration-arrows {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    padding-top: 48px;
+    color: var(--text2);
+    font-size: 20px;
+  }
+
+  /* === LAYER DIAGRAM === */
+  .layer-diagram {
+    margin: 32px 0;
+  }
+  .layer-box {
+    border-radius: 14px;
+    padding: 24px 28px;
+    margin-bottom: 8px;
+    position: relative;
+  }
+  .layer-box h4 { font-size: 15px; font-weight: 700; margin-bottom: 4px; }
+  .layer-box p { font-size: 13px; opacity: 0.8; }
+  .layer-box .layer-tag {
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 11px;
+    padding: 3px 10px;
+    border-radius: 6px;
+    font-weight: 600;
+  }
+  .layer-1 {
+    background: linear-gradient(135deg, rgba(249,115,22,0.12), rgba(34,197,94,0.12), rgba(139,92,246,0.12));
+    border: 1px solid rgba(249,115,22,0.3);
+  }
+  .layer-1 h4 { color: var(--accent-discover); }
+  .layer-1 .layer-tag { background: rgba(249,115,22,0.2); color: var(--accent-discover); }
+  .layer-2 {
+    background: rgba(59,130,246,0.08);
+    border: 1px solid rgba(59,130,246,0.2);
+  }
+  .layer-2 h4 { color: var(--accent-blue); }
+  .layer-2 .layer-tag { background: rgba(59,130,246,0.2); color: var(--accent-blue); }
+  .layer-3 {
+    background: rgba(236,72,153,0.08);
+    border: 1px solid rgba(236,72,153,0.2);
+  }
+  .layer-3 h4 { color: var(--accent-pink); }
+  .layer-3 .layer-tag { background: rgba(236,72,153,0.2); color: var(--accent-pink); }
+
+  .layer-connector {
+    text-align: center;
+    padding: 4px 0;
+    color: var(--text2);
+    font-size: 14px;
+  }
+
+  /* === USER FLOW === */
+  .flow-section {
+    margin-top: 32px;
+  }
+  .flow-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+  }
+  .flow-col {
+    background: var(--surface);
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 24px;
+  }
+  .flow-col h4 {
+    font-size: 14px;
+    font-weight: 700;
+    margin-bottom: 16px;
+    padding-bottom: 12px;
+    border-bottom: 1px solid var(--border);
+  }
+  .flow-step {
+    display: flex;
+    gap: 12px;
+    margin-bottom: 16px;
+    align-items: flex-start;
+  }
+  .flow-step .step-num {
+    width: 24px;
+    height: 24px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 12px;
+    font-weight: 700;
+    flex-shrink: 0;
+    background: var(--surface2);
+    border: 1px solid var(--border);
+  }
+  .flow-step .step-text {
+    font-size: 13px;
+    color: var(--text2);
+    line-height: 1.4;
+  }
+  .flow-step .step-text strong { color: var(--text); }
+  .flow-arrow {
+    text-align: center;
+    color: var(--text2);
+    font-size: 14px;
+    margin-bottom: 16px;
+  }
+  .flow-col.discover-flow h4 { color: var(--accent-discover); }
+  .flow-col.discover-flow .step-num { border-color: rgba(249,115,22,0.4); color: var(--accent-discover); }
+  .flow-col.learn-flow h4 { color: var(--accent-learn); }
+  .flow-col.learn-flow .step-num { border-color: rgba(34,197,94,0.4); color: var(--accent-learn); }
+  .flow-col.train-flow h4 { color: var(--accent-train); }
+  .flow-col.train-flow .step-num { border-color: rgba(139,92,246,0.4); color: var(--accent-train); }
+
+  /* Responsive */
+  @media (max-width: 768px) {
+    body { padding: 20px 12px 100px; }
+    .principle-cols { grid-template-columns: 1fr; gap: 12px; }
+    .principle-arrow { transform: rotate(90deg); }
+    .learn-paths { grid-template-columns: 1fr; }
+    .content-grid { grid-template-columns: 1fr; }
+    .flow-container { grid-template-columns: 1fr; }
+    .migration-grid { grid-template-columns: 1fr; gap: 16px; }
+    .migration-arrows { flex-direction: row; padding-top: 0; }
+    .nav-tab { padding: 14px 28px; }
+    .route-item { flex-direction: column; align-items: flex-start; gap: 4px; }
+    .route-path { min-width: auto; }
+    .tab-section { padding: 24px; }
+  }
+
+  /* Annotations */
+  .annotation {
+    font-size: 12px;
+    color: var(--text2);
+    font-style: italic;
+    margin-top: 8px;
+    padding-left: 4px;
+  }
+  .highlight-box {
+    background: rgba(234,179,8,0.08);
+    border: 1px solid rgba(234,179,8,0.2);
+    border-radius: 10px;
+    padding: 14px 18px;
+    margin-top: 16px;
+    font-size: 13px;
+    color: var(--accent-yellow);
+  }
+  .highlight-box strong { color: var(--accent-yellow); }
+
+  .divider {
+    height: 1px;
+    background: var(--border);
+    margin: 48px 0;
+  }
+</style>
+</head>
+<body>
+<div class="container">
+
+  <!-- ==================== HEADER ==================== -->
+  <div class="doc-header">
+    <h1>攀岩知识库 · 信息架构</h1>
+    <p>从「按内容类型组织」转向「按用户意图组织」<br>数据不动，入口重构</p>
+    <span class="version">v2 · feedTest3 · 2026-04-18</span>
+  </div>
+
+  <!-- ==================== DESIGN PRINCIPLE ==================== -->
+  <div class="principle-banner">
+    <h2>核心设计原则</h2>
+    <div class="principle-cols">
+      <div class="principle-box before">
+        <div class="label">Before</div>
+        <h3>按内容类型导航</h3>
+        <p>知识点 / 专栏 / 名人堂 / 伤痛档案 / 实验室</p>
+        <p style="margin-top: 8px; font-size: 12px;">用户需要知道自己要的是哪种「格式」</p>
+      </div>
+      <div class="principle-arrow">→</div>
+      <div class="principle-box after">
+        <div class="label">After</div>
+        <h3>按用户意图导航</h3>
+        <p>我来逛逛 / 我想搞懂 / 我要行动</p>
+        <p style="margin-top: 8px; font-size: 12px;">用户只需要知道自己想干什么</p>
+      </div>
+    </div>
+  </div>
+
+  <!-- ==================== THREE LAYER ARCHITECTURE ==================== -->
+  <div class="section-title">
+    <span class="num" style="background: rgba(59,130,246,0.15); color: var(--accent-blue);">1</span>
+    三层架构
+  </div>
+  <div class="section-desc">知识点是原子、关系是连接、入口是视角。三层解耦，互不干扰。</div>
+
+  <div class="layer-diagram">
+    <div class="layer-box layer-1">
+      <h4>Layer 1 · 入口层 — 多条路径进入同一批内容</h4>
+      <p>底部 3 Tab + 「学」页面内 4 种浏览方式 + 搜索</p>
+      <span class="layer-tag">需要重构</span>
+    </div>
+    <div class="layer-connector">↕</div>
+    <div class="layer-box layer-2">
+      <h4>Layer 2 · 原子层 — 202 个知识点 + 39 篇文章 + 74 位运动员</h4>
+      <p>内容本身不动，已有多语言、关键词、标签</p>
+      <span class="layer-tag">已完成</span>
+    </div>
+    <div class="layer-connector">↕</div>
+    <div class="layer-box layer-3">
+      <h4>Layer 3 · 关系层 — 知识点之间的有向连接</h4>
+      <p>632 条 crossRef 已有，需补充方向性：前置 / 对比 / 配合 / 解决问题</p>
+      <span class="layer-tag">需补充</span>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- ==================== BOTTOM NAV ==================== -->
+  <div class="section-title">
+    <span class="num" style="background: rgba(139,92,246,0.15); color: var(--accent-train);">2</span>
+    全局导航：3 Tabs
+  </div>
+  <div class="section-desc">从 4 Tab（发现/知识库/实验室/我）简化为 3 Tab。「我」页面改为顶部入口。</div>
+
+  <div class="bottom-nav-demo">
+    <div class="bottom-nav-bar">
+      <div class="nav-tab discover">
+        <span class="icon">🔥</span>
+        <span class="name">发现</span>
+        <span class="en">Discover</span>
+      </div>
+      <div class="nav-tab learn">
+        <span class="icon">📖</span>
+        <span class="name">学</span>
+        <span class="en">Learn</span>
+      </div>
+      <div class="nav-tab train">
+        <span class="icon">💪</span>
+        <span class="name">练</span>
+        <span class="en">Train</span>
+      </div>
+    </div>
+  </div>
+
+  <p class="annotation" style="text-align:center;">「我」不是高频操作，移到右上角头像入口，释放一个 Tab 位。</p>
+
+  <div class="divider"></div>
+
+  <!-- ==================== TAB 1: DISCOVER ==================== -->
+  <div class="section-title">
+    <span class="num" style="background: rgba(249,115,22,0.15); color: var(--accent-discover);">3</span>
+    Tab 1 · 发现
+  </div>
+  <div class="section-desc">用户意图：「我没有明确目标，随便看看，被启发」— 不能攀岩的时候翻翻脑。</div>
+
+  <div class="tab-section discover-section">
+    <h3>🔥 发现 /</h3>
+    <div class="tab-desc">瀑布流信息流，混合多种内容类型，不区分「这是知识点还是文章还是名人故事」</div>
+
+    <div class="content-grid">
+      <div class="content-card">
+        <h4>📱 社区 Feed 卡片</h4>
+        <p>452 条 feed post，瀑布流排列。包含教学卡、原理卡、突破卡、对比卡、吐槽卡等 13 种 cardType。</p>
+        <span class="tag tag-feed">feed-registry.json · 452 条</span>
+      </div>
+      <div class="content-card">
+        <h4>⭐ 名人故事卡片</h4>
+        <p>从 athlete-registry 中抽取精华，以故事卡形式穿插在 feed 中。<strong>不再有独立的名人堂入口。</strong></p>
+        <span class="tag tag-data">athlete-registry.json · 74 人</span>
+      </div>
+      <div class="content-card">
+        <h4>📰 专栏文章推荐</h4>
+        <p>39 篇长文以卡片预览形式出现在 feed 中，点击进入文章详情。<strong>不再有独立的专栏入口。</strong></p>
+        <span class="tag tag-data">article-registry.json · 39 篇</span>
+      </div>
+      <div class="content-card">
+        <h4>🧪 MBTI 入口卡</h4>
+        <p>攀岩人格测试以趣味卡片形式出现在 feed 前列位置，作为新用户破冰工具。</p>
+        <span class="tag tag-tool">climbing-mbti.json</span>
+      </div>
+    </div>
+
+    <div class="highlight-box">
+      <strong>关键变化：</strong>名人堂、专栏文章、MBTI 不再是独立页面入口，而是作为内容类型融入 feed 流中。用户无需知道"这条内容属于哪个分类"。
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- ==================== TAB 2: LEARN ==================== -->
+  <div class="section-title">
+    <span class="num" style="background: rgba(34,197,94,0.15); color: var(--accent-learn);">4</span>
+    Tab 2 · 学
+  </div>
+  <div class="section-desc">用户意图：「我想搞懂一个东西」— 有问题要解决，或想系统学习。这是知识库的核心。</div>
+
+  <div class="tab-section learn-section">
+    <h3>📖 学 /learn</h3>
+    <div class="tab-desc">顶部搜索框 + 四条浏览路径，同一批 202 个知识点通过不同视角呈现</div>
+
+    <!-- Search -->
+    <div style="background: var(--surface2); border: 1px solid var(--border); border-radius: 12px; padding: 16px 20px; margin-bottom: 20px; display: flex; align-items: center; gap: 10px;">
+      <span style="font-size: 18px;">🔍</span>
+      <span style="color: var(--text2); font-size: 14px;">搜索动作、问题、概念... 「折膝」「手指疼」「lead 坠落」</span>
+    </div>
+
+    <!-- Four Paths -->
+    <div class="learn-paths">
+
+      <div class="learn-path path-problem">
+        <div class="path-icon">🎯</div>
+        <h4>按问题找</h4>
+        <div class="path-subtitle">我遇到了一个具体困难 → 告诉我怎么解决</div>
+        <div class="path-examples">
+          <span class="pill">够不到远点</span>
+          <span class="pill">容易 pump</span>
+          <span class="pill">站不稳 / 脱落</span>
+          <span class="pill">手指疼痛</span>
+          <span class="pill">怕 lead 坠落</span>
+          <span class="pill">读线读不懂</span>
+        </div>
+        <div class="path-meta">每个问题映射 3-8 个相关 KP → 需新增 solves 字段</div>
+      </div>
+
+      <div class="learn-path path-level">
+        <div class="path-icon">📈</div>
+        <h4>按阶段学</h4>
+        <div class="path-subtitle">我是 VX 水平 → 给我这个阶段该学的东西</div>
+        <div class="path-examples">
+          <span class="pill">V0-V1 入门期</span>
+          <span class="pill">V2-V3 基础期</span>
+          <span class="pill">V4-V5 进阶期</span>
+          <span class="pill">V6+ 高级</span>
+        </div>
+        <div class="path-meta">每阶段 15-30 个 KP，有推荐学习顺序 → 用已有 tags 编排</div>
+      </div>
+
+      <div class="learn-path path-tag">
+        <div class="path-icon">🏷️</div>
+        <h4>按主题翻</h4>
+        <div class="path-subtitle">我想看某一类技术 / 知识 → 给我列表</div>
+        <div class="path-examples">
+          <span class="pill">脚法 (12)</span>
+          <span class="pill">手法 (15)</span>
+          <span class="pill">身体姿态 (8)</span>
+          <span class="pill">动态 (10)</span>
+          <span class="pill">体能 (20)</span>
+          <span class="pill">安全 (15)</span>
+          <span class="pill">装备 (19)</span>
+          <span class="pill">伤痛 (16)</span>
+        </div>
+        <div class="path-meta">扁平标签分面，点进去直接看列表 → 用已有 tags + keywords 重组</div>
+      </div>
+
+      <div class="learn-path path-tree">
+        <div class="path-icon">📂</div>
+        <h4>完整知识库</h4>
+        <div class="path-subtitle">我想系统浏览所有内容 → 给我完整目录</div>
+        <div class="path-examples">
+          <span class="pill">10 大章节</span>
+          <span class="pill">50 小节</span>
+          <span class="pill">202 知识点</span>
+        </div>
+        <div class="path-meta">保留当前树状结构，服务进阶用户和内容贡献者</div>
+      </div>
+
+    </div>
+
+    <div class="highlight-box">
+      <strong>核心逻辑：</strong>四条路径通往同一批 202 个原子知识点。不是四个独立的内容池，而是同一个池子的四个入口。用户从任何路径进入，最终到达的知识点详情页是同一个。
+    </div>
+  </div>
+
+  <!-- KP Detail Page Structure -->
+  <div class="section-title" style="margin-top: 40px;">
+    <span class="num" style="background: rgba(34,197,94,0.15); color: var(--accent-learn);">4.1</span>
+    知识点详情页（统一格式）
+  </div>
+  <div class="section-desc">无论从哪条路径进入，每个知识点都呈现统一的结构。</div>
+
+  <div class="kp-detail-demo">
+    <div class="kp-detail-header">
+      <div class="breadcrumb">技术 › 身体定位 › <span>折膝技术</span></div>
+      <h4>折膝技术 Drop Knee</h4>
+      <div class="kp-tags">
+        <span class="pill">脚法</span>
+        <span class="pill">身体定位</span>
+        <span class="pill">省力</span>
+        <span class="pill">中级</span>
+      </div>
+    </div>
+    <div class="kp-detail-body">
+      <div class="kp-section-row">
+        <div class="row-icon">📝</div>
+        <div class="row-content">
+          <h5>定义 · 是什么</h5>
+          <p>一句话定义 + 核心要点，解决「这个动作到底是什么」</p>
+        </div>
+      </div>
+      <div class="kp-section-row">
+        <div class="row-icon">🎯</div>
+        <div class="row-content">
+          <h5>适用场景 · 什么时候用</h5>
+          <p>陡壁、侧拉点位、需要够远点时... 配合示意图</p>
+        </div>
+      </div>
+      <div class="kp-section-row">
+        <div class="row-icon">🎬</div>
+        <div class="row-content">
+          <h5>视频演示 · 怎么做</h5>
+          <p>教学视频 + 运动员实战片段（region-aware）</p>
+        </div>
+      </div>
+      <div class="kp-section-row">
+        <div class="row-icon">⚠️</div>
+        <div class="row-content">
+          <h5>常见错误 · 别这么做</h5>
+          <p>初学者典型误区 + 纠正方法</p>
+        </div>
+      </div>
+      <div class="kp-section-row">
+        <div class="row-icon">↔️</div>
+        <div class="row-content">
+          <h5>对比辨析 · 和XX的区别</h5>
+          <p>折膝 vs 侧身 vs Flag — 解决用户调研中「定义混乱」的核心诉求</p>
+        </div>
+      </div>
+      <div class="kp-section-row">
+        <div class="row-icon">📰</div>
+        <div class="row-content">
+          <h5>延伸阅读</h5>
+          <p>相关专栏文章 + 运动员使用此技术的故事（嵌入，非跳转到独立页面）</p>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Relation Network -->
+  <div class="relation-network">
+    <h4>🔗 知识网络（详情页底部）</h4>
+    <div class="relation-grid">
+      <div class="relation-item rel-pre">
+        <div class="rel-type">⬆ 前置知识</div>
+        <div class="rel-links">
+          <a href="#">重心转移基础</a>
+          <a href="#">脚点选择</a>
+        </div>
+      </div>
+      <div class="relation-item rel-next">
+        <div class="rel-type">⬇ 下一步学</div>
+        <div class="rel-links">
+          <a href="#">Flag 平衡技术</a>
+          <a href="#">高级陡壁身法</a>
+        </div>
+      </div>
+      <div class="relation-item rel-compare">
+        <div class="rel-type">↔ 对比辨析</div>
+        <div class="rel-links">
+          <a href="#">折膝 vs 侧身</a>
+          <a href="#">折膝 vs Flag</a>
+        </div>
+      </div>
+      <div class="relation-item rel-combine">
+        <div class="rel-type">🤝 常一起用</div>
+        <div class="rel-links">
+          <a href="#">侧身技术</a>
+          <a href="#">高脚踩点</a>
+        </div>
+      </div>
+      <div class="relation-item rel-solve">
+        <div class="rel-type">🎯 能解决</div>
+        <div class="rel-links">
+          <a href="#">陡壁站不稳</a>
+          <a href="#">够不到侧面的点</a>
+        </div>
+      </div>
+    </div>
+    <p class="annotation">这些关系数据来自 Layer 3（关系层），需要对现有 632 条 crossRef 补充方向性。</p>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- ==================== TAB 3: TRAIN ==================== -->
+  <div class="section-title">
+    <span class="num" style="background: rgba(139,92,246,0.15); color: var(--accent-train);">5</span>
+    Tab 3 · 练
+  </div>
+  <div class="section-desc">用户意图：「给我具体可执行的东西」— 我今天该做什么，我哪里弱。</div>
+
+  <div class="tab-section train-section">
+    <h3>💪 练 /train</h3>
+    <div class="tab-desc">诊断弱项 → 推荐训练 → 每日微任务，形成行动闭环</div>
+
+    <div class="content-grid">
+      <div class="content-card">
+        <h4>📊 能力诊断</h4>
+        <p>互动式问答树，识别你的攀岩弱项。结果关联到「学」Tab 的对应知识点，形成「知道自己不知道什么 → 去学」的闭环。</p>
+        <span class="tag tag-tool">diagnosis-tree.json · 183KB</span>
+      </div>
+      <div class="content-card">
+        <h4>✦ 每日微任务</h4>
+        <p>44 个分层任务（石/银/金三档），每日推荐 1-3 个。根据诊断结果个性化推荐。进度 localStorage 记录。</p>
+        <span class="tag tag-tool">quests.json · 44 个任务</span>
+      </div>
+      <div class="content-card">
+        <h4>🏋️ 训练计划</h4>
+        <p>（支柱二内容）结构化训练协议。从「练什么」到「怎么练」的完整路径。</p>
+        <span class="tag tag-data">training-registry.json · 规划中</span>
+      </div>
+      <div class="content-card">
+        <h4>🤕 伤痛日记</h4>
+        <p>用户记录自己的伤痛经历。从「实验室」和「独立入口」移到这里 — 伤痛管理是训练的一部分。</p>
+        <span class="tag tag-data">Supabase · injury_reports</span>
+      </div>
+    </div>
+
+    <div class="highlight-box">
+      <strong>和「学」的关系：</strong>「练」的每个工具都链回「学」。诊断发现你脚法弱 → 推荐脚法相关 KP → 推荐脚法微任务。两个 Tab 是一个闭环，不是孤岛。
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- ==================== USER FLOWS ==================== -->
+  <div class="section-title">
+    <span class="num" style="background: rgba(236,72,153,0.15); color: var(--accent-pink);">6</span>
+    三类用户旅程
+  </div>
+  <div class="section-desc">同一个人在不同时刻会使用不同的旅程。架构需要同时支持三种模式。</div>
+
+  <div class="flow-container">
+    <div class="flow-col discover-flow">
+      <h4>🔥 场景 A：随便逛逛</h4>
+      <div class="flow-step">
+        <span class="step-num">1</span>
+        <span class="step-text">打开 app → 默认在<strong>「发现」</strong>Tab</span>
+      </div>
+      <div class="flow-arrow">↓</div>
+      <div class="flow-step">
+        <span class="step-num">2</span>
+        <span class="step-text">刷 feed 看到一张<strong>「折膝原理」</strong>卡片</span>
+      </div>
+      <div class="flow-arrow">↓</div>
+      <div class="flow-step">
+        <span class="step-num">3</span>
+        <span class="step-text">点击 → 跳到<strong>「学」</strong>的知识点详情页</span>
+      </div>
+      <div class="flow-arrow">↓</div>
+      <div class="flow-step">
+        <span class="step-num">4</span>
+        <span class="step-text">看到底部<strong>知识网络</strong>，点「对比：折膝 vs 侧身」</span>
+      </div>
+      <div class="flow-arrow">↓</div>
+      <div class="flow-step">
+        <span class="step-num">5</span>
+        <span class="step-text">自然地在知识网络中<strong>漫游</strong></span>
+      </div>
+    </div>
+
+    <div class="flow-col learn-flow">
+      <h4>📖 场景 B：我有问题</h4>
+      <div class="flow-step">
+        <span class="step-num">1</span>
+        <span class="step-text">切到<strong>「学」</strong>Tab</span>
+      </div>
+      <div class="flow-arrow">↓</div>
+      <div class="flow-step">
+        <span class="step-num">2</span>
+        <span class="step-text">看到「按问题找」→ 点<strong>「站不稳/脱落」</strong></span>
+      </div>
+      <div class="flow-arrow">↓</div>
+      <div class="flow-step">
+        <span class="step-num">3</span>
+        <span class="step-text">列出 5 个相关 KP：重心、脚法精度、折膝...</span>
+      </div>
+      <div class="flow-arrow">↓</div>
+      <div class="flow-step">
+        <span class="step-num">4</span>
+        <span class="step-text">逐个阅读，看<strong>视频演示</strong></span>
+      </div>
+      <div class="flow-arrow">↓</div>
+      <div class="flow-step">
+        <span class="step-num">5</span>
+        <span class="step-text">看到「下一步学」→ 继续<strong>深入</strong></span>
+      </div>
+    </div>
+
+    <div class="flow-col train-flow">
+      <h4>💪 场景 C：今天练什么</h4>
+      <div class="flow-step">
+        <span class="step-num">1</span>
+        <span class="step-text">切到<strong>「练」</strong>Tab</span>
+      </div>
+      <div class="flow-arrow">↓</div>
+      <div class="flow-step">
+        <span class="step-num">2</span>
+        <span class="step-text">做<strong>能力诊断</strong>→ 发现脚法是弱项</span>
+      </div>
+      <div class="flow-arrow">↓</div>
+      <div class="flow-step">
+        <span class="step-num">3</span>
+        <span class="step-text">系统推荐今日微任务：<strong>「静态三点平衡」</strong></span>
+      </div>
+      <div class="flow-arrow">↓</div>
+      <div class="flow-step">
+        <span class="step-num">4</span>
+        <span class="step-text">任务详情链接到<strong>「学」</strong>的脚法 KP</span>
+      </div>
+      <div class="flow-arrow">↓</div>
+      <div class="flow-step">
+        <span class="step-num">5</span>
+        <span class="step-text">完成任务 → 进度+1 →<strong>解锁下一阶段</strong></span>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- ==================== CONTENT MIGRATION ==================== -->
+  <div class="section-title">
+    <span class="num" style="background: rgba(234,179,8,0.15); color: var(--accent-yellow);">7</span>
+    内容迁移：旧页面去哪了
+  </div>
+  <div class="section-desc">不删内容，只改入口。23 个旧路由 → 12 个新路由。</div>
+
+  <div class="migration-section">
+    <h3 style="display: flex; align-items: center; gap: 12px;">
+      <span style="color: var(--accent-red);">旧结构</span>
+      <span style="color: var(--text2); font-size: 14px;">→</span>
+      <span style="color: var(--accent-learn);">新结构</span>
+    </h3>
+
+    <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px; margin-top: 20px;">
+
+      <!-- Left: Old structure -->
+      <div>
+        <div style="font-size: 12px; color: var(--text2); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px;">Tab: 发现</div>
+        <div style="padding: 6px 12px; font-size: 13px; border-left: 2px solid var(--accent-learn); margin-left: 12px; margin-bottom: 4px; color: var(--text2);">/ (FeedPage) → <span style="color: var(--accent-learn);">保留，enriched with 文章+名人卡片</span></div>
+
+        <div style="font-size: 12px; color: var(--text2); text-transform: uppercase; letter-spacing: 1px; margin: 16px 0 12px;">Tab: 知识库 (旧)</div>
+        <div style="padding: 6px 12px; font-size: 13px; border-left: 2px solid var(--accent-yellow); margin-left: 12px; margin-bottom: 4px; color: var(--accent-yellow);">/knowledge (HomePage) → <span style="color: var(--accent-learn);">/learn (新学习首页)</span></div>
+        <div style="padding: 6px 12px; font-size: 13px; border-left: 2px solid var(--border); margin-left: 12px; margin-bottom: 4px; color: var(--text2);">/section/:slug → <span style="color: var(--accent-learn);">/learn/wiki/:section 保留</span></div>
+        <div style="padding: 6px 12px; font-size: 13px; border-left: 2px solid var(--border); margin-left: 12px; margin-bottom: 4px; color: var(--text2);">/section/:slug/:sub → <span style="color: var(--accent-learn);">/learn/wiki/:section/:sub 保留</span></div>
+        <div style="padding: 6px 12px; font-size: 13px; border-left: 2px solid var(--accent-red); margin-left: 12px; margin-bottom: 4px;"><span style="color: var(--accent-red); text-decoration: line-through;">/articles (独立入口)</span> → <span style="color: var(--accent-learn);">融入 feed + KP 详情页</span></div>
+        <div style="padding: 6px 12px; font-size: 13px; border-left: 2px solid var(--border); margin-left: 12px; margin-bottom: 4px; color: var(--text2);">/articles/:slug → <span style="color: var(--accent-learn);">保留，从 feed/KP 页跳入</span></div>
+        <div style="padding: 6px 12px; font-size: 13px; border-left: 2px solid var(--accent-red); margin-left: 12px; margin-bottom: 4px;"><span style="color: var(--accent-red); text-decoration: line-through;">/hall-of-fame (独立入口)</span> → <span style="color: var(--accent-learn);">融入 feed + KP 详情页</span></div>
+        <div style="padding: 6px 12px; font-size: 13px; border-left: 2px solid var(--border); margin-left: 12px; margin-bottom: 4px; color: var(--text2);">/hall-of-fame/:slug → <span style="color: var(--accent-learn);">保留，从 feed/KP 页跳入</span></div>
+        <div style="padding: 6px 12px; font-size: 13px; border-left: 2px solid var(--accent-yellow); margin-left: 12px; margin-bottom: 4px; color: var(--accent-yellow);">/injuries → <span style="color: var(--accent-train);">/train/injuries 移到练 Tab</span></div>
+
+        <div style="font-size: 12px; color: var(--text2); text-transform: uppercase; letter-spacing: 1px; margin: 16px 0 12px;">Tab: 实验室 (旧)</div>
+        <div style="padding: 6px 12px; font-size: 13px; border-left: 2px solid var(--accent-red); margin-left: 12px; margin-bottom: 4px;"><span style="color: var(--accent-red); text-decoration: line-through;">/lab (入口页)</span> → <span style="color: var(--accent-learn);">删除</span></div>
+        <div style="padding: 6px 12px; font-size: 13px; border-left: 2px solid var(--accent-yellow); margin-left: 12px; margin-bottom: 4px; color: var(--accent-yellow);">/diagnosis → <span style="color: var(--accent-train);">/train/diagnosis</span></div>
+        <div style="padding: 6px 12px; font-size: 13px; border-left: 2px solid var(--accent-yellow); margin-left: 12px; margin-bottom: 4px; color: var(--accent-yellow);">/quests → <span style="color: var(--accent-train);">/train/quests</span></div>
+        <div style="padding: 6px 12px; font-size: 13px; border-left: 2px solid var(--accent-yellow); margin-left: 12px; margin-bottom: 4px; color: var(--accent-yellow);">/climbing-mbti → <span style="color: var(--accent-discover);">从 feed 卡片进入</span></div>
+
+        <div style="font-size: 12px; color: var(--text2); text-transform: uppercase; letter-spacing: 1px; margin: 16px 0 12px;">Tab: 我 (旧)</div>
+        <div style="padding: 6px 12px; font-size: 13px; border-left: 2px solid var(--accent-yellow); margin-left: 12px; margin-bottom: 4px; color: var(--accent-yellow);">/profile → <span style="color: var(--accent-learn);">右上角头像入口</span></div>
+      </div>
+
+      <!-- Right: New structure -->
+      <div>
+        <div style="font-size: 12px; color: var(--accent-learn); text-transform: uppercase; letter-spacing: 1px; margin-bottom: 12px;">新路由表</div>
+
+        <div style="background: var(--surface2); border-radius: 10px; padding: 16px; font-family: 'SF Mono', monospace; font-size: 12px; line-height: 2;">
+          <div><span style="color: var(--accent-discover);">/</span> <span style="color: var(--text2);">← 发现 (Feed + 文章 + 名人 + MBTI)</span></div>
+          <div><span style="color: var(--accent-learn);">/learn</span> <span style="color: var(--text2);">← 学 (四路径首页)</span></div>
+          <div><span style="color: var(--accent-learn);">/learn/problem/:id</span> <span style="color: var(--text2);">← 按问题找 <span style="color: var(--accent-learn);">NEW</span></span></div>
+          <div><span style="color: var(--accent-learn);">/learn/level/:level</span> <span style="color: var(--text2);">← 按阶段学 <span style="color: var(--accent-learn);">NEW</span></span></div>
+          <div><span style="color: var(--accent-learn);">/learn/tag/:tag</span> <span style="color: var(--text2);">← 按主题翻 <span style="color: var(--accent-learn);">NEW</span></span></div>
+          <div><span style="color: var(--accent-learn);">/learn/wiki</span> <span style="color: var(--text2);">← 完整知识库</span></div>
+          <div><span style="color: var(--accent-learn);">/learn/wiki/:s/:sub</span> <span style="color: var(--text2);">← 知识点详情</span></div>
+          <div><span style="color: var(--accent-learn);">/learn/kp/:kpId</span> <span style="color: var(--text2);">← KP 直链 <span style="color: var(--accent-learn);">NEW</span></span></div>
+          <div><span style="color: var(--accent-learn);">/articles/:slug</span> <span style="color: var(--text2);">← 文章详情 (保留)</span></div>
+          <div><span style="color: var(--accent-learn);">/athletes/:slug</span> <span style="color: var(--text2);">← 运动员详情 (保留)</span></div>
+          <div><span style="color: var(--accent-train);">/train</span> <span style="color: var(--text2);">← 练 (诊断+任务+计划)</span></div>
+          <div><span style="color: var(--accent-train);">/train/diagnosis</span> <span style="color: var(--text2);">← 能力诊断</span></div>
+          <div><span style="color: var(--accent-train);">/train/quests</span> <span style="color: var(--text2);">← 每日微任务</span></div>
+          <div><span style="color: var(--accent-train);">/train/injuries</span> <span style="color: var(--text2);">← 伤痛日记</span></div>
+          <div><span style="color: var(--accent-discover);">/climbing-mbti</span> <span style="color: var(--text2);">← MBTI (从 feed 进入)</span></div>
+          <div><span style="color: var(--text2);">/profile</span> <span style="color: var(--text2);">← 个人主页</span></div>
+          <div><span style="color: var(--text2);">/search</span> <span style="color: var(--text2);">← 搜索结果</span></div>
+        </div>
+
+        <div style="margin-top: 16px; font-size: 13px; color: var(--text2);">
+          <div style="display: flex; gap: 16px; flex-wrap: wrap;">
+            <span><span style="color: var(--accent-learn);">■</span> 新增 4 个</span>
+            <span><span style="color: var(--accent-yellow);">■</span> 移动 5 个</span>
+            <span><span style="color: var(--accent-red);">■</span> 删除 3 个入口</span>
+            <span><span style="color: var(--text2);">■</span> 保留 8 个</span>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- ==================== DATA ENRICHMENT ==================== -->
+  <div class="section-title">
+    <span class="num" style="background: rgba(6,182,212,0.15); color: var(--accent-cyan);">8</span>
+    数据层变更
+  </div>
+  <div class="section-desc">代码改动之外，需要对 kp-registry.json 补充的字段。</div>
+
+  <div class="data-layer">
+    <h3>📊 kp-registry.json 字段状态</h3>
+    <table class="data-table">
+      <thead>
+        <tr>
+          <th>字段</th>
+          <th>用途</th>
+          <th>状态</th>
+          <th>说明</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td class="field-name">id, title, path</td>
+          <td>基本标识</td>
+          <td class="status-has">✓ 202/202</td>
+          <td>完整</td>
+        </tr>
+        <tr>
+          <td class="field-name">tags[]</td>
+          <td>按主题翻、按阶段学</td>
+          <td class="status-has">✓ 202/202</td>
+          <td>21 种标签，含 beginner/intermediate/advanced</td>
+        </tr>
+        <tr>
+          <td class="field-name">keywords[]</td>
+          <td>搜索</td>
+          <td class="status-has">✓ 202/202</td>
+          <td>平均 8.75 个/KP，共 1,768 个</td>
+        </tr>
+        <tr>
+          <td class="field-name">crossRefs[]</td>
+          <td>关联知识点</td>
+          <td class="status-partial">△ 有但无方向</td>
+          <td>632 条边，但不区分 前置/对比/配合</td>
+        </tr>
+        <tr>
+          <td class="field-name">solves[]</td>
+          <td>「按问题找」路径</td>
+          <td class="status-need">✗ 需新增</td>
+          <td>每个 KP 关联 1-5 个用户常见问题</td>
+        </tr>
+        <tr>
+          <td class="field-name">level</td>
+          <td>「按阶段学」排序</td>
+          <td class="status-need">✗ 需新增</td>
+          <td>V0-V1 / V2-V3 / V4-V5 / V6+ 四档</td>
+        </tr>
+        <tr>
+          <td class="field-name">prerequisites[]</td>
+          <td>知识网络：前置</td>
+          <td class="status-need">✗ 需新增</td>
+          <td>从 crossRefs 中拆分出有方向的前置关系</td>
+        </tr>
+        <tr>
+          <td class="field-name">compareWith[]</td>
+          <td>知识网络：对比辨析</td>
+          <td class="status-need">✗ 需新增</td>
+          <td>容易混淆的概念对，如 折膝↔侧身</td>
+        </tr>
+      </tbody>
+    </table>
+
+    <div class="highlight-box" style="margin-top: 20px;">
+      <strong>工作量估算：</strong>tags/keywords/crossRefs 已有，只需补 solves + level + 拆分 crossRefs 方向性。202 个 KP × 4 个新字段 ≈ 可用 AI 批量生成初稿再人工校验。
+    </div>
+  </div>
+
+  <div class="divider"></div>
+
+  <!-- ==================== NAVIGATION REMOVAL ==================== -->
+  <div class="section-title">
+    <span class="num" style="background: rgba(239,68,68,0.15); color: var(--accent-red);">9</span>
+    砍掉的导航层
+  </div>
+  <div class="section-desc">从三层导航减到一层半。</div>
+
+  <div style="display: grid; grid-template-columns: 1fr 1fr; gap: 24px;">
+    <div style="background: var(--surface); border: 1px solid rgba(239,68,68,0.2); border-radius: 16px; padding: 24px;">
+      <h4 style="color: var(--accent-red); font-size: 15px; margin-bottom: 16px;">❌ 删除</h4>
+      <div style="font-size: 13px; line-height: 2; color: var(--text2);">
+        <div><span style="text-decoration: line-through;">Header 4 个 Pill</span> — 知识库/专栏/名人堂/伤痛</div>
+        <div><span style="text-decoration: line-through;">Sidebar 三组 Accordion</span> — 知识库/专栏/名人堂</div>
+        <div><span style="text-decoration: line-through;">实验室 Tab + 入口页</span></div>
+        <div><span style="text-decoration: line-through;">「我」独立 Tab</span></div>
+        <div><span style="text-decoration: line-through;">文章分类列表页</span> /articles/category/:id</div>
+        <div><span style="text-decoration: line-through;">名人堂列表页</span> /hall-of-fame</div>
+      </div>
+    </div>
+    <div style="background: var(--surface); border: 1px solid rgba(34,197,94,0.2); border-radius: 16px; padding: 24px;">
+      <h4 style="color: var(--accent-learn); font-size: 15px; margin-bottom: 16px;">✓ 保留</h4>
+      <div style="font-size: 13px; line-height: 2; color: var(--text2);">
+        <div><strong style="color: var(--text);">底部 3 Tab</strong> — 发现/学/练（唯一全局导航）</div>
+        <div><strong style="color: var(--text);">「学」页面四路径</strong> — 问题/阶段/主题/完整</div>
+        <div><strong style="color: var(--text);">完整知识库树状结构</strong> — 作为四路径之一</div>
+        <div><strong style="color: var(--text);">知识点详情页底部网络</strong> — 替代 sidebar</div>
+        <div><strong style="color: var(--text);">搜索</strong> — 始终可用</div>
+        <div><strong style="color: var(--text);">右上角头像</strong> — 个人/设置入口</div>
+      </div>
+    </div>
+  </div>
+
+  <div style="margin-top: 20px; background: var(--surface); border: 1px solid var(--border); border-radius: 12px; padding: 20px; text-align: center;">
+    <div style="font-size: 13px; color: var(--text2); margin-bottom: 8px;">导航层级变化</div>
+    <div style="display: flex; justify-content: center; align-items: center; gap: 32px;">
+      <div>
+        <div style="font-size: 32px; font-weight: 700; color: var(--accent-red);">3 层</div>
+        <div style="font-size: 12px; color: var(--text2);">底部Tab → Header Pill → Sidebar</div>
+      </div>
+      <div style="font-size: 28px; color: var(--text2);">→</div>
+      <div>
+        <div style="font-size: 32px; font-weight: 700; color: var(--accent-learn);">1.5 层</div>
+        <div style="font-size: 12px; color: var(--text2);">底部Tab → 页面内路径选择</div>
+      </div>
+    </div>
+  </div>
+
+</div>
+</body>
+</html>

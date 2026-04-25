@@ -39,7 +39,7 @@ export default defineConfig({
         ],
       },
       workbox: {
-        maximumFileSizeToCacheInBytes: 5 * 1024 * 1024, // 5 MB — knowledge base data chunks are large
+        maximumFileSizeToCacheInBytes: 8 * 1024 * 1024, // 8 MB — includes large CJK font files
         globPatterns: ['**/*.{js,css,html,ico,png,svg,json,woff2}'],
         runtimeCaching: [
           {

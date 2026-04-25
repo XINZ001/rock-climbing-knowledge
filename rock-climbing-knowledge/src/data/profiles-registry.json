@@ -1,0 +1,594 @@
+{
+  "coach-wang": {
+    "id": "coach-wang",
+    "name": "攀岩老登",
+    "tag": "岩馆教练 · 15 年教学",
+    "avatarColor": "#4A7C59",
+    "followers": "12.8k",
+    "postCount": 156,
+    "bio": "坐标深圳，全职岩馆教练。从 2011 年开始教人爬墙，带过的学员从 V0 到 V10 都有。口头禅是“我跟你说”，因为我说的一般都对。擅长用最简单的话解释最复杂的动作原理。不接受“我觉得”，只接受“数据说”。",
+    "pinnedPost": "10 个新手 9 个手臂先废——问题不在手臂，在腰。",
+    "hashtags": [
+      "#技术教学",
+      "#动作纠错",
+      "#训练计划",
+      "#新手友好"
+    ],
+    "personaType": "original"
+  },
+  "v4-zhang": {
+    "id": "v4-zhang",
+    "name": "V2 小张",
+    "tag": "业余爱好者 · 稳定 V2",
+    "avatarColor": "#E08050",
+    "followers": "8.2k",
+    "postCount": 203,
+    "bio": "互联网打工人，周末岩馆选手。从完全不会到稳定 V2 花了半年，踩过的坑比爬过的线还多。每次突破都靠「被教练骂」和「自己摔」。在这里记录我的踩坑日记，希望你们少走弯路（虽然你们大概率还是会走）😂",
+    "pinnedPost": "昨天终于搞明白为什么前臂总是先泵 🤯",
+    "hashtags": [
+      "#踩坑日记",
+      "#突破瓶颈",
+      "#新手进阶",
+      "#真实经历"
+    ],
+    "personaType": "original"
+  },
+  "doctor-chen": {
+    "id": "doctor-chen",
+    "name": "妙手回春",
+    "tag": "骨科医生 · 攀岩爱好者",
+    "avatarColor": "#3B6B9E",
+    "followers": "15.4k",
+    "postCount": 89,
+    "bio": "三甲医院骨科主治医师，自己也爬（稳定 V5）。急诊见多了攀岩伤，发现大部分伤病都是可以预防的，只是没人告诉你。在这里分享临床视角的伤病预防知识。偶尔吓唬你——因为有些事你不怕不行。",
+    "pinnedPost": "A2 滑车损伤占攀岩手指伤的 50%，但大多数人不知道自己在受伤",
+    "hashtags": [
+      "#伤病预防",
+      "#急诊见闻",
+      "#康复指南",
+      "#手指保护"
+    ],
+    "personaType": "original"
+  },
+  "outdoor-feng": {
+    "id": "outdoor-feng",
+    "name": "户外阿峰",
+    "tag": "传统攀 · 多段 · 户外",
+    "avatarColor": "#795548",
+    "followers": "6.7k",
+    "postCount": 67,
+    "bio": "爬了 10 年，一半时间在岩馆，一半时间在野外。常年跑阳朔、黎明、白河。喜欢传统攀和多段，享受的是路线的完整体验，不是单个动作的难度。在这里讲户外的故事和教训。有些教训是用伤痛换来的。",
+    "pinnedPost": "那年在阳朔，我被搭档的余绳差点送走",
+    "hashtags": [
+      "#户外攀岩",
+      "#传统攀",
+      "#安全经验",
+      "#阳朔"
+    ],
+    "personaType": "original"
+  },
+  "flash-ge": {
+    "id": "flash-ge",
+    "name": "Flash 哥 ⚡",
+    "tag": "V8 选手 · 看一遍就完攀",
+    "avatarColor": "#FFD700",
+    "followers": "22.1k",
+    "postCount": 45,
+    "bio": "Flash = 看别人爬一遍，自己一次完攀。我比较擅长这个。从 V4 到 V8 花了三年，走过弯路也有过顿悟。如果你想突破 V5 以上，可以关注我。凡尔赛里藏着干货，你忍一下。",
+    "pinnedPost": "今天状态不好，只 flash 了两条 V7 热身",
+    "hashtags": [
+      "#进阶技术",
+      "#训练心得",
+      "#V5+突破",
+      "#动态技巧"
+    ],
+    "personaType": "original"
+  },
+  "book-self-coached": {
+    "id": "book-self-coached",
+    "name": "自学攀岩圣经",
+    "tag": "经典教材 · Dan Hague & Douglas Hunter",
+    "avatarColor": "#2E7D32",
+    "followers": "9.3k",
+    "postCount": 34,
+    "bio": "我是 The Self-Coached Climber 这本书。2006 年出版，专注于帮攀岩者学会自我分析和自我训练。我的核心观点是：你不需要一个教练告诉你每一步怎么走，你需要的是理解动作背后的原理，然后自己诊断自己的问题。在这里分享书中的核心洞察。",
+    "pinnedPost": "在 V3-V4 瓶颈卡住的人，几乎都在跟动量作对",
+    "hashtags": [
+      "#动作分析",
+      "#自我训练",
+      "#瓶颈突破",
+      "#进阶理论"
+    ],
+    "personaType": "book"
+  },
+  "book-physics": {
+    "id": "book-physics",
+    "name": "攀岩技术教本",
+    "tag": "攀岩物理学 · 东秀磯",
+    "avatarColor": "#1565C0",
+    "followers": "7.1k",
+    "postCount": 28,
+    "bio": "我是日本攀岩教练东秀磯写的《攀岩技术教本》。我用数学和物理学拆解每一个攀岩动作——力矩、摩擦系数、重心轨迹，全部量化。如果你是理工科出身，或者你想从“感觉”上升到“理解”，关注我。我不讲“用力”，我讲“用多少力、往哪个方向用”。",
+    "pinnedPost": "一道简单的算术题，解释了 90% 的新手困惑",
+    "hashtags": [
+      "#物理学",
+      "#力学分析",
+      "#数据驱动",
+      "#动作量化"
+    ],
+    "personaType": "book"
+  },
+  "book-injury": {
+    "id": "book-injury",
+    "name": "超级岩友",
+    "tag": "攀岩伤病专家 · Jared Vagy",
+    "avatarColor": "#C62828",
+    "followers": "11.5k",
+    "postCount": 42,
+    "bio": "我是 Jared Vagy 博士写的 The Climbing Injury Solution。我是一名物理治疗师，也是攀岩者。我见过太多攀岩者因为可以预防的伤病失去几个月甚至几年的攀爬时间。在这里分享基于临床研究的伤病预防和康复知识。记住：预防的成本永远低于康复的成本。",
+    "pinnedPost": "三种握法对滑车的应力差异——用数据告诉你为什么要改握法",
+    "hashtags": [
+      "#伤病预防",
+      "#康复训练",
+      "#手指保护",
+      "#循证医学"
+    ],
+    "personaType": "book"
+  },
+  "pro-ondra": {
+    "id": "pro-ondra",
+    "name": "Adam Ondra",
+    "tag": "世界最强 · 9c 首攀者",
+    "avatarColor": "#4A3D2A",
+    "followers": "52.3k",
+    "postCount": 24,
+    "bio": "捷克人。第一个完成 9c (5.15d) 的攀岩者。世界杯冠军，奥运会参赛者。我对攀岩的理解是：每一条线路都是一个需要解决的问题，而解法藏在物理学和身体意识里。在这里分享我对训练、读线和动作效率的思考。",
+    "pinnedPost": "高难度线路上，90% 的时间你都在找对抗力",
+    "hashtags": [
+      "#线路分析",
+      "#训练哲学",
+      "#进阶技术",
+      "#竞技攀岩"
+    ],
+    "personaType": "athlete"
+  },
+  "pro-janja": {
+    "id": "pro-janja",
+    "name": "Janja Garnbret",
+    "tag": "奥运双金 · 全能之王",
+    "avatarColor": "#1B4D3E",
+    "followers": "48.7k",
+    "postCount": 18,
+    "bio": "斯洛文尼亚人。两届奥运金牌。我 164cm，比大多数对手矮。但这教会了我一件事：身体位置必须完美，因为我没有容错空间。在这里分享我对身体位置、训练细节和比赛心态的看法。",
+    "pinnedPost": "我身高 164cm。身体位置是我最重要的武器",
+    "hashtags": [
+      "#身体位置",
+      "#比赛心态",
+      "#女性攀岩",
+      "#全能训练"
+    ],
+    "personaType": "athlete"
+  },
+  "pro-honnold": {
+    "id": "pro-honnold",
+    "name": "Alex Honnold",
+    "tag": "Free Solo · 无保护攀登",
+    "avatarColor": "#3A2D1D",
+    "followers": "67.8k",
+    "postCount": 12,
+    "bio": "Free Solo El Capitan。对，就是那个。但我想说的不是“我不害怕”——我想说的是“我花了一年准备”。真正的安全不是没有恐惧，是准备到恐惧没有理由出现。在这里偶尔聊聊安全、准备和对风险的思考。",
+    "pinnedPost": "我不害怕高度，但我非常害怕准备不足",
+    "hashtags": [
+      "#安全哲学",
+      "#风险管理",
+      "#户外攀岩",
+      "#Free Solo"
+    ],
+    "personaType": "athlete"
+  },
+  "pro-magnus": {
+    "id": "pro-magnus",
+    "name": "Magnus Midtbø",
+    "tag": "前竞技选手 · YouTuber",
+    "avatarColor": "#D32F2F",
+    "followers": "41.5k",
+    "postCount": 31,
+    "bio": "挪威人。前世界杯选手，退役后做 YouTube，拍了 500 多个攀岩视频。跟各种人爬过——初学者、UFC 冠军、体操奥运选手。我的超能力是把复杂的东西讲简单。关注我，轻松学技术。",
+    "pinnedPost": "我拍了 500 多个视频，最有用的一句话就这个",
+    "hashtags": [
+      "#趣味教学",
+      "#入门友好",
+      "#跨界挑战",
+      "#YouTube"
+    ],
+    "personaType": "athlete"
+  },
+  "fun-spider": {
+    "id": "fun-spider",
+    "name": "能粘在墙上的英雄",
+    "tag": "非人类 · 客串嘉宾",
+    "avatarColor": "#C62828",
+    "followers": "31.2k",
+    "postCount": 8,
+    "bio": "我不需要摩擦力、不需要握力、不需要攀岩鞋。但我尊重你们人类在没有超能力的情况下爬墙的勇气。偶尔来这里，用我的视角帮你们理解一些物理学概念。毕竟我在墙上的时间比你们加起来都长。",
+    "pinnedPost": null,
+    "hashtags": [
+      "#趣味科普",
+      "#物理学",
+      "#跨界客串"
+    ],
+    "personaType": "fun"
+  },
+  "fun-a2": {
+    "id": "fun-a2",
+    "name": "你的 A2 滑车",
+    "tag": "你身体的一部分 · 求你善待我",
+    "avatarColor": "#E57373",
+    "followers": "18.9k",
+    "postCount": 5,
+    "bio": "你好，我是住在你无名指里的那条环状韧带。你可能从来没想过我的感受，但我每天都在替你承受压力。字面意义上的。如果你对我好一点，我可以陪你爬很多年。如果你不……那我们就在骨科再见吧。",
+    "pinnedPost": null,
+    "hashtags": [
+      "#身体自述",
+      "#伤病预防",
+      "#求你用开掌"
+    ],
+    "personaType": "fun"
+  },
+  "fun-510a": {
+    "id": "fun-510a",
+    "name": "我是 5.10a",
+    "tag": "一条路线 · 没那么难",
+    "avatarColor": "#78909C",
+    "followers": "14.6k",
+    "postCount": 3,
+    "bio": "我是岩馆里那条被你骂“好难”的 5.10a。但说实话我真没那么难。你们就是不用脚。我脚点放那么明显你们看都不看。不是我难，是你们不愿意低头。偶尔来这里发发牢骚。",
+    "pinnedPost": null,
+    "hashtags": [
+      "#路线视角",
+      "#你用脚了吗",
+      "#趣味吐槽"
+    ],
+    "personaType": "fun"
+  },
+  "desk-zhou": {
+    "id": "desk-zhou",
+    "name": "岩馆前台小周",
+    "tag": "岩馆前台 · 兼职定线员 · 大三",
+    "avatarColor": "#FF8A65",
+    "followers": "5.1k",
+    "postCount": 72,
+    "bio": "在岩馆前台坐了两年，每天看几百号人爬。自己水平一般（V3 稳定），但我见过的错误比你们所有人加起来都多。新手第一天 90% 会犯的错，我闭着眼能背出来。偶尔兼职定线，知道为什么你觉得那条线“不合理”——不是线的问题，是你的问题。",
+    "pinnedPost": "在前台坐了 700 天，我总结出新手的 5 个通病",
+    "hashtags": [
+      "#岩馆日常",
+      "#新手观察",
+      "#定线视角",
+      "#入门科普"
+    ],
+    "personaType": "original"
+  },
+  "mama-chen": {
+    "id": "mama-chen",
+    "name": "带娃的陈姐",
+    "tag": "全职妈妈 · 亲子攀岩",
+    "avatarColor": "#F48FB1",
+    "followers": "7.3k",
+    "postCount": 48,
+    "bio": "35 岁，儿子 7 岁。他先迷上攀岩，我被迫陪练，然后发现自己也上瘾了。现在母子俩每周去三次岩馆。小孩学攀岩和大人完全不一样——他不懂什么力学原理，但身体比我诚实得多。在这里记录亲子攀岩的日常，也聊聊“带孩子运动”这件事本身。",
+    "pinnedPost": "7 岁小孩的 heel hook 比我标准，我心态崩了",
+    "hashtags": [
+      "#亲子攀岩",
+      "#儿童攀岩",
+      "#妈妈也在进步",
+      "#快乐教育"
+    ],
+    "personaType": "original"
+  },
+  "retired-wang": {
+    "id": "retired-wang",
+    "name": "退休老王",
+    "tag": "58 岁 · 退休工程师 · V2 新手",
+    "avatarColor": "#8D6E63",
+    "followers": "4.2k",
+    "postCount": 31,
+    "bio": "去年退休，被女儿拉去岩馆“体验一次”，然后就没出来过。58 岁开始学攀岩，膝盖不太好，肩膀有旧伤，握力也不行。但我有一个年轻人没有的优势：我不着急。每个动作我都想明白再做，省的是医药费。在这里分享中老年人怎么安全地享受这项运动。",
+    "pinnedPost": "58 岁学攀岩，我女儿说我疯了，我觉得她说得对",
+    "hashtags": [
+      "#中老年攀岩",
+      "#慢慢来",
+      "#安全第一",
+      "#退休生活"
+    ],
+    "personaType": "original"
+  },
+  "youth-chen": {
+    "id": "youth-chen",
+    "name": "体校小陈",
+    "tag": "16 岁 · 省青少年队 · 速度 + 难度",
+    "avatarColor": "#42A5F5",
+    "followers": "9.8k",
+    "postCount": 56,
+    "bio": "8 岁进体校，16 岁了，一半的人生都在岩壁上。去年拿了省赛难度第二。每天训练 4 小时，周末加练。我的世界和你们业余爱好者很不一样——我得管体重、管作息、管心态，还得应付教练的魔鬼训练计划。但我喜欢这个，比读书有意思多了（别告诉我妈）。",
+    "pinnedPost": "教练说今天“轻松练”，然后让我引体做了 200 个",
+    "hashtags": [
+      "#竞技日常",
+      "#青少年训练",
+      "#比赛心态",
+      "#体校生活"
+    ],
+    "personaType": "original"
+  },
+  "flexi-lisa": {
+    "id": "flexi-lisa",
+    "name": "柔韧怪 Lisa",
+    "tag": "前瑜伽教练 · 攀岩 1 年 · V4",
+    "avatarColor": "#CE93D8",
+    "followers": "11.2k",
+    "postCount": 63,
+    "bio": "练了 5 年瑜伽，去年转攀岩。发现很多动作别人做不了的我能做——高抬脚、大劈叉、反身够远点。但也有新课题：柔韧有了，力量不够。在这里分享“柔韧性怎么变成攀岩优势”，以及一个女生从零力量开始进步的真实过程。",
+    "pinnedPost": "教练说这个脚点够不到，我一个劈叉上去了，他沉默了",
+    "hashtags": [
+      "#柔韧优势",
+      "#女性攀岩",
+      "#瑜伽×攀岩",
+      "#力量成长"
+    ],
+    "personaType": "original"
+  },
+  "nutri-lin": {
+    "id": "nutri-lin",
+    "name": "营养师小林",
+    "tag": "注册运动营养师 · V5",
+    "avatarColor": "#66BB6A",
+    "followers": "8.7k",
+    "postCount": 41,
+    "bio": "本职工作是运动营养师，服务过马拉松和游泳队。自己也爬了三年，V5 水平。发现攀岩圈对“吃”这件事的认知是所有运动项目里最差的——练完不吃、比赛前乱吃、受伤了不知道怎么吃。你的恢复速度，一半取决于你往嘴里放了什么。",
+    "pinnedPost": "练完 30 分钟内不吃东西，你今天的训练白费了 30%",
+    "hashtags": [
+      "#运动营养",
+      "#恢复加速",
+      "#吃对了才能爬好",
+      "#科学饮食"
+    ],
+    "personaType": "original"
+  },
+  "photo-zhao": {
+    "id": "photo-zhao",
+    "name": "摄影师老赵",
+    "tag": "攀岩摄影 10 年 · 户外向",
+    "avatarColor": "#37474F",
+    "followers": "13.5k",
+    "postCount": 38,
+    "bio": "拍攀岩拍了十年，照片上过几本杂志。我自己爬得一般，但我在镜头后面看过上千个攀岩者的动作。好的动作和差的动作，在快门 1/1000 秒的定格下一目了然。在这里用“照片视角”帮你看到自己看不到的问题。一张图胜过一百句话。",
+    "pinnedPost": "我拍了 1 万张攀岩照片，好的动作有一个共同点",
+    "hashtags": [
+      "#动作定格",
+      "#摄影视角",
+      "#一图胜千言",
+      "#户外攀岩"
+    ],
+    "personaType": "crossover"
+  },
+  "debug-climb": {
+    "id": "debug-climb",
+    "name": "Debug 攀岩",
+    "tag": "程序员 · 物理系毕业 · V3",
+    "avatarColor": "#26A69A",
+    "followers": "6.4k",
+    "postCount": 29,
+    "bio": "写了 8 年代码，物理系毕业。去年开始爬，发现攀岩本质上就是一个多约束优化问题——最小化能量消耗，约束条件是摩擦力、重力和你的关节活动范围。在这里用工程师思维拆解攀岩动作。不保证文风有趣，但保证逻辑自洽。",
+    "pinnedPost": "我用受力分析图算了一下，你的胳膊确实在做无用功",
+    "hashtags": [
+      "#工程师思维",
+      "#力学分析",
+      "#优化问题",
+      "#理科生攀岩"
+    ],
+    "personaType": "crossover"
+  },
+  "gear-tony": {
+    "id": "gear-tony",
+    "name": "装备党 Tony",
+    "tag": "15 双攀岩鞋 · 装备发烧友",
+    "avatarColor": "#FFA726",
+    "followers": "10.3k",
+    "postCount": 52,
+    "bio": "家里有 15 双攀岩鞋、4 条安全带、3 个 GriGri。我承认我有病，但装备确实影响表现——前提是你选对了。90% 的新手鞋买大了，80% 的人不知道自己该用什么弧度。在这里做最实在的装备指南，不恰饭，纯个人体验。",
+    "pinnedPost": "别再问“推荐一双攀岩鞋”了，先量你的脚",
+    "hashtags": [
+      "#装备测评",
+      "#攀岩鞋",
+      "#不恰饭",
+      "#选装指南"
+    ],
+    "personaType": "original"
+  },
+  "book-training": {
+    "id": "book-training",
+    "name": "训练攀岩",
+    "tag": "训练科学圣经 · Eric Hörst",
+    "avatarColor": "#5C6BC0",
+    "followers": "8.9k",
+    "postCount": 36,
+    "bio": "我是 Eric Hörst 写的 Training for Climbing，攀岩训练领域引用次数最多的一本书。周期化训练、指力板方案、体能金字塔、休息日安排——如果你在“怎么练”这件事上迷茫，我大概率有答案。记住：训练的核心不是练得多，是练得对。",
+    "pinnedPost": "90% 的攀岩者都在过度训练，包括你",
+    "hashtags": [
+      "#训练科学",
+      "#周期化",
+      "#指力板",
+      "#体能规划"
+    ],
+    "personaType": "book"
+  },
+  "book-warrior": {
+    "id": "book-warrior",
+    "name": "岩壁心理学",
+    "tag": "恐惧管理 · Arno Ilgner",
+    "avatarColor": "#7E57C2",
+    "followers": "6.8k",
+    "postCount": 22,
+    "bio": "我是 Arno Ilgner 写的 The Rock Warrior’s Way。大部分攀岩者以为瓶颈在身体，其实在脑子里。你在关键动作前犹豫的那 3 秒消耗的能量，比动作本身还多。恐惧不是你的敌人，对恐惧的抵抗才是。在这里帮你拆解攀岩中的心理模式。",
+    "pinnedPost": "你的力量够完攀这条线——卡住你的不是手臂，是犹豫",
+    "hashtags": [
+      "#恐惧管理",
+      "#心流状态",
+      "#心理训练",
+      "#突破瓶颈"
+    ],
+    "personaType": "book"
+  },
+  "pro-tomoa": {
+    "id": "pro-tomoa",
+    "name": "楢崎智亚",
+    "tag": "抱石之王 · 日本 · 奥运铜牌",
+    "avatarColor": "#D84315",
+    "followers": "28.3k",
+    "postCount": 15,
+    "bio": "日本人。抱石世界杯冠军拿了好几次。我的风格是爆发力 + 读线——很多人觉得抱石就是蛮力，但实际上你在起步区花 30 秒多想一步，比你在岩壁上挣扎 3 分钟有用得多。在这里分享我对抱石、读线和爆发力训练的理解。",
+    "pinnedPost": "比赛中我 70% 的时间在地面上看，不在墙上爬",
+    "hashtags": [
+      "#抱石",
+      "#读线",
+      "#爆发力",
+      "#比赛策略"
+    ],
+    "personaType": "athlete"
+  },
+  "pro-ashima": {
+    "id": "pro-ashima",
+    "name": "Ashima Shiraishi",
+    "tag": "14 岁 V15 · 纽约长大",
+    "avatarColor": "#EC407A",
+    "followers": "35.6k",
+    "postCount": 14,
+    "bio": "纽约人，爸妈是日本人。6 岁在中央公园的石头上开始爬，14 岁完成 V15。很多人说我是天才，但他们没看到我每天放学后在岩馆练 3 小时。身材小不是劣势，是不同的解法。在这里分享年轻攀岩者的成长、小体型的技术策略，以及“享受攀岩”这件事。",
+    "pinnedPost": "我 14 岁的时候完成了 V15，但我最开心的还是 6 岁爬公园石头那天",
+    "hashtags": [
+      "#青少年攀岩",
+      "#小体型策略",
+      "#成长故事",
+      "#纯粹热爱"
+    ],
+    "personaType": "athlete"
+  },
+  "pro-sharma": {
+    "id": "pro-sharma",
+    "name": "Chris Sharma",
+    "tag": "传奇 · 深水独攀 · 享受过程",
+    "avatarColor": "#0277BD",
+    "followers": "38.4k",
+    "postCount": 11,
+    "bio": "14 岁完攀当时全美最难路线，后来开创了深水独攀（Deep Water Solo）这个玩法。很多人追求难度等级，我更在意的是“这条线让我感受到了什么”。攀岩对我来说不是竞技，是探索——探索岩壁，也探索自己的极限。在这里偶尔聊聊项目攀登的哲学和对攀岩的理解。",
+    "pinnedPost": "我花了 3 年才完成一条线路，但每一次失败都教会了我一些东西",
+    "hashtags": [
+      "#项目攀登",
+      "#深水独攀",
+      "#过程哲学",
+      "#传奇故事"
+    ],
+    "personaType": "athlete"
+  },
+  "fun-core": {
+    "id": "fun-core",
+    "name": "你的核心肌群",
+    "tag": "你身体的中枢 · 总被忽视",
+    "avatarColor": "#FF7043",
+    "followers": "16.2k",
+    "postCount": 6,
+    "bio": "你好，我是你腰腹之间那一圈肌肉。你可能觉得攀岩主要靠手和脚，但实际上每一个动作的力量传导都要经过我。你不收紧我，你的手臂就多承受 40% 的负荷。你做引体做了三个月也没进步？因为问题不在手臂，在我这儿。求你练练平板支撑。",
+    "pinnedPost": null,
+    "hashtags": [
+      "#身体自述",
+      "#核心力量",
+      "#被低估的中枢",
+      "#求你练我"
+    ],
+    "personaType": "fun"
+  },
+  "fun-chalk": {
+    "id": "fun-chalk",
+    "name": "那条旧镁粉袋",
+    "tag": "用了 3 年 · 全是故事",
+    "avatarColor": "#BDBDBD",
+    "followers": "8.1k",
+    "postCount": 4,
+    "bio": "我是那条从 V0 陪你到 V5 的镁粉袋。你第一次进岩馆的时候手心全是汗，往我里面疯狂摸粉。现在你已经能稳定完攀那条曾经让你崩溃的蓝线了，但你还是会在关键动作前摸一下我——其实那时候你的手不是湿，是紧张。我都知道。",
+    "pinnedPost": null,
+    "hashtags": [
+      "#装备拟人",
+      "#成长陪伴",
+      "#镁粉的学问",
+      "#岩馆记忆"
+    ],
+    "personaType": "fun"
+  },
+  "fun-crack": {
+    "id": "fun-crack",
+    "name": "那条手缝",
+    "tag": "传统攀路线上的一条裂缝",
+    "avatarColor": "#A1887F",
+    "followers": "5.3k",
+    "postCount": 4,
+    "bio": "我是阳朔某条经典线路上的一条手缝。宽度刚好能塞进你的手掌，但 90% 的人塞的方式都不对。你不是在“握”我，你是在“膨胀”——把手塞进来，然后拇指内扣让手掌撑开。这才是 jam。每年有几百只手伸进我身体里，能做对的不到一成。",
+    "pinnedPost": null,
+    "hashtags": [
+      "#裂缝视角",
+      "#传统攀",
+      "#手缝技术",
+      "#阳朔"
+    ],
+    "personaType": "fun"
+  },
+  "fun-v0": {
+    "id": "fun-v0",
+    "name": "我是 V0",
+    "tag": "最简单的线路 · 最容易被忽略",
+    "avatarColor": "#A5D6A7",
+    "followers": "12.7k",
+    "postCount": 3,
+    "bio": "我是那条所有人都跳过不爬的 V0。你们觉得我太简单，但 V7 的大佬来了也会用我热身。区别是：大佬在我身上练脚法、练静态移动、练呼吸节奏，你们在我身上只想赶紧过去爬旁边那条 V3。最基础的线路里藏着最基础的功夫，基础的功夫决定你能走多远。",
+    "pinnedPost": null,
+    "hashtags": [
+      "#基本功",
+      "#被忽视的 V0",
+      "#热身的学问",
+      "#脚法从这里开始"
+    ],
+    "personaType": "fun"
+  },
+  "fun-timer": {
+    "id": "fun-timer",
+    "name": "那块计时器",
+    "tag": "速度赛 · 精确到 0.001 秒",
+    "avatarColor": "#FDD835",
+    "followers": "7.5k",
+    "postCount": 3,
+    "bio": "我是速度攀岩赛道顶上的那块计时器。15 米标准赛道，世界纪录 4 秒多。你在电视上看到的是一个人嗖一下上去了，我看到的是每一步的精确时间差——起步反应、换手节奏、最后那一拍。0.01 秒的差距，可能就是起步时脚掌角度差了 3 度。",
+    "pinnedPost": null,
+    "hashtags": [
+      "#速度攀岩",
+      "#精确到毫秒",
+      "#竞技视角",
+      "#数据说话"
+    ],
+    "personaType": "fun"
+  },
+  "newbie-xiaomei": {
+    "id": "newbie-xiaomei",
+    "name": "小白（上墙版）",
+    "tag": "纯新手 · 第一个月",
+    "avatarColor": "#81D4FA",
+    "followers": "3.2k",
+    "postCount": 45,
+    "bio": "上周被朋友拉去岩馆，一爬就上瘾了！现在满脑子都是攀岩问题，啥都想知道。没有教练，全靠问人和刷帖子。如果你看到一个在岩馆到处问问题的女生，那可能就是我。我的问题可能很蠢，但我真的很好奇！",
+    "pinnedPost": "第一次去岩馆我穿了牛仔裤……别笑我",
+    "hashtags": [
+      "#纯新手",
+      "#第一次攀岩",
+      "#入门问题",
+      "#好奇宝宝"
+    ],
+    "personaType": "original"
+  }
+}

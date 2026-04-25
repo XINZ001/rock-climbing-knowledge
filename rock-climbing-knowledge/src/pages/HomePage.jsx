@@ -330,33 +330,6 @@ export default function HomePage() {
         {/* 热门知识点滚动标签 */}
         <TrendingKPs />
 
-        {/* 快捷入口：测试 + 微任务 */}
-        <div className="mt-4 flex items-center justify-center gap-3">
-          <Link
-            to="/diagnosis"
-            className="inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium bg-stone-card border border-stone-border text-text-secondary hover:text-text-primary hover:border-forest/40 hover:shadow-sm transition-all"
-          >
-            🐒 {lang === 'zh' ? '攀岩人格测试' : lang === 'en' ? 'Climbing Persona' : '성격 테스트'}
-          </Link>
-          <button
-            onClick={() => setQuestModalOpen(true)}
-            className="relative inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium bg-stone-card border border-stone-border text-text-secondary hover:text-text-primary hover:border-gold/40 hover:shadow-sm transition-all"
-          >
-            <span className="absolute -top-2 -right-2 px-1.5 py-0.5 text-[10px] font-bold leading-none text-white bg-gradient-to-r from-rose-500 to-orange-400 rounded-full shadow-sm animate-none">
-              NEW
-            </span>
-            🎯 {lang === 'zh' ? '今日微任务' : lang === 'en' ? 'Daily Quest' : '오늘의 퀘스트'}
-          </button>
-          <Link
-            to="/climbing-mbti"
-            className="relative inline-flex items-center gap-2 px-4 py-2 rounded-full text-sm font-medium bg-stone-card border border-stone-border text-text-secondary hover:text-text-primary hover:border-teal/40 hover:shadow-sm transition-all"
-          >
-            <span className="absolute -top-2 -right-2 px-1.5 py-0.5 text-[10px] font-bold leading-none text-white bg-gradient-to-r from-violet-500 to-fuchsia-500 rounded-full shadow-sm">
-              BETA
-            </span>
-            🧩 {lang === 'zh' ? '攀岩MBTI' : lang === 'en' ? 'Climbing MBTI' : '클라이밍 MBTI'}
-          </Link>
-        </div>
       </div>
 
       {/* ==================== 1. 攀岩知识库 ==================== */}

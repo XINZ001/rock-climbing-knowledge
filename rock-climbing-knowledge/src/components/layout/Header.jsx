@@ -131,7 +131,7 @@ function LanguageDropdown({ lang, setLang }) {
   )
 }
 
-export default function Header({ onToggleSidebar, onOpenAuth, sidebarOpen, onCloseSidebar }) {
+export default function Header({ onToggleSidebar, onOpenAuth, sidebarOpen, onCloseSidebar, showMobileMenu = true }) {
   const { lang, setLang } = useApp()
   const { user, profile, loading } = useAuth()
   const location = useLocation()
@@ -143,72 +143,22 @@ export default function Header({ onToggleSidebar, onOpenAuth, sidebarOpen, onClo
     return () => window.removeEventListener('scroll', onScroll)
   }, [])
 
-  // 判断当前板块用于高亮
-  const isKnowledge = location.pathname === '/knowledge' || location.pathname.startsWith('/section') || location.pathname.startsWith('/search')
-  const isArticles = location.pathname.startsWith('/articles')
-  const isHallOfFame = location.pathname.startsWith('/hall-of-fame')
-  const isInjuries = location.pathname.startsWith('/injuries')
-
-  const navLabels = {
-    knowledge: { zh: '知识库', en: 'Knowledge', ko: '지식' },
-    articles: { zh: '专栏', en: 'Column', ko: '칼럼' },
-    hallOfFame: { zh: '名人堂', en: 'Hall of Fame', ko: '명예의 전당' },
-    injuries: { zh: '伤痛档案', en: 'Injury Archive', ko: '부상 기록' },
-  }
-
-  const navItems = [
-    { label: navLabels.knowledge[lang] || navLabels.knowledge.zh, to: '/knowledge', active: isKnowledge, icon: 'book', color: 'forest' },
-    { label: navLabels.articles[lang] || navLabels.articles.zh, to: '/articles', active: isArticles, icon: 'fileText', color: 'teal' },
-    { label: navLabels.hallOfFame[lang] || navLabels.hallOfFame.zh, to: '/hall-of-fame', active: isHallOfFame, icon: 'trophy', color: 'gold' },
-    { label: navLabels.injuries[lang] || navLabels.injuries.zh, to: '/injuries', active: isInjuries, icon: 'medkit', color: 'amber' },
-  ]
-
   return (
     <header className="sticky top-0 z-[55] border-b border-stone-border header-glass header-scrolled">
       <div className="flex items-center px-4 h-14">
-        {/* 左侧：Logo + 菜单按钮（桌面端） */}
+        {/* 左侧：Logo */}
         <div className="flex items-center gap-1 shrink-0">
           <Link to="/" className="flex items-center gap-2" onClick={sidebarOpen ? onCloseSidebar : undefined}>
             <Icon name="mountain" size={24} className="text-forest" />
             <span className="font-semibold text-lg">{lang === 'zh' ? '攀岩知识库' : lang === 'en' ? 'Xin Library' : '클라이밍 지식'}</span>
           </Link>
-          <button
-            onClick={onToggleSidebar}
-            className="btn-press hidden lg:flex items-center justify-center w-8 h-8 rounded-md hover:bg-stone-sidebar transition-colors ml-1"
-          >
-            <Icon name="menu" size={18} className="text-text-secondary" />
-          </button>
         </div>
 
-        {/* 中间：三个顶级导航按钮居中 — 桌面端 */}
-        <nav className="hidden lg:flex items-center justify-center gap-1 flex-1">
-          {navItems.map((item) => {
-            const colorMap = {
-              forest: 'bg-forest-light text-forest',
-              teal: 'bg-teal-light text-teal',
-              gold: 'bg-gold-light text-gold',
-              amber: 'bg-amber-light text-amber',
-            }
-            const activeClass = colorMap[item.color] || colorMap.forest
-            return (
-              <Link
-                key={item.to}
-                to={item.to}
-                className={`flex items-center gap-1.5 px-3 py-1.5 rounded-lg text-sm font-medium whitespace-nowrap transition-colors ${
-                  item.active
-                    ? activeClass
-                    : 'text-text-secondary hover:bg-stone-bg hover:text-text-primary'
-                }`}
-              >
-                <Icon name={item.icon} size={14} />
-                {item.label}
-              </Link>
-            )
-          })}
-        </nav>
+        {/* 中间留空 */}
+        <div className="flex-1" />
 
         {/* 右侧 */}
-        <div className="flex items-center gap-2 shrink-0 ml-auto lg:ml-0">
+        <div className="flex items-center gap-2 shrink-0">
           {/* 语言切换 — 桌面端 */}
           <LanguageDropdown lang={lang} setLang={setLang} />
 
@@ -252,7 +202,8 @@ export default function Header({ onToggleSidebar, onOpenAuth, sidebarOpen, onClo
             )
           )}
 
-          {/* 汉堡菜单 / 关闭 — 手机端右侧，三条线 ↔ X 动效 */}
+          {/* 汉堡菜单 / 关闭 — 仅在知识范围路由下显示，三条线 ↔ X 动效 */}
+          {showMobileMenu && (
           <button
             onClick={onToggleSidebar}
             className="lg:hidden relative flex items-center justify-center w-9 h-9 rounded-md hover:bg-stone-sidebar transition-colors"
@@ -264,6 +215,7 @@ export default function Header({ onToggleSidebar, onOpenAuth, sidebarOpen, onClo
               <span className={`block h-[2px] w-full bg-current rounded-full transition-all duration-300 ease-out text-text-secondary mt-[3px] ${sidebarOpen ? '-rotate-45 -translate-y-[5px]' : ''}`} />
             </span>
           </button>
+          )}
         </div>
       </div>
     </header>
