@@ -49,7 +49,7 @@ export default function App() {
           <Route index element={<FeedPage />} />
 
           {/* Tab 2: 学 */}
-          <Route path="learn" element={<LearnPage />} />
+          <Route path="learn" element={<HomePage />} />
 
           {/* Tab 3: 练 */}
           <Route path="train" element={<TrainPage />} />
