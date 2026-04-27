@@ -21,7 +21,7 @@ export default function ScrollToTop() {
   return (
     <button
       onClick={() => window.scrollTo({ top: 0, behavior: 'smooth' })}
-      className={`btn-press fixed bottom-20 right-5 lg:bottom-6 lg:right-6 z-30 w-10 h-10 bg-forest text-stone-950 rounded-full shadow-lg flex items-center justify-center hover:bg-forest-dark transition-all duration-300 ${
+      className={`btn-press fixed bottom-[calc(5rem+env(safe-area-inset-bottom))] right-5 lg:bottom-6 lg:right-6 z-30 w-10 h-10 bg-forest text-stone-950 rounded-full shadow-lg flex items-center justify-center hover:bg-forest-dark transition-all duration-300 ${
         visible ? 'opacity-100 translate-y-0' : 'opacity-0 translate-y-4 pointer-events-none'
       }`}
       aria-label="Back to top"

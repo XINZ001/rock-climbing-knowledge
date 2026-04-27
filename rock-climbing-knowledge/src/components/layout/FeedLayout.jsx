@@ -237,31 +237,34 @@ export default function FeedLayout() {
         </div>
       )}
       {/* ── Main Content ── */}
-      <main className={`${showBottomNav ? 'pb-14' : 'pb-0'} lg:pb-0 min-h-screen bg-stone-bg`}>
+      <main className={`${showBottomNav ? 'pb-[calc(3.5rem+env(safe-area-inset-bottom))]' : 'pb-0'} lg:pb-0 min-h-screen bg-stone-bg`}>
         <Outlet context={{ onOpenAuth: () => setAuthOpen(true), feedSearchQuery, setFeedSearchQuery }} />
       </main>
 
       {/* ── Bottom Bar (mobile <1024px) ── */}
       {showBottomNav && (
-      <nav className="lg:hidden fixed bottom-0 left-0 right-0 h-14 bg-stone-card/90 backdrop-blur-lg border-t border-stone-border z-30 flex items-stretch justify-around pb-[env(safe-area-inset-bottom)]">
-        {navItems.map(({ label, path, icon }) => {
-          const active = isActive(path, location.pathname)
-          return (
-            <Link
-              key={path}
-              to={path}
-              className={`relative flex-1 flex flex-col items-center justify-center gap-0.5 no-underline transition-colors btn-press ${
-                active ? 'text-forest' : 'text-text-secondary'
-              }`}
-            >
-              {active && (
-                <span className="absolute top-0 left-1/2 -translate-x-1/2 h-[2px] w-8 bg-forest rounded-full" />
-              )}
-              {icon({ className: `shrink-0 transition-transform duration-200 ${active ? 'scale-110' : ''}` })}
-              <span className={`text-[10px] leading-tight transition-all ${active ? 'font-semibold' : ''}`}>{label}</span>
-            </Link>
-          )
-        })}
+      <nav className="lg:hidden fixed bottom-0 left-0 right-0 bg-stone-card/90 backdrop-blur-lg border-t border-stone-border z-30">
+        <div className="h-14 flex items-stretch justify-around">
+          {navItems.map(({ label, path, icon }) => {
+            const active = isActive(path, location.pathname)
+            return (
+              <Link
+                key={path}
+                to={path}
+                className={`relative flex-1 flex flex-col items-center justify-center gap-0.5 no-underline transition-colors btn-press ${
+                  active ? 'text-forest' : 'text-text-secondary'
+                }`}
+              >
+                {active && (
+                  <span className="absolute top-0 left-1/2 -translate-x-1/2 h-[2px] w-8 bg-forest rounded-full" />
+                )}
+                {icon({ className: `shrink-0 transition-transform duration-200 ${active ? 'scale-110' : ''}` })}
+                <span className={`text-[10px] leading-tight transition-all ${active ? 'font-semibold' : ''}`}>{label}</span>
+              </Link>
+            )
+          })}
+        </div>
+        <div style={{ height: 'env(safe-area-inset-bottom)' }} />
       </nav>
       )}
 
