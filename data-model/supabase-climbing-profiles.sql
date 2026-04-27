@@ -8,6 +8,7 @@ CREATE TABLE IF NOT EXISTS climbing_profiles (
   user_id UUID UNIQUE NOT NULL REFERENCES auth.users(id) ON DELETE CASCADE,
 
   -- 基础攀岩信息
+  gender TEXT,                              -- 性别: male, female, prefer_not_to_say
   experience TEXT,                          -- 攀岩年限: <6m, 6-12m, 1-2y, 2-5y, 5-10y, 10y+
   climbing_types TEXT[] DEFAULT '{}',       -- 攀爬类型（多选）: bouldering, sport, trad, top-rope, speed, deep-water-solo, ice, indoor
   frequency TEXT,                           -- 攀爬频率: 1, 2-3, 4-5, 6+
@@ -28,6 +29,10 @@ CREATE TABLE IF NOT EXISTS climbing_profiles (
   created_at TIMESTAMPTZ NOT NULL DEFAULT now(),
   updated_at TIMESTAMPTZ NOT NULL DEFAULT now()
 );
+
+-- 兼容已存在的表
+ALTER TABLE climbing_profiles
+  ADD COLUMN IF NOT EXISTS gender TEXT;
 
 -- RLS 策略
 ALTER TABLE climbing_profiles ENABLE ROW LEVEL SECURITY;

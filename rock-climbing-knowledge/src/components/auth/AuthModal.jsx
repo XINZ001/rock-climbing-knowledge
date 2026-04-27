@@ -205,7 +205,12 @@ export default function AuthModal({ onClose }) {
         <div className="p-6 pt-8">
           {/* 标题区域 */}
           <div className="text-center mb-6">
-            <Icon name="mountain" size={32} className="text-forest mx-auto mb-2" />
+            <img
+              src="/images/logo/climbing-knowledge-logo-white.svg"
+              alt=""
+              aria-hidden="true"
+              className="home-logo-mark mx-auto mb-3 h-auto w-36"
+            />
             <h2 className="text-xl font-bold" key={step}>
               {stepTitle[step]}
             </h2>
@@ -250,7 +255,7 @@ export default function AuthModal({ onClose }) {
               <button
                 type="submit"
                 disabled={loading}
-                className="w-full py-2.5 rounded-lg bg-forest text-white text-sm font-medium hover:bg-forest-dark transition-colors disabled:opacity-50"
+                className="w-full py-2.5 rounded-lg bg-forest text-stone-950 text-sm font-medium hover:bg-forest-dark transition-colors disabled:opacity-50"
               >
                 {loading
                   ? t('检测中...', 'Checking...', '확인 중...')
@@ -288,7 +293,7 @@ export default function AuthModal({ onClose }) {
               <button
                 type="submit"
                 disabled={loading}
-                className="w-full py-2.5 rounded-lg bg-forest text-white text-sm font-medium hover:bg-forest-dark transition-colors disabled:opacity-50"
+                className="w-full py-2.5 rounded-lg bg-forest text-stone-950 text-sm font-medium hover:bg-forest-dark transition-colors disabled:opacity-50"
               >
                 {loading ? t('登录中...', 'Logging in...', '로그인 중...') : t('登录', 'Log In', '로그인')}
               </button>
@@ -348,7 +353,7 @@ export default function AuthModal({ onClose }) {
               <button
                 type="submit"
                 disabled={loading}
-                className="w-full py-2.5 rounded-lg bg-forest text-white text-sm font-medium hover:bg-forest-dark transition-colors disabled:opacity-50"
+                className="w-full py-2.5 rounded-lg bg-forest text-stone-950 text-sm font-medium hover:bg-forest-dark transition-colors disabled:opacity-50"
               >
                 {loading ? t('注册中...', 'Signing up...', '가입 중...') : t('注册', 'Sign Up', '회원가입')}
               </button>
@@ -376,7 +381,7 @@ export default function AuthModal({ onClose }) {
               <button
                 type="submit"
                 disabled={loading}
-                className="w-full py-2.5 rounded-lg bg-forest text-white text-sm font-medium hover:bg-forest-dark transition-colors disabled:opacity-50"
+                className="w-full py-2.5 rounded-lg bg-forest text-stone-950 text-sm font-medium hover:bg-forest-dark transition-colors disabled:opacity-50"
               >
                 {loading
                   ? t('发送中...', 'Sending...', '보내는 중...')

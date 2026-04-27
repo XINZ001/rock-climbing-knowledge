@@ -71,9 +71,6 @@ export default function ArticleDetailPage() {
         <p className="text-text-secondary">
           {lang === 'zh' ? '文章未找到' : lang === 'en' ? 'Article not found' : '글을 찾을 수 없습니다'}
         </p>
-        <Link to="/articles" className="text-forest hover:underline mt-4 inline-block">
-          {lang === 'zh' ? '← 返回专栏' : lang === 'en' ? '← Back to Column' : '← 칼럼으로 돌아가기'}
-        </Link>
       </div>
     )
   }
@@ -86,15 +83,6 @@ export default function ArticleDetailPage() {
   return (
     <div className="max-w-4xl mx-auto px-4 py-8">
       <PageSEO path={`/articles/${articleSlug}`} title={seoTitle} />
-
-      {/* Back link */}
-      <Link
-        to="/articles"
-        className="inline-flex items-center gap-1.5 text-sm text-text-secondary hover:text-forest transition-colors mb-6"
-      >
-        <Icon name="chevronLeft" size={16} />
-        {lang === 'zh' ? '返回专栏' : lang === 'en' ? 'Back to Column' : '칼럼으로 돌아가기'}
-      </Link>
 
       {/* 文章头部 */}
       <div>
@@ -194,7 +182,7 @@ export default function ArticleDetailPage() {
                   <Link
                     key={kpId}
                     to={route}
-                    className="px-3 py-1.5 rounded-full text-xs font-medium bg-forest-light text-forest hover:bg-forest hover:text-white transition-colors"
+                    className="px-3 py-1.5 rounded-full text-xs font-medium bg-forest-light text-forest hover:bg-forest hover:text-stone-950 transition-colors"
                   >
                     {kpId}
                   </Link>

@@ -51,15 +51,6 @@ export default function HallOfFameCategoryPage() {
 
   return (
     <div className="max-w-5xl mx-auto px-4 py-8">
-      <nav className="mb-6">
-        <Link
-          to="/hall-of-fame"
-          className="text-sm font-medium text-forest hover:underline"
-        >
-          ← {lang === 'zh' ? '返回名人堂' : lang === 'en' ? 'Back to Hall of Fame' : '명예의 전당으로 돌아가기'}
-        </Link>
-      </nav>
-
       <section className="rounded-[1.5rem] border border-stone-border bg-stone-card p-6 sm:p-8">
         <h1 className="text-2xl sm:text-3xl font-bold tracking-tight">
           {t(value)}
@@ -85,7 +76,7 @@ export default function HallOfFameCategoryPage() {
                   onClick={() => handleSubClick(sub.key)}
                   className={`rounded-full border px-3 py-1.5 text-sm transition-colors ${
                     active
-                      ? 'border-forest bg-forest text-white'
+                      ? 'border-forest bg-forest text-stone-950'
                       : 'border-stone-border bg-stone-card hover:border-forest/40 hover:text-forest'
                   }`}
                 >

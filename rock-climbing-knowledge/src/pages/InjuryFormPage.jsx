@@ -53,7 +53,7 @@ function MultiSelectChips({ label, selected, onChange, options, lang }) {
               onClick={() => toggle(opt.value)}
               className={`px-3 py-1.5 rounded-full text-sm border transition-colors ${
                 active
-                  ? 'bg-forest text-white border-forest'
+                  ? 'bg-forest text-stone-950 border-forest'
                   : 'bg-stone-bg border-stone-border hover:border-forest text-text-secondary'
               }`}
             >
@@ -83,7 +83,7 @@ function TriStateField({ label, value, onChange, lang }) {
             onClick={() => onChange(o.val)}
             className={`px-4 py-1.5 rounded-lg text-sm border transition-colors ${
               value === o.val
-                ? 'bg-forest text-white border-forest'
+                ? 'bg-forest text-stone-950 border-forest'
                 : 'bg-stone-bg border-stone-border hover:border-forest text-text-secondary'
             }`}
           >
@@ -210,7 +210,7 @@ export default function InjuryFormPage() {
         <p className="text-text-secondary mb-6">{lang === 'zh' ? '请先登录后再提交你的伤痛经历。' : lang === 'en' ? 'Please sign in before submitting your injury story.' : '부상 경험을 제출하기 전에 로그인해 주세요.'}</p>
         <button
           onClick={onOpenAuth}
-          className="px-6 py-2.5 rounded-lg bg-forest text-white text-sm font-medium hover:bg-forest-dark transition-colors"
+          className="px-6 py-2.5 rounded-lg bg-forest text-stone-950 text-sm font-medium hover:bg-forest-dark transition-colors"
         >
           {lang === 'zh' ? '登录 / 注册' : lang === 'en' ? 'Sign in / Register' : '로그인 / 회원가입'}
         </button>
@@ -503,7 +503,7 @@ export default function InjuryFormPage() {
                   onClick={() => setSoughtMedical(val)}
                   className={`px-4 py-1.5 rounded-lg text-sm border transition-colors ${
                     soughtMedical === val
-                      ? 'bg-forest text-white border-forest'
+                      ? 'bg-forest text-stone-950 border-forest'
                       : 'bg-stone-bg border-stone-border hover:border-forest text-text-secondary'
                   }`}
                 >
@@ -605,7 +605,7 @@ export default function InjuryFormPage() {
           <button
             type="submit"
             disabled={submitting}
-            className="px-8 py-3 rounded-xl bg-forest text-white font-medium hover:bg-forest-dark transition-colors disabled:opacity-50"
+            className="px-8 py-3 rounded-xl bg-forest text-stone-950 font-medium hover:bg-forest-dark transition-colors disabled:opacity-50"
           >
             {submitting
               ? (isEdit ? (lang === 'zh' ? '保存中...' : lang === 'en' ? 'Saving...' : '저장 중...') : (lang === 'zh' ? '提交中...' : lang === 'en' ? 'Submitting...' : '제출 중...'))

@@ -1,10 +1,9 @@
-import { useState, useRef, useEffect } from 'react'
-import { Link, useLocation, useNavigate } from 'react-router-dom'
+import { useState, useRef, useEffect, useMemo } from 'react'
+import { useLocation, useNavigate } from 'react-router-dom'
 import { useApp } from '../../context/AppContext'
 import { useAuth } from '../../context/AuthContext'
 import { Icon } from '../../utils/icons'
 import UserAvatar from '../ui/UserAvatar'
-import ThemeToggle from '../ui/ThemeToggle'
 
 function UserMenu() {
   const { profile, signOut } = useAuth()
@@ -87,6 +86,79 @@ const langOptions = [
   { code: 'ko', label: '한국어' },
 ]
 
+function getPageTitle(pathname, search, lang) {
+  const tt = (zh, en, ko) => (lang === 'zh' ? zh : lang === 'en' ? en : ko)
+  const searchParams = new URLSearchParams(search)
+  const query = searchParams.get('q')
+
+  if (pathname === '/search') {
+    return {
+      title: tt('搜索结果', 'Search Results', '검색 결과'),
+      eyebrow: query ? `"${query}"` : tt('知识库搜索', 'Knowledge Search', '지식 검색'),
+    }
+  }
+  if (pathname === '/knowledge' || pathname === '/knowledge-index') {
+    return { title: tt('攀岩知识库', 'Knowledge Base', '지식 라이브러리') }
+  }
+  if (pathname.startsWith('/section/')) {
+    const segments = pathname.split('/').filter(Boolean)
+    return {
+      title: segments.length >= 3
+        ? tt('知识点详情', 'Knowledge Detail', '지식 상세')
+        : tt('知识领域', 'Knowledge Domain', '지식 분야'),
+    }
+  }
+  if (pathname === '/articles') {
+    return { title: tt('攀岩专栏', 'Climbing Column', '클라이밍 칼럼') }
+  }
+  if (pathname.startsWith('/articles/category/')) {
+    return { title: tt('专栏分类', 'Article Category', '칼럼 카테고리') }
+  }
+  if (pathname.startsWith('/articles/')) {
+    return { title: tt('文章详情', 'Article', '글 상세') }
+  }
+  if (pathname === '/hall-of-fame') {
+    return { title: tt('攀岩名人堂', 'Hall of Fame', '명예의 전당') }
+  }
+  if (pathname.startsWith('/hall-of-fame/')) {
+    return { title: tt('运动员档案', 'Athlete Profile', '선수 프로필') }
+  }
+  if (pathname === '/quests') {
+    return { title: tt('每日微任务', 'Daily Quests', '일일 퀘스트') }
+  }
+  if (pathname === '/diagnosis') {
+    return { title: tt('能力诊断', 'Skill Diagnosis', '능력 진단') }
+  }
+  if (pathname === '/climbing-mbti') {
+    return { title: tt('攀岩人格测试', 'Climbing Persona', '클라이밍 성향 테스트') }
+  }
+  if (pathname === '/injuries') {
+    return { title: tt('伤痛档案', 'Injury Archive', '부상 기록') }
+  }
+  if (pathname === '/injuries/new') {
+    return { title: tt('分享受伤经历', 'Share Injury Story', '부상 경험 공유') }
+  }
+  if (pathname.includes('/edit')) {
+    return { title: tt('编辑伤痛档案', 'Edit Injury Story', '부상 기록 편집') }
+  }
+  if (pathname.startsWith('/injuries/')) {
+    return { title: tt('伤痛详情', 'Injury Detail', '부상 상세') }
+  }
+  if (pathname === '/climbing-profile') {
+    return { title: tt('攀岩档案', 'Climbing Profile', '클라이밍 프로필') }
+  }
+  if (pathname === '/settings') {
+    return { title: tt('个人设置', 'Settings', '설정') }
+  }
+  if (pathname === '/auth/callback') {
+    return { title: tt('登录中', 'Signing In', '로그인 중') }
+  }
+  if (pathname === '/admin/feedback') {
+    return { title: tt('反馈管理', 'Feedback', '피드백') }
+  }
+  return { title: tt('当前页面', 'Current Page', '현재 페이지') }
+}
+
 function LanguageDropdown({ lang, setLang }) {
   const [open, setOpen] = useState(false)
   const ref = useRef(null)
@@ -131,27 +203,52 @@ function LanguageDropdown({ lang, setLang }) {
   )
 }
 
-export default function Header({ onToggleSidebar, onOpenAuth, sidebarOpen, onCloseSidebar, showMobileMenu = true }) {
+export default function Header({ onToggleSidebar, onOpenAuth, sidebarOpen, onCloseSidebar, showMobileMenu = true, saveAction = null }) {
   const { lang, setLang } = useApp()
-  const { user, profile, loading } = useAuth()
+  const { user, loading } = useAuth()
   const location = useLocation()
-  const [scrolled, setScrolled] = useState(false)
+  const navigate = useNavigate()
+  const showAccountActions = ['/profile', '/settings', '/climbing-profile'].some(path => location.pathname === path || location.pathname.startsWith(path + '/'))
+  const pageTitle = useMemo(
+    () => getPageTitle(location.pathname, location.search, lang),
+    [location.pathname, location.search, lang]
+  )
 
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 10)
-    window.addEventListener('scroll', onScroll, { passive: true })
-    return () => window.removeEventListener('scroll', onScroll)
-  }, [])
+  const handleBack = async () => {
+    if (saveAction?.dirty) {
+      const shouldSave = window.confirm(saveAction.confirmMessage || '你有未保存的修改。是否保存后离开？')
+      if (!shouldSave) return
+      const saved = await saveAction.onSave()
+      if (!saved) return
+    }
+    if (sidebarOpen) onCloseSidebar?.()
+    if (window.history.length > 1) navigate(-1)
+    else navigate('/learn')
+  }
 
   return (
     <header className="sticky top-0 z-[55] border-b border-stone-border header-glass header-scrolled">
       <div className="flex items-center px-4 h-14">
-        {/* 左侧：Logo */}
-        <div className="flex items-center gap-1 shrink-0">
-          <Link to="/" className="flex items-center gap-2" onClick={sidebarOpen ? onCloseSidebar : undefined}>
-            <Icon name="mountain" size={24} className="text-forest" />
-            <span className="font-semibold text-lg">{lang === 'zh' ? '攀岩知识库' : lang === 'en' ? 'Xin Library' : '클라이밍 지식'}</span>
-          </Link>
+        {/* 左侧：返回 + 页面状态 */}
+        <div className="flex min-w-0 items-center gap-2 shrink">
+          <button
+            type="button"
+            onClick={handleBack}
+            className="flex h-9 w-9 shrink-0 items-center justify-center rounded-lg text-text-secondary hover:bg-stone-sidebar hover:text-text-primary transition-colors"
+            aria-label={lang === 'zh' ? '返回' : lang === 'en' ? 'Back' : '뒤로'}
+          >
+            <Icon name="chevronLeft" size={22} />
+          </button>
+          <div className="min-w-0">
+            {pageTitle.eyebrow && (
+              <div className="truncate text-[11px] leading-tight text-text-secondary">
+                {pageTitle.eyebrow}
+              </div>
+            )}
+            <h1 className="truncate text-base font-semibold leading-tight text-text-primary">
+              {pageTitle.title}
+            </h1>
+          </div>
         </div>
 
         {/* 中间留空 */}
@@ -159,34 +256,38 @@ export default function Header({ onToggleSidebar, onOpenAuth, sidebarOpen, onClo
 
         {/* 右侧 */}
         <div className="flex items-center gap-2 shrink-0">
+          {saveAction && (
+            <button
+              type="button"
+              onClick={saveAction.onSave}
+              disabled={!saveAction.dirty || saveAction.saving}
+              className={`rounded-lg px-3 py-1.5 text-sm font-medium transition-colors ${
+                saveAction.dirty
+                  ? 'bg-forest text-stone-950 hover:bg-forest-dark'
+                  : 'bg-stone-sidebar text-text-secondary cursor-default'
+              } disabled:opacity-60`}
+            >
+              {saveAction.saving
+                ? (lang === 'zh' ? '保存中' : lang === 'en' ? 'Saving' : '저장 중')
+                : (lang === 'zh' ? '保存' : lang === 'en' ? 'Save' : '저장')}
+            </button>
+          )}
+
           {/* 语言切换 — 桌面端 */}
           <LanguageDropdown lang={lang} setLang={setLang} />
 
-          {/* 暗色模式切换 — 桌面端 */}
-          <ThemeToggle size={18} className="hidden lg:flex w-8 h-8" />
-
-          {/* 登录状态 */}
-          {!loading && (
+          {/* 登录状态：只在个人相关页面显示，内容阅读页保持沉浸 */}
+          {showAccountActions && !loading && (
             user ? (
-              <>
-                {/* 桌面端：完整用户菜单 */}
-                <div className="hidden lg:block">
-                  <UserMenu />
-                </div>
-                {/* 移动端：头像图标 */}
-                <button
-                  onClick={() => {}}
-                  className="lg:hidden flex items-center justify-center w-9 h-9 rounded-md hover:bg-stone-sidebar transition-colors"
-                >
-                  <UserAvatar name={profile?.username || (lang === 'zh' ? '攀岩者' : lang === 'en' ? 'Climber' : '클라이머')} size={24} />
-                </button>
-              </>
+              <div className="hidden lg:block">
+                <UserMenu />
+              </div>
             ) : (
               <>
                 {/* 桌面端：完整登录按钮 */}
                 <button
                   onClick={onOpenAuth}
-                  className="hidden lg:flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-forest text-white text-sm font-medium hover:bg-forest-dark transition-colors"
+                  className="hidden lg:flex items-center gap-1.5 px-3 py-1.5 rounded-lg bg-forest text-stone-950 text-sm font-medium hover:bg-forest-dark transition-colors"
                 >
                   <Icon name="user" size={14} />
                   {lang === 'zh' ? '登录' : lang === 'en' ? 'Sign in' : '로그인'}

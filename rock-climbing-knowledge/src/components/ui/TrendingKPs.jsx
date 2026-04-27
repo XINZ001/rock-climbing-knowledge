@@ -115,11 +115,13 @@ function MarqueeRow({ items, direction, paused, onClickItem }) {
   }, [tick, direction])
 
   return (
-    <div className="overflow-hidden relative py-1">
-      {/* 左右渐隐遮罩 — inset-y 用负值覆盖 py-1 的 padding，确保遮罩全高 */}
-      <div className="pointer-events-none absolute -inset-y-1 left-0 w-12 z-10 bg-gradient-to-r from-stone-bg to-transparent" />
-      <div className="pointer-events-none absolute -inset-y-1 right-0 w-12 z-10 bg-gradient-to-l from-stone-bg to-transparent" />
-
+    <div
+      className="overflow-hidden relative py-1"
+      style={{
+        WebkitMaskImage: 'linear-gradient(to right, transparent 0, black 48px, black calc(100% - 48px), transparent 100%)',
+        maskImage: 'linear-gradient(to right, transparent 0, black 48px, black calc(100% - 48px), transparent 100%)',
+      }}
+    >
       <div
         ref={trackRef}
         className="flex gap-3 w-max will-change-transform"

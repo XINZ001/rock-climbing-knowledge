@@ -3,6 +3,7 @@ import { Link } from 'react-router-dom'
 import { useApp } from '../../context/AppContext'
 import TiltCard from './TiltCard'
 import questData from '../../data/quests.json'
+import { fetchQuestProgress, recordQuestCompletion } from '../../lib/questProgress'
 
 const STORAGE_KEY = 'quest-progress'
 const quests = questData.quests
@@ -10,10 +11,6 @@ const quests = questData.quests
 function loadProgress() {
   try { return JSON.parse(localStorage.getItem(STORAGE_KEY)) || {} }
   catch { return {} }
-}
-
-function saveProgress(progress) {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(progress))
 }
 
 const TIER_THRESHOLDS = [
@@ -183,8 +180,6 @@ function ResultCard({ quest, progress, onComplete, onRedraw, onClose, lang, t })
   const dates = progress[quest.id]?.dates || []
   const doneToday = dates.includes(today)
 
-  useEffect(() => { setSparkle(false) }, [quest.id])
-
   const handleDone = () => {
     onComplete(quest.id)
     setSparkle(true)
@@ -282,7 +277,7 @@ function ResultCard({ quest, progress, onComplete, onRedraw, onClose, lang, t })
 }
 
 // --- 主弹窗 ---
-export default function QuestDrawModal({ isOpen, onClose, user, onOpenAuth, pendingQuestRef }) {
+export default function QuestDrawModal({ isOpen, onClose, user, onOpenAuth, pendingQuestRef, onProgressChange }) {
   const { t, lang } = useApp()
   const [progress, setProgress] = useState(loadProgress)
   const [phase, setPhase] = useState('rolling') // rolling → result
@@ -306,48 +301,53 @@ export default function QuestDrawModal({ isOpen, onClose, user, onOpenAuth, pend
       const saved = JSON.parse(localStorage.getItem(STORAGE_KEY)) || {}
       saved._currentQuest = { id: questId, date: today }
       localStorage.setItem(STORAGE_KEY, JSON.stringify(saved))
-    } catch {}
+    } catch {
+      return
+    }
   }
 
   // 每次打开时：如果今天已有当前卡片，直接显示；否则随机抽取
   useEffect(() => {
     if (isOpen) {
-      const current = loadProgress()
-      setProgress(current)
+      let cancelled = false
+      fetchQuestProgress().then(({ data }) => {
+        if (cancelled) return
+        const current = data || loadProgress()
+        setProgress(current)
+        onProgressChange?.(current)
 
-      const today = new Date().toISOString().slice(0, 10)
-      const cur = current._currentQuest
-      const todayQuest = (cur && cur.date === today) ? quests.find(q => q.id === cur.id) : null
+        const today = new Date().toISOString().slice(0, 10)
+        const cur = current._currentQuest
+        const todayQuest = (cur && cur.date === today) ? quests.find(q => q.id === cur.id) : null
 
-      if (todayQuest) {
-        setFinalQuest(todayQuest)
-        setPhase('result')
-      } else {
-        const picked = pickRandom(current)
-        setFinalQuest(picked)
-        saveCurrentQuest(picked.id)
-        setPhase('rolling')
+        if (todayQuest) {
+          setFinalQuest(todayQuest)
+          setPhase('result')
+        } else {
+          const picked = pickRandom(current)
+          setFinalQuest(picked)
+          saveCurrentQuest(picked.id)
+          setPhase('rolling')
+        }
+      })
+
+      return () => {
+        cancelled = true
       }
     }
-  }, [isOpen, pickRandom])
+  }, [isOpen, onProgressChange, pickRandom])
 
   const handleSettled = useCallback(() => {
     setPhase('result')
   }, [])
 
-  const handleComplete = (questId) => {
+  const handleComplete = async (questId) => {
     if (!user) { if (pendingQuestRef) pendingQuestRef.current = questId; onClose(); onOpenAuth?.(); return }
-    const today = new Date().toISOString().slice(0, 10)
-    setProgress(prev => {
-      const entry = prev[questId] || { times: 0, dates: [] }
-      const updated = {
-        ...prev,
-        [questId]: { times: entry.times + 1, dates: [...entry.dates, today] },
-        _currentQuest: { id: questId, date: today },
-      }
-      saveProgress(updated)
-      return updated
-    })
+    const { data } = await recordQuestCompletion(questId)
+    if (data) {
+      setProgress(data)
+      onProgressChange?.(data)
+    }
   }
 
   const handleRedraw = useCallback(() => {

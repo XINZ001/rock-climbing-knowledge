@@ -200,7 +200,6 @@ export default function InjuryDetailPage() {
     return (
       <div className="max-w-5xl mx-auto px-4 py-16 text-center">
         <p className="text-text-secondary mb-4">{lang === 'zh' ? '找不到这条记录' : lang === 'en' ? 'Record not found' : '기록을 찾을 수 없습니다'}</p>
-        <Link to="/injuries" className="text-forest hover:underline">← {lang === 'zh' ? '返回伤痛档案' : lang === 'en' ? 'Back to Archive' : '기록으로 돌아가기'}</Link>
       </div>
     )
   }
@@ -213,27 +212,12 @@ export default function InjuryDetailPage() {
 
   return (
     <div className={`max-w-5xl mx-auto px-4 py-8 transition-opacity duration-200 ${transitioning ? 'opacity-40 pointer-events-none' : 'opacity-100'}`}>
-      {/* 无媒体时的返回链接 */}
-      {!hasMedia && (
-        <div className="mb-6">
-          <Link to="/injuries" className="inline-flex items-center gap-1 text-sm text-text-secondary hover:text-forest">
-            ← {lang === 'zh' ? '返回伤痛档案' : lang === 'en' ? 'Back to Archive' : '기록으로 돌아가기'}
-          </Link>
-        </div>
-      )}
-
       {/* 主体：左右分栏（桌面端）/ 上下排列（手机端） */}
       <div className={`flex flex-col ${hasMedia ? 'md:flex-row' : ''} gap-6`}>
 
         {/* 左侧：媒体区域 */}
         {hasMedia && (
           <div className="w-full md:w-[420px] lg:w-[480px] shrink-0 md:sticky md:top-[72px] md:self-start">
-            {/* 返回链接 — 在左侧列内 */}
-            <div className="mb-3">
-              <Link to="/injuries" className="inline-flex items-center gap-1 text-sm text-text-secondary hover:text-forest">
-                ← {lang === 'zh' ? '返回伤痛档案' : lang === 'en' ? 'Back to Archive' : '기록으로 돌아가기'}
-              </Link>
-            </div>
             <MediaPanel mediaItems={mediaItems} />
             {/* 上一个 / 下一个 */}
             {(prevId || nextId) && (
@@ -469,7 +453,7 @@ export default function InjuryDetailPage() {
               <button
                 type="submit"
                 disabled={commentLoading || !newComment.trim()}
-                className="px-4 py-2.5 rounded-lg bg-forest text-white text-sm font-medium hover:bg-forest-dark transition-colors disabled:opacity-50 shrink-0"
+                className="px-4 py-2.5 rounded-lg bg-forest text-stone-950 text-sm font-medium hover:bg-forest-dark transition-colors disabled:opacity-50 shrink-0"
               >
                 <Icon name="send" size={16} />
               </button>

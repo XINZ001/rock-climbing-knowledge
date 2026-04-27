@@ -1,7 +1,6 @@
 import { useParams, Link } from 'react-router-dom'
 import { useEffect, useState, useMemo } from 'react'
 import { useApp } from '../context/AppContext'
-import Breadcrumb from '../components/content/Breadcrumb'
 import KnowledgePoint from '../components/content/KnowledgePoint'
 import { useUserRegion } from '../hooks/useUserRegion'
 import { filterAndRankVideos } from '../utils/videoFilter'
@@ -105,10 +104,8 @@ export default function TopicPage() {
         path={`/section/${sectionSlug}/${subSlug}`}
       />
 
-      <Breadcrumb section={section} subSection={subMeta} />
-
-      {/* Hero 标题卡片 */}
-      <div className="mt-6 rounded-2xl bg-forest-light/40 border border-forest/10 px-6 sm:px-8 py-7 sm:py-9">
+      {/* 页面标题 */}
+      <div className="py-4 sm:py-6">
         <div className="text-xs font-semibold text-forest uppercase tracking-wider mb-2">
           {t(section.title)}
         </div>
@@ -127,7 +124,7 @@ export default function TopicPage() {
 
         {/* 移动端内联目录 — 嵌入 Hero 卡片底部 */}
         {showToc && (
-          <nav className="xl:hidden mt-5 pt-5 border-t border-forest/10">
+          <nav className="2xl:hidden mt-5 pt-5 border-t border-stone-border/70">
             <h2 className="text-[11px] font-semibold text-forest/60 uppercase tracking-wider mb-2">
               {lang === 'zh' ? '目录' : lang === 'en' ? 'Contents' : '목차'}
             </h2>
@@ -193,10 +190,10 @@ export default function TopicPage() {
         )}
       </div>
 
-      {/* 桌面端右侧 sticky 目录 — 绝对定位，撑满父容器高度让 sticky 生效 */}
+      {/* 超宽屏右侧目录：固定定位，避免撑出页面宽度 */}
       {showToc && (
-        <aside className="hidden xl:block absolute top-0 bottom-0 left-full ml-8 w-48" style={{ pointerEvents: 'none' }}>
-          <nav className="sticky top-20" style={{ pointerEvents: 'auto' }}>
+        <aside className="hidden 2xl:block fixed right-6 top-20 z-20 max-h-[calc(100vh-6rem)] w-48 overflow-y-auto">
+          <nav>
             <h2 className="text-[11px] font-semibold text-text-secondary uppercase tracking-wider mb-3">
               {lang === 'zh' ? '目录' : lang === 'en' ? 'Contents' : '목차'}
             </h2>

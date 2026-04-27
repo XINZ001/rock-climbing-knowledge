@@ -1,20 +1,23 @@
-import { useState, useMemo } from 'react'
+import { useEffect, useState, useMemo } from 'react'
 import { Link } from 'react-router-dom'
 import { useApp } from '../context/AppContext'
+import { useAuth } from '../context/AuthContext'
 import { Icon } from '../utils/icons'
 import PageSEO from '../components/PageSEO'
 import questData from '../data/quests.json'
-
-const QUEST_STORAGE_KEY = 'quest-progress'
-
-function loadQuestProgress() {
-  try { return JSON.parse(localStorage.getItem(QUEST_STORAGE_KEY)) || {} }
-  catch { return {} }
-}
+import { fetchQuestProgress, loadLocalQuestProgress } from '../lib/questProgress'
 
 export default function TrainPage() {
   const { lang } = useApp()
-  const [questProgress] = useState(loadQuestProgress)
+  const { user } = useAuth()
+  const [questProgress, setQuestProgress] = useState(loadLocalQuestProgress)
+
+  useEffect(() => {
+    if (!user) return
+    fetchQuestProgress().then(({ data }) => {
+      setQuestProgress(data || {})
+    })
+  }, [user])
 
   const tt = (zh, en, ko) => lang === 'zh' ? zh : lang === 'en' ? en : (ko || en)
 

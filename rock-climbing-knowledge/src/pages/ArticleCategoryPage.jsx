@@ -34,9 +34,6 @@ export default function ArticleCategoryPage() {
         <p className="text-text-secondary">
           {lang === 'zh' ? '分类未找到' : lang === 'en' ? 'Category not found' : '카테고리를 찾을 수 없습니다'}
         </p>
-        <Link to="/articles" className="text-forest hover:underline mt-4 inline-block">
-          {lang === 'zh' ? '← 返回专栏' : lang === 'en' ? '← Back to Column' : '← 칼럼으로 돌아가기'}
-        </Link>
       </div>
     )
   }
@@ -55,15 +52,6 @@ export default function ArticleCategoryPage() {
       <div className="absolute inset-x-0 top-[200px] h-[80px] bg-gradient-to-b from-transparent to-stone-bg pointer-events-none" />
 
       <div className="relative max-w-5xl mx-auto px-4 pt-10 pb-8">
-
-      {/* Back link */}
-      <Link
-        to="/articles"
-        className="inline-flex items-center gap-1.5 text-sm text-text-secondary hover:text-teal transition-colors mb-6"
-      >
-        <Icon name="chevronLeft" size={16} />
-        {lang === 'zh' ? '返回专栏' : lang === 'en' ? 'Back to Column' : '칼럼으로 돌아가기'}
-      </Link>
 
       {/* Category header */}
       <div className="mb-8">

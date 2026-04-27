@@ -60,7 +60,7 @@ export default function App() {
           {/* 知识库内容页 — 用 Layout 提供 Header + Sidebar */}
           <Route element={<Layout />}>
             {/* 知识库浏览 */}
-            <Route path="knowledge" element={<HomePage />} />
+            <Route path="knowledge" element={<KnowledgePage />} />
             <Route path="knowledge-index" element={<KnowledgePage />} />
             <Route path="section/:sectionSlug" element={<SectionPage />} />
             <Route path="section/:sectionSlug/:subSlug" element={<TopicPage />} />

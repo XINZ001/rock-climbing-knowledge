@@ -18,25 +18,18 @@ export function AppProvider({ children }) {
   const [searchIndexLoose, setSearchIndexLoose] = useState(null)
   const [searchReady, setSearchReady] = useState(false)
   const [lang, setLang] = useState(() => localStorage.getItem('lang') || 'zh')
-  const [theme, setTheme] = useState(() => {
-    const saved = localStorage.getItem('theme')
-    if (saved) return saved
-    return window.matchMedia?.('(prefers-color-scheme: dark)').matches ? 'dark' : 'light'
-  })
+  const [theme] = useState('dark')
+  const setTheme = useCallback(() => {}, [])
 
   useEffect(() => {
     localStorage.setItem('lang', lang)
   }, [lang])
 
   useEffect(() => {
-    localStorage.setItem('theme', theme)
+    localStorage.setItem('theme', 'dark')
     const root = document.documentElement
-    if (theme === 'dark') {
-      root.classList.add('dark')
-    } else {
-      root.classList.remove('dark')
-    }
-  }, [theme])
+    root.classList.add('dark')
+  }, [])
 
   const loadSectionData = useCallback(async (sectionId) => {
     if (loadedSections[sectionId]) return loadedSections[sectionId]

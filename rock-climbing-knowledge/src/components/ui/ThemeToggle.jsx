@@ -1,7 +1,7 @@
 import { useApp } from '../../context/AppContext'
 import { Icon } from '../../utils/icons'
 
-export default function ThemeToggle({ size = 18, className = '' }) {
+export default function ThemeToggle({ size = 18, className = '', iconClassName = 'text-text-secondary' }) {
   const { theme, setTheme } = useApp()
   const isDark = theme === 'dark'
 
@@ -12,7 +12,7 @@ export default function ThemeToggle({ size = 18, className = '' }) {
       aria-label={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
       title={isDark ? 'Switch to light mode' : 'Switch to dark mode'}
     >
-      <Icon name={isDark ? 'sun' : 'moon'} size={size} className="text-text-secondary" />
+      <Icon name={isDark ? 'sun' : 'moon'} size={size} className={iconClassName} />
     </button>
   )
 }

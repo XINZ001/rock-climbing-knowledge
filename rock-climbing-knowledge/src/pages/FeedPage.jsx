@@ -1,8 +1,17 @@
 import { useState, useEffect, useMemo, useCallback, useRef } from 'react'
-import { useOutletContext, useNavigate } from 'react-router-dom'
+import { useOutletContext, useNavigate, useSearchParams } from 'react-router-dom'
 import posts from '../data/feed-registry.json'
 import profiles from '../data/profiles-registry.json'
 import Avatar from '../components/ui/Avatar'
+import { useAuth } from '../context/AuthContext'
+import {
+  createFeedComment,
+  fetchFeedComments,
+  fetchMyFeedInteractions,
+  recordFeedView,
+  toggleFeedBookmark,
+  toggleFeedLike,
+} from '../lib/community'
 
 /* ================================================================
    FeedPage — Xiaohongshu-style masonry community feed
@@ -27,11 +36,6 @@ function getLikes(postId) {
 function formatLikes(n) {
   if (n >= 1000) return (n / 1000).toFixed(1) + 'k'
   return n.toString()
-}
-
-function getInitial(name) {
-  if (!name) return '?'
-  return name.charAt(0)
 }
 
 // ── Shuffle with seed (deterministic) ───────────────────────────
@@ -278,9 +282,9 @@ function coverGradient(color, type) {
 }
 
 function extractNumber(title) {
-  const m = title.match(/(\d+[\.\d]*)\s*(%|cm|mm|kg|秒|次|度|倍|分钟|小时)/)
+  const m = title.match(/(\d+[\d.]*)\s*(%|cm|mm|kg|秒|次|度|倍|分钟|小时)/)
   if (m) return { num: m[1] + m[2], rest: title.replace(m[0], '').trim() }
-  const m2 = title.match(/(\d+[\.\d]*)/)
+  const m2 = title.match(/(\d+[\d.]*)/)
   if (m2) return { num: m2[1], rest: title.replace(m2[0], '').trim() }
   return null
 }
@@ -299,6 +303,7 @@ const TABS = [
 
 // ── Pre-shuffle posts once ──────────────────────────────────────
 const shuffledPosts = shuffleSeeded(posts, 'climb2026')
+const postById = Object.fromEntries(posts.map((post) => [post.id, post]))
 
 // ── Section Slug Map ────────────────────────────────────────────
 const SECTION_SLUG_MAP = {
@@ -316,9 +321,6 @@ function buildKpRoute(post) {
 }
 
 // ── localStorage helpers ────────────────────────────────────────
-const LIKES_KEY = 'feed-likes'
-const BOOKMARKS_KEY = 'feed-bookmarks'
-const COMMENTS_KEY = 'feed-comments'
 const VIEWED_KEY = 'feed-viewed'
 
 function loadSet(key) {
@@ -332,15 +334,13 @@ function saveSet(key, s) {
   localStorage.setItem(key, JSON.stringify([...s]))
 }
 
-function loadComments() {
-  try {
-    const raw = localStorage.getItem(COMMENTS_KEY)
-    return raw ? JSON.parse(raw) : {}
-  } catch { return {} }
-}
-
-function saveComments(c) {
-  localStorage.setItem(COMMENTS_KEY, JSON.stringify(c))
+function normalizeFeedComment(comment) {
+  return {
+    id: comment.id,
+    text: comment.content,
+    timestamp: comment.created_at,
+    author: comment.profiles?.username || '攀岩者',
+  }
 }
 
 // ── Relative time formatter ─────────────────────────────────────
@@ -550,7 +550,7 @@ function CardCover({ post, profile, isDetail = false }) {
 // ══════════════════════════════════════════════════════════════════
 //  FeedCard — a single card in the masonry grid
 // ══════════════════════════════════════════════════════════════════
-function FeedCard({ post, index = 0, onOpenDetail, onOpenProfile, isLiked, onToggleLike, isViewed = false }) {
+export function FeedCard({ post, index = 0, onOpenDetail, onOpenProfile, isLiked, onToggleLike, isViewed = false }) {
   const profile = profiles[post.author]
   const cfg = CARD_TYPE_CONFIG[post.cardType] || CARD_TYPE_CONFIG.teach
   const ratio = cfg.ratio + (seededRandom(post.id + 'r') * 0.2 - 0.1)
@@ -581,12 +581,19 @@ function FeedCard({ post, index = 0, onOpenDetail, onOpenProfile, isLiked, onTog
     >
       <div
         className={`bg-stone-card rounded-xl overflow-hidden shadow-sm card-hover btn-press transition-opacity duration-300 ${
-          isViewed ? 'opacity-60 hover:opacity-95' : ''
+          isViewed ? 'opacity-45 hover:opacity-85' : ''
         }`}
       >
         {/* Cover */}
         <div className="relative overflow-hidden" style={{ paddingBottom: `${ratio * 100}%` }}>
           <CardCover post={post} profile={profile} />
+          {isViewed && (
+            <div className="absolute inset-0 z-10 flex items-center justify-center bg-black/10">
+              <span className="rounded-full border border-white/35 bg-black/35 px-3 py-1 text-xs font-semibold tracking-[0.18em] text-white shadow-sm backdrop-blur-sm">
+                已读
+              </span>
+            </div>
+          )}
         </div>
 
         {/* Body */}
@@ -628,14 +635,13 @@ function FeedCard({ post, index = 0, onOpenDetail, onOpenProfile, isLiked, onTog
 // ══════════════════════════════════════════════════════════════════
 //  PostDetailModal
 // ══════════════════════════════════════════════════════════════════
-function PostDetailModal({ post, onClose, onOpenProfile, isLiked, isBookmarked, onToggleLike, onToggleBookmark, comments, onAddComment, onShare, navigate }) {
+export function PostDetailModal({ post, onClose, onOpenProfile, isLiked, isBookmarked, onToggleLike, onToggleBookmark, comments, onAddComment, onShare, navigate }) {
   const profile = profiles[post.author]
   const baseLikes = getLikes(post.id)
   const displayLikes = baseLikes + (isLiked ? 1 : 0)
   const color = profile ? profile.avatarColor : '#888'
   const name = profile ? profile.name : post.author
   const tag = profile ? profile.tag : ''
-  const cfg = CARD_TYPE_CONFIG[post.cardType] || CARD_TYPE_CONFIG.teach
   // Merge preset comments (from characters) with user comments (from localStorage)
   const presetComments = (post.presetComments || []).map(c => ({
     ...c,
@@ -758,7 +764,7 @@ function PostDetailModal({ post, onClose, onOpenProfile, isLiked, isBookmarked, 
       />
       <button
         onClick={() => { if (commentText.trim()) { handleSubmitComment(commentText); setCommentText('') } }}
-        className="px-4 h-9 rounded-full bg-forest text-white text-sm font-medium hover:bg-forest-dark transition-colors flex-shrink-0"
+        className="px-4 h-9 rounded-full bg-forest text-stone-950 text-sm font-medium hover:bg-forest-dark transition-colors flex-shrink-0"
       >
         发送
       </button>
@@ -790,12 +796,6 @@ function PostDetailModal({ post, onClose, onOpenProfile, isLiked, isBookmarked, 
       <button className="flex items-center gap-1.5 text-text-secondary text-sm hover:text-forest transition-colors">
         <CommentIcon /> {postComments.length || '评论'}
       </button>
-      <button
-        className="flex items-center gap-1.5 text-text-secondary text-sm hover:text-forest transition-colors"
-        onClick={() => onShare(post.id)}
-      >
-        <ShareIcon /> 分享
-      </button>
     </>
   )
 
@@ -803,7 +803,7 @@ function PostDetailModal({ post, onClose, onOpenProfile, isLiked, isBookmarked, 
     <div className="fixed inset-0 z-[1000]">
       {/* ═══ MOBILE (<md): full-screen, 3-layer layout ═══ */}
       <div className="md:hidden flex flex-col h-full bg-stone-card animate-slideUp">
-        {/* Top bar: X + avatar + name + 关注 */}
+        {/* Top bar: X + avatar + name + share */}
         <div className="flex items-center gap-3 px-4 py-2.5 border-b border-stone-border shrink-0">
           <button onClick={onClose} className="w-8 h-8 rounded-full bg-stone-bg flex items-center justify-center shrink-0">
             <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2.5"><path d="M15 18l-6-6 6-6"/></svg>
@@ -820,8 +820,11 @@ function PostDetailModal({ post, onClose, onOpenProfile, isLiked, isBookmarked, 
           <div className="flex-1 min-w-0 cursor-pointer" onClick={authorClick}>
             <div className="text-sm font-semibold text-text-primary truncate">{name}</div>
           </div>
-          <button className="px-4 py-1.5 rounded-full text-xs font-semibold bg-forest text-white hover:bg-forest-dark transition-colors shrink-0">
-            关注
+          <button
+            className="flex items-center gap-1.5 rounded-full border border-stone-border px-3 py-1.5 text-xs font-semibold text-text-secondary transition-colors hover:border-forest/30 hover:text-forest shrink-0"
+            onClick={() => onShare(post.id)}
+          >
+            <ShareIcon /> 分享
           </button>
         </div>
 
@@ -860,7 +863,7 @@ function PostDetailModal({ post, onClose, onOpenProfile, isLiked, isBookmarked, 
               />
               <button
                 onClick={() => { if (mobileCommentText.trim()) { handleSubmitComment(mobileCommentText); setMobileCommentText(''); setMobileInputFocused(false) } }}
-                className="px-3 h-9 rounded-full bg-forest text-white text-sm font-medium shrink-0"
+                className="px-3 h-9 rounded-full bg-forest text-stone-950 text-sm font-medium shrink-0"
               >
                 发送
               </button>
@@ -915,8 +918,11 @@ function PostDetailModal({ post, onClose, onOpenProfile, isLiked, isBookmarked, 
                 <div className="text-sm font-semibold text-text-primary cursor-pointer hover:underline" onClick={authorClick}>{name}</div>
                 <div className="text-xs text-text-secondary">{tag}</div>
               </div>
-              <button className="px-4 py-1.5 rounded-full text-xs font-semibold bg-forest text-white hover:bg-forest-dark transition-colors">
-                关注
+              <button
+                className="flex items-center gap-1.5 rounded-full border border-stone-border px-3 py-1.5 text-xs font-semibold text-text-secondary transition-colors hover:border-forest/30 hover:text-forest"
+                onClick={() => onShare(post.id)}
+              >
+                <ShareIcon /> 分享
               </button>
             </div>
             {titleBlock}
@@ -1046,35 +1052,27 @@ function ProfileModal({ authorId, onClose, onOpenDetail, likes, onToggleLike }) 
 // ══════════════════════════════════════════════════════════════════
 export default function FeedPage() {
   const context = useOutletContext() || {}
-  const { onOpenAuth } = context
+  const { feedSearchQuery = '', setFeedSearchQuery, onOpenAuth } = context
+  const { user } = useAuth()
   const navigate = useNavigate()
+  const [searchParams, setSearchParams] = useSearchParams()
 
   const [currentTab, setCurrentTab] = useState('推荐')
-  const [searchQuery, setSearchQuery] = useState('')
+  const searchQuery = feedSearchQuery
   const [selectedPost, setSelectedPost] = useState(null)
   const [selectedProfile, setSelectedProfile] = useState(null)
-  const [scrolled, setScrolled] = useState(false)
-
-  useEffect(() => {
-    const onScroll = () => setScrolled(window.scrollY > 24)
-    window.addEventListener('scroll', onScroll, { passive: true })
-    return () => window.removeEventListener('scroll', onScroll)
-  }, [])
 
   // Interactive state
-  const [likes, setLikes] = useState(() => loadSet(LIKES_KEY))
-  const [bookmarks, setBookmarks] = useState(() => loadSet(BOOKMARKS_KEY))
-  const [comments, setComments] = useState(() => loadComments())
+  const [likes, setLikes] = useState(() => new Set())
+  const [bookmarks, setBookmarks] = useState(() => new Set())
+  const [comments, setComments] = useState({})
   const [toastMsg, setToastMsg] = useState('')
   const [toastVisible, setToastVisible] = useState(false)
 
   // Live viewed set (updates instantly → controls opacity marker)
   const [viewed, setViewed] = useState(() => loadSet(VIEWED_KEY))
   // Snapshot taken once at mount (controls sort order; frozen for the session)
-  const viewedSnapshot = useRef(null)
-  if (viewedSnapshot.current === null) {
-    viewedSnapshot.current = new Set(loadSet(VIEWED_KEY))
-  }
+  const [viewedSnapshot, setViewedSnapshot] = useState(() => loadSet(VIEWED_KEY))
 
   const markViewed = useCallback((postId) => {
     setViewed(prev => {
@@ -1092,45 +1090,122 @@ export default function FeedPage() {
     setTimeout(() => setToastVisible(false), 2000)
   }, [])
 
-  const toggleLike = useCallback((postId) => {
+  useEffect(() => {
+    let cancelled = false
+
+    if (!user) {
+      Promise.resolve().then(() => {
+        if (cancelled) return
+        setLikes(new Set())
+        setBookmarks(new Set())
+        setComments({})
+      })
+      return () => {
+        cancelled = true
+      }
+    }
+
+    fetchMyFeedInteractions().then(({ data, error }) => {
+      if (cancelled) return
+      if (error) {
+        showToast('互动状态加载失败')
+        return
+      }
+      const remoteViewed = new Set((data?.views || []).map((item) => item.post_id))
+      setViewed((prev) => {
+        const next = new Set([...prev, ...remoteViewed])
+        saveSet(VIEWED_KEY, next)
+        return next
+      })
+      setViewedSnapshot((prev) => new Set([...prev, ...remoteViewed]))
+      setLikes(new Set((data?.likes || []).map((item) => item.post_id)))
+      setBookmarks(new Set((data?.bookmarks || []).map((item) => item.post_id)))
+    })
+
+    return () => {
+      cancelled = true
+    }
+  }, [showToast, user])
+
+  useEffect(() => {
+    if (!selectedPost) return
+
+    let cancelled = false
+    fetchFeedComments(selectedPost.id).then(({ data, error }) => {
+      if (cancelled) return
+      if (error) {
+        showToast('评论加载失败')
+        return
+      }
+      setComments((prev) => ({
+        ...prev,
+        [selectedPost.id]: (data || []).map(normalizeFeedComment),
+      }))
+    })
+
+    return () => {
+      cancelled = true
+    }
+  }, [selectedPost, showToast])
+
+  const requireAuth = useCallback(() => {
+    if (user) return true
+    onOpenAuth?.()
+    showToast('登录 / 注册后即可互动')
+    return false
+  }, [user, onOpenAuth, showToast])
+
+  const toggleLike = useCallback(async (postId) => {
+    if (!requireAuth()) return
+    const { liked, error } = await toggleFeedLike(postId)
+    if (error) {
+      showToast('点赞失败，请稍后再试')
+      return
+    }
     setLikes(prev => {
       const next = new Set(prev)
-      if (next.has(postId)) next.delete(postId)
-      else next.add(postId)
-      saveSet(LIKES_KEY, next)
+      if (liked) next.add(postId)
+      else next.delete(postId)
       return next
     })
-  }, [])
+  }, [requireAuth, showToast])
 
-  const toggleBookmark = useCallback((postId) => {
+  const toggleBookmark = useCallback(async (postId) => {
+    if (!requireAuth()) return
+    const { bookmarked, error } = await toggleFeedBookmark(postId)
+    if (error) {
+      showToast('收藏失败，请稍后再试')
+      return
+    }
     setBookmarks(prev => {
       const next = new Set(prev)
-      if (next.has(postId)) next.delete(postId)
-      else next.add(postId)
-      saveSet(BOOKMARKS_KEY, next)
+      if (bookmarked) next.add(postId)
+      else next.delete(postId)
       return next
     })
-  }, [])
+  }, [requireAuth, showToast])
 
-  const addComment = useCallback((postId, text) => {
+  const addComment = useCallback(async (postId, text) => {
+    if (!requireAuth()) return
+    const { data, error } = await createFeedComment(postId, text)
+    if (error) {
+      showToast('评论发送失败，请稍后再试')
+      return
+    }
     setComments(prev => {
       const next = { ...prev }
       if (!next[postId]) next[postId] = []
-      next[postId] = [...next[postId], {
-        id: Date.now().toString(36) + Math.random().toString(36).slice(2, 6),
-        text,
-        timestamp: Date.now(),
-        author: '匿名攀岩者',
-      }]
-      saveComments(next)
+      next[postId] = [...next[postId], normalizeFeedComment(data)]
       return next
     })
-  }, [])
+  }, [requireAuth, showToast])
 
   const handleShare = useCallback((postId) => {
-    const url = `${window.location.origin}/post/${postId}`
-    navigator.clipboard.writeText(url).then(() => {
-      showToast('链接已复制')
+    const post = postById[postId]
+    const url = `${window.location.origin}/?post=${encodeURIComponent(postId)}`
+    const shareText = post?.title ? `${post.title}\n${url}` : url
+    navigator.clipboard.writeText(shareText).then(() => {
+      showToast('标题和链接已复制')
     }).catch(() => {
       showToast('复制失败，请手动复制')
     })
@@ -1160,26 +1235,45 @@ export default function FeedPage() {
           || authorName.includes(q)
       })
     }
-    const snap = viewedSnapshot.current
     const unread = []
     const read = []
     for (const p of filtered) {
-      if (snap.has(p.id)) read.push(p)
+      if (viewedSnapshot.has(p.id)) read.push(p)
       else unread.push(p)
     }
     return [...unread, ...read]
-  }, [currentTab, searchQuery])
+  }, [currentTab, searchQuery, viewedSnapshot])
 
 
 
   const handleOpenDetail = useCallback((post) => {
     setSelectedPost(post)
     markViewed(post.id)
+    recordFeedView(post.id)
   }, [markViewed])
 
   const handleCloseDetail = useCallback(() => {
     setSelectedPost(null)
-  }, [])
+    if (searchParams.has('post')) {
+      const next = new URLSearchParams(searchParams)
+      next.delete('post')
+      setSearchParams(next, { replace: true })
+    }
+  }, [searchParams, setSearchParams])
+
+  useEffect(() => {
+    const postId = searchParams.get('post')
+    if (!postId || selectedPost?.id === postId) return
+
+    Promise.resolve().then(() => {
+      const post = postById[postId]
+      if (!post) {
+        showToast('找不到这条帖子')
+        return
+      }
+      handleOpenDetail(post)
+    })
+  }, [handleOpenDetail, searchParams, selectedPost?.id, showToast])
 
   const handleOpenProfile = useCallback((authorId) => {
     setSelectedProfile(authorId)
@@ -1191,28 +1285,32 @@ export default function FeedPage() {
 
   return (
     <div className="min-h-screen bg-stone-bg">
-      {/* Search Bar */}
-      <div
-        className={`sticky top-0 z-40 bg-stone-bg/80 backdrop-blur-xl px-4 py-3 transition-shadow duration-300 ${
-          scrolled ? 'shadow-[0_1px_0_rgba(0,0,0,0.04),0_4px_12px_-6px_rgba(0,0,0,0.12)]' : ''
-        }`}
-      >
-        <div className="relative max-w-xl mx-auto">
-          <div className="absolute left-3 top-1/2 -translate-y-1/2 text-secondary">
-            <SearchIcon />
-          </div>
-          <input
-            type="text"
-            placeholder="搜索帖子..."
-            value={searchQuery}
-            onChange={e => setSearchQuery(e.target.value)}
-            className="w-full h-10 pl-10 pr-4 rounded-full bg-stone-card border border-stone-border text-sm text-text-primary placeholder:text-text-secondary focus:outline-none focus:ring-2 focus:ring-forest/30 transition-all"
+      {/* Mobile Search Bar */}
+      <div className="sticky top-0 z-40 bg-stone-bg/80 backdrop-blur-xl px-4 py-3 transition-shadow duration-300 md:hidden">
+        <div className="flex items-center gap-3">
+          <img
+            src="/images/logo/climbing-knowledge-logo-white.svg"
+            alt=""
+            aria-hidden="true"
+            className="home-logo-mark h-7 w-auto shrink-0"
           />
+          <div className="relative min-w-0 flex-1">
+            <div className="absolute left-3 top-1/2 -translate-y-1/2 text-text-secondary">
+              <SearchIcon />
+            </div>
+            <input
+              type="text"
+              placeholder="搜索帖子..."
+              value={searchQuery}
+              onChange={e => setFeedSearchQuery?.(e.target.value)}
+              className="w-full h-10 pl-10 pr-4 rounded-full bg-stone-card border border-stone-border text-sm text-text-primary placeholder:text-text-secondary focus:outline-none focus:ring-2 focus:ring-forest/30 transition-all"
+            />
+          </div>
         </div>
       </div>
 
       {/* Category Tabs */}
-      <div className="bg-stone-bg">
+      <div className="bg-stone-bg md:pt-14">
         <div
           ref={tabsRef}
           className="flex gap-1 px-4 py-2 overflow-x-auto scrollbar-hide"
@@ -1224,7 +1322,7 @@ export default function FeedPage() {
               onClick={() => setCurrentTab(tab.label)}
               className={`flex-shrink-0 px-4 py-1.5 rounded-full text-sm font-medium transition-all
                 ${currentTab === tab.label
-                  ? 'bg-forest text-white shadow-sm'
+                  ? 'bg-forest text-stone-950 shadow-sm'
                   : 'text-text-secondary hover:bg-stone-sidebar'
                 }`}
             >

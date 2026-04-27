@@ -1,5 +1,4 @@
 import { useState } from 'react'
-import { Link } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
 import { useApp } from '../context/AppContext'
 import { supabase } from '../lib/supabase'
@@ -96,10 +95,6 @@ export default function SettingsPage() {
 
   return (
     <div className="max-w-xl mx-auto px-4 py-8">
-      <Link to="/profile" className="inline-flex items-center gap-1 text-sm text-text-secondary hover:text-forest transition-colors mb-4">
-        <Icon name="chevronLeft" size={14} />
-        {t('返回个人主页', 'Back to Profile', '프로필로 돌아가기')}
-      </Link>
       <h1 className="text-2xl font-bold mb-8">{t('个人设置', 'Settings', '설정')}</h1>
 
       {/* 修改昵称 */}
@@ -127,7 +122,7 @@ export default function SettingsPage() {
           <button
             type="submit"
             disabled={saving}
-            className="px-4 py-2 rounded-lg bg-forest text-white text-sm font-medium hover:bg-forest-dark transition-colors disabled:opacity-50"
+            className="px-4 py-2 rounded-lg bg-forest text-stone-950 text-sm font-medium hover:bg-forest-dark transition-colors disabled:opacity-50"
           >
             {saving ? t('保存中...', 'Saving...', '저장 중...') : t('保存', 'Save', '저장')}
           </button>
@@ -172,7 +167,7 @@ export default function SettingsPage() {
           <button
             type="submit"
             disabled={pwSaving}
-            className="px-4 py-2 rounded-lg bg-forest text-white text-sm font-medium hover:bg-forest-dark transition-colors disabled:opacity-50"
+            className="px-4 py-2 rounded-lg bg-forest text-stone-950 text-sm font-medium hover:bg-forest-dark transition-colors disabled:opacity-50"
           >
             {pwSaving ? t('更新中...', 'Updating...', '업데이트 중...') : t('更新密码', 'Update Password', '비밀번호 업데이트')}
           </button>

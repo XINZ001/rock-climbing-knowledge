@@ -1,4 +1,4 @@
-import { useState, useCallback, useMemo, useEffect, useRef } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import { useOutletContext } from 'react-router-dom'
 import { useApp } from '../context/AppContext'
 import { useAuth } from '../context/AuthContext'
@@ -6,6 +6,7 @@ import PageSEO from '../components/PageSEO'
 import QuestDrawModal from '../components/ui/QuestDrawModal'
 import TiltCard from '../components/ui/TiltCard'
 import questData from '../data/quests.json'
+import { fetchQuestProgress, recordQuestCompletion } from '../lib/questProgress'
 
 const STORAGE_KEY = 'quest-progress'
 
@@ -32,10 +33,6 @@ function loadProgress() {
     if (!saved || Object.keys(saved).length === 0) return DEMO_PROGRESS
     return saved
   } catch { return DEMO_PROGRESS }
-}
-
-function saveProgress(progress) {
-  localStorage.setItem(STORAGE_KEY, JSON.stringify(progress))
 }
 
 // 等级阈值表：[累计次数, 材质, 等级名]
@@ -128,12 +125,6 @@ function getNextRankInfo(times) {
     nextLabel: '金',
     nextV: goldV,
   }
-}
-
-function getTierColor(tier) {
-  if (tier === 'gold') return '#C8956C'
-  if (tier === 'silver') return '#A8B8C8'
-  return 'transparent'
 }
 
 // 卡片底色 + 边框 + 文字色
@@ -352,17 +343,19 @@ export default function QuestPage() {
       const questId = pendingQuestRef.current
       const quest = questData.quests.find(q => q.id === questId)
       pendingQuestRef.current = null
-      // 完成任务
-      const today = new Date().toISOString().slice(0, 10)
-      setProgress(prev => {
-        const entry = prev[questId] || { times: 0, dates: [] }
-        const updated = { ...prev, [questId]: { times: entry.times + 1, dates: [...entry.dates, today] } }
-        saveProgress(updated)
-        return updated
+      recordQuestCompletion(questId).then(({ data }) => {
+        if (data) setProgress(data)
       })
       // 重新打开卡片弹窗
       if (quest) setSelectedQuest(quest)
     }
+  }, [user])
+
+  useEffect(() => {
+    if (!user) return
+    fetchQuestProgress().then(({ data }) => {
+      setProgress(data || {})
+    })
   }, [user])
 
   const categories = questData.categories
@@ -370,22 +363,10 @@ export default function QuestPage() {
   const filtered = filter === 'all' ? quests : quests.filter(q => q.category === filter)
 
   const totalCompletions = quests.reduce((sum, q) => sum + (progress[q.id]?.times || 0), 0)
-  const silverCount = quests.filter(q => (progress[q.id]?.times || 0) >= 3).length
-  const goldCount = quests.filter(q => (progress[q.id]?.times || 0) >= 8).length
-
-  const handleComplete = (questId) => {
+  const handleComplete = async (questId) => {
     if (!user) { pendingQuestRef.current = questId; setSelectedQuest(null); onOpenAuth(); return }
-    const today = new Date().toISOString().slice(0, 10)
-    setProgress(prev => {
-      const entry = prev[questId] || { times: 0, dates: [] }
-      const updated = {
-        ...prev,
-        [questId]: { times: entry.times + 1, dates: [...entry.dates, today] },
-        _lastCompleted: { id: questId, date: today },
-      }
-      saveProgress(updated)
-      return updated
-    })
+    const { data } = await recordQuestCompletion(questId)
+    if (data) setProgress(data)
   }
 
   return (
@@ -419,7 +400,7 @@ export default function QuestPage() {
             {/* 电脑版随机抽取按钮 */}
             <button
               onClick={() => setQuestModalOpen(true)}
-              className="hidden sm:flex items-center gap-1.5 shrink-0 mt-1 px-5 py-2 rounded-full text-sm font-semibold bg-forest text-white hover:bg-forest/90 transition-colors shadow-md"
+              className="hidden sm:flex items-center gap-1.5 shrink-0 mt-1 px-5 py-2 rounded-full text-sm font-semibold bg-forest text-stone-950 hover:bg-forest/90 transition-colors shadow-md"
             >
               🎲 {lang === 'zh' ? '随机抽取' : lang === 'en' ? 'Random' : '랜덤'}
             </button>
@@ -478,7 +459,7 @@ export default function QuestPage() {
                       onClick={() => setFilter(cat.id)}
                       className={`px-4 py-1.5 rounded-full text-sm font-medium transition-colors ${
                         isActive
-                          ? 'bg-forest text-white'
+                          ? 'bg-forest text-stone-950'
                           : 'bg-stone-card border border-stone-border text-text-secondary hover:border-forest/40 hover:text-text-primary'
                       }`}
                     >
@@ -552,14 +533,14 @@ export default function QuestPage() {
       <div className="sm:hidden fixed bottom-6 left-1/2 -translate-x-1/2 z-40">
         <button
           onClick={() => setQuestModalOpen(true)}
-          className="px-8 py-3 rounded-full text-base font-semibold bg-forest text-white hover:bg-forest/90 transition-colors shadow-lg"
+          className="px-8 py-3 rounded-full text-base font-semibold bg-forest text-stone-950 hover:bg-forest/90 transition-colors shadow-lg"
         >
           🎲 {lang === 'zh' ? '随机抽取' : lang === 'en' ? 'Random' : '랜덤'}
         </button>
       </div>
 
       {/* 随机抽取弹窗 */}
-      <QuestDrawModal isOpen={questModalOpen} onClose={() => setQuestModalOpen(false)} user={user} onOpenAuth={onOpenAuth} pendingQuestRef={pendingQuestRef} />
+      <QuestDrawModal isOpen={questModalOpen} onClose={() => setQuestModalOpen(false)} user={user} onOpenAuth={onOpenAuth} pendingQuestRef={pendingQuestRef} onProgressChange={setProgress} />
 
       {/* 卡片详情弹窗 */}
       {selectedQuest && (

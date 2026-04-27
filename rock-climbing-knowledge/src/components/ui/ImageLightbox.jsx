@@ -56,7 +56,7 @@ function FeedbackForm({ imageSrc, onClose, onSubmitted }) {
               onClick={() => toggle(opt.key)}
               className={`px-2.5 py-1 rounded-full text-xs transition-colors ${
                 selected.includes(opt.key)
-                  ? 'bg-forest text-white'
+                  ? 'bg-forest text-stone-950'
                   : 'bg-stone-sidebar text-text-primary hover:bg-stone-border'
               }`}
             >
@@ -80,7 +80,7 @@ function FeedbackForm({ imageSrc, onClose, onSubmitted }) {
           <button
             onClick={handleSubmit}
             disabled={selected.length === 0 && !note.trim()}
-            className="flex-1 px-3 py-1.5 text-xs rounded-lg bg-forest text-white hover:bg-forest-dark transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
+            className="flex-1 px-3 py-1.5 text-xs rounded-lg bg-forest text-stone-950 hover:bg-forest-dark transition-colors disabled:opacity-40 disabled:cursor-not-allowed"
           >
             {lang === 'zh' ? '提交' : lang === 'en' ? 'Submit' : '제출'}
           </button>

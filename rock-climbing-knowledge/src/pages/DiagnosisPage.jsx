@@ -177,7 +177,7 @@ function RatingStep({ step, value, onChange, lang }) {
                   onClick={() => setDim(dim.id, n)}
                   className={`flex-1 h-10 rounded-lg text-sm font-semibold transition-all duration-150 cursor-pointer border
                     ${current === n
-                      ? 'bg-forest text-white border-forest shadow-sm'
+                      ? 'bg-forest text-stone-950 border-forest shadow-sm'
                       : current > 0 && n <= current
                         ? 'bg-forest/15 text-forest border-forest/30'
                         : 'bg-stone-bg text-text-secondary border-stone-border hover:border-forest/30'}`}
@@ -829,7 +829,7 @@ function DiagnosisAuthGate({ lang, signIn, signUp, onClose }) {
             <button
               type="submit"
               disabled={loading}
-              className="w-full py-2.5 rounded-lg bg-forest text-white text-sm font-medium hover:bg-forest-dark transition-colors disabled:opacity-50"
+              className="w-full py-2.5 rounded-lg bg-forest text-stone-950 text-sm font-medium hover:bg-forest-dark transition-colors disabled:opacity-50"
             >
               {loading
                 ? tt('处理中...', 'Processing...', '처리 중...')
@@ -1049,7 +1049,7 @@ export default function DiagnosisPage() {
             disabled={!canProceed}
             className={`w-full py-3 rounded-xl text-sm font-semibold transition-all duration-150 cursor-pointer
               ${canProceed
-                ? 'bg-forest text-white hover:bg-forest/90 shadow-sm'
+                ? 'bg-forest text-stone-950 hover:bg-forest/90 shadow-sm'
                 : 'bg-stone-border text-text-secondary cursor-not-allowed'}`}
           >
             {currentStep < totalSteps - 1

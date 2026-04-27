@@ -1,7 +1,30 @@
 import { Link } from 'react-router-dom'
 import { useApp } from '../context/AppContext'
-import { Icon } from '../utils/icons'
+import { sectionModuleImages } from '../utils/sectionVisuals'
 import PageSEO from '../components/PageSEO'
+
+function KnowledgeGridSkeleton() {
+  return (
+    <div className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4">
+      {Array.from({ length: 8 }).map((_, index) => (
+        <div
+          key={index}
+          className="min-h-[250px] overflow-hidden rounded-2xl border border-stone-border/70 bg-stone-card"
+        >
+          <div className="h-44 animate-pulse bg-stone-border/60" />
+          <div className="space-y-3 p-4">
+            <div className="h-5 w-3/4 animate-pulse rounded-full bg-stone-border/70" />
+            <div className="h-3 w-1/2 animate-pulse rounded-full bg-stone-border/55" />
+            <div className="pt-5 space-y-2">
+              <div className="h-3 w-full animate-pulse rounded-full bg-stone-border/55" />
+              <div className="h-3 w-5/6 animate-pulse rounded-full bg-stone-border/50" />
+            </div>
+          </div>
+        </div>
+      ))}
+    </div>
+  )
+}
 
 export default function KnowledgePage() {
   const { sections, t, lang } = useApp()
@@ -35,41 +58,46 @@ export default function KnowledgePage() {
           </p>
         </div>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
-        {sections.map((section) => (
+      {sections.length === 0 ? (
+        <KnowledgeGridSkeleton />
+      ) : (
+        <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-4">
+          {sections.map((section) => (
           <Link
             key={section.id}
             to={`/section/${section.slug}`}
-            className="group card-hover block bg-stone-card rounded-xl border border-stone-border p-5 hover:border-stone-border/80 transition-colors"
+            className="group card-hover flex min-h-[250px] flex-col overflow-hidden rounded-2xl border border-stone-border/70 bg-stone-card text-left transition-colors hover:border-text-primary/20"
           >
-            <div className="flex items-start gap-3">
-              <span
-                className="w-10 h-10 rounded-lg flex items-center justify-center text-white shrink-0 group-hover:scale-105 transition-transform"
-                style={{ backgroundColor: section.color }}
-              >
-                <Icon name={section.icon} size={20} />
-              </span>
-              <div className="min-w-0">
-                <h2 className="font-semibold text-base leading-tight">{t(section.title)}</h2>
+            <div className="relative h-44 overflow-hidden">
+              <img
+                src={sectionModuleImages[section.slug]}
+                alt=""
+                aria-hidden="true"
+                className="h-full w-full object-cover transition duration-300 group-hover:scale-[1.03]"
+              />
+            </div>
+
+            <div className="flex flex-1 flex-col justify-between p-4">
+              <div>
+                <h2 className="text-xl font-semibold leading-tight text-text-primary">{t(section.title)}</h2>
                 {lang === 'zh' && section.title.en && (
-                  <p className="text-xs text-text-secondary mt-0.5">
-                    {section.title.en}
-                  </p>
+                  <p className="mt-0.5 text-xs text-text-secondary">{section.title.en}</p>
                 )}
               </div>
-            </div>
-            <p className="text-sm text-text-secondary mt-3 line-clamp-2">
-              {t(section.description)}
-            </p>
-            <div className="mt-3 flex items-center gap-1 text-xs text-text-secondary">
-              <span>
-                {section.subSections.length}
-                {lang === 'zh' ? ' 个子分类' : lang === 'en' ? ' subcategories' : '개 하위 카테고리'}
-              </span>
+
+              <div className="mt-4 text-xs leading-relaxed text-text-secondary">
+                {section.subSections.map((sub, subIndex) => (
+                  <span key={sub.id} className="whitespace-nowrap">
+                    <span>{t(sub.title)}</span>
+                    {subIndex < section.subSections.length - 1 && <span className="mx-1.5 text-text-secondary/45">·</span>}
+                  </span>
+                ))}
+              </div>
             </div>
           </Link>
-        ))}
-      </div>
+          ))}
+        </div>
+      )}
       </div>
     </div>
   )

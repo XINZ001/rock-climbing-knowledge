@@ -1,4 +1,4 @@
-import { useMemo, useState, useRef, useEffect, useCallback } from 'react'
+import { useMemo, useState, useRef, useEffect } from 'react'
 import { Link, useNavigate, useOutletContext } from 'react-router-dom'
 import { useApp } from '../context/AppContext'
 import { useAuth } from '../context/AuthContext'
@@ -9,6 +9,9 @@ import ArticleCard from '../components/article/ArticleCard'
 import TrendingKPs from '../components/ui/TrendingKPs'
 import QuestDrawModal from '../components/ui/QuestDrawModal'
 import articleRegistry from '../data/article-registry.json'
+import kpRegistry from '../data/kp-registry.json'
+import { sectionModuleImages } from '../utils/sectionVisuals'
+import { recordQuestCompletion } from '../lib/questProgress'
 
 function hexToRgba(hex, alpha) {
   const normalized = hex.replace('#', '')
@@ -20,6 +23,13 @@ function hexToRgba(hex, alpha) {
   const g = (int >> 8) & 255
   const b = int & 255
   return `rgba(${r}, ${g}, ${b}, ${alpha})`
+}
+
+const featuredDomainVisuals = {
+  technique: { position: '62% 38%' },
+  physical: { position: '42% 28%' },
+  mental: { position: '72% 48%' },
+  injury: { position: '50% 62%' },
 }
 
 // 为搜索结果生成跳转路径
@@ -56,14 +66,8 @@ export default function HomePage() {
     if (user && pendingQuestRef.current) {
       const questId = pendingQuestRef.current
       pendingQuestRef.current = null
-      const today = new Date().toISOString().slice(0, 10)
-      try {
-        const saved = JSON.parse(localStorage.getItem('quest-progress')) || {}
-        const entry = saved[questId] || { times: 0, dates: [] }
-        saved[questId] = { times: entry.times + 1, dates: [...entry.dates, today] }
-        localStorage.setItem('quest-progress', JSON.stringify(saved))
-      } catch {}
-      setQuestModalOpen(true)
+      recordQuestCompletion(questId)
+      Promise.resolve().then(() => setQuestModalOpen(true))
     }
   }, [user])
   const [query, setQuery] = useState('')
@@ -77,6 +81,28 @@ export default function HomePage() {
   const sectionKbRef = useRef(null)
   const sectionArticleRef = useRef(null)
   const sectionHofRef = useRef(null)
+  const sectionKnowledgeCounts = useMemo(() => {
+    return kpRegistry.registry.reduce((acc, kp) => {
+      acc[kp.sectionId] = (acc[kp.sectionId] || 0) + 1
+      return acc
+    }, {})
+  }, [])
+  const knowledgeSectionPreviews = useMemo(() => {
+    const featuredSlugs = ['technique', 'physical', 'mental', 'injury']
+    const featuredSections = featuredSlugs
+      .map((slug) => sections.find((section) => section.slug === slug))
+      .filter(Boolean)
+    const featuredIds = new Set(featuredSections.map((section) => section.id))
+    return [
+      ...featuredSections,
+      ...sections.filter((section) => !featuredIds.has(section.id)),
+    ]
+      .map((section) => ({
+        ...section,
+        knowledgeCount: sectionKnowledgeCounts[section.id] || 0,
+        previewTopics: section.subSections || [],
+      }))
+  }, [sections, sectionKnowledgeCounts])
 
   // 搜索 + 200ms 防抖
   useEffect(() => {
@@ -194,28 +220,36 @@ export default function HomePage() {
   }, [])
 
   return (
-    <div className="relative max-w-6xl mx-auto px-4 py-8">
+    <div className="relative pb-8">
       <PageSEO path="/" />
       {/* 圆点网格背景 */}
       <div
         className="fixed inset-0 pointer-events-none z-0"
         style={{
-          backgroundImage: 'radial-gradient(circle, rgba(0,0,0,0.03) 2px, transparent 2px)',
+          backgroundImage: 'radial-gradient(circle, rgba(74,124,89,0.025) 2px, transparent 2px)',
           backgroundSize: '24px 24px'
         }}
       />
       {/* Hero */}
-      <div ref={heroRef} className="text-center mt-16 mb-26">
-        <div className="inline-flex items-center justify-center w-16 h-16 rounded-2xl bg-forest text-white mb-4">
-          <Icon name="mountain" size={32} />
-        </div>
-        <h1 className="text-3xl font-bold mb-3">
-          {lang === 'zh' ? '攀岩知识库' : lang === 'en' ? 'Climbing Knowledge Base' : '클라이밍 지식 라이브러리'}
-        </h1>
+      <div ref={heroRef} className="relative mt-0 mb-12 flex min-h-[560px] w-full flex-col items-center justify-center overflow-hidden px-4 pt-16 pb-10 text-center">
+        <img
+          src="/images/hero/learn-indoor-overhang-bg.png"
+          alt=""
+          aria-hidden="true"
+          className="home-hero-image absolute inset-0 z-0 h-full w-full object-cover object-[62%_42%]"
+        />
+        <div className="home-hero-overlay absolute inset-0 z-0" />
+        <div className="home-hero-fade absolute inset-x-0 bottom-0 z-0 h-36" />
+
+        <img
+          src="/images/logo/climbing-knowledge-logo-white.svg"
+          alt={lang === 'zh' ? '攀岩知识库' : lang === 'en' ? 'Climbing Knowledge Base' : '클라이밍 지식 라이브러리'}
+          className="home-logo-mark relative z-10 mb-7 h-auto w-[260px] max-w-[72vw] sm:w-[340px]"
+        />
 
         {/* 搜索框 */}
-        <form onSubmit={handleSearchSubmit} className="relative max-w-md mx-auto mt-4">
-          <div className="flex items-center rounded-xl bg-white border border-stone-border shadow-sm focus-within:border-forest focus-within:ring-1 focus-within:ring-forest transition-colors">
+        <form onSubmit={handleSearchSubmit} className="relative z-20 w-full max-w-md mx-auto mt-4">
+          <div className="flex items-center rounded-xl bg-stone-card/88 backdrop-blur-md border border-stone-border shadow-sm focus-within:border-forest focus-within:ring-1 focus-within:ring-forest transition-colors">
             <Icon name="search" size={16} className="ml-3.5 shrink-0 text-text-secondary" />
             <input
               ref={inputRef}
@@ -328,82 +362,108 @@ export default function HomePage() {
         </form>
 
         {/* 热门知识点滚动标签 */}
-        <TrendingKPs />
+        <div className="relative z-10 w-full">
+          <TrendingKPs />
+        </div>
 
       </div>
 
+      <div className="relative max-w-6xl mx-auto px-4">
       {/* ==================== 1. 攀岩知识库 ==================== */}
-      <div ref={sectionKbRef} className="relative mb-10 overflow-hidden rounded-[1.75rem] border border-stone-border bg-stone-card shadow-sm">
-        <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_top_left,_rgba(74,124,89,0.20),_transparent_38%),radial-gradient(circle_at_bottom_right,_rgba(93,64,55,0.14),_transparent_40%)]" />
-
+      <div ref={sectionKbRef} className="relative mb-10">
         {/* Banner header */}
-        <div className="relative px-6 py-6 sm:px-8">
-          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
-            <div>
-              <h2 className="text-2xl font-bold flex items-center gap-2">
-                <Icon name="book" size={22} style={{ color: '#4A7C59' }} />
+        <div className="relative mb-5">
+          <div className="flex items-center justify-between gap-3">
+            <div className="flex min-w-0 items-center gap-2.5">
+              <Icon name="book" size={22} className="text-forest" />
+              <h2 className="truncate text-2xl font-bold">
                 {lang === 'zh' ? '攀岩知识库' : lang === 'en' ? 'Climbing Knowledge Base' : '클라이밍 지식 라이브러리'}
               </h2>
-              <p className="mt-1.5 text-sm text-text-secondary leading-relaxed max-w-2xl">
-                {lang === 'zh'
-                  ? '系统化的攀岩知识体系，涵盖技术、训练、装备、安全等 10 大领域'
-                  : lang === 'en'
-                  ? 'A systematic knowledge base covering technique, training, gear, safety and more across 10 domains'
-                  : '기술, 훈련, 장비, 안전 등 10개 분야를 아우르는 체계적인 클라이밍 지식 베이스'}
-              </p>
             </div>
             <Link
               to="/knowledge"
-              className="flex items-center gap-1.5 text-sm font-medium text-forest hover:underline shrink-0"
+              aria-label={lang === 'zh' ? `查看全部 ${sections.length} 个领域` : lang === 'en' ? `View all ${sections.length} domains` : `전체 ${sections.length}개 분야 보기`}
+              className="flex h-9 w-9 items-center justify-center rounded-full border border-stone-border bg-stone-card text-forest transition-colors hover:border-text-primary/25 hover:bg-stone-bg shrink-0"
             >
-              {lang === 'zh' ? `查看全部 ${sections.length} 个领域` : lang === 'en' ? `View all ${sections.length} domains` : `전체 ${sections.length}개 분야 보기`}
-              <span>→</span>
+              <Icon name="moreHorizontal" size={18} />
             </Link>
           </div>
         </div>
 
-        {/* Preview: 横向滚动所有知识领域 */}
-        <div className="pb-6 sm:pb-8">
-          <div className="flex gap-3 overflow-x-auto py-2 -my-2 pl-6 pr-6 sm:pl-8 sm:pr-8 scrollbar-hide">
-            {sections.slice(0, 10).map((section) => (
+        {/* Preview: featured knowledge domains */}
+        <div className="pb-2">
+          <div className="grid w-full grid-cols-1 gap-3 pb-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 xl:auto-rows-[250px]">
+            {knowledgeSectionPreviews.slice(0, 8).map((section, index) => {
+              const visual = featuredDomainVisuals[section.slug] || {}
+              const visibilityClass = index === 5 ? 'hidden lg:flex xl:hidden' : index >= 6 ? 'hidden' : index >= 4 ? 'hidden lg:flex' : ''
+              const layoutClass = index === 0 ? 'xl:col-span-2 xl:row-span-2' : ''
+              return (
               <Link
                 key={section.id}
                 to={`/section/${section.slug}`}
-                className="group card-hover flex flex-col bg-stone-card backdrop-blur-sm rounded-xl border border-stone-border/60 p-4 hover:border-forest/30 transition-colors shrink-0 w-[160px]"
+                className={`group card-hover flex min-h-[250px] flex-col overflow-hidden rounded-2xl border border-stone-border/70 bg-stone-card text-left transition-colors hover:border-text-primary/20 xl:min-h-0 ${visibilityClass} ${layoutClass}`}
               >
-                <span
-                  className="w-9 h-9 rounded-lg flex items-center justify-center text-white shrink-0 mb-2.5 group-hover:scale-105 transition-transform"
-                  style={{ backgroundColor: section.color }}
+                <div className={`relative overflow-hidden ${index === 0 ? 'h-44 xl:h-[330px]' : 'h-44 xl:h-[128px]'}`}>
+                  <img
+                    src={sectionModuleImages[section.slug] || '/images/hero/learn-indoor-overhang-bg.png'}
+                    alt=""
+                    aria-hidden="true"
+                    className="h-full w-full object-cover transition duration-300 group-hover:scale-[1.03]"
+                    style={{ objectPosition: visual.position || 'center' }}
+                  />
+                </div>
+
+                <div className={`flex flex-1 flex-col justify-between ${index === 0 ? 'p-4 xl:p-5' : 'p-4'}`}>
+                  <div>
+                    <h3 className={`font-semibold leading-tight text-text-primary ${index === 0 ? 'text-xl xl:text-3xl' : 'text-xl'}`}>{t(section.title)}</h3>
+                    {lang === 'zh' && section.title.en && (
+                      <p className="mt-0.5 text-xs text-text-secondary">{section.title.en}</p>
+                    )}
+                  </div>
+
+                  <div className={`mt-4 leading-relaxed text-text-secondary ${index === 0 ? 'text-xs xl:text-sm' : 'text-xs'}`}>
+                    {section.previewTopics.map((topic, topicIndex) => (
+                      <span key={topic.id} className="whitespace-nowrap">
+                        <span>{t(topic.title)}</span>
+                        {topicIndex < section.previewTopics.length - 1 && <span className="mx-1.5 text-text-secondary/45">·</span>}
+                      </span>
+                    ))}
+                  </div>
+                </div>
+              </Link>
+              )
+            })}
+          </div>
+
+          <div className="mt-4 flex flex-wrap gap-2">
+            {knowledgeSectionPreviews.map((section, index) => {
+              if (index < 4) return null
+              const visibilityClass = index === 4 ? 'lg:hidden' : index === 5 ? 'lg:hidden xl:inline-flex' : ''
+              return (
+                <Link
+                  key={section.id}
+                  to={`/section/${section.slug}`}
+                  className={`group inline-flex items-center gap-1.5 rounded-full border border-stone-border/70 bg-stone-card/70 px-3 py-1.5 text-xs text-text-secondary transition-colors hover:border-text-primary/25 hover:text-text-primary ${visibilityClass}`}
                 >
-                  <Icon name={section.icon} size={18} />
-                </span>
-                <h3 className="font-semibold text-sm leading-tight">{t(section.title)}</h3>
-                {lang === 'zh' && section.title.en && (
-                  <p className="text-[11px] text-text-secondary mt-0.5">{section.title.en}</p>
-                )}
-              </Link>
-            ))}
-            {sections.length > 10 && (
-              <Link
-                to="/knowledge"
-                className="group flex flex-col items-center justify-center bg-stone-bg/60 rounded-xl border border-stone-border/60 border-dashed p-4 hover:border-forest/40 hover:bg-forest-light/30 transition-all shrink-0 w-[160px]"
-              >
-                <span className="text-2xl text-text-secondary group-hover:text-forest transition-colors mb-1.5">+</span>
-                <span className="text-sm font-medium text-text-secondary group-hover:text-forest transition-colors">
-                  {lang === 'zh' ? '查看更多' : lang === 'en' ? 'View more' : '더 보기'}
-                </span>
-              </Link>
-            )}
+                  <span
+                    className="flex h-4 w-4 items-center justify-center"
+                    style={{ color: section.color }}
+                  >
+                    <Icon name={section.icon} size={14} />
+                  </span>
+                  <span>{t(section.title)}</span>
+                  <span className="text-text-secondary/60 tabular-nums">{section.knowledgeCount}</span>
+                </Link>
+              )
+            })}
           </div>
         </div>
       </div>
 
       {/* ==================== 2. 攀岩专栏 ==================== */}
-      <div ref={sectionArticleRef} className="relative mb-10 overflow-hidden rounded-[1.75rem] border border-stone-border bg-stone-card shadow-sm">
-        <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_top_left,_rgba(91,127,191,0.20),_transparent_38%),radial-gradient(circle_at_bottom_right,_rgba(74,107,166,0.16),_transparent_40%)]" />
-
+      <div ref={sectionArticleRef} className="relative mb-10 border-t border-stone-border/55 pt-8">
         {/* Banner header */}
-        <div className="relative px-6 py-6 sm:px-8">
+        <div className="relative mb-5">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
             <div>
               <h2 className="text-2xl font-bold flex items-center gap-2">
@@ -428,8 +488,8 @@ export default function HomePage() {
         </div>
 
         {/* Horizontal scroll: [分类标签+2篇文章] × 4 categories in one row */}
-        <div className="pb-8">
-          <div className="flex gap-6 overflow-x-auto py-2 -my-2 pl-6 pr-6 sm:pl-8 sm:pr-8 scrollbar-hide">
+        <div className="pb-2">
+          <div className="flex gap-6 overflow-x-auto py-2 -my-2 scrollbar-hide">
             {articleRegistry.categories.map((cat) => {
               const catArticles = articleRegistry.articles.filter(a => a.category === cat.id)
               return (
@@ -470,11 +530,9 @@ export default function HomePage() {
       </div>
 
       {/* ==================== 3. 攀岩名人堂 ==================== */}
-      <div ref={sectionHofRef} className="relative mb-10 overflow-hidden rounded-[1.75rem] border border-stone-border bg-stone-card shadow-sm">
-        <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_top_left,_rgba(166,138,42,0.22),_transparent_38%),radial-gradient(circle_at_bottom_right,_rgba(140,116,34,0.16),_transparent_40%)]" />
-
+      <div ref={sectionHofRef} className="relative mb-10 border-t border-stone-border/55 pt-8">
         {/* Banner header */}
-        <div className="relative px-6 py-6 sm:px-8">
+        <div className="relative mb-5">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
             <div>
               <h2 className="text-2xl font-bold flex items-center gap-2">
@@ -500,8 +558,8 @@ export default function HomePage() {
         </div>
 
         {/* Preview: 全部运动员横向滚动 — 复用名人堂富卡片 */}
-        <div className="pb-8">
-          <div className="flex gap-4 overflow-x-auto py-2 -my-2 pl-6 pr-6 sm:pl-8 sm:pr-8 scrollbar-hide">
+        <div className="pb-2">
+          <div className="flex gap-4 overflow-x-auto py-2 -my-2 scrollbar-hide">
             {allAthletes.slice(0, 10).map((athlete) => {
               const media = getHallOfFameMedia(athlete.athleteId)
               const cardImage = media.cardImage
@@ -573,11 +631,9 @@ export default function HomePage() {
       </div>
 
       {/* ==================== 4. 伤痛档案 ==================== */}
-      <div className="relative mb-6 overflow-hidden rounded-[1.75rem] border border-stone-border bg-stone-card shadow-sm">
-        <div className="absolute inset-0 pointer-events-none bg-[radial-gradient(circle_at_top_left,_rgba(196,91,82,0.18),_transparent_38%),radial-gradient(circle_at_bottom_right,_rgba(168,75,67,0.14),_transparent_40%)]" />
-
+      <div className="relative mb-6 border-t border-stone-border/55 pt-8">
         {/* Banner header */}
-        <div className="relative px-6 py-6 sm:px-8">
+        <div className="relative mb-5">
           <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
             <div>
               <h2 className="text-2xl font-bold flex items-center gap-2">
@@ -603,7 +659,7 @@ export default function HomePage() {
         </div>
 
         {/* Preview: CTA */}
-        <div className="relative px-6 pb-6 sm:px-8">
+        <div className="relative pb-2">
           <Link
             to="/injuries"
             className="card-hover flex items-center gap-4 bg-stone-card backdrop-blur-sm rounded-xl border border-stone-border/60 p-5 hover:border-amber/30 transition-colors"
@@ -629,6 +685,7 @@ export default function HomePage() {
       </div>
 
       <QuestDrawModal isOpen={questModalOpen} onClose={() => setQuestModalOpen(false)} user={user} onOpenAuth={onOpenAuth} pendingQuestRef={pendingQuestRef} />
+      </div>
     </div>
   )
 }

@@ -1,5 +1,5 @@
-import { useState, useEffect } from 'react'
-import { Link } from 'react-router-dom'
+import { useCallback, useEffect, useMemo, useState } from 'react'
+import { useOutletContext } from 'react-router-dom'
 import { useAuth } from '../context/AuthContext'
 import { useApp } from '../context/AppContext'
 import { supabase } from '../lib/supabase'
@@ -40,6 +40,13 @@ const FREQUENCY_OPTIONS = [
   { value: '6+', zh: '几乎每天', en: 'Almost daily', ko: '거의 매일' },
 ]
 
+// 性别（用于个人页背景等轻量个性化）
+const GENDER_OPTIONS = [
+  { value: 'male', zh: '男性', en: 'Male', ko: '남성' },
+  { value: 'female', zh: '女性', en: 'Female', ko: '여성' },
+  { value: 'prefer_not_to_say', zh: '不透露', en: 'Prefer not to say', ko: '비공개' },
+]
+
 // 攀爬风格
 const CLIMBING_STYLES = [
   { value: 'power', zh: '力量型', en: 'Power', ko: '파워형' },
@@ -52,6 +59,32 @@ const CLIMBING_STYLES = [
 const BOULDER_GRADES = ['V0', 'V1', 'V2', 'V3', 'V4', 'V5', 'V6', 'V7', 'V8', 'V9', 'V10', 'V10+']
 // 运动攀难度等级
 const SPORT_GRADES = ['5.6', '5.7', '5.8', '5.9', '5.10a', '5.10b', '5.10c', '5.10d', '5.11a', '5.11b', '5.11c', '5.11d', '5.12a', '5.12b', '5.12c', '5.12d', '5.13a+']
+
+const EMPTY_FORM = {
+  gender: '',
+  experience: '',
+  climbing_types: [],
+  frequency: '',
+  style: '',
+  boulder_grade: '',
+  sport_grade: '',
+  favorite_gyms: '',
+  favorite_crags: '',
+  goal: '',
+  bio: '',
+}
+
+function normalizeForm(form) {
+  return {
+    ...EMPTY_FORM,
+    ...form,
+    climbing_types: [...(form.climbing_types || [])].sort(),
+  }
+}
+
+function serializeForm(form) {
+  return JSON.stringify(normalizeForm(form))
+}
 
 /** 药丸按钮组 */
 function PillGroup({ options, value, onChange, multi = false, lang, activeColor = 'forest' }) {
@@ -67,8 +100,8 @@ function PillGroup({ options, value, onChange, multi = false, lang, activeColor 
   }
 
   const activeCls = activeColor === 'amber'
-    ? 'bg-amber text-white border-amber'
-    : 'bg-forest text-white border-forest'
+    ? 'bg-amber text-stone-950 border-amber'
+    : 'bg-forest text-stone-950 border-forest'
   const inactiveCls = activeColor === 'amber'
     ? 'border-stone-border hover:border-amber hover:text-amber'
     : 'border-stone-border hover:border-forest hover:text-forest'
@@ -94,24 +127,18 @@ function PillGroup({ options, value, onChange, multi = false, lang, activeColor 
 export default function ClimbingProfilePage() {
   const { user, profile } = useAuth()
   const { lang } = useApp()
+  const { setHeaderSaveAction } = useOutletContext() || {}
 
   const [loading, setLoading] = useState(true)
   const [saving, setSaving] = useState(false)
   const [saveMsg, setSaveMsg] = useState('')
+  const [initialFormSnapshot, setInitialFormSnapshot] = useState(() => serializeForm(EMPTY_FORM))
 
   // 表单状态
-  const [form, setForm] = useState({
-    experience: '',
-    climbing_types: [],
-    frequency: '',
-    style: '',
-    boulder_grade: '',
-    sport_grade: '',
-    favorite_gyms: '',
-    favorite_crags: '',
-    goal: '',
-    bio: '',
-  })
+  const [form, setForm] = useState(EMPTY_FORM)
+
+  const t = useCallback((zh, en, ko) => lang === 'zh' ? zh : lang === 'en' ? en : (ko || en), [lang])
+  const isDirty = useMemo(() => serializeForm(form) !== initialFormSnapshot, [form, initialFormSnapshot])
 
   // 加载已有档案
   useEffect(() => {
@@ -122,8 +149,10 @@ export default function ClimbingProfilePage() {
         .select('*')
         .eq('user_id', user.id)
         .single()
+      let nextForm = EMPTY_FORM
       if (data) {
-        setForm({
+        nextForm = {
+          gender: data.gender || '',
           experience: data.experience || '',
           climbing_types: data.climbing_types || [],
           frequency: data.frequency || '',
@@ -134,26 +163,17 @@ export default function ClimbingProfilePage() {
           favorite_crags: data.favorite_crags || '',
           goal: data.goal || '',
           bio: data.bio || '',
-        })
+        }
       }
+      setForm(nextForm)
+      setInitialFormSnapshot(serializeForm(nextForm))
       setLoading(false)
     }
     load()
   }, [user])
 
-  if (!user) {
-    return (
-      <div className="max-w-xl mx-auto px-4 py-16 text-center">
-        <p className="text-text-secondary">{lang === 'zh' ? '请先登录后再查看攀岩档案。' : lang === 'en' ? 'Please sign in to view your climbing profile.' : '클라이밍 프로필을 보려면 먼저 로그인하세요.'}</p>
-      </div>
-    )
-  }
-
-  const t = (zh, en, ko) => lang === 'zh' ? zh : lang === 'en' ? en : (ko || en)
-  const set = (key) => (val) => setForm((prev) => ({ ...prev, [key]: val }))
-
-  const handleSave = async (e) => {
-    e.preventDefault()
+  const handleSave = useCallback(async () => {
+    if (!user) return false
     setSaving(true)
     setSaveMsg('')
 
@@ -169,8 +189,42 @@ export default function ClimbingProfilePage() {
 
     setSaveMsg(error ? error.message : t('已保存', 'Saved', '저장 완료'))
     setSaving(false)
-    if (!error) setTimeout(() => setSaveMsg(''), 3000)
+    if (error) return false
+    setInitialFormSnapshot(serializeForm(form))
+    setTimeout(() => setSaveMsg(''), 3000)
+    return true
+  }, [form, t, user])
+
+  useEffect(() => {
+    if (!setHeaderSaveAction) return undefined
+    setHeaderSaveAction({
+      dirty: isDirty,
+      saving,
+      onSave: handleSave,
+      confirmMessage: t('你有未保存的修改。是否保存后离开？', 'You have unsaved changes. Save before leaving?', '저장하지 않은 변경사항이 있어요. 저장 후 나갈까요?'),
+    })
+    return () => setHeaderSaveAction(null)
+  }, [handleSave, isDirty, saving, setHeaderSaveAction, t])
+
+  useEffect(() => {
+    if (!isDirty) return undefined
+    const handleBeforeUnload = (event) => {
+      event.preventDefault()
+      event.returnValue = ''
+    }
+    window.addEventListener('beforeunload', handleBeforeUnload)
+    return () => window.removeEventListener('beforeunload', handleBeforeUnload)
+  }, [isDirty])
+
+  if (!user) {
+    return (
+      <div className="max-w-xl mx-auto px-4 py-16 text-center">
+        <p className="text-text-secondary">{lang === 'zh' ? '请先登录后再查看攀岩档案。' : lang === 'en' ? 'Please sign in to view your climbing profile.' : '클라이밍 프로필을 보려면 먼저 로그인하세요.'}</p>
+      </div>
+    )
   }
+
+  const set = (key) => (val) => setForm((prev) => ({ ...prev, [key]: val }))
 
   const displayName = profile?.username || '攀岩者'
   const inputCls = 'w-full px-3 py-2.5 rounded-lg bg-stone-bg border border-stone-border text-sm focus:outline-none focus:border-forest focus:ring-1 focus:ring-forest transition-colors'
@@ -182,16 +236,10 @@ export default function ClimbingProfilePage() {
 
   return (
     <div className="max-w-xl mx-auto px-4 py-8">
-      <Link to="/profile" className="inline-flex items-center gap-1 text-sm text-text-secondary hover:text-forest transition-colors mb-4">
-        <Icon name="chevronLeft" size={14} />
-        {t('返回个人主页', 'Back to Profile', '프로필로 돌아가기')}
-      </Link>
-      <h1 className="text-2xl font-bold mb-8">{t('攀岩档案', 'Climbing Profile', '클라이밍 프로필')}</h1>
-
       {loading ? (
         <div className="text-center py-12 text-text-secondary">{t('加载中…', 'Loading…', '로딩 중…')}</div>
       ) : (
-        <form onSubmit={handleSave} className="space-y-6">
+        <form onSubmit={(e) => { e.preventDefault(); handleSave() }} className="space-y-6">
 
           {/* ── 个人信息 ── */}
           <section className="bg-stone-card rounded-xl border border-stone-border p-6">
@@ -205,6 +253,10 @@ export default function ClimbingProfilePage() {
                 <p className="font-medium">{displayName}</p>
                 <p className="text-xs text-text-secondary">{user.email}</p>
               </div>
+            </div>
+            <div className="mb-5">
+              <label className="block text-sm font-medium mb-2">{t('性别', 'Gender', '성별')}</label>
+              <PillGroup options={GENDER_OPTIONS} value={form.gender} onChange={set('gender')} lang={lang} />
             </div>
             <div>
               <label className="block text-sm font-medium mb-1.5">{t('个人简介', 'Bio', '자기소개')}</label>
@@ -334,8 +386,8 @@ export default function ClimbingProfilePage() {
           <div className="flex items-center gap-3">
             <button
               type="submit"
-              disabled={saving}
-              className="px-4 py-2 rounded-lg bg-forest text-white text-sm font-medium hover:bg-forest-dark transition-colors disabled:opacity-50"
+              disabled={saving || !isDirty}
+              className="px-4 py-2 rounded-lg bg-forest text-stone-950 text-sm font-medium hover:bg-forest-dark transition-colors disabled:opacity-50"
             >
               {saving ? t('保存中…', 'Saving…', '저장 중…') : t('保存', 'Save', '저장')}
             </button>

@@ -2,7 +2,6 @@ import { useState, useEffect, useCallback, useMemo } from 'react'
 import { Outlet, useLocation } from 'react-router-dom'
 import Header from './Header'
 import Sidebar from './Sidebar'
-import Footer from './Footer'
 import ScrollToTop from '../ui/ScrollToTop'
 import AuthModal from '../auth/AuthModal'
 
@@ -27,11 +26,14 @@ export default function Layout() {
   // Desktop sidebar is always-open when in knowledge scope (no toggle).
   const [mobileSheetOpen, setMobileSheetOpen] = useState(false)
   const [authOpen, setAuthOpen] = useState(false)
+  const [headerSaveAction, setHeaderSaveAction] = useState(null)
 
   const closeSheet = useCallback(() => setMobileSheetOpen(false), [])
 
   // Auto-close mobile sheet on route change
-  useEffect(() => { setMobileSheetOpen(false) }, [location.pathname])
+  useEffect(() => {
+    Promise.resolve().then(() => setMobileSheetOpen(false))
+  }, [location.pathname])
 
   // Lock body scroll while mobile sheet is open
   useEffect(() => {
@@ -49,6 +51,7 @@ export default function Layout() {
         onOpenAuth={() => setAuthOpen(true)}
         sidebarOpen={mobileSheetOpen}
         showMobileMenu={showSidebar}
+        saveAction={headerSaveAction}
       />
 
       <div className="flex flex-1">
@@ -103,9 +106,8 @@ export default function Layout() {
         {/* Main content */}
         <main className="flex-1 min-w-0 flex flex-col">
           <div className="flex-1">
-            <Outlet context={{ onOpenAuth: () => setAuthOpen(true) }} />
+            <Outlet context={{ onOpenAuth: () => setAuthOpen(true), setHeaderSaveAction }} />
           </div>
-          <Footer />
         </main>
       </div>
 

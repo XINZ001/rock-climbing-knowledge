@@ -196,7 +196,7 @@ export default function InjuryListPage() {
             onClick={(e) => {
               if (!user) { e.preventDefault(); onOpenAuth() }
             }}
-            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-forest text-white text-sm font-medium hover:bg-forest-dark transition-colors shrink-0"
+            className="inline-flex items-center gap-2 px-5 py-2.5 rounded-xl bg-forest text-stone-950 text-sm font-medium hover:bg-forest-dark transition-colors shrink-0"
           >
             <Icon name="plus" size={16} />
             {lang === 'zh' ? '分享我的经历' : lang === 'en' ? 'Share My Story' : '내 경험 공유하기'}
@@ -248,7 +248,7 @@ export default function InjuryListPage() {
             onClick={() => setFilterClimbingType(filterClimbingType === ct.value ? '' : ct.value)}
             className={`px-3 py-1.5 rounded-full text-sm border transition-colors ${
               filterClimbingType === ct.value
-                ? 'bg-forest text-white border-forest'
+                ? 'bg-forest text-stone-950 border-forest'
                 : 'bg-stone-card border-stone-border text-text-secondary hover:border-forest/40'
             }`}
           >

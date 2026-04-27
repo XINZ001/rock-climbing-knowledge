@@ -72,9 +72,6 @@ export default function AthletePage() {
         <h1 className="text-xl font-semibold mb-2">
           {lang === 'zh' ? '未找到该人物' : lang === 'en' ? 'Athlete not found' : '인물을 찾을 수 없습니다'}
         </h1>
-        <Link to="/hall-of-fame" className="text-forest hover:underline text-sm">
-          {lang === 'zh' ? '返回名人堂' : lang === 'en' ? 'Back to Hall of Fame' : '명예의 전당으로 돌아가기'}
-        </Link>
       </div>
     )
   }
@@ -92,27 +89,8 @@ export default function AthletePage() {
           : `${athleteName}의 클라이밍 경력과 업적 — 이 전설적인 클라이머의 이야기를 알아보세요.`}
         path={`/hall-of-fame/${athleteSlug}`}
       />
-      <nav className="text-sm text-text-secondary">
-        <Link to="/" className="hover:text-forest transition-colors">
-          {lang === 'zh' ? '首页' : lang === 'en' ? 'Home' : '홈'}
-        </Link>
-        <span className="mx-2">/</span>
-        <Link to="/hall-of-fame" className="hover:text-forest transition-colors">
-          {lang === 'zh' ? '攀岩名人堂' : lang === 'en' ? 'Hall of Fame' : '명예의 전당'}
-        </Link>
-        <span className="mx-2">/</span>
-        <Link
-          to={`/hall-of-fame/browse/${athlete.category}`}
-          className="hover:text-forest transition-colors"
-        >
-          {t(hallOfFameCategories[getTabKeyForAthlete(athlete)] ?? hallOfFameMainCategories[athlete.category])}
-        </Link>
-        <span className="mx-2">/</span>
-        <span>{t(athlete.athleteName)}</span>
-      </nav>
-
       <section
-        className="mt-5 overflow-hidden rounded-[2rem] border border-stone-border bg-stone-card shadow-sm"
+        className="overflow-hidden rounded-[2rem] border border-stone-border bg-stone-card shadow-sm"
         style={{
           background: `linear-gradient(135deg, ${hexToRgba(athlete.accentColor, 0.18)} 0%, var(--color-stone-card) 74%)`
         }}
@@ -482,7 +460,7 @@ export default function AthletePage() {
                 <Link
                   key={reference.path}
                   to={reference.path}
-                  className="rounded-full bg-forest-light px-3 py-1.5 text-xs font-medium text-forest hover:bg-forest hover:text-white transition-colors"
+                  className="rounded-full bg-forest-light px-3 py-1.5 text-xs font-medium text-forest hover:bg-forest hover:text-stone-950 transition-colors"
                 >
                   {t(reference.title)}
                 </Link>

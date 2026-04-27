@@ -92,7 +92,7 @@ export default function HallOfFamePage() {
               onClick={() => { setActiveFilter(key); setSearchParams(key === 'all' ? {} : { category: key }, { replace: true }) }}
               className={`px-4 py-1.5 rounded-full text-sm font-medium transition-colors ${
                 isActive
-                  ? 'bg-forest text-white'
+                  ? 'bg-forest text-stone-950'
                   : 'bg-stone-card border border-stone-border text-text-secondary hover:border-forest/40 hover:text-text-primary'
               }`}
             >

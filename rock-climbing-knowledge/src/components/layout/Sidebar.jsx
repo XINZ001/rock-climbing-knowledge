@@ -2,7 +2,6 @@ import { useState, useEffect, useRef } from 'react'
 import { Link, useParams, useNavigate } from 'react-router-dom'
 import { useApp } from '../../context/AppContext'
 import { Icon } from '../../utils/icons'
-import ThemeToggle from '../ui/ThemeToggle'
 
 const langOptions = [
   { code: 'zh', label: '中文' },
@@ -117,14 +116,6 @@ export default function Sidebar({ onNavigate }) {
     <nav className="h-full flex flex-col">
       {/* 可滚动区域 */}
       <div className="flex-1 min-h-0 overflow-y-auto py-3 px-2">
-        <Link
-          to="/learn"
-          className="flex items-center gap-2 px-3 py-2 rounded-lg text-sm font-medium hover:bg-stone-bg transition-colors mb-1"
-        >
-          <Icon name="chevronLeft" size={14} />
-          <span>{lang === 'zh' ? '返回学习' : lang === 'en' ? 'Back to Learn' : '학습으로 돌아가기'}</span>
-        </Link>
-
         {/* ── 知识库 10 大章节 ── */}
         <div className="mt-1 space-y-0.5">
           {sections.map((section) => {
@@ -176,9 +167,8 @@ export default function Sidebar({ onNavigate }) {
         </div>
       </div>
 
-      {/* 底部固定区：语言切换 + 暗色模式 — 仅移动端 */}
-      <div className="lg:hidden shrink-0 px-4 py-3 border-t border-stone-border flex items-center justify-between">
-        <ThemeToggle size={18} className="w-8 h-8" />
+      {/* 底部固定区：语言切换 — 仅移动端 */}
+      <div className="lg:hidden shrink-0 px-4 py-3 border-t border-stone-border flex items-center justify-end">
         <MobileLangDropdown lang={lang} setLang={setLang} />
       </div>
     </nav>

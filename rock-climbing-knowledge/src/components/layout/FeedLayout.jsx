@@ -1,8 +1,11 @@
-import { useState } from 'react'
+import { useEffect, useRef, useState } from 'react'
 import { Outlet, Link, useLocation } from 'react-router-dom'
-import ThemeToggle from '../ui/ThemeToggle'
 import ScrollToTop from '../ui/ScrollToTop'
 import AuthModal from '../auth/AuthModal'
+import { useApp } from '../../context/AppContext'
+import { useAuth } from '../../context/AuthContext'
+import { Icon } from '../../utils/icons'
+import UserAvatar from '../ui/UserAvatar'
 
 /* ── Inline SVG Icons ─────────────────────────────────── */
 
@@ -24,16 +27,6 @@ function BookIcon({ className }) {
   )
 }
 
-function FlaskIcon({ className }) {
-  return (
-    <svg className={className} width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M9 3h6" />
-      <path d="M10 3v6.5L4 20h16l-6-10.5V3" />
-      <path d="M7 16h10" />
-    </svg>
-  )
-}
-
 function UserIcon({ className }) {
   return (
     <svg className={className} width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
@@ -43,32 +36,18 @@ function UserIcon({ className }) {
   )
 }
 
-function SearchIcon({ className }) {
-  return (
-    <svg className={className} width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-      <circle cx="11" cy="11" r="8" />
-      <line x1="21" y1="21" x2="16.65" y2="16.65" />
-    </svg>
-  )
-}
-
-function DumbbellIcon({ className }) {
-  return (
-    <svg className={className} width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="1.8" strokeLinecap="round" strokeLinejoin="round">
-      <path d="M6.5 6.5h11M6.5 17.5h11" />
-      <rect x="2" y="4.5" width="4" height="15" rx="1.5" />
-      <rect x="18" y="4.5" width="4" height="15" rx="1.5" />
-      <rect x="6.5" y="8" width="11" height="8" rx="1" />
-    </svg>
-  )
-}
-
 /* ── Nav configuration ────────────────────────────────── */
 
 const navItems = [
+  { label: '知识库', path: '/learn', icon: BookIcon },
   { label: '发现', path: '/', icon: CompassIcon },
-  { label: '学', path: '/learn', icon: BookIcon },
-  { label: '练', path: '/train', icon: DumbbellIcon },
+  { label: '我的', path: '/profile', icon: UserIcon },
+]
+
+const langOptions = [
+  { code: 'zh', label: '中文' },
+  { code: 'en', label: 'EN' },
+  { code: 'ko', label: '한국어' },
 ]
 
 /* ── Helper: is a nav item active? ────────────────────── */
@@ -76,10 +55,10 @@ const navItems = [
 function isActive(itemPath, currentPath) {
   if (itemPath === '/') return currentPath === '/'
   if (itemPath === '/learn') {
-    return currentPath.startsWith('/learn') || currentPath.startsWith('/section') || currentPath.startsWith('/articles') || currentPath.startsWith('/hall-of-fame') || currentPath.startsWith('/search')
+    return currentPath.startsWith('/learn') || currentPath.startsWith('/knowledge') || currentPath.startsWith('/section') || currentPath.startsWith('/articles') || currentPath.startsWith('/hall-of-fame') || currentPath.startsWith('/search')
   }
-  if (itemPath === '/train') {
-    return currentPath.startsWith('/train') || currentPath.startsWith('/injuries')
+  if (itemPath === '/profile') {
+    return currentPath.startsWith('/profile') || currentPath.startsWith('/settings') || currentPath.startsWith('/climbing-profile')
   }
   return currentPath.startsWith(itemPath)
 }
@@ -88,53 +67,182 @@ function isActive(itemPath, currentPath) {
 
 export default function FeedLayout() {
   const [authOpen, setAuthOpen] = useState(false)
+  const [topbarScrolled, setTopbarScrolled] = useState(false)
+  const [languageMenuOpen, setLanguageMenuOpen] = useState(false)
+  const [feedSearchQuery, setFeedSearchQuery] = useState('')
+  const languageMenuRef = useRef(null)
   const location = useLocation()
+  const { lang, setLang } = useApp()
+  const { user, profile } = useAuth()
+  const showBottomNav = ['/', '/learn', '/train', '/profile'].includes(location.pathname)
+  const showTopMenu = location.pathname === '/' || location.pathname === '/learn' || location.pathname === '/profile'
+  const topMenuVisibilityClass = location.pathname === '/'
+    ? 'hidden md:block'
+    : location.pathname === '/profile'
+      ? 'hidden lg:block'
+      : ''
+  const showFeedSearch = location.pathname === '/'
+  const topbarSolid = topbarScrolled || showFeedSearch || location.pathname === '/profile'
+
+  useEffect(() => {
+    const handleScroll = () => setTopbarScrolled(window.scrollY > 64)
+    handleScroll()
+    window.addEventListener('scroll', handleScroll, { passive: true })
+    return () => window.removeEventListener('scroll', handleScroll)
+  }, [])
+
+  useEffect(() => {
+    const handleClick = (event) => {
+      if (languageMenuRef.current && !languageMenuRef.current.contains(event.target)) {
+        setLanguageMenuOpen(false)
+      }
+    }
+    document.addEventListener('mousedown', handleClick)
+    return () => document.removeEventListener('mousedown', handleClick)
+  }, [])
 
   return (
     <div className="min-h-screen bg-stone-bg">
-      {/* ── Left Sidebar (desktop ≥1024px) ── */}
-      <aside className="hidden lg:flex fixed left-0 top-0 bottom-0 w-[180px] flex-col bg-stone-sidebar border-r border-stone-border z-30">
-        {/* Logo */}
-        <Link to="/" className="flex items-center gap-2 px-4 h-14 text-text-primary font-semibold text-base no-underline shrink-0">
-          🪨 攀岩社区
-        </Link>
+      {showTopMenu && (
+        <div
+          className={`fixed inset-x-0 top-0 z-50 transition-all duration-300 ${topMenuVisibilityClass} ${
+            topbarSolid
+              ? 'bg-stone-bg/88 shadow-[0_8px_24px_rgba(92,72,50,0.10)] backdrop-blur-xl'
+              : 'bg-transparent'
+          }`}
+        >
+          <div className="flex h-14 items-center justify-between px-4">
+            <Link
+              to="/learn"
+              aria-label={lang === 'zh' ? '攀岩知识库首页' : lang === 'en' ? 'Climbing Knowledge Home' : '클라이밍 지식 홈'}
+              className={`transition-all duration-300 ${
+                topbarSolid
+                  ? 'translate-y-0 opacity-100'
+                  : '-translate-y-1 opacity-0 pointer-events-none lg:translate-y-0 lg:opacity-100 lg:pointer-events-auto'
+              }`}
+            >
+              <img
+                src="/images/logo/climbing-knowledge-logo-white.svg"
+                alt=""
+                aria-hidden="true"
+                className="home-logo-mark h-7 w-auto"
+              />
+            </Link>
 
-        {/* Nav items */}
-        <nav className="flex-1 flex flex-col gap-1 px-3 pt-2">
-          {navItems.map(({ label, path, icon: Icon }) => {
-            const active = isActive(path, location.pathname)
-            return (
+            <nav className="ml-6 hidden items-center gap-1 lg:flex">
               <Link
-                key={path}
-                to={path}
-                className={`h-12 rounded-xl flex items-center gap-3 px-4 no-underline transition-colors ${
-                  active
-                    ? 'bg-forest-light text-forest font-semibold'
-                    : 'text-text-secondary hover:bg-stone-bg'
+                to="/learn"
+                className={`relative px-3 py-1.5 text-sm transition-colors hover:text-white ${
+                  location.pathname === '/learn'
+                    ? 'font-semibold text-white'
+                    : 'font-medium text-white/58'
                 }`}
               >
-                <Icon className="shrink-0" />
-                <span className="text-sm">{label}</span>
+                {lang === 'zh' ? '知识库' : lang === 'en' ? 'Knowledge' : '지식'}
               </Link>
-            )
-          })}
-        </nav>
+              <Link
+                to="/"
+                className={`relative px-3 py-1.5 text-sm transition-colors hover:text-white ${
+                  location.pathname === '/'
+                    ? 'font-semibold text-white'
+                    : 'font-medium text-white/58'
+                }`}
+              >
+                {lang === 'zh' ? '发现' : lang === 'en' ? 'Discover' : '발견'}
+              </Link>
+            </nav>
 
-        {/* Theme toggle at bottom */}
-        <div className="px-4 pb-4 shrink-0">
-          <ThemeToggle />
+            {showFeedSearch && (
+              <div className="mx-4 hidden max-w-md flex-1 md:block">
+                <div className="relative">
+                  <Icon name="search" size={16} className="absolute left-3 top-1/2 -translate-y-1/2 text-text-secondary" />
+                  <input
+                    type="text"
+                    value={feedSearchQuery}
+                    onChange={(event) => setFeedSearchQuery(event.target.value)}
+                    placeholder={lang === 'zh' ? '搜索帖子...' : lang === 'en' ? 'Search posts...' : '게시글 검색...'}
+                    className="h-9 w-full rounded-full border border-stone-border bg-stone-card/80 pl-9 pr-4 text-sm text-text-primary placeholder:text-text-secondary focus:outline-none focus:ring-2 focus:ring-forest/30"
+                  />
+                </div>
+              </div>
+            )}
+
+            <div className="ml-auto flex items-center gap-2">
+              <div ref={languageMenuRef} className="relative">
+                <button
+                  type="button"
+                  onClick={() => setLanguageMenuOpen((open) => !open)}
+                  className={`flex h-9 w-9 items-center justify-center rounded-full backdrop-blur-md transition-colors ${
+                    topbarSolid
+                      ? 'border border-stone-border bg-stone-card/70 text-text-primary hover:bg-stone-card'
+                      : 'border border-white/15 bg-black/18 text-white/88 hover:bg-white/12'
+                  }`}
+                  aria-label={lang === 'zh' ? '切换语言' : lang === 'en' ? 'Change language' : '언어 변경'}
+                >
+                  <Icon name="globe" size={17} />
+                </button>
+                {languageMenuOpen && (
+                  <div className="absolute right-0 top-full mt-2 w-28 overflow-hidden rounded-xl border border-stone-border bg-stone-card shadow-lg">
+                    {langOptions.map((option) => (
+                      <button
+                        key={option.code}
+                        type="button"
+                        onClick={() => {
+                          setLang(option.code)
+                          setLanguageMenuOpen(false)
+                        }}
+                        className={`w-full px-3 py-2 text-left text-xs transition-colors ${
+                          option.code === lang
+                            ? 'bg-stone-bg font-semibold text-text-primary'
+                            : 'text-text-secondary hover:bg-stone-bg hover:text-text-primary'
+                        }`}
+                      >
+                        {option.label}
+                      </button>
+                    ))}
+                  </div>
+                )}
+              </div>
+              {user ? (
+                <Link
+                  to="/profile"
+                  className={`flex h-9 items-center gap-2 rounded-full border px-2.5 pr-3 text-sm font-medium backdrop-blur-md transition-colors ${
+                    topbarSolid
+                      ? 'border-stone-border bg-stone-card/70 text-text-primary hover:bg-stone-card'
+                      : 'border-white/15 bg-black/18 text-white/88 hover:bg-white/12'
+                  }`}
+                >
+                  <UserAvatar name={profile?.username || (lang === 'zh' ? '攀岩者' : lang === 'en' ? 'Climber' : '클라이머')} size={24} />
+                  <span className="hidden sm:inline max-w-[86px] truncate">
+                    {profile?.username || (lang === 'zh' ? '我的' : lang === 'en' ? 'Me' : '나')}
+                  </span>
+                </Link>
+              ) : (
+                <button
+                  type="button"
+                  onClick={() => setAuthOpen(true)}
+                  className={`h-9 rounded-full border px-4 text-sm font-semibold backdrop-blur-md transition-colors ${
+                    topbarSolid
+                      ? 'border-stone-border bg-stone-card/80 text-text-primary hover:bg-stone-card'
+                      : 'border-white/15 bg-black/18 text-white/90 hover:bg-white/12'
+                  }`}
+                >
+                  {lang === 'zh' ? '登录 / 注册' : lang === 'en' ? 'Sign in' : '로그인'}
+                </button>
+              )}
+            </div>
+          </div>
         </div>
-      </aside>
-
-
+      )}
       {/* ── Main Content ── */}
-      <main className="lg:ml-[180px] pb-14 lg:pb-0 min-h-screen bg-stone-bg">
-        <Outlet context={{ onOpenAuth: () => setAuthOpen(true) }} />
+      <main className={`${showBottomNav ? 'pb-14' : 'pb-0'} lg:pb-0 min-h-screen bg-stone-bg`}>
+        <Outlet context={{ onOpenAuth: () => setAuthOpen(true), feedSearchQuery, setFeedSearchQuery }} />
       </main>
 
       {/* ── Bottom Bar (mobile <1024px) ── */}
+      {showBottomNav && (
       <nav className="lg:hidden fixed bottom-0 left-0 right-0 h-14 bg-stone-card/90 backdrop-blur-lg border-t border-stone-border z-30 flex items-stretch justify-around pb-[env(safe-area-inset-bottom)]">
-        {navItems.map(({ label, path, icon: Icon }) => {
+        {navItems.map(({ label, path, icon }) => {
           const active = isActive(path, location.pathname)
           return (
             <Link
@@ -147,12 +255,13 @@ export default function FeedLayout() {
               {active && (
                 <span className="absolute top-0 left-1/2 -translate-x-1/2 h-[2px] w-8 bg-forest rounded-full" />
               )}
-              <Icon className={`shrink-0 transition-transform duration-200 ${active ? 'scale-110' : ''}`} />
+              {icon({ className: `shrink-0 transition-transform duration-200 ${active ? 'scale-110' : ''}` })}
               <span className={`text-[10px] leading-tight transition-all ${active ? 'font-semibold' : ''}`}>{label}</span>
             </Link>
           )
         })}
       </nav>
+      )}
 
       {/* ── Utilities ── */}
       <ScrollToTop />

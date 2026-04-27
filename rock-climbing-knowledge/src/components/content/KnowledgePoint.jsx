@@ -281,7 +281,7 @@ export default function KnowledgePoint({ point, videos, illustrations }) {
                   <Link
                     key={ref.id}
                     to={ref.path}
-                    className="inline-flex items-center px-2.5 py-1 rounded-md text-xs bg-stone-card border border-stone-border/60 text-forest hover:bg-forest hover:text-white hover:border-forest transition-colors"
+                    className="inline-flex items-center px-2.5 py-1 rounded-md text-xs bg-stone-card border border-stone-border/60 text-forest hover:bg-forest hover:text-stone-950 hover:border-forest transition-colors"
                   >
                     {t(ref.title)}
                   </Link>
