@@ -464,27 +464,28 @@ export default function HomePage() {
       <div ref={sectionArticleRef} className="relative mb-10 border-t border-stone-border/55 pt-8">
         {/* Banner header */}
         <div className="relative mb-5">
-          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
-            <div>
-              <h2 className="text-2xl font-bold flex items-center gap-2">
-                <Icon name="fileText" size={22} className="text-teal" />
+          <div className="flex items-center justify-between gap-3">
+            <div className="flex min-w-0 items-center gap-2.5">
+              <Icon name="fileText" size={22} className="text-teal" />
+              <h2 className="truncate text-2xl font-bold">
                 {lang === 'zh' ? '攀岩专栏' : lang === 'en' ? 'Climbing Column' : '클라이밍 칼럼'}
               </h2>
-              <p className="mt-1.5 text-sm text-text-secondary leading-relaxed max-w-2xl">
-                {lang === 'zh'
-                  ? '深度解答攀岩者最关心的问题——从入门到进阶的必读指南'
-                  : lang === 'en'
-                  ? 'In-depth answers to the most common climbing questions — essential guides from beginner to advanced'
-                  : '클라이머들이 가장 궁금해하는 질문에 대한 심층 답변'}
-              </p>
             </div>
             <Link
               to="/articles"
-              className="flex items-center gap-1.5 text-sm font-medium text-teal hover:underline shrink-0"
+              aria-label={lang === 'zh' ? `查看全部 ${articleRegistry.articles.length} 篇` : lang === 'en' ? `View all ${articleRegistry.articles.length} articles` : `전체 ${articleRegistry.articles.length}편 보기`}
+              className="flex h-9 w-9 items-center justify-center rounded-full border border-stone-border bg-stone-card text-teal transition-colors hover:border-text-primary/25 hover:bg-stone-bg shrink-0"
             >
-              {lang === 'zh' ? `查看全部 ${articleRegistry.articles.length} 篇 →` : lang === 'en' ? `View all ${articleRegistry.articles.length} articles →` : `전체 ${articleRegistry.articles.length}편 보기 →`}
+              <Icon name="moreHorizontal" size={18} />
             </Link>
           </div>
+          <p className="mt-2 text-sm text-text-secondary leading-relaxed max-w-2xl">
+            {lang === 'zh'
+              ? '深度解答攀岩者最关心的问题，从入门到进阶的必读指南'
+              : lang === 'en'
+              ? 'In-depth answers to the most common climbing questions, from beginner to advanced'
+              : '클라이머들이 가장 궁금해하는 질문에 대한 심층 답변'}
+          </p>
         </div>
 
         {/* Horizontal scroll: [分类标签+2篇文章] × 4 categories in one row */}
@@ -533,28 +534,28 @@ export default function HomePage() {
       <div ref={sectionHofRef} className="relative mb-10 border-t border-stone-border/55 pt-8">
         {/* Banner header */}
         <div className="relative mb-5">
-          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
-            <div>
-              <h2 className="text-2xl font-bold flex items-center gap-2">
-                <Icon name="trophy" size={22} className="text-gold" />
+          <div className="flex items-center justify-between gap-3">
+            <div className="flex min-w-0 items-center gap-2.5">
+              <Icon name="trophy" size={22} className="text-gold" />
+              <h2 className="truncate text-2xl font-bold">
                 {lang === 'zh' ? '攀岩名人堂' : lang === 'en' ? 'Climbing Hall of Fame' : '클라이밍 명예의 전당'}
               </h2>
-              <p className="mt-1.5 text-sm text-text-secondary leading-relaxed max-w-2xl">
-                {lang === 'zh'
-                  ? '收录攀岩历史与当代最具代表性的人物，集中展示他们的成就、风格与影像'
-                  : lang === 'en'
-                  ? 'Defining figures from climbing history and the modern era — achievements, style, and media'
-                  : '클라이밍 역사와 현대를 대표하는 인물들 — 업적, 스타일, 미디어'}
-              </p>
             </div>
             <Link
               to="/hall-of-fame"
-              className="flex items-center gap-1.5 text-sm font-medium text-gold hover:underline shrink-0"
+              aria-label={lang === 'zh' ? `查看全部 ${allAthletes.length} 位` : lang === 'en' ? `View all ${allAthletes.length}` : `전체 ${allAthletes.length}명 보기`}
+              className="flex h-9 w-9 items-center justify-center rounded-full border border-stone-border bg-stone-card text-gold transition-colors hover:border-text-primary/25 hover:bg-stone-bg shrink-0"
             >
-              {lang === 'zh' ? `查看全部 ${allAthletes.length} 位` : lang === 'en' ? `View all ${allAthletes.length}` : `전체 ${allAthletes.length}명 보기`}
-              <span>→</span>
+              <Icon name="moreHorizontal" size={18} />
             </Link>
           </div>
+          <p className="mt-2 text-sm text-text-secondary leading-relaxed max-w-2xl">
+            {lang === 'zh'
+              ? '收录攀岩历史与当代最具代表性的人物，集中展示他们的成就、风格与影像'
+              : lang === 'en'
+              ? 'Defining figures from climbing history and the modern era, with achievements, style, and media'
+              : '클라이밍 역사와 현대를 대표하는 인물들, 업적과 스타일, 미디어'}
+          </p>
         </div>
 
         {/* Preview: 全部运动员横向滚动 — 复用名人堂富卡片 */}
@@ -634,28 +635,28 @@ export default function HomePage() {
       <div className="relative mb-6 border-t border-stone-border/55 pt-8">
         {/* Banner header */}
         <div className="relative mb-5">
-          <div className="flex flex-col sm:flex-row sm:items-center sm:justify-between gap-3">
-            <div>
-              <h2 className="text-2xl font-bold flex items-center gap-2">
-                <Icon name="medkit" size={22} className="text-amber" />
+          <div className="flex items-center justify-between gap-3">
+            <div className="flex min-w-0 items-center gap-2.5">
+              <Icon name="medkit" size={22} className="text-amber" />
+              <h2 className="truncate text-2xl font-bold">
                 {lang === 'zh' ? '伤痛档案' : lang === 'en' ? 'Injury Archive' : '부상 기록'}
               </h2>
-              <p className="mt-1.5 text-sm text-text-secondary leading-relaxed max-w-2xl">
-                {lang === 'zh'
-                  ? '来自真实攀岩者的受伤经历——了解风险，做好预防。分享你的故事，帮助更多人安全攀岩。'
-                  : lang === 'en'
-                  ? 'Real injury stories from climbers — understand risks, learn prevention. Share your story to help others climb safely.'
-                  : '실제 클라이머들의 부상 경험 — 위험을 이해하고 예방하세요. 여러분의 이야기를 공유해 다른 클라이머의 안전을 도와주세요.'}
-              </p>
             </div>
             <Link
               to="/injuries"
-              className="flex items-center gap-1.5 text-sm font-medium text-amber hover:underline shrink-0"
+              aria-label={lang === 'zh' ? '查看档案' : lang === 'en' ? 'View Archive' : '기록 보기'}
+              className="flex h-9 w-9 items-center justify-center rounded-full border border-stone-border bg-stone-card text-amber transition-colors hover:border-text-primary/25 hover:bg-stone-bg shrink-0"
             >
-              {lang === 'zh' ? '查看档案' : lang === 'en' ? 'View Archive' : '기록 보기'}
-              <span>→</span>
+              <Icon name="moreHorizontal" size={18} />
             </Link>
           </div>
+          <p className="mt-2 text-sm text-text-secondary leading-relaxed max-w-2xl">
+            {lang === 'zh'
+              ? '来自真实攀岩者的受伤经历，了解风险，做好预防。'
+              : lang === 'en'
+              ? 'Real injury stories from climbers, with practical lessons for prevention.'
+              : '실제 클라이머들의 부상 경험을 통해 위험을 이해하고 예방하세요.'}
+          </p>
         </div>
 
         {/* Preview: CTA */}
