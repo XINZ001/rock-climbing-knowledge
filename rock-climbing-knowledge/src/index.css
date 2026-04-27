@@ -494,12 +494,9 @@ html.dark .group:hover .home-module-image {
 }
 
 .home-logo-mark {
-  filter: drop-shadow(0 2px 16px rgba(255, 255, 255, 0.55)) !important;
+  filter: none !important;
   mix-blend-mode: normal !important;
   opacity: 1 !important;
-}
-html.dark .home-logo-mark {
-  filter: drop-shadow(0 2px 16px rgba(255, 255, 255, 0.34)) !important;
 }
 
 /* Eyebrow — small uppercased clay label with prefix line */
