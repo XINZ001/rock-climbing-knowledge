@@ -39,8 +39,8 @@ function UserIcon({ className }) {
 /* ── Nav configuration ────────────────────────────────── */
 
 const navItems = [
-  { label: '知识库', path: '/learn', icon: BookIcon },
-  { label: '发现', path: '/', icon: CompassIcon },
+  { label: '知识库', path: '/', icon: BookIcon },
+  { label: '发现', path: '/discover', icon: CompassIcon },
   { label: '我的', path: '/profile', icon: UserIcon },
 ]
 
@@ -53,9 +53,11 @@ const langOptions = [
 /* ── Helper: is a nav item active? ────────────────────── */
 
 function isActive(itemPath, currentPath) {
-  if (itemPath === '/') return currentPath === '/'
-  if (itemPath === '/learn') {
-    return currentPath.startsWith('/learn') || currentPath.startsWith('/knowledge') || currentPath.startsWith('/section') || currentPath.startsWith('/articles') || currentPath.startsWith('/hall-of-fame') || currentPath.startsWith('/search')
+  if (itemPath === '/') {
+    return currentPath === '/' || currentPath.startsWith('/learn') || currentPath.startsWith('/knowledge') || currentPath.startsWith('/section') || currentPath.startsWith('/articles') || currentPath.startsWith('/hall-of-fame') || currentPath.startsWith('/search')
+  }
+  if (itemPath === '/discover') {
+    return currentPath.startsWith('/discover')
   }
   if (itemPath === '/profile') {
     return currentPath.startsWith('/profile') || currentPath.startsWith('/settings') || currentPath.startsWith('/climbing-profile')
@@ -74,14 +76,14 @@ export default function FeedLayout() {
   const location = useLocation()
   const { lang, setLang } = useApp()
   const { user, profile } = useAuth()
-  const showBottomNav = ['/', '/learn', '/train', '/profile'].includes(location.pathname)
-  const showTopMenu = location.pathname === '/' || location.pathname === '/learn' || location.pathname === '/profile'
-  const topMenuVisibilityClass = location.pathname === '/'
+  const showBottomNav = ['/', '/learn', '/discover', '/train', '/profile'].includes(location.pathname)
+  const showTopMenu = location.pathname === '/' || location.pathname === '/learn' || location.pathname === '/discover' || location.pathname === '/profile'
+  const topMenuVisibilityClass = location.pathname === '/discover'
     ? 'hidden md:block'
     : location.pathname === '/profile'
       ? 'hidden lg:block'
       : ''
-  const showFeedSearch = location.pathname === '/'
+  const showFeedSearch = location.pathname === '/discover'
   const topbarSolid = topbarScrolled || showFeedSearch || location.pathname === '/profile'
 
   useEffect(() => {
@@ -113,7 +115,7 @@ export default function FeedLayout() {
         >
           <div className="flex h-14 items-center justify-between px-4">
             <Link
-              to="/learn"
+              to="/"
               aria-label={lang === 'zh' ? '攀岩知识库首页' : lang === 'en' ? 'Climbing Knowledge Home' : '클라이밍 지식 홈'}
               className={`transition-all duration-300 ${
                 topbarSolid
@@ -131,9 +133,9 @@ export default function FeedLayout() {
 
             <nav className="ml-6 hidden items-center gap-1 lg:flex">
               <Link
-                to="/learn"
+                to="/"
                 className={`relative px-3 py-1.5 text-sm transition-colors hover:text-white ${
-                  location.pathname === '/learn'
+                  isActive('/', location.pathname)
                     ? 'font-semibold text-white'
                     : 'font-medium text-white/58'
                 }`}
@@ -141,9 +143,9 @@ export default function FeedLayout() {
                 {lang === 'zh' ? '知识库' : lang === 'en' ? 'Knowledge' : '지식'}
               </Link>
               <Link
-                to="/"
+                to="/discover"
                 className={`relative px-3 py-1.5 text-sm transition-colors hover:text-white ${
-                  location.pathname === '/'
+                  location.pathname === '/discover'
                     ? 'font-semibold text-white'
                     : 'font-medium text-white/58'
                 }`}

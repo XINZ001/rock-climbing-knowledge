@@ -45,8 +45,11 @@ export default function App() {
       <Routes>
         {/* FeedLayout 包裹所有页面 — 底部 3-tab 导航永远在 */}
         <Route element={<FeedLayout />}>
-          {/* Tab 1: 发现 */}
-          <Route index element={<FeedPage />} />
+          {/* Tab 1: 知识库首页 */}
+          <Route index element={<HomePage />} />
+
+          {/* 发现 */}
+          <Route path="discover" element={<FeedPage />} />
 
           {/* Tab 2: 学 */}
           <Route path="learn" element={<HomePage />} />

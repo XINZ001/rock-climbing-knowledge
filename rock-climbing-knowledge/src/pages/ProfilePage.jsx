@@ -306,7 +306,7 @@ export default function ProfilePage() {
 
           {/* Secondary */}
           <Link
-            to="/"
+            to="/discover"
             className="inline-block mt-4 text-xs text-text-secondary hover:text-forest transition-colors"
           >
             {tt('先去发现页逛逛 →', 'Browse Discover first →', '먼저 둘러보기 →')}
@@ -390,7 +390,7 @@ export default function ProfilePage() {
 
   const handleFeedShare = (postId) => {
     const post = feedPostMap[postId]
-    const url = `${window.location.origin}/?post=${encodeURIComponent(postId)}`
+    const url = `${window.location.origin}/discover?post=${encodeURIComponent(postId)}`
     const shareText = post?.title ? `${post.title}\n${url}` : url
     navigator.clipboard?.writeText(shareText)
   }
@@ -521,7 +521,7 @@ export default function ProfilePage() {
             <ProfileActivitySkeleton />
           ) : feedActivity.likes.length + feedActivity.bookmarks.length + feedActivity.comments.length === 0 ? (
             <Link
-              to="/"
+              to="/discover"
               className="mx-auto block max-w-3xl rounded-2xl border-2 border-dashed border-stone-border p-8 text-center transition-colors hover:border-forest/30"
             >
               <div className="mb-3 text-4xl">🧗</div>

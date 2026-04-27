@@ -1202,7 +1202,7 @@ export default function FeedPage() {
 
   const handleShare = useCallback((postId) => {
     const post = postById[postId]
-    const url = `${window.location.origin}/?post=${encodeURIComponent(postId)}`
+    const url = `${window.location.origin}/discover?post=${encodeURIComponent(postId)}`
     const shareText = post?.title ? `${post.title}\n${url}` : url
     navigator.clipboard.writeText(shareText).then(() => {
       showToast('标题和链接已复制')
