@@ -231,7 +231,7 @@ export default function HomePage() {
         }}
       />
       {/* Hero */}
-      <div ref={heroRef} className="relative mt-0 mb-12 flex min-h-[560px] w-full flex-col items-center justify-center overflow-hidden px-4 pt-16 pb-10 text-center">
+      <div ref={heroRef} className="relative mt-0 mb-6 flex min-h-[500px] w-full flex-col items-center justify-center overflow-hidden px-4 pt-14 pb-4 text-center sm:min-h-[540px]">
         <img
           src="/images/hero/learn-indoor-overhang-bg.png"
           alt=""
@@ -239,7 +239,7 @@ export default function HomePage() {
           className="home-hero-image absolute inset-0 z-0 h-full w-full object-cover object-[62%_42%]"
         />
         <div className="home-hero-overlay absolute inset-0 z-0" />
-        <div className="home-hero-fade absolute inset-x-0 bottom-0 z-0 h-36" />
+        <div className="home-hero-fade absolute inset-x-0 bottom-0 z-0 h-20" />
 
         <img
           src="/images/logo/climbing-knowledge-logo-white.svg"
