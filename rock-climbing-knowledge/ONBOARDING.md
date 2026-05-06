@@ -250,7 +250,7 @@ rock-climbing-knowledge/
 
 > ⚠️ **DESIGN-BRIEF.md 描述的是早期 Header**（知识库 / 名人堂 / 伤痛档案 三按钮）。**真实导航**已经改成"知识库 / 发现 / 我的"3-tab 底栏 + 桌面顶栏。改导航相关的活以代码为准。
 
-> ⚠️ **死代码 import**：`App.jsx` 顶部 import 了 `LearnPage` 和 `HallOfFameCategoryPage` 两个组件，但路由表里 `/learn` 实际用 `HomePage`、`hall-of-fame` 也没有 `category/:id` 子路由。这两个文件目前是**孤儿**——不要据此推断它们是"在用"的页面。ESLint 没报是因为 `no-unused-vars` 配了 `^[A-Z_]` 例外（专门放过 React 组件命名）。在路由真正接上前，改这俩文件无效。
+> 旧记录：2026-05-06 之前，`App.jsx` 顶部误 import 了 `LearnPage` 和 `HallOfFameCategoryPage`，但路由表里 `/learn` 实际用 `HomePage`、`hall-of-fame` 也没有 `category/:id` 子路由。两个 import 已清理；页面文件本身暂时保留，等团队确认是预留还是废弃。
 
 ---
 
@@ -448,7 +448,7 @@ rock-climbing-knowledge/
 1. **DESIGN-BRIEF.md 与代码不一致**：颜色、导航结构、语言数都过时了。本文件 §5 §8 §9 是当前真源。
 2. **AppContext 硬编码 dark mode**：theme toggle 组件存在但 setTheme 是 noop。要做切换需要改 context。
 3. **`/learn` 路由复用 HomePage**：底部 tab "学" 不是独立页面，是 HomePage 的另一个入口。改首页要考虑 tab 视觉一致性。
-4. **死代码 import**：`App.jsx` 里 `LearnPage` 和 `HallOfFameCategoryPage` 都被 import 了但没在任何 route 里用。改这两个文件不会反映到任何页面。
+4. **死代码 import 已修复**：2026-05-06 前 `App.jsx` 曾误 import `LearnPage` 和 `HallOfFameCategoryPage`，但没有对应 route 使用；import 已清理。两个页面文件本身仍保留，等团队确认是预留还是废弃。
 5. **`hall-of-fame-media.js` 是 .js 不是 .json**：data 目录里唯一一个。它导出 JS module 而非纯数据，所以可以含逻辑/常量引用。
 6. **`training-registry.json` 是空壳**：训练手册支柱内容尚未注入，相关 UI 可能还没接到。
 7. **韩语翻译不完整**：写新内容时按 zh+en+ko 的 schema，ko 没翻译先填空字符串。

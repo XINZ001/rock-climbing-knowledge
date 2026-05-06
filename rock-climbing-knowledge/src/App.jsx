@@ -3,7 +3,6 @@ import { Routes, Route, useLocation } from 'react-router-dom'
 import FeedLayout from './components/layout/FeedLayout'
 import Layout from './components/layout/Layout'
 import FeedPage from './pages/FeedPage'
-import LearnPage from './pages/LearnPage'
 import TrainPage from './pages/TrainPage'
 import HomePage from './pages/HomePage'
 import SectionPage from './pages/SectionPage'
@@ -28,7 +27,6 @@ import DiagnosisPage from './pages/DiagnosisPage'
 import ClimbingMbtiPage from './pages/ClimbingMbtiPage'
 import ProfilePage from './pages/ProfilePage'
 import QuestPage from './pages/QuestPage'
-import HallOfFameCategoryPage from './pages/HallOfFameCategoryPage'
 
 function ScrollToTopOnNav() {
   const { pathname } = useLocation()
