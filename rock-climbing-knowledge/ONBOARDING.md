@@ -320,6 +320,8 @@ rock-climbing-knowledge/
 
 `supabase/functions/check-email/` —— 备份方案。当前代码走 RPC，不依赖 Edge Function。如果 RPC 出问题再考虑切回 Edge。
 
+Supabase 相关 SQL 文件、部分 schema snapshot、以及新项目重建注意事项见 `sql/README.md`。
+
 ---
 
 ## 8. 设计系统
@@ -470,6 +472,7 @@ rock-climbing-knowledge/
 15. ~~**根目录的"幽灵目录"**~~：已于 2026-05-06 清理。原本根目录有 `--skip-download/`、`--sub-format/`、`--sub-langs/`、`--write-auto-subs/`、`--write-subs/`、`-o/`、`yt-dlp/`、`vtt/`、`en-orig/`、`https:/` 一批 yt-dlp 误操作残留——记一笔，避免再发生：跑 `yt-dlp` 等命令时**记得给参数加引号**，特别是 URL 和 `-o` 后面的输出路径。
 16. **`README.md` 还是 Vite 默认模板**：忽略它。所有项目知识在本文件 + DESIGN-BRIEF + animation-plan。下一次 PR 会把 README 改成指向本文件。
 17. **`ONBOARDING.md` 当前可能 untracked**：本文件刚创建（2026-05-05），如果 `git status` 显示是 untracked，等 owner commit 后再做 `git pull`，避免和 origin 上的同名文件冲突。
+18. **Supabase schema 有部分备份**：`sql/schema-backup-2026-05-06.sql` 覆盖约 70% public schema（15 张表、字段、PK/FK、一个 CHECK），但不是完整可 replay dump；缺 RLS / RPC / index / trigger / storage policy。使用方式见 `sql/README.md`。
 
 ---
 
